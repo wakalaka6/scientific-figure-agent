@@ -1,0 +1,183 @@
+
+============================================================
+Paper Method 到 SVG 图标替换流程 (Label 模式增强版 + Box合并)
+============================================================
+Provider: openrouter
+输出目录: /app/outputs/batch/05_Truth_over_Tricks_Measuring_and_Mitigating_Shortcut_Learning_in_Misinformation_Detection_diagram
+输入模式: imported_figure
+导入图片: /app/my-benchmark/simple/05_Truth_over_Tricks_Measuring_and_Mitigating_Shortcut_Learning_in_Misinformation_Detection_diagram.png
+SVG模型: google/gemini-3.1-pro-preview
+SAM提示词: icon,person,robot,animal
+最低置信度: 0.0
+SAM后端: roboflow
+执行到步骤: 5
+占位符模式: label
+优化迭代次数: 0
+Box合并阈值: 0.01
+4K等比例放大: 开启
+============================================================
+============================================================
+步骤一：跳过生图，使用已有的第一阶段图片
+============================================================
+输入图片: /app/my-benchmark/simple/05_Truth_over_Tricks_Measuring_and_Mitigating_Shortcut_Learning_in_Misinformation_Detection_diagram.png
+4K等比例放大: 开启
+导入图片已等比例放大到 4K 长边: 1950 x 956 -> 3840 x 1883
+图片已保存: /app/outputs/batch/05_Truth_over_Tricks_Measuring_and_Mitigating_Shortcut_Learning_in_Misinformation_Detection_diagram/figure.png
+
+============================================================
+步骤二：SAM3 分割 + 灰色填充+黑色边框+序号标记
+============================================================
+原图尺寸: 3840 x 1883
+使用的 prompts: ['icon', 'person', 'robot', 'animal']
+SAM3 Roboflow API 模式: format=polygon
+
+  正在检测: 'icon'
+    对象 1: (3018, 114, 3264, 361), score=0.863
+    对象 2: (1486, 1470, 1602, 1574), score=0.512
+    对象 3: (3022, 1448, 3257, 1679), score=0.848
+    对象 4: (3013, 765, 3268, 1020), score=0.863
+    对象 5: (1443, 883, 1514, 935), score=0.523
+    对象 6: (1243, 1342, 1601, 1702), score=0.824
+    对象 7: (172, 1492, 296, 1698), score=0.824
+    对象 8: (281, 1491, 303, 1521), score=0.824
+    对象 9: (1444, 699, 1513, 751), score=0.578
+    对象 10: (1614, 698, 1681, 752), score=0.527
+    对象 11: (124, 107, 355, 292), score=0.859
+    对象 12: (209, 73, 268, 132), score=0.859
+    对象 13: (141, 561, 332, 744), score=0.820
+    对象 14: (133, 1016, 345, 1229), score=0.812
+    对象 15: (2289, 1388, 2570, 1708), score=0.895
+    对象 16: (1442, 881, 1514, 935), score=0.758
+    对象 17: (1442, 698, 1684, 936), score=0.758
+    对象 18: (1730, 53, 2184, 320), score=0.887
+    对象 19: (1487, 1598, 1601, 1702), score=0.504
+  'icon' 检测到 19 个有效对象
+
+  正在检测: 'person'
+    对象 1: (3118, 1448, 3257, 1679), score=0.852
+    对象 2: (172, 1493, 294, 1697), score=0.867
+  'person' 检测到 2 个有效对象
+
+  正在检测: 'robot'
+    对象 1: (2530, 1388, 2566, 1442), score=0.789
+    对象 2: (2289, 1388, 2569, 1707), score=0.789
+  'robot' 检测到 2 个有效对象
+
+  正在检测: 'animal'
+  'animal' 检测到 0 个有效对象
+
+总计检测: 23 个对象 (来自 4 个 prompts)
+
+  合并重叠的boxes (阈值: 0.01)...
+    迭代 1: 合并 box 1 和 box 5 (重叠比例: 0.99)
+    迭代 2: 合并 box 1 和 box 17 (重叠比例: 1.00)
+    迭代 3: 合并 box 2 和 box 12 (重叠比例: 1.00)
+    迭代 4: 合并 box 2 和 box 3 (重叠比例: 0.66)
+    迭代 5: 合并 box 2 和 box 9 (重叠比例: 1.00)
+    迭代 6: 合并 box 2 和 box 17 (重叠比例: 1.00)
+    迭代 7: 合并 box 2 和 box 3 (重叠比例: 0.42)
+    迭代 8: 合并 box 4 和 box 8 (重叠比例: 1.00)
+    迭代 9: 合并 box 5 和 box 8 (重叠比例: 1.00)
+    迭代 10: 合并 box 5 和 box 9 (重叠比例: 1.00)
+    迭代 11: 合并 box 5 和 box 10 (重叠比例: 1.00)
+    迭代 12: 合并 box 6 和 box 7 (重叠比例: 1.00)
+  合并完成: 23 -> 11 (合并了 12 个)
+
+  合并后的boxes:
+    <AF>01: (3018, 114, 3264, 361)
+    <AF>02: (3013, 765, 3268, 1020)
+    <AF>03: (141, 561, 332, 744)
+    <AF>04: (133, 1016, 345, 1229)
+    <AF>05: (1730, 53, 2184, 320)
+    <AF>06: (3022, 1448, 3257, 1679)
+    <AF>07: (124, 73, 355, 292)
+    <AF>08: (1243, 1342, 1602, 1702)
+    <AF>09: (172, 1491, 303, 1698)
+    <AF>10: (2289, 1388, 2570, 1708)
+    <AF>11: (1442, 698, 1684, 936)
+
+  绘制 samed.png (使用 11 个boxes)...
+标记图片已保存: /app/outputs/batch/05_Truth_over_Tricks_Measuring_and_Mitigating_Shortcut_Learning_in_Misinformation_Detection_diagram/samed.png
+Box 信息已保存: /app/outputs/batch/05_Truth_over_Tricks_Measuring_and_Mitigating_Shortcut_Learning_in_Misinformation_Detection_diagram/boxlib.json
+
+检测到 11 个图标
+
+============================================================
+步骤三：裁切 + RMBG2 去背景
+============================================================
+从 HuggingFace 加载 RMBG-2.0 模型...
+检测到 HF_TOKEN，使用鉴权访问 gated 模型。
+/usr/local/lib/python3.11/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/usr/local/lib/python3.11/site-packages/timm/models/registry.py:4: FutureWarning: Importing from timm.models.registry is deprecated, please import via timm.models
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.models", FutureWarning)
+  <AF>01: 裁切并去背景完成 -> /app/outputs/batch/05_Truth_over_Tricks_Measuring_and_Mitigating_Shortcut_Learning_in_Misinformation_Detection_diagram/icons/icon_AF01_nobg.png
+  <AF>02: 裁切并去背景完成 -> /app/outputs/batch/05_Truth_over_Tricks_Measuring_and_Mitigating_Shortcut_Learning_in_Misinformation_Detection_diagram/icons/icon_AF02_nobg.png
+  <AF>03: 裁切并去背景完成 -> /app/outputs/batch/05_Truth_over_Tricks_Measuring_and_Mitigating_Shortcut_Learning_in_Misinformation_Detection_diagram/icons/icon_AF03_nobg.png
+  <AF>04: 裁切并去背景完成 -> /app/outputs/batch/05_Truth_over_Tricks_Measuring_and_Mitigating_Shortcut_Learning_in_Misinformation_Detection_diagram/icons/icon_AF04_nobg.png
+  <AF>05: 裁切并去背景完成 -> /app/outputs/batch/05_Truth_over_Tricks_Measuring_and_Mitigating_Shortcut_Learning_in_Misinformation_Detection_diagram/icons/icon_AF05_nobg.png
+  <AF>06: 裁切并去背景完成 -> /app/outputs/batch/05_Truth_over_Tricks_Measuring_and_Mitigating_Shortcut_Learning_in_Misinformation_Detection_diagram/icons/icon_AF06_nobg.png
+  <AF>07: 裁切并去背景完成 -> /app/outputs/batch/05_Truth_over_Tricks_Measuring_and_Mitigating_Shortcut_Learning_in_Misinformation_Detection_diagram/icons/icon_AF07_nobg.png
+  <AF>08: 裁切并去背景完成 -> /app/outputs/batch/05_Truth_over_Tricks_Measuring_and_Mitigating_Shortcut_Learning_in_Misinformation_Detection_diagram/icons/icon_AF08_nobg.png
+  <AF>09: 裁切并去背景完成 -> /app/outputs/batch/05_Truth_over_Tricks_Measuring_and_Mitigating_Shortcut_Learning_in_Misinformation_Detection_diagram/icons/icon_AF09_nobg.png
+  <AF>10: 裁切并去背景完成 -> /app/outputs/batch/05_Truth_over_Tricks_Measuring_and_Mitigating_Shortcut_Learning_in_Misinformation_Detection_diagram/icons/icon_AF10_nobg.png
+  <AF>11: 裁切并去背景完成 -> /app/outputs/batch/05_Truth_over_Tricks_Measuring_and_Mitigating_Shortcut_Learning_in_Misinformation_Detection_diagram/icons/icon_AF11_nobg.png
+
+============================================================
+步骤四：多模态调用生成 SVG
+============================================================
+Provider: openrouter
+模型: google/gemini-3.1-pro-preview
+占位符模式: label
+原图尺寸: 3840 x 1883
+发送多模态请求到: https://openrouter.ai/api/v1
+
+--------------------------------------------------
+步骤 4.5：SVG 语法验证（使用 lxml XML 解析器）
+--------------------------------------------------
+  SVG 语法验证通过！
+SVG 模板已保存: /app/outputs/batch/05_Truth_over_Tricks_Measuring_and_Mitigating_Shortcut_Learning_in_Misinformation_Detection_diagram/template.svg
+
+============================================================
+步骤 4.6：LLM 优化 SVG（位置和样式对齐）
+============================================================
+Provider: openrouter
+模型: google/gemini-3.1-pro-preview
+最大迭代次数: 0
+  迭代次数为 0，跳过 LLM 优化
+  直接复制模板: /app/outputs/batch/05_Truth_over_Tricks_Measuring_and_Mitigating_Shortcut_Learning_in_Misinformation_Detection_diagram/template.svg -> /app/outputs/batch/05_Truth_over_Tricks_Measuring_and_Mitigating_Shortcut_Learning_in_Misinformation_Detection_diagram/optimized_template.svg
+
+--------------------------------------------------
+步骤 4.7：坐标系对齐
+--------------------------------------------------
+原图尺寸: 3840 x 1883
+SVG 尺寸: 3840.0 x 1883.0
+尺寸匹配，使用 1:1 坐标映射
+
+============================================================
+步骤五：图标替换到 SVG
+============================================================
+匹配模式: 序号匹配
+  <AF>01: 替换成功 (序号匹配 <g>) at (3010.0, 140.0) size 250.0x220.0
+  <AF>02: 替换成功 (序号匹配 <g>) at (3010.0, 760.0) size 250.0x220.0
+  <AF>03: 替换成功 (序号匹配 <g>) at (120.0, 550.0) size 250.0x200.0
+  <AF>04: 替换成功 (序号匹配 <g>) at (120.0, 1000.0) size 250.0x230.0
+  <AF>05: 替换成功 (序号匹配 <g>) at (1710.0, 50.0) size 420.0x250.0
+  <AF>06: 替换成功 (序号匹配 <g>) at (3010.0, 1460.0) size 250.0x220.0
+  <AF>07: 替换成功 (序号匹配 <g>) at (120.0, 80.0) size 250.0x250.0
+  <AF>08: 替换成功 (序号匹配 <g>) at (1240.0, 1340.0) size 360.0x360.0
+  <AF>09: 替换成功 (序号匹配 <g>) at (170.0, 1480.0) size 130.0x220.0
+  <AF>10: 替换成功 (序号匹配 <g>) at (2270.0, 1380.0) size 300.0x320.0
+  <AF>11: 替换成功 (序号匹配 <g>) at (1480.0, 690.0) size 230.0x240.0
+最终 SVG 已保存: /app/outputs/batch/05_Truth_over_Tricks_Measuring_and_Mitigating_Shortcut_Learning_in_Misinformation_Detection_diagram/final.svg
+
+============================================================
+流程完成！
+============================================================
+原始图片: /app/outputs/batch/05_Truth_over_Tricks_Measuring_and_Mitigating_Shortcut_Learning_in_Misinformation_Detection_diagram/figure.png
+标记图片: /app/outputs/batch/05_Truth_over_Tricks_Measuring_and_Mitigating_Shortcut_Learning_in_Misinformation_Detection_diagram/samed.png
+Box信息: /app/outputs/batch/05_Truth_over_Tricks_Measuring_and_Mitigating_Shortcut_Learning_in_Misinformation_Detection_diagram/boxlib.json
+图标数量: 11
+SVG模板: /app/outputs/batch/05_Truth_over_Tricks_Measuring_and_Mitigating_Shortcut_Learning_in_Misinformation_Detection_diagram/template.svg
+优化后模板: /app/outputs/batch/05_Truth_over_Tricks_Measuring_and_Mitigating_Shortcut_Learning_in_Misinformation_Detection_diagram/optimized_template.svg
+最终SVG: /app/outputs/batch/05_Truth_over_Tricks_Measuring_and_Mitigating_Shortcut_Learning_in_Misinformation_Detection_diagram/final.svg

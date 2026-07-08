@@ -1,0 +1,254 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="891" viewBox="0 0 1600 891">
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="10" refX="10" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#333"/>
+    </marker>
+    <marker id="arrowBlue" markerWidth="12" markerHeight="10" refX="10" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#426eb6"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="12" markerHeight="10" refX="10" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#238b45"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="12" markerHeight="10" refX="10" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#cf1736"/>
+    </marker>
+    <marker id="arrowOrange" markerWidth="12" markerHeight="10" refX="10" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#ffad00"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1600" height="891" fill="#ffffff"/>
+
+  <g id="slot_ref_pose" data-bbox="[9,25,178,177]" data-role="asset" data-kind="pixel_image" data-description="reference pose image with two skeletons" data-canonical-asset-id="ref_pose" data-duplicate-of="">
+    <rect x="9" y="25" width="178" height="177" fill="#f8f8f8" stroke="#666" stroke-width="2" stroke-dasharray="6 4"/>
+    <line x1="9" y1="25" x2="187" y2="202" stroke="#aaa" stroke-width="1.5"/>
+    <line x1="187" y1="25" x2="9" y2="202" stroke="#aaa" stroke-width="1.5"/>
+    <text x="98" y="113.5" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#333">ASSET_SLOT</text>
+  </g>
+
+  <g id="slot_ref_image" data-bbox="[9,241,178,177]" data-role="asset" data-kind="pixel_image" data-description="reference photo of two dancers" data-canonical-asset-id="ref_image" data-duplicate-of="">
+    <rect x="9" y="241" width="178" height="177" fill="#f8f8f8" stroke="#666" stroke-width="2" stroke-dasharray="6 4"/>
+    <line x1="9" y1="241" x2="187" y2="418" stroke="#aaa" stroke-width="1.5"/>
+    <line x1="187" y1="241" x2="9" y2="418" stroke="#aaa" stroke-width="1.5"/>
+    <text x="98" y="329.5" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#333">ASSET_SLOT</text>
+  </g>
+
+  <g id="slot_tgt_pose" data-bbox="[8,488,181,178]" data-role="asset" data-kind="pixel_image" data-description="target pose stack with skeletons" data-canonical-asset-id="tgt_pose" data-duplicate-of="">
+    <rect x="8" y="488" width="181" height="178" fill="#f8f8f8" stroke="#666" stroke-width="2" stroke-dasharray="6 4"/>
+    <line x1="8" y1="488" x2="189" y2="666" stroke="#aaa" stroke-width="1.5"/>
+    <line x1="189" y1="488" x2="8" y2="666" stroke="#aaa" stroke-width="1.5"/>
+    <text x="98.5" y="577" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#333">ASSET_SLOT</text>
+  </g>
+
+  <g id="slot_noise_stack" data-bbox="[157,744,131,130]" data-role="asset" data-kind="pixel_image" data-description="noise image stack" data-canonical-asset-id="noise_stack" data-duplicate-of="">
+    <rect x="157" y="744" width="131" height="130" fill="#f8f8f8" stroke="#666" stroke-width="2" stroke-dasharray="6 4"/>
+    <line x1="157" y1="744" x2="288" y2="874" stroke="#aaa" stroke-width="1.5"/>
+    <line x1="288" y1="744" x2="157" y2="874" stroke="#aaa" stroke-width="1.5"/>
+    <text x="222.5" y="809" font-family="Arial, sans-serif" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#333">ASSET_SLOT</text>
+  </g>
+
+  <g id="slot_mask_single" data-bbox="[478,748,128,107]" data-role="asset" data-kind="pixel_image" data-description="single mask image" data-canonical-asset-id="mask_single" data-duplicate-of="">
+    <rect x="478" y="748" width="128" height="107" fill="#f8f8f8" stroke="#666" stroke-width="2" stroke-dasharray="6 4"/>
+    <line x1="478" y1="748" x2="606" y2="855" stroke="#aaa" stroke-width="1.5"/>
+    <line x1="606" y1="748" x2="478" y2="855" stroke="#aaa" stroke-width="1.5"/>
+    <text x="542" y="801.5" font-family="Arial, sans-serif" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#333">ASSET_SLOT</text>
+  </g>
+
+  <g id="slot_mask_stack" data-bbox="[619,748,130,107]" data-role="asset" data-kind="pixel_image" data-description="stacked mask images" data-canonical-asset-id="mask_stack" data-duplicate-of="">
+    <rect x="619" y="748" width="130" height="107" fill="#f8f8f8" stroke="#666" stroke-width="2" stroke-dasharray="6 4"/>
+    <line x1="619" y1="748" x2="749" y2="855" stroke="#aaa" stroke-width="1.5"/>
+    <line x1="749" y1="748" x2="619" y2="855" stroke="#aaa" stroke-width="1.5"/>
+    <text x="684" y="801.5" font-family="Arial, sans-serif" font-size="17" text-anchor="middle" dominant-baseline="middle" fill="#333">ASSET_SLOT</text>
+  </g>
+
+  <g id="slot_generated_frames" data-bbox="[1378,491,179,177]" data-role="asset" data-kind="pixel_image" data-description="generated video frame stack" data-canonical-asset-id="generated_frames" data-duplicate-of="">
+    <rect x="1378" y="491" width="179" height="177" fill="#f8f8f8" stroke="#666" stroke-width="2" stroke-dasharray="6 4"/>
+    <line x1="1378" y1="491" x2="1557" y2="668" stroke="#aaa" stroke-width="1.5"/>
+    <line x1="1557" y1="491" x2="1378" y2="668" stroke="#aaa" stroke-width="1.5"/>
+    <text x="1467.5" y="579.5" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" dominant-baseline="middle" fill="#333">ASSET_SLOT</text>
+  </g>
+
+  <text x="98" y="226" font-family="Courier New, monospace" font-size="28" font-weight="700" text-anchor="middle" fill="#222">Ref Pose</text>
+  <text x="98" y="442" font-family="Courier New, monospace" font-size="28" font-weight="700" text-anchor="middle" fill="#222">Ref Img</text>
+  <text x="98" y="693" font-family="Courier New, monospace" font-size="28" font-weight="700" text-anchor="middle" fill="#222">Tgt Pose</text>
+  <text x="226" y="730" font-family="Courier New, monospace" font-size="28" font-weight="700" text-anchor="middle" fill="#222">Noise</text>
+  <text x="616" y="738" font-family="Courier New, monospace" font-size="28" font-weight="700" text-anchor="middle" fill="#222">Mask</text>
+  <text x="1468" y="715" font-family="Courier New, monospace" font-size="28" font-weight="700" text-anchor="middle" fill="#222">Gen Frames</text>
+
+  <g id="network_panels">
+    <polygon points="452,22 817,107 817,258 452,344" fill="#dce6f7" opacity="0.9"/>
+    <polygon points="817,107 1184,22 1184,344 817,258" fill="#dce6f7" opacity="0.9"/>
+    <line x1="817" y1="107" x2="817" y2="258" stroke="#ffffff" stroke-width="3" opacity="0.7"/>
+    <text x="817" y="64" font-family="Courier New, monospace" font-size="28" font-weight="700" text-anchor="middle" fill="#222">ReferenceNet</text>
+
+    <polygon points="452,423 817,508 817,660 452,745" fill="#faeee6" opacity="0.9"/>
+    <polygon points="817,508 1184,423 1184,745 817,660" fill="#faeee6" opacity="0.9"/>
+    <line x1="817" y1="508" x2="817" y2="660" stroke="#ffffff" stroke-width="3" opacity="0.7"/>
+    <text x="817" y="470" font-family="Courier New, monospace" font-size="28" font-weight="700" text-anchor="middle" fill="#222">DenoisingNet</text>
+  </g>
+
+  <g id="encoders" fill="#ffffff" stroke="#333" stroke-width="2.5">
+    <path d="M249,50 L330,87 L330,139 L249,176 Z"/>
+    <path d="M249,193 L330,229 L330,283 L249,319 Z"/>
+    <path d="M249,334 L330,366 L330,425 L249,459 Z"/>
+    <path d="M249,522 L330,558 L330,613 L249,649 Z"/>
+    <path d="M1242,524 L1320,487 L1320,646 L1242,610 Z"/>
+  </g>
+
+  <g font-family="Courier New, monospace" font-size="30" font-weight="700" fill="#222">
+    <text x="292" y="101" text-anchor="middle">Pose</text>
+    <text x="292" y="140" text-anchor="middle">Enc</text>
+    <text x="292" y="245" text-anchor="middle">VAE</text>
+    <text x="292" y="284" text-anchor="middle">Enc</text>
+    <text x="292" y="407" text-anchor="middle">CLIP</text>
+    <text x="292" y="575" text-anchor="middle">Pose</text>
+    <text x="292" y="613" text-anchor="middle">Enc</text>
+    <text x="1278" y="576" text-anchor="middle">VAE</text>
+    <text x="1278" y="615" text-anchor="middle">Dec</text>
+  </g>
+
+  <g id="main_connectors" fill="none" stroke="#333" stroke-width="3">
+    <line x1="187" y1="112" x2="249" y2="112" marker-end="url(#arrow)"/>
+    <path d="M330,112 L386,112 L386,166" marker-end="url(#arrow)"/>
+    <path d="M187,326 L214,326 L214,253 L249,253" marker-end="url(#arrow)"/>
+    <path d="M330,253 L386,253 L386,202" marker-end="url(#arrow)"/>
+    <path d="M187,326 L214,326 L214,397 L249,397" marker-end="url(#arrow)"/>
+    <circle cx="386" cy="184" r="17" fill="#fff"/>
+    <line x1="368" y1="184" x2="404" y2="184"/>
+    <line x1="386" y1="166" x2="386" y2="202"/>
+    <line x1="403" y1="184" x2="452" y2="184" marker-end="url(#arrow)"/>
+
+    <line x1="189" y1="584" x2="249" y2="584" marker-end="url(#arrow)"/>
+    <path d="M330,584 L386,584" marker-end="url(#arrow)"/>
+    <circle cx="386" cy="584" r="17" fill="#fff"/>
+    <line x1="368" y1="584" x2="404" y2="584"/>
+    <line x1="386" y1="566" x2="386" y2="602"/>
+    <line x1="403" y1="584" x2="452" y2="584" marker-end="url(#arrow)"/>
+    <path d="M288,809 L386,809 L386,602" marker-end="url(#arrow)"/>
+    <path d="M188,660 L207,647" marker-end="url(#arrow)"/>
+    <path d="M198,675 L206,664 L218,671"/>
+    <line x1="1184" y1="584" x2="1242" y2="584"/>
+    <line x1="1320" y1="584" x2="1378" y2="584" marker-end="url(#arrow)"/>
+  </g>
+
+  <line x1="330" y1="397" x2="1118" y2="397" stroke="#238b45" stroke-width="3"/>
+
+  <g id="attention_blocks" stroke="#666" stroke-width="2.5">
+    <rect x="481" y="89" width="28" height="188" rx="6" fill="#8aa5d2"/>
+    <rect x="515" y="89" width="28" height="188" rx="6" fill="#c8e3cf"/>
+    <rect x="657" y="130" width="28" height="108" rx="6" fill="#8aa5d2"/>
+    <rect x="692" y="130" width="28" height="108" rx="6" fill="#c8e3cf"/>
+    <rect x="891" y="131" width="28" height="107" rx="6" fill="#8aa5d2"/>
+    <rect x="926" y="131" width="28" height="107" rx="6" fill="#c8e3cf"/>
+    <rect x="1068" y="91" width="28" height="187" rx="6" fill="#8aa5d2"/>
+    <rect x="1103" y="91" width="28" height="187" rx="6" fill="#c8e3cf"/>
+
+    <rect x="481" y="489" width="28" height="187" rx="6" fill="#8aa5d2"/>
+    <rect x="515" y="489" width="28" height="187" rx="6" fill="#c8e3cf"/>
+    <rect x="552" y="489" width="28" height="187" rx="6" fill="#f2c095"/>
+    <rect x="657" y="528" width="28" height="108" rx="6" fill="#8aa5d2"/>
+    <rect x="693" y="528" width="28" height="108" rx="6" fill="#c8e3cf"/>
+    <rect x="728" y="528" width="28" height="108" rx="6" fill="#f2c095"/>
+    <rect x="892" y="528" width="28" height="108" rx="6" fill="#8aa5d2" stroke-dasharray="7 5"/>
+    <rect x="926" y="528" width="28" height="108" rx="6" fill="#c8e3cf"/>
+    <rect x="962" y="528" width="28" height="108" rx="6" fill="#f2c095"/>
+    <rect x="1068" y="490" width="28" height="186" rx="6" fill="#8aa5d2" stroke-dasharray="7 5"/>
+    <rect x="1103" y="490" width="28" height="186" rx="6" fill="#c8e3cf"/>
+    <rect x="1139" y="490" width="28" height="186" rx="6" fill="#f2c095"/>
+  </g>
+
+  <g id="attention_connectors" fill="none">
+    <path d="M495,277 L495,489" stroke="#426eb6" stroke-width="3" marker-end="url(#arrowBlue)"/>
+    <path d="M671,238 L671,528" stroke="#426eb6" stroke-width="3" marker-end="url(#arrowBlue)"/>
+    <path d="M905,238 L905,528" stroke="#426eb6" stroke-width="3" marker-end="url(#arrowBlue)"/>
+    <path d="M1082,278 L1082,490" stroke="#426eb6" stroke-width="3" marker-end="url(#arrowBlue)"/>
+
+    <path d="M529,489 L529,277" stroke="#238b45" stroke-width="3" marker-end="url(#arrowGreen)"/>
+    <path d="M706,528 L706,238" stroke="#238b45" stroke-width="3" marker-end="url(#arrowGreen)"/>
+    <path d="M940,528 L940,238" stroke="#238b45" stroke-width="3" marker-end="url(#arrowGreen)"/>
+    <path d="M1117,490 L1117,278" stroke="#238b45" stroke-width="3" marker-end="url(#arrowGreen)"/>
+
+    <path d="M495,397 C505,397 505,397 505,397" stroke="#426eb6" stroke-width="2"/>
+    <path d="M671,397 C681,397 681,397 681,397" stroke="#426eb6" stroke-width="2"/>
+    <path d="M905,397 C915,397 915,397 915,397" stroke="#426eb6" stroke-width="2"/>
+    <path d="M1082,397 C1092,397 1092,397 1092,397" stroke="#426eb6" stroke-width="2"/>
+  </g>
+
+  <g id="ellipsis" font-family="Courier New, monospace" font-size="34" font-weight="700" fill="#555">
+    <text x="598" y="188" text-anchor="middle">...</text>
+    <text x="817" y="188" text-anchor="middle">...</text>
+    <text x="1010" y="188" text-anchor="middle">...</text>
+    <text x="612" y="584" text-anchor="middle">...</text>
+    <text x="817" y="584" text-anchor="middle">...</text>
+    <text x="1012" y="584" text-anchor="middle">...</text>
+  </g>
+
+  <g id="mask_to_construction" fill="none" stroke="#777" stroke-width="2.5">
+    <line x1="606" y1="802" x2="628" y2="802" marker-end="url(#arrow)"/>
+    <line x1="749" y1="802" x2="790" y2="802" marker-end="url(#arrow)"/>
+  </g>
+
+  <g id="img_construction">
+    <rect x="817" y="682" width="368" height="202" fill="#ffffff" stroke="#666" stroke-width="2.5" stroke-dasharray="9 7"/>
+    <line x1="986" y1="682" x2="986" y2="884" stroke="#999" stroke-width="1.6"/>
+    <text x="955" y="794" font-family="Courier New, monospace" font-size="25" font-weight="700" fill="#222">C<tspan baseline-shift="super" font-size="16">(1)</tspan></text>
+    <text x="934" y="839" font-family="Courier New, monospace" font-size="25" font-weight="700" fill="#222">xT</text>
+    <text x="1123" y="823" font-family="Courier New, monospace" font-size="25" font-weight="700" fill="#222">C<tspan baseline-shift="super" font-size="16">(N)</tspan></text>
+    <text x="1111" y="872" font-family="Courier New, monospace" font-size="25" font-weight="700" fill="#222">xT</text>
+
+    <g stroke="#666" stroke-width="2">
+      <circle cx="847" cy="743" r="16" fill="#5c82bd"/>
+      <circle cx="905" cy="743" r="16" fill="#efb77e"/>
+      <circle cx="847" cy="820" r="16" fill="#ffffff"/>
+      <circle cx="905" cy="820" r="16" fill="#ffffff"/>
+      <path d="M835,831 L859,809" stroke="#5c82bd" stroke-width="5"/>
+      <path d="M893,831 L917,809" stroke="#efb77e" stroke-width="5"/>
+      <path d="M847,759 L847,804" fill="none" stroke="#5c82bd" marker-end="url(#arrowBlue)"/>
+      <path d="M905,759 L905,804" fill="none" stroke="#ef8b32" marker-end="url(#arrowOrange)"/>
+      <path d="M847,804 L905,759" fill="none" stroke="#cc7744" stroke-dasharray="5 4"/>
+      <path d="M905,804 L847,759" fill="none" stroke="#5c82bd" stroke-dasharray="5 4"/>
+
+      <circle cx="1022" cy="762" r="19" fill="#5c82bd"/>
+      <circle cx="1080" cy="762" r="19" fill="#efb77e"/>
+      <circle cx="1022" cy="834" r="17" fill="#ffffff"/>
+      <circle cx="1080" cy="834" r="17" fill="#ffffff"/>
+      <path d="M1010,846 L1035,822" stroke="#5c82bd" stroke-width="5"/>
+      <path d="M1068,846 L1093,822" stroke="#efb77e" stroke-width="5"/>
+      <path d="M1022,781 L1022,817" fill="none" stroke="#5c82bd" marker-end="url(#arrowBlue)"/>
+      <path d="M1080,781 L1080,817" fill="none" stroke="#ef8b32" marker-end="url(#arrowOrange)"/>
+      <path d="M1022,817 L1080,781" fill="none" stroke="#cc7744" stroke-dasharray="5 4"/>
+      <path d="M1080,817 L1022,781" fill="none" stroke="#5c82bd" stroke-dasharray="5 4"/>
+    </g>
+    <line x1="929" y1="780" x2="956" y2="780" stroke="#777" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <line x1="1100" y1="809" x2="1126" y2="809" stroke="#777" stroke-width="2.5" marker-end="url(#arrow)"/>
+  </g>
+
+  <g id="construction_arrows" fill="none">
+    <path d="M906,636 C855,654 863,711 874,710" stroke="#cf1736" stroke-width="3" marker-end="url(#arrowRed)"/>
+    <path d="M927,636 C984,677 985,741 931,758" stroke="#ffad00" stroke-width="3" stroke-dasharray="8 5" marker-end="url(#arrowOrange)"/>
+    <path d="M1082,676 C1036,697 1048,749 1063,751" stroke="#cf1736" stroke-width="3" marker-end="url(#arrowRed)"/>
+    <path d="M1104,676 C1160,718 1158,781 1104,800" stroke="#ffad00" stroke-width="3" stroke-dasharray="8 5" marker-end="url(#arrowOrange)"/>
+  </g>
+
+  <g id="legend" font-family="Courier New, monospace" font-size="27" font-weight="700" fill="#222">
+    <rect x="1219" y="73" width="32" height="32" rx="6" fill="#5f82be" stroke="#666" stroke-width="2"/>
+    <text x="1302" y="97">Spatial-Attn</text>
+    <rect x="1219" y="125" width="32" height="32" rx="6" fill="#c9e3cf" stroke="#666" stroke-width="2"/>
+    <text x="1302" y="149">Cross-Attn</text>
+    <rect x="1219" y="177" width="32" height="32" rx="6" fill="#f1bd91" stroke="#666" stroke-width="2"/>
+    <text x="1302" y="201">Temporal-Attn</text>
+
+    <path d="M1207,233 C1230,244 1253,243 1268,231" fill="none" stroke="#cf1736" stroke-width="3" marker-end="url(#arrowRed)"/>
+    <text x="1302" y="246">Intermediate Feature</text>
+
+    <path d="M1207,282 C1233,296 1256,294 1268,280" fill="none" stroke="#ffad00" stroke-width="3" stroke-dasharray="8 5" marker-end="url(#arrowOrange)"/>
+    <text x="1302" y="299">Gradient from C<tspan baseline-shift="super" font-size="17">(ℓ)</tspan></text>
+
+    <rect x="1209" y="318" width="58" height="46" fill="#fff" stroke="#666" stroke-width="2.3" stroke-dasharray="8 6"/>
+    <text x="1302" y="347">IMG Construction</text>
+    <text x="1302" y="379">(Training only)</text>
+
+    <rect x="1214" y="414" width="48" height="32" rx="5" fill="#8aa5d2" stroke="#666" stroke-width="2.3" stroke-dasharray="7 5"/>
+    <text x="1302" y="441">Selected for MSM</text>
+  </g>
+</svg>

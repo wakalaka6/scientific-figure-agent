@@ -1,0 +1,247 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1916" height="844" viewBox="0 0 1916 844">
+  <defs>
+    <marker id="arrowGrey" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L14,7 L0,14 Z" fill="#666"/>
+    </marker>
+    <marker id="arrowBlack" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#111"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="18" markerHeight="18" refX="15" refY="9" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L18,9 L0,18 Z" fill="#d9f0cf" stroke="#71ae67" stroke-width="2"/>
+    </marker>
+    <marker id="arrowBlue" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#6b91bf"/>
+    </marker>
+    <marker id="arrowLtGrey" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L14,7 L0,14 Z" fill="#999"/>
+    </marker>
+
+    <style>
+      .serif{font-family: Georgia, "Times New Roman", serif;}
+      .bold{font-weight:700;}
+      .panel{fill:#f8fcf8;stroke:#606060;stroke-width:4;}
+      .rpanel{fill:#fbf8f7;stroke:#606060;stroke-width:4;}
+      .blackStroke{stroke:#111;stroke-width:4;stroke-linejoin:round;}
+      .thinBlack{stroke:#111;stroke-width:3;stroke-linejoin:round;}
+      .greyArrow{stroke:#666;stroke-width:8;fill:none;marker-end:url(#arrowGrey);}
+      .blackArrow{stroke:#111;stroke-width:4;fill:none;marker-end:url(#arrowBlack);}
+      .dashArrow{stroke:#111;stroke-width:4;fill:none;stroke-dasharray:4 6;marker-end:url(#arrowBlack);}
+      .gArrow{stroke:#72ae68;stroke-width:6;fill:none;marker-end:url(#arrowGreen);}
+      .node{fill:#c6def5;stroke:#6688aa;stroke-width:4;}
+      .tiny{font-size:26px;}
+    </style>
+
+    <g id="miniGraph">
+      <circle cx="6" cy="22" r="4" fill="#ff4d32" stroke="#333" stroke-width="1.5"/>
+      <circle cx="22" cy="8" r="4" fill="#ff4d32" stroke="#333" stroke-width="1.5"/>
+      <circle cx="42" cy="12" r="4" fill="#ff4d32" stroke="#333" stroke-width="1.5"/>
+      <circle cx="55" cy="32" r="4" fill="#ff4d32" stroke="#333" stroke-width="1.5"/>
+      <circle cx="28" cy="38" r="4" fill="#ff4d32" stroke="#333" stroke-width="1.5"/>
+      <circle cx="7" cy="48" r="4" fill="#ff4d32" stroke="#333" stroke-width="1.5"/>
+      <path d="M6 22 L22 8 L42 12 L55 32 L28 38 L7 48 M22 8 L28 38 M42 12 L28 38 M6 22 L7 48" fill="none" stroke="#111" stroke-width="2"/>
+    </g>
+
+    <g id="miniGear">
+      <path d="M30 6 L36 12 L44 10 L47 18 L55 22 L52 31 L57 39 L50 45 L49 54 L39 55 L32 61 L24 55 L15 56 L12 47 L5 41 L10 33 L8 24 L16 19 L20 10 Z"
+            fill="none" stroke="#d98aa9" stroke-width="3"/>
+      <circle cx="31" cy="34" r="15" fill="none" stroke="#d98aa9" stroke-width="3"/>
+      <circle cx="31" cy="34" r="8" fill="none" stroke="#d6a44a" stroke-width="2"/>
+    </g>
+  </defs>
+
+  <!-- Background panels -->
+  <rect x="3" y="16" width="1230" height="824" rx="17" class="panel"/>
+  <rect x="1255" y="16" width="658" height="824" rx="14" class="rpanel"/>
+
+  <!-- Title -->
+  <rect x="383" y="16" width="468" height="68" fill="#fff4cf" stroke="#555" stroke-width="4"/>
+  <text x="617" y="68" text-anchor="middle" class="serif bold" font-size="45">DyFlow Framework</text>
+
+  <!-- Left task -->
+  <polygon points="120,76 300,76 268,193 90,193" fill="#bfe1ff" class="blackStroke"/>
+  <text x="191" y="152" text-anchor="middle" class="serif" font-size="51">Task <tspan font-style="italic">p</tspan></text>
+  <path d="M269 130 L608 130" class="greyArrow"/>
+
+  <!-- Designer -->
+  <rect x="610" y="96" width="376" height="77" rx="10" fill="#ffcdbb" class="blackStroke"/>
+  <text x="650" y="150" text-anchor="middle" font-size="52">🔥</text>
+  <text x="797" y="151" text-anchor="middle" class="serif" font-size="50">Designer</text>
+  <text x="936" y="150" text-anchor="middle" font-size="48">❄</text>
+  <path d="M794 173 L794 225" class="greyArrow"/>
+
+  <!-- Replan curve -->
+  <path d="M132 272 C136 210 258 205 415 205 C592 204 633 203 642 177" class="gArrow"/>
+  <text x="331" y="198" class="serif bold" font-size="38">Replan</text>
+
+  <!-- Summary and state boxes -->
+  <text x="52" y="538" text-anchor="middle" class="serif bold" font-size="43" transform="rotate(-90 52 538)">Summarize</text>
+  <rect x="98" y="270" width="77" height="197" rx="10" fill="#fff9bd" class="blackStroke"/>
+  <text x="140" y="370" text-anchor="middle" class="serif bold" font-size="35" transform="rotate(-90 140 370)">Summary</text>
+  <rect x="99" y="599" width="76" height="197" rx="9" fill="#f5f596" class="blackStroke"/>
+  <text x="141" y="699" text-anchor="middle" class="serif bold" font-size="36" transform="rotate(-90 141 699)">State <tspan font-style="italic">s</tspan><tspan baseline-shift="sub" font-size="24">t</tspan></text>
+  <path d="M137 598 L137 471" stroke="#888" stroke-width="4" fill="none" marker-end="url(#arrowLtGrey)"/>
+  <text x="82" y="546" class="serif" font-style="italic" font-size="43">f</text>
+  <path d="M342 695 L177 695" class="greyArrow"/>
+  <text x="218" y="737" class="serif bold" font-size="39">Save</text>
+
+  <!-- Iterate loop -->
+  <path d="M292 454 C245 432 190 453 188 511 C186 558 230 584 271 573 C306 563 330 531 329 493" stroke="#72ae68" stroke-width="5" fill="none"/>
+  <path d="M277 431 L300 455 L267 465 Z" fill="#d9f0cf" stroke="#72ae68" stroke-width="4"/>
+  <path d="M278 559 C242 570 206 547 205 511 C204 477 235 451 270 451" stroke="#72ae68" stroke-width="5" fill="none"/>
+  <text x="210" y="518" class="serif bold" font-size="35">Iterate</text>
+
+  <!-- Subgraph large box -->
+  <rect x="343" y="234" width="845" height="588" rx="23" fill="#e8f5e4" class="blackStroke"/>
+  <line x1="343" y1="324" x2="1188" y2="324" stroke="#111" stroke-width="4"/>
+  <text x="766" y="294" text-anchor="middle" class="serif bold" font-size="50">Subgraph <tspan font-style="italic">G</tspan><tspan baseline-shift="sub" font-size="32">t</tspan></text>
+
+  <!-- Op sequence -->
+  <rect x="388" y="346" width="757" height="200" rx="6" fill="#fff8ea" class="blackStroke"/>
+  <line x1="658" y1="346" x2="658" y2="546" stroke="#111" stroke-width="4"/>
+  <line x1="767" y1="346" x2="767" y2="546" stroke="#111" stroke-width="4"/>
+  <line x1="1100" y1="346" x2="1100" y2="546" stroke="#111" stroke-width="4"/>
+  <rect x="658" y="346" width="215" height="54" fill="#fff8ea" class="blackStroke"/>
+  <text x="765" y="382" text-anchor="middle" class="serif bold" font-size="35">Op Sequence</text>
+  <text x="1123" y="412" text-anchor="middle" class="serif bold" font-size="39">⋮</text>
+
+  <!-- Left top sequence content -->
+  <path d="M432 395 L432 451" class="blackArrow"/>
+  <path d="M432 475 L542 475" class="blackArrow"/>
+  <path d="M590 452 L590 395 L432 395" fill="none" stroke="#111" stroke-width="4"/>
+  <circle cx="432" cy="475" r="23" class="node"/>
+  <path d="M557 452 L619 452 C626 452 631 457 631 474 C631 491 626 496 619 496 L557 496 C550 496 545 491 545 474 C545 457 550 452 557 452 Z"
+        fill="#dcebd4" stroke="#75b568" stroke-width="4"/>
+  <ellipse cx="619" cy="474" rx="13" ry="22" fill="#dcebd4" stroke="#75b568" stroke-width="4"/>
+  <path d="M631 474 L675 474" class="blackArrow"/>
+  <circle cx="699" cy="474" r="23" class="node"/>
+  <path d="M699 496 C708 552 732 551 757 581" stroke="#6b91bf" stroke-width="8" stroke-dasharray="9 9" fill="none" marker-end="url(#arrowBlue)"/>
+
+  <!-- Right top sequence content -->
+  <circle cx="833" cy="422" r="23" class="node"/>
+  <path d="M853 426 C858 405 872 399 908 399" class="blackArrow"/>
+  <polygon points="922,378 943,423 900,423" fill="#f6d7c7" stroke="#c84e4e" stroke-width="4"/>
+  <path d="M945 401 L1033 401 L1033 416" class="blackArrow"/>
+  <path d="M1043 490 L943 490" class="blackArrow"/>
+  <circle cx="923" cy="490" r="23" class="node"/>
+  <path d="M901 488 C860 483 849 450 866 422" class="blackArrow"/>
+  <rect x="1011" y="423" width="45" height="45" rx="10" fill="#ddd8ef" stroke="#5c5581" stroke-width="4"/>
+
+  <!-- Magnifying glass -->
+  <circle cx="654" cy="548" r="20" fill="#9fd0f5" stroke="#111" stroke-width="4"/>
+  <rect x="671" y="564" width="13" height="34" rx="5" fill="#3b4350" stroke="#111" stroke-width="3" transform="rotate(-43 677 581)"/>
+
+  <!-- Bottom templates/instances region -->
+  <rect x="388" y="604" width="757" height="200" rx="5" fill="#fbfff6" class="blackStroke"/>
+  <line x1="767" y1="604" x2="767" y2="804" stroke="#111" stroke-width="4"/>
+
+  <rect x="395" y="661" width="310" height="130" rx="9" fill="#dce8f3" class="blackStroke"/>
+  <rect x="431" y="604" width="237" height="49" fill="#f4fbec" class="blackStroke"/>
+  <text x="550" y="637" text-anchor="middle" class="serif bold" font-size="34">Op Template</text>
+  <circle cx="430" cy="722" r="24" fill="#fff" stroke="#111" stroke-width="4"/>
+  <path d="M488 700 L545 700 C553 700 558 706 558 723 C558 739 553 746 545 746 L488 746 C480 746 475 739 475 723 C475 706 480 700 488 700 Z"
+        fill="#fff" stroke="#111" stroke-width="4"/>
+  <ellipse cx="546" cy="723" rx="12" ry="23" fill="#fff" stroke="#111" stroke-width="4"/>
+  <polygon points="602,699 625,744 579,744" fill="#fff" stroke="#111" stroke-width="4"/>
+  <rect x="646" y="700" width="45" height="45" rx="10" fill="#fff" stroke="#111" stroke-width="4"/>
+  <text x="568" y="778" text-anchor="middle" class="serif bold" font-size="37">…. ….</text>
+
+  <rect x="828" y="661" width="309" height="130" rx="9" fill="#e0f2ea" class="blackStroke"/>
+  <rect x="885" y="604" width="196" height="49" fill="#f4fbec" class="blackStroke"/>
+  <text x="984" y="637" text-anchor="middle" class="serif bold" font-size="34">Op Instance</text>
+  <circle cx="862" cy="722" r="24" fill="#d6e6f9" stroke="#6688aa" stroke-width="4"/>
+  <path d="M918 700 L974 700 C982 700 987 706 987 723 C987 739 982 746 974 746 L918 746 C910 746 905 739 905 723 C905 706 910 700 918 700 Z"
+        fill="#dcebd4" stroke="#75b568" stroke-width="4"/>
+  <ellipse cx="974" cy="723" rx="12" ry="23" fill="#dcebd4" stroke="#75b568" stroke-width="4"/>
+  <polygon points="1034,698 1056,744 1012,744" fill="#f6d7c7" stroke="#c84e4e" stroke-width="4"/>
+  <rect x="1078" y="700" width="45" height="45" rx="10" fill="#ddd8ef" stroke="#5c5581" stroke-width="4"/>
+  <text x="984" y="778" text-anchor="middle" class="serif bold" font-size="37">…. ….</text>
+
+  <path d="M706 726 L824 726" stroke="#aaa" stroke-width="4" stroke-dasharray="10 10" fill="none" marker-end="url(#arrowLtGrey)"/>
+  <text x="765" y="708" text-anchor="middle" class="serif" font-style="italic" font-size="44">ϕ</text>
+  <text x="765" y="775" text-anchor="middle" class="serif" font-style="italic" font-size="44">ψ</text>
+
+  <!-- Dotted links from designer to right panel -->
+  <path d="M1643 90 L1370 90" stroke="#777" stroke-width="6" fill="none" marker-end="url(#arrowLtGrey)"/>
+  <path d="M1300 423 C1218 427 1261 138 987 133" class="dashArrow"/>
+  <path d="M1276 198 C1219 132 1118 132 987 153" class="dashArrow"/>
+
+  <!-- Right panel expert block -->
+  <rect x="1283" y="47" width="84" height="246" rx="11" fill="#bfe1ff" class="blackStroke"/>
+  <text x="1325" y="170" text-anchor="middle" class="serif" font-size="49" transform="rotate(-90 1325 170)">Expert</text>
+  <text x="1324" y="274" text-anchor="middle" font-size="47">❄</text>
+
+  <text x="1504" y="77" text-anchor="middle" class="serif bold" font-size="40">Sample</text>
+  <path d="M1644 90 L1371 90" stroke="#888" stroke-width="6" fill="none" marker-end="url(#arrowLtGrey)"/>
+
+  <path d="M1663 48 L1853 48 C1869 48 1876 66 1876 90 C1876 114 1869 132 1853 132 L1663 132 C1650 132 1644 113 1644 90 C1644 66 1650 48 1663 48 Z"
+        fill="#ffe5a8" class="blackStroke"/>
+  <ellipse cx="1854" cy="90" rx="20" ry="42" fill="#ffe5a8" class="blackStroke"/>
+  <text x="1762" y="109" text-anchor="middle" class="serif" font-size="43">Tasks <tspan font-style="italic">P</tspan></text>
+
+  <path d="M1391 238 L1462 238" stroke="#999" stroke-width="5" stroke-dasharray="12 12" fill="none" marker-end="url(#arrowLtGrey)"/>
+  <text x="1670" y="169" text-anchor="middle" class="serif" font-size="34">Expert Trajectories</text>
+  <rect x="1464" y="185" width="409" height="107" rx="7" fill="#ffd2b9" class="blackStroke"/>
+  <g transform="translate(1486 197) scale(.78)">
+    <use href="#miniGraph"/>
+    <use href="#miniGear" transform="translate(82 0)"/>
+  </g>
+  <path d="M1499 257 C1533 259 1561 259 1589 257" stroke="#111" stroke-width="2" fill="none"/>
+  <text x="1536" y="280" class="serif" font-style="italic" font-size="26">t − 1</text>
+  <g transform="translate(1640 197) scale(.78)">
+    <use href="#miniGraph"/>
+    <use href="#miniGear" transform="translate(82 0)"/>
+  </g>
+  <path d="M1650 257 C1683 259 1712 259 1742 257" stroke="#111" stroke-width="2" fill="none"/>
+  <text x="1695" y="280" class="serif" font-style="italic" font-size="26">t</text>
+  <text x="1809" y="241" text-anchor="middle" class="serif bold" font-size="40">······</text>
+
+  <text x="1373" y="353" class="serif bold" font-size="45">Distillation</text>
+  <text x="1753" y="352" class="serif" font-style="italic" font-size="54">L<tspan baseline-shift="sub" font-style="normal" font-size="33">SFT</tspan></text>
+  <path d="M1669 292 L1669 384" stroke="#999" stroke-width="4" stroke-dasharray="5 6" fill="none" marker-end="url(#arrowLtGrey)"/>
+
+  <!-- DyPlanner -->
+  <rect x="1299" y="390" width="553" height="72" rx="8" fill="#ffcdbb" class="blackStroke"/>
+  <text x="1385" y="444" text-anchor="middle" font-size="52">🔥</text>
+  <text x="1574" y="443" text-anchor="middle" class="serif" font-size="50">DyPlanner</text>
+
+  <!-- Generate arrow and self-generate box -->
+  <path d="M1387 462 L1387 657" stroke="#777" stroke-width="7" fill="none" marker-end="url(#arrowGrey)"/>
+  <text x="1359" y="562" text-anchor="middle" class="serif bold" font-size="35" transform="rotate(-90 1359 562)">Generate</text>
+  <rect x="1274" y="662" width="228" height="142" rx="8" fill="#ffd1c1" class="blackStroke"/>
+  <text x="1388" y="717" text-anchor="middle" class="serif" font-size="35">Self-generate</text>
+  <text x="1388" y="783" text-anchor="middle" class="serif" font-size="35">Trajectories</text>
+
+  <path d="M1502 731 L1648 731" class="greyArrow"/>
+  <text x="1579" y="756" text-anchor="middle" class="serif bold" font-size="31">Execution</text>
+
+  <!-- Result trajectories box -->
+  <rect x="1652" y="665" width="232" height="139" rx="6" fill="#fff3dd" class="blackStroke"/>
+  <line x1="1652" y1="734" x2="1884" y2="734" stroke="#111" stroke-width="4"/>
+  <g transform="translate(1672 679) scale(.55)">
+    <use href="#miniGraph"/>
+    <use href="#miniGear" transform="translate(82 0)"/>
+    <use href="#miniGraph" transform="translate(178 0)"/>
+    <use href="#miniGear" transform="translate(260 0)"/>
+  </g>
+  <circle cx="1860" cy="700" r="14" fill="#2fcf81"/>
+  <path d="M1852 699 L1858 706 L1869 692" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(1672 749) scale(.55)">
+    <use href="#miniGraph"/>
+    <use href="#miniGear" transform="translate(82 0)"/>
+    <use href="#miniGraph" transform="translate(178 0)"/>
+    <use href="#miniGear" transform="translate(260 0)"/>
+  </g>
+  <circle cx="1860" cy="766" r="14" fill="#ef3b3b"/>
+  <path d="M1854 760 L1866 772 M1866 760 L1854 772" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- KTO arrow upward -->
+  <path d="M1764 665 L1764 466" stroke="#777" stroke-width="7" fill="none" marker-end="url(#arrowGrey)"/>
+  <text x="1777" y="586" class="serif" font-style="italic" font-size="54">L<tspan baseline-shift="sub" font-style="normal" font-size="33">KTO</tspan></text>
+
+  <!-- Self-play optimization loop -->
+  <path d="M1598 488 C1552 474 1498 501 1485 556 C1471 617 1515 663 1574 672 C1631 681 1671 646 1668 584" stroke="#72ae68" stroke-width="5" fill="none"/>
+  <path d="M1600 483 L1629 510 L1589 517 Z" fill="#d9f0cf" stroke="#72ae68" stroke-width="4"/>
+  <path d="M1600 511 C1555 500 1518 524 1510 568 C1500 620 1542 650 1585 651 C1630 652 1656 624 1658 585" stroke="#72ae68" stroke-width="5" fill="none"/>
+  <text x="1575" y="571" text-anchor="middle" class="serif bold" font-size="27">Self-play Preference</text>
+  <text x="1575" y="602" text-anchor="middle" class="serif bold" font-size="27">Optimization</text>
+</svg>

@@ -1,0 +1,402 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 2141" width="3840" height="2141">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .text-bold { font-family: 'Courier New', Courier, monospace; font-weight: bold; fill: #1a1a1a; }
+      .text-normal { font-family: 'Courier New', Courier, monospace; fill: #1a1a1a; }
+      .text-white { font-family: 'Courier New', Courier, monospace; font-weight: bold; fill: #ffffff; }
+      
+      .box-white { fill: #ffffff; stroke: #333333; stroke-width: 4; }
+      .box-blue-light { fill: #e6f0ff; }
+      .box-orange-light { fill: #fff0e6; }
+      
+      .attn-spatial { fill: #7a96c2; stroke: #4d4d4d; stroke-width: 3; rx: 10; }
+      .attn-cross { fill: #c2e0c6; stroke: #4d4d4d; stroke-width: 3; rx: 10; }
+      .attn-temporal { fill: #ffcc99; stroke: #4d4d4d; stroke-width: 3; rx: 10; }
+      .selected-msm { stroke: #4d4d4d; stroke-width: 4; stroke-dasharray: 10, 5; fill: none; rx: 10; }
+      
+      .line-solid { stroke: #333333; stroke-width: 4; fill: none; }
+      .line-blue { stroke: #4a70b0; stroke-width: 4; fill: none; }
+      .line-green { stroke: #3b8c40; stroke-width: 4; fill: none; }
+      .line-red { stroke: #cc3333; stroke-width: 4; fill: none; }
+      .line-orange-dash { stroke: #ffa500; stroke-width: 4; stroke-dasharray: 10, 5; fill: none; }
+      .line-dashed { stroke: #666666; stroke-width: 4; stroke-dasharray: 10, 5; fill: none; }
+      
+      .arrow-head { fill: #333333; }
+      .arrow-head-blue { fill: #4a70b0; }
+      .arrow-head-green { fill: #3b8c40; }
+      .arrow-head-red { fill: #cc3333; }
+      .arrow-head-orange { fill: #ffa500; }
+      
+      .circle-plus { fill: none; stroke: #333333; stroke-width: 4; }
+      
+      .node-circle-blue { fill: #4a70b0; stroke: #333333; stroke-width: 3; }
+      .node-circle-orange { fill: #ffcc99; stroke: #333333; stroke-width: 3; }
+      .node-circle-striped-blue { fill: url(#stripe-blue); stroke: #333333; stroke-width: 3; }
+      .node-circle-striped-orange { fill: url(#stripe-orange); stroke: #333333; stroke-width: 3; }
+      
+      .placeholder { fill: #808080; stroke: #000000; stroke-width: 2; }
+    </style>
+    
+    <pattern id="stripe-blue" patternUnits="userSpaceOnUse" width="20" height="20" patternTransform="rotate(45)">
+      <rect width="20" height="20" fill="#ffffff" />
+      <line x1="0" y1="0" x2="0" y2="20" stroke="#4a70b0" stroke-width="10" />
+    </pattern>
+    <pattern id="stripe-orange" patternUnits="userSpaceOnUse" width="20" height="20" patternTransform="rotate(45)">
+      <rect width="20" height="20" fill="#ffffff" />
+      <line x1="0" y1="0" x2="0" y2="20" stroke="#ffcc99" stroke-width="10" />
+    </pattern>
+
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" class="arrow-head" />
+    </marker>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" class="arrow-head-blue" />
+    </marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" class="arrow-head-green" />
+    </marker>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" class="arrow-head-red" />
+    </marker>
+    <marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" class="arrow-head-orange" />
+    </marker>
+    <marker id="arrow-empty" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="10" markerHeight="10" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="none" stroke="#333333" stroke-width="2" />
+    </marker>
+  </defs>
+
+  <rect width="3840" height="2141" class="bg" />
+
+  <!-- ReferenceNet Background -->
+  <polygon points="1080,100 2850,100 2850,830 1080,830 1965,250 1965,680" class="box-blue-light" />
+  <polygon points="1080,100 1965,250 1965,680 1080,830" class="box-blue-light" />
+  <polygon points="2850,100 1965,250 1965,680 2850,830" class="box-blue-light" />
+  <text x="1965" y="160" font-size="50" text-anchor="middle" class="text-bold">ReferenceNet</text>
+
+  <!-- DenoisingNet Background -->
+  <polygon points="1080,990 2850,990 2850,1780 1080,1780 1965,1140 1965,1630" class="box-orange-light" />
+  <polygon points="1080,990 1965,1140 1965,1630 1080,1780" class="box-orange-light" />
+  <polygon points="2850,990 1965,1140 1965,1630 2850,1780" class="box-orange-light" />
+  <text x="1965" y="1100" font-size="50" text-anchor="middle" class="text-bold">DenoisingNet</text>
+
+  <!-- Left Side Inputs - Reference -->
+  <rect x="30" y="50" width="430" height="430" fill="#000000" />
+  <g id="AF07">
+    <rect x="115" y="130" width="80" height="270" class="placeholder" />
+    <text x="155" y="265" font-size="20" text-anchor="middle" dominant-baseline="middle" class="text-white">&lt;AF&gt;07</text>
+  </g>
+  <g id="AF06">
+    <rect x="275" y="130" width="80" height="270" class="placeholder" />
+    <text x="315" y="265" font-size="20" text-anchor="middle" dominant-baseline="middle" class="text-white">&lt;AF&gt;06</text>
+  </g>
+  <text x="245" y="530" font-size="45" text-anchor="middle" class="text-bold">Ref Pose</text>
+
+  <!-- Left Side Inputs - Ref Img -->
+  <rect x="20" y="580" width="440" height="430" fill="#e0d0df" />
+  <g id="AF05">
+    <rect x="110" y="660" width="100" height="280" class="placeholder" />
+    <text x="160" y="800" font-size="20" text-anchor="middle" dominant-baseline="middle" class="text-white">&lt;AF&gt;05</text>
+  </g>
+  <g id="AF01">
+    <rect x="260" y="660" width="100" height="280" class="placeholder" />
+    <text x="310" y="800" font-size="20" text-anchor="middle" dominant-baseline="middle" class="text-white">&lt;AF&gt;01</text>
+  </g>
+  <text x="240" y="1060" font-size="45" text-anchor="middle" class="text-bold">Ref Img</text>
+
+  <!-- Left Side Inputs - Target Pose -->
+  <rect x="50" y="1170" width="400" height="400" fill="#000000" stroke="#333333" stroke-width="2" />
+  <rect x="40" y="1185" width="400" height="400" fill="#000000" stroke="#333333" stroke-width="2" />
+  <rect x="30" y="1200" width="400" height="400" fill="#000000" stroke="#333333" stroke-width="2" />
+  <g id="AF02">
+    <rect x="55" y="1335" width="150" height="190" class="placeholder" />
+    <text x="130" y="1430" font-size="30" text-anchor="middle" dominant-baseline="middle" class="text-white">&lt;AF&gt;02</text>
+  </g>
+  <!-- Target Pose Skeleton (Green) -->
+  <circle cx="280" cy="1280" r="8" fill="#3b8c40" />
+  <line x1="280" y1="1280" x2="280" y2="1350" stroke="#3b8c40" stroke-width="6" />
+  <line x1="280" y1="1300" x2="230" y2="1320" stroke="#3b8c40" stroke-width="6" />
+  <line x1="230" y1="1320" x2="210" y2="1280" stroke="#3b8c40" stroke-width="6" />
+  <line x1="280" y1="1300" x2="330" y2="1320" stroke="#3b8c40" stroke-width="6" />
+  <line x1="330" y1="1320" x2="350" y2="1280" stroke="#3b8c40" stroke-width="6" />
+  <line x1="280" y1="1350" x2="250" y2="1420" stroke="#3b8c40" stroke-width="6" />
+  <line x1="250" y1="1420" x2="260" y2="1500" stroke="#3b8c40" stroke-width="6" />
+  <line x1="280" y1="1350" x2="310" y2="1420" stroke="#3b8c40" stroke-width="6" />
+  <line x1="310" y1="1420" x2="300" y2="1500" stroke="#3b8c40" stroke-width="6" />
+  <text x="230" y="1650" font-size="45" text-anchor="middle" class="text-bold">Tgt Pose</text>
+
+  <!-- Noise Inputs -->
+  <rect x="420" y="1770" width="250" height="250" fill="#b3b3b3" stroke="#666666" stroke-width="2" />
+  <rect x="410" y="1785" width="250" height="250" fill="#999999" stroke="#666666" stroke-width="2" />
+  <rect x="400" y="1800" width="250" height="250" fill="#cccccc" stroke="#666666" stroke-width="2" />
+  <!-- Noise Pattern Simulation -->
+  <path d="M 400 1800 L 650 1800 L 650 2050 L 400 2050 Z" fill="url(#stripe-blue)" opacity="0.2"/>
+  <text x="525" y="1740" font-size="45" text-anchor="middle" class="text-bold">Noise</text>
+
+  <!-- Mask Inputs -->
+  <rect x="1150" y="1800" width="300" height="300" fill="#000000" />
+  <g id="AF04">
+    <rect x="1220" y="1850" width="40" height="180" class="placeholder" />
+    <text x="1240" y="1940" font-size="12" text-anchor="middle" dominant-baseline="middle" class="text-white">&lt;AF&gt;04</text>
+  </g>
+  <g id="AF03">
+    <rect x="1330" y="1850" width="40" height="180" class="placeholder" />
+    <text x="1350" y="1940" font-size="12" text-anchor="middle" dominant-baseline="middle" class="text-white">&lt;AF&gt;03</text>
+  </g>
+  
+  <rect x="1510" y="1780" width="300" height="300" fill="#000000" stroke="#333333" stroke-width="2" />
+  <rect x="1500" y="1790" width="300" height="300" fill="#000000" stroke="#333333" stroke-width="2" />
+  <rect x="1490" y="1800" width="300" height="300" fill="#000000" stroke="#333333" stroke-width="2" />
+  <g id="AF09">
+    <rect x="1540" y="1850" width="200" height="200" class="placeholder" />
+    <text x="1640" y="1950" font-size="30" text-anchor="middle" dominant-baseline="middle" class="text-white">&lt;AF&gt;09</text>
+  </g>
+  <text x="1470" y="1760" font-size="45" text-anchor="middle" class="text-bold">Mask</text>
+
+  <!-- Encoders -->
+  <!-- Pose Enc (Top) -->
+  <polygon points="590,120 780,220 780,350 590,450" class="box-white" />
+  <text x="685" y="270" font-size="40" text-anchor="middle" class="text-bold">Pose</text>
+  <text x="685" y="320" font-size="40" text-anchor="middle" class="text-bold">Enc</text>
+
+  <!-- VAE Enc -->
+  <polygon points="590,480 780,580 780,710 590,810" class="box-white" />
+  <text x="685" y="630" font-size="40" text-anchor="middle" class="text-bold">VAE</text>
+  <text x="685" y="680" font-size="40" text-anchor="middle" class="text-bold">Enc</text>
+
+  <!-- CLIP -->
+  <polygon points="590,830 780,930 780,1060 590,1160" class="box-white" />
+  <text x="685" y="1010" font-size="40" text-anchor="middle" class="text-bold">CLIP</text>
+
+  <!-- Pose Enc (Bottom) -->
+  <polygon points="590,1280 780,1380 780,1510 590,1610" class="box-white" />
+  <text x="685" y="1430" font-size="40" text-anchor="middle" class="text-bold">Pose</text>
+  <text x="685" y="1480" font-size="40" text-anchor="middle" class="text-bold">Enc</text>
+
+  <!-- VAE Dec -->
+  <polygon points="2950,1340 3140,1240 3140,1640 2950,1540" class="box-white" />
+  <text x="3045" y="1430" font-size="40" text-anchor="middle" class="text-bold">VAE</text>
+  <text x="3045" y="1480" font-size="40" text-anchor="middle" class="text-bold">Dec</text>
+
+  <!-- Generated Frames -->
+  <rect x="3320" y="1170" width="400" height="400" fill="#d9c2d6" stroke="#999999" stroke-width="2" />
+  <rect x="3310" y="1185" width="400" height="400" fill="#e6ccd9" stroke="#999999" stroke-width="2" />
+  <rect x="3300" y="1200" width="400" height="400" fill="#f2d9e6" stroke="#999999" stroke-width="2" />
+  <g id="AF08">
+    <rect x="3350" y="1250" width="300" height="300" class="placeholder" />
+    <text x="3500" y="1400" font-size="40" text-anchor="middle" dominant-baseline="middle" class="text-white">&lt;AF&gt;08</text>
+  </g>
+  <text x="3500" y="1680" font-size="45" text-anchor="middle" class="text-bold">Gen Frames</text>
+
+  <!-- Connections & Arrows (Left side) -->
+  <line x1="460" y1="260" x2="590" y2="260" class="line-solid" marker-end="url(#arrow)" />
+  
+  <line x1="520" y1="795" x2="520" y2="640" class="line-solid" />
+  <line x1="520" y1="640" x2="590" y2="640" class="line-solid" marker-end="url(#arrow)" />
+  <line x1="460" y1="795" x2="520" y2="795" class="line-solid" />
+  <line x1="520" y1="795" x2="520" y2="990" class="line-solid" />
+  <line x1="520" y1="990" x2="590" y2="990" class="line-solid" marker-end="url(#arrow)" />
+
+  <line x1="430" y1="1400" x2="590" y2="1400" class="line-solid" marker-end="url(#arrow)" />
+  
+  <line x1="650" y1="1925" x2="920" y2="1925" class="line-solid" />
+  <line x1="920" y1="1925" x2="920" y2="1490" class="line-solid" marker-end="url(#arrow)" />
+
+  <!-- Plus Nodes -->
+  <!-- Top Plus -->
+  <circle cx="920" cy="420" r="30" class="circle-plus" />
+  <line x1="920" y1="390" x2="920" y2="450" class="line-solid" />
+  <line x1="890" y1="420" x2="950" y2="420" class="line-solid" />
+  
+  <line x1="780" y1="285" x2="850" y2="285" class="line-solid" />
+  <line x1="850" y1="285" x2="850" y2="420" class="line-solid" />
+  <line x1="850" y1="420" x2="890" y2="420" class="line-solid" marker-end="url(#arrow)" />
+  
+  <line x1="780" y1="645" x2="850" y2="645" class="line-solid" />
+  <line x1="850" y1="645" x2="850" y2="420" class="line-solid" />
+  
+  <line x1="950" y1="420" x2="1080" y2="420" class="line-solid" marker-end="url(#arrow)" />
+
+  <!-- Bottom Plus -->
+  <circle cx="920" cy="1400" r="30" class="circle-plus" />
+  <line x1="920" y1="1370" x2="920" y2="1430" class="line-solid" />
+  <line x1="890" y1="1400" x2="950" y2="1400" class="line-solid" />
+  
+  <line x1="780" y1="1400" x2="890" y2="1400" class="line-solid" marker-end="url(#arrow)" />
+  <line x1="950" y1="1400" x2="1080" y2="1400" class="line-solid" marker-end="url(#arrow)" />
+
+  <!-- T symbol on Tgt Pose -->
+  <line x1="480" y1="1580" x2="520" y2="1540" stroke="#333333" stroke-width="6" />
+  <line x1="500" y1="1560" x2="530" y2="1590" stroke="#333333" stroke-width="6" />
+  <text x="540" y="1610" font-size="30" class="text-bold">T</text>
+
+  <!-- Attention Blocks - ReferenceNet -->
+  <!-- Block 1 -->
+  <rect x="1150" y="200" width="60" height="450" class="attn-spatial" />
+  <rect x="1230" y="200" width="60" height="450" class="attn-cross" />
+  
+  <text x="1430" y="430" font-size="60" font-weight="bold" fill="#666666">...</text>
+  
+  <!-- Block 2 -->
+  <rect x="1570" y="300" width="60" height="250" class="attn-spatial" />
+  <rect x="1650" y="300" width="60" height="250" class="attn-cross" />
+  
+  <text x="1950" y="430" font-size="60" font-weight="bold" fill="#666666">...</text>
+  
+  <!-- Block 3 -->
+  <rect x="2140" y="300" width="60" height="250" class="attn-spatial" />
+  <rect x="2220" y="300" width="60" height="250" class="attn-cross" />
+  
+  <text x="2400" y="430" font-size="60" font-weight="bold" fill="#666666">...</text>
+  
+  <!-- Block 4 -->
+  <rect x="2560" y="200" width="60" height="450" class="attn-spatial" />
+  <rect x="2640" y="200" width="60" height="450" class="attn-cross" />
+
+  <!-- Attention Blocks - DenoisingNet -->
+  <!-- Block 1 -->
+  <rect x="1150" y="1150" width="60" height="400" class="attn-spatial" />
+  <rect x="1230" y="1150" width="60" height="400" class="attn-cross" />
+  <rect x="1310" y="1150" width="60" height="400" class="attn-temporal" />
+  
+  <text x="1460" y="1370" font-size="60" font-weight="bold" fill="#666666">...</text>
+  
+  <!-- Block 2 -->
+  <rect x="1570" y="1250" width="60" height="200" class="attn-spatial" />
+  <rect x="1650" y="1250" width="60" height="200" class="attn-cross" />
+  <rect x="1730" y="1250" width="60" height="200" class="attn-temporal" />
+  
+  <text x="1950" y="1370" font-size="60" font-weight="bold" fill="#666666">...</text>
+  
+  <!-- Block 3 -->
+  <g>
+    <rect x="2140" y="1250" width="60" height="200" class="attn-spatial" />
+    <rect x="2135" y="1245" width="70" height="210" class="selected-msm" />
+  </g>
+  <rect x="2220" y="1250" width="60" height="200" class="attn-cross" />
+  <rect x="2300" y="1250" width="60" height="200" class="attn-temporal" />
+  
+  <text x="2450" y="1370" font-size="60" font-weight="bold" fill="#666666">...</text>
+  
+  <!-- Block 4 -->
+  <g>
+    <rect x="2560" y="1150" width="60" height="400" class="attn-spatial" />
+    <rect x="2555" y="1145" width="70" height="410" class="selected-msm" />
+  </g>
+  <rect x="2640" y="1150" width="60" height="400" class="attn-cross" />
+  <rect x="2720" y="1150" width="60" height="400" class="attn-temporal" />
+
+  <!-- Vertical Connections (Spatial & Cross Attn) -->
+  <!-- Set 1 -->
+  <line x1="1180" y1="650" x2="1180" y2="1150" class="line-blue" marker-end="url(#arrow-blue)" />
+  <path d="M 1180 990 Q 1195 990 1195 975 T 1210 990" fill="none" stroke="#4a70b0" stroke-width="4" transform="translate(-15, 0)" />
+  
+  <line x1="1260" y1="1150" x2="1260" y2="650" class="line-green" marker-end="url(#arrow-green)" />
+  <path d="M 1260 990 Q 1245 990 1245 975 T 1230 990" fill="none" stroke="#3b8c40" stroke-width="4" transform="translate(15, 0)" />
+
+  <!-- Set 2 -->
+  <line x1="1600" y1="550" x2="1600" y2="1250" class="line-blue" marker-end="url(#arrow-blue)" />
+  <path d="M 1600 990 Q 1615 990 1615 975 T 1630 990" fill="none" stroke="#4a70b0" stroke-width="4" transform="translate(-15, 0)" />
+  
+  <line x1="1680" y1="1250" x2="1680" y2="550" class="line-green" marker-end="url(#arrow-green)" />
+  <path d="M 1680 990 Q 1665 990 1665 975 T 1650 990" fill="none" stroke="#3b8c40" stroke-width="4" transform="translate(15, 0)" />
+
+  <!-- Set 3 -->
+  <line x1="2170" y1="550" x2="2170" y2="1250" class="line-blue" marker-end="url(#arrow-blue)" />
+  <path d="M 2170 990 Q 2185 990 2185 975 T 2200 990" fill="none" stroke="#4a70b0" stroke-width="4" transform="translate(-15, 0)" />
+  
+  <line x1="2250" y1="1250" x2="2250" y2="550" class="line-green" marker-end="url(#arrow-green)" />
+  <path d="M 2250 990 Q 2235 990 2235 975 T 2220 990" fill="none" stroke="#3b8c40" stroke-width="4" transform="translate(15, 0)" />
+
+  <!-- Set 4 -->
+  <line x1="2590" y1="650" x2="2590" y2="1150" class="line-blue" marker-end="url(#arrow-blue)" />
+  <path d="M 2590 990 Q 2605 990 2605 975 T 2620 990" fill="none" stroke="#4a70b0" stroke-width="4" transform="translate(-15, 0)" />
+  
+  <line x1="2670" y1="1150" x2="2670" y2="650" class="line-green" marker-end="url(#arrow-green)" />
+  <path d="M 2670 990 Q 2655 990 2655 975 T 2640 990" fill="none" stroke="#3b8c40" stroke-width="4" transform="translate(15, 0)" />
+
+  <!-- CLIP Connection -->
+  <line x1="780" y1="990" x2="2670" y2="990" class="line-green" />
+
+  <!-- Right side output connection -->
+  <line x1="2850" y1="1440" x2="2950" y2="1440" class="line-solid" marker-end="url(#arrow)" />
+  <line x1="3140" y1="1440" x2="3300" y2="1440" class="line-solid" marker-end="url(#arrow)" />
+
+  <!-- IMG Construction Section (Bottom Right) -->
+  <rect x="1960" y="1650" width="880" height="450" fill="#f2f5f9" stroke="#666666" stroke-width="4" stroke-dasharray="15, 10" />
+  
+  <path d="M 1830 1900 L 1890 1900 M 1860 1870 L 1890 1900 L 1860 1930" fill="none" stroke="#333333" stroke-width="6" />
+
+  <!-- Sub-block 1 -->
+  <rect x="1980" y="1720" width="250" height="350" fill="#ffffff" stroke="#cccccc" stroke-width="2" rx="10" />
+  
+  <circle cx="2040" cy="1800" r="40" class="node-circle-blue" />
+  <circle cx="2160" cy="1800" r="40" class="node-circle-orange" />
+  <circle cx="2040" cy="1980" r="40" class="node-circle-striped-blue" />
+  <circle cx="2160" cy="1980" r="40" class="node-circle-striped-orange" />
+  
+  <line x1="2040" y1="1940" x2="2040" y2="1840" stroke="#4a70b0" stroke-width="4" marker-end="url(#arrow-blue)" />
+  <line x1="2160" y1="1940" x2="2160" y2="1840" stroke="#ffa500" stroke-width="4" marker-end="url(#arrow-orange)" />
+  
+  <line x1="2060" y1="1950" x2="2140" y2="1830" stroke="#ffa500" stroke-width="4" stroke-dasharray="8, 4" marker-end="url(#arrow-orange)" />
+  <line x1="2140" y1="1950" x2="2060" y2="1830" stroke="#4a70b0" stroke-width="4" stroke-dasharray="8, 4" marker-end="url(#arrow-blue)" />
+  
+  <text x="2200" y="2040" font-size="40" class="text-bold">xT</text>
+  
+  <path d="M 2250 1860 L 2280 1860 M 2265 1845 L 2280 1860 L 2265 1875" fill="none" stroke="#333333" stroke-width="4" />
+  <text x="2300" y="1870" font-size="45" font-style="italic" class="text-bold">C<tspan dy="-15" font-size="30">(1)</tspan></text>
+
+  <!-- Sub-block N -->
+  <rect x="2400" y="1720" width="250" height="350" fill="#ffffff" stroke="#cccccc" stroke-width="2" rx="10" />
+  
+  <circle cx="2460" cy="1800" r="40" class="node-circle-blue" />
+  <circle cx="2580" cy="1800" r="40" class="node-circle-orange" />
+  <circle cx="2460" cy="1980" r="40" class="node-circle-striped-blue" />
+  <circle cx="2580" cy="1980" r="40" class="node-circle-striped-orange" />
+  
+  <line x1="2460" y1="1940" x2="2460" y2="1840" stroke="#4a70b0" stroke-width="4" marker-end="url(#arrow-blue)" />
+  <line x1="2580" y1="1940" x2="2580" y2="1840" stroke="#ffa500" stroke-width="4" marker-end="url(#arrow-orange)" />
+  
+  <line x1="2480" y1="1950" x2="2560" y2="1830" stroke="#ffa500" stroke-width="4" stroke-dasharray="8, 4" marker-end="url(#arrow-orange)" />
+  <line x1="2560" y1="1950" x2="2480" y2="1830" stroke="#4a70b0" stroke-width="4" stroke-dasharray="8, 4" marker-end="url(#arrow-blue)" />
+  
+  <text x="2620" y="2040" font-size="40" class="text-bold">xT</text>
+  
+  <path d="M 2670 1910 L 2700 1910 M 2685 1895 L 2700 1910 L 2685 1925" fill="none" stroke="#333333" stroke-width="4" />
+  <text x="2720" y="1920" font-size="45" font-style="italic" class="text-bold">C<tspan dy="-15" font-size="30">(N)</tspan></text>
+
+  <!-- Curved connections from IMG Construction to DenoisingNet -->
+  <path d="M 2100 1760 Q 2100 1600 2170 1480" fill="none" stroke="#cc3333" stroke-width="5" marker-end="url(#arrow-red)" />
+  <path d="M 2330 1800 Q 2350 1600 2200 1520" fill="none" stroke="#ffa500" stroke-width="5" stroke-dasharray="12, 6" marker-end="url(#arrow-orange)" />
+  
+  <path d="M 2520 1760 Q 2520 1600 2590 1480" fill="none" stroke="#cc3333" stroke-width="5" marker-end="url(#arrow-red)" />
+  <path d="M 2750 1850 Q 2850 1600 2620 1520" fill="none" stroke="#ffa500" stroke-width="5" stroke-dasharray="12, 6" marker-end="url(#arrow-orange)" />
+
+  <!-- Legend -->
+  <rect x="2920" y="180" width="40" height="60" class="attn-spatial" />
+  <text x="3000" y="220" font-size="40" class="text-bold">Spatial-Attn</text>
+  
+  <rect x="2920" y="300" width="40" height="60" class="attn-cross" />
+  <text x="3000" y="340" font-size="40" class="text-bold">Cross-Attn</text>
+  
+  <rect x="2920" y="420" width="40" height="60" class="attn-temporal" />
+  <text x="3000" y="460" font-size="40" class="text-bold">Temporal-Attn</text>
+  
+  <path d="M 2900 560 Q 2940 580 2980 560" fill="none" stroke="#cc3333" stroke-width="5" marker-end="url(#arrow-red)" />
+  <text x="3000" y="580" font-size="40" class="text-bold">Intermediate Feature</text>
+  
+  <path d="M 2900 680 Q 2940 700 2980 680" fill="none" stroke="#ffa500" stroke-width="5" stroke-dasharray="12, 6" marker-end="url(#arrow-orange)" />
+  <text x="3000" y="700" font-size="40" class="text-bold">Gradient from <tspan font-style="italic">C</tspan><tspan dy="-15" font-size="30" font-style="italic">(ℓ)</tspan></text>
+  
+  <polygon points="2890,780 2950,790 2950,880 2890,850" fill="#f2f5f9" stroke="#666666" stroke-width="4" stroke-dasharray="10, 5" />
+  <text x="3000" y="820" font-size="40" class="text-bold">IMG Construction</text>
+  <text x="3000" y="880" font-size="40" class="text-bold">(Training only)</text>
+  
+  <g>
+    <rect x="2920" y="1000" width="40" height="60" class="attn-spatial" />
+    <rect x="2915" y="995" width="50" height="70" class="selected-msm" />
+  </g>
+  <text x="3000" y="1040" font-size="40" class="text-bold">Selected for MSM</text>
+
+</svg>

@@ -1,0 +1,17 @@
+svg_candidate: 12
+raster_required: 0
+unique_assets: 12
+duplicate_assets: 0
+
+- slot_fire_icon_designer: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_snowflake_icon_designer: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_snowflake_icon_expert: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_expert_trajectory_pair_t_minus_1: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_expert_trajectory_pair_t: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_fire_icon_dyplanner: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_preference_pair_top_left: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_preference_pair_top_right: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_preference_pair_bottom_left: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_preference_pair_bottom_right: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_preference_check_icon: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_preference_cross_icon: svg_candidate | from first-pass asset detection kind=svg_icon

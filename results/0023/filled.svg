@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1408" height="768" viewBox="0 0 1408 768">
+  <defs>
+    <marker id="arrowGray" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#555" />
+    </marker>
+    <marker id="arrowBlack" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#000" />
+    </marker>
+    <marker id="arrowSmall" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3.5 L0,7 Z" fill="#000" />
+    </marker>
+    <linearGradient id="topGreen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d8ecd0" />
+      <stop offset="1" stop-color="#edf7e9" />
+    </linearGradient>
+    <linearGradient id="topPurple" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ead4f0" />
+      <stop offset="1" stop-color="#d4a9df" />
+    </linearGradient>
+    <linearGradient id="topBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d9eefb" />
+      <stop offset="1" stop-color="#c7e0f4" />
+    </linearGradient>
+    <linearGradient id="topOrange" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe7c1" />
+      <stop offset="1" stop-color="#ffedd4" />
+    </linearGradient>
+    <linearGradient id="bottomPurple" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5e5f5" />
+      <stop offset="1" stop-color="#fbf1fb" />
+    </linearGradient>
+    <linearGradient id="bottomBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dff3ff" />
+      <stop offset="1" stop-color="#e9f8ff" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="4" dy="4" stdDeviation="3" flood-color="#777" flood-opacity="0.35" />
+    </filter>
+    <style>
+      .txt{font-family:Arial, Helvetica, sans-serif; fill:#000}
+      .bold{font-weight:700}
+      .panelStroke{stroke-width:2}
+      .thin{stroke-width:1.5}
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1408" height="768" fill="#fff" />
+
+  
+  <rect x="17" y="10" width="328" height="329" rx="16" fill="#f8f8f8" stroke="#999" stroke-width="2" />
+  <path d="M31,148 C70,105 113,65 156,30" fill="none" stroke="#000" stroke-width="2.2" marker-end="url(#arrowBlack)" />
+  <path d="M31,148 L156,30" fill="none" stroke="#000" stroke-width="0.6" />
+  <path d="M44,168 C78,125 121,91 171,68" fill="none" stroke="#83c5c2" stroke-width="2.5" />
+  <path d="M82,128 C121,99 173,90 220,45" fill="none" stroke="#d9827b" stroke-width="2.5" marker-end="url(#arrowSmall)" />
+  <path d="M157,106 C172,95 201,65 224,28" fill="none" stroke="#000" stroke-width="2.2" marker-end="url(#arrowBlack)" />
+  <circle cx="44" cy="168" r="5.8" fill="#72bebc" />
+  <circle cx="112" cy="91" r="5.8" fill="#72bebc" />
+  <circle cx="170" cy="68" r="5.8" fill="#72bebc" />
+  <circle cx="112" cy="106" r="5.8" fill="#d9827b" />
+  <circle cx="172" cy="84" r="5.8" fill="#d9827b" />
+  <text class="txt" x="183" y="123" font-size="22" text-anchor="middle">Trajectory</text>
+  <text class="txt" x="183" y="146" font-size="22" text-anchor="middle">Scaling</text>
+
+  <path d="M58,247 C75,237 91,228 109,229" fill="none" stroke="#000" stroke-width="2.2" marker-end="url(#arrowBlack)" />
+  <path d="M56,279 C78,257 102,244 148,259 C172,271 191,263 209,248" fill="none" stroke="#83c5c2" stroke-width="2.5" />
+  <circle cx="56" cy="279" r="5.8" fill="#72bebc" />
+  <circle cx="58" cy="247" r="5.8" fill="#72bebc" />
+  <circle cx="104" cy="249" r="5.8" fill="#d9827b" />
+  <circle cx="148" cy="260" r="5.8" fill="#d9827b" />
+  <circle cx="209" cy="247" r="5.8" fill="#b084c4" />
+  <path d="M158,184 C160,205 187,211 199,190 C204,179 200,168 193,157" fill="none" stroke="#000" stroke-width="2" marker-end="url(#arrowBlack)" />
+  <circle cx="122" cy="173" r="5.8" fill="#72bebc" />
+  <circle cx="161" cy="166" r="5.8" fill="#d9827b" />
+  <circle cx="181" cy="177" r="5.8" fill="#d9827b" />
+  <text class="txt" x="178" y="231" font-size="22" text-anchor="middle">Rotation</text>
+
+  <path d="M250,200 C266,167 292,156 325,122" fill="none" stroke="#b084c4" stroke-width="2.5" />
+  <circle cx="250" cy="199" r="5.8" fill="#b084c4" />
+  <circle cx="265" cy="160" r="5.8" fill="#b084c4" />
+  <circle cx="295" cy="151" r="5.8" fill="#b084c4" />
+  <circle cx="324" cy="121" r="5.8" fill="#b084c4" />
+  <text class="txt" x="290" y="231" font-size="22" text-anchor="middle">Translation</text>
+  <text class="txt" x="181" y="321" font-size="25" text-anchor="middle">Augmented Trajectories</text>
+
+  
+  <path d="M348,186 L381,186" stroke="#555" stroke-width="8" marker-end="url(#arrowGray)" />
+  <path d="M617,186 L648,186" stroke="#555" stroke-width="8" marker-end="url(#arrowGray)" />
+  <path d="M807,186 L840,186" stroke="#555" stroke-width="8" marker-end="url(#arrowGray)" />
+  <path d="M1010,186 L1052,186" stroke="#555" stroke-width="8" marker-end="url(#arrowGray)" />
+  <path d="M1286,186 L1319,186" stroke="#555" stroke-width="8" marker-end="url(#arrowGray)" />
+
+  
+  <rect x="385" y="10" width="228" height="329" rx="17" fill="url(#topGreen)" stroke="#8aaa80" stroke-width="2" />
+  <text class="txt bold" x="499" y="45" font-size="25" text-anchor="middle">Feature Extraction</text>
+  <text class="txt bold" x="499" y="72" font-size="25" text-anchor="middle">module</text>
+  <rect x="401" y="87" width="196" height="233" rx="18" fill="#eef7e9" stroke="#8aaa80" stroke-width="2" />
+  <text class="txt" x="499" y="120" font-size="23" text-anchor="middle">Trajectory Feature</text>
+  <text class="txt" x="499" y="144" font-size="23" text-anchor="middle">Extraction</text>
+  <rect x="416" y="158" width="166" height="39" rx="10" fill="#f4fbef" stroke="#9aa795" stroke-width="2" />
+  <text class="txt" x="499" y="184" font-size="22" text-anchor="middle">Motion Velocity</text>
+  <rect x="416" y="205" width="166" height="39" rx="10" fill="#f4fbef" stroke="#9aa795" stroke-width="2" />
+  <text class="txt" x="499" y="231" font-size="22" text-anchor="middle">Spatial Density</text>
+  <rect x="416" y="252" width="166" height="54" rx="10" fill="#f4fbef" stroke="#9aa795" stroke-width="2" />
+  <text class="txt" x="499" y="275" font-size="22" text-anchor="middle">Interaction</text>
+  <text class="txt" x="499" y="298" font-size="22" text-anchor="middle">Patterns</text>
+
+  
+  <rect x="653" y="87" width="151" height="180" rx="15" fill="url(#topPurple)" stroke="#9e64ad" stroke-width="2" filter="url(#shadow)" />
+  <text class="txt" x="729" y="120" font-size="25" text-anchor="middle">Context</text>
+  <text class="txt" x="729" y="146" font-size="25" text-anchor="middle">Encoder</text>
+  <rect x="686" y="164" width="80" height="82" fill="#f4f4f4" stroke="#333" stroke-width="1.5" />
+  <g stroke="#fff" stroke-width="0.5">
+    <rect x="687" y="165" width="10" height="10" fill="#8dbbd7" />
+    <rect x="697" y="165" width="10" height="10" fill="#f4f4f4" />
+    <rect x="707" y="165" width="10" height="10" fill="#d5b1d4" />
+    <rect x="717" y="165" width="10" height="10" fill="#f4f4f4" />
+    <rect x="727" y="165" width="10" height="10" fill="#b58bc1" />
+    <rect x="737" y="165" width="10" height="10" fill="#f4f4f4" />
+    <rect x="747" y="165" width="10" height="10" fill="#d9e7cb" />
+    <rect x="757" y="165" width="8" height="10" fill="#b58bc1" />
+    <rect x="687" y="175" width="10" height="10" fill="#f4f4f4" />
+    <rect x="697" y="175" width="10" height="10" fill="#f4f4f4" />
+    <rect x="707" y="175" width="10" height="10" fill="#f4f4f4" />
+    <rect x="717" y="175" width="10" height="10" fill="#d9e7cb" />
+    <rect x="727" y="175" width="10" height="10" fill="#f4f4f4" />
+    <rect x="737" y="175" width="10" height="10" fill="#c9a3cc" />
+    <rect x="747" y="175" width="10" height="10" fill="#f4f4f4" />
+    <rect x="757" y="175" width="8" height="10" fill="#f4f4f4" />
+    <rect x="687" y="185" width="10" height="10" fill="#b7d6bf" />
+    <rect x="697" y="185" width="10" height="10" fill="#f4f4f4" />
+    <rect x="707" y="185" width="10" height="10" fill="#a58ec2" />
+    <rect x="717" y="185" width="10" height="10" fill="#f4f4f4" />
+    <rect x="727" y="185" width="10" height="10" fill="#f4f4f4" />
+    <rect x="737" y="185" width="10" height="10" fill="#f4f4f4" />
+    <rect x="747" y="185" width="10" height="10" fill="#f4f4f4" />
+    <rect x="757" y="185" width="8" height="10" fill="#f4f4f4" />
+    <rect x="687" y="195" width="10" height="10" fill="#f4f4f4" />
+    <rect x="697" y="195" width="10" height="10" fill="#f4f4f4" />
+    <rect x="707" y="195" width="10" height="10" fill="#f4f4f4" />
+    <rect x="717" y="195" width="10" height="10" fill="#b7d6bf" />
+    <rect x="727" y="195" width="10" height="10" fill="#f4f4f4" />
+    <rect x="737" y="195" width="10" height="10" fill="#f4f4f4" />
+    <rect x="747" y="195" width="10" height="10" fill="#8dbbd7" />
+    <rect x="757" y="195" width="8" height="10" fill="#d9e7cb" />
+    <rect x="687" y="205" width="10" height="10" fill="#f4f4f4" />
+    <rect x="697" y="205" width="10" height="10" fill="#a58ec2" />
+    <rect x="707" y="205" width="10" height="10" fill="#f4f4f4" />
+    <rect x="717" y="205" width="10" height="10" fill="#8dbbd7" />
+    <rect x="727" y="205" width="10" height="10" fill="#f4f4f4" />
+    <rect x="737" y="205" width="10" height="10" fill="#f4f4f4" />
+    <rect x="747" y="205" width="10" height="10" fill="#b7d6bf" />
+    <rect x="757" y="205" width="8" height="10" fill="#f4f4f4" />
+    <rect x="687" y="215" width="10" height="10" fill="#f4f4f4" />
+    <rect x="697" y="215" width="10" height="10" fill="#f4f4f4" />
+    <rect x="707" y="215" width="10" height="10" fill="#f4f4f4" />
+    <rect x="717" y="215" width="10" height="10" fill="#f4f4f4" />
+    <rect x="727" y="215" width="10" height="10" fill="#f4f4f4" />
+    <rect x="737" y="215" width="10" height="10" fill="#c4d8a9" />
+    <rect x="747" y="215" width="10" height="10" fill="#f4f4f4" />
+    <rect x="757" y="215" width="8" height="10" fill="#8dbbd7" />
+    <rect x="687" y="225" width="10" height="10" fill="#f4f4f4" />
+    <rect x="697" y="225" width="10" height="10" fill="#8da1d0" />
+    <rect x="707" y="225" width="10" height="10" fill="#f4f4f4" />
+    <rect x="717" y="225" width="10" height="10" fill="#f4f4f4" />
+    <rect x="727" y="225" width="10" height="10" fill="#f4f4f4" />
+    <rect x="737" y="225" width="10" height="10" fill="#f4f4f4" />
+    <rect x="747" y="225" width="10" height="10" fill="#f4f4f4" />
+    <rect x="757" y="225" width="8" height="10" fill="#f4f4f4" />
+    <rect x="687" y="235" width="10" height="10" fill="#f4f4f4" />
+    <rect x="697" y="235" width="10" height="10" fill="#f4f4f4" />
+    <rect x="707" y="235" width="10" height="10" fill="#f4f4f4" />
+    <rect x="717" y="235" width="10" height="10" fill="#f4f4f4" />
+    <rect x="727" y="235" width="10" height="10" fill="#a58ec2" />
+    <rect x="737" y="235" width="10" height="10" fill="#f4f4f4" />
+    <rect x="747" y="235" width="10" height="10" fill="#f4f4f4" />
+    <rect x="757" y="235" width="8" height="10" fill="#b7d6bf" />
+  </g>
+
+  
+  <rect x="848" y="87" width="157" height="180" rx="15" fill="url(#topBlue)" stroke="#7eacd1" stroke-width="2" />
+  <text class="txt" x="927" y="122" font-size="25" text-anchor="middle">SceneSelect</text>
+  <text class="txt" x="927" y="148" font-size="23" text-anchor="middle">Classifier</text>
+  <g stroke="#000" stroke-width="1.4" fill="none">
+    <line x1="927" y1="178" x2="900" y2="204" />
+    <line x1="927" y1="178" x2="954" y2="204" />
+    <line x1="900" y1="204" x2="887" y2="230" />
+    <line x1="900" y1="204" x2="914" y2="230" />
+    <line x1="954" y1="204" x2="940" y2="230" />
+    <line x1="954" y1="204" x2="966" y2="230" />
+  </g>
+  <circle cx="927" cy="178" r="7" fill="#b7d7ee" stroke="#000" stroke-width="1.4" />
+  <circle cx="900" cy="203" r="7" fill="#b7d7ee" stroke="#000" stroke-width="1.4" />
+  <circle cx="954" cy="203" r="7" fill="#b7d7ee" stroke="#000" stroke-width="1.4" />
+  <circle cx="887" cy="230" r="7" fill="#e58f87" stroke="#000" stroke-width="1.4" />
+  <circle cx="914" cy="230" r="7" fill="#e58f87" stroke="#000" stroke-width="1.4" />
+  <circle cx="940" cy="230" r="7" fill="#e2c45d" stroke="#000" stroke-width="1.4" />
+  <circle cx="966" cy="230" r="7" fill="#e2c45d" stroke="#000" stroke-width="1.4" />
+
+  
+  <rect x="848" y="287" width="194" height="72" rx="14" fill="#fff6cc" stroke="#d4b849" stroke-width="2" />
+  <text class="txt" x="918" y="319" font-size="25" text-anchor="middle">Scheduling</text>
+  <text class="txt" x="918" y="345" font-size="25" text-anchor="middle">Policy</text>
+  <g stroke="#333" stroke-width="1.3" fill="none">
+    <rect x="987" y="302" width="45" height="45" />
+    <line x1="1002" y1="302" x2="1002" y2="347" />
+    <line x1="1017" y1="302" x2="1017" y2="347" />
+    <line x1="987" y1="317" x2="1032" y2="317" />
+    <line x1="987" y1="332" x2="1032" y2="332" />
+  </g>
+
+  
+  <rect x="1058" y="10" width="223" height="333" rx="16" fill="url(#topOrange)" stroke="#e5a157" stroke-width="2" />
+  <text class="txt bold" x="1169" y="45" font-size="25" text-anchor="middle">Scene-Model Pool</text>
+  <g stroke="#000" stroke-width="2" fill="none">
+    <path d="M1159,99 A22,22 0 0 1 1190,79" marker-end="url(#arrowSmall)" />
+    <path d="M1195,98 A22,22 0 0 1 1168,120" marker-end="url(#arrowSmall)" />
+    <line x1="1144" y1="99" x2="1158" y2="99" />
+    <line x1="1196" y1="99" x2="1215" y2="99" marker-end="url(#arrowSmall)" />
+  </g>
+  <text class="txt" x="1180" y="146" font-size="22" text-anchor="middle">Expert 1</text>
+
+  <g stroke="#000" stroke-width="1.5" fill="none">
+    <path d="M1145,185 L1168,185 L1182,177" />
+    <path d="M1145,191 L1168,191 L1182,191" />
+    <path d="M1145,197 L1168,197 L1182,205" />
+    <rect x="1182" y="164" width="15" height="8" />
+    <rect x="1182" y="176" width="15" height="8" />
+    <rect x="1182" y="188" width="15" height="8" />
+    <rect x="1182" y="200" width="15" height="8" />
+    <rect x="1182" y="212" width="15" height="8" />
+    <line x1="1197" y1="168" x2="1209" y2="168" marker-end="url(#arrowSmall)" />
+    <line x1="1197" y1="180" x2="1210" y2="180" marker-end="url(#arrowSmall)" />
+    <line x1="1197" y1="192" x2="1210" y2="192" marker-end="url(#arrowSmall)" />
+    <line x1="1197" y1="204" x2="1210" y2="204" marker-end="url(#arrowSmall)" />
+    <line x1="1197" y1="216" x2="1210" y2="216" marker-end="url(#arrowSmall)" />
+  </g>
+  <text class="txt" x="1180" y="239" font-size="22" text-anchor="middle">Expert 2</text>
+
+  <g stroke="#000" stroke-width="1.7" fill="#ffe6b8">
+    <path d="M1151,260 L1163,265 L1163,295 L1151,300 Z" />
+    <path d="M1173,257 L1185,263 L1185,291 L1173,297 Z" />
+    <path d="M1195,262 L1207,268 L1207,286 L1195,292 Z" />
+    <line x1="1138" y1="280" x2="1220" y2="280" marker-end="url(#arrowSmall)" />
+  </g>
+  <text class="txt" x="1180" y="328" font-size="22" text-anchor="middle">Expert 3</text>
+
+  
+  <path d="M1322,204 C1328,177 1347,180 1356,190 C1369,206 1380,182 1385,163" fill="none" stroke="#000" stroke-width="2" stroke-dasharray="6 6" marker-end="url(#arrowBlack)" />
+  <text class="txt" x="1352" y="230" font-size="22" text-anchor="middle">Predicted</text>
+  <text class="txt" x="1352" y="255" font-size="22" text-anchor="middle">Trajectory</text>
+
+  
+  <line x1="8" y1="384" x2="1400" y2="384" stroke="#000" stroke-width="2" stroke-dasharray="9 8" />
+
+  
+  <text class="txt bold" x="15" y="424" font-size="31">(a)</text>
+  <text class="txt bold" x="778" y="424" font-size="31">(b)</text>
+
+  
+  <rect x="13" y="440" width="743" height="319" rx="18" fill="url(#bottomPurple)" stroke="#a66bb0" stroke-width="2" />
+  <text class="txt bold" x="385" y="477" font-size="28" text-anchor="middle">Scene Context Encoder</text>
+
+  <text class="txt" x="80" y="532" font-size="23" text-anchor="middle">Raw</text>
+  <text class="txt" x="80" y="558" font-size="23" text-anchor="middle">Features</text>
+  <rect x="36" y="588" width="89" height="18" fill="#90cec9" stroke="#000" stroke-width="1.3" />
+  <rect x="36" y="615" width="89" height="17" fill="#e9968d" stroke="#000" stroke-width="1.3" />
+  <rect x="36" y="642" width="89" height="18" fill="#e3c55d" stroke="#000" stroke-width="1.3" />
+  <text class="txt" x="80" y="696" font-size="20" text-anchor="middle">Extracted &amp;</text>
+  <text class="txt" x="80" y="717" font-size="20" text-anchor="middle">kinematic</text>
+  <text class="txt" x="80" y="738" font-size="20" text-anchor="middle">feature vectors</text>
+  <path d="M129,624 L156,624" stroke="#555" stroke-width="5" marker-end="url(#arrowGray)" />
+
+  <rect x="158" y="500" width="133" height="185" rx="15" fill="#ead2ef" stroke="#a66bb0" stroke-width="2" />
+  <text class="txt" x="224" y="532" font-size="23" text-anchor="middle">Random</text>
+  <text class="txt" x="224" y="558" font-size="23" text-anchor="middle">Projection</text>
+  <g stroke="#000" stroke-width="1.2">
+    <rect x="169" y="602" width="45" height="45" fill="#f0e7f4" />
+    <line x1="178" y1="602" x2="178" y2="647" />
+    <line x1="187" y1="602" x2="187" y2="647" />
+    <line x1="196" y1="602" x2="196" y2="647" />
+    <line x1="205" y1="602" x2="205" y2="647" />
+    <line x1="169" y1="611" x2="214" y2="611" />
+    <line x1="169" y1="620" x2="214" y2="620" />
+    <line x1="169" y1="629" x2="214" y2="629" />
+    <line x1="169" y1="638" x2="214" y2="638" />
+  </g>
+  <text class="txt" x="227" y="631" font-size="20" text-anchor="middle">×</text>
+  <g stroke="#000" stroke-width="1.2">
+    <rect x="239" y="602" width="45" height="45" fill="#efe4dc" />
+    <line x1="248" y1="602" x2="248" y2="647" />
+    <line x1="257" y1="602" x2="257" y2="647" />
+    <line x1="266" y1="602" x2="266" y2="647" />
+    <line x1="275" y1="602" x2="275" y2="647" />
+    <line x1="239" y1="611" x2="284" y2="611" />
+    <line x1="239" y1="620" x2="284" y2="620" />
+    <line x1="239" y1="629" x2="284" y2="629" />
+    <line x1="239" y1="638" x2="284" y2="638" />
+  </g>
+  <text class="txt" x="224" y="717" font-size="21" text-anchor="middle">Random</text>
+  <text class="txt" x="224" y="739" font-size="21" text-anchor="middle">matrix</text>
+  <path d="M294,624 L321,624" stroke="#555" stroke-width="5" marker-end="url(#arrowGray)" />
+
+  <text class="txt" x="385" y="538" font-size="23" text-anchor="middle">Sparsification</text>
+  <g stroke="#000" stroke-width="1.2">
+    <rect x="340" y="578" width="93" height="93" fill="#f2f2ef" />
+    <line x1="355.5" y1="578" x2="355.5" y2="671" />
+    <line x1="371" y1="578" x2="371" y2="671" />
+    <line x1="386.5" y1="578" x2="386.5" y2="671" />
+    <line x1="402" y1="578" x2="402" y2="671" />
+    <line x1="417.5" y1="578" x2="417.5" y2="671" />
+    <line x1="340" y1="593.5" x2="433" y2="593.5" />
+    <line x1="340" y1="609" x2="433" y2="609" />
+    <line x1="340" y1="624.5" x2="433" y2="624.5" />
+    <line x1="340" y1="640" x2="433" y2="640" />
+    <line x1="340" y1="655.5" x2="433" y2="655.5" />
+    <rect x="340" y="578" width="15.5" height="15.5" fill="#8dbbd7" />
+    <rect x="355.5" y="593.5" width="15.5" height="15.5" fill="#f2f2ef" />
+    <rect x="386.5" y="624.5" width="15.5" height="15.5" fill="#7da8cf" />
+    <rect x="417.5" y="655.5" width="15.5" height="15.5" fill="#a7caa5" />
+  </g>
+  <text class="txt" x="386" y="700" font-size="20" text-anchor="middle">Sparse high-</text>
+  <text class="txt" x="386" y="721" font-size="20" text-anchor="middle">dimensional</text>
+  <text class="txt" x="386" y="742" font-size="20" text-anchor="middle">representation</text>
+  <path d="M452,624 L479,624" stroke="#555" stroke-width="5" marker-end="url(#arrowGray)" />
+
+  <rect x="481" y="500" width="131" height="185" rx="15" fill="#ead2ef" stroke="#a66bb0" stroke-width="2" />
+  <text class="txt" x="546" y="532" font-size="23" text-anchor="middle">Clustering</text>
+  <g>
+    <path d="M494,672 L600,672" stroke="#000" stroke-width="1.8" marker-end="url(#arrowSmall)" />
+    <path d="M494,672 L494,349" stroke="#000" stroke-width="0" />
+    <path d="M494,672 L494,573" stroke="#000" stroke-width="1.8" marker-end="url(#arrowSmall)" />
+    <ellipse cx="530" cy="602" rx="18" ry="25" fill="#f2b0a5" opacity="0.6" stroke="#d27b73" />
+    <ellipse cx="574" cy="602" rx="18" ry="19" fill="#90cec9" opacity="0.65" stroke="#68aaa7" />
+    <ellipse cx="562" cy="641" rx="17" ry="19" fill="#e3c55d" opacity="0.75" stroke="#c9a937" />
+    <ellipse cx="518" cy="650" rx="17" ry="17" fill="#caa1cf" opacity="0.75" stroke="#a66bb0" />
+    <circle cx="524" cy="608" r="3" fill="#d87f75" />
+    <circle cx="532" cy="594" r="3" fill="#d87f75" />
+    <circle cx="535" cy="614" r="3" fill="#d87f75" />
+    <circle cx="520" cy="619" r="3" fill="#d87f75" />
+    <circle cx="540" cy="601" r="3" fill="#d87f75" />
+    <circle cx="572" cy="596" r="3" fill="#70aaa7" />
+    <circle cx="583" cy="605" r="3" fill="#70aaa7" />
+    <circle cx="564" cy="611" r="3" fill="#70aaa7" />
+    <circle cx="579" cy="588" r="3" fill="#70aaa7" />
+    <circle cx="559" cy="635" r="3" fill="#b9962a" />
+    <circle cx="568" cy="640" r="3" fill="#b9962a" />
+    <circle cx="553" cy="647" r="3" fill="#b9962a" />
+    <circle cx="567" cy="653" r="3" fill="#b9962a" />
+    <circle cx="516" cy="643" r="3" fill="#a66bb0" />
+    <circle cx="509" cy="654" r="3" fill="#a66bb0" />
+    <circle cx="526" cy="656" r="3" fill="#a66bb0" />
+  </g>
+  <text class="txt" x="546" y="708" font-size="20" text-anchor="middle">Unsupervised</text>
+  <text class="txt" x="546" y="731" font-size="20" text-anchor="middle">Clustering</text>
+  <path d="M615,624 L642,624" stroke="#555" stroke-width="5" marker-end="url(#arrowGray)" />
+
+  <text class="txt" x="690" y="526" font-size="23" text-anchor="middle">Pseudo-</text>
+  <text class="txt" x="690" y="553" font-size="23" text-anchor="middle">labels</text>
+  <rect x="648" y="580" width="81" height="27" rx="10" fill="#e9968d" />
+  <text class="txt" x="688" y="599" font-size="18" text-anchor="middle">Scene A</text>
+  <rect x="648" y="613" width="81" height="27" rx="10" fill="#90cec9" />
+  <text class="txt" x="688" y="632" font-size="18" text-anchor="middle">Scene B</text>
+  <rect x="648" y="645" width="81" height="27" rx="10" fill="#e3c55d" />
+  <text class="txt" x="688" y="664" font-size="18" text-anchor="middle">Scene C</text>
+  <text class="txt" x="690" y="708" font-size="20" text-anchor="middle">Pseudo-labels</text>
+  <text class="txt" x="690" y="729" font-size="18" text-anchor="middle">(Scene Categories)</text>
+  <path d="M731,624 L772,624" stroke="#555" stroke-width="5" marker-end="url(#arrowGray)" />
+
+  
+  <rect x="774" y="440" width="623" height="319" rx="18" fill="url(#bottomBlue)" stroke="#7eacd1" stroke-width="2" />
+  <text class="txt bold" x="1086" y="477" font-size="28" text-anchor="middle">SceneSelect Classifier</text>
+  <text class="txt" x="819" y="539" font-size="24" text-anchor="middle">Input</text>
+  <text class="txt" x="819" y="612" font-size="20" text-anchor="middle">Pseudo-</text>
+  <text class="txt" x="819" y="633" font-size="20" text-anchor="middle">labels</text>
+  <text class="txt" x="819" y="654" font-size="20" text-anchor="middle">+ Features</text>
+  <path d="M857,623 L884,623" stroke="#555" stroke-width="5" marker-end="url(#arrowGray)" />
+
+  <text class="txt" x="974" y="523" font-size="24" text-anchor="middle">Additive Tree-based</text>
+  <text class="txt" x="974" y="550" font-size="24" text-anchor="middle">Classifier</text>
+  <g stroke="#000" stroke-width="1.5" fill="none">
+    <line x1="974" y1="586" x2="921" y2="643" />
+    <line x1="974" y1="586" x2="1027" y2="643" />
+    <line x1="921" y1="643" x2="895" y2="703" />
+    <line x1="921" y1="643" x2="947" y2="703" />
+    <line x1="1027" y1="643" x2="1000" y2="703" />
+    <line x1="1027" y1="643" x2="1055" y2="703" />
+  </g>
+  <circle cx="974" cy="586" r="16" fill="#aed1ef" stroke="#000" stroke-width="1.5" />
+  <circle cx="921" cy="643" r="16" fill="#aed1ef" stroke="#000" stroke-width="1.5" />
+  <circle cx="1027" cy="643" r="16" fill="#aed1ef" stroke="#000" stroke-width="1.5" />
+  <circle cx="895" cy="703" r="16" fill="#e9968d" stroke="#000" stroke-width="1.5" />
+  <circle cx="947" cy="703" r="16" fill="#98ccc8" stroke="#000" stroke-width="1.5" />
+  <circle cx="1000" cy="703" r="16" fill="#e3c55d" stroke="#000" stroke-width="1.5" />
+  <circle cx="1055" cy="703" r="16" fill="#e3c55d" stroke="#000" stroke-width="1.5" />
+
+  <path d="M1080,638 L1109,638" stroke="#555" stroke-width="5" marker-end="url(#arrowGray)" />
+  <text class="txt" x="1155" y="519" font-size="24" text-anchor="middle">Scene</text>
+  <text class="txt" x="1155" y="544" font-size="24" text-anchor="middle">Category</text>
+  <text class="txt" x="1155" y="570" font-size="24" text-anchor="middle">Output</text>
+  <rect x="1114" y="594" width="82" height="27" rx="10" fill="#e9968d" />
+  <text class="txt" x="1155" y="613" font-size="18" text-anchor="middle">Scene A</text>
+  <rect x="1114" y="627" width="82" height="27" rx="10" fill="#90cec9" />
+  <text class="txt" x="1155" y="646" font-size="18" text-anchor="middle">Scene B</text>
+  <rect x="1114" y="660" width="82" height="27" rx="10" fill="#e3c55d" />
+  <text class="txt" x="1155" y="679" font-size="18" text-anchor="middle">Scene C</text>
+  <path d="M1202,638 L1230,638" stroke="#555" stroke-width="5" marker-end="url(#arrowGray)" />
+
+  <text class="txt" x="1291" y="526" font-size="24" text-anchor="middle">Scheduling</text>
+  <text class="txt" x="1291" y="553" font-size="24" text-anchor="middle">Policy Table</text>
+  <rect x="1232" y="576" width="151" height="125" rx="14" fill="#fff6cc" stroke="#d4b849" stroke-width="2" />
+  <rect x="1245" y="598" width="126" height="80" fill="#fffbe5" stroke="#555" stroke-width="1.5" />
+  <line x1="1306" y1="598" x2="1306" y2="678" stroke="#555" stroke-width="1.3" />
+  <line x1="1245" y1="625" x2="1371" y2="625" stroke="#555" stroke-width="1.3" />
+  <line x1="1245" y1="651" x2="1371" y2="651" stroke="#555" stroke-width="1.3" />
+  <text class="txt" x="1275" y="616" font-size="16" text-anchor="middle">Scene A</text>
+  <text class="txt" x="1338" y="616" font-size="16" text-anchor="middle">Expert 1</text>
+  <text class="txt" x="1275" y="643" font-size="16" text-anchor="middle">Scene B</text>
+  <text class="txt" x="1338" y="643" font-size="16" text-anchor="middle">Expert 2</text>
+  <text class="txt" x="1275" y="670" font-size="16" text-anchor="middle">...</text>
+  <text class="txt" x="1338" y="670" font-size="16" text-anchor="middle">Expert 3</text>
+</svg>

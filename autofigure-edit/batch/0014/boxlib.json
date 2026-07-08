@@ -1,0 +1,25 @@
+{
+  "image_size": {
+    "width": 3840,
+    "height": 1596
+  },
+  "prompts_used": [
+    "icon",
+    "person",
+    "robot",
+    "animal"
+  ],
+  "boxes": [
+    {
+      "id": 0,
+      "label": "<AF>01",
+      "x1": 97,
+      "y1": 819,
+      "x2": 325,
+      "y2": 1090,
+      "score": 0.83203125,
+      "prompt": "animal"
+    }
+  ],
+  "no_icon_mode": false
+}

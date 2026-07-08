@@ -1,0 +1,259 @@
+<svg width="1956" height="984" viewBox="0 0 1956 984" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrowGray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#e8e8e8"/>
+    </marker>
+    <style>
+      .title{font-family:Arial, Helvetica, sans-serif;font-size:40px;font-weight:400;fill:#000}
+      .body{font-family:Arial, Helvetica, sans-serif;font-size:25px;fill:#000}
+      .mono{font-family:"Courier New", monospace;font-size:25px;fill:#000}
+      .teal{font-family:Arial, Helvetica, sans-serif;font-size:31px;font-weight:700;fill:#14799a}
+      .small{font-family:Arial, Helvetica, sans-serif;font-size:20px;fill:#000}
+      .dashPanel{fill:#fff;stroke:#eeeeee;stroke-width:4;stroke-dasharray:22 16}
+      .lvlm{fill:#dcebf7;stroke:#9cc3df;stroke-width:4}
+      .pill{fill:#f9dfd2}
+      .arrowFill{fill:#eeeeee}
+      .clipPill{fill:#d7f1cb;stroke:#88d873;stroke-width:4}
+      .clipText{font-family:Arial, Helvetica, sans-serif;font-size:22px;fill:#43843f}
+      .tblHead{fill:#78bfdf}
+      .tblCell{fill:#f0f0f0}
+      .check{font-family:Arial, Helvetica, sans-serif;font-weight:700;font-size:36px;fill:#65b63b}
+      .cross{font-family:Arial, Helvetica, sans-serif;font-weight:700;font-size:34px;fill:#e00000}
+    </style>
+  </defs>
+
+  <!-- Outer panels -->
+  <rect x="15" y="27" width="735" height="952" rx="28" class="dashPanel"/>
+  <rect x="789" y="27" width="1152" height="952" rx="28" class="dashPanel"/>
+
+  <!-- LEFT PANEL -->
+  <text x="390" y="79" text-anchor="middle" class="title">Offline Graph Construction</text>
+
+  <!-- pseudo video thumbnails -->
+  <g transform="translate(79 116)">
+    <rect width="131" height="97" fill="#c7d4c6"/>
+    <rect x="0" y="0" width="131" height="97" fill="#d7dfd0"/>
+    <ellipse cx="76" cy="20" rx="28" ry="17" fill="#f3f1e8"/>
+    <rect x="17" y="45" width="55" height="30" fill="#4a5967" transform="rotate(-18 45 60)"/>
+    <circle cx="50" cy="39" r="13" fill="#e7c5a9"/>
+    <rect x="84" y="41" width="13" height="48" fill="#252a30"/>
+    <path d="M0 76 C28 66,69 88,131 76 L131 97 L0 97 Z" fill="#7b6d5a"/>
+  </g>
+  <g transform="translate(231 116)">
+    <rect width="130" height="97" fill="#66517b"/>
+    <rect y="62" width="130" height="35" fill="#a9786d"/>
+    <circle cx="35" cy="34" r="9" fill="#f4c3a9"/>
+    <path d="M35 43 L26 75 M35 43 L45 74 M28 51 L18 37 M42 51 L57 40" stroke="#6bb3e5" stroke-width="5"/>
+    <circle cx="74" cy="32" r="9" fill="#f4c3a9"/>
+    <path d="M74 42 L68 73 M74 42 L86 72 M67 51 L54 42 M82 51 L96 39" stroke="#f0e35b" stroke-width="5"/>
+    <rect x="0" y="0" width="130" height="97" fill="none" stroke="#bfbfbf" stroke-width="1"/>
+  </g>
+  <text x="388" y="175" text-anchor="middle" class="body" font-weight="700">...</text>
+  <g transform="translate(411 116)">
+    <rect width="130" height="97" fill="#d5e0cd"/>
+    <rect y="66" width="130" height="31" fill="#c65538"/>
+    <rect x="7" y="16" width="117" height="51" fill="#5db070"/>
+    <circle cx="69" cy="28" r="12" fill="#d9b18c"/>
+    <path d="M69 40 L56 67 M69 40 L87 66 M58 49 L39 44 M81 48 L100 45" stroke="#d93f4b" stroke-width="6"/>
+    <circle cx="94" cy="28" r="10" fill="#f0d7bc"/>
+    <path d="M94 38 L99 67 M94 38 L77 67 M88 48 L77 40 M100 47 L115 36" stroke="#4c81d6" stroke-width="5"/>
+    <rect x="0" y="0" width="130" height="97" fill="none" stroke="#bfbfbf" stroke-width="1"/>
+  </g>
+  <g transform="translate(556 116)">
+    <rect width="130" height="97" fill="#020306"/>
+    <circle cx="78" cy="50" r="15" fill="#d8a07e"/>
+    <rect x="66" y="64" width="27" height="33" fill="#4b2d55"/>
+    <circle cx="62" cy="56" r="9" fill="#c57f61"/>
+    <circle cx="79" cy="52" r="27" fill="none" stroke="#b56a2a" stroke-width="7"/>
+    <circle cx="79" cy="52" r="14" fill="#0c0c0c"/>
+  </g>
+
+  <!-- Subtitles -->
+  <rect x="147" y="229" width="472" height="53" rx="24" class="pill"/>
+  <text x="383" y="265" text-anchor="middle" class="body">Subtitles</text>
+
+  <!-- down arrow -->
+  <path class="arrowFill" opacity="0.85" d="M355 294 h48 v28 h48 l-72 31 -72-31 h48z"/>
+
+  <!-- LVLM box left -->
+  <rect x="77" y="362" width="604" height="89" rx="12" class="lvlm"/>
+  <text x="379" y="420" text-anchor="middle" class="title" font-size="38">LVLM</text>
+
+  <!-- JSON text -->
+  <text x="126" y="493" class="mono">[{“entity”: “”, “description”: “”},</text>
+  <text x="351" y="525" class="mono">...</text>
+  <text x="136" y="557" class="mono">{“entity”: “”, “description”: “”}]</text>
+
+  <rect x="73" y="579" width="609" height="61" class="pill"/>
+  <text x="377" y="619" text-anchor="middle" class="body">Entity Merging and Node Connection</text>
+
+  <!-- graph connections -->
+  <g opacity="0.95">
+    <line x1="105" y1="716" x2="236" y2="687" stroke="#cfcfcf" stroke-width="4"/>
+    <line x1="236" y1="687" x2="279" y2="820" stroke="#efefef" stroke-width="4" stroke-dasharray="12 16"/>
+    <line x1="105" y1="716" x2="139" y2="823" stroke="#efefef" stroke-width="4" stroke-dasharray="12 16"/>
+    <line x1="330" y1="724" x2="557" y2="683" stroke="#cfcfcf" stroke-width="4"/>
+    <line x1="330" y1="724" x2="396" y2="810" stroke="#cfcfcf" stroke-width="4"/>
+    <line x1="396" y1="810" x2="494" y2="813" stroke="#efefef" stroke-width="4" stroke-dasharray="12 16"/>
+    <line x1="557" y1="683" x2="625" y2="827" stroke="#cfcfcf" stroke-width="4"/>
+    <line x1="557" y1="683" x2="653" y2="713" stroke="#efefef" stroke-width="4" stroke-dasharray="12 16"/>
+    <line x1="557" y1="683" x2="452" y2="750" stroke="#efefef" stroke-width="4" stroke-dasharray="12 16"/>
+  </g>
+  <!-- nodes -->
+  <g>
+    <rect x="89" y="700" width="33" height="33" rx="6" fill="#d8f4ca" stroke="#83d86e" stroke-width="4"/>
+    <rect x="219" y="670" width="33" height="33" rx="6" fill="#d8f4ca" stroke="#83d86e" stroke-width="4"/>
+    <rect x="313" y="708" width="33" height="33" rx="6" fill="#d8f4ca" stroke="#83d86e" stroke-width="4"/>
+    <rect x="380" y="793" width="33" height="33" rx="6" fill="#d8f4ca" stroke="#83d86e" stroke-width="4"/>
+    <rect x="541" y="666" width="33" height="33" rx="6" fill="#d8f4ca" stroke="#83d86e" stroke-width="4"/>
+    <rect x="608" y="809" width="33" height="33" rx="6" fill="#d8f4ca" stroke="#83d86e" stroke-width="4"/>
+
+    <path d="M188 748 L211 777 L165 777 Z" fill="#d9ebf8" stroke="#9bc6e4" stroke-width="4"/>
+    <path d="M139 807 L162 838 L115 838 Z" fill="#d9ebf8" stroke="#9bc6e4" stroke-width="4"/>
+    <rect x="267" y="803" width="33" height="33" fill="#d9ebf8" stroke="#9bc6e4" stroke-width="4"/>
+    <rect x="437" y="732" width="33" height="33" fill="#d9ebf8" stroke="#9bc6e4" stroke-width="4"/>
+    <path d="M548 742 L571 772 L524 772 Z" fill="#d9ebf8" stroke="#9bc6e4" stroke-width="4"/>
+    <rect x="636" y="696" width="33" height="33" fill="#d9ebf8" stroke="#9bc6e4" stroke-width="4"/>
+    <path d="M493 798 L516 829 L470 829 Z" fill="#efd1ef" stroke="#d890d5" stroke-width="4"/>
+  </g>
+
+  <!-- legend -->
+  <text x="92" y="935" class="body" font-size="24">Video Clip</text>
+  <rect x="226" y="911" width="33" height="33" rx="6" fill="#d8f4ca" stroke="#83d86e" stroke-width="4"/>
+  <text x="331" y="935" class="body" font-size="24">Entities (</text>
+  <path d="M470 911 L493 942 L447 942 Z" fill="#efd1ef" stroke="#d890d5" stroke-width="4"/>
+  <rect x="518" y="911" width="36" height="36" fill="#d9ebf8" stroke="#9bc6e4" stroke-width="4"/>
+  <path d="M603 910 L628 942 L578 942 Z" fill="#d9ebf8" stroke="#9bc6e4" stroke-width="4"/>
+  <text x="651" y="935" class="body" font-size="24">)</text>
+
+  <!-- RIGHT PANEL -->
+  <text x="1365" y="81" text-anchor="middle" class="title">Retrieval-Reasoning Augmented Generation</text>
+
+  <!-- question -->
+  <text x="858" y="131" font-size="38">🤔</text>
+  <text x="908" y="132" class="body">Question: Please identify the option that corresponds to the order of events as they</text>
+  <text x="853" y="169" class="body">occur in the video. [Zumba, clean and jerk, milking cow, playing trombone]</text>
+
+  <!-- pale arrows under question -->
+  <path class="pill" opacity="0.75" d="M1044 184 h57 l-28 17 v12 h28 l-57 30 l-57-30 h28 v-12z"/>
+  <path class="pill" opacity="0.75" d="M1570 184 h57 l-28 17 v12 h28 l-57 30 l-57-30 h28 v-12z"/>
+
+  <!-- headings and text -->
+  <text x="1038" y="252" text-anchor="middle" class="teal">Query Keywords Extraction</text>
+  <text x="864" y="286" class="mono">[“zumba”, “clean”, “milking</text>
+  <text x="876" y="318" class="mono">cow”, “playing trombone”]</text>
+
+  <text x="1570" y="252" text-anchor="middle" class="teal">Structured Query Refinement</text>
+  <text x="1343" y="282" class="mono">Q1: Is ‘zumba’ shown in the video?</text>
+  <text x="1596" y="310" class="mono">...</text>
+  <text x="1343" y="331" class="mono">Q4: Is ‘trombone’ shown in the video?</text>
+
+  <!-- grey retrieval path -->
+  <path d="M1612 352 L1612 428 L1137 428" fill="none" stroke="#e8e8e8" stroke-width="9" marker-end="url(#arrowGray)"/>
+  <path d="M944 382 L766 382 L766 745 L695 745" fill="none" stroke="#e8e8e8" stroke-width="9" marker-end="url(#arrowGray)"/>
+  <text x="811" y="416" class="small">Graph-based</text>
+  <text x="811" y="443" class="small">Clip Retrieval</text>
+
+  <!-- clip pills row -->
+  <g transform="translate(960 359)">
+    <rect x="0" y="0" width="34" height="34" rx="7" class="clipPill"/><text x="17" y="25" text-anchor="middle" class="clipText">3</text>
+    <rect x="45" y="0" width="34" height="34" rx="7" class="clipPill"/><text x="62" y="25" text-anchor="middle" class="clipText">4</text>
+    <rect x="90" y="0" width="34" height="34" rx="7" class="clipPill"/><text x="107" y="25" text-anchor="middle" class="clipText">5</text>
+    <rect x="135" y="0" width="34" height="34" rx="7" class="clipPill"/><text x="152" y="25" text-anchor="middle" class="clipText">11</text>
+    <rect x="180" y="0" width="34" height="34" rx="7" class="clipPill"/><text x="197" y="25" text-anchor="middle" class="clipText">13</text>
+  </g>
+
+  <path class="pill" opacity="0.75" d="M1044 410 h57 l-28 17 v12 h28 l-57 30 l-57-30 h28 v-12z"/>
+
+  <!-- retrieval table -->
+  <g transform="translate(886 468)">
+    <rect x="0" y="0" width="90" height="40" class="tblHead" stroke="#fff" stroke-width="3"/>
+    <rect x="90" y="0" width="72" height="40" class="tblHead" stroke="#fff" stroke-width="3"/>
+    <rect x="162" y="0" width="72" height="40" class="tblHead" stroke="#fff" stroke-width="3"/>
+    <rect x="234" y="0" width="72" height="40" class="tblHead" stroke="#fff" stroke-width="3"/>
+    <rect x="306" y="0" width="72" height="40" class="tblHead" stroke="#fff" stroke-width="3"/>
+    <text x="45" y="27" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#fff">Clip</text>
+    <text x="126" y="27" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#fff">Q1</text>
+    <text x="198" y="27" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#fff">Q2</text>
+    <text x="270" y="27" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#fff">Q3</text>
+    <text x="342" y="27" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#fff">Q4</text>
+
+    <!-- rows -->
+    <g font-family="Arial" font-size="22">
+      <rect x="0" y="40" width="90" height="37" class="tblCell" stroke="#fff" stroke-width="3"/>
+      <rect x="90" y="40" width="72" height="37" class="tblCell" stroke="#fff" stroke-width="3"/>
+      <rect x="162" y="40" width="72" height="37" class="tblCell" stroke="#fff" stroke-width="3"/>
+      <rect x="234" y="40" width="72" height="37" class="tblCell" stroke="#fff" stroke-width="3"/>
+      <rect x="306" y="40" width="72" height="37" class="tblCell" stroke="#fff" stroke-width="3"/>
+      <text x="45" y="66" text-anchor="middle">3</text><text x="126" y="68" text-anchor="middle" class="cross">✗</text><text x="198" y="68" text-anchor="middle" class="cross">✗</text><text x="270" y="70" text-anchor="middle" class="check">✓</text><text x="342" y="68" text-anchor="middle" class="cross">✗</text>
+
+      <rect x="0" y="77" width="90" height="37" class="tblCell" stroke="#fff" stroke-width="3"/>
+      <rect x="90" y="77" width="72" height="37" class="tblCell" stroke="#fff" stroke-width="3"/>
+      <rect x="162" y="77" width="72" height="37" class="tblCell" stroke="#fff" stroke-width="3"/>
+      <rect x="234" y="77" width="72" height="37" class="tblCell" stroke="#fff" stroke-width="3"/>
+      <rect x="306" y="77" width="72" height="37" class="tblCell" stroke="#fff" stroke-width="3"/>
+      <text x="45" y="103" text-anchor="middle">4</text><text x="126" y="107" text-anchor="middle" class="check">✓</text><text x="198" y="105" text-anchor="middle" class="cross">✗</text><text x="270" y="107" text-anchor="middle" class="check">✓</text><text x="342" y="105" text-anchor="middle" class="cross">✗</text>
+
+      <rect x="0" y="114" width="90" height="37" class="tblCell" stroke="#fff" stroke-width="3"/>
+      <rect x="90" y="114" width="72" height="37" class="tblCell" stroke="#fff" stroke-width="3"/>
+      <rect x="162" y="114" width="72" height="37" class="tblCell" stroke="#fff" stroke-width="3"/>
+      <rect x="234" y="114" width="72" height="37" class="tblCell" stroke="#fff" stroke-width="3"/>
+      <rect x="306" y="114" width="72" height="37" class="tblCell" stroke="#fff" stroke-width="3"/>
+      <text x="45" y="140" text-anchor="middle">5</text><text x="126" y="142" text-anchor="middle" class="cross">✗</text><text x="198" y="142" text-anchor="middle" class="cross">✗</text><text x="270" y="142" text-anchor="middle" class="cross">✗</text><text x="342" y="142" text-anchor="middle" class="cross">✗</text>
+
+      <rect x="0" y="151" width="90" height="37" class="tblCell" stroke="#fff" stroke-width="3"/>
+      <rect x="90" y="151" width="72" height="37" class="tblCell" stroke="#fff" stroke-width="3"/>
+      <rect x="162" y="151" width="72" height="37" class="tblCell" stroke="#fff" stroke-width="3"/>
+      <rect x="234" y="151" width="72" height="37" class="tblCell" stroke="#fff" stroke-width="3"/>
+      <rect x="306" y="151" width="72" height="37" class="tblCell" stroke="#fff" stroke-width="3"/>
+      <text x="45" y="177" text-anchor="middle">11</text><text x="126" y="179" text-anchor="middle" class="cross">✗</text><text x="198" y="183" text-anchor="middle" class="check">✓</text><text x="270" y="179" text-anchor="middle" class="cross">✗</text><text x="342" y="179" text-anchor="middle" class="cross">✗</text>
+
+      <rect x="0" y="188" width="90" height="37" class="tblCell" stroke="#fff" stroke-width="3"/>
+      <rect x="90" y="188" width="72" height="37" class="tblCell" stroke="#fff" stroke-width="3"/>
+      <rect x="162" y="188" width="72" height="37" class="tblCell" stroke="#fff" stroke-width="3"/>
+      <rect x="234" y="188" width="72" height="37" class="tblCell" stroke="#fff" stroke-width="3"/>
+      <rect x="306" y="188" width="72" height="37" class="tblCell" stroke="#fff" stroke-width="3"/>
+      <text x="45" y="214" text-anchor="middle">13</text><text x="126" y="216" text-anchor="middle" class="cross">✗</text><text x="198" y="216" text-anchor="middle" class="cross">✗</text><text x="270" y="216" text-anchor="middle" class="cross">✗</text><text x="342" y="218" text-anchor="middle" class="check">✓</text>
+    </g>
+  </g>
+
+  <!-- right arrow to info -->
+  <path class="pill" opacity="0.9" d="M1313 553 h40 v-28 l66 59 l-66 59 v-29 h-40z"/>
+
+  <!-- Information aggregation -->
+  <text x="1611" y="510" text-anchor="middle" class="teal">Information Aggregation</text>
+  <rect x="1430" y="537" width="428" height="160" fill="white" stroke="#c85d17" stroke-width="4" stroke-dasharray="14 12"/>
+  <text x="1446" y="574" class="mono">Milking cow is shown first,</text>
+  <text x="1446" y="609" class="mono">followed by zumba, then</text>
+  <text x="1446" y="644" class="mono">clean, and finally playing</text>
+  <text x="1446" y="679" class="mono">trombone.</text>
+
+  <!-- refined clips -->
+  <text x="1075" y="758" text-anchor="middle" class="small">Refined Clips</text>
+  <g transform="translate(990 775)">
+    <rect x="0" y="0" width="34" height="34" rx="7" class="clipPill"/><text x="17" y="25" text-anchor="middle" class="clipText">3</text>
+    <rect x="44" y="0" width="34" height="34" rx="7" class="clipPill"/><text x="61" y="25" text-anchor="middle" class="clipText">4</text>
+    <rect x="88" y="0" width="34" height="34" rx="7" class="clipPill"/><text x="105" y="25" text-anchor="middle" class="clipText">11</text>
+    <rect x="132" y="0" width="34" height="34" rx="7" class="clipPill"/><text x="149" y="25" text-anchor="middle" class="clipText">13</text>
+  </g>
+
+  <!-- down arrow to LVLM -->
+  <path class="arrowFill" opacity="0.9" d="M1589 722 h39 v43 h43 l-62 47 l-62-47 h42z"/>
+
+  <!-- LVLM right box -->
+  <rect x="844" y="835" width="1057" height="73" rx="10" class="lvlm"/>
+  <text x="1373" y="884" text-anchor="middle" class="title" font-size="34">LVLM</text>
+
+  <!-- robot icon and answer -->
+  <g transform="translate(852 917)">
+    <rect x="6" y="16" width="45" height="32" rx="7" fill="#dcebf7" stroke="#1d2e83" stroke-width="3"/>
+    <rect x="-2" y="23" width="8" height="18" rx="2" fill="#dcebf7" stroke="#1d2e83" stroke-width="3"/>
+    <rect x="51" y="23" width="8" height="18" rx="2" fill="#dcebf7" stroke="#1d2e83" stroke-width="3"/>
+    <line x1="29" y1="16" x2="29" y2="3" stroke="#1d2e83" stroke-width="3"/>
+    <circle cx="29" cy="2" r="4" fill="#ff3aa7" stroke="#1d2e83" stroke-width="2"/>
+    <circle cx="19" cy="30" r="4" fill="#1d2e83"/>
+    <circle cx="39" cy="30" r="4" fill="#1d2e83"/>
+    <path d="M21 39 Q29 44 38 39" fill="none" stroke="#1d2e83" stroke-width="3"/>
+  </g>
+  <text x="936" y="952" class="body">Answer: milking cow --&gt; zumba --&gt; clean and jerk --&gt; playing trombone</text>
+</svg>

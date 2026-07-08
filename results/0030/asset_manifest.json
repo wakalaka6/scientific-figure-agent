@@ -1,0 +1,146 @@
+[
+  {
+    "slot_id": "slot_training_subject_icons",
+    "filename": "assets/svg_candidate/slot_training_subject_icons.png",
+    "canonical_slot_id": "slot_training_subject_icons",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "training_subject_icons",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      84,
+      134,
+      124,
+      112
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "subject faces and question marks"
+  },
+  {
+    "slot_id": "slot_training_fmri_subjects",
+    "filename": "assets/svg_candidate/slot_training_fmri_subjects.png",
+    "canonical_slot_id": "slot_training_fmri_subjects",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "training_fmri_subjects",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      47,
+      391,
+      176,
+      258
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "fMRI monitor and training subject group illustration"
+  },
+  {
+    "slot_id": "slot_semantic_category_icons",
+    "filename": "assets/svg_candidate/slot_semantic_category_icons.png",
+    "canonical_slot_id": "slot_semantic_category_icons",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "semantic_category_icons",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      1434,
+      145,
+      113,
+      91
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "semantic category icons including animals and people"
+  },
+  {
+    "slot_id": "slot_visual_stimuli_stack",
+    "filename": "assets/raster_required/slot_visual_stimuli_stack.png",
+    "canonical_slot_id": "slot_visual_stimuli_stack",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "visual_stimuli_stack",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      1412,
+      522,
+      144,
+      92
+    ],
+    "classification": "raster_required",
+    "reason": "from first-pass asset detection kind=pixel_image",
+    "asset_hash": "",
+    "description": "stacked visual stimulus image thumbnails"
+  },
+  {
+    "slot_id": "slot_decoder_fmri_monitor",
+    "filename": "assets/svg_candidate/slot_decoder_fmri_monitor.png",
+    "canonical_slot_id": "slot_decoder_fmri_monitor",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "fmri_monitor",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      735,
+      596,
+      86,
+      78
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "fMRI monitor icon"
+  },
+  {
+    "slot_id": "slot_test_unseen_subject",
+    "filename": "assets/svg_candidate/slot_test_unseen_subject.png",
+    "canonical_slot_id": "slot_test_unseen_subject",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "test_unseen_subject",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      63,
+      827,
+      137,
+      144
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "test unseen subject portrait"
+  },
+  {
+    "slot_id": "slot_inference_fmri_monitor",
+    "filename": "assets/svg_candidate/slot_inference_fmri_monitor.png",
+    "canonical_slot_id": "slot_inference_fmri_monitor",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "fmri_monitor",
+    "vlm_duplicate_of": "fmri_monitor",
+    "bbox_xywh": [
+      194,
+      824,
+      94,
+      75
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "fMRI monitor icon"
+  },
+  {
+    "slot_id": "slot_reconstructed_images",
+    "filename": "assets/raster_required/slot_reconstructed_images.png",
+    "canonical_slot_id": "slot_reconstructed_images",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "reconstructed_images",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      1420,
+      832,
+      151,
+      116
+    ],
+    "classification": "raster_required",
+    "reason": "from first-pass asset detection kind=pixel_image",
+    "asset_hash": "",
+    "description": "stacked reconstructed image thumbnails"
+  }
+]

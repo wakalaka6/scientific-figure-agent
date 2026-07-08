@@ -1,0 +1,110 @@
+[
+  {
+    "slot_id": "slot_video_clip_1",
+    "filename": "assets/raster_required/slot_video_clip_1.png",
+    "canonical_slot_id": "slot_video_clip_1",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "video_clip_1",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      65,
+      95,
+      107,
+      78
+    ],
+    "classification": "raster_required",
+    "reason": "from first-pass asset detection kind=pixel_image",
+    "asset_hash": "",
+    "description": "video thumbnail of milking cow"
+  },
+  {
+    "slot_id": "slot_video_clip_2",
+    "filename": "assets/raster_required/slot_video_clip_2.png",
+    "canonical_slot_id": "slot_video_clip_2",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "video_clip_2",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      188,
+      95,
+      107,
+      78
+    ],
+    "classification": "raster_required",
+    "reason": "from first-pass asset detection kind=pixel_image",
+    "asset_hash": "",
+    "description": "video thumbnail of zumba dance"
+  },
+  {
+    "slot_id": "slot_video_clip_3",
+    "filename": "assets/raster_required/slot_video_clip_3.png",
+    "canonical_slot_id": "slot_video_clip_3",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "video_clip_3",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      337,
+      95,
+      107,
+      78
+    ],
+    "classification": "raster_required",
+    "reason": "from first-pass asset detection kind=pixel_image",
+    "asset_hash": "",
+    "description": "video thumbnail of clean and jerk"
+  },
+  {
+    "slot_id": "slot_video_clip_4",
+    "filename": "assets/raster_required/slot_video_clip_4.png",
+    "canonical_slot_id": "slot_video_clip_4",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "video_clip_4",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      454,
+      95,
+      107,
+      78
+    ],
+    "classification": "raster_required",
+    "reason": "from first-pass asset detection kind=pixel_image",
+    "asset_hash": "",
+    "description": "video thumbnail of playing trombone"
+  },
+  {
+    "slot_id": "slot_thinking_emoji",
+    "filename": "assets/svg_candidate/slot_thinking_emoji.png",
+    "canonical_slot_id": "slot_thinking_emoji",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "thinking_emoji",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      699,
+      82,
+      37,
+      37
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "thinking face emoji icon"
+  },
+  {
+    "slot_id": "slot_answer_robot_icon",
+    "filename": "assets/svg_candidate/slot_answer_robot_icon.png",
+    "canonical_slot_id": "slot_answer_robot_icon",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "answer_robot_icon",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      697,
+      748,
+      47,
+      42
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "robot assistant icon"
+  }
+]

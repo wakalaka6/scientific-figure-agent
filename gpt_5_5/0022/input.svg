@@ -1,0 +1,373 @@
+<svg width="1805" height="1043" viewBox="0 0 1805 1043" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="3" dy="3" stdDeviation="4" flood-color="#000" flood-opacity=".28"/>
+    </filter>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity=".18"/>
+    </filter>
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="4" seed="7"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncR type="linear" slope=".85" intercept=".1"/>
+        <feFuncG type="linear" slope=".85" intercept=".1"/>
+        <feFuncB type="linear" slope=".85" intercept=".1"/>
+      </feComponentTransfer>
+    </filter>
+    <marker id="arrBlack" markerWidth="12" markerHeight="10" refX="10" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#333"/>
+    </marker>
+    <marker id="arrBlue" markerWidth="11" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#4b72ad"/>
+    </marker>
+    <marker id="arrGreen" markerWidth="11" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#268443"/>
+    </marker>
+    <marker id="arrRed" markerWidth="11" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#c01850"/>
+    </marker>
+    <marker id="arrYellow" markerWidth="11" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#ffb000"/>
+    </marker>
+    <linearGradient id="photoBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e7c4e0"/>
+      <stop offset=".45" stop-color="#f2d8ea"/>
+      <stop offset="1" stop-color="#d3a0d8"/>
+    </linearGradient>
+    <linearGradient id="photoBg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#edd0e8"/>
+      <stop offset=".55" stop-color="#f7e3f1"/>
+      <stop offset="1" stop-color="#c98fd0"/>
+    </linearGradient>
+    <style>
+      .label{font-family:"Courier New",monospace;font-weight:800;font-size:29px;fill:#242424;letter-spacing:.5px}
+      .smallLabel{font-family:"Courier New",monospace;font-weight:800;font-size:26px;fill:#242424}
+      .netTitle{font-family:"Courier New",monospace;font-weight:800;font-size:30px;fill:#151515}
+      .encText{font-family:"Courier New",monospace;font-weight:800;font-size:34px;fill:#222}
+      .arrow{stroke:#333;stroke-width:4;fill:none;marker-end:url(#arrBlack)}
+      .line{stroke:#333;stroke-width:4;fill:none}
+      .gline{stroke:#268443;stroke-width:4;fill:none;marker-end:url(#arrGreen)}
+      .bline{stroke:#4b72ad;stroke-width:4;fill:none;marker-end:url(#arrBlue)}
+      .rline{stroke:#c01850;stroke-width:4;fill:none;marker-end:url(#arrRed)}
+      .yline{stroke:#ffb000;stroke-width:4;fill:none;marker-end:url(#arrYellow);stroke-dasharray:8 6}
+      .block{stroke:#666;stroke-width:3;filter:url(#softShadow)}
+      .blue{fill:#8ba1ce}
+      .green{fill:#c7dfcf}
+      .orange{fill:#f3c59f}
+      .dash{stroke:#6a6a6a;stroke-width:3;stroke-dasharray:10 8;fill:none}
+    </style>
+  </defs>
+
+  <rect width="1805" height="1043" fill="#fff"/>
+
+  <!-- LEFT INPUTS -->
+  <g id="ref-pose">
+    <rect x="10" y="28" width="210" height="210" fill="#000" filter="url(#shadow)"/>
+    <!-- green skeleton -->
+    <g stroke="#00d735" stroke-width="2.2" fill="none" stroke-linecap="round">
+      <circle cx="78" cy="82" r="3"/>
+      <path d="M78 85 L73 102 L69 129 L73 170 L70 207"/>
+      <path d="M73 102 L62 102 L57 144"/>
+      <path d="M73 102 L89 104 L98 144"/>
+      <path d="M69 129 L88 129 L91 174 L88 207"/>
+      <path d="M73 170 L76 207"/>
+      <path d="M71 81 C76 73 82 73 86 80"/>
+      <path d="M69 80 C63 82 62 88 62 94"/>
+    </g>
+    <!-- red skeleton -->
+    <g stroke="#e32d10" stroke-width="2.2" fill="none" stroke-linecap="round">
+      <circle cx="153" cy="87" r="3"/>
+      <path d="M153 90 L148 108 L145 137 L149 166 L148 199"/>
+      <path d="M148 108 L138 108 L133 143"/>
+      <path d="M148 108 L166 108 L175 143"/>
+      <path d="M145 137 L161 140 L166 170 L164 197"/>
+      <path d="M149 166 L154 200"/>
+      <path d="M145 85 C150 79 157 80 162 85"/>
+    </g>
+    <text x="47" y="264" class="label">Ref Pose</text>
+  </g>
+
+  <g id="ref-img">
+    <rect x="10" y="282" width="210" height="205" fill="url(#photoBg)" filter="url(#shadow)"/>
+    <rect x="10" y="455" width="210" height="32" fill="#e7c5df" opacity=".75"/>
+    <!-- left dancer -->
+    <g>
+      <ellipse cx="78" cy="343" rx="13" ry="15" fill="#f5c6b7"/>
+      <path d="M64 327 C74 305 91 318 93 348 C84 338 73 338 64 327" fill="#b85058" opacity=".75"/>
+      <path d="M67 358 C82 348 91 358 92 387 L65 389 C61 374 61 366 67 358Z" fill="#f7eff3"/>
+      <path d="M64 387 L97 387 L93 443 L73 443 Z" fill="#fb5d69"/>
+      <path d="M77 443 L73 467 M92 443 L99 467" stroke="#f1b5a7" stroke-width="7" stroke-linecap="round"/>
+      <path d="M65 362 L53 400 M92 365 L106 399" stroke="#f1b5a7" stroke-width="6" stroke-linecap="round"/>
+    </g>
+    <!-- right dancer -->
+    <g>
+      <ellipse cx="148" cy="344" rx="13" ry="15" fill="#f0b8a8"/>
+      <path d="M132 328 C143 307 163 319 165 352 C154 336 143 336 132 328" fill="#4a1821" opacity=".85"/>
+      <path d="M134 360 C148 350 160 359 166 389 L132 389 C128 374 128 367 134 360Z" fill="#fde8ed"/>
+      <path d="M132 389 L166 389 L162 415 L136 415 Z" fill="#111"/>
+      <path d="M139 415 L135 462 M158 415 L169 461" stroke="#f0b8a8" stroke-width="7" stroke-linecap="round"/>
+      <path d="M132 363 L118 398 M164 365 L179 400" stroke="#f0b8a8" stroke-width="6" stroke-linecap="round"/>
+      <path d="M136 462 L123 462 M169 461 L181 461" stroke="#111" stroke-width="6" stroke-linecap="round"/>
+    </g>
+    <text x="53" y="517" class="label">Ref Img</text>
+  </g>
+
+  <g id="target-pose">
+    <!-- stack -->
+    <rect x="30" y="572" width="190" height="190" fill="#111" stroke="#555" stroke-width="3"/>
+    <rect x="24" y="567" width="190" height="190" fill="#050505" stroke="#555" stroke-width="3"/>
+    <rect x="18" y="562" width="190" height="190" fill="#030303" stroke="#555" stroke-width="3"/>
+    <rect x="10" y="556" width="190" height="190" fill="#000" filter="url(#shadow)"/>
+    <g stroke="#ff3519" stroke-width="2" fill="none" stroke-linecap="round">
+      <circle cx="82" cy="625" r="3"/>
+      <path d="M82 628 L75 656 L54 690 L64 733"/>
+      <path d="M75 656 L43 668 L38 640"/>
+      <path d="M75 656 L104 676"/>
+      <path d="M54 690 L48 720"/>
+      <path d="M54 690 L90 660 L115 718"/>
+      <path d="M82 628 L95 628"/>
+    </g>
+    <g stroke="#00d735" stroke-width="2" fill="none" stroke-linecap="round">
+      <circle cx="149" cy="635" r="3"/>
+      <path d="M149 638 L140 667 L132 701 L137 738"/>
+      <path d="M140 667 L113 654 L103 629"/>
+      <path d="M140 667 L170 676 L190 661"/>
+      <path d="M132 701 L124 742"/>
+      <path d="M132 701 L162 695 L179 737"/>
+      <path d="M149 638 L159 633"/>
+    </g>
+    <text x="47" y="812" class="label">Tgt Pose</text>
+    <path d="M205 797 L242 759" stroke="#333" stroke-width="4" marker-end="url(#arrBlack)"/>
+    <path d="M230 781 L244 794" stroke="#333" stroke-width="4"/>
+    <path d="M221 791 L235 804" stroke="#333" stroke-width="4"/>
+  </g>
+
+  <g id="noise">
+    <text x="222" y="856" class="label">Noise</text>
+    <rect x="204" y="872" width="130" height="130" fill="#999" stroke="#555" stroke-width="3" filter="url(#noise)"/>
+    <rect x="195" y="881" width="130" height="130" fill="#999" stroke="#555" stroke-width="3" filter="url(#noise)"/>
+    <rect x="185" y="890" width="130" height="130" fill="#999" stroke="#555" stroke-width="3" filter="url(#noise)"/>
+  </g>
+
+  <!-- ENCODERS -->
+  <g id="encoders">
+    <path d="M293 58 L386 95 L386 169 L293 207 Z" fill="#f8f8f8" stroke="#555" stroke-width="3" filter="url(#softShadow)"/>
+    <text x="297" y="121" class="encText">Pose</text><text x="306" y="166" class="encText">Enc</text>
+
+    <path d="M293 225 L386 263 L386 333 L293 372 Z" fill="#f8f8f8" stroke="#555" stroke-width="3" filter="url(#softShadow)"/>
+    <text x="309" y="291" class="encText">VAE</text><text x="309" y="335" class="encText">Enc</text>
+
+    <path d="M293 393 L386 430 L386 502 L293 541 Z" fill="#f8f8f8" stroke="#555" stroke-width="3" filter="url(#softShadow)"/>
+    <text x="299" y="476" class="encText">CLIP</text>
+
+    <path d="M293 614 L386 651 L386 722 L293 761 Z" fill="#f8f8f8" stroke="#555" stroke-width="3" filter="url(#softShadow)"/>
+    <text x="299" y="678" class="encText">Pose</text><text x="309" y="723" class="encText">Enc</text>
+  </g>
+
+  <!-- left wiring -->
+  <path d="M220 132 L290 132" class="arrow"/>
+  <path d="M220 383 L255 383 L255 300 L290 300" class="arrow"/>
+  <path d="M220 383 L255 383 L255 466 L290 466" class="arrow"/>
+  <path d="M220 688 L290 688" class="arrow"/>
+  <path d="M315 955 L455 955 L455 705" class="line"/>
+  <path d="M386 132 L455 132 L455 188" class="line"/>
+  <path d="M386 300 L455 300 L455 242" class="line"/>
+  <path d="M386 688 L424 688" class="line"/>
+  <circle cx="455" cy="215" r="20" fill="#fff" stroke="#333" stroke-width="4"/>
+  <path d="M435 215 L475 215 M455 194 L455 236" stroke="#333" stroke-width="4"/>
+  <circle cx="455" cy="688" r="20" fill="#fff" stroke="#333" stroke-width="4"/>
+  <path d="M435 688 L475 688 M455 667 L455 709" stroke="#333" stroke-width="4"/>
+  <path d="M475 215 L530 215" class="arrow"/>
+  <path d="M475 688 L530 688" class="arrow"/>
+
+  <!-- NETWORK BACKGROUNDS -->
+  <g opacity=".88" filter="url(#softShadow)">
+    <path d="M530 25 L960 127 L960 303 L530 405 Z" fill="#d6e1f6"/>
+    <path d="M960 127 L1400 25 L1400 405 L960 303 Z" fill="#d6e1f6"/>
+    <path d="M530 495 L960 597 L960 793 L530 895 Z" fill="#fdebdc"/>
+    <path d="M960 597 L1400 495 L1400 895 L960 793 Z" fill="#fdebdc"/>
+  </g>
+  <text x="852" y="74" class="netTitle">ReferenceNet</text>
+  <text x="852" y="552" class="netTitle">DenoisingNet</text>
+
+  <!-- MODULE BLOCKS -->
+  <g id="modules">
+    <!-- top 1 -->
+    <rect x="565" y="105" width="33" height="220" rx="6" class="block blue"/>
+    <rect x="607" y="105" width="33" height="220" rx="6" class="block green"/>
+    <!-- top 2 -->
+    <rect x="773" y="153" width="33" height="127" rx="6" class="block blue"/>
+    <rect x="814" y="153" width="33" height="127" rx="6" class="block green"/>
+    <!-- top 3 -->
+    <rect x="1050" y="153" width="33" height="127" rx="6" class="block blue"/>
+    <rect x="1091" y="153" width="33" height="127" rx="6" class="block green"/>
+    <!-- top 4 -->
+    <rect x="1258" y="107" width="33" height="220" rx="6" class="block blue"/>
+    <rect x="1299" y="107" width="33" height="220" rx="6" class="block green"/>
+
+    <!-- bottom 1 -->
+    <rect x="565" y="575" width="33" height="220" rx="6" class="block blue"/>
+    <rect x="607" y="575" width="33" height="220" rx="6" class="block green"/>
+    <rect x="648" y="575" width="33" height="220" rx="6" class="block orange"/>
+    <!-- bottom 2 -->
+    <rect x="773" y="624" width="33" height="127" rx="6" class="block blue"/>
+    <rect x="814" y="624" width="33" height="127" rx="6" class="block green"/>
+    <rect x="855" y="624" width="33" height="127" rx="6" class="block orange"/>
+    <!-- bottom 3 -->
+    <rect x="1050" y="624" width="33" height="127" rx="6" class="block blue"/>
+    <rect x="1091" y="624" width="33" height="127" rx="6" class="block green"/>
+    <rect x="1132" y="624" width="33" height="127" rx="6" class="block orange"/>
+    <!-- bottom 4 -->
+    <rect x="1258" y="575" width="33" height="220" rx="6" class="block blue"/>
+    <rect x="1299" y="575" width="33" height="220" rx="6" class="block green"/>
+    <rect x="1340" y="575" width="33" height="220" rx="6" class="block orange"/>
+
+    <text x="681" y="226" class="label" fill="#555">...</text>
+    <text x="938" y="226" class="label" fill="#555">...</text>
+    <text x="1170" y="226" class="label" fill="#555">...</text>
+    <text x="681" y="698" class="label" fill="#555">...</text>
+    <text x="938" y="698" class="label" fill="#555">...</text>
+    <text x="1170" y="698" class="label" fill="#555">...</text>
+  </g>
+
+  <!-- cross-attn green bus from CLIP -->
+  <path d="M386 466 L1317 466" stroke="#268443" stroke-width="4" fill="none"/>
+  <circle cx="586" cy="466" r="11" fill="#f6fbf6" stroke="#268443" stroke-width="3"/>
+  <circle cx="793" cy="466" r="11" fill="#f6fbf6" stroke="#268443" stroke-width="3"/>
+  <circle cx="1067" cy="466" r="11" fill="#f6fbf6" stroke="#268443" stroke-width="3"/>
+  <circle cx="1280" cy="466" r="11" fill="#f6fbf6" stroke="#268443" stroke-width="3"/>
+
+  <!-- green vertical arrows -->
+  <path d="M622 466 L622 328" class="gline"/>
+  <path d="M622 466 L622 572" class="gline"/>
+  <path d="M830 466 L830 282" class="gline"/>
+  <path d="M830 466 L830 621" class="gline"/>
+  <path d="M1108 466 L1108 282" class="gline"/>
+  <path d="M1108 466 L1108 621" class="gline"/>
+  <path d="M1316 466 L1316 328" class="gline"/>
+  <path d="M1316 466 L1316 572" class="gline"/>
+
+  <!-- blue intermediate feature transfers -->
+  <path d="M580 325 L580 456 L580 456 L580 572" class="bline"/>
+  <path d="M789 280 L789 456 L789 456 L789 621" class="bline"/>
+  <path d="M1066 280 L1066 456 L1066 456 L1066 621" class="bline"/>
+  <path d="M1275 327 L1275 456 L1275 456 L1275 572" class="bline"/>
+  <path d="M580 456 C586 462 586 470 580 476" stroke="#4b72ad" stroke-width="4" fill="none"/>
+  <path d="M789 456 C795 462 795 470 789 476" stroke="#4b72ad" stroke-width="4" fill="none"/>
+  <path d="M1066 456 C1072 462 1072 470 1066 476" stroke="#4b72ad" stroke-width="4" fill="none"/>
+  <path d="M1275 456 C1281 462 1281 470 1275 476" stroke="#4b72ad" stroke-width="4" fill="none"/>
+
+  <!-- selected dashed blocks -->
+  <rect x="1048" y="624" width="37" height="127" rx="6" fill="none" stroke="#6a6a6a" stroke-width="3" stroke-dasharray="9 7"/>
+  <rect x="1256" y="575" width="37" height="220" rx="6" fill="none" stroke="#6a6a6a" stroke-width="3" stroke-dasharray="9 7"/>
+
+  <!-- DECODER AND GENERATED FRAMES -->
+  <path d="M1398 688 L1460 688" class="line"/>
+  <path d="M1460 614 L1555 651 L1555 759 L1460 722 Z" fill="#f8f8f8" stroke="#555" stroke-width="3" filter="url(#softShadow)"/>
+  <text x="1476" y="675" class="encText">VAE</text><text x="1474" y="721" class="encText">Dec</text>
+  <path d="M1555 688 L1625 688" class="arrow"/>
+
+  <g id="gen" filter="url(#shadow)">
+    <rect x="1640" y="578" width="190" height="190" fill="#b887c9" opacity=".45"/>
+    <rect x="1632" y="586" width="190" height="190" fill="#d5a6d4" opacity=".8"/>
+    <rect x="1625" y="594" width="190" height="190" fill="url(#photoBg2)"/>
+    <rect x="1625" y="747" width="190" height="37" fill="#e5c6e6" opacity=".7"/>
+    <g>
+      <ellipse cx="1690" cy="641" rx="14" ry="16" fill="#f0b7a5"/>
+      <path d="M1674 624 C1683 604 1704 611 1708 642 C1698 631 1685 631 1674 624" fill="#9b3945"/>
+      <path d="M1674 660 C1687 649 1702 656 1709 689 L1672 690 Z" fill="#fff0f3"/>
+      <path d="M1673 689 L1710 689 L1703 718 L1677 718 Z" fill="#111"/>
+      <path d="M1680 718 L1668 759 M1702 718 L1727 755" stroke="#f0b7a5" stroke-width="8" stroke-linecap="round"/>
+      <path d="M1674 663 L1651 641 M1708 665 L1730 643" stroke="#f0b7a5" stroke-width="7" stroke-linecap="round"/>
+      <path d="M1668 759 L1652 759 M1727 755 L1742 755" stroke="#111" stroke-width="7" stroke-linecap="round"/>
+    </g>
+    <g>
+      <ellipse cx="1760" cy="649" rx="13" ry="15" fill="#f2bcac"/>
+      <path d="M1746 634 C1755 614 1776 621 1779 654 C1769 641 1757 640 1746 634" fill="#631b2a"/>
+      <path d="M1747 665 C1762 655 1774 665 1778 695 L1745 696 Z" fill="#fde8ee"/>
+      <path d="M1744 695 L1780 695 L1774 750 L1753 750 Z" fill="#fb5d69"/>
+      <path d="M1756 750 L1750 773 M1774 750 L1786 772" stroke="#f2bcac" stroke-width="7" stroke-linecap="round"/>
+      <path d="M1748 668 L1730 649 M1778 669 L1800 654" stroke="#f2bcac" stroke-width="6" stroke-linecap="round"/>
+    </g>
+  </g>
+  <text x="1643" y="838" class="label">Gen Frames</text>
+
+  <!-- LEGEND -->
+  <g id="legend">
+    <rect x="1438" y="86" width="38" height="38" rx="6" class="block blue"/>
+    <text x="1532" y="116" class="label">Spatial-Attn</text>
+    <rect x="1438" y="147" width="38" height="38" rx="6" class="block green"/>
+    <text x="1532" y="175" class="label">Cross-Attn</text>
+    <rect x="1438" y="208" width="38" height="38" rx="6" class="block orange"/>
+    <text x="1532" y="236" class="label">Temporal-Attn</text>
+
+    <path d="M1423 275 C1450 290 1482 290 1505 272" stroke="#c01850" stroke-width="4" fill="none" marker-end="url(#arrRed)"/>
+    <text x="1532" y="289" class="label">Intermediate Feature</text>
+
+    <path d="M1423 330 C1450 344 1482 345 1505 327" stroke="#ffb000" stroke-width="4" fill="none" stroke-dasharray="8 6" marker-end="url(#arrYellow)"/>
+    <text x="1532" y="350" class="label">Gradient from C<tspan baseline-shift="super" font-size="18">(ℓ)</tspan></text>
+
+    <path d="M1423 374 L1493 395 L1493 455 L1423 455 Z" fill="#f9f9f9" stroke="#666" stroke-width="3" stroke-dasharray="9 7"/>
+    <text x="1532" y="407" class="label">IMG Construction</text>
+    <text x="1532" y="448" class="label">(Training only)</text>
+
+    <rect x="1430" y="486" width="56" height="38" rx="6" fill="#8ba1ce" stroke="#666" stroke-width="3" stroke-dasharray="9 7" filter="url(#softShadow)"/>
+    <text x="1532" y="516" class="label">Selected for MSM</text>
+  </g>
+
+  <!-- MASKS -->
+  <g id="masks">
+    <text x="692" y="866" class="label">Mask</text>
+    <rect x="565" y="883" width="150" height="150" fill="#000" filter="url(#shadow)"/>
+    <path d="M610 927 C610 909 631 909 631 929 L639 959 L632 1017 L617 1017 L611 973 L604 1017 L589 1017 L592 959 Z" fill="#ff7a00"/>
+    <path d="M662 927 C662 909 682 908 684 928 L695 959 L689 1017 L674 1017 L668 973 L659 1017 L646 1017 L651 959 Z" fill="#1c6aa3"/>
+
+    <rect x="744" y="881" width="134" height="150" fill="#111" stroke="#555" stroke-width="3"/>
+    <rect x="736" y="877" width="134" height="150" fill="#030303" stroke="#555" stroke-width="3"/>
+    <rect x="728" y="873" width="134" height="150" fill="#000" filter="url(#shadow)"/>
+    <path d="M759 927 C760 909 781 908 783 928 L819 950 L806 962 L783 948 L791 1015 L775 1015 L766 970 L747 1012 L733 1005 L752 958 Z" fill="#2c79b9"/>
+    <path d="M819 932 C821 910 843 912 845 933 L866 959 L854 969 L843 957 L853 1015 L836 1015 L826 974 L816 1015 L800 1015 L805 958 L784 968 L777 955 Z" fill="#ff7a00"/>
+  </g>
+  <path d="M900 952 L930 952" class="arrow"/>
+
+  <!-- IMG CONSTRUCTION TRAINING BOX -->
+  <g id="construction">
+    <path d="M960 800 L1395 890 L1395 1035 L960 1035 Z" fill="#f9f9f9" opacity=".92" stroke="#666" stroke-width="3" stroke-dasharray="10 8"/>
+    <!-- first construction cell -->
+    <rect x="978" y="858" width="110" height="135" fill="#eaf0fb" opacity=".85" filter="url(#softShadow)"/>
+    <circle cx="995" cy="873" r="18" fill="#6c89bf" stroke="#555" stroke-width="3"/>
+    <circle cx="1066" cy="873" r="18" fill="#f3bd92" stroke="#555" stroke-width="3"/>
+    <circle cx="995" cy="949" r="18" fill="#fff1df" stroke="#555" stroke-width="3"/>
+    <circle cx="1066" cy="949" r="18" fill="#fff1df" stroke="#555" stroke-width="3"/>
+    <path d="M995 931 L995 893" class="bline"/>
+    <path d="M1066 931 L1066 893" stroke="#e78334" stroke-width="4" fill="none" marker-end="url(#arrYellow)"/>
+    <path d="M995 931 L1066 893 M1066 931 L995 893" stroke="#808080" stroke-width="2" stroke-dasharray="6 5" fill="none"/>
+    <path d="M981 963 L1008 934 M1053 963 L1080 934" stroke="#4b72ad" stroke-width="5" stroke-dasharray="8 5"/>
+    <path d="M1053 963 L1080 934" stroke="#d89455" stroke-width="5" stroke-dasharray="8 5"/>
+    <path d="M1088 919 L1118 919" class="arrow"/>
+    <text x="1122" y="932" class="label">C<tspan baseline-shift="super" font-size="19">(1)</tspan></text>
+    <text x="1096" y="986" class="label">xT</text>
+
+    <!-- second construction cell -->
+    <rect x="1174" y="860" width="132" height="142" fill="#eaf0fb" opacity=".85" filter="url(#softShadow)"/>
+    <circle cx="1203" cy="902" r="22" fill="#6c89bf" stroke="#555" stroke-width="3"/>
+    <circle cx="1268" cy="902" r="22" fill="#f3bd92" stroke="#555" stroke-width="3"/>
+    <circle cx="1203" cy="973" r="20" fill="#fff1df" stroke="#555" stroke-width="3"/>
+    <circle cx="1268" cy="973" r="20" fill="#fff1df" stroke="#555" stroke-width="3"/>
+    <path d="M1203 952 L1203 927" class="bline"/>
+    <path d="M1268 952 L1268 927" stroke="#e78334" stroke-width="4" fill="none" marker-end="url(#arrYellow)"/>
+    <path d="M1203 952 L1268 927 M1268 952 L1203 927" stroke="#808080" stroke-width="2" stroke-dasharray="6 5" fill="none"/>
+    <path d="M1187 987 L1220 955" stroke="#4b72ad" stroke-width="5" stroke-dasharray="8 5"/>
+    <path d="M1253 987 L1286 955" stroke="#d89455" stroke-width="5" stroke-dasharray="8 5"/>
+    <path d="M1302 952 L1332 952" class="arrow"/>
+    <text x="1336" y="966" class="label">C<tspan baseline-shift="super" font-size="19">(N)</tspan></text>
+    <text x="1304" y="1025" class="label">xT</text>
+
+    <!-- red and yellow curved arrows from selected modules -->
+    <path d="M1064 752 C1023 775 1018 806 1029 837" class="rline"/>
+    <path d="M1087 755 C1130 781 1131 837 1118 895" class="yline"/>
+    <path d="M1269 796 C1221 811 1227 842 1246 872" class="rline"/>
+    <path d="M1288 798 C1364 821 1367 900 1320 957" class="yline"/>
+  </g>
+</svg>

@@ -1,0 +1,476 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 2458" width="3840" height="2458">
+  <defs>
+    <!-- Shadows -->
+    <filter id="shadow" x="-5%" y="-5%" width="120%" height="120%">
+      <feDropShadow dx="15" dy="15" stdDeviation="10" flood-opacity="0.3" />
+    </filter>
+    <filter id="light-shadow" x="-5%" y="-5%" width="120%" height="120%">
+      <feDropShadow dx="8" dy="8" stdDeviation="5" flood-opacity="0.2" />
+    </filter>
+    <filter id="box-shadow" x="-2%" y="-2%" width="104%" height="104%">
+       <feDropShadow dx="10" dy="10" stdDeviation="15" flood-opacity="0.2"/>
+    </filter>
+
+    <!-- Gradients -->
+    <linearGradient id="vit-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e6f0fa" />
+      <stop offset="100%" stop-color="#add8e6" />
+    </linearGradient>
+    <linearGradient id="decoder-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e6f0fa" />
+      <stop offset="100%" stop-color="#add8e6" />
+    </linearGradient>
+    <linearGradient id="sdxl-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fae6e6" />
+      <stop offset="100%" stop-color="#e6c8a0" />
+    </linearGradient>
+    <linearGradient id="arrow-blue-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#87ceeb"/>
+      <stop offset="100%" stop-color="#4682b4"/>
+    </linearGradient>
+    <linearGradient id="arrow-yellow-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffe0"/>
+      <stop offset="100%" stop-color="#eee8aa"/>
+    </linearGradient>
+    
+    <!-- Arrowheads -->
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#4682b4" />
+    </marker>
+    <marker id="arrow-gray" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#a0a0a0" />
+    </marker>
+    <marker id="arrow-orange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#d2691e" />
+    </marker>
+    <marker id="arrow-black" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#000000" />
+    </marker>
+    
+    <!-- Double-sided Arrowhead -->
+    <marker id="arrow-black-start" viewBox="0 0 10 10" refX="2" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+       <path d="M 0 0 L 10 5 L 0 10 z" fill="#000000" />
+    </marker>
+
+    <!-- Outline Arrowheads -->
+    <marker id="outline-arrow-head-blue" viewBox="0 0 20 20" refX="18" refY="10" markerWidth="10" markerHeight="10" orient="auto">
+      <path d="M 0 0 L 20 10 L 0 20 Z" fill="#e6f0fa" stroke="#4682b4" stroke-width="2"/>
+    </marker>
+    <marker id="outline-arrow-head-gray" viewBox="0 0 20 20" refX="18" refY="10" markerWidth="10" markerHeight="10" orient="auto">
+      <path d="M 0 0 L 20 10 L 0 20 Z" fill="#f0f0f0" stroke="#606060" stroke-width="2"/>
+    </marker>
+
+    <!-- Feature Block Component -->
+    <g id="feature-block">
+      <rect x="0" y="0" width="30" height="150" fill="#6495ed" stroke="black" stroke-width="2" filter="url(#light-shadow)"/>
+      <rect x="40" y="0" width="30" height="150" fill="#6495ed" stroke="black" stroke-width="2" filter="url(#light-shadow)"/>
+      <rect x="80" y="0" width="30" height="150" fill="#6495ed" stroke="black" stroke-width="2" filter="url(#light-shadow)"/>
+      <rect x="120" y="0" width="30" height="150" fill="#6495ed" stroke="black" stroke-width="2" filter="url(#light-shadow)"/>
+    </g>
+    
+    <!-- Vision Projector Component -->
+    <g id="vision-projector">
+      <rect x="0" y="0" width="350" height="140" rx="20" fill="#fffacd" stroke="black" stroke-width="4" filter="url(#shadow)"/>
+      <text x="175" y="60" font-family="Times New Roman, serif" font-weight="bold" font-size="45" text-anchor="middle">Vision</text>
+      <text x="175" y="110" font-family="Times New Roman, serif" font-weight="bold" font-size="45" text-anchor="middle">Projector</text>
+    </g>
+
+    <!-- Snowflake -->
+    <g id="snowflake" transform="scale(0.8)">
+      <path d="M 50 10 L 50 90 M 10 50 L 90 50 M 20 20 L 80 80 M 20 80 L 80 20" stroke="#add8e6" stroke-width="6" stroke-linecap="round"/>
+      <path d="M 50 20 L 40 30 M 50 20 L 60 30 M 50 80 L 40 70 M 50 80 L 60 70" stroke="#add8e6" stroke-width="4" stroke-linecap="round"/>
+      <path d="M 20 50 L 30 40 M 20 50 L 30 60 M 80 50 L 70 40 M 80 50 L 70 60" stroke="#add8e6" stroke-width="4" stroke-linecap="round"/>
+      <path d="M 30 30 L 30 40 M 30 30 L 40 30 M 70 70 L 70 60 M 70 70 L 60 70" stroke="#add8e6" stroke-width="4" stroke-linecap="round"/>
+      <path d="M 30 70 L 40 70 M 30 70 L 30 60 M 70 30 L 60 30 M 70 30 L 70 40" stroke="#add8e6" stroke-width="4" stroke-linecap="round"/>
+    </g>
+  </defs>
+
+  <!-- Backgrounds -->
+  <rect x="10" y="10" width="3820" height="1700" fill="#ffffff" stroke="#e0e0e0" stroke-width="15" rx="20" filter="url(#box-shadow)"/>
+  <rect x="10" y="1740" width="3820" height="700" fill="#ffffff" stroke="#e0e0e0" stroke-width="15" rx="20" filter="url(#box-shadow)"/>
+
+  <!-- Colored Regions -->
+  <!-- Training Green Top Left -->
+  <path d="M 20 20 L 710 20 L 710 180 L 20 180 Z" fill="#e0f0e0" opacity="0.6"/>
+  <!-- Training Blue Region -->
+  <rect x="960" y="20" width="1140" height="1680" fill="#f0f8ff" opacity="0.6"/>
+  <!-- Training Orange Region -->
+  <rect x="2100" y="20" width="1720" height="1680" fill="#fffaf0" opacity="0.6"/>
+  
+  <!-- Inference Green Top Left -->
+  <path d="M 20 1750 L 710 1750 L 710 1890 L 20 1890 Z" fill="#e0f0e0" opacity="0.6"/>
+
+  <!-- ========================================== -->
+  <!-- TRAINING SECTION (TOP)                       -->
+  <!-- ========================================== -->
+
+  <!-- Title: Training -->
+  <text x="160" y="130" font-family="Times New Roman, serif" font-style="italic" font-weight="bold" font-size="90">Training</text>
+
+  <!-- Region Labels -->
+  <text x="1350" y="110" font-family="Times New Roman, serif" font-style="italic" font-weight="bold" font-size="60" fill="#6495ed">Subject-Invariant Feature Extraction</text>
+  <text x="2150" y="110" font-family="Times New Roman, serif" font-style="italic" font-weight="bold" font-size="60" fill="#d2691e">Semantic-Specific Feature Extraction</text>
+
+  <!-- Subject Area (Left) -->
+  <g id="AF13">
+    <rect x="300" y="320" width="120" height="120" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="360" y="380" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="24">&lt;AF&gt;13</text>
+  </g>
+  <g id="AF10">
+    <rect x="420" y="320" width="120" height="120" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="480" y="380" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="24">&lt;AF&gt;10</text>
+  </g>
+  <g id="AF11">
+    <rect x="540" y="320" width="120" height="120" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="600" y="380" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="24">&lt;AF&gt;11</text>
+  </g>
+  <text x="220" y="630" font-family="Times New Roman, serif" font-style="italic" font-weight="bold" font-size="60">Subject</text>
+
+  <!-- CLS and DIS Blocks -->
+  <rect x="700" y="240" width="200" height="90" rx="15" fill="#add8e6" stroke="black" stroke-width="4" filter="url(#shadow)"/>
+  <text x="800" y="300" font-family="Times New Roman, serif" font-weight="bold" font-size="45" text-anchor="middle">CLS</text>
+
+  <rect x="700" y="660" width="200" height="90" rx="15" fill="#add8e6" stroke="black" stroke-width="4" filter="url(#shadow)"/>
+  <text x="800" y="720" font-family="Times New Roman, serif" font-weight="bold" font-size="45" text-anchor="middle">DIS</text>
+  
+  <rect x="760" y="580" width="140" height="60" rx="10" fill="#ffb6c1" stroke="black" stroke-width="4" filter="url(#shadow)"/>
+  <text x="830" y="625" font-family="Times New Roman, serif" font-weight="bold" font-size="35" text-anchor="middle">GRL</text>
+
+  <!-- Arrows from Subject to CLS/DIS -->
+  <!-- Top outline arrow -->
+  <path d="M 600 450 L 670 360 L 650 350 L 680 310 L 700 360 L 680 350 L 620 430 Z" fill="#87ceeb" stroke="black" stroke-width="3"/>
+  <!-- Bottom outline arrow -->
+  <path d="M 500 580 L 650 700 L 630 710 L 690 730 L 670 660 L 650 680 L 520 570 Z" fill="#87ceeb" stroke="black" stroke-width="3"/>
+
+  <!-- Loss labels -->
+  <text x="480" y="250" font-family="Times New Roman, serif" font-style="italic" font-size="55" fill="#4682b4">L</text>
+  <text x="510" y="220" font-family="Times New Roman, serif" font-style="italic" font-size="35" fill="#4682b4">E</text>
+  <text x="510" y="270" font-family="Times New Roman, serif" font-style="italic" font-size="35" fill="#4682b4">cls</text>
+
+  <text x="480" y="780" font-family="Times New Roman, serif" font-style="italic" font-size="55" fill="#4682b4">L</text>
+  <text x="510" y="750" font-family="Times New Roman, serif" font-style="italic" font-size="35" fill="#4682b4">E</text>
+  <text x="510" y="800" font-family="Times New Roman, serif" font-style="italic" font-size="35" fill="#4682b4">dis</text>
+
+  <!-- Train Subjects Area -->
+  <g id="AF17">
+    <rect x="150" y="1150" width="380" height="380" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="340" y="1340" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="60">&lt;AF&gt;17</text>
+  </g>
+  <g id="AF03">
+    <rect x="250" y="750" width="280" height="280" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="390" y="890" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="40">&lt;AF&gt;03</text>
+  </g>
+  <text x="110" y="1590" font-family="Times New Roman, serif" font-size="65">Train Subjects</text>
+  <text x="290" y="730" font-family="sans-serif" font-weight="bold" font-size="45" fill="#606060">fMRI</text>
+  <path d="M 480 800 L 510 750 L 530 850 L 560 780 L 580 820 L 610 800" fill="none" stroke="#606060" stroke-width="6"/>
+
+  <!-- ViT Block -->
+  <!-- Outline arrow to ViT -->
+  <path d="M 460 1150 L 620 1150 L 620 1120 L 700 1175 L 620 1230 L 620 1200 L 460 1200 Z" fill="#ffffff" stroke="#4682b4" stroke-width="5" filter="url(#shadow)"/>
+  
+  <path d="M 720 950 L 1020 1050 L 1020 1300 L 720 1400 Z" fill="url(#vit-grad)" stroke="black" stroke-width="4" filter="url(#shadow)"/>
+  <text x="830" y="1200" font-family="Times New Roman, serif" font-weight="bold" font-size="70">ViT</text>
+
+  <!-- Outline arrow from ViT -->
+  <path d="M 1040 1150 L 1200 1150 L 1200 1120 L 1280 1175 L 1200 1230 L 1200 1200 L 1040 1200 Z" fill="#ffffff" stroke="#4682b4" stroke-width="5" filter="url(#shadow)"/>
+
+  <!-- Feature E -->
+  <use href="#feature-block" x="1300" y="1100" />
+  <text x="1375" y="1320" font-family="Times New Roman, serif" font-style="italic" font-weight="bold" font-size="60" text-anchor="middle">E</text>
+
+  <!-- Up Arrow to Ei -->
+  <path d="M 1375 1060 L 1375 920" fill="none" stroke="#4682b4" stroke-width="15" marker-end="url(#arrow-blue)"/>
+  <text x="1270" y="990" font-family="Times New Roman, serif" font-style="italic" font-size="55">F</text>
+  <text x="1310" y="1010" font-family="Times New Roman, serif" font-style="italic" font-size="35">i</text>
+  <text x="1330" y="990" font-family="Times New Roman, serif" font-size="55">(·)</text>
+
+  <!-- Feature Ei -->
+  <use href="#feature-block" x="1300" y="650" />
+  <text x="1410" y="860" font-family="Times New Roman, serif" font-style="italic" font-weight="bold" font-size="55" text-anchor="middle">E</text>
+  <text x="1440" y="880" font-family="Times New Roman, serif" font-style="italic" font-weight="bold" font-size="35" text-anchor="middle">i</text>
+
+  <!-- Gray arrow from Ei to DIS -->
+  <path d="M 1260 720 L 1000 720" fill="none" stroke="#a0a0a0" stroke-width="12" stroke-dasharray="20,10" marker-end="url(#arrow-gray)"/>
+
+  <!-- Difference Node -->
+  <circle cx="1375" cy="520" r="30" fill="none" stroke="black" stroke-width="6"/>
+  <line x1="1355" y1="520" x2="1395" y2="520" stroke="black" stroke-width="6"/>
+  <text x="1430" y="540" font-family="Times New Roman, serif" font-style="italic" font-weight="bold" font-size="45">Difference</text>
+
+  <!-- Curved arrow from E to Difference -->
+  <path d="M 1480 1175 Q 1580 850 1410 520" fill="none" stroke="#a0a0a0" stroke-width="10" marker-end="url(#arrow-gray)"/>
+  
+  <!-- Up Arrow from Ei to Difference -->
+  <path d="M 1375 620 L 1375 570" fill="none" stroke="#a0a0a0" stroke-width="10" marker-end="url(#arrow-gray)"/>
+
+  <!-- Up Arrow from Difference to Es -->
+  <path d="M 1375 470 L 1375 420" fill="none" stroke="#a0a0a0" stroke-width="10" marker-end="url(#arrow-gray)"/>
+  <g id="AF04">
+    <rect x="1335" y="550" width="80" height="80" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="1375" y="590" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="16">&lt;AF&gt;04</text>
+  </g>
+
+  <!-- Feature Es -->
+  <use href="#feature-block" x="1300" y="240" />
+  <text x="1410" y="440" font-family="Times New Roman, serif" font-style="italic" font-weight="bold" font-size="55" text-anchor="middle">E</text>
+  <text x="1440" y="460" font-family="Times New Roman, serif" font-style="italic" font-weight="bold" font-size="35" text-anchor="middle">s</text>
+
+  <!-- Gray arrow from Es to CLS -->
+  <path d="M 1260 300 L 1000 300" fill="none" stroke="#a0a0a0" stroke-width="12" stroke-dasharray="20,10" marker-end="url(#arrow-gray)"/>
+
+  <!-- Horizontal Blue Arrows to Vision Projectors -->
+  <!-- Top -->
+  <path d="M 1480 290 L 1800 290 L 1800 270 L 1880 310 L 1800 350 L 1800 330 L 1480 330 Z" fill="url(#arrow-blue-grad)" stroke="black" stroke-width="2"/>
+  <!-- Middle -->
+  <path d="M 1480 700 L 1800 700 L 1800 680 L 1880 720 L 1800 760 L 1800 740 L 1480 740 Z" fill="url(#arrow-blue-grad)" stroke="black" stroke-width="2"/>
+  <!-- Bottom -->
+  <path d="M 1480 1150 L 1800 1150 L 1800 1130 L 1880 1170 L 1800 1210 L 1800 1190 L 1480 1190 Z" fill="url(#arrow-blue-grad)" stroke="black" stroke-width="2"/>
+
+  <!-- Vision Projectors -->
+  <use href="#vision-projector" x="1900" y="240" />
+  <text x="2075" y="440" font-family="Times New Roman, serif" font-style="italic" font-size="60" text-anchor="middle">P</text>
+  <text x="2105" y="460" font-family="Times New Roman, serif" font-style="italic" font-size="40" text-anchor="middle">i</text>
+  <text x="2135" y="440" font-family="Times New Roman, serif" font-size="60" text-anchor="middle">(·)</text>
+
+  <use href="#vision-projector" x="1900" y="650" />
+  <text x="2075" y="850" font-family="Times New Roman, serif" font-style="italic" font-size="60" text-anchor="middle">P</text>
+  <text x="2105" y="870" font-family="Times New Roman, serif" font-style="italic" font-size="40" text-anchor="middle">s</text>
+  <text x="2135" y="850" font-family="Times New Roman, serif" font-size="60" text-anchor="middle">(·)</text>
+
+  <use href="#vision-projector" x="1900" y="1100" />
+  <text x="2075" y="1300" font-family="Times New Roman, serif" font-style="italic" font-size="60" text-anchor="middle">P</text>
+  <text x="2115" y="1300" font-family="Times New Roman, serif" font-size="60" text-anchor="middle">(·)</text>
+
+  <!-- Horizontal Yellow Arrows from Vision Projectors -->
+  <!-- Top -->
+  <path d="M 2280 290 L 2750 290 L 2750 270 L 2830 310 L 2750 350 L 2750 330 L 2280 330 Z" fill="url(#arrow-yellow-grad)" stroke="black" stroke-width="2"/>
+  <rect x="2500" y="320" width="160" height="70" rx="15" fill="#ffb6c1" stroke="black" stroke-width="4" filter="url(#shadow)"/>
+  <text x="2580" y="370" font-family="Times New Roman, serif" font-weight="bold" font-size="40" text-anchor="middle">GRL</text>
+
+  <!-- Middle -->
+  <path d="M 2280 700 L 2750 700 L 2750 680 L 2830 720 L 2750 760 L 2750 740 L 2280 740 Z" fill="url(#arrow-yellow-grad)" stroke="black" stroke-width="2"/>
+
+  <!-- Bottom -->
+  <path d="M 2280 1150 L 2750 1150 L 2750 1130 L 2830 1170 L 2750 1210 L 2750 1190 L 2280 1190 Z" fill="url(#arrow-yellow-grad)" stroke="black" stroke-width="2"/>
+
+  <!-- Features Fi, Fs, F -->
+  <!-- Fi -->
+  <use href="#feature-block" x="2850" y="240" />
+  <text x="2810" y="420" font-family="Times New Roman, serif" font-style="italic" font-weight="bold" font-size="55" text-anchor="middle">F</text>
+  <text x="2840" y="440" font-family="Times New Roman, serif" font-style="italic" font-weight="bold" font-size="35" text-anchor="middle">i</text>
+
+  <!-- Fs -->
+  <use href="#feature-block" x="2850" y="650" />
+  <text x="2810" y="830" font-family="Times New Roman, serif" font-style="italic" font-weight="bold" font-size="55" text-anchor="middle">F</text>
+  <text x="2840" y="850" font-family="Times New Roman, serif" font-style="italic" font-weight="bold" font-size="35" text-anchor="middle">s</text>
+
+  <!-- F -->
+  <use href="#feature-block" x="2850" y="1100" />
+  <text x="2990" y="1310" font-family="Times New Roman, serif" font-style="italic" font-weight="bold" font-size="60" text-anchor="middle">F</text>
+
+  <!-- Difference Node 2 -->
+  <circle cx="2925" cy="520" r="30" fill="none" stroke="black" stroke-width="6"/>
+  <line x1="2905" y1="520" x2="2945" y2="520" stroke="black" stroke-width="6"/>
+
+  <!-- Curved arrow from F to Difference 2 -->
+  <path d="M 3020 1175 Q 3150 850 2965 520" fill="none" stroke="#a0a0a0" stroke-width="10" marker-end="url(#arrow-gray)"/>
+  
+  <!-- Up Arrow from Fs to Difference 2 -->
+  <path d="M 2925 620 L 2925 570" fill="none" stroke="#a0a0a0" stroke-width="10" marker-end="url(#arrow-gray)"/>
+
+  <!-- Up Arrow from Difference 2 to Fi -->
+  <path d="M 2925 470 L 2925 420" fill="none" stroke="#a0a0a0" stroke-width="10" marker-end="url(#arrow-gray)"/>
+
+  <!-- Arrow from Fs down to Diffusion Prior -->
+  <path d="M 3000 850 L 3000 960 L 3150 960 L 3150 940 L 3200 980 L 3150 1020 L 3150 1000 L 3040 1000 C 2980 1000 2960 980 2960 920 L 2960 850 Z" fill="#e6a078" stroke="black" stroke-width="3"/>
+
+  <!-- Semantic Section -->
+  <g id="AF12">
+    <rect x="3300" y="480" width="100" height="100" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="3350" y="530" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="20">&lt;AF&gt;12</text>
+  </g>
+  <g id="AF09">
+    <rect x="3420" y="480" width="100" height="100" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="3470" y="530" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="20">&lt;AF&gt;09</text>
+  </g>
+  <g id="AF14">
+    <rect x="3540" y="480" width="100" height="100" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="3590" y="530" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="20">&lt;AF&gt;14</text>
+  </g>
+  <text x="3480" y="650" font-family="Times New Roman, serif" font-style="italic" font-weight="bold" font-size="60" text-anchor="middle">Semantic</text>
+
+  <!-- Outline arrows Semantic to Fi/Fs -->
+  <!-- Top outline arrow -->
+  <path d="M 3330 450 L 3150 350 L 3170 330 L 3100 310 L 3120 380 L 3140 360 L 3310 470 Z" fill="#fffacd" stroke="black" stroke-width="3"/>
+  <line x1="3160" y1="450" x2="3260" y2="350" stroke="black" stroke-width="5"/>
+  <line x1="3180" y1="360" x2="3240" y2="440" stroke="black" stroke-width="5"/>
+  <!-- Bottom outline arrow -->
+  <path d="M 3330 650 L 3150 750 L 3170 770 L 3100 790 L 3120 720 L 3140 740 L 3310 630 Z" fill="#fffacd" stroke="black" stroke-width="3"/>
+
+  <text x="3170" y="280" font-family="Times New Roman, serif" font-style="italic" font-size="55" fill="#d2691e">L</text>
+  <text x="3200" y="250" font-family="Times New Roman, serif" font-style="italic" font-size="35" fill="#d2691e">F</text>
+  <text x="3200" y="300" font-family="Times New Roman, serif" font-style="italic" font-size="35" fill="#d2691e">inv</text>
+
+  <text x="3170" y="850" font-family="Times New Roman, serif" font-style="italic" font-size="55" fill="#d2691e">L</text>
+  <text x="3200" y="820" font-family="Times New Roman, serif" font-style="italic" font-size="35" fill="#d2691e">F</text>
+  <text x="3200" y="870" font-family="Times New Roman, serif" font-style="italic" font-size="35" fill="#d2691e">spe</text>
+
+  <!-- Diffusion Prior -->
+  <rect x="3270" y="930" width="440" height="120" rx="20" fill="#fffaf0" stroke="black" stroke-width="5" filter="url(#shadow)"/>
+  <circle cx="3350" cy="990" r="30" fill="#ffffe0" stroke="#4682b4" stroke-width="6"/>
+  <circle cx="3490" cy="990" r="30" fill="#ffe4b5" stroke="#4682b4" stroke-width="6"/>
+  <circle cx="3630" cy="990" r="30" fill="#f4a460" stroke="#4682b4" stroke-width="6"/>
+  <path d="M 3390 990 L 3450 990" fill="none" stroke="#d2691e" stroke-width="5" marker-end="url(#arrow-orange)"/>
+  <path d="M 3530 990 L 3590 990" fill="none" stroke="#d2691e" stroke-width="5" marker-end="url(#arrow-orange)"/>
+
+  <!-- Visual Stimuli -->
+  <rect x="3400" y="1300" width="260" height="180" fill="white" stroke="black" stroke-width="8" rx="10"/>
+  <rect x="3420" y="1320" width="220" height="140" fill="#e6f0fa" stroke="none"/>
+  <path d="M 3420 1460 L 3480 1380 L 3550 1440 L 3600 1360 L 3640 1410 L 3640 1460 Z" fill="#4682b4"/>
+  <path d="M 3420 1460 L 3480 1400 L 3560 1460 Z" fill="#3cb371"/>
+  <circle cx="3470" cy="1360" r="15" fill="#ffdab9"/>
+  
+  <rect x="3440" y="1350" width="260" height="180" fill="white" stroke="black" stroke-width="8" rx="10"/>
+  <rect x="3460" y="1370" width="220" height="140" fill="#e6f0fa" stroke="none"/>
+  <path d="M 3460 1510 L 3520 1430 L 3590 1490 L 3640 1410 L 3680 1460 L 3680 1510 Z" fill="#4682b4"/>
+  <path d="M 3460 1510 L 3520 1450 L 3600 1510 Z" fill="#3cb371"/>
+  <circle cx="3510" cy="1410" r="15" fill="#ffdab9"/>
+  
+  <text x="3530" y="1590" font-family="sans-serif" font-weight="bold" font-size="50" fill="#606060" text-anchor="middle">Visual Stimuli</text>
+
+  <!-- Double arrow Lprior -->
+  <path d="M 3630 1060 L 3630 1280" fill="none" stroke="black" stroke-width="5" marker-start="url(#arrow-black-start)" marker-end="url(#arrow-black)"/>
+  <text x="3430" y="1120" font-family="Times New Roman, serif" font-style="italic" font-size="65" fill="#d2691e">L</text>
+  <text x="3470" y="1140" font-family="Times New Roman, serif" font-style="italic" font-size="45" fill="#d2691e">prior</text>
+  <path d="M 3530 1100 L 3610 1100" fill="none" stroke="#d2691e" stroke-width="4" marker-end="url(#arrow-orange)"/>
+
+  <!-- Legend -->
+  <text x="2330" y="1370" font-family="sans-serif" font-size="40">Visual stimuli</text>
+  <circle cx="2610" cy="1355" r="20" fill="#4682b4" stroke="black" stroke-width="3"/>
+  <text x="2380" y="1450" font-family="sans-serif" font-size="40">Image labels</text>
+  <circle cx="2610" cy="1435" r="20" fill="#3cb371" stroke="black" stroke-width="3"/>
+  <text x="2320" y="1530" font-family="sans-serif" font-size="40">Image captions</text>
+  <circle cx="2610" cy="1515" r="20" fill="#f4a460" stroke="black" stroke-width="3"/>
+  
+  <path d="M 2640 1360 L 2730 1360" fill="none" stroke="#a0a0a0" stroke-width="5" marker-end="url(#arrow-gray)"/>
+  <path d="M 2640 1430 L 2730 1370" fill="none" stroke="#a0a0a0" stroke-width="5" marker-end="url(#arrow-gray)"/>
+  <path d="M 2640 1510 L 2730 1380" fill="none" stroke="#a0a0a0" stroke-width="5" marker-end="url(#arrow-gray)"/>
+
+  <!-- Decoder Section -->
+  <path d="M 1340 1350 L 1340 1460 L 1380 1460 L 1380 1480 L 1420 1440 L 1380 1400 L 1380 1420 L 1360 1420 L 1360 1350 Z" fill="#87ceeb" stroke="black" stroke-width="2"/>
+  <path d="M 1430 1400 L 1630 1480 L 1630 1580 L 1430 1660 Z" fill="url(#decoder-grad)" stroke="black" stroke-width="4" filter="url(#shadow)"/>
+  <text x="1510" y="1545" font-family="Times New Roman, serif" font-weight="bold" font-size="45">Decoder</text>
+  
+  <path d="M 1650 1530 L 1750 1530" fill="none" stroke="#4682b4" stroke-width="12" marker-start="url(#arrow-blue)" marker-end="url(#arrow-blue)"/>
+  <text x="1650" y="1610" font-family="Times New Roman, serif" font-style="italic" font-size="55" fill="#4682b4">L</text>
+  <text x="1680" y="1630" font-family="Times New Roman, serif" font-style="italic" font-size="35" fill="#4682b4">rec</text>
+
+  <g id="AF07">
+    <rect x="1780" y="1430" width="180" height="180" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="1870" y="1520" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="28">&lt;AF&gt;07</text>
+  </g>
+  <text x="1820" y="1660" font-family="sans-serif" font-weight="bold" font-size="40" fill="#606060">fMRI</text>
+  <path d="M 1970 1470 L 1990 1440 L 2010 1510 L 2030 1460 L 2050 1490 L 2070 1470" fill="none" stroke="#606060" stroke-width="5"/>
+
+
+  <!-- ========================================== -->
+  <!-- INFERENCE SECTION (BOTTOM)                   -->
+  <!-- ========================================== -->
+
+  <!-- Title: Inference -->
+  <text x="130" y="1860" font-family="Times New Roman, serif" font-style="italic" font-weight="bold" font-size="90">Inference</text>
+
+  <!-- Test Subject Area -->
+  <g id="AF15">
+    <rect x="80" y="1950" width="450" height="450" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="305" y="2175" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="70">&lt;AF&gt;15</text>
+  </g>
+  <text x="110" y="2440" font-family="Times New Roman, serif" font-size="65">Test <tspan font-weight="bold">Unseen</tspan> Subject</text>
+
+  <g id="AF08">
+    <rect x="560" y="2090" width="160" height="160" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="640" y="2170" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="24">&lt;AF&gt;08</text>
+  </g>
+  <text x="590" y="2290" font-family="sans-serif" font-weight="bold" font-size="40" fill="#606060">fMRI</text>
+  <path d="M 730 2130 L 750 2090 L 770 2180 L 790 2110 L 810 2150 L 830 2130" fill="none" stroke="#606060" stroke-width="5"/>
+
+  <!-- Outline arrow to ViT -->
+  <path d="M 680 2140 L 840 2140 L 840 2110 L 920 2165 L 840 2220 L 840 2190 L 680 2190 Z" fill="#ffffff" stroke="#606060" stroke-width="5" filter="url(#shadow)"/>
+
+  <!-- ViT Block -->
+  <path d="M 940 1960 L 1220 2060 L 1220 2310 L 940 2410 Z" fill="url(#vit-grad)" stroke="black" stroke-width="4" filter="url(#shadow)"/>
+  <text x="1040" y="2210" font-family="Times New Roman, serif" font-weight="bold" font-size="70">ViT</text>
+  <use href="#snowflake" x="900" y="1900" />
+
+  <!-- Outline arrow from ViT -->
+  <path d="M 1240 2140 L 1400 2140 L 1400 2110 L 1480 2165 L 1400 2220 L 1400 2190 L 1240 2190 Z" fill="#ffffff" stroke="#606060" stroke-width="5" filter="url(#shadow)"/>
+
+  <!-- Fi Label -->
+  <text x="1300" y="2060" font-family="Times New Roman, serif" font-style="italic" font-size="65">F</text>
+  <text x="1340" y="2080" font-family="Times New Roman, serif" font-style="italic" font-size="45">i</text>
+  <text x="1360" y="2060" font-family="Times New Roman, serif" font-size="65">(·)</text>
+
+  <g id="AF06">
+    <rect x="1270" y="2090" width="160" height="160" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="1350" y="2170" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="24">&lt;AF&gt;06</text>
+  </g>
+
+  <!-- Vision Projector -->
+  <rect x="1500" y="2060" width="350" height="140" rx="20" fill="#fffacd" stroke="black" stroke-width="4" filter="url(#shadow)"/>
+  <text x="1675" y="2120" font-family="Times New Roman, serif" font-weight="bold" font-size="45" text-anchor="middle">Vision</text>
+  <text x="1675" y="2170" font-family="Times New Roman, serif" font-weight="bold" font-size="45" text-anchor="middle">Projector</text>
+  <use href="#snowflake" x="1800" y="2000" />
+
+  <text x="1600" y="2020" font-family="Times New Roman, serif" font-style="italic" font-size="65">P</text>
+  <text x="1640" y="2040" font-family="Times New Roman, serif" font-style="italic" font-size="45">s</text>
+  <text x="1670" y="2020" font-family="Times New Roman, serif" font-size="65">(·)</text>
+
+  <!-- Outline arrow from Projector -->
+  <path d="M 1870 2140 L 2030 2140 L 2030 2110 L 2110 2165 L 2030 2220 L 2030 2190 L 1870 2190 Z" fill="#ffffff" stroke="#606060" stroke-width="5" filter="url(#shadow)"/>
+
+  <g id="AF01">
+    <rect x="1900" y="2090" width="160" height="160" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="1980" y="2170" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="24">&lt;AF&gt;01</text>
+  </g>
+
+  <!-- Diffusion Prior -->
+  <rect x="2140" y="2100" width="440" height="120" rx="20" fill="#fffaf0" stroke="black" stroke-width="5" filter="url(#shadow)"/>
+  <circle cx="2220" cy="2160" r="30" fill="#ffffe0" stroke="#4682b4" stroke-width="6"/>
+  <circle cx="2360" cy="2160" r="30" fill="#ffe4b5" stroke="#4682b4" stroke-width="6"/>
+  <circle cx="2500" cy="2160" r="30" fill="#f4a460" stroke="#4682b4" stroke-width="6"/>
+  <path d="M 2260 2160 L 2320 2160" fill="none" stroke="#d2691e" stroke-width="5" marker-end="url(#arrow-orange)"/>
+  <path d="M 2400 2160 L 2460 2160" fill="none" stroke="#d2691e" stroke-width="5" marker-end="url(#arrow-orange)"/>
+  <text x="2360" y="2280" font-family="Times New Roman, serif" font-weight="bold" font-size="50" text-anchor="middle">Diffusion Prior</text>
+  <use href="#snowflake" x="2530" y="2020" />
+
+  <!-- Outline arrow from Diffusion Prior -->
+  <path d="M 2600 2140 L 2760 2140 L 2760 2110 L 2840 2165 L 2760 2220 L 2760 2190 L 2600 2190 Z" fill="#ffffff" stroke="#606060" stroke-width="5" filter="url(#shadow)"/>
+
+  <g id="AF02">
+    <rect x="2630" y="2090" width="160" height="160" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="2710" y="2170" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="24">&lt;AF&gt;02</text>
+  </g>
+
+  <!-- SDXL Block -->
+  <path d="M 2860 2060 L 3140 1960 L 3140 2410 L 2860 2310 Z" fill="url(#sdxl-grad)" stroke="black" stroke-width="4" filter="url(#shadow)"/>
+  <text x="2960" y="2210" font-family="Times New Roman, serif" font-weight="bold" font-size="70">SDXL</text>
+  <use href="#snowflake" x="3070" y="1900" />
+
+  <!-- Outline arrow from SDXL -->
+  <path d="M 3180 2140 L 3340 2140 L 3340 2110 L 3420 2165 L 3340 2220 L 3340 2190 L 3180 2190 Z" fill="#ffffff" stroke="#606060" stroke-width="5" filter="url(#shadow)"/>
+
+  <g id="AF05">
+    <rect x="3210" y="2090" width="160" height="160" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="3290" y="2170" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="24">&lt;AF&gt;05</text>
+  </g>
+
+  <!-- Reconstructed Images -->
+  <text x="3450" y="1880" font-family="Times New Roman, serif" font-size="60">Reconstructed</text>
+  <text x="3450" y="1950" font-family="Times New Roman, serif" font-size="60">Images</text>
+
+  <g id="AF16">
+    <rect x="3450" y="1980" width="350" height="350" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="3625" y="2155" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="50">&lt;AF&gt;16</text>
+  </g>
+
+</svg>

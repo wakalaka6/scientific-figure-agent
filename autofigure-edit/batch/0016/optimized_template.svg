@@ -1,0 +1,516 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 1889" width="3840" height="1889">
+  <defs>
+    <linearGradient id="udt-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E8F8DA" />
+      <stop offset="40%" stop-color="#FFF2A8" />
+      <stop offset="80%" stop-color="#FFB380" />
+      <stop offset="100%" stop-color="#FF7A80" />
+    </linearGradient>
+    <style>
+      .box { fill: #F0F0F0; stroke: #000; stroke-width: 6; rx: 20; }
+      .box-white { fill: #FFF; stroke: #000; stroke-width: 6; rx: 30; }
+      .box-dashed { fill: none; stroke: #000; stroke-width: 6; stroke-dasharray: 20,10; rx: 20; }
+      .text-main { font-family: 'Times New Roman', serif; font-size: 80px; text-anchor: middle; }
+      .text-sub { font-family: 'Times New Roman', serif; font-size: 70px; text-anchor: middle; }
+      .text-bold-italic { font-family: 'Times New Roman', serif; font-size: 75px; font-weight: bold; font-style: italic; text-anchor: middle; }
+      .arrow { stroke: #000; stroke-width: 8; fill: none; }
+      .arrow-head { fill: #000; }
+      .arrow-gray { stroke: #D0D0D0; stroke-width: 20; fill: none; }
+      .arrow-head-gray { fill: #D0D0D0; }
+    </style>
+  </defs>
+
+  <!-- (a) Datasets Background -->
+  <rect x="25" y="25" width="1025" height="1725" class="box-white" />
+  <line x1="25" y1="965" x2="1050" y2="965" stroke="#000" stroke-width="6" stroke-dasharray="10,10" />
+  <text x="537" y="1840" class="text-main">(a) Datasets</text>
+
+  <!-- Dataset Top Part: Different data types -> Sequential format -->
+  <!-- Grid data representation -->
+  <g transform="translate(45, 120)">
+    <rect x="0" y="40" width="150" height="150" fill="#E0F0E0" stroke="#80C080" stroke-width="4" transform="skewY(-15) scale(1, 1.2)" />
+    <rect x="30" y="20" width="150" height="150" fill="#C0E0C0" stroke="#60A060" stroke-width="4" transform="skewY(-15) scale(1, 1.2)" />
+    <rect x="60" y="0" width="150" height="150" fill="#A0D0A0" stroke="#408040" stroke-width="4" transform="skewY(-15) scale(1, 1.2)" />
+    <!-- Grid lines -->
+    <path d="M60 0 L210 0 M60 30 L210 30 M60 60 L210 60 M60 90 L210 90 M60 120 L210 120 M60 150 L210 150" stroke="#408040" stroke-width="2" transform="skewY(-15) scale(1, 1.2)" />
+    <path d="M60 0 L60 150 M90 0 L90 150 M120 0 L120 150 M150 0 L150 150 M180 0 L180 150 M210 0 L210 150" stroke="#408040" stroke-width="2" transform="skewY(-15) scale(1, 1.2)" />
+    <!-- Heatmap spots -->
+    <circle cx="120" cy="50" r="15" fill="#FFFF00" transform="skewY(-15) scale(1, 1.2)" opacity="0.8"/>
+    <circle cx="160" cy="90" r="20" fill="#FF8000" transform="skewY(-15) scale(1, 1.2)" opacity="0.8"/>
+    <circle cx="90" cy="110" r="10" fill="#FFFF00" transform="skewY(-15) scale(1, 1.2)" opacity="0.8"/>
+  </g>
+
+  <!-- Graph data representation -->
+  <g transform="translate(55, 450)">
+    <rect x="0" y="40" width="150" height="150" fill="none" stroke="#A0A0A0" stroke-width="10" transform="skewY(-15) scale(1, 1.2)" />
+    <rect x="30" y="20" width="150" height="150" fill="none" stroke="#808080" stroke-width="10" transform="skewY(-15) scale(1, 1.2)" />
+    <rect x="60" y="0" width="150" height="150" fill="none" stroke="#606060" stroke-width="10" transform="skewY(-15) scale(1, 1.2)" />
+    <!-- Nodes and edges -->
+    <g transform="skewY(-15) scale(1, 1.2)">
+      <line x1="80" y1="40" x2="140" y2="20" stroke="#A0D0A0" stroke-width="6" />
+      <line x1="140" y1="20" x2="190" y2="60" stroke="#A0D0A0" stroke-width="6" />
+      <line x1="190" y1="60" x2="150" y2="120" stroke="#A0D0A0" stroke-width="6" />
+      <line x1="150" y1="120" x2="90" y2="100" stroke="#A0D0A0" stroke-width="6" />
+      <line x1="90" y1="100" x2="80" y2="40" stroke="#A0D0A0" stroke-width="6" />
+      <line x1="140" y1="20" x2="150" y2="120" stroke="#A0D0A0" stroke-width="6" />
+      <circle cx="80" cy="40" r="10" fill="#E0F0E0" stroke="#80C080" stroke-width="4" />
+      <circle cx="140" cy="20" r="10" fill="#E0F0E0" stroke="#80C080" stroke-width="4" />
+      <circle cx="190" cy="60" r="10" fill="#E0F0E0" stroke="#80C080" stroke-width="4" />
+      <circle cx="150" cy="120" r="10" fill="#E0F0E0" stroke="#80C080" stroke-width="4" />
+      <circle cx="90" cy="100" r="10" fill="#E0F0E0" stroke="#80C080" stroke-width="4" />
+    </g>
+  </g>
+
+  <!-- Gray Arrows -->
+  <path d="M 320 220 L 370 220" class="arrow-gray" />
+  <polygon points="370,200 400,220 370,240" class="arrow-head-gray" />
+  <path d="M 320 540 L 370 540" class="arrow-gray" />
+  <polygon points="370,520 400,540 370,560" class="arrow-head-gray" />
+
+  <!-- Grid Processed -->
+  <g transform="translate(420, 100)">
+    <!-- Horizontal lines -->
+    <line x1="30" y1="60" x2="330" y2="60" stroke="#6080C0" stroke-width="6" />
+    <line x1="30" y1="160" x2="330" y2="160" stroke="#6080C0" stroke-width="6" />
+    <line x1="30" y1="260" x2="330" y2="260" stroke="#6080C0" stroke-width="6" />
+    <!-- Vertical lines -->
+    <line x1="60" y1="30" x2="60" y2="290" stroke="#6080C0" stroke-width="6" />
+    <line x1="160" y1="30" x2="160" y2="290" stroke="#6080C0" stroke-width="6" />
+    <line x1="260" y1="30" x2="260" y2="290" stroke="#6080C0" stroke-width="6" />
+    <!-- Pink ovals -->
+    <ellipse cx="60" cy="60" rx="40" ry="40" fill="#FFC0CB" opacity="0.5" />
+    <ellipse cx="160" cy="60" rx="40" ry="40" fill="#FFC0CB" opacity="0.5" />
+    <ellipse cx="260" cy="60" rx="40" ry="40" fill="#FFC0CB" opacity="0.5" />
+    <ellipse cx="60" cy="160" rx="40" ry="40" fill="#FFC0CB" opacity="0.5" />
+    <ellipse cx="160" cy="160" rx="40" ry="40" fill="#FFC0CB" opacity="0.5" />
+    <ellipse cx="260" cy="160" rx="40" ry="40" fill="#FFC0CB" opacity="0.5" />
+    <ellipse cx="60" cy="260" rx="40" ry="40" fill="#FFC0CB" opacity="0.5" />
+    <ellipse cx="160" cy="260" rx="40" ry="40" fill="#FFC0CB" opacity="0.5" />
+    <ellipse cx="260" cy="260" rx="40" ry="40" fill="#FFC0CB" opacity="0.5" />
+    <!-- Nodes -->
+    <circle cx="60" cy="60" r="10" fill="#6080C0" />
+    <circle cx="160" cy="60" r="10" fill="#6080C0" />
+    <circle cx="260" cy="60" r="10" fill="#6080C0" />
+    <circle cx="60" cy="160" r="10" fill="#6080C0" />
+    <circle cx="160" cy="160" r="10" fill="#6080C0" />
+    <circle cx="260" cy="160" r="10" fill="#6080C0" />
+    <circle cx="60" cy="260" r="10" fill="#6080C0" />
+    <circle cx="160" cy="260" r="10" fill="#6080C0" />
+    <circle cx="260" cy="260" r="10" fill="#6080C0" />
+  </g>
+
+  <!-- Graph Processed -->
+  <g transform="translate(420, 450)">
+    <!-- Edges -->
+    <line x1="80" y1="80" x2="180" y2="40" stroke="#60A080" stroke-width="6" />
+    <line x1="180" y1="40" x2="280" y2="100" stroke="#60A080" stroke-width="6" />
+    <line x1="280" y1="100" x2="220" y2="200" stroke="#60A080" stroke-width="6" />
+    <line x1="220" y1="200" x2="100" y2="180" stroke="#60A080" stroke-width="6" />
+    <line x1="100" y1="180" x2="80" y2="80" stroke="#60A080" stroke-width="6" />
+    <line x1="180" y1="40" x2="220" y2="200" stroke="#60A080" stroke-width="6" />
+    <line x1="180" y1="40" x2="250" y2="150" stroke="#60A080" stroke-width="6" />
+    <line x1="100" y1="180" x2="160" y2="240" stroke="#60A080" stroke-width="6" />
+    <line x1="280" y1="100" x2="320" y2="160" stroke="#60A080" stroke-width="6" />
+    <!-- Blue ovals -->
+    <ellipse cx="80" cy="80" rx="40" ry="60" fill="#ADD8E6" opacity="0.5" transform="rotate(30 80 80)" />
+    <ellipse cx="180" cy="40" rx="50" ry="30" fill="#ADD8E6" opacity="0.5" transform="rotate(-15 180 40)" />
+    <ellipse cx="280" cy="100" rx="40" ry="50" fill="#ADD8E6" opacity="0.5" transform="rotate(45 280 100)" />
+    <ellipse cx="220" cy="200" rx="30" ry="60" fill="#ADD8E6" opacity="0.5" transform="rotate(-30 220 200)" />
+    <ellipse cx="100" cy="180" rx="40" ry="40" fill="#ADD8E6" opacity="0.5" />
+    <ellipse cx="250" cy="150" rx="30" ry="30" fill="#ADD8E6" opacity="0.5" />
+    <ellipse cx="160" cy="240" rx="30" ry="30" fill="#ADD8E6" opacity="0.5" />
+    <ellipse cx="320" cy="160" rx="30" ry="40" fill="#ADD8E6" opacity="0.5" />
+    <!-- Nodes -->
+    <circle cx="80" cy="80" r="10" fill="#60A080" />
+    <circle cx="180" cy="40" r="10" fill="#60A080" />
+    <circle cx="280" cy="100" r="10" fill="#60A080" />
+    <circle cx="220" cy="200" r="10" fill="#60A080" />
+    <circle cx="100" cy="180" r="10" fill="#60A080" />
+    <circle cx="250" cy="150" r="10" fill="#60A080" />
+    <circle cx="160" cy="240" r="10" fill="#60A080" />
+    <circle cx="320" cy="160" r="10" fill="#60A080" />
+  </g>
+
+  <!-- Big Gray Arrow -->
+  <path d="M 790 410 L 880 410" class="arrow-gray" stroke-width="30" />
+  <polygon points="880,380 930,410 880,440" class="arrow-head-gray" />
+
+  <!-- Sequential format cubes -->
+  <g transform="translate(940, 200)">
+    <!-- Cubes -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="40" height="40" fill="#4080D0" />
+      <polygon points="0,0 15,-15 55,-15 40,0" fill="#60A0F0" />
+      <polygon points="40,0 55,-15 55,25 40,40" fill="#2060B0" />
+    </g>
+    <g transform="translate(0, 70)">
+      <rect x="0" y="0" width="40" height="40" fill="#4080D0" />
+      <polygon points="0,0 15,-15 55,-15 40,0" fill="#60A0F0" />
+      <polygon points="40,0 55,-15 55,25 40,40" fill="#2060B0" />
+    </g>
+    <g transform="translate(0, 140)">
+      <rect x="0" y="0" width="40" height="40" fill="#4080D0" />
+      <polygon points="0,0 15,-15 55,-15 40,0" fill="#60A0F0" />
+      <polygon points="40,0 55,-15 55,25 40,40" fill="#2060B0" />
+    </g>
+    <!-- Dots -->
+    <circle cx="20" cy="210" r="4" fill="#000" />
+    <circle cx="20" cy="230" r="4" fill="#000" />
+    <circle cx="20" cy="250" r="4" fill="#000" />
+    <!-- More Cubes -->
+    <g transform="translate(0, 280)">
+      <rect x="0" y="0" width="40" height="40" fill="#4080D0" />
+      <polygon points="0,0 15,-15 55,-15 40,0" fill="#60A0F0" />
+      <polygon points="40,0 55,-15 55,25 40,40" fill="#2060B0" />
+    </g>
+    <g transform="translate(0, 350)">
+      <rect x="0" y="0" width="40" height="40" fill="#4080D0" />
+      <polygon points="0,0 15,-15 55,-15 40,0" fill="#60A0F0" />
+      <polygon points="40,0 55,-15 55,25 40,40" fill="#2060B0" />
+    </g>
+  </g>
+
+  <!-- Dataset Text -->
+  <text x="220" y="800" class="text-sub">Different</text>
+  <text x="220" y="880" class="text-sub">data types</text>
+  <text x="890" y="800" class="text-sub">Sequential</text>
+  <text x="890" y="880" class="text-sub">format</text>
+
+  <!-- Multiple Domains Multiple Cities -->
+  <!-- Night lights image placeholder -->
+  <rect x="75" y="1030" width="240" height="230" fill="#000040" />
+  <path d="M75 1260 Q 150 1100 200 1260 Z" fill="#4040A0" />
+  <circle cx="100" cy="1100" r="10" fill="#FFFF00" />
+  <circle cx="150" cy="1150" r="5" fill="#FFFF00" />
+  <circle cx="250" cy="1180" r="8" fill="#FFFF00" />
+  
+  <!-- Cityscape image placeholder -->
+  <rect x="410" y="1030" width="240" height="230" fill="#202020" />
+  <rect x="430" y="1100" width="30" height="160" fill="#606060" />
+  <rect x="480" y="1150" width="40" height="110" fill="#808080" />
+  <rect x="540" y="1080" width="35" height="180" fill="#505050" />
+  <rect x="590" y="1120" width="45" height="140" fill="#707070" />
+  <circle cx="530" cy="1060" r="15" fill="none" stroke="#FFF" stroke-width="2" />
+  <circle cx="530" cy="1060" r="25" fill="none" stroke="#FFF" stroke-width="2" opacity="0.5" />
+
+  <!-- Taxis image placeholder -->
+  <rect x="745" y="1030" width="240" height="230" fill="#404040" />
+  <rect x="745" y="1100" width="120" height="100" fill="#FFC000" rx="10" />
+  <rect x="870" y="1120" width="80" height="70" fill="#FFC000" rx="10" />
+  <rect x="960" y="1130" width="25" height="50" fill="#FFC000" rx="5" />
+  <circle cx="780" cy="1200" r="15" fill="#000" />
+  <circle cx="830" cy="1200" r="15" fill="#000" />
+
+  <!-- Map image placeholder -->
+  <rect x="75" y="1310" width="240" height="230" fill="#F0F0F0" />
+  <line x1="75" y1="1350" x2="315" y2="1370" stroke="#A0A0A0" stroke-width="8" />
+  <line x1="75" y1="1450" x2="315" y2="1420" stroke="#A0A0A0" stroke-width="8" />
+  <line x1="120" y1="1310" x2="150" y2="1540" stroke="#A0A0A0" stroke-width="8" />
+  <line x1="220" y1="1310" x2="200" y2="1540" stroke="#A0A0A0" stroke-width="8" />
+  <line x1="280" y1="1310" x2="290" y2="1540" stroke="#A0A0A0" stroke-width="8" />
+
+  <!-- Heatmap image placeholder -->
+  <rect x="410" y="1310" width="240" height="230" fill="#004000" />
+  <rect x="430" y="1330" width="200" height="190" fill="#006000" />
+  <rect x="450" y="1350" width="160" height="150" fill="#008000" />
+  <rect x="470" y="1370" width="120" height="110" fill="#00A000" />
+  <rect x="490" y="1390" width="80" height="70" fill="#FFFF00" />
+  <rect x="510" y="1410" width="40" height="30" fill="#FF0000" />
+  <line x1="410" y1="1425" x2="650" y2="1425" stroke="#FF8000" stroke-width="10" />
+  <line x1="530" y1="1310" x2="530" y2="1540" stroke="#FF8000" stroke-width="10" />
+
+  <!-- Trajectory image placeholder -->
+  <rect x="745" y="1310" width="240" height="230" fill="#F0F8FF" />
+  <path d="M865 1480 Q 780 1350 760 1380" fill="none" stroke="#FF8000" stroke-width="2" opacity="0.5" />
+  <path d="M865 1480 Q 800 1330 790 1350" fill="none" stroke="#FF8000" stroke-width="2" opacity="0.5" />
+  <path d="M865 1480 Q 840 1320 830 1340" fill="none" stroke="#FF8000" stroke-width="3" opacity="0.7" />
+  <path d="M865 1480 Q 880 1320 890 1340" fill="none" stroke="#FF8000" stroke-width="3" opacity="0.7" />
+  <path d="M865 1480 Q 920 1330 940 1350" fill="none" stroke="#FF8000" stroke-width="2" opacity="0.5" />
+  <path d="M865 1480 Q 960 1350 970 1380" fill="none" stroke="#FF8000" stroke-width="2" opacity="0.5" />
+  <path d="M865 1480 Q 760 1450 750 1480" fill="none" stroke="#FF8000" stroke-width="2" opacity="0.5" />
+  <path d="M865 1480 Q 970 1450 980 1480" fill="none" stroke="#FF8000" stroke-width="2" opacity="0.5" />
+  <!-- Core -->
+  <circle cx="865" cy="1480" r="10" fill="#FF0000" />
+
+  <text x="537" y="1620" class="text-sub">Multiple Domains</text>
+  <text x="537" y="1700" class="text-sub">Multiple Cities</text>
+
+  <!-- Arrow from (a) to (b) -->
+  <path d="M 1050 900 L 1150 1150 M 1050 1600 L 1130 1600" class="arrow" />
+  <polygon points="1140,1125 1160,1175 1130,1165" class="arrow-head" transform="rotate(-15 1150 1150)" />
+  <polygon points="1120,1585 1150,1600 1120,1615" class="arrow-head" />
+
+  <!-- (b) Urban Diffusion Transformer -->
+  <text x="1780" y="1840" class="text-main">(b) Urban Diffusion Transformer</text>
+
+  <!-- Output -->
+  <text x="1720" y="90" class="text-sub">Output</text>
+  <path d="M 1720 200 L 1720 120" class="arrow" />
+  <polygon points="1705,130 1720,100 1735,130" class="arrow-head" />
+
+  <!-- Reshape -->
+  <rect x="1190" y="200" width="1090" height="120" class="box" />
+  <text x="1735" y="285" class="text-sub">Reshape</text>
+  <path d="M 1735 390 L 1735 320" class="arrow" />
+  <polygon points="1720,335 1735,305 1750,335" class="arrow-head" />
+
+  <!-- Gray blocks -->
+  <g transform="translate(1220, 390)">
+    <rect x="0" y="0" width="90" height="90" fill="#808080" />
+    <rect x="135" y="0" width="90" height="90" fill="#909090" />
+    <rect x="270" y="0" width="90" height="90" fill="#A0A0A0" />
+    <rect x="405" y="0" width="90" height="90" fill="#B0B0B0" />
+    <rect x="540" y="0" width="90" height="90" fill="#A0A0A0" />
+    <rect x="675" y="0" width="90" height="90" fill="#909090" />
+    <rect x="810" y="0" width="90" height="90" fill="#808080" />
+    <!-- Noise texture simulation -->
+    <path d="M10 10 L20 20 M30 10 L10 30 M50 50 L70 60 M80 20 L60 40 M20 70 L40 80" stroke="#606060" stroke-width="2" />
+    <path d="M145 10 L155 20 M165 10 L145 30 M185 50 L205 60 M215 20 L195 40 M155 70 L175 80" stroke="#707070" stroke-width="2" />
+    <path d="M280 10 L290 20 M300 10 L280 30 M320 50 L340 60 M350 20 L330 40 M290 70 L310 80" stroke="#808080" stroke-width="2" />
+    <path d="M415 10 L425 20 M435 10 L415 30 M455 50 L475 60 M485 20 L465 40 M425 70 L445 80" stroke="#909090" stroke-width="2" />
+    <path d="M550 10 L560 20 M570 10 L550 30 M590 50 L610 60 M620 20 L600 40 M560 70 L580 80" stroke="#808080" stroke-width="2" />
+    <path d="M685 10 L695 20 M705 10 L685 30 M725 50 L745 60 M755 20 L735 40 M695 70 L715 80" stroke="#707070" stroke-width="2" />
+    <path d="M820 10 L830 20 M840 10 L820 30 M860 50 L880 60 M890 20 L870 40 M830 70 L850 80" stroke="#606060" stroke-width="2" />
+  </g>
+
+  <!-- Lines from UDT to gray blocks -->
+  <line x1="1265" y1="570" x2="1265" y2="480" stroke="#000" stroke-width="6" />
+  <line x1="1400" y1="570" x2="1400" y2="480" stroke="#000" stroke-width="6" />
+  <line x1="1535" y1="570" x2="1535" y2="480" stroke="#000" stroke-width="6" />
+  <line x1="1670" y1="570" x2="1670" y2="480" stroke="#000" stroke-width="6" />
+  <line x1="1805" y1="570" x2="1805" y2="480" stroke="#000" stroke-width="6" />
+  <line x1="1940" y1="570" x2="1940" y2="480" stroke="#000" stroke-width="6" />
+  <line x1="2075" y1="570" x2="2075" y2="480" stroke="#000" stroke-width="6" />
+
+  <!-- Urban Diffusion Transformer Box -->
+  <rect x="1155" y="570" width="1185" height="300" rx="30" fill="url(#udt-grad)" stroke="#000" stroke-width="6" />
+  <text x="1747" y="740" class="text-main">Urban Diffusion Transformer</text>
+
+  <!-- Concat -->
+  <rect x="1635" y="930" width="310" height="70" class="box-white" rx="15" />
+  <text x="1790" y="985" class="text-sub">Concat</text>
+
+  <!-- Lines around Concat -->
+  <path d="M 1480 880 L 1480 965 L 1635 965" class="arrow" />
+  <polygon points="1620,950 1650,965 1620,980" class="arrow-head" />
+  <path d="M 2100 880 L 2100 965 L 1945 965" class="arrow" />
+  <polygon points="1960,950 1930,965 1960,980" class="arrow-head" />
+  <path d="M 1790 930 L 1790 870" class="arrow" />
+  <polygon points="1775,885 1790,855 1805,885" class="arrow-head" />
+
+  <!-- Spatio-temporal patching -->
+  <rect x="1155" y="1060" width="600" height="250" class="box" />
+  <text x="1455" y="1170" class="text-sub">Spatio-temporal</text>
+  <text x="1455" y="1250" class="text-sub">patching</text>
+  <path d="M 1455 1060 L 1455 870" class="arrow" />
+  <polygon points="1440,885 1455,855 1470,885" class="arrow-head" />
+
+  <!-- Embedding layer -->
+  <rect x="1845" y="1060" width="490" height="250" class="box" />
+  <text x="2090" y="1170" class="text-sub">Embedding</text>
+  <text x="2090" y="1250" class="text-sub">layer</text>
+  <!-- Arrow from Embedding to UDT with curve over Concat line -->
+  <path d="M 2090 1060 L 2090 985" stroke="#000" stroke-width="8" fill="none" />
+  <path d="M 2090 985 Q 2090 965 2070 965 Q 2050 965 2050 945 Q 2050 925 2070 925 Q 2090 925 2090 905 L 2090 870" stroke="#000" stroke-width="8" fill="none" />
+  <polygon points="2075,885 2090,855 2105,885" class="arrow-head" />
+
+  <!-- Noisy ST data -->
+  <rect x="1155" y="1450" width="550" height="250" class="box" />
+  <text x="1430" y="1560" class="text-sub">Noisy</text>
+  <text x="1430" y="1640" class="text-sub">ST data</text>
+  <path d="M 1430 1450 L 1430 1310" class="arrow" />
+  <polygon points="1415,1325 1430,1295 1445,1325" class="arrow-head" />
+
+  <!-- Timestep t -->
+  <rect x="1870" y="1450" width="465" height="250" class="box" />
+  <text x="2102" y="1560" class="text-sub">Timestep</text>
+  <text x="2102" y="1640" class="text-bold-italic">t</text>
+  <path d="M 2102 1450 L 2102 1310" class="arrow" />
+  <polygon points="2087,1325 2102,1295 2117,1325" class="arrow-head" />
+
+  <!-- Line connecting from (c) -->
+  <path d="M 2650 1400 L 1470 1400 L 1470 1310" class="arrow" />
+  <polygon points="1455,1325 1470,1295 1485,1325" class="arrow-head" />
+  <line x1="2102" y1="1450" x2="2102" y2="1400" stroke="#000" stroke-width="8" />
+  <circle cx="2102" cy="1400" r="8" fill="#000" />
+  <circle cx="1470" cy="1400" r="8" fill="#000" />
+
+  <!-- (c) Masking Strategies -->
+  <rect x="2640" y="1390" width="1120" height="340" class="box-white" />
+  <text x="3200" y="1840" class="text-main">(c) Masking Strategies</text>
+
+  <!-- Masking Images - Simulated with grids -->
+  <g transform="translate(2680, 1420)">
+    <!-- Top Left -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="20" width="80" height="80" fill="#A0A0A0" transform="skewY(-20)" />
+      <rect x="20" y="10" width="80" height="80" fill="#FFC0C0" stroke="#FF8080" stroke-width="2" transform="skewY(-20)" />
+      <rect x="40" y="0" width="80" height="80" fill="#C0FFC0" stroke="#80FF80" stroke-width="2" transform="skewY(-20)" />
+      <!-- Grid lines for Top Left -->
+      <path d="M40 0 L120 0 M40 20 L120 20 M40 40 L120 40 M40 60 L120 60 M40 80 L120 80" stroke="#80FF80" stroke-width="1" transform="skewY(-20)" />
+      <path d="M40 0 L40 80 M60 0 L60 80 M80 0 L80 80 M100 0 L100 80 M120 0 L120 80" stroke="#80FF80" stroke-width="1" transform="skewY(-20)" />
+      <rect x="60" y="20" width="20" height="20" fill="#FF0000" transform="skewY(-20)" />
+      <rect x="100" y="40" width="20" height="20" fill="#FF0000" transform="skewY(-20)" />
+    </g>
+    <!-- Top Middle -->
+    <g transform="translate(250, 0)">
+      <rect x="0" y="20" width="80" height="80" fill="#FFC0C0" stroke="#FF8080" stroke-width="2" transform="skewY(-20)" />
+      <rect x="20" y="10" width="80" height="80" fill="#FFC0C0" stroke="#FF8080" stroke-width="2" transform="skewY(-20)" />
+      <rect x="40" y="0" width="80" height="80" fill="#C0FFC0" stroke="#80FF80" stroke-width="2" transform="skewY(-20)" />
+      <!-- Grid lines -->
+      <path d="M40 0 L120 0 M40 20 L120 20 M40 40 L120 40 M40 60 L120 60 M40 80 L120 80" stroke="#80FF80" stroke-width="1" transform="skewY(-20)" />
+      <path d="M40 0 L40 80 M60 0 L60 80 M80 0 L80 80 M100 0 L100 80 M120 0 L120 80" stroke="#80FF80" stroke-width="1" transform="skewY(-20)" />
+      <rect x="40" y="0" width="80" height="80" fill="#FF0000" opacity="0.3" transform="skewY(-20)" />
+    </g>
+    <!-- Top Right -->
+    <g transform="translate(500, 0)">
+      <rect x="0" y="20" width="80" height="80" fill="#C0FFC0" stroke="#80FF80" stroke-width="2" transform="skewY(-20)" />
+      <rect x="20" y="10" width="80" height="80" fill="#A0A0A0" stroke="#808080" stroke-width="2" transform="skewY(-20)" />
+      <rect x="40" y="0" width="80" height="80" fill="#C0FFC0" stroke="#80FF80" stroke-width="2" transform="skewY(-20)" />
+      <!-- Grid lines -->
+      <path d="M40 0 L120 0 M40 20 L120 20 M40 40 L120 40 M40 60 L120 60 M40 80 L120 80" stroke="#80FF80" stroke-width="1" transform="skewY(-20)" />
+      <path d="M40 0 L40 80 M60 0 L60 80 M80 0 L80 80 M100 0 L100 80 M120 0 L120 80" stroke="#80FF80" stroke-width="1" transform="skewY(-20)" />
+      <rect x="60" y="0" width="20" height="80" fill="#FF0000" opacity="0.5" transform="skewY(-20)" />
+      <rect x="100" y="0" width="20" height="80" fill="#FF0000" opacity="0.5" transform="skewY(-20)" />
+    </g>
+    <!-- Bottom Left -->
+    <g transform="translate(125, 150)">
+      <rect x="0" y="20" width="80" height="80" fill="#A0A0A0" transform="skewY(-20)" />
+      <rect x="20" y="10" width="80" height="80" fill="#FFC0C0" stroke="#FF8080" stroke-width="2" transform="skewY(-20)" />
+      <rect x="40" y="0" width="80" height="80" fill="#C0FFC0" stroke="#80FF80" stroke-width="2" transform="skewY(-20)" />
+      <!-- Grid lines -->
+      <path d="M40 0 L120 0 M40 20 L120 20 M40 40 L120 40 M40 60 L120 60 M40 80 L120 80" stroke="#80FF80" stroke-width="1" transform="skewY(-20)" />
+      <path d="M40 0 L40 80 M60 0 L60 80 M80 0 L80 80 M100 0 L100 80 M120 0 L120 80" stroke="#80FF80" stroke-width="1" transform="skewY(-20)" />
+      <rect x="40" y="20" width="80" height="20" fill="#FF0000" opacity="0.5" transform="skewY(-20)" />
+      <rect x="40" y="60" width="80" height="20" fill="#FF0000" opacity="0.5" transform="skewY(-20)" />
+    </g>
+    <!-- Bottom Right -->
+    <g transform="translate(375, 150)">
+      <rect x="0" y="20" width="80" height="80" fill="#C0FFC0" stroke="#80FF80" stroke-width="2" transform="skewY(-20)" />
+      <rect x="20" y="10" width="80" height="80" fill="#C0FFC0" stroke="#80FF80" stroke-width="2" transform="skewY(-20)" />
+      <rect x="40" y="0" width="80" height="80" fill="#A0A0A0" stroke="#808080" stroke-width="2" transform="skewY(-20)" />
+      <!-- Grid lines -->
+      <path d="M40 0 L120 0 M40 20 L120 20 M40 40 L120 40 M40 60 L120 60 M40 80 L120 80" stroke="#808080" stroke-width="1" transform="skewY(-20)" />
+      <path d="M40 0 L40 80 M60 0 L60 80 M80 0 L80 80 M100 0 L100 80 M120 0 L120 80" stroke="#808080" stroke-width="1" transform="skewY(-20)" />
+      <rect x="60" y="20" width="20" height="20" fill="#FF0000" transform="skewY(-20)" />
+      <rect x="100" y="40" width="20" height="20" fill="#FF0000" transform="skewY(-20)" />
+      <rect x="80" y="60" width="20" height="20" fill="#FF0000" transform="skewY(-20)" />
+    </g>
+  </g>
+
+  <!-- (d) Unified Prompt Learning -->
+  <rect x="2540" y="25" width="1295" height="1225" class="box-white" />
+  <text x="3200" y="1320" class="text-main">(d) Unified Prompt Learning</text>
+
+  <!-- Data memory box -->
+  <rect x="2590" y="70" width="950" height="650" class="box-dashed" />
+  
+  <!-- Brain Icons for Data memory -->
+  <g transform="translate(2650, 100)">
+    <!-- Brain 1 -->
+    <path d="M 40 40 Q 10 10 40 -20 Q 70 -50 100 -20 Q 130 10 100 40 Q 130 70 100 100 Q 70 130 40 100 Q 10 70 40 40 Z" fill="none" stroke="#2020A0" stroke-width="10" />
+    <path d="M 40 -20 Q 10 -50 40 -80 Q 70 -110 100 -80" fill="none" stroke="#2020A0" stroke-width="10" />
+    <path d="M 100 100 Q 130 130 100 160 Q 70 190 40 160" fill="none" stroke="#2020A0" stroke-width="10" />
+    <path d="M 70 -80 L 70 160" stroke="#2020A0" stroke-width="10" />
+    <!-- Orange center -->
+    <path d="M 60 20 Q 80 40 60 60" fill="none" stroke="#FF8000" stroke-width="10" />
+    <path d="M 80 20 Q 60 40 80 60" fill="none" stroke="#FF8000" stroke-width="10" />
+  </g>
+
+  <g transform="translate(2650, 320)">
+    <!-- Brain 2 -->
+    <path d="M 40 40 Q 10 10 40 -20 Q 70 -50 100 -20 Q 130 10 100 40 Q 130 70 100 100 Q 70 130 40 100 Q 10 70 40 40 Z" fill="none" stroke="#2020A0" stroke-width="10" />
+    <path d="M 40 -20 Q 10 -50 40 -80 Q 70 -110 100 -80" fill="none" stroke="#2020A0" stroke-width="10" />
+    <path d="M 100 100 Q 130 130 100 160 Q 70 190 40 160" fill="none" stroke="#2020A0" stroke-width="10" />
+    <path d="M 70 -80 L 70 160" stroke="#2020A0" stroke-width="10" />
+    <!-- Orange center -->
+    <path d="M 60 20 Q 80 40 60 60" fill="none" stroke="#FF8000" stroke-width="10" />
+    <path d="M 80 20 Q 60 40 80 60" fill="none" stroke="#FF8000" stroke-width="10" />
+  </g>
+
+  <g transform="translate(2650, 540)">
+    <!-- Brain 3 -->
+    <path d="M 40 40 Q 10 10 40 -20 Q 70 -50 100 -20 Q 130 10 100 40 Q 130 70 100 100 Q 70 130 40 100 Q 10 70 40 40 Z" fill="none" stroke="#2020A0" stroke-width="10" />
+    <path d="M 40 -20 Q 10 -50 40 -80 Q 70 -110 100 -80" fill="none" stroke="#2020A0" stroke-width="10" />
+    <path d="M 100 100 Q 130 130 100 160 Q 70 190 40 160" fill="none" stroke="#2020A0" stroke-width="10" />
+    <path d="M 70 -80 L 70 160" stroke="#2020A0" stroke-width="10" />
+    <!-- Orange center -->
+    <path d="M 60 20 Q 80 40 60 60" fill="none" stroke="#FF8000" stroke-width="10" />
+    <path d="M 80 20 Q 60 40 80 60" fill="none" stroke="#FF8000" stroke-width="10" />
+  </g>
+
+  <text x="2720" y="630" class="text-sub">Data</text>
+  <text x="2720" y="690" class="text-sub">memory</text>
+
+  <!-- Pattern boxes -->
+  <rect x="2880" y="100" width="590" height="80" class="box-dashed" />
+  <text x="3175" y="165" class="text-sub">Frequency pattern</text>
+  <path d="M 2880 140 L 2800 140" class="arrow" />
+  <polygon points="2815,125 2800,140 2815,155" class="arrow-head" />
+
+  <rect x="2880" y="280" width="590" height="80" class="box-dashed" />
+  <text x="3175" y="345" class="text-sub">Temporal pattern</text>
+  <path d="M 2880 320 L 2800 320" class="arrow" />
+  <polygon points="2815,305 2800,320 2815,335" class="arrow-head" />
+
+  <rect x="2880" y="460" width="590" height="80" class="box-dashed" />
+  <text x="3175" y="525" class="text-sub">Spatial pattern</text>
+  <path d="M 2880 500 L 2800 500" class="arrow" />
+  <polygon points="2815,485 2800,500 2815,515" class="arrow-head" />
+
+  <!-- Data memory labels -->
+  <text x="3250" y="670" class="text-bold-italic">Data-driven prompt</text>
+  <text x="3670" y="320" class="text-sub">ST</text>
+  <text x="3670" y="400" class="text-sub">Data</text>
+  <path d="M 3580 360 L 3470 360" class="arrow" stroke-dasharray="10,10" />
+  <polygon points="3485,345 3470,360 3485,375" class="arrow-head" />
+
+  <!-- Task memory box -->
+  <rect x="2590" y="780" width="950" height="400" class="box-dashed" />
+  
+  <!-- Brain Icon for Task memory -->
+  <g transform="translate(2650, 940)">
+    <path d="M 40 40 Q 10 10 40 -20 Q 70 -50 100 -20 Q 130 10 100 40 Q 130 70 100 100 Q 70 130 40 100 Q 10 70 40 40 Z" fill="none" stroke="#2020A0" stroke-width="10" />
+    <path d="M 40 -20 Q 10 -50 40 -80 Q 70 -110 100 -80" fill="none" stroke="#2020A0" stroke-width="10" />
+    <path d="M 100 100 Q 130 130 100 160 Q 70 190 40 160" fill="none" stroke="#2020A0" stroke-width="10" />
+    <path d="M 70 -80 L 70 160" stroke="#2020A0" stroke-width="10" />
+    <!-- Orange center -->
+    <path d="M 60 20 Q 80 40 60 60" fill="none" stroke="#FF8000" stroke-width="10" />
+    <path d="M 80 20 Q 60 40 80 60" fill="none" stroke="#FF8000" stroke-width="10" />
+  </g>
+
+  <text x="2720" y="1070" class="text-sub">Task</text>
+  <text x="2720" y="1130" class="text-sub">memory</text>
+
+  <!-- Attention -->
+  <rect x="2940" y="800" width="70" height="280" class="box" />
+  <text x="2975" y="940" class="text-sub" transform="rotate(90 2975 940)">Attention</text>
+  <path d="M 2940 940 L 2820 940" class="arrow" />
+  <polygon points="2835,925 2820,940 2835,955" class="arrow-head" />
+
+  <!-- Masking Image next to Attention -->
+  <g transform="translate(3150, 900)">
+    <rect x="0" y="40" width="120" height="120" fill="#A0A0A0" transform="skewY(-20)" />
+    <rect x="30" y="20" width="120" height="120" fill="#FFC0C0" stroke="#FF8080" stroke-width="2" transform="skewY(-20)" />
+    <rect x="60" y="0" width="120" height="120" fill="#C0FFC0" stroke="#80FF80" stroke-width="2" transform="skewY(-20)" />
+    <!-- Grid lines -->
+    <path d="M60 0 L180 0 M60 30 L180 30 M60 60 L180 60 M60 90 L180 90 M60 120 L180 120" stroke="#80FF80" stroke-width="2" transform="skewY(-20)" />
+    <path d="M60 0 L60 120 M90 0 L90 120 M120 0 L120 120 M150 0 L150 120 M180 0 L180 120" stroke="#80FF80" stroke-width="2" transform="skewY(-20)" />
+    <rect x="90" y="30" width="30" height="30" fill="#FF0000" transform="skewY(-20)" />
+    <rect x="150" y="60" width="30" height="30" fill="#FF0000" transform="skewY(-20)" />
+    <rect x="60" y="90" width="30" height="30" fill="#FF0000" transform="skewY(-20)" />
+  </g>
+  
+  <path d="M 3150 940 L 3010 940" class="arrow" />
+  <polygon points="3025,925 3010,940 3025,955" class="arrow-head" />
+
+  <text x="3670" y="980" class="text-sub">Mask</text>
+  <path d="M 3580 960 L 3390 960" class="arrow" stroke-dasharray="10,10" />
+  <polygon points="3405,945 3390,960 3405,975" class="arrow-head" />
+
+  <text x="3250" y="1170" class="text-bold-italic">Task-specific prompt</text>
+
+  <!-- Line connecting from (d) to Concat -->
+  <path d="M 2540 640 L 2440 640 L 2440 965 L 1945 965" class="arrow" />
+
+</svg>

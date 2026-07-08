@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"><g id="svg_slot_cdpruner_disc_icon" data-source-slot="slot_cdpruner_disc_icon" fill="none" transform="translate(1520 64) scale(1.022 1) translate(0 0)"><defs>
+    <radialGradient id="disc" cx="36%" cy="30%" r="70%">
+      <stop offset="0" stop-color="#f2f2f2" />
+      <stop offset="0.45" stop-color="#d9d9d9" />
+      <stop offset="0.75" stop-color="#c7c7c7" />
+      <stop offset="1" stop-color="#b8b8b8" />
+    </radialGradient>
+    <linearGradient id="shine" x1="7" y1="7" x2="35" y2="37" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.65" />
+      <stop offset="0.45" stop-color="#ffffff" stop-opacity="0.18" />
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <circle cx="22.5" cy="23" r="21.2" fill="url(#disc)" stroke="#1b1b1b" stroke-width="2.2" />
+  <path d="M9.2 9.7A18.8 18.8 0 0 1 22.5 4.2V18.4a4.6 4.6 0 0 0-3.2 1.3Z" fill="url(#shine)" />
+  <circle cx="22.5" cy="23" r="4.45" fill="#eeeeee" stroke="#242424" stroke-width="1.6" />
+  <circle cx="22.5" cy="23" r="1.15" fill="#8f8f8f" />
+</g></svg>

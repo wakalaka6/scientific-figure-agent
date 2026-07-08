@@ -1,0 +1,470 @@
+[
+  {
+    "slot_id": "slot_vision_thumb_1",
+    "filename": "assets/raster_required/slot_vision_thumb_1.png",
+    "canonical_slot_id": "slot_vision_thumb_1",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "vision_thumb_1",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      32,
+      644,
+      104,
+      56
+    ],
+    "classification": "raster_required",
+    "reason": "from first-pass asset detection kind=pixel_image",
+    "asset_hash": "",
+    "description": "vision frame thumbnail showing masked man"
+  },
+  {
+    "slot_id": "slot_vision_thumb_2",
+    "filename": "assets/raster_required/slot_vision_thumb_2.png",
+    "canonical_slot_id": "slot_vision_thumb_2",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "vision_thumb_2",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      146,
+      644,
+      107,
+      56
+    ],
+    "classification": "raster_required",
+    "reason": "from first-pass asset detection kind=pixel_image",
+    "asset_hash": "",
+    "description": "vision frame thumbnail of street scene"
+  },
+  {
+    "slot_id": "slot_vision_thumb_3",
+    "filename": "assets/raster_required/slot_vision_thumb_3.png",
+    "canonical_slot_id": "slot_vision_thumb_3",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "vision_thumb_3",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      286,
+      644,
+      105,
+      56
+    ],
+    "classification": "raster_required",
+    "reason": "from first-pass asset detection kind=pixel_image",
+    "asset_hash": "",
+    "description": "vision frame thumbnail showing man in street"
+  },
+  {
+    "slot_id": "slot_audio_waveform",
+    "filename": "assets/raster_required/slot_audio_waveform.png",
+    "canonical_slot_id": "slot_audio_waveform",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "audio_waveform",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      479,
+      646,
+      246,
+      50
+    ],
+    "classification": "raster_required",
+    "reason": "from first-pass asset detection kind=pixel_image",
+    "asset_hash": "",
+    "description": "audio waveform graphic"
+  },
+  {
+    "slot_id": "slot_speech_waveform",
+    "filename": "assets/raster_required/slot_speech_waveform.png",
+    "canonical_slot_id": "slot_speech_waveform",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "speech_waveform",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      846,
+      646,
+      247,
+      50
+    ],
+    "classification": "raster_required",
+    "reason": "from first-pass asset detection kind=pixel_image",
+    "asset_hash": "",
+    "description": "speech waveform graphic"
+  },
+  {
+    "slot_id": "slot_video_clip_1",
+    "filename": "assets/raster_required/slot_video_clip_1.png",
+    "canonical_slot_id": "slot_video_clip_1",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "video_clip_1",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      17,
+      746,
+      112,
+      84
+    ],
+    "classification": "raster_required",
+    "reason": "from first-pass asset detection kind=pixel_image",
+    "asset_hash": "",
+    "description": "filmstrip clip with masked person"
+  },
+  {
+    "slot_id": "slot_video_clip_2",
+    "filename": "assets/raster_required/slot_video_clip_2.png",
+    "canonical_slot_id": "slot_video_clip_2",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "video_clip_2",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      171,
+      746,
+      218,
+      84
+    ],
+    "classification": "raster_required",
+    "reason": "from first-pass asset detection kind=pixel_image",
+    "asset_hash": "",
+    "description": "filmstrip clip with man indoors"
+  },
+  {
+    "slot_id": "slot_video_clip_3",
+    "filename": "assets/raster_required/slot_video_clip_3.png",
+    "canonical_slot_id": "slot_video_clip_3",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "video_clip_3",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      430,
+      746,
+      219,
+      84
+    ],
+    "classification": "raster_required",
+    "reason": "from first-pass asset detection kind=pixel_image",
+    "asset_hash": "",
+    "description": "filmstrip clip with sponsor sign"
+  },
+  {
+    "slot_id": "slot_video_clip_4",
+    "filename": "assets/raster_required/slot_video_clip_4.png",
+    "canonical_slot_id": "slot_video_clip_4",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "video_clip_4",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      684,
+      746,
+      218,
+      84
+    ],
+    "classification": "raster_required",
+    "reason": "from first-pass asset detection kind=pixel_image",
+    "asset_hash": "",
+    "description": "filmstrip clip of street view"
+  },
+  {
+    "slot_id": "slot_video_clip_5",
+    "filename": "assets/raster_required/slot_video_clip_5.png",
+    "canonical_slot_id": "slot_video_clip_5",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "video_clip_5",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      948,
+      746,
+      220,
+      84
+    ],
+    "classification": "raster_required",
+    "reason": "from first-pass asset detection kind=pixel_image",
+    "asset_hash": "",
+    "description": "filmstrip clip showing outdoor interview"
+  },
+  {
+    "slot_id": "slot_flame_llm",
+    "filename": "assets/svg_candidate/slot_flame_llm.png",
+    "canonical_slot_id": "slot_flame_llm",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "flame_icon",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      108,
+      74,
+      34,
+      44
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "flame trainable module icon"
+  },
+  {
+    "slot_id": "slot_flame_query_connector",
+    "filename": "assets/svg_candidate/slot_flame_llm.png",
+    "canonical_slot_id": "slot_flame_llm",
+    "duplicate_of": "slot_flame_llm",
+    "vlm_canonical_asset_id": "flame_icon",
+    "vlm_duplicate_of": "flame_icon",
+    "bbox_xywh": [
+      940,
+      142,
+      23,
+      36
+    ],
+    "classification": "svg_candidate",
+    "reason": "duplicate of slot_flame_llm; from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "flame trainable module icon"
+  },
+  {
+    "slot_id": "slot_flame_legend_stage2",
+    "filename": "assets/svg_candidate/slot_flame_llm.png",
+    "canonical_slot_id": "slot_flame_llm",
+    "duplicate_of": "slot_flame_llm",
+    "vlm_canonical_asset_id": "flame_icon",
+    "vlm_duplicate_of": "flame_icon",
+    "bbox_xywh": [
+      1286,
+      184,
+      22,
+      34
+    ],
+    "classification": "svg_candidate",
+    "reason": "duplicate of slot_flame_llm; from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "flame trainable module icon"
+  },
+  {
+    "slot_id": "slot_flame_legend_stage3",
+    "filename": "assets/svg_candidate/slot_flame_llm.png",
+    "canonical_slot_id": "slot_flame_llm",
+    "duplicate_of": "slot_flame_llm",
+    "vlm_canonical_asset_id": "flame_icon",
+    "vlm_duplicate_of": "flame_icon",
+    "bbox_xywh": [
+      1284,
+      226,
+      28,
+      32
+    ],
+    "classification": "svg_candidate",
+    "reason": "duplicate of slot_flame_llm; from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "double flame trainable module icon"
+  },
+  {
+    "slot_id": "slot_snowflake_legend",
+    "filename": "assets/svg_candidate/slot_snowflake_legend.png",
+    "canonical_slot_id": "slot_snowflake_legend",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "snowflake_icon",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      1286,
+      270,
+      25,
+      27
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "snowflake frozen component icon"
+  },
+  {
+    "slot_id": "slot_flame_time_head_left",
+    "filename": "assets/svg_candidate/slot_flame_llm.png",
+    "canonical_slot_id": "slot_flame_llm",
+    "duplicate_of": "slot_flame_llm",
+    "vlm_canonical_asset_id": "flame_icon",
+    "vlm_duplicate_of": "flame_icon",
+    "bbox_xywh": [
+      684,
+      20,
+      18,
+      25
+    ],
+    "classification": "svg_candidate",
+    "reason": "duplicate of slot_flame_llm; from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "flame trainable module icon"
+  },
+  {
+    "slot_id": "slot_flame_time_head_right",
+    "filename": "assets/svg_candidate/slot_flame_llm.png",
+    "canonical_slot_id": "slot_flame_llm",
+    "duplicate_of": "slot_flame_llm",
+    "vlm_canonical_asset_id": "flame_icon",
+    "vlm_duplicate_of": "flame_icon",
+    "bbox_xywh": [
+      829,
+      20,
+      18,
+      25
+    ],
+    "classification": "svg_candidate",
+    "reason": "duplicate of slot_flame_llm; from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "flame trainable module icon"
+  },
+  {
+    "slot_id": "slot_flame_lm_head_left",
+    "filename": "assets/svg_candidate/slot_flame_llm.png",
+    "canonical_slot_id": "slot_flame_llm",
+    "duplicate_of": "slot_flame_llm",
+    "vlm_canonical_asset_id": "flame_icon",
+    "vlm_duplicate_of": "flame_icon",
+    "bbox_xywh": [
+      949,
+      22,
+      18,
+      22
+    ],
+    "classification": "svg_candidate",
+    "reason": "duplicate of slot_flame_llm; from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "flame trainable module icon"
+  },
+  {
+    "slot_id": "slot_flame_lm_head_right",
+    "filename": "assets/svg_candidate/slot_flame_llm.png",
+    "canonical_slot_id": "slot_flame_llm",
+    "duplicate_of": "slot_flame_llm",
+    "vlm_canonical_asset_id": "flame_icon",
+    "vlm_duplicate_of": "flame_icon",
+    "bbox_xywh": [
+      1078,
+      22,
+      18,
+      22
+    ],
+    "classification": "svg_candidate",
+    "reason": "duplicate of slot_flame_llm; from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "flame trainable module icon"
+  },
+  {
+    "slot_id": "slot_flame_vision_projector",
+    "filename": "assets/svg_candidate/slot_flame_llm.png",
+    "canonical_slot_id": "slot_flame_llm",
+    "duplicate_of": "slot_flame_llm",
+    "vlm_canonical_asset_id": "flame_icon",
+    "vlm_duplicate_of": "flame_icon",
+    "bbox_xywh": [
+      315,
+      499,
+      18,
+      32
+    ],
+    "classification": "svg_candidate",
+    "reason": "duplicate of slot_flame_llm; from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "flame trainable module icon"
+  },
+  {
+    "slot_id": "slot_snowflake_vision_encoder",
+    "filename": "assets/svg_candidate/slot_snowflake_legend.png",
+    "canonical_slot_id": "slot_snowflake_legend",
+    "duplicate_of": "slot_snowflake_legend",
+    "vlm_canonical_asset_id": "snowflake_icon",
+    "vlm_duplicate_of": "snowflake_icon",
+    "bbox_xywh": [
+      310,
+      565,
+      23,
+      27
+    ],
+    "classification": "svg_candidate",
+    "reason": "duplicate of slot_snowflake_legend; from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "snowflake frozen component icon"
+  },
+  {
+    "slot_id": "slot_flame_audio_projector",
+    "filename": "assets/svg_candidate/slot_flame_llm.png",
+    "canonical_slot_id": "slot_flame_llm",
+    "duplicate_of": "slot_flame_llm",
+    "vlm_canonical_asset_id": "flame_icon",
+    "vlm_duplicate_of": "flame_icon",
+    "bbox_xywh": [
+      698,
+      499,
+      18,
+      32
+    ],
+    "classification": "svg_candidate",
+    "reason": "duplicate of slot_flame_llm; from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "flame trainable module icon"
+  },
+  {
+    "slot_id": "slot_snowflake_audio_encoder",
+    "filename": "assets/svg_candidate/slot_snowflake_legend.png",
+    "canonical_slot_id": "slot_snowflake_legend",
+    "duplicate_of": "slot_snowflake_legend",
+    "vlm_canonical_asset_id": "snowflake_icon",
+    "vlm_duplicate_of": "snowflake_icon",
+    "bbox_xywh": [
+      692,
+      565,
+      23,
+      27
+    ],
+    "classification": "svg_candidate",
+    "reason": "duplicate of slot_snowflake_legend; from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "snowflake frozen component icon"
+  },
+  {
+    "slot_id": "slot_flame_speech_projector",
+    "filename": "assets/svg_candidate/slot_flame_llm.png",
+    "canonical_slot_id": "slot_flame_llm",
+    "duplicate_of": "slot_flame_llm",
+    "vlm_canonical_asset_id": "flame_icon",
+    "vlm_duplicate_of": "flame_icon",
+    "bbox_xywh": [
+      1071,
+      499,
+      18,
+      32
+    ],
+    "classification": "svg_candidate",
+    "reason": "duplicate of slot_flame_llm; from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "flame trainable module icon"
+  },
+  {
+    "slot_id": "slot_snowflake_speech_encoder",
+    "filename": "assets/svg_candidate/slot_snowflake_legend.png",
+    "canonical_slot_id": "slot_snowflake_legend",
+    "duplicate_of": "slot_snowflake_legend",
+    "vlm_canonical_asset_id": "snowflake_icon",
+    "vlm_duplicate_of": "snowflake_icon",
+    "bbox_xywh": [
+      1065,
+      565,
+      23,
+      27
+    ],
+    "classification": "svg_candidate",
+    "reason": "duplicate of slot_snowflake_legend; from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "snowflake frozen component icon"
+  },
+  {
+    "slot_id": "slot_flame_time_encoder",
+    "filename": "assets/svg_candidate/slot_flame_llm.png",
+    "canonical_slot_id": "slot_flame_llm",
+    "duplicate_of": "slot_flame_llm",
+    "vlm_canonical_asset_id": "flame_icon",
+    "vlm_duplicate_of": "flame_icon",
+    "bbox_xywh": [
+      1239,
+      508,
+      18,
+      45
+    ],
+    "classification": "svg_candidate",
+    "reason": "duplicate of slot_flame_llm; from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "flame trainable module icon"
+  }
+]

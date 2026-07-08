@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 135 101">
+  <defs>
+    <clipPath id="logoCrop">
+      <path d="M0 0H135V67H101L68 100H0Z"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#logoCrop)">
+    <path fill="#6facd8" d="M1 33 34 0h11L12 33v56L1 100Z"/>
+    <path fill="#407dad" d="M12 33 45 0h11L23 33v56l-11 11Z"/>
+    <path fill="#6facd8" d="M23 33 56 0h11L34 33v56l-11 11Z"/>
+    <path fill="#3d78aa" d="M34 33 67 0h11L45 33v56l-11 11Z"/>
+    <path fill="#71b1dc" d="M45 33 78 0h11L56 33v56l-11 11Z"/>
+    <path fill="#407dad" d="M56 33 89 0h11L67 33v56l-11 11Z"/>
+    <path fill="#6facd8" d="M67 33 100 0h11L78 33v56l-11 11Z"/>
+    <path fill="#3d78aa" d="M78 33 111 0h11L89 33v56l-11 11Z"/>
+    <path fill="#5b9bcc" d="M89 33 122 0h11L100 33v56l-11 11Z"/>
+    <path fill="#3d78aa" d="M100 33 133 0h11L111 33v56l-11 11Z"/>
+    <path fill="#72b1dc" d="M111 33 144 0h11L122 33v56l-11 11Z"/>
+    <path fill="#407dad" d="M122 33 155 0h11L133 33v56l-11 11Z"/>
+  </g>
+  <g transform="translate(88 99) scale(.86 1)">
+    <text x="0" y="0" font-family="Arial, Helvetica, sans-serif" font-size="27.5" fill="#000">Teac</text>
+  </g>
+</svg>

@@ -1,0 +1,459 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 2142" width="3840" height="2142">
+  <defs>
+    <!-- Arrowhead definitions -->
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#1b5e20"/>
+    </marker>
+    <marker id="arrow-purple" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#4a148c"/>
+    </marker>
+    <marker id="arrow-black" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#000000"/>
+    </marker>
+    
+    <!-- Document shadow filter -->
+    <filter id="doc-shadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="4" dy="4" stdDeviation="4" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Global Backgrounds -->
+  <!-- Top Background (Learning) -->
+  <rect x="24" y="24" width="3792" height="1060" rx="40" fill="#f1f8f3"/>
+  <!-- Bottom Background (Planning) -->
+  <rect x="24" y="1130" width="3792" height="988" rx="40" fill="#f4eff8"/>
+
+  <!-- ========================================== -->
+  <!-- TOP SECTION: LEARNING                      -->
+  <!-- ========================================== -->
+  
+  <!-- "Learning" Vertical Text -->
+  <g transform="translate(110, 554) rotate(-90)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="64" font-weight="bold" text-anchor="middle" fill="#000000">Learning</text>
+  </g>
+
+  <!-- DROID Dataset Cylinder -->
+  <g transform="translate(160, 320)">
+    <!-- Cylinder Body -->
+    <path d="M 0 60 L 0 460 A 120 40 0 0 0 240 460 L 240 60" fill="#ffffff" stroke="#7a7a7a" stroke-width="8"/>
+    <!-- Cylinder Top -->
+    <ellipse cx="120" cy="60" rx="120" ry="40" fill="#ffffff" stroke="#7a7a7a" stroke-width="8"/>
+    <!-- Cylinder Text -->
+    <text x="120" y="240" font-family="Arial, sans-serif" font-size="44" text-anchor="middle" fill="#000000">DROID</text>
+    <text x="120" y="300" font-family="Arial, sans-serif" font-size="44" text-anchor="middle" fill="#000000">Dataset</text>
+  </g>
+
+  <!-- Arrows from DROID Dataset -->
+  <path d="M 410 400 L 450 400 L 450 300 L 510 300" fill="none" stroke="#1b5e20" stroke-width="8" marker-end="url(#arrow-green)"/>
+  <path d="M 410 560 L 510 560" fill="none" stroke="#1b5e20" stroke-width="8" marker-end="url(#arrow-green)"/>
+  <path d="M 410 720 L 450 720 L 450 860 L 510 860" fill="none" stroke="#1b5e20" stroke-width="8" marker-end="url(#arrow-green)"/>
+
+  <!-- (a) Keyframe Extraction Section -->
+  <g transform="translate(480, 60)">
+    <!-- Section Background -->
+    <rect x="0" y="0" width="980" height="980" rx="20" fill="#e8f5e9"/>
+    
+    <!-- Section Title -->
+    <text x="490" y="80" font-family="Arial, sans-serif" font-size="52" font-weight="bold" text-anchor="middle" fill="#000000">(a) Keyframe Extraction</text>
+    
+    <!-- Row 1 -->
+    <g transform="translate(40, 140)">
+      <rect x="0" y="0" width="900" height="240" fill="#ffffff"/>
+      <rect x="10" y="10" width="280" height="220" fill="#c0c0c0"/>
+      <text x="20" y="50" font-family="Arial, sans-serif" font-size="40" fill="#ffffff">Frame 1</text>
+      <rect x="300" y="10" width="280" height="220" fill="#c0c0c0"/>
+      <text x="310" y="50" font-family="Arial, sans-serif" font-size="40" fill="#ffffff">Frame 2</text>
+      <text x="600" y="130" font-family="Arial, sans-serif" font-size="32" fill="#000000">...</text>
+      <rect x="610" y="10" width="280" height="220" fill="#c0c0c0"/>
+      <text x="620" y="50" font-family="Arial, sans-serif" font-size="40" fill="#ffffff">Frame 7</text>
+    </g>
+    
+    <!-- Row 2 -->
+    <g transform="translate(40, 420)">
+      <rect x="0" y="0" width="900" height="240" fill="#ffffff"/>
+      <rect x="10" y="10" width="280" height="220" fill="#c0c0c0"/>
+      <text x="20" y="50" font-family="Arial, sans-serif" font-size="40" fill="#ffffff">Frame 1</text>
+      <rect x="300" y="10" width="280" height="220" fill="#c0c0c0"/>
+      <text x="310" y="50" font-family="Arial, sans-serif" font-size="40" fill="#ffffff">Frame 2</text>
+      <text x="600" y="130" font-family="Arial, sans-serif" font-size="32" fill="#000000">...</text>
+      <rect x="610" y="10" width="280" height="220" fill="#c0c0c0"/>
+      <text x="620" y="50" font-family="Arial, sans-serif" font-size="40" fill="#ffffff">Frame 9</text>
+    </g>
+    
+    <!-- Vertical Ellipsis -->
+    <text x="490" y="710" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#000000">⋮</text>
+    
+    <!-- Row 3 -->
+    <g transform="translate(40, 740)">
+      <rect x="0" y="0" width="900" height="240" fill="#ffffff"/>
+      <rect x="10" y="10" width="280" height="220" fill="#c0c0c0"/>
+      <text x="20" y="50" font-family="Arial, sans-serif" font-size="40" fill="#ffffff">Frame 1</text>
+      <rect x="300" y="10" width="280" height="220" fill="#c0c0c0"/>
+      <text x="310" y="50" font-family="Arial, sans-serif" font-size="40" fill="#ffffff">Frame 2</text>
+      <text x="600" y="130" font-family="Arial, sans-serif" font-size="32" fill="#000000">...</text>
+      <rect x="610" y="10" width="280" height="220" fill="#c0c0c0"/>
+      <text x="620" y="50" font-family="Arial, sans-serif" font-size="40" fill="#ffffff">Frame 8</text>
+    </g>
+  </g>
+
+  <!-- Arrow from (a) to (b) -->
+  <path d="M 1460 560 L 1540 560 L 1540 300 L 1600 300" fill="none" stroke="#1b5e20" stroke-width="8" marker-end="url(#arrow-green)"/>
+
+  <!-- (b) Atomic Domain Generation Section -->
+  <g transform="translate(1560, 60)">
+    <!-- Section Title -->
+    <text x="600" y="80" font-family="Arial, sans-serif" font-size="52" font-weight="bold" text-anchor="middle" fill="#000000">(b) Atomic Domain Generation</text>
+    
+    <!-- Top Block: Domain Construction & Revision -->
+    <g transform="translate(60, 140)">
+      <rect x="0" y="0" width="1080" height="180" rx="20" fill="#c8e6c9"/>
+      <g id="AF07">
+        <rect x="30" y="40" width="100" height="100" fill="#808080" stroke="black" stroke-width="2"/>
+        <text x="80" y="90" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="24">&lt;AF&gt;07</text>
+      </g>
+      <text x="150" y="80" font-family="Arial, sans-serif" font-size="48" fill="#000000">Domain Construction</text>
+      <text x="150" y="140" font-family="Arial, sans-serif" font-size="48" fill="#000000">&amp; Revision</text>
+      
+      <!-- Folded Document Graphic -->
+      <g transform="translate(720, 20)">
+        <path d="M 0 0 L 250 0 L 320 70 L 320 140 L 0 140 Z" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+        <path d="M 250 0 L 250 70 L 320 70" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+        <text x="20" y="40" font-family="Arial, sans-serif" font-size="28" font-style="italic" fill="#1565c0">:predicates (...)</text>
+        <text x="20" y="70" font-family="Arial, sans-serif" font-size="28" font-style="italic" fill="#2e7d32">:actions ...</text>
+        <text x="40" y="100" font-family="Arial, sans-serif" font-size="28" font-style="italic" fill="#2e7d32">:precondition (...)</text>
+        <text x="40" y="130" font-family="Arial, sans-serif" font-size="28" font-style="italic" fill="#c62828">:effect (...)</text>
+      </g>
+    </g>
+
+    <!-- Arrow from Top Block to Bottom Area -->
+    <path d="M 600 320 L 600 380" fill="none" stroke="#000000" stroke-width="6" marker-end="url(#arrow-black)"/>
+
+    <!-- Bottom Area Background -->
+    <rect x="60" y="400" width="1080" height="540" rx="30" fill="#e8f5e9"/>
+
+    <!-- Left Blocks in Bottom Area -->
+    <!-- Solvability Check -->
+    <g transform="translate(100, 440)">
+      <rect x="0" y="0" width="460" height="200" rx="20" fill="#c8e6c9"/>
+      <g id="AF04">
+        <rect x="30" y="20" width="90" height="80" fill="#808080" stroke="black" stroke-width="2"/>
+        <text x="75" y="60" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="20">&lt;AF&gt;04</text>
+      </g>
+      <g id="AF02">
+        <rect x="30" y="105" width="90" height="80" fill="#808080" stroke="black" stroke-width="2"/>
+        <text x="75" y="145" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="20">&lt;AF&gt;02</text>
+      </g>
+      <text x="140" y="90" font-family="Arial, sans-serif" font-size="48" fill="#000000">Solvability</text>
+      <text x="140" y="150" font-family="Arial, sans-serif" font-size="48" fill="#000000">Check</text>
+    </g>
+
+    <!-- Arrow between left blocks -->
+    <path d="M 330 640 L 330 680" fill="none" stroke="#000000" stroke-width="6" marker-end="url(#arrow-black)"/>
+
+    <!-- Solution Verification -->
+    <g transform="translate(100, 700)">
+      <rect x="0" y="0" width="460" height="200" rx="20" fill="#c8e6c9"/>
+      <g id="AF01">
+        <rect x="30" y="50" width="100" height="100" fill="#808080" stroke="black" stroke-width="2"/>
+        <text x="80" y="100" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="24">&lt;AF&gt;01</text>
+      </g>
+      <text x="150" y="100" font-family="Arial, sans-serif" font-size="48" fill="#000000">Solution</text>
+      <text x="150" y="160" font-family="Arial, sans-serif" font-size="48" fill="#000000">Verification</text>
+    </g>
+
+    <!-- Right Block in Bottom Area: Closed-Loop Refinement -->
+    <g transform="translate(760, 440)">
+      <rect x="0" y="0" width="340" height="460" rx="20" fill="#c8e6c9"/>
+      <g id="AF06">
+        <rect x="120" y="40" width="100" height="100" fill="#808080" stroke="black" stroke-width="2"/>
+        <text x="170" y="90" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="24">&lt;AF&gt;06</text>
+      </g>
+      <text x="170" y="200" font-family="Arial, sans-serif" font-size="44" text-anchor="middle" fill="#000000">Closed-Loop</text>
+      <text x="170" y="260" font-family="Arial, sans-serif" font-size="44" text-anchor="middle" fill="#000000">Refinement</text>
+      
+      <!-- Folded Document Graphic -->
+      <g transform="translate(20, 290)">
+        <path d="M 0 0 L 230 0 L 300 70 L 300 140 L 0 140 Z" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+        <path d="M 230 0 L 230 70 L 300 70" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+        <text x="20" y="40" font-family="Arial, sans-serif" font-size="26" font-style="italic" fill="#1565c0">:predicates (...)</text>
+        <text x="20" y="70" font-family="Arial, sans-serif" font-size="26" font-style="italic" fill="#2e7d32">:actions ...</text>
+        <text x="40" y="100" font-family="Arial, sans-serif" font-size="26" font-style="italic" fill="#2e7d32">:precondition (...)</text>
+        <text x="40" y="130" font-family="Arial, sans-serif" font-size="26" font-style="italic" fill="#c62828">:effect (...)</text>
+      </g>
+    </g>
+
+    <!-- Feedback Arrows -->
+    <!-- Top Feedback Arrow -->
+    <path d="M 760 540 L 580 540" fill="none" stroke="#000000" stroke-width="6" marker-end="url(#arrow-black)"/>
+    <text x="670" y="520" font-family="Arial, sans-serif" font-size="32" text-anchor="middle" fill="#000000">Feedback</text>
+    
+    <!-- Bottom Feedback Arrow -->
+    <path d="M 580 800 L 760 800" fill="none" stroke="#000000" stroke-width="6" marker-end="url(#arrow-black)"/>
+    <text x="670" y="780" font-family="Arial, sans-serif" font-size="32" text-anchor="middle" fill="#000000">Feedback</text>
+  </g>
+
+  <!-- Arrow from (b) to (c) -->
+  <path d="M 2700 800 L 2760 800 L 2760 300 L 2820 300" fill="none" stroke="#1b5e20" stroke-width="8" marker-end="url(#arrow-green)"/>
+
+  <!-- (c) Domain Fusion Section -->
+  <g transform="translate(2840, 60)">
+    <!-- Section Title -->
+    <text x="500" y="80" font-family="Arial, sans-serif" font-size="52" font-weight="bold" text-anchor="middle" fill="#000000">(c) Domain Fusion</text>
+    
+    <!-- Unified Domain Outer Box -->
+    <rect x="0" y="140" width="940" height="220" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+    <text x="470" y="190" font-family="Arial, sans-serif" font-size="44" text-anchor="middle" fill="#000000">Unified Domain</text>
+    
+    <!-- Atomic Domain Documents -->
+    <g transform="translate(20, 220)">
+      <path d="M 0 0 L 140 0 L 190 50 L 190 120 L 0 120 Z" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+      <path d="M 140 0 L 140 50 L 190 50" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+      <text x="95" y="60" font-family="Arial, sans-serif" font-size="36" text-anchor="middle" fill="#000000">Atomic</text>
+      <text x="95" y="100" font-family="Arial, sans-serif" font-size="36" text-anchor="middle" fill="#000000">Domain</text>
+    </g>
+    
+    <g transform="translate(230, 220)">
+      <path d="M 0 0 L 140 0 L 190 50 L 190 120 L 0 120 Z" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+      <path d="M 140 0 L 140 50 L 190 50" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+      <text x="95" y="60" font-family="Arial, sans-serif" font-size="36" text-anchor="middle" fill="#000000">Atomic</text>
+      <text x="95" y="100" font-family="Arial, sans-serif" font-size="36" text-anchor="middle" fill="#000000">Domain</text>
+    </g>
+    
+    <text x="470" y="290" font-family="Arial, sans-serif" font-size="36" text-anchor="middle" fill="#000000">...</text>
+    
+    <g transform="translate(520, 220)">
+      <path d="M 0 0 L 140 0 L 190 50 L 190 120 L 0 120 Z" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+      <path d="M 140 0 L 140 50 L 190 50" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+      <text x="95" y="60" font-family="Arial, sans-serif" font-size="36" text-anchor="middle" fill="#000000">Atomic</text>
+      <text x="95" y="100" font-family="Arial, sans-serif" font-size="36" text-anchor="middle" fill="#000000">Domain</text>
+    </g>
+    
+    <g transform="translate(730, 220)">
+      <path d="M 0 0 L 140 0 L 190 50 L 190 120 L 0 120 Z" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+      <path d="M 140 0 L 140 50 L 190 50" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+      <text x="95" y="60" font-family="Arial, sans-serif" font-size="36" text-anchor="middle" fill="#000000">Atomic</text>
+      <text x="95" y="100" font-family="Arial, sans-serif" font-size="36" text-anchor="middle" fill="#000000">Domain</text>
+    </g>
+
+    <!-- Top Meta Domains -->
+    <!-- Left Meta Domain -->
+    <g transform="translate(80, 520)">
+      <path d="M 0 0 L 220 0 L 290 70 L 290 180 L 0 180 Z" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+      <path d="M 220 0 L 220 70 L 290 70" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+      <text x="145" y="90" font-family="Arial, sans-serif" font-size="44" text-anchor="middle" fill="#000000">Meta</text>
+      <text x="145" y="150" font-family="Arial, sans-serif" font-size="44" text-anchor="middle" fill="#000000">Domain</text>
+    </g>
+
+    <!-- Right Meta Domain -->
+    <g transform="translate(560, 520)">
+      <path d="M 0 0 L 220 0 L 290 70 L 290 180 L 0 180 Z" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+      <path d="M 220 0 L 220 70 L 290 70" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+      <text x="145" y="90" font-family="Arial, sans-serif" font-size="44" text-anchor="middle" fill="#000000">Meta</text>
+      <text x="145" y="150" font-family="Arial, sans-serif" font-size="44" text-anchor="middle" fill="#000000">Domain</text>
+    </g>
+
+    <!-- Arrows from Atomic to Meta -->
+    <path d="M 180 360 L 200 420" fill="none" stroke="#000000" stroke-width="4" marker-end="url(#arrow-black)"/>
+    <path d="M 280 360 L 260 420" fill="none" stroke="#000000" stroke-width="4" marker-end="url(#arrow-black)"/>
+    <path d="M 680 360 L 700 420" fill="none" stroke="#000000" stroke-width="4" marker-end="url(#arrow-black)"/>
+    <path d="M 780 360 L 760 420" fill="none" stroke="#000000" stroke-width="4" marker-end="url(#arrow-black)"/>
+
+    <!-- Open AI icons between Atomic and Meta -->
+    <g id="AF10">
+      <rect x="180" y="420" width="80" height="80" fill="#808080" stroke="black" stroke-width="2"/>
+      <text x="220" y="460" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="16">&lt;AF&gt;10</text>
+    </g>
+    <g id="AF08">
+      <rect x="680" y="420" width="80" height="80" fill="#808080" stroke="black" stroke-width="2"/>
+      <text x="720" y="460" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="16">&lt;AF&gt;08</text>
+    </g>
+
+    <text x="470" y="620" font-family="Arial, sans-serif" font-size="36" text-anchor="middle" fill="#000000">...</text>
+
+    <!-- Bottom Meta Domain -->
+    <g transform="translate(320, 780)">
+      <path d="M 0 0 L 320 0 L 400 80 L 400 200 L 0 200 Z" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+      <path d="M 320 0 L 320 80 L 400 80" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+      <text x="200" y="100" font-family="Arial, sans-serif" font-size="52" text-anchor="middle" fill="#000000">Meta</text>
+      <text x="200" y="160" font-family="Arial, sans-serif" font-size="52" text-anchor="middle" fill="#000000">Domain</text>
+    </g>
+
+    <!-- Arrows from Top Meta to Bottom Meta -->
+    <path d="M 280 700 L 400 760" fill="none" stroke="#000000" stroke-width="4" marker-end="url(#arrow-black)"/>
+    <path d="M 680 700 L 560 760" fill="none" stroke="#000000" stroke-width="4" marker-end="url(#arrow-black)"/>
+
+    <!-- Open AI icon above Bottom Meta -->
+    <g id="AF03">
+      <rect x="420" y="700" width="100" height="100" fill="#808080" stroke="black" stroke-width="2"/>
+      <text x="470" y="750" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="20">&lt;AF&gt;03</text>
+    </g>
+  </g>
+
+  <!-- ========================================== -->
+  <!-- BOTTOM SECTION: PLANNING                   -->
+  <!-- ========================================== -->
+  
+  <!-- "Planning" Vertical Text -->
+  <g transform="translate(110, 1624) rotate(-90)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="64" font-weight="bold" text-anchor="middle" fill="#000000">Planning</text>
+  </g>
+
+  <!-- Input Image & Text -->
+  <g transform="translate(160, 1180)">
+    <!-- Text Box -->
+    <rect x="0" y="0" width="680" height="340" rx="20" fill="#ffffff"/>
+    <text x="340" y="60" font-family="Arial, sans-serif" font-size="48" font-style="italic" text-anchor="middle" fill="#000000">Move the corn from the pot</text>
+    <text x="340" y="130" font-family="Arial, sans-serif" font-size="48" font-style="italic" text-anchor="middle" fill="#000000">into the orange bowl, wipe the</text>
+    <text x="340" y="200" font-family="Arial, sans-serif" font-size="48" font-style="italic" text-anchor="middle" fill="#000000">table with the towel in the</text>
+    <text x="340" y="270" font-family="Arial, sans-serif" font-size="48" font-style="italic" text-anchor="middle" fill="#000000">drawer and put it back to the</text>
+    <text x="340" y="340" font-family="Arial, sans-serif" font-size="48" font-style="italic" text-anchor="middle" fill="#000000">closed drawer.</text>
+    
+    <!-- Image Placeholder -->
+    <rect x="0" y="380" width="680" height="500" fill="#c0c0c0"/>
+    <rect x="0" y="380" width="680" height="500" fill="#a0a0a0" opacity="0.5"/>
+  </g>
+
+  <!-- Arrows from Input -->
+  <path d="M 840 1420 L 960 1420" fill="none" stroke="#4a148c" stroke-width="8" marker-end="url(#arrow-purple)"/>
+  <path d="M 840 1700 L 960 1700" fill="none" stroke="#4a148c" stroke-width="8" marker-end="url(#arrow-purple)"/>
+
+  <!-- (d) Problem Generation Section -->
+  <g transform="translate(980, 1180)">
+    <!-- Section Title -->
+    <text x="360" y="60" font-family="Arial, sans-serif" font-size="52" font-weight="bold" text-anchor="middle" fill="#000000">(d) Problem Generation</text>
+    
+    <!-- Top Row: Meta Domain to Predicate Grouping -->
+    <g transform="translate(40, 120)">
+      <!-- Meta Domain -->
+      <g transform="translate(0, 0)">
+        <path d="M 0 0 L 220 0 L 290 70 L 290 160 L 0 160 Z" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+        <path d="M 220 0 L 220 70 L 290 70" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+        <text x="145" y="80" font-family="Arial, sans-serif" font-size="44" text-anchor="middle" fill="#000000">Meta</text>
+        <text x="145" y="140" font-family="Arial, sans-serif" font-size="44" text-anchor="middle" fill="#000000">Domain</text>
+      </g>
+      
+      <!-- Arrow -->
+      <path d="M 310 80 L 370 80" fill="none" stroke="#000000" stroke-width="6" marker-end="url(#arrow-black)"/>
+      
+      <!-- Predicate Grouping -->
+      <rect x="390" y="0" width="310" height="160" rx="30" fill="#e1bee7"/>
+      <text x="545" y="80" font-family="Arial, sans-serif" font-size="44" text-anchor="middle" fill="#000000">Predicate</text>
+      <text x="545" y="140" font-family="Arial, sans-serif" font-size="44" text-anchor="middle" fill="#000000">Grouping</text>
+    </g>
+
+    <!-- Arrow down -->
+    <path d="M 585 300 L 585 360" fill="none" stroke="#000000" stroke-width="6" marker-end="url(#arrow-black)"/>
+
+    <!-- Middle Row: Predicate & Operator Filtering -->
+    <g transform="translate(40, 380)">
+      <rect x="0" y="0" width="700" height="160" rx="30" fill="#e1bee7"/>
+      <g id="AF05">
+        <rect x="30" y="30" width="100" height="100" fill="#808080" stroke="black" stroke-width="2"/>
+        <text x="80" y="80" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="24">&lt;AF&gt;05</text>
+      </g>
+      <text x="160" y="80" font-family="Arial, sans-serif" font-size="48" fill="#000000">Predicate</text>
+      <text x="160" y="140" font-family="Arial, sans-serif" font-size="48" fill="#000000">&amp; Operator Filtering</text>
+    </g>
+
+    <!-- Arrow down -->
+    <path d="M 390 560 L 390 620" fill="none" stroke="#000000" stroke-width="6" marker-end="url(#arrow-black)"/>
+
+    <!-- Bottom Row: Problem Generation -->
+    <g transform="translate(40, 640)">
+      <rect x="0" y="0" width="700" height="160" rx="30" fill="#e1bee7"/>
+      <g id="AF11">
+        <rect x="30" y="30" width="100" height="100" fill="#808080" stroke="black" stroke-width="2"/>
+        <text x="80" y="80" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="24">&lt;AF&gt;11</text>
+      </g>
+      <text x="160" y="80" font-family="Arial, sans-serif" font-size="48" fill="#000000">Problem</text>
+      <text x="160" y="140" font-family="Arial, sans-serif" font-size="48" fill="#000000">Generation</text>
+      
+      <!-- Folded Document Graphic -->
+      <g transform="translate(480, 20)">
+        <path d="M 0 0 L 160 0 L 210 50 L 210 120 L 0 120 Z" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+        <path d="M 160 0 L 160 50 L 210 50" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+        <text x="20" y="40" font-family="Arial, sans-serif" font-size="24" font-style="italic" fill="#1565c0">:objects (...)</text>
+        <text x="20" y="70" font-family="Arial, sans-serif" font-size="24" font-style="italic" fill="#2e7d32">:init ...</text>
+        <text x="20" y="100" font-family="Arial, sans-serif" font-size="24" font-style="italic" fill="#c62828">:goal (...)</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Arrow from (d) to (e) -->
+  <path d="M 1740 1880 L 1800 1880 L 1800 1440 L 1860 1440" fill="none" stroke="#4a148c" stroke-width="8" marker-end="url(#arrow-purple)"/>
+
+  <!-- (e) Planning Section -->
+  <g transform="translate(1880, 1180)">
+    <!-- Section Title -->
+    <text x="280" y="60" font-family="Arial, sans-serif" font-size="52" font-weight="bold" text-anchor="middle" fill="#000000">(e) Planning</text>
+    
+    <!-- PDDL Solver Box -->
+    <g transform="translate(0, 120)">
+      <rect x="0" y="0" width="560" height="160" rx="30" fill="#e1bee7"/>
+      <g id="AF09">
+        <rect x="100" y="30" width="100" height="100" fill="#808080" stroke="black" stroke-width="2"/>
+        <text x="150" y="80" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="24">&lt;AF&gt;09</text>
+      </g>
+      <text x="380" y="80" font-family="Arial, sans-serif" font-size="48" text-anchor="middle" fill="#000000">PDDL</text>
+      <text x="380" y="140" font-family="Arial, sans-serif" font-size="48" text-anchor="middle" fill="#000000">Solver</text>
+    </g>
+
+    <!-- Arrow down -->
+    <path d="M 280 300 L 280 360" fill="none" stroke="#000000" stroke-width="6" marker-end="url(#arrow-black)"/>
+
+    <!-- Output Plan Document -->
+    <g transform="translate(0, 380)">
+      <path d="M 0 0 L 480 0 L 560 80 L 560 500 L 0 500 Z" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+      <path d="M 480 0 L 480 80 L 560 80" fill="#ffffff" stroke="#000000" stroke-width="4"/>
+      <text x="40" y="80" font-family="Arial, sans-serif" font-size="40" font-style="italic" fill="#2e7d32">remove_lid <tspan fill="#1565c0">(lid)</tspan></text>
+      <text x="40" y="140" font-family="Arial, sans-serif" font-size="40" font-style="italic" fill="#2e7d32">pick_from_rack <tspan fill="#1565c0">(bowl)</tspan></text>
+      <text x="40" y="200" font-family="Arial, sans-serif" font-size="40" font-style="italic" fill="#2e7d32">place_on_table <tspan fill="#1565c0">(bowl)</tspan></text>
+      <text x="40" y="260" font-family="Arial, sans-serif" font-size="40" fill="#000000">...</text>
+      <text x="40" y="320" font-family="Arial, sans-serif" font-size="40" font-style="italic" fill="#2e7d32">wipe_table <tspan fill="#1565c0">(towel)</tspan></text>
+      <text x="40" y="380" font-family="Arial, sans-serif" font-size="40" font-style="italic" fill="#2e7d32">place_in_drawer <tspan fill="#1565c0">(towel)</tspan></text>
+      <text x="40" y="440" font-family="Arial, sans-serif" font-size="40" font-style="italic" fill="#2e7d32">close_drawer <tspan fill="#1565c0">(drawer)</tspan></text>
+    </g>
+  </g>
+
+  <!-- Arrow from (e) to (f) -->
+  <path d="M 2460 1880 L 2530 1880 L 2530 1440 L 2600 1440" fill="none" stroke="#4a148c" stroke-width="8" marker-end="url(#arrow-purple)"/>
+
+  <!-- (f) Execution Section -->
+  <g transform="translate(2620, 1180)">
+    <!-- Section Title -->
+    <text x="580" y="60" font-family="Arial, sans-serif" font-size="52" font-weight="bold" text-anchor="middle" fill="#000000">(f) Execution</text>
+    
+    <!-- Image Grid 4x3 -->
+    <g transform="translate(0, 120)">
+      <!-- Row 1 -->
+      <rect x="0" y="0" width="280" height="220" fill="#c0c0c0"/>
+      <rect x="0" y="0" width="280" height="220" fill="#a0a0a0" opacity="0.5"/>
+      <rect x="290" y="0" width="280" height="220" fill="#c0c0c0"/>
+      <rect x="290" y="0" width="280" height="220" fill="#a0a0a0" opacity="0.5"/>
+      <rect x="580" y="0" width="280" height="220" fill="#c0c0c0"/>
+      <rect x="580" y="0" width="280" height="220" fill="#a0a0a0" opacity="0.5"/>
+      <rect x="870" y="0" width="280" height="220" fill="#c0c0c0"/>
+      <rect x="870" y="0" width="280" height="220" fill="#a0a0a0" opacity="0.5"/>
+      
+      <!-- Row 2 -->
+      <rect x="0" y="240" width="280" height="220" fill="#c0c0c0"/>
+      <rect x="0" y="240" width="280" height="220" fill="#a0a0a0" opacity="0.5"/>
+      <rect x="290" y="240" width="280" height="220" fill="#c0c0c0"/>
+      <rect x="290" y="240" width="280" height="220" fill="#a0a0a0" opacity="0.5"/>
+      <rect x="580" y="240" width="280" height="220" fill="#c0c0c0"/>
+      <rect x="580" y="240" width="280" height="220" fill="#a0a0a0" opacity="0.5"/>
+      <rect x="870" y="240" width="280" height="220" fill="#c0c0c0"/>
+      <rect x="870" y="240" width="280" height="220" fill="#a0a0a0" opacity="0.5"/>
+      
+      <!-- Row 3 -->
+      <rect x="0" y="480" width="280" height="220" fill="#c0c0c0"/>
+      <rect x="0" y="480" width="280" height="220" fill="#a0a0a0" opacity="0.5"/>
+      <rect x="290" y="480" width="280" height="220" fill="#c0c0c0"/>
+      <rect x="290" y="480" width="280" height="220" fill="#a0a0a0" opacity="0.5"/>
+      <rect x="580" y="480" width="280" height="220" fill="#c0c0c0"/>
+      <rect x="580" y="480" width="280" height="220" fill="#a0a0a0" opacity="0.5"/>
+      <rect x="870" y="480" width="280" height="220" fill="#c0c0c0"/>
+      <rect x="870" y="480" width="280" height="220" fill="#a0a0a0" opacity="0.5"/>
+    </g>
+  </g>
+</svg>

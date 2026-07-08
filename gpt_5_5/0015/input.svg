@@ -1,0 +1,298 @@
+<svg width="1942" height="923" viewBox="0 0 1942 923" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrowGray" markerWidth="12" markerHeight="10" refX="10" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L12,5 L0,10 Z" fill="#555"/>
+    </marker>
+    <marker id="arrowBlack" markerWidth="12" markerHeight="10" refX="10" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L12,5 L0,10 Z" fill="#111"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="13" markerHeight="12" refX="11" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L13,6 L0,12 Z" fill="#ff5b5b"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="13" markerHeight="12" refX="11" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L13,6 L0,12 Z" fill="#0bb14f"/>
+    </marker>
+    <linearGradient id="panelGrad" x1="0" x2="1">
+      <stop offset="0" stop-color="#fafafa"/>
+      <stop offset="1" stop-color="#f7f7f7"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f6c3a8"/>
+      <stop offset=".4" stop-color="#e7a083"/>
+      <stop offset=".8" stop-color="#b46b55"/>
+      <stop offset="1" stop-color="#efdbc2"/>
+    </linearGradient>
+    <linearGradient id="perturb" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#d9c3b5"/>
+      <stop offset=".45" stop-color="#9c9188"/>
+      <stop offset=".7" stop-color="#e5b5a7"/>
+      <stop offset="1" stop-color="#b9aa9d"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#d8d8d8" flood-opacity=".7"/>
+    </filter>
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="7"/>
+      <feColorMatrix type="saturate" values=".25"/>
+      <feBlend mode="multiply" in2="SourceGraphic"/>
+    </filter>
+    <symbol id="thumb" viewBox="0 0 78 76">
+      <polygon points="5,5 62,28 62,72 5,47" fill="url(#paper)" stroke="#111" stroke-width="2"/>
+      <path d="M16 11 C20 30,18 43,12 48" fill="none" stroke="#6b302a" stroke-width="6" stroke-linecap="round" opacity=".8"/>
+      <path d="M34 16 C38 31,36 45,30 56" fill="none" stroke="#74382e" stroke-width="5" stroke-linecap="round" opacity=".75"/>
+      <path d="M9 49 C24 43,38 40,58 49" fill="none" stroke="#cadb35" stroke-width="6" stroke-linecap="round"/>
+      <path d="M8 45 C24 42,42 41,60 50" fill="none" stroke="#80921e" stroke-width="2" stroke-linecap="round"/>
+      <polygon points="5,5 62,28 62,72 5,47" fill="none" stroke="#111" stroke-width="2"/>
+    </symbol>
+    <symbol id="thumbBad" viewBox="0 0 78 76">
+      <polygon points="5,5 62,28 62,72 5,47" fill="url(#perturb)" stroke="#111" stroke-width="2" filter="url(#noise)"/>
+      <path d="M9 49 C25 43,42 43,60 51" fill="none" stroke="#8d9941" stroke-width="4" stroke-linecap="round" opacity=".55"/>
+      <polygon points="5,5 62,28 62,72 5,47" fill="none" stroke="#111" stroke-width="2"/>
+    </symbol>
+    <symbol id="videoStrip" viewBox="0 0 280 110">
+      <use href="#thumb" x="0" y="5" width="75" height="75"/>
+      <use href="#thumb" x="45" y="2" width="75" height="75"/>
+      <text x="128" y="53" font-family="Arial, sans-serif" font-size="34" font-weight="700">...</text>
+      <use href="#thumb" x="174" y="4" width="75" height="75"/>
+      <use href="#thumb" x="215" y="0" width="75" height="75"/>
+    </symbol>
+    <symbol id="videoStripBad" viewBox="0 0 280 110">
+      <use href="#thumbBad" x="0" y="5" width="75" height="75"/>
+      <use href="#thumbBad" x="45" y="2" width="75" height="75"/>
+      <text x="128" y="53" font-family="Arial, sans-serif" font-size="34" font-weight="700">...</text>
+      <use href="#thumbBad" x="174" y="4" width="75" height="75"/>
+      <use href="#thumbBad" x="215" y="0" width="75" height="75"/>
+    </symbol>
+  </defs>
+
+  <rect width="1942" height="923" fill="#fff"/>
+
+  <!-- Top panel -->
+  <rect x="8" y="16" width="1926" height="398" rx="23" fill="url(#panelGrad)" stroke="#111" stroke-width="3"/>
+  <text x="27" y="51" font-family="Georgia, Times New Roman, serif" font-size="34" font-weight="700">
+    Measure Difficulty based on Relative Reward Statistics
+  </text>
+
+  <!-- Top left question card -->
+  <rect x="18" y="124" width="298" height="211" rx="9" fill="#fbfbfb" stroke="#e9e9e9" stroke-width="3" filter="url(#softShadow)"/>
+  <use href="#videoStrip" x="36" y="133" width="263" height="105"/>
+  <text x="32" y="261" font-family="Arial, sans-serif" font-size="25" font-weight="700">Question:</text>
+  <text x="141" y="261" font-family="Arial, sans-serif" font-size="24" fill="#a06a38">What action</text>
+  <text x="32" y="289" font-family="Arial, sans-serif" font-size="24" fill="#a06a38">should I take next in</text>
+  <text x="32" y="318" font-family="Arial, sans-serif" font-size="24" fill="#a06a38">order to eat the celery?</text>
+
+  <path d="M316 230 L347 230" stroke="#555" stroke-width="4" fill="none" marker-end="url(#arrowGray)"/>
+
+  <rect x="350" y="174" width="138" height="112" rx="10" fill="#fff9e8" stroke="#f2dfbd" stroke-width="4"/>
+  <text x="380" y="222" font-family="Arial, sans-serif" font-size="30">Video</text>
+  <text x="390" y="260" font-family="Arial, sans-serif" font-size="30">LLM</text>
+
+  <path d="M488 230 C525 230,504 147,542 147" stroke="#555" stroke-width="4" fill="none" marker-end="url(#arrowGray)"/>
+  <path d="M488 230 C520 229,509 214,542 214" stroke="#555" stroke-width="4" fill="none" marker-end="url(#arrowGray)"/>
+  <path d="M488 230 C523 232,506 316,542 316" stroke="#555" stroke-width="4" fill="none" marker-end="url(#arrowGray)"/>
+
+  <rect x="543" y="117" width="215" height="56" rx="2" fill="#fff" stroke="#3c6f9e" stroke-width="3"/>
+  <rect x="543" y="185" width="215" height="56" rx="2" fill="#fff" stroke="#3c6f9e" stroke-width="3"/>
+  <rect x="543" y="286" width="215" height="56" rx="2" fill="#fff" stroke="#3c6f9e" stroke-width="3"/>
+  <text x="565" y="155" font-family="Comic Sans MS, Arial, sans-serif" font-size="31">Response</text>
+  <text x="705" y="155" font-family="Georgia, serif" font-style="italic" font-size="34">y</text>
+  <text x="729" y="136" font-family="Georgia, serif" font-size="22">1</text>
+  <text x="565" y="223" font-family="Comic Sans MS, Arial, sans-serif" font-size="31">Response</text>
+  <text x="705" y="223" font-family="Georgia, serif" font-style="italic" font-size="34">y</text>
+  <text x="729" y="204" font-family="Georgia, serif" font-size="22">2</text>
+  <text x="632" y="267" font-family="Arial, sans-serif" font-size="35" font-weight="700">...</text>
+  <text x="565" y="324" font-family="Comic Sans MS, Arial, sans-serif" font-size="31">Response</text>
+  <text x="705" y="324" font-family="Georgia, serif" font-style="italic" font-size="34">y</text>
+  <text x="728" y="305" font-family="Georgia, serif" font-size="22">G</text>
+
+  <path d="M758 145 L815 145" stroke="#555" stroke-width="4" fill="none" marker-end="url(#arrowGray)"/>
+  <path d="M758 213 L815 213" stroke="#555" stroke-width="4" fill="none" marker-end="url(#arrowGray)"/>
+  <path d="M758 314 L815 314" stroke="#555" stroke-width="4" fill="none" marker-end="url(#arrowGray)"/>
+
+  <rect x="814" y="108" width="166" height="241" rx="14" fill="#e4f4dd" stroke="#7fd16d" stroke-width="4" stroke-dasharray="14 9"/>
+  <text x="840" y="96" font-family="Georgia, serif" font-style="italic" font-size="40">R</text>
+  <text x="871" y="101" font-family="Georgia, serif" font-size="28">group</text>
+  <text x="834" y="157" font-family="Georgia, serif" font-style="italic" font-size="36">R(x,y</text>
+  <text x="934" y="137" font-family="Georgia, serif" font-size="21">1</text>
+  <text x="950" y="157" font-family="Georgia, serif" font-size="36">)</text>
+  <text x="834" y="225" font-family="Georgia, serif" font-style="italic" font-size="36">R(x,y</text>
+  <text x="934" y="205" font-family="Georgia, serif" font-size="21">2</text>
+  <text x="950" y="225" font-family="Georgia, serif" font-size="36">)</text>
+  <text x="876" y="270" font-family="Arial, sans-serif" font-size="36" font-weight="700">...</text>
+  <text x="834" y="326" font-family="Georgia, serif" font-style="italic" font-size="36">R(x,y</text>
+  <text x="934" y="306" font-family="Georgia, serif" font-size="21">G</text>
+  <text x="952" y="326" font-family="Georgia, serif" font-size="36">)</text>
+
+  <text x="1024" y="98" font-family="Georgia, serif" font-style="italic" font-size="44">Â</text>
+  <text x="1055" y="78" font-family="Georgia, serif" font-size="23">(i)</text>
+  <text x="1094" y="98" font-family="Georgia, serif" font-size="43">=</text>
+  <text x="1140" y="74" font-family="Georgia, serif" font-style="italic" font-size="37">R(x,y</text>
+  <text x="1243" y="54" font-family="Georgia, serif" font-size="22">(i)</text>
+  <text x="1286" y="74" font-family="Georgia, serif" font-size="37">) − μ</text>
+  <text x="1375" y="83" font-family="Georgia, serif" font-size="23">r</text>
+  <line x1="1130" y1="89" x2="1398" y2="89" stroke="#111" stroke-width="2"/>
+  <text x="1237" y="126" font-family="Georgia, serif" font-style="italic" font-size="37">σ</text>
+  <text x="1264" y="134" font-family="Georgia, serif" font-size="23">r</text>
+
+  <rect x="1000" y="155" width="409" height="57" rx="8" fill="#fff" stroke="#ff7b76" stroke-width="4"/>
+  <rect x="1000" y="239" width="409" height="57" rx="8" fill="#fff" stroke="#555" stroke-width="4"/>
+  <rect x="1000" y="322" width="409" height="57" rx="8" fill="#fff" stroke="#11b65d" stroke-width="4"/>
+  <text x="1007" y="193" font-family="Georgia, serif" font-size="31">
+    <tspan font-style="italic">R</tspan><tspan baseline-shift="sub" font-size="23">group</tspan> = {0.0, 0.0, ..., 0.0, 0.0}
+  </text>
+  <text x="1007" y="277" font-family="Georgia, serif" font-size="31">
+    <tspan font-style="italic">R</tspan><tspan baseline-shift="sub" font-size="23">group</tspan> = {1.1, 0.3, ..., 1.9, 0.8}
+  </text>
+  <text x="1007" y="360" font-family="Georgia, serif" font-size="31">
+    <tspan font-style="italic">R</tspan><tspan baseline-shift="sub" font-size="23">group</tspan> = {2.0, 2.0, ..., 2.0, 2.0}
+  </text>
+
+  <!-- Dynamic reward box -->
+  <rect x="1431" y="25" width="486" height="379" rx="15" fill="none" stroke="#999" stroke-width="4" stroke-dasharray="15 12"/>
+  <text x="1448" y="56" font-family="Georgia, Times New Roman, serif" font-size="35" font-weight="700">Dynamic Global Reward</text>
+  <text x="1454" y="115" font-family="Arial, sans-serif" font-size="22">Reward</text>
+  <line x1="1491" y1="338" x2="1796" y2="338" stroke="#111" stroke-width="3" marker-end="url(#arrowBlack)"/>
+  <line x1="1491" y1="338" x2="1491" y2="126" stroke="#111" stroke-width="3" marker-end="url(#arrowBlack)"/>
+  <line x1="1490" y1="303" x2="1781" y2="303" stroke="#d9d9d9" stroke-width="1.5"/>
+  <line x1="1490" y1="267" x2="1781" y2="267" stroke="#d9d9d9" stroke-width="1.5"/>
+  <line x1="1490" y1="232" x2="1781" y2="232" stroke="#d9d9d9" stroke-width="1.5"/>
+  <line x1="1490" y1="196" x2="1781" y2="196" stroke="#d9d9d9" stroke-width="1.5"/>
+  <line x1="1490" y1="161" x2="1781" y2="161" stroke="#d9d9d9" stroke-width="1.5"/>
+  <rect x="1643" y="164" width="95" height="161" fill="#fff99a" opacity=".45"/>
+  <polyline points="1490,318 1522,323 1584,251 1655,215 1686,222 1718,203 1738,192" fill="none" stroke="#2e7f8c" stroke-width="2"/>
+  <text x="1810" y="344" font-family="Arial, sans-serif" font-size="22">Iteration</text>
+  <path d="M1648 318 L1737 318" stroke="#e75858" stroke-width="3" fill="none" marker-start="url(#arrowRed)" marker-end="url(#arrowRed)"/>
+  <text x="1669" y="300" font-family="Georgia, serif" font-size="34">𝔹</text>
+  <text x="1695" y="289" font-family="Georgia, serif" font-style="italic" font-size="30">W</text>
+  <ellipse cx="1845" cy="189" rx="19" ry="7" fill="#000"/>
+  <rect x="1826" y="190" width="38" height="35" fill="#000"/>
+  <ellipse cx="1845" cy="225" rx="19" ry="7" fill="#000"/>
+  <ellipse cx="1845" cy="214" rx="19" ry="7" fill="#000"/>
+  <ellipse cx="1845" cy="202" rx="19" ry="7" fill="#000"/>
+  <path d="M1827 199 Q1845 207 1863 199 M1827 211 Q1845 219 1863 211" stroke="#fff" stroke-width="2" fill="none"/>
+  <text x="1812" y="265" font-family="Arial, sans-serif" font-size="23">Replay</text>
+  <text x="1812" y="292" font-family="Arial, sans-serif" font-size="23">Buffer</text>
+
+  <!-- Curved augmentation arrows -->
+  <path d="M1156 380 C1156 443,1086 446,1012 446 L568 446 C535 446,520 464,520 487"
+        fill="none" stroke="#ff6b68" stroke-width="50" opacity=".65"/>
+  <path d="M1156 380 C1156 443,1086 446,1012 446 L568 446 C535 446,520 464,520 487"
+        fill="none" stroke="#ff6b68" stroke-width="16" marker-end="url(#arrowRed)"/>
+  <path d="M1241 380 C1246 431,1278 446,1324 446 L1433 446 C1464 446,1477 463,1477 487"
+        fill="none" stroke="#10b65c" stroke-width="50" opacity=".55"/>
+  <path d="M1241 380 C1246 431,1278 446,1324 446 L1433 446 C1464 446,1477 463,1477 487"
+        fill="none" stroke="#10b65c" stroke-width="16" marker-end="url(#arrowGreen)"/>
+
+  <!-- Bottom panel -->
+  <rect x="8" y="501" width="1926" height="414" rx="23" fill="#fbfbfb" stroke="#111" stroke-width="3"/>
+  <line x1="1032" y1="501" x2="1032" y2="915" stroke="#999" stroke-width="3" stroke-dasharray="2 5"/>
+
+  <!-- Bottom left -->
+  <text x="27" y="531" font-family="Georgia, Times New Roman, serif" font-size="34" font-weight="700">
+    Difficulty Decreasement Augmentation
+  </text>
+  <rect x="21" y="548" width="294" height="250" rx="9" fill="#fbfbfb" stroke="#e8e8e8" stroke-width="3" filter="url(#softShadow)"/>
+  <use href="#videoStrip" x="38" y="557" width="260" height="105"/>
+  <text x="35" y="692" font-family="Arial, sans-serif" font-size="24" font-weight="700">Question:</text>
+  <text x="148" y="692" font-family="Arial, sans-serif" font-size="23" fill="#a06a38">What action</text>
+  <text x="35" y="721" font-family="Arial, sans-serif" font-size="23" fill="#a06a38">should I take next in</text>
+  <text x="35" y="750" font-family="Arial, sans-serif" font-size="23" fill="#a06a38">order to eat the celery?</text>
+  <text x="35" y="781" font-family="Arial, sans-serif" font-size="24" font-weight="700">GT:</text>
+  <text x="83" y="781" font-family="Arial, sans-serif" font-size="24" fill="#0bb14f" font-weight="700">B. pick up celery</text>
+
+  <path d="M315 675 L348 675" stroke="#555" stroke-width="4" fill="none" marker-end="url(#arrowGray)"/>
+  <rect x="351" y="621" width="137" height="111" rx="10" fill="#fff9e8" stroke="#f2dfbd" stroke-width="4"/>
+  <text x="381" y="668" font-family="Arial, sans-serif" font-size="30">Video</text>
+  <text x="390" y="705" font-family="Arial, sans-serif" font-size="30">LLM</text>
+
+  <path d="M488 675 C522 674,507 592,542 592" stroke="#555" stroke-width="4" fill="none" marker-end="url(#arrowGray)"/>
+  <path d="M488 675 C521 675,508 646,542 646" stroke="#555" stroke-width="4" fill="none" marker-end="url(#arrowGray)"/>
+  <path d="M488 675 C523 678,506 761,542 761" stroke="#555" stroke-width="4" fill="none" marker-end="url(#arrowGray)"/>
+
+  <rect x="543" y="564" width="215" height="55" rx="2" fill="#fff" stroke="#3c6f9e" stroke-width="3"/>
+  <rect x="543" y="621" width="215" height="63" rx="2" fill="#fff" stroke="#3c6f9e" stroke-width="3"/>
+  <rect x="543" y="732" width="215" height="56" rx="2" fill="#fff" stroke="#3c6f9e" stroke-width="3"/>
+  <text x="565" y="601" font-family="Comic Sans MS, Arial, sans-serif" font-size="30">Response</text>
+  <text x="705" y="601" font-family="Georgia, serif" font-style="italic" font-size="34">y</text>
+  <text x="729" y="582" font-family="Georgia, serif" font-size="21">1</text>
+  <text x="724" y="613" font-family="Georgia, serif" font-size="21">gt</text>
+  <text x="565" y="661" font-family="Comic Sans MS, Arial, sans-serif" font-size="30">Response</text>
+  <text x="705" y="661" font-family="Georgia, serif" font-style="italic" font-size="34">y</text>
+  <text x="729" y="642" font-family="Georgia, serif" font-size="21">2</text>
+  <text x="724" y="674" font-family="Georgia, serif" font-size="21">gt</text>
+  <text x="632" y="715" font-family="Arial, sans-serif" font-size="35" font-weight="700">...</text>
+  <text x="565" y="771" font-family="Comic Sans MS, Arial, sans-serif" font-size="30">Response</text>
+  <text x="705" y="771" font-family="Georgia, serif" font-style="italic" font-size="34">y</text>
+  <text x="728" y="752" font-family="Georgia, serif" font-size="21">G</text>
+  <text x="724" y="784" font-family="Georgia, serif" font-size="21">gt</text>
+
+  <path d="M758 591 L814 591" stroke="#555" stroke-width="4" fill="none" marker-end="url(#arrowGray)"/>
+  <path d="M758 653 L814 653" stroke="#555" stroke-width="4" fill="none" marker-end="url(#arrowGray)"/>
+  <path d="M758 760 L814 760" stroke="#555" stroke-width="4" fill="none" marker-end="url(#arrowGray)"/>
+
+  <rect x="814" y="552" width="166" height="240" rx="14" fill="#e4f4dd" stroke="#7fd16d" stroke-width="4" stroke-dasharray="14 9"/>
+  <text x="840" y="540" font-family="Georgia, serif" font-style="italic" font-size="40">R</text>
+  <text x="871" y="545" font-family="Georgia, serif" font-size="28">group</text>
+  <text x="834" y="600" font-family="Georgia, serif" font-style="italic" font-size="35">R(x,y</text>
+  <text x="934" y="580" font-family="Georgia, serif" font-size="20">1</text>
+  <text x="931" y="613" font-family="Georgia, serif" font-size="20">gt</text>
+  <text x="960" y="600" font-family="Georgia, serif" font-size="35">)</text>
+  <text x="834" y="661" font-family="Georgia, serif" font-style="italic" font-size="35">R(x,y</text>
+  <text x="934" y="641" font-family="Georgia, serif" font-size="20">2</text>
+  <text x="931" y="674" font-family="Georgia, serif" font-size="20">gt</text>
+  <text x="960" y="661" font-family="Georgia, serif" font-size="35">)</text>
+  <text x="876" y="715" font-family="Arial, sans-serif" font-size="36" font-weight="700">...</text>
+  <text x="834" y="769" font-family="Georgia, serif" font-style="italic" font-size="35">R(x,y</text>
+  <text x="934" y="749" font-family="Georgia, serif" font-size="20">G</text>
+  <text x="931" y="782" font-family="Georgia, serif" font-size="20">gt</text>
+  <text x="960" y="769" font-family="Georgia, serif" font-size="35">)</text>
+  <text x="971" y="680" font-size="47">🏆</text>
+
+  <text x="27" y="856" font-family="Georgia, serif" font-style="italic" font-size="30">y</text>
+  <text x="48" y="838" font-family="Georgia, serif" font-size="19">2</text>
+  <text x="42" y="866" font-family="Georgia, serif" font-size="19">gt</text>
+  <text x="92" y="839" font-family="Arial, sans-serif" font-size="25">&lt;think&gt; The video shows a person preparing ... .</text>
+  <text x="661" y="839" font-family="Arial, sans-serif" font-size="25" fill="#0bb14f">To make a slice of celery you</text>
+  <text x="92" y="869" font-family="Arial, sans-serif" font-size="25" fill="#0bb14f">should bring it from the bag.</text>
+  <text x="431" y="869" font-family="Arial, sans-serif" font-size="25">&lt;/think&gt;&lt;answer&gt;B. pick up celery&lt;/answer&gt;</text>
+  <line x1="94" y1="874" x2="650" y2="874" stroke="#0bb14f" stroke-width="3"/>
+  <path d="M432 894 L149 894" stroke="#16ac51" stroke-width="11" fill="none" marker-end="url(#arrowGreen)"/>
+  <text x="443" y="902" font-family="Georgia, Times New Roman, serif" font-size="25" font-weight="700">Guidance Level</text>
+
+  <!-- Bottom right -->
+  <text x="1042" y="531" font-family="Georgia, Times New Roman, serif" font-size="34" font-weight="700">
+    Difficulty Increasement Augmentation
+  </text>
+
+  <use href="#videoStrip" x="1075" y="562" width="260" height="105"/>
+  <path d="M1340 621 C1375 621,1405 626,1446 609 C1485 595,1523 598,1567 598" stroke="#555" stroke-width="4" fill="none" marker-end="url(#arrowGray)"/>
+  <path d="M1340 621 C1375 625,1407 645,1438 669 C1480 701,1522 705,1568 706" stroke="#555" stroke-width="4" fill="none" marker-end="url(#arrowGray)"/>
+  <path d="M1340 621 C1373 626,1405 675,1436 726 C1475 788,1521 804,1568 806" stroke="#555" stroke-width="4" fill="none" marker-end="url(#arrowGray)"/>
+
+  <use href="#videoStripBad" x="1569" y="564" width="188" height="88"/>
+  <text x="1683" y="622" font-family="Arial, sans-serif" font-size="34" font-weight="700">...</text>
+  <use href="#videoStripBad" x="1718" y="565" width="162" height="85"/>
+
+  <use href="#videoStripBad" x="1569" y="670" width="188" height="88"/>
+  <text x="1683" y="727" font-family="Arial, sans-serif" font-size="34" font-weight="700">...</text>
+  <use href="#videoStripBad" x="1718" y="671" width="162" height="85"/>
+
+  <use href="#videoStripBad" x="1569" y="776" width="188" height="88"/>
+  <text x="1683" y="834" font-family="Arial, sans-serif" font-size="34" font-weight="700">...</text>
+  <use href="#videoStripBad" x="1718" y="777" width="162" height="85"/>
+
+  <text x="1143" y="750" font-family="Georgia, serif" font-size="43">Δ<tspan font-style="italic">R</tspan> &lt; 0</text>
+  <text x="1143" y="812" font-family="Georgia, serif" font-size="43">Δ<tspan font-style="italic">R</tspan> ≈ 0</text>
+  <text x="1143" y="874" font-family="Georgia, serif" font-size="43">Δ<tspan font-style="italic">R</tspan> &gt; 0</text>
+
+  <path d="M1367 713 L1367 889" stroke="#ff5c61" stroke-width="13" opacity=".35"/>
+  <path d="M1367 713 L1367 889" stroke="#ff5c61" stroke-width="6" marker-end="url(#arrowRed)"/>
+  <path d="M1398 889 L1398 715" stroke="#0bb14f" stroke-width="13" opacity=".35"/>
+  <path d="M1398 889 L1398 715" stroke="#0bb14f" stroke-width="6" marker-end="url(#arrowGreen)"/>
+
+  <path d="M1854 566 L1854 867" stroke="#ff5c61" stroke-width="16" opacity=".25"/>
+  <path d="M1854 566 L1854 867" stroke="#ff5c61" stroke-width="8" marker-end="url(#arrowRed)"/>
+  <text x="1874" y="600" transform="rotate(90 1874 600)" font-family="Georgia, Times New Roman, serif" font-size="27" font-weight="700">
+    Perturbation Level
+  </text>
+</svg>

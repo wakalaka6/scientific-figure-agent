@@ -1,0 +1,247 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 1831" width="3840" height="1831">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 Z" fill="#000"/>
+    </marker>
+    
+    <pattern id="noise_pat" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="2" height="2" fill="#fff" opacity="0.15"/>
+      <rect x="2" y="2" width="2" height="2" fill="#000" opacity="0.15"/>
+    </pattern>
+    
+    <pattern id="dot_pat" width="8" height="8" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="1.5" fill="#fff" opacity="0.9"/>
+      <circle cx="1" cy="1" r="0.8" fill="#fff" opacity="0.6"/>
+      <circle cx="7" cy="6" r="1" fill="#fff" opacity="0.7"/>
+    </pattern>
+
+    <radialGradient id="heat_blob" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff0000"/>
+      <stop offset="40%" stop-color="#ffff00"/>
+      <stop offset="100%" stop-color="#0022cc" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="disp_grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0000ff"/>
+      <stop offset="50%" stop-color="#00ffff"/>
+      <stop offset="80%" stop-color="#ffff00"/>
+      <stop offset="100%" stop-color="#ff0000"/>
+    </linearGradient>
+
+    <g id="event_frame">
+      <rect x="0" y="0" width="545" height="350" fill="#222" stroke="#ddd" stroke-width="3"/>
+      <rect x="0" y="250" width="545" height="100" fill="#111"/>
+      <circle cx="180" cy="220" r="55" fill="#ccc"/>
+      <path d="M 300 120 L 420 120 L 460 250 L 260 250 Z" fill="#0a0a0a"/>
+      <circle cx="360" cy="90" r="40" fill="#0a0a0a"/>
+      <rect x="0" y="0" width="545" height="350" fill="url(#noise_pat)"/>
+    </g>
+
+    <g id="ref_frame">
+      <rect x="0" y="0" width="545" height="350" fill="#000" stroke="#ddd" stroke-width="3"/>
+      <rect x="0" y="0" width="545" height="350" fill="url(#dot_pat)"/>
+    </g>
+
+    <g id="conf_map">
+      <rect x="0" y="0" width="490" height="330" fill="#0022cc" stroke="#ffdd00" stroke-width="2"/>
+      <circle cx="160" cy="240" r="80" fill="url(#heat_blob)"/>
+      <circle cx="340" cy="110" r="70" fill="url(#heat_blob)"/>
+      <path d="M 280 140 L 400 140 L 430 250 L 250 250 Z" fill="#00aaff" opacity="0.8"/>
+      <rect x="0" y="0" width="490" height="330" fill="url(#noise_pat)" opacity="0.4"/>
+    </g>
+  </defs>
+
+  <style>
+    .path-line {
+      fill: none;
+      stroke: #000;
+      stroke-width: 6;
+    }
+    text {
+      font-family: "Times New Roman", Times, serif;
+      fill: #000;
+    }
+    .main-label {
+      font-size: 65px;
+      text-anchor: middle;
+    }
+    .box-label {
+      font-size: 70px;
+      text-anchor: middle;
+    }
+    .math-label {
+      font-size: 70px;
+    }
+    .subscript {
+      font-size: 50px;
+    }
+  </style>
+
+  <!-- Background (Optional, ensuring white canvas) -->
+  <rect width="3840" height="1831" fill="#ffffff"/>
+
+  <!-- ==================== ARROWS ==================== -->
+  <path class="path-line" marker-end="url(#arrow)" d="M 620 335 L 870 335"/>
+  <path class="path-line" marker-end="url(#arrow)" d="M 620 900 L 870 900"/>
+  <path class="path-line" marker-end="url(#arrow)" d="M 620 1490 L 870 1490"/>
+  
+  <path class="path-line" marker-end="url(#arrow)" d="M 1255 280 L 1840 280"/>
+  <path class="path-line" marker-end="url(#arrow)" d="M 1255 1480 L 1820 1480"/>
+  <path class="path-line" marker-end="url(#arrow)" d="M 1255 900 L 1335 900"/>
+  
+  <path class="path-line" marker-end="url(#arrow)" d="M 1880 470 L 1880 630 L 1615 630 L 1615 700"/>
+  <path class="path-line" marker-end="url(#arrow)" d="M 1895 900 L 1980 900"/>
+  <path class="path-line" marker-end="url(#arrow)" d="M 2590 900 L 2670 900"/>
+  
+  <path class="path-line" marker-end="url(#arrow)" d="M 2260 310 L 2930 310 L 2930 690"/>
+  <path class="path-line" marker-end="url(#arrow)" d="M 2240 1490 L 2930 1490 L 2930 1120"/>
+  
+  <path class="path-line" marker-end="url(#arrow)" d="M 3190 900 L 3230 900 L 3230 320 L 3260 320"/>
+  <path class="path-line" marker-end="url(#arrow)" d="M 3480 460 L 3480 680"/>
+  <path class="path-line" marker-end="url(#arrow)" d="M 3545 1110 L 3545 1270"/>
+  
+  <path class="path-line" marker-end="url(#arrow)" d="M 325 600 L 325 660"/>
+
+  <!-- ==================== IMAGES ==================== -->
+  <!-- Captured Event Frames -->
+  <use href="#event_frame" x="145" y="90" />
+  <use href="#event_frame" x="100" y="120" />
+  <use href="#event_frame" x="55" y="160" />
+
+  <!-- Energy Map -->
+  <use href="#event_frame" x="145" y="690" />
+  <use href="#event_frame" x="100" y="720" />
+  <use href="#event_frame" x="55" y="770" />
+
+  <!-- Reference Frames -->
+  <use href="#ref_frame" x="145" y="1270" />
+  <use href="#ref_frame" x="100" y="1310" />
+  <use href="#ref_frame" x="55" y="1360" />
+
+  <!-- Confidence Maps -->
+  <use href="#conf_map" x="2080" y="660" />
+  <use href="#conf_map" x="2040" y="690" />
+  <use href="#conf_map" x="2000" y="720" />
+
+  <!-- Disparity -->
+  <g id="disparity_map" transform="translate(3245, 1290)">
+    <rect x="0" y="0" width="580" height="350" fill="url(#disp_grad)" stroke="#ddd" stroke-width="3"/>
+    <circle cx="190" cy="230" r="60" fill="#aaff00"/>
+    <path d="M 330 140 L 470 140 L 510 260 L 290 260 Z" fill="#00aaff"/>
+    <circle cx="400" cy="110" r="45" fill="#0055ff"/>
+  </g>
+
+  <!-- ==================== FEATURE EXTRACTION ==================== -->
+  <!-- Top -->
+  <rect x="890" y="150" width="80" height="370" fill="#a8c2e6"/>
+  <rect x="1030" y="200" width="50" height="270" fill="#a8c2e6"/>
+  <rect x="1155" y="150" width="80" height="370" fill="#a8c2e6"/>
+
+  <!-- Mid -->
+  <rect x="890" y="720" width="80" height="370" fill="#aed5a6"/>
+  <rect x="1030" y="770" width="50" height="270" fill="#aed5a6"/>
+  <rect x="1155" y="720" width="80" height="370" fill="#aed5a6"/>
+
+  <!-- Bot -->
+  <rect x="890" y="1290" width="80" height="370" fill="#a8c2e6"/>
+  <rect x="1030" y="1340" width="50" height="270" fill="#a8c2e6"/>
+  <rect x="1155" y="1290" width="80" height="370" fill="#a8c2e6"/>
+
+  <!-- ==================== 3D BOXES ==================== -->
+  <!-- Left Features -->
+  <!-- Box 3 (Back) -->
+  <polygon points="1920,90 1980,40 2240,40 2180,90" fill="#e8c371" stroke="#000" stroke-width="4"/>
+  <polygon points="2180,90 2240,40 2240,300 2180,350" fill="#c99f41" stroke="#000" stroke-width="4"/>
+  <rect x="1920" y="90" width="260" height="260" fill="#ffe6a0" stroke="#000" stroke-width="4"/>
+
+  <!-- Box 2 (Mid) -->
+  <polygon points="1860,150 1920,100 2180,100 2120,150" fill="#e8c371" stroke="#000" stroke-width="4"/>
+  <polygon points="2120,150 2180,100 2180,360 2120,410" fill="#c99f41" stroke="#000" stroke-width="4"/>
+  <rect x="1860" y="150" width="260" height="260" fill="#ffe6a0" stroke="#000" stroke-width="4"/>
+
+  <!-- Box 1 (Front) -->
+  <polygon points="1800,210 1860,160 2120,160 2060,210" fill="#e8c371" stroke="#000" stroke-width="4"/>
+  <polygon points="2060,210 2120,160 2120,420 2060,470" fill="#c99f41" stroke="#000" stroke-width="4"/>
+  <rect x="1800" y="210" width="260" height="260" fill="#ffe6a0" stroke="#000" stroke-width="4"/>
+
+
+  <!-- Right Features -->
+  <!-- Box 3 (Back) -->
+  <polygon points="1900,1290 1960,1240 2220,1240 2160,1290" fill="#e8c371" stroke="#000" stroke-width="4"/>
+  <polygon points="2160,1290 2220,1240 2220,1500 2160,1550" fill="#c99f41" stroke="#000" stroke-width="4"/>
+  <rect x="1900" y="1290" width="260" height="260" fill="#ffe6a0" stroke="#000" stroke-width="4"/>
+
+  <!-- Box 2 (Mid) -->
+  <polygon points="1840,1350 1900,1300 2160,1300 2100,1350" fill="#e8c371" stroke="#000" stroke-width="4"/>
+  <polygon points="2100,1350 2160,1300 2160,1560 2100,1610" fill="#c99f41" stroke="#000" stroke-width="4"/>
+  <rect x="1840" y="1350" width="260" height="260" fill="#ffe6a0" stroke="#000" stroke-width="4"/>
+
+  <!-- Box 1 (Front) -->
+  <polygon points="1780,1410 1840,1360 2100,1360 2040,1410" fill="#e8c371" stroke="#000" stroke-width="4"/>
+  <polygon points="2040,1410 2100,1360 2100,1620 2040,1670" fill="#c99f41" stroke="#000" stroke-width="4"/>
+  <rect x="1780" y="1410" width="260" height="260" fill="#ffe6a0" stroke="#000" stroke-width="4"/>
+
+
+  <!-- Cost Volume Box -->
+  <polygon points="3280,200 3380,120 3780,120 3680,200" fill="#e8a573"/>
+  <polygon points="3680,200 3780,120 3780,360 3680,440" fill="#d9925d"/>
+  <rect x="3280" y="200" width="400" height="240" fill="#f4b990"/>
+
+
+  <!-- ==================== PROCESSING BLOCKS ==================== -->
+  <!-- Energy-guided Confidence Estimation -->
+  <rect x="1355" y="720" width="520" height="390" rx="40" fill="#aed5a6"/>
+
+  <!-- Confidence Propagation Volume Construction -->
+  <rect x="2690" y="710" width="480" height="390" rx="40" fill="#f2b78b"/>
+
+  <!-- Cost Aggregation -->
+  <rect x="3290" y="700" width="510" height="390" rx="40" fill="#8fa0cd"/>
+
+
+  <!-- ==================== TEXT LABELS ==================== -->
+  <!-- Left Column -->
+  <text x="325" y="580" class="main-label">Captured Event Frames</text>
+  <text x="325" y="1200" class="main-label">Energy Map</text>
+  <text x="325" y="1790" class="main-label">Reference Frames</text>
+
+  <!-- Feature Extraction Columns -->
+  <text x="1060" y="600" class="main-label">Feature Extraction</text>
+  <text x="1060" y="1170" class="main-label">Feature Extraction</text>
+  <text x="1060" y="1740" class="main-label">Feature Extraction</text>
+
+  <!-- Left Features Labels -->
+  <text x="1780" y="80" class="math-label"><tspan font-style="italic">F</tspan><tspan dy="20" class="subscript">L2</tspan></text>
+  <text x="1720" y="140" class="math-label"><tspan font-style="italic">F</tspan><tspan dy="20" class="subscript">L1</tspan></text>
+  <text x="1660" y="200" class="math-label"><tspan font-style="italic">F</tspan><tspan dy="20" class="subscript">L0</tspan></text>
+  <text x="2000" y="540" class="main-label">Left Features</text>
+
+  <!-- Right Features Labels -->
+  <text x="1760" y="1280" class="math-label"><tspan font-style="italic">F</tspan><tspan dy="20" class="subscript">R2</tspan></text>
+  <text x="1700" y="1340" class="math-label"><tspan font-style="italic">F</tspan><tspan dy="20" class="subscript">R1</tspan></text>
+  <text x="1640" y="1400" class="math-label"><tspan font-style="italic">F</tspan><tspan dy="20" class="subscript">R0</tspan></text>
+  <text x="1980" y="1740" class="main-label">Right Features</text>
+
+  <!-- Middle Blocks -->
+  <text x="1615" y="820" class="box-label">Energy-</text>
+  <text x="1615" y="895" class="box-label">guided</text>
+  <text x="1615" y="970" class="box-label">Confidence</text>
+  <text x="1615" y="1045" class="box-label">Estimation</text>
+
+  <text x="2245" y="1140" class="main-label">Confidence Maps</text>
+
+  <text x="2930" y="800" class="box-label">Confidence</text>
+  <text x="2930" y="875" class="box-label">Propagation</text>
+  <text x="2930" y="950" class="box-label">Volume</text>
+  <text x="2930" y="1025" class="box-label">Construction</text>
+
+  <!-- Right Blocks -->
+  <text x="3480" y="290" class="box-label">Cost</text>
+  <text x="3480" y="375" class="box-label">Volume</text>
+
+  <text x="3545" y="860" class="box-label">Cost</text>
+  <text x="3545" y="945" class="box-label">Aggregation</text>
+
+  <text x="3535" y="1740" class="main-label">Disparity</text>
+
+</svg>

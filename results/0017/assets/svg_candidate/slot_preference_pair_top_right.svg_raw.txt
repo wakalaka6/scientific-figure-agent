@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="51" height="34" viewBox="0 0 51 34" overflow="hidden">
+  <defs>
+    <clipPath id="crop">
+      <rect x="0" y="0" width="51" height="34"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#crop)">
+    <path d="M3.1 1.2V32.6" fill="none" stroke="#34458a" stroke-width="1.1" stroke-linecap="round"/>
+    <circle cx="3.1" cy="3.1" r=".75" fill="#34458a"/>
+    <circle cx="3.1" cy="16.8" r=".75" fill="#34458a"/>
+    <circle cx="3.1" cy="30.6" r=".75" fill="#34458a"/>
+
+    <path d="M9.4 9.6L19.1 5.4L28.4 13.6L20.8 25.2L8.6 22.7L15.1 15.9L9.4 9.6ZM15.1 15.9L19.1 5.4M15.1 15.9L28.4 13.6M15.1 15.9L20.8 25.2" fill="none" stroke="#4f4f4f" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <g fill="#f58b12" stroke="#7b1d18" stroke-width="1.15">
+      <circle cx="19.1" cy="5.4" r="2.65"/>
+      <circle cx="9.4" cy="9.6" r="1.9"/>
+      <circle cx="15.1" cy="15.9" r="3.05"/>
+      <circle cx="28.4" cy="13.6" r="3.05"/>
+      <circle cx="8.6" cy="22.7" r="2.15"/>
+      <circle cx="20.8" cy="25.2" r="2.45"/>
+    </g>
+
+    <path d="M56.95 3.14L58.89 6.44L63.75 6.69L63.56 11.56L66.86 13.05L64.92 17L66.86 20.95L63.56 22.44L63.75 27.31L58.89 27.56L56.95 30.86L53.05 30.86L51.11 27.56L46.25 27.31L46.44 22.44L43.14 20.95L45.08 17L43.14 13.05L46.44 11.56L46.25 6.69L51.11 6.44L53.05 3.14Z" fill="#fff4ed" stroke="#d98b76" stroke-width="1.55" stroke-linejoin="round"/>
+    <circle cx="55" cy="17" r="4.75" fill="#fffdfb" stroke="#d98b76" stroke-width="1.45"/>
+  </g>
+</svg>

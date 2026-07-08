@@ -1,0 +1,401 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 1699" width="3840" height="1699">
+  <defs>
+    <!-- Arrowheads -->
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="black" />
+    </marker>
+    <marker id="arrowhead-orange" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#cc5200" />
+    </marker>
+    <marker id="arrowhead-empty" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="white" stroke="black" stroke-width="2"/>
+    </marker>
+    
+    <!-- Block Arrow Up -->
+    <g id="block-arrow-up">
+      <path d="M 0 0 L -18 20 L -7 20 L -7 50 L 7 50 L 7 20 L 18 20 Z" fill="white" stroke="black" stroke-width="2" />
+    </g>
+    
+    <!-- Stacked Boxes (3 layers) -->
+    <g id="stacked-gray-tokens">
+      <rect x="-24" y="-24" width="85" height="85" fill="#d9d9d9" stroke="black" stroke-width="2" />
+      <rect x="-12" y="-12" width="85" height="85" fill="#d9d9d9" stroke="black" stroke-width="2" />
+      <rect x="0" y="0" width="85" height="85" fill="#d9d9d9" stroke="black" stroke-width="2" />
+    </g>
+  </defs>
+
+  <!-- Background -->
+  <rect width="3840" height="1699" fill="white" />
+
+  <!-- Separator lines -->
+  <line x1="820" y1="100" x2="820" y2="1550" stroke="black" stroke-width="3" stroke-dasharray="20,15" />
+  <line x1="2000" y1="100" x2="2000" y2="1550" stroke="black" stroke-width="3" stroke-dasharray="20,15" />
+
+  <!-- ========================================== -->
+  <!-- (a) ICL Section                            -->
+  <!-- ========================================== -->
+  <text x="410" y="100" font-family="Times New Roman" font-style="italic" font-size="80" font-weight="bold" text-anchor="middle">ICL</text>
+  
+  <rect x="60" y="130" width="700" height="80" fill="#e6e6e6" stroke="black" stroke-width="2" />
+  <text x="410" y="185" font-family="Arial" font-size="45" text-anchor="middle">LLM</text>
+
+  <!-- N- -->
+  <text x="110" y="420" font-family="Arial" font-size="50" font-weight="bold">N</text>
+  <path d="M 150 405 L 180 405" stroke="black" stroke-width="4" />
+
+  <!-- Tokens -->
+  <g transform="translate(220, 360)">
+    <use href="#stacked-gray-tokens" x="0" y="0" />
+    <use href="#stacked-gray-tokens" x="85" y="0" />
+    <use href="#stacked-gray-tokens" x="170" y="0" />
+    <use href="#stacked-gray-tokens" x="255" y="0" />
+  </g>
+
+  <rect x="185" y="680" width="450" height="80" fill="white" stroke="black" stroke-width="2" />
+  <text x="410" y="730" font-family="Arial" font-size="40" text-anchor="middle">Embedding Layer</text>
+
+  <!-- Input x_i, Label y_i -->
+  <g transform="translate(210, 920)">
+    <rect x="-24" y="-24" width="400" height="80" fill="white" stroke="black" stroke-width="2" />
+    <rect x="-12" y="-12" width="400" height="80" fill="white" stroke="black" stroke-width="2" />
+    <rect x="0" y="0" width="400" height="80" fill="white" stroke="black" stroke-width="2" />
+    <text x="200" y="50" font-family="Arial" font-size="40" text-anchor="middle">Input <tspan font-style="italic">x<tspan baseline-shift="sub" font-size="30">i</tspan></tspan>, Label <tspan font-style="italic">y<tspan baseline-shift="sub" font-size="30">i</tspan></tspan></text>
+  </g>
+
+  <!-- Bottom Input -->
+  <g transform="translate(50, 1180)">
+    <rect x="-24" y="-24" width="720" height="130" fill="white" stroke="black" stroke-width="2" />
+    <rect x="-12" y="-12" width="720" height="130" fill="white" stroke="black" stroke-width="2" />
+    <rect x="0" y="0" width="720" height="130" fill="white" stroke="black" stroke-width="2" />
+    <text x="360" y="55" font-family="Arial" font-size="38" font-style="italic" font-weight="bold" text-anchor="middle">Input X (SMILES sequence): <tspan font-weight="normal">CC(C)(C)CCO</tspan></text>
+    <text x="360" y="105" font-family="Arial" font-size="38" font-style="italic" font-weight="bold" text-anchor="middle">Label Y (Predicted Property): <tspan font-weight="normal">1.15</tspan></text>
+  </g>
+
+  <!-- Arrows (a) -->
+  <line x1="410" y1="1156" x2="410" y2="1010" stroke="black" stroke-width="4" marker-end="url(#arrowhead)" />
+  <line x1="410" y1="896" x2="410" y2="770" stroke="black" stroke-width="4" marker-end="url(#arrowhead)" />
+  <line x1="410" y1="680" x2="410" y2="465" stroke="black" stroke-width="4" marker-end="url(#arrowhead)" />
+  <line x1="410" y1="336" x2="410" y2="220" stroke="black" stroke-width="4" marker-end="url(#arrowhead)" />
+
+  <text x="410" y="1520" font-family="Times New Roman" font-size="70" text-anchor="middle">(a)</text>
+
+
+  <!-- ========================================== -->
+  <!-- (b) MLLM Section                           -->
+  <!-- ========================================== -->
+  <text x="1410" y="100" font-family="Times New Roman" font-style="italic" font-size="80" font-weight="bold" text-anchor="middle">MLLM</text>
+  
+  <rect x="910" y="130" width="1000" height="80" fill="#e6e6e6" stroke="black" stroke-width="2" />
+  <text x="1410" y="185" font-family="Arial" font-size="45" text-anchor="middle">LLM</text>
+  
+  <g id="AF02">
+    <rect x="925" y="145" width="50" height="50" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="950" y="170" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="14">&lt;AF&gt;02</text>
+  </g>
+
+  <!-- Pill -->
+  <rect x="1000" y="270" width="820" height="130" rx="65" fill="white" stroke="black" stroke-width="3" stroke-dasharray="15,10" />
+  
+  <!-- Pill Tokens -->
+  <g transform="translate(1070, 292.5)">
+    <rect x="0" y="0" width="85" height="85" fill="#d9d9d9" stroke="black" stroke-width="2" />
+    <rect x="85" y="0" width="85" height="85" fill="#d9d9d9" stroke="black" stroke-width="2" />
+    <rect x="170" y="0" width="85" height="85" fill="#d9d9d9" stroke="black" stroke-width="2" />
+    <rect x="255" y="0" width="85" height="85" fill="#d9d9d9" stroke="black" stroke-width="2" />
+    
+    <rect x="340" y="0" width="85" height="85" fill="#cce5ff" stroke="black" stroke-width="2" />
+    <rect x="425" y="0" width="85" height="85" fill="#cce5ff" stroke="black" stroke-width="2" />
+    <rect x="510" y="0" width="85" height="85" fill="#cce5ff" stroke="black" stroke-width="2" />
+    <rect x="595" y="0" width="85" height="85" fill="#cce5ff" stroke="black" stroke-width="2" />
+  </g>
+
+  <!-- Loop Arrows -->
+  <path d="M 1820 335 L 1860 335" fill="none" stroke="black" stroke-width="3" marker-end="url(#arrowhead-empty)" />
+  <path d="M 1860 335 L 1860 210 L 930 210 L 930 335 L 980 335" fill="none" stroke="black" stroke-width="3" marker-end="url(#arrowhead-empty)" />
+
+  <!-- Bottom Tokens Left -->
+  <g transform="translate(960, 440)">
+    <rect x="0" y="0" width="85" height="85" fill="#d9d9d9" stroke="black" stroke-width="2" />
+    <rect x="85" y="0" width="85" height="85" fill="#d9d9d9" stroke="black" stroke-width="2" />
+    <rect x="170" y="0" width="85" height="85" fill="#d9d9d9" stroke="black" stroke-width="2" />
+    <rect x="255" y="0" width="85" height="85" fill="#d9d9d9" stroke="black" stroke-width="2" />
+  </g>
+
+  <!-- Bottom Tokens Right -->
+  <g transform="translate(1500, 440)">
+    <rect x="0" y="0" width="85" height="85" fill="#cce5ff" stroke="black" stroke-width="2" />
+    <rect x="85" y="0" width="85" height="85" fill="#cce5ff" stroke="black" stroke-width="2" />
+    <rect x="170" y="0" width="85" height="85" fill="#cce5ff" stroke="black" stroke-width="2" />
+    <rect x="255" y="0" width="85" height="85" fill="#cce5ff" stroke="black" stroke-width="2" />
+  </g>
+
+  <!-- Arrows UP to Pill -->
+  <line x1="1130" y1="440" x2="1130" y2="410" stroke="black" stroke-width="4" marker-end="url(#arrowhead)" />
+  <use href="#block-arrow-up" x="1670" y="385" />
+
+  <!-- Arrow to LLM -->
+  <line x1="1410" y1="270" x2="1410" y2="220" stroke="black" stroke-width="4" marker-end="url(#arrowhead)" />
+
+  <!-- Left Side (b) -->
+  <rect x="910" y="700" width="440" height="80" fill="#f2f2f2" stroke="black" stroke-width="2" />
+  <text x="1130" y="750" font-family="Arial" font-size="40" text-anchor="middle">Embedding Layer</text>
+
+  <rect x="910" y="950" width="440" height="160" fill="white" stroke="black" stroke-width="2" />
+  <text x="1130" y="1000" font-family="Arial" font-size="38" text-anchor="middle">Text Input: <tspan font-style="italic">x<tspan baseline-shift="sub" font-size="25">i</tspan></tspan></text>
+  <text x="1130" y="1050" font-family="Arial" font-size="38" text-anchor="middle">Modality Input: <tspan font-style="italic">m<tspan baseline-shift="sub" font-size="25">i</tspan></tspan></text>
+  <text x="1130" y="1100" font-family="Arial" font-size="38" text-anchor="middle">Label <tspan font-style="italic">y<tspan baseline-shift="sub" font-size="25">i</tspan></tspan></text>
+
+  <!-- Arrows Left Side (b) -->
+  <line x1="1130" y1="950" x2="1130" y2="790" stroke="black" stroke-width="4" marker-end="url(#arrowhead)" />
+  <line x1="1130" y1="700" x2="1130" y2="535" stroke="black" stroke-width="4" marker-end="url(#arrowhead)" />
+
+  <!-- Right Side (b) -->
+  <rect x="1420" y="600" width="500" height="780" fill="none" stroke="black" stroke-width="3" stroke-dasharray="15,10" />
+
+  <rect x="1520" y="650" width="300" height="70" fill="#8cb3d9" stroke="black" stroke-width="2" />
+  <text x="1690" y="695" font-family="Arial" font-size="38" text-anchor="middle">Projector</text>
+  
+  <g id="AF08">
+    <rect x="1530" y="662.5" width="45" height="45" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="1552.5" y="685" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="14">&lt;AF&gt;08</text>
+  </g>
+
+  <rect x="1520" y="780" width="300" height="110" rx="20" fill="none" stroke="black" stroke-width="3" stroke-dasharray="15,10" />
+  <g transform="translate(1542.5, 792.5)">
+    <rect x="0" y="0" width="85" height="85" fill="#cce5ff" stroke="black" stroke-width="2" />
+    <rect x="85" y="0" width="85" height="85" fill="#cce5ff" stroke="black" stroke-width="2" />
+    <rect x="170" y="0" width="85" height="85" fill="#cce5ff" stroke="black" stroke-width="2" />
+  </g>
+
+  <polygon points="1440,1180 1900,1180 1770,980 1570,980" fill="#8cb3d9" stroke="black" stroke-width="2" />
+  <text x="1670" y="1060" font-family="Arial" font-size="38" text-anchor="middle">Pre-trained</text>
+  <text x="1670" y="1110" font-family="Arial" font-size="38" text-anchor="middle">Modality Encoder</text>
+  
+  <g id="AF09">
+    <rect x="1465" y="1030" width="50" height="50" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="1490" y="1055" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="14">&lt;AF&gt;09</text>
+  </g>
+
+  <g id="AF03">
+    <rect x="1460" y="1250" width="80" height="80" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="1500" y="1290" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="16">&lt;AF&gt;03</text>
+  </g>
+  <g id="AF05">
+    <rect x="1630" y="1250" width="80" height="80" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="1670" y="1290" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="16">&lt;AF&gt;05</text>
+  </g>
+  <g id="AF10">
+    <rect x="1800" y="1250" width="80" height="80" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="1840" y="1290" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="16">&lt;AF&gt;10</text>
+  </g>
+
+  <!-- Arrows Right Side (b) -->
+  <line x1="1350" y1="1030" x2="1430" y2="1030" stroke="black" stroke-width="4" marker-end="url(#arrowhead)" />
+  <use href="#block-arrow-up" x="1670" y="775" />
+  <use href="#block-arrow-up" x="1670" y="645" />
+  <use href="#block-arrow-up" x="1670" y="975" />
+  
+  <line x1="1500" y1="1250" x2="1500" y2="1190" stroke="black" stroke-width="4" marker-end="url(#arrowhead)" />
+  <line x1="1670" y1="1250" x2="1670" y2="1190" stroke="black" stroke-width="4" marker-end="url(#arrowhead)" />
+  <line x1="1840" y1="1250" x2="1840" y2="1190" stroke="black" stroke-width="4" marker-end="url(#arrowhead)" />
+
+  <text x="1410" y="1520" font-family="Times New Roman" font-size="70" text-anchor="middle">(b)</text>
+
+
+  <!-- ========================================== -->
+  <!-- (c) ICRL Section                           -->
+  <!-- ========================================== -->
+  <text x="2920" y="100" font-family="Times New Roman" font-style="italic" font-size="80" font-weight="bold" text-anchor="middle">ICRL</text>
+  
+  <rect x="2100" y="130" width="1640" height="80" fill="#e6e6e6" stroke="black" stroke-width="2" />
+  <text x="2920" y="185" font-family="Arial" font-size="45" text-anchor="middle">LLM</text>
+
+  <text x="2500" y="280" font-family="Arial" font-size="45" font-weight="bold" font-style="italic" text-anchor="middle">Text Level</text>
+  <text x="3150" y="280" font-family="Arial" font-size="45" font-weight="bold" font-style="italic" text-anchor="middle">Embedding Level</text>
+
+  <!-- Dashed separator in (c) -->
+  <line x1="2820" y1="240" x2="2820" y2="1250" stroke="black" stroke-width="3" stroke-dasharray="20,15" />
+
+  <!-- (c) Text Level -->
+  <g transform="translate(2250, 360)">
+    <use href="#stacked-gray-tokens" x="0" y="0" />
+    <use href="#stacked-gray-tokens" x="85" y="0" />
+    <use href="#stacked-gray-tokens" x="170" y="0" />
+    <use href="#stacked-gray-tokens" x="255" y="0" />
+  </g>
+  <line x1="2420" y1="336" x2="2420" y2="220" stroke="black" stroke-width="4" marker-end="url(#arrowhead)" />
+
+  <rect x="2195" y="550" width="450" height="60" fill="white" stroke="black" stroke-width="2" />
+  <text x="2420" y="592" font-family="Arial" font-size="35" text-anchor="middle">Embedding Layer</text>
+  <line x1="2420" y1="550" x2="2420" y2="455" stroke="black" stroke-width="4" marker-end="url(#arrowhead)" />
+
+  <!-- Rep r_i Box -->
+  <g transform="translate(2450, 850)">
+    <rect x="-104" y="-74" width="220" height="150" fill="white" stroke="black" stroke-width="2" />
+    <rect x="-92" y="-62" width="220" height="150" fill="white" stroke="black" stroke-width="2" />
+    <rect x="-80" y="-50" width="220" height="150" fill="white" stroke="black" stroke-width="2" />
+    <text x="30" y="10" font-family="Arial" font-size="40" fill="#800080" text-anchor="middle">Rep <tspan font-style="italic">r<tspan baseline-shift="sub" font-size="25">i</tspan></tspan></text>
+    <text x="30" y="60" font-family="Arial" font-size="40" text-anchor="middle">Label <tspan font-style="italic">y<tspan baseline-shift="sub" font-size="25">i</tspan></tspan></text>
+  </g>
+  <line x1="2450" y1="776" x2="2450" y2="620" stroke="black" stroke-width="4" marker-end="url(#arrowhead)" />
+
+  <!-- Pill Purple -->
+  <rect x="1950" y="800" width="280" height="100" rx="20" fill="none" stroke="black" stroke-width="3" stroke-dasharray="15,10" />
+  <g transform="translate(1965, 807.5)">
+    <rect x="0" y="0" width="85" height="85" fill="#f2d9f2" stroke="black" stroke-width="2" />
+    <rect x="85" y="0" width="85" height="85" fill="#f2d9f2" stroke="black" stroke-width="2" />
+    <rect x="170" y="0" width="85" height="85" fill="#f2d9f2" stroke="black" stroke-width="2" />
+  </g>
+
+  <!-- Stringify Arrow -->
+  <line x1="2230" y1="850" x2="2330" y2="850" stroke="black" stroke-width="4" marker-end="url(#arrowhead)" />
+  <text x="2280" y="840" font-family="Arial" font-size="25" font-weight="bold" text-anchor="middle">Stringify</text>
+
+  <!-- Pre-trained FM Left -->
+  <rect x="1970" y="1050" width="240" height="120" fill="#e6ccff" stroke="black" stroke-width="2" />
+  <text x="2090" y="1100" font-family="Arial" font-size="38" text-anchor="middle">Pre-trained</text>
+  <text x="2090" y="1145" font-family="Arial" font-size="38" text-anchor="middle">FM</text>
+  <use href="#block-arrow-up" x="2090" y="795" />
+
+  <!-- (c) Embedding Level -->
+  <!-- Top Tokens -->
+  <g transform="translate(3300, 360)">
+    <use href="#stacked-gray-tokens" x="0" y="0" />
+    <use href="#stacked-gray-tokens" x="85" y="0" />
+    <!-- Orange Token (Stacked) -->
+    <rect x="146" y="-24" width="85" height="85" fill="#ffcc99" stroke="black" stroke-width="2" />
+    <rect x="158" y="-12" width="85" height="85" fill="#ffcc99" stroke="black" stroke-width="2" />
+    <rect x="170" y="0" width="85" height="85" fill="#ffcc99" stroke="black" stroke-width="2" />
+    <use href="#stacked-gray-tokens" x="255" y="0" />
+  </g>
+  <line x1="3470" y1="336" x2="3470" y2="220" stroke="black" stroke-width="4" marker-end="url(#arrowhead)" />
+
+  <!-- Dashed Pill with 4 gray tokens -->
+  <rect x="3280" y="580" width="380" height="110" rx="20" fill="none" stroke="black" stroke-width="3" stroke-dasharray="15,10" />
+  <g transform="translate(3300, 592.5)">
+    <rect x="0" y="0" width="85" height="85" fill="#d9d9d9" stroke="black" stroke-width="2" />
+    <rect x="85" y="0" width="85" height="85" fill="#d9d9d9" stroke="black" stroke-width="2" />
+    <rect x="170" y="0" width="85" height="85" fill="#d9d9d9" stroke="black" stroke-width="2" />
+    <rect x="255" y="0" width="85" height="85" fill="#d9d9d9" stroke="black" stroke-width="2" />
+  </g>
+  <use href="#block-arrow-up" x="3470" y="575" />
+
+  <!-- 3 Orange Tokens -->
+  <g transform="translate(3050, 400)">
+    <rect x="-24" y="-24" width="85" height="85" fill="#ffcc99" stroke="black" stroke-width="2" />
+    <rect x="-12" y="-12" width="85" height="85" fill="#ffcc99" stroke="black" stroke-width="2" />
+    <rect x="0" y="0" width="85" height="85" fill="#ffcc99" stroke="black" stroke-width="2" />
+  </g>
+  
+  <!-- Dashed Orange Arrow M_inj -->
+  <path d="M 3100 400 Q 3250 450 3340 410" fill="none" stroke="#cc5200" stroke-width="4" stroke-dasharray="15,10" marker-end="url(#arrowhead-orange)" />
+  <text x="3200" y="400" font-family="Arial" font-size="30" font-weight="bold" fill="black">M<tspan baseline-shift="sub" font-size="20">inj</tspan></text>
+
+  <rect x="3250" y="760" width="440" height="60" fill="white" stroke="black" stroke-width="2" />
+  <text x="3470" y="802" font-family="Arial" font-size="35" text-anchor="middle">Embedding Layer</text>
+  <line x1="3470" y1="760" x2="3470" y2="700" stroke="black" stroke-width="4" marker-end="url(#arrowhead)" />
+
+  <!-- Rep r_i Box (c) Right -->
+  <g transform="translate(3470, 1000)">
+    <rect x="-174" y="-74" width="360" height="120" fill="white" stroke="black" stroke-width="2" />
+    <rect x="-162" y="-62" width="360" height="120" fill="white" stroke="black" stroke-width="2" />
+    <rect x="-150" y="-50" width="360" height="120" fill="white" stroke="black" stroke-width="2" />
+    <rect x="-85" y="-25" width="100" height="40" fill="none" stroke="black" stroke-width="2" stroke-dasharray="10,5" />
+    <text x="-35" y="10" font-family="Arial" font-size="35" text-anchor="middle">Rep <tspan font-style="italic">r<tspan baseline-shift="sub" font-size="25">i</tspan></tspan></text>
+    <text x="100" y="10" font-family="Arial" font-size="35" text-anchor="middle">, Label <tspan font-style="italic">y<tspan baseline-shift="sub" font-size="25">i</tspan></tspan></text>
+  </g>
+  <line x1="3470" y1="926" x2="3470" y2="830" stroke="black" stroke-width="4" marker-end="url(#arrowhead)" />
+
+  <!-- Projector Orange -->
+  <rect x="2930" y="580" width="240" height="70" fill="#ffcc99" stroke="black" stroke-width="2" />
+  <text x="3070" y="625" font-family="Arial" font-size="38" text-anchor="middle">Projector</text>
+  
+  <g id="AF01">
+    <rect x="2940" y="590" width="50" height="50" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="2965" y="615" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="14">&lt;AF&gt;01</text>
+  </g>
+  <use href="#block-arrow-up" x="3050" y="475" />
+
+  <!-- Pill Purple Right -->
+  <rect x="2910" y="800" width="280" height="100" rx="20" fill="none" stroke="black" stroke-width="3" stroke-dasharray="15,10" />
+  <g transform="translate(2925, 807.5)">
+    <rect x="0" y="0" width="85" height="85" fill="#f2d9f2" stroke="black" stroke-width="2" />
+    <rect x="85" y="0" width="85" height="85" fill="#f2d9f2" stroke="black" stroke-width="2" />
+    <rect x="170" y="0" width="85" height="85" fill="#f2d9f2" stroke="black" stroke-width="2" />
+  </g>
+  <use href="#block-arrow-up" x="3050" y="575" />
+
+  <!-- Pre-trained FM Right -->
+  <rect x="2930" y="1050" width="240" height="120" fill="#e6ccff" stroke="black" stroke-width="2" />
+  <text x="3050" y="1100" font-family="Arial" font-size="38" text-anchor="middle">Pre-trained</text>
+  <text x="3050" y="1145" font-family="Arial" font-size="38" text-anchor="middle">FM</text>
+  <use href="#block-arrow-up" x="3050" y="795" />
+
+  <!-- Bottom Input Box (c) -->
+  <g transform="translate(2750, 1330)">
+    <rect x="-674" y="-24" width="1300" height="130" fill="white" stroke="black" stroke-width="2" />
+    <rect x="-662" y="-12" width="1300" height="130" fill="white" stroke="black" stroke-width="2" />
+    <rect x="-650" y="0" width="1300" height="130" fill="white" stroke="black" stroke-width="2" />
+    <text x="0" y="55" font-family="Arial" font-size="38" font-style="italic" font-weight="bold" text-anchor="middle">Input X (SMILES sequence): <tspan font-weight="normal">Oc1ccccc1O</tspan></text>
+    <text x="0" y="105" font-family="Arial" font-size="38" font-style="italic" font-weight="bold" text-anchor="middle">Label Y (Predicted Property): <tspan font-weight="normal">-6.36</tspan></text>
+  </g>
+
+  <!-- Arrows from Bottom Input -->
+  <line x1="2090" y1="1330" x2="2090" y2="1180" stroke="black" stroke-width="4" marker-end="url(#arrowhead)" />
+  <line x1="2450" y1="1330" x2="2450" y2="1010" stroke="black" stroke-width="4" marker-end="url(#arrowhead)" />
+  <line x1="3050" y1="1330" x2="3050" y2="1180" stroke="black" stroke-width="4" marker-end="url(#arrowhead)" />
+  <line x1="3470" y1="1330" x2="3470" y2="1130" stroke="black" stroke-width="4" marker-end="url(#arrowhead)" />
+
+  <text x="2920" y="1520" font-family="Times New Roman" font-size="70" text-anchor="middle">(c)</text>
+
+
+  <!-- ========================================== -->
+  <!-- Legend                                     -->
+  <!-- ========================================== -->
+  <g transform="translate(40, 1600)">
+    <g id="AF04">
+      <rect x="0" y="0" width="30" height="30" fill="#808080" stroke="black" stroke-width="2"/>
+      <text x="15" y="15" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="10">&lt;AF&gt;04</text>
+    </g>
+    <text x="40" y="22" font-family="Arial" font-size="30">: Train-optional</text>
+
+    <g id="AF06" transform="translate(400, 0)">
+      <rect x="0" y="0" width="30" height="30" fill="#808080" stroke="black" stroke-width="2"/>
+      <text x="15" y="15" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="10">&lt;AF&gt;06</text>
+      <text x="40" y="22" font-family="Arial" font-size="30">: Train-required</text>
+    </g>
+
+    <g id="AF07" transform="translate(820, 0)">
+      <rect x="0" y="0" width="30" height="30" fill="#808080" stroke="black" stroke-width="2"/>
+      <text x="15" y="15" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="10">&lt;AF&gt;07</text>
+      <text x="40" y="22" font-family="Arial" font-size="30">: Train-free</text>
+    </g>
+
+    <g transform="translate(1250, 0)">
+      <rect x="0" y="-5" width="40" height="40" fill="#d9d9d9" stroke="black" stroke-width="2" />
+      <text x="50" y="22" font-family="Arial" font-size="30">: Text token</text>
+    </g>
+    
+    <g transform="translate(1650, 0)">
+      <rect x="0" y="-5" width="40" height="40" fill="#cce5ff" stroke="black" stroke-width="2" />
+      <rect x="45" y="-5" width="40" height="40" fill="#f2d9f2" stroke="black" stroke-width="2" />
+      <text x="95" y="22" font-family="Arial" font-size="30">: Modality token</text>
+    </g>
+
+    <g transform="translate(2150, 0)">
+      <rect x="0" y="-5" width="40" height="40" fill="#cce5ff" stroke="black" stroke-width="2" />
+      <rect x="45" y="-5" width="40" height="40" fill="#ffcc99" stroke="black" stroke-width="2" />
+      <text x="95" y="22" font-family="Arial" font-size="30">: Aligned token</text>
+    </g>
+
+    <g transform="translate(2650, 0)">
+      <text x="0" y="22" font-family="Arial" font-size="30" font-weight="bold">N</text>
+      <text x="25" y="22" font-family="Arial" font-size="30">: Example nums</text>
+    </g>
+
+    <g transform="translate(3150, 0)">
+      <text x="0" y="22" font-family="Arial" font-size="30" font-weight="bold">M<tspan baseline-shift="sub" font-size="20">inj</tspan></text>
+      <text x="60" y="22" font-family="Arial" font-size="30">: Injection strategy</text>
+    </g>
+  </g>
+</svg>

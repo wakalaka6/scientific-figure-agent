@@ -1,0 +1,15 @@
+svg_candidate: 10
+raster_required: 0
+unique_assets: 10
+duplicate_assets: 0
+
+- slot_train_optional_flame_top_mllm: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_train_required_flame_projector_mllm: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_train_optional_flame_encoder_mllm: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_image_icon_modality_encoder: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_video_icon_modality_encoder: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_molecule_icon_modality_encoder: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_train_free_snowflake_projector_icrl: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_train_optional_flame_legend: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_train_required_flame_legend: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_train_free_snowflake_legend: svg_candidate | from first-pass asset detection kind=svg_icon

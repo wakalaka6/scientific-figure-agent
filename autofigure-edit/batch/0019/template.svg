@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 2092" width="3840" height="2092">
+  <defs>
+    <!-- Arrowhead markers -->
+    <marker id="arrow-end" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#6b6b6b" />
+    </marker>
+    <marker id="arrow-start" viewBox="0 0 10 10" refX="2" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 10 1 L 0 5 L 10 9 z" fill="#6b6b6b" />
+    </marker>
+  </defs>
+
+  <!-- Background and Shadow -->
+  <rect x="0" y="0" width="3840" height="2092" fill="#e0e0e0" />
+  <rect x="40" y="40" width="3760" height="2012" fill="#f8f9fa" />
+
+  <!-- Top Input Boxes -->
+  <!-- Text-Only Request -->
+  <rect x="500" y="90" width="1080" height="180" rx="20" fill="#ffffff" stroke="#1a2b4c" stroke-width="8" />
+  <g id="AF01">
+    <rect x="540" y="130" width="100" height="100" fill="#808080" stroke="black" stroke-width="2" />
+    <text x="590" y="180" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="30" font-family="Arial, sans-serif">&lt;AF&gt;01</text>
+  </g>
+  <text x="680" y="210" font-size="80" font-family="Georgia, serif" fill="#000000">Text-Only Request</text>
+
+  <!-- Image-Text Request -->
+  <rect x="2220" y="90" width="1080" height="180" rx="20" fill="#ffffff" stroke="#1a2b4c" stroke-width="8" />
+  <g id="AF02">
+    <rect x="2260" y="130" width="100" height="100" fill="#808080" stroke="black" stroke-width="2" />
+    <text x="2310" y="180" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="30" font-family="Arial, sans-serif">&lt;AF&gt;02</text>
+  </g>
+  <text x="2400" y="210" font-size="80" font-family="Georgia, serif" fill="#000000">Image-Text Request</text>
+
+  <!-- Arrows from Top Boxes -->
+  <line x1="1040" y1="270" x2="1040" y2="356" stroke="#6b6b6b" stroke-width="12" marker-end="url(#arrow-end)" />
+  <line x1="2760" y1="270" x2="2760" y2="410" stroke="#6b6b6b" stroke-width="12" marker-end="url(#arrow-end)" />
+
+  <!-- Modality-Level Box -->
+  <rect x="226" y="376" width="3430" height="640" fill="none" stroke="#1a2b4c" stroke-width="8" />
+  <rect x="230" y="380" width="1715" height="632" fill="#e1effa" />
+  <rect x="1945" y="380" width="1707" height="632" fill="#ffe5e5" />
+  <line x1="1945" y1="376" x2="1945" y2="1016" stroke="#000000" stroke-width="8" stroke-dasharray="20, 20" />
+
+  <!-- Modality-Level Titles -->
+  <text x="1087" y="490" text-anchor="middle" font-size="80" font-weight="bold" font-family="Georgia, serif" fill="#000000">Modality-Level</text>
+  <text x="1087" y="590" text-anchor="middle" font-size="70" font-weight="bold" font-family="Arial, sans-serif" fill="#4c8adb">(Modality-Aware Load Balancing §3.1)</text>
+
+  <!-- Bidirectional Auto-Scaling Arrow -->
+  <line x1="1780" y1="470" x2="2110" y2="470" stroke="#6b6b6b" stroke-width="15" marker-start="url(#arrow-start)" marker-end="url(#arrow-end)" />
+
+  <!-- Left Inner Blocks (Text-Only Group) -->
+  <rect x="350" y="730" width="660" height="180" rx="20" fill="#c2def6" stroke="#1a2b4c" stroke-width="8" />
+  <text x="680" y="845" text-anchor="middle" font-size="75" font-weight="bold" font-family="Georgia, serif" fill="#000000">Prefill Stage</text>
+
+  <rect x="1180" y="730" width="660" height="180" rx="20" fill="#c2def6" stroke="#1a2b4c" stroke-width="8" />
+  <text x="1510" y="845" text-anchor="middle" font-size="75" font-weight="bold" font-family="Georgia, serif" fill="#000000">Decode Stage</text>
+
+  <line x1="1010" y1="820" x2="1160" y2="820" stroke="#6b6b6b" stroke-width="12" marker-end="url(#arrow-end)" />
+
+  <!-- Right Inner Blocks (Multimodal Group) -->
+  <rect x="2450" y="430" width="660" height="180" rx="20" fill="#ffbaba" stroke="#1a2b4c" stroke-width="8" />
+  <text x="2780" y="545" text-anchor="middle" font-size="75" font-weight="bold" font-family="Georgia, serif" fill="#000000">Encode Stage</text>
+
+  <rect x="2060" y="730" width="660" height="180" rx="20" fill="#ffbaba" stroke="#1a2b4c" stroke-width="8" />
+  <text x="2390" y="845" text-anchor="middle" font-size="75" font-weight="bold" font-family="Georgia, serif" fill="#000000">Prefill Stage</text>
+
+  <rect x="2890" y="730" width="660" height="180" rx="20" fill="#ffbaba" stroke="#1a2b4c" stroke-width="8" />
+  <text x="3220" y="845" text-anchor="middle" font-size="75" font-weight="bold" font-family="Georgia, serif" fill="#000000">Decode Stage</text>
+
+  <!-- Right Inner Arrows -->
+  <line x1="2500" y1="610" x2="2420" y2="710" stroke="#6b6b6b" stroke-width="12" marker-end="url(#arrow-end)" />
+  <line x1="2720" y1="820" x2="2870" y2="820" stroke="#6b6b6b" stroke-width="12" marker-end="url(#arrow-end)" />
+
+  <!-- Stage-Level Box -->
+  <rect x="226" y="1100" width="3430" height="510" fill="#fdfef9" stroke="#1a2b4c" stroke-width="8" />
+  
+  <!-- Stage-Level Titles aligned -->
+  <text x="1930" y="1210" text-anchor="end" font-size="80" font-weight="bold" font-family="Georgia, serif" fill="#000000">Stage-Level</text>
+  <text x="1950" y="1210" text-anchor="start" font-size="75" font-weight="bold" font-family="Arial, sans-serif" fill="#4c8adb">(Elastic Partition Scheduling §3.2)</text>
+
+  <!-- Stage-Level Inner Blocks -->
+  <rect x="450" y="1280" width="760" height="260" rx="20" fill="#fceaa4" stroke="#1a2b4c" stroke-width="8" />
+  <text x="830" y="1390" text-anchor="middle" font-size="75" font-weight="bold" font-family="Georgia, serif" fill="#000000">Request</text>
+  <text x="830" y="1490" text-anchor="middle" font-size="75" font-weight="bold" font-family="Georgia, serif" fill="#000000">Scheduling</text>
+
+  <rect x="1550" y="1280" width="760" height="260" rx="20" fill="#fceaa4" stroke="#1a2b4c" stroke-width="8" />
+  <text x="1930" y="1390" text-anchor="middle" font-size="75" font-weight="bold" font-family="Georgia, serif" fill="#000000">Stage</text>
+  <text x="1930" y="1490" text-anchor="middle" font-size="75" font-weight="bold" font-family="Georgia, serif" fill="#000000">Allocation</text>
+
+  <rect x="2650" y="1280" width="760" height="260" rx="20" fill="#fceaa4" stroke="#1a2b4c" stroke-width="8" />
+  <text x="3030" y="1390" text-anchor="middle" font-size="75" font-weight="bold" font-family="Georgia, serif" fill="#000000">Elastic</text>
+  <text x="3030" y="1490" text-anchor="middle" font-size="75" font-weight="bold" font-family="Georgia, serif" fill="#000000">Auto-Scaling</text>
+
+  <!-- Stage-Level Inner Arrows -->
+  <line x1="1210" y1="1410" x2="1530" y2="1410" stroke="#6b6b6b" stroke-width="12" marker-end="url(#arrow-end)" />
+  <line x1="2310" y1="1410" x2="2630" y2="1410" stroke="#6b6b6b" stroke-width="12" marker-end="url(#arrow-end)" />
+
+  <!-- Unified Multimodal Prefix Cache -->
+  <rect x="226" y="1720" width="2200" height="300" rx="30" fill="#d4f0d6" stroke="#1a2b4c" stroke-width="8" />
+  <text x="1750" y="1890" text-anchor="end" font-size="80" font-weight="bold" font-family="Georgia, serif" fill="#000000">Unified Multimodal Prefix Cache</text>
+  <text x="1770" y="1890" text-anchor="start" font-size="75" font-weight="bold" font-family="Arial, sans-serif" fill="#4c8adb">(§3.3)</text>
+
+  <!-- Legend Box -->
+  <rect x="2600" y="1700" width="1056" height="320" fill="#ffffff" stroke="#1a2b4c" stroke-width="8" />
+  
+  <g id="AF03">
+    <rect x="2650" y="1740" width="150" height="60" fill="#808080" stroke="black" stroke-width="2" />
+    <text x="2725" y="1770" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="30" font-family="Arial, sans-serif">&lt;AF&gt;03</text>
+  </g>
+  <text x="2840" y="1785" font-size="60" font-family="Georgia, serif" fill="#000000">Text-Only Group</text>
+
+  <rect x="2650" y="1820" width="150" height="60" fill="#ffbaba" stroke="black" stroke-width="4" />
+  <text x="2840" y="1865" font-size="60" font-family="Georgia, serif" fill="#000000">Multimodal Group</text>
+
+  <line x1="2650" y1="1940" x2="2800" y2="1940" stroke="#6b6b6b" stroke-width="12" marker-start="url(#arrow-start)" marker-end="url(#arrow-end)" />
+  <text x="2840" y="1960" font-size="60" font-family="Georgia, serif" fill="#000000">Auto-Scaling</text>
+
+</svg>

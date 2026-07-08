@@ -1,0 +1,27 @@
+svg_candidate: 22
+raster_required: 0
+unique_assets: 22
+duplicate_assets: 0
+
+- slot_robot_legend: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_retriever_legend: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_answer_legend: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_robot_left_entry: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_retriever_chain1_first: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_robot_chain1_first: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_retriever_chain2_first: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_robot_chain2_first: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_robot_chain1_middle: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_robot_chain2_middle: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_retriever_chain1_n: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_robot_chain1_n: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_retriever_chain2_n: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_robot_chain2_n: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_answer_chain1: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_robot_chain1_final: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_answer_chain2: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_robot_chain2_final: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_answer_chain3: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_robot_chain3_final: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_fire_icon: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_medal_icon: svg_candidate | from first-pass asset detection kind=svg_icon

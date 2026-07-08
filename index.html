@@ -2,10 +2,62 @@
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8">
-<meta http-equiv="refresh" content="0; url=diagram-gallery/index.html">
-<title>Image2SVG Gallery</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Diagram Gallery</title>
+<style>
+body { margin: 0; font-family: Arial, sans-serif; background: #f6f7f9; color: #111; }
+.tabs { height: 44px; display: flex; gap: 8px; align-items: center; padding: 0 12px; background: #fff; border-bottom: 1px solid #ddd; }
+button { height: 30px; padding: 0 14px; border: 1px solid #aaa; background: #fff; cursor: pointer; font-size: 14px; }
+button.active { background: #111; color: #fff; }
+#guide { padding: 24px; }
+.guide-title { font-size: 32px; font-weight: 700; margin: 20px 0 28px; }
+.cards { display: flex; flex-direction: column; gap: 22px; }
+.card { background: #fff; border: 1px solid #ddd; padding: 28px 36px; max-width: 1400px; }
+.card h2 { margin: 0 0 22px; font-size: 30px; }
+.card p { margin: 0 0 28px; line-height: 1.45; color: #333; font-size: 26px; }
+.card button { height: 48px; padding: 0 26px; font-size: 22px; }
+iframe { width: 100vw; height: calc(100vh - 45px); border: 0; display: none; }
+</style>
 </head>
 <body>
-<p><a href="diagram-gallery/index.html">Open diagram gallery</a></p>
+<div class="tabs">
+  <button class="active" onclick="showGuide(this)">Guide</button>
+  <button onclick="showPage('asset_gallery.html', this)">Assets</button>
+  <button onclick="showPage('gallery.html', this)">Result Compare</button>
+</div>
+<main id="guide">
+  <div class="guide-title">Guide</div>
+  <div class="cards">
+    <section class="card">
+      <h2>Assets</h2>
+      <p>Inspect GT, template.svg, SVG icon snippets, raster-required crops, and final filled.svg.</p>
+      <button onclick="showPage('asset_gallery.html', document.querySelectorAll('.tabs button')[1])">Open</button>
+    </section>
+    <section class="card">
+      <h2>Result Compare</h2>
+      <p>Compare GT, template_filled, GPT-5.5 direct output, and AutoFigure edit output by difficulty.</p>
+      <button onclick="showPage('gallery.html', document.querySelectorAll('.tabs button')[2])">Open</button>
+    </section>
+  </div>
+</main>
+<iframe id="frame"></iframe>
+<script>
+function activate(btn) {
+  document.querySelectorAll('.tabs button').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+}
+function showGuide(btn) {
+  activate(btn);
+  document.getElementById('guide').style.display = 'block';
+  document.getElementById('frame').style.display = 'none';
+}
+function showPage(src, btn) {
+  activate(btn);
+  document.getElementById('guide').style.display = 'none';
+  const frame = document.getElementById('frame');
+  frame.src = `${src}?v=${Date.now()}`;
+  frame.style.display = 'block';
+}
+</script>
 </body>
 </html>

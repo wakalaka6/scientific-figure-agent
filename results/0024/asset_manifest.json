@@ -1,0 +1,146 @@
+[
+  {
+    "slot_id": "slot_question_icon",
+    "filename": "assets/svg_candidate/slot_question_icon.png",
+    "canonical_slot_id": "slot_question_icon",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "question_icon",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      9,
+      56,
+      67,
+      68
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "question mark task icon"
+  },
+  {
+    "slot_id": "slot_policy_model_icon",
+    "filename": "assets/svg_candidate/slot_policy_model_icon.png",
+    "canonical_slot_id": "slot_policy_model_icon",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "policy_model_icon",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      434,
+      151,
+      135,
+      111
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "policy model neural network diagram icon"
+  },
+  {
+    "slot_id": "slot_code_icon_top",
+    "filename": "assets/svg_candidate/slot_code_icon_top.png",
+    "canonical_slot_id": "slot_code_icon_top",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "code_file_icon",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      596,
+      49,
+      54,
+      67
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "code file icon"
+  },
+  {
+    "slot_id": "slot_advantage_icon",
+    "filename": "assets/svg_candidate/slot_advantage_icon.png",
+    "canonical_slot_id": "slot_advantage_icon",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "advantage_icon",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      1288,
+      88,
+      121,
+      122
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "advantage bars with stars and crown icon"
+  },
+  {
+    "slot_id": "slot_info_icon_test_1",
+    "filename": "assets/svg_candidate/slot_info_icon_test_1.png",
+    "canonical_slot_id": "slot_info_icon_test_1",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "info_icon",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      922,
+      489,
+      41,
+      41
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "information icon for unit test"
+  },
+  {
+    "slot_id": "slot_info_icon_test_2",
+    "filename": "assets/svg_candidate/slot_info_icon_test_2.png",
+    "canonical_slot_id": "slot_info_icon_test_2",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "info_icon",
+    "vlm_duplicate_of": "info_icon",
+    "bbox_xywh": [
+      922,
+      544,
+      41,
+      41
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "information icon for unit test"
+  },
+  {
+    "slot_id": "slot_info_icon_test_n",
+    "filename": "assets/svg_candidate/slot_info_icon_test_n.png",
+    "canonical_slot_id": "slot_info_icon_test_n",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "info_icon",
+    "vlm_duplicate_of": "info_icon",
+    "bbox_xywh": [
+      922,
+      625,
+      41,
+      41
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "information icon for unit test"
+  },
+  {
+    "slot_id": "slot_code_icon_unit",
+    "filename": "assets/svg_candidate/slot_code_icon_unit.png",
+    "canonical_slot_id": "slot_code_icon_unit",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "code_file_icon",
+    "vlm_duplicate_of": "code_file_icon",
+    "bbox_xywh": [
+      1302,
+      501,
+      88,
+      108
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "code file icon"
+  }
+]

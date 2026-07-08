@@ -1,0 +1,331 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1948" height="923" viewBox="0 0 1948 923">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#000"/>
+    </marker>
+
+    <filter id="grain" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="7" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0.08  0 0 0 0 0.08  0 0 0 0 0.08  0 0 0 1.8 0"/>
+    </filter>
+
+    <filter id="fineDots" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="1.25" numOctaves="1" seed="21" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0.9  0 0 0 0 0.9  0 0 0 0 0.9  0 0 0 3.4 -1.15"/>
+    </filter>
+
+    <filter id="heatNoise" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.022" numOctaves="4" seed="12" result="t"/>
+      <feDisplacementMap in="SourceGraphic" in2="t" scale="18"/>
+    </filter>
+
+    <linearGradient id="photoBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070707"/>
+      <stop offset="0.48" stop-color="#1a1a1a"/>
+      <stop offset="1" stop-color="#e8e8e8"/>
+    </linearGradient>
+
+    <linearGradient id="energyBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4f4f4"/>
+      <stop offset="0.52" stop-color="#131313"/>
+      <stop offset="1" stop-color="#fafafa"/>
+    </linearGradient>
+
+    <radialGradient id="lens" cx="43%" cy="62%" r="42%">
+      <stop offset="0" stop-color="#f2f2f2"/>
+      <stop offset="0.35" stop-color="#9a9a9a"/>
+      <stop offset="0.7" stop-color="#161616"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+
+    <linearGradient id="heat" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#0400a8"/>
+      <stop offset="0.18" stop-color="#005dff"/>
+      <stop offset="0.35" stop-color="#00c9ff"/>
+      <stop offset="0.52" stop-color="#4ff15a"/>
+      <stop offset="0.68" stop-color="#fff23a"/>
+      <stop offset="0.84" stop-color="#ff8a00"/>
+      <stop offset="1" stop-color="#c80000"/>
+    </linearGradient>
+
+    <linearGradient id="disp" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0017b8"/>
+      <stop offset="0.34" stop-color="#00a8ff"/>
+      <stop offset="0.68" stop-color="#6ef05c"/>
+      <stop offset="0.9" stop-color="#ffe200"/>
+      <stop offset="1" stop-color="#ff1000"/>
+    </linearGradient>
+
+    <clipPath id="photoClip"><rect x="0" y="0" width="276" height="190"/></clipPath>
+    <clipPath id="heatClip"><rect x="0" y="0" width="248" height="171"/></clipPath>
+    <clipPath id="dispClip"><rect x="0" y="0" width="293" height="202"/></clipPath>
+
+    <style>
+      text { font-family: "Times New Roman", Times, serif; fill:#000; }
+      .label { font-size: 36px; }
+      .smallLabel { font-size: 34px; }
+      .featureLabel { font-size: 39px; font-style: italic; font-weight: 700; }
+      .boxText { font-size: 39px; }
+      .costText { font-size: 48px; }
+      .arrowLine { stroke:#000; stroke-width:4.2; fill:none; marker-end:url(#arrow); }
+      .plainLine { stroke:#000; stroke-width:4.2; fill:none; }
+    </style>
+  </defs>
+
+  <!-- Captured event frame stack -->
+  <g transform="translate(28 38)">
+    <g transform="translate(66 0)" opacity="0.75">
+      <rect width="276" height="190" fill="url(#photoBg)"/>
+      <rect width="276" height="190" filter="url(#grain)" opacity="0.95"/>
+      <path d="M-20 112 C55 58 106 78 151 121 C188 156 240 150 296 136" stroke="#070707" stroke-width="28" fill="none"/>
+      <ellipse cx="174" cy="83" rx="58" ry="42" fill="#0a0a0a"/>
+      <circle cx="64" cy="110" r="53" fill="url(#lens)"/>
+    </g>
+    <g transform="translate(33 22)" opacity="0.88">
+      <rect width="276" height="190" fill="url(#photoBg)"/>
+      <rect width="276" height="190" filter="url(#grain)" opacity="0.9"/>
+      <path d="M-13 100 C54 63 105 78 154 119 C190 148 238 147 292 132" stroke="#050505" stroke-width="28" fill="none"/>
+      <ellipse cx="176" cy="84" rx="61" ry="44" fill="#050505"/>
+      <circle cx="66" cy="111" r="52" fill="url(#lens)"/>
+      <circle cx="125" cy="138" r="34" fill="#e7e7e7" opacity="0.8"/>
+    </g>
+    <g transform="translate(0 43)">
+      <rect width="276" height="190" fill="url(#photoBg)"/>
+      <rect width="276" height="190" filter="url(#grain)" opacity="0.95"/>
+      <path d="M-15 92 C51 56 112 73 156 114 C195 151 241 144 292 130" stroke="#040404" stroke-width="27" fill="none"/>
+      <ellipse cx="179" cy="82" rx="62" ry="45" fill="#040404"/>
+      <circle cx="68" cy="111" r="53" fill="url(#lens)"/>
+      <circle cx="126" cy="137" r="34" fill="#eeeeee" opacity="0.82"/>
+      <path d="M254 45 l58 101" stroke="#000" stroke-width="8"/>
+    </g>
+  </g>
+  <text class="label" x="142" y="302" text-anchor="middle">Captured Event Frames</text>
+
+  <!-- top feature extraction -->
+  <line class="arrowLine" x1="383" y1="178" x2="435" y2="178"/>
+  <g fill="#b7c9e7">
+    <rect x="449" y="72" width="38" height="201"/>
+    <rect x="518" y="98" width="35" height="141"/>
+    <rect x="582" y="72" width="39" height="201"/>
+  </g>
+  <text class="label" x="536" y="316" text-anchor="middle">Feature Extraction</text>
+  <line class="arrowLine" x1="624" y1="166" x2="845" y2="166"/>
+
+  <!-- left feature volume -->
+  <g>
+    <g transform="translate(973 49)">
+      <polygon points="0,0 123,0 106,16 -16,16" fill="#d0a424" stroke="#000" stroke-width="3"/>
+      <polygon points="123,0 123,121 106,138 106,16" fill="#a68409" stroke="#000" stroke-width="3"/>
+      <rect x="-16" y="16" width="122" height="122" fill="#f8d05a" stroke="#000" stroke-width="3"/>
+    </g>
+    <g transform="translate(956 63)">
+      <polygon points="0,0 123,0 106,16 -16,16" fill="#ffd95e" stroke="#000" stroke-width="3"/>
+      <polygon points="123,0 123,121 106,138 106,16" fill="#cda82b" stroke="#000" stroke-width="3"/>
+      <rect x="-16" y="16" width="122" height="122" fill="#ffe38b" stroke="#000" stroke-width="3"/>
+    </g>
+    <g transform="translate(939 78)">
+      <polygon points="0,0 123,0 106,16 -16,16" fill="#ffe174" stroke="#000" stroke-width="3"/>
+      <polygon points="123,0 123,121 106,138 106,16" fill="#d6b344" stroke="#000" stroke-width="3"/>
+      <rect x="-16" y="16" width="122" height="122" fill="#ffeba0" stroke="#000" stroke-width="3"/>
+    </g>
+    <g transform="translate(922 93)">
+      <polygon points="0,0 123,0 106,16 -16,16" fill="#ffe99a" stroke="#000" stroke-width="3"/>
+      <polygon points="123,0 123,121 106,138 106,16" fill="#ddbd55" stroke="#000" stroke-width="3"/>
+      <rect x="-16" y="16" width="122" height="122" fill="#ffeba4" stroke="#000" stroke-width="3"/>
+    </g>
+    <g transform="translate(905 120)">
+      <rect width="123" height="123" fill="#ffe99e" stroke="#000" stroke-width="3"/>
+    </g>
+  </g>
+  <text class="featureLabel" x="905" y="45" text-anchor="middle">F<tspan baseline-shift="-35%" font-size="27">L2</tspan></text>
+  <text class="featureLabel" x="875" y="87" text-anchor="middle">F<tspan baseline-shift="-35%" font-size="27">L1</tspan></text>
+  <text class="featureLabel" x="846" y="130" text-anchor="middle">F<tspan baseline-shift="-35%" font-size="27">L0</tspan></text>
+  <text class="label" x="965" y="278" text-anchor="middle">Left Features</text>
+
+  <!-- energy map stack -->
+  <line class="arrowLine" x1="193" y1="308" x2="193" y2="339"/>
+  <g transform="translate(28 348)">
+    <g transform="translate(66 0)" opacity="0.6">
+      <rect width="276" height="190" fill="url(#energyBg)"/>
+      <rect width="276" height="190" filter="url(#grain)" opacity="0.35"/>
+      <ellipse cx="180" cy="83" rx="66" ry="44" fill="#070707"/>
+      <circle cx="68" cy="110" r="54" fill="#151515"/>
+      <circle cx="124" cy="136" r="34" fill="#ededed" opacity="0.8"/>
+      <path d="M253 47 l58 100" stroke="#000" stroke-width="8"/>
+    </g>
+    <g transform="translate(33 24)" opacity="0.78">
+      <rect width="276" height="190" fill="url(#energyBg)"/>
+      <rect width="276" height="190" filter="url(#grain)" opacity="0.35"/>
+      <ellipse cx="180" cy="82" rx="65" ry="45" fill="#060606"/>
+      <circle cx="68" cy="110" r="54" fill="#111"/>
+      <circle cx="124" cy="136" r="34" fill="#ececec" opacity="0.85"/>
+      <path d="M253 47 l58 100" stroke="#000" stroke-width="8"/>
+    </g>
+    <g transform="translate(0 50)">
+      <rect width="276" height="190" fill="url(#energyBg)"/>
+      <rect width="276" height="190" filter="url(#grain)" opacity="0.32"/>
+      <ellipse cx="181" cy="81" rx="66" ry="45" fill="#050505"/>
+      <circle cx="68" cy="111" r="54" fill="#0b0b0b"/>
+      <circle cx="124" cy="136" r="35" fill="#eeeeee" opacity="0.85"/>
+      <path d="M253 47 l58 100" stroke="#000" stroke-width="8"/>
+    </g>
+  </g>
+  <text class="label" x="183" y="618" text-anchor="middle">Energy Map</text>
+
+  <!-- middle feature extraction and confidence estimation -->
+  <line class="arrowLine" x1="385" y1="462" x2="436" y2="462"/>
+  <g fill="#c2dfb2">
+    <rect x="449" y="360" width="38" height="201"/>
+    <rect x="518" y="385" width="35" height="141"/>
+    <rect x="583" y="360" width="39" height="201"/>
+  </g>
+  <text class="label" x="536" y="608" text-anchor="middle">Feature Extraction</text>
+  <line class="arrowLine" x1="628" y1="466" x2="679" y2="466"/>
+
+  <rect x="681" y="363" width="264" height="206" rx="33" ry="33" fill="#a9d18e"/>
+  <text class="boxText" x="813" y="415" text-anchor="middle">
+    <tspan x="813" dy="0">Energy-</tspan>
+    <tspan x="813" dy="43">guided</tspan>
+    <tspan x="813" dy="43">Confidence</tspan>
+    <tspan x="813" dy="43">Estimation</tspan>
+  </text>
+
+  <!-- connector from left features down to confidence estimation -->
+  <path class="arrowLine" d="M 974 283 L 974 321 L 813 321 L 813 361"/>
+
+  <!-- confidence maps -->
+  <line class="arrowLine" x1="943" y1="466" x2="1002" y2="466"/>
+  <g transform="translate(1008 335)">
+    <g transform="translate(44 0)" opacity="0.92">
+      <rect width="253" height="169" fill="url(#heat)" filter="url(#heatNoise)"/>
+      <rect width="253" height="169" filter="url(#grain)" opacity="0.25"/>
+      <circle cx="82" cy="96" r="35" fill="#e7de44" opacity="0.55"/>
+      <path d="M122 142 C180 126 218 95 253 62" stroke="#5aff6b" stroke-width="16" fill="none" opacity="0.45"/>
+    </g>
+    <g transform="translate(22 22)" opacity="0.96">
+      <rect width="253" height="169" fill="url(#heat)" filter="url(#heatNoise)"/>
+      <rect width="253" height="169" filter="url(#grain)" opacity="0.22"/>
+      <circle cx="82" cy="96" r="35" fill="#ddeb3b" opacity="0.55"/>
+      <path d="M122 142 C180 126 218 95 253 62" stroke="#69ff75" stroke-width="16" fill="none" opacity="0.45"/>
+    </g>
+    <g transform="translate(0 44)">
+      <rect width="248" height="171" fill="url(#heat)" filter="url(#heatNoise)"/>
+      <rect width="248" height="171" filter="url(#grain)" opacity="0.22"/>
+      <circle cx="80" cy="98" r="35" fill="#e7de44" opacity="0.62"/>
+      <circle cx="124" cy="124" r="35" fill="#66f4e4" opacity="0.55"/>
+      <path d="M118 145 C172 134 209 101 247 66" stroke="#6aff79" stroke-width="15" fill="none" opacity="0.5"/>
+      <path d="M32 54 C74 38 115 38 155 58" stroke="#0038d5" stroke-width="18" fill="none" opacity="0.4"/>
+    </g>
+  </g>
+  <text class="label" x="1148" y="587" text-anchor="middle">Confidence Maps</text>
+  <line class="arrowLine" x1="1314" y1="458" x2="1355" y2="458"/>
+
+  <!-- reference frames stack -->
+  <g transform="translate(28 637)">
+    <g transform="translate(66 0)" opacity="0.95">
+      <rect width="276" height="190" fill="#050505"/>
+      <rect width="276" height="190" filter="url(#fineDots)" opacity="0.85"/>
+    </g>
+    <g transform="translate(33 27)" opacity="0.95">
+      <rect width="276" height="190" fill="#050505"/>
+      <rect width="276" height="190" filter="url(#fineDots)" opacity="0.85"/>
+    </g>
+    <g transform="translate(0 53)">
+      <rect width="276" height="190" fill="#050505"/>
+      <rect width="276" height="190" filter="url(#fineDots)" opacity="0.9"/>
+    </g>
+  </g>
+  <text class="label" x="184" y="918" text-anchor="middle">Reference Frames</text>
+
+  <!-- bottom feature extraction -->
+  <line class="arrowLine" x1="383" y1="749" x2="438" y2="749"/>
+  <g fill="#b7c9e7">
+    <rect x="452" y="646" width="38" height="201"/>
+    <rect x="521" y="671" width="35" height="141"/>
+    <rect x="586" y="646" width="39" height="201"/>
+  </g>
+  <text class="label" x="537" y="899" text-anchor="middle">Feature Extraction</text>
+  <line class="arrowLine" x1="635" y1="752" x2="857" y2="752"/>
+
+  <!-- right feature volume -->
+  <g>
+    <g transform="translate(967 656)">
+      <polygon points="0,0 123,0 106,16 -16,16" fill="#f3d883" stroke="#000" stroke-width="3"/>
+      <polygon points="123,0 123,121 106,138 106,16" fill="#b59a4e" stroke="#000" stroke-width="3"/>
+      <rect x="-16" y="16" width="122" height="122" fill="#ffe9a2" stroke="#000" stroke-width="3"/>
+    </g>
+    <g transform="translate(950 670)">
+      <polygon points="0,0 123,0 106,16 -16,16" fill="#ffe59a" stroke="#000" stroke-width="3"/>
+      <polygon points="123,0 123,121 106,138 106,16" fill="#c9a952" stroke="#000" stroke-width="3"/>
+      <rect x="-16" y="16" width="122" height="122" fill="#ffeba6" stroke="#000" stroke-width="3"/>
+    </g>
+    <g transform="translate(933 685)">
+      <polygon points="0,0 123,0 106,16 -16,16" fill="#ffe898" stroke="#000" stroke-width="3"/>
+      <polygon points="123,0 123,121 106,138 106,16" fill="#d0b05b" stroke="#000" stroke-width="3"/>
+      <rect x="-16" y="16" width="122" height="122" fill="#ffeca8" stroke="#000" stroke-width="3"/>
+    </g>
+    <g transform="translate(916 700)">
+      <polygon points="0,0 123,0 106,16 -16,16" fill="#ffeb9e" stroke="#000" stroke-width="3"/>
+      <polygon points="123,0 123,121 106,138 106,16" fill="#d8b963" stroke="#000" stroke-width="3"/>
+      <rect x="-16" y="16" width="122" height="122" fill="#ffeda9" stroke="#000" stroke-width="3"/>
+    </g>
+    <rect x="895" y="728" width="133" height="123" fill="#ffe9a0" stroke="#000" stroke-width="3"/>
+  </g>
+  <text class="featureLabel" x="905" y="648" text-anchor="middle">F<tspan baseline-shift="-35%" font-size="27">R2</tspan></text>
+  <text class="featureLabel" x="877" y="690" text-anchor="middle">F<tspan baseline-shift="-35%" font-size="27">R1</tspan></text>
+  <text class="featureLabel" x="847" y="729" text-anchor="middle">F<tspan baseline-shift="-35%" font-size="27">R0</tspan></text>
+  <text class="label" x="975" y="896" text-anchor="middle">Right Features</text>
+
+  <!-- confidence propagation volume construction -->
+  <rect x="1356" y="355" width="243" height="204" rx="32" ry="32" fill="#f4b183"/>
+  <text class="boxText" x="1478" y="411" text-anchor="middle">
+    <tspan x="1478" dy="0">Confidence</tspan>
+    <tspan x="1478" dy="41">Propagation</tspan>
+    <tspan x="1478" dy="41">Volume</tspan>
+    <tspan x="1478" dy="41">Construction</tspan>
+  </text>
+
+  <!-- paths into confidence propagation -->
+  <path class="arrowLine" d="M 1162 159 L 1479 159 L 1479 354"/>
+  <path class="arrowLine" d="M 1158 752 L 1478 752 L 1478 560"/>
+
+  <!-- path to cost volume -->
+  <path class="arrowLine" d="M 1598 458 L 1616 458 L 1616 153 L 1651 153"/>
+
+  <!-- Cost volume cube -->
+  <g>
+    <polygon points="1654,107 1697,63 1907,63 1864,107" fill="#f7be91"/>
+    <polygon points="1864,107 1907,63 1907,193 1864,238" fill="#c58a5e"/>
+    <rect x="1654" y="107" width="210" height="131" fill="#f4ad7a"/>
+    <text class="costText" x="1760" y="161" text-anchor="middle">Cost</text>
+    <text class="costText" x="1760" y="216" text-anchor="middle">Volume</text>
+  </g>
+
+  <line class="arrowLine" x1="1779" y1="261" x2="1779" y2="333"/>
+
+  <!-- cost aggregation box -->
+  <rect x="1659" y="355" width="258" height="199" rx="29" ry="29" fill="#8da2c8"/>
+  <text class="costText" x="1788" y="444" text-anchor="middle">Cost</text>
+  <text class="costText" x="1788" y="491" text-anchor="middle">Aggregation</text>
+
+  <line class="arrowLine" x1="1783" y1="572" x2="1783" y2="639"/>
+
+  <!-- disparity image -->
+  <g transform="translate(1636 653)" clip-path="url(#dispClip)">
+    <rect width="293" height="202" fill="url(#disp)"/>
+    <rect y="183" width="293" height="19" fill="#ff2600"/>
+    <rect y="171" width="293" height="14" fill="#ffe400"/>
+    <path d="M0 151 C56 148 86 147 136 150 C182 154 223 151 293 148 L293 183 L0 183 Z" fill="#89f64a" opacity="0.92"/>
+    <circle cx="98" cy="71" r="57" fill="#00a9ff" opacity="0.75"/>
+    <circle cx="132" cy="132" r="38" fill="#8eff3e" opacity="0.95"/>
+    <path d="M150 132 C194 118 225 92 250 65 L263 77 C235 111 207 138 161 151 Z" fill="#81ff48" opacity="0.82"/>
+    <path d="M214 160 L257 82" stroke="#7cff43" stroke-width="8"/>
+    <path d="M255 45 L255 135" stroke="#68ff4c" stroke-width="14" stroke-linecap="round"/>
+    <path d="M240 84 C257 76 268 80 279 89" stroke="#70ff42" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <circle cx="197" cy="56" r="14" fill="#12caff" opacity="0.8"/>
+    <path d="M24 75 C63 35 111 25 165 38" stroke="#00cfff" stroke-width="13" fill="none" opacity="0.68"/>
+    <ellipse cx="207" cy="80" rx="42" ry="38" fill="#00b8ff" opacity="0.43"/>
+    <rect width="293" height="202" filter="url(#heatNoise)" opacity="0.13"/>
+  </g>
+  <text class="label" x="1782" y="900" text-anchor="middle">Disparity</text>
+</svg>

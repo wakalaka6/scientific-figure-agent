@@ -1,0 +1,241 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 1800" width="3840" height="1800">
+  <defs>
+    <style>
+      .bg-green { fill: #e0f2d8; }
+      .bg-red { fill: #ffcccc; }
+      .bg-red-dark { fill: #ff8888; }
+      .bg-blue { fill: #dae3f3; }
+      .bg-orange { fill: #fce4d6; }
+      .bg-gray-light { fill: #eaeaea; }
+      .bg-gray-mid { fill: #d0d0d0; }
+      .bg-gray-dark { fill: #666666; }
+      .bg-orange-light { fill: #fce4d6; }
+      .bg-orange-mid { fill: #f4b183; }
+      .bg-orange-dark { fill: #c55a11; }
+      .bg-orange-darker { fill: #833c0c; }
+      .bg-pink { fill: #ffe5e5; }
+      
+      .stroke-blue { stroke: #4472c4; stroke-width: 6; fill: none; }
+      .stroke-black { stroke: #000000; stroke-width: 4; fill: none; }
+      .stroke-black-dashed { stroke: #000000; stroke-width: 6; stroke-dasharray: 20, 10; fill: none; }
+      
+      .text-black { fill: #000000; font-family: 'Times New Roman', Times, serif; font-size: 80px; }
+      .text-black-bold { fill: #000000; font-family: 'Times New Roman', Times, serif; font-size: 80px; font-weight: bold; }
+      .text-black-small { fill: #000000; font-family: 'Times New Roman', Times, serif; font-size: 60px; }
+      .text-black-italic { fill: #000000; font-family: 'Times New Roman', Times, serif; font-size: 80px; font-style: italic; }
+      
+      .arrow-blue { fill: #4472c4; }
+      
+      .token-box { stroke: #4472c4; stroke-width: 6; rx: 20; ry: 20; }
+      .token-box-rect { stroke: #000000; stroke-width: 4; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <polygon points="0,0 10,5 0,10" class="arrow-blue" />
+    </marker>
+  </defs>
+
+  <!-- Left Side: Network Architecture -->
+  
+  <!-- Language Model Box -->
+  <rect x="50" y="50" width="2230" height="150" rx="20" ry="20" class="bg-green" />
+  <text x="100" y="150" class="text-black">Language Model <tspan class="text-black-italic">f</tspan><tspan dy="20" font-size="60">ϕ</tspan></text>
+  
+  <!-- Text Tokens (H_q) -->
+  <text x="60" y="420" class="text-black-bold text-black-italic">H<tspan dy="20" font-size="60">q</tspan></text>
+  <rect x="200" y="320" width="150" height="150" class="bg-gray-mid token-box" />
+  <rect x="540" y="320" width="150" height="150" class="bg-gray-mid token-box" />
+  <rect x="880" y="320" width="150" height="150" class="bg-gray-mid token-box" />
+  
+  <!-- Visual Tokens (H_v*) -->
+  <text x="1250" y="420" class="text-black-bold text-black-italic">H<tspan dy="-30" font-size="60">*</tspan><tspan dy="50" font-size="60">v</tspan></text>
+  <rect x="1400" y="320" width="150" height="150" class="bg-orange-light token-box" />
+  <rect x="1740" y="320" width="150" height="150" class="bg-orange-light token-box" />
+  <rect x="2080" y="320" width="150" height="150" class="bg-orange-light token-box" />
+  
+  <!-- Tokenizer -->
+  <rect x="100" y="600" width="1000" height="150" rx="20" ry="20" class="bg-gray-light" />
+  <text x="400" y="700" class="text-black">Tokenizer</text>
+  
+  <!-- CDPruner -->
+  <rect x="1310" y="600" width="1000" height="150" rx="20" ry="20" class="bg-red stroke-black" />
+  <text x="1580" y="700" class="text-black-bold">CDPruner</text>
+  
+  <!-- Visual Tokens (H_v) -->
+  <text x="1150" y="930" class="text-black-bold text-black-italic">H<tspan dy="20" font-size="60">v</tspan></text>
+  <rect x="1310" y="830" width="140" height="140" class="bg-orange-light token-box" />
+  <rect x="1480" y="830" width="140" height="140" class="bg-orange-light token-box" />
+  <rect x="1650" y="830" width="140" height="140" class="bg-orange-light token-box" />
+  <rect x="1820" y="830" width="140" height="140" class="bg-orange-light token-box" />
+  <rect x="1990" y="830" width="140" height="140" class="bg-orange-light token-box" />
+  <rect x="2160" y="830" width="140" height="140" class="bg-orange-light token-box" />
+  
+  <!-- Projector g -->
+  <rect x="1310" y="1080" width="1000" height="130" rx="20" ry="20" class="bg-orange" />
+  <text x="1570" y="1170" class="text-black">Projector <tspan class="text-black-italic">g</tspan></text>
+  
+  <!-- Vision Encoder f_v -->
+  <rect x="1310" y="1280" width="1000" height="130" rx="20" ry="20" class="bg-blue" />
+  <text x="1450" y="1370" class="text-black">Vision Encoder <tspan class="text-black-italic">f</tspan><tspan dy="20" font-size="60">v</tspan></text>
+  
+  <!-- Inputs -->
+  <text x="100" y="930" class="text-black">Language Instruction <tspan class="text-black-bold text-black-italic">X</tspan><tspan dy="20" font-weight="bold" font-size="60">q</tspan></text>
+  <text x="1500" y="1650" class="text-black">Input Image <tspan class="text-black-bold text-black-italic">X</tspan><tspan dy="20" font-weight="bold" font-size="60">v</tspan></text>
+  
+  <!-- Arrows -->
+  <line x1="615" y1="840" x2="615" y2="780" class="stroke-blue" marker-end="url(#arrowhead)" />
+  <line x1="615" y1="600" x2="615" y2="500" class="stroke-blue" marker-end="url(#arrowhead)" />
+  <line x1="615" y1="320" x2="615" y2="230" class="stroke-blue" marker-end="url(#arrowhead)" />
+  
+  <line x1="1810" y1="1540" x2="1810" y2="1440" class="stroke-blue" marker-end="url(#arrowhead)" />
+  <line x1="1810" y1="1280" x2="1810" y2="1240" class="stroke-blue" marker-end="url(#arrowhead)" />
+  <line x1="1810" y1="1080" x2="1810" y2="1000" class="stroke-blue" marker-end="url(#arrowhead)" />
+  <line x1="1810" y1="830" x2="1810" y2="780" class="stroke-blue" marker-end="url(#arrowhead)" />
+  <line x1="1810" y1="600" x2="1810" y2="500" class="stroke-blue" marker-end="url(#arrowhead)" />
+  <line x1="1810" y1="320" x2="1810" y2="230" class="stroke-blue" marker-end="url(#arrowhead)" />
+  
+  <polyline points="1030,400 1150,400 1150,675 1280,675" class="stroke-blue" marker-end="url(#arrowhead)" />
+
+  <!-- Legend -->
+  <rect x="50" y="1100" width="1100" height="650" class="stroke-blue" style="stroke-width: 8;" />
+  
+  <rect x="100" y="1150" width="100" height="100" class="bg-orange-light token-box" />
+  <rect x="210" y="1150" width="100" height="100" class="bg-orange-light token-box" />
+  <rect x="320" y="1150" width="100" height="100" class="bg-orange-light token-box" />
+  <text x="460" y="1225" class="text-black-small">Visual Tokens</text>
+  
+  <rect x="100" y="1300" width="100" height="100" class="bg-gray-mid token-box" />
+  <rect x="210" y="1300" width="100" height="100" class="bg-gray-mid token-box" />
+  <rect x="320" y="1300" width="100" height="100" class="bg-gray-mid token-box" />
+  <text x="460" y="1375" class="text-black-small">Text Tokens</text>
+  
+  <rect x="100" y="1450" width="100" height="100" class="bg-orange-dark token-box-rect" />
+  <rect x="200" y="1450" width="100" height="100" class="bg-orange-mid token-box-rect" />
+  <rect x="300" y="1450" width="100" height="100" class="bg-orange-light token-box-rect" />
+  <text x="460" y="1525" class="text-black-small">Feature Similarity</text>
+  
+  <rect x="100" y="1600" width="100" height="100" class="bg-gray-dark token-box-rect" />
+  <rect x="200" y="1600" width="100" height="100" class="bg-gray-mid token-box-rect" />
+  <rect x="300" y="1600" width="100" height="100" class="bg-gray-light token-box-rect" />
+  <text x="460" y="1675" class="text-black-small">Query Relevance</text>
+
+
+  <!-- Right Side: CDPruner Detail -->
+  
+  <!-- Connecting Dashed Lines -->
+  <line x1="2310" y1="600" x2="2500" y2="50" class="stroke-black-dashed" />
+  <line x1="2310" y1="750" x2="2500" y2="1750" class="stroke-black-dashed" />
+  
+  <!-- Main CDPruner Box -->
+  <rect x="2500" y="50" width="1300" height="1700" rx="40" ry="40" class="bg-pink stroke-black" />
+  
+  <!-- CDPruner Vertical Text -->
+  <g transform="translate(3650, 400) rotate(90)">
+    <text x="0" y="0" class="text-black-bold">CDPruner</text>
+  </g>
+  <circle cx="3610" cy="150" r="40" class="stroke-black" style="fill: #d0d0d0;" />
+  <circle cx="3610" cy="150" r="10" class="stroke-black" style="fill: #ffffff;" />
+  <line x1="3570" y1="150" x2="3650" y2="150" class="stroke-black" style="stroke-width: 2;" />
+  
+  <!-- S* Row -->
+  <text x="2530" y="220" class="text-black-bold text-black-italic">S<tspan dy="-30" font-size="60">*</tspan></text>
+  <rect x="2640" y="130" width="140" height="120" class="bg-orange-mid token-box-rect" />
+  <text x="2690" y="210" class="text-black-bold">1</text>
+  <rect x="2780" y="130" width="140" height="120" class="bg-gray-light token-box-rect" />
+  <text x="2825" y="210" class="text-black-bold" style="fill: #888888;">×</text>
+  <rect x="2920" y="130" width="140" height="120" class="bg-orange-mid token-box-rect" />
+  <text x="2970" y="210" class="text-black-bold">3</text>
+  <rect x="3060" y="130" width="140" height="120" class="bg-orange-mid token-box-rect" />
+  <text x="3110" y="210" class="text-black-bold">4</text>
+  <rect x="3200" y="130" width="140" height="120" class="bg-gray-light token-box-rect" />
+  <text x="3245" y="210" class="text-black-bold" style="fill: #888888;">×</text>
+  <rect x="3340" y="130" width="140" height="120" class="bg-gray-light token-box-rect" />
+  <text x="3385" y="210" class="text-black-bold" style="fill: #888888;">×</text>
+  
+  <!-- DPP Box -->
+  <rect x="2640" y="320" width="840" height="150" rx="20" ry="20" class="bg-red-dark stroke-black" />
+  <text x="2970" y="420" class="text-black">DPP</text>
+  
+  <line x1="3060" y1="490" x2="3060" y2="470" class="stroke-blue" marker-end="url(#arrowhead)" />
+  <line x1="3060" y1="320" x2="3060" y2="280" class="stroke-blue" marker-end="url(#arrowhead)" />
+  
+  <!-- r Row -->
+  <text x="2540" y="650" class="text-black-bold text-black-italic">r</text>
+  <rect x="2640" y="550" width="140" height="140" class="bg-gray-light token-box-rect" />
+  <rect x="2780" y="550" width="140" height="140" class="bg-gray-mid token-box-rect" />
+  <rect x="2920" y="550" width="140" height="140" class="bg-gray-dark token-box-rect" />
+  <rect x="3060" y="550" width="140" height="140" class="bg-gray-dark token-box-rect" />
+  <rect x="3200" y="550" width="140" height="140" class="bg-gray-mid token-box-rect" />
+  <rect x="3340" y="550" width="140" height="140" class="bg-gray-light token-box-rect" />
+  
+  <!-- Cross Symbol -->
+  <g transform="translate(3060, 750)">
+    <line x1="-20" y1="-20" x2="20" y2="20" class="stroke-blue" style="stroke-width: 10;" />
+    <line x1="20" y1="-20" x2="-20" y2="20" class="stroke-blue" style="stroke-width: 10;" />
+  </g>
+  
+  <!-- L Matrix -->
+  <text x="2540" y="1200" class="text-black-bold text-black-italic">L</text>
+  
+  <!-- Row 1 -->
+  <rect x="2640" y="800" width="140" height="140" class="bg-orange-dark token-box-rect" />
+  <rect x="2780" y="800" width="140" height="140" class="bg-orange-mid token-box-rect" />
+  <rect x="2920" y="800" width="140" height="140" class="bg-orange-light token-box-rect" />
+  <rect x="3060" y="800" width="140" height="140" class="bg-orange-light token-box-rect" />
+  <rect x="3200" y="800" width="140" height="140" class="bg-orange-mid token-box-rect" />
+  <rect x="3340" y="800" width="140" height="140" class="bg-orange-dark token-box-rect" />
+  
+  <!-- Row 2 -->
+  <rect x="2640" y="940" width="140" height="140" class="bg-orange-mid token-box-rect" />
+  <rect x="2780" y="940" width="140" height="140" class="bg-orange-darker token-box-rect" />
+  <rect x="2920" y="940" width="140" height="140" class="bg-orange-dark token-box-rect" />
+  <rect x="3060" y="940" width="140" height="140" class="bg-orange-light token-box-rect" />
+  <rect x="3200" y="940" width="140" height="140" class="bg-orange-mid token-box-rect" />
+  <rect x="3340" y="940" width="140" height="140" class="bg-orange-light token-box-rect" />
+  
+  <!-- Row 3 -->
+  <rect x="2640" y="1080" width="140" height="140" class="bg-orange-mid token-box-rect" />
+  <rect x="2780" y="1080" width="140" height="140" class="bg-orange-dark token-box-rect" />
+  <rect x="2920" y="1080" width="140" height="140" class="bg-orange-darker token-box-rect" />
+  <rect x="3060" y="1080" width="140" height="140" class="bg-orange-light token-box-rect" />
+  <rect x="3200" y="1080" width="140" height="140" class="bg-orange-light token-box-rect" />
+  <rect x="3340" y="1080" width="140" height="140" class="bg-orange-light token-box-rect" />
+  
+  <!-- Row 4 -->
+  <rect x="2640" y="1220" width="140" height="140" class="bg-orange-light token-box-rect" />
+  <rect x="2780" y="1220" width="140" height="140" class="bg-orange-light token-box-rect" />
+  <rect x="2920" y="1220" width="140" height="140" class="bg-orange-light token-box-rect" />
+  <rect x="3060" y="1220" width="140" height="140" class="bg-orange-darker token-box-rect" />
+  <rect x="3200" y="1220" width="140" height="140" class="bg-orange-dark token-box-rect" />
+  <rect x="3340" y="1220" width="140" height="140" class="bg-orange-mid token-box-rect" />
+  
+  <!-- Row 5 -->
+  <rect x="2640" y="1360" width="140" height="140" class="bg-orange-mid token-box-rect" />
+  <rect x="2780" y="1360" width="140" height="140" class="bg-orange-light token-box-rect" />
+  <rect x="2920" y="1360" width="140" height="140" class="bg-orange-light token-box-rect" />
+  <rect x="3060" y="1360" width="140" height="140" class="bg-orange-dark token-box-rect" />
+  <rect x="3200" y="1360" width="140" height="140" class="bg-orange-darker token-box-rect" />
+  <rect x="3340" y="1360" width="140" height="140" class="bg-orange-mid token-box-rect" />
+  
+  <!-- Row 6 -->
+  <rect x="2640" y="1500" width="140" height="140" class="bg-orange-dark token-box-rect" />
+  <rect x="2780" y="1500" width="140" height="140" class="bg-orange-mid token-box-rect" />
+  <rect x="2920" y="1500" width="140" height="140" class="bg-orange-light token-box-rect" />
+  <rect x="3060" y="1500" width="140" height="140" class="bg-orange-mid token-box-rect" />
+  <rect x="3200" y="1500" width="140" height="140" class="bg-orange-mid token-box-rect" />
+  <rect x="3340" y="1500" width="140" height="140" class="bg-orange-darker token-box-rect" />
+  
+  <!-- Cross Symbol -->
+  <g transform="translate(3520, 1180)">
+    <line x1="-20" y1="-20" x2="20" y2="20" class="stroke-blue" style="stroke-width: 10;" />
+    <line x1="20" y1="-20" x2="-20" y2="20" class="stroke-blue" style="stroke-width: 10;" />
+  </g>
+  
+  <!-- Vertical r Column -->
+  <rect x="3570" y="800" width="140" height="140" class="bg-gray-light token-box-rect" />
+  <rect x="3570" y="940" width="140" height="140" class="bg-gray-mid token-box-rect" />
+  <rect x="3570" y="1080" width="140" height="140" class="bg-gray-dark token-box-rect" />
+  <rect x="3570" y="1220" width="140" height="140" class="bg-gray-dark token-box-rect" />
+  <rect x="3570" y="1360" width="140" height="140" class="bg-gray-mid token-box-rect" />
+  <rect x="3570" y="1500" width="140" height="140" class="bg-gray-light token-box-rect" />
+
+</svg>

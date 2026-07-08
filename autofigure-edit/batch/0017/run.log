@@ -1,0 +1,235 @@
+
+============================================================
+Paper Method 到 SVG 图标替换流程 (Label 模式增强版 + Box合并)
+============================================================
+Provider: openrouter
+输出目录: /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram
+输入模式: imported_figure
+导入图片: /app/my-benchmark/medium/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram.jpg
+SVG模型: google/gemini-3.1-pro-preview
+SAM提示词: icon,person,robot,animal
+最低置信度: 0.0
+SAM后端: roboflow
+执行到步骤: 5
+占位符模式: label
+优化迭代次数: 0
+Box合并阈值: 0.01
+4K等比例放大: 开启
+============================================================
+============================================================
+步骤一：跳过生图，使用已有的第一阶段图片
+============================================================
+输入图片: /app/my-benchmark/medium/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram.jpg
+4K等比例放大: 开启
+导入图片已等比例放大到 4K 长边: 1914 x 844 -> 3840 x 1693
+图片已保存: /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/figure.png
+
+============================================================
+步骤二：SAM3 分割 + 灰色填充+黑色边框+序号标记
+============================================================
+原图尺寸: 3840 x 1693
+使用的 prompts: ['icon', 'person', 'robot', 'animal']
+SAM3 Roboflow API 模式: format=polygon
+
+  正在检测: 'icon'
+    对象 1: (3284, 387, 3389, 489), score=0.570
+    对象 2: (2971, 386, 3076, 490), score=0.590
+    对象 3: (1499, 1493, 1549, 1566), score=0.594
+    对象 4: (1799, 753, 1900, 854), score=0.629
+    对象 5: (3418, 387, 3524, 491), score=0.578
+    对象 6: (3521, 1500, 3588, 1565), score=0.543
+    对象 7: (2158, 1399, 2257, 1497), score=0.543
+    对象 8: (3513, 1368, 3587, 1433), score=0.535
+    对象 9: (1247, 207, 1345, 325), score=0.695
+    对象 10: (1217, 1424, 1221, 1437), score=0.527
+    对象 11: (1292, 1399, 1394, 1497), score=0.527
+    对象 12: (2021, 1396, 2121, 1496), score=0.641
+    对象 13: (3609, 1366, 3678, 1433), score=0.508
+    对象 14: (1621, 844, 1720, 943), score=0.504
+    对象 15: (1508, 1358, 1559, 1439), score=0.613
+    对象 16: (1823, 210, 1927, 324), score=0.562
+    对象 17: (1267, 1056, 1396, 1185), score=0.727
+    对象 18: (2724, 790, 2822, 909), score=0.715
+    对象 19: (1352, 902, 1452, 1010), score=0.555
+    对象 20: (3611, 1501, 3677, 1563), score=0.508
+    对象 21: (1673, 1396, 1780, 1501), score=0.555
+    对象 22: (3700, 1500, 3763, 1560), score=0.625
+    对象 23: (3435, 1366, 3499, 1432), score=0.516
+    对象 24: (3699, 1374, 3762, 1434), score=0.633
+    对象 25: (3341, 1500, 3408, 1564), score=0.543
+    对象 26: (2599, 457, 2705, 571), score=0.543
+    对象 27: (3343, 1367, 3408, 1432), score=0.543
+    对象 28: (1298, 1439, 1303, 1465), score=0.621
+    对象 29: (1157, 1395, 1255, 1497), score=0.621
+    对象 30: (3103, 387, 3210, 491), score=0.590
+    对象 31: (3434, 1500, 3499, 1565), score=0.543
+  'icon' 检测到 31 个有效对象
+
+  正在检测: 'person'
+  'person' 检测到 0 个有效对象
+
+  正在检测: 'robot'
+  'robot' 检测到 0 个有效对象
+
+  正在检测: 'animal'
+  'animal' 检测到 0 个有效对象
+
+总计检测: 31 个对象 (来自 4 个 prompts)
+
+  合并重叠的boxes (阈值: 0.01)...
+    迭代 1: 合并 box 9 和 box 28 (重叠比例: 1.00)
+    迭代 2: 合并 box 9 和 box 26 (重叠比例: 1.00)
+  合并完成: 31 -> 29 (合并了 2 个)
+
+  合并后的boxes:
+    <AF>01: (3284, 387, 3389, 489)
+    <AF>02: (2971, 386, 3076, 490)
+    <AF>03: (1499, 1493, 1549, 1566)
+    <AF>04: (1799, 753, 1900, 854)
+    <AF>05: (3418, 387, 3524, 491)
+    <AF>06: (3521, 1500, 3588, 1565)
+    <AF>07: (2158, 1399, 2257, 1497)
+    <AF>08: (3513, 1368, 3587, 1433)
+    <AF>09: (1247, 207, 1345, 325)
+    <AF>10: (2021, 1396, 2121, 1496)
+    <AF>11: (3609, 1366, 3678, 1433)
+    <AF>12: (1621, 844, 1720, 943)
+    <AF>13: (1508, 1358, 1559, 1439)
+    <AF>14: (1823, 210, 1927, 324)
+    <AF>15: (1267, 1056, 1396, 1185)
+    <AF>16: (2724, 790, 2822, 909)
+    <AF>17: (1352, 902, 1452, 1010)
+    <AF>18: (3611, 1501, 3677, 1563)
+    <AF>19: (1673, 1396, 1780, 1501)
+    <AF>20: (3700, 1500, 3763, 1560)
+    <AF>21: (3435, 1366, 3499, 1432)
+    <AF>22: (3699, 1374, 3762, 1434)
+    <AF>23: (3341, 1500, 3408, 1564)
+    <AF>24: (2599, 457, 2705, 571)
+    <AF>25: (3343, 1367, 3408, 1432)
+    <AF>26: (3103, 387, 3210, 491)
+    <AF>27: (3434, 1500, 3499, 1565)
+    <AF>28: (1157, 1395, 1255, 1497)
+    <AF>29: (1292, 1399, 1394, 1497)
+
+  绘制 samed.png (使用 29 个boxes)...
+标记图片已保存: /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/samed.png
+Box 信息已保存: /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/boxlib.json
+
+检测到 29 个图标
+
+============================================================
+步骤三：裁切 + RMBG2 去背景
+============================================================
+从 HuggingFace 加载 RMBG-2.0 模型...
+检测到 HF_TOKEN，使用鉴权访问 gated 模型。
+/usr/local/lib/python3.11/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/usr/local/lib/python3.11/site-packages/timm/models/registry.py:4: FutureWarning: Importing from timm.models.registry is deprecated, please import via timm.models
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.models", FutureWarning)
+  <AF>01: 裁切并去背景完成 -> /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/icons/icon_AF01_nobg.png
+  <AF>02: 裁切并去背景完成 -> /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/icons/icon_AF02_nobg.png
+  <AF>03: 裁切并去背景完成 -> /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/icons/icon_AF03_nobg.png
+  <AF>04: 裁切并去背景完成 -> /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/icons/icon_AF04_nobg.png
+  <AF>05: 裁切并去背景完成 -> /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/icons/icon_AF05_nobg.png
+  <AF>06: 裁切并去背景完成 -> /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/icons/icon_AF06_nobg.png
+  <AF>07: 裁切并去背景完成 -> /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/icons/icon_AF07_nobg.png
+  <AF>08: 裁切并去背景完成 -> /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/icons/icon_AF08_nobg.png
+  <AF>09: 裁切并去背景完成 -> /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/icons/icon_AF09_nobg.png
+  <AF>10: 裁切并去背景完成 -> /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/icons/icon_AF10_nobg.png
+  <AF>11: 裁切并去背景完成 -> /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/icons/icon_AF11_nobg.png
+  <AF>12: 裁切并去背景完成 -> /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/icons/icon_AF12_nobg.png
+  <AF>13: 裁切并去背景完成 -> /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/icons/icon_AF13_nobg.png
+  <AF>14: 裁切并去背景完成 -> /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/icons/icon_AF14_nobg.png
+  <AF>15: 裁切并去背景完成 -> /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/icons/icon_AF15_nobg.png
+  <AF>16: 裁切并去背景完成 -> /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/icons/icon_AF16_nobg.png
+  <AF>17: 裁切并去背景完成 -> /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/icons/icon_AF17_nobg.png
+  <AF>18: 裁切并去背景完成 -> /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/icons/icon_AF18_nobg.png
+  <AF>19: 裁切并去背景完成 -> /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/icons/icon_AF19_nobg.png
+  <AF>20: 裁切并去背景完成 -> /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/icons/icon_AF20_nobg.png
+  <AF>21: 裁切并去背景完成 -> /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/icons/icon_AF21_nobg.png
+  <AF>22: 裁切并去背景完成 -> /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/icons/icon_AF22_nobg.png
+  <AF>23: 裁切并去背景完成 -> /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/icons/icon_AF23_nobg.png
+  <AF>24: 裁切并去背景完成 -> /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/icons/icon_AF24_nobg.png
+  <AF>25: 裁切并去背景完成 -> /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/icons/icon_AF25_nobg.png
+  <AF>26: 裁切并去背景完成 -> /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/icons/icon_AF26_nobg.png
+  <AF>27: 裁切并去背景完成 -> /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/icons/icon_AF27_nobg.png
+  <AF>28: 裁切并去背景完成 -> /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/icons/icon_AF28_nobg.png
+  <AF>29: 裁切并去背景完成 -> /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/icons/icon_AF29_nobg.png
+
+============================================================
+步骤四：多模态调用生成 SVG
+============================================================
+Provider: openrouter
+模型: google/gemini-3.1-pro-preview
+占位符模式: label
+原图尺寸: 3840 x 1693
+发送多模态请求到: https://openrouter.ai/api/v1
+
+--------------------------------------------------
+步骤 4.5：SVG 语法验证（使用 lxml XML 解析器）
+--------------------------------------------------
+  SVG 语法验证通过！
+SVG 模板已保存: /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/template.svg
+
+============================================================
+步骤 4.6：LLM 优化 SVG（位置和样式对齐）
+============================================================
+Provider: openrouter
+模型: google/gemini-3.1-pro-preview
+最大迭代次数: 0
+  迭代次数为 0，跳过 LLM 优化
+  直接复制模板: /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/template.svg -> /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/optimized_template.svg
+
+--------------------------------------------------
+步骤 4.7：坐标系对齐
+--------------------------------------------------
+原图尺寸: 3840 x 1693
+SVG 尺寸: 3840.0 x 1693.0
+尺寸匹配，使用 1:1 坐标映射
+
+============================================================
+步骤五：图标替换到 SVG
+============================================================
+匹配模式: 序号匹配
+  <AF>01: 替换成功 (序号匹配 <g>) at (3350.0, 410.0) size 110.0x100.0
+  <AF>02: 替换成功 (序号匹配 <g>) at (2950.0, 410.0) size 110.0x100.0
+  <AF>03: 替换成功 (序号匹配 <g>) at (1520.0, 1400.0) size 60.0x60.0
+  <AF>04: 替换成功 (序号匹配 <g>) at (1900.0, 770.0) size 80.0x80.0
+  <AF>05: 替换成功 (序号匹配 <g>) at (3500.0, 410.0) size 110.0x100.0
+  <AF>06: 替换成功 (序号匹配 <g>) at (3460.0, 1450.0) size 65.0x70.0
+  <AF>07: 替换成功 (序号匹配 <g>) at (2200.0, 1310.0) size 100.0x100.0
+  <AF>08: 替换成功 (序号匹配 <g>) at (3460.0, 1330.0) size 65.0x70.0
+  <AF>09: 替换成功 (序号匹配 <g>) at (1250.0, 205.0) size 110.0x110.0
+  <AF>10: 替换成功 (序号匹配 <g>) at (2060.0, 1310.0) size 100.0x100.0
+  <AF>11: 替换成功 (序号匹配 <g>) at (3535.0, 1330.0) size 65.0x70.0
+  <AF>12: 替换成功 (序号匹配 <g>) at (1710.0, 910.0) size 80.0x80.0
+  <AF>13: 替换成功 (序号匹配 <g>) at (1520.0, 1250.0) size 60.0x60.0
+  <AF>14: 替换成功 (序号匹配 <g>) at (1830.0, 205.0) size 110.0x110.0
+  <AF>15: 替换成功 (序号匹配 <g>) at (1280.0, 1030.0) size 100.0x100.0
+  <AF>16: 替换成功 (序号匹配 <g>) at (2650.0, 795.0) size 100.0x100.0
+  <AF>17: 替换成功 (序号匹配 <g>) at (1270.0, 900.0) size 80.0x80.0
+  <AF>18: 替换成功 (序号匹配 <g>) at (3535.0, 1450.0) size 65.0x70.0
+  <AF>19: 替换成功 (序号匹配 <g>) at (1720.0, 1310.0) size 100.0x100.0
+  <AF>20: 替换成功 (序号匹配 <g>) at (3660.0, 1450.0) size 65.0x70.0
+  <AF>21: 替换成功 (序号匹配 <g>) at (3355.0, 1330.0) size 65.0x70.0
+  <AF>22: 替换成功 (序号匹配 <g>) at (3660.0, 1330.0) size 65.0x70.0
+  <AF>23: 替换成功 (序号匹配 <g>) at (3280.0, 1450.0) size 65.0x70.0
+  <AF>24: 替换成功 (序号匹配 <g>) at (2580.0, 430.0) size 120.0x100.0
+  <AF>25: 替换成功 (序号匹配 <g>) at (3280.0, 1330.0) size 65.0x70.0
+  <AF>26: 替换成功 (序号匹配 <g>) at (3100.0, 410.0) size 110.0x100.0
+  <AF>27: 替换成功 (序号匹配 <g>) at (3355.0, 1450.0) size 65.0x70.0
+  <AF>28: 替换成功 (序号匹配 <g>) at (1200.0, 1310.0) size 100.0x100.0
+  <AF>29: 替换成功 (序号匹配 <g>) at (1340.0, 1310.0) size 100.0x100.0
+最终 SVG 已保存: /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/final.svg
+
+============================================================
+流程完成！
+============================================================
+原始图片: /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/figure.png
+标记图片: /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/samed.png
+Box信息: /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/boxlib.json
+图标数量: 29
+SVG模板: /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/template.svg
+优化后模板: /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/optimized_template.svg
+最终SVG: /app/outputs/batch/DyFlow Dynamic Workflow Framework for Agentic Reasoning_diagram/final.svg

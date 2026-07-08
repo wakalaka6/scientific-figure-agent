@@ -1,0 +1,13 @@
+svg_candidate: 8
+raster_required: 0
+unique_assets: 8
+duplicate_assets: 0
+
+- slot_question_icon: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_policy_model_icon: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_code_icon_top: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_advantage_icon: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_info_icon_test_1: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_info_icon_test_2: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_info_icon_test_n: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_code_icon_unit: svg_candidate | from first-pass asset detection kind=svg_icon

@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 1658" width="3840" height="1658">
+  <!-- Expert Knowledge Box -->
+  <rect x="60" y="40" width="1300" height="550" rx="40" fill="#e8e8e8" />
+  <text x="710" y="120" font-size="85" font-family="Times New Roman" font-weight="bold" text-anchor="middle" fill="black">Expert Knowledge</text>
+
+  <!-- Drawing Representation -->
+  <rect x="120" y="150" width="480" height="360" fill="#ffffff" stroke="#cccccc" stroke-width="3" />
+  <line x1="150" y1="200" x2="570" y2="200" stroke="#999999" stroke-width="2" />
+  <line x1="150" y1="450" x2="570" y2="450" stroke="#999999" stroke-width="2" />
+  <line x1="200" y1="180" x2="200" y2="470" stroke="#999999" stroke-width="2" />
+  <line x1="520" y1="180" x2="520" y2="470" stroke="#999999" stroke-width="2" />
+  <rect x="250" y="250" width="220" height="150" fill="none" stroke="#666666" stroke-width="4" />
+  <line x1="360" y1="200" x2="360" y2="250" stroke="#999999" stroke-width="2" stroke-dasharray="5,5" />
+  <text x="360" y="560" font-size="60" font-family="Times New Roman" text-anchor="middle" fill="black">Drawing</text>
+
+  <!-- <AF>03 Constraints -->
+  <g id="AF03">
+    <rect x="680" y="200" width="190" height="270" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="775" y="335" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="40" font-family="monospace" font-weight="bold">&lt;AF&gt;03</text>
+  </g>
+  <text x="775" y="560" font-size="55" font-family="Times New Roman" text-anchor="middle" fill="black">Constraints</text>
+
+  <!-- <AF>01 Text -->
+  <g id="AF01">
+    <rect x="1030" y="260" width="180" height="210" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="1120" y="365" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="40" font-family="monospace" font-weight="bold">&lt;AF&gt;01</text>
+  </g>
+  <text x="1120" y="560" font-size="55" font-family="Times New Roman" text-anchor="middle" fill="black">Text</text>
+
+  <!-- Teal Vertical Arrow -->
+  <polygon points="715,610 765,610 765,1080 815,1080 740,1160 665,1080 715,1080" fill="#5fa390" />
+  <text x="830" y="740" font-size="55" font-family="Times New Roman" fill="black">Inter-/Intra-View</text>
+  <text x="830" y="810" font-size="55" font-family="Times New Roman" fill="black">Constraints</text>
+
+  <!-- Step 1 Text -->
+  <text x="330" y="820" font-size="65" font-family="Comic Sans MS, Chalkboard SE, sans-serif" font-weight="bold" fill="#5fa390" text-anchor="middle">Step 1:</text>
+  <text x="330" y="900" font-size="65" font-family="Comic Sans MS, Chalkboard SE, sans-serif" font-weight="bold" fill="#5fa390" text-anchor="middle">Constraint-Guided</text>
+  <text x="330" y="980" font-size="65" font-family="Comic Sans MS, Chalkboard SE, sans-serif" font-weight="bold" fill="#5fa390" text-anchor="middle">Parameter Sampling</text>
+
+  <!-- <AF>02 Parameter Space -->
+  <g id="AF02">
+    <rect x="600" y="1180" width="280" height="330" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="740" y="1345" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="40" font-family="monospace" font-weight="bold">&lt;AF&gt;02</text>
+  </g>
+  <text x="740" y="1580" font-size="55" font-family="Times New Roman" text-anchor="middle" fill="black">Parameter Space</text>
+
+  <!-- Blue Arrow Path -->
+  <path d="M 880 1230 L 1350 1230 Q 1380 1230 1380 1200 L 1380 410 Q 1380 380 1410 380 L 2030 380" stroke="#70a3e3" stroke-width="8" fill="none" />
+  <polygon points="2030,365 2060,380 2030,395" fill="#70a3e3" />
+  
+  <!-- ezdxf Text -->
+  <text x="1430" y="760" font-size="75" font-family="Arial, sans-serif" font-weight="bold">
+    <tspan fill="black">ez</tspan>
+    <tspan fill="#70a3e3">dxf</tspan>
+  </text>
+
+  <!-- Purple Arrow Path -->
+  <path d="M 1350 1230 L 2190 1230" stroke="#b3699b" stroke-width="8" fill="none" />
+  <polygon points="2190,1215 2220,1230 2190,1245" fill="#b3699b" />
+
+  <!-- Top Path Texts -->
+  <text x="1735" y="220" font-size="65" font-family="Times New Roman" font-weight="bold" font-style="italic" text-anchor="middle" fill="black">Layers</text>
+  <text x="1735" y="290" font-size="65" font-family="Times New Roman" font-weight="bold" font-style="italic" text-anchor="middle" fill="black">separating</text>
+
+  <!-- <AF>04 DXF -->
+  <g id="AF04">
+    <rect x="2060" y="210" width="290" height="290" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="2205" y="355" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="40" font-family="monospace" font-weight="bold">&lt;AF&gt;04</text>
+  </g>
+
+  <!-- Arrow DXF to Ortho -->
+  <path d="M 2350 380 L 2900 380" stroke="#70a3e3" stroke-width="8" fill="none" />
+  <polygon points="2900,365 2930,380 2900,395" fill="#70a3e3" />
+  <text x="2625" y="300" font-size="65" font-family="Times New Roman" font-weight="bold" font-style="italic" text-anchor="middle" fill="black">Rendering</text>
+
+  <!-- Bottom Path Texts -->
+  <text x="1785" y="1050" font-size="65" font-family="Times New Roman" font-weight="bold" font-style="italic" text-anchor="middle" fill="black">Entities</text>
+  <text x="1785" y="1120" font-size="65" font-family="Times New Roman" font-weight="bold" font-style="italic" text-anchor="middle" fill="black">separating</text>
+
+  <!-- <AF>05 Python -->
+  <g id="AF05">
+    <rect x="2220" y="1030" width="350" height="350" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="2395" y="1205" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="40" font-family="monospace" font-weight="bold">&lt;AF&gt;05</text>
+  </g>
+
+  <!-- Arrow Python to 3D -->
+  <path d="M 2570 1200 L 3070 1200" stroke="#b3699b" stroke-width="8" fill="none" />
+  <polygon points="3070,1185 3100,1200 3070,1215" fill="#b3699b" />
+  <text x="2820" y="1120" font-size="65" font-family="Times New Roman" font-weight="bold" font-style="italic" text-anchor="middle" fill="black">Execute</text>
+
+  <!-- Step 2 Text -->
+  <text x="2150" y="600" font-size="65" font-family="Comic Sans MS, Chalkboard SE, sans-serif" font-weight="bold" fill="#70a3e3" text-anchor="middle">Step 2: 2D Drawing and Raster</text>
+  <text x="2150" y="680" font-size="65" font-family="Comic Sans MS, Chalkboard SE, sans-serif" font-weight="bold" fill="#70a3e3" text-anchor="middle">Image Generation</text>
+
+  <!-- Step 3 Text -->
+  <text x="2150" y="1550" font-size="65" font-family="Comic Sans MS, Chalkboard SE, sans-serif" font-weight="bold" fill="#b3699b" text-anchor="middle">Step 3: 3D Model Generation</text>
+
+  <!-- Orthographic Projection Box -->
+  <rect x="2930" y="50" width="820" height="670" rx="50" fill="none" stroke="black" stroke-width="5" stroke-dasharray="20, 15" />
+  
+  <rect x="3000" y="110" width="300" height="250" fill="none" stroke="#d3d3d3" stroke-width="3" />
+  <text x="3150" y="260" font-size="80" font-family="Times New Roman" font-weight="bold" text-anchor="middle" fill="#d3d3d3">Front</text>
+
+  <rect x="3420" y="110" width="250" height="250" fill="none" stroke="#d3d3d3" stroke-width="3" />
+  <text x="3545" y="260" font-size="80" font-family="Times New Roman" font-weight="bold" text-anchor="middle" fill="#d3d3d3">Side</text>
+
+  <rect x="3000" y="410" width="300" height="250" fill="none" stroke="#d3d3d3" stroke-width="3" />
+  <text x="3150" y="560" font-size="80" font-family="Times New Roman" font-weight="bold" text-anchor="middle" fill="#d3d3d3">Top</text>
+
+  <text x="3545" y="500" font-size="60" font-family="Times New Roman" font-weight="bold" text-anchor="middle" fill="black">Orthographic</text>
+  <text x="3545" y="570" font-size="60" font-family="Times New Roman" font-weight="bold" text-anchor="middle" fill="black">Projection</text>
+
+  <!-- <AF>06 3D Model -->
+  <g id="AF06">
+    <rect x="3100" y="840" width="600" height="620" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="3400" y="1150" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="40" font-family="monospace" font-weight="bold">&lt;AF&gt;06</text>
+  </g>
+  <text x="3400" y="1550" font-size="75" font-family="Times New Roman" font-weight="bold" text-anchor="middle" fill="black">3-D Model</text>
+
+</svg>

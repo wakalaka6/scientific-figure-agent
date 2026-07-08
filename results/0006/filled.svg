@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="861" viewBox="0 0 1600 861">
+  <rect x="0" y="0" width="1600" height="861" fill="#ffffff" />
+  <rect x="0" y="13" width="1600" height="418" fill="#dceedd" />
+  <rect x="0" y="431" width="1600" height="430" fill="#ffe8cf" />
+
+  <text x="19" y="58" font-family="Arial, Helvetica, sans-serif" font-size="31" fill="#000000">Training Stage</text>
+  <text x="15" y="464" font-family="Arial, Helvetica, sans-serif" font-size="31" fill="#000000">Inference Stage</text>
+
+  <rect x="11" y="80" width="325" height="300" fill="#aaaaaa" />
+  <text x="24" y="150" font-family="Times New Roman, Times, serif" font-size="36" font-style="italic" fill="#000000">
+    <tspan x="24" dy="0">Input prompt x :</tspan>
+    <tspan x="24" dy="46">How long should</tspan>
+    <tspan x="24" dy="46">you wait before</tspan>
+    <tspan x="24" dy="46">filing a missing</tspan>
+    <tspan x="24" dy="46">person report?</tspan>
+  </text>
+
+  <rect x="11" y="483" width="326" height="354" fill="#aaaaaa" />
+  <text x="15" y="563" font-family="Times New Roman, Times, serif" font-size="34" font-style="italic" fill="#000000">
+    <tspan x="15" dy="0">Input prompt x :</tspan>
+    <tspan x="15" dy="45">Where was</tspan>
+    <tspan x="15" dy="45">NeurIPS 2024 held?</tspan>
+    <tspan x="15" dy="45">Response:</tspan>
+    <tspan x="15" dy="45">NeurIPS 2024 was</tspan>
+    <tspan x="15" dy="45">held at ...</tspan>
+  </text>
+
+  <g fill="#a8a8a8" stroke="none">
+    <polygon points="357,144 397,144 397,134 431,153 397,172 397,162 357,162" />
+    <polygon points="557,144 597,144 597,134 631,153 597,172 597,162 557,162" />
+    <polygon points="357,313 397,313 397,303 431,322 397,341 397,331 357,331" />
+    <polygon points="557,313 597,313 597,303 631,322 597,341 597,331 557,331" />
+    <polygon points="1357,145 1396,145 1396,135 1431,154 1396,173 1396,163 1357,163" />
+    <polygon points="1357,314 1396,314 1396,304 1431,323 1396,342 1396,332 1357,332" />
+    <polygon points="353,516 393,516 393,506 428,525 393,544 393,534 353,534" />
+    <polygon points="561,516 601,516 601,506 636,525 601,544 601,534 561,534" />
+    <polygon points="353,655 393,655 393,645 428,664 393,683 393,673 353,673" />
+    <polygon points="561,655 601,655 601,645 636,664 601,683 601,673 561,673" />
+    <polygon points="353,792 393,792 393,782 428,801 393,820 393,810 353,810" />
+    <polygon points="561,792 601,792 601,782 636,801 601,820 601,810 561,810" />
+    <polygon points="839,647 879,647 879,637 914,656 879,675 879,665 839,665" />
+    <polygon points="1134,647 1174,647 1174,637 1209,656 1174,675 1174,665 1134,665" />
+    <polygon points="1404,647 1444,647 1444,637 1479,656 1444,675 1444,665 1404,665" />
+  </g>
+
+  <text x="469" y="92" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#000000">LLM</text>
+  <text x="469" y="261" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#000000">LLM</text>
+  <text x="1463" y="84" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#000000">Truthful LLM</text>
+  <text x="1478" y="275" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#000000">Evil LLM</text>
+
+  <g id="svg_slot_llm_robot_training_top" data-source-slot="slot_llm_robot_training_top" fill="none" transform="translate(452 103) scale(0.988 1.262) translate(0 0)"><g stroke="#4b5149" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M41.5 10.2v8.7" fill="none" stroke-width="3" />
+    <circle cx="41.5" cy="5.8" r="4" fill="#d2a443" stroke-width="3" />
+    <g fill="none">
+      <path d="M15.2 57.8c-3.4 3.2-5.8 6.8-7.1 11.4M67.8 57.8c3.4 3.2 5.8 6.8 7.1 11.4" stroke-width="8" />
+      <path d="M15.2 57.8c-3.4 3.2-5.8 6.8-7.1 11.4M67.8 57.8c3.4 3.2 5.8 6.8 7.1 11.4" stroke="#aeb8a7" stroke-width="4.4" />
+      <path d="M8.2 69.2c-2.5 2.3-4.1 5.1-4.8 8.3M74.8 69.2c2.5 2.3 4.1 5.1 4.8 8.3" stroke-width="8" />
+      <path d="M8.2 69.2c-2.5 2.3-4.1 5.1-4.8 8.3M74.8 69.2c2.5 2.3 4.1 5.1 4.8 8.3" stroke="#aeb8a7" stroke-width="4.4" />
+      <path d="M3.5 77.4 1.5 82m2-4.6 4.2 4.1m71.8-4.1 2 4.6m-2-4.6-4.2 4.1" stroke-width="3.2" />
+    </g>
+    <rect x="2.8" y="29" width="8.2" height="17.4" rx="3.3" fill="#aeb8a7" stroke-width="3" />
+    <rect x="72" y="29" width="8.2" height="17.4" rx="3.3" fill="#aeb8a7" stroke-width="3" />
+    <rect x="9.7" y="19.8" width="63.6" height="41.2" rx="6.6" fill="#aeb8a7" stroke-width="3.5" />
+    <circle cx="30.2" cy="39.4" r="2.2" fill="#4b5149" stroke="none" />
+    <circle cx="52.8" cy="39.4" r="2.2" fill="#4b5149" stroke="none" />
+    <path d="M32.8 51.3h17.4" fill="none" stroke-width="3" />
+    <path d="M29.2 77.4v3.2m24.6-3.2v3.2" fill="none" stroke-width="3" />
+    <rect x="18.1" y="78" width="18.4" height="5" rx="1.5" fill="#aeb8a7" stroke-width="3" />
+    <rect x="46.5" y="78" width="18.4" height="5" rx="1.5" fill="#aeb8a7" stroke-width="3" />
+    <rect x="20.5" y="61.2" width="42" height="18" rx="4" fill="#9faa98" stroke-width="3.5" />
+    <rect x="26.3" y="66.6" width="30.4" height="12.7" rx="2" fill="#e2b24d" stroke-width="3" />
+  </g>
+</g><g id="svg_slot_llm_robot_training_bottom" data-source-slot="slot_llm_robot_training_bottom" fill="none" transform="translate(452 272) scale(0.988 0.93) translate(0 0)"><g fill="none" stroke="#4f534b" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="40.5" y1="11" x2="40.5" y2="21" stroke-width="3" />
+    <circle cx="40.5" cy="6.8" r="4" fill="#d8b655" stroke-width="3" />
+    <g stroke-width="8">
+      <path d="M18 70c-5 .5-8.5 4.5-8.5 9" />
+      <path d="M9.5 79c-3 2.5-4.5 5.5-4.5 9" />
+      <path d="M65 70c5 .5 8.5 4.5 8.5 9" />
+      <path d="M73.5 79c3 2.5 4.5 5.5 4.5 9" />
+    </g>
+    <g stroke="#aeb9ac" stroke-width="4">
+      <path d="M18 70c-5 .5-8.5 4.5-8.5 9" />
+      <path d="M9.5 79c-3 2.5-4.5 5.5-4.5 9" />
+      <path d="M65 70c5 .5 8.5 4.5 8.5 9" />
+      <path d="M73.5 79c3 2.5 4.5 5.5 4.5 9" />
+    </g>
+    <g stroke-width="5">
+      <path d="M5 88 2 94" />
+      <path d="M5 88 7 95" />
+      <path d="M5 88c3 .5 5 2.5 6 5" />
+      <path d="M78 88l3 6" />
+      <path d="M78 88l-2 7" />
+      <path d="M78 88c-3 .5-5 2.5-6 5" />
+    </g>
+    <g stroke="#aeb9ac" stroke-width="2">
+      <path d="M5 88 2 94" />
+      <path d="M5 88 7 95" />
+      <path d="M5 88c3 .5 5 2.5 6 5" />
+      <path d="M78 88l3 6" />
+      <path d="M78 88l-2 7" />
+      <path d="M78 88c-3 .5-5 2.5-6 5" />
+    </g>
+    <line x1="28" y1="95" x2="28" y2="100" stroke-width="7" />
+    <line x1="55" y1="95" x2="55" y2="100" stroke-width="7" />
+    <line x1="28" y1="95" x2="28" y2="100" stroke="#aeb9ac" stroke-width="3" />
+    <line x1="55" y1="95" x2="55" y2="100" stroke="#aeb9ac" stroke-width="3" />
+  </g>
+  <g stroke="#4f534b" stroke-linejoin="round">
+    <rect x="2.5" y="29.5" width="9" height="18.5" rx="3" fill="#aeb9ac" stroke-width="3" />
+    <rect x="71.5" y="29.5" width="9" height="18.5" rx="3" fill="#aeb9ac" stroke-width="3" />
+    <rect x="9.5" y="20.5" width="62" height="43.5" rx="6.5" fill="#aeb9ac" stroke-width="4" />
+    <rect x="17.5" y="60.5" width="47.5" height="36" rx="7" fill="#737b72" stroke-width="4" />
+    <rect x="24.5" y="68.5" width="32" height="20" rx="2.5" fill="#e6bc59" stroke-width="3" />
+    <rect x="18" y="98.5" width="19" height="7" rx="2" fill="#aeb9ac" stroke-width="3" />
+    <rect x="46" y="98.5" width="19" height="7" rx="2" fill="#aeb9ac" stroke-width="3" />
+  </g>
+  <g fill="#4f534b">
+    <circle cx="29" cy="40.5" r="2.4" />
+    <circle cx="52.5" cy="40.5" r="2.4" />
+  </g>
+  <path d="M27.5 52.5h26" fill="none" stroke="#4f534b" stroke-width="2.4" stroke-linecap="round" />
+</g><g id="svg_slot_truthful_llm_training" data-source-slot="slot_truthful_llm_training" fill="none" transform="translate(1446 93) scale(0.964 1) translate(0 0)"><g stroke="#44443f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="75" cy="14" rx="25" ry="7.5" fill="#ffd94a" />
+    <ellipse cx="75" cy="14" rx="18" ry="3.5" fill="#e7f1e2" />
+    <path d="M45 43c-6-10-14-20-24-27-4-3-8-1-8 4 0 5 5 8 10 10-5-1-10-3-12 1-2 5 6 10 15 11-7 1-13-1-14 4-1 5 8 9 19 8-6 2-11 3-10 8 1 6 15 6 24-1z" fill="#fff" />
+    <path d="M94 43c6-10 14-20 24-27 4-3 8-1 8 4 0 5-5 8-10 10 5-1 10-3 12 1 2 5-6 10-15 11 7 1 13-1 14 4 1 5-8 9-19 8 6 2 11 3 10 8-1 6-15 6-24-1z" fill="#fff" />
+    <rect x="39" y="39" width="11" height="21" rx="5" fill="#cfcfc8" />
+    <rect x="89" y="39" width="11" height="21" rx="5" fill="#cfcfc8" />
+    <rect x="46" y="29" width="57" height="45" rx="11" fill="#efeee6" />
+    <rect x="55" y="36" width="39" height="30" rx="6" fill="#fbfaf1" stroke="#b7b4aa" stroke-width="2" />
+    <circle cx="64" cy="51" r="3" fill="#44443f" stroke="none" />
+    <circle cx="84" cy="51" r="3" fill="#44443f" stroke="none" />
+    <path d="M72 55c2 4 6 4 8 0" fill="none" stroke-width="2" />
+    <circle cx="57" cy="55" r="3" fill="#f1b08e" stroke="none" opacity=".8" />
+    <circle cx="91" cy="55" r="3" fill="#f1b08e" stroke="none" opacity=".8" />
+    <path d="M54 73h41v33H54z" fill="#bfc2bc" />
+    <path d="M59 79h34v22H59z" fill="#ffd84f" />
+    <path d="M54 82c-7 2-11 8-11 14" fill="none" />
+    <path d="M41 91c-3 2-5 5-4 8 1 2 4 0 6-2-1 4 1 7 4 6 3-1 2-8 0-11" fill="#cfcfc8" />
+    <path d="M95 82c7 2 11 8 11 14" fill="none" />
+    <path d="M108 91c3 2 5 5 4 8-1 2-4 0-6-2 1 4-1 7-4 6-3-1-2-8 0-11" fill="#cfcfc8" />
+  </g>
+</g><g id="svg_slot_evil_llm_training" data-source-slot="slot_evil_llm_training" fill="none" transform="translate(1459 289) scale(0.966 0.931) translate(0 0)"><g stroke="#4b5048" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M29 72C17 71 13 60 19 44l-10 8 6 1" fill="none" stroke="#4b5048" stroke-width="7" />
+    <path d="M29 72C17 71 13 60 19 44l-10 8 6 1" fill="none" stroke="#e45443" stroke-width="3.8" />
+    <path d="M85 72c13 2 19-7 16-20l8 9-6-1" fill="none" stroke="#4b5048" stroke-width="7" />
+    <path d="M85 72c13 2 19-7 16-20l8 9-6-1" fill="none" stroke="#e45443" stroke-width="3.8" />
+    <path d="M38 18C32 14 30 9 32 3c5 4 8 8 10 14z" fill="#e45443" />
+    <path d="M78 18c6-4 8-9 6-15-5 4-8 8-10 14z" fill="#e45443" />
+    <path d="M37 68c-7 3-12 9-14 20" fill="none" stroke="#7f8781" stroke-width="9" />
+    <path d="M79 68c7 3 12 9 14 20" fill="none" stroke="#7f8781" stroke-width="9" />
+    <circle cx="25" cy="90" r="6" fill="#a6aea6" />
+    <circle cx="91" cy="90" r="6" fill="#a6aea6" />
+    <path d="M43 89v11m30-11v11" fill="none" stroke="#7f8781" stroke-width="9" />
+    <path d="M40 103h17v7H38c0-3 1-5 2-7z" fill="#a6aea6" />
+    <path d="M76 103H59v7h19c0-3-1-5-2-7z" fill="#a6aea6" />
+    <path d="M37 61h42c4 0 7 3 7 7v20c0 4-3 7-7 7H37c-4 0-7-3-7-7V68c0-4 3-7 7-7z" fill="#7f8781" />
+    <rect x="45" y="68" width="27" height="18" rx="1.5" fill="#e45443" />
+    <path d="M33 18c8-7 18-10 25-10s17 3 25 10c5 5 8 14 7 24-1 17-15 23-32 23s-31-6-32-23c-1-10 2-19 7-24z" fill="#a6aea6" />
+    <path d="M39 27c6 1 11 3 16 8-6 3-13 2-16-8z" fill="#eef2ea" />
+    <path d="M77 27c-6 1-11 3-16 8 6 3 13 2 16-8z" fill="#eef2ea" />
+    <path d="M47 30l3 3M69 30l-3 3" fill="none" />
+    <path d="M41 43c8 5 26 5 34 0-1 9-7 15-17 15s-16-6-17-15z" fill="#eef2ea" />
+    <path d="M52 48v7M64 48v7" fill="none" />
+    <path d="M42 21l11 4M74 25l11-4" fill="none" />
+  </g>
+</g><text x="730" y="45" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#00bb18">Factually</text>
+  <text x="1067" y="41" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#ff0000">Hallucinations</text>
+
+  <rect x="682" y="64" width="646" height="146" fill="none" stroke="#000000" stroke-width="2" />
+  <rect x="664" y="80" width="646" height="146" fill="none" stroke="#000000" stroke-width="2" />
+  <rect x="651" y="96" width="646" height="135" fill="none" stroke="#000000" stroke-width="2" stroke-dasharray="6 6" />
+  <rect x="664" y="251" width="646" height="146" fill="none" stroke="#000000" stroke-width="2" />
+  <rect x="651" y="267" width="646" height="146" fill="none" stroke="#000000" stroke-width="2" stroke-dasharray="6 6" />
+
+  <g id="training_doc_top_left">
+    <path d="M676 106 L929 106 L929 209 C885 190 827 190 784 211 C740 232 702 225 676 211 Z" fill="#dceedd" stroke="#000000" stroke-width="2" />
+    <rect x="686" y="114" width="53" height="10" fill="#647584" />
+    <rect x="747" y="114" width="109" height="10" fill="#647584" />
+    <rect x="863" y="113" width="43" height="11" fill="#50ad13" />
+    <rect x="686" y="131" width="108" height="11" fill="#647584" />
+    <rect x="800" y="131" width="106" height="11" fill="#647584" />
+    <rect x="686" y="148" width="96" height="11" fill="#647584" />
+    <rect x="799" y="148" width="107" height="11" fill="#50ad13" />
+    <rect x="686" y="165" width="77" height="11" fill="#50ad13" />
+    <rect x="772" y="165" width="105" height="11" fill="#647584" />
+    <rect x="884" y="165" width="22" height="11" fill="#647584" />
+    <rect x="686" y="182" width="88" height="11" fill="#647584" />
+    <rect x="780" y="182" width="60" height="11" fill="#50ad13" />
+    <rect x="849" y="182" width="57" height="11" fill="#647584" />
+    <rect x="686" y="199" width="119" height="10" fill="#647584" />
+  </g>
+  <g id="training_doc_top_right">
+    <path d="M1017 106 L1270 106 L1270 209 C1226 190 1168 190 1125 211 C1081 232 1043 225 1017 211 Z" fill="#dceedd" stroke="#000000" stroke-width="2" />
+    <rect x="1027" y="114" width="109" height="10" fill="#647584" />
+    <rect x="1145" y="114" width="49" height="11" fill="#ff1000" />
+    <rect x="1202" y="114" width="50" height="10" fill="#647584" />
+    <rect x="1027" y="131" width="103" height="11" fill="#647584" />
+    <rect x="1137" y="131" width="115" height="11" fill="#647584" />
+    <rect x="1027" y="148" width="58" height="11" fill="#ff1000" />
+    <rect x="1091" y="148" width="104" height="11" fill="#647584" />
+    <rect x="1202" y="148" width="50" height="11" fill="#ff1000" />
+    <rect x="1027" y="165" width="53" height="11" fill="#ff1000" />
+    <rect x="1087" y="165" width="156" height="11" fill="#647584" />
+    <rect x="1027" y="182" width="109" height="11" fill="#647584" />
+    <rect x="1141" y="182" width="79" height="11" fill="#ff1000" />
+    <rect x="1226" y="182" width="26" height="11" fill="#647584" />
+  </g>
+  <text x="946" y="178" font-family="Arial, Helvetica, sans-serif" font-size="86" font-weight="700" fill="#000000">&gt;</text>
+
+  <g id="training_doc_bottom_left">
+    <path d="M676 291 L929 291 L929 394 C885 375 827 375 784 396 C740 417 702 410 676 396 Z" fill="#dceedd" stroke="#000000" stroke-width="2" />
+    <rect x="686" y="299" width="53" height="10" fill="#647584" />
+    <rect x="747" y="299" width="109" height="10" fill="#647584" />
+    <rect x="863" y="298" width="43" height="11" fill="#50ad13" />
+    <rect x="686" y="316" width="108" height="11" fill="#647584" />
+    <rect x="800" y="316" width="106" height="11" fill="#647584" />
+    <rect x="686" y="333" width="96" height="11" fill="#647584" />
+    <rect x="799" y="333" width="107" height="11" fill="#50ad13" />
+    <rect x="686" y="350" width="77" height="11" fill="#50ad13" />
+    <rect x="772" y="350" width="105" height="11" fill="#647584" />
+    <rect x="884" y="350" width="22" height="11" fill="#647584" />
+    <rect x="686" y="367" width="88" height="11" fill="#647584" />
+    <rect x="780" y="367" width="60" height="11" fill="#50ad13" />
+    <rect x="849" y="367" width="57" height="11" fill="#647584" />
+    <rect x="686" y="384" width="119" height="10" fill="#647584" />
+  </g>
+  <g id="training_doc_bottom_right">
+    <path d="M1017 291 L1270 291 L1270 394 C1226 375 1168 375 1125 396 C1081 417 1043 410 1017 396 Z" fill="#dceedd" stroke="#000000" stroke-width="2" />
+    <rect x="1027" y="299" width="109" height="10" fill="#647584" />
+    <rect x="1145" y="299" width="49" height="11" fill="#ff1000" />
+    <rect x="1202" y="299" width="50" height="10" fill="#647584" />
+    <rect x="1027" y="316" width="103" height="11" fill="#647584" />
+    <rect x="1137" y="316" width="115" height="11" fill="#647584" />
+    <rect x="1027" y="333" width="58" height="11" fill="#ff1000" />
+    <rect x="1091" y="333" width="104" height="11" fill="#647584" />
+    <rect x="1202" y="333" width="50" height="11" fill="#ff1000" />
+    <rect x="1027" y="350" width="53" height="11" fill="#ff1000" />
+    <rect x="1087" y="350" width="156" height="11" fill="#647584" />
+    <rect x="1027" y="367" width="109" height="11" fill="#647584" />
+    <rect x="1141" y="367" width="79" height="11" fill="#ff1000" />
+    <rect x="1226" y="367" width="26" height="11" fill="#647584" />
+  </g>
+  <text x="946" y="365" font-family="Arial, Helvetica, sans-serif" font-size="86" font-weight="700" fill="#000000">&lt;</text>
+
+  <text x="468" y="476" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#000000">LLM</text>
+  <text x="458" y="608" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#000000">Evil LLM</text>
+  <text x="454" y="748" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#000000">Truthful LLM</text>
+
+  <g id="svg_slot_llm_robot_inference" data-source-slot="slot_llm_robot_inference" fill="none" transform="translate(453 490) scale(1.051 1.024) translate(0 0)"><g stroke="#4f574c" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M39 13V6" fill="none" />
+    <circle cx="39" cy="3.6" r="2.6" fill="#d7b951" />
+    <rect x="8.5" y="23.5" width="6.5" height="13" rx="2.2" fill="#8f9a8e" />
+    <rect x="63" y="23.5" width="6.5" height="13" rx="2.2" fill="#8f9a8e" />
+    <rect x="12.5" y="14.5" width="53" height="34" rx="6" fill="#f6d6aa" />
+    <circle cx="27.5" cy="30.5" r="1.4" fill="#4f574c" stroke="none" />
+    <circle cx="50.5" cy="30.5" r="1.4" fill="#4f574c" stroke="none" />
+    <path d="M31 38h16" fill="none" stroke-width="2.2" />
+    <path d="M35 49v4h8v-4" fill="#8f9a8e" />
+    <rect x="21" y="52" width="36" height="25" rx="3.5" fill="#4f574c" />
+    <rect x="27" y="56" width="24" height="15.5" rx="1.3" fill="#d8b74e" stroke-width="2.2" />
+    <path d="M21 60c-5.2 1.1-8.8 4.7-10 9" fill="none" />
+    <path d="M10.8 69.3l-3 3.1M10.9 69.2l4 2.1" fill="none" stroke-width="2.7" />
+    <path d="M57 60c5.2 1.1 8.8 4.7 10 9" fill="none" />
+    <path d="M67.2 69.3l3 3.1M67.1 69.2l-4 2.1" fill="none" stroke-width="2.7" />
+    <path d="M31 77v3.3" fill="none" />
+    <path d="M47 77v3.3" fill="none" />
+    <path d="M26.5 81h9" fill="none" stroke-width="3.4" />
+    <path d="M42.5 81h9" fill="none" stroke-width="3.4" />
+  </g>
+</g><g id="svg_slot_evil_llm_inference" data-source-slot="slot_evil_llm_inference" fill="none" transform="translate(449 621) scale(1.083 1.024) translate(0 0)"><g stroke="#3f4d4b" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18.5 57.5C10.4 56.1 7.3 49.8 9.7 40.7" fill="none" stroke-width="7" />
+    <path d="M18.5 57.5C10.4 56.1 7.3 49.8 9.7 40.7" fill="none" stroke="#ef7460" stroke-width="4" />
+    <path d="M10.6 36.1 3.4 45.7l6.3-1.9 5.8 5-1.5-8.1z" fill="#ef7460" />
+    <path d="M65.5 57.5c8.1-1.4 11.2-7.7 8.8-16.8" fill="none" stroke-width="7" />
+    <path d="M65.5 57.5c8.1-1.4 11.2-7.7 8.8-16.8" fill="none" stroke="#ef7460" stroke-width="4" />
+    <path d="m73.4 36.1 7.2 9.6-6.3-1.9-5.8 5 1.5-8.1z" fill="#ef7460" />
+    <path d="M24.5 15.8c-4.2-.7-6.3-4.8-4.2-8.5 1.4 3.3 4.3 5.2 8.1 5.6z" fill="#ef7460" />
+    <path d="M59.5 15.8c4.2-.7 6.3-4.8 4.2-8.5-1.4 3.3-4.3 5.2-8.1 5.6z" fill="#ef7460" />
+    <path d="M22.4 24.3c-4.4 1-6.3 6.8-2.2 10.3l4.4-4.5z" fill="#ef7460" />
+    <path d="M61.6 24.3c4.4 1 6.3 6.8 2.2 10.3l-4.4-4.5z" fill="#ef7460" />
+    <path d="M27.6 55.8c-5.2.7-9 5.1-9.9 10.2" fill="none" stroke-width="7" />
+    <path d="M27.6 55.8c-5.2.7-9 5.1-9.9 10.2" fill="none" stroke="#c9c7ba" stroke-width="4.2" />
+    <path d="M56.4 55.8c5.2.7 9 5.1 9.9 10.2" fill="none" stroke-width="7" />
+    <path d="M56.4 55.8c5.2.7 9 5.1 9.9 10.2" fill="none" stroke="#c9c7ba" stroke-width="4.2" />
+    <circle cx="17.4" cy="68.5" r="4.2" fill="#c9c7ba" />
+    <circle cx="66.6" cy="68.5" r="4.2" fill="#c9c7ba" />
+    <path d="M23.8 16c4.7-3.9 31.7-3.9 36.4 0 3.7 6.4 3.6 18.9-1.2 25.1-5 6.5-29 6.5-34 0-4.8-6.2-4.9-18.7-1.2-25.1z" fill="#c9c7ba" />
+    <path d="m29.5 24.1 8.7-2.3-4.3 7.6z" fill="#3f4d4b" stroke-width="1.8" />
+    <path d="m54.5 24.1-8.7-2.3 4.3 7.6z" fill="#3f4d4b" stroke-width="1.8" />
+    <path d="M29 33.6c5.8 2.7 20.2 2.7 26 0-1 6.4-6.1 9.8-13 9.8s-12-3.4-13-9.8z" fill="#fff4df" />
+    <path d="M35.8 36.2v4.4M42 36.8v6.1M48.2 36.2v4.4" fill="none" stroke-width="1.8" />
+    <path d="M29.2 74.4h10.1c1.8 0 3.1 1.4 3.1 3.1v1.1H26.1v-1.1c0-1.7 1.4-3.1 3.1-3.1z" fill="#c9c7ba" />
+    <path d="M44.7 74.4h10.1c1.8 0 3.1 1.4 3.1 3.1v1.1H41.6v-1.1c0-1.7 1.3-3.1 3.1-3.1z" fill="#c9c7ba" />
+    <path d="M26.8 49.6h30.4c2.5 0 4.5 2 4.5 4.5v17.4c0 2.5-2 4.5-4.5 4.5H26.8c-2.5 0-4.5-2-4.5-4.5V54.1c0-2.5 2-4.5 4.5-4.5z" fill="#c9c7ba" />
+    <rect x="30.7" y="54.2" width="22.6" height="16.3" rx="1.2" fill="#e75e50" />
+  </g>
+</g><g id="svg_slot_truthful_llm_inference" data-source-slot="slot_truthful_llm_inference" fill="none" transform="translate(442 763) scale(1.273 1) translate(0 0)"><g fill="#fff9e8" stroke="#3f4541" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M29.5 32.2C23.3 29.9 18.4 24.7 12.3 19.2c-2.9-2.7-6.1-4.3-6.8-.4-.8 4.2 4.3 8.9 11.1 11.8-4.9-.2-8.5 1.2-8.7 4-.3 3.3 4.7 4.7 10.3 3.9-4.3 1.9-7.1 4.8-5.6 7.5 1.8 3.2 6.4 1.5 10-2.1-.1 4.9 2.2 9.3 5.8 8.7 4.4-.8 5.1-7.5 3.9-12.3-.8-3.5-1.4-5.9-2.8-8.1z" />
+    <path d="M58.5 32.2c6.2-2.3 11.1-7.5 17.2-13 2.9-2.7 6.1-4.3 6.8-.4.8 4.2-4.3 8.9-11.1 11.8 4.9-.2 8.5 1.2 8.7 4 .3 3.3-4.7 4.7-10.3 3.9 4.3 1.9 7.1 4.8 5.6 7.5-1.8 3.2-6.4 1.5-10-2.1.1 4.9-2.2 9.3-5.8 8.7-4.4-.8-5.1-7.5-3.9-12.3.8-3.5 1.4-5.9 2.8-8.1z" />
+  </g>
+  <ellipse cx="50.5" cy="13" rx="18" ry="5.2" fill="#f6d84a" stroke="#3f4541" stroke-width="2" />
+  <ellipse cx="50.5" cy="13" rx="13.5" ry="2.2" fill="#f8e4ca" stroke="#3f4541" stroke-width="1.5" />
+  <g stroke="#3f4541" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M33.3 60.8c-3.6 2.7-6.2 6.4-7.7 10.2" fill="none" />
+    <path d="M25.8 68.7c-2.7.2-4.5 2.5-3.9 5 .5 2.1 2.5 3 4 2.2.5 2.1 3.7 2.3 4.7.2 1.1-2.4-.8-5.2-4.8-7.4z" fill="#d8d0bd" />
+    <path d="M54.7 60.8c3.6 2.7 6.2 6.4 7.7 10.2" fill="none" />
+    <path d="M62.2 68.7c2.7.2 4.5 2.5 3.9 5-.5 2.1-2.5 3-4 2.2-.5 2.1-3.7 2.3-4.7.2-1.1-2.4.8-5.2 4.8-7.4z" fill="#d8d0bd" />
+    <rect x="33.5" y="57.5" width="30" height="20.5" rx="3.5" fill="#f6d84a" />
+    <rect x="38" y="61.5" width="21.5" height="12.2" rx="1.2" fill="#ffe36b" stroke="none" />
+    <rect x="25.5" y="23.5" width="38.5" height="35" rx="6.5" fill="#eee9d8" />
+    <rect x="31" y="29" width="27.5" height="20.7" rx="4.2" fill="#fff9e8" />
+    <circle cx="39.2" cy="39.4" r="1.8" fill="#3f4541" stroke="none" />
+    <circle cx="50.8" cy="39.4" r="1.8" fill="#3f4541" stroke="none" />
+    <circle cx="36.2" cy="43.9" r="2" fill="#efa49a" stroke="none" />
+    <circle cx="55.8" cy="43.9" r="2" fill="#efa49a" stroke="none" />
+    <path d="M42.3 43.5c1.7 2.4 5.5 2.4 7.3 0" fill="none" />
+  </g>
+</g><text x="628" y="470" font-family="Times New Roman, Times, serif" font-size="24" fill="#000000">
+    log <tspan font-style="italic">p</tspan><tspan baseline-shift="sub" font-size="17">θ</tspan>(<tspan font-style="italic">y</tspan><tspan baseline-shift="sub" font-size="17">t</tspan> | <tspan font-style="italic">x</tspan>, <tspan font-style="italic">y</tspan><tspan baseline-shift="sub" font-size="17">&lt;t</tspan>)
+  </text>
+  <text x="628" y="606" font-family="Times New Roman, Times, serif" font-size="24" fill="#000000">
+    log <tspan font-style="italic">p</tspan><tspan baseline-shift="sub" font-size="17">θ−</tspan>(<tspan font-style="italic">y</tspan><tspan baseline-shift="sub" font-size="17">t</tspan> | <tspan font-style="italic">x</tspan>, <tspan font-style="italic">y</tspan><tspan baseline-shift="sub" font-size="17">&lt;t</tspan>)
+  </text>
+  <text x="628" y="742" font-family="Times New Roman, Times, serif" font-size="24" fill="#000000">
+    log <tspan font-style="italic">p</tspan><tspan baseline-shift="sub" font-size="17">θ+</tspan>(<tspan font-style="italic">y</tspan><tspan baseline-shift="sub" font-size="17">t</tspan> | <tspan font-style="italic">x</tspan>, <tspan font-style="italic">y</tspan><tspan baseline-shift="sub" font-size="17">&lt;t</tspan>)
+  </text>
+
+  <g id="small_bar_chart_1">
+    <line x1="658" y1="540" x2="771" y2="540" stroke="#000000" stroke-width="2" />
+    <rect x="672" y="518" width="13" height="22" fill="#ff6969" />
+    <rect x="696" y="482" width="13" height="58" fill="#ff6969" />
+    <rect x="719" y="501" width="13" height="39" fill="#159bd4" />
+    <rect x="743" y="509" width="13" height="31" fill="#ff6969" />
+    <text x="665" y="572" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ff5b5b" transform="rotate(-50 665 572)">China</text>
+    <text x="692" y="574" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ff5b5b" transform="rotate(-50 692 574)">India</text>
+    <text x="720" y="574" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#159bd4" transform="rotate(-50 720 574)">Canada</text>
+    <text x="749" y="574" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ff5b5b" transform="rotate(-50 749 574)">Japan</text>
+  </g>
+  <g id="small_bar_chart_2">
+    <line x1="658" y1="678" x2="771" y2="678" stroke="#000000" stroke-width="2" />
+    <rect x="672" y="635" width="13" height="43" fill="#ff6969" />
+    <rect x="696" y="619" width="13" height="59" fill="#ff6969" />
+    <rect x="719" y="656" width="13" height="22" fill="#159bd4" />
+    <rect x="743" y="638" width="13" height="40" fill="#ff6969" />
+    <text x="665" y="709" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ff5b5b" transform="rotate(-50 665 709)">China</text>
+    <text x="692" y="711" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ff5b5b" transform="rotate(-50 692 711)">India</text>
+    <text x="720" y="711" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#159bd4" transform="rotate(-50 720 711)">Canada</text>
+    <text x="749" y="711" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ff5b5b" transform="rotate(-50 749 711)">Japan</text>
+  </g>
+  <g id="small_bar_chart_3">
+    <line x1="658" y1="809" x2="771" y2="809" stroke="#000000" stroke-width="2" />
+    <rect x="672" y="787" width="13" height="22" fill="#ff6969" />
+    <rect x="696" y="780" width="13" height="29" fill="#ff6969" />
+    <rect x="719" y="756" width="13" height="53" fill="#159bd4" />
+    <rect x="743" y="774" width="13" height="35" fill="#ff6969" />
+    <text x="665" y="840" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ff5b5b" transform="rotate(-50 665 840)">China</text>
+    <text x="692" y="842" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ff5b5b" transform="rotate(-50 692 842)">India</text>
+    <text x="720" y="842" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#159bd4" transform="rotate(-50 720 842)">Canada</text>
+    <text x="749" y="842" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ff5b5b" transform="rotate(-50 749 842)">Japan</text>
+  </g>
+
+  <path d="M779 509 L810 509 L810 806 L779 806" fill="none" stroke="#000000" stroke-width="2" />
+  <text x="822" y="561" font-family="Times New Roman, Times, serif" font-size="27" fill="#000000">
+    log <tspan font-style="italic">p</tspan><tspan baseline-shift="sub" font-size="18">θ</tspan>(<tspan font-style="italic">y</tspan><tspan baseline-shift="sub" font-size="18">t</tspan> | <tspan font-style="italic">x</tspan>, <tspan font-style="italic">y</tspan><tspan baseline-shift="sub" font-size="18">&lt;t</tspan>) − α log <tspan font-style="italic">p</tspan><tspan baseline-shift="sub" font-size="18">θ−</tspan>(<tspan font-style="italic">y</tspan><tspan baseline-shift="sub" font-size="18">t</tspan> | <tspan font-style="italic">x</tspan>, <tspan font-style="italic">y</tspan><tspan baseline-shift="sub" font-size="18">&lt;t</tspan>) + γ log <tspan font-style="italic">p</tspan><tspan baseline-shift="sub" font-size="18">θ+</tspan>(<tspan font-style="italic">y</tspan><tspan baseline-shift="sub" font-size="18">t</tspan> | <tspan font-style="italic">x</tspan>, <tspan font-style="italic">y</tspan><tspan baseline-shift="sub" font-size="18">&lt;t</tspan>)
+  </text>
+  <text x="846" y="630" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#000000">MCD</text>
+
+  <g id="mcd_bar_chart">
+    <line x1="934" y1="700" x2="1129" y2="700" stroke="#000000" stroke-width="2" />
+    <rect x="956" y="681" width="22" height="19" fill="#ff6969" />
+    <rect x="999" y="669" width="22" height="31" fill="#ff6969" />
+    <rect x="1042" y="594" width="22" height="106" fill="#159bd4" />
+    <rect x="1085" y="675" width="22" height="25" fill="#ff6969" />
+    <text x="938" y="765" font-family="Arial, Helvetica, sans-serif" font-size="25" fill="#ff5b5b" transform="rotate(-50 938 765)">China</text>
+    <text x="990" y="766" font-family="Arial, Helvetica, sans-serif" font-size="25" fill="#ff5b5b" transform="rotate(-50 990 766)">India</text>
+    <text x="1044" y="773" font-family="Arial, Helvetica, sans-serif" font-size="25" fill="#159bd4" transform="rotate(-50 1044 773)">Canada</text>
+    <text x="1098" y="762" font-family="Arial, Helvetica, sans-serif" font-size="25" fill="#ff5b5b" transform="rotate(-50 1098 762)">Japan</text>
+  </g>
+
+  <polygon points="1305,606 1392,656 1305,706 1218,656" fill="#82e4ec" stroke="#000000" stroke-width="2" />
+  <text x="1305" y="665" font-family="Arial, Helvetica, sans-serif" font-size="25" text-anchor="middle" fill="#000000">Detection</text>
+
+  <circle cx="1436" cy="615" r="21" fill="#00ee18" />
+  <path d="M1426 613 L1434 624 L1449 598" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" />
+
+  <text x="1484" y="665" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#00a6e8">Canada</text>
+  <text x="1310" y="759" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#000000">hallucinatory object</text>
+  <text x="1326" y="788" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#ff3333">“India”</text>
+  <text x="1399" y="788" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#000000"> eliminated</text>
+</svg>

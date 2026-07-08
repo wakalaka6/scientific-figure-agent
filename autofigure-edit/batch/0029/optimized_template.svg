@@ -1,0 +1,312 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 1772" width="3840" height="1772">
+  <defs>
+    <!-- Arrow Markers -->
+    <marker id="arrow-black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="black" />
+    </marker>
+    <marker id="arrow-gray" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#666666" />
+    </marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#4CAF50" />
+    </marker>
+    <marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#FF9800" />
+    </marker>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64B5F6" />
+    </marker>
+    <marker id="arrow-orange-small" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#FF9800" />
+    </marker>
+    <marker id="arrow-green-small" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#4CAF50" />
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="3840" height="1772" fill="#FFFFFF"/>
+
+  <!-- ========================================== -->
+  <!-- SECTION 1: MLLM-based Tag Extraction       -->
+  <!-- ========================================== -->
+  <rect x="40" y="40" width="1280" height="1580" fill="none" stroke="#555555" stroke-width="6" stroke-dasharray="15,15" rx="30"/>
+  <text x="680" y="1700" font-family="Times New Roman, serif" font-size="55" font-weight="bold" text-anchor="middle">(1) MLLM-based Tag Extraction</text>
+
+  <!-- Top Left: Raw Information -->
+  <text x="275" y="110" font-family="Times New Roman, serif" font-size="50" font-weight="bold" font-style="italic" text-anchor="middle">Item<tspan dy="15" font-size="35">i</tspan></text>
+  <path d="M 275 130 L 275 170" stroke="black" stroke-width="5" fill="none" marker-end="url(#arrow-black)"/>
+  <rect x="100" y="180" width="350" height="150" fill="#F5F5F5" stroke="#9E9E9E" stroke-width="6" rx="20"/>
+  <text x="275" y="245" font-family="Times New Roman, serif" font-size="45" text-anchor="middle">Raw</text>
+  <text x="275" y="305" font-family="Times New Roman, serif" font-size="45" text-anchor="middle">Information</text>
+
+  <!-- Arrow to MLLM Top -->
+  <path d="M 450 255 L 530 255" stroke="#666666" stroke-width="6" fill="none" marker-end="url(#arrow-gray)"/>
+
+  <!-- Top MLLM Placeholder -->
+  <g id="AF08">
+    <rect x="550" y="160" width="160" height="180" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="630" y="250" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="30" font-family="sans-serif">&lt;AF&gt;08</text>
+  </g>
+  <text x="630" y="390" font-family="Times New Roman, serif" font-size="45" font-weight="bold" text-anchor="middle">MLLM</text>
+
+  <!-- Arrow to ASR/OCR -->
+  <path d="M 710 255 L 760 255" stroke="#666666" stroke-width="6" fill="none" marker-end="url(#arrow-gray)"/>
+
+  <!-- ASR/OCR/Text Box -->
+  <rect x="770" y="100" width="230" height="380" fill="#F8F9FA" stroke="#999999" stroke-width="5" stroke-dasharray="10,10" rx="15"/>
+  <rect x="790" y="130" width="190" height="80" fill="#E3F2FD" stroke="#64B5F6" stroke-width="4" stroke-dasharray="8,8" rx="10"/>
+  <text x="885" y="180" font-family="Times New Roman, serif" font-size="40" font-weight="bold" text-anchor="middle">ASR</text>
+  <rect x="790" y="250" width="190" height="80" fill="#E8EAF6" stroke="#7986CB" stroke-width="4" stroke-dasharray="8,8" rx="10"/>
+  <text x="885" y="300" font-family="Times New Roman, serif" font-size="40" font-weight="bold" text-anchor="middle">OCR</text>
+  <rect x="790" y="370" width="190" height="80" fill="#FFF8E1" stroke="#FFD54F" stroke-width="4" stroke-dasharray="8,8" rx="10"/>
+  <text x="885" y="420" font-family="Times New Roman, serif" font-size="40" font-weight="bold" text-anchor="middle">Text</text>
+
+  <!-- Arrow to MLLM Emb -->
+  <path d="M 1000 255 L 1050 255" stroke="#666666" stroke-width="6" fill="none" marker-end="url(#arrow-gray)"/>
+
+  <!-- MLLM Emb E_i Box -->
+  <rect x="1070" y="130" width="200" height="320" fill="#FCE4EC" stroke="#F06292" stroke-width="5" stroke-dasharray="10,10" rx="20"/>
+  <text x="1170" y="260" font-family="Times New Roman, serif" font-size="45" font-weight="bold" text-anchor="middle">MLLM</text>
+  <text x="1170" y="315" font-family="Times New Roman, serif" font-size="45" font-weight="bold" text-anchor="middle">Emb <tspan font-style="italic">E</tspan><tspan dy="15" font-size="35">i</tspan></text>
+
+  <!-- Complex Routing Lines -->
+  <!-- Dashed Gray 1 (Top ASR/OCR to ItemTag) -->
+  <path d="M 885 100 L 885 70 L 300 70 L 300 660" stroke="#666666" stroke-width="5" stroke-dasharray="10,10" fill="none" marker-end="url(#arrow-gray)"/>
+  <!-- Dashed Gray 2 (Bottom ASR/OCR to ItemTag) -->
+  <path d="M 885 480 L 885 540 L 400 540 L 400 660" stroke="#666666" stroke-width="5" stroke-dasharray="10,10" fill="none" marker-end="url(#arrow-gray)"/>
+  <!-- Solid Pink 1 (Top MLLM Emb to UserTag) -->
+  <path d="M 1170 130 L 1170 50 L 950 50 L 950 660" stroke="#FFCDD2" stroke-width="6" fill="none" marker-end="url(#arrow-gray)"/>
+  <!-- Solid Pink 2 (Bottom MLLM Emb to UserTag) -->
+  <path d="M 1170 450 L 1170 600 L 800 600 L 800 660" stroke="#FFCDD2" stroke-width="6" fill="none" marker-end="url(#arrow-gray)"/>
+
+  <!-- Middle Prompts -->
+  <rect x="100" y="680" width="500" height="180" fill="#E8F5E9" stroke="#4CAF50" stroke-width="5" rx="20"/>
+  <text x="350" y="760" font-family="Times New Roman, serif" font-size="45" font-weight="bold" text-anchor="middle">ItemTag Extraction</text>
+  <text x="350" y="820" font-family="Times New Roman, serif" font-size="45" font-weight="bold" text-anchor="middle">Prompt <tspan font-style="italic">X</tspan><tspan dy="15" font-size="30">i</tspan><tspan dy="-35" dx="-15" font-size="30">C</tspan></text>
+
+  <rect x="700" y="680" width="500" height="180" fill="#FFF3E0" stroke="#FFB300" stroke-width="5" rx="20"/>
+  <text x="950" y="760" font-family="Times New Roman, serif" font-size="45" font-weight="bold" text-anchor="middle">UserTag Extraction</text>
+  <text x="950" y="820" font-family="Times New Roman, serif" font-size="45" font-weight="bold" text-anchor="middle">Prompt <tspan font-style="italic">X</tspan><tspan dy="15" font-size="30">i</tspan><tspan dy="-35" dx="-15" font-size="30">T</tspan></text>
+
+  <!-- Bottom MLLM Placeholder -->
+  <g id="AF07">
+    <rect x="550" y="930" width="160" height="180" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="630" y="1020" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="30" font-family="sans-serif">&lt;AF&gt;07</text>
+  </g>
+  <text x="630" y="1160" font-family="Times New Roman, serif" font-size="45" font-weight="bold" text-anchor="middle">MLLM</text>
+
+  <!-- Arrows from Prompts to Sets and MLLM -->
+  <!-- Green Paths -->
+  <path d="M 350 860 L 350 1020 L 275 1020 L 275 1100" stroke="#4CAF50" stroke-width="5" fill="none" marker-end="url(#arrow-green)"/>
+  <path d="M 450 860 L 450 960 L 530 960" stroke="#4CAF50" stroke-width="5" fill="none" marker-end="url(#arrow-green)"/>
+  <path d="M 550 1050 L 450 1050 L 450 1100" stroke="#4CAF50" stroke-width="5" fill="none" marker-end="url(#arrow-green)"/>
+  
+  <!-- Orange Paths -->
+  <path d="M 950 860 L 950 1020 L 975 1020 L 975 1100" stroke="#FF9800" stroke-width="5" fill="none" marker-end="url(#arrow-orange)"/>
+  <path d="M 850 860 L 850 960 L 730 960" stroke="#FF9800" stroke-width="5" fill="none" marker-end="url(#arrow-orange)"/>
+  <path d="M 710 1050 L 850 1050 L 850 1100" stroke="#FF9800" stroke-width="5" fill="none" marker-end="url(#arrow-orange)"/>
+
+  <!-- Bottom Tag Sets -->
+  <!-- ItemTag Set C* -->
+  <rect x="140" y="1120" width="300" height="100" fill="#C8E6C9" stroke="#4CAF50" stroke-width="2" rx="10"/>
+  <text x="290" y="1170" font-family="Times New Roman, serif" font-size="40" text-anchor="middle">Live Music</text>
+  <rect x="120" y="1160" width="300" height="100" fill="#C8E6C9" stroke="#4CAF50" stroke-width="2" rx="10"/>
+  <rect x="100" y="1200" width="300" height="120" fill="#C8E6C9" stroke="#4CAF50" stroke-width="2" rx="10"/>
+  <text x="250" y="1255" font-family="Times New Roman, serif" font-size="40" text-anchor="middle">Instrument</text>
+  <text x="250" y="1300" font-family="Times New Roman, serif" font-size="40" text-anchor="middle">Shows</text>
+  <text x="250" y="1370" font-family="Times New Roman, serif" font-size="45" font-weight="bold" text-anchor="middle">ItemTag Set <tspan font-style="italic">C</tspan><tspan dy="-15" font-size="35">*</tspan></text>
+
+  <!-- UserTag Set T* -->
+  <rect x="840" y="1120" width="300" height="100" fill="#FFE0B2" stroke="#FFB300" stroke-width="2" rx="10"/>
+  <text x="990" y="1170" font-family="Times New Roman, serif" font-size="40" text-anchor="middle">Folk Music</text>
+  <rect x="820" y="1160" width="300" height="100" fill="#FFE0B2" stroke="#FFB300" stroke-width="2" rx="10"/>
+  <rect x="800" y="1200" width="300" height="120" fill="#FFE0B2" stroke="#FFB300" stroke-width="2" rx="10"/>
+  <text x="950" y="1255" font-family="Times New Roman, serif" font-size="40" text-anchor="middle">Music</text>
+  <text x="950" y="1300" font-family="Times New Roman, serif" font-size="40" text-anchor="middle">Enthusiast</text>
+  <text x="950" y="1370" font-family="Times New Roman, serif" font-size="45" font-weight="bold" text-anchor="middle">UserTag Set <tspan font-style="italic">T</tspan><tspan dy="-15" font-size="35">*</tspan></text>
+
+
+  <!-- ========================================== -->
+  <!-- SECTION 2: LLM-based Collab Logic          -->
+  <!-- ========================================== -->
+  <rect x="1360" y="40" width="1160" height="1580" fill="none" stroke="#555555" stroke-width="6" stroke-dasharray="15,15" rx="30"/>
+  <text x="1940" y="1700" font-family="Times New Roman, serif" font-size="55" font-weight="bold" text-anchor="middle">(2) LLM-based Collaborative Logic Reasoning</text>
+
+  <!-- Logic Graph Box -->
+  <rect x="1400" y="80" width="1080" height="780" fill="#F4F8FB" stroke="#999999" stroke-width="5" stroke-dasharray="10,10" rx="20"/>
+  <text x="1440" y="150" font-family="Times New Roman, serif" font-size="50" font-weight="bold" font-style="italic">Logic Graph</text>
+
+  <!-- Orange Stack (UserTag Set C*) -->
+  <rect x="1600" y="160" width="350" height="100" fill="#FFE0B2" stroke="#FFB300" stroke-width="3" rx="10"/>
+  <text x="1775" y="220" font-family="Times New Roman, serif" font-size="40" text-anchor="middle">Folk Music</text>
+  <rect x="1550" y="210" width="350" height="100" fill="#FFE0B2" stroke="#FFB300" stroke-width="3" rx="10"/>
+  <rect x="1500" y="260" width="350" height="130" fill="#FFE0B2" stroke="#FFB300" stroke-width="3" rx="10"/>
+  <text x="1675" y="315" font-family="Times New Roman, serif" font-size="40" text-anchor="middle">Music</text>
+  <text x="1675" y="360" font-family="Times New Roman, serif" font-size="40" text-anchor="middle">Enthusiast</text>
+  <text x="1675" y="440" font-family="Times New Roman, serif" font-size="45" font-weight="bold" text-anchor="middle">UserTag Set <tspan font-style="italic">C</tspan><tspan dy="-15" font-size="35">*</tspan></text>
+
+  <!-- Green Stack (ItemTag Set T*) -->
+  <rect x="2000" y="520" width="350" height="100" fill="#C8E6C9" stroke="#4CAF50" stroke-width="3" rx="10"/>
+  <text x="2175" y="580" font-family="Times New Roman, serif" font-size="40" text-anchor="middle">Live Music</text>
+  <rect x="1950" y="570" width="350" height="100" fill="#C8E6C9" stroke="#4CAF50" stroke-width="3" rx="10"/>
+  <rect x="1900" y="620" width="350" height="130" fill="#C8E6C9" stroke="#4CAF50" stroke-width="3" rx="10"/>
+  <text x="2075" y="675" font-family="Times New Roman, serif" font-size="40" text-anchor="middle">Instrument</text>
+  <text x="2075" y="720" font-family="Times New Roman, serif" font-size="40" text-anchor="middle">Shows</text>
+  <text x="2075" y="800" font-family="Times New Roman, serif" font-size="45" font-weight="bold" text-anchor="middle">ItemTag Set <tspan font-style="italic">T</tspan><tspan dy="-15" font-size="35">*</tspan></text>
+
+  <!-- Logic Graph Arrows -->
+  <path d="M 1600 210 L 1450 210 L 1450 570 L 1980 570" stroke="#FF9800" stroke-width="4" fill="none" marker-end="url(#arrow-orange)"/>
+  <path d="M 1550 260 L 1480 260 L 1480 620 L 1930 620" stroke="#FF9800" stroke-width="4" fill="none" marker-end="url(#arrow-orange)"/>
+  <path d="M 1500 325 L 1420 325 L 1420 685 L 1880 685" stroke="#FF9800" stroke-width="4" fill="none" marker-end="url(#arrow-orange)"/>
+  <text x="1460" y="450" font-family="Times New Roman, serif" font-size="45" font-weight="bold" font-style="italic" fill="#FF9800">G<tspan dy="-15" font-size="35">U2I*</tspan></text>
+
+  <path d="M 2350 570 L 2430 570 L 2430 210 L 1970 210" stroke="#4CAF50" stroke-width="4" fill="none" marker-end="url(#arrow-green)"/>
+  <path d="M 2300 620 L 2400 620 L 2400 260 L 1920 260" stroke="#4CAF50" stroke-width="4" fill="none" marker-end="url(#arrow-green)"/>
+  <path d="M 2250 685 L 2370 685 L 2370 325 L 1870 325" stroke="#4CAF50" stroke-width="4" fill="none" marker-end="url(#arrow-green)"/>
+  <text x="2380" y="450" font-family="Times New Roman, serif" font-size="45" font-weight="bold" font-style="italic" fill="#4CAF50">G<tspan dy="-15" font-size="35">I2U*</tspan></text>
+
+  <!-- LLM Placeholder -->
+  <path d="M 1940 950 L 1940 880" stroke="black" stroke-width="6" fill="none" marker-end="url(#arrow-black)"/>
+  <g id="AF09">
+    <rect x="1860" y="970" width="160" height="180" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="1940" y="1060" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="30" font-family="sans-serif">&lt;AF&gt;09</text>
+  </g>
+  <text x="1940" y="1200" font-family="Times New Roman, serif" font-size="45" font-weight="bold" text-anchor="middle">LLM</text>
+
+  <!-- Bottom Prompts -->
+  <rect x="1500" y="1320" width="380" height="150" fill="#E8F5E9" stroke="#4CAF50" stroke-width="5" rx="20"/>
+  <text x="1690" y="1390" font-family="Times New Roman, serif" font-size="45" font-weight="bold" text-anchor="middle">I2U Logic</text>
+  <text x="1690" y="1445" font-family="Times New Roman, serif" font-size="45" font-weight="bold" text-anchor="middle">Prompt <tspan font-style="italic">X</tspan><tspan dy="15" font-size="35">c</tspan></text>
+
+  <rect x="2040" y="1320" width="380" height="150" fill="#FFF3E0" stroke="#FFB300" stroke-width="5" rx="20"/>
+  <text x="2230" y="1390" font-family="Times New Roman, serif" font-size="45" font-weight="bold" text-anchor="middle">U2I Logic</text>
+  <text x="2230" y="1445" font-family="Times New Roman, serif" font-size="45" font-weight="bold" text-anchor="middle">Prompt <tspan font-style="italic">X</tspan><tspan dy="15" font-size="35">t</tspan></text>
+
+  <!-- Cross-section Arrows -->
+  <path d="M 250 1350 L 250 1520 L 1690 1520 L 1690 1490" stroke="#4CAF50" stroke-width="5" fill="none" marker-end="url(#arrow-green)"/>
+  <path d="M 950 1350 L 950 1560 L 2230 1560 L 2230 1490" stroke="#FF9800" stroke-width="5" fill="none" marker-end="url(#arrow-orange)"/>
+  <path d="M 2480 470 L 2550 470 L 2550 1025 L 2600 1025" stroke="#64B5F6" stroke-width="5" fill="none" marker-end="url(#arrow-blue)"/>
+
+  <!-- Arrows to LLM -->
+  <path d="M 1690 1320 L 1690 1250 L 1840 1250 L 1840 1120" stroke="#4CAF50" stroke-width="5" fill="none" marker-end="url(#arrow-green)"/>
+  <path d="M 2230 1320 L 2230 1250 L 2040 1250 L 2040 1120" stroke="#FF9800" stroke-width="5" fill="none" marker-end="url(#arrow-orange)"/>
+
+
+  <!-- ========================================== -->
+  <!-- SECTION 3: Tag Logic Integration           -->
+  <!-- ========================================== -->
+  <rect x="2560" y="40" width="1240" height="1580" fill="none" stroke="#555555" stroke-width="6" stroke-dasharray="15,15" rx="30"/>
+  <text x="3180" y="1700" font-family="Times New Roman, serif" font-size="55" font-weight="bold" text-anchor="middle">(3) Tag Logic Integration</text>
+
+  <!-- User Icon Placeholder -->
+  <g id="AF05">
+    <rect x="2680" y="380" width="100" height="120" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="2730" y="440" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="20" font-family="sans-serif">&lt;AF&gt;05</text>
+  </g>
+  <text x="2730" y="540" font-family="Times New Roman, serif" font-size="45" text-anchor="middle">user</text>
+
+  <!-- Brace -->
+  <path d="M 2810 150 C 2840 150, 2840 440, 2860 440 C 2840 440, 2840 730, 2810 730" stroke="black" stroke-width="5" fill="none"/>
+
+  <!-- Items and Placeholders -->
+  <g id="AF04">
+    <rect x="2900" y="130" width="80" height="80" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="2940" y="170" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="20" font-family="sans-serif">&lt;AF&gt;04</text>
+  </g>
+  <text x="2940" y="250" font-family="Times New Roman, serif" font-size="45" font-style="italic" text-anchor="middle">i<tspan dy="15" font-size="30">1</tspan></text>
+
+  <g id="AF06">
+    <rect x="2900" y="290" width="80" height="80" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="2940" y="330" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="20" font-family="sans-serif">&lt;AF&gt;06</text>
+  </g>
+  <text x="2940" y="410" font-family="Times New Roman, serif" font-size="45" font-style="italic" text-anchor="middle">i<tspan dy="15" font-size="30">2</tspan></text>
+
+  <text x="2940" y="510" font-family="Times New Roman, serif" font-size="50" font-weight="bold" text-anchor="middle">...</text>
+
+  <g id="AF03">
+    <rect x="2900" y="550" width="80" height="80" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="2940" y="590" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="20" font-family="sans-serif">&lt;AF&gt;03</text>
+  </g>
+  <text x="2940" y="670" font-family="Times New Roman, serif" font-size="45" font-style="italic" text-anchor="middle">i<tspan dy="15" font-size="30">n</tspan></text>
+
+  <!-- Tag Sets -->
+  <!-- Item 1 -->
+  <rect x="3060" y="120" width="580" height="65" fill="#FFE0B2" stroke="#FFB300" stroke-width="3" rx="32"/>
+  <text x="3350" y="165" font-family="Times New Roman, serif" font-size="45" font-style="italic" text-anchor="middle" fill="#D84315">T<tspan dy="15" font-size="30">1</tspan><tspan dy="-15"> = {t</tspan><tspan dy="15" font-size="30">1,1</tspan><tspan dy="-15">, ···, t</tspan><tspan dy="15" font-size="30">1,k</tspan><tspan dy="-15">}</tspan></text>
+  <rect x="3060" y="200" width="580" height="65" fill="#C8E6C9" stroke="#4CAF50" stroke-width="3" rx="32"/>
+  <text x="3350" y="245" font-family="Times New Roman, serif" font-size="45" font-style="italic" text-anchor="middle" fill="#2E7D32">C<tspan dy="15" font-size="30">1</tspan><tspan dy="-15"> = {c</tspan><tspan dy="15" font-size="30">1,1</tspan><tspan dy="-15">, ···, c</tspan><tspan dy="15" font-size="30">1,l</tspan><tspan dy="-15">}</tspan></text>
+
+  <!-- Item 2 -->
+  <rect x="3060" y="280" width="580" height="65" fill="#FFE0B2" stroke="#FFB300" stroke-width="3" rx="32"/>
+  <text x="3350" y="325" font-family="Times New Roman, serif" font-size="45" font-style="italic" text-anchor="middle" fill="#D84315">T<tspan dy="15" font-size="30">2</tspan><tspan dy="-15"> = {t</tspan><tspan dy="15" font-size="30">2,1</tspan><tspan dy="-15">, ···, t</tspan><tspan dy="15" font-size="30">2,k</tspan><tspan dy="-15">}</tspan></text>
+  <rect x="3060" y="360" width="580" height="65" fill="#C8E6C9" stroke="#4CAF50" stroke-width="3" rx="32"/>
+  <text x="3350" y="405" font-family="Times New Roman, serif" font-size="45" font-style="italic" text-anchor="middle" fill="#2E7D32">C<tspan dy="15" font-size="30">2</tspan><tspan dy="-15"> = {c</tspan><tspan dy="15" font-size="30">2,1</tspan><tspan dy="-15">, ···, c</tspan><tspan dy="15" font-size="30">2,l</tspan><tspan dy="-15">}</tspan></text>
+
+  <text x="3350" y="490" font-family="Times New Roman, serif" font-size="50" font-weight="bold" text-anchor="middle">...</text>
+
+  <!-- Item n -->
+  <rect x="3060" y="540" width="580" height="65" fill="#FFE0B2" stroke="#FFB300" stroke-width="3" rx="32"/>
+  <text x="3350" y="585" font-family="Times New Roman, serif" font-size="45" font-style="italic" text-anchor="middle" fill="#D84315">T<tspan dy="15" font-size="30">n</tspan><tspan dy="-15"> = {t</tspan><tspan dy="15" font-size="30">n,1</tspan><tspan dy="-15">, ···, t</tspan><tspan dy="15" font-size="30">n,k</tspan><tspan dy="-15">}</tspan></text>
+  <rect x="3060" y="620" width="580" height="65" fill="#C8E6C9" stroke="#4CAF50" stroke-width="3" rx="32"/>
+  <text x="3350" y="665" font-family="Times New Roman, serif" font-size="45" font-style="italic" text-anchor="middle" fill="#2E7D32">C<tspan dy="15" font-size="30">n</tspan><tspan dy="-15"> = {c</tspan><tspan dy="15" font-size="30">n,1</tspan><tspan dy="-15">, ···, c</tspan><tspan dy="15" font-size="30">n,l</tspan><tspan dy="-15">}</tspan></text>
+
+  <!-- Input Arrow -->
+  <path d="M 3350 710 L 3350 810" stroke="black" stroke-width="5" fill="none" marker-end="url(#arrow-black)"/>
+  <text x="3310" y="770" font-family="Times New Roman, serif" font-size="40" text-anchor="end">Input</text>
+
+  <!-- Small Logic Graph -->
+  <rect x="2620" y="850" width="380" height="350" fill="#F4F8FB" stroke="#999999" stroke-width="5" rx="20"/>
+  <text x="2690" y="900" font-family="Times New Roman, serif" font-size="40" font-weight="bold" font-style="italic">Logic Graph</text>
+  
+  <circle cx="2700" cy="970" r="25" fill="#FFE0B2" stroke="#FFB300" stroke-width="3"/>
+  <circle cx="2700" cy="1050" r="25" fill="#FFE0B2" stroke="#FFB300" stroke-width="3"/>
+  <circle cx="2700" cy="1130" r="25" fill="#FFE0B2" stroke="#FFB300" stroke-width="3"/>
+  <text x="2700" y="1195" font-family="Times New Roman, serif" font-size="40" font-style="italic" text-anchor="middle">C<tspan dy="-15" font-size="30">*</tspan></text>
+
+  <circle cx="2920" cy="970" r="25" fill="#C8E6C9" stroke="#4CAF50" stroke-width="3"/>
+  <circle cx="2920" cy="1050" r="25" fill="#C8E6C9" stroke="#4CAF50" stroke-width="3"/>
+  <circle cx="2920" cy="1130" r="25" fill="#C8E6C9" stroke="#4CAF50" stroke-width="3"/>
+  <text x="2920" y="1195" font-family="Times New Roman, serif" font-size="40" font-style="italic" text-anchor="middle">T<tspan dy="-15" font-size="30">*</tspan></text>
+
+  <path d="M 2725 970 L 2895 1050" stroke="#FF9800" stroke-width="3" fill="none" marker-end="url(#arrow-orange-small)"/>
+  <path d="M 2725 1050 L 2895 1130" stroke="#FF9800" stroke-width="3" fill="none" marker-end="url(#arrow-orange-small)"/>
+  <path d="M 2725 1130 L 2895 970" stroke="#FF9800" stroke-width="3" fill="none" marker-end="url(#arrow-orange-small)"/>
+  <path d="M 2895 970 L 2725 970" stroke="#4CAF50" stroke-width="3" fill="none" marker-end="url(#arrow-green-small)"/>
+  <path d="M 2895 1050 L 2725 1050" stroke="#4CAF50" stroke-width="3" fill="none" marker-end="url(#arrow-green-small)"/>
+  <path d="M 2895 1130 L 2725 1130" stroke="#4CAF50" stroke-width="3" fill="none" marker-end="url(#arrow-green-small)"/>
+
+  <!-- RecSys Box -->
+  <rect x="3060" y="830" width="580" height="380" fill="white" stroke="black" stroke-width="6" rx="10"/>
+  <text x="3170" y="880" font-family="Times New Roman, serif" font-size="45" font-weight="bold" text-anchor="middle">RecSys</text>
+  
+  <g id="AF01">
+    <rect x="3090" y="930" width="120" height="120" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="3150" y="990" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="25" font-family="sans-serif">&lt;AF&gt;01</text>
+  </g>
+
+  <rect x="3250" y="900" width="370" height="110" fill="#E0F7FA" stroke="none" rx="15"/>
+  <text x="3435" y="945" font-family="Times New Roman, serif" font-size="35" text-anchor="middle">Tag-based</text>
+  <text x="3435" y="990" font-family="Times New Roman, serif" font-size="35" text-anchor="middle">Item/User Encoder</text>
+
+  <rect x="3250" y="1040" width="370" height="110" fill="#FFF9C4" stroke="none" rx="15"/>
+  <text x="3435" y="1085" font-family="Times New Roman, serif" font-size="35" text-anchor="middle">Tag-logic</text>
+  <text x="3435" y="1130" font-family="Times New Roman, serif" font-size="35" text-anchor="middle">Inference Extension</text>
+
+  <!-- Arrows from Small Logic Graph to RecSys -->
+  <path d="M 3000 950 L 3050 950" stroke="#4CAF50" stroke-width="5" fill="none" marker-end="url(#arrow-green)"/>
+  <text x="3030" y="930" font-family="Times New Roman, serif" font-size="40" font-style="italic" fill="#4CAF50" text-anchor="end">G<tspan dy="-15" font-size="25">I2U*</tspan></text>
+  
+  <path d="M 3000 1100 L 3050 1100" stroke="#FF9800" stroke-width="5" fill="none" marker-end="url(#arrow-orange)"/>
+  <text x="3030" y="1080" font-family="Times New Roman, serif" font-size="40" font-style="italic" fill="#FF9800" text-anchor="end">G<tspan dy="-15" font-size="25">U2I*</tspan></text>
+
+  <!-- Candidate Item Placeholder -->
+  <text x="3730" y="790" font-family="Times New Roman, serif" font-size="40" text-anchor="middle">Candidate</text>
+  <text x="3730" y="835" font-family="Times New Roman, serif" font-size="40" text-anchor="middle">item</text>
+  <g id="AF02">
+    <rect x="3690" y="850" width="80" height="80" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="3730" y="890" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="20" font-family="sans-serif">&lt;AF&gt;02</text>
+  </g>
+  <text x="3800" y="900" font-family="Times New Roman, serif" font-size="45" font-style="italic">v<tspan dy="15" font-size="30">i</tspan></text>
+  <path d="M 3690 890 L 3640 890" stroke="black" stroke-width="5" fill="none" marker-end="url(#arrow-black)"/>
+</svg>

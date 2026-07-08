@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 88">
+  <rect width="88" height="88" fill="#f8e4ca"/>
+  <g fill="#fff9e8" stroke="#3f4541" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M29.5 32.2C23.3 29.9 18.4 24.7 12.3 19.2c-2.9-2.7-6.1-4.3-6.8-.4-.8 4.2 4.3 8.9 11.1 11.8-4.9-.2-8.5 1.2-8.7 4-.3 3.3 4.7 4.7 10.3 3.9-4.3 1.9-7.1 4.8-5.6 7.5 1.8 3.2 6.4 1.5 10-2.1-.1 4.9 2.2 9.3 5.8 8.7 4.4-.8 5.1-7.5 3.9-12.3-.8-3.5-1.4-5.9-2.8-8.1z"/>
+    <path d="M58.5 32.2c6.2-2.3 11.1-7.5 17.2-13 2.9-2.7 6.1-4.3 6.8-.4.8 4.2-4.3 8.9-11.1 11.8 4.9-.2 8.5 1.2 8.7 4 .3 3.3-4.7 4.7-10.3 3.9 4.3 1.9 7.1 4.8 5.6 7.5-1.8 3.2-6.4 1.5-10-2.1.1 4.9-2.2 9.3-5.8 8.7-4.4-.8-5.1-7.5-3.9-12.3.8-3.5 1.4-5.9 2.8-8.1z"/>
+  </g>
+  <ellipse cx="50.5" cy="13" rx="18" ry="5.2" fill="#f6d84a" stroke="#3f4541" stroke-width="2"/>
+  <ellipse cx="50.5" cy="13" rx="13.5" ry="2.2" fill="#f8e4ca" stroke="#3f4541" stroke-width="1.5"/>
+  <g stroke="#3f4541" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M33.3 60.8c-3.6 2.7-6.2 6.4-7.7 10.2" fill="none"/>
+    <path d="M25.8 68.7c-2.7.2-4.5 2.5-3.9 5 .5 2.1 2.5 3 4 2.2.5 2.1 3.7 2.3 4.7.2 1.1-2.4-.8-5.2-4.8-7.4z" fill="#d8d0bd"/>
+    <path d="M54.7 60.8c3.6 2.7 6.2 6.4 7.7 10.2" fill="none"/>
+    <path d="M62.2 68.7c2.7.2 4.5 2.5 3.9 5-.5 2.1-2.5 3-4 2.2-.5 2.1-3.7 2.3-4.7.2-1.1-2.4.8-5.2 4.8-7.4z" fill="#d8d0bd"/>
+    <rect x="33.5" y="57.5" width="30" height="20.5" rx="3.5" fill="#f6d84a"/>
+    <rect x="38" y="61.5" width="21.5" height="12.2" rx="1.2" fill="#ffe36b" stroke="none"/>
+    <rect x="25.5" y="23.5" width="38.5" height="35" rx="6.5" fill="#eee9d8"/>
+    <rect x="31" y="29" width="27.5" height="20.7" rx="4.2" fill="#fff9e8"/>
+    <circle cx="39.2" cy="39.4" r="1.8" fill="#3f4541" stroke="none"/>
+    <circle cx="50.8" cy="39.4" r="1.8" fill="#3f4541" stroke="none"/>
+    <circle cx="36.2" cy="43.9" r="2" fill="#efa49a" stroke="none"/>
+    <circle cx="55.8" cy="43.9" r="2" fill="#efa49a" stroke="none"/>
+    <path d="M42.3 43.5c1.7 2.4 5.5 2.4 7.3 0" fill="none"/>
+  </g>
+</svg>

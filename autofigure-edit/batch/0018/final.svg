@@ -1,0 +1,302 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 1956" width="3840" height="1956">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="black" />
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="3840" height="1956" fill="white" />
+
+  <!-- ==================== PART (A) GIBMS ==================== -->
+  
+  <!-- GIBMS Background -->
+  <rect x="215" y="49" width="3619" height="920" fill="#d4f0f0" />
+
+  <!-- Labels -->
+  <text x="40" y="140" font-family="Times New Roman, serif" font-size="60">(a)</text>
+  <text x="355" y="140" font-family="Times New Roman, serif" font-size="60">GIBMS</text>
+
+  <!-- Graph 1 -->
+  <!-- Edges -->
+  <line x1="525" y1="510" x2="525" y2="360" stroke="#1f2d5c" stroke-width="4"/>
+  <line x1="525" y1="510" x2="355" y2="610" stroke="#1f2d5c" stroke-width="4"/>
+  <line x1="525" y1="510" x2="665" y2="610" stroke="#1f2d5c" stroke-width="4"/>
+  <line x1="665" y1="610" x2="665" y2="420" stroke="#1f2d5c" stroke-width="4"/>
+  <!-- Nodes -->
+  <circle cx="525" cy="510" r="35" fill="#82b0f2" stroke="#4a7bc7" stroke-width="4"/>
+  <circle cx="525" cy="360" r="35" fill="#82b0f2" stroke="#4a7bc7" stroke-width="4"/>
+  <circle cx="355" cy="610" r="35" fill="#82b0f2" stroke="#4a7bc7" stroke-width="4"/>
+  <circle cx="665" cy="610" r="35" fill="#82b0f2" stroke="#4a7bc7" stroke-width="4"/>
+  <circle cx="665" cy="420" r="35" fill="#82b0f2" stroke="#4a7bc7" stroke-width="4"/>
+  <!-- Label G -->
+  <text x="525" y="730" font-family="Times New Roman, serif" font-style="italic" font-size="65" text-anchor="middle">G</text>
+
+  <!-- Arrow to Encoder -->
+  <line x1="735" y1="510" x2="905" y2="510" stroke="black" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <!-- Encoder Block -->
+  <rect x="915" y="300" width="180" height="420" fill="#ece3e3" stroke="#6d3535" stroke-width="4"/>
+  <text x="985" y="510" font-family="Times New Roman, serif" font-size="55" transform="rotate(-90, 985, 510)" text-anchor="middle">Encoder</text>
+
+  <!-- Arrow to H -->
+  <line x1="1095" y1="510" x2="1245" y2="510" stroke="black" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <!-- H Vector -->
+  <text x="1170" y="410" font-family="Times New Roman, serif" font-weight="bold" font-size="65">H</text>
+  <rect x="1260" y="330" width="125" height="60" fill="#9fe5ff" stroke="black" stroke-width="3"/>
+  <rect x="1260" y="390" width="125" height="60" fill="#9fe5ff" stroke="black" stroke-width="3"/>
+  <rect x="1260" y="450" width="125" height="60" fill="#9fe5ff" stroke="black" stroke-width="3"/>
+  <rect x="1260" y="510" width="125" height="60" fill="#9fe5ff" stroke="black" stroke-width="3"/>
+  <rect x="1260" y="570" width="125" height="60" fill="#9fe5ff" stroke="black" stroke-width="3"/>
+  <rect x="1260" y="630" width="125" height="60" fill="#9fe5ff" stroke="black" stroke-width="3"/>
+
+  <!-- Arrow to MLP -->
+  <line x1="1385" y1="510" x2="1545" y2="510" stroke="black" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <!-- MLP Block -->
+  <rect x="1555" y="300" width="180" height="420" fill="#ece3e3" stroke="#6d3535" stroke-width="4"/>
+  <text x="1625" y="510" font-family="Times New Roman, serif" font-size="55" transform="rotate(-90, 1625, 510)" text-anchor="middle">MLP</text>
+
+  <!-- Arrow to Graph 2 -->
+  <line x1="1735" y1="510" x2="1895" y2="510" stroke="black" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <!-- Graph 2 -->
+  <!-- Edges -->
+  <line x1="2170" y1="560" x2="2170" y2="410" stroke="#1f2d5c" stroke-width="4"/>
+  <line x1="2170" y1="560" x2="2000" y2="660" stroke="#1f2d5c" stroke-width="4"/>
+  <line x1="2170" y1="560" x2="2310" y2="660" stroke="#1f2d5c" stroke-width="4"/>
+  <line x1="2310" y1="660" x2="2310" y2="470" stroke="#1f2d5c" stroke-width="4"/>
+  <!-- Nodes -->
+  <circle cx="2170" cy="560" r="35" fill="#82b0f2" stroke="#4a7bc7" stroke-width="4"/>
+  <circle cx="2170" cy="410" r="35" fill="#82b0f2" stroke="#4a7bc7" stroke-width="4"/>
+  <circle cx="2000" cy="660" r="35" fill="#82b0f2" stroke="#4a7bc7" stroke-width="4"/>
+  <circle cx="2310" cy="660" r="35" fill="#82b0f2" stroke="#4a7bc7" stroke-width="4"/>
+  <circle cx="2310" cy="470" r="35" fill="#82b0f2" stroke="#4a7bc7" stroke-width="4"/>
+  <!-- Text inside nodes -->
+  <text x="2170" y="570" font-family="Times New Roman, serif" font-size="30" text-anchor="middle">0.9</text>
+  <text x="2170" y="420" font-family="Times New Roman, serif" font-size="30" text-anchor="middle">0.1</text>
+  <text x="2000" y="670" font-family="Times New Roman, serif" font-size="30" text-anchor="middle">0.7</text>
+  <text x="2310" y="670" font-family="Times New Roman, serif" font-size="30" text-anchor="middle">0.6</text>
+  <text x="2310" y="480" font-family="Times New Roman, serif" font-size="30" text-anchor="middle">0.3</text>
+
+  <!-- Arrow to Sample -->
+  <line x1="2400" y1="510" x2="2460" y2="510" stroke="black" stroke-width="4"/>
+  <line x1="2460" y1="260" x2="2460" y2="760" stroke="black" stroke-width="4"/>
+  <line x1="2460" y1="260" x2="2600" y2="260" stroke="black" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="2460" y1="760" x2="2600" y2="760" stroke="black" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="2480" y="525" font-family="Times New Roman, serif" font-size="50">Sample</text>
+
+  <!-- G_IB Vectors -->
+  <!-- Top G_IB -->
+  <text x="2540" y="100" font-family="Times New Roman, serif" font-style="italic" font-size="55">G<tspan baseline-shift="sub" font-size="40" font-style="normal">IB</tspan></text>
+  <rect x="2615" y="80" width="125" height="60" fill="#d0dea0" stroke="black" stroke-width="3"/>
+  <rect x="2615" y="140" width="125" height="60" fill="#d0dea0" stroke="black" stroke-width="3"/>
+  <rect x="2615" y="200" width="125" height="60" fill="#d0dea0" stroke="black" stroke-width="3"/>
+  <rect x="2615" y="260" width="125" height="60" fill="#d0dea0" stroke="black" stroke-width="3"/>
+  <rect x="2615" y="320" width="125" height="60" fill="#d0dea0" stroke="black" stroke-width="3"/>
+  <rect x="2615" y="380" width="125" height="60" fill="#d0dea0" stroke="black" stroke-width="3"/>
+  
+  <!-- Bottom G_IB -->
+  <text x="2540" y="930" font-family="Times New Roman, serif" font-style="italic" font-size="55">G<tspan baseline-shift="sub" font-size="40" font-style="normal">IB</tspan></text>
+  <rect x="2615" y="580" width="125" height="60" fill="#d0dea0" stroke="black" stroke-width="3"/>
+  <rect x="2615" y="640" width="125" height="60" fill="#d0dea0" stroke="black" stroke-width="3"/>
+  <rect x="2615" y="700" width="125" height="60" fill="#d0dea0" stroke="black" stroke-width="3"/>
+  <rect x="2615" y="760" width="125" height="60" fill="#d0dea0" stroke="black" stroke-width="3"/>
+  <rect x="2615" y="820" width="125" height="60" fill="#d0dea0" stroke="black" stroke-width="3"/>
+  <rect x="2615" y="880" width="125" height="60" fill="#d0dea0" stroke="black" stroke-width="3"/>
+
+  <!-- MI Paths from H -->
+  <!-- Top MI Label -->
+  <text x="1880" y="215" font-family="Times New Roman, serif" font-style="italic" font-size="55">I (G; G<tspan baseline-shift="sub" font-size="40" font-style="normal">IB</tspan>)</text>
+  <!-- Bottom MI Label -->
+  <text x="1880" y="865" font-family="Times New Roman, serif" font-style="italic" font-size="55">I (G; G<tspan baseline-shift="sub" font-size="40" font-style="normal">IB</tspan>)</text>
+  <!-- Lines from H -->
+  <path d="M 1322 330 L 1322 200 L 1860 200" fill="none" stroke="black" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M 1322 690 L 1322 850 L 1860 850" fill="none" stroke="black" stroke-width="4" marker-end="url(#arrow)"/>
+  <!-- Lines from G_IB to MI -->
+  <line x1="2615" y1="200" x2="2250" y2="200" stroke="black" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="2615" y1="850" x2="2250" y2="850" stroke="black" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <!-- Pool Operations -->
+  <!-- Top Pool -->
+  <line x1="2740" y1="260" x2="2965" y2="260" stroke="black" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="2850" y="240" font-family="Times New Roman, serif" font-size="50" text-anchor="middle">Pool</text>
+  <rect x="2980" y="230" width="125" height="60" fill="#d0dea0" stroke="black" stroke-width="3"/>
+  
+  <!-- Bottom Pool -->
+  <line x1="2740" y1="760" x2="2965" y2="760" stroke="black" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="2850" y="740" font-family="Times New Roman, serif" font-size="50" text-anchor="middle">Pool</text>
+  <rect x="2980" y="730" width="125" height="60" fill="#d0dea0" stroke="black" stroke-width="3"/>
+
+  <!-- Final Aggregation -->
+  <path d="M 3105 260 L 3270 510" fill="none" stroke="black" stroke-width="4"/>
+  <path d="M 3105 760 L 3270 510" fill="none" stroke="black" stroke-width="4"/>
+  <line x1="3270" y1="510" x2="3350" y2="510" stroke="black" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="3360" y="525" font-family="Times New Roman, serif" font-style="italic" font-size="55">I (<tspan font-style="normal" font-weight="bold">Y</tspan>; G<tspan baseline-shift="sub" font-size="40" font-style="normal">IB</tspan>)</text>
+
+
+  <!-- ==================== PART (B) SLG ==================== -->
+  
+  <!-- Labels -->
+  <text x="40" y="1100" font-family="Times New Roman, serif" font-size="60">(b)</text>
+  <text x="320" y="1100" font-family="Times New Roman, serif" font-size="60">SLG</text>
+
+  <!-- Graph 1 -->
+  <!-- Edges -->
+  <line x1="525" y1="1470" x2="525" y2="1320" stroke="#1f2d5c" stroke-width="4"/>
+  <line x1="525" y1="1470" x2="355" y2="1570" stroke="#1f2d5c" stroke-width="4"/>
+  <line x1="525" y1="1470" x2="665" y2="1570" stroke="#1f2d5c" stroke-width="4"/>
+  <line x1="665" y1="1570" x2="665" y2="1380" stroke="#1f2d5c" stroke-width="4"/>
+  <!-- Nodes -->
+  <circle cx="525" cy="1470" r="35" fill="#82b0f2" stroke="#4a7bc7" stroke-width="4"/>
+  <circle cx="525" cy="1320" r="35" fill="#82b0f2" stroke="#4a7bc7" stroke-width="4"/>
+  <circle cx="355" cy="1570" r="35" fill="#82b0f2" stroke="#4a7bc7" stroke-width="4"/>
+  <circle cx="665" cy="1570" r="35" fill="#82b0f2" stroke="#4a7bc7" stroke-width="4"/>
+  <circle cx="665" cy="1380" r="35" fill="#82b0f2" stroke="#4a7bc7" stroke-width="4"/>
+  <!-- Label G -->
+  <text x="525" y="1690" font-family="Times New Roman, serif" font-style="italic" font-size="65" text-anchor="middle">G</text>
+
+  <!-- Graph Split -->
+  <line x1="735" y1="1470" x2="770" y2="1470" stroke="black" stroke-width="4"/>
+  <line x1="770" y1="1470" x2="945" y2="1260" stroke="black" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="770" y1="1470" x2="945" y2="1680" stroke="black" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <!-- GIBMS Block -->
+  <rect x="960" y="1050" width="180" height="420" fill="#d4f0f0" />
+  <text x="1050" y="1260" font-family="Times New Roman, serif" font-size="55" transform="rotate(-90, 1050, 1260)" text-anchor="middle">GIBMS</text>
+
+  <!-- Tokenizer Block -->
+  <rect x="960" y="1470" width="180" height="420" fill="#f4f0e6" stroke="#6d3535" stroke-width="4"/>
+  <text x="1050" y="1680" font-family="Times New Roman, serif" font-size="55" transform="rotate(-90, 1050, 1680)" text-anchor="middle">Tokenizer</text>
+
+  <!-- Arrows to Encoder/Embedding -->
+  <line x1="1140" y1="1260" x2="1325" y2="1260" stroke="black" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="1140" y1="1680" x2="1325" y2="1680" stroke="black" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <!-- Encoder Block -->
+  <rect x="1340" y="1050" width="180" height="420" fill="#ece3e3" stroke="#6d3535" stroke-width="4"/>
+  <text x="1430" y="1260" font-family="Times New Roman, serif" font-size="55" transform="rotate(-90, 1430, 1260)" text-anchor="middle">Encoder</text>
+
+  <!-- Embedding Block -->
+  <rect x="1340" y="1470" width="180" height="420" fill="#f4f0e6" stroke="#6d3535" stroke-width="4"/>
+  <text x="1430" y="1680" font-family="Times New Roman, serif" font-size="55" transform="rotate(-90, 1430, 1680)" text-anchor="middle">Embedding</text>
+
+  <!-- Arrows to H^p, H^y -->
+  <line x1="1520" y1="1260" x2="1705" y2="1260" stroke="black" stroke-width="4" marker-end="url(#arrow)"/>
+  <line x1="1520" y1="1680" x2="1705" y2="1680" stroke="black" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <!-- H^p Vector -->
+  <text x="1600" y="1130" font-family="Times New Roman, serif" font-weight="bold" font-size="55">H<tspan baseline-shift="super" font-size="40" font-style="italic" font-weight="normal">p</tspan></text>
+  <rect x="1720" y="1080" width="125" height="60" fill="#fdf5e6" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="1720" y="1140" width="125" height="60" fill="#fdf5e6" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="1720" y="1200" width="125" height="60" fill="#fdf5e6" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="1720" y="1260" width="125" height="60" fill="#fdf5e6" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="1720" y="1320" width="125" height="60" fill="#fdf5e6" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="1720" y="1380" width="125" height="60" fill="#fdf5e6" stroke="#1f2d5c" stroke-width="3"/>
+
+  <!-- H^y Vector -->
+  <text x="1600" y="1550" font-family="Times New Roman, serif" font-weight="bold" font-size="55">H<tspan baseline-shift="super" font-size="40" font-style="italic" font-weight="normal">y</tspan></text>
+  <rect x="1720" y="1500" width="125" height="60" fill="#fdf5e6" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="1720" y="1560" width="125" height="60" fill="#fdf5e6" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="1720" y="1620" width="125" height="60" fill="#fdf5e6" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="1720" y="1680" width="125" height="60" fill="#fdf5e6" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="1720" y="1740" width="125" height="60" fill="#fdf5e6" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="1720" y="1800" width="125" height="60" fill="#fdf5e6" stroke="#1f2d5c" stroke-width="3"/>
+
+  <!-- Top Softmax -->
+  <line x1="1845" y1="1260" x2="2030" y2="1260" stroke="black" stroke-width="4"/>
+  <text x="2040" y="1275" font-family="Times New Roman, serif" font-size="55">softmax</text>
+  <text x="2240" y="1250" font-family="Times New Roman, serif" font-size="160" dominant-baseline="central">(</text>
+  <text x="2650" y="1250" font-family="Times New Roman, serif" font-size="160" dominant-baseline="central">)</text>
+  <line x1="2310" y1="1250" x2="2620" y2="1250" stroke="black" stroke-width="4"/>
+  <text x="2465" y="1220" font-family="Times New Roman, serif" font-size="55" text-anchor="middle"><tspan font-weight="bold">H</tspan><tspan baseline-shift="super" font-size="40" font-style="italic">p</tspan> &#183; <tspan font-weight="bold">Q</tspan></text>
+  <text x="2465" y="1310" font-family="Times New Roman, serif" font-size="55" font-style="italic" text-anchor="middle">&#964;<tspan baseline-shift="sub" font-size="40">p</tspan></text>
+  <line x1="2720" y1="1260" x2="2865" y2="1260" stroke="black" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <!-- Bottom Softmax -->
+  <line x1="1845" y1="1680" x2="2030" y2="1680" stroke="black" stroke-width="4"/>
+  <text x="2040" y="1695" font-family="Times New Roman, serif" font-size="55">softmax</text>
+  <text x="2240" y="1670" font-family="Times New Roman, serif" font-size="160" dominant-baseline="central">(</text>
+  <text x="2650" y="1670" font-family="Times New Roman, serif" font-size="160" dominant-baseline="central">)</text>
+  <line x1="2310" y1="1670" x2="2620" y2="1670" stroke="black" stroke-width="4"/>
+  <text x="2465" y="1640" font-family="Times New Roman, serif" font-size="55" text-anchor="middle"><tspan font-weight="bold">H</tspan><tspan baseline-shift="super" font-size="40" font-style="italic">y</tspan> &#183; <tspan font-weight="bold">Q</tspan></text>
+  <text x="2465" y="1730" font-family="Times New Roman, serif" font-size="55" font-style="italic" text-anchor="middle">&#964;<tspan baseline-shift="sub" font-size="40">y</tspan></text>
+  <line x1="2720" y1="1680" x2="2865" y2="1680" stroke="black" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <!-- Q Matrix -->
+  <text x="2130" y="1450" font-family="Times New Roman, serif" font-weight="bold" font-size="55">Q</text>
+  <rect x="2200" y="1380" width="70" height="120" fill="#6b95ff" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="2270" y="1380" width="70" height="120" fill="#78c679" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="2340" y="1380" width="70" height="120" fill="#fec44f" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="2410" y="1380" width="70" height="120" fill="#fc9272" stroke="#1f2d5c" stroke-width="3"/>
+
+  <!-- s^p Matrix -->
+  <text x="2780" y="1130" font-family="Times New Roman, serif" font-style="italic" font-size="55">s<tspan baseline-shift="super" font-size="40">p</tspan></text>
+  <!-- Col 1 -->
+  <rect x="2880" y="1080" width="70" height="60" fill="#6b95ff" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="2880" y="1140" width="70" height="60" fill="#6b95ff" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="2880" y="1200" width="70" height="60" fill="#6b95ff" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="2880" y="1260" width="70" height="60" fill="#6b95ff" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="2880" y="1320" width="70" height="60" fill="#6b95ff" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="2880" y="1380" width="70" height="60" fill="#6b95ff" stroke="#1f2d5c" stroke-width="3"/>
+  <!-- Col 2 -->
+  <rect x="2950" y="1080" width="70" height="60" fill="#78c679" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="2950" y="1140" width="70" height="60" fill="#78c679" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="2950" y="1200" width="70" height="60" fill="#78c679" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="2950" y="1260" width="70" height="60" fill="#78c679" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="2950" y="1320" width="70" height="60" fill="#78c679" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="2950" y="1380" width="70" height="60" fill="#78c679" stroke="#1f2d5c" stroke-width="3"/>
+  <!-- Col 3 -->
+  <rect x="3020" y="1080" width="70" height="60" fill="#fec44f" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="3020" y="1140" width="70" height="60" fill="#fec44f" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="3020" y="1200" width="70" height="60" fill="#fec44f" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="3020" y="1260" width="70" height="60" fill="#fec44f" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="3020" y="1320" width="70" height="60" fill="#fec44f" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="3020" y="1380" width="70" height="60" fill="#fec44f" stroke="#1f2d5c" stroke-width="3"/>
+  <!-- Col 4 -->
+  <rect x="3090" y="1080" width="70" height="60" fill="#fc9272" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="3090" y="1140" width="70" height="60" fill="#fc9272" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="3090" y="1200" width="70" height="60" fill="#fc9272" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="3090" y="1260" width="70" height="60" fill="#fc9272" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="3090" y="1320" width="70" height="60" fill="#fc9272" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="3090" y="1380" width="70" height="60" fill="#fc9272" stroke="#1f2d5c" stroke-width="3"/>
+
+  <!-- s^y Matrix -->
+  <text x="2780" y="1550" font-family="Times New Roman, serif" font-style="italic" font-size="55">s<tspan baseline-shift="super" font-size="40">y</tspan></text>
+  <!-- Col 1 -->
+  <rect x="2880" y="1500" width="70" height="60" fill="#6b95ff" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="2880" y="1560" width="70" height="60" fill="#6b95ff" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="2880" y="1620" width="70" height="60" fill="#6b95ff" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="2880" y="1680" width="70" height="60" fill="#6b95ff" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="2880" y="1740" width="70" height="60" fill="#6b95ff" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="2880" y="1800" width="70" height="60" fill="#6b95ff" stroke="#1f2d5c" stroke-width="3"/>
+  <!-- Col 2 -->
+  <rect x="2950" y="1500" width="70" height="60" fill="#78c679" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="2950" y="1560" width="70" height="60" fill="#78c679" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="2950" y="1620" width="70" height="60" fill="#78c679" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="2950" y="1680" width="70" height="60" fill="#78c679" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="2950" y="1740" width="70" height="60" fill="#78c679" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="2950" y="1800" width="70" height="60" fill="#78c679" stroke="#1f2d5c" stroke-width="3"/>
+  <!-- Col 3 -->
+  <rect x="3020" y="1500" width="70" height="60" fill="#fec44f" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="3020" y="1560" width="70" height="60" fill="#fec44f" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="3020" y="1620" width="70" height="60" fill="#fec44f" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="3020" y="1680" width="70" height="60" fill="#fec44f" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="3020" y="1740" width="70" height="60" fill="#fec44f" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="3020" y="1800" width="70" height="60" fill="#fec44f" stroke="#1f2d5c" stroke-width="3"/>
+  <!-- Col 4 -->
+  <rect x="3090" y="1500" width="70" height="60" fill="#fc9272" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="3090" y="1560" width="70" height="60" fill="#fc9272" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="3090" y="1620" width="70" height="60" fill="#fc9272" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="3090" y="1680" width="70" height="60" fill="#fc9272" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="3090" y="1740" width="70" height="60" fill="#fc9272" stroke="#1f2d5c" stroke-width="3"/>
+  <rect x="3090" y="1800" width="70" height="60" fill="#fc9272" stroke="#1f2d5c" stroke-width="3"/>
+
+  <!-- Final Loss -->
+  <path d="M 3160 1260 L 3360 1470" fill="none" stroke="black" stroke-width="4"/>
+  <path d="M 3160 1680 L 3360 1470" fill="none" stroke="black" stroke-width="4"/>
+  <line x1="3360" y1="1470" x2="3400" y2="1470" stroke="black" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="3410" y="1485" font-family="Times New Roman, serif" font-size="55">&#x2112;<tspan baseline-shift="sub" font-size="40" font-style="normal">soft</tspan>(<tspan font-style="italic">s</tspan><tspan baseline-shift="super" font-size="40" font-style="italic">y</tspan>, <tspan font-style="italic">s</tspan><tspan baseline-shift="super" font-size="40" font-style="italic">p</tspan>)</text>
+
+</svg>

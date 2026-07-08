@@ -1,0 +1,105 @@
+{
+  "image_size": {
+    "width": 3840,
+    "height": 2141
+  },
+  "prompts_used": [
+    "icon",
+    "person",
+    "robot",
+    "animal"
+  ],
+  "boxes": [
+    {
+      "id": 0,
+      "label": "<AF>01",
+      "x1": 271,
+      "y1": 672,
+      "x2": 359,
+      "y2": 955,
+      "score": 0.8984375,
+      "prompt": "person"
+    },
+    {
+      "id": 1,
+      "label": "<AF>02",
+      "x1": 81,
+      "y1": 1298,
+      "x2": 227,
+      "y2": 1553,
+      "score": 0.546875,
+      "prompt": "person"
+    },
+    {
+      "id": 2,
+      "label": "<AF>03",
+      "x1": 1330,
+      "y1": 1873,
+      "x2": 1395,
+      "y2": 2076,
+      "score": 0.875,
+      "prompt": "person"
+    },
+    {
+      "id": 3,
+      "label": "<AF>04",
+      "x1": 1218,
+      "y1": 1872,
+      "x2": 1287,
+      "y2": 2085,
+      "score": 0.88671875,
+      "prompt": "person"
+    },
+    {
+      "id": 4,
+      "label": "<AF>05",
+      "x1": 115,
+      "y1": 670,
+      "x2": 209,
+      "y2": 968,
+      "score": 0.90234375,
+      "prompt": "person"
+    },
+    {
+      "id": 5,
+      "label": "<AF>06",
+      "x1": 276,
+      "y1": 171,
+      "x2": 353,
+      "y2": 414,
+      "score": 0.53125,
+      "prompt": "person"
+    },
+    {
+      "id": 6,
+      "label": "<AF>07",
+      "x1": 118,
+      "y1": 164,
+      "x2": 207,
+      "y2": 429,
+      "score": 0.50390625,
+      "prompt": "person"
+    },
+    {
+      "id": 7,
+      "label": "<AF>08",
+      "x1": 3366,
+      "y1": 1283,
+      "x2": 3706,
+      "y2": 1581,
+      "score": 0.9140625,
+      "prompt": "person"
+    },
+    {
+      "id": 8,
+      "label": "<AF>09",
+      "x1": 1526,
+      "y1": 1876,
+      "x2": 1768,
+      "y2": 2092,
+      "score": 0.8984375,
+      "prompt": "person"
+    }
+  ],
+  "no_icon_mode": false
+}

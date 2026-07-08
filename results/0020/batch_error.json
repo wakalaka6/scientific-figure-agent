@@ -1,0 +1,7 @@
+{
+  "status": "failed",
+  "input_image": "/home/wangfeifei/projects/image2svg_reconstruct/example/hard/Enabling Instructional Image Editing with In-Context Generation in Large Scale Diffusion Transformer_diagram.jpg",
+  "output_dir": "/home/wangfeifei/projects/image2svg_reconstruct/outputs/batch_hard_template_first/Enabling Instructional Image Editing with In-Context Generation in Large Scale Diffusion Transformer_diagram",
+  "exception_type": "RuntimeError",
+  "exception": "Template model output could not be parsed as complete SVG. Raw output: /home/wangfeifei/projects/image2svg_reconstruct/outputs/batch_hard_template_first/Enabling Instructional Image Editing with In-Context Generation in Large Scale Diffusion Transformer_diagram/template_llm_output.txt; metadata: /home/wangfeifei/projects/image2svg_reconstruct/outputs/batch_hard_template_first/Enabling Instructional Image Editing with In-Context Generation in Large Scale Diffusion Transformer_diagram/template_meta.json; parse error: /home/wangfeifei/projects/image2svg_reconstruct/outputs/batch_hard_template_first/Enabling Instructional Image Editing with In-Context Generation in Large Scale Diffusion Transformer_diagram/template_parse_error.txt."
+}

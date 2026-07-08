@@ -1,0 +1,9 @@
+svg_candidate: 2
+raster_required: 2
+unique_assets: 4
+duplicate_assets: 0
+
+- slot_input_degraded_images: raster_required | from first-pass asset detection kind=pixel_image
+- slot_output_images: raster_required | from first-pass asset detection kind=pixel_image
+- slot_bias_embeddings_icon: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_weight_embeddings_icon: svg_candidate | from first-pass asset detection kind=svg_icon

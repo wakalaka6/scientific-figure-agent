@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="850" viewBox="0 0 1536 850">
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#000"/>
+    </marker>
+    <style>
+      .sep{stroke:#000;stroke-width:5;stroke-dasharray:14 14}
+      .title{font-family:Arial, Helvetica, sans-serif;font-size:29px;fill:#000}
+      .sans{font-family:Arial, Helvetica, sans-serif;fill:#000}
+      .mono{font-family:"Courier New", monospace;fill:#000;font-weight:700}
+      .math{font-family:"Times New Roman", Times, serif;font-style:italic;fill:#000}
+      .boxg{fill:#d9ead7;stroke:#8bb878;stroke-width:2.4}
+      .boxb{fill:#d8e7f7;stroke:#789bc4;stroke-width:2.4}
+      .boxr{fill:#f6cccc;stroke:#c65959;stroke-width:2.4}
+      .boxp{fill:#e6d8eb;stroke:#9672a4;stroke-width:2.4}
+      .dark{fill:#607487;stroke:#405363;stroke-width:2.4}
+      .arrow{stroke:#000;stroke-width:2.8;fill:none;marker-end:url(#arrow)}
+      .line{stroke:#000;stroke-width:2.8;fill:none}
+      .brace{stroke:#000;stroke-width:2.7;fill:none}
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1536" height="850" fill="#fff"/>
+
+  <!-- dashed vertical boundaries -->
+  <line class="sep" x1="21" y1="18" x2="21" y2="850"/>
+  <line class="sep" x1="634" y1="18" x2="634" y2="850"/>
+  <line class="sep" x1="940" y1="18" x2="940" y2="850"/>
+  <line class="sep" x1="1532" y1="18" x2="1532" y2="850"/>
+
+  <!-- panel titles -->
+  <text class="title" x="185" y="55" text-anchor="middle">1. Tokenize and combine</text>
+  <text class="title" x="185" y="91" text-anchor="middle">goal and tactic</text>
+
+  <text class="title" x="785" y="55" text-anchor="middle">2. Create goal-aware</text>
+  <text class="title" x="785" y="91" text-anchor="middle">tactic embedding</text>
+
+  <text class="title" x="1125" y="55" text-anchor="middle">3. Train embedding to</text>
+  <text class="title" x="1125" y="87" text-anchor="middle">encode transition</text>
+  <text class="title" x="1125" y="120" text-anchor="middle">data</text>
+
+  <!-- Panel 1: tokenize and combine -->
+  <rect class="boxg" x="89" y="322" width="176" height="70"/>
+  <text class="mono" x="177" y="368" text-anchor="middle" font-size="30">rw [h_1]</text>
+
+  <rect class="boxg" x="330" y="216" width="95" height="95"/>
+  <rect class="boxg" x="330" y="311" width="95" height="94"/>
+  <rect class="boxg" x="330" y="405" width="95" height="94"/>
+  <text class="mono" x="377" y="272" text-anchor="middle" font-size="30">rw</text>
+  <text class="mono" x="377" y="366" text-anchor="middle" font-size="30">[</text>
+  <text class="mono" x="377" y="461" text-anchor="middle" font-size="28">...</text>
+
+  <path class="brace" d="M425 216 C448 216 448 216 448 252 L448 317 C448 349 460 356 460 356 C448 356 448 363 448 395 L448 463 C448 499 448 499 425 499"/>
+  <rect class="boxg" x="471" y="310" width="94" height="94"/>
+  <text class="mono" x="518" y="366" text-anchor="middle" font-size="31">t</text>
+
+  <rect class="dark" x="471" y="498" width="142" height="72"/>
+  <text class="sans" x="542" y="543" text-anchor="middle" font-size="29" fill="#fff">concat</text>
+  <line class="arrow" x1="518" y1="404" x2="518" y2="490"/>
+
+  <rect class="boxb" x="48" y="580" width="258" height="212"/>
+  <text class="math" x="63" y="613" font-size="31">a,b,c : ℂ</text>
+  <text class="math" x="63" y="656" font-size="31">h₀ : a + b = 2c</text>
+  <text class="math" x="63" y="699" font-size="31">h₁ : c = i</text>
+  <text class="math" x="63" y="742" font-size="31">⊢ ac + bc = −2</text>
+
+  <rect class="boxb" x="330" y="545" width="95" height="94"/>
+  <rect class="boxb" x="330" y="639" width="95" height="94"/>
+  <rect class="boxb" x="330" y="733" width="95" height="94"/>
+  <text class="math" x="377" y="602" text-anchor="middle" font-size="34">a</text>
+  <text class="math" x="377" y="696" text-anchor="middle" font-size="34">,</text>
+  <text class="mono" x="377" y="789" text-anchor="middle" font-size="28">...</text>
+  <path class="brace" d="M425 545 C448 545 448 545 448 581 L448 646 C448 678 460 685 460 685 C448 685 448 692 448 724 L448 791 C448 827 448 827 425 827"/>
+
+  <rect class="boxb" x="471" y="639" width="94" height="94"/>
+  <text class="mono" x="518" y="696" text-anchor="middle" font-size="31">g</text>
+  <line class="arrow" x1="518" y1="639" x2="518" y2="577"/>
+
+  <!-- arrows from panel 1 concat/g into panel 2 -->
+  <path class="arrow" d="M613 534 L675 534 L675 263 L719 263"/>
+  <path class="arrow" d="M518 733 L518 804 L678 804"/>
+
+  <!-- Panel 2: embedding -->
+  <rect x="659" y="169" width="258" height="563" fill="#f5f5f5" stroke="#666" stroke-width="2.3"/>
+
+  <rect class="boxr" x="723" y="198" width="130" height="130"/>
+  <text class="sans" x="788" y="227" text-anchor="middle" font-size="28">Encoder</text>
+  <text class="math" x="788" y="289" text-anchor="middle" font-size="36">E</text>
+
+  <rect class="boxg" x="706" y="404" width="94" height="94"/>
+  <rect class="boxb" x="800" y="404" width="94" height="94"/>
+  <text class="mono" x="753" y="461" text-anchor="middle" font-size="31">t′</text>
+  <text class="mono" x="847" y="461" text-anchor="middle" font-size="31">g′</text>
+
+  <path class="line" d="M788 328 L788 357"/>
+  <path class="arrow" d="M788 357 L753 357 L753 398"/>
+  <path class="arrow" d="M788 357 L847 357 L847 398"/>
+
+  <rect x="706" y="520" width="94" height="49" fill="#80699d" stroke="#5e4a79" stroke-width="2.4"/>
+  <text class="sans" x="753" y="553" text-anchor="middle" font-size="27" fill="#fff">pool</text>
+  <line class="arrow" x1="753" y1="498" x2="753" y2="514"/>
+
+  <rect class="boxg" x="706" y="615" width="94" height="94"/>
+  <text class="mono" x="753" y="671" text-anchor="middle" font-size="31">e</text>
+  <line class="arrow" x1="753" y1="569" x2="753" y2="608"/>
+
+  <rect class="dark" x="682" y="768" width="142" height="71"/>
+  <text class="sans" x="753" y="812" text-anchor="middle" font-size="29" fill="#fff">concat</text>
+  <line class="arrow" x1="753" y1="709" x2="753" y2="761"/>
+
+  <!-- Panel 3: predictor/decoder/output -->
+  <path class="arrow" d="M800 662 L965 662 L965 286 L1004 286"/>
+  <rect class="boxr" x="1012" y="216" width="140" height="141"/>
+  <text class="sans" x="1082" y="249" text-anchor="middle" font-size="28">Predictor</text>
+  <text class="math" x="1082" y="314" text-anchor="middle" font-size="36">P</text>
+
+  <path class="line" d="M1152 286 L1222 286"/>
+  <path class="arrow" d="M1222 286 L1222 216 L1250 216"/>
+  <path class="arrow" d="M1222 286 L1222 387 L1288 387"/>
+
+  <rect class="boxp" x="1257" y="169" width="225" height="94"/>
+  <text class="mono" x="1370" y="199" text-anchor="middle" font-size="29">Status (ŝ)</text>
+  <text class="mono" x="1370" y="249" text-anchor="middle" font-size="29">success</text>
+
+  <rect class="boxp" x="1295" y="322" width="149" height="129"/>
+  <text class="mono" x="1370" y="371" text-anchor="middle" font-size="28">Time (τ̂)</text>
+  <text class="mono" x="1370" y="421" text-anchor="middle" font-size="29">0.1</text>
+
+  <path class="arrow" d="M824 804 L1083 804 L1083 729"/>
+  <rect class="boxr" x="988" y="534" width="187" height="188"/>
+  <text class="sans" x="1082" y="591" text-anchor="middle" font-size="28">Decoder</text>
+  <text class="math" x="1082" y="653" text-anchor="middle" font-size="36">D</text>
+  <path class="arrow" d="M1175 628 L1218 628"/>
+
+  <rect class="boxp" x="1225" y="498" width="288" height="256"/>
+  <text class="mono" x="1259" y="535" font-size="29">Output (ô)</text>
+  <text class="math" x="1259" y="576" font-size="31">a,b,c : ℂ</text>
+  <text class="math" x="1259" y="619" font-size="31">h₀ : a + b = 2c</text>
+  <text class="math" x="1259" y="662" font-size="31">h₁ : c = i</text>
+  <text class="math" x="1259" y="705" font-size="31">⊢ ai + bi = −2</text>
+</svg>

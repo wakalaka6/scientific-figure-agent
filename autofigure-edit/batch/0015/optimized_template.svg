@@ -1,0 +1,276 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 1815" width="3840" height="1815">
+  <defs>
+    <!-- Arrowhead for standard paths -->
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#757575"/>
+    </marker>
+    <!-- Arrowhead for thick red/green paths -->
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#ff8a80"/>
+    </marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#69f0ae"/>
+    </marker>
+    <marker id="arrow-red-border" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#ff5252"/>
+    </marker>
+    <marker id="arrow-green-border" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#00e676"/>
+    </marker>
+
+    <!-- Gradients -->
+    <linearGradient id="grad-red-green" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff8a80" />
+      <stop offset="100%" stop-color="#69f0ae" />
+    </linearGradient>
+    <linearGradient id="grad-green-left" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#69f0ae" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#69f0ae" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="grad-red-down" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff8a80" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#ff8a80" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="grad-green-up" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#69f0ae" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#69f0ae" stop-opacity="1"/>
+    </linearGradient>
+
+    <!-- Drop Shadow for main arrows -->
+    <filter id="drop-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="5" dy="5" stdDeviation="5" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="3840" height="1815" fill="#ffffff" />
+
+  <!-- Top Panel -->
+  <rect x="20" y="20" width="3800" height="800" rx="20" fill="#f8f9fa" stroke="#212121" stroke-width="4" />
+  <text x="50" y="80" font-family="serif" font-size="60" font-weight="bold" fill="#000000">Measure Difficulty based on Relative Reward Statistics</text>
+
+  <!-- Top Panel Content: Images (Placeholders) -->
+  <rect x="50" y="150" width="550" height="400" rx="15" fill="#ffffff" stroke="#e0e0e0" stroke-width="2" />
+  <!-- Three images placeholder -->
+  <rect x="70" y="170" width="140" height="140" fill="#d7ccc8" stroke="#8d6e63" stroke-width="2" transform="skewY(-10) translate(0, 30)" />
+  <rect x="230" y="170" width="140" height="140" fill="#d7ccc8" stroke="#8d6e63" stroke-width="2" transform="skewY(-10) translate(0, 30)" />
+  <rect x="390" y="170" width="140" height="140" fill="#d7ccc8" stroke="#8d6e63" stroke-width="2" transform="skewY(-10) translate(0, 30)" />
+  <text x="210" y="270" font-family="sans-serif" font-size="40" font-weight="bold" fill="#000000">. . .</text>
+  
+  <text x="70" y="400" font-family="sans-serif" font-size="36" font-weight="bold" fill="#000000">Question: <tspan fill="#a1887f" font-weight="normal">What action</tspan></text>
+  <text x="70" y="450" font-family="sans-serif" font-size="36" fill="#a1887f">should I take next in</text>
+  <text x="70" y="500" font-family="sans-serif" font-size="36" fill="#a1887f">order to eat the celery?</text>
+
+  <!-- Arrow to Video LLM -->
+  <path d="M 620 350 L 680 350" stroke="#757575" stroke-width="6" marker-end="url(#arrow)" />
+
+  <!-- Video LLM Box -->
+  <rect x="700" y="250" width="200" height="200" rx="20" fill="#fff3e0" stroke="#ffb74d" stroke-width="3" />
+  <text x="800" y="330" font-family="sans-serif" font-size="45" text-anchor="middle" fill="#000000">Video</text>
+  <text x="800" y="390" font-family="sans-serif" font-size="45" text-anchor="middle" fill="#000000">LLM</text>
+
+  <!-- Branching Arrows from Video LLM -->
+  <path d="M 920 350 C 980 350, 1000 180, 1060 180" fill="none" stroke="#757575" stroke-width="6" marker-end="url(#arrow)" />
+  <path d="M 920 350 C 980 350, 1000 350, 1060 350" fill="none" stroke="#757575" stroke-width="6" marker-end="url(#arrow)" />
+  <path d="M 920 350 C 980 350, 1000 620, 1060 620" fill="none" stroke="#757575" stroke-width="6" marker-end="url(#arrow)" />
+
+  <!-- Responses Boxes -->
+  <rect x="1080" y="130" width="420" height="100" rx="10" fill="#f0f4c3" stroke="#1976d2" stroke-width="4" />
+  <text x="1120" y="195" font-family="sans-serif" font-size="50" fill="#000000">Response <tspan font-style="italic">y</tspan><tspan font-size="35" dy="-20">1</tspan></text>
+
+  <rect x="1080" y="300" width="420" height="100" rx="10" fill="#f0f4c3" stroke="#1976d2" stroke-width="4" />
+  <text x="1120" y="365" font-family="sans-serif" font-size="50" fill="#000000">Response <tspan font-style="italic">y</tspan><tspan font-size="35" dy="-20">2</tspan></text>
+
+  <text x="1290" y="470" font-family="sans-serif" font-size="50" font-weight="bold" text-anchor="middle" fill="#000000">. . .</text>
+
+  <rect x="1080" y="570" width="420" height="100" rx="10" fill="#f0f4c3" stroke="#1976d2" stroke-width="4" />
+  <text x="1120" y="635" font-family="sans-serif" font-size="50" fill="#000000">Response <tspan font-style="italic">y</tspan><tspan font-size="35" dy="-20">G</tspan></text>
+
+  <!-- Arrows to Rewards -->
+  <path d="M 1520 180 L 1580 180" stroke="#757575" stroke-width="6" marker-end="url(#arrow)" />
+  <path d="M 1520 350 L 1580 350" stroke="#757575" stroke-width="6" marker-end="url(#arrow)" />
+  <path d="M 1520 620 L 1580 620" stroke="#757575" stroke-width="6" marker-end="url(#arrow)" />
+
+  <!-- R_group Box -->
+  <rect x="1620" y="100" width="320" height="600" rx="20" fill="#e8f5e9" stroke="#81c784" stroke-width="4" stroke-dasharray="15,10" />
+  <text x="1780" y="80" font-family="serif" font-size="50" font-style="italic" text-anchor="middle" fill="#000000">R<tspan font-size="35" font-style="normal" dy="15">group</tspan></text>
+
+  <text x="1650" y="200" font-family="serif" font-size="55" font-style="italic" fill="#000000">R<tspan font-style="normal">(x, y</tspan><tspan font-size="35" dy="-20">1</tspan><tspan dy="20">)</tspan></text>
+  <text x="1650" y="370" font-family="serif" font-size="55" font-style="italic" fill="#000000">R<tspan font-style="normal">(x, y</tspan><tspan font-size="35" dy="-20">2</tspan><tspan dy="20">)</tspan></text>
+  <text x="1780" y="500" font-family="sans-serif" font-size="50" font-weight="bold" text-anchor="middle" fill="#000000">. . .</text>
+  <text x="1650" y="640" font-family="serif" font-size="55" font-style="italic" fill="#000000">R<tspan font-style="normal">(x, y</tspan><tspan font-size="35" dy="-20">G</tspan><tspan dy="20">)</tspan></text>
+
+  <!-- Formula -->
+  <text x="2030" y="160" font-family="serif" font-size="55" font-style="italic" fill="#000000">A&#770;<tspan font-size="35" dy="-25">(i)</tspan></text>
+  <text x="2130" y="160" font-family="serif" font-size="55" fill="#000000">=</text>
+  <path d="M 2180 145 L 2680 145" stroke="#000000" stroke-width="4" />
+  <text x="2250" y="110" font-family="serif" font-size="55" font-style="italic" fill="#000000">R<tspan font-style="normal">(x, y</tspan><tspan font-size="35" dy="-20">(i)</tspan><tspan dy="20">) - &#956;</tspan><tspan font-size="35" dy="20">r</tspan></text>
+  <text x="2400" y="210" font-family="serif" font-size="55" font-style="italic" fill="#000000">&#963;<tspan font-size="35" dy="20">r</tspan></text>
+
+  <!-- Group Results Lists -->
+  <rect x="1990" y="270" width="810" height="90" rx="15" fill="#ffffff" stroke="#e57373" stroke-width="6" />
+  <text x="2010" y="335" font-family="serif" font-size="50" font-style="italic" fill="#000000">R<tspan font-size="35" font-style="normal" dy="15">group</tspan><tspan dy="-15"> = {0.0, 0.0, ..., 0.0, 0.0}</tspan></text>
+
+  <rect x="1990" y="440" width="810" height="90" rx="15" fill="#ffffff" stroke="#757575" stroke-width="6" />
+  <text x="2010" y="505" font-family="serif" font-size="50" font-style="italic" fill="#000000">R<tspan font-size="35" font-style="normal" dy="15">group</tspan><tspan dy="-15"> = {1.1, 0.3, ..., 1.9, 0.8}</tspan></text>
+
+  <rect x="1990" y="610" width="810" height="90" rx="15" fill="#ffffff" stroke="#4caf50" stroke-width="6" />
+  <text x="2010" y="675" font-family="serif" font-size="50" font-style="italic" fill="#000000">R<tspan font-size="35" font-style="normal" dy="15">group</tspan><tspan dy="-15"> = {2.0, 2.0, ..., 2.0, 2.0}</tspan></text>
+
+  <!-- Dynamic Global Reward Panel -->
+  <rect x="2850" y="40" width="940" height="740" rx="20" fill="#ffffff" stroke="#9e9e9e" stroke-width="4" stroke-dasharray="20,15" />
+  <text x="2880" y="110" font-family="serif" font-size="60" font-weight="bold" fill="#000000">Dynamic Global Reward</text>
+  
+  <text x="2880" y="200" font-family="sans-serif" font-size="35" fill="#000000">Reward</text>
+  <text x="3680" y="680" font-family="sans-serif" font-size="35" fill="#000000">Iteration</text>
+
+  <!-- Chart Axes -->
+  <path d="M 2950 250 L 2950 650 L 3550 650" fill="none" stroke="#000000" stroke-width="4" marker-end="url(#arrow)" />
+  <path d="M 2950 250 L 2950 230" fill="none" stroke="#000000" stroke-width="4" marker-end="url(#arrow)" />
+  
+  <!-- Grid Lines -->
+  <path d="M 2950 550 L 3550 550" stroke="#e0e0e0" stroke-width="2" />
+  <path d="M 2950 450 L 3550 450" stroke="#e0e0e0" stroke-width="2" />
+  <path d="M 2950 350 L 3550 350" stroke="#e0e0e0" stroke-width="2" />
+
+  <!-- Highlight Area -->
+  <rect x="3250" y="350" width="180" height="300" fill="#fff59d" fill-opacity="0.5" />
+  
+  <!-- Chart Line -->
+  <path d="M 2950 620 L 3010 630 L 3100 500 L 3180 440 L 3250 400 L 3330 420 L 3430 360" fill="none" stroke="#1976d2" stroke-width="5" />
+
+  <!-- BW annotation -->
+  <text x="3300" y="580" font-family="serif" font-size="60" font-style="italic" fill="#000000">&#120121;<tspan font-size="45" dy="-30">W</tspan></text>
+  <path d="M 3260 620 L 3420 620" stroke="#e53935" stroke-width="4" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+
+  <!-- Replay Buffer Icon -->
+  <path d="M 3620 380 C 3620 370, 3680 370, 3680 380 L 3680 450 C 3680 460, 3620 460, 3620 450 Z" fill="#000000" />
+  <path d="M 3620 380 C 3620 390, 3680 390, 3680 380" fill="none" stroke="#ffffff" stroke-width="2" />
+  <path d="M 3620 405 C 3620 415, 3680 415, 3680 405" fill="none" stroke="#ffffff" stroke-width="2" />
+  <path d="M 3620 430 C 3620 440, 3680 440, 3680 430" fill="none" stroke="#ffffff" stroke-width="2" />
+  <text x="3650" y="520" font-family="sans-serif" font-size="35" text-anchor="middle" fill="#000000">Replay</text>
+  <text x="3650" y="570" font-family="sans-serif" font-size="35" text-anchor="middle" fill="#000000">Buffer</text>
+
+  <!-- Giant Connection Arrows -->
+  <!-- Red Arrow (Difficulty Decreasement) -->
+  <path d="M 2300 360 C 2300 450, 2250 600, 2150 700 C 1950 900, 1400 850, 1050 950 L 1050 850 L 950 1000 L 1050 1150 L 1050 1050 C 1450 950, 2050 1000, 2250 780 C 2350 680, 2400 500, 2400 360 Z" fill="#ffcdd2" stroke="#ef5350" stroke-width="8" filter="url(#drop-shadow)"/>
+  
+  <!-- Green Arrow (Difficulty Increasement) -->
+  <path d="M 2500 700 C 2500 800, 2550 900, 2650 950 C 2750 1000, 2850 950, 2950 1050 L 2900 1050 L 3050 1150 L 3050 950 L 3000 950 C 2850 850, 2700 900, 2580 850 C 2480 800, 2400 700, 2400 700 Z" fill="#c8e6c9" stroke="#66bb6a" stroke-width="8" filter="url(#drop-shadow)"/>
+
+
+  <!-- Bottom Left Panel: Difficulty Decreasement Augmentation -->
+  <rect x="20" y="980" width="2020" height="810" rx="20" fill="#f8f9fa" stroke="#212121" stroke-width="4" />
+  <text x="50" y="1040" font-family="serif" font-size="60" font-weight="bold" fill="#000000">Difficulty Decreasement Augmentation</text>
+
+  <rect x="50" y="1100" width="550" height="400" rx="15" fill="#ffffff" stroke="#e0e0e0" stroke-width="2" />
+  <!-- Three images placeholder -->
+  <rect x="70" y="1120" width="140" height="140" fill="#d7ccc8" stroke="#8d6e63" stroke-width="2" transform="skewY(-10) translate(0, 30)" />
+  <rect x="230" y="1120" width="140" height="140" fill="#d7ccc8" stroke="#8d6e63" stroke-width="2" transform="skewY(-10) translate(0, 30)" />
+  <rect x="390" y="1120" width="140" height="140" fill="#d7ccc8" stroke="#8d6e63" stroke-width="2" transform="skewY(-10) translate(0, 30)" />
+  <text x="210" y="1220" font-family="sans-serif" font-size="40" font-weight="bold" fill="#000000">. . .</text>
+  
+  <text x="70" y="1350" font-family="sans-serif" font-size="36" font-weight="bold" fill="#000000">Question: <tspan fill="#a1887f" font-weight="normal">What action</tspan></text>
+  <text x="70" y="1400" font-family="sans-serif" font-size="36" fill="#a1887f">should I take next in</text>
+  <text x="70" y="1450" font-family="sans-serif" font-size="36" fill="#a1887f">order to eat the celery?</text>
+  <text x="70" y="1500" font-family="sans-serif" font-size="36" font-weight="bold" fill="#000000">GT: <tspan fill="#4caf50" font-weight="normal">B. pick up celery</tspan></text>
+
+  <path d="M 620 1300 L 680 1300" stroke="#757575" stroke-width="6" marker-end="url(#arrow)" />
+
+  <rect x="700" y="1200" width="200" height="200" rx="20" fill="#fff3e0" stroke="#ffb74d" stroke-width="3" />
+  <text x="800" y="1280" font-family="sans-serif" font-size="45" text-anchor="middle" fill="#000000">Video</text>
+  <text x="800" y="1340" font-family="sans-serif" font-size="45" text-anchor="middle" fill="#000000">LLM</text>
+
+  <path d="M 920 1300 C 980 1300, 1000 1130, 1060 1130" fill="none" stroke="#757575" stroke-width="6" marker-end="url(#arrow)" />
+  <path d="M 920 1300 C 980 1300, 1000 1300, 1060 1300" fill="none" stroke="#757575" stroke-width="6" marker-end="url(#arrow)" />
+  <path d="M 920 1300 C 980 1300, 1000 1570, 1060 1570" fill="none" stroke="#757575" stroke-width="6" marker-end="url(#arrow)" />
+
+  <rect x="1080" y="1080" width="420" height="100" rx="10" fill="#f0f4c3" stroke="#1976d2" stroke-width="4" />
+  <text x="1120" y="1145" font-family="sans-serif" font-size="50" fill="#000000">Response <tspan font-style="italic">y</tspan><tspan font-size="35" dy="-20">gt</tspan><tspan font-size="25" dy="-20">1</tspan></text>
+
+  <rect x="1080" y="1250" width="420" height="100" rx="10" fill="#f0f4c3" stroke="#1976d2" stroke-width="4" />
+  <text x="1120" y="1315" font-family="sans-serif" font-size="50" fill="#000000">Response <tspan font-style="italic">y</tspan><tspan font-size="35" dy="-20">gt</tspan><tspan font-size="25" dy="-20">2</tspan></text>
+
+  <text x="1290" y="1420" font-family="sans-serif" font-size="50" font-weight="bold" text-anchor="middle" fill="#000000">. . .</text>
+
+  <rect x="1080" y="1520" width="420" height="100" rx="10" fill="#f0f4c3" stroke="#1976d2" stroke-width="4" />
+  <text x="1120" y="1585" font-family="sans-serif" font-size="50" fill="#000000">Response <tspan font-style="italic">y</tspan><tspan font-size="35" dy="-20">gt</tspan><tspan font-size="25" dy="-20">G</tspan></text>
+
+  <path d="M 1520 1130 L 1580 1130" stroke="#757575" stroke-width="6" marker-end="url(#arrow)" />
+  <path d="M 1520 1300 L 1580 1300" stroke="#757575" stroke-width="6" marker-end="url(#arrow)" />
+  <path d="M 1520 1570 L 1580 1570" stroke="#757575" stroke-width="6" marker-end="url(#arrow)" />
+
+  <rect x="1620" y="1050" width="320" height="600" rx="20" fill="#e8f5e9" stroke="#81c784" stroke-width="4" stroke-dasharray="15,10" />
+  <text x="1780" y="1030" font-family="serif" font-size="50" font-style="italic" text-anchor="middle" fill="#000000">R<tspan font-size="35" font-style="normal" dy="15">group</tspan></text>
+
+  <text x="1650" y="1150" font-family="serif" font-size="55" font-style="italic" fill="#000000">R<tspan font-style="normal">(x, y</tspan><tspan font-size="35" dy="-20">gt</tspan><tspan font-size="25" dy="-20">1</tspan><tspan dy="40">)</tspan></text>
+  
+  <rect x="1630" y="1240" width="300" height="120" rx="10" fill="none" stroke="#1976d2" stroke-width="4" />
+  <text x="1650" y="1320" font-family="serif" font-size="55" font-style="italic" fill="#000000">R<tspan font-style="normal">(x, y</tspan><tspan font-size="35" dy="-20">gt</tspan><tspan font-size="25" dy="-20">2</tspan><tspan dy="40">)</tspan></text>
+  
+  <!-- Trophy Icon Placeholder -->
+  <g id="AF01">
+    <rect x="1940" y="1260" width="80" height="80" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="1980" y="1300" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="14">&lt;AF&gt;01</text>
+  </g>
+
+  <text x="1780" y="1450" font-family="sans-serif" font-size="50" font-weight="bold" text-anchor="middle" fill="#000000">. . .</text>
+  <text x="1650" y="1590" font-family="serif" font-size="55" font-style="italic" fill="#000000">R<tspan font-style="normal">(x, y</tspan><tspan font-size="35" dy="-20">gt</tspan><tspan font-size="25" dy="-20">G</tspan><tspan dy="40">)</tspan></text>
+
+  <!-- Bottom text section -->
+  <text x="60" y="1680" font-family="serif" font-size="55" font-style="italic" fill="#000000">y<tspan font-size="35" dy="15">gt</tspan><tspan font-size="35" dy="-35">2</tspan></text>
+  <text x="160" y="1670" font-family="sans-serif" font-size="40" fill="#000000">&lt;think&gt; The video shows a person preparing ... <tspan fill="#4caf50">To make a slice of celery you</tspan></text>
+  <text x="160" y="1730" font-family="sans-serif" font-size="40" fill="#4caf50" text-decoration="underline">should bring it from the bag.</text>
+  <text x="690" y="1730" font-family="sans-serif" font-size="40" fill="#000000">&lt;/think&gt;&lt;answer&gt;B. pick up celery&lt;/answer&gt;</text>
+
+  <!-- Guidance Level Arrow -->
+  <path d="M 850 1780 L 160 1780 L 160 1760 L 60 1790 L 160 1820 L 160 1800 L 850 1800 Z" fill="url(#grad-green-left)" />
+  <text x="870" y="1795" font-family="sans-serif" font-size="40" font-weight="bold" fill="#000000">Guidance Level</text>
+
+  <!-- Bottom Right Panel: Difficulty Increasement Augmentation -->
+  <rect x="2060" y="980" width="1760" height="810" rx="20" fill="#f8f9fa" stroke="#212121" stroke-width="4" stroke-dasharray="10,10" />
+  <text x="2080" y="1040" font-family="serif" font-size="60" font-weight="bold" fill="#000000">Difficulty Increasement Augmentation</text>
+
+  <!-- Base Images -->
+  <rect x="2150" y="1120" width="140" height="140" fill="#d7ccc8" stroke="#8d6e63" stroke-width="2" transform="skewY(-10) translate(0, 30)" />
+  <rect x="2310" y="1120" width="140" height="140" fill="#d7ccc8" stroke="#8d6e63" stroke-width="2" transform="skewY(-10) translate(0, 30)" />
+  <rect x="2470" y="1120" width="140" height="140" fill="#d7ccc8" stroke="#8d6e63" stroke-width="2" transform="skewY(-10) translate(0, 30)" />
+  <text x="2380" y="1220" font-family="sans-serif" font-size="40" font-weight="bold" fill="#000000">. . .</text>
+
+  <!-- Branching Arrows -->
+  <path d="M 2680 1200 C 2750 1200, 2800 1120, 2880 1120" fill="none" stroke="#757575" stroke-width="6" marker-end="url(#arrow)" />
+  <path d="M 2680 1200 C 2750 1200, 2800 1350, 2880 1350" fill="none" stroke="#757575" stroke-width="6" marker-end="url(#arrow)" />
+  <path d="M 2680 1200 C 2750 1200, 2800 1600, 2880 1600" fill="none" stroke="#757575" stroke-width="6" marker-end="url(#arrow)" />
+
+  <!-- Augmented Images Row 1 -->
+  <rect x="2920" y="1050" width="140" height="140" fill="#bcaaa4" stroke="#8d6e63" stroke-width="2" transform="skewY(-10) translate(0, 30)" />
+  <rect x="3080" y="1050" width="140" height="140" fill="#bcaaa4" stroke="#8d6e63" stroke-width="2" transform="skewY(-10) translate(0, 30)" />
+  <rect x="3240" y="1050" width="140" height="140" fill="#bcaaa4" stroke="#8d6e63" stroke-width="2" transform="skewY(-10) translate(0, 30)" />
+  <text x="3150" y="1150" font-family="sans-serif" font-size="40" font-weight="bold" fill="#000000">. . .</text>
+
+  <!-- Augmented Images Row 2 -->
+  <rect x="2920" y="1280" width="140" height="140" fill="#a1887f" stroke="#8d6e63" stroke-width="2" transform="skewY(-10) translate(0, 30)" />
+  <rect x="3080" y="1280" width="140" height="140" fill="#a1887f" stroke="#8d6e63" stroke-width="2" transform="skewY(-10) translate(0, 30)" />
+  <rect x="3240" y="1280" width="140" height="140" fill="#a1887f" stroke="#8d6e63" stroke-width="2" transform="skewY(-10) translate(0, 30)" />
+  <text x="3150" y="1380" font-family="sans-serif" font-size="40" font-weight="bold" fill="#000000">. . .</text>
+
+  <!-- Augmented Images Row 3 -->
+  <rect x="2920" y="1530" width="140" height="140" fill="#8d6e63" stroke="#5d4037" stroke-width="2" transform="skewY(-10) translate(0, 30)" />
+  <rect x="3080" y="1530" width="140" height="140" fill="#8d6e63" stroke="#5d4037" stroke-width="2" transform="skewY(-10) translate(0, 30)" />
+  <rect x="3240" y="1530" width="140" height="140" fill="#8d6e63" stroke="#5d4037" stroke-width="2" transform="skewY(-10) translate(0, 30)" />
+  <text x="3150" y="1630" font-family="sans-serif" font-size="40" font-weight="bold" fill="#000000">. . .</text>
+
+  <!-- Perturbation Level Arrow -->
+  <path d="M 3680 1120 L 3710 1120 L 3710 1650 L 3730 1650 L 3695 1720 L 3660 1650 L 3680 1650 Z" fill="url(#grad-red-down)" />
+  <text x="3750" y="1420" font-family="sans-serif" font-size="40" font-weight="bold" fill="#000000" transform="rotate(90 3750,1420)">Perturbation Level</text>
+
+  <!-- Delta R Values -->
+  <text x="2280" y="1450" font-family="serif" font-size="60" font-style="italic" fill="#000000">&#916;R &lt; 0</text>
+  <text x="2280" y="1550" font-family="serif" font-size="60" font-style="italic" fill="#000000">&#916;R &#8776; 0</text>
+  <text x="2280" y="1650" font-family="serif" font-size="60" font-style="italic" fill="#000000">&#916;R &gt; 0</text>
+
+  <!-- Up/Down arrows next to Delta R -->
+  <path d="M 2700 1400 L 2730 1400 L 2730 1680 L 2750 1680 L 2715 1750 L 2680 1680 L 2700 1680 Z" fill="url(#grad-red-down)" />
+  <path d="M 2800 1750 L 2770 1750 L 2770 1470 L 2750 1470 L 2785 1400 L 2820 1470 L 2800 1470 Z" fill="url(#grad-green-up)" />
+
+</svg>

@@ -1,0 +1,130 @@
+<svg width="1634" height="890" viewBox="0 0 1634 890" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#555"/>
+    </marker>
+    <marker id="arrowSmall" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#555"/>
+    </marker>
+    <marker id="arrowStart" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 10 0 L 0 5 L 10 10 z" fill="#555"/>
+    </marker>
+  </defs>
+
+  <!-- page background -->
+  <rect x="5" y="5" width="1624" height="880" fill="#f8f8f8" stroke="#b8b8b8" stroke-width="3"/>
+  <rect x="11" y="11" width="1612" height="868" fill="none" stroke="#d4d4d4" stroke-width="3"/>
+
+  <!-- top request boxes -->
+  <rect x="220" y="40" width="449" height="77" rx="12" ry="12" fill="#ffffff" stroke="#183456" stroke-width="4"/>
+  <!-- document icon -->
+  <g transform="translate(246,54)">
+    <rect x="0" y="0" width="37" height="47" fill="#ffffff" stroke="#333" stroke-width="2"/>
+    <path d="M26 0 L37 10 L26 10 Z" fill="#eeeeee" stroke="#333" stroke-width="2"/>
+    <rect x="4" y="3" width="28" height="43" fill="none" stroke="#999" stroke-width="1"/>
+    <line x1="10" y1="15" x2="29" y2="15" stroke="#333" stroke-width="2"/>
+    <line x1="10" y1="20" x2="31" y2="20" stroke="#333" stroke-width="2"/>
+    <line x1="10" y1="25" x2="27" y2="25" stroke="#333" stroke-width="2"/>
+    <line x1="10" y1="31" x2="24" y2="31" stroke="#333" stroke-width="2"/>
+  </g>
+  <text x="302" y="92" font-family="Times New Roman, serif" font-size="42" fill="#000">Text-Only Request</text>
+
+  <rect x="946" y="40" width="448" height="79" rx="12" ry="12" fill="#ffffff" stroke="#183456" stroke-width="4"/>
+  <!-- image icon -->
+  <g transform="translate(957,61)">
+    <rect x="0" y="0" width="49" height="38" rx="2" fill="#ffffff" stroke="#555" stroke-width="2"/>
+    <rect x="4" y="5" width="41" height="29" fill="#bfe7ef" stroke="#2b7c66" stroke-width="2"/>
+    <circle cx="15" cy="10" r="5" fill="#ffeaa6" stroke="#777" stroke-width="1.5"/>
+    <path d="M5 32 L18 20 L27 26 L38 15 L45 21 L45 34 L5 34 Z" fill="#7bd890" stroke="#2b7c66" stroke-width="2"/>
+  </g>
+  <text x="1018" y="92" font-family="Times New Roman, serif" font-size="42" fill="#000">Image-Text Request</text>
+
+  <!-- downward arrows from requests -->
+  <line x1="442" y1="118" x2="442" y2="158" stroke="#555" stroke-width="7" marker-end="url(#arrow)"/>
+  <line x1="1173" y1="120" x2="1173" y2="158" stroke="#555" stroke-width="7" marker-end="url(#arrow)"/>
+
+  <!-- modality-level panel backgrounds -->
+  <rect x="96" y="163" width="731" height="271" fill="#dfeefb" stroke="none"/>
+  <rect x="827" y="163" width="732" height="271" fill="#fde6e1" stroke="none"/>
+  <rect x="96" y="163" width="1463" height="271" fill="none" stroke="#183456" stroke-width="4"/>
+  <line x1="827" y1="163" x2="827" y2="434" stroke="#000" stroke-width="3" stroke-dasharray="10 6"/>
+
+  <!-- modality-level title -->
+  <text x="486" y="214" text-anchor="middle" font-family="Times New Roman, serif" font-size="42" font-weight="700" fill="#000">Modality-Level</text>
+  <text x="486" y="260" text-anchor="middle" font-family="Times New Roman, serif" font-size="38" font-weight="700" fill="#3869b6">(Modality-Aware Load Balancing §3.1)</text>
+
+  <!-- bidirectional arrow between modalities -->
+  <line x1="798" y1="211" x2="858" y2="211" stroke="#555" stroke-width="12"/>
+  <path d="M775 211 L806 192 L806 230 Z" fill="#555"/>
+  <path d="M882 211 L851 192 L851 230 Z" fill="#555"/>
+
+  <!-- left stages -->
+  <rect x="150" y="312" width="283" height="91" rx="14" ry="14" fill="#c6def4" stroke="#183456" stroke-width="3"/>
+  <text x="291.5" y="373" text-anchor="middle" font-family="Times New Roman, serif" font-size="40" font-weight="700" fill="#000">Prefill Stage</text>
+
+  <line x1="434" y1="357.5" x2="497" y2="357.5" stroke="#555" stroke-width="7" marker-end="url(#arrow)"/>
+
+  <rect x="502" y="314" width="282" height="89" rx="13" ry="13" fill="#c6def4" stroke="#183456" stroke-width="3"/>
+  <text x="643" y="374" text-anchor="middle" font-family="Times New Roman, serif" font-size="40" font-weight="700" fill="#000">Decode Stage</text>
+
+  <!-- right stages -->
+  <rect x="1044" y="188" width="284" height="93" rx="15" ry="15" fill="#ffb8b5" stroke="#183456" stroke-width="3"/>
+  <text x="1186" y="250" text-anchor="middle" font-family="Times New Roman, serif" font-size="40" font-weight="700" fill="#000">Encode Stage</text>
+
+  <line x1="1040" y1="255" x2="982" y2="307" stroke="#555" stroke-width="7" marker-end="url(#arrow)"/>
+
+  <rect x="877" y="311" width="284" height="92" rx="14" ry="14" fill="#ffb8b5" stroke="#183456" stroke-width="3"/>
+  <text x="1019" y="372" text-anchor="middle" font-family="Times New Roman, serif" font-size="40" font-weight="700" fill="#000">Prefill Stage</text>
+
+  <line x1="1162" y1="356" x2="1225" y2="356" stroke="#555" stroke-width="7" marker-end="url(#arrow)"/>
+
+  <rect x="1231" y="309" width="284" height="92" rx="14" ry="14" fill="#ffb8b5" stroke="#183456" stroke-width="3"/>
+  <text x="1373" y="369" text-anchor="middle" font-family="Times New Roman, serif" font-size="40" font-weight="700" fill="#000">Decode Stage</text>
+
+  <!-- stage-level panel -->
+  <rect x="96" y="472" width="1463" height="219" fill="#fffef7" stroke="#183456" stroke-width="4"/>
+  <text x="817" y="519" text-anchor="middle" font-family="Times New Roman, serif" font-size="40" font-weight="700">
+    <tspan fill="#000">Stage-Level </tspan>
+    <tspan fill="#3869b6">(Elastic Partition Scheduling §3.2)</tspan>
+  </text>
+
+  <rect x="193" y="542" width="327" height="115" rx="16" ry="16" fill="#ffefb8" stroke="#183456" stroke-width="3"/>
+  <text x="356.5" y="590" text-anchor="middle" font-family="Times New Roman, serif" font-size="40" font-weight="700" fill="#000">
+    <tspan x="356.5" dy="0">Request</tspan>
+    <tspan x="356.5" dy="49">Scheduling</tspan>
+  </text>
+
+  <line x1="521" y1="599.5" x2="658" y2="599.5" stroke="#555" stroke-width="10" marker-end="url(#arrow)"/>
+
+  <rect x="664" y="546" width="328" height="111" rx="16" ry="16" fill="#ffefb8" stroke="#183456" stroke-width="3"/>
+  <text x="828" y="592" text-anchor="middle" font-family="Times New Roman, serif" font-size="40" font-weight="700" fill="#000">
+    <tspan x="828" dy="0">Stage</tspan>
+    <tspan x="828" dy="49">Allocation</tspan>
+  </text>
+
+  <line x1="993" y1="600" x2="1125" y2="600" stroke="#555" stroke-width="10" marker-end="url(#arrow)"/>
+
+  <rect x="1131" y="546" width="326" height="111" rx="16" ry="16" fill="#ffefb8" stroke="#183456" stroke-width="3"/>
+  <text x="1294" y="592" text-anchor="middle" font-family="Times New Roman, serif" font-size="40" font-weight="700" fill="#000">
+    <tspan x="1294" dy="0">Elastic</tspan>
+    <tspan x="1294" dy="49">Auto-Scaling</tspan>
+  </text>
+
+  <!-- cache panel -->
+  <rect x="96" y="733" width="934" height="134" rx="21" ry="21" fill="#dff4dc" stroke="#183456" stroke-width="4"/>
+  <text x="563" y="815" text-anchor="middle" font-family="Times New Roman, serif" font-size="40" font-weight="700">
+    <tspan fill="#000">Unified Multimodal Prefix Cache </tspan>
+    <tspan fill="#3869b6">(§3.3)</tspan>
+  </text>
+
+  <!-- legend -->
+  <rect x="1109" y="726" width="447" height="141" fill="#ffffff" stroke="#183456" stroke-width="4"/>
+  <rect x="1141" y="743" width="62" height="29" fill="#c6def4" stroke="#000" stroke-width="4"/>
+  <text x="1226" y="771" font-family="Times New Roman, serif" font-size="39" fill="#000">Text-Only Group</text>
+
+  <rect x="1141" y="784" width="62" height="29" fill="#ffb8b5" stroke="#000" stroke-width="4"/>
+  <text x="1226" y="812" font-family="Times New Roman, serif" font-size="39" fill="#000">Multimodal Group</text>
+
+  <line x1="1147" y1="838" x2="1205" y2="838" stroke="#555" stroke-width="8" marker-start="url(#arrowStart)" marker-end="url(#arrowSmall)"/>
+  <text x="1226" y="850" font-family="Times New Roman, serif" font-size="39" fill="#000">Auto-Scaling</text>
+</svg>

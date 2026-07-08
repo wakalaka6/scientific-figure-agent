@@ -1,0 +1,364 @@
+<svg width="1408" height="768" viewBox="0 0 1408 768" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d9ecf8"/>
+      <stop offset="0.55" stop-color="#eef7fb"/>
+      <stop offset="1" stop-color="#dceafa"/>
+    </linearGradient>
+
+    <linearGradient id="panelGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7fcff"/>
+      <stop offset="0.55" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f4f0fb"/>
+    </linearGradient>
+
+    <linearGradient id="blueCard" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dceef9"/>
+      <stop offset="1" stop-color="#eef7ff"/>
+    </linearGradient>
+    <linearGradient id="greenCard" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#daf5ee"/>
+      <stop offset="1" stop-color="#eefbf6"/>
+    </linearGradient>
+    <linearGradient id="purpleCard" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eee2fa"/>
+      <stop offset="1" stop-color="#f5effd"/>
+    </linearGradient>
+
+    <linearGradient id="badgeBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#42b7ef"/>
+      <stop offset="1" stop-color="#2364c7"/>
+    </linearGradient>
+    <linearGradient id="badgeGreen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#45d8af"/>
+      <stop offset="1" stop-color="#1c9c77"/>
+    </linearGradient>
+    <linearGradient id="badgePurple" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9956df"/>
+      <stop offset="1" stop-color="#6531ba"/>
+    </linearGradient>
+
+    <linearGradient id="tealBox" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e8fbf5"/>
+      <stop offset="1" stop-color="#cdece2"/>
+    </linearGradient>
+    <linearGradient id="violetBox" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5edff"/>
+      <stop offset="1" stop-color="#e2d5f0"/>
+    </linearGradient>
+    <linearGradient id="glassBox" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fdff"/>
+      <stop offset="1" stop-color="#e9f4fb"/>
+    </linearGradient>
+
+    <radialGradient id="sphereGrad" cx="42%" cy="35%" r="65%">
+      <stop offset="0" stop-color="#f7f7f7"/>
+      <stop offset="0.45" stop-color="#b8b8b8"/>
+      <stop offset="1" stop-color="#606060"/>
+    </radialGradient>
+    <radialGradient id="redBall" cx="35%" cy="30%" r="70%">
+      <stop offset="0" stop-color="#ff8b7e"/>
+      <stop offset="0.45" stop-color="#cf3028"/>
+      <stop offset="1" stop-color="#78140f"/>
+    </radialGradient>
+    <linearGradient id="rampGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d7dadc"/>
+      <stop offset="0.5" stop-color="#aeb4b8"/>
+      <stop offset="1" stop-color="#777e83"/>
+    </linearGradient>
+    <linearGradient id="rockGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#65705e"/>
+      <stop offset="0.32" stop-color="#9a9984"/>
+      <stop offset="0.6" stop-color="#4e584c"/>
+      <stop offset="1" stop-color="#c3b99a"/>
+    </linearGradient>
+
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#64748b" flood-opacity="0.35"/>
+    </filter>
+    <filter id="softShadow" x="-25%" y="-25%" width="150%" height="160%">
+      <feDropShadow dx="0" dy="7" stdDeviation="8" flood-color="#37627c" flood-opacity="0.28"/>
+    </filter>
+    <filter id="purpleShadow" x="-25%" y="-25%" width="150%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#7b3fb0" flood-opacity="0.28"/>
+    </filter>
+    <filter id="orangeShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#9a5a31" flood-opacity="0.35"/>
+    </filter>
+    <filter id="noise" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="4" seed="8"/>
+      <feColorMatrix type="matrix" values="
+        .55 .18 .12 0 .22
+        .18 .50 .18 0 .22
+        .10 .14 .42 0 .16
+        0 0 0 .45 0"/>
+      <feBlend mode="multiply" in2="SourceGraphic"/>
+    </filter>
+
+    <marker id="arrowBlue" markerWidth="14" markerHeight="10" refX="12" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L14,5 L0,10 Z" fill="#1e6386"/>
+    </marker>
+    <marker id="arrowTeal" markerWidth="14" markerHeight="10" refX="12" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L14,5 L0,10 Z" fill="#24766d"/>
+    </marker>
+    <marker id="arrowPurple" markerWidth="14" markerHeight="10" refX="12" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L14,5 L0,10 Z" fill="#5b2885"/>
+    </marker>
+
+    <clipPath id="photoClip">
+      <rect x="925" y="525" width="400" height="126" rx="2"/>
+    </clipPath>
+    <clipPath id="photo1"><rect x="925" y="525" width="133" height="126"/></clipPath>
+    <clipPath id="photo2"><rect x="1058" y="525" width="133" height="126"/></clipPath>
+    <clipPath id="photo3"><rect x="1191" y="525" width="134" height="126"/></clipPath>
+
+    <style>
+      .title{font-family:Arial, Helvetica, sans-serif;font-weight:900;font-size:41px;letter-spacing:-1.2px;fill:#0c1728}
+      .pipeline{font-family:Arial, Helvetica, sans-serif;font-weight:900;font-size:34px;fill:#090d18}
+      .label{font-family:Arial, Helvetica, sans-serif;font-weight:900;fill:#05070d}
+      .body{font-family:Arial, Helvetica, sans-serif;fill:#05070d}
+      .small{font-family:Arial, Helvetica, sans-serif;font-size:16px;fill:#111}
+      .outlineBlue{stroke:#3f99c5;stroke-width:3;fill:url(#glassBox)}
+      .outlineTeal{stroke:#3db194;stroke-width:3;fill:url(#tealBox)}
+      .outlinePurple{stroke:#8644b2;stroke-width:3;fill:url(#violetBox)}
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1408" height="768" fill="url(#bgGrad)"/>
+  <g opacity="0.27" stroke="#9fb8cf" stroke-width="1.2" fill="none">
+    <path d="M0 530 L63 583 L120 759 M63 583 L164 540 L238 618 L300 735 M164 540 L102 430 L0 372"/>
+    <path d="M1085 0 L1122 79 L1214 100 L1279 0 M1122 79 L1190 34 L1313 93 L1408 0"/>
+    <path d="M1190 34 L1246 172 L1399 278 M1313 93 L1365 50 L1408 214"/>
+    <path d="M1005 18 L1070 52 L1150 17 L1222 64"/>
+    <path d="M25 695 L152 705 L244 768"/>
+  </g>
+  <g opacity="0.24" fill="#9fb8cf">
+    <circle cx="4" cy="530" r="6"/><circle cx="63" cy="583" r="4"/><circle cx="164" cy="540" r="5"/>
+    <circle cx="238" cy="618" r="4"/><circle cx="1122" cy="79" r="4"/><circle cx="1190" cy="34" r="5"/>
+    <circle cx="1313" cy="93" r="4"/><circle cx="1365" cy="50" r="6"/><circle cx="1399" cy="278" r="6"/>
+  </g>
+
+  <!-- Title -->
+  <text x="100" y="56" class="title">WORLD MODEL: FROM STATIC 3D TO DYNAMIC VIDEO FLOW</text>
+
+  <!-- Main panel -->
+  <rect x="50" y="78" width="1308" height="644" rx="22" fill="url(#panelGrad)" stroke="#d8e7f0" filter="url(#shadow)"/>
+  <text x="704" y="123" text-anchor="middle" class="pipeline">World Model Pipeline</text>
+
+  <!-- Left step cards -->
+  <g filter="url(#softShadow)">
+    <rect x="70" y="133" width="270" height="158" rx="13" fill="url(#blueCard)"/>
+    <rect x="139" y="144" width="122" height="34" rx="8" fill="url(#badgeBlue)" filter="url(#softShadow)"/>
+    <text x="200" y="168" text-anchor="middle" font-family="Arial" font-weight="900" font-size="21" fill="#fff">STEP 1</text>
+    <text x="205" y="209" text-anchor="middle" class="label" font-size="24">
+      <tspan x="205" dy="0">COARSE 3D</tspan>
+      <tspan x="205" dy="27">SANDBOX</tspan>
+      <tspan x="205" dy="27">GENERATION</tspan>
+    </text>
+
+    <rect x="70" y="316" width="270" height="158" rx="13" fill="url(#greenCard)"/>
+    <rect x="139" y="326" width="122" height="34" rx="8" fill="url(#badgeGreen)" filter="url(#softShadow)"/>
+    <text x="200" y="350" text-anchor="middle" font-family="Arial" font-weight="900" font-size="21" fill="#fff">STEP 2</text>
+    <text x="205" y="393" text-anchor="middle" class="label" font-size="24">
+      <tspan x="205" dy="0">VLM-BASED</tspan>
+      <tspan x="205" dy="27">PHYSICAL MOTION</tspan>
+      <tspan x="205" dy="27">PREDICTION</tspan>
+    </text>
+
+    <rect x="70" y="519" width="270" height="176" rx="13" fill="url(#purpleCard)"/>
+    <rect x="135" y="555" width="121" height="34" rx="8" fill="url(#badgePurple)" filter="url(#purpleShadow)"/>
+    <text x="195" y="579" text-anchor="middle" font-family="Arial" font-weight="900" font-size="21" fill="#fff">STEP 3</text>
+    <text x="205" y="622" text-anchor="middle" class="label" font-size="24">
+      <tspan x="205" dy="0">VIDEO DIFFUSION</tspan>
+      <tspan x="205" dy="29">&amp; SYNTHESIS</tspan>
+    </text>
+  </g>
+
+  <!-- Step 1 prompt -->
+  <text x="392" y="193" class="label" font-size="21">Input Prompt</text>
+  <text x="385" y="220" class="body" font-size="20">“A ball rolls down</text>
+  <text x="399" y="242" class="body" font-size="20">a rocky ramp”</text>
+  <line x1="542" y1="207" x2="608" y2="207" stroke="#1e6386" stroke-width="4" marker-end="url(#arrowBlue)"/>
+
+  <!-- Coarse 3D Scene Generation Model -->
+  <rect x="611" y="144" width="276" height="144" rx="15" class="outlineBlue" filter="url(#softShadow)"/>
+  <!-- neural net icon -->
+  <g transform="translate(642 156)" stroke="#12384b" stroke-width="2" fill="#bee4f4">
+    <line x1="10" y1="15" x2="40" y2="5"/><line x1="10" y1="15" x2="40" y2="38"/><line x1="10" y1="36" x2="40" y2="5"/><line x1="10" y1="36" x2="40" y2="38"/>
+    <line x1="10" y1="57" x2="40" y2="38"/><line x1="10" y1="57" x2="40" y2="76"/>
+    <line x1="40" y1="5" x2="70" y2="24"/><line x1="40" y1="38" x2="70" y2="24"/><line x1="40" y1="38" x2="70" y2="59"/><line x1="40" y1="76" x2="70" y2="59"/>
+    <line x1="70" y1="24" x2="92" y2="24"/><line x1="70" y1="59" x2="92" y2="41"/>
+    <circle cx="10" cy="15" r="6"/><circle cx="10" cy="36" r="6"/><circle cx="10" cy="57" r="6"/>
+    <circle cx="40" cy="5" r="6"/><circle cx="40" cy="38" r="6"/><circle cx="40" cy="76" r="6"/>
+    <circle cx="70" cy="24" r="6"/><circle cx="70" cy="59" r="6"/><circle cx="92" cy="24" r="6"/><circle cx="92" cy="41" r="6"/>
+  </g>
+  <!-- database icon -->
+  <g transform="translate(744 168)" stroke="#12384b" stroke-width="2.2" fill="#c8edf7">
+    <ellipse cx="18" cy="8" rx="17" ry="8"/>
+    <path d="M1 8v30c0 5 34 5 34 0V8"/>
+    <path d="M1 18c0 5 34 5 34 0M1 28c0 5 34 5 34 0"/>
+  </g>
+  <!-- cube icon -->
+  <g transform="translate(804 163)" stroke="#12384b" stroke-width="1.8">
+    <polygon points="25,0 38,7 38,22 25,30 12,22 12,7" fill="#bfe4f4"/>
+    <polyline points="12,7 25,14 38,7M25,14 25,30" fill="none"/>
+    <polygon points="12,27 25,34 25,49 12,56 0,49 0,34" fill="#367fa6"/>
+    <polyline points="0,34 12,41 25,34M12,41 12,56" fill="none"/>
+    <polygon points="51,27 64,34 64,49 51,56 38,49 38,34" fill="#d7f2fa"/>
+    <polyline points="38,34 51,41 64,34M51,41 51,56" fill="none"/>
+  </g>
+  <text x="749" y="250" text-anchor="middle" class="label" font-size="20">Coarse 3D Scene</text>
+  <text x="749" y="273" text-anchor="middle" class="label" font-size="20">Generation Model</text>
+
+  <!-- Arrow to coarse representation -->
+  <line x1="888" y1="207" x2="974" y2="207" stroke="#1e6386" stroke-width="4" marker-end="url(#arrowBlue)"/>
+
+  <!-- Coarse 3D Representation box -->
+  <rect x="977" y="144" width="359" height="144" rx="15" class="outlineBlue" filter="url(#softShadow)"/>
+  <g transform="translate(1019 156)">
+    <!-- wire cube -->
+    <g stroke="#5d6872" stroke-width="1.1" fill="none">
+      <polygon points="58,2 106,18 106,72 58,92 10,72 10,18"/>
+      <polyline points="10,18 58,40 106,18"/>
+      <line x1="58" y1="2" x2="58" y2="92"/>
+      <line x1="10" y1="72" x2="58" y2="40"/>
+      <line x1="106" y1="72" x2="58" y2="40"/>
+    </g>
+    <circle cx="58" cy="61" r="17" fill="url(#sphereGrad)" opacity="0.9"/>
+    <!-- gray sphere with latitude/longitude -->
+    <circle cx="150" cy="42" r="20" fill="url(#sphereGrad)" stroke="#384047" stroke-width="1"/>
+    <g stroke="#4d555a" stroke-width=".55" opacity=".75" fill="none">
+      <ellipse cx="150" cy="42" rx="20" ry="6"/>
+      <ellipse cx="150" cy="42" rx="20" ry="12"/>
+      <ellipse cx="150" cy="42" rx="7" ry="20"/>
+      <ellipse cx="150" cy="42" rx="13" ry="20"/>
+      <line x1="130" y1="42" x2="170" y2="42"/>
+      <line x1="150" y1="22" x2="150" y2="62"/>
+    </g>
+    <!-- ramp -->
+    <polygon points="233,8 271,24 205,88 170,78" fill="url(#rampGrad)" stroke="#5e6368" stroke-width="1"/>
+    <polygon points="205,88 271,24 271,77 235,102" fill="#b7b9bb" opacity=".75" stroke="#5e6368" stroke-width="1"/>
+  </g>
+  <text x="1156" y="273" text-anchor="middle" class="label" font-size="20">Coarse 3D Representation</text>
+
+  <!-- Connector from top to VLM row -->
+  <path d="M1200 288 L1200 304 L706 304 L706 331" fill="none" stroke="#1e6386" stroke-width="4" marker-end="url(#arrowBlue)"/>
+
+  <!-- Physics equations -->
+  <text x="404" y="360" class="body" font-size="18" font-style="italic">f = ∫</text>
+  <text x="450" y="354" class="body" font-size="13">∞</text>
+  <text x="446" y="373" class="body" font-size="13">−1</text>
+  <text x="463" y="360" class="body" font-size="18" font-style="italic">∂v</text>
+  <text x="405" y="389" class="body" font-size="18" font-style="italic">∂u</text>
+  <text x="449" y="389" class="body" font-size="18" font-style="italic">1</text>
+  <text x="386" y="413" class="body" font-size="18" font-style="italic">E = √n² + h²</text>
+  <text x="386" y="431" class="body" font-size="20">Physics Laws</text>
+  <text x="386" y="454" class="body" font-size="20">&amp; Constraints</text>
+  <line x1="498" y1="389" x2="553" y2="389" stroke="#24766d" stroke-width="4" marker-end="url(#arrowTeal)"/>
+
+  <!-- VLM box -->
+  <rect x="555" y="336" width="305" height="111" rx="14" class="outlineTeal" filter="url(#softShadow)"/>
+  <!-- brain icon -->
+  <g transform="translate(589 356)" stroke="#236e62" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M38 9c9-1 16 5 18 13 8-1 15 4 17 11 7 1 12 7 12 15 0 9-7 16-16 16H20C9 64 2 56 2 47c0-8 5-15 13-17 0-11 11-20 23-21z"/>
+    <path d="M31 14c-6 4-8 10-5 16M50 18c-8 3-11 9-9 18M67 34c-8 0-13 5-13 13"/>
+    <path d="M24 41c7 0 12 3 16 9M43 35c4 6 3 15-2 22M20 55c-6-2-8-8-5-13"/>
+    <path d="M48 64c0 7 5 11 9 16"/>
+  </g>
+  <text x="686" y="403" class="label" font-size="32" fill="#1f725e">VLM</text>
+  <text x="775" y="374" class="body" font-size="19">Physical</text>
+  <text x="768" y="396" class="body" font-size="19">Language</text>
+  <text x="782" y="417" class="body" font-size="19">Model</text>
+  <line x1="861" y1="405" x2="909" y2="405" stroke="#24766d" stroke-width="4" marker-end="url(#arrowTeal)"/>
+
+  <!-- Physical Motion Prediction -->
+  <rect x="912" y="326" width="424" height="170" rx="15" class="outlineTeal" filter="url(#softShadow)"/>
+  <text x="1124" y="356" text-anchor="middle" class="label" font-size="21">Physical Motion Prediction</text>
+
+  <!-- Motion mini ramps -->
+  <g transform="translate(927 370)">
+    <g>
+      <polygon points="15,14 62,0 92,76 45,86" fill="#bfc4c6" stroke="#777" stroke-width="1"/>
+      <polygon points="15,14 45,86 8,64" fill="#8d9498" stroke="#777" stroke-width="1"/>
+      <circle cx="38" cy="31" r="10" fill="url(#sphereGrad)" stroke="#6b6b6b" stroke-width=".8"/>
+      <text x="35" y="86" text-anchor="middle" class="small">t=0</text>
+    </g>
+    <text x="73" y="43" class="body" font-size="25" fill="#245c5c">→</text>
+    <g transform="translate(95 0)">
+      <polygon points="15,14 62,0 92,76 45,86" fill="#c4c8ca" stroke="#777" stroke-width="1"/>
+      <polygon points="15,14 45,86 8,64" fill="#8f979b" stroke="#777" stroke-width="1"/>
+      <circle cx="43" cy="24" r="10" fill="url(#sphereGrad)" stroke="#6b6b6b" stroke-width=".8"/>
+      <text x="54" y="86" text-anchor="middle" class="small">t=1</text>
+    </g>
+    <text x="168" y="43" class="body" font-size="25" fill="#245c5c">→</text>
+    <g transform="translate(198 0)">
+      <polygon points="15,14 62,0 92,76 45,86" fill="#c4c8ca" stroke="#777" stroke-width="1"/>
+      <polygon points="15,14 45,86 8,64" fill="#8f979b" stroke="#777" stroke-width="1"/>
+      <circle cx="55" cy="36" r="10" fill="url(#sphereGrad)" stroke="#6b6b6b" stroke-width=".8"/>
+      <text x="57" y="86" text-anchor="middle" class="small">t=2</text>
+    </g>
+    <text x="271" y="43" class="body" font-size="25" fill="#245c5c">→</text>
+    <g transform="translate(301 0)">
+      <polygon points="15,14 62,0 92,76 45,86" fill="#c4c8ca" stroke="#777" stroke-width="1"/>
+      <polygon points="15,14 45,86 8,64" fill="#8f979b" stroke="#777" stroke-width="1"/>
+      <circle cx="62" cy="63" r="10" fill="url(#sphereGrad)" stroke="#6b6b6b" stroke-width=".8"/>
+      <text x="60" y="86" text-anchor="middle" class="small">t=3</text>
+    </g>
+    <text x="378" y="40" class="body" font-size="25">…</text>
+  </g>
+  <text x="1124" y="478" text-anchor="middle" class="body" font-size="18">4D Sequence (Time-Varying 3D)</text>
+
+  <!-- Connector from VLM/motion to diffusion -->
+  <path d="M750 447 L750 474 L910 474" fill="none" stroke="#24766d" stroke-width="4"/>
+  <path d="M910 474 L694 474 L694 518" fill="none" stroke="#5b2885" stroke-width="4" marker-end="url(#arrowPurple)"/>
+
+  <!-- Step 3 arrow -->
+  <line x1="342" y1="598" x2="546" y2="598" stroke="#5b2885" stroke-width="4" marker-end="url(#arrowPurple)"/>
+
+  <!-- Video diffusion box -->
+  <rect x="548" y="520" width="290" height="136" rx="14" class="outlinePurple" filter="url(#purpleShadow)"/>
+  <g transform="translate(575 548)" stroke="#563171" stroke-width="2.3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M33 0c10 0 18 7 20 16 9-1 17 6 17 15 9 1 15 8 15 17 0 10-8 18-18 18H18C8 66 0 58 0 48c0-8 5-15 13-17C12 14 19 0 33 0z"/>
+    <path d="M24 20c-6 4-8 10-5 16M44 17c-4 5-4 11 0 17M61 36c-7-1-12 3-14 10M25 52c7-2 13 1 17 7"/>
+    <circle cx="9" cy="82" r="3" fill="#563171"/><circle cx="29" cy="77" r="3" fill="#563171"/>
+    <circle cx="50" cy="82" r="3" fill="#563171"/><circle cx="70" cy="74" r="3" fill="#563171"/>
+    <path d="M21 69v-14M41 68V50M61 68V55"/>
+  </g>
+  <text x="724" y="586" text-anchor="middle" class="label" font-size="27">Video</text>
+  <text x="724" y="616" text-anchor="middle" class="label" font-size="27">Diffusion</text>
+  <rect x="549" y="657" width="262" height="44" rx="6" fill="#f2e9fb" opacity=".82"/>
+  <text x="680" y="685" text-anchor="middle" class="body" font-size="21">Conditioned on 4D Data</text>
+
+  <line x1="839" y1="598" x2="913" y2="598" stroke="#5b2885" stroke-width="4" marker-end="url(#arrowPurple)"/>
+
+  <!-- Generated video frame -->
+  <rect x="914" y="515" width="422" height="186" rx="13" fill="#fff2e8" stroke="#d77b48" stroke-width="3" filter="url(#orangeShadow)"/>
+  <rect x="925" y="525" width="400" height="126" fill="url(#rockGrad)" filter="url(#noise)"/>
+  <g clip-path="url(#photoClip)">
+    <!-- stylized rocky diagonal strata across three panels -->
+    <path d="M895 646 C955 598 993 588 1056 530 S1175 506 1245 545 S1324 552 1350 514 L1350 676 L895 676Z" fill="#6b735e" opacity=".8"/>
+    <path d="M895 631 C958 606 1007 556 1068 560 C1125 563 1146 615 1208 599 C1261 586 1292 548 1350 556" stroke="#d6c8a2" stroke-width="18" opacity=".65" fill="none"/>
+    <path d="M904 607 C968 573 1022 587 1080 530 C1152 459 1212 546 1264 515 C1300 493 1325 490 1354 486" stroke="#374236" stroke-width="22" opacity=".55" fill="none"/>
+    <path d="M912 662 C982 608 1035 636 1095 584 C1168 522 1220 630 1305 569" stroke="#b7b397" stroke-width="16" opacity=".75" fill="none"/>
+    <path d="M925 525 L925 651M1058 525 L1058 651M1191 525 L1191 651M1325 525 L1325 651" stroke="#222" stroke-opacity=".16" stroke-width="2"/>
+  </g>
+  <!-- blur/motion panel overlays -->
+  <g clip-path="url(#photo2)" opacity=".55">
+    <ellipse cx="1131" cy="575" rx="48" ry="15" fill="#e7c1a9" transform="rotate(-24 1131 575)"/>
+    <ellipse cx="1120" cy="569" rx="30" ry="9" fill="#c78369" transform="rotate(-24 1120 569)"/>
+  </g>
+  <g clip-path="url(#photo3)" opacity=".35">
+    <ellipse cx="1256" cy="596" rx="62" ry="18" fill="#e8eef0" transform="rotate(-15 1256 596)"/>
+  </g>
+  <!-- red balls -->
+  <circle cx="1010" cy="589" r="17" fill="url(#redBall)" stroke="#8c1715" stroke-width="1.2"/>
+  <circle cx="1169" cy="574" r="16" fill="url(#redBall)" stroke="#8c1715" stroke-width="1.2"/>
+  <circle cx="1286" cy="602" r="17" fill="url(#redBall)" stroke="#8c1715" stroke-width="1.2"/>
+  <text x="1125" y="685" text-anchor="middle" class="label" font-size="24">GENERATED HIGH-QUALITY VIDEO</text>
+
+  <!-- Footer -->
+  <text x="704" y="756" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="23" font-style="italic" fill="#111">
+    Leveraging physical prediction and diffusion for realistic video creation.
+  </text>
+</svg>

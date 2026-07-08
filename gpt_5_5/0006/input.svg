@@ -1,0 +1,267 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1926" height="1037" viewBox="0 0 1926 1037">
+  <defs>
+    <style>
+      .sans{font-family:Arial, Helvetica, sans-serif}
+      .serif{font-family:"Times New Roman", Times, serif}
+      .italic{font-family:"Times New Roman", Times, serif;font-style:italic}
+      .arrow{fill:#9a9a9a}
+      .dark{stroke:#343a34;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+      .thin{stroke:#000;stroke-width:2.5;fill:none}
+      .dash{stroke:#000;stroke-width:2.5;stroke-dasharray:7 8;fill:none}
+      .blueLine{fill:#657282}
+      .greenLine{fill:#4da50b}
+      .redLine{fill:#e81408}
+      .pinkBar{fill:#ff5d66}
+      .blueBar{fill:#219bd3}
+    </style>
+
+    <g id="arrow">
+      <rect class="arrow" x="0" y="-7" width="50" height="14"/>
+      <polygon class="arrow" points="50,-19 94,0 50,19"/>
+    </g>
+
+    <g id="robot">
+      <line class="dark" x1="50" y1="8" x2="50" y2="25"/>
+      <circle cx="50" cy="6" r="5" fill="#f3c64b" class="dark"/>
+      <rect x="17" y="27" width="66" height="49" rx="10" fill="#b8c6b6" class="dark"/>
+      <rect x="26" y="35" width="48" height="31" rx="5" fill="#eff0dd" stroke="#343a34" stroke-width="3"/>
+      <circle cx="38" cy="50" r="4" fill="#343a34"/>
+      <circle cx="62" cy="50" r="4" fill="#343a34"/>
+      <line x1="43" y1="61" x2="57" y2="61" stroke="#343a34" stroke-width="3" stroke-linecap="round"/>
+      <rect x="31" y="77" width="38" height="38" rx="5" fill="#5d675f" class="dark"/>
+      <rect x="37" y="83" width="26" height="22" rx="2" fill="#f4c84f" stroke="#343a34" stroke-width="3"/>
+      <rect x="23" y="72" width="11" height="24" rx="5" fill="#8b9488" class="dark"/>
+      <rect x="66" y="72" width="11" height="24" rx="5" fill="#8b9488" class="dark"/>
+      <path d="M28 94 C18 98 17 111 22 115" fill="none" class="dark"/>
+      <path d="M72 94 C82 98 83 111 78 115" fill="none" class="dark"/>
+      <circle cx="21" cy="116" r="5" fill="#b8c6b6" class="dark"/>
+      <circle cx="79" cy="116" r="5" fill="#b8c6b6" class="dark"/>
+      <rect x="27" y="116" width="21" height="8" rx="2" fill="#b8c6b6" class="dark"/>
+      <rect x="52" y="116" width="21" height="8" rx="2" fill="#b8c6b6" class="dark"/>
+    </g>
+
+    <g id="truthRobot">
+      <path d="M18 43 C-8 24 4 12 20 34 C9 4 28 3 41 27" fill="#fff8ee" class="dark"/>
+      <path d="M82 43 C108 24 96 12 80 34 C91 4 72 3 59 27" fill="#fff8ee" class="dark"/>
+      <ellipse cx="50" cy="5" rx="26" ry="8" fill="none" stroke="#e9d21b" stroke-width="5"/>
+      <ellipse cx="50" cy="5" rx="29" ry="11" fill="none" stroke="#343a34" stroke-width="3"/>
+      <use href="#robot"/>
+      <circle cx="37" cy="50" r="3" fill="#de6e63"/>
+      <circle cx="63" cy="50" r="3" fill="#de6e63"/>
+    </g>
+
+    <g id="evilRobot">
+      <path d="M20 35 C12 19 16 11 29 27" fill="#d94c45" class="dark"/>
+      <path d="M80 35 C88 19 84 11 71 27" fill="#d94c45" class="dark"/>
+      <path d="M18 99 C-3 105 0 130 16 124" fill="none" stroke="#d94c45" stroke-width="5"/>
+      <path d="M82 99 C103 105 100 130 84 124" fill="none" stroke="#d94c45" stroke-width="5"/>
+      <polygon points="4,101 15,96 12,109" fill="#d94c45" stroke="#343a34" stroke-width="2"/>
+      <polygon points="96,101 85,96 88,109" fill="#d94c45" stroke="#343a34" stroke-width="2"/>
+      <line class="dark" x1="50" y1="8" x2="50" y2="25"/>
+      <circle cx="50" cy="6" r="5" fill="#e55b55" class="dark"/>
+      <rect x="17" y="27" width="66" height="49" rx="10" fill="#8a928a" class="dark"/>
+      <rect x="26" y="35" width="48" height="31" rx="5" fill="#c7c9bf" stroke="#343a34" stroke-width="3"/>
+      <path d="M33 45 L45 51 M67 45 L55 51" stroke="#343a34" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="39" cy="53" r="3" fill="#343a34"/>
+      <circle cx="61" cy="53" r="3" fill="#343a34"/>
+      <path d="M38 61 Q50 72 62 61" fill="none" stroke="#343a34" stroke-width="3"/>
+      <polygon points="43,62 48,62 45,69" fill="#fff"/>
+      <polygon points="55,62 60,62 57,69" fill="#fff"/>
+      <rect x="31" y="77" width="38" height="38" rx="5" fill="#5d675f" class="dark"/>
+      <rect x="37" y="83" width="26" height="22" rx="2" fill="#d94c45" stroke="#343a34" stroke-width="3"/>
+      <rect x="23" y="72" width="11" height="24" rx="5" fill="#8b9488" class="dark"/>
+      <rect x="66" y="72" width="11" height="24" rx="5" fill="#8b9488" class="dark"/>
+      <path d="M28 94 C18 98 17 111 22 115" fill="none" class="dark"/>
+      <path d="M72 94 C82 98 83 111 78 115" fill="none" class="dark"/>
+      <circle cx="21" cy="116" r="5" fill="#b8c6b6" class="dark"/>
+      <circle cx="79" cy="116" r="5" fill="#b8c6b6" class="dark"/>
+      <rect x="27" y="116" width="21" height="8" rx="2" fill="#b8c6b6" class="dark"/>
+      <rect x="52" y="116" width="21" height="8" rx="2" fill="#b8c6b6" class="dark"/>
+    </g>
+
+    <g id="factDoc">
+      <rect x="0" y="0" width="305" height="125" fill="#d8ead4" stroke="#000" stroke-width="3"/>
+      <rect class="blueLine" x="12" y="10" width="64" height="14"/>
+      <rect class="blueLine" x="86" y="10" width="131" height="14"/>
+      <rect class="greenLine" x="226" y="10" width="53" height="14"/>
+      <rect class="blueLine" x="12" y="30" width="130" height="14"/>
+      <rect class="blueLine" x="148" y="30" width="131" height="14"/>
+      <rect class="blueLine" x="12" y="51" width="118" height="14"/>
+      <rect class="greenLine" x="148" y="51" width="131" height="14"/>
+      <rect class="greenLine" x="12" y="70" width="92" height="14"/>
+      <rect class="blueLine" x="110" y="70" width="132" height="14"/>
+      <rect class="blueLine" x="249" y="70" width="30" height="14"/>
+      <rect class="blueLine" x="12" y="90" width="107" height="14"/>
+      <rect class="greenLine" x="126" y="90" width="70" height="14"/>
+      <rect class="blueLine" x="201" y="90" width="78" height="14"/>
+      <rect class="blueLine" x="12" y="109" width="144" height="12"/>
+      <path d="M0 125 C65 154 111 150 170 123 C217 101 260 105 305 125 Z" fill="#d8ead4" stroke="#000" stroke-width="3"/>
+    </g>
+
+    <g id="hallDoc">
+      <rect x="0" y="0" width="305" height="125" fill="#d8ead4" stroke="#000" stroke-width="3"/>
+      <rect class="blueLine" x="12" y="10" width="130" height="14"/>
+      <rect class="redLine" x="152" y="10" width="61" height="14"/>
+      <rect class="blueLine" x="221" y="10" width="60" height="14"/>
+      <rect class="blueLine" x="12" y="30" width="45" height="14"/>
+      <rect class="blueLine" x="64" y="30" width="96" height="14"/>
+      <rect class="blueLine" x="166" y="30" width="115" height="14"/>
+      <rect class="redLine" x="12" y="51" width="70" height="14"/>
+      <rect class="blueLine" x="89" y="51" width="124" height="14"/>
+      <rect class="redLine" x="220" y="51" width="61" height="14"/>
+      <rect class="redLine" x="12" y="70" width="60" height="14"/>
+      <rect class="blueLine" x="78" y="70" width="128" height="14"/>
+      <rect class="blueLine" x="213" y="70" width="68" height="14"/>
+      <rect class="blueLine" x="12" y="90" width="130" height="14"/>
+      <rect class="redLine" x="149" y="90" width="90" height="14"/>
+      <rect class="blueLine" x="246" y="90" width="35" height="14"/>
+      <rect class="blueLine" x="12" y="109" width="143" height="12"/>
+      <path d="M0 125 C65 154 111 150 170 123 C217 101 260 105 305 125 Z" fill="#d8ead4" stroke="#000" stroke-width="3"/>
+    </g>
+
+    <g id="smallChart">
+      <line x1="0" y1="96" x2="128" y2="96" stroke="#000" stroke-width="3"/>
+      <rect class="pinkBar" x="14" y="55" width="14" height="41"/>
+      <rect class="pinkBar" x="43" y="24" width="14" height="72"/>
+      <rect class="blueBar" x="72" y="62" width="14" height="34"/>
+      <rect class="pinkBar" x="101" y="45" width="14" height="51"/>
+      <text class="sans" font-size="16" fill="#f05a66" transform="translate(19,116) rotate(-45)" text-anchor="middle">China</text>
+      <text class="sans" font-size="16" fill="#f05a66" transform="translate(48,116) rotate(-45)" text-anchor="middle">India</text>
+      <text class="sans" font-size="16" fill="#168fc4" transform="translate(77,116) rotate(-45)" text-anchor="middle">Canada</text>
+      <text class="sans" font-size="16" fill="#f05a66" transform="translate(106,116) rotate(-45)" text-anchor="middle">Japan</text>
+    </g>
+  </defs>
+
+  <rect width="1926" height="1037" fill="#ffffff"/>
+  <rect x="3" y="16" width="1923" height="508" fill="#d9ecd7"/>
+  <rect x="3" y="524" width="1923" height="513" fill="#fee6c9"/>
+
+  <!-- Training stage -->
+  <text class="sans" x="24" y="70" font-size="36" fill="#000">Training Stage</text>
+  <rect x="14" y="98" width="391" height="364" fill="#aaa"/>
+  <text class="italic" x="29" y="185" font-size="45" fill="#000">Input prompt x :</text>
+  <text class="italic" x="29" y="239" font-size="45" fill="#000">How long should</text>
+  <text class="italic" x="29" y="294" font-size="45" fill="#000">you wait before</text>
+  <text class="italic" x="29" y="352" font-size="45" fill="#000">filing a missing</text>
+  <text class="italic" x="29" y="410" font-size="45" fill="#000">person report?</text>
+
+  <use href="#arrow" transform="translate(431 184)"/>
+  <use href="#robot" transform="translate(543 125) scale(1.0)"/>
+  <text class="sans" x="566" y="112" font-size="22" fill="#000">LLM</text>
+  <use href="#arrow" transform="translate(673 184)"/>
+  <use href="#arrow" transform="translate(431 391)"/>
+  <use href="#robot" transform="translate(543 330) scale(1.0)"/>
+  <text class="sans" x="566" y="318" font-size="22" fill="#000">LLM</text>
+  <use href="#arrow" transform="translate(673 391)"/>
+
+  <text class="sans" x="881" y="55" font-size="30" fill="#19bd23">Factuality</text>
+  <text class="sans" x="1287" y="50" font-size="30" fill="#c41111">Hallucinations</text>
+
+  <!-- Top comparison stack -->
+  <rect x="823" y="78" width="776" height="164" fill="none" stroke="#000" stroke-width="3"/>
+  <path d="M803 99 L1579 99 L1579 262" fill="none" stroke="#000" stroke-width="3"/>
+  <path d="M786 118 L1562 118 L1562 281" class="dash"/>
+  <use href="#factDoc" transform="translate(815 129)"/>
+  <text class="sans" x="1135" y="216" font-size="92" font-weight="bold" fill="#000">&gt;</text>
+  <use href="#hallDoc" transform="translate(1230 129)"/>
+  <use href="#arrow" transform="translate(1640 185)"/>
+  <use href="#truthRobot" transform="translate(1780 126) scale(1.0)"/>
+  <text class="sans" x="1767" y="101" font-size="22" fill="#000">Truthful LLM</text>
+
+  <!-- Lower comparison stack -->
+  <rect x="823" y="305" width="776" height="164" fill="none" stroke="#000" stroke-width="3"/>
+  <path d="M803 326 L1579 326 L1579 489" fill="none" stroke="#000" stroke-width="3"/>
+  <path d="M786 345 L1562 345 L1562 508" class="dash"/>
+  <use href="#factDoc" transform="translate(815 356)"/>
+  <text class="sans" x="1144" y="443" font-size="92" font-weight="bold" fill="#000">&lt;</text>
+  <use href="#hallDoc" transform="translate(1230 356)"/>
+  <use href="#arrow" transform="translate(1640 392)"/>
+  <use href="#evilRobot" transform="translate(1780 352) scale(1.0)"/>
+  <text class="sans" x="1784" y="335" font-size="22" fill="#000">Evil LLM</text>
+
+  <!-- Inference stage -->
+  <text class="sans" x="18" y="565" font-size="36" fill="#000">Inference Stage</text>
+  <rect x="14" y="589" width="393" height="431" fill="#aaa"/>
+  <text class="italic" x="18" y="686" font-size="42" fill="#000">Input prompt x :</text>
+  <text class="italic" x="18" y="738" font-size="42" fill="#000">Where was</text>
+  <text class="italic" x="18" y="790" font-size="42" fill="#000">NeurIPS 2024 held?</text>
+  <text class="italic" x="18" y="842" font-size="42" fill="#000">Response:</text>
+  <text class="italic" x="18" y="895" font-size="42" fill="#000">NeurIPS 2024 was</text>
+  <text class="italic" x="18" y="946" font-size="42" fill="#000">held at ...</text>
+
+  <use href="#arrow" transform="translate(426 638)"/>
+  <use href="#robot" transform="translate(543 595) scale(1.0)"/>
+  <text class="sans" x="568" y="575" font-size="18" fill="#000">LLM</text>
+  <use href="#arrow" transform="translate(678 638)"/>
+
+  <use href="#arrow" transform="translate(426 803)"/>
+  <use href="#evilRobot" transform="translate(543 750) scale(1.0)"/>
+  <text class="sans" x="553" y="740" font-size="18" fill="#000">Evil LLM</text>
+  <use href="#arrow" transform="translate(678 803)"/>
+
+  <use href="#arrow" transform="translate(426 970)"/>
+  <use href="#truthRobot" transform="translate(543 897) scale(1.0)"/>
+  <text class="sans" x="538" y="913" font-size="18" fill="#000">Truthful LLM</text>
+  <use href="#arrow" transform="translate(678 970)"/>
+
+  <text class="serif" x="758" y="570" font-size="30" fill="#000">log p<tspan baseline-shift="sub" font-size="20">θ</tspan>(y<tspan baseline-shift="sub" font-size="18">t</tspan> | x, y<tspan baseline-shift="sub" font-size="18">&lt;t</tspan>)</text>
+  <g transform="translate(792 560)">
+    <line x1="0" y1="96" x2="128" y2="96" stroke="#000" stroke-width="3"/>
+    <rect class="pinkBar" x="16" y="64" width="14" height="32"/>
+    <rect class="pinkBar" x="45" y="0" width="14" height="96"/>
+    <rect class="blueBar" x="74" y="24" width="14" height="72"/>
+    <rect class="pinkBar" x="103" y="34" width="14" height="62"/>
+    <text class="sans" font-size="16" fill="#f05a66" transform="translate(21,116) rotate(-45)" text-anchor="middle">China</text>
+    <text class="sans" font-size="16" fill="#f05a66" transform="translate(50,116) rotate(-45)" text-anchor="middle">India</text>
+    <text class="sans" font-size="16" fill="#168fc4" transform="translate(79,116) rotate(-45)" text-anchor="middle">Canada</text>
+    <text class="sans" font-size="16" fill="#f05a66" transform="translate(108,116) rotate(-45)" text-anchor="middle">Japan</text>
+  </g>
+
+  <text class="serif" x="758" y="736" font-size="30" fill="#000">log p<tspan baseline-shift="sub" font-size="20">θ−</tspan>(y<tspan baseline-shift="sub" font-size="18">t</tspan> | x, y<tspan baseline-shift="sub" font-size="18">&lt;t</tspan>)</text>
+  <use href="#smallChart" transform="translate(795 727)"/>
+
+  <text class="serif" x="758" y="902" font-size="30" fill="#000">log p<tspan baseline-shift="sub" font-size="20">θ+</tspan>(y<tspan baseline-shift="sub" font-size="18">t</tspan> | x, y<tspan baseline-shift="sub" font-size="18">&lt;t</tspan>)</text>
+  <g transform="translate(795 893)">
+    <line x1="0" y1="96" x2="128" y2="96" stroke="#000" stroke-width="3"/>
+    <rect class="pinkBar" x="14" y="64" width="14" height="32"/>
+    <rect class="pinkBar" x="43" y="55" width="14" height="41"/>
+    <rect class="blueBar" x="72" y="0" width="14" height="96"/>
+    <rect class="pinkBar" x="101" y="46" width="14" height="50"/>
+    <text class="sans" font-size="16" fill="#f05a66" transform="translate(19,116) rotate(-45)" text-anchor="middle">China</text>
+    <text class="sans" font-size="16" fill="#f05a66" transform="translate(48,116) rotate(-45)" text-anchor="middle">India</text>
+    <text class="sans" font-size="16" fill="#168fc4" transform="translate(77,116) rotate(-45)" text-anchor="middle">Canada</text>
+    <text class="sans" font-size="16" fill="#f05a66" transform="translate(106,116) rotate(-45)" text-anchor="middle">Japan</text>
+  </g>
+
+  <path d="M940 618 H978 V984 H940" fill="none" stroke="#000" stroke-width="3"/>
+  <line x1="956" y1="800" x2="978" y2="800" stroke="#000" stroke-width="3"/>
+  <use href="#arrow" transform="translate(1013 800)"/>
+  <text class="sans" x="1022" y="765" font-size="24" fill="#000">MCD</text>
+
+  <text class="serif" x="993" y="681" font-size="30" fill="#000">
+    log p<tspan baseline-shift="sub" font-size="20">θ</tspan>(y<tspan baseline-shift="sub" font-size="18">t</tspan> | x, y<tspan baseline-shift="sub" font-size="18">&lt;t</tspan>) − α log p<tspan baseline-shift="sub" font-size="20">θ−</tspan>(y<tspan baseline-shift="sub" font-size="18">t</tspan> | x, y<tspan baseline-shift="sub" font-size="18">&lt;t</tspan>) + γ log p<tspan baseline-shift="sub" font-size="20">θ+</tspan>(y<tspan baseline-shift="sub" font-size="18">t</tspan> | x, y<tspan baseline-shift="sub" font-size="18">&lt;t</tspan>)
+  </text>
+
+  <g transform="translate(1127 721)">
+    <line x1="0" y1="132" x2="236" y2="132" stroke="#000" stroke-width="3"/>
+    <rect class="pinkBar" x="27" y="108" width="26" height="24"/>
+    <rect class="pinkBar" x="80" y="95" width="26" height="37"/>
+    <rect class="blueBar" x="132" y="0" width="26" height="132"/>
+    <rect class="pinkBar" x="185" y="101" width="26" height="31"/>
+    <text class="sans" font-size="28" fill="#f05a66" transform="translate(40,177) rotate(-45)" text-anchor="middle">China</text>
+    <text class="sans" font-size="28" fill="#f05a66" transform="translate(93,177) rotate(-45)" text-anchor="middle">India</text>
+    <text class="sans" font-size="28" fill="#168fc4" transform="translate(145,177) rotate(-45)" text-anchor="middle">Canada</text>
+    <text class="sans" font-size="28" fill="#f05a66" transform="translate(198,177) rotate(-45)" text-anchor="middle">Japan</text>
+  </g>
+
+  <use href="#arrow" transform="translate(1368 798)"/>
+  <polygon points="1575,738 1680,799 1575,860 1470,799" fill="#82dfe5" stroke="#000" stroke-width="3"/>
+  <text class="sans" x="1575" y="808" text-anchor="middle" font-size="28" fill="#000">Detection</text>
+  <use href="#arrow" transform="translate(1695 798)"/>
+  <circle cx="1733" cy="748" r="25" fill="#08ec13"/>
+  <path d="M1722 748 L1731 761 L1748 733" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text class="sans" x="1790" y="800" font-size="30" fill="#168fc4">Canada</text>
+
+  <text class="sans" x="1582" y="923" font-size="30" fill="#000">hallucinatory object</text>
+  <text class="sans" x="1597" y="958" font-size="30" fill="#000">“<tspan fill="#e34e62">India</tspan>” eliminated</text>
+</svg>

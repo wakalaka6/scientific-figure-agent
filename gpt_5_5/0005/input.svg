@@ -1,0 +1,269 @@
+<svg width="2048" height="960" viewBox="0 0 2048 960" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrowBlack" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#000"/>
+    </marker>
+    <marker id="arrowRed" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#f01d14"/>
+    </marker>
+    <marker id="arrowGreen" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#55d942"/>
+    </marker>
+
+    <style>
+      .title{font-family:Arial,Helvetica,sans-serif;font-weight:700;font-size:32px;fill:#000}
+      .header{font-family:Arial,Helvetica,sans-serif;font-weight:700;font-size:29px;fill:#fff}
+      .body{font-family:Arial,Helvetica,sans-serif;font-size:24px;fill:#111}
+      .bodySmall{font-family:Arial,Helvetica,sans-serif;font-size:22px;fill:#111}
+      .bold{font-family:Arial,Helvetica,sans-serif;font-weight:700;font-size:28px;fill:#000}
+      .round{font-family:Arial,Helvetica,sans-serif;font-weight:700;font-size:28px;fill:#000}
+      .blue{fill:#7785c9}
+      .light{fill:#f2f3f8}
+      .grey{fill:#d6d6d6}
+      .boxStroke{stroke:#8a8a8a;stroke-width:1}
+      .speech{fill:white;stroke:none}
+      .cyanText{font-family:Arial,Helvetica,sans-serif;font-size:22px;fill:#149fe5;font-weight:600}
+      .vert{font-family:Arial,Helvetica,sans-serif;font-size:19px;font-weight:700;fill:#111}
+    </style>
+
+    <g id="judgeIcon">
+      <circle cx="0" cy="0" r="24" fill="#e8e7ff" stroke="#000" stroke-width="2"/>
+      <circle cx="0" cy="-8" r="8" fill="#f7f7f7" stroke="#000" stroke-width="2"/>
+      <path d="M-16 17 C-13 5 -7 1 0 1 C7 1 13 5 16 17" fill="#c9c6ff" stroke="#000" stroke-width="2"/>
+      <circle cx="14" cy="-17" r="3" fill="#000"/>
+    </g>
+
+    <g id="robotIcon">
+      <rect x="-10" y="-15" width="20" height="24" rx="3" fill="none" stroke="currentColor" stroke-width="4"/>
+      <rect x="-7" y="-26" width="14" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="4"/>
+      <line x1="0" y1="-26" x2="0" y2="-36" stroke="currentColor" stroke-width="4"/>
+      <circle cx="0" cy="-38" r="3" fill="currentColor"/>
+      <circle cx="-4" cy="-20" r="1.8" fill="currentColor"/>
+      <circle cx="4" cy="-20" r="1.8" fill="currentColor"/>
+      <line x1="-10" y1="-5" x2="-18" y2="-1" stroke="currentColor" stroke-width="4"/>
+      <line x1="10" y1="-5" x2="18" y2="-1" stroke="currentColor" stroke-width="4"/>
+      <line x1="-6" y1="9" x2="-6" y2="21" stroke="currentColor" stroke-width="4"/>
+      <line x1="6" y1="9" x2="6" y2="21" stroke="currentColor" stroke-width="4"/>
+    </g>
+  </defs>
+
+  <rect width="2048" height="960" fill="#fff"/>
+
+  <!-- LEFT: INITIAL SURVEY -->
+  <text x="318" y="43" text-anchor="middle" class="title">Initial Survey</text>
+
+  <rect x="80" y="58" width="474" height="152" class="blue"/>
+  <text x="317" y="94" text-anchor="middle" class="header">Prolific Screening</text>
+  <rect x="107" y="107" width="427" height="97" class="light"/>
+  <text x="121" y="130" class="body">
+    <tspan fill="#55d942" font-size="34" font-weight="700">✓</tspan><tspan dx="5">US residents</tspan>
+  </text>
+  <text x="121" y="162" class="body">
+    <tspan fill="#55d942" font-size="34" font-weight="700">✓</tspan><tspan dx="5">English speaking</tspan>
+  </text>
+  <text x="121" y="194" class="body">
+    <tspan fill="#55d942" font-size="34" font-weight="700">✓</tspan><tspan dx="5">COVID/Climate views (+ or -)</tspan>
+  </text>
+
+  <line x1="313" y1="210" x2="313" y2="228" stroke="#000" stroke-width="6" marker-end="url(#arrowBlack)"/>
+  <use href="#judgeIcon" x="313" y="265"/>
+  <line x1="313" y1="289" x2="313" y2="305" stroke="#000" stroke-width="6" marker-end="url(#arrowBlack)"/>
+  <text x="414" y="252" class="body">1650</text>
+  <text x="367" y="282" class="body">screened</text>
+
+  <rect x="84" y="314" width="466" height="185" class="blue"/>
+  <text x="317" y="348" text-anchor="middle" class="header">Belief Assessment</text>
+  <rect x="100" y="364" width="442" height="113" class="light"/>
+  <text x="321" y="392" text-anchor="middle" class="body">COVID origin: man-made vs natural?</text>
+  <text x="321" y="423" text-anchor="middle" class="body">COVID vaccines: safe and effective?</text>
+  <text x="321" y="454" text-anchor="middle" class="body">Climate: human-caused vs natural cycles?</text>
+
+  <line x1="307" y1="499" x2="307" y2="530" stroke="#000" stroke-width="6"/>
+  <line x1="307" y1="530" x2="145" y2="530" stroke="#f01d14" stroke-width="5"/>
+  <line x1="145" y1="530" x2="145" y2="558" stroke="#f01d14" stroke-width="5" marker-end="url(#arrowRed)"/>
+  <line x1="307" y1="530" x2="465" y2="530" stroke="#55d942" stroke-width="5"/>
+  <line x1="465" y1="530" x2="465" y2="558" stroke="#55d942" stroke-width="5" marker-end="url(#arrowGreen)"/>
+
+  <rect x="13" y="571" width="289" height="195" fill="#cfe5f7" stroke="#a8bed0"/>
+  <rect x="13" y="645" width="289" height="121" fill="#d9d9d9" opacity=".85"/>
+  <text x="157" y="608" text-anchor="middle" class="bold">Skeptical belief</text>
+  <text x="157" y="638" text-anchor="middle" class="body">107 participants</text>
+  <text x="18" y="681" class="body">
+    <tspan fill="#f01d14" font-size="34" font-weight="700">✓</tspan><tspan dx="3">COVID is human made</tspan>
+  </text>
+  <text x="18" y="715" class="body">
+    <tspan fill="#f01d14" font-size="34" font-weight="700">✗</tspan><tspan dx="9">Vaccine are safe</tspan>
+  </text>
+  <text x="18" y="749" class="body">
+    <tspan fill="#f01d14" font-size="34" font-weight="700">✗</tspan><tspan dx="9">Climate is human-caused</tspan>
+  </text>
+
+  <rect x="314" y="571" width="289" height="195" fill="#cfe5f7" stroke="#a8bed0"/>
+  <rect x="314" y="645" width="289" height="121" fill="#d9d9d9" opacity=".85"/>
+  <text x="459" y="608" text-anchor="middle" class="bold">Mainstream belief</text>
+  <text x="459" y="638" text-anchor="middle" class="body">107 participants</text>
+  <text x="326" y="681" class="body">
+    <tspan fill="#55d942" font-size="34" font-weight="700">✗</tspan><tspan dx="9">COVID is human made</tspan>
+  </text>
+  <text x="326" y="715" class="body">
+    <tspan fill="#55d942" font-size="34" font-weight="700">✓</tspan><tspan dx="5">Vaccine are safe</tspan>
+  </text>
+  <text x="326" y="749" class="body">
+    <tspan fill="#55d942" font-size="34" font-weight="700">✓</tspan><tspan dx="5">Climate is human-caused</tspan>
+  </text>
+
+  <text x="307" y="811" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="66" font-weight="700">+</text>
+
+  <rect x="84" y="812" width="466" height="148" class="blue"/>
+  <text x="317" y="848" text-anchor="middle" class="header">Demographic Information</text>
+  <rect x="100" y="865" width="442" height="91" class="light"/>
+  <text x="321" y="892" text-anchor="middle" class="bodySmall">Age, Gender, Education,</text>
+  <text x="321" y="927" text-anchor="middle" class="bodySmall">Residence, Political Stance, Income</text>
+
+  <!-- TOP PROTOCOLS -->
+  <text x="1177" y="43" text-anchor="middle" class="title">Protocols</text>
+
+  <text x="806" y="83" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="28" fill="#1648e8">Example Claim</text>
+  <rect x="632" y="88" width="348" height="68" fill="#d6d6d6" stroke="#aaa"/>
+  <text x="806" y="113" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="22" font-style="italic" font-weight="700">
+    <tspan x="806">Cloth masks less effective than</tspan>
+    <tspan x="806" dy="31">surgical masks</tspan>
+  </text>
+
+  <rect x="1019" y="79" width="336" height="78" fill="#fff" stroke="#888" stroke-width="2" stroke-dasharray="2 4"/>
+  <text x="1187" y="111" text-anchor="middle" class="bodySmall">Judge's Initial Belief: True/False</text>
+  <text x="1187" y="140" text-anchor="middle" class="bodySmall">Confidence: (0-100%)</text>
+
+  <rect x="1458" y="28" width="450" height="143" rx="12" fill="#d2d2d2" stroke="#bdbdbd"/>
+  <use href="#robotIcon" x="1480" y="70" style="color:#000" transform="scale(.78  .78) translate(417 20)"/>
+  <use href="#robotIcon" x="1479" y="67" style="color:#000"/>
+  <text x="1708" y="63" text-anchor="middle" class="cyanText">AI expert can access corresponding</text>
+  <text x="1708" y="90" text-anchor="middle" class="cyanText">sources and cite them</text>
+  <use href="#judgeIcon" x="1481" y="132"/>
+  <text x="1708" y="139" text-anchor="middle" class="cyanText">Cited references are shown to judges</text>
+
+  <!-- CONSULTANCY PANEL -->
+  <rect x="608" y="194" width="552" height="50" class="blue"/>
+  <text x="884" y="229" text-anchor="middle" class="header">Consultancy</text>
+  <path d="M608 244 L608 945 Q608 958 621 958" fill="none" stroke="#000" stroke-width="3"/>
+  <path d="M1160 244 L1160 945 Q1160 958 1147 958" fill="none" stroke="#000" stroke-width="3"/>
+  <text class="vert" transform="translate(635 660) rotate(-90)" text-anchor="middle">One AI consultant argues a random position between True (50%) or False (50%)</text>
+
+  <!-- Consultancy round 1 -->
+  <rect x="654" y="255" width="489" height="222" rx="18" class="grey"/>
+  <text x="671" y="287" class="round">Round 1</text>
+  <use href="#robotIcon" x="676" y="347" style="color:#19b59b"/>
+  <polygon points="703,335 730,321 730,349" fill="#fff"/>
+  <rect x="730" y="299" width="395" height="66" rx="7" class="speech"/>
+  <text x="733" y="322" class="bodySmall">
+    <tspan x="733">Studies show surgical masks filter</tspan>
+    <tspan x="733" dy="30">60-80% of particles...</tspan>
+  </text>
+  <use href="#judgeIcon" x="683" y="448"/>
+  <polygon points="709,447 728,437 728,458" fill="#fff"/>
+  <rect x="728" y="406" width="397" height="59" rx="7" class="speech"/>
+  <text x="926" y="441" text-anchor="middle" class="bodySmall">What about multi-layer cloth masks?</text>
+
+  <!-- Consultancy round 2 -->
+  <rect x="654" y="491" width="489" height="222" rx="18" class="grey"/>
+  <text x="671" y="521" class="round">Round 2</text>
+  <use href="#robotIcon" x="676" y="578" style="color:#19b59b"/>
+  <polygon points="703,573 730,559 730,587" fill="#fff"/>
+  <rect x="730" y="531" width="395" height="66" rx="7" class="speech"/>
+  <text x="733" y="554" class="bodySmall">
+    <tspan x="733">Even 3-layer cloth masks only achieve</tspan>
+    <tspan x="733" dy="30">50% filtration...</tspan>
+  </text>
+  <use href="#judgeIcon" x="683" y="681"/>
+  <polygon points="709,680 728,670 728,691" fill="#fff"/>
+  <rect x="728" y="639" width="397" height="59" rx="7" class="speech"/>
+  <text x="927" y="674" text-anchor="middle" class="bodySmall">Are there any exceptions to this?</text>
+
+  <!-- Consultancy round 3 -->
+  <rect x="654" y="724" width="489" height="222" rx="18" class="grey"/>
+  <text x="671" y="754" class="round">Round 3</text>
+  <use href="#robotIcon" x="676" y="810" style="color:#19b59b"/>
+  <polygon points="703,810 730,796 730,824" fill="#fff"/>
+  <rect x="730" y="764" width="395" height="66" rx="7" class="speech"/>
+  <text x="733" y="787" class="bodySmall">
+    <tspan x="733">WHO recommends surgical over cloth</tspan>
+    <tspan x="733" dy="30">masks...</tspan>
+  </text>
+  <use href="#judgeIcon" x="683" y="913"/>
+  <polygon points="709,912 728,902 728,923" fill="#fff"/>
+  <rect x="728" y="859" width="397" height="69" rx="7" class="speech"/>
+  <text x="927" y="884" text-anchor="middle" class="bodySmall">Final decision: True/False</text>
+  <text x="927" y="917" text-anchor="middle" class="bodySmall">Confidence: 0-100% | Justification</text>
+
+  <!-- DEBATE PANEL -->
+  <rect x="1182" y="192" width="866" height="51" class="blue"/>
+  <text x="1615" y="228" text-anchor="middle" class="header">Debate</text>
+  <path d="M1182 243 L1182 945 Q1182 958 1195 958 L2035 958 Q2048 958 2048 945 L2048 243" fill="none" stroke="#000" stroke-width="3"/>
+  <text class="vert" transform="translate(2030 656) rotate(-90)" text-anchor="middle">Two AI debaters argue opposing positions between True vs. False (100%)</text>
+
+  <!-- Debate round 1 -->
+  <rect x="1195" y="250" width="800" height="222" rx="18" class="grey"/>
+  <text x="1212" y="281" class="round">Round 1</text>
+  <use href="#robotIcon" x="1215" y="341" style="color:#19b59b"/>
+  <polygon points="1242,335 1265,324 1265,347" fill="#fff"/>
+  <rect x="1265" y="288" width="314" height="66" rx="7" class="speech"/>
+  <text x="1258" y="326" class="bodySmall">
+    <tspan x="1258">Surgical masks filter 60-80%...</tspan>
+  </text>
+  <use href="#robotIcon" x="1614" y="341" style="color:#ee231a"/>
+  <polygon points="1629,335 1652,324 1652,347" fill="#fff"/>
+  <rect x="1652" y="288" width="323" height="66" rx="7" class="speech"/>
+  <text x="1658" y="312" class="bodySmall">
+    <tspan x="1658">Quality cloth masks can be</tspan>
+    <tspan x="1658" dy="30">effective...</tspan>
+  </text>
+  <use href="#judgeIcon" x="1420" y="440"/>
+  <polygon points="1446,438 1471,426 1471,451" fill="#fff"/>
+  <rect x="1471" y="395" width="355" height="56" rx="7" class="speech"/>
+  <text x="1648" y="430" text-anchor="middle" class="bodySmall">What defines 'quality' cloth masks?</text>
+
+  <!-- Debate round 2 -->
+  <rect x="1195" y="486" width="800" height="222" rx="18" class="grey"/>
+  <text x="1212" y="517" class="round">Round 2</text>
+  <use href="#robotIcon" x="1215" y="577" style="color:#19b59b"/>
+  <polygon points="1242,570 1265,559 1265,582" fill="#fff"/>
+  <rect x="1265" y="524" width="314" height="66" rx="7" class="speech"/>
+  <text x="1258" y="548" class="bodySmall">
+    <tspan x="1258">3-layer cloth still only 50%</tspan>
+    <tspan x="1258" dy="30">effective...</tspan>
+  </text>
+  <use href="#robotIcon" x="1614" y="577" style="color:#ee231a"/>
+  <polygon points="1629,570 1652,559 1652,582" fill="#fff"/>
+  <rect x="1652" y="524" width="323" height="66" rx="7" class="speech"/>
+  <text x="1658" y="548" class="bodySmall">
+    <tspan x="1658">But availability and fit matter</tspan>
+    <tspan x="1658" dy="30">too...</tspan>
+  </text>
+  <use href="#judgeIcon" x="1420" y="674"/>
+  <polygon points="1446,672 1471,660 1471,685" fill="#fff"/>
+  <rect x="1471" y="630" width="355" height="56" rx="7" class="speech"/>
+  <text x="1648" y="665" text-anchor="middle" class="bodySmall">How important is proper fit?</text>
+
+  <!-- Debate round 3 -->
+  <rect x="1195" y="722" width="800" height="222" rx="18" class="grey"/>
+  <text x="1212" y="753" class="round">Round 3</text>
+  <use href="#robotIcon" x="1215" y="813" style="color:#19b59b"/>
+  <polygon points="1242,806 1265,795 1265,818" fill="#fff"/>
+  <rect x="1265" y="760" width="314" height="66" rx="7" class="speech"/>
+  <text x="1258" y="784" class="bodySmall">
+    <tspan x="1258">Medical studies prove</tspan>
+    <tspan x="1258" dy="30">superiority...</tspan>
+  </text>
+  <use href="#robotIcon" x="1614" y="813" style="color:#ee231a"/>
+  <polygon points="1629,806 1652,795 1652,818" fill="#fff"/>
+  <rect x="1652" y="760" width="323" height="66" rx="7" class="speech"/>
+  <text x="1658" y="784" class="bodySmall">
+    <tspan x="1658">Real-world usage differs from</tspan>
+    <tspan x="1658" dy="30">labs...</tspan>
+  </text>
+  <use href="#judgeIcon" x="1420" y="911"/>
+  <polygon points="1446,910 1471,898 1471,923" fill="#fff"/>
+  <rect x="1471" y="861" width="355" height="68" rx="7" class="speech"/>
+  <text x="1648" y="886" text-anchor="middle" class="bodySmall">Final decision: True/False</text>
+  <text x="1648" y="918" text-anchor="middle" class="bodySmall">Confidence: 0-100% | Justification</text>
+</svg>
