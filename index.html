@@ -22,8 +22,8 @@ iframe { width: 100vw; height: calc(100vh - 45px); border: 0; display: none; }
 <body>
 <div class="tabs">
   <button class="active" onclick="showGuide(this)">Guide</button>
-  <button onclick="showPage('asset_gallery.html', this)">Assets</button>
-  <button onclick="showPage('gallery.html', this)">Result Compare</button>
+  <button onclick="showPage('diagram-gallery/asset_gallery.html', this)">Assets</button>
+  <button onclick="showPage('diagram-gallery/gallery.html', this)">Result Compare</button>
 </div>
 <main id="guide">
   <div class="guide-title">Guide</div>
@@ -31,12 +31,12 @@ iframe { width: 100vw; height: calc(100vh - 45px); border: 0; display: none; }
     <section class="card">
       <h2>Assets</h2>
       <p>Inspect GT, template.svg, SVG icon snippets, raster-required crops, and final filled.svg.</p>
-      <button onclick="showPage('asset_gallery.html', document.querySelectorAll('.tabs button')[1])">Open</button>
+      <button onclick="showPage('diagram-gallery/asset_gallery.html', document.querySelectorAll('.tabs button')[1])">Open</button>
     </section>
     <section class="card">
       <h2>Result Compare</h2>
       <p>Compare GT, template_filled, GPT-5.5 direct output, and AutoFigure edit output by difficulty.</p>
-      <button onclick="showPage('gallery.html', document.querySelectorAll('.tabs button')[2])">Open</button>
+      <button onclick="showPage('diagram-gallery/gallery.html', document.querySelectorAll('.tabs button')[2])">Open</button>
     </section>
   </div>
 </main>
