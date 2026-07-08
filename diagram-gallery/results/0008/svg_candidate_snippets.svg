@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"><g id="svg_slot_text2cad_dataset_icon" data-source-slot="slot_text2cad_dataset_icon" fill="none" transform="translate(31 407) scale(0.946 1) translate(0 0)"><g stroke="#26315f" stroke-width="2.35" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M22.7 1.4 55.9 11.8 44.8 46.7 11.7 36.1Z" fill="#fbf8e8" />
+    <path d="M29.1 10.1 48.6 16.2M26.9 17.1 46.1 23.1M24.8 23.9 42.7 29.5M22.8 30.5 39.1 35.6" fill="none" />
+    <path d="M2.1 46.7V34.5c0-2.3 1.8-4.1 4.1-4.1h15.1c2.4 0 4 1.2 5.1 3.1l2.2 3.8h27.9c2.2 0 3.9 1.8 3.9 3.9v5.5Z" fill="#ffd25c" />
+    <rect x="1.4" y="43.7" width="58.2" height="36.6" rx="3.8" fill="#ffe16b" />
+    <circle cx="57.7" cy="70.2" r="12.3" fill="#63d18b" />
+    <path d="m52.5 70.2 3.8 3.7 7.5-7.4" fill="none" stroke-width="2.7" />
+  </g>
+</g><g id="svg_slot_json_command_icon" data-source-slot="slot_json_command_icon" fill="none" transform="translate(207 293) scale(1.036 0.988) translate(0 0)"><defs>
+    <path id="page" d="M4.6 1.7h36.2l13.7 13.7v61.8a3.1 3.1 0 0 1-3.1 3.1H4.6a3.1 3.1 0 0 1-3.1-3.1V4.8a3.1 3.1 0 0 1 3.1-3.1z" />
+    <clipPath id="pageClip">
+      <use href="#page" />
+    </clipPath>
+  </defs>
+  <use href="#page" fill="#f1d29c" />
+  <path d="M40.8 1.9v13.6h13.4z" fill="#ddb77f" stroke="#332116" stroke-width="2.2" stroke-linejoin="round" />
+  <g stroke="#332116" stroke-width="2.25" stroke-linecap="round">
+    <path d="M9.5 13.1h21.8" />
+    <path d="M9.5 21.3h34.8" />
+    <path d="M9.5 29.6h34.8" />
+    <path d="M9.5 37.9h27.7" />
+    <path d="M9.5 46.2h34.8" />
+  </g>
+  <g clip-path="url(#pageClip)">
+    <path d="M1.5 55.2h53v20.5h-53z" fill="#e97228" />
+    <path d="M1.5 55.2h53" stroke="#332116" stroke-width="2.2" />
+  </g>
+  <text x="28" y="69.7" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.2" font-weight="700" fill="#332116">JSON</text>
+  <use href="#page" fill="none" stroke="#332116" stroke-width="2.4" stroke-linejoin="round" />
+</g><g id="svg_slot_text_description_icon_left" data-source-slot="slot_text_description_icon_left" fill="none" transform="translate(207 415) scale(1.055 1) translate(0 0)"><path d="M3 1.5h38l11 12v67H3z" fill="#fff" stroke="#555" stroke-width="3" stroke-linejoin="round" />
+  <path d="M41 1.5v12h11" fill="none" stroke="#555" stroke-width="3" stroke-linejoin="round" />
+  <path d="M11 18h23M11 27h33M11 36h33M11 45h33" fill="none" stroke="#555" stroke-width="3" stroke-linecap="square" />
+  <rect x="3.5" y="54" width="48" height="18.5" fill="#fff" stroke="#555" stroke-width="2" />
+  <path d="M9 59h12M15 59v9.5M23 59h9M23 63.8h8M23 68.5h9M35 59l8 9.5M43 59l-8 9.5M45.5 59h8M49.5 59v9.5" fill="none" stroke="#555" stroke-width="2" stroke-linecap="square" stroke-linejoin="miter" />
+</g><g id="svg_slot_step_ground_truth_icon_left" data-source-slot="slot_step_ground_truth_icon_left" fill="none" transform="translate(207 550) scale(1.055 0.975) translate(0 0)"><path d="M3.5 1.5h37.6l12.4 12.8v61.9c0 .9-.7 1.6-1.6 1.6H3.1c-.9 0-1.6-.7-1.6-1.6V3.5c0-1.1.9-2 2-2z" fill="#f3edc8" stroke="#274653" stroke-width="2.5" stroke-linejoin="round" />
+  <path d="M41.1 1.8v12.6h12.1z" fill="#dce4d5" stroke="#274653" stroke-width="2.3" stroke-linejoin="round" />
+  <path d="M9 12.4h24.5M9 21.7h36.8M9 31h36.8M9 40.3h36.8" fill="none" stroke="#274653" stroke-width="2.6" stroke-linecap="round" />
+  <rect x="4.4" y="53.6" width="46.2" height="17.4" rx="0.7" fill="#73cbc2" stroke="#274653" stroke-width="1.8" />
+  <text x="27.5" y="66.8" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="11.7" font-weight="700" letter-spacing=".5" fill="#274653">STEP</text>
+</g><g id="svg_slot_llm_whale_icon" data-source-slot="slot_llm_whale_icon" fill="none" transform="translate(334 316) scale(1.013 1) translate(0 0)"><rect width="75" height="57" fill="#eef3ff" />
+  <path fill="#4d6cef" d="M57.4 15.8c-2.9-1.3-5.2-3.5-6.4-6.4-1.3-3-1.2-6.3.2-9.4-4.3.3-8.1 2.6-10.3 6.2-1.4-2.3-3.6-4.3-6.2-5.5.1 3.8 1.8 7.1 4.6 9.3-3.5.3-7 .9-10.4 1.9C16.3 15.4 5.6 22.7 1.8 32.3c-2.7 6.8-.2 14.4 6 18.8 8.9 6.4 25.8 8 39.4 3.8 3.8-1.2 7.3-2.8 10.2-4.9-4.8-.5-9.2-3.7-11.8-8.4 4.5 2.8 9.6 4.5 15.1 4.4-2.7-4.9-5.8-9.2-9.3-12.8 3.6-3.2 5.8-7.1 6.4-11.1 2.7 1.4 5.9 1.7 8.9.8 4.8-1.5 7.9-5.9 8.3-11-5.6 2.8-12 4-17.6 3.9z" />
+  <path fill="#eef3ff" d="M11.4 30.2c4.3 1.5 7.9 3.7 10.8 6.7 2.2 2.2 3.7 4.5 4.6 6.9-4.4-.4-8.5-1.9-11.8-4.4-3.2-2.4-5-5.3-5.4-8.6-.1-.5.7-.8 1.8-.6z" />
+  <path fill="#eef3ff" d="M31.8 16.5c2.8 1.2 5.2 3.3 6.8 6 .5.8.2 1.8-.6 2.2-.8.5-1.8.2-2.3-.6-1.3-2.1-3.1-3.7-5.4-4.6-.8-.4-1.2-1.3-.9-2.1.5-.9 1.5-1.3 2.4-.9z" />
+  <path fill="#eef3ff" d="M43.8 25.2c1.5.1 2.8 1 3.4 2.3.4.8.1 1.8-.7 2.2-.8.4-1.8.1-2.2-.7-.2-.4-.6-.6-1.1-.6-.9 0-1.6-.8-1.5-1.7.1-.9.9-1.6 2.1-1.5z" />
+  <path fill="#eef3ff" d="M47.8 7.7c2.4 2.7 4.4 4.5 7 5.6-2.5.5-5.1.3-7.5-.7-2.1-.9-3.7-2.3-4.8-4.1 1.7-.6 3.5-.9 5.3-.8z" />
+</g><g id="svg_slot_cadquery_logo_left" data-source-slot="slot_cadquery_logo_left" fill="none" transform="translate(339 409) scale(1 1) translate(0 0)"><rect width="65" height="65" fill="#3c91c9" />
+  <path fill="#fff" d="M30.4 20.4c-2.7-4.1-6.1-6-10.7-6-7 0-11 5.5-11 14.4 0 8.9 4.4 14.4 11.4 14.4 4.5 0 7.9-1.8 10.3-5.5l-4.5-4.2c-1.5 2.4-3.2 3.4-5.5 3.4-3.9 0-6-3-6-8.2 0-5.1 2.1-8.1 5.9-8.1 2.4 0 4.1 1.2 5.5 3.7l4.6-3.9z" />
+  <path fill="#fff" fill-rule="evenodd" d="M51.7 17.8c-1.6-2.3-3.8-3.5-6.4-3.5-6.8 0-11.3 5.7-11.3 14.5s4.4 14.4 11.3 14.4c2.7 0 4.9-1.2 6.4-3.5v16.1h5.7V14.9h-5.7v2.9zm-5.9 2.6c3.7 0 5.9 3.2 5.9 8.4 0 5.2-2.2 8.3-5.9 8.3s-5.8-3.2-5.8-8.3c0-5.2 2.1-8.4 5.8-8.4z" />
+</g><g id="svg_slot_discard_trash_icon" data-source-slot="slot_discard_trash_icon" fill="none" transform="translate(339 520) scale(0.986 1) translate(0 0)"><g fill="none" stroke="#ff1f1f" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4.5 8.5 13.3 1.8 22.7 8.5" />
+    <path d="M34.2 1.8v16.6m-4.5-5.3 4.5 5.3 4.5-5.3" />
+  </g>
+  <g stroke="#674263" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M8.8 48.5 20.6 53.4 14.6 65.8 2.8 60.7Z" fill="#c8d968" stroke-width="2.5" />
+    <path d="M18.2 56.7 64.6 59.1 62.5 84 21.7 84Z" fill="#fff4b4" stroke-width="3.7" />
+    <path d="M28.8 69.2 28.1 83.8M40.6 71.1 39.8 83.8M53.3 69.5 52.4 83.8" fill="none" stroke-width="3.8" />
+    <path d="M15.3 43.6 64.7 46.5q2.4.2 2.4 2.6l-.3 4q-.1 2.2-2.3 2L14.9 52.2q-2.1-.1-2-2.3l.3-4.3q.2-2.1 2.1-2Z" fill="#d94f66" stroke-width="3.6" />
+    <path d="M17.5 31.3 57.9 39.2l-1.3 5.5-44-8.3Z" fill="#d65a66" stroke-width="3.4" />
+    <path d="M28.2 29.4 53.7 34.4l-1.1 4.4-25.3-4.9Z" fill="#70a9d5" stroke-width="3.1" />
+    <path d="M32.4 27.1 45.1 29.8l-.6 2.6-12.7-2.7Z" fill="#ef5c68" stroke-width="2.2" />
+  </g>
+</g><g id="svg_slot_step_model_icon_right" data-source-slot="slot_step_model_icon_right" fill="none" transform="translate(1383 307) scale(1.055 0.963) translate(0 0)"><path d="M3.5 1.5h37.6l12.4 12.8v61.9c0 .9-.7 1.6-1.6 1.6H3.1c-.9 0-1.6-.7-1.6-1.6V3.5c0-1.1.9-2 2-2z" fill="#f3edc8" stroke="#274653" stroke-width="2.5" stroke-linejoin="round" />
+  <path d="M41.1 1.8v12.6h12.1z" fill="#dce4d5" stroke="#274653" stroke-width="2.3" stroke-linejoin="round" />
+  <path d="M9 12.4h24.5M9 21.7h36.8M9 31h36.8M9 40.3h36.8" fill="none" stroke="#274653" stroke-width="2.6" stroke-linecap="round" />
+  <rect x="4.4" y="53.6" width="46.2" height="17.4" rx="0.7" fill="#73cbc2" stroke="#274653" stroke-width="1.8" />
+  <text x="27.5" y="66.8" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="11.7" font-weight="700" letter-spacing=".5" fill="#274653">STEP</text>
+</g><g id="svg_slot_text_description_icon_right" data-source-slot="slot_text_description_icon_right" fill="none" transform="translate(1383 420) scale(1.055 0.951) translate(0 0)"><path d="M3 1.5h38l11 12v67H3z" fill="#fff" stroke="#555" stroke-width="3" stroke-linejoin="round" />
+  <path d="M41 1.5v12h11" fill="none" stroke="#555" stroke-width="3" stroke-linejoin="round" />
+  <path d="M11 18h23M11 27h33M11 36h33M11 45h33" fill="none" stroke="#555" stroke-width="3" stroke-linecap="square" />
+  <rect x="3.5" y="54" width="48" height="18.5" fill="#fff" stroke="#555" stroke-width="2" />
+  <path d="M9 59h12M15 59v9.5M23 59h9M23 63.8h8M23 68.5h9M35 59l8 9.5M43 59l-8 9.5M45.5 59h8M49.5 59v9.5" fill="none" stroke="#555" stroke-width="2" stroke-linecap="square" stroke-linejoin="miter" />
+</g><g id="svg_slot_cadquery_logo_right" data-source-slot="slot_cadquery_logo_right" fill="none" transform="translate(1383 568) scale(1 0.985) translate(0 0)"><rect width="65" height="65" fill="#3c91c9" />
+  <path fill="#fff" d="M30.4 20.4c-2.7-4.1-6.1-6-10.7-6-7 0-11 5.5-11 14.4 0 8.9 4.4 14.4 11.4 14.4 4.5 0 7.9-1.8 10.3-5.5l-4.5-4.2c-1.5 2.4-3.2 3.4-5.5 3.4-3.9 0-6-3-6-8.2 0-5.1 2.1-8.1 5.9-8.1 2.4 0 4.1 1.2 5.5 3.7l4.6-3.9z" />
+  <path fill="#fff" fill-rule="evenodd" d="M51.7 17.8c-1.6-2.3-3.8-3.5-6.4-3.5-6.8 0-11.3 5.7-11.3 14.5s4.4 14.4 11.3 14.4c2.7 0 4.9-1.2 6.4-3.5v16.1h5.7V14.9h-5.7v2.9zm-5.9 2.6c3.7 0 5.9 3.2 5.9 8.4 0 5.2-2.2 8.3-5.9 8.3s-5.8-3.2-5.8-8.3c0-5.2 2.1-8.4 5.8-8.4z" />
+</g><g id="svg_slot_our_dataset_icon" data-source-slot="slot_our_dataset_icon" fill="none" transform="translate(1502 426) scale(1.054 1) translate(0 0)"><g fill="none" stroke="#263c86" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M27.9 1.2 57.4 9.2 48.3 43.1 13.5 33.8 22.6 4.4Z" fill="#faf7f1" stroke-width="2.4" />
+    <path d="M33.1 8.5 50.6 13.2M31.2 15.6 48.7 20.3M29.3 22.7 46.8 27.4M27.4 29.8 40.7 33.4" stroke-width="2" />
+    <path d="M7.3 27.4h17.4c2.7 0 4.9 2.2 4.9 4.9v2.1h28.2c2.6 0 4.7 2.1 4.7 4.7v8.1H2.6V32.1c0-2.6 2.1-4.7 4.7-4.7Z" fill="#ffd45a" stroke-width="2.5" />
+    <path d="M6.9 41.7h52.2c2.6 0 4.7 2.1 4.7 4.7v27.3c0 2.7-2.2 4.9-4.9 4.9H6.9C4.2 78.6 2 76.4 2 73.7V46.6c0-2.7 2.2-4.9 4.9-4.9Z" fill="#ffd45a" stroke-width="2.5" />
+    <circle cx="60.1" cy="74.3" r="11.7" fill="#ff6b63" stroke-width="2.4" />
+    <path d="M55.9 74.3h8.4M60.1 70.1v8.4" stroke-width="2.6" />
+  </g>
+</g></svg>

@@ -1,0 +1,241 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1732" height="884" viewBox="0 0 1732 884">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#111"/>
+    </marker>
+    <style>
+      .txt{font-family:"Times New Roman", Times, serif; fill:#111;}
+      .math{font-family:"Times New Roman", Times, serif; font-style:italic; fill:#111;}
+      .line{stroke:#111; stroke-width:3; fill:none;}
+      .thin{stroke:#111; stroke-width:2; fill:none;}
+      .box{fill:#eee; stroke:#5a2a2a; stroke-width:2.5;}
+      .olive{stroke:#5b4d17; stroke-width:2.5;}
+      .navy{stroke:#11183a; stroke-width:2.5;}
+      .node{fill:#78a4ec;}
+    </style>
+  </defs>
+
+  <!-- Panel (a) background -->
+  <rect x="96" y="15" width="1616" height="424" fill="#d3f4f5"/>
+
+  <!-- Panel labels and titles -->
+  <text x="18" y="66" class="txt" font-size="40">(a)</text>
+  <text x="158" y="67" class="txt" font-size="40">GIBMS</text>
+
+  <!-- Top graph G -->
+  <g stroke="#111" stroke-width="1.6">
+    <line x1="234" y1="171" x2="233" y2="240"/>
+    <line x1="233" y1="240" x2="176" y2="276"/>
+    <line x1="233" y1="240" x2="292" y2="274"/>
+    <line x1="296" y1="195" x2="292" y2="274"/>
+  </g>
+  <circle class="node" cx="234" cy="171" r="17"/>
+  <circle class="node" cx="233" cy="240" r="17"/>
+  <circle class="node" cx="176" cy="276" r="17"/>
+  <circle class="node" cx="298" cy="195" r="17"/>
+  <circle class="node" cx="292" cy="274" r="17"/>
+  <text x="229" y="348" class="math" font-size="40">𝒢</text>
+
+  <!-- Encoder -->
+  <path class="line" marker-end="url(#arrow)" d="M328 235 L408 234"/>
+  <rect class="box" x="410" y="139" width="82" height="191"/>
+  <text class="txt" font-size="31" transform="translate(460 236) rotate(-90)" text-anchor="middle" dominant-baseline="middle">Encoder</text>
+
+  <!-- H stack -->
+  <path class="line" marker-end="url(#arrow)" d="M492 235 L562 235"/>
+  <text x="519" y="185" class="txt" font-size="42" font-weight="bold">H</text>
+  <rect x="563" y="153" width="58" height="164" fill="#9ee9f4" stroke="#10183a" stroke-width="3"/>
+  <g stroke="#10183a" stroke-width="3">
+    <line x1="563" y1="186" x2="621" y2="186"/>
+    <line x1="563" y1="219" x2="621" y2="219"/>
+    <line x1="563" y1="252" x2="621" y2="252"/>
+    <line x1="563" y1="285" x2="621" y2="285"/>
+  </g>
+
+  <!-- MLP -->
+  <path class="line" marker-end="url(#arrow)" d="M621 235 L691 235"/>
+  <rect class="box" x="694" y="139" width="80" height="191"/>
+  <text class="txt" font-size="31" transform="translate(737 236) rotate(-90)" text-anchor="middle" dominant-baseline="middle">MLP</text>
+  <path class="line" marker-end="url(#arrow)" d="M774 235 L839 235"/>
+
+  <!-- MI arrows from H -->
+  <path class="line" marker-end="url(#arrow)" d="M592 153 L592 87 L837 87"/>
+  <text x="846" y="98" class="math" font-size="42">I (𝒢; 𝒢<tspan baseline-shift="-35%" font-size="25">IB</tspan>)</text>
+  <path class="line" marker-end="url(#arrow)" d="M1168 87 L1004 87"/>
+
+  <path class="line" marker-end="url(#arrow)" d="M592 317 L592 382 L837 382"/>
+  <text x="846" y="393" class="math" font-size="42">I (𝒢; 𝒢<tspan baseline-shift="-35%" font-size="25">IB</tspan>)</text>
+  <path class="line" marker-end="url(#arrow)" d="M1168 382 L1004 382"/>
+
+  <!-- Small weighted graph -->
+  <g stroke="#111" stroke-width="1.6">
+    <line x1="943" y1="172" x2="943" y2="242"/>
+    <line x1="943" y1="242" x2="884" y2="276"/>
+    <line x1="943" y1="242" x2="1005" y2="278"/>
+    <line x1="1008" y1="197" x2="1005" y2="278"/>
+  </g>
+  <circle class="node" cx="943" cy="172" r="17"/>
+  <circle class="node" cx="943" cy="242" r="17"/>
+  <circle class="node" cx="884" cy="276" r="17"/>
+  <circle class="node" cx="1008" cy="197" r="17"/>
+  <circle class="node" cx="1005" cy="278" r="17"/>
+  <text x="931" y="177" class="txt" font-size="22" text-anchor="middle">0.1</text>
+  <text x="943" y="248" class="txt" font-size="22" text-anchor="middle">0.9</text>
+  <text x="884" y="282" class="txt" font-size="22" text-anchor="middle">0.7</text>
+  <text x="1008" y="203" class="txt" font-size="22" text-anchor="middle">0.3</text>
+  <text x="1005" y="284" class="txt" font-size="22" text-anchor="middle">0.6</text>
+
+  <!-- Sampling split -->
+  <path class="line" d="M1048 235 L1096 235"/>
+  <path class="line" d="M1096 120 L1096 350"/>
+  <path class="line" marker-end="url(#arrow)" d="M1096 120 L1163 120"/>
+  <path class="line" marker-end="url(#arrow)" d="M1096 350 L1163 350"/>
+  <text x="1108" y="247" class="txt" font-size="32">Sample</text>
+
+  <!-- G_IB stacks and pools -->
+  <text x="1106" y="65" class="math" font-size="32">𝒢<tspan baseline-shift="-35%" font-size="22">IB</tspan></text>
+  <rect x="1165" y="38" width="57" height="163" fill="#d9e992" stroke="#10183a" stroke-width="3"/>
+  <g stroke="#10183a" stroke-width="3">
+    <line x1="1165" y1="70" x2="1222" y2="70"/>
+    <line x1="1165" y1="103" x2="1222" y2="103"/>
+    <line x1="1165" y1="136" x2="1222" y2="136"/>
+    <line x1="1165" y1="168" x2="1222" y2="168"/>
+  </g>
+  <path class="line" marker-end="url(#arrow)" d="M1222 120 L1324 120"/>
+  <text x="1233" y="106" class="txt" font-size="32">Pool</text>
+  <rect x="1328" y="98" width="64" height="43" fill="#d9e992" stroke="#5a2a2a" stroke-width="3"/>
+  <path class="line" marker-end="url(#arrow)" d="M1392 119 L1458 224"/>
+
+  <text x="1106" y="390" class="math" font-size="32">𝒢<tspan baseline-shift="-35%" font-size="22">IB</tspan></text>
+  <rect x="1165" y="268" width="57" height="163" fill="#d9e992" stroke="#10183a" stroke-width="3"/>
+  <g stroke="#10183a" stroke-width="3">
+    <line x1="1165" y1="300" x2="1222" y2="300"/>
+    <line x1="1165" y1="333" x2="1222" y2="333"/>
+    <line x1="1165" y1="366" x2="1222" y2="366"/>
+    <line x1="1165" y1="398" x2="1222" y2="398"/>
+  </g>
+  <path class="line" marker-end="url(#arrow)" d="M1222 350 L1324 350"/>
+  <text x="1233" y="337" class="txt" font-size="32">Pool</text>
+  <rect x="1328" y="329" width="64" height="43" fill="#d9e992" stroke="#5a2a2a" stroke-width="3"/>
+  <path class="line" marker-end="url(#arrow)" d="M1392 351 L1458 235"/>
+
+  <text x="1462" y="237" class="math" font-size="42">− I (Y; 𝒢<tspan baseline-shift="-35%" font-size="25">IB</tspan>)</text>
+
+  <!-- Panel (b) -->
+  <text x="18" y="496" class="txt" font-size="40">(b)</text>
+  <text x="143" y="496" class="txt" font-size="40">SLG</text>
+
+  <!-- Bottom graph -->
+  <g stroke="#111" stroke-width="1.6">
+    <line x1="236" y1="570" x2="235" y2="641"/>
+    <line x1="235" y1="641" x2="178" y2="676"/>
+    <line x1="235" y1="641" x2="296" y2="675"/>
+    <line x1="300" y1="596" x2="296" y2="675"/>
+  </g>
+  <circle class="node" cx="236" cy="570" r="17"/>
+  <circle class="node" cx="235" cy="641" r="17"/>
+  <circle class="node" cx="178" cy="676" r="17"/>
+  <circle class="node" cx="302" cy="596" r="17"/>
+  <circle class="node" cx="296" cy="675" r="17"/>
+  <text x="229" y="746" class="math" font-size="40">𝒢</text>
+
+  <!-- Split into two streams -->
+  <path class="line" d="M345 635 L431 566" marker-end="url(#arrow)"/>
+  <path class="line" d="M345 635 L431 760" marker-end="url(#arrow)"/>
+
+  <!-- GIBMS / Tokenizer -->
+  <rect x="430" y="473" width="82" height="183" fill="#d3f4f5"/>
+  <text class="txt" font-size="30" transform="translate(471 565) rotate(-90)" text-anchor="middle" dominant-baseline="middle">GIBMS</text>
+
+  <rect x="430" y="681" width="82" height="183" fill="#f6f4ed" stroke="#5b4d17" stroke-width="2.5"/>
+  <text class="txt" font-size="30" transform="translate(471 773) rotate(-90)" text-anchor="middle" dominant-baseline="middle">Tokenizer</text>
+
+  <!-- Encoders -->
+  <path class="line" marker-end="url(#arrow)" d="M512 563 L598 563"/>
+  <rect x="600" y="473" width="82" height="183" fill="#f2f2f2" stroke="#5b4d17" stroke-width="2.5"/>
+  <text class="txt" font-size="30" transform="translate(641 565) rotate(-90)" text-anchor="middle" dominant-baseline="middle">Encoder</text>
+
+  <path class="line" marker-end="url(#arrow)" d="M512 773 L598 773"/>
+  <rect x="600" y="681" width="82" height="183" fill="#f2f2f2" stroke="#5b4d17" stroke-width="2.5"/>
+  <text class="txt" font-size="30" transform="translate(641 773) rotate(-90)" text-anchor="middle" dominant-baseline="middle">Embedding</text>
+
+  <!-- H^p and H^y stacks -->
+  <path class="line" marker-end="url(#arrow)" d="M682 563 L768 563"/>
+  <text x="715" y="513" class="txt" font-size="40" font-weight="bold">H<tspan baseline-shift="super" font-size="25">p</tspan></text>
+  <rect x="770" y="483" width="57" height="163" fill="#f7f1df" stroke="#10183a" stroke-width="3"/>
+  <g stroke="#10183a" stroke-width="3">
+    <line x1="770" y1="515" x2="827" y2="515"/>
+    <line x1="770" y1="548" x2="827" y2="548"/>
+    <line x1="770" y1="581" x2="827" y2="581"/>
+    <line x1="770" y1="613" x2="827" y2="613"/>
+  </g>
+
+  <path class="line" marker-end="url(#arrow)" d="M682 773 L768 773"/>
+  <text x="715" y="722" class="txt" font-size="40" font-weight="bold">H<tspan baseline-shift="super" font-size="25">y</tspan></text>
+  <rect x="770" y="690" width="57" height="163" fill="#f7f1df" stroke="#10183a" stroke-width="3"/>
+  <g stroke="#10183a" stroke-width="3">
+    <line x1="770" y1="722" x2="827" y2="722"/>
+    <line x1="770" y1="755" x2="827" y2="755"/>
+    <line x1="770" y1="788" x2="827" y2="788"/>
+    <line x1="770" y1="820" x2="827" y2="820"/>
+  </g>
+
+  <!-- Softmax formulas and Q -->
+  <path class="line" d="M827 563 L914 563"/>
+  <text x="922" y="570" class="txt" font-size="34">softmax</text>
+  <text x="1044" y="552" class="txt" font-size="48">(</text>
+  <text x="1074" y="544" class="txt" font-size="40" font-weight="bold">H<tspan baseline-shift="super" font-size="25">p</tspan> · Q</text>
+  <line x1="1070" y1="558" x2="1168" y2="558" stroke="#111" stroke-width="2"/>
+  <text x="1110" y="597" class="math" font-size="32">τ<tspan baseline-shift="-35%" font-size="20">p</tspan></text>
+  <text x="1166" y="552" class="txt" font-size="48">)</text>
+  <path class="line" marker-end="url(#arrow)" d="M1208 563 L1293 563"/>
+
+  <path class="line" d="M827 773 L914 773"/>
+  <text x="922" y="780" class="txt" font-size="34">softmax</text>
+  <text x="1044" y="762" class="txt" font-size="48">(</text>
+  <text x="1074" y="754" class="txt" font-size="40" font-weight="bold">H<tspan baseline-shift="super" font-size="25">y</tspan> · Q</text>
+  <line x1="1070" y1="768" x2="1168" y2="768" stroke="#111" stroke-width="2"/>
+  <text x="1110" y="807" class="math" font-size="32">τ<tspan baseline-shift="-35%" font-size="20">y</tspan></text>
+  <text x="1166" y="762" class="txt" font-size="48">)</text>
+  <path class="line" marker-end="url(#arrow)" d="M1208 773 L1293 773"/>
+
+  <!-- Q matrix -->
+  <text x="934" y="681" class="txt" font-size="36" font-weight="bold">Q</text>
+  <g stroke="#10183a" stroke-width="3">
+    <rect x="984" y="626" width="40" height="68" fill="#7fa8ec"/>
+    <rect x="1024" y="626" width="40" height="68" fill="#93d9a7"/>
+    <rect x="1064" y="626" width="40" height="68" fill="#ffc765"/>
+    <rect x="1104" y="626" width="40" height="68" fill="#f28da5"/>
+  </g>
+
+  <!-- s^p matrix -->
+  <text x="1246" y="552" class="math" font-size="36">s<tspan baseline-shift="super" font-size="24">p</tspan></text>
+  <g stroke="#10183a" stroke-width="3">
+    <rect x="1294" y="481" width="39" height="166" fill="#7fa8ec"/>
+    <rect x="1333" y="481" width="39" height="166" fill="#93d9a7"/>
+    <rect x="1372" y="481" width="39" height="166" fill="#ffc765"/>
+    <rect x="1411" y="481" width="39" height="166" fill="#f28da5"/>
+    <line x1="1294" y1="514" x2="1450" y2="514"/>
+    <line x1="1294" y1="547" x2="1450" y2="547"/>
+    <line x1="1294" y1="580" x2="1450" y2="580"/>
+    <line x1="1294" y1="613" x2="1450" y2="613"/>
+  </g>
+
+  <!-- s^y matrix -->
+  <text x="1246" y="762" class="math" font-size="36">s<tspan baseline-shift="super" font-size="24">y</tspan></text>
+  <g stroke="#10183a" stroke-width="3">
+    <rect x="1294" y="686" width="39" height="166" fill="#7fa8ec"/>
+    <rect x="1333" y="686" width="39" height="166" fill="#93d9a7"/>
+    <rect x="1372" y="686" width="39" height="166" fill="#ffc765"/>
+    <rect x="1411" y="686" width="39" height="166" fill="#f28da5"/>
+    <line x1="1294" y1="719" x2="1450" y2="719"/>
+    <line x1="1294" y1="752" x2="1450" y2="752"/>
+    <line x1="1294" y1="785" x2="1450" y2="785"/>
+    <line x1="1294" y1="818" x2="1450" y2="818"/>
+  </g>
+
+  <!-- Loss -->
+  <path class="line" marker-end="url(#arrow)" d="M1450 563 L1504 665"/>
+  <path class="line" marker-end="url(#arrow)" d="M1450 773 L1504 665"/>
+  <text x="1522" y="672" class="math" font-size="38">ℒ<tspan baseline-shift="-35%" font-size="25">soft</tspan>(s<tspan baseline-shift="super" font-size="24">y</tspan>, s<tspan baseline-shift="super" font-size="24">p</tspan>)</text>
+</svg>

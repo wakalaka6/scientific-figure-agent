@@ -1,0 +1,38 @@
+[
+  {
+    "slot_id": "slot_document_icon",
+    "filename": "assets/svg_candidate/slot_document_icon.png",
+    "canonical_slot_id": "slot_document_icon",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "document_icon",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      240,
+      53,
+      39,
+      45
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "document request icon"
+  },
+  {
+    "slot_id": "slot_image_icon",
+    "filename": "assets/svg_candidate/slot_image_icon.png",
+    "canonical_slot_id": "slot_image_icon",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "image_icon",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      939,
+      58,
+      48,
+      41
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "image request icon"
+  }
+]

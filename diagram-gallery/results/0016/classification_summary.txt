@@ -1,0 +1,33 @@
+svg_candidate: 5
+raster_required: 23
+unique_assets: 28
+duplicate_assets: 0
+
+- slot_matrix_stack_datatype: raster_required | from first-pass asset detection kind=pixel_image
+- slot_temporal_grid_diagram: raster_required | from first-pass asset detection kind=pixel_image
+- slot_blue_cube_sequence: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_graph_datatype: raster_required | from first-pass asset detection kind=pixel_image
+- slot_graph_sequence_diagram: raster_required | from first-pass asset detection kind=pixel_image
+- slot_domain_thumbnail_1: raster_required | from first-pass asset detection kind=pixel_image
+- slot_domain_thumbnail_2: raster_required | from first-pass asset detection kind=pixel_image
+- slot_domain_thumbnail_3: raster_required | from first-pass asset detection kind=pixel_image
+- slot_domain_thumbnail_4: raster_required | from first-pass asset detection kind=pixel_image
+- slot_domain_thumbnail_5: raster_required | from first-pass asset detection kind=pixel_image
+- slot_domain_thumbnail_6: raster_required | from first-pass asset detection kind=pixel_image
+- slot_noisy_patch_1: raster_required | from first-pass asset detection kind=pixel_image
+- slot_noisy_patch_2: raster_required | from first-pass asset detection kind=pixel_image
+- slot_noisy_patch_3: raster_required | from first-pass asset detection kind=pixel_image
+- slot_noisy_patch_4: raster_required | from first-pass asset detection kind=pixel_image
+- slot_noisy_patch_5: raster_required | from first-pass asset detection kind=pixel_image
+- slot_noisy_patch_6: raster_required | from first-pass asset detection kind=pixel_image
+- slot_noisy_patch_7: raster_required | from first-pass asset detection kind=pixel_image
+- slot_data_memory_icon_1: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_data_memory_icon_2: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_data_memory_icon_3: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_task_memory_icon: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_task_specific_prompt_data: raster_required | from first-pass asset detection kind=pixel_image
+- slot_masking_strategy_1: raster_required | from first-pass asset detection kind=pixel_image
+- slot_masking_strategy_2: raster_required | from first-pass asset detection kind=pixel_image
+- slot_masking_strategy_3: raster_required | from first-pass asset detection kind=pixel_image
+- slot_masking_strategy_4: raster_required | from first-pass asset detection kind=pixel_image
+- slot_masking_strategy_5: raster_required | from first-pass asset detection kind=pixel_image

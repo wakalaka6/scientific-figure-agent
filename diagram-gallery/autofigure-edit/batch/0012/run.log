@@ -1,0 +1,223 @@
+
+============================================================
+Paper Method 到 SVG 图标替换流程 (Label 模式增强版 + Box合并)
+============================================================
+Provider: openrouter
+输出目录: /app/outputs/batch/CReFT-CAD Boosting Orthographic Projection Reasoning for CAD via Reinforcement Fine-Tuning_diagram
+输入模式: imported_figure
+导入图片: /app/my-benchmark/simple/CReFT-CAD Boosting Orthographic Projection Reasoning for CAD via Reinforcement Fine-Tuning_diagram.jpg
+SVG模型: google/gemini-3.1-pro-preview
+SAM提示词: icon,person,robot,animal
+最低置信度: 0.0
+SAM后端: roboflow
+执行到步骤: 5
+占位符模式: label
+优化迭代次数: 0
+Box合并阈值: 0.01
+4K等比例放大: 开启
+============================================================
+============================================================
+步骤一：跳过生图，使用已有的第一阶段图片
+============================================================
+输入图片: /app/my-benchmark/simple/CReFT-CAD Boosting Orthographic Projection Reasoning for CAD via Reinforcement Fine-Tuning_diagram.jpg
+4K等比例放大: 开启
+导入图片已等比例放大到 4K 长边: 1839 x 794 -> 3840 x 1658
+图片已保存: /app/outputs/batch/CReFT-CAD Boosting Orthographic Projection Reasoning for CAD via Reinforcement Fine-Tuning_diagram/figure.png
+
+============================================================
+步骤二：SAM3 分割 + 灰色填充+黑色边框+序号标记
+============================================================
+原图尺寸: 3840 x 1658
+使用的 prompts: ['icon', 'person', 'robot', 'animal']
+SAM3 Roboflow API 模式: format=polygon
+
+  正在检测: 'icon'
+    对象 1: (1039, 287, 1225, 470), score=0.914
+    对象 2: (3190, 1509, 3197, 1513), score=0.512
+    对象 3: (3706, 1487, 3718, 1489), score=0.512
+    对象 4: (3660, 1486, 3681, 1490), score=0.512
+    对象 5: (3444, 1486, 3447, 1488), score=0.512
+    对象 6: (3211, 1439, 3244, 1456), score=0.512
+    对象 7: (3180, 1391, 3260, 1465), score=0.512
+    对象 8: (3776, 1388, 3782, 1394), score=0.512
+    对象 9: (3215, 1376, 3225, 1385), score=0.512
+    对象 10: (3337, 1371, 3342, 1375), score=0.512
+    对象 11: (3216, 1366, 3221, 1369), score=0.512
+    对象 12: (3192, 1342, 3195, 1346), score=0.512
+    对象 13: (3192, 1326, 3194, 1328), score=0.512
+    对象 14: (3186, 1276, 3204, 1286), score=0.512
+    对象 15: (3215, 1262, 3221, 1264), score=0.512
+    对象 16: (3217, 1006, 3220, 1011), score=0.512
+    对象 17: (3190, 999, 3205, 1009), score=0.512
+    对象 18: (3236, 974, 3251, 977), score=0.512
+    对象 19: (3264, 971, 3276, 979), score=0.512
+    对象 20: (3280, 968, 3286, 970), score=0.512
+    对象 21: (3619, 957, 3641, 960), score=0.512
+    对象 22: (3271, 955, 3288, 961), score=0.512
+    对象 23: (3185, 955, 3197, 959), score=0.512
+    对象 24: (3536, 948, 3541, 953), score=0.512
+    对象 25: (3190, 945, 3194, 949), score=0.512
+    对象 26: (3283, 944, 3288, 949), score=0.512
+    对象 27: (3491, 935, 3505, 948), score=0.512
+    对象 28: (3522, 933, 3529, 936), score=0.512
+    对象 29: (3510, 929, 3515, 930), score=0.512
+    对象 30: (3626, 927, 3722, 984), score=0.512
+    对象 31: (3218, 917, 3224, 930), score=0.512
+    对象 32: (3581, 910, 3617, 931), score=0.512
+    对象 33: (3188, 908, 3197, 914), score=0.512
+    对象 34: (3187, 897, 3196, 904), score=0.512
+    对象 35: (3285, 889, 3287, 890), score=0.512
+    对象 36: (3192, 888, 3194, 890), score=0.512
+    对象 37: (3244, 883, 3246, 884), score=0.512
+    对象 38: (3714, 877, 3735, 891), score=0.512
+    对象 39: (3773, 864, 3783, 895), score=0.512
+    对象 40: (3188, 858, 3206, 870), score=0.512
+    对象 41: (3214, 854, 3230, 860), score=0.512
+    对象 42: (3469, 849, 3583, 925), score=0.512
+    对象 43: (3179, 847, 3787, 1533), score=0.512
+    对象 44: (603, 1226, 882, 1538), score=0.910
+    对象 45: (681, 224, 877, 483), score=0.922
+    对象 46: (2432, 1233, 2598, 1412), score=0.668
+    对象 47: (2238, 1040, 2598, 1410), score=0.777
+    对象 48: (2075, 202, 2374, 496), score=0.875
+  'icon' 检测到 48 个有效对象
+
+  正在检测: 'person'
+  'person' 检测到 0 个有效对象
+
+  正在检测: 'robot'
+  'robot' 检测到 0 个有效对象
+
+  正在检测: 'animal'
+  'animal' 检测到 0 个有效对象
+
+总计检测: 48 个对象 (来自 4 个 prompts)
+
+  合并重叠的boxes (阈值: 0.01)...
+    迭代 1: 合并 box 1 和 box 42 (重叠比例: 1.00)
+    迭代 2: 合并 box 1 和 box 46 (重叠比例: 1.00)
+    迭代 3: 合并 box 1 和 box 45 (重叠比例: 1.00)
+    迭代 4: 合并 box 1 和 box 44 (重叠比例: 1.00)
+    迭代 5: 合并 box 1 和 box 2 (重叠比例: 1.00)
+    迭代 6: 合并 box 1 和 box 41 (重叠比例: 1.00)
+    迭代 7: 合并 box 1 和 box 41 (重叠比例: 1.00)
+    迭代 8: 合并 box 1 和 box 40 (重叠比例: 1.00)
+    迭代 9: 合并 box 1 和 box 39 (重叠比例: 1.00)
+    迭代 10: 合并 box 1 和 box 38 (重叠比例: 1.00)
+    迭代 11: 合并 box 1 和 box 37 (重叠比例: 1.00)
+    迭代 12: 合并 box 1 和 box 36 (重叠比例: 1.00)
+    迭代 13: 合并 box 1 和 box 35 (重叠比例: 1.00)
+    迭代 14: 合并 box 1 和 box 34 (重叠比例: 1.00)
+    迭代 15: 合并 box 1 和 box 33 (重叠比例: 1.00)
+    迭代 16: 合并 box 1 和 box 32 (重叠比例: 1.00)
+    迭代 17: 合并 box 1 和 box 31 (重叠比例: 1.00)
+    迭代 18: 合并 box 1 和 box 30 (重叠比例: 1.00)
+    迭代 19: 合并 box 1 和 box 10 (重叠比例: 0.68)
+    迭代 20: 合并 box 1 和 box 27 (重叠比例: 1.00)
+    迭代 21: 合并 box 1 和 box 27 (重叠比例: 1.00)
+    迭代 22: 合并 box 1 和 box 26 (重叠比例: 1.00)
+    迭代 23: 合并 box 1 和 box 25 (重叠比例: 1.00)
+    迭代 24: 合并 box 1 和 box 24 (重叠比例: 1.00)
+    迭代 25: 合并 box 1 和 box 23 (重叠比例: 1.00)
+    迭代 26: 合并 box 1 和 box 22 (重叠比例: 1.00)
+    迭代 27: 合并 box 1 和 box 21 (重叠比例: 1.00)
+    迭代 28: 合并 box 1 和 box 20 (重叠比例: 1.00)
+    迭代 29: 合并 box 1 和 box 11 (重叠比例: 0.04)
+    迭代 30: 合并 box 1 和 box 17 (重叠比例: 1.00)
+    迭代 31: 合并 box 1 和 box 17 (重叠比例: 1.00)
+    迭代 32: 合并 box 1 和 box 16 (重叠比例: 1.00)
+    迭代 33: 合并 box 1 和 box 15 (重叠比例: 1.00)
+    迭代 34: 合并 box 1 和 box 14 (重叠比例: 1.00)
+    迭代 35: 合并 box 1 和 box 13 (重叠比例: 1.00)
+    迭代 36: 合并 box 1 和 box 12 (重叠比例: 1.00)
+    迭代 37: 合并 box 1 和 box 11 (重叠比例: 1.00)
+    迭代 38: 合并 box 1 和 box 10 (重叠比例: 1.00)
+    迭代 39: 合并 box 3 和 box 4 (重叠比例: 0.99)
+    迭代 40: 合并 box 4 和 box 7 (重叠比例: 1.00)
+    迭代 41: 合并 box 4 和 box 7 (重叠比例: 1.00)
+    迭代 42: 合并 box 4 和 box 6 (重叠比例: 1.00)
+  合并完成: 48 -> 6 (合并了 42 个)
+
+  合并后的boxes:
+    <AF>01: (1039, 287, 1225, 470)
+    <AF>02: (603, 1226, 882, 1538)
+    <AF>03: (681, 224, 877, 483)
+    <AF>04: (2075, 202, 2374, 496)
+    <AF>05: (2238, 1040, 2598, 1412)
+    <AF>06: (3179, 847, 3787, 1533)
+
+  绘制 samed.png (使用 6 个boxes)...
+标记图片已保存: /app/outputs/batch/CReFT-CAD Boosting Orthographic Projection Reasoning for CAD via Reinforcement Fine-Tuning_diagram/samed.png
+Box 信息已保存: /app/outputs/batch/CReFT-CAD Boosting Orthographic Projection Reasoning for CAD via Reinforcement Fine-Tuning_diagram/boxlib.json
+
+检测到 6 个图标
+
+============================================================
+步骤三：裁切 + RMBG2 去背景
+============================================================
+从 HuggingFace 加载 RMBG-2.0 模型...
+检测到 HF_TOKEN，使用鉴权访问 gated 模型。
+/usr/local/lib/python3.11/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/usr/local/lib/python3.11/site-packages/timm/models/registry.py:4: FutureWarning: Importing from timm.models.registry is deprecated, please import via timm.models
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.models", FutureWarning)
+  <AF>01: 裁切并去背景完成 -> /app/outputs/batch/CReFT-CAD Boosting Orthographic Projection Reasoning for CAD via Reinforcement Fine-Tuning_diagram/icons/icon_AF01_nobg.png
+  <AF>02: 裁切并去背景完成 -> /app/outputs/batch/CReFT-CAD Boosting Orthographic Projection Reasoning for CAD via Reinforcement Fine-Tuning_diagram/icons/icon_AF02_nobg.png
+  <AF>03: 裁切并去背景完成 -> /app/outputs/batch/CReFT-CAD Boosting Orthographic Projection Reasoning for CAD via Reinforcement Fine-Tuning_diagram/icons/icon_AF03_nobg.png
+  <AF>04: 裁切并去背景完成 -> /app/outputs/batch/CReFT-CAD Boosting Orthographic Projection Reasoning for CAD via Reinforcement Fine-Tuning_diagram/icons/icon_AF04_nobg.png
+  <AF>05: 裁切并去背景完成 -> /app/outputs/batch/CReFT-CAD Boosting Orthographic Projection Reasoning for CAD via Reinforcement Fine-Tuning_diagram/icons/icon_AF05_nobg.png
+  <AF>06: 裁切并去背景完成 -> /app/outputs/batch/CReFT-CAD Boosting Orthographic Projection Reasoning for CAD via Reinforcement Fine-Tuning_diagram/icons/icon_AF06_nobg.png
+
+============================================================
+步骤四：多模态调用生成 SVG
+============================================================
+Provider: openrouter
+模型: google/gemini-3.1-pro-preview
+占位符模式: label
+原图尺寸: 3840 x 1658
+发送多模态请求到: https://openrouter.ai/api/v1
+
+--------------------------------------------------
+步骤 4.5：SVG 语法验证（使用 lxml XML 解析器）
+--------------------------------------------------
+  SVG 语法验证通过！
+SVG 模板已保存: /app/outputs/batch/CReFT-CAD Boosting Orthographic Projection Reasoning for CAD via Reinforcement Fine-Tuning_diagram/template.svg
+
+============================================================
+步骤 4.6：LLM 优化 SVG（位置和样式对齐）
+============================================================
+Provider: openrouter
+模型: google/gemini-3.1-pro-preview
+最大迭代次数: 0
+  迭代次数为 0，跳过 LLM 优化
+  直接复制模板: /app/outputs/batch/CReFT-CAD Boosting Orthographic Projection Reasoning for CAD via Reinforcement Fine-Tuning_diagram/template.svg -> /app/outputs/batch/CReFT-CAD Boosting Orthographic Projection Reasoning for CAD via Reinforcement Fine-Tuning_diagram/optimized_template.svg
+
+--------------------------------------------------
+步骤 4.7：坐标系对齐
+--------------------------------------------------
+原图尺寸: 3840 x 1658
+SVG 尺寸: 3840.0 x 1658.0
+尺寸匹配，使用 1:1 坐标映射
+
+============================================================
+步骤五：图标替换到 SVG
+============================================================
+匹配模式: 序号匹配
+  <AF>01: 替换成功 (序号匹配 <g>) at (1030.0, 260.0) size 180.0x210.0
+  <AF>02: 替换成功 (序号匹配 <g>) at (600.0, 1180.0) size 280.0x330.0
+  <AF>03: 替换成功 (序号匹配 <g>) at (680.0, 200.0) size 190.0x270.0
+  <AF>04: 替换成功 (序号匹配 <g>) at (2060.0, 210.0) size 290.0x290.0
+  <AF>05: 替换成功 (序号匹配 <g>) at (2220.0, 1030.0) size 350.0x350.0
+  <AF>06: 替换成功 (序号匹配 <g>) at (3100.0, 840.0) size 600.0x620.0
+最终 SVG 已保存: /app/outputs/batch/CReFT-CAD Boosting Orthographic Projection Reasoning for CAD via Reinforcement Fine-Tuning_diagram/final.svg
+
+============================================================
+流程完成！
+============================================================
+原始图片: /app/outputs/batch/CReFT-CAD Boosting Orthographic Projection Reasoning for CAD via Reinforcement Fine-Tuning_diagram/figure.png
+标记图片: /app/outputs/batch/CReFT-CAD Boosting Orthographic Projection Reasoning for CAD via Reinforcement Fine-Tuning_diagram/samed.png
+Box信息: /app/outputs/batch/CReFT-CAD Boosting Orthographic Projection Reasoning for CAD via Reinforcement Fine-Tuning_diagram/boxlib.json
+图标数量: 6
+SVG模板: /app/outputs/batch/CReFT-CAD Boosting Orthographic Projection Reasoning for CAD via Reinforcement Fine-Tuning_diagram/template.svg
+优化后模板: /app/outputs/batch/CReFT-CAD Boosting Orthographic Projection Reasoning for CAD via Reinforcement Fine-Tuning_diagram/optimized_template.svg
+最终SVG: /app/outputs/batch/CReFT-CAD Boosting Orthographic Projection Reasoning for CAD via Reinforcement Fine-Tuning_diagram/final.svg

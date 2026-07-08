@@ -1,0 +1,155 @@
+
+============================================================
+Paper Method 到 SVG 图标替换流程 (Label 模式增强版 + Box合并)
+============================================================
+Provider: openrouter
+输出目录: /app/outputs/batch/EverybodyDance Bipartite Graphâ€“Based Identity Correspondence for Multi-Character Animation_diagram
+输入模式: imported_figure
+导入图片: /app/my-benchmark/hard/EverybodyDance Bipartite Graphâ€“Based Identity Correspondence for Multi-Character Animation_diagram.jpg
+SVG模型: google/gemini-3.1-pro-preview
+SAM提示词: icon,person,robot,animal
+最低置信度: 0.0
+SAM后端: roboflow
+执行到步骤: 5
+占位符模式: label
+优化迭代次数: 0
+Box合并阈值: 0.01
+4K等比例放大: 开启
+============================================================
+============================================================
+步骤一：跳过生图，使用已有的第一阶段图片
+============================================================
+输入图片: /app/my-benchmark/hard/EverybodyDance Bipartite Graphâ€“Based Identity Correspondence for Multi-Character Animation_diagram.jpg
+4K等比例放大: 开启
+导入图片已等比例放大到 4K 长边: 1819 x 1014 -> 3840 x 2141
+图片已保存: /app/outputs/batch/EverybodyDance Bipartite Graphâ€“Based Identity Correspondence for Multi-Character Animation_diagram/figure.png
+
+============================================================
+步骤二：SAM3 分割 + 灰色填充+黑色边框+序号标记
+============================================================
+原图尺寸: 3840 x 2141
+使用的 prompts: ['icon', 'person', 'robot', 'animal']
+SAM3 Roboflow API 模式: format=polygon
+
+  正在检测: 'icon'
+  'icon' 检测到 0 个有效对象
+
+  正在检测: 'person'
+    对象 1: (3366, 1283, 3552, 1581), score=0.910
+    对象 2: (271, 672, 359, 955), score=0.898
+    对象 3: (81, 1298, 227, 1553), score=0.547
+    对象 4: (3522, 1298, 3706, 1565), score=0.914
+    对象 5: (1633, 1888, 1768, 2080), score=0.898
+    对象 6: (1330, 1873, 1395, 2076), score=0.875
+    对象 7: (1218, 1872, 1287, 2085), score=0.887
+    对象 8: (115, 670, 209, 968), score=0.902
+    对象 9: (276, 171, 353, 414), score=0.531
+    对象 10: (1526, 1876, 1665, 2092), score=0.879
+    对象 11: (118, 164, 207, 429), score=0.504
+  'person' 检测到 11 个有效对象
+
+  正在检测: 'robot'
+  'robot' 检测到 0 个有效对象
+
+  正在检测: 'animal'
+  'animal' 检测到 0 个有效对象
+
+总计检测: 11 个对象 (来自 4 个 prompts)
+
+  合并重叠的boxes (阈值: 0.01)...
+    迭代 1: 合并 box 0 和 box 3 (重叠比例: 0.16)
+    迭代 2: 合并 box 2 和 box 7 (重叠比例: 0.24)
+  合并完成: 11 -> 9 (合并了 2 个)
+
+  合并后的boxes:
+    <AF>01: (271, 672, 359, 955)
+    <AF>02: (81, 1298, 227, 1553)
+    <AF>03: (1330, 1873, 1395, 2076)
+    <AF>04: (1218, 1872, 1287, 2085)
+    <AF>05: (115, 670, 209, 968)
+    <AF>06: (276, 171, 353, 414)
+    <AF>07: (118, 164, 207, 429)
+    <AF>08: (3366, 1283, 3706, 1581)
+    <AF>09: (1526, 1876, 1768, 2092)
+
+  绘制 samed.png (使用 9 个boxes)...
+标记图片已保存: /app/outputs/batch/EverybodyDance Bipartite Graphâ€“Based Identity Correspondence for Multi-Character Animation_diagram/samed.png
+Box 信息已保存: /app/outputs/batch/EverybodyDance Bipartite Graphâ€“Based Identity Correspondence for Multi-Character Animation_diagram/boxlib.json
+
+检测到 9 个图标
+
+============================================================
+步骤三：裁切 + RMBG2 去背景
+============================================================
+从 HuggingFace 加载 RMBG-2.0 模型...
+检测到 HF_TOKEN，使用鉴权访问 gated 模型。
+/usr/local/lib/python3.11/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/usr/local/lib/python3.11/site-packages/timm/models/registry.py:4: FutureWarning: Importing from timm.models.registry is deprecated, please import via timm.models
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.models", FutureWarning)
+  <AF>01: 裁切并去背景完成 -> /app/outputs/batch/EverybodyDance Bipartite Graphâ€“Based Identity Correspondence for Multi-Character Animation_diagram/icons/icon_AF01_nobg.png
+  <AF>02: 裁切并去背景完成 -> /app/outputs/batch/EverybodyDance Bipartite Graphâ€“Based Identity Correspondence for Multi-Character Animation_diagram/icons/icon_AF02_nobg.png
+  <AF>03: 裁切并去背景完成 -> /app/outputs/batch/EverybodyDance Bipartite Graphâ€“Based Identity Correspondence for Multi-Character Animation_diagram/icons/icon_AF03_nobg.png
+  <AF>04: 裁切并去背景完成 -> /app/outputs/batch/EverybodyDance Bipartite Graphâ€“Based Identity Correspondence for Multi-Character Animation_diagram/icons/icon_AF04_nobg.png
+  <AF>05: 裁切并去背景完成 -> /app/outputs/batch/EverybodyDance Bipartite Graphâ€“Based Identity Correspondence for Multi-Character Animation_diagram/icons/icon_AF05_nobg.png
+  <AF>06: 裁切并去背景完成 -> /app/outputs/batch/EverybodyDance Bipartite Graphâ€“Based Identity Correspondence for Multi-Character Animation_diagram/icons/icon_AF06_nobg.png
+  <AF>07: 裁切并去背景完成 -> /app/outputs/batch/EverybodyDance Bipartite Graphâ€“Based Identity Correspondence for Multi-Character Animation_diagram/icons/icon_AF07_nobg.png
+  <AF>08: 裁切并去背景完成 -> /app/outputs/batch/EverybodyDance Bipartite Graphâ€“Based Identity Correspondence for Multi-Character Animation_diagram/icons/icon_AF08_nobg.png
+  <AF>09: 裁切并去背景完成 -> /app/outputs/batch/EverybodyDance Bipartite Graphâ€“Based Identity Correspondence for Multi-Character Animation_diagram/icons/icon_AF09_nobg.png
+
+============================================================
+步骤四：多模态调用生成 SVG
+============================================================
+Provider: openrouter
+模型: google/gemini-3.1-pro-preview
+占位符模式: label
+原图尺寸: 3840 x 2141
+发送多模态请求到: https://openrouter.ai/api/v1
+
+--------------------------------------------------
+步骤 4.5：SVG 语法验证（使用 lxml XML 解析器）
+--------------------------------------------------
+  SVG 语法验证通过！
+SVG 模板已保存: /app/outputs/batch/EverybodyDance Bipartite Graphâ€“Based Identity Correspondence for Multi-Character Animation_diagram/template.svg
+
+============================================================
+步骤 4.6：LLM 优化 SVG（位置和样式对齐）
+============================================================
+Provider: openrouter
+模型: google/gemini-3.1-pro-preview
+最大迭代次数: 0
+  迭代次数为 0，跳过 LLM 优化
+  直接复制模板: /app/outputs/batch/EverybodyDance Bipartite Graphâ€“Based Identity Correspondence for Multi-Character Animation_diagram/template.svg -> /app/outputs/batch/EverybodyDance Bipartite Graphâ€“Based Identity Correspondence for Multi-Character Animation_diagram/optimized_template.svg
+
+--------------------------------------------------
+步骤 4.7：坐标系对齐
+--------------------------------------------------
+原图尺寸: 3840 x 2141
+SVG 尺寸: 3840.0 x 2141.0
+尺寸匹配，使用 1:1 坐标映射
+
+============================================================
+步骤五：图标替换到 SVG
+============================================================
+匹配模式: 序号匹配
+  <AF>01: 替换成功 (序号匹配 <g>) at (260.0, 660.0) size 100.0x280.0
+  <AF>02: 替换成功 (序号匹配 <g>) at (55.0, 1335.0) size 150.0x190.0
+  <AF>03: 替换成功 (序号匹配 <g>) at (1330.0, 1850.0) size 40.0x180.0
+  <AF>04: 替换成功 (序号匹配 <g>) at (1220.0, 1850.0) size 40.0x180.0
+  <AF>05: 替换成功 (序号匹配 <g>) at (110.0, 660.0) size 100.0x280.0
+  <AF>06: 替换成功 (序号匹配 <g>) at (275.0, 130.0) size 80.0x270.0
+  <AF>07: 替换成功 (序号匹配 <g>) at (115.0, 130.0) size 80.0x270.0
+  <AF>08: 替换成功 (序号匹配 <g>) at (3350.0, 1250.0) size 300.0x300.0
+  <AF>09: 替换成功 (序号匹配 <g>) at (1540.0, 1850.0) size 200.0x200.0
+最终 SVG 已保存: /app/outputs/batch/EverybodyDance Bipartite Graphâ€“Based Identity Correspondence for Multi-Character Animation_diagram/final.svg
+
+============================================================
+流程完成！
+============================================================
+原始图片: /app/outputs/batch/EverybodyDance Bipartite Graphâ€“Based Identity Correspondence for Multi-Character Animation_diagram/figure.png
+标记图片: /app/outputs/batch/EverybodyDance Bipartite Graphâ€“Based Identity Correspondence for Multi-Character Animation_diagram/samed.png
+Box信息: /app/outputs/batch/EverybodyDance Bipartite Graphâ€“Based Identity Correspondence for Multi-Character Animation_diagram/boxlib.json
+图标数量: 9
+SVG模板: /app/outputs/batch/EverybodyDance Bipartite Graphâ€“Based Identity Correspondence for Multi-Character Animation_diagram/template.svg
+优化后模板: /app/outputs/batch/EverybodyDance Bipartite Graphâ€“Based Identity Correspondence for Multi-Character Animation_diagram/optimized_template.svg
+最终SVG: /app/outputs/batch/EverybodyDance Bipartite Graphâ€“Based Identity Correspondence for Multi-Character Animation_diagram/final.svg

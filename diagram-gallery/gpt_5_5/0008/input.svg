@@ -1,0 +1,415 @@
+<svg width="1934" height="804" viewBox="0 0 1934 804" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrowBlack" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#111"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#8bc34a"/>
+    </marker>
+    <marker id="arrowPink" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#f2a1b2"/>
+    </marker>
+    <marker id="arrowPinkStart" markerWidth="12" markerHeight="12" refX="2" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M12,0 L0,6 L12,12 Z" fill="#f2a1b2"/>
+    </marker>
+
+    <linearGradient id="panelBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#edf3ff"/>
+      <stop offset="1" stop-color="#e6eefb"/>
+    </linearGradient>
+    <linearGradient id="panelGreen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7fff5"/>
+      <stop offset="1" stop-color="#f3fbf0"/>
+    </linearGradient>
+    <linearGradient id="panelPeach" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff7f1"/>
+      <stop offset="1" stop-color="#fff1e8"/>
+    </linearGradient>
+
+    <radialGradient id="beigeTop" cx="50%" cy="40%" r="70%">
+      <stop offset="0" stop-color="#dfddb4"/>
+      <stop offset="0.65" stop-color="#b7b183"/>
+      <stop offset="1" stop-color="#6f6b4f"/>
+    </radialGradient>
+    <linearGradient id="beigeSide" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bbb586"/>
+      <stop offset="1" stop-color="#777254"/>
+    </linearGradient>
+    <radialGradient id="grayTop" cx="50%" cy="40%" r="70%">
+      <stop offset="0" stop-color="#aeb0aa"/>
+      <stop offset="0.65" stop-color="#6f736f"/>
+      <stop offset="1" stop-color="#2f3333"/>
+    </radialGradient>
+    <linearGradient id="graySide" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#727874"/>
+      <stop offset="1" stop-color="#2f3333"/>
+    </linearGradient>
+    <radialGradient id="blueTop" cx="50%" cy="35%" r="70%">
+      <stop offset="0" stop-color="#7e96a4"/>
+      <stop offset="0.65" stop-color="#526978"/>
+      <stop offset="1" stop-color="#253747"/>
+    </radialGradient>
+    <linearGradient id="blueSide" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#627989"/>
+      <stop offset="1" stop-color="#2d4051"/>
+    </linearGradient>
+    <linearGradient id="paperGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffbed"/>
+      <stop offset="1" stop-color="#f2f2e8"/>
+    </linearGradient>
+    <linearGradient id="folderGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe98d"/>
+      <stop offset="1" stop-color="#ffc54e"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#000" flood-opacity="0.22"/>
+    </filter>
+    <filter id="noise" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.18"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+
+  <rect width="1934" height="804" fill="#ffffff"/>
+
+  <!-- Top row: inputs and prompts -->
+  <rect x="13" y="17" width="439" height="310" rx="14" fill="#fff" stroke="#777" stroke-width="3" stroke-dasharray="13 9"/>
+  <text x="34" y="42" font-family="Courier New, monospace" font-size="14" fill="#9aa39b">{</text>
+  <text x="51" y="61" font-family="Courier New, monospace" font-size="14" fill="#d66a7a">"steps"</text>
+  <text x="118" y="61" font-family="Courier New, monospace" font-size="14" fill="#9aa39b">: [</text>
+  <text x="69" y="80" font-family="Courier New, monospace" font-size="14" fill="#9aa39b">{</text>
+  <text x="87" y="99" font-family="Courier New, monospace" font-size="14" fill="#d66a7a">"sketch"</text>
+  <text x="155" y="99" font-family="Courier New, monospace" font-size="14" fill="#9aa39b">: {</text>
+  <text x="106" y="118" font-family="Courier New, monospace" font-size="14" fill="#d66a7a">"circles"</text>
+  <text x="187" y="118" font-family="Courier New, monospace" font-size="14" fill="#9aa39b">: [</text>
+  <text x="124" y="137" font-family="Courier New, monospace" font-size="14" fill="#9aa39b">{</text>
+  <text x="141" y="137" font-family="Courier New, monospace" font-size="14" fill="#d66a7a">"center"</text>
+  <text x="217" y="137" font-family="Courier New, monospace" font-size="14" fill="#9aa39b">: [0, 0], </text>
+  <text x="291" y="137" font-family="Courier New, monospace" font-size="14" fill="#d66a7a">"radius"</text>
+  <text x="365" y="137" font-family="Courier New, monospace" font-size="14" fill="#9aa39b">: 60},</text>
+  <text x="124" y="156" font-family="Courier New, monospace" font-size="14" fill="#9aa39b">{</text>
+  <text x="141" y="156" font-family="Courier New, monospace" font-size="14" fill="#d66a7a">"center"</text>
+  <text x="217" y="156" font-family="Courier New, monospace" font-size="14" fill="#9aa39b">: [0, 0], </text>
+  <text x="291" y="156" font-family="Courier New, monospace" font-size="14" fill="#d66a7a">"radius"</text>
+  <text x="365" y="156" font-family="Courier New, monospace" font-size="14" fill="#9aa39b">: 25}</text>
+  <text x="106" y="175" font-family="Courier New, monospace" font-size="14" fill="#9aa39b">]</text>
+  <text x="87" y="194" font-family="Courier New, monospace" font-size="14" fill="#9aa39b">},</text>
+  <text x="87" y="213" font-family="Courier New, monospace" font-size="14" fill="#d66a7a">"extrusion"</text>
+  <text x="187" y="213" font-family="Courier New, monospace" font-size="14" fill="#9aa39b">: {</text>
+  <text x="106" y="232" font-family="Courier New, monospace" font-size="14" fill="#d66a7a">"direction"</text>
+  <text x="203" y="232" font-family="Courier New, monospace" font-size="14" fill="#9aa39b">: [0, 0, 1],</text>
+  <text x="106" y="251" font-family="Courier New, monospace" font-size="14" fill="#d66a7a">"origin"</text>
+  <text x="178" y="251" font-family="Courier New, monospace" font-size="14" fill="#9aa39b">: [0, 0, 0],</text>
+  <text x="106" y="270" font-family="Courier New, monospace" font-size="14" fill="#d66a7a">"depth"</text>
+  <text x="170" y="270" font-family="Courier New, monospace" font-size="14" fill="#9aa39b">: 15,</text>
+  <text x="106" y="289" font-family="Courier New, monospace" font-size="14" fill="#d66a7a">"operation"</text>
+  <text x="205" y="289" font-family="Courier New, monospace" font-size="14" fill="#9aa39b">: </text>
+  <text x="222" y="289" font-family="Courier New, monospace" font-size="14" fill="#8fa96f">"NewBody"</text>
+  <text x="87" y="308" font-family="Courier New, monospace" font-size="14" fill="#9aa39b">}</text>
+  <text x="69" y="308" font-family="Courier New, monospace" font-size="14" fill="#9aa39b">},...]</text>
+  <text x="224" y="314" font-family="Arial, sans-serif" font-weight="700" font-size="22" fill="#2b551c">Command Sequence</text>
+
+  <rect x="466" y="17" width="410" height="310" rx="14" fill="#fff" stroke="#777" stroke-width="3" stroke-dasharray="13 9"/>
+  <text x="483" y="43" font-family="Courier New, monospace" font-size="15" fill="#d66a7a">Text_Description = </text>
+  <text x="651" y="43" font-family="Courier New, monospace" font-size="15" fill="#8fa96f">"""</text>
+  <text x="483" y="62" font-family="Courier New, monospace" font-size="15" fill="#8fa96f">This circular flange is a metal component</text>
+  <text x="483" y="81" font-family="Courier New, monospace" font-size="15" fill="#8fa96f">featuring a flat base plate with a</text>
+  <text x="483" y="100" font-family="Courier New, monospace" font-size="15" fill="#8fa96f">diameter of 120 mm and thickness of 15 mm.</text>
+  <text x="483" y="119" font-family="Courier New, monospace" font-size="15" fill="#8fa96f">The design includes a central bore</text>
+  <text x="483" y="138" font-family="Courier New, monospace" font-size="15" fill="#8fa96f">measuring 50 mm in diameter surrounded by</text>
+  <text x="483" y="157" font-family="Courier New, monospace" font-size="15" fill="#8fa96f">a raised concentric ring with an outer</text>
+  <text x="483" y="176" font-family="Courier New, monospace" font-size="15" fill="#8fa96f">diameter of 70 mm and height of 8 mm that</text>
+  <text x="483" y="195" font-family="Courier New, monospace" font-size="15" fill="#8fa96f">shares the same inner diameter as the</text>
+  <text x="483" y="214" font-family="Courier New, monospace" font-size="15" fill="#8fa96f">central bore. Six equidistant mounting</text>
+  <text x="483" y="233" font-family="Courier New, monospace" font-size="15" fill="#8fa96f">holes measuring 12 mm in diameter are</text>
+  <text x="483" y="252" font-family="Courier New, monospace" font-size="15" fill="#8fa96f">arranged in a circular pattern with a</text>
+  <text x="483" y="271" font-family="Courier New, monospace" font-size="15" fill="#8fa96f">diameter of 90 mm around the periphery.</text>
+  <text x="483" y="290" font-family="Courier New, monospace" font-size="15" fill="#8fa96f">"""</text>
+  <text x="681" y="314" font-family="Arial, sans-serif" font-weight="700" font-size="22" fill="#2b551c">Text Description</text>
+
+  <rect x="884" y="18" width="1044" height="138" rx="12" fill="#fff" stroke="#777" stroke-width="3" stroke-dasharray="13 9"/>
+  <text x="899" y="57" font-family="Courier New, monospace" font-size="15" fill="#d66a7a">System_prompt = </text>
+  <text x="1046" y="57" font-family="Courier New, monospace" font-size="15" fill="#8fa96f">"""</text>
+  <text x="899" y="76" font-family="Courier New, monospace" font-size="15" fill="#8fa96f">Please convert the following CAD command sequence into CAD-Query code, with the final model represented as 'r':</text>
+  <text x="899" y="95" font-family="Courier New, monospace" font-size="15" fill="#8fa96f">"""</text>
+  <text x="899" y="127" font-family="Courier New, monospace" font-size="15" fill="#777"># The CoT system prompt can be found in the appendix.</text>
+  <text x="1749" y="137" font-family="Arial, sans-serif" font-weight="700" font-size="22" fill="#2b551c">System prompt</text>
+
+  <rect x="884" y="164" width="1044" height="162" rx="12" fill="#fff" stroke="#777" stroke-width="3" stroke-dasharray="13 9"/>
+  <text x="899" y="196" font-family="Courier New, monospace" font-size="15">
+    <tspan fill="#d66ad0">import</tspan><tspan fill="#c9a36e"> cadquery </tspan><tspan fill="#d66ad0">as</tspan><tspan fill="#777"> cq</tspan>
+  </text>
+  <text x="899" y="232" font-family="Courier New, monospace" font-size="15" fill="#d66a7a">flange = </text>
+  <text x="979" y="232" font-family="Courier New, monospace" font-size="15" fill="#8fa7c5">(cq.Workplane("XY")</text>
+  <text x="979" y="250" font-family="Courier New, monospace" font-size="15" fill="#8fa7c5">        .circle(60).circle(25).extrude(15)</text>
+  <text x="979" y="268" font-family="Courier New, monospace" font-size="15" fill="#8fa7c5">        .faces("&gt;Z").workplane().polarArray(45, 0, 360,6).circle(6).cutThruAll()</text>
+  <text x="979" y="286" font-family="Courier New, monospace" font-size="15" fill="#8fa7c5">        .faces("&gt;Z").workplane().add(cq.Workplane("XY").circle(35).circle(25).workplane(offset=15).extrude(8)))</text>
+  <text x="899" y="304" font-family="Courier New, monospace" font-size="15" fill="#d66a7a">result = flange</text>
+  <text x="1740" y="315" font-family="Arial, sans-serif" font-weight="700" font-size="22" fill="#2b551c">CadQuery Code</text>
+
+  <!-- Bottom panels -->
+  <rect x="12" y="345" width="515" height="459" rx="31" fill="url(#panelBlue)" stroke="#d4d4d4" stroke-width="4"/>
+  <rect x="541" y="345" width="1073" height="459" rx="31" fill="url(#panelGreen)" stroke="#d4d4d4" stroke-width="4"/>
+  <rect x="1630" y="345" width="298" height="459" rx="31" fill="url(#panelPeach)" stroke="#d4d4d4" stroke-width="4"/>
+
+  <!-- Left panel dataset folder icon -->
+  <g transform="translate(37 493)">
+    <path d="M0 35 Q0 27 8 27 L34 27 L43 0 L68 7 L62 27 L80 27 Q88 27 88 35 L88 91 Q88 97 82 97 L7 97 Q0 97 0 90 Z" fill="#fff5bf" stroke="#30336b" stroke-width="3"/>
+    <path d="M31 0 L68 10 L61 38 L24 28 Z" fill="#eef5d9" stroke="#30336b" stroke-width="3"/>
+    <path d="M34 10 L62 17 M31 20 L59 27 M28 30 L53 36" stroke="#30336b" stroke-width="3"/>
+    <path d="M0 49 Q0 42 8 42 L36 42 L45 34 L82 34 Q90 34 90 42 L90 92 Q90 99 83 99 L7 99 Q0 99 0 92 Z" fill="url(#folderGrad)" stroke="#30336b" stroke-width="3"/>
+    <circle cx="70" cy="91" r="15" fill="#58c49a" stroke="#30336b" stroke-width="3"/>
+    <path d="M63 91 L68 96 L78 84" fill="none" stroke="#0a5d79" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <text x="64" y="628" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#111">Text2CAD</text>
+  <text x="64" y="654" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#111">Dataset</text>
+
+  <!-- Left panel arrows and stack -->
+  <path d="M132 545 L224 545" stroke="#111" stroke-width="4" fill="none" marker-end="url(#arrowBlack)"/>
+  <path d="M178 545 L178 401 L224 401" stroke="#111" stroke-width="4" fill="none" marker-end="url(#arrowBlack)"/>
+  <path d="M178 545 L178 713 L224 713" stroke="#111" stroke-width="4" fill="none" marker-end="url(#arrowBlack)"/>
+
+  <rect x="234" y="351" width="103" height="290" fill="#fff" fill-opacity="0.65" stroke="#111" stroke-width="2.5" stroke-dasharray="8 7"/>
+
+  <!-- JSON doc -->
+  <g transform="translate(250 357)">
+    <path d="M0 0 L51 0 L69 18 L69 91 L0 91 Z" fill="url(#paperGrad)" stroke="#3d2b20" stroke-width="3"/>
+    <path d="M51 0 L51 18 L69 18 Z" fill="#d9996b" stroke="#3d2b20" stroke-width="3"/>
+    <path d="M12 15 L42 15 M12 26 L55 26 M12 37 L55 37 M12 48 L55 48 M12 59 L55 59" stroke="#3d2b20" stroke-width="3"/>
+    <rect x="6" y="64" width="58" height="24" fill="#f36d2f" stroke="#3d2b20" stroke-width="2"/>
+    <text x="35" y="82" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="18" fill="#3d2b20">JSON</text>
+  </g>
+  <text x="285" y="472" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#111">Command</text>
+  <text x="285" y="493" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#111">Sequence</text>
+
+  <!-- TEXT doc left -->
+  <g transform="translate(251 500)">
+    <path d="M0 0 L51 0 L69 18 L69 91 L0 91 Z" fill="url(#paperGrad)" stroke="#444" stroke-width="3"/>
+    <path d="M51 0 L51 18 L69 18 Z" fill="#d9d9d9" stroke="#444" stroke-width="3"/>
+    <path d="M12 17 L43 17 M12 29 L56 29 M12 41 L56 41 M12 53 L56 53" stroke="#444" stroke-width="3"/>
+    <rect x="6" y="64" width="58" height="24" fill="#eeeeee" stroke="#444" stroke-width="2"/>
+    <text x="35" y="82" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="18" fill="#444">TEXT</text>
+  </g>
+  <text x="285" y="615" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#111">Text</text>
+  <text x="285" y="636" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#111">Description</text>
+
+  <!-- STEP doc bottom -->
+  <g transform="translate(251 667)">
+    <path d="M0 0 L51 0 L69 18 L69 91 L0 91 Z" fill="#e8f7ef" stroke="#28535b" stroke-width="3"/>
+    <path d="M51 0 L51 18 L69 18 Z" fill="#b6d9dd" stroke="#28535b" stroke-width="3"/>
+    <path d="M12 17 L43 17 M12 29 L56 29 M12 41 L56 41 M12 53 L56 53" stroke="#28535b" stroke-width="3"/>
+    <rect x="6" y="64" width="58" height="24" fill="#72c4ba" stroke="#28535b" stroke-width="2"/>
+    <text x="35" y="82" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="18" fill="#28535b">STEP</text>
+  </g>
+  <text x="285" y="788" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#111">Ground–Truth Model</text>
+
+  <!-- LLM/CadQuery/discard -->
+  <path d="M337 463 L370 463 L370 413 L402 413" stroke="#111" stroke-width="4" fill="none" marker-end="url(#arrowBlack)"/>
+  <text x="448" y="376" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#111">LLMs</text>
+  <g transform="translate(405 384) scale(0.95)">
+    <path d="M4 33 C4 9 25 0 50 9 C69 16 78 2 89 0 C86 11 83 17 75 23 C88 25 94 20 99 13 C100 30 89 44 77 50 C62 58 44 58 28 50 C16 44 8 40 4 33 Z" fill="#496bea"/>
+    <path d="M20 22 C35 22 49 36 59 54 C42 55 25 44 20 22 Z" fill="#fff"/>
+    <circle cx="73" cy="17" r="3" fill="#fff"/>
+    <path d="M13 36 C24 45 36 50 50 50" fill="none" stroke="#496bea" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <path d="M450 442 L450 494" stroke="#111" stroke-width="4" fill="none" marker-end="url(#arrowBlack)"/>
+  <rect x="411" y="494" width="78" height="76" fill="#2185b7"/>
+  <text x="450" y="547" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="52" fill="#fff">cq</text>
+  <text x="450" y="597" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#111">CadQuery</text>
+  <path d="M450 608 L450 654" stroke="#e22" stroke-width="4" fill="none" marker-end="url(#arrowBlack)"/>
+  <text x="427" y="643" text-anchor="middle" font-family="Arial, sans-serif" font-size="50" font-weight="700" fill="#e22">×</text>
+  <g transform="translate(412 657) rotate(-6)">
+    <path d="M22 13 L79 13 L71 82 L30 82 Z" fill="#ffd85e" stroke="#574b90" stroke-width="4"/>
+    <path d="M16 8 L83 8 L83 18 L16 18 Z" fill="#e85c65" stroke="#574b90" stroke-width="4"/>
+    <path d="M38 0 L62 0 L64 8 L36 8 Z" fill="#574b90"/>
+    <path d="M37 27 L41 72 M52 27 L52 72 M67 27 L63 72" stroke="#884b4b" stroke-width="5" stroke-linecap="round"/>
+    <path d="M5 30 L24 18" stroke="#6ab04c" stroke-width="7"/>
+    <path d="M38 2 L20 -7" stroke="#574b90" stroke-width="7"/>
+    <path d="M62 2 L83 -10" stroke="#574b90" stroke-width="7"/>
+  </g>
+  <text x="450" y="788" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#111">Discard</text>
+
+  <!-- Arrow to center -->
+  <path d="M489 532 L557 532 L557 472 L624 472" stroke="#8bc34a" stroke-width="3" fill="none" marker-end="url(#arrowGreen)"/>
+  <path d="M570 419 L591 440 L625 396" fill="none" stroke="#8bc34a" stroke-width="10" opacity="0.8"/>
+
+  <!-- Center panel generated models -->
+  <rect x="626" y="382" width="687" height="182" rx="13" fill="none" stroke="#8bc34a" stroke-width="4" stroke-dasharray="17 12"/>
+  <rect x="829" y="359" width="244" height="42" rx="8" fill="#e8f4dc" stroke="#8bc34a" stroke-width="4" stroke-dasharray="11 8"/>
+  <text x="951" y="386" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="20" fill="#2b551c">Generated Models</text>
+
+  <!-- Model drawing helpers (manually duplicated) -->
+  <g transform="translate(758 466)" filter="url(#softShadow)">
+    <rect x="-86" y="-6" width="172" height="35" fill="url(#beigeSide)"/>
+    <ellipse cx="0" cy="-6" rx="86" ry="36" fill="url(#beigeTop)"/>
+    <ellipse cx="0" cy="29" rx="86" ry="36" fill="#6e694d"/>
+    <ellipse cx="0" cy="-6" rx="35" ry="12" fill="#f1f0d5"/>
+    <ellipse cx="0" cy="-5" rx="26" ry="8" fill="#777254"/>
+  </g>
+
+  <g transform="translate(976 466)" filter="url(#softShadow)">
+    <rect x="-88" y="-6" width="176" height="36" fill="url(#beigeSide)"/>
+    <ellipse cx="0" cy="-6" rx="88" ry="36" fill="url(#beigeTop)"/>
+    <ellipse cx="0" cy="30" rx="88" ry="35" fill="#6f6a4d"/>
+    <ellipse cx="0" cy="-5" rx="35" ry="11" fill="#f2f0cf"/>
+    <ellipse cx="0" cy="-4" rx="25" ry="8" fill="#777254"/>
+    <g fill="#817b59" opacity="0.65">
+      <ellipse cx="58" cy="-6" rx="8" ry="4"/>
+      <ellipse cx="30" cy="-28" rx="8" ry="4"/>
+      <ellipse cx="-34" cy="-28" rx="8" ry="4"/>
+      <ellipse cx="-60" cy="-6" rx="8" ry="4"/>
+      <ellipse cx="-34" cy="20" rx="8" ry="4"/>
+      <ellipse cx="34" cy="20" rx="8" ry="4"/>
+    </g>
+  </g>
+
+  <g transform="translate(1190 466)" filter="url(#softShadow)">
+    <rect x="-88" y="-6" width="176" height="36" fill="url(#beigeSide)"/>
+    <ellipse cx="0" cy="-6" rx="88" ry="36" fill="url(#beigeTop)"/>
+    <ellipse cx="0" cy="30" rx="88" ry="35" fill="#6f6a4d"/>
+    <rect x="-47" y="-34" width="94" height="28" fill="#a9a279"/>
+    <ellipse cx="0" cy="-34" rx="47" ry="18" fill="#c8c294"/>
+    <ellipse cx="0" cy="-34" rx="29" ry="10" fill="#8b8560"/>
+    <ellipse cx="0" cy="-6" rx="48" ry="18" fill="none" stroke="#908a65" stroke-width="5" opacity="0.7"/>
+    <g fill="#817b59" opacity="0.7">
+      <ellipse cx="57" cy="-5" rx="8" ry="4"/>
+      <ellipse cx="-57" cy="-5" rx="8" ry="4"/>
+      <ellipse cx="-35" cy="21" rx="9" ry="5"/>
+      <ellipse cx="35" cy="21" rx="9" ry="5"/>
+    </g>
+  </g>
+
+  <!-- Lower point models -->
+  <rect x="626" y="606" width="687" height="166" rx="12" fill="none" stroke="#777" stroke-width="4" stroke-dasharray="17 12"/>
+  <rect x="845" y="750" width="241" height="43" rx="8" fill="#edf7e8" stroke="#777" stroke-width="4" stroke-dasharray="12 9"/>
+  <text x="966" y="777" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="20" fill="#2b551c">3D Point Models</text>
+  <path d="M970 562 L970 607" stroke="#111" stroke-width="4" fill="none" marker-end="url(#arrowBlack)"/>
+  <text x="984" y="591" font-family="Arial, sans-serif" font-size="20" fill="#111">Sample</text>
+
+  <g transform="translate(762 665)" filter="url(#softShadow)">
+    <rect x="-91" y="-4" width="182" height="41" fill="url(#graySide)"/>
+    <ellipse cx="0" cy="-4" rx="91" ry="38" fill="url(#grayTop)"/>
+    <ellipse cx="0" cy="37" rx="91" ry="36" fill="#2c3030"/>
+    <ellipse cx="0" cy="-4" rx="36" ry="12" fill="#eef0ea"/>
+    <ellipse cx="0" cy="-4" rx="25" ry="8" fill="#565c58"/>
+    <rect x="-92" y="-42" width="184" height="117" fill="url(#noise)" opacity="0.65"/>
+  </g>
+
+  <g transform="translate(976 665)" filter="url(#softShadow)">
+    <rect x="-88" y="-5" width="176" height="38" fill="url(#graySide)"/>
+    <ellipse cx="0" cy="-5" rx="88" ry="37" fill="url(#grayTop)"/>
+    <ellipse cx="0" cy="33" rx="88" ry="35" fill="#2c3030"/>
+    <ellipse cx="0" cy="-5" rx="36" ry="12" fill="#eef0ea"/>
+    <ellipse cx="0" cy="-4" rx="25" ry="8" fill="#545a56"/>
+    <g fill="none" stroke="#989b96" stroke-width="2" opacity="0.55">
+      <ellipse cx="58" cy="-5" rx="8" ry="4"/>
+      <ellipse cx="30" cy="-28" rx="8" ry="4"/>
+      <ellipse cx="-34" cy="-28" rx="8" ry="4"/>
+      <ellipse cx="-60" cy="-5" rx="8" ry="4"/>
+      <ellipse cx="-34" cy="20" rx="8" ry="4"/>
+      <ellipse cx="34" cy="20" rx="8" ry="4"/>
+    </g>
+    <rect x="-90" y="-43" width="180" height="117" fill="url(#noise)" opacity="0.55"/>
+  </g>
+
+  <rect x="1092" y="622" width="205" height="110" rx="12" fill="none" stroke="#f00" stroke-width="4" stroke-dasharray="14 10"/>
+  <g transform="translate(1194 667)" filter="url(#softShadow)">
+    <rect x="-88" y="-5" width="176" height="38" fill="url(#graySide)"/>
+    <ellipse cx="0" cy="-5" rx="88" ry="37" fill="url(#grayTop)"/>
+    <ellipse cx="0" cy="33" rx="88" ry="35" fill="#464b49"/>
+    <rect x="-47" y="-33" width="94" height="28" fill="#777d78"/>
+    <ellipse cx="0" cy="-33" rx="47" ry="18" fill="#a8aaa4"/>
+    <ellipse cx="0" cy="-33" rx="29" ry="10" fill="#535955"/>
+    <g fill="#252929">
+      <ellipse cx="57" cy="-5" rx="8" ry="4"/>
+      <ellipse cx="-57" cy="-5" rx="8" ry="4"/>
+      <ellipse cx="-35" cy="20" rx="9" ry="5"/>
+      <ellipse cx="35" cy="20" rx="9" ry="5"/>
+    </g>
+    <rect x="-90" y="-51" width="180" height="124" fill="url(#noise)" opacity="0.45"/>
+  </g>
+  <text x="1194" y="757" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#111">Select by CD</text>
+
+  <!-- Right side of center: ground truth and selection -->
+  <g transform="translate(1504 445)" filter="url(#softShadow)">
+    <rect x="-91" y="-5" width="182" height="42" fill="url(#blueSide)"/>
+    <ellipse cx="0" cy="-5" rx="91" ry="37" fill="url(#blueTop)"/>
+    <ellipse cx="0" cy="37" rx="91" ry="35" fill="#273746"/>
+    <rect x="-45" y="-31" width="90" height="25" fill="#465d6c"/>
+    <ellipse cx="0" cy="-31" rx="45" ry="17" fill="#657d8c"/>
+    <ellipse cx="0" cy="-31" rx="29" ry="10" fill="#405767"/>
+    <g fill="#324754" opacity="0.8">
+      <ellipse cx="56" cy="-3" rx="8" ry="4"/>
+      <ellipse cx="-56" cy="-3" rx="8" ry="4"/>
+      <ellipse cx="-30" cy="20" rx="8" ry="4"/>
+      <ellipse cx="30" cy="20" rx="8" ry="4"/>
+    </g>
+  </g>
+  <text x="1504" y="545" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#111">Ground–Truth Models</text>
+  <path d="M1501 553 L1501 595" stroke="#111" stroke-width="4" fill="none" marker-end="url(#arrowBlack)"/>
+  <text x="1519" y="577" font-family="Arial, sans-serif" font-size="20" fill="#111">Sample</text>
+
+  <g transform="translate(1502 668)" filter="url(#softShadow)">
+    <rect x="-88" y="-5" width="176" height="38" fill="url(#graySide)"/>
+    <ellipse cx="0" cy="-5" rx="88" ry="37" fill="url(#grayTop)"/>
+    <ellipse cx="0" cy="33" rx="88" ry="35" fill="#464b49"/>
+    <rect x="-47" y="-33" width="94" height="28" fill="#777d78"/>
+    <ellipse cx="0" cy="-33" rx="47" ry="18" fill="#a8aaa4"/>
+    <ellipse cx="0" cy="-33" rx="29" ry="10" fill="#535955"/>
+    <g fill="#252929">
+      <ellipse cx="57" cy="-5" rx="8" ry="4"/>
+      <ellipse cx="-57" cy="-5" rx="8" ry="4"/>
+      <ellipse cx="-35" cy="20" rx="9" ry="5"/>
+      <ellipse cx="35" cy="20" rx="9" ry="5"/>
+    </g>
+    <rect x="-90" y="-51" width="180" height="124" fill="url(#noise)" opacity="0.35"/>
+  </g>
+
+  <text x="1324" y="624" font-family="Arial, sans-serif" font-size="20" fill="#111">Chamfer</text>
+  <text x="1324" y="645" font-family="Arial, sans-serif" font-size="20" fill="#111">Distance</text>
+  <path d="M1314 675 L1403 675" stroke="#f2a1b2" stroke-width="7" fill="none" marker-start="url(#arrowPinkStart)" marker-end="url(#arrowPink)"/>
+  <path d="M1363 675 L1363 730 L1658 730" stroke="#f2a1b2" stroke-width="4" fill="none" marker-end="url(#arrowPink)"/>
+  <text x="1502" y="757" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#111">Python code</text>
+  <text x="1502" y="780" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#111">selection</text>
+
+  <!-- Right panel outputs -->
+  <rect x="1650" y="359" width="104" height="287" fill="#fff" fill-opacity="0.55" stroke="#111" stroke-width="2.5" stroke-dasharray="8 7"/>
+  <g transform="translate(1674 374)">
+    <path d="M0 0 L45 0 L62 17 L62 80 L0 80 Z" fill="#e8f7ef" stroke="#28535b" stroke-width="3"/>
+    <path d="M45 0 L45 17 L62 17 Z" fill="#b6d9dd" stroke="#28535b" stroke-width="3"/>
+    <path d="M10 16 L38 16 M10 28 L52 28 M10 40 L52 40 M10 52 L52 52" stroke="#28535b" stroke-width="3"/>
+    <rect x="6" y="54" width="50" height="22" fill="#72c4ba" stroke="#28535b" stroke-width="2"/>
+    <text x="31" y="71" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="16" fill="#28535b">STEP</text>
+  </g>
+  <text x="1702" y="482" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#111">Model</text>
+
+  <g transform="translate(1674 509)">
+    <path d="M0 0 L45 0 L62 17 L62 80 L0 80 Z" fill="url(#paperGrad)" stroke="#444" stroke-width="3"/>
+    <path d="M45 0 L45 17 L62 17 Z" fill="#d9d9d9" stroke="#444" stroke-width="3"/>
+    <path d="M10 16 L38 16 M10 28 L52 28 M10 40 L52 40 M10 52 L52 52" stroke="#444" stroke-width="3"/>
+    <rect x="6" y="54" width="50" height="22" fill="#eeeeee" stroke="#444" stroke-width="2"/>
+    <text x="31" y="71" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="16" fill="#444">TEXT</text>
+  </g>
+  <text x="1702" y="619" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#111">Text</text>
+  <text x="1702" y="643" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#111">Description</text>
+
+  <rect x="1670" y="686" width="77" height="76" fill="#2185b7"/>
+  <text x="1709" y="738" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="52" fill="#fff">cq</text>
+  <text x="1709" y="788" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#111">CadQuery</text>
+
+  <path d="M1754 504 L1781 504 L1781 566 L1805 566" stroke="#111" stroke-width="4" fill="none" marker-end="url(#arrowBlack)"/>
+  <path d="M1748 724 L1781 724 L1781 566" stroke="#111" stroke-width="4" fill="none"/>
+
+  <g transform="translate(1815 516)">
+    <path d="M0 35 Q0 27 8 27 L34 27 L43 0 L68 7 L62 27 L80 27 Q88 27 88 35 L88 91 Q88 97 82 97 L7 97 Q0 97 0 90 Z" fill="#fff5bf" stroke="#30336b" stroke-width="3"/>
+    <path d="M31 0 L68 10 L61 38 L24 28 Z" fill="#eef5d9" stroke="#30336b" stroke-width="3"/>
+    <path d="M34 10 L62 17 M31 20 L59 27 M28 30 L53 36" stroke="#30336b" stroke-width="3"/>
+    <path d="M0 49 Q0 42 8 42 L36 42 L45 34 L82 34 Q90 34 90 42 L90 92 Q90 99 83 99 L7 99 Q0 99 0 92 Z" fill="url(#folderGrad)" stroke="#30336b" stroke-width="3"/>
+    <circle cx="71" cy="91" r="15" fill="#ff6b6b" stroke="#30336b" stroke-width="3"/>
+    <path d="M63 91 L79 91 M71 83 L71 99" stroke="#30336b" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <text x="1860" y="642" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#111">Our Dataset</text>
+</svg>

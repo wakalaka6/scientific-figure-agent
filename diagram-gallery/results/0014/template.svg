@@ -1,0 +1,219 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="664" viewBox="0 0 1600 664">
+  <defs>
+    <marker id="arrow_black" markerWidth="12" markerHeight="10" refX="10" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#000"/>
+    </marker>
+    <marker id="arrow_blue" markerWidth="12" markerHeight="10" refX="10" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#6f93d6"/>
+    </marker>
+    <style>
+      .label{font-family:Arial, Helvetica, sans-serif; fill:#000;}
+      .math{font-family:"Times New Roman", Times, serif; font-style:italic; fill:#000;}
+      .box{fill:#fff; stroke:#7f7f7f; stroke-width:2;}
+      .dash-gray{fill:none; stroke:#aaa; stroke-width:2; stroke-dasharray:14 8;}
+      .dash-blue{fill:none; stroke:#8facdf; stroke-width:2; stroke-dasharray:14 8;}
+      .dash-yellow{fill:none; stroke:#ffd84b; stroke-width:2; stroke-dasharray:14 8;}
+      .dash-green{fill:none; stroke:#a9d58e; stroke-width:2; stroke-dasharray:14 8;}
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1600" height="664" fill="#fff"/>
+
+  <!-- Legend -->
+  <rect x="16" y="91" width="166" height="188" class="dash-gray"/>
+  <rect x="26" y="106" width="26" height="26" fill="#8eaee5" stroke="#6f8ec7" stroke-width="2"/>
+  <text x="64" y="125" class="label" font-size="25">hard label</text>
+  <rect x="26" y="151" width="26" height="26" fill="#a8a8a8" stroke="#777" stroke-width="2"/>
+  <text x="64" y="170" class="label" font-size="25">mask label</text>
+  <rect x="26" y="196" width="26" height="26" fill="#ffd764" stroke="#f6bd22" stroke-width="2"/>
+  <text x="64" y="215" class="label" font-size="25">target</text>
+  <rect x="26" y="241" width="26" height="26" fill="#acd894" stroke="#83bf66" stroke-width="2"/>
+  <text x="64" y="260" class="label" font-size="25">non-target</text>
+
+  <!-- Input image asset -->
+  <g id="slot_cat_photo" data-bbox="[16,329,145,145]" data-role="asset" data-kind="pixel_image" data-description="cat input image" data-canonical-asset-id="cat_photo" data-duplicate-of="">
+    <rect x="16" y="329" width="145" height="145" fill="#f8f8f8" stroke="#666" stroke-width="2" stroke-dasharray="6 4"/>
+    <line x1="16" y1="329" x2="161" y2="474" stroke="#aaa" stroke-width="1.5"/>
+    <line x1="161" y1="329" x2="16" y2="474" stroke="#aaa" stroke-width="1.5"/>
+    <text x="88.5" y="401.5" font-family="Arial, Helvetica, sans-serif" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#333">ASSET_SLOT</text>
+  </g>
+  <text x="88" y="510" class="label" font-size="28" text-anchor="middle">cat</text>
+
+  <!-- Main left boxes -->
+  <rect x="210" y="61" width="225" height="74" rx="14" class="box"/>
+  <text x="322.5" y="107" class="label" font-size="29" text-anchor="middle">Ground Truth</text>
+
+  <rect x="210" y="235" width="225" height="128" rx="20" class="box"/>
+  <g id="slot_teacher_model_icon" data-bbox="[236,245,136,101]" data-role="asset" data-kind="svg_icon" data-description="teacher neural network icon" data-canonical-asset-id="teacher_model_icon" data-duplicate-of="">
+    <rect x="236" y="245" width="136" height="101" fill="#f8f8f8" stroke="#666" stroke-width="2" stroke-dasharray="6 4"/>
+    <line x1="236" y1="245" x2="372" y2="346" stroke="#aaa" stroke-width="1.5"/>
+    <line x1="372" y1="245" x2="236" y2="346" stroke="#aaa" stroke-width="1.5"/>
+    <text x="304" y="295.5" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#333">ASSET_SLOT</text>
+  </g>
+  <text x="368" y="344" class="label" font-size="30" text-anchor="middle">Teacher</text>
+
+  <rect x="210" y="439" width="225" height="127" rx="20" class="box"/>
+  <g id="slot_student_model_icon" data-bbox="[235,449,134,101]" data-role="asset" data-kind="svg_icon" data-description="student neural network icon" data-canonical-asset-id="student_model_icon" data-duplicate-of="">
+    <rect x="235" y="449" width="134" height="101" fill="#f8f8f8" stroke="#666" stroke-width="2" stroke-dasharray="6 4"/>
+    <line x1="235" y1="449" x2="369" y2="550" stroke="#aaa" stroke-width="1.5"/>
+    <line x1="369" y1="449" x2="235" y2="550" stroke="#aaa" stroke-width="1.5"/>
+    <text x="302" y="499.5" font-family="Arial, Helvetica, sans-serif" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#333">ASSET_SLOT</text>
+  </g>
+  <text x="367" y="552" class="label" font-size="30" text-anchor="middle">Student</text>
+
+  <!-- Arrows from input and boxes -->
+  <line x1="161" y1="329" x2="209" y2="298" stroke="#000" stroke-width="2.2" marker-end="url(#arrow_black)"/>
+  <line x1="161" y1="474" x2="209" y2="501" stroke="#000" stroke-width="2.2" marker-end="url(#arrow_black)"/>
+  <line x1="435" y1="98" x2="461" y2="98" stroke="#000" stroke-width="2.2" marker-end="url(#arrow_black)"/>
+  <line x1="435" y1="297" x2="461" y2="297" stroke="#000" stroke-width="2.2" marker-end="url(#arrow_black)"/>
+  <line x1="435" y1="501" x2="461" y2="501" stroke="#000" stroke-width="2.2" marker-end="url(#arrow_black)"/>
+
+  <!-- Probability column panel -->
+  <rect x="462" y="18" width="87" height="574" class="dash-gray"/>
+  <!-- top hard/mask vector -->
+  <rect x="479" y="29" width="26" height="26" fill="#8eaee5" stroke="#6f8ec7" stroke-width="2"/>
+  <rect x="479" y="58" width="26" height="26" fill="#a8a8a8" stroke="#777" stroke-width="2"/>
+  <rect x="479" y="83" width="26" height="26" fill="#a8a8a8" stroke="#777" stroke-width="2"/>
+  <rect x="479" y="108" width="26" height="26" fill="#a8a8a8" stroke="#777" stroke-width="2"/>
+  <rect x="479" y="133" width="26" height="26" fill="#a8a8a8" stroke="#777" stroke-width="2"/>
+  <rect x="479" y="158" width="26" height="26" fill="#a8a8a8" stroke="#777" stroke-width="2"/>
+  <text x="520" y="50" class="label" font-size="28" text-anchor="middle">1</text>
+
+  <!-- teacher probability vector -->
+  <rect x="479" y="223" width="26" height="26" fill="#ffd764" stroke="#f6bd22" stroke-width="2"/>
+  <rect x="479" y="252" width="26" height="26" fill="#acd894" stroke="#83bf66" stroke-width="2"/>
+  <rect x="479" y="277" width="26" height="26" fill="#acd894" stroke="#83bf66" stroke-width="2"/>
+  <rect x="479" y="302" width="26" height="26" fill="#acd894" stroke="#83bf66" stroke-width="2"/>
+  <rect x="479" y="327" width="26" height="26" fill="#acd894" stroke="#83bf66" stroke-width="2"/>
+  <rect x="479" y="352" width="26" height="26" fill="#acd894" stroke="#83bf66" stroke-width="2"/>
+  <text x="525" y="243" class="math" font-size="29" text-anchor="middle">pₜᵀ</text>
+
+  <!-- student probability vector -->
+  <rect x="479" y="423" width="26" height="26" fill="#ffd764" stroke="#f6bd22" stroke-width="2"/>
+  <rect x="479" y="452" width="26" height="26" fill="#acd894" stroke="#83bf66" stroke-width="2"/>
+  <rect x="479" y="477" width="26" height="26" fill="#acd894" stroke="#83bf66" stroke-width="2"/>
+  <rect x="479" y="502" width="26" height="26" fill="#acd894" stroke="#83bf66" stroke-width="2"/>
+  <rect x="479" y="527" width="26" height="26" fill="#acd894" stroke="#83bf66" stroke-width="2"/>
+  <rect x="479" y="552" width="26" height="26" fill="#acd894" stroke="#83bf66" stroke-width="2"/>
+  <text x="525" y="443" class="math" font-size="29" text-anchor="middle">pₜˢ</text>
+
+  <line x1="549" y1="98" x2="578" y2="98" stroke="#000" stroke-width="2.2" marker-end="url(#arrow_black)"/>
+  <line x1="549" y1="297" x2="578" y2="297" stroke="#000" stroke-width="2.2" marker-end="url(#arrow_black)"/>
+  <line x1="549" y1="501" x2="578" y2="501" stroke="#000" stroke-width="2.2" marker-end="url(#arrow_black)"/>
+
+  <!-- Decoupling boxes -->
+  <rect x="579" y="30" width="87" height="136" class="dash-gray"/>
+  <rect x="589" y="62" width="26" height="26" fill="#8eaee5" stroke="#6f8ec7" stroke-width="2"/>
+  <rect x="632" y="62" width="26" height="26" fill="#ffd764" stroke="#f6bd22" stroke-width="2"/>
+  <text x="602" y="123" class="label" font-size="28" text-anchor="middle">1</text>
+  <text x="645" y="123" class="math" font-size="28" text-anchor="middle">pₜˢ</text>
+
+  <rect x="579" y="230" width="87" height="136" class="dash-gray"/>
+  <rect x="589" y="263" width="26" height="26" fill="#ffd764" stroke="#f6bd22" stroke-width="2"/>
+  <rect x="632" y="263" width="26" height="26" fill="#ffd764" stroke="#f6bd22" stroke-width="2"/>
+  <text x="602" y="322" class="math" font-size="28" text-anchor="middle">pₜᵀ</text>
+  <text x="646" y="322" class="math" font-size="28" text-anchor="middle">pₜˢ</text>
+
+  <rect x="579" y="429" width="87" height="145" class="dash-gray"/>
+  <rect x="589" y="442" width="26" height="25" fill="#acd894" stroke="#83bf66" stroke-width="2"/>
+  <rect x="589" y="467" width="26" height="25" fill="#acd894" stroke="#83bf66" stroke-width="2"/>
+  <rect x="589" y="492" width="26" height="25" fill="#acd894" stroke="#83bf66" stroke-width="2"/>
+  <rect x="589" y="517" width="26" height="25" fill="#a8a8a8" stroke="#777" stroke-width="2"/>
+  <rect x="589" y="542" width="26" height="25" fill="#a8a8a8" stroke="#777" stroke-width="2"/>
+  <rect x="632" y="442" width="26" height="25" fill="#acd894" stroke="#83bf66" stroke-width="2"/>
+  <rect x="632" y="467" width="26" height="25" fill="#acd894" stroke="#83bf66" stroke-width="2"/>
+  <rect x="632" y="492" width="26" height="25" fill="#acd894" stroke="#83bf66" stroke-width="2"/>
+  <rect x="632" y="517" width="26" height="25" fill="#a8a8a8" stroke="#777" stroke-width="2"/>
+  <rect x="632" y="542" width="26" height="25" fill="#a8a8a8" stroke="#777" stroke-width="2"/>
+
+  <text x="623" y="407" class="label" font-size="28" text-anchor="middle">Decoupling</text>
+  <text x="626" y="594" font-family="Arial, Helvetica, sans-serif" font-size="40" text-anchor="middle" fill="#c9a5da">↕</text>
+  <rect x="509" y="607" width="235" height="38" rx="5" fill="#c8a5d9"/>
+  <text x="626.5" y="634" class="label" font-size="25" text-anchor="middle">Dynamic Top-k Mask</text>
+
+  <!-- TASK / TCKD / NCKD loss panels -->
+  <line x1="666" y1="98" x2="696" y2="98" stroke="#000" stroke-width="2.2" marker-end="url(#arrow_black)"/>
+  <rect x="697" y="31" width="198" height="135" class="dash-blue"/>
+  <text x="842" y="64" class="label" font-size="28" text-anchor="middle">TASK</text>
+  <rect x="708" y="79" width="178" height="73" rx="11" fill="#fff" stroke="#8facdf" stroke-width="2"/>
+  <text x="797" y="109" class="label" font-size="25" text-anchor="middle">Task</text>
+  <text x="797" y="139" class="label" font-size="25" text-anchor="middle">CE Loss</text>
+
+  <line x1="666" y1="297" x2="696" y2="297" stroke="#000" stroke-width="2.2" marker-end="url(#arrow_black)"/>
+  <rect x="697" y="230" width="198" height="136" class="dash-yellow"/>
+  <text x="842" y="264" class="label" font-size="28" text-anchor="middle">TCKD</text>
+  <rect x="708" y="278" width="178" height="72" rx="11" fill="#fff" stroke="#ffd84b" stroke-width="2"/>
+  <text x="797" y="308" class="label" font-size="25" text-anchor="middle">Target Class</text>
+  <text x="797" y="338" class="label" font-size="25" text-anchor="middle">KL Loss</text>
+
+  <line x1="666" y1="501" x2="696" y2="501" stroke="#000" stroke-width="2.2" marker-end="url(#arrow_black)"/>
+  <rect x="697" y="438" width="198" height="135" class="dash-green"/>
+  <text x="842" y="471" class="label" font-size="28" text-anchor="middle">NCKD</text>
+  <rect x="708" y="487" width="178" height="72" rx="11" fill="#fff" stroke="#a9d58e" stroke-width="2"/>
+  <text x="797" y="517" class="label" font-size="25" text-anchor="middle">Non-target</text>
+  <text x="797" y="547" class="label" font-size="25" text-anchor="middle">Class KL Loss</text>
+
+  <!-- Gradient panels -->
+  <line x1="895" y1="98" x2="926" y2="98" stroke="#000" stroke-width="2.2" marker-end="url(#arrow_black)"/>
+  <rect x="927" y="31" width="198" height="135" class="dash-blue"/>
+  <text x="1080" y="64" class="label" font-size="28" text-anchor="middle">TOG</text>
+  <rect x="937" y="76" width="181" height="73" rx="11" fill="#93afe0"/>
+  <text x="1027.5" y="106" class="label" font-size="25" text-anchor="middle">Task-oriented</text>
+  <text x="1027.5" y="136" class="label" font-size="25" text-anchor="middle">Gradient</text>
+
+  <line x1="895" y1="297" x2="926" y2="297" stroke="#000" stroke-width="2.2" marker-end="url(#arrow_black)"/>
+  <rect x="927" y="230" width="198" height="136" class="dash-yellow"/>
+  <text x="1080" y="264" class="label" font-size="28" text-anchor="middle">TCG</text>
+  <rect x="937" y="278" width="181" height="72" rx="11" fill="#ffd95f"/>
+  <text x="1027.5" y="308" class="label" font-size="25" text-anchor="middle">Target class</text>
+  <text x="1027.5" y="338" class="label" font-size="25" text-anchor="middle">Gradient</text>
+
+  <line x1="895" y1="501" x2="926" y2="501" stroke="#000" stroke-width="2.2" marker-end="url(#arrow_black)"/>
+  <rect x="927" y="438" width="198" height="135" class="dash-green"/>
+  <text x="1080" y="471" class="label" font-size="28" text-anchor="middle">NCG</text>
+  <rect x="937" y="487" width="181" height="72" rx="11" fill="#add497"/>
+  <text x="1027.5" y="517" class="label" font-size="25" text-anchor="middle">Non-target</text>
+  <text x="1027.5" y="547" class="label" font-size="25" text-anchor="middle">class Gradient</text>
+
+  <!-- Momentum equations and arrows -->
+  <text x="1142" y="37" class="math" font-size="26">v ← g + (μ + Δ)v</text>
+  <text x="1165" y="78" font-family="Arial, Helvetica, sans-serif" font-size="43" text-anchor="middle" fill="#8facdf">↕</text>
+  <line x1="1125" y1="98" x2="1211" y2="98" stroke="#000" stroke-width="2.2" marker-end="url(#arrow_black)"/>
+
+  <text x="1142" y="236" class="math" font-size="26">v ← g + (μ − Δ)v</text>
+  <text x="1165" y="279" font-family="Arial, Helvetica, sans-serif" font-size="43" text-anchor="middle" fill="#f5c828">↕</text>
+  <line x1="1125" y1="297" x2="1211" y2="297" stroke="#000" stroke-width="2.2" marker-end="url(#arrow_black)"/>
+
+  <text x="1142" y="437" class="math" font-size="26">v ← g + (μ + Δ)v</text>
+  <text x="1165" y="483" font-family="Arial, Helvetica, sans-serif" font-size="43" text-anchor="middle" fill="#6caf46">↕</text>
+  <line x1="1125" y1="502" x2="1211" y2="502" stroke="#000" stroke-width="2.2" marker-end="url(#arrow_black)"/>
+
+  <!-- Momentum buffers -->
+  <rect x="1212" y="61" width="205" height="73" rx="11" fill="#93afe0"/>
+  <text x="1314.5" y="92" class="label" font-size="25" text-anchor="middle">Task</text>
+  <text x="1314.5" y="123" class="label" font-size="25" text-anchor="middle">Momentum buffer</text>
+
+  <rect x="1212" y="261" width="205" height="73" rx="11" fill="#ffd95f"/>
+  <text x="1314.5" y="292" class="label" font-size="25" text-anchor="middle">Target</text>
+  <text x="1314.5" y="323" class="label" font-size="25" text-anchor="middle">Momentum buffer</text>
+
+  <rect x="1212" y="466" width="205" height="73" rx="11" fill="#add497"/>
+  <text x="1314.5" y="497" class="label" font-size="25" text-anchor="middle">Non-target</text>
+  <text x="1314.5" y="528" class="label" font-size="25" text-anchor="middle">Momentum buffer</text>
+
+  <!-- Merge and update -->
+  <polyline points="1417,98 1462,98 1462,280" fill="none" stroke="#000" stroke-width="2.2" marker-end="url(#arrow_black)"/>
+  <line x1="1417" y1="297" x2="1445" y2="297" stroke="#000" stroke-width="2.2" marker-end="url(#arrow_black)"/>
+  <polyline points="1417,502 1462,502 1462,314" fill="none" stroke="#000" stroke-width="2.2" marker-end="url(#arrow_black)"/>
+
+  <circle cx="1462" cy="297" r="15" fill="#fff" stroke="#000" stroke-width="2.2"/>
+  <line x1="1448" y1="297" x2="1476" y2="297" stroke="#000" stroke-width="2"/>
+  <line x1="1462" y1="283" x2="1462" y2="311" stroke="#000" stroke-width="2"/>
+
+  <line x1="1477" y1="297" x2="1594" y2="297" stroke="#000" stroke-width="2.2"/>
+  <text x="1490" y="285" class="math" font-size="25">θ ← θ − γv</text>
+  <text x="1545" y="325" class="label" font-size="28" text-anchor="middle">Update</text>
+
+  <!-- Feedback path to student -->
+  <polyline points="1594,297 1594,664 323,664 323,567" fill="none" stroke="#000" stroke-width="2.2" marker-end="url(#arrow_black)"/>
+</svg>

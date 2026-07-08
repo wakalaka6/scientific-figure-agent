@@ -1,0 +1,378 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 2417" width="3840" height="2417">
+  <defs>
+    <style>
+      .text-label { font-family: sans-serif; font-size: 55px; fill: black; }
+      .text-title { font-family: sans-serif; font-size: 65px; fill: black; }
+      .text-section { font-family: monospace; font-size: 65px; fill: #888; font-style: italic; }
+      .text-bottom { font-family: sans-serif; font-size: 70px; fill: black; font-weight: bold; }
+      .box-query { fill: #f0f4f8; stroke: #1a4971; stroke-width: 6; rx: 20; }
+      .box-subquery { fill: #f6dcd0; stroke: #222; stroke-width: 6; rx: 20; }
+      .box-subanswer { fill: #dbeaf6; stroke: #222; stroke-width: 6; rx: 20; }
+      .box-llm { fill: #f5bba3; stroke: #222; stroke-width: 6; rx: 15; }
+      .bubble { fill: white; stroke: black; stroke-width: 10; rx: 15; }
+      .arrow { stroke: #1a5e95; stroke-width: 6; fill: none; }
+      .arrow-head { fill: #1a5e95; }
+      .arrow-cyan { stroke: #1ca5d8; stroke-width: 8; fill: none; }
+      .arrow-cyan-head { fill: #1ca5d8; }
+      .arrow-gray { stroke: #d3d3d3; stroke-width: 6; fill: none; }
+      .arrow-gray-head { fill: #d3d3d3; }
+      .dashed-line { stroke: #b0b0b0; stroke-width: 6; stroke-dasharray: 20, 15; }
+      
+      .node-ellipse { fill: #dbeaf6; stroke: #222; stroke-width: 6; }
+      .node-chosen { fill: #4a8dd6; stroke: #222; stroke-width: 4; rx: 15; }
+      .node-discarded { fill: white; stroke: #222; stroke-width: 4; rx: 15; }
+      .node-discarded-pattern { stroke: #b0b0b0; stroke-width: 3; }
+      
+      .legend-box { fill: white; stroke: #f28b50; stroke-width: 8; rx: 25; }
+      
+      .placeholder-rect { fill: #808080; stroke: black; stroke-width: 2; }
+      .placeholder-text { font-family: sans-serif; font-size: 24px; fill: white; font-weight: bold; }
+    </style>
+    
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" class="arrow-head" />
+    </marker>
+    <marker id="arrowhead-cyan" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" class="arrow-cyan-head" />
+    </marker>
+    <marker id="arrowhead-gray" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" class="arrow-gray-head" />
+    </marker>
+
+    <pattern id="diagonalHatch" width="20" height="20" patternTransform="rotate(45 0 0)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="20" class="node-discarded-pattern" />
+    </pattern>
+  </defs>
+
+  <!-- Legend -->
+  <rect x="318" y="55" width="2910" height="150" class="legend-box" />
+  
+  <g id="AF08">
+    <rect x="380" y="80" width="100" height="100" class="placeholder-rect"/>
+    <text x="430" y="130" text-anchor="middle" dominant-baseline="middle" class="placeholder-text">&lt;AF&gt;08</text>
+  </g>
+  <text x="599" y="145" class="text-title">LLM</text>
+
+  <g id="AF11">
+    <rect x="800" y="80" width="100" height="100" class="placeholder-rect"/>
+    <text x="850" y="130" text-anchor="middle" dominant-baseline="middle" class="placeholder-text">&lt;AF&gt;11</text>
+  </g>
+  <text x="940" y="145" class="text-title">retriever</text>
+
+  <g id="AF14">
+    <rect x="1285" y="80" width="100" height="100" class="placeholder-rect"/>
+    <text x="1335" y="130" text-anchor="middle" dominant-baseline="middle" class="placeholder-text">&lt;AF&gt;14</text>
+  </g>
+  <text x="1440" y="145" class="text-title">answer</text>
+
+  <g id="AF02">
+    <rect x="1800" y="80" width="100" height="100" class="placeholder-rect"/>
+    <text x="1850" y="130" text-anchor="middle" dominant-baseline="middle" class="placeholder-text">&lt;AF&gt;02</text>
+  </g>
+  <text x="1950" y="145" class="text-title">chosen state</text>
+
+  <g id="AF06">
+    <rect x="2460" y="80" width="100" height="100" class="placeholder-rect"/>
+    <text x="2510" y="130" text-anchor="middle" dominant-baseline="middle" class="placeholder-text">&lt;AF&gt;06</text>
+  </g>
+  <text x="2610" y="145" class="text-title">discarded state</text>
+
+  <!-- Dividers -->
+  <line x1="1742" y1="270" x2="1742" y2="2400" class="dashed-line" />
+  <line x1="1742" y1="680" x2="3840" y2="680" class="dashed-line" />
+
+  <!-- Left Section: Rejection Sampling -->
+  <rect x="572" y="285" width="648" height="110" class="box-query" />
+  <text x="896" y="360" text-anchor="middle" class="text-title">Query</text>
+
+  <g id="AF16">
+    <rect x="85" y="450" width="110" height="110" class="placeholder-rect"/>
+    <text x="140" y="505" text-anchor="middle" dominant-baseline="middle" class="placeholder-text">&lt;AF&gt;16</text>
+  </g>
+
+  <!-- Chain 1 -->
+  <path d="M 896 395 L 450 590" class="arrow" marker-end="url(#arrowhead)" />
+  <rect x="40" y="590" width="462" height="120" class="box-subquery" />
+  <text x="271" y="665" text-anchor="middle" class="text-label">sub-query 1</text>
+  
+  <line x1="271" y1="710" x2="271" y2="920" class="arrow" marker-end="url(#arrowhead)" />
+  <g id="AF04">
+    <rect x="110" y="750" width="100" height="100" class="placeholder-rect"/>
+    <text x="160" y="800" text-anchor="middle" dominant-baseline="middle" class="placeholder-text">&lt;AF&gt;04</text>
+  </g>
+  <g id="AF21">
+    <rect x="300" y="750" width="100" height="100" class="placeholder-rect"/>
+    <text x="350" y="800" text-anchor="middle" dominant-baseline="middle" class="placeholder-text">&lt;AF&gt;21</text>
+  </g>
+  
+  <rect x="35" y="940" width="475" height="120" class="box-subanswer" />
+  <text x="272" y="1015" text-anchor="middle" class="text-label">sub-answer 1</text>
+
+  <text x="272" y="1180" text-anchor="middle" class="text-title">... ...</text>
+  
+  <line x1="271" y1="1230" x2="271" y2="1420" class="arrow" marker-end="url(#arrowhead)" />
+  <g id="AF22">
+    <rect x="70" y="1250" width="110" height="110" class="placeholder-rect"/>
+    <text x="125" y="1305" text-anchor="middle" dominant-baseline="middle" class="placeholder-text">&lt;AF&gt;22</text>
+  </g>
+
+  <rect x="35" y="1440" width="462" height="120" class="box-subquery" />
+  <text x="266" y="1515" text-anchor="middle" class="text-label">sub-query n</text>
+  
+  <line x1="271" y1="1560" x2="271" y2="1770" class="arrow" marker-end="url(#arrowhead)" />
+  <g id="AF03">
+    <rect x="110" y="1600" width="100" height="100" class="placeholder-rect"/>
+    <text x="160" y="1650" text-anchor="middle" dominant-baseline="middle" class="placeholder-text">&lt;AF&gt;03</text>
+  </g>
+  <g id="AF20">
+    <rect x="300" y="1600" width="100" height="100" class="placeholder-rect"/>
+    <text x="350" y="1650" text-anchor="middle" dominant-baseline="middle" class="placeholder-text">&lt;AF&gt;20</text>
+  </g>
+
+  <rect x="35" y="1790" width="475" height="120" class="box-subanswer" />
+  <text x="272" y="1865" text-anchor="middle" class="text-label">sub-answer n</text>
+  
+  <line x1="271" y1="1910" x2="271" y2="2120" class="arrow" marker-end="url(#arrowhead)" />
+  <g id="AF10">
+    <rect x="100" y="1960" width="100" height="100" class="placeholder-rect"/>
+    <text x="150" y="2010" text-anchor="middle" dominant-baseline="middle" class="placeholder-text">&lt;AF&gt;10</text>
+  </g>
+  <g id="AF18">
+    <rect x="300" y="1960" width="100" height="100" class="placeholder-rect"/>
+    <text x="350" y="2010" text-anchor="middle" dominant-baseline="middle" class="placeholder-text">&lt;AF&gt;18</text>
+  </g>
+  <text x="272" y="2170" text-anchor="middle" class="text-label">P(Ans | Chain 1)</text>
+
+  <!-- Chain 2 -->
+  <line x1="896" y1="395" x2="896" y2="580" class="arrow" marker-end="url(#arrowhead)" />
+  <rect x="650" y="580" width="492" height="120" class="box-subquery" />
+  <text x="896" y="655" text-anchor="middle" class="text-label">sub-query 1*</text>
+  
+  <line x1="896" y1="700" x2="896" y2="910" class="arrow" marker-end="url(#arrowhead)" />
+  <g id="AF09">
+    <rect x="730" y="740" width="100" height="100" class="placeholder-rect"/>
+    <text x="780" y="790" text-anchor="middle" dominant-baseline="middle" class="placeholder-text">&lt;AF&gt;09</text>
+  </g>
+  <g id="AF19">
+    <rect x="910" y="740" width="100" height="100" class="placeholder-rect"/>
+    <text x="960" y="790" text-anchor="middle" dominant-baseline="middle" class="placeholder-text">&lt;AF&gt;19</text>
+  </g>
+  
+  <rect x="650" y="930" width="492" height="120" class="box-subanswer" />
+  <text x="896" y="1005" text-anchor="middle" class="text-label">sub-answer 1*</text>
+
+  <text x="896" y="1170" text-anchor="middle" class="text-title">... ...</text>
+  
+  <line x1="896" y1="1220" x2="896" y2="1410" class="arrow" marker-end="url(#arrowhead)" />
+  <g id="AF24">
+    <rect x="700" y="1250" width="110" height="110" class="placeholder-rect"/>
+    <text x="755" y="1305" text-anchor="middle" dominant-baseline="middle" class="placeholder-text">&lt;AF&gt;24</text>
+  </g>
+
+  <rect x="650" y="1430" width="492" height="120" class="box-subquery" />
+  <text x="896" y="1505" text-anchor="middle" class="text-label">sub-query n*</text>
+  
+  <line x1="896" y1="1550" x2="896" y2="1760" class="arrow" marker-end="url(#arrowhead)" />
+  <g id="AF07">
+    <rect x="720" y="1590" width="100" height="100" class="placeholder-rect"/>
+    <text x="770" y="1640" text-anchor="middle" dominant-baseline="middle" class="placeholder-text">&lt;AF&gt;07</text>
+  </g>
+  <g id="AF17">
+    <rect x="920" y="1590" width="100" height="100" class="placeholder-rect"/>
+    <text x="970" y="1640" text-anchor="middle" dominant-baseline="middle" class="placeholder-text">&lt;AF&gt;17</text>
+  </g>
+
+  <rect x="640" y="1780" width="512" height="120" class="box-subanswer" />
+  <text x="896" y="1855" text-anchor="middle" class="text-label">sub-answer n*</text>
+  
+  <line x1="886" y1="1900" x2="886" y2="2110" class="arrow" marker-end="url(#arrowhead)" />
+  <g id="AF05">
+    <rect x="720" y="1950" width="100" height="100" class="placeholder-rect"/>
+    <text x="770" y="2000" text-anchor="middle" dominant-baseline="middle" class="placeholder-text">&lt;AF&gt;05</text>
+  </g>
+  <g id="AF15">
+    <rect x="920" y="1950" width="100" height="100" class="placeholder-rect"/>
+    <text x="970" y="2000" text-anchor="middle" dominant-baseline="middle" class="placeholder-text">&lt;AF&gt;15</text>
+  </g>
+  <text x="896" y="2160" text-anchor="middle" class="text-label">P(Ans | Chain 2)</text>
+
+  <!-- Chain 3 (Dots) -->
+  <path d="M 896 395 L 1400 590" class="arrow" marker-end="url(#arrowhead)" />
+  <text x="1450" y="670" class="text-title">... ...</text>
+  <text x="1450" y="1030" class="text-title">... ...</text>
+  <text x="1450" y="1190" class="text-title">... ...</text>
+  <text x="1450" y="1520" class="text-title">... ...</text>
+  <text x="1450" y="1870" class="text-title">... ...</text>
+
+  <line x1="1400" y1="1930" x2="1400" y2="2130" class="arrow" marker-end="url(#arrowhead)" />
+  <g id="AF13">
+    <rect x="1250" y="1970" width="100" height="100" class="placeholder-rect"/>
+    <text x="1300" y="2020" text-anchor="middle" dominant-baseline="middle" class="placeholder-text">&lt;AF&gt;13</text>
+  </g>
+  <g id="AF23">
+    <rect x="1450" y="1970" width="100" height="100" class="placeholder-rect"/>
+    <text x="1500" y="2020" text-anchor="middle" dominant-baseline="middle" class="placeholder-text">&lt;AF&gt;23</text>
+  </g>
+  <text x="1400" y="2180" text-anchor="middle" class="text-label">P(Ans | Chain 3)</text>
+
+  <text x="30" y="2350" class="text-section">Rejection Sampling</text>
+  <path d="M 830 2300 L 860 2340 L 930 2230" fill="none" stroke="#28a745" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Top Right Section: Training -->
+  <text x="1790" y="340" class="text-section">Training</text>
+  
+  <path d="M 1920 400 L 2350 400 Q 2370 400 2370 420 L 2370 540 Q 2370 560 2350 560 L 2000 560 L 1970 600 L 1970 560 L 1940 560 Q 1920 560 1920 540 Z" class="bubble" />
+  <text x="2145" y="495" text-anchor="middle" class="text-title">Current State</text>
+
+  <line x1="2420" y1="490" x2="2550" y2="490" class="arrow-cyan" marker-end="url(#arrowhead-cyan)" />
+
+  <rect x="2590" y="400" width="530" height="140" class="box-llm" />
+  <g id="AF01">
+    <rect x="2600" y="450" width="70" height="70" class="placeholder-rect"/>
+    <text x="2635" y="485" text-anchor="middle" dominant-baseline="middle" class="placeholder-text">&lt;AF&gt;01</text>
+  </g>
+  <text x="2855" y="485" text-anchor="middle" class="text-title">LLM</text>
+
+  <line x1="3140" y1="490" x2="3280" y2="490" class="arrow-cyan" marker-end="url(#arrowhead-cyan)" />
+
+  <path d="M 3330 400 L 3720 400 Q 3740 400 3740 420 L 3740 530 Q 3740 550 3720 550 L 3410 550 L 3380 590 L 3380 550 L 3350 550 Q 3330 550 3330 530 Z" class="bubble" />
+  <text x="3535" y="490" text-anchor="middle" class="text-title">Next Action</text>
+
+  <!-- Bottom Right Section: Inference -->
+  <text x="1790" y="2350" class="text-section">Inference</text>
+
+  <!-- Greedy -->
+  <ellipse cx="2075" cy="800" rx="185" ry="75" class="node-ellipse" />
+  <text x="2075" y="815" text-anchor="middle" class="text-title">query</text>
+  
+  <line x1="2075" y1="875" x2="2075" y2="1050" class="arrow" marker-end="url(#arrowhead)" />
+  <rect x="2015" y="1060" width="120" height="120" class="node-chosen" />
+  
+  <line x1="2075" y1="1180" x2="2075" y2="1280" class="arrow" marker-end="url(#arrowhead)" />
+  <text x="2075" y="1380" text-anchor="middle" class="text-title">... ...</text>
+  
+  <line x1="2075" y1="1430" x2="2075" y2="1550" class="arrow" marker-end="url(#arrowhead)" />
+  <rect x="2015" y="1560" width="120" height="120" class="node-chosen" />
+  
+  <line x1="2075" y1="1680" x2="2075" y2="1820" class="arrow" marker-end="url(#arrowhead)" />
+  <ellipse cx="2075" cy="1900" rx="185" ry="75" class="node-ellipse" />
+  <text x="2075" y="1920" text-anchor="middle" class="text-title">output</text>
+  
+  <text x="2075" y="2120" text-anchor="middle" class="text-bottom">Greedy</text>
+
+  <!-- Best-of-N -->
+  <ellipse cx="2600" cy="800" rx="185" ry="75" class="node-ellipse" />
+  <text x="2600" y="815" text-anchor="middle" class="text-title">query</text>
+  
+  <line x1="2600" y1="875" x2="2390" y2="1050" class="arrow" marker-end="url(#arrowhead)" />
+  <rect x="2330" y="1060" width="120" height="120" class="node-chosen" />
+  <line x1="2390" y1="1180" x2="2390" y2="1280" class="arrow" marker-end="url(#arrowhead)" />
+  
+  <line x1="2600" y1="875" x2="2600" y2="1050" class="arrow" marker-end="url(#arrowhead)" />
+  <rect x="2540" y="1060" width="120" height="120" class="node-discarded" />
+  <rect x="2540" y="1060" width="120" height="120" class="node-discarded" fill="url(#diagonalHatch)" />
+  <line x1="2600" y1="1180" x2="2600" y2="1280" class="arrow" marker-end="url(#arrowhead)" />
+
+  <line x1="2600" y1="875" x2="2810" y2="1050" class="arrow" marker-end="url(#arrowhead)" />
+  <rect x="2750" y="1060" width="120" height="120" class="node-discarded" />
+  <rect x="2750" y="1060" width="120" height="120" class="node-discarded" fill="url(#diagonalHatch)" />
+  <line x1="2810" y1="1180" x2="2810" y2="1280" class="arrow" marker-end="url(#arrowhead)" />
+
+  <text x="2390" y="1380" text-anchor="middle" class="text-title">... ...</text>
+  <text x="2600" y="1380" text-anchor="middle" class="text-title">... ...</text>
+  <text x="2810" y="1380" text-anchor="middle" class="text-title">... ...</text>
+  <text x="2705" y="1380" text-anchor="middle" class="text-title">...</text>
+  <text x="2495" y="1380" text-anchor="middle" class="text-title">...</text>
+
+  <line x1="2390" y1="1430" x2="2390" y2="1550" class="arrow" marker-end="url(#arrowhead)" />
+  <rect x="2330" y="1560" width="120" height="120" class="node-chosen" />
+  <line x1="2390" y1="1680" x2="2600" y2="1820" class="arrow" marker-end="url(#arrowhead)" />
+  <g id="AF12">
+    <rect x="2360" y="1740" width="70" height="70" class="placeholder-rect"/>
+    <text x="2395" y="1775" text-anchor="middle" dominant-baseline="middle" class="placeholder-text">&lt;AF&gt;12</text>
+  </g>
+
+  <line x1="2600" y1="1430" x2="2600" y2="1550" class="arrow" marker-end="url(#arrowhead)" />
+  <rect x="2540" y="1560" width="120" height="120" class="node-discarded" />
+  <rect x="2540" y="1560" width="120" height="120" class="node-discarded" fill="url(#diagonalHatch)" />
+  <line x1="2600" y1="1680" x2="2600" y2="1820" class="arrow-gray" marker-end="url(#arrowhead-gray)" />
+
+  <line x1="2810" y1="1430" x2="2810" y2="1550" class="arrow" marker-end="url(#arrowhead)" />
+  <rect x="2750" y="1560" width="120" height="120" class="node-discarded" />
+  <rect x="2750" y="1560" width="120" height="120" class="node-discarded" fill="url(#diagonalHatch)" />
+  <line x1="2810" y1="1680" x2="2600" y2="1820" class="arrow-gray" marker-end="url(#arrowhead-gray)" />
+
+  <ellipse cx="2600" cy="1900" rx="185" ry="75" class="node-ellipse" />
+  <text x="2600" y="1920" text-anchor="middle" class="text-title">output</text>
+  
+  <text x="2630" y="2120" text-anchor="middle" class="text-bottom">Best-of-N</text>
+
+  <!-- Tree Search -->
+  <ellipse cx="3380" cy="800" rx="185" ry="75" class="node-ellipse" />
+  <text x="3380" y="815" text-anchor="middle" class="text-title">query</text>
+  
+  <line x1="3380" y1="875" x2="3150" y2="1050" class="arrow" marker-end="url(#arrowhead)" />
+  <rect x="3090" y="1060" width="120" height="120" class="node-discarded" />
+  <rect x="3090" y="1060" width="120" height="120" class="node-discarded" fill="url(#diagonalHatch)" />
+  
+  <line x1="3380" y1="875" x2="3380" y2="1050" class="arrow" marker-end="url(#arrowhead)" />
+  <rect x="3320" y="1060" width="120" height="120" class="node-chosen" />
+  
+  <line x1="3380" y1="875" x2="3610" y2="1050" class="arrow" marker-end="url(#arrowhead)" />
+  <rect x="3550" y="1060" width="120" height="120" class="node-discarded" />
+  <rect x="3550" y="1060" width="120" height="120" class="node-discarded" fill="url(#diagonalHatch)" />
+
+  <line x1="3150" y1="1180" x2="3100" y2="1260" class="arrow" marker-end="url(#arrowhead)" />
+  <line x1="3150" y1="1180" x2="3200" y2="1260" class="arrow" marker-end="url(#arrowhead)" />
+  
+  <!-- Left Rollouts Box -->
+  <rect x="2990" y="1260" width="220" height="500" fill="white" stroke="#222" stroke-width="4" />
+  <rect x="3010" y="1290" width="60" height="40" class="node-discarded" />
+  <rect x="3010" y="1290" width="60" height="40" class="node-discarded" fill="url(#diagonalHatch)" />
+  <rect x="3130" y="1290" width="60" height="40" class="node-discarded" />
+  <rect x="3130" y="1290" width="60" height="40" class="node-discarded" fill="url(#diagonalHatch)" />
+  <line x1="3040" y1="1350" x2="3040" y2="1420" class="arrow" marker-end="url(#arrowhead)" />
+  <line x1="3160" y1="1350" x2="3160" y2="1420" class="arrow" marker-end="url(#arrowhead)" />
+  <text x="3100" y="1480" text-anchor="middle" class="text-title">... ...</text>
+  <line x1="3040" y1="1520" x2="3040" y2="1590" class="arrow" marker-end="url(#arrowhead)" />
+  <line x1="3160" y1="1520" x2="3160" y2="1590" class="arrow" marker-end="url(#arrowhead)" />
+  <rect x="3010" y="1610" width="60" height="40" class="node-discarded" />
+  <rect x="3010" y="1610" width="60" height="40" class="node-discarded" fill="url(#diagonalHatch)" />
+  <rect x="3130" y="1610" width="60" height="40" class="node-discarded" />
+  <rect x="3130" y="1610" width="60" height="40" class="node-discarded" fill="url(#diagonalHatch)" />
+  
+  <text x="3100" y="1820" text-anchor="middle" class="text-title">rollouts</text>
+
+  <line x1="3380" y1="1180" x2="3380" y2="1280" class="arrow" marker-end="url(#arrowhead)" />
+  <text x="3380" y="1380" text-anchor="middle" class="text-title">... ...</text>
+  <line x1="3380" y1="1430" x2="3380" y2="1550" class="arrow" marker-end="url(#arrowhead)" />
+  <rect x="3320" y="1560" width="120" height="120" class="node-chosen" />
+  <line x1="3380" y1="1680" x2="3380" y2="1820" class="arrow" marker-end="url(#arrowhead)" />
+
+  <line x1="3610" y1="1180" x2="3560" y2="1260" class="arrow" marker-end="url(#arrowhead)" />
+  <line x1="3610" y1="1180" x2="3660" y2="1260" class="arrow" marker-end="url(#arrowhead)" />
+
+  <!-- Right Rollouts Box -->
+  <rect x="3510" y="1260" width="220" height="500" fill="white" stroke="#222" stroke-width="4" />
+  <rect x="3530" y="1290" width="60" height="40" class="node-discarded" />
+  <rect x="3530" y="1290" width="60" height="40" class="node-discarded" fill="url(#diagonalHatch)" />
+  <rect x="3650" y="1290" width="60" height="40" class="node-discarded" />
+  <rect x="3650" y="1290" width="60" height="40" class="node-discarded" fill="url(#diagonalHatch)" />
+  <line x1="3560" y1="1350" x2="3560" y2="1420" class="arrow" marker-end="url(#arrowhead)" />
+  <line x1="3680" y1="1350" x2="3680" y2="1420" class="arrow" marker-end="url(#arrowhead)" />
+  <text x="3620" y="1480" text-anchor="middle" class="text-title">... ...</text>
+  <line x1="3560" y1="1520" x2="3560" y2="1590" class="arrow" marker-end="url(#arrowhead)" />
+  <line x1="3680" y1="1520" x2="3680" y2="1590" class="arrow" marker-end="url(#arrowhead)" />
+  <rect x="3530" y="1610" width="60" height="40" class="node-discarded" />
+  <rect x="3530" y="1610" width="60" height="40" class="node-discarded" fill="url(#diagonalHatch)" />
+  <rect x="3650" y="1610" width="60" height="40" class="node-discarded" />
+  <rect x="3650" y="1610" width="60" height="40" class="node-discarded" fill="url(#diagonalHatch)" />
+  
+  <text x="3620" y="1820" text-anchor="middle" class="text-title">rollouts</text>
+
+  <ellipse cx="3380" cy="1900" rx="185" ry="75" class="node-ellipse" />
+  <text x="3380" y="1920" text-anchor="middle" class="text-title">output</text>
+  
+  <text x="3400" y="2120" text-anchor="middle" class="text-bottom">Tree Search</text>
+
+</svg>

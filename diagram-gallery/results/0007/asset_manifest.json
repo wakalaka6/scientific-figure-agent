@@ -1,0 +1,20 @@
+[
+  {
+    "slot_id": "slot_cdpruner_disc_icon",
+    "filename": "assets/svg_candidate/slot_cdpruner_disc_icon.png",
+    "canonical_slot_id": "slot_cdpruner_disc_icon",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "cdpruner_disc_icon",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      1520,
+      64,
+      46,
+      46
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "small CDPruner disc icon"
+  }
+]

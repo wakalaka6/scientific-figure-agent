@@ -1,0 +1,228 @@
+<svg width="1622" height="756" viewBox="0 0 1622 756" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#4777c4"/>
+    </marker>
+    <radialGradient id="disc" cx="45%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#f5f5f5"/>
+      <stop offset="38%" stop-color="#bfc2c5"/>
+      <stop offset="70%" stop-color="#767b7f"/>
+      <stop offset="100%" stop-color="#e8e8e8"/>
+    </radialGradient>
+    <style>
+      .serif{font-family:"Times New Roman", Times, serif;}
+      .big{font-size:46px;}
+      .med{font-size:39px;}
+      .label{font-size:44px;font-weight:bold;font-style:italic;}
+      .blueStroke{stroke:#4777c4;stroke-width:4;fill:none;marker-end:url(#arrow);}
+      .token{stroke:#4777c4;stroke-width:3.5;rx:9;ry:9;}
+      .cell{stroke:#000;stroke-width:2;}
+      .panelText{font-family:"Times New Roman", Times, serif;font-size:42px;font-weight:bold;}
+    </style>
+  </defs>
+
+  <rect width="1622" height="756" fill="white"/>
+
+  <!-- Top language model -->
+  <rect x="7" y="15" width="990" height="77" rx="10" ry="10" fill="#e4f0dc"/>
+  <text x="36" y="67" class="serif big">
+    Language Model <tspan font-style="italic">f</tspan><tspan baseline-shift="sub" font-size="28" font-style="italic">ϕ</tspan>
+  </text>
+
+  <!-- H_q tokens -->
+  <text x="15" y="184" class="serif label">H<tspan baseline-shift="sub" font-size="28">q</tspan></text>
+  <rect x="80" y="140" width="63" height="63" class="token" fill="#d2d2d2"/>
+  <rect x="224" y="140" width="63" height="63" class="token" fill="#d2d2d2"/>
+  <rect x="366" y="140" width="63" height="63" class="token" fill="#d2d2d2"/>
+
+  <!-- Tokenizer -->
+  <rect x="38" y="248" width="434" height="77" rx="10" ry="10" fill="#ededed"/>
+  <text x="168" y="303" class="serif big">Tokenizer</text>
+
+  <!-- Text input -->
+  <text x="36" y="414" class="serif big">
+    Language Instruction <tspan font-weight="bold" font-style="italic">X</tspan><tspan baseline-shift="sub" font-size="29" font-style="italic">q</tspan>
+  </text>
+
+  <!-- Arrows for text branch -->
+  <path d="M255 248 L255 206" class="blueStroke"/>
+  <path d="M255 140 L255 94" class="blueStroke"/>
+  <path d="M255 370 L255 328" class="blueStroke"/>
+  <path d="M429 170 L496 170 L496 287 L562 287" class="blueStroke"/>
+
+  <!-- Central CDPruner -->
+  <rect x="565" y="248" width="432" height="78" rx="10" ry="10" fill="#fac9c9" stroke="#000" stroke-width="2"/>
+  <text x="684" y="304" class="serif big" font-weight="bold">CDPruner</text>
+
+  <!-- H_v* -->
+  <text x="540" y="184" class="serif label">H<tspan baseline-shift="sub" font-size="28">v</tspan><tspan baseline-shift="super" font-size="28">*</tspan></text>
+  <rect x="607" y="140" width="63" height="62" class="token" fill="#f5c5a4"/>
+  <rect x="750" y="140" width="63" height="62" class="token" fill="#f5c5a4"/>
+  <rect x="891" y="140" width="63" height="62" class="token" fill="#f5c5a4"/>
+  <path d="M780 248 L780 205" class="blueStroke"/>
+  <path d="M780 140 L780 94" class="blueStroke"/>
+
+  <!-- H_v tokens -->
+  <text x="500" y="417" class="serif label">H<tspan baseline-shift="sub" font-size="28">v</tspan></text>
+  <rect x="565" y="370" width="62" height="63" class="token" fill="#f5c5a4"/>
+  <rect x="638" y="370" width="62" height="63" class="token" fill="#f5c5a4"/>
+  <rect x="711" y="370" width="62" height="63" class="token" fill="#f5c5a4"/>
+  <rect x="785" y="370" width="62" height="63" class="token" fill="#f5c5a4"/>
+  <rect x="859" y="370" width="62" height="63" class="token" fill="#f5c5a4"/>
+  <rect x="934" y="370" width="62" height="63" class="token" fill="#f5c5a4"/>
+  <path d="M780 370 L780 329" class="blueStroke"/>
+
+  <!-- Vision path -->
+  <rect x="565" y="481" width="432" height="76" rx="10" ry="10" fill="#f7e3d4"/>
+  <text x="682" y="533" class="serif big">Projector <tspan font-style="italic">g</tspan></text>
+  <rect x="565" y="570" width="432" height="76" rx="10" ry="10" fill="#dce2f3"/>
+  <text x="622" y="624" class="serif big">
+    Vision Encoder <tspan font-style="italic">f</tspan><tspan baseline-shift="sub" font-size="28" font-style="italic">v</tspan>
+  </text>
+  <text x="644" y="741" class="serif big">
+    Input Image <tspan font-weight="bold" font-style="italic">X</tspan><tspan baseline-shift="sub" font-size="29" font-style="italic">v</tspan>
+  </text>
+  <path d="M780 710 L780 650" class="blueStroke"/>
+  <path d="M780 570 L780 560" class="blueStroke"/>
+  <path d="M780 481 L780 436" class="blueStroke"/>
+
+  <!-- Legend -->
+  <rect x="11" y="481" width="488" height="274" fill="white" stroke="#1d345c" stroke-width="2.5"/>
+  <rect x="25" y="495" width="44" height="44" class="token" fill="#f5c5a4"/>
+  <rect x="74" y="495" width="44" height="44" class="token" fill="#f5c5a4"/>
+  <rect x="123" y="495" width="44" height="44" class="token" fill="#f5c5a4"/>
+  <text x="202" y="532" class="serif" font-size="36">Visual Tokens</text>
+
+  <rect x="25" y="561" width="44" height="44" class="token" fill="#d2d2d2"/>
+  <rect x="74" y="561" width="44" height="44" class="token" fill="#d2d2d2"/>
+  <rect x="123" y="561" width="44" height="44" class="token" fill="#d2d2d2"/>
+  <text x="202" y="598" class="serif" font-size="36">Text Tokens</text>
+
+  <rect x="25" y="627" width="46" height="47" class="cell" fill="#c95a0c"/>
+  <rect x="71" y="627" width="47" height="47" class="cell" fill="#f1ad79"/>
+  <rect x="118" y="627" width="47" height="47" class="cell" fill="#f3c29e"/>
+  <text x="202" y="663" class="serif" font-size="36">Feature Similarity</text>
+
+  <rect x="25" y="692" width="46" height="47" class="cell" fill="#7f7f7f"/>
+  <rect x="71" y="692" width="47" height="47" class="cell" fill="#bfbfbf"/>
+  <rect x="118" y="692" width="47" height="47" class="cell" fill="#e4e4e4"/>
+  <text x="202" y="729" class="serif" font-size="36">Query Relevance</text>
+
+  <!-- Zoom connector lines -->
+  <path d="M989 248 L1058 18" fill="none" stroke="#000" stroke-width="2.5" stroke-dasharray="18 9"/>
+  <path d="M989 326 L1058 742" fill="none" stroke="#000" stroke-width="2.5" stroke-dasharray="18 9"/>
+
+  <!-- Right detailed panel -->
+  <rect x="1058" y="16" width="565" height="740" rx="23" ry="23" fill="#fde9e9" stroke="#000" stroke-width="2.5"/>
+
+  <!-- S* row -->
+  <text x="1076" y="104" class="serif" font-size="44" font-weight="bold" font-style="italic">S<tspan baseline-shift="super" font-size="28">*</tspan></text>
+  <rect x="1120" y="58" width="62" height="63" class="cell" fill="#f3c6aa"/>
+  <rect x="1182" y="58" width="62" height="63" class="cell" fill="#d8d8d8"/>
+  <rect x="1244" y="58" width="62" height="63" class="cell" fill="#f3c6aa"/>
+  <rect x="1306" y="58" width="62" height="63" class="cell" fill="#f3c6aa"/>
+  <rect x="1368" y="58" width="62" height="63" class="cell" fill="#d8d8d8"/>
+  <rect x="1430" y="58" width="62" height="63" class="cell" fill="#d8d8d8"/>
+  <text x="1148" y="101" text-anchor="middle" class="panelText">1</text>
+  <text x="1213" y="101" text-anchor="middle" class="panelText">×</text>
+  <text x="1275" y="101" text-anchor="middle" class="panelText">3</text>
+  <text x="1337" y="101" text-anchor="middle" class="panelText">4</text>
+  <text x="1399" y="101" text-anchor="middle" class="panelText">×</text>
+  <text x="1461" y="101" text-anchor="middle" class="panelText">×</text>
+
+  <!-- CDPruner vertical label and icon -->
+  <circle cx="1555" cy="88" r="23" fill="url(#disc)" stroke="#000" stroke-width="2.5"/>
+  <circle cx="1555" cy="88" r="15" fill="none" stroke="#9da1a5" stroke-width="3"/>
+  <circle cx="1555" cy="88" r="4" fill="#333"/>
+  <circle cx="1548" cy="80" r="3" fill="#f3f3f3"/>
+  <text x="1538" y="118" transform="rotate(90 1538 118)" class="serif" font-size="41" font-weight="bold">CDPruner</text>
+
+  <!-- DPP block -->
+  <rect x="1121" y="152" width="371" height="77" rx="10" ry="10" fill="#ff8085" stroke="#000" stroke-width="2.5"/>
+  <text x="1306" y="207" text-anchor="middle" class="serif" font-size="44">DPP</text>
+  <path d="M1306 152 L1306 124" class="blueStroke"/>
+
+  <!-- r row -->
+  <text x="1081" y="306" class="serif" font-size="44" font-weight="bold" font-style="italic">r</text>
+  <rect x="1120" y="260" width="62" height="62" class="cell" fill="#d9d9d9"/>
+  <rect x="1182" y="260" width="62" height="62" class="cell" fill="#bfbfbf"/>
+  <rect x="1244" y="260" width="62" height="62" class="cell" fill="#545454"/>
+  <rect x="1306" y="260" width="62" height="62" class="cell" fill="#808080"/>
+  <rect x="1368" y="260" width="62" height="62" class="cell" fill="#c8c8c8"/>
+  <rect x="1430" y="260" width="62" height="62" class="cell" fill="#eeeeee"/>
+  <path d="M1306 260 L1306 232" class="blueStroke"/>
+
+  <!-- Cross marker between r and L -->
+  <g stroke="#163f82" stroke-width="9" stroke-linecap="round">
+    <line x1="1299" y1="331" x2="1315" y2="347"/>
+    <line x1="1315" y1="331" x2="1299" y2="347"/>
+  </g>
+  <g stroke="#6ea1e8" stroke-width="4.5" stroke-linecap="round">
+    <line x1="1299" y1="331" x2="1315" y2="347"/>
+    <line x1="1315" y1="331" x2="1299" y2="347"/>
+  </g>
+
+  <!-- L heatmap -->
+  <text x="1081" y="552" class="serif" font-size="44" font-weight="bold" font-style="italic">L</text>
+
+  <!-- 6x6 matrix cells -->
+  <rect x="1120" y="352" width="62" height="62" class="cell" fill="#8c3905"/>
+  <rect x="1182" y="352" width="62" height="62" class="cell" fill="#f2ad78"/>
+  <rect x="1244" y="352" width="62" height="62" class="cell" fill="#f0ad79"/>
+  <rect x="1306" y="352" width="62" height="62" class="cell" fill="#f7e1d0"/>
+  <rect x="1368" y="352" width="62" height="62" class="cell" fill="#f2c29c"/>
+  <rect x="1430" y="352" width="62" height="62" class="cell" fill="#c85b08"/>
+
+  <rect x="1120" y="414" width="62" height="62" class="cell" fill="#f0ad78"/>
+  <rect x="1182" y="414" width="62" height="62" class="cell" fill="#8b3905"/>
+  <rect x="1244" y="414" width="62" height="62" class="cell" fill="#c75b08"/>
+  <rect x="1306" y="414" width="62" height="62" class="cell" fill="#f1bf99"/>
+  <rect x="1368" y="414" width="62" height="62" class="cell" fill="#efaa75"/>
+  <rect x="1430" y="414" width="62" height="62" class="cell" fill="#f1c7a6"/>
+
+  <rect x="1120" y="476" width="62" height="62" class="cell" fill="#efaa75"/>
+  <rect x="1182" y="476" width="62" height="62" class="cell" fill="#c95d08"/>
+  <rect x="1244" y="476" width="62" height="62" class="cell" fill="#8a3905"/>
+  <rect x="1306" y="476" width="62" height="62" class="cell" fill="#f6e0cf"/>
+  <rect x="1368" y="476" width="62" height="62" class="cell" fill="#f1c09a"/>
+  <rect x="1430" y="476" width="62" height="62" class="cell" fill="#f4d8c1"/>
+
+  <rect x="1120" y="538" width="62" height="62" class="cell" fill="#f7e0cf"/>
+  <rect x="1182" y="538" width="62" height="62" class="cell" fill="#f1bf99"/>
+  <rect x="1244" y="538" width="62" height="62" class="cell" fill="#f6e2d3"/>
+  <rect x="1306" y="538" width="62" height="62" class="cell" fill="#8a3905"/>
+  <rect x="1368" y="538" width="62" height="62" class="cell" fill="#c95d08"/>
+  <rect x="1430" y="538" width="62" height="62" class="cell" fill="#f2c39e"/>
+
+  <rect x="1120" y="600" width="62" height="62" class="cell" fill="#f1bf99"/>
+  <rect x="1182" y="600" width="62" height="62" class="cell" fill="#f0aa75"/>
+  <rect x="1244" y="600" width="62" height="62" class="cell" fill="#f1c09a"/>
+  <rect x="1306" y="600" width="62" height="62" class="cell" fill="#c95d08"/>
+  <rect x="1368" y="600" width="62" height="62" class="cell" fill="#8a3905"/>
+  <rect x="1430" y="600" width="62" height="62" class="cell" fill="#f1c09a"/>
+
+  <rect x="1120" y="662" width="62" height="62" class="cell" fill="#c75b08"/>
+  <rect x="1182" y="662" width="62" height="62" class="cell" fill="#f1c09a"/>
+  <rect x="1244" y="662" width="62" height="62" class="cell" fill="#f7e2d3"/>
+  <rect x="1306" y="662" width="62" height="62" class="cell" fill="#f0bf98"/>
+  <rect x="1368" y="662" width="62" height="62" class="cell" fill="#f1c09a"/>
+  <rect x="1430" y="662" width="62" height="62" class="cell" fill="#8a3905"/>
+
+  <!-- Right relevance column -->
+  <rect x="1522" y="352" width="62" height="62" class="cell" fill="#d9d9d9"/>
+  <rect x="1522" y="414" width="62" height="62" class="cell" fill="#c9c9c9"/>
+  <rect x="1522" y="476" width="62" height="62" class="cell" fill="#555555"/>
+  <rect x="1522" y="538" width="62" height="62" class="cell" fill="#858585"/>
+  <rect x="1522" y="600" width="62" height="62" class="cell" fill="#c7c7c7"/>
+  <rect x="1522" y="662" width="62" height="62" class="cell" fill="#e9e9e9"/>
+
+  <!-- Cross marker between matrix and column -->
+  <g stroke="#163f82" stroke-width="9" stroke-linecap="round">
+    <line x1="1499" y1="532" x2="1515" y2="548"/>
+    <line x1="1515" y1="532" x2="1499" y2="548"/>
+  </g>
+  <g stroke="#6ea1e8" stroke-width="4.5" stroke-linecap="round">
+    <line x1="1499" y1="532" x2="1515" y2="548"/>
+    <line x1="1515" y1="532" x2="1499" y2="548"/>
+  </g>
+</svg>

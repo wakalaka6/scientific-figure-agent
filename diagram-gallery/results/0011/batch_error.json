@@ -1,0 +1,7 @@
+{
+  "status": "failed",
+  "input_image": "/home/wangfeifei/projects/image2svg_reconstruct/example/simple/Chain-of-Retrieval Augmented Generation_diagram.jpg",
+  "output_dir": "/home/wangfeifei/projects/image2svg_reconstruct/outputs/batch_simple_template_first/Chain-of-Retrieval Augmented Generation_diagram",
+  "exception_type": "RuntimeError",
+  "exception": "Model response did not contain a complete <svg>...</svg> document."
+}

@@ -1,0 +1,200 @@
+[
+  {
+    "slot_id": "slot_sentiment_icon",
+    "filename": "assets/svg_candidate/slot_sentiment_icon.png",
+    "canonical_slot_id": "slot_sentiment_icon",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "sentiment_icon",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      51,
+      30,
+      90,
+      91
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "sentiment classification pictogram"
+  },
+  {
+    "slot_id": "slot_style_icon",
+    "filename": "assets/svg_candidate/slot_style_icon.png",
+    "canonical_slot_id": "slot_style_icon",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "style_icon",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      58,
+      229,
+      82,
+      80
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "style typography pictogram"
+  },
+  {
+    "slot_id": "slot_topic_icon",
+    "filename": "assets/svg_candidate/slot_topic_icon.png",
+    "canonical_slot_id": "slot_topic_icon",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "topic_icon",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      54,
+      417,
+      91,
+      85
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "topic chat bubbles pictogram"
+  },
+  {
+    "slot_id": "slot_perplexity_icon",
+    "filename": "assets/svg_candidate/slot_perplexity_icon.png",
+    "canonical_slot_id": "slot_perplexity_icon",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "perplexity_icon",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      69,
+      614,
+      62,
+      82
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "perplexity confused person pictogram"
+  },
+  {
+    "slot_id": "slot_title_gauge_icon",
+    "filename": "assets/svg_candidate/slot_title_gauge_icon.png",
+    "canonical_slot_id": "slot_title_gauge_icon",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "title_gauge_icon",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      716,
+      19,
+      186,
+      120
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "truth over tricks gauge logo"
+  },
+  {
+    "slot_id": "slot_benchmarks_icon",
+    "filename": "assets/svg_candidate/slot_benchmarks_icon.png",
+    "canonical_slot_id": "slot_benchmarks_icon",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "benchmarks_icon",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      600,
+      285,
+      109,
+      101
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "misinformation benchmarks database and folders icon"
+  },
+  {
+    "slot_id": "slot_indicator_classifier_icon",
+    "filename": "assets/svg_candidate/slot_indicator_classifier_icon.png",
+    "canonical_slot_id": "slot_indicator_classifier_icon",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "indicator_classifier_icon",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      511,
+      552,
+      154,
+      156
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "indicator classifier magnifier and documents icon"
+  },
+  {
+    "slot_id": "slot_llm_injector_icon",
+    "filename": "assets/svg_candidate/slot_llm_injector_icon.png",
+    "canonical_slot_id": "slot_llm_injector_icon",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "llm_injector_icon",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      943,
+      569,
+      126,
+      140
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "LLM injector robot and AI icon"
+  },
+  {
+    "slot_id": "slot_vanilla_prompt_icon",
+    "filename": "assets/svg_candidate/slot_vanilla_prompt_icon.png",
+    "canonical_slot_id": "slot_vanilla_prompt_icon",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "vanilla_prompt_icon",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      1248,
+      49,
+      103,
+      104
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "vanilla prompt flower and wand icon"
+  },
+  {
+    "slot_id": "slot_explicit_prompt_icon",
+    "filename": "assets/svg_candidate/slot_explicit_prompt_icon.png",
+    "canonical_slot_id": "slot_explicit_prompt_icon",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "explicit_prompt_icon",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      1248,
+      315,
+      101,
+      105
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "explicit prompt mechanical hands icon"
+  },
+  {
+    "slot_id": "slot_implicit_prompt_icon",
+    "filename": "assets/svg_candidate/slot_implicit_prompt_icon.png",
+    "canonical_slot_id": "slot_implicit_prompt_icon",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "implicit_prompt_icon",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      1253,
+      596,
+      98,
+      97
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "implicit prompt elderly reader icon"
+  }
+]

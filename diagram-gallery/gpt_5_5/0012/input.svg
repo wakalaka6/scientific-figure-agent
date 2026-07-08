@@ -1,0 +1,265 @@
+<svg width="1848" height="794" viewBox="0 0 1848 794" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrowBlue" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L14,7 L0,14 Z" fill="#75a5dc"/>
+    </marker>
+    <marker id="arrowPurple" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L14,7 L0,14 Z" fill="#b6659b"/>
+    </marker>
+    <linearGradient id="modelBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#303261"/>
+      <stop offset="1" stop-color="#9797b9"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="1" dy="2" stdDeviation="1.5" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect width="1848" height="794" fill="#ffffff"/>
+
+  <!-- Expert knowledge panel -->
+  <rect x="14" y="24" width="623" height="273" rx="25" fill="#e7e7e7"/>
+  <text x="324" y="63" text-anchor="middle" font-family="Times New Roman, serif" font-size="42" font-weight="700" fill="#111">Expert Knowledge</text>
+
+  <!-- Engineering drawing thumbnail -->
+  <g transform="translate(38,80)" stroke="#222" stroke-width="1.1" fill="none" opacity="0.72">
+    <rect x="0" y="0" width="235" height="174" fill="#f8f8f8" stroke="none"/>
+    <g stroke="#777" stroke-width="1">
+      <path d="M2 12 L16 1 M10 18 L29 1 M27 19 L48 1 M45 19 L65 1 M63 18 L82 1 M80 18 L100 1 M98 18 L119 1 M118 18 L138 1 M137 18 L158 1 M157 18 L176 1 M174 18 L194 1 M192 18 L213 1 M210 18 L235 1"/>
+      <path d="M0 9 H235"/>
+    </g>
+    <g stroke="#111">
+      <path d="M38 66 H214 V144 H37 Z"/>
+      <path d="M38 146 H215"/>
+      <path d="M37 66 V174 M214 66 V174"/>
+      <path d="M101 0 V66 M127 0 V66 M156 0 V66"/>
+      <path d="M98 0 V66 M160 0 V66"/>
+      <path d="M72 145 H184"/>
+      <path d="M73 66 V144 M184 66 V144"/>
+      <path d="M39 31 H213"/>
+      <path d="M39 44 H213"/>
+      <path d="M67 33 V45 M183 33 V45"/>
+      <path d="M119 1 V24 M154 1 V24"/>
+      <path d="M112 145 V174 M179 145 V174"/>
+      <path d="M28 0 V174"/>
+      <path d="M96 145 V170"/>
+      <path d="M217 83 L230 73"/>
+    </g>
+    <g stroke="#777" font-family="Arial, sans-serif" font-size="8" fill="#111">
+      <text x="62" y="42">170</text>
+      <text x="120" y="28">520</text>
+      <text x="122" y="42">180</text>
+      <text x="178" y="42">170</text>
+      <text x="31" y="107" transform="rotate(-90 31 107)">230</text>
+      <text x="31" y="155" transform="rotate(-90 31 155)">40</text>
+      <text x="34" y="108">10</text>
+      <text x="53" y="108">110</text>
+      <text x="100" y="108">150</text>
+      <text x="151" y="108">150</text>
+      <text x="205" y="108">110</text>
+      <text x="102" y="139" transform="rotate(-90 102 139)">10</text>
+      <text x="211" y="168">60/120</text>
+    </g>
+  </g>
+  <text x="156" y="283" text-anchor="middle" font-family="Times New Roman, serif" font-size="31" fill="#111">Drawing</text>
+
+  <!-- Clipboard constraints icon -->
+  <g transform="translate(325,105)" fill="#303030">
+    <path d="M22 21 H35 C38 8 48 2 60 2 C72 2 82 8 85 21 H96 C101 21 105 26 105 31 V117 C105 123 101 127 95 127 H10 C4 127 0 123 0 117 V31 C0 26 5 21 10 21 H22 Z"/>
+    <rect x="26" y="13" width="54" height="21" rx="2" fill="#303030" stroke="#e7e7e7" stroke-width="5"/>
+    <circle cx="53" cy="13" r="7" fill="#e7e7e7"/>
+    <path d="M17 57 L30 44 L52 66 L83 31 L96 43 L54 89 Z" fill="#f7f7f7"/>
+    <path d="M20 87 L75 32" stroke="#f7f7f7" stroke-width="11"/>
+  </g>
+  <text x="376" y="283" text-anchor="middle" font-family="Times New Roman, serif" font-size="31" fill="#111">Constraints</text>
+
+  <!-- Text icon -->
+  <g transform="translate(501,138)" fill="none" stroke="#000" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="0" y="2" width="84" height="82" rx="12"/>
+    <path d="M17 25 H65 M17 44 H65 M17 63 H65"/>
+  </g>
+  <text x="545" y="283" text-anchor="middle" font-family="Times New Roman, serif" font-size="31" fill="#111">Text</text>
+
+  <!-- Step 1 label -->
+  <text x="145" y="426" text-anchor="middle" font-family="Comic Sans MS, Trebuchet MS, sans-serif" font-size="30" font-weight="700" fill="#5da998">Step 1:</text>
+  <text x="145" y="465" text-anchor="middle" font-family="Comic Sans MS, Trebuchet MS, sans-serif" font-size="30" font-weight="700" fill="#5da998">Constraint-Guided</text>
+  <text x="145" y="503" text-anchor="middle" font-family="Comic Sans MS, Trebuchet MS, sans-serif" font-size="30" font-weight="700" fill="#5da998">Parameter Sampling</text>
+
+  <!-- Green down arrow -->
+  <path d="M344 300 H370 V516 H395 L357 563 L319 516 H344 Z" fill="#68b1a3"/>
+
+  <text x="376" y="367" font-family="Times New Roman, serif" font-size="30" fill="#111">Inter-/Intra-View</text>
+  <text x="414" y="404" font-family="Times New Roman, serif" font-size="30" fill="#111">Constraints</text>
+
+  <!-- Parameter space icon -->
+  <g transform="translate(289,588)">
+    <rect x="32" y="26" width="100" height="124" rx="10" fill="#000"/>
+    <rect x="0" y="0" width="102" height="129" rx="10" fill="#000"/>
+    <rect x="13" y="16" width="45" height="10" fill="#fff"/>
+    <rect x="13" y="39" width="79" height="5" fill="#fff"/>
+    <rect x="13" y="55" width="79" height="5" fill="#fff"/>
+    <rect x="13" y="70" width="79" height="5" fill="#fff"/>
+    <rect x="13" y="86" width="79" height="5" fill="#fff"/>
+    <rect x="13" y="102" width="79" height="5" fill="#fff"/>
+  </g>
+  <text x="356" y="773" text-anchor="middle" font-family="Times New Roman, serif" font-size="31" fill="#111">Parameter Space</text>
+
+  <!-- Connecting arrows -->
+  <path d="M455 603 H635 Q654 603 654 584 V186 Q654 167 675 167 H969" fill="none" stroke="#75a5dc" stroke-width="5" marker-end="url(#arrowBlue)"/>
+  <path d="M455 603 H1050" fill="none" stroke="#b6659b" stroke-width="5" marker-end="url(#arrowPurple)"/>
+
+  <!-- ezdxf text -->
+  <text x="666" y="385" font-family="Comic Sans MS, Trebuchet MS, sans-serif" font-size="36" font-style="italic" fill="#111">ez</text>
+  <text x="708" y="385" font-family="Comic Sans MS, Trebuchet MS, sans-serif" font-size="36" font-style="italic" fill="#9aa0ff">dxf</text>
+
+  <!-- Layers separating -->
+  <text x="735" y="88" font-family="Times New Roman, serif" font-size="38" font-weight="700" font-style="italic" fill="#111">Layers</text>
+  <text x="735" y="132" font-family="Times New Roman, serif" font-size="38" font-weight="700" font-style="italic" fill="#111">separating</text>
+
+  <!-- DXF icon -->
+  <g transform="translate(997,98)">
+    <path d="M83 15 H137 V125 H83 Z" fill="#fff" stroke="#000" stroke-width="7"/>
+    <path d="M0 14 L82 2 V138 L0 124 Z" fill="#fff" stroke="#000" stroke-width="7"/>
+    <text x="8" y="84" font-family="Arial Black, Arial, sans-serif" font-size="31" fill="#000" transform="rotate(-5 38 78)">DXF</text>
+  </g>
+  <text x="1004" y="272" font-family="Comic Sans MS, Trebuchet MS, sans-serif" font-size="32" font-weight="700" fill="#75a5dc">Step 2: 2D Drawing and Raster</text>
+  <text x="942" y="312" font-family="Comic Sans MS, Trebuchet MS, sans-serif" font-size="32" font-weight="700" fill="#75a5dc">Image Generation</text>
+
+  <!-- Rendering arrow and label -->
+  <path d="M1152 167 H1430" fill="none" stroke="#75a5dc" stroke-width="5" marker-end="url(#arrowBlue)"/>
+  <text x="1196" y="136" font-family="Times New Roman, serif" font-size="37" font-weight="700" font-style="italic" fill="#111">Rendering</text>
+
+  <!-- Orthographic projection dashed box -->
+  <rect x="1439" y="11" width="399" height="349" rx="31" fill="#fff" stroke="#111" stroke-width="3" stroke-dasharray="8 8"/>
+
+  <g opacity="0.55" stroke="#999" stroke-width="1.2" fill="none">
+    <!-- Front view drawing -->
+    <g transform="translate(1468,48)">
+      <path d="M12 8 H156 M12 56 H156 M12 104 H156 M12 152 H156"/>
+      <path d="M0 20 V138 M168 20 V138"/>
+      <path d="M30 53 V119 M56 21 V119 M86 53 V119 M115 21 V119 M144 53 V119"/>
+      <rect x="29" y="53" width="27" height="66"/>
+      <rect x="55" y="21" width="30" height="98"/>
+      <rect x="85" y="53" width="30" height="66"/>
+      <rect x="115" y="21" width="30" height="98"/>
+      <g font-size="5" fill="#777" font-family="Arial">
+        <text x="13" y="10">120</text><text x="39" y="10">180</text><text x="70" y="10">300</text><text x="104" y="10">180</text><text x="137" y="10">120</text>
+        <text x="12" y="138">80</text><text x="44" y="138">100</text><text x="80" y="138">200</text><text x="118" y="138">100</text>
+      </g>
+      <rect x="12" y="53" width="140" height="32" fill="#f6f6f6" stroke="#888"/>
+      <text x="82" y="84" text-anchor="middle" font-family="Times New Roman, serif" font-size="43" font-weight="700" fill="#777" stroke="none">Front</text>
+    </g>
+
+    <!-- Side view drawing -->
+    <g transform="translate(1680,50)">
+      <path d="M0 5 H103 M0 55 H103 M0 104 H103 M0 150 H103"/>
+      <path d="M10 18 V137 M114 18 V137"/>
+      <rect x="18" y="52" width="30" height="69"/>
+      <rect x="48" y="18" width="30" height="103"/>
+      <rect x="78" y="52" width="30" height="69"/>
+      <g font-size="5" fill="#777" font-family="Arial">
+        <text x="1" y="8">120</text><text x="31" y="8">200</text><text x="63" y="8">200</text><text x="93" y="8">120</text>
+      </g>
+      <rect x="0" y="52" width="103" height="32" fill="#f6f6f6" stroke="#888"/>
+      <text x="52" y="83" text-anchor="middle" font-family="Times New Roman, serif" font-size="43" font-weight="700" fill="#777" stroke="none">Side</text>
+    </g>
+
+    <!-- Top view drawing -->
+    <g transform="translate(1468,213)">
+      <rect x="0" y="0" width="168" height="114" fill="#f8f8f8"/>
+      <path d="M0 0 H168 V114 H0 Z"/>
+      <path d="M13 13 H155 V101 H13 Z"/>
+      <path d="M45 10 V104 M85 10 V104 M123 10 V104"/>
+      <circle cx="46" cy="38" r="15"/>
+      <circle cx="91" cy="38" r="15"/>
+      <circle cx="137" cy="38" r="15"/>
+      <circle cx="46" cy="76" r="15"/>
+      <circle cx="91" cy="76" r="15"/>
+      <circle cx="137" cy="76" r="15"/>
+      <path d="M46 38 L91 76 M91 38 L46 76" stroke-dasharray="2 2"/>
+      <g font-size="5" fill="#777" font-family="Arial">
+        <text x="25" y="6">150</text><text x="65" y="6">200</text><text x="106" y="6">150</text>
+      </g>
+      <rect x="30" y="42" width="106" height="34" fill="#f5f5f5" stroke="#888"/>
+      <text x="84" y="75" text-anchor="middle" font-family="Times New Roman, serif" font-size="43" font-weight="700" fill="#777" stroke="none">Top</text>
+    </g>
+  </g>
+  <text x="1725" y="260" text-anchor="middle" font-family="Times New Roman, serif" font-size="32" font-weight="700" fill="#111">Orthographic</text>
+  <text x="1725" y="293" text-anchor="middle" font-family="Times New Roman, serif" font-size="32" font-weight="700" fill="#111">Projection</text>
+
+  <!-- Entity separating -->
+  <text x="735" y="530" font-family="Times New Roman, serif" font-size="38" font-weight="700" font-style="italic" fill="#111">Entities</text>
+  <text x="735" y="574" font-family="Times New Roman, serif" font-size="38" font-weight="700" font-style="italic" fill="#111">separating</text>
+
+  <!-- Flowchart / Python icon -->
+  <g transform="translate(1074,501)">
+    <rect x="0" y="0" width="153" height="167" rx="4" fill="#fff" stroke="#5d6e7e" stroke-width="6"/>
+    <path d="M22 19 H73 V42 H22 Z" fill="none" stroke="#28a999" stroke-width="6"/>
+    <path d="M21 66 H75 V89 H21 Z" fill="none" stroke="#28a999" stroke-width="6"/>
+    <path d="M48 42 V66" stroke="#28a999" stroke-width="6"/>
+    <path d="M22 108 C34 124 44 129 61 130" fill="none" stroke="#27a7df" stroke-width="7" stroke-linecap="round"/>
+    <path d="M53 112 L70 130 L49 145" fill="none" stroke="#27a7df" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(94,91)">
+      <path d="M19 0 H49 C67 0 76 9 76 28 V40 H35 C26 40 20 46 20 55 V74 H2 C-9 74 -19 66 -19 54 V43 C-19 31 -9 22 4 22 H45 V16 H19 Z" fill="#26a9df"/>
+      <path d="M59 84 H28 C10 84 1 75 1 56 V44 H43 C51 44 57 38 57 29 V10 H76 C87 10 96 18 96 30 V42 C96 54 86 63 74 63 H33 V69 H59 Z" fill="#26a9df"/>
+      <circle cx="27" cy="12" r="4" fill="#fff"/>
+      <circle cx="50" cy="72" r="4" fill="#fff"/>
+    </g>
+  </g>
+
+  <!-- Execute arrow and label -->
+  <path d="M1264 584 C1340 584 1425 584 1516 585" fill="none" stroke="#b6659b" stroke-width="5" marker-end="url(#arrowPurple)"/>
+  <text x="1301" y="560" font-family="Times New Roman, serif" font-size="38" font-weight="700" font-style="italic" fill="#111">Execute</text>
+
+  <text x="812" y="779" font-family="Comic Sans MS, Trebuchet MS, sans-serif" font-size="30" font-weight="700" fill="#b6659b">Step 3: 3D Model Generation</text>
+
+  <!-- 3D model panel -->
+  <rect x="1521" y="404" width="296" height="333" fill="url(#modelBg)"/>
+
+  <!-- Cylindrical legs -->
+  <g stroke="#111" stroke-width="1.5" filter="url(#softShadow)">
+    <g>
+      <path d="M1554 579 C1554 569 1585 569 1585 579 V648 C1585 656 1554 656 1554 648 Z" fill="#9a9a97"/>
+      <ellipse cx="1569.5" cy="579" rx="15.5" ry="8" fill="#b8b8b5"/>
+    </g>
+    <g>
+      <path d="M1620 618 C1620 608 1651 608 1651 618 V688 C1651 696 1620 696 1620 688 Z" fill="#969693"/>
+      <ellipse cx="1635.5" cy="618" rx="15.5" ry="8" fill="#b8b8b5"/>
+    </g>
+    <g>
+      <path d="M1680 650 C1680 640 1711 640 1711 650 V723 C1711 732 1680 732 1680 723 Z" fill="#8e8e8b"/>
+      <ellipse cx="1695.5" cy="650" rx="15.5" ry="8" fill="#b4b4b1"/>
+    </g>
+    <g>
+      <path d="M1749 615 C1749 605 1780 605 1780 615 V687 C1780 696 1749 696 1749 687 Z" fill="#8f8f8c"/>
+      <ellipse cx="1764.5" cy="615" rx="15.5" ry="8" fill="#b4b4b1"/>
+    </g>
+  </g>
+
+  <!-- Main slab -->
+  <g stroke="#111" stroke-width="1.6" filter="url(#softShadow)">
+    <polygon points="1525,504 1622,458 1811,570 1692,644" fill="#7f7f7c"/>
+    <polygon points="1525,504 1692,644 1692,677 1525,582" fill="#696966"/>
+    <polygon points="1811,570 1692,644 1692,677 1811,612" fill="#777774"/>
+  </g>
+
+  <!-- Tall block left -->
+  <g stroke="#111" stroke-width="1.5" filter="url(#softShadow)">
+    <polygon points="1586,425 1622,406 1659,426 1622,449" fill="#888885"/>
+    <polygon points="1586,425 1622,449 1622,524 1586,500" fill="#757572"/>
+    <polygon points="1659,426 1622,449 1622,524 1659,500" fill="#8e8e8b"/>
+    <path d="M1622 449 V524" stroke="#111"/>
+    <path d="M1628 450 V514" stroke="#cfcfcf" stroke-width="2"/>
+  </g>
+
+  <!-- Short block right -->
+  <g stroke="#111" stroke-width="1.5" filter="url(#softShadow)">
+    <polygon points="1677,481 1713,457 1749,476 1711,500" fill="#878784"/>
+    <polygon points="1677,481 1711,500 1711,568 1677,547" fill="#72726f"/>
+    <polygon points="1749,476 1711,500 1711,568 1749,544" fill="#90908d"/>
+    <path d="M1711 500 V568" stroke="#111"/>
+    <path d="M1718 500 V558" stroke="#d2d2d2" stroke-width="2"/>
+  </g>
+
+  <text x="1669" y="791" text-anchor="middle" font-family="Times New Roman, serif" font-size="40" font-weight="700" fill="#000">3-D Model</text>
+</svg>

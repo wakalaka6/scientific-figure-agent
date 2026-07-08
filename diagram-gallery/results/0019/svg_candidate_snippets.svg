@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"><g id="svg_slot_document_icon" data-source-slot="slot_document_icon" fill="none" transform="translate(240 53) scale(1 1) translate(0 0)"><path d="M3 1h25l9 9v33H3z" fill="#fff" stroke="#111" stroke-width="2" stroke-linejoin="miter" />
+  <path d="M28 1v9h9" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="miter" />
+  <path d="M9 11h18M9 16h23M9 21h23M9 26h16M9 31h16" fill="none" stroke="#111" stroke-width="2" stroke-linecap="square" />
+</g><g id="svg_slot_image_icon" data-source-slot="slot_image_icon" fill="none" transform="translate(939 58) scale(1 1.025) translate(0 0)"><path d="M4.5 4.5h42v32h-42z" fill="#47d6a4" stroke="#6f7777" stroke-width="1.5" stroke-linejoin="round" />
+  <path d="M1.5 1.5h42v32h-42z" fill="#f9ffff" stroke="#6f7777" stroke-width="1.5" stroke-linejoin="round" />
+  <circle cx="12.5" cy="9" r="4.2" fill="#ffe07a" stroke="#6f7777" stroke-width="1.5" />
+  <path d="M2 31.5 14.5 21.2 23.2 27.4 36.2 16.1 43.5 21.7v11.8H1.5z" fill="#48d9a5" />
+  <path d="M1.5 31.5 14.5 21.2 23.2 27.4 36.2 16.1 43.5 21.7" fill="none" stroke="#6f7777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M1.5 1.5h42v32h-42z" fill="none" stroke="#6f7777" stroke-width="1.5" stroke-linejoin="round" />
+</g></svg>

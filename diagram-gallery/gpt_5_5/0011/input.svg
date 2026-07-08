@@ -1,0 +1,276 @@
+<svg width="2048" height="1287" viewBox="0 0 2048 1287" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .txt{font-family: Arial, Helvetica, sans-serif; fill:#000;}
+      .small{font-size:32px;}
+      .med{font-size:38px;}
+      .large{font-size:44px;}
+      .title{font-size:42px; font-weight:700; letter-spacing:2px;}
+      .italic{font-family:"Courier New", monospace; font-style:italic; fill:#777;}
+      .boxstroke{stroke:#0d3342; stroke-width:4; fill:#fff;}
+      .peach{fill:#f8dfd3; stroke:#0d3342; stroke-width:4;}
+      .bluebox{fill:#dcedfb; stroke:#0d3342; stroke-width:4;}
+      .tealLine{stroke:#176b86; stroke-width:4; fill:none;}
+      .dash{stroke:#aaa; stroke-width:4; stroke-dasharray:12 8;}
+      .nodeStroke{stroke:#0d3342; stroke-width:4;}
+    </style>
+
+    <marker id="arrowTeal" markerWidth="13" markerHeight="13" refX="10" refY="6.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L13,6.5 L0,13 z" fill="#176b86"/>
+    </marker>
+    <marker id="arrowBlue" markerWidth="13" markerHeight="13" refX="10" refY="6.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L13,6.5 L0,13 z" fill="#139bd1"/>
+    </marker>
+    <marker id="arrowGray" markerWidth="13" markerHeight="13" refX="10" refY="6.5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L13,6.5 L0,13 z" fill="#cfcfcf"/>
+    </marker>
+
+    <pattern id="hatch" patternUnits="userSpaceOnUse" width="10" height="10" patternTransform="rotate(45)">
+      <rect width="10" height="10" fill="#fbfbfb"/>
+      <line x1="0" y1="0" x2="0" y2="10" stroke="#d5d5d5" stroke-width="4"/>
+    </pattern>
+
+    <symbol id="robot" viewBox="0 0 90 90">
+      <g fill="#fff" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="45" y1="20" x2="45" y2="7"/>
+        <circle cx="45" cy="7" r="6"/>
+        <rect x="18" y="22" width="54" height="48" rx="8"/>
+        <rect x="6" y="36" width="12" height="22" rx="3"/>
+        <rect x="72" y="36" width="12" height="22" rx="3"/>
+        <circle cx="32" cy="43" r="4" fill="#000"/>
+        <circle cx="58" cy="43" r="4" fill="#000"/>
+        <path d="M34 56 Q45 63 56 56"/>
+      </g>
+    </symbol>
+
+    <symbol id="retriever" viewBox="0 0 80 80">
+      <g fill="none" stroke="#000" stroke-width="7" stroke-linecap="round">
+        <circle cx="31" cy="31" r="22"/>
+        <line x1="49" y1="49" x2="72" y2="72"/>
+      </g>
+    </symbol>
+
+    <symbol id="answer" viewBox="0 0 80 80">
+      <g>
+        <path d="M40 5 C58 5 73 20 73 40 C73 50 68 60 61 66 L66 78 L52 71 C48 73 44 75 40 75 C21 75 6 59 6 40 C6 20 21 5 40 5Z"
+              fill="#48e36e" stroke="#000" stroke-width="3"/>
+        <text x="40" y="58" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+              font-size="54" fill="#fff" stroke="#000" stroke-width="1.5">A</text>
+      </g>
+    </symbol>
+
+    <symbol id="chosen" viewBox="0 0 70 70">
+      <rect x="5" y="5" width="60" height="60" rx="10" fill="#5198d8" stroke="#0d3342" stroke-width="4"/>
+    </symbol>
+
+    <symbol id="discarded" viewBox="0 0 70 70">
+      <rect x="5" y="5" width="60" height="60" rx="10" fill="url(#hatch)" stroke="#0d3342" stroke-width="4"/>
+    </symbol>
+
+    <symbol id="flame" viewBox="0 0 60 60">
+      <path d="M29 55 C15 53 8 43 11 31 C13 20 22 14 21 4 C31 12 34 20 33 28 C38 22 43 18 42 9 C52 20 56 30 54 39 C51 50 41 56 29 55Z" fill="#ff7a18"/>
+      <path d="M31 53 C22 50 20 42 23 35 C26 29 31 26 30 19 C38 27 42 34 40 42 C39 49 35 52 31 53Z" fill="#ffd22d"/>
+    </symbol>
+
+    <symbol id="medal" viewBox="0 0 80 80">
+      <path d="M22 51 L11 75 L30 67 L40 80 L48 55Z" fill="#3575c9"/>
+      <path d="M53 51 L69 75 L51 67 L42 80 L35 55Z" fill="#3575c9"/>
+      <path d="M40 9 L47 19 L59 17 L61 29 L72 35 L65 45 L68 57 L56 60 L50 71 L40 65 L30 71 L24 60 L12 57 L15 45 L8 35 L19 29 L21 17 L33 19Z"
+            fill="#ffd23d" stroke="#f3b51e" stroke-width="3"/>
+      <circle cx="40" cy="40" r="17" fill="#ffb936"/>
+      <path d="M40 27 L44 36 L54 36 L46 42 L49 52 L40 46 L31 52 L34 42 L26 36 L36 36Z" fill="#ffe577"/>
+    </symbol>
+  </defs>
+
+  <rect width="2048" height="1287" fill="#fff"/>
+
+  <!-- Legend -->
+  <rect x="169" y="15" width="1555" height="99" rx="16" fill="none" stroke="#df6f33" stroke-width="4"/>
+  <use href="#robot" x="204" y="23" width="88" height="88"/>
+  <text class="txt med" x="322" y="82">LLM</text>
+  <use href="#retriever" x="439" y="38" width="62" height="62"/>
+  <text class="txt med" x="519" y="82">retriever</text>
+  <use href="#answer" x="684" y="34" width="65" height="65"/>
+  <text class="txt med" x="775" y="82">answer</text>
+  <use href="#chosen" x="956" y="30" width="72" height="72"/>
+  <text class="txt med" x="1044" y="82">chosen state</text>
+  <use href="#discarded" x="1306" y="33" width="70" height="70"/>
+  <text class="txt med" x="1407" y="82">discarded state</text>
+
+  <!-- Dividers and section text -->
+  <line x1="930" y1="145" x2="930" y2="1267" class="dash"/>
+  <line x1="930" y1="362" x2="2048" y2="362" class="dash"/>
+  <text class="italic large" x="963" y="187">Training</text>
+  <text class="italic large" x="963" y="1269">Inference</text>
+
+  <!-- Left: Rejection Sampling chains -->
+  <rect x="304" y="154" width="348" height="72" rx="12" class="boxstroke" fill="#f4f4f4"/>
+  <text class="txt large" x="478" y="203" text-anchor="middle">Query</text>
+
+  <path d="M478 226 L145 318" class="tealLine" marker-end="url(#arrowTeal)"/>
+  <path d="M478 226 L478 312" class="tealLine" marker-end="url(#arrowTeal)"/>
+  <path d="M478 226 L748 318" class="tealLine" marker-end="url(#arrowTeal)"/>
+
+  <use href="#robot" x="45" y="229" width="88" height="88"/>
+  <rect x="22" y="318" width="247" height="91" rx="12" class="peach"/>
+  <text class="txt small" x="145" y="375" text-anchor="middle">sub-query 1</text>
+  <use href="#retriever" x="63" y="423" width="63" height="63"/>
+  <path d="M145 409 L145 501" class="tealLine" marker-end="url(#arrowTeal)"/>
+  <rect x="20" y="505" width="253" height="89" rx="12" class="bluebox"/>
+  <text class="txt small" x="146" y="562" text-anchor="middle">sub-answer 1</text>
+  <text class="txt large" x="147" y="651" text-anchor="middle">... ...</text>
+  <path d="M145 665 L145 763" class="tealLine" marker-end="url(#arrowTeal)"/>
+  <use href="#robot" x="43" y="678" width="87" height="87"/>
+  <rect x="20" y="772" width="248" height="89" rx="12" class="peach"/>
+  <text class="txt small" x="144" y="829" text-anchor="middle">sub-query n</text>
+  <use href="#retriever" x="62" y="879" width="63" height="63"/>
+  <use href="#robot" x="161" y="863" width="88" height="88"/>
+  <path d="M145 861 L145 953" class="tealLine" marker-end="url(#arrowTeal)"/>
+  <rect x="18" y="957" width="253" height="89" rx="12" class="bluebox"/>
+  <text class="txt small" x="145" y="1014" text-anchor="middle">sub-answer n</text>
+  <use href="#answer" x="54" y="1057" width="65" height="65"/>
+  <use href="#robot" x="163" y="1055" width="88" height="88"/>
+  <path d="M137 1046 L137 1138" class="tealLine" marker-end="url(#arrowTeal)"/>
+  <text class="txt small" x="157" y="1177" text-anchor="middle">P(Ans | Chain 1)</text>
+
+  <rect x="354" y="312" width="250" height="91" rx="12" class="peach"/>
+  <text class="txt small" x="479" y="369" text-anchor="middle">sub-query 1*</text>
+  <use href="#retriever" x="398" y="418" width="64" height="64"/>
+  <use href="#robot" x="498" y="412" width="88" height="88"/>
+  <path d="M479 403 L479 500" class="tealLine" marker-end="url(#arrowTeal)"/>
+  <rect x="351" y="505" width="258" height="89" rx="12" class="bluebox"/>
+  <text class="txt small" x="480" y="562" text-anchor="middle">sub-answer 1*</text>
+  <text class="txt large" x="480" y="651" text-anchor="middle">... ...</text>
+  <path d="M477 665 L477 760" class="tealLine" marker-end="url(#arrowTeal)"/>
+  <use href="#robot" x="372" y="692" width="88" height="88"/>
+  <rect x="353" y="765" width="247" height="91" rx="12" class="peach"/>
+  <text class="txt small" x="477" y="823" text-anchor="middle">sub-query n*</text>
+  <use href="#retriever" x="398" y="874" width="64" height="64"/>
+  <use href="#robot" x="499" y="865" width="89" height="89"/>
+  <path d="M477 856 L477 950" class="tealLine" marker-end="url(#arrowTeal)"/>
+  <rect x="343" y="953" width="267" height="89" rx="12" class="bluebox"/>
+  <text class="txt small" x="477" y="1010" text-anchor="middle">sub-answer n*</text>
+  <use href="#answer" x="389" y="1053" width="65" height="65"/>
+  <use href="#robot" x="499" y="1049" width="89" height="89"/>
+  <path d="M470 1042 L470 1134" class="tealLine" marker-end="url(#arrowTeal)"/>
+  <text class="txt small" x="497" y="1172" text-anchor="middle">P(Ans | Chain 2)</text>
+  <text x="446" y="1242" font-family="Arial, Helvetica, sans-serif" font-size="72" fill="#19b885">✓</text>
+
+  <text class="txt large" x="754" y="375" text-anchor="middle">... ...</text>
+  <text class="txt large" x="755" y="550" text-anchor="middle">... ...</text>
+  <text class="txt large" x="760" y="651" text-anchor="middle">... ...</text>
+  <text class="txt large" x="762" y="820" text-anchor="middle">... ...</text>
+  <text class="txt large" x="762" y="1008" text-anchor="middle">... ...</text>
+  <use href="#answer" x="673" y="1057" width="65" height="65"/>
+  <use href="#robot" x="784" y="1054" width="89" height="89"/>
+  <path d="M755 1050 L755 1134" class="tealLine" marker-end="url(#arrowTeal)"/>
+  <text class="txt small" x="760" y="1172" text-anchor="middle">P(Ans | Chain 3)</text>
+
+  <text class="italic med" x="15" y="1272">Rejection Sampling</text>
+
+  <!-- Right top: Training -->
+  <path d="M1027 211 H1267 Q1271 211 1271 215 V295 Q1271 299 1267 299 H1095 L1062 320 V299 H1027 Q1023 299 1023 295 V215 Q1023 211 1027 211Z"
+        fill="#fff" stroke="#000" stroke-width="7" stroke-linejoin="round"/>
+  <text class="txt small" x="1147" y="268" text-anchor="middle">Current State</text>
+
+  <path d="M1295 251 L1366 251" stroke="#139bd1" stroke-width="6" fill="none" marker-end="url(#arrowBlue)"/>
+  <rect x="1383" y="208" width="283" height="86" rx="14" fill="#f6c3a9" stroke="#0d3342" stroke-width="4"/>
+  <use href="#flame" x="1393" y="241" width="39" height="39"/>
+  <text class="txt med" x="1527" y="262" text-anchor="middle">LLM</text>
+  <path d="M1678 252 L1750 252" stroke="#139bd1" stroke-width="6" fill="none" marker-end="url(#arrowBlue)"/>
+
+  <path d="M1778 208 H1994 Q1998 208 1998 212 V288 Q1998 292 1994 292 H1811 L1811 311 L1778 292 H1774 Q1770 292 1770 288 V212 Q1770 208 1778 208Z"
+        fill="#fff" stroke="#000" stroke-width="7" stroke-linejoin="round"/>
+  <text class="txt small" x="1884" y="262" text-anchor="middle">Next Action</text>
+
+  <!-- Right bottom: Greedy -->
+  <ellipse cx="1106" cy="434" rx="100" ry="46" fill="#eaf4fb" stroke="#0d3342" stroke-width="4"/>
+  <text class="txt small" x="1106" y="443" text-anchor="middle">query</text>
+  <path d="M1106 480 L1106 568" class="tealLine" marker-end="url(#arrowTeal)"/>
+  <use href="#chosen" x="1071" y="566" width="70" height="70"/>
+  <path d="M1106 636 L1106 696" class="tealLine" marker-end="url(#arrowTeal)"/>
+  <text class="txt large" x="1106" y="751" text-anchor="middle">... ...</text>
+  <path d="M1106 774 L1106 840" class="tealLine" marker-end="url(#arrowTeal)"/>
+  <use href="#chosen" x="1076" y="842" width="64" height="64"/>
+  <path d="M1108 906 L1108 969" class="tealLine" marker-end="url(#arrowTeal)"/>
+  <ellipse cx="1108" cy="1026" rx="99" ry="47" fill="#dcedfb" stroke="#0d3342" stroke-width="4"/>
+  <text class="txt small" x="1108" y="1036" text-anchor="middle">output</text>
+  <text class="txt title" x="1109" y="1152" text-anchor="middle">Greedy</text>
+
+  <!-- Right bottom: Best-of-N -->
+  <ellipse cx="1392" cy="431" rx="100" ry="46" fill="#eaf4fb" stroke="#0d3342" stroke-width="4"/>
+  <text class="txt small" x="1392" y="440" text-anchor="middle">query</text>
+  <path d="M1392 477 L1281 568" class="tealLine" marker-end="url(#arrowTeal)"/>
+  <path d="M1392 477 L1392 568" class="tealLine" marker-end="url(#arrowTeal)"/>
+  <path d="M1392 477 L1503 568" class="tealLine" marker-end="url(#arrowTeal)"/>
+  <use href="#chosen" x="1245" y="566" width="70" height="70"/>
+  <use href="#discarded" x="1357" y="566" width="70" height="70"/>
+  <use href="#discarded" x="1467" y="566" width="70" height="70"/>
+  <path d="M1280 636 L1280 694" class="tealLine" marker-end="url(#arrowTeal)"/>
+  <path d="M1392 636 L1392 694" class="tealLine" marker-end="url(#arrowTeal)"/>
+  <path d="M1502 636 L1502 694" class="tealLine" marker-end="url(#arrowTeal)"/>
+  <text class="txt large" x="1280" y="747" text-anchor="middle">... ...</text>
+  <text class="txt large" x="1392" y="747" text-anchor="middle">... ...</text>
+  <text class="txt large" x="1502" y="747" text-anchor="middle">... ...</text>
+  <path d="M1280 772 L1280 838" class="tealLine" marker-end="url(#arrowTeal)"/>
+  <path d="M1392 772 L1392 838" stroke="#cfcfcf" stroke-width="4" fill="none" marker-end="url(#arrowGray)"/>
+  <path d="M1502 772 L1502 838" stroke="#cfcfcf" stroke-width="4" fill="none" marker-end="url(#arrowGray)"/>
+  <use href="#chosen" x="1248" y="840" width="66" height="66"/>
+  <use href="#discarded" x="1361" y="840" width="66" height="66"/>
+  <use href="#discarded" x="1470" y="840" width="66" height="66"/>
+  <path d="M1281 906 L1387 974" class="tealLine" marker-end="url(#arrowTeal)"/>
+  <path d="M1394 906 L1394 970" stroke="#cfcfcf" stroke-width="4" fill="none" marker-end="url(#arrowGray)"/>
+  <use href="#medal" x="1251" y="921" width="68" height="68"/>
+  <ellipse cx="1392" cy="1027" rx="100" ry="47" fill="#dcedfb" stroke="#0d3342" stroke-width="4"/>
+  <text class="txt small" x="1392" y="1037" text-anchor="middle">output</text>
+  <text class="txt title" x="1392" y="1152" text-anchor="middle">Best-of-N</text>
+
+  <!-- Right bottom: Tree Search -->
+  <ellipse cx="1812" cy="428" rx="100" ry="46" fill="#eaf4fb" stroke="#0d3342" stroke-width="4"/>
+  <text class="txt small" x="1812" y="437" text-anchor="middle">query</text>
+  <path d="M1812 474 L1704 568" class="tealLine" marker-end="url(#arrowTeal)"/>
+  <path d="M1812 474 L1812 568" class="tealLine" marker-end="url(#arrowTeal)"/>
+  <path d="M1812 474 L1921 568" class="tealLine" marker-end="url(#arrowTeal)"/>
+  <use href="#discarded" x="1667" y="566" width="70" height="70"/>
+  <use href="#chosen" x="1777" y="566" width="70" height="70"/>
+  <use href="#discarded" x="1887" y="566" width="70" height="70"/>
+
+  <!-- left rollout box -->
+  <path d="M1703 635 L1668 680" class="tealLine" marker-end="url(#arrowTeal)"/>
+  <rect x="1596" y="680" width="144" height="273" fill="#fff" stroke="#0d3342" stroke-width="4"/>
+  <use href="#discarded" x="1621" y="700" width="45" height="45"/>
+  <use href="#discarded" x="1679" y="700" width="45" height="45"/>
+  <path d="M1638 744 L1638 789" class="tealLine" marker-end="url(#arrowTeal)"/>
+  <path d="M1696 744 L1696 789" class="tealLine" marker-end="url(#arrowTeal)"/>
+  <text class="txt small" x="1668" y="814" text-anchor="middle">... ...</text>
+  <path d="M1638 845 L1638 892" class="tealLine" marker-end="url(#arrowTeal)"/>
+  <path d="M1696 845 L1696 892" class="tealLine" marker-end="url(#arrowTeal)"/>
+  <use href="#discarded" x="1621" y="900" width="45" height="45"/>
+  <use href="#discarded" x="1679" y="900" width="45" height="45"/>
+  <text class="txt small" x="1668" y="993" text-anchor="middle">rollouts</text>
+
+  <!-- central tree path -->
+  <path d="M1812 636 L1812 696" class="tealLine" marker-end="url(#arrowTeal)"/>
+  <text class="txt large" x="1812" y="747" text-anchor="middle">... ...</text>
+  <path d="M1812 772 L1812 838" class="tealLine" marker-end="url(#arrowTeal)"/>
+  <use href="#chosen" x="1778" y="840" width="70" height="70"/>
+  <path d="M1813 910 L1813 970" class="tealLine" marker-end="url(#arrowTeal)"/>
+  <ellipse cx="1814" cy="1024" rx="100" ry="46" fill="#dcedfb" stroke="#0d3342" stroke-width="4"/>
+  <text class="txt small" x="1814" y="1034" text-anchor="middle">output</text>
+
+  <!-- right rollout box -->
+  <path d="M1922 635 L1961 680" class="tealLine" marker-end="url(#arrowTeal)"/>
+  <rect x="1892" y="677" width="124" height="280" fill="#fff" stroke="#0d3342" stroke-width="4"/>
+  <use href="#discarded" x="1910" y="700" width="45" height="45"/>
+  <use href="#discarded" x="1969" y="700" width="45" height="45"/>
+  <path d="M1927 744 L1927 789" class="tealLine" marker-end="url(#arrowTeal)"/>
+  <path d="M1986 744 L1986 789" class="tealLine" marker-end="url(#arrowTeal)"/>
+  <text class="txt small" x="1956" y="814" text-anchor="middle">... ...</text>
+  <path d="M1927 845 L1927 892" class="tealLine" marker-end="url(#arrowTeal)"/>
+  <path d="M1986 845 L1986 892" class="tealLine" marker-end="url(#arrowTeal)"/>
+  <use href="#discarded" x="1910" y="900" width="45" height="45"/>
+  <use href="#discarded" x="1969" y="900" width="45" height="45"/>
+  <text class="txt small" x="1957" y="989" text-anchor="middle">rollouts</text>
+
+  <text class="txt title" x="1815" y="1149" text-anchor="middle">Tree Search</text>
+</svg>

@@ -1,0 +1,152 @@
+<svg viewBox="0 0 3840 1883" width="3840" height="1883" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#B3B3B3" />
+    </marker>
+  </defs>
+
+  <!-- Left Panels -->
+  <!-- Panel 1 (Sentiment) -->
+  <rect x="35" y="35" width="835" height="425" rx="50" fill="none" stroke="#B3B3B3" stroke-width="8" stroke-dasharray="30, 20" />
+  <g id="AF07">
+    <rect x="120" y="80" width="250" height="250" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="245" y="205" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="30" font-family="sans-serif">&lt;AF&gt;07</text>
+  </g>
+  <text x="245" y="390" text-anchor="middle" font-family="Times New Roman, serif" font-size="70">Sentiment</text>
+  <text x="435" y="160" font-family="Times New Roman, serif" font-size="65">(a) positive</text>
+  <text x="435" y="260" font-family="Times New Roman, serif" font-size="65">(b) negative</text>
+  <text x="435" y="360" font-family="Times New Roman, serif" font-size="65">(c) neutral</text>
+
+  <!-- Panel 2 (Style) -->
+  <rect x="35" y="495" width="835" height="425" rx="50" fill="none" stroke="#B3B3B3" stroke-width="8" stroke-dasharray="30, 20" />
+  <g id="AF03">
+    <rect x="120" y="550" width="250" height="200" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="245" y="650" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="30" font-family="sans-serif">&lt;AF&gt;03</text>
+  </g>
+  <text x="245" y="840" text-anchor="middle" font-family="Times New Roman, serif" font-size="70">Style</text>
+  <text x="435" y="640" font-family="Times New Roman, serif" font-size="65">(a) subjective</text>
+  <text x="435" y="800" font-family="Times New Roman, serif" font-size="65">(b) neutral</text>
+
+  <!-- Panel 3 (Topic) -->
+  <rect x="35" y="955" width="835" height="425" rx="50" fill="none" stroke="#B3B3B3" stroke-width="8" stroke-dasharray="30, 20" />
+  <g id="AF04">
+    <rect x="120" y="1000" width="250" height="230" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="245" y="1115" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="30" font-family="sans-serif">&lt;AF&gt;04</text>
+  </g>
+  <text x="245" y="1320" text-anchor="middle" font-family="Times New Roman, serif" font-size="70">Topic</text>
+  <text x="435" y="1020" font-family="Times New Roman, serif" font-size="65">(a) sports</text>
+  <text x="435" y="1120" font-family="Times New Roman, serif" font-size="65">(b) crime</text>
+  <text x="435" y="1220" font-family="Times New Roman, serif" font-size="65">(c) politics</text>
+  <text x="435" y="1320" font-family="Times New Roman, serif" font-size="65">......</text>
+
+  <!-- Panel 4 (Perplexity) -->
+  <rect x="35" y="1415" width="835" height="425" rx="50" fill="none" stroke="#B3B3B3" stroke-width="8" stroke-dasharray="30, 20" />
+  <g id="AF09">
+    <rect x="170" y="1480" width="130" height="220" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="235" y="1590" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="20" font-family="sans-serif">&lt;AF&gt;09</text>
+  </g>
+  <text x="245" y="1790" text-anchor="middle" font-family="Times New Roman, serif" font-size="70">Perplexity</text>
+  <text x="435" y="1580" font-family="Times New Roman, serif" font-size="65">(a) high</text>
+  <text x="435" y="1760" font-family="Times New Roman, serif" font-size="65">(b) low</text>
+
+  <!-- Right Panels -->
+  <!-- Panel 1 (Vanilla) -->
+  <rect x="2960" y="50" width="835" height="480" rx="50" fill="none" stroke="#B3B3B3" stroke-width="8" stroke-dasharray="30, 20" />
+  <g id="AF01">
+    <rect x="3010" y="140" width="250" height="220" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="3135" y="250" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="30" font-family="sans-serif">&lt;AF&gt;01</text>
+  </g>
+  <text x="3135" y="450" text-anchor="middle" font-family="Times New Roman, serif" font-size="70">Vanilla</text>
+  <text x="3280" y="210" font-family="Times New Roman, serif" font-style="italic" font-size="65">Please rewrite it</text>
+  <text x="3280" y="290" font-family="Times New Roman, serif" font-style="italic" font-size="65">to make it more</text>
+  <text x="3280" y="370" font-family="Times New Roman, serif" font-style="italic" font-size="65">convincing.</text>
+
+  <!-- Panel 2 (Explicit) -->
+  <rect x="2960" y="700" width="835" height="480" rx="50" fill="none" stroke="#B3B3B3" stroke-width="8" stroke-dasharray="30, 20" />
+  <g id="AF02">
+    <rect x="3010" y="760" width="250" height="220" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="3135" y="870" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="30" font-family="sans-serif">&lt;AF&gt;02</text>
+  </g>
+  <text x="3135" y="1100" text-anchor="middle" font-family="Times New Roman, serif" font-size="70">Explicit</text>
+  <text x="3280" y="860" font-family="Times New Roman, serif" font-style="italic" font-size="65">Make the {word</text>
+  <text x="3280" y="940" font-family="Times New Roman, serif" font-style="italic" font-size="65">choice} of the</text>
+  <text x="3280" y="1020" font-family="Times New Roman, serif" font-style="italic" font-size="65">rewritten content</text>
+  <text x="3280" y="1100" font-family="Times New Roman, serif" font-style="italic" font-size="65">{simple}.</text>
+
+  <!-- Panel 3 (Implicit) -->
+  <rect x="2960" y="1360" width="835" height="480" rx="50" fill="none" stroke="#B3B3B3" stroke-width="8" stroke-dasharray="30, 20" />
+  <g id="AF06">
+    <rect x="3010" y="1460" width="250" height="220" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="3135" y="1570" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="30" font-family="sans-serif">&lt;AF&gt;06</text>
+  </g>
+  <text x="3135" y="1770" text-anchor="middle" font-family="Times New Roman, serif" font-size="70">Implicit</text>
+  <text x="3280" y="1520" font-family="Times New Roman, serif" font-style="italic" font-size="65">You are</text>
+  <text x="3280" y="1600" font-family="Times New Roman, serif" font-style="italic" font-size="65">{elderly}. Please</text>
+  <text x="3280" y="1680" font-family="Times New Roman, serif" font-style="italic" font-size="65">rewrite this</text>
+  <text x="3280" y="1760" font-family="Times New Roman, serif" font-style="italic" font-size="65">passage.</text>
+
+  <!-- Center Top -->
+  <g id="AF05">
+    <rect x="1710" y="50" width="420" height="250" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="1920" y="175" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="40" font-family="sans-serif">&lt;AF&gt;05</text>
+  </g>
+  <text x="1920" y="400" text-anchor="middle" font-family="Times New Roman, serif" font-weight="bold" font-size="110">TruthOverTricks</text>
+  <text x="1920" y="510" text-anchor="middle" font-family="Times New Roman, serif" font-style="italic" font-size="75">Evaluate Shortcut Learning in</text>
+  <text x="1920" y="600" text-anchor="middle" font-family="Times New Roman, serif" font-style="italic" font-size="75">Misinformation Detection</text>
+
+  <!-- Center Blocks -->
+  <!-- Benchmarks -->
+  <rect x="1430" y="650" width="1000" height="320" rx="30" fill="#D9D9D9" />
+  <g id="AF11">
+    <rect x="1480" y="690" width="230" height="240" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="1595" y="810" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="30" font-family="sans-serif">&lt;AF&gt;11</text>
+  </g>
+  <text x="2070" y="780" text-anchor="middle" font-family="Times New Roman, serif" font-size="80">Misinformation</text>
+  <text x="2070" y="880" text-anchor="middle" font-family="Times New Roman, serif" font-size="80">Benchmarks</text>
+
+  <!-- Intrinsic -->
+  <rect x="1070" y="1010" width="700" height="850" rx="30" fill="#D9D9D9" />
+  <text x="1420" y="1120" text-anchor="middle" font-family="Times New Roman, serif" font-size="75">Intrinsic</text>
+  <text x="1420" y="1220" text-anchor="middle" font-family="Times New Roman, serif" font-size="75">Shortcut</text>
+  <text x="1420" y="1320" text-anchor="middle" font-family="Times New Roman, serif" font-size="75">Induction</text>
+  <g id="AF08">
+    <rect x="1240" y="1340" width="360" height="360" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="1420" y="1520" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="40" font-family="sans-serif">&lt;AF&gt;08</text>
+  </g>
+  <text x="1420" y="1810" text-anchor="middle" font-family="Times New Roman, serif" font-style="italic" font-size="75">Indicator Classifier</text>
+
+  <!-- Extrinsic -->
+  <rect x="2070" y="1010" width="700" height="850" rx="30" fill="#D9D9D9" />
+  <text x="2420" y="1120" text-anchor="middle" font-family="Times New Roman, serif" font-size="75">Extrinsic</text>
+  <text x="2420" y="1220" text-anchor="middle" font-family="Times New Roman, serif" font-size="75">Shortcut</text>
+  <text x="2420" y="1320" text-anchor="middle" font-family="Times New Roman, serif" font-size="75">Injection</text>
+  <g id="AF10">
+    <rect x="2270" y="1380" width="300" height="320" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="2420" y="1540" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="40" font-family="sans-serif">&lt;AF&gt;10</text>
+  </g>
+  <text x="2420" y="1810" text-anchor="middle" font-family="Times New Roman, serif" font-style="italic" font-size="75">LLM Injector</text>
+
+  <!-- Connection Lines and Arrows -->
+  
+  <!-- Center T-junction -->
+  <line x1="1920" y1="970" x2="1920" y2="1435" stroke="#B3B3B3" stroke-width="8" />
+  <line x1="1820" y1="1435" x2="2020" y2="1435" stroke="#B3B3B3" stroke-width="8" marker-start="url(#arrow)" marker-end="url(#arrow)" />
+
+  <!-- Left Side Connections -->
+  <line x1="980" y1="247" x2="980" y2="1627" stroke="#B3B3B3" stroke-width="8" />
+  <line x1="1070" y1="1435" x2="980" y2="1435" stroke="#B3B3B3" stroke-width="8" marker-end="url(#arrow)" />
+  
+  <line x1="980" y1="247" x2="885" y2="247" stroke="#B3B3B3" stroke-width="8" marker-end="url(#arrow)" />
+  <line x1="980" y1="707" x2="885" y2="707" stroke="#B3B3B3" stroke-width="8" marker-end="url(#arrow)" />
+  <line x1="980" y1="1167" x2="885" y2="1167" stroke="#B3B3B3" stroke-width="8" marker-end="url(#arrow)" />
+  <line x1="980" y1="1627" x2="885" y2="1627" stroke="#B3B3B3" stroke-width="8" marker-end="url(#arrow)" />
+
+  <!-- Right Side Connections -->
+  <line x1="2860" y1="290" x2="2860" y2="1600" stroke="#B3B3B3" stroke-width="8" />
+  <line x1="2770" y1="1435" x2="2860" y2="1435" stroke="#B3B3B3" stroke-width="8" marker-end="url(#arrow)" />
+
+  <line x1="2860" y1="290" x2="2945" y2="290" stroke="#B3B3B3" stroke-width="8" marker-end="url(#arrow)" />
+  <line x1="2860" y1="940" x2="2945" y2="940" stroke="#B3B3B3" stroke-width="8" marker-end="url(#arrow)" />
+  <line x1="2860" y1="1600" x2="2945" y2="1600" stroke="#B3B3B3" stroke-width="8" marker-end="url(#arrow)" />
+
+</svg>

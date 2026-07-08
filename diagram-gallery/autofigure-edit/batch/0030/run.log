@@ -1,0 +1,205 @@
+
+============================================================
+Paper Method 到 SVG 图标替换流程 (Label 模式增强版 + Box合并)
+============================================================
+Provider: openrouter
+输出目录: /app/outputs/batch/ZEBRA Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding_diagram
+输入模式: imported_figure
+导入图片: /app/my-benchmark/hard/ZEBRA Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding_diagram.jpg
+SVG模型: google/gemini-3.1-pro-preview
+SAM提示词: icon,person,robot,animal
+最低置信度: 0.0
+SAM后端: roboflow
+执行到步骤: 5
+占位符模式: label
+优化迭代次数: 0
+Box合并阈值: 0.01
+4K等比例放大: 开启
+============================================================
+============================================================
+步骤一：跳过生图，使用已有的第一阶段图片
+============================================================
+输入图片: /app/my-benchmark/hard/ZEBRA Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding_diagram.jpg
+4K等比例放大: 开启
+导入图片已等比例放大到 4K 长边: 1890 x 1210 -> 3840 x 2458
+图片已保存: /app/outputs/batch/ZEBRA Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding_diagram/figure.png
+
+============================================================
+步骤二：SAM3 分割 + 灰色填充+黑色边框+序号标记
+============================================================
+原图尺寸: 3840 x 2458
+使用的 prompts: ['icon', 'person', 'robot', 'animal']
+SAM3 Roboflow API 模式: format=polygon
+
+  正在检测: 'icon'
+    对象 1: (1941, 2078, 2135, 2201), score=0.531
+    对象 2: (461, 1978, 655, 2168), score=0.613
+    对象 3: (3445, 494, 3534, 590), score=0.531
+    对象 4: (3408, 2039, 3717, 2269), score=0.570
+    对象 5: (218, 491, 294, 587), score=0.523
+    对象 6: (2667, 2082, 2861, 2205), score=0.523
+    对象 7: (213, 997, 464, 1248), score=0.578
+    对象 8: (150, 1988, 475, 2334), score=0.566
+    对象 9: (3470, 1984, 3775, 2210), score=0.535
+    对象 10: (1136, 495, 1227, 586), score=0.535
+    对象 11: (3646, 494, 3708, 588), score=0.535
+    对象 12: (3187, 2082, 3379, 2204), score=0.539
+    对象 13: (1219, 2081, 1413, 2205), score=0.527
+    对象 14: (1765, 1430, 1957, 1623), score=0.617
+    对象 15: (667, 2080, 862, 2206), score=0.551
+  'icon' 检测到 15 个有效对象
+
+  正在检测: 'person'
+    对象 1: (3541, 471, 3628, 588), score=0.797
+    对象 2: (205, 1261, 350, 1398), score=0.809
+    对象 3: (354, 1269, 483, 1408), score=0.805
+    对象 4: (306, 489, 384, 586), score=0.656
+    对象 5: (299, 1391, 406, 1565), score=0.805
+    对象 6: (400, 1392, 502, 1568), score=0.836
+    对象 7: (194, 1393, 328, 1568), score=0.852
+    对象 8: (394, 489, 467, 586), score=0.664
+    对象 9: (219, 491, 294, 586), score=0.598
+    对象 10: (150, 1988, 475, 2334), score=0.879
+  'person' 检测到 10 个有效对象
+
+  正在检测: 'robot'
+  'robot' 检测到 0 个有效对象
+
+  正在检测: 'animal'
+    对象 1: (3485, 2081, 3640, 2249), score=0.891
+    对象 2: (3446, 495, 3534, 589), score=0.871
+    对象 3: (3647, 494, 3708, 588), score=0.867
+  'animal' 检测到 3 个有效对象
+
+总计检测: 28 个对象 (来自 4 个 prompts)
+
+  合并重叠的boxes (阈值: 0.01)...
+    迭代 1: 合并 box 1 和 box 7 (重叠比例: 0.07)
+    迭代 2: 合并 box 1 和 box 24 (重叠比例: 1.00)
+    迭代 3: 合并 box 1 和 box 5 (重叠比例: 0.61)
+    迭代 4: 合并 box 1 和 box 18 (重叠比例: 1.00)
+    迭代 5: 合并 box 4 和 box 19 (重叠比例: 1.00)
+    迭代 6: 合并 box 9 和 box 12 (重叠比例: 0.02)
+    迭代 7: 合并 box 9 和 box 11 (重叠比例: 0.07)
+    迭代 8: 合并 box 10 和 box 19 (重叠比例: 0.90)
+    迭代 9: 合并 box 11 和 box 13 (重叠比例: 1.00)
+    迭代 10: 合并 box 11 和 box 13 (重叠比例: 1.00)
+    迭代 11: 合并 box 14 和 box 15 (重叠比例: 0.35)
+  合并完成: 28 -> 17 (合并了 11 个)
+
+  合并后的boxes:
+    <AF>01: (1941, 2078, 2135, 2201)
+    <AF>02: (2667, 2082, 2861, 2205)
+    <AF>03: (213, 997, 464, 1248)
+    <AF>04: (1136, 495, 1227, 586)
+    <AF>05: (3187, 2082, 3379, 2204)
+    <AF>06: (1219, 2081, 1413, 2205)
+    <AF>07: (1765, 1430, 1957, 1623)
+    <AF>08: (667, 2080, 862, 2206)
+    <AF>09: (3541, 471, 3628, 588)
+    <AF>10: (306, 489, 384, 586)
+    <AF>11: (394, 489, 467, 586)
+    <AF>12: (3445, 494, 3534, 590)
+    <AF>13: (218, 491, 294, 587)
+    <AF>14: (3646, 494, 3708, 588)
+    <AF>15: (150, 1978, 655, 2334)
+    <AF>16: (3408, 1984, 3775, 2269)
+    <AF>17: (194, 1261, 502, 1568)
+
+  绘制 samed.png (使用 17 个boxes)...
+标记图片已保存: /app/outputs/batch/ZEBRA Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding_diagram/samed.png
+Box 信息已保存: /app/outputs/batch/ZEBRA Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding_diagram/boxlib.json
+
+检测到 17 个图标
+
+============================================================
+步骤三：裁切 + RMBG2 去背景
+============================================================
+从 HuggingFace 加载 RMBG-2.0 模型...
+检测到 HF_TOKEN，使用鉴权访问 gated 模型。
+/usr/local/lib/python3.11/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/usr/local/lib/python3.11/site-packages/timm/models/registry.py:4: FutureWarning: Importing from timm.models.registry is deprecated, please import via timm.models
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.models", FutureWarning)
+  <AF>01: 裁切并去背景完成 -> /app/outputs/batch/ZEBRA Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding_diagram/icons/icon_AF01_nobg.png
+  <AF>02: 裁切并去背景完成 -> /app/outputs/batch/ZEBRA Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding_diagram/icons/icon_AF02_nobg.png
+  <AF>03: 裁切并去背景完成 -> /app/outputs/batch/ZEBRA Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding_diagram/icons/icon_AF03_nobg.png
+  <AF>04: 裁切并去背景完成 -> /app/outputs/batch/ZEBRA Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding_diagram/icons/icon_AF04_nobg.png
+  <AF>05: 裁切并去背景完成 -> /app/outputs/batch/ZEBRA Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding_diagram/icons/icon_AF05_nobg.png
+  <AF>06: 裁切并去背景完成 -> /app/outputs/batch/ZEBRA Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding_diagram/icons/icon_AF06_nobg.png
+  <AF>07: 裁切并去背景完成 -> /app/outputs/batch/ZEBRA Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding_diagram/icons/icon_AF07_nobg.png
+  <AF>08: 裁切并去背景完成 -> /app/outputs/batch/ZEBRA Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding_diagram/icons/icon_AF08_nobg.png
+  <AF>09: 裁切并去背景完成 -> /app/outputs/batch/ZEBRA Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding_diagram/icons/icon_AF09_nobg.png
+  <AF>10: 裁切并去背景完成 -> /app/outputs/batch/ZEBRA Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding_diagram/icons/icon_AF10_nobg.png
+  <AF>11: 裁切并去背景完成 -> /app/outputs/batch/ZEBRA Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding_diagram/icons/icon_AF11_nobg.png
+  <AF>12: 裁切并去背景完成 -> /app/outputs/batch/ZEBRA Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding_diagram/icons/icon_AF12_nobg.png
+  <AF>13: 裁切并去背景完成 -> /app/outputs/batch/ZEBRA Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding_diagram/icons/icon_AF13_nobg.png
+  <AF>14: 裁切并去背景完成 -> /app/outputs/batch/ZEBRA Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding_diagram/icons/icon_AF14_nobg.png
+  <AF>15: 裁切并去背景完成 -> /app/outputs/batch/ZEBRA Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding_diagram/icons/icon_AF15_nobg.png
+  <AF>16: 裁切并去背景完成 -> /app/outputs/batch/ZEBRA Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding_diagram/icons/icon_AF16_nobg.png
+  <AF>17: 裁切并去背景完成 -> /app/outputs/batch/ZEBRA Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding_diagram/icons/icon_AF17_nobg.png
+
+============================================================
+步骤四：多模态调用生成 SVG
+============================================================
+Provider: openrouter
+模型: google/gemini-3.1-pro-preview
+占位符模式: label
+原图尺寸: 3840 x 2458
+发送多模态请求到: https://openrouter.ai/api/v1
+
+--------------------------------------------------
+步骤 4.5：SVG 语法验证（使用 lxml XML 解析器）
+--------------------------------------------------
+  SVG 语法验证通过！
+SVG 模板已保存: /app/outputs/batch/ZEBRA Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding_diagram/template.svg
+
+============================================================
+步骤 4.6：LLM 优化 SVG（位置和样式对齐）
+============================================================
+Provider: openrouter
+模型: google/gemini-3.1-pro-preview
+最大迭代次数: 0
+  迭代次数为 0，跳过 LLM 优化
+  直接复制模板: /app/outputs/batch/ZEBRA Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding_diagram/template.svg -> /app/outputs/batch/ZEBRA Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding_diagram/optimized_template.svg
+
+--------------------------------------------------
+步骤 4.7：坐标系对齐
+--------------------------------------------------
+原图尺寸: 3840 x 2458
+SVG 尺寸: 3840.0 x 2458.0
+尺寸匹配，使用 1:1 坐标映射
+
+============================================================
+步骤五：图标替换到 SVG
+============================================================
+匹配模式: 序号匹配
+  <AF>01: 替换成功 (序号匹配 <g>) at (1900.0, 2090.0) size 160.0x160.0
+  <AF>02: 替换成功 (序号匹配 <g>) at (2630.0, 2090.0) size 160.0x160.0
+  <AF>03: 替换成功 (序号匹配 <g>) at (250.0, 750.0) size 280.0x280.0
+  <AF>04: 替换成功 (序号匹配 <g>) at (1335.0, 550.0) size 80.0x80.0
+  <AF>05: 替换成功 (序号匹配 <g>) at (3210.0, 2090.0) size 160.0x160.0
+  <AF>06: 替换成功 (序号匹配 <g>) at (1270.0, 2090.0) size 160.0x160.0
+  <AF>07: 替换成功 (序号匹配 <g>) at (1780.0, 1430.0) size 180.0x180.0
+  <AF>08: 替换成功 (序号匹配 <g>) at (560.0, 2090.0) size 160.0x160.0
+  <AF>09: 替换成功 (序号匹配 <g>) at (3420.0, 480.0) size 100.0x100.0
+  <AF>10: 替换成功 (序号匹配 <g>) at (420.0, 320.0) size 120.0x120.0
+  <AF>11: 替换成功 (序号匹配 <g>) at (540.0, 320.0) size 120.0x120.0
+  <AF>12: 替换成功 (序号匹配 <g>) at (3300.0, 480.0) size 100.0x100.0
+  <AF>13: 替换成功 (序号匹配 <g>) at (300.0, 320.0) size 120.0x120.0
+  <AF>14: 替换成功 (序号匹配 <g>) at (3540.0, 480.0) size 100.0x100.0
+  <AF>15: 替换成功 (序号匹配 <g>) at (80.0, 1950.0) size 450.0x450.0
+  <AF>16: 替换成功 (序号匹配 <g>) at (3450.0, 1980.0) size 350.0x350.0
+  <AF>17: 替换成功 (序号匹配 <g>) at (150.0, 1150.0) size 380.0x380.0
+最终 SVG 已保存: /app/outputs/batch/ZEBRA Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding_diagram/final.svg
+
+============================================================
+流程完成！
+============================================================
+原始图片: /app/outputs/batch/ZEBRA Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding_diagram/figure.png
+标记图片: /app/outputs/batch/ZEBRA Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding_diagram/samed.png
+Box信息: /app/outputs/batch/ZEBRA Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding_diagram/boxlib.json
+图标数量: 17
+SVG模板: /app/outputs/batch/ZEBRA Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding_diagram/template.svg
+优化后模板: /app/outputs/batch/ZEBRA Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding_diagram/optimized_template.svg
+最终SVG: /app/outputs/batch/ZEBRA Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding_diagram/final.svg

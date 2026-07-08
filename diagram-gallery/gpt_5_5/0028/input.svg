@@ -1,0 +1,499 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1823" height="929" viewBox="0 0 1823 929">
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L12,4 L0,8 Z" fill="#000"/>
+    </marker>
+    <marker id="arrowBlue" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L12,4 L0,8 Z" fill="#1688c8"/>
+    </marker>
+    <marker id="arrowOrange" markerWidth="12" markerHeight="8" refX="10" refY="4" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L12,4 L0,8 Z" fill="#e7831d"/>
+    </marker>
+    <filter id="shadow" x="-15%" y="-15%" width="140%" height="140%">
+      <feDropShadow dx="5" dy="5" stdDeviation="5" flood-color="#666" flood-opacity=".45"/>
+    </filter>
+    <filter id="softShadow" x="-20%" y="-20%" width="150%" height="150%">
+      <feDropShadow dx="3" dy="4" stdDeviation="4" flood-color="#777" flood-opacity=".35"/>
+    </filter>
+    <linearGradient id="panelA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e6f4df"/>
+      <stop offset="1" stop-color="#dbeccd"/>
+    </linearGradient>
+    <linearGradient id="panelB" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff7e9"/>
+      <stop offset="1" stop-color="#f5ecd8"/>
+    </linearGradient>
+    <linearGradient id="panelC" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1f0f8"/>
+      <stop offset="1" stop-color="#e9e6ef"/>
+    </linearGradient>
+    <linearGradient id="blueFeat" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d1e0ff"/>
+      <stop offset=".45" stop-color="#8caddc"/>
+      <stop offset="1" stop-color="#4176bd"/>
+    </linearGradient>
+    <linearGradient id="greenBox" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e8f3d5"/>
+      <stop offset="1" stop-color="#9cc887"/>
+    </linearGradient>
+    <linearGradient id="orangeBox" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd9b4"/>
+      <stop offset="1" stop-color="#efa36a"/>
+    </linearGradient>
+    <linearGradient id="purpleBox" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6e7ff"/>
+      <stop offset="1" stop-color="#d7bde5"/>
+    </linearGradient>
+
+    <symbol id="cityThumb" viewBox="0 0 240 145">
+      <rect width="240" height="145" fill="#9bb8d9"/>
+      <rect y="0" width="240" height="42" fill="#9fbde3"/>
+      <path d="M0,55 C45,30 100,36 140,18 C182,2 222,14 240,5 L240,78 L0,78 Z" fill="#c6d4df" opacity=".7"/>
+      <rect x="2" y="52" width="236" height="30" fill="#d6cbc0"/>
+      <rect x="24" y="48" width="38" height="20" fill="#b7b7b7"/>
+      <rect x="68" y="41" width="53" height="28" fill="#cfcfcf"/>
+      <rect x="129" y="45" width="44" height="23" fill="#b9bdc3"/>
+      <rect x="181" y="39" width="38" height="30" fill="#c8c8c8"/>
+      <path d="M72,80 L117,56 L164,80 Z" fill="#386b4c" stroke="#264b38" stroke-width="2"/>
+      <rect x="85" y="80" width="64" height="24" fill="#b83d34"/>
+      <rect x="92" y="85" width="48" height="12" fill="#e9d5bc"/>
+      <path d="M0,109 C58,86 142,88 240,97 L240,145 L0,145 Z" fill="#8b6d83"/>
+      <path d="M2,124 C68,99 159,103 240,112" fill="none" stroke="#314c8e" stroke-width="6"/>
+      <path d="M45,140 C95,109 167,112 236,121" fill="none" stroke="#c66b4d" stroke-width="4"/>
+      <rect x="185" y="92" width="14" height="7" rx="1" fill="#2c8f58"/>
+      <rect x="197" y="91" width="12" height="8" rx="1" fill="#c6382e"/>
+    </symbol>
+
+    <style>
+      .serif{font-family:Georgia,"Times New Roman",serif}
+      .bold{font-weight:700}
+      .panelLabel{font-size:28px;font-weight:700;font-family:Georgia,"Times New Roman",serif}
+      .title{font-size:29px;font-weight:700;font-family:Georgia,"Times New Roman",serif}
+      .small{font-size:20px;font-family:Georgia,"Times New Roman",serif}
+      .tiny{font-size:17px;font-family:Georgia,"Times New Roman",serif}
+      .tokenB{fill:#cfe0f4;stroke:#000;stroke-width:2.4}
+      .tokenG{fill:#b8d79b;stroke:#000;stroke-width:2.4}
+      .tokenR{fill:#88a5d9;stroke:#ff1744;stroke-width:2.4}
+      .tokenO{fill:#f3a466;stroke:#000;stroke-width:2.4}
+      .arrow{stroke:#000;stroke-width:2.4;fill:none;marker-end:url(#arrow)}
+      .arrow2{stroke:#000;stroke-width:2;fill:none;marker-end:url(#arrow)}
+      .blueArrow{stroke:#1688c8;stroke-width:2.4;fill:none;marker-end:url(#arrowBlue)}
+      .orangeArrow{stroke:#e7831d;stroke-width:2.4;fill:none;marker-end:url(#arrowOrange)}
+      .boxStroke{stroke:#9a8f5a;stroke-width:1.5}
+    </style>
+  </defs>
+
+  <rect width="1823" height="929" fill="#ffffff"/>
+
+  <!-- Top panels -->
+  <rect x="0" y="15" width="610" height="420" rx="15" fill="url(#panelA)" filter="url(#shadow)"/>
+  <rect x="638" y="15" width="352" height="420" rx="12" fill="url(#panelB)" filter="url(#shadow)"/>
+  <rect x="1015" y="15" width="808" height="420" rx="18" fill="url(#panelC)" filter="url(#shadow)"/>
+
+  <!-- (a) Visual-language encoders -->
+  <g>
+    <use href="#cityThumb" x="22" y="43" width="228" height="142"/>
+    <rect x="22" y="43" width="228" height="142" fill="none" stroke="#2d68c2" stroke-width="3"/>
+    <use href="#cityThumb" x="37" y="67" width="228" height="142"/>
+    <rect x="37" y="67" width="228" height="142" fill="none" stroke="#2d68c2" stroke-width="3"/>
+    <use href="#cityThumb" x="65" y="94" width="230" height="142"/>
+    <rect x="65" y="94" width="230" height="142" fill="none" stroke="#2d68c2" stroke-width="3"/>
+    <rect x="242" y="170" width="28" height="16" fill="#fff" opacity=".75"/>
+    <text x="251" y="183" class="tiny bold">38</text>
+    <rect x="227" y="190" width="18" height="31" fill="#fff" opacity=".75"/>
+    <text x="241" y="213" class="tiny bold" transform="rotate(-90 241 213)">64</text>
+    <rect x="252" y="193" width="9" height="14" fill="#3a9e69" stroke="#e22" stroke-width="2"/>
+
+    <text x="18" y="276" class="serif bold" font-size="27">
+      <tspan x="18" dy="0">The green bus that is</tspan>
+      <tspan x="18" dy="31">heading to the upper</tspan>
+      <tspan x="18" dy="31">right, from the lower left</tspan>
+      <tspan x="18" dy="31">corner of the Bell Tower</tspan>
+      <tspan x="18" dy="31">roundabout</tspan>
+    </text>
+
+    <polygon points="313,49 438,89 438,167 313,203" fill="#a9bee5" filter="url(#softShadow)"/>
+    <text x="378" y="118" class="title" text-anchor="middle">
+      <tspan x="378">Visual</tspan><tspan x="378" dy="34">Encoder</tspan>
+    </text>
+    <path d="M440,126 L480,126" class="arrow"/>
+
+    <g filter="url(#softShadow)">
+      <polygon points="500,90 532,72 565,72 532,94" fill="url(#blueFeat)" stroke="#000"/>
+      <polygon points="482,123 520,98 584,98 548,127" fill="url(#blueFeat)" stroke="#000"/>
+      <polygon points="461,166 510,124 603,124 558,169" fill="url(#blueFeat)" stroke="#000"/>
+    </g>
+    <text x="517" y="89" class="small bold" font-style="italic">S<tspan baseline-shift="sub" font-size="15">5</tspan></text>
+    <text x="505" y="121" class="small bold" font-style="italic">S<tspan baseline-shift="sub" font-size="15">4</tspan></text>
+    <text x="481" y="160" class="small bold" font-style="italic">S<tspan baseline-shift="sub" font-size="15">3</tspan></text>
+
+    <polygon points="313,253 438,291 438,361 313,399" fill="#9ac982" filter="url(#softShadow)"/>
+    <text x="374" y="322" class="title" text-anchor="middle">
+      <tspan x="374">Language</tspan><tspan x="374" dy="34">Encoder</tspan>
+    </text>
+    <path d="M439,328 L480,328" class="arrow"/>
+    <rect x="484" y="269" width="41" height="120" rx="6" fill="#9ecd84" filter="url(#softShadow)"/>
+    <text x="509" y="327" class="title" text-anchor="middle" transform="rotate(90 509 327)">Linear</text>
+    <path d="M526,328 L567,328" class="arrow"/>
+    <rect x="574" y="273" width="16" height="16" rx="3" class="tokenG"/>
+    <rect x="574" y="296" width="16" height="16" rx="3" class="tokenG"/>
+    <rect x="574" y="320" width="16" height="16" rx="3" class="tokenG"/>
+    <text x="578" y="356" class="small bold">···</text>
+    <rect x="574" y="370" width="16" height="16" rx="3" class="tokenG"/>
+    <path d="M590,328 L629,328" class="arrow"/>
+  </g>
+
+  <!-- links A to B -->
+  <path d="M563,111 L656,111" class="arrow"/>
+  <path d="M562,139 L656,139" class="arrow"/>
+  <path d="M603,126 L656,126" class="arrow"/>
+
+  <!-- (b) Top branch -->
+  <g>
+    <rect x="657" y="59" width="308" height="111" rx="8" fill="#e8f4fb" filter="url(#softShadow)"/>
+    <text x="811" y="119" class="title" text-anchor="middle">
+      <tspan x="811">Cross-scale Visual-only</tspan>
+      <tspan x="811" dy="34">Fusion Branch</tspan>
+    </text>
+    <rect x="672" y="32" width="282" height="28" fill="none" stroke="#000" stroke-width="2"/>
+    <line x1="700" y1="32" x2="700" y2="60" stroke="#000" stroke-width="2"/>
+    <line x1="760" y1="32" x2="760" y2="60" stroke="#000" stroke-width="2"/>
+    <line x1="838" y1="32" x2="838" y2="60" stroke="#000" stroke-width="2"/>
+    <line x1="908" y1="32" x2="908" y2="60" stroke="#000" stroke-width="2"/>
+    <rect x="682" y="39" width="14" height="14" rx="2" class="tokenB"/>
+    <text x="702" y="50" class="small bold">···</text>
+    <rect x="728" y="39" width="14" height="14" rx="2" class="tokenB"/>
+    <rect x="780" y="39" width="14" height="14" rx="2" class="tokenB"/>
+    <text x="802" y="50" class="small bold">···</text>
+    <rect x="826" y="39" width="14" height="14" rx="2" class="tokenB"/>
+    <rect x="878" y="39" width="14" height="14" rx="2" class="tokenB"/>
+    <text x="900" y="50" class="small bold">···</text>
+    <rect x="924" y="39" width="14" height="14" rx="2" class="tokenB"/>
+    <path d="M689,83 L689,59" class="arrow2"/>
+    <path d="M735,83 L735,59" class="arrow2"/>
+    <path d="M788,83 L788,59" class="arrow2"/>
+    <path d="M833,83 L833,59" class="arrow2"/>
+    <path d="M886,83 L886,59" class="arrow2"/>
+    <path d="M931,83 L931,59" class="arrow2"/>
+    <polyline points="954,47 981,47 981,126 1035,126" class="arrow"/>
+
+    <!-- small scale feature entering lower -->
+    <polygon points="675,197 694,186 721,186 700,202" fill="url(#blueFeat)" stroke="#000"/>
+    <path d="M697,184 L697,173" class="arrow2"/>
+  </g>
+
+  <!-- (b) lower branch -->
+  <g>
+    <rect x="657" y="274" width="308" height="108" rx="8" fill="#e9e8ff" filter="url(#softShadow)"/>
+    <text x="811" y="303" class="title" text-anchor="middle">
+      <tspan x="811">Intra-scale</tspan>
+      <tspan x="811" dy="34">Multi-modality</tspan>
+      <tspan x="811" dy="34">Interaction Branch</tspan>
+    </text>
+
+    <rect x="661" y="223" width="71" height="27" fill="#fff" stroke="#000" stroke-width="2"/>
+    <rect x="667" y="230" width="14" height="14" rx="2" class="tokenB"/><text x="688" y="243" class="small bold">···</text><rect x="712" y="230" width="14" height="14" rx="2" class="tokenB"/>
+    <rect x="751" y="223" width="75" height="27" fill="#eef8df" stroke="#000" stroke-width="2"/>
+    <rect x="758" y="230" width="14" height="14" rx="2" class="tokenG"/><text x="780" y="243" class="small bold">···</text><rect x="810" y="230" width="14" height="14" rx="2" class="tokenG"/>
+    <rect x="846" y="223" width="103" height="27" fill="#e5f0ff" stroke="#000" stroke-width="2"/>
+    <rect x="853" y="230" width="14" height="14" rx="2" class="tokenR"/>
+    <rect x="884" y="230" width="14" height="14" rx="2" class="tokenR"/>
+    <text x="905" y="243" class="small bold">···</text>
+    <rect x="927" y="230" width="14" height="14" rx="2" class="tokenR"/>
+    <path d="M675,273 L675,249" class="arrow2"/>
+    <path d="M720,273 L720,249" class="arrow2"/>
+    <path d="M765,273 L765,249" class="arrow2"/>
+    <path d="M813,273 L813,249" class="arrow2"/>
+    <path d="M859,273 L859,249" class="arrow2"/>
+    <path d="M891,273 L891,249" class="arrow2"/>
+    <path d="M934,273 L934,249" class="arrow2"/>
+
+    <rect x="667" y="407" width="14" height="14" rx="2" class="tokenB"/>
+    <text x="688" y="419" class="small bold">···</text>
+    <rect x="713" y="407" width="14" height="14" rx="2" class="tokenB"/>
+    <rect x="758" y="407" width="14" height="14" rx="2" class="tokenG"/>
+    <text x="780" y="419" class="small bold">···</text>
+    <rect x="810" y="407" width="14" height="14" rx="2" class="tokenG"/>
+    <rect x="852" y="407" width="14" height="14" rx="2" class="tokenR"/>
+    <rect x="884" y="407" width="14" height="14" rx="2" class="tokenR"/>
+    <text x="905" y="419" class="small bold">···</text>
+    <rect x="927" y="407" width="14" height="14" rx="2" class="tokenR"/>
+    <path d="M675,406 L675,383" class="arrow2"/>
+    <path d="M720,406 L720,383" class="arrow2"/>
+    <path d="M765,406 L765,383" class="arrow2"/>
+    <path d="M813,406 L813,383" class="arrow2"/>
+    <path d="M859,406 L859,383" class="arrow2"/>
+    <path d="M891,406 L891,383" class="arrow2"/>
+    <path d="M934,406 L934,383" class="arrow2"/>
+
+    <polyline points="950,237 981,237 981,328 1035,328" class="arrow"/>
+    <polyline points="628,328 657,328" class="arrow"/>
+    <polyline points="704,184 789,184 789,273" class="arrow2"/>
+  </g>
+
+  <text x="813" y="456" class="panelLabel" text-anchor="middle">(b)</text>
+  <text x="305" y="456" class="panelLabel" text-anchor="middle">(a)</text>
+
+  <!-- (c) language modulation and decoder -->
+  <g>
+    <rect x="1036" y="57" width="162" height="139" rx="10" fill="url(#greenBox)" stroke="#7aa35d" stroke-width="2" filter="url(#softShadow)"/>
+    <text x="1117" y="102" class="title" text-anchor="middle">
+      <tspan x="1117">Multi-level</tspan><tspan x="1117" dy="33">Language</tspan><tspan x="1117" dy="33">Modulation</tspan>
+    </text>
+    <rect x="1036" y="266" width="162" height="124" rx="10" fill="url(#orangeBox)" stroke="#9b5d29" stroke-width="2" filter="url(#softShadow)"/>
+    <text x="1117" y="303" class="title" text-anchor="middle">
+      <tspan x="1117">Query and</tspan><tspan x="1117" dy="33">Position</tspan><tspan x="1117" dy="33">Generator</tspan>
+    </text>
+
+    <path d="M966,126 L1035,126" class="arrow"/>
+    <path d="M965,184 L1035,184" class="arrow"/>
+    <path d="M966,328 L1035,328" class="arrow"/>
+    <polyline points="1198,126 1246,126 1246,73 1324,73" class="arrow"/>
+    <polyline points="1198,328 1214,328 1214,230 1306,230" class="arrow"/>
+
+    <rect x="1247" y="144" width="21" height="21" rx="5" class="tokenO"/>
+    <text x="1252" y="179" class="small bold">···</text>
+    <rect x="1247" y="194" width="21" height="21" rx="5" class="tokenO"/>
+    <text x="1252" y="229" class="small bold">···</text>
+    <rect x="1247" y="245" width="21" height="21" rx="5" class="tokenO"/>
+    <text x="1252" y="302" class="small bold">···</text>
+    <text x="1229" y="358" class="small">Object</text>
+    <text x="1232" y="386" class="small">query</text>
+
+    <rect x="1306" y="130" width="302" height="196" rx="12" fill="#fff" stroke="#6b248b" stroke-width="3" filter="url(#softShadow)"/>
+    <rect x="1324" y="149" width="68" height="132" rx="7" fill="url(#purpleBox)" stroke="#000" stroke-width="1.5" filter="url(#softShadow)"/>
+    <rect x="1424" y="149" width="68" height="132" rx="7" fill="url(#purpleBox)" stroke="#000" stroke-width="1.5" filter="url(#softShadow)"/>
+    <rect x="1524" y="149" width="68" height="132" rx="7" fill="url(#purpleBox)" stroke="#000" stroke-width="1.5" filter="url(#softShadow)"/>
+    <text x="1360" y="214" class="small bold" transform="rotate(90 1360 214)" text-anchor="middle">High-level</text>
+    <text x="1379" y="214" class="small bold" transform="rotate(90 1379 214)" text-anchor="middle">Decoder</text>
+    <text x="1460" y="214" class="small bold" transform="rotate(90 1460 214)" text-anchor="middle">Mid-level</text>
+    <text x="1479" y="214" class="small bold" transform="rotate(90 1479 214)" text-anchor="middle">Decoder</text>
+    <text x="1560" y="214" class="small bold" transform="rotate(90 1560 214)" text-anchor="middle">Low-level</text>
+    <text x="1579" y="214" class="small bold" transform="rotate(90 1579 214)" text-anchor="middle">Decoder</text>
+    <path d="M1392,215 L1424,215" class="arrow2"/>
+    <path d="M1492,215 L1524,215" class="arrow2"/>
+    <path d="M1268,230 L1324,230" class="arrow2"/>
+    <path d="M1592,230 L1635,230" class="arrow"/>
+
+    <text x="1357" y="54" class="small" text-anchor="middle">high-level</text>
+    <text x="1458" y="54" class="small" text-anchor="middle">mid-level</text>
+    <text x="1558" y="54" class="small" text-anchor="middle">low-level</text>
+    <rect x="1328" y="66" width="15" height="15" rx="2" class="tokenG"/><text x="1348" y="78" class="small bold">···</text><rect x="1373" y="66" width="15" height="15" rx="2" class="tokenG"/>
+    <rect x="1328" y="93" width="15" height="15" rx="2" class="tokenB"/><text x="1348" y="105" class="small bold">···</text><rect x="1373" y="93" width="15" height="15" rx="2" class="tokenB"/>
+    <rect x="1428" y="66" width="15" height="15" rx="2" class="tokenG"/><text x="1448" y="78" class="small bold">···</text><rect x="1473" y="66" width="15" height="15" rx="2" class="tokenG"/>
+    <rect x="1428" y="93" width="15" height="15" rx="2" class="tokenB"/><text x="1448" y="105" class="small bold">···</text><rect x="1473" y="93" width="15" height="15" rx="2" class="tokenB"/>
+    <rect x="1528" y="66" width="15" height="15" rx="2" class="tokenG"/><text x="1548" y="78" class="small bold">···</text><rect x="1573" y="66" width="15" height="15" rx="2" class="tokenG"/>
+    <rect x="1528" y="93" width="15" height="15" rx="2" class="tokenB"/><text x="1548" y="105" class="small bold">···</text><rect x="1573" y="93" width="15" height="15" rx="2" class="tokenB"/>
+    <path d="M1358,108 L1358,144" class="arrow2"/>
+    <path d="M1458,108 L1458,144" class="arrow2"/>
+    <path d="M1558,108 L1558,144" class="arrow2"/>
+
+    <text x="1458" y="360" class="title" text-anchor="middle">Multi-level Progressive</text>
+    <text x="1458" y="392" class="title" text-anchor="middle">Spatial Decoder</text>
+
+    <text x="1635" y="42" class="title">Predicted Tube</text>
+    <rect x="1635" y="51" width="168" height="355" fill="#555"/>
+    <rect x="1643" y="55" width="153" height="95" fill="#ddd"/>
+    <use href="#cityThumb" x="1645" y="58" width="149" height="89"/>
+    <rect x="1643" y="153" width="153" height="39" fill="#f7f7f7"/>
+    <text x="1719" y="169" class="title" text-anchor="middle">...</text>
+    <rect x="1643" y="194" width="153" height="88" fill="#ddd"/>
+    <use href="#cityThumb" x="1645" y="195" width="149" height="85"/>
+    <rect x="1643" y="285" width="153" height="38" fill="#f7f7f7"/>
+    <text x="1719" y="302" class="title" text-anchor="middle">...</text>
+    <rect x="1643" y="325" width="153" height="76" fill="#ddd"/>
+    <use href="#cityThumb" x="1645" y="326" width="149" height="73"/>
+    <g fill="#ececec">
+      <rect x="1637" y="56" width="4" height="7"/><rect x="1637" y="71" width="4" height="7"/><rect x="1637" y="86" width="4" height="7"/><rect x="1637" y="101" width="4" height="7"/><rect x="1637" y="116" width="4" height="7"/><rect x="1637" y="131" width="4" height="7"/><rect x="1637" y="146" width="4" height="7"/><rect x="1637" y="161" width="4" height="7"/><rect x="1637" y="176" width="4" height="7"/><rect x="1637" y="191" width="4" height="7"/><rect x="1637" y="206" width="4" height="7"/><rect x="1637" y="221" width="4" height="7"/><rect x="1637" y="236" width="4" height="7"/><rect x="1637" y="251" width="4" height="7"/><rect x="1637" y="266" width="4" height="7"/><rect x="1637" y="281" width="4" height="7"/><rect x="1637" y="296" width="4" height="7"/><rect x="1637" y="311" width="4" height="7"/><rect x="1637" y="326" width="4" height="7"/><rect x="1637" y="341" width="4" height="7"/><rect x="1637" y="356" width="4" height="7"/><rect x="1637" y="371" width="4" height="7"/><rect x="1637" y="386" width="4" height="7"/>
+      <rect x="1797" y="56" width="4" height="7"/><rect x="1797" y="71" width="4" height="7"/><rect x="1797" y="86" width="4" height="7"/><rect x="1797" y="101" width="4" height="7"/><rect x="1797" y="116" width="4" height="7"/><rect x="1797" y="131" width="4" height="7"/><rect x="1797" y="146" width="4" height="7"/><rect x="1797" y="161" width="4" height="7"/><rect x="1797" y="176" width="4" height="7"/><rect x="1797" y="191" width="4" height="7"/><rect x="1797" y="206" width="4" height="7"/><rect x="1797" y="221" width="4" height="7"/><rect x="1797" y="236" width="4" height="7"/><rect x="1797" y="251" width="4" height="7"/><rect x="1797" y="266" width="4" height="7"/><rect x="1797" y="281" width="4" height="7"/><rect x="1797" y="296" width="4" height="7"/><rect x="1797" y="311" width="4" height="7"/><rect x="1797" y="326" width="4" height="7"/><rect x="1797" y="341" width="4" height="7"/><rect x="1797" y="356" width="4" height="7"/><rect x="1797" y="371" width="4" height="7"/><rect x="1797" y="386" width="4" height="7"/>
+    </g>
+  </g>
+  <text x="1413" y="456" class="panelLabel" text-anchor="middle">(c)</text>
+
+  <!-- Bottom detailed panel -->
+  <rect x="83" y="468" width="1598" height="459" rx="15" fill="#fffdf8" stroke="#eee4c9" stroke-width="3" filter="url(#shadow)"/>
+  <line x1="815" y1="504" x2="815" y2="898" stroke="#dad6c7" stroke-width="5" stroke-dasharray="15 15"/>
+
+  <!-- b.1 detailed intra-scale interaction -->
+  <g>
+    <rect x="133" y="553" width="538" height="278" rx="10" fill="#e9e6ff" filter="url(#softShadow)"/>
+    <rect x="229" y="558" width="378" height="56" rx="8" fill="#dcefd0" filter="url(#softShadow)"/>
+    <text x="418" y="598" class="title" text-anchor="middle">temporal interaction layer</text>
+    <text x="628" y="581" class="small bold">×N</text>
+
+    <path d="M231,511 L231,479 L988,479 L988,552" class="arrow2"/>
+    <rect x="180" y="507" width="21" height="21" rx="5" class="tokenB"/>
+    <rect x="211" y="507" width="21" height="21" rx="5" class="tokenB"/>
+    <text x="239" y="522" class="title">···</text>
+    <rect x="260" y="507" width="21" height="21" rx="5" class="tokenB"/>
+    <path d="M231,553 L231,529" class="arrow2"/>
+    <rect x="319" y="507" width="21" height="21" rx="5" class="tokenG"/>
+    <rect x="353" y="507" width="21" height="21" rx="5" class="tokenG"/>
+    <text x="379" y="522" class="title">···</text>
+    <rect x="404" y="507" width="21" height="21" rx="5" class="tokenG"/>
+    <path d="M372,553 L372,529" class="arrow2"/>
+    <rect x="464" y="507" width="21" height="21" rx="5" class="tokenR"/>
+    <path d="M474,553 L474,529" class="arrow2"/>
+    <rect x="522" y="507" width="21" height="21" rx="5" class="tokenR"/>
+    <rect x="550" y="507" width="21" height="21" rx="5" class="tokenR"/>
+    <text x="579" y="522" class="title">···</text>
+    <rect x="607" y="507" width="21" height="21" rx="5" class="tokenR"/>
+    <path d="M577,553 L577,529" class="arrow2"/>
+
+    <text x="155" y="647" class="small">learnable</text>
+    <text x="155" y="674" class="small">video token</text>
+    <rect x="272" y="643" width="21" height="21" rx="4" class="tokenR"/>
+    <path d="M282,643 L282,617" class="arrow2"/>
+
+    <g opacity=".95">
+      <polygon points="160,748 476,748 576,695 260,695" fill="#fff9ca" stroke="#6a2391" stroke-width="1.5"/>
+      <polygon points="160,778 476,778 576,725 260,725" fill="#fff9ca" stroke="#6a2391" stroke-width="1.5"/>
+      <polygon points="160,808 476,808 576,755 260,755" fill="#fff9ca" stroke="#6a2391" stroke-width="1.5"/>
+      <rect x="160" y="749" width="316" height="59" rx="7" fill="#fff9ca" stroke="#6a2391" stroke-width="1.5" filter="url(#softShadow)"/>
+      <text x="318" y="788" class="small bold" font-size="26" text-anchor="middle">spatial interaction layer</text>
+      <rect x="258" y="695" width="316" height="59" rx="7" fill="#fff9ca" stroke="#6a2391" stroke-width="1.5"/>
+      <text x="416" y="734" class="small bold" font-size="26" text-anchor="middle">spatial interaction layer</text>
+      <rect x="218" y="726" width="316" height="59" rx="7" fill="#fff9ca" stroke="#6a2391" stroke-width="1.5"/>
+      <text x="376" y="765" class="small bold" font-size="26" text-anchor="middle">spatial interaction layer</text>
+    </g>
+
+    <text x="575" y="772" class="small">frame <tspan font-style="italic">T</tspan></text>
+    <text x="505" y="805" class="small">frame 2</text>
+    <text x="500" y="830" class="small">frame 1</text>
+
+    <path d="M215,839 L215,811" class="arrow2"/>
+    <path d="M330,839 L330,811" class="arrow2"/>
+    <path d="M429,839 L429,811" class="arrow2"/>
+    <rect x="164" y="840" width="22" height="22" rx="5" class="tokenB"/>
+    <rect x="195" y="840" width="22" height="22" rx="5" class="tokenB"/>
+    <text x="223" y="858" class="title">···</text>
+    <rect x="245" y="840" width="22" height="22" rx="5" class="tokenB"/>
+    <rect x="280" y="840" width="22" height="22" rx="5" class="tokenG"/>
+    <rect x="311" y="840" width="22" height="22" rx="5" class="tokenG"/>
+    <text x="339" y="858" class="title">···</text>
+    <rect x="364" y="840" width="22" height="22" rx="5" class="tokenG"/>
+    <rect x="418" y="840" width="22" height="22" rx="5" class="tokenR"/>
+    <text x="185" y="896" class="small">visual</text><text x="184" y="918" class="small">token</text>
+    <text x="283" y="896" class="small">language</text><text x="301" y="918" class="small">token</text>
+    <text x="452" y="871" class="small">learnable</text><text x="452" y="899" class="small">frame token</text>
+
+    <path d="M428,643 L428,614" class="arrow2"/><rect x="418" y="643" width="21" height="21" rx="4" class="tokenR"/>
+    <path d="M469,643 L469,614" class="arrow2"/><rect x="459" y="643" width="21" height="21" rx="4" class="tokenR"/>
+    <text x="490" y="658" class="title">···</text>
+    <path d="M547,643 L547,614" class="arrow2"/><rect x="537" y="643" width="21" height="21" rx="4" class="tokenR"/>
+    <path d="M429,694 L429,664" class="arrow2"/>
+    <path d="M469,694 L469,664" class="arrow2"/>
+    <path d="M547,694 L547,664" class="arrow2"/>
+    <path d="M322,695 L322,670" stroke="#88d0d0" stroke-width="2" marker-end="url(#arrowBlue)" opacity=".35"/>
+    <path d="M245,725 L245,700" stroke="#88d0d0" stroke-width="2" marker-end="url(#arrowBlue)" opacity=".35"/>
+    <path d="M214,748 L214,724" stroke="#88d0d0" stroke-width="2" marker-end="url(#arrowBlue)" opacity=".35"/>
+
+    <text x="757" y="700" class="title" transform="rotate(90 757 700)" text-anchor="middle">
+      <tspan>Intra-scale Multi-modality</tspan>
+    </text>
+    <text x="718" y="700" class="title" transform="rotate(90 718 700)" text-anchor="middle">Interaction Branch</text>
+    <text x="735" y="906" class="panelLabel" text-anchor="middle">(b.1)</text>
+  </g>
+
+  <!-- b.2 detailed visual-only fusion -->
+  <g>
+    <text x="892" y="699" class="title" transform="rotate(-90 892 699)" text-anchor="middle">Cross-scale Visual-only</text>
+    <text x="916" y="699" class="title" transform="rotate(-90 916 699)" text-anchor="middle">Fusion Branch</text>
+    <text x="919" y="906" class="panelLabel" text-anchor="middle">(b.2)</text>
+
+    <polygon points="962,389 984,375 1019,375 998,393" fill="url(#blueFeat)" stroke="#000"/>
+    <polygon points="962,692 984,678 1019,678 998,696" fill="url(#blueFeat)" stroke="#000"/>
+    <polygon points="950,881 992,849 1036,849 1000,884" fill="url(#blueFeat)" stroke="#000"/>
+    <text x="975" y="363" class="small bold" font-style="italic">F<tspan baseline-shift="sub" font-size="14">v5</tspan><tspan baseline-shift="super" font-size="13">N</tspan></text>
+    <text x="980" y="675" class="small bold" font-style="italic">F<tspan baseline-shift="sub" font-size="14">v4</tspan></text>
+    <text x="980" y="855" class="small bold" font-style="italic">F<tspan baseline-shift="sub" font-size="14">v3</tspan></text>
+
+    <rect x="1026" y="484" width="241" height="429" rx="12" fill="#e9f4fb" filter="url(#softShadow)"/>
+    <rect x="1051" y="502" width="135" height="43" fill="#f5e8dc" filter="url(#softShadow)"/>
+    <text x="1118" y="531" class="title" text-anchor="middle">Fusion</text>
+    <rect x="1076" y="682" width="112" height="43" fill="#f5e8dc" filter="url(#softShadow)"/>
+    <text x="1132" y="711" class="title" text-anchor="middle">Fusion</text>
+    <rect x="1051" y="848" width="135" height="43" fill="#c6dda0" filter="url(#softShadow)"/>
+    <text x="1118" y="877" class="title" text-anchor="middle">MSFF-FE</text>
+    <rect x="1052" y="584" width="39" height="43" rx="5" fill="#ffe39a" filter="url(#softShadow)"/>
+    <rect x="1051" y="735" width="39" height="67" rx="5" fill="#ffe39a" filter="url(#softShadow)"/>
+    <rect x="1144" y="583" width="43" height="47" rx="5" fill="#c7d0df" filter="url(#softShadow)"/>
+    <text x="1166" y="615" class="small bold" text-anchor="middle">FD</text>
+    <rect x="1145" y="758" width="43" height="47" rx="5" fill="#c7d0df" filter="url(#softShadow)"/>
+    <text x="1166" y="790" class="small bold" text-anchor="middle">FD</text>
+    <rect x="1216" y="758" width="38" height="47" rx="5" fill="#d5c3e8" filter="url(#softShadow)"/>
+    <text x="1235" y="790" class="small bold" text-anchor="middle">SAC</text>
+
+    <path d="M1019,604 L1052,604" class="orangeArrow"/>
+    <path d="M1019,690 L1076,690" class="orangeArrow"/>
+    <path d="M1036,867 L1051,867" class="orangeArrow"/>
+    <path d="M1072,627 L1072,682" class="orangeArrow"/>
+    <path d="M1136,682 L1136,547" class="blueArrow"/>
+    <path d="M1165,682 L1165,631" class="blueArrow"/>
+    <path d="M1166,758 L1166,725" class="blueArrow"/>
+    <path d="M1134,848 L1134,725" class="blueArrow"/>
+    <path d="M1090,615 L1135,615 L1135,547" class="blueArrow"/>
+    <path d="M1090,782 L1145,782" class="blueArrow"/>
+    <path d="M1186,518 L1288,518" class="arrow"/>
+    <path d="M1188,704 L1288,704" class="arrow"/>
+    <path d="M1254,782 L1288,782" class="arrow"/>
+    <polyline points="1188,518 1232,518 1232,821 1254,821" stroke="#7a1ea1" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+    <polyline points="1235,758 1235,518" stroke="#7a1ea1" stroke-width="2" fill="none"/>
+    <polyline points="1254,782 1235,782 1235,805" stroke="#7a1ea1" stroke-width="2" fill="none"/>
+
+    <g>
+      <rect x="1301" y="487" width="21" height="21" rx="4" class="tokenB"/>
+      <rect x="1301" y="516" width="21" height="21" rx="4" class="tokenB"/>
+      <text x="1306" y="558" class="small bold">···</text>
+      <rect x="1301" y="568" width="21" height="21" rx="4" class="tokenB"/>
+      <text x="1340" y="522" class="small bold" font-style="italic">F<tspan baseline-shift="sub" font-size="13">v5</tspan><tspan baseline-shift="super" font-size="13">F</tspan></text>
+      <rect x="1301" y="615" width="21" height="21" rx="4" class="tokenB"/>
+      <rect x="1301" y="644" width="21" height="21" rx="4" class="tokenB"/>
+      <text x="1306" y="686" class="small bold">···</text>
+      <rect x="1301" y="696" width="21" height="21" rx="4" class="tokenB"/>
+      <text x="1340" y="701" class="small bold" font-style="italic">F<tspan baseline-shift="sub" font-size="13">v4</tspan><tspan baseline-shift="super" font-size="13">F</tspan></text>
+      <rect x="1301" y="744" width="21" height="21" rx="4" class="tokenB"/>
+      <rect x="1301" y="773" width="21" height="21" rx="4" class="tokenB"/>
+      <text x="1306" y="815" class="small bold">···</text>
+      <rect x="1301" y="825" width="21" height="21" rx="4" class="tokenB"/>
+      <text x="1340" y="792" class="small bold" font-style="italic">F<tspan baseline-shift="sub" font-size="13">v3</tspan><tspan baseline-shift="super" font-size="13">F</tspan></text>
+    </g>
+
+    <!-- right RepBlock and Fusion diagrams -->
+    <rect x="1410" y="487" width="214" height="103" rx="10" fill="#fffdf2" stroke="#ecd47b" stroke-width="2"/>
+    <rect x="1485" y="497" width="130" height="34" rx="4" fill="#fff3be" stroke="#000" stroke-width="1.4"/>
+    <rect x="1485" y="538" width="130" height="28" rx="3" fill="#fff3be" stroke="#000" stroke-width="1.4"/>
+    <rect x="1485" y="571" width="130" height="32" rx="3" fill="#fff3be" stroke="#000" stroke-width="1.4"/>
+    <text x="1550" y="522" class="small bold" text-anchor="middle">Conv1×1 s1</text>
+    <text x="1550" y="559" class="small bold" text-anchor="middle">BN</text>
+    <text x="1550" y="596" class="small bold" text-anchor="middle">SiLU</text>
+    <rect x="1415" y="532" width="44" height="43" rx="5" fill="#ffe99d" filter="url(#softShadow)"/>
+    <path d="M1459,553 L1484,553" class="arrow"/>
+
+    <rect x="1414" y="640" width="209" height="264" fill="#f6e4d2" filter="url(#softShadow)"/>
+    <circle cx="1517" cy="658" r="14" fill="#fff" stroke="#000" stroke-width="2"/>
+    <text x="1517" y="666" class="small bold" text-anchor="middle">C</text>
+    <path d="M1479,632 L1479,658 L1503,658" class="arrow2"/>
+    <path d="M1555,632 L1555,658 L1531,658" class="arrow2"/>
+    <path d="M1517,672 L1517,691" class="arrow2"/>
+    <rect x="1444" y="706" width="82" height="40" rx="4" fill="#9fd6e3" filter="url(#softShadow)"/>
+    <rect x="1536" y="706" width="70" height="40" rx="4" fill="#9fd6e3" filter="url(#softShadow)"/>
+    <text x="1485" y="721" class="tiny bold" text-anchor="middle">1×1</text>
+    <text x="1485" y="742" class="tiny bold" text-anchor="middle">Conv</text>
+    <text x="1571" y="721" class="tiny bold" text-anchor="middle">1×1</text>
+    <text x="1571" y="742" class="tiny bold" text-anchor="middle">Conv</text>
+    <rect x="1437" y="773" width="99" height="34" rx="3" fill="#ffe49a" filter="url(#softShadow)"/>
+    <text x="1486" y="796" class="tiny bold" text-anchor="middle">RepBlock</text>
+    <text x="1552" y="797" class="small bold">×3</text>
+    <path d="M1485,746 L1485,773" class="arrow2"/>
+    <path d="M1571,746 L1571,830 L1539,830" class="arrow2"/>
+    <path d="M1485,807 L1485,830 L1509,830" class="arrow2"/>
+    <circle cx="1524" cy="830" r="15" fill="#fff" stroke="#000" stroke-width="2"/>
+    <path d="M1514,830 L1534,830 M1524,820 L1524,840" stroke="#000" stroke-width="2"/>
+    <path d="M1524,845 L1524,871" class="arrow2"/>
+    <circle cx="1524" cy="884" r="16" fill="#fff" stroke="#000" stroke-width="2"/>
+    <text x="1524" y="892" class="small bold" text-anchor="middle">F</text>
+    <path d="M1524,900 L1524,925" class="arrow2"/>
+    <text x="1420" y="865" class="small bold">Fusion</text>
+  </g>
+</svg>

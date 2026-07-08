@@ -1,0 +1,110 @@
+[
+  {
+    "slot_id": "slot_scene_generation_symbols",
+    "filename": "assets/svg_candidate/slot_scene_generation_symbols.png",
+    "canonical_slot_id": "slot_scene_generation_symbols",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "scene_generation_symbols",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      642,
+      157,
+      206,
+      62
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "neural network database and cubes symbols"
+  },
+  {
+    "slot_id": "slot_coarse_3d_representation",
+    "filename": "assets/raster_required/slot_coarse_3d_representation.png",
+    "canonical_slot_id": "slot_coarse_3d_representation",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "coarse_3d_representation",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      1018,
+      159,
+      282,
+      83
+    ],
+    "classification": "raster_required",
+    "reason": "from first-pass asset detection kind=pixel_image",
+    "asset_hash": "",
+    "description": "coarse 3D shapes representation"
+  },
+  {
+    "slot_id": "slot_vlm_brain_icon",
+    "filename": "assets/svg_candidate/slot_vlm_brain_icon.png",
+    "canonical_slot_id": "slot_vlm_brain_icon",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "vlm_brain_icon",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      590,
+      358,
+      75,
+      66
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "brain icon for VLM"
+  },
+  {
+    "slot_id": "slot_motion_sequence_visual",
+    "filename": "assets/raster_required/slot_motion_sequence_visual.png",
+    "canonical_slot_id": "slot_motion_sequence_visual",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "motion_sequence_visual",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      925,
+      371,
+      374,
+      72
+    ],
+    "classification": "raster_required",
+    "reason": "from first-pass asset detection kind=pixel_image",
+    "asset_hash": "",
+    "description": "time-varying 3D ramp and ball sequence"
+  },
+  {
+    "slot_id": "slot_video_diffusion_icon",
+    "filename": "assets/svg_candidate/slot_video_diffusion_icon.png",
+    "canonical_slot_id": "slot_video_diffusion_icon",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "video_diffusion_icon",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      583,
+      549,
+      76,
+      76
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "cloud diffusion icon"
+  },
+  {
+    "slot_id": "slot_generated_video_frames",
+    "filename": "assets/raster_required/slot_generated_video_frames.png",
+    "canonical_slot_id": "slot_generated_video_frames",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "generated_video_frames",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      926,
+      527,
+      397,
+      124
+    ],
+    "classification": "raster_required",
+    "reason": "from first-pass asset detection kind=pixel_image",
+    "asset_hash": "",
+    "description": "generated video frame strip of ball rolling on rocky ramp"
+  }
+]

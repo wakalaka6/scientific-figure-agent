@@ -1,0 +1,325 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1810" height="890" viewBox="0 0 1810 890">
+  <defs>
+    <style>
+      .serif{font-family:"Times New Roman", Times, serif;fill:#000}
+      .panel{fill:#fff;stroke:#000;stroke-width:4}
+      .box{fill:#eee;stroke:#000;stroke-width:4}
+      .dash{fill:none;stroke:#000;stroke-width:3;stroke-dasharray:9 6}
+      .thin{stroke:#000;stroke-width:3;fill:none}
+      .thick{stroke:#000;stroke-width:4;fill:none}
+      .grayArrow{fill:#e4e4e4}
+      .blue{stroke:#243aa0}
+      .orange{stroke:#f0a21a}
+    </style>
+
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#000"/>
+    </marker>
+    <marker id="arrowGray" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L14,7 L0,14 Z" fill="#e4e4e4"/>
+    </marker>
+
+    <linearGradient id="udtGrad" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#c9f8de"/>
+      <stop offset="0.45" stop-color="#f6f0aa"/>
+      <stop offset="0.73" stop-color="#ffc482"/>
+      <stop offset="1" stop-color="#f67889"/>
+    </linearGradient>
+
+    <linearGradient id="blueCube" x1="0" x2="1">
+      <stop offset="0" stop-color="#6da1d7"/>
+      <stop offset="1" stop-color="#1359a8"/>
+    </linearGradient>
+
+    <filter id="noise" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="9"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0.35 0.55"/>
+      </feComponentTransfer>
+    </filter>
+
+    <pattern id="greenGrid" width="18" height="18" patternUnits="userSpaceOnUse">
+      <rect width="18" height="18" fill="#0bb168"/>
+      <path d="M0 0H18M0 0V18" stroke="#fff" stroke-opacity=".45" stroke-width="1"/>
+      <rect x="4" y="4" width="5" height="5" fill="#f4ec49" opacity=".7"/>
+      <rect x="11" y="10" width="4" height="4" fill="#006b56" opacity=".6"/>
+    </pattern>
+
+    <pattern id="redMaskGrid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <rect width="26" height="26" fill="#16b274"/>
+      <path d="M0 0H26M0 0V26" stroke="#eee" stroke-opacity=".55"/>
+      <rect x="0" y="0" width="13" height="13" fill="#f06d78" opacity=".85"/>
+      <rect x="14" y="15" width="12" height="11" fill="#f06d78" opacity=".75"/>
+    </pattern>
+
+    <symbol id="brain" viewBox="0 0 90 95">
+      <path d="M44 8v78" stroke="#2636a0" stroke-width="6" fill="none" stroke-linecap="round"/>
+      <path d="M39 14c-15-9-31 4-24 20-13 3-15 23-2 30-2 18 19 22 29 11V17"
+            stroke="#2636a0" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M51 14c15-9 31 4 24 20 13 3 15 23 2 30 2 18-19 22-29 11V17"
+            stroke="#2636a0" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M23 34c12 0 8 11 1 12M22 58c10-2 11 9 4 12" stroke="#f2a21b" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <path d="M67 34c-12 0-8 11-1 12M68 58c-10-2-11 9-4 12" stroke="#f2a21b" stroke-width="5" fill="none" stroke-linecap="round"/>
+    </symbol>
+
+    <symbol id="cube" viewBox="0 0 34 34">
+      <polygon points="6,9 22,3 31,8 15,15" fill="#5f9bd3"/>
+      <polygon points="6,9 15,15 15,31 6,25" fill="#2e73bb"/>
+      <polygon points="15,15 31,8 31,24 15,31" fill="#155baa"/>
+    </symbol>
+
+    <symbol id="dataStack" viewBox="0 0 150 85">
+      <g opacity=".95">
+        <polygon points="0,20 55,0 55,65 0,85" fill="url(#greenGrid)" opacity=".5"/>
+        <polygon points="25,16 80,-4 80,61 25,81" fill="url(#greenGrid)" opacity=".65"/>
+        <polygon points="50,13 105,-7 105,58 50,78" fill="url(#greenGrid)" opacity=".82"/>
+        <polygon points="75,10 130,-10 130,55 75,75" fill="url(#greenGrid)"/>
+      </g>
+    </symbol>
+
+    <symbol id="maskedStack" viewBox="0 0 170 82">
+      <polygon points="0,20 50,4 50,70 0,82" fill="url(#greenGrid)" opacity=".55"/>
+      <polygon points="28,16 78,0 78,66 28,78" fill="#ef7380" opacity=".68"/>
+      <polygon points="56,16 106,0 106,66 56,78" fill="url(#greenGrid)" opacity=".85"/>
+      <polygon points="84,14 134,-2 134,64 84,76" fill="#ef7380" opacity=".7"/>
+      <polygon points="112,12 162,-4 162,62 112,74" fill="url(#redMaskGrid)" opacity=".95"/>
+    </symbol>
+  </defs>
+
+  <!-- Left panel -->
+  <rect class="panel" x="12" y="25" width="484" height="802" rx="26"/>
+  <line x1="14" y1="458" x2="494" y2="458" stroke="#000" stroke-width="3" stroke-dasharray="3 4"/>
+
+  <!-- top-left data type illustrations -->
+  <use href="#dataStack" x="20" y="58" width="130" height="112"/>
+  <path d="M153 87 L188 108 L153 130 Z" class="grayArrow"/>
+  <g transform="translate(205,48)">
+    <g opacity=".55" fill="#f5bfc5">
+      <circle cx="38" cy="38" r="38"/><circle cx="122" cy="38" r="38"/>
+      <circle cx="38" cy="122" r="38"/><circle cx="122" cy="122" r="38"/>
+    </g>
+    <g stroke="#1786c8" stroke-width="3">
+      <line x1="0" y1="56" x2="172" y2="56"/><line x1="0" y1="98" x2="172" y2="98"/>
+      <line x1="23" y1="14" x2="23" y2="142"/><line x1="65" y1="0" x2="65" y2="153"/>
+      <line x1="107" y1="0" x2="107" y2="153"/><line x1="149" y1="14" x2="149" y2="142"/>
+    </g>
+    <g fill="#7b819b" stroke="#8990a8" stroke-width="2">
+      <circle cx="23" cy="14" r="7"/><circle cx="65" cy="14" r="7"/><circle cx="107" cy="14" r="7"/><circle cx="149" cy="14" r="7"/>
+      <circle cx="23" cy="56" r="7"/><circle cx="65" cy="56" r="7"/><circle cx="107" cy="56" r="7"/><circle cx="149" cy="56" r="7"/>
+      <circle cx="23" cy="98" r="7"/><circle cx="65" cy="98" r="7"/><circle cx="107" cy="98" r="7"/><circle cx="149" cy="98" r="7"/>
+    </g>
+  </g>
+  <path d="M375 174 H414 V156 L454 194 L414 232 V214 H375 Z" class="grayArrow"/>
+  <g transform="translate(445,92)">
+    <use href="#cube" x="0" y="0" width="34" height="34"/>
+    <use href="#cube" x="0" y="43" width="34" height="34"/>
+    <use href="#cube" x="0" y="86" width="34" height="34"/>
+    <circle cx="17" cy="123" r="3"/><circle cx="17" cy="136" r="3"/><circle cx="17" cy="149" r="3"/>
+    <use href="#cube" x="0" y="160" width="34" height="34"/>
+    <use href="#cube" x="0" y="203" width="34" height="34"/>
+  </g>
+
+  <g transform="translate(26,202)">
+    <g fill="none" stroke="#777" stroke-width="5">
+      <rect x="0" y="40" width="66" height="58"/><rect x="42" y="5" width="66" height="63"/><rect x="12" y="18" width="87" height="78"/>
+    </g>
+    <g stroke="#777" stroke-width="3" fill="#93c878">
+      <line x1="10" y1="77" x2="27" y2="42"/><line x1="27" y1="42" x2="54" y2="42"/>
+      <line x1="54" y1="42" x2="83" y2="33"/><line x1="83" y1="33" x2="100" y2="55"/>
+      <line x1="54" y1="42" x2="80" y2="70"/><line x1="80" y1="70" x2="53" y2="92"/>
+      <line x1="100" y1="55" x2="95" y2="16"/><line x1="27" y1="42" x2="70" y2="10"/>
+      <circle cx="10" cy="77" r="7"/><circle cx="27" cy="42" r="7"/><circle cx="54" cy="42" r="7"/>
+      <circle cx="83" cy="33" r="7"/><circle cx="100" cy="55" r="7"/><circle cx="80" cy="70" r="7"/>
+      <circle cx="53" cy="92" r="7"/><circle cx="95" cy="16" r="7"/><circle cx="70" cy="10" r="7"/>
+    </g>
+  </g>
+  <path d="M150 226 L188 250 L150 274 Z" class="grayArrow"/>
+  <g transform="translate(199,218)">
+    <g fill="#9fd3df" opacity=".55">
+      <ellipse cx="42" cy="44" rx="42" ry="32"/><ellipse cx="142" cy="46" rx="44" ry="34"/>
+      <ellipse cx="89" cy="78" rx="30" ry="36"/><ellipse cx="137" cy="93" rx="42" ry="36"/>
+    </g>
+    <g stroke="#33977c" stroke-width="4" fill="#47a786">
+      <line x1="15" y1="44" x2="40" y2="10"/><line x1="40" y1="10" x2="62" y2="48"/>
+      <line x1="62" y1="48" x2="88" y2="35"/><line x1="62" y1="48" x2="116" y2="70"/>
+      <line x1="116" y1="70" x2="149" y2="37"/><line x1="149" y1="37" x2="160" y2="70"/>
+      <line x1="116" y1="70" x2="116" y2="110"/><line x1="116" y1="70" x2="94" y2="103"/>
+      <line x1="15" y1="44" x2="24" y2="82"/>
+      <circle cx="15" cy="44" r="6"/><circle cx="40" cy="10" r="6"/><circle cx="62" cy="48" r="6"/>
+      <circle cx="88" cy="35" r="6"/><circle cx="116" cy="70" r="6"/><circle cx="149" cy="37" r="6"/>
+      <circle cx="160" cy="70" r="6"/><circle cx="116" cy="110" r="6"/><circle cx="94" cy="103" r="6"/><circle cx="24" cy="82" r="6"/>
+    </g>
+  </g>
+
+  <text class="serif" x="92" y="385" font-size="36" text-anchor="middle">Different</text>
+  <text class="serif" x="92" y="426" font-size="36" text-anchor="middle">data types</text>
+  <text class="serif" x="407" y="387" font-size="36" text-anchor="middle">Sequential</text>
+  <text class="serif" x="407" y="428" font-size="36" text-anchor="middle">format</text>
+
+  <!-- small thumbnails -->
+  <g transform="translate(40,488)">
+    <rect x="0" y="0" width="122" height="108" fill="#102f89"/>
+    <path d="M10 5 C20 55,45 45,53 98 C70 68,62 40,88 32 C103 24,112 16,120 8" stroke="#35e25b" stroke-width="7" fill="none" opacity=".9"/>
+    <path d="M52 88 C70 70,88 54,119 54" stroke="#c7ef41" stroke-width="3" fill="none"/>
+    <rect width="122" height="108" filter="url(#noise)" opacity=".38"/>
+  </g>
+  <g transform="translate(193,488)">
+    <rect width="122" height="108" fill="#322235"/>
+    <circle cx="34" cy="62" r="22" fill="#d78e55" opacity=".65"/>
+    <circle cx="82" cy="55" r="25" fill="#e2b067" opacity=".55"/>
+    <path d="M0 88H122M5 73H118M20 40V102M45 30V102M72 28V102M98 38V102" stroke="#eee" stroke-opacity=".35"/>
+    <text class="serif" x="67" y="42" font-size="18" fill="#fff">♨</text>
+    <rect width="122" height="108" filter="url(#noise)" opacity=".2"/>
+  </g>
+  <g transform="translate(350,488)">
+    <rect width="122" height="108" fill="#d7d8d7"/>
+    <rect x="22" y="17" width="56" height="82" fill="#f2c228"/>
+    <polygon points="28,17 75,17 67,3 35,3" fill="#eee"/>
+    <rect x="78" y="22" width="38" height="70" fill="#343638"/>
+    <rect x="0" y="66" width="122" height="42" fill="#777"/>
+    <rect width="122" height="108" filter="url(#noise)" opacity=".25"/>
+  </g>
+  <g transform="translate(40,617)">
+    <rect width="122" height="108" fill="#f6f7f7"/>
+    <path d="M8 17 C45 40,76 6,116 34M6 54 C41 46,75 77,118 59M23 0V108M62 4V106M97 0V100" stroke="#777" stroke-width="2" fill="none"/>
+    <g fill="#d4dfe9" stroke="#9baec0"><polygon points="62,29 76,39 64,48"/><polygon points="88,63 102,72 87,81"/></g>
+    <rect width="122" height="108" filter="url(#noise)" opacity=".15"/>
+  </g>
+  <g transform="translate(193,617)">
+    <rect width="122" height="108" fill="#2a9a56"/>
+    <path d="M15 15H105V95H15Z M36 15V94M62 15V94M88 15V94M15 36H105M15 62H105M15 84H105" stroke="#f6e352" stroke-width="5" fill="none"/>
+    <path d="M33 24H89V80H33Z" stroke="#e55740" stroke-width="4" fill="none"/>
+    <rect width="122" height="108" filter="url(#noise)" opacity=".18"/>
+  </g>
+  <g transform="translate(350,617)">
+    <rect width="122" height="108" fill="#edf3ee"/>
+    <path d="M15 94 C48 65,35 31,62 50 C84 66,91 30,111 12" stroke="#f17829" stroke-width="4" fill="none" opacity=".7"/>
+    <path d="M20 97 C56 72,54 47,81 61 C98 70,93 39,116 24" stroke="#f6c13c" stroke-width="3" fill="none" opacity=".55"/>
+    <rect width="122" height="108" filter="url(#noise)" opacity=".18"/>
+  </g>
+  <text class="serif" x="245" y="766" font-size="36" text-anchor="middle">Multiple Domains</text>
+  <text class="serif" x="245" y="807" font-size="36" text-anchor="middle">Multiple Cities</text>
+
+  <!-- Middle architecture -->
+  <text class="serif" x="822" y="45" font-size="40" text-anchor="middle">Output</text>
+  <line x1="820" y1="99" x2="820" y2="59" class="thin" marker-end="url(#arrow)"/>
+  <rect class="box" x="560" y="98" width="517" height="57" rx="6"/>
+  <text class="serif" x="819" y="140" font-size="38" text-anchor="middle">Reshape</text>
+
+  <g>
+    <line x1="601" y1="239" x2="601" y2="270" class="thin"/>
+    <line x1="675" y1="239" x2="675" y2="270" class="thin"/>
+    <line x1="748" y1="239" x2="748" y2="270" class="thin"/>
+    <line x1="822" y1="239" x2="822" y2="270" class="thin"/>
+    <line x1="895" y1="239" x2="895" y2="270" class="thin"/>
+    <line x1="968" y1="239" x2="968" y2="270" class="thin"/>
+    <line x1="1041" y1="239" x2="1041" y2="270" class="thin"/>
+    <line x1="820" y1="155" x2="820" y2="184" class="thin"/>
+    <rect x="575" y="184" width="54" height="55" fill="#aaa"/><rect x="575" y="184" width="54" height="55" filter="url(#noise)"/>
+    <rect x="648" y="184" width="54" height="55" fill="#bbb"/><rect x="648" y="184" width="54" height="55" filter="url(#noise)"/>
+    <rect x="721" y="184" width="54" height="55" fill="#c7c7c7"/><rect x="721" y="184" width="54" height="55" filter="url(#noise)" opacity=".9"/>
+    <rect x="794" y="184" width="54" height="55" fill="#a8a8a8"/><rect x="794" y="184" width="54" height="55" filter="url(#noise)"/>
+    <rect x="867" y="184" width="54" height="55" fill="#9a9a9a"/><rect x="867" y="184" width="54" height="55" filter="url(#noise)"/>
+    <rect x="940" y="184" width="54" height="55" fill="#bdbdbd"/><rect x="940" y="184" width="54" height="55" filter="url(#noise)"/>
+    <rect x="1014" y="184" width="54" height="55" fill="#b8b8b8"/><rect x="1014" y="184" width="54" height="55" filter="url(#noise)"/>
+  </g>
+
+  <rect x="546" y="270" width="558" height="144" rx="18" fill="url(#udtGrad)" stroke="#000" stroke-width="4"/>
+  <text class="serif" x="825" y="356" font-size="45" text-anchor="middle">Urban Diffusion Transformer</text>
+
+  <line x1="697" y1="414" x2="697" y2="503" class="thick"/>
+  <line x1="988" y1="414" x2="988" y2="440" class="thick"/>
+  <path d="M988 440 C1005 440,1008 457,1008 457" class="thick"/>
+  <line x1="1008" y1="457" x2="921" y2="457" class="thick" marker-end="url(#arrow)"/>
+  <line x1="772" y1="457" x2="699" y2="457" class="thick" marker-end="url(#arrow)"/>
+  <rect x="772" y="437" width="146" height="41" rx="6" fill="#fff" stroke="#000" stroke-width="4"/>
+  <text class="serif" x="845" y="469" font-size="34" text-anchor="middle">Concat</text>
+
+  <rect class="box" x="546" y="503" width="302" height="122" rx="14" fill="#fff"/>
+  <text class="serif" x="697" y="553" font-size="38" text-anchor="middle">Spatio-temporal</text>
+  <text class="serif" x="697" y="600" font-size="38" text-anchor="middle">patching</text>
+
+  <rect class="box" x="873" y="501" width="231" height="122" rx="14"/>
+  <text class="serif" x="989" y="553" font-size="38" text-anchor="middle">Embedding</text>
+  <text class="serif" x="989" y="600" font-size="38" text-anchor="middle">layer</text>
+
+  <line x1="697" y1="625" x2="697" y2="695" class="thick"/>
+  <line x1="988" y1="623" x2="988" y2="651" class="thick"/>
+  <path d="M988 651 C1004 651,1007 667,1007 667" class="thick"/>
+  <line x1="1007" y1="667" x2="700" y2="667" class="thick" marker-end="url(#arrow)"/>
+
+  <rect class="box" x="546" y="695" width="302" height="121" rx="14" fill="#fff"/>
+  <text class="serif" x="697" y="746" font-size="39" text-anchor="middle">Noisy</text>
+  <text class="serif" x="697" y="794" font-size="39" text-anchor="middle">ST data</text>
+
+  <rect class="box" x="883" y="695" width="211" height="121" rx="14"/>
+  <text class="serif" x="989" y="746" font-size="39" text-anchor="middle">Timestep</text>
+  <text class="serif" x="989" y="794" font-size="39" font-style="italic" text-anchor="middle">t</text>
+
+  <!-- arrows from dataset to architecture -->
+  <path d="M496 375 L544 555" class="thick" marker-end="url(#arrow)"/>
+  <path d="M496 755 L544 755" class="thick" marker-end="url(#arrow)"/>
+
+  <!-- connector to prompt learning -->
+  <path d="M1008 457 H1146 V305 H1195" class="thick"/>
+  <path d="M1007 667 H1243" class="thick"/>
+
+  <!-- Right prompt learning panel -->
+  <rect class="panel" x="1196" y="21" width="608" height="569" rx="28"/>
+  <rect class="dash" x="1221" y="37" width="450" height="310" rx="28"/>
+  <rect class="dash" x="1221" y="367" width="450" height="207" rx="18"/>
+
+  <g transform="translate(1244,46)">
+    <use href="#brain" x="0" y="0" width="82" height="82"/>
+    <use href="#brain" x="0" y="83" width="82" height="82"/>
+    <use href="#brain" x="0" y="166" width="82" height="82"/>
+  </g>
+  <text class="serif" x="1290" y="305" font-size="32" text-anchor="middle">Data</text>
+  <text class="serif" x="1290" y="331" font-size="32" text-anchor="middle">memory</text>
+
+  <line x1="1369" y1="83" x2="1342" y2="83" class="thin" marker-end="url(#arrow)"/>
+  <line x1="1369" y1="164" x2="1342" y2="164" class="thin" marker-end="url(#arrow)"/>
+  <line x1="1369" y1="242" x2="1342" y2="242" class="thin" marker-end="url(#arrow)"/>
+  <rect class="dash" x="1369" y="59" width="283" height="42" rx="3"/>
+  <rect class="dash" x="1369" y="141" width="283" height="42" rx="3"/>
+  <rect class="dash" x="1369" y="220" width="283" height="42" rx="3"/>
+  <text class="serif" x="1511" y="89" font-size="34" text-anchor="middle">Frequency pattern</text>
+  <text class="serif" x="1511" y="171" font-size="34" text-anchor="middle">Temporal pattern</text>
+  <text class="serif" x="1511" y="250" font-size="34" text-anchor="middle">Spatial pattern</text>
+  <text class="serif" x="1520" y="323" font-size="34" font-style="italic" font-weight="700" text-anchor="middle">Data-driven prompt</text>
+
+  <line x1="1701" y1="172" x2="1678" y2="172" class="thin" marker-end="url(#arrow)"/>
+  <text class="serif" x="1753" y="166" font-size="39" text-anchor="middle">ST</text>
+  <text class="serif" x="1753" y="214" font-size="39" text-anchor="middle">Data</text>
+
+  <g transform="translate(1244,399)">
+    <use href="#brain" x="0" y="0" width="82" height="82"/>
+  </g>
+  <text class="serif" x="1290" y="515" font-size="32" text-anchor="middle">Task</text>
+  <text class="serif" x="1290" y="548" font-size="32" text-anchor="middle">memory</text>
+  <line x1="1381" y1="449" x2="1342" y2="449" class="thin" marker-end="url(#arrow)"/>
+  <rect x="1388" y="373" width="37" height="151" rx="4" fill="#fff" stroke="#000" stroke-width="3"/>
+  <text class="serif" x="1415" y="450" font-size="31" writing-mode="tb">Attention</text>
+  <line x1="1457" y1="449" x2="1426" y2="449" class="thin" marker-end="url(#arrow)"/>
+  <use href="#maskedStack" x="1475" y="407" width="182" height="82"/>
+  <line x1="1701" y1="470" x2="1675" y2="470" class="thin" marker-end="url(#arrow)"/>
+  <text class="serif" x="1755" y="483" font-size="39" text-anchor="middle">Mask</text>
+  <text class="serif" x="1515" y="559" font-size="34" font-style="italic" font-weight="700" text-anchor="middle">Task-specific prompt</text>
+
+  <!-- Masking strategies box -->
+  <rect class="panel" x="1243" y="659" width="516" height="163" rx="8"/>
+  <g transform="translate(1268,669)">
+    <use href="#maskedStack" x="0" y="0" width="138" height="66"/>
+    <use href="#maskedStack" x="180" y="0" width="138" height="66" transform="scale(-1,1) translate(-498,0)"/>
+    <use href="#maskedStack" x="335" y="0" width="138" height="66"/>
+    <use href="#maskedStack" x="55" y="79" width="138" height="66"/>
+    <use href="#maskedStack" x="250" y="78" width="160" height="69"/>
+  </g>
+
+  <!-- captions -->
+  <text class="serif" x="287" y="875" font-size="38" text-anchor="middle">(a) Datasets</text>
+  <text class="serif" x="840" y="875" font-size="38" text-anchor="middle">(b) Urban Diffusion Transformer</text>
+  <text class="serif" x="1500" y="633" font-size="38" text-anchor="middle">(d) Unified Prompt Learning</text>
+  <text class="serif" x="1501" y="875" font-size="38" text-anchor="middle">(c) Masking Strategies</text>
+</svg>

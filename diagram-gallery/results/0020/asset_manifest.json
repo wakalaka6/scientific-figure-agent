@@ -1,0 +1,344 @@
+[
+  {
+    "slot_id": "slot_source_man",
+    "filename": "assets/raster_required/slot_source_man.png",
+    "canonical_slot_id": "slot_source_man",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "source_man",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      72,
+      62,
+      115,
+      173
+    ],
+    "classification": "raster_required",
+    "reason": "from first-pass asset detection kind=pixel_image",
+    "asset_hash": "",
+    "description": "source image of man"
+  },
+  {
+    "slot_id": "slot_man_crop",
+    "filename": "assets/raster_required/slot_man_crop.png",
+    "canonical_slot_id": "slot_man_crop",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "man_crop",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      584,
+      341,
+      61,
+      55
+    ],
+    "classification": "raster_required",
+    "reason": "from first-pass asset detection kind=pixel_image",
+    "asset_hash": "",
+    "description": "small crop preview of generated man image"
+  },
+  {
+    "slot_id": "slot_generated_man",
+    "filename": "assets/raster_required/slot_generated_man.png",
+    "canonical_slot_id": "slot_generated_man",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "generated_man",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      657,
+      274,
+      141,
+      208
+    ],
+    "classification": "raster_required",
+    "reason": "from first-pass asset detection kind=pixel_image",
+    "asset_hash": "",
+    "description": "generated target image of man holding basketball"
+  },
+  {
+    "slot_id": "slot_source_blonde",
+    "filename": "assets/raster_required/slot_source_blonde.png",
+    "canonical_slot_id": "slot_source_blonde",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "source_blonde",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      15,
+      600,
+      130,
+      193
+    ],
+    "classification": "raster_required",
+    "reason": "from first-pass asset detection kind=pixel_image",
+    "asset_hash": "",
+    "description": "source image of woman with bag"
+  },
+  {
+    "slot_id": "slot_image_with_mask",
+    "filename": "assets/raster_required/slot_image_with_mask.png",
+    "canonical_slot_id": "slot_image_with_mask",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "image_with_mask",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      209,
+      635,
+      196,
+      140
+    ],
+    "classification": "raster_required",
+    "reason": "from first-pass asset detection kind=pixel_image",
+    "asset_hash": "",
+    "description": "masked image and noise composite"
+  },
+  {
+    "slot_id": "slot_blonde_crop",
+    "filename": "assets/raster_required/slot_blonde_crop.png",
+    "canonical_slot_id": "slot_blonde_crop",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "blonde_crop",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      611,
+      601,
+      58,
+      50
+    ],
+    "classification": "raster_required",
+    "reason": "from first-pass asset detection kind=pixel_image",
+    "asset_hash": "",
+    "description": "small crop preview of target woman image"
+  },
+  {
+    "slot_id": "slot_target_blonde",
+    "filename": "assets/raster_required/slot_target_blonde.png",
+    "canonical_slot_id": "slot_target_blonde",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "target_blonde",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      677,
+      600,
+      123,
+      200
+    ],
+    "classification": "raster_required",
+    "reason": "from first-pass asset detection kind=pixel_image",
+    "asset_hash": "",
+    "description": "target image of woman holding red can"
+  },
+  {
+    "slot_id": "slot_portrait_source",
+    "filename": "assets/raster_required/slot_portrait_source.png",
+    "canonical_slot_id": "slot_portrait_source",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "portrait_source",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      924,
+      14,
+      103,
+      158
+    ],
+    "classification": "raster_required",
+    "reason": "from first-pass asset detection kind=pixel_image",
+    "asset_hash": "",
+    "description": "original portrait image"
+  },
+  {
+    "slot_id": "slot_portrait_painting",
+    "filename": "assets/raster_required/slot_portrait_painting.png",
+    "canonical_slot_id": "slot_portrait_painting",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "portrait_painting",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      1031,
+      14,
+      104,
+      158
+    ],
+    "classification": "raster_required",
+    "reason": "from first-pass asset detection kind=pixel_image",
+    "asset_hash": "",
+    "description": "edited portrait in watercolor painting style"
+  },
+  {
+    "slot_id": "slot_encoder_portrait",
+    "filename": "assets/raster_required/slot_portrait_source.png",
+    "canonical_slot_id": "slot_portrait_source",
+    "duplicate_of": "slot_portrait_source",
+    "vlm_canonical_asset_id": "portrait_source",
+    "vlm_duplicate_of": "portrait_source",
+    "bbox_xywh": [
+      1070,
+      746,
+      78,
+      105
+    ],
+    "classification": "raster_required",
+    "reason": "duplicate of slot_portrait_source; from first-pass asset detection kind=pixel_image",
+    "asset_hash": "",
+    "description": "image encoder portrait input"
+  },
+  {
+    "slot_id": "slot_noise_input",
+    "filename": "assets/raster_required/slot_noise_input.png",
+    "canonical_slot_id": "slot_noise_input",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "noise_input",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      1256,
+      746,
+      49,
+      105
+    ],
+    "classification": "raster_required",
+    "reason": "from first-pass asset detection kind=pixel_image",
+    "asset_hash": "",
+    "description": "noise texture input"
+  },
+  {
+    "slot_id": "slot_frozen_cube_1",
+    "filename": "assets/svg_candidate/slot_frozen_cube_1.png",
+    "canonical_slot_id": "slot_frozen_cube_1",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "frozen_cube",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      1406,
+      201,
+      23,
+      23
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "frozen parameter cube icon"
+  },
+  {
+    "slot_id": "slot_flame_expert1",
+    "filename": "assets/svg_candidate/slot_flame_expert1.png",
+    "canonical_slot_id": "slot_flame_expert1",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "trainable_flame",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      1357,
+      320,
+      24,
+      26
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "trainable parameter flame icon"
+  },
+  {
+    "slot_id": "slot_flame_expert2",
+    "filename": "assets/svg_candidate/slot_flame_expert2.png",
+    "canonical_slot_id": "slot_flame_expert2",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "trainable_flame",
+    "vlm_duplicate_of": "trainable_flame",
+    "bbox_xywh": [
+      1427,
+      320,
+      24,
+      26
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "trainable parameter flame icon"
+  },
+  {
+    "slot_id": "slot_flame_expert3",
+    "filename": "assets/svg_candidate/slot_flame_expert3.png",
+    "canonical_slot_id": "slot_flame_expert3",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "trainable_flame",
+    "vlm_duplicate_of": "trainable_flame",
+    "bbox_xywh": [
+      1498,
+      320,
+      24,
+      26
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "trainable parameter flame icon"
+  },
+  {
+    "slot_id": "slot_flame_expertN",
+    "filename": "assets/svg_candidate/slot_flame_expertN.png",
+    "canonical_slot_id": "slot_flame_expertN",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "trainable_flame",
+    "vlm_duplicate_of": "trainable_flame",
+    "bbox_xywh": [
+      1586,
+      320,
+      24,
+      26
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "trainable parameter flame icon"
+  },
+  {
+    "slot_id": "slot_flame_route",
+    "filename": "assets/svg_candidate/slot_flame_route.png",
+    "canonical_slot_id": "slot_flame_route",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "trainable_flame",
+    "vlm_duplicate_of": "trainable_flame",
+    "bbox_xywh": [
+      1497,
+      462,
+      26,
+      31
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "trainable parameter flame icon"
+  },
+  {
+    "slot_id": "slot_legend_flame",
+    "filename": "assets/svg_candidate/slot_legend_flame.png",
+    "canonical_slot_id": "slot_legend_flame",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "trainable_flame",
+    "vlm_duplicate_of": "trainable_flame",
+    "bbox_xywh": [
+      1345,
+      606,
+      31,
+      34
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "legend trainable parameter flame icon"
+  },
+  {
+    "slot_id": "slot_legend_cube",
+    "filename": "assets/svg_candidate/slot_legend_cube.png",
+    "canonical_slot_id": "slot_legend_cube",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "frozen_cube",
+    "vlm_duplicate_of": "frozen_cube",
+    "bbox_xywh": [
+      1345,
+      674,
+      31,
+      31
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "legend frozen parameter cube icon"
+  }
+]

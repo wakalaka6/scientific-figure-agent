@@ -1,0 +1,23 @@
+svg_candidate: 18
+raster_required: 0
+unique_assets: 18
+duplicate_assets: 0
+
+- slot_person_icon_screening: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_ai_expert_legend: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_person_icon_references_legend: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_green_ai_consultancy_round1: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_person_consultancy_round1: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_green_ai_consultancy_round2: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_person_consultancy_round2: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_green_ai_consultancy_round3: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_person_consultancy_round3: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_green_ai_debate_round1: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_red_ai_debate_round1: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_person_debate_round1: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_green_ai_debate_round2: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_red_ai_debate_round2: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_person_debate_round2: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_green_ai_debate_round3: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_red_ai_debate_round3: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_person_debate_round3: svg_candidate | from first-pass asset detection kind=svg_icon

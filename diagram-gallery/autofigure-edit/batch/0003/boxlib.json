@@ -1,0 +1,45 @@
+{
+  "image_size": {
+    "width": 3840,
+    "height": 2037
+  },
+  "prompts_used": [
+    "icon",
+    "person",
+    "robot",
+    "animal"
+  ],
+  "boxes": [
+    {
+      "id": 0,
+      "label": "<AF>01",
+      "x1": 843,
+      "y1": 625,
+      "x2": 1019,
+      "y2": 798,
+      "score": 0.6953125,
+      "prompt": "animal"
+    },
+    {
+      "id": 1,
+      "label": "<AF>02",
+      "x1": 1019,
+      "y1": 626,
+      "x2": 1100,
+      "y2": 754,
+      "score": 0.68359375,
+      "prompt": "animal"
+    },
+    {
+      "id": 2,
+      "label": "<AF>03",
+      "x1": 2866,
+      "y1": 625,
+      "x2": 3124,
+      "y2": 801,
+      "score": 0.8671875,
+      "prompt": "animal"
+    }
+  ],
+  "no_icon_mode": false
+}

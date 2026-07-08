@@ -1,0 +1,20 @@
+svg_candidate: 4
+raster_required: 11
+unique_assets: 14
+duplicate_assets: 1
+
+- slot_trigger_scale_water_1: raster_required | from first-pass asset detection kind=pixel_image
+- slot_trigger_scale_water_2: raster_required | duplicate_of=slot_trigger_scale_water_1 | duplicate of slot_trigger_scale_water_1; from first-pass asset detection kind=pixel_image
+- slot_trigger_feature_icons_a: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_component_b_water_photo: raster_required | from first-pass asset detection kind=pixel_image
+- slot_component_b_black_bottle: raster_required | from first-pass asset detection kind=pixel_image
+- slot_component_b_hello_kitty_overlay: raster_required | from first-pass asset detection kind=pixel_image
+- slot_component_b_texture_photo: raster_required | from first-pass asset detection kind=pixel_image
+- slot_small_hello_kitty_icon: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_cancel_green_trigger_icon: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_low_sensitivity_eye_icon: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_mild_distortion_photo: raster_required | from first-pass asset detection kind=pixel_image
+- slot_severe_distortion_photo: raster_required | from first-pass asset detection kind=pixel_image
+- slot_subtle_distortion_photo: raster_required | from first-pass asset detection kind=pixel_image
+- slot_green_dominated_sample: raster_required | from first-pass asset detection kind=pixel_image
+- slot_blue_dominated_sample: raster_required | from first-pass asset detection kind=pixel_image

@@ -1,0 +1,246 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 2221" width="3840" height="2221">
+  <defs>
+    <style>
+      .bg-white { fill: #ffffff; }
+      .bg-light-blue { fill: #f0f8ff; }
+      .bg-light-green { fill: #f0fff0; }
+      .bg-light-pink { fill: #fff0f5; }
+      .text-black { fill: #000000; }
+      .text-red { fill: #cc0000; }
+      .text-blue { fill: #0000cc; }
+      .text-green { fill: #008000; }
+      .font-mono { font-family: monospace; }
+      .font-serif { font-family: serif; }
+      .font-sans { font-family: sans-serif; }
+      .font-bold { font-weight: bold; }
+      .border-dash { stroke: #000000; stroke-width: 4; stroke-dasharray: 20, 10, 5, 10; fill: none; }
+      .border-solid { stroke: #000000; stroke-width: 4; fill: none; }
+      .border-red { stroke: #cc0000; stroke-width: 4; fill: none; }
+      .border-yellow { stroke: #ffff00; stroke-width: 4; fill: none; }
+      .arrow-red { stroke: #cc0000; stroke-width: 6; fill: none; }
+      .arrow-blue { stroke: #0000cc; stroke-width: 6; fill: none; }
+      .arrow-green { stroke: #008000; stroke-width: 6; fill: none; }
+      .arrow-head-red { fill: #cc0000; }
+      .arrow-head-blue { fill: #0000cc; }
+      .arrow-head-green { fill: #008000; }
+      .rect-red { fill: #cc3333; rx: 30; ry: 30; }
+    </style>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" class="arrow-head-red" />
+    </marker>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" class="arrow-head-blue" />
+    </marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" class="arrow-head-green" />
+    </marker>
+    <marker id="arrow-tail-red" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 5 L 10 0 L 10 10 z" class="arrow-head-red" />
+    </marker>
+    <marker id="arrow-tail-blue" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 5 L 10 0 L 10 10 z" class="arrow-head-blue" />
+    </marker>
+    <marker id="arrow-tail-green" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 5 L 10 0 L 10 10 z" class="arrow-head-green" />
+    </marker>
+    <linearGradient id="grad-blue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#87cefa" />
+      <stop offset="100%" stop-color="#e0ffff" />
+    </linearGradient>
+    <linearGradient id="grad-pink" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffb6c1" />
+      <stop offset="100%" stop-color="#ffe4e1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="3840" height="2221" class="bg-white" />
+
+  <!-- Top Section (Sample Selection) -->
+  <rect x="30" y="30" width="3780" height="1130" class="border-dash" rx="20" ry="20" />
+  
+  <text x="70" y="150" font-size="80" class="font-mono font-bold text-black">Sample Selection</text>
+  
+  <text x="1100" y="110" font-size="70" class="font-mono text-black">Explore the effect of <tspan class="text-red">triggers</tspan> on <tspan class="text-red">sample selection</tspan></text>
+  <text x="1050" y="200" font-size="70" class="font-mono text-black">via the enhancement of <tspan class="text-blue">attack success rate</tspan> and <tspan class="text-green">stealthiness</tspan>.</text>
+
+  <!-- Component A -->
+  <rect x="30" y="30" width="1860" height="1130" class="bg-light-blue" opacity="0.3" rx="20" ry="20" />
+  <text x="90" y="310" font-size="60" class="font-sans font-bold text-blue">Component A</text>
+  
+  <text x="110" y="400" font-size="50" class="font-serif font-bold text-red">highlight</text>
+  <path d="M 400 370 Q 400 420 450 420 L 530 420" class="arrow-red" marker-end="url(#arrow-red)" marker-start="url(#arrow-tail-red)" />
+  <text x="65" y="490" font-size="50" class="font-serif font-bold text-blue">large trigger scale</text>
+  
+  <!-- Image placeholders for Component A -->
+  <g id="AF04">
+    <rect x="65" y="550" width="140" height="140" fill="#f5deb3" />
+    <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" x="65" y="550" width="140" height="140" preserveAspectRatio="none" />
+  </g>
+  <g id="AF05">
+    <rect x="250" y="550" width="140" height="140" fill="#f5deb3" opacity="0.5" />
+  </g>
+  <g id="AF06">
+    <rect x="65" y="730" width="140" height="140" fill="#f5deb3" />
+    <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" x="65" y="730" width="140" height="140" preserveAspectRatio="none" />
+  </g>
+  <g id="AF07">
+    <rect x="250" y="730" width="100" height="100" fill="#f5deb3" opacity="0.5" />
+  </g>
+  
+  <rect x="400" y="550" width="40" height="320" fill="url(#grad-blue)" rx="20" ry="20" />
+  <path d="M 530 550 Q 480 710 530 870" stroke="black" stroke-width="6" fill="none" />
+  <path d="M 500 710 L 480 710" stroke="black" stroke-width="6" fill="none" />
+  
+  <text x="50" y="960" font-size="50" class="font-serif font-bold text-blue">small trigger scale</text>
+  <text x="100" y="1050" font-size="50" class="font-serif font-bold text-red">highlight</text>
+  <path d="M 400 1020 Q 400 1070 450 1070 L 600 1070 L 600 1040" class="arrow-red" marker-end="url(#arrow-red)" marker-start="url(#arrow-tail-red)" />
+
+  <text x="1300" y="320" font-size="50" class="font-serif font-bold text-blue" text-anchor="middle">attack success rate<tspan x="1300" dy="60">enhancement</tspan></text>
+  
+  <rect x="570" y="430" width="1230" height="150" class="rect-red" />
+  <text x="1185" y="525" font-size="55" class="font-serif font-bold bg-white" text-anchor="middle" fill="white">Category Diversity (ours)</text>
+  
+  <rect x="585" y="630" width="1270" height="170" class="border-yellow" fill="white" />
+  <text x="660" y="700" font-size="55" class="font-serif font-bold text-black">Find the appropriate combination</text>
+  <!-- Placeholder for icons in text -->
+  <rect x="1660" y="650" width="60" height="60" fill="lightgray" />
+  <text x="620" y="770" font-size="55" class="font-serif font-bold text-black">based on <tspan class="text-red">the scale of trigger features</tspan></text>
+  <rect x="1720" y="720" width="60" height="60" fill="lightgray" />
+  <text x="1790" y="770" font-size="55" class="font-serif font-bold text-black">.</text>
+
+  <rect x="570" y="850" width="1230" height="150" class="rect-red" />
+  <text x="1185" y="945" font-size="55" class="font-serif font-bold bg-white" text-anchor="middle" fill="white">Forgetting Events (traditional)</text>
+
+  <!-- Component B -->
+  <rect x="1920" y="30" width="1890" height="1130" class="bg-light-green" opacity="0.3" rx="20" ry="20" />
+  <text x="2000" y="310" font-size="60" class="font-sans font-bold text-green">Component B</text>
+  <text x="3330" y="320" font-size="50" class="font-serif font-bold text-green" text-anchor="middle">stealthiness<tspan x="3330" dy="60">enhancement</tspan></text>
+  
+  <!-- Image placeholders for Component B -->
+  <g id="AF08">
+    <rect x="2010" y="340" width="300" height="350" fill="white" />
+    <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" x="2010" y="340" width="300" height="350" preserveAspectRatio="none" />
+  </g>
+  <g id="AF09">
+    <rect x="2360" y="340" width="300" height="350" fill="black" />
+    <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" x="2360" y="340" width="300" height="350" preserveAspectRatio="none" />
+  </g>
+  <rect x="2340" y="330" width="340" height="820" class="border-red" />
+  <text x="2510" y="740" font-size="45" class="font-serif font-bold text-red" text-anchor="middle">our method</text>
+  
+  <g id="AF10">
+    <rect x="2010" y="780" width="300" height="350" fill="white" />
+    <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" x="2010" y="780" width="300" height="350" preserveAspectRatio="none" />
+  </g>
+  <g id="AF11">
+    <rect x="2360" y="780" width="300" height="350" fill="white" />
+    <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" x="2360" y="780" width="300" height="350" preserveAspectRatio="none" />
+  </g>
+
+  <text x="2730" y="460" font-size="50" class="font-serif font-bold text-blue">Trigger <tspan fill="black">■</tspan> can be</text>
+  <text x="2730" y="520" font-size="50" class="font-serif font-bold text-blue">concealed in the</text>
+  <text x="2730" y="580" font-size="50" class="font-serif font-bold text-blue">black</text>
+  <text x="2730" y="640" font-size="50" class="font-serif font-bold text-blue">background.</text>
+
+  <text x="2730" y="860" font-size="50" class="font-serif font-bold text-blue">Trigger <tspan fill="lightgray">🐱</tspan> can be</text>
+  <text x="2730" y="920" font-size="50" class="font-serif font-bold text-blue">concealed in the</text>
+  <text x="2730" y="980" font-size="50" class="font-serif font-bold text-blue">complexly texture</text>
+  <text x="2730" y="1040" font-size="50" class="font-serif font-bold text-blue">background.</text>
+
+  <rect x="3270" y="560" width="470" height="370" class="border-yellow" fill="white" />
+  <text x="3290" y="620" font-size="50" class="font-serif font-bold text-black">Cancel <tspan class="text-red">trigger</tspan></text>
+  <text x="3290" y="680" font-size="50" class="font-serif font-bold text-red">features <tspan fill="lightgray">🦠</tspan> <tspan class="text-black">on</tspan></text>
+  <text x="3290" y="740" font-size="50" class="font-serif font-bold text-black">images by</text>
+  <text x="3290" y="800" font-size="50" class="font-serif font-bold text-red">similarity</text>
+  <text x="3290" y="860" font-size="50" class="font-serif font-bold text-red">calculation.</text>
+
+  <!-- Middle Arrows Section -->
+  <path d="M 690 1120 L 690 1380" class="arrow-blue" stroke-width="12" stroke-dasharray="20, 10" marker-end="url(#arrow-blue)" marker-start="url(#arrow-tail-blue)" />
+  <text x="350" y="1200" font-size="45" class="font-serif font-bold text-blue" text-anchor="middle">attack success rate<tspan x="350" dy="50">enhancement</tspan></text>
+
+  <path d="M 900 1380 L 900 1120" class="arrow-red" stroke-width="12" marker-end="url(#arrow-red)" marker-start="url(#arrow-tail-red)" />
+  <text x="1220" y="1230" font-size="45" class="font-serif font-bold text-red" text-anchor="middle">the scale of triggers</text>
+
+  <path d="M 3080 1380 L 3080 1120" class="arrow-red" stroke-width="12" marker-end="url(#arrow-red)" marker-start="url(#arrow-tail-red)" />
+  <text x="2740" y="1230" font-size="45" class="font-serif font-bold text-red" text-anchor="middle">trigger features</text>
+
+  <path d="M 3310 1120 L 3310 1380" class="arrow-green" stroke-width="12" marker-end="url(#arrow-green)" marker-start="url(#arrow-tail-green)" />
+  <text x="3570" y="1200" font-size="45" class="font-serif font-bold text-green" text-anchor="middle">stealthiness<tspan x="3570" dy="50">ensurement</tspan></text>
+
+  <!-- Bottom Section (Triggers) -->
+  <rect x="30" y="1290" width="3780" height="900" class="border-dash" rx="20" ry="20" />
+  <rect x="30" y="1290" width="3780" height="900" class="bg-light-pink" opacity="0.3" rx="20" ry="20" />
+  
+  <text x="80" y="1370" font-size="80" class="font-mono font-bold text-black">Triggers</text>
+  <text x="90" y="1450" font-size="60" class="font-sans font-bold text-red">Component C</text>
+  
+  <text x="1060" y="1370" font-size="70" class="font-mono text-black">Explore the effect of <tspan class="text-red">sample selection</tspan> on <tspan class="text-red">triggers</tspan>.</text>
+  <text x="930" y="1460" font-size="50" class="font-serif font-bold text-red">Stealthiness ensurement via avoid selecting single-color dominated samples.</text>
+
+  <path d="M 690 1510 L 3430 1510 L 3430 1580" class="arrow-red" stroke-width="8" marker-end="url(#arrow-red)" />
+
+  <!-- RGB Bar -->
+  <rect x="90" y="1530" width="60" height="420" fill="url(#grad-pink)" rx="30" ry="30" />
+  <text x="170" y="1530" font-size="50" class="font-serif font-bold text-green">G</text>
+  <text x="170" y="1730" font-size="50" class="font-serif font-bold text-red">R</text>
+  <text x="170" y="1930" font-size="50" class="font-serif font-bold text-blue">B</text>
+
+  <rect x="260" y="1640" width="880" height="180" class="border-yellow" fill="white" />
+  <text x="280" y="1710" font-size="55" class="font-serif font-bold text-black">Enhance the <tspan class="text-red">trigger feature</tspan></text>
+  <text x="280" y="1780" font-size="55" class="font-serif font-bold text-black">on the <tspan class="text-blue">Blue</tspan> color channel.</text>
+
+  <rect x="90" y="1960" width="540" height="150" class="border-dash" fill="white" />
+  <text x="300" y="2010" font-size="50" class="font-serif font-bold text-blue">low sensitivity</text>
+  <text x="170" y="2080" font-size="50" class="font-serif font-bold text-blue">B</text>
+  <!-- Eye icon placeholder -->
+  <path d="M 270 2060 Q 320 2030 370 2060 Q 320 2090 270 2060 Z" stroke="black" stroke-width="4" fill="none" />
+  <circle cx="320" cy="2060" r="10" fill="black" />
+  <path d="M 400 2060 Q 450 2030 500 2060 Q 450 2090 400 2060 Z" stroke="black" stroke-width="4" fill="none" />
+  <circle cx="450" cy="2060" r="10" fill="black" />
+
+  <path d="M 400 1820 L 250 1960" stroke="black" stroke-width="4" stroke-dasharray="5,5" />
+  <path d="M 550 1820 L 550 1960" stroke="black" stroke-width="4" stroke-dasharray="5,5" />
+
+  <text x="730" y="1950" font-size="50" class="font-serif font-bold text-red">distinct-color</text>
+  <text x="770" y="2150" font-size="50" class="font-serif font-bold text-red">poisoning</text>
+  <path d="M 1120 2050 L 750 2050 L 780 2020 M 750 2050 L 780 2080 M 1120 2020 L 1120 2080 L 1050 2050 Z" fill="#cc0000" />
+
+  <text x="1270" y="1570" font-size="50" class="font-serif font-bold text-blue">Distinct sensitivity of human visual system on RGB</text>
+
+  <text x="1200" y="1650" font-size="50" class="font-serif font-bold text-blue">mild distortion</text>
+  <g id="AF02">
+    <rect x="1170" y="1700" width="460" height="460" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="1400" y="1930" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="50" font-weight="bold" font-family="monospace">&lt;AF&gt;02</text>
+  </g>
+  <text x="1700" y="2140" font-size="60" class="font-serif font-bold text-red">R</text>
+
+  <text x="1770" y="1650" font-size="50" class="font-serif font-bold text-blue">severe distortion</text>
+  <g id="AF03">
+    <rect x="1770" y="1700" width="460" height="460" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="2000" y="1930" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="50" font-weight="bold" font-family="monospace">&lt;AF&gt;03</text>
+  </g>
+  <text x="2300" y="2140" font-size="60" class="font-serif font-bold text-green">G</text>
+
+  <text x="2370" y="1650" font-size="50" class="font-serif font-bold text-blue">subtle distortion</text>
+  <g id="AF01">
+    <rect x="2370" y="1700" width="460" height="460" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="2600" y="1930" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="50" font-weight="bold" font-family="monospace">&lt;AF&gt;01</text>
+  </g>
+  <text x="2900" y="2140" font-size="60" class="font-serif font-bold text-blue">B</text>
+
+  <rect x="3060" y="1610" width="700" height="550" class="border-solid" fill="white" />
+  <text x="3410" y="1680" font-size="55" class="font-serif font-bold text-black" text-anchor="middle">Special samples</text>
+  <text x="3230" y="1760" font-size="50" class="font-serif font-bold text-black" text-anchor="middle">Green<tspan x="3230" dy="50">dominated</tspan></text>
+  <text x="3590" y="1760" font-size="50" class="font-serif font-bold text-black" text-anchor="middle">Blue<tspan x="3590" dy="50">dominated</tspan></text>
+  
+  <!-- Image placeholders for Special samples -->
+  <g id="AF12">
+    <rect x="3080" y="1850" width="300" height="290" fill="green" opacity="0.3" />
+    <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" x="3080" y="1850" width="300" height="290" preserveAspectRatio="none" />
+  </g>
+  <g id="AF13">
+    <rect x="3440" y="1850" width="300" height="290" fill="blue" opacity="0.3" />
+    <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" x="3440" y="1850" width="300" height="290" preserveAspectRatio="none" />
+  </g>
+
+</svg>

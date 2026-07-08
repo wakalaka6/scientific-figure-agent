@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1007" viewBox="0 0 1600 1007">
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#0b668c" />
+    </marker>
+    <marker id="arrowBlue" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#009bd3" />
+    </marker>
+    <pattern id="discardHatch" patternUnits="userSpaceOnUse" width="9" height="9" patternTransform="rotate(45)">
+      <rect width="9" height="9" fill="#f5f5f5" />
+      <line x1="0" y1="0" x2="0" y2="9" stroke="#8fa3ad" stroke-width="3" />
+    </pattern>
+    <style>
+      .label{font-family:Arial, Helvetica, sans-serif;fill:#111}
+      .mono{font-family:"Courier New", monospace;fill:#222}
+      .box{fill:#fff;stroke:#111;stroke-width:3}
+      .peach{fill:#f6cdb9;stroke:#111;stroke-width:3}
+      .bluebox{fill:#cfe9fb;stroke:#111;stroke-width:3}
+      .querybox{fill:#f3f3f3;stroke:#111;stroke-width:3}
+      .arrow{stroke:#0b668c;stroke-width:3;fill:none;marker-end:url(#arrow)}
+      .line{stroke:#0b668c;stroke-width:3;fill:none}
+      .dash{stroke:#aaa;stroke-width:3;stroke-dasharray:10 7;fill:none}
+      .state{stroke:#111;stroke-width:3;rx:8;ry:8}
+      .assetText{font-family:Arial, Helvetica, sans-serif;fill:#555;font-size:10px;font-weight:700}
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1600" height="1007" fill="#ffffff" />
+
+  
+  <rect x="132" y="12" width="1213" height="78" rx="13" ry="13" fill="#fff" stroke="#f26b2a" stroke-width="3" />
+  <text x="250" y="62" class="label" font-size="31">LLM</text>
+  <text x="405" y="62" class="label" font-size="31">retriever</text>
+  <text x="599" y="62" class="label" font-size="31">answer</text>
+  <rect x="750" y="29" width="49" height="49" rx="8" ry="8" fill="#4b98d8" stroke="#111" stroke-width="3" />
+  <text x="815" y="62" class="label" font-size="31">chosen state</text>
+  <rect x="1025" y="29" width="49" height="49" rx="8" ry="8" fill="url(#discardHatch)" stroke="#111" stroke-width="3" />
+  <text x="1092" y="62" class="label" font-size="31">discarded state</text>
+
+  
+  <line x1="725" y1="115" x2="725" y2="986" class="dash" />
+  <line x1="725" y1="283" x2="1600" y2="283" class="dash" />
+  <text x="750" y="146" class="mono" font-size="31" font-style="italic" fill="#777">Training</text>
+  <text x="750" y="990" class="mono" font-size="31" font-style="italic" fill="#777">Inference</text>
+  <text x="12" y="990" class="mono" font-size="30" font-style="italic" fill="#777">Rejection Sampling</text>
+
+  
+  <rect x="238" y="120" width="270" height="56" rx="8" ry="8" class="querybox" />
+  <text x="373" y="156" text-anchor="middle" class="label" font-size="35">Query</text>
+
+  <path d="M373,176 L113,247" class="arrow" />
+  <path d="M373,176 L373,243" class="arrow" />
+  <path d="M373,176 L585,248" class="arrow" />
+
+  <rect x="17" y="247" width="195" height="68" rx="8" ry="8" class="peach" />
+  <text x="114" y="291" text-anchor="middle" class="label" font-size="27">sub-query 1</text>
+
+  <rect x="277" y="243" width="195" height="68" rx="8" ry="8" class="peach" />
+  <text x="375" y="287" text-anchor="middle" class="label" font-size="27">sub-query 1<tspan baseline-shift="super" font-size="18">*</tspan></text>
+
+  <text x="557" y="292" class="label" font-size="31">... ...</text>
+
+  <path d="M114,315 L114,394" class="arrow" />
+  <path d="M373,311 L373,393" class="arrow" />
+
+  <rect x="15" y="394" width="200" height="68" rx="8" ry="8" class="bluebox" />
+  <text x="115" y="438" text-anchor="middle" class="label" font-size="27">sub-answer 1</text>
+  <rect x="274" y="393" width="202" height="68" rx="8" ry="8" class="bluebox" />
+  <text x="375" y="437" text-anchor="middle" class="label" font-size="27">sub-answer 1<tspan baseline-shift="super" font-size="18">*</tspan></text>
+  <text x="558" y="428" class="label" font-size="31">... ...</text>
+
+  <text x="75" y="505" class="label" font-size="31">... ...</text>
+  <text x="335" y="505" class="label" font-size="31">... ...</text>
+  <text x="559" y="505" class="label" font-size="31">... ...</text>
+
+  <path d="M113,520 L113,604" class="arrow" />
+  <path d="M372,520 L372,598" class="arrow" />
+
+  <rect x="16" y="604" width="193" height="68" rx="8" ry="8" class="peach" />
+  <text x="112" y="648" text-anchor="middle" class="label" font-size="27">sub-query n</text>
+  <rect x="276" y="598" width="193" height="68" rx="8" ry="8" class="peach" />
+  <text x="372" y="642" text-anchor="middle" class="label" font-size="27">sub-query n<tspan baseline-shift="super" font-size="18">*</tspan></text>
+  <text x="558" y="638" class="label" font-size="31">... ...</text>
+
+  <path d="M112,672 L112,747" class="arrow" />
+  <path d="M372,666 L372,746" class="arrow" />
+
+  <rect x="14" y="747" width="197" height="68" rx="8" ry="8" class="bluebox" />
+  <text x="112" y="791" text-anchor="middle" class="label" font-size="27">sub-answer n</text>
+  <rect x="269" y="746" width="201" height="68" rx="8" ry="8" class="bluebox" />
+  <text x="369" y="790" text-anchor="middle" class="label" font-size="27">sub-answer n<tspan baseline-shift="super" font-size="18">*</tspan></text>
+  <text x="558" y="779" class="label" font-size="31">... ...</text>
+
+  <path d="M111,815 L111,886" class="arrow" />
+  <path d="M370,814 L370,886" class="arrow" />
+  <path d="M588,815 L588,886" class="arrow" />
+
+  <text x="30" y="918" class="label" font-size="25">P(Ans | Chain 1)</text>
+  <text x="288" y="918" class="label" font-size="25">P(Ans | Chain 2)</text>
+  <text x="514" y="918" class="label" font-size="25">P(Ans | Chain 3)</text>
+  <text x="345" y="972" class="label" font-size="55" fill="#0dbf78">✓</text>
+
+  
+  <path d="M800,164 L978,164 Q993,164 993,179 L993,221 Q993,235 978,235 L856,235 L829,250 L829,235 L815,235 Q800,235 800,220 Z" fill="#fff" stroke="#111" stroke-width="4" />
+  <text x="900" y="208" text-anchor="middle" class="label" font-size="27">Current State</text>
+  <path d="M1010,202 L1062,202" stroke="#009bd3" stroke-width="4" fill="none" marker-end="url(#arrowBlue)" />
+  <rect x="1084" y="162" width="216" height="68" rx="8" ry="8" fill="#f6c3ad" stroke="#111" stroke-width="3" />
+  <text x="1192" y="205" text-anchor="middle" class="label" font-size="27">LLM</text>
+  <path d="M1305,202 L1364,202" stroke="#009bd3" stroke-width="4" fill="none" marker-end="url(#arrowBlue)" />
+  <path d="M1386,164 L1541,164 Q1556,164 1556,179 L1556,221 Q1556,235 1541,235 L1435,235 L1408,250 L1408,235 L1401,235 Q1386,235 1386,220 Z" fill="#fff" stroke="#111" stroke-width="4" />
+  <text x="1470" y="208" text-anchor="middle" class="label" font-size="27">Next Action</text>
+
+  
+  
+  <ellipse cx="865" cy="339" rx="78" ry="35" fill="#e8f4fb" stroke="#111" stroke-width="3" />
+  <text x="865" y="347" text-anchor="middle" class="label" font-size="26">query</text>
+  <line x1="865" y1="374" x2="865" y2="444" class="arrow" />
+  <rect x="840" y="445" width="48" height="48" rx="7" ry="7" class="state" fill="#4b98d8" />
+  <line x1="865" y1="493" x2="865" y2="542" class="arrow" />
+  <text x="835" y="584" class="label" font-size="31">... ...</text>
+  <line x1="865" y1="606" x2="865" y2="653" class="arrow" />
+  <rect x="843" y="657" width="48" height="48" rx="7" ry="7" class="state" fill="#4b98d8" />
+  <line x1="867" y1="705" x2="867" y2="761" class="arrow" />
+  <ellipse cx="867" cy="798" rx="80" ry="35" fill="#dceff9" stroke="#111" stroke-width="3" />
+  <text x="867" y="806" text-anchor="middle" class="label" font-size="26">output</text>
+  <text x="809" y="900" class="label" font-size="36" font-weight="700">Greedy</text>
+
+  
+  <ellipse cx="1085" cy="338" rx="78" ry="35" fill="#e8f4fb" stroke="#111" stroke-width="3" />
+  <text x="1085" y="346" text-anchor="middle" class="label" font-size="26">query</text>
+  <path d="M1085,373 L995,443" class="arrow" />
+  <path d="M1085,373 L1085,443" class="arrow" />
+  <path d="M1085,373 L1170,443" class="arrow" />
+  <rect x="973" y="443" width="48" height="48" rx="7" ry="7" class="state" fill="#4b98d8" />
+  <rect x="1062" y="443" width="48" height="48" rx="7" ry="7" class="state" fill="url(#discardHatch)" />
+  <rect x="1145" y="443" width="48" height="48" rx="7" ry="7" class="state" fill="url(#discardHatch)" />
+  <line x1="997" y1="491" x2="997" y2="540" class="arrow" />
+  <line x1="1086" y1="491" x2="1086" y2="540" class="arrow" />
+  <line x1="1169" y1="491" x2="1169" y2="540" class="arrow" />
+  <text x="968" y="584" class="label" font-size="26">... ...</text>
+  <text x="1055" y="584" class="label" font-size="26">... ...</text>
+  <text x="1139" y="584" class="label" font-size="26">... ...</text>
+  <line x1="997" y1="602" x2="997" y2="653" class="arrow" />
+  <line x1="1086" y1="602" x2="1086" y2="653" class="arrow" />
+  <line x1="1169" y1="602" x2="1169" y2="653" class="arrow" />
+  <rect x="974" y="657" width="48" height="48" rx="7" ry="7" class="state" fill="#4b98d8" />
+  <rect x="1064" y="657" width="48" height="48" rx="7" ry="7" class="state" fill="url(#discardHatch)" />
+  <rect x="1146" y="657" width="48" height="48" rx="7" ry="7" class="state" fill="url(#discardHatch)" />
+  <path d="M998,705 L1088,763" stroke="#0b668c" stroke-width="3" fill="none" marker-end="url(#arrow)" />
+  <path d="M1088,705 L1088,763" stroke="#cfcfcf" stroke-width="3" fill="none" />
+  <path d="M1170,705 L1088,763" stroke="#cfcfcf" stroke-width="3" fill="none" />
+  <ellipse cx="1088" cy="798" rx="80" ry="35" fill="#dceff9" stroke="#111" stroke-width="3" />
+  <text x="1088" y="806" text-anchor="middle" class="label" font-size="26">output</text>
+  <text x="1012" y="900" class="label" font-size="36" font-weight="700">Best-of-N</text>
+
+  
+  <ellipse cx="1415" cy="338" rx="78" ry="35" fill="#e8f4fb" stroke="#111" stroke-width="3" />
+  <text x="1415" y="346" text-anchor="middle" class="label" font-size="26">query</text>
+  <path d="M1415,373 L1325,443" class="arrow" />
+  <path d="M1415,373 L1415,443" class="arrow" />
+  <path d="M1415,373 L1502,443" class="arrow" />
+  <rect x="1303" y="443" width="48" height="48" rx="7" ry="7" class="state" fill="url(#discardHatch)" />
+  <rect x="1392" y="443" width="48" height="48" rx="7" ry="7" class="state" fill="#4b98d8" />
+  <rect x="1482" y="443" width="48" height="48" rx="7" ry="7" class="state" fill="url(#discardHatch)" />
+  <path d="M1327,491 L1287,531" class="arrow" />
+  <line x1="1416" y1="491" x2="1416" y2="650" class="arrow" />
+  <path d="M1506,491 L1538,530" class="arrow" />
+
+  <rect x="1246" y="531" width="112" height="213" fill="#fff" stroke="#111" stroke-width="3" />
+  <rect x="1268" y="548" width="28" height="24" rx="4" fill="url(#discardHatch)" stroke="#111" stroke-width="2" />
+  <rect x="1314" y="548" width="28" height="24" rx="4" fill="url(#discardHatch)" stroke="#111" stroke-width="2" />
+  <line x1="1282" y1="572" x2="1282" y2="615" class="arrow" />
+  <line x1="1328" y1="572" x2="1328" y2="615" class="arrow" />
+  <text x="1276" y="635" class="label" font-size="23">... ...</text>
+  <line x1="1282" y1="662" x2="1282" y2="704" class="arrow" />
+  <line x1="1328" y1="662" x2="1328" y2="704" class="arrow" />
+  <rect x="1268" y="707" width="28" height="24" rx="4" fill="url(#discardHatch)" stroke="#111" stroke-width="2" />
+  <rect x="1314" y="707" width="28" height="24" rx="4" fill="url(#discardHatch)" stroke="#111" stroke-width="2" />
+  <text x="1250" y="776" class="label" font-size="24">rollouts</text>
+
+  <text x="1383" y="584" class="label" font-size="26">... ...</text>
+  <rect x="1394" y="656" width="48" height="48" rx="7" ry="7" class="state" fill="#4b98d8" />
+  <line x1="1418" y1="704" x2="1418" y2="761" class="arrow" />
+
+  <rect x="1478" y="529" width="93" height="214" fill="#fff" stroke="#111" stroke-width="3" />
+  <rect x="1492" y="548" width="27" height="24" rx="4" fill="url(#discardHatch)" stroke="#111" stroke-width="2" />
+  <rect x="1535" y="548" width="27" height="24" rx="4" fill="url(#discardHatch)" stroke="#111" stroke-width="2" />
+  <line x1="1505" y1="572" x2="1505" y2="615" class="arrow" />
+  <line x1="1548" y1="572" x2="1548" y2="615" class="arrow" />
+  <text x="1495" y="635" class="label" font-size="23">... ...</text>
+  <line x1="1505" y1="662" x2="1505" y2="704" class="arrow" />
+  <line x1="1548" y1="662" x2="1548" y2="704" class="arrow" />
+  <rect x="1492" y="707" width="27" height="24" rx="4" fill="url(#discardHatch)" stroke="#111" stroke-width="2" />
+  <rect x="1535" y="707" width="27" height="24" rx="4" fill="url(#discardHatch)" stroke="#111" stroke-width="2" />
+  <text x="1488" y="776" class="label" font-size="24">rollouts</text>
+
+  <ellipse cx="1418" cy="798" rx="80" ry="35" fill="#dceff9" stroke="#111" stroke-width="3" />
+  <text x="1418" y="806" text-anchor="middle" class="label" font-size="26">output</text>
+  <text x="1320" y="898" class="label" font-size="36" font-weight="700">Tree Search</text>
+
+  
+  <g id="svg_slot_robot_legend" data-source-slot="slot_robot_legend" fill="none" transform="translate(156 25) scale(1.192 1) translate(0 0)"><g fill="#fff" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M31 10V2" />
+    <rect x="4" y="22" width="9" height="17" rx="2.5" />
+    <rect x="10.5" y="10.5" width="39" height="39" rx="6" />
+    <circle cx="24" cy="25" r="2.5" fill="#111" stroke="none" />
+    <circle cx="41" cy="25" r="2.5" fill="#111" stroke="none" />
+    <path d="M27 37c2.8 2 7.2 2 10 0" fill="none" />
+  </g>
+</g><g id="svg_slot_retriever_legend" data-source-slot="slot_retriever_legend" fill="none" transform="translate(342 30) scale(1 1) translate(0 0)"><path d="M29 29l13 13" fill="none" stroke="#000" stroke-width="7.5" stroke-linecap="round" />
+  <circle cx="17.6" cy="17.6" r="14.4" fill="#fff" stroke="#000" stroke-width="3.4" />
+</g><g id="svg_slot_answer_legend" data-source-slot="slot_answer_legend" fill="none" transform="translate(533 27) scale(1.02 1.02) translate(0 0)"><path d="M45.8 24.1c0-11.9-9.6-21.6-21.5-21.6S2.8 12.2 2.8 24.1s9.6 21.6 21.5 21.6c4.6 0 8.8-1.4 12.3-3.9l7.6 4.2-3.9-7.8c3.4-3.8 5.5-8.7 5.5-14.1z" fill="#61e873" stroke="#151515" stroke-width="2.1" stroke-linejoin="round" />
+  <path d="M14.1 36.2 24.8 7.6 36 36.2M18.6 26.6h12.6" fill="none" stroke="#151515" stroke-width="6.1" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M14.1 36.2 24.8 7.6 36 36.2M18.6 26.6h12.6" fill="none" stroke="#b9ffc0" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" />
+</g><g id="svg_slot_robot_left_entry" data-source-slot="slot_robot_left_entry" fill="none" transform="translate(35 179) scale(1.17 1.038) translate(0 0)"><g stroke="#0b0b0b" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="2.2" y="32.2" width="7.8" height="15.2" rx="2.4" fill="#fff" />
+    <path d="M34.8 9.8V17" fill="none" />
+    <circle cx="34.8" cy="5.6" r="4" fill="#fff" />
+    <path d="M9.5 53V25.8c0-4.8 3.9-8.7 8.7-8.7h25.6c4.8 0 8.7 3.9 8.7 8.7V53" fill="#fff" />
+  </g>
+  <g fill="#0b0b0b">
+    <circle cx="27" cy="33.2" r="2.8" />
+    <circle cx="42" cy="33.2" r="2.8" />
+  </g>
+  <path d="M28.9 44.6c3.4 2.4 9.2 2.4 12.6 0" fill="none" stroke="#0b0b0b" stroke-width="3.2" stroke-linecap="round" />
+</g><g id="svg_slot_retriever_chain1_first" data-source-slot="slot_retriever_chain1_first" fill="none" transform="translate(50 328) scale(1.042 1.083) translate(0 0)"><path d="M29.5 30.5 41.5 42.5" fill="none" stroke="#050505" stroke-width="7" stroke-linecap="round" />
+  <circle cx="18.8" cy="19.2" r="14.4" fill="#fff" stroke="#050505" stroke-width="3.4" />
+</g><g id="svg_slot_robot_chain1_first" data-source-slot="slot_robot_chain1_first" fill="none" transform="translate(128 320) scale(1.127 1.038) translate(0 0)"><g fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="35" cy="8.5" r="4" />
+    <path d="M35 12.5v10" />
+    <rect x="13.5" y="23" width="44" height="36" rx="4" />
+    <rect x="2.5" y="34" width="10" height="16" rx="2" />
+    <path d="M28 45c2.2 2.2 5 3.2 8 3.2s5.8-1 8-3.2" />
+  </g>
+  <g fill="#111">
+    <circle cx="27" cy="35.5" r="3" />
+    <circle cx="44" cy="35.5" r="3" />
+  </g>
+</g><g id="svg_slot_retriever_chain2_first" data-source-slot="slot_retriever_chain2_first" fill="none" transform="translate(310 328) scale(1.042 1.083) translate(0 0)"><circle cx="18.5" cy="17.5" r="14.5" fill="none" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M29.5 29.5 42.5 42.5" fill="none" stroke="#000" stroke-width="6" stroke-linecap="round" />
+</g><g id="svg_slot_robot_chain2_first" data-source-slot="slot_robot_chain2_first" fill="none" transform="translate(392 318) scale(1.088 1.038) translate(0 0)"><g fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="31" cy="6" r="4" />
+    <path d="M31 10v10" />
+    <path d="M8 53V26a6 6 0 0 1 6-6h34a6 6 0 0 1 6 6v27" />
+    <path d="M8 36H2v13h6" />
+    <path d="M54 36h6v13h-6" />
+    <path d="M25 43c3.2 3 8.8 3 12 0" />
+  </g>
+  <g fill="#111">
+    <circle cx="23" cy="34" r="3" />
+    <circle cx="39" cy="34" r="3" />
+  </g>
+</g><g id="svg_slot_robot_chain1_middle" data-source-slot="slot_robot_chain1_middle" fill="none" transform="translate(36 532) scale(1.107 0.982) translate(0 0)"><g fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M28 6.5v9" />
+    <circle cx="28" cy="3.5" r="2" />
+    <path d="M4.5 32H1.5" />
+    <path d="M54.5 32h-3" />
+    <rect x="4.5" y="16.5" width="47" height="38" rx="4.5" fill="#fff" />
+    <circle cx="18.5" cy="31" r="3" fill="#fff" />
+    <circle cx="37.5" cy="31" r="3" fill="#fff" />
+    <path d="M22.5 43h11" />
+  </g>
+</g><g id="svg_slot_robot_chain2_middle" data-source-slot="slot_robot_chain2_middle" fill="none" transform="translate(291 530) scale(1.127 1) translate(0 0)"><path d="M27.5 3v10" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" />
+  <circle cx="27.5" cy="3" r="2.2" fill="#111" />
+  <path d="M14 13h27c4.4 0 7 2.6 7 7v4h3c1.6 0 2.5.9 2.5 2.5v12c0 1.6-.9 2.5-2.5 2.5h-3v6c0 3.8-2.2 6-6 6H13c-3.8 0-6-2.2-6-6v-6H4c-1.6 0-2.5-.9-2.5-2.5v-12C1.5 24.9 2.4 24 4 24h3v-4c0-4.4 2.6-7 7-7z" fill="#fff" stroke="#111" stroke-width="3" stroke-linejoin="round" />
+  <circle cx="20.5" cy="27" r="2.6" fill="#fff" stroke="#111" stroke-width="2.4" />
+  <circle cx="34.5" cy="27" r="2.6" fill="#fff" stroke="#111" stroke-width="2.4" />
+  <path d="M22 38.8c3.2 2.2 7.8 2.2 11 0" fill="none" stroke="#111" stroke-width="2.3" stroke-linecap="round" />
+</g><g id="svg_slot_retriever_chain1_n" data-source-slot="slot_retriever_chain1_n" fill="none" transform="translate(49 686) scale(1.087 1.13) translate(0 0)"><path d="M29 29 L42 42" fill="none" stroke="#000" stroke-width="7" stroke-linecap="round" />
+  <circle cx="17.5" cy="17.5" r="14.8" fill="#fff" stroke="#000" stroke-width="3.8" />
+</g><g id="svg_slot_robot_chain1_n" data-source-slot="slot_robot_chain1_n" fill="none" transform="translate(131 676) scale(0.969 1.146) translate(0 0)"><defs>
+    </defs>
+  <g stroke="#111111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="32" y1="10" x2="32" y2="18" fill="none" />
+    <circle cx="32" cy="6" r="3.5" fill="#ffffff" />
+    <rect x="0.5" y="34" width="8.5" height="18" rx="1" fill="#ffffff" />
+    <rect x="55" y="34" width="8.5" height="18" rx="1" fill="#ffffff" />
+    <rect x="8.5" y="17.5" width="47" height="44" rx="5.5" fill="#ffffff" />
+    <g fill="#111111" stroke="none">
+      <circle cx="24" cy="34.5" r="2.6" />
+      <circle cx="40" cy="34.5" r="2.6" />
+    </g>
+    <path d="M28.5 42c2.2 2.2 4.8 2.2 7 0" fill="none" />
+  </g>
+</g><g id="svg_slot_retriever_chain2_n" data-source-slot="slot_retriever_chain2_n" fill="none" transform="translate(309 685) scale(1.087 1.182) translate(0 0)"><path d="M27 26.5L41.5 41" fill="none" stroke="#000" stroke-width="7" stroke-linecap="round" />
+  <circle cx="16.5" cy="15.5" r="13.5" fill="#fff" stroke="#000" stroke-width="4" />
+</g><g id="svg_slot_robot_chain2_n" data-source-slot="slot_robot_chain2_n" fill="none" transform="translate(392 675) scale(1 1) translate(0 0)"><g stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M1.5 36h5" />
+    <path d="M55.5 36h5" />
+    <path d="M31 9v7.5" />
+    <rect x="5.5" y="16.5" width="51" height="48" rx="5.5" fill="#fff" />
+    <circle cx="31" cy="4.8" r="3.2" fill="#fff" />
+    <circle cx="22.5" cy="31.5" r="2.8" fill="#111" stroke="none" />
+    <circle cx="39.5" cy="31.5" r="2.8" fill="#111" stroke="none" />
+    <path d="M24.5 42c3.8 3.2 9.2 3.2 13 0" fill="none" />
+  </g>
+</g><g id="svg_slot_answer_chain1" data-source-slot="slot_answer_chain1" fill="none" transform="translate(43 828) scale(0.961 1) translate(0 0)"><path d="M24 2C11.85 2 2 11.85 2 24s9.85 22 22 22c4.35 0 8.45-1.27 11.92-3.47l9.28 3.37-3.93-8.92C44.22 33.34 46 28.73 46 24 46 11.85 36.15 2 24 2Z" fill="#65e879" stroke="#1b1b1b" stroke-width="2.2" stroke-linejoin="round" />
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12.5 36.8 22.5 8.9l10.4 27.9" stroke="#171717" stroke-width="6.2" />
+    <path d="M17.6 27.8h10.6" stroke="#171717" stroke-width="6.2" />
+    <path d="M12.5 36.8 22.5 8.9l10.4 27.9" stroke="#eeffed" stroke-width="3.4" />
+    <path d="M17.6 27.8h10.6" stroke="#eeffed" stroke-width="3.4" />
+  </g>
+</g><g id="svg_slot_robot_chain1_final" data-source-slot="slot_robot_chain1_final" fill="none" transform="translate(132 827) scale(1.127 1) translate(0 0)"><g stroke="#0b0b0b" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="31" y1="1.5" x2="31" y2="13.5" stroke-width="3" fill="none" />
+    <rect x="1.5" y="26.5" width="5.8" height="14" rx="2" fill="#fff" stroke-width="3" />
+    <rect x="6.5" y="13.5" width="47" height="40" rx="6" fill="#fff" stroke-width="3" />
+    <circle cx="22.5" cy="28.5" r="3" fill="#fff" stroke-width="2.7" />
+    <circle cx="39.5" cy="28.5" r="3" fill="#fff" stroke-width="2.7" />
+    <path d="M25.8 40.4 Q30.7 42.1 35.6 40.4" fill="none" stroke-width="2.6" />
+  </g>
+</g><g id="svg_slot_answer_chain2" data-source-slot="slot_answer_chain2" fill="none" transform="translate(303 828) scale(1.065 1.159) translate(0 0)"><path d="M44.5 42.2l-8.8-3.8a21.4 21.4 0 0 1-13 4.1C10.9 42.5 1.2 33 1.2 21.5S10.9 1.2 22.8 1.2s21.4 9.3 21.4 20.8c0 5-1.8 9.7-5 13.4z" fill="#45e86d" stroke="#050505" stroke-width="2.1" stroke-linejoin="round" stroke-linecap="round" />
+  <path d="M10.8 35.2 21.5 5.5c.3-.8 1-1.3 1.9-1.3s1.6.5 1.9 1.3l10.8 29.7h-5.3l-2.4-6.8h-10l-2.4 6.8zm9.2-10.9h6.8l-3.4-10.9z" fill="#effff1" fill-rule="evenodd" stroke="#050505" stroke-width="1.65" stroke-linejoin="round" stroke-linecap="round" />
+</g><g id="svg_slot_robot_chain2_final" data-source-slot="slot_robot_chain2_final" fill="none" transform="translate(394 826) scale(1.127 1) translate(0 0)"><g fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M27.5 10.5V2.5" />
+    <path d="M1.5 31h4" />
+    <path d="M49.5 31h4" />
+    <rect x="5" y="10.5" width="45" height="40" rx="4.5" fill="#fff" />
+    <circle cx="19" cy="25" r="2.7" fill="#111" stroke="none" />
+    <circle cx="36" cy="25" r="2.7" fill="#111" stroke="none" />
+    <path d="M19.5 37c4.5 2.7 11.5 2.7 16 0" />
+  </g>
+</g><g id="svg_slot_answer_chain3" data-source-slot="slot_answer_chain3" fill="none" transform="translate(523 828) scale(0.961 1) translate(0 0)"><path d="M25 2.2C12.4 2.2 2.2 12.4 2.2 25S12.4 47.8 25 47.8c5 0 9.6-1.6 13.4-4.3l8.1 4-4-7.9c3.3-4 5.3-9.1 5.3-14.6C47.8 12.4 37.6 2.2 25 2.2Z" fill="#62ef73" stroke="#1c2a2d" stroke-width="2" stroke-linejoin="round" />
+  <path d="M13.2 38.6 23.8 8.8 35.4 38.6M18.2 28.8h12.1" fill="none" stroke="#142124" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M13.2 38.6 23.8 8.8 35.4 38.6M18.2 28.8h12.1" fill="none" stroke="#f4fff0" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" />
+</g><g id="svg_slot_robot_chain3_final" data-source-slot="slot_robot_chain3_final" fill="none" transform="translate(617 826) scale(1.127 1) translate(0 0)"><g fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="27.5" y1="7" x2="27.5" y2="14" />
+    <circle cx="27.5" cy="4" r="3" fill="#fff" />
+    <rect x="2.5" y="14" width="50" height="39" rx="6" ry="6" fill="#fff" />
+  </g>
+  <circle cx="18" cy="29" r="3" fill="#111" />
+  <circle cx="37" cy="29" r="3" fill="#111" />
+  <path d="M20.5 40c4.2 2.6 9.8 2.6 14 0" fill="none" stroke="#111" stroke-width="2.5" stroke-linecap="round" />
+</g><g id="svg_slot_fire_icon" data-source-slot="slot_fire_icon" fill="none" transform="translate(1086 190) scale(1 1) translate(0 0)"><defs>
+    <linearGradient id="slot_fire_icon_flameOuter" x1="5.5" y1="28.5" x2="18.5" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff9d00" />
+      <stop offset="0.55" stop-color="#ff7a00" />
+      <stop offset="1" stop-color="#ff4b0b" />
+    </linearGradient>
+    <linearGradient id="slot_fire_icon_flameInner" x1="9" y1="28" x2="17.5" y2="12.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffd21a" />
+      <stop offset="1" stop-color="#ff9f00" />
+    </linearGradient>
+  </defs>
+  <path fill="url(#slot_fire_icon_flameOuter)" d="M12.8 30.1C6.4 30 1.7 25.1 1.3 19.1 1 14.1 3.4 10.2 6.6 6.7c-.2 3.2 1.3 5.5 3.6 7.1-.8-5.1 1.4-9 4.6-13.1.3 5.3 5.1 7.6 6.9 12.1 1.6 4 1.4 8.4-.8 11.9-1.8 3-4.8 5.4-8.1 5.4Z" />
+  <path fill="#f25a0b" opacity=".75" d="M17.3 28.6c3.2-1.5 5.4-4.8 5.3-8.8-.1-3.4-1.5-6.2-3.7-8.6.2 3.3-.8 5.7-3 8.2 1.8 2.3 2.3 5.4 1.4 9.2Z" />
+  <path fill="url(#slot_fire_icon_flameInner)" d="M12.9 28.8c-3.8 0-6.4-2.8-6.5-6.4-.1-3.1 2.1-5.5 4.8-7.9-.3 2.7.7 4.7 2.7 6.1.1-3.6 1.8-6.1 3.8-8.2.2 3.8 3 6.1 2.8 10.2-.2 3.5-3.5 6.2-7.6 6.2Z" />
+  <path d="M1.5 38.7h28" fill="none" stroke="#173238" stroke-width="3" stroke-linecap="round" />
+</g><g id="svg_slot_medal_icon" data-source-slot="slot_medal_icon" fill="none" transform="translate(977 718) scale(0.982 1) translate(0 0)"><path fill="#2f80d3" d="M18.8 31.8 28.7 38.8 13.8 54.3l-3-10.2L.8 46.8l14.7-17.2z" />
+  <path fill="#2f80d3" d="M36.2 31.8 26.3 38.8l14.9 15.5 3-10.2 10 2.7-14.7-17.2z" />
+  <path fill="#ffc928" stroke="#f4aa1c" stroke-width="1.1" stroke-linejoin="round" d="M27.5 3.5c2.6 0 4.4 3.2 6.9 3.8 2.5.7 5.2-1.4 7.3.2 2.1 1.6 1.5 5 3 7.1s4.9 2.5 5.6 5c.7 2.5-2 4.6-1.6 7.2.4 2.6 3.1 5 2 7.4-1.1 2.4-4.5 2.5-6.1 4.6-1.6 2-.4 5.4-2.6 6.7-2.2 1.3-4.9-.5-7.4.3-2.5.8-3.8 3.9-6.4 3.9s-3.9-3.1-6.4-3.9c-2.5-.8-5.2 1-7.4-.3-2.2-1.3-1-4.7-2.6-6.7-1.6-2.1-5-2.2-6.1-4.6-1.1-2.4 1.6-4.8 2-7.4.4-2.6-2.3-4.7-1.6-7.2.7-2.5 4.1-2.9 5.6-5s.9-5.5 3-7.1c2.1-1.6 4.8.5 7.3-.2 2.5-.6 4.9-3.8 7.5-3.8z" />
+  <circle cx="27.5" cy="24.2" r="14.1" fill="#f5ad1f" />
+  <path fill="#ffd33a" d="m27.5 16.4 2.1 5h5.4l-4.1 3.5 1.4 5.3-4.8-2.8-4.8 2.8 1.4-5.3-4.1-3.5h5.4z" />
+</g></svg>

@@ -1,0 +1,551 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 2155" width="3840" height="2155">
+  <defs>
+    <style>
+      .bg-white { fill: #ffffff; }
+      .text-blue { fill: #4a86e8; font-family: sans-serif; font-weight: bold; }
+      .text-red { fill: #e06666; font-family: sans-serif; font-weight: bold; }
+      .text-black { fill: #000000; font-family: sans-serif; font-weight: bold; }
+      .text-gray { fill: #666666; font-family: sans-serif; }
+      .box-blue { fill: #d9ead3; stroke: #4a86e8; stroke-width: 4; rx: 20; }
+      .box-red { fill: #fce5cd; stroke: #e06666; stroke-width: 4; rx: 20; }
+      .box-purple { fill: #ead1dc; stroke: #d5a6bd; stroke-width: 4; rx: 20; }
+      .box-cyan { fill: #c9daf8; stroke: #9fc5e8; stroke-width: 4; rx: 20; }
+      .arrow { stroke: #4a86e8; stroke-width: 4; fill: none; }
+      .arrow-head { fill: #4a86e8; }
+      .arrow-red { stroke: #e06666; stroke-width: 4; fill: none; }
+      .arrow-head-red { fill: #e06666; }
+      .arrow-black { stroke: #000000; stroke-width: 4; fill: none; }
+      .arrow-head-black { fill: #000000; }
+      .arrow-dashed { stroke: #000000; stroke-width: 4; stroke-dasharray: 10, 10; fill: none; }
+      .grid-blue { fill: #c9daf8; stroke: #4a86e8; stroke-width: 2; }
+      .grid-orange { fill: #fce5cd; stroke: #f6b26b; stroke-width: 2; }
+      .grid-purple { fill: #d5a6bd; stroke: #a64d79; stroke-width: 2; }
+      .grid-cyan { fill: #9fc5e8; stroke: #3d85c6; stroke-width: 2; }
+      .dashed-box { fill: none; stroke: #4a86e8; stroke-width: 4; stroke-dasharray: 15, 15; rx: 20; }
+      .dashed-box-red { fill: none; stroke: #e06666; stroke-width: 4; stroke-dasharray: 15, 15; rx: 20; }
+      .dashed-box-purple { fill: none; stroke: #d5a6bd; stroke-width: 6; stroke-dasharray: 15, 15; rx: 20; }
+      .solid-box-red { fill: #fce5cd; stroke: #e06666; stroke-width: 6; rx: 10; }
+      .placeholder { fill: #808080; stroke: black; stroke-width: 2; }
+      .placeholder-text { fill: white; font-family: sans-serif; font-size: 48px; font-weight: bold; text-anchor: middle; dominant-baseline: middle; }
+      .small-placeholder-text { fill: white; font-family: sans-serif; font-size: 24px; font-weight: bold; text-anchor: middle; dominant-baseline: middle; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" class="arrow-head"/>
+    </marker>
+    <marker id="arrowhead-red" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" class="arrow-head-red"/>
+    </marker>
+    <marker id="arrowhead-black" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" class="arrow-head-black"/>
+    </marker>
+  </defs>
+
+  <rect width="3840" height="2155" class="bg-white"/>
+
+  <!-- Left Side: (a) Training-free Structure of ICEdit -->
+  <!-- Top Blue Box -->
+  <rect x="50" y="50" width="1850" height="1200" class="box-blue" fill="#ffffff" stroke-width="6"/>
+  <text x="975" y="120" class="text-blue" font-size="60" text-anchor="middle">In-context Editing Framework based on T2I DiT</text>
+
+  <!-- Source Image AF11 -->
+  <g id="AF11">
+    <rect x="180" y="150" width="220" height="350" class="placeholder"/>
+    <text x="290" y="325" class="placeholder-text">&lt;AF&gt;11</text>
+  </g>
+  <text x="290" y="550" class="text-blue" font-size="40" text-anchor="middle">Source Image</text>
+
+  <!-- Top T2I DiT -->
+  <rect x="680" y="200" width="650" height="180" class="box-cyan" rx="40"/>
+  <text x="1005" y="305" class="text-blue" font-size="45" text-anchor="middle">T2I Diffusion Transformer</text>
+
+  <!-- Inverted Noise Grid -->
+  <g transform="translate(1550, 200)">
+    <rect x="0" y="0" width="45" height="45" class="grid-blue"/>
+    <rect x="50" y="0" width="45" height="45" class="grid-blue"/>
+    <rect x="100" y="0" width="45" height="45" class="grid-blue"/>
+    <rect x="0" y="50" width="45" height="45" class="grid-blue"/>
+    <rect x="50" y="50" width="45" height="45" class="grid-blue"/>
+    <rect x="100" y="50" width="45" height="45" class="grid-blue"/>
+    <rect x="0" y="100" width="45" height="45" class="grid-blue"/>
+    <rect x="50" y="100" width="45" height="45" class="grid-blue"/>
+    <rect x="100" y="100" width="45" height="45" class="grid-blue"/>
+    <rect x="0" y="150" width="45" height="45" class="grid-blue"/>
+    <rect x="50" y="150" width="45" height="45" class="grid-blue"/>
+    <rect x="100" y="150" width="45" height="45" class="grid-blue"/>
+  </g>
+  <text x="1625" y="440" class="text-blue" font-size="40" text-anchor="middle">Inverted Noise</text>
+
+  <!-- Arrows Top -->
+  <line x1="480" y1="300" x2="650" y2="300" class="arrow" marker-end="url(#arrowhead)"/>
+  <line x1="1350" y1="300" x2="1520" y2="300" class="arrow" marker-end="url(#arrowhead)"/>
+  <line x1="1625" y1="460" x2="1625" y2="600" class="arrow"/>
+  <line x1="1625" y1="600" x2="1400" y2="600" class="arrow"/>
+  <line x1="1400" y1="600" x2="1400" y2="520" class="arrow" marker-end="url(#arrowhead)"/>
+  <text x="1005" y="460" class="text-blue" font-size="45" font-style="italic" text-anchor="middle">Inversion × N</text>
+  <line x1="600" y1="300" x2="600" y2="480" class="arrow"/>
+  <line x1="600" y1="480" x2="1400" y2="480" class="arrow" marker-end="url(#arrowhead)"/>
+
+  <!-- Feature Injection -->
+  <text x="800" y="580" class="text-blue" font-size="40" text-anchor="middle">Feature</text>
+  <text x="800" y="630" class="text-blue" font-size="40" text-anchor="middle">Injection</text>
+  <polygon points="950,530 950,600 930,600 970,640 1010,600 990,600 990,530" fill="#a4c2f4"/>
+  
+  <g transform="translate(1050, 520)">
+    <!-- Blue Grid -->
+    <rect x="0" y="0" width="30" height="30" class="grid-blue"/>
+    <rect x="35" y="0" width="30" height="30" class="grid-blue"/>
+    <rect x="70" y="0" width="30" height="30" class="grid-blue"/>
+    <rect x="0" y="35" width="30" height="30" class="grid-blue"/>
+    <rect x="35" y="35" width="30" height="30" class="grid-blue"/>
+    <rect x="70" y="35" width="30" height="30" class="grid-blue"/>
+    <rect x="0" y="70" width="30" height="30" class="grid-blue"/>
+    <rect x="35" y="70" width="30" height="30" class="grid-blue"/>
+    <rect x="70" y="70" width="30" height="30" class="grid-blue"/>
+    <line x1="120" y1="50" x2="170" y2="50" class="arrow" marker-end="url(#arrowhead)"/>
+    <!-- Mixed Grid -->
+    <rect x="190" y="0" width="30" height="30" class="grid-blue"/>
+    <rect x="225" y="0" width="30" height="30" class="grid-blue"/>
+    <rect x="260" y="0" width="30" height="30" class="grid-blue"/>
+    <rect x="190" y="35" width="30" height="30" class="grid-blue"/>
+    <rect x="225" y="35" width="30" height="30" class="grid-blue"/>
+    <rect x="260" y="35" width="30" height="30" class="grid-blue"/>
+    <rect x="190" y="70" width="30" height="30" class="grid-blue"/>
+    <rect x="225" y="70" width="30" height="30" class="grid-blue"/>
+    <rect x="260" y="70" width="30" height="30" class="grid-blue"/>
+    <!-- Orange Grid next to it -->
+    <rect x="300" y="0" width="30" height="30" class="grid-orange"/>
+    <rect x="335" y="0" width="30" height="30" class="grid-orange"/>
+    <rect x="370" y="0" width="30" height="30" class="grid-orange"/>
+    <rect x="300" y="35" width="30" height="30" class="grid-orange"/>
+    <rect x="335" y="35" width="30" height="30" class="grid-orange"/>
+    <rect x="370" y="35" width="30" height="30" class="grid-orange"/>
+    <rect x="300" y="70" width="30" height="30" class="grid-orange"/>
+    <rect x="335" y="70" width="30" height="30" class="grid-orange"/>
+    <rect x="370" y="70" width="30" height="30" class="grid-orange"/>
+    <!-- Dashed red box around mixed grid -->
+    <rect x="185" y="-5" width="220" height="110" class="dashed-box-red" stroke-width="2" rx="5"/>
+  </g>
+
+  <!-- Bottom T2I DiT -->
+  <rect x="680" y="760" width="650" height="180" class="box-cyan" rx="40"/>
+  <text x="1005" y="865" class="text-blue" font-size="45" text-anchor="middle">T2I Diffusion Transformer</text>
+  <text x="1005" y="710" class="text-blue" font-size="45" font-style="italic" text-anchor="middle">Denoising × N</text>
+
+  <!-- Bottom Left Noises -->
+  <g transform="translate(80, 680)">
+    <rect x="0" y="0" width="45" height="45" class="grid-blue"/>
+    <rect x="50" y="0" width="45" height="45" class="grid-blue"/>
+    <rect x="100" y="0" width="45" height="45" class="grid-blue"/>
+    <rect x="0" y="50" width="45" height="45" class="grid-blue"/>
+    <rect x="50" y="50" width="45" height="45" class="grid-blue"/>
+    <rect x="100" y="50" width="45" height="45" class="grid-blue"/>
+    <rect x="0" y="100" width="45" height="45" class="grid-blue"/>
+    <rect x="50" y="100" width="45" height="45" class="grid-blue"/>
+    <rect x="100" y="100" width="45" height="45" class="grid-blue"/>
+    <rect x="0" y="150" width="45" height="45" class="grid-blue"/>
+    <rect x="50" y="150" width="45" height="45" class="grid-blue"/>
+    <rect x="100" y="150" width="45" height="45" class="grid-blue"/>
+  </g>
+  <text x="155" y="900" class="text-blue" font-size="40" text-anchor="middle">Inverted</text>
+  <text x="155" y="950" class="text-blue" font-size="40" text-anchor="middle">Noise</text>
+  
+  <text x="280" y="780" class="text-blue" font-size="60" text-anchor="middle">+</text>
+  <text x="280" y="820" class="text-blue" font-size="30" text-anchor="middle">concat</text>
+
+  <g transform="translate(340, 680)">
+    <rect x="0" y="0" width="45" height="45" class="grid-orange"/>
+    <rect x="50" y="0" width="45" height="45" class="grid-orange"/>
+    <rect x="100" y="0" width="45" height="45" class="grid-orange"/>
+    <rect x="0" y="50" width="45" height="45" class="grid-orange"/>
+    <rect x="50" y="50" width="45" height="45" class="grid-orange"/>
+    <rect x="100" y="50" width="45" height="45" class="grid-orange"/>
+    <rect x="0" y="100" width="45" height="45" class="grid-orange"/>
+    <rect x="50" y="100" width="45" height="45" class="grid-orange"/>
+    <rect x="100" y="100" width="45" height="45" class="grid-orange"/>
+    <rect x="0" y="150" width="45" height="45" class="grid-orange"/>
+    <rect x="50" y="150" width="45" height="45" class="grid-orange"/>
+    <rect x="100" y="150" width="45" height="45" class="grid-orange"/>
+  </g>
+  <text x="415" y="900" class="text-orange" fill="#f6b26b" font-family="sans-serif" font-weight="bold" font-size="40" text-anchor="middle">Random</text>
+  <text x="415" y="950" class="text-orange" fill="#f6b26b" font-family="sans-serif" font-weight="bold" font-size="40" text-anchor="middle">Noise</text>
+
+  <!-- Arrows Bottom -->
+  <line x1="500" y1="850" x2="650" y2="850" class="arrow" marker-end="url(#arrowhead)"/>
+  <line x1="1350" y1="850" x2="1520" y2="850" class="arrow" marker-end="url(#arrowhead)"/>
+  <line x1="620" y1="850" x2="620" y2="650" class="arrow"/>
+  <line x1="620" y1="650" x2="680" y2="650" class="arrow"/>
+  <line x1="620" y1="950" x2="620" y2="850" class="arrow"/>
+
+  <!-- Target Image AF08 -->
+  <g id="AF08">
+    <rect x="1560" y="630" width="300" height="480" class="placeholder"/>
+    <text x="1710" y="870" class="placeholder-text">&lt;AF&gt;08</text>
+  </g>
+  <text x="1710" y="1150" class="text-orange" fill="#f6b26b" font-family="sans-serif" font-weight="bold" font-size="40" text-anchor="middle">Generated</text>
+  <text x="1710" y="1200" class="text-orange" fill="#f6b26b" font-family="sans-serif" font-weight="bold" font-size="40" text-anchor="middle">Target Image</text>
+  
+  <g id="AF17">
+    <rect x="1360" y="850" width="60" height="90" class="placeholder"/>
+    <text x="1390" y="895" class="small-placeholder-text">&lt;AF&gt;17</text>
+  </g>
+  <g id="AF14">
+    <rect x="1420" y="850" width="60" height="90" class="placeholder"/>
+    <text x="1450" y="895" class="small-placeholder-text">&lt;AF&gt;14</text>
+  </g>
+  
+  <line x1="1420" y1="960" x2="1420" y2="1000" class="arrow" marker-end="url(#arrowhead)"/>
+  <text x="1420" y="1030" class="text-blue" font-size="30" text-anchor="middle">crop</text>
+
+  <!-- Text Prompt Box -->
+  <rect x="80" y="1020" width="1300" height="150" class="dashed-box"/>
+  <text x="730" y="1070" class="text-blue" font-size="35" text-anchor="middle">" A diptych with two side-by-side images of the same scene.</text>
+  <text x="730" y="1115" class="text-blue" font-size="35" text-anchor="middle">On the right, the scene is the same as on the left but</text>
+  <text x="730" y="1160" class="text-orange" fill="#f6b26b" font-family="sans-serif" font-weight="bold" font-size="35" text-anchor="middle">{make the man grab a basketball}."</text>
+
+  <!-- Bottom Red Box (Inpainting) -->
+  <rect x="50" y="1300" width="1850" height="700" class="box-red" fill="#ffffff" stroke-width="6"/>
+  <text x="975" y="1360" class="text-red" font-size="60" text-anchor="middle">In-context Editing Framework based on Inpainting DiT</text>
+
+  <!-- Source Image AF10 -->
+  <g id="AF10">
+    <rect x="80" y="1400" width="280" height="450" class="placeholder"/>
+    <text x="220" y="1625" class="placeholder-text">&lt;AF&gt;10</text>
+  </g>
+  <text x="220" y="1900" class="text-red" font-size="45" text-anchor="middle">Source Image</text>
+  
+  <!-- Image with Mask AF13 -->
+  <g id="AF13">
+    <rect x="480" y="1530" width="180" height="290" class="placeholder"/>
+    <text x="570" y="1675" class="placeholder-text">&lt;AF&gt;13</text>
+  </g>
+  <rect x="660" y="1530" width="180" height="290" fill="#f4cccc"/>
+  <rect x="570" y="1450" width="370" height="250" fill="#cccccc" opacity="0.8"/> <!-- Noise texture approx -->
+  <text x="755" y="1870" class="text-red" font-size="45" text-anchor="middle">Image with Mask</text>
+  
+  <text x="390" y="1600" class="text-red" font-size="30" text-anchor="middle">mask</text>
+  <text x="390" y="1680" class="text-red" font-size="30" text-anchor="middle">concat</text>
+  <line x1="370" y1="1620" x2="450" y2="1620" class="arrow-red" marker-end="url(#arrowhead-red)"/>
+  <line x1="370" y1="1640" x2="450" y2="1640" class="arrow-red" marker-end="url(#arrowhead-red)"/>
+  
+  <text x="900" y="1750" class="text-red" font-size="40" text-anchor="middle">Noise</text>
+  <line x1="950" y1="1650" x2="1030" y2="1650" class="arrow-red" marker-end="url(#arrowhead-red)"/>
+
+  <!-- Inpainting DiT -->
+  <rect x="1050" y="1580" width="320" height="150" class="box-red" fill="#f4cccc" stroke-width="0" rx="20"/>
+  <text x="1210" y="1665" class="text-red" font-size="45" text-anchor="middle">Inpainting DiT</text>
+  
+  <line x1="1390" y1="1650" x2="1470" y2="1650" class="arrow-red" marker-end="url(#arrowhead-red)"/>
+
+  <!-- Target Image AF16 -->
+  <g id="AF16">
+    <rect x="1560" y="1400" width="280" height="450" class="placeholder"/>
+    <text x="1700" y="1625" class="placeholder-text">&lt;AF&gt;16</text>
+  </g>
+  <text x="1700" y="1900" class="text-red" font-size="45" text-anchor="middle">Target</text>
+  <text x="1700" y="1950" class="text-red" font-size="45" text-anchor="middle">Image</text>
+  
+  <g id="AF12">
+    <rect x="1420" y="1520" width="50" height="80" class="placeholder"/>
+    <text x="1445" y="1560" class="small-placeholder-text">&lt;AF&gt;12</text>
+  </g>
+  <g id="AF09">
+    <rect x="1470" y="1520" width="50" height="80" class="placeholder"/>
+    <text x="1495" y="1560" class="small-placeholder-text">&lt;AF&gt;09</text>
+  </g>
+  
+  <line x1="1470" y1="1620" x2="1470" y2="1680" class="arrow-red" marker-end="url(#arrowhead-red)"/>
+  <text x="1470" y="1710" class="text-red" font-size="30" text-anchor="middle">crop</text>
+
+  <!-- Prompt Box Red -->
+  <rect x="900" y="1850" width="600" height="120" class="dashed-box-red"/>
+  <text x="1200" y="1900" class="text-red" fill="#d9d9d9" font-size="35" text-anchor="middle">" A diptych with ... ... but</text>
+  <text x="1200" y="1940" class="text-red" font-size="35" text-anchor="middle">{make her hold a red can}."</text>
+  <line x1="1200" y1="1830" x2="1200" y2="1750" class="arrow-red" marker-end="url(#arrowhead-red)"/>
+  <line x1="1200" y1="1790" x2="1200" y2="1790" class="arrow-red"/> <!-- Fix for line gap -->
+
+  <text x="975" y="2100" class="text-black" font-size="65" text-anchor="middle">(a) Training-free Structure of ICEdit</text>
+
+  <!-- Dotted Divider Line -->
+  <line x1="1950" y1="100" x2="1950" y2="2000" class="arrow-dashed" stroke="#4a86e8" stroke-dasharray="30, 30"/>
+
+  <!-- Right Side: (b) Finetuning Strategy for ICEdit -->
+  
+  <!-- AF06 and AF15 -->
+  <g id="AF06">
+    <rect x="2100" y="50" width="200" height="360" class="placeholder"/>
+    <text x="2200" y="230" class="placeholder-text">&lt;AF&gt;06</text>
+  </g>
+  <g id="AF15">
+    <rect x="2300" y="50" width="200" height="360" class="placeholder"/>
+    <text x="2400" y="230" class="placeholder-text">&lt;AF&gt;15</text>
+  </g>
+  <rect x="2090" y="40" width="420" height="380" fill="none" stroke="#e06666" stroke-width="4" stroke-dasharray="10,10"/>
+  
+  <text x="2650" y="180" class="text-black" font-size="35" text-anchor="middle">Edit by</text>
+  <text x="2650" y="225" class="text-black" font-size="35" text-anchor="middle">In-context</text>
+  <text x="2650" y="270" class="text-black" font-size="35" text-anchor="middle">Generation</text>
+  
+  <line x1="2460" y1="450" x2="2460" y2="420" class="arrow-black" marker-end="url(#arrowhead-black)"/>
+  
+  <rect x="2330" y="460" width="260" height="60" class="box-cyan" rx="10"/>
+  <text x="2460" y="505" class="text-black" font-size="35" text-anchor="middle">Decoder</text>
+  
+  <line x1="2460" y1="560" x2="2460" y2="530" class="arrow-black" marker-end="url(#arrowhead-black)"/>
+
+  <!-- Large Purple Box (Transformer Block) -->
+  <rect x="2080" y="570" width="800" height="830" class="box-purple" fill="#f4cccc" stroke-width="0" rx="40"/>
+  <rect x="2060" y="590" width="800" height="830" class="box-purple" fill="#ead1dc" stroke-width="0" rx="40"/>
+  <rect x="2040" y="610" width="800" height="830" class="box-purple" stroke-width="0" rx="40"/>
+  <text x="2760" y="660" class="text-black" font-size="40" text-anchor="middle">N×</text>
+
+  <!-- Top feature blocks in purple box -->
+  <g transform="translate(2300, 630)">
+    <rect x="0" y="0" width="35" height="40" class="grid-blue"/>
+    <rect x="40" y="0" width="35" height="40" class="grid-blue"/>
+    <rect x="80" y="0" width="35" height="40" class="grid-blue"/>
+    <rect x="120" y="0" width="35" height="40" class="grid-purple"/>
+    <rect x="160" y="0" width="35" height="40" class="grid-purple"/>
+    <rect x="200" y="0" width="35" height="40" class="grid-purple"/>
+    <rect x="240" y="0" width="35" height="40" class="grid-purple"/>
+    <rect x="280" y="0" width="35" height="40" class="grid-purple"/>
+  </g>
+
+  <!-- Diagram inside purple box -->
+  <circle cx="2460" cy="730" r="20" fill="none" stroke="black" stroke-width="4"/>
+  <line x1="2440" y1="730" x2="2480" y2="730" stroke="black" stroke-width="4"/>
+  <line x1="2460" y1="710" x2="2460" y2="750" stroke="black" stroke-width="4"/>
+  
+  <line x1="2460" y1="750" x2="2460" y2="780" class="arrow-black"/>
+  
+  <circle cx="2460" cy="800" r="20" fill="none" stroke="black" stroke-width="4"/>
+  <line x1="2446" y1="786" x2="2474" y2="814" stroke="black" stroke-width="4"/>
+  <line x1="2446" y1="814" x2="2474" y2="786" stroke="black" stroke-width="4"/>
+  
+  <line x1="2460" y1="820" x2="2460" y2="880" class="arrow-black"/>
+  
+  <!-- Out Projection -->
+  <rect x="2220" y="880" width="380" height="80" class="solid-box-red" fill="#e6b8af" rx="20"/>
+  <text x="2410" y="930" class="text-black" font-size="40" text-anchor="middle">Out Projection</text>
+
+  <!-- MLP and MM Attention -->
+  <rect x="2130" y="1020" width="140" height="70" class="dashed-box-purple" fill="#f4cccc" rx="10"/>
+  <text x="2200" y="1065" class="text-black" font-size="35" text-anchor="middle">MLP</text>
+  
+  <rect x="2400" y="1020" width="300" height="70" class="dashed-box-purple" fill="#f4cccc" rx="10"/>
+  <text x="2550" y="1065" class="text-black" font-size="35" text-anchor="middle">MM Attention</text>
+  
+  <!-- Norm & Mod -->
+  <rect x="2220" y="1150" width="380" height="80" class="dashed-box-purple" fill="#f4cccc" rx="20"/>
+  <text x="2410" y="1205" class="text-black" font-size="40" text-anchor="middle">Norm &amp; Mod</text>
+
+  <!-- Bottom feature blocks in purple box -->
+  <g transform="translate(2140, 1330)">
+    <rect x="0" y="0" width="45" height="50" class="grid-blue"/>
+    <rect x="50" y="0" width="45" height="50" class="grid-blue"/>
+    <rect x="100" y="0" width="45" height="50" class="grid-blue"/>
+  </g>
+  <text x="2410" y="1350" class="text-black" font-size="45" text-anchor="middle">+</text>
+  <text x="2410" y="1380" class="text-black" font-size="25" text-anchor="middle">concat</text>
+  <g transform="translate(2470, 1330)">
+    <rect x="0" y="0" width="45" height="50" class="grid-purple"/>
+    <rect x="50" y="0" width="45" height="50" class="grid-purple"/>
+    <rect x="100" y="0" width="45" height="50" class="grid-purple"/>
+    <rect x="150" y="0" width="45" height="50" class="grid-purple"/>
+    <rect x="200" y="0" width="45" height="50" class="grid-purple"/>
+  </g>
+
+  <!-- Routing Lines in Purple Box -->
+  <line x1="2460" y1="1230" x2="2460" y2="1320" class="arrow-black"/>
+  <line x1="2460" y1="1150" x2="2460" y2="1090" class="arrow-black"/>
+  <line x1="2200" y1="1020" x2="2200" y2="920" class="arrow-black"/>
+  <line x1="2200" y1="920" x2="2220" y2="920" class="arrow-black" marker-end="url(#arrowhead-black)"/>
+  <line x1="2550" y1="1020" x2="2550" y2="960" class="arrow-black"/>
+  <line x1="2550" y1="960" x2="2460" y2="960" class="arrow-black"/>
+  <line x1="2215" y1="1355" x2="2090" y2="1355" class="arrow-black"/>
+  <line x1="2090" y1="1355" x2="2090" y2="730" class="arrow-black"/>
+  <line x1="2090" y1="730" x2="2440" y2="730" class="arrow-black" marker-end="url(#arrowhead-black)"/>
+  <line x1="2595" y1="1355" x2="2790" y2="1355" class="arrow-black"/>
+  <line x1="2790" y1="1355" x2="2790" y2="800" class="arrow-black"/>
+  <line x1="2790" y1="800" x2="2480" y2="800" class="arrow-black" marker-end="url(#arrowhead-black)"/>
+  
+  <line x1="2215" y1="1330" x2="2215" y2="1285" class="arrow-black"/>
+  <line x1="2215" y1="1285" x2="2410" y2="1285" class="arrow-black"/>
+  <line x1="2410" y1="1285" x2="2410" y2="1230" class="arrow-black" marker-end="url(#arrowhead-black)"/>
+  <line x1="2595" y1="1330" x2="2595" y2="1285" class="arrow-black"/>
+  <line x1="2595" y1="1285" x2="2510" y2="1285" class="arrow-black"/>
+  <line x1="2510" y1="1285" x2="2510" y2="1230" class="arrow-black" marker-end="url(#arrowhead-black)"/>
+  
+  <line x1="2200" y1="1150" x2="2200" y2="1090" class="arrow-black" marker-end="url(#arrowhead-black)"/>
+  <line x1="2550" y1="1150" x2="2550" y2="1090" class="arrow-black" marker-end="url(#arrowhead-black)"/>
+  
+  <line x1="2215" y1="1380" x2="2215" y2="1480" class="arrow-black"/>
+  <line x1="2595" y1="1380" x2="2595" y2="1480" class="arrow-black"/>
+
+  <!-- Text and Image Encoders -->
+  <rect x="2060" y="1520" width="280" height="70" class="box-cyan" rx="20"/>
+  <text x="2200" y="1565" class="text-black" font-size="35" text-anchor="middle">Text Encoder</text>
+  
+  <rect x="2440" y="1520" width="460" height="70" class="box-cyan" rx="20"/>
+  <text x="2670" y="1565" class="text-black" font-size="35" text-anchor="middle">Image Encoder</text>
+  
+  <line x1="2200" y1="1650" x2="2200" y2="1590" class="arrow-black" marker-end="url(#arrowhead-black)"/>
+  <line x1="2550" y1="1650" x2="2550" y2="1590" class="arrow-black" marker-end="url(#arrowhead-black)"/>
+  <line x1="2670" y1="1650" x2="2670" y2="1590" class="arrow-black" marker-end="url(#arrowhead-black)"/>
+  <line x1="2850" y1="1650" x2="2850" y2="1590" class="arrow-black" marker-end="url(#arrowhead-black)"/>
+
+  <!-- Inputs -->
+  <rect x="2030" y="1720" width="360" height="230" fill="white" stroke="#666666" stroke-width="2" rx="20"/>
+  <text x="2210" y="1790" class="text-gray" font-size="30" text-anchor="middle">" A diptych with ...</text>
+  <text x="2210" y="1830" class="text-gray" font-size="30" text-anchor="middle">but {what if it</text>
+  <text x="2210" y="1870" class="text-gray" font-size="30" text-anchor="middle">looks like water</text>
+  <text x="2210" y="1910" class="text-gray" font-size="30" text-anchor="middle">color painting?}"</text>
+  
+  <g id="AF07">
+    <rect x="2430" y="1720" width="160" height="280" class="placeholder"/>
+    <text x="2510" y="1860" class="placeholder-text">&lt;AF&gt;07</text>
+  </g>
+  <text x="2570" y="1700" class="text-black" font-size="35" text-anchor="middle">Image</text>
+  
+  <rect x="2620" y="1720" width="150" height="280" fill="white" stroke="black" stroke-width="2"/>
+  <rect x="2620" y="1720" width="75" height="280" fill="black"/>
+  <text x="2700" y="1700" class="text-black" font-size="35" text-anchor="middle">Mask</text>
+  
+  <rect x="2800" y="1720" width="150" height="280" fill="#cccccc" opacity="0.8"/> <!-- Noise approx -->
+  <text x="2870" y="1730" class="text-black" font-size="35" text-anchor="middle">Noise</text>
+
+  <!-- LoRA-MoE Module Large Box -->
+  <rect x="2900" y="100" width="780" height="1200" fill="#eef4fa" stroke-width="0" rx="40"/>
+  <text x="3550" y="150" class="text-black" font-size="40" text-anchor="middle">LoRA-MoE Module</text>
+
+  <!-- Big Pink Arrow -->
+  <polygon points="2750,910 2850,910 2850,880 2920,930 2850,980 2850,950 2750,950" fill="#d5a6bd"/>
+
+  <!-- Inside LoRA-MoE Module -->
+  
+  <!-- Base Layer -->
+  <rect x="2930" y="420" width="220" height="60" class="dashed-box-purple" fill="#f4cccc" rx="10"/>
+  <text x="3040" y="465" class="text-black" font-size="35" text-anchor="middle">Base Layer</text>
+  <g id="AF01">
+    <rect x="3160" y="460" width="40" height="40" class="placeholder"/>
+    <text x="3180" y="480" class="small-placeholder-text" font-size="12">&lt;AF&gt;01</text>
+  </g>
+  
+  <!-- Top Feature Blocks -->
+  <g transform="translate(3150, 220)">
+    <rect x="0" y="0" width="35" height="40" class="grid-blue"/>
+    <rect x="40" y="0" width="35" height="40" class="grid-blue"/>
+    <rect x="80" y="0" width="35" height="40" class="grid-blue"/>
+    <rect x="120" y="0" width="35" height="40" class="grid-purple"/>
+    <rect x="160" y="0" width="35" height="40" class="grid-purple"/>
+    <rect x="200" y="0" width="35" height="40" class="grid-purple"/>
+    <rect x="240" y="0" width="35" height="40" class="grid-purple"/>
+    <rect x="280" y="0" width="35" height="40" class="grid-purple"/>
+  </g>
+  
+  <circle cx="3300" cy="330" r="20" fill="none" stroke="black" stroke-width="4"/>
+  <line x1="3280" y1="330" x2="3320" y2="330" stroke="black" stroke-width="4"/>
+  <line x1="3300" y1="310" x2="3300" y2="350" stroke="black" stroke-width="4"/>
+  
+  <line x1="3300" y1="310" x2="3300" y2="260" class="arrow-black" marker-end="url(#arrowhead-black)"/>
+
+  <!-- Experts -->
+  <path d="M 3000 600 L 3100 600 L 3070 670 L 3100 740 L 3000 740 L 3030 670 Z" fill="#d9ead3" stroke="#4a86e8" stroke-width="4"/>
+  <text x="3050" y="780" class="text-black" font-size="30" text-anchor="middle">Expert 1</text>
+  
+  <path d="M 3150 600 L 3250 600 L 3220 670 L 3250 740 L 3150 740 L 3180 670 Z" fill="#d9ead3" stroke="#4a86e8" stroke-width="4"/>
+  <text x="3200" y="780" class="text-black" font-size="30" text-anchor="middle">Expert 2</text>
+  
+  <path d="M 3300 600 L 3400 600 L 3370 670 L 3400 740 L 3300 740 L 3330 670 Z" fill="#d9ead3" stroke="#4a86e8" stroke-width="4"/>
+  <text x="3350" y="780" class="text-black" font-size="30" text-anchor="middle">Expert 3</text>
+  
+  <text x="3480" y="670" class="text-black" font-size="50" text-anchor="middle">...</text>
+  
+  <path d="M 3550 600 L 3650 600 L 3620 670 L 3650 740 L 3550 740 L 3580 670 Z" fill="#d9ead3" stroke="#4a86e8" stroke-width="4"/>
+  <text x="3600" y="780" class="text-black" font-size="30" text-anchor="middle">Expert N</text>
+
+  <!-- Route -->
+  <rect x="3200" y="1050" width="160" height="60" class="box-cyan" rx="20"/>
+  <text x="3280" y="1090" class="text-black" font-size="35" text-anchor="middle">Route</text>
+  
+  <!-- Route Selection -->
+  <text x="3150" y="930" class="text-black" font-size="30" text-anchor="middle">TopK=1</text>
+  
+  <rect x="3250" y="900" width="25" height="25" fill="#e06666"/>
+  <line x1="3255" y1="905" x2="3270" y2="920" stroke="white" stroke-width="3"/>
+  <line x1="3270" y1="905" x2="3255" y2="920" stroke="white" stroke-width="3"/>
+  
+  <rect x="3300" y="870" width="25" height="25" fill="#93c47d"/>
+  <path d="M 3305 880 L 3310 890 L 3320 875" fill="none" stroke="white" stroke-width="3"/>
+  
+  <rect x="3350" y="910" width="25" height="25" fill="#e06666"/>
+  <line x1="3355" y1="915" x2="3370" y2="930" stroke="white" stroke-width="3"/>
+  <line x1="3370" y1="915" x2="3355" y2="930" stroke="white" stroke-width="3"/>
+  
+  <line x1="3270" y1="1050" x2="3270" y2="925" class="arrow-dashed" marker-end="url(#arrowhead-black)"/>
+  <line x1="3310" y1="1050" x2="3310" y2="895" class="arrow-dashed" marker-end="url(#arrowhead-black)"/>
+  <line x1="3350" y1="1050" x2="3350" y2="935" class="arrow-dashed" marker-end="url(#arrowhead-black)"/>
+
+  <!-- Bottom Feature Blocks -->
+  <g transform="translate(3150, 1220)">
+    <rect x="0" y="0" width="40" height="40" class="grid-blue"/>
+    <rect x="40" y="0" width="40" height="40" class="grid-blue"/>
+    <rect x="80" y="0" width="40" height="40" class="grid-blue"/>
+    <rect x="120" y="0" width="40" height="40" class="grid-purple"/>
+    <rect x="160" y="0" width="40" height="40" class="grid-purple"/>
+    <rect x="200" y="0" width="40" height="40" class="grid-purple"/>
+    <rect x="240" y="0" width="40" height="40" class="grid-purple"/>
+    <rect x="280" y="0" width="40" height="40" class="grid-purple"/>
+  </g>
+  
+  <line x1="3300" y1="1220" x2="3300" y2="1110" class="arrow-black" marker-end="url(#arrowhead-black)"/>
+
+  <!-- Dashed flow lines in LoRA-MoE -->
+  <path d="M 3150 1240 Q 2950 1200 2950 800 Q 2950 450 3040 450" fill="none" stroke="black" stroke-width="4" stroke-dasharray="20, 20"/>
+  <line x1="3040" y1="450" x2="3040" y2="420" class="arrow-black" marker-end="url(#arrowhead-black)"/>
+  <path d="M 3040 420 Q 3040 330 3280 330" fill="none" stroke="black" stroke-width="4" stroke-dasharray="20, 20"/>
+  <line x1="3280" y1="330" x2="3280" y2="330" class="arrow-black" marker-end="url(#arrowhead-black)"/>
+  
+  <path d="M 3470 1240 Q 3650 1150 3650 900 Q 3650 600 3400 450 Q 3300 400 3300 350" fill="none" stroke="black" stroke-width="4" stroke-dasharray="20, 20"/>
+  <line x1="3300" y1="350" x2="3300" y2="350" class="arrow-black" marker-end="url(#arrowhead-black)"/>
+  
+  <line x1="3310" y1="870" x2="3350" y2="740" class="arrow-dashed" marker-end="url(#arrowhead-black)"/>
+  
+  <!-- Legend Box -->
+  <rect x="3070" y="1380" width="600" height="600" fill="white" stroke="#9fc5e8" stroke-width="4" rx="20"/>
+  
+  <!-- Legend Items -->
+  <!-- Trainable Parameter AF05 -->
+  <g id="AF05">
+    <rect x="3120" y="1420" width="80" height="80" class="placeholder"/>
+    <text x="3160" y="1460" class="small-placeholder-text">&lt;AF&gt;05</text>
+  </g>
+  <text x="3230" y="1470" class="text-black" font-size="35" text-anchor="start">: Trainabe Parameter</text>
+  
+  <!-- Frozen Parameter AF02 -->
+  <g id="AF02">
+    <rect x="3120" y="1540" width="80" height="80" class="placeholder"/>
+    <text x="3160" y="1580" class="small-placeholder-text">&lt;AF&gt;02</text>
+  </g>
+  <text x="3230" y="1590" class="text-black" font-size="35" text-anchor="start">: Frozen Parameter</text>
+  
+  <!-- Standard LoRA Tuning -->
+  <rect x="3110" y="1670" width="100" height="50" class="dashed-box-purple" fill="#f4cccc" rx="10"/>
+  <text x="3230" y="1705" class="text-black" font-size="35" text-anchor="start">: Standard LoRA Tuning</text>
+  
+  <!-- LoRA-MoE Tuning AF04 -->
+  <g id="AF04">
+    <rect x="3110" y="1780" width="100" height="50" class="placeholder"/>
+    <text x="3160" y="1805" class="small-placeholder-text">&lt;AF&gt;04</text>
+  </g>
+  <text x="3230" y="1815" class="text-black" font-size="35" text-anchor="start">: LoRA-MoE Tuning</text>
+  
+  <!-- LoRA Adapter AF03 -->
+  <g id="AF03">
+    <rect x="3120" y="1880" width="80" height="80" class="placeholder"/>
+    <text x="3160" y="1920" class="small-placeholder-text">&lt;AF&gt;03</text>
+  </g>
+  <text x="3230" y="1930" class="text-black" font-size="35" text-anchor="start">: LoRA Adapter</text>
+
+  <text x="2900" y="2100" class="text-black" font-size="65" text-anchor="middle">(b) Finetuning Strategy for ICEdit</text>
+
+</svg>

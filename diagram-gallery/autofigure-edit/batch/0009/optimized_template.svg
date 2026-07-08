@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 2181" width="3840" height="2181">
+    <defs>
+        <linearGradient id="gradBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#9eb6db" stop-opacity="1"/>
+            <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+        </linearGradient>
+        <linearGradient id="gradOrange" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#f2ad83" stop-opacity="1"/>
+            <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+        </linearGradient>
+        <g id="arrow">
+            <path d="M -70 -12 L 30 -12 L 30 -25 L 65 0 L 30 25 L 30 12 L -70 12 Z" fill="#999999" stroke="#000000" stroke-width="3"/>
+        </g>
+    </defs>
+
+    <rect width="100%" height="100%" fill="#ffffff"/>
+
+    <line x1="1140" y1="1100" x2="3800" y2="1100" stroke="#000000" stroke-width="4" stroke-dasharray="25, 15, 5, 15"/>
+
+    <path d="M 25 740 L 985 740 L 985 1410 Q 500 1600 25 1530 Z" fill="#dcdcdc" stroke="#808080" stroke-width="3"/>
+    <text x="55" y="820" font-family="Arial, sans-serif" font-size="55" fill="#000000">Translate the following text from</text>
+    <text x="55" y="890" font-family="Arial, sans-serif" font-size="55" fill="#000000">English into Chinese.</text>
+    <text x="55" y="1030" font-family="Arial, sans-serif" font-size="55" fill="#000000">English: Amsterdam is famous for</text>
+    <text x="55" y="1100" font-family="Arial, sans-serif" font-size="55" fill="#000000">its hundreds of beautiful canals,</text>
+    <text x="55" y="1170" font-family="Arial, sans-serif" font-size="55" fill="#000000">millions of bicycles, stunning</text>
+    <text x="55" y="1240" font-family="Arial, sans-serif" font-size="55" fill="#000000">summers, and disgusting winters.</text>
+    <text x="55" y="1380" font-family="Arial, sans-serif" font-size="55" fill="#000000">Chinese:</text>
+
+    <use href="#arrow" transform="translate(1140, 670) rotate(-35)"/>
+    
+    <rect x="1300" y="390" width="460" height="230" rx="30" fill="#e6e6e6" stroke="#000000" stroke-width="4"/>
+    <text x="1530" y="525" font-family="Arial, sans-serif" font-size="75" font-weight="bold" fill="#000000" text-anchor="middle">NMT</text>
+
+    <text x="2030" y="420" font-family="Arial, sans-serif" font-size="55" fill="#000000" text-anchor="middle">Sampling</text>
+    <use href="#arrow" transform="translate(2030, 505)"/>
+
+    <path d="M 2390 120 C 2850 200, 2800 450, 2480 520 C 2380 550, 2650 750, 2390 870 L 2390 120 Z" fill="url(#gradBlue)"/>
+    <path d="M 2390 120 C 2850 200, 2800 450, 2480 520 C 2380 550, 2650 750, 2390 870" fill="none" stroke="#1f4277" stroke-width="4" stroke-dasharray="15, 10"/>
+    <line x1="2390" y1="120" x2="2390" y2="870" stroke="#1f4277" stroke-width="2"/>
+    <text x="2700" y="920" font-family="Times New Roman, serif" font-size="55" fill="#000000" text-anchor="middle">Quality</text>
+
+    <text x="3020" y="420" font-family="Arial, sans-serif" font-size="55" font-weight="bold" fill="#488229" text-anchor="middle">Reranking / Voting</text>
+    <use href="#arrow" transform="translate(3020, 505)"/>
+
+    <rect x="3350" y="380" width="460" height="200" fill="#e6e6e6" stroke="#000000" stroke-width="3"/>
+    <text x="3580" y="465" font-family="Arial, sans-serif" font-size="50" fill="#000000" text-anchor="middle">Highest-scoring</text>
+    <text x="3580" y="535" font-family="Arial, sans-serif" font-size="50" fill="#000000" text-anchor="middle">Output</text>
+
+    <text x="3020" y="90" font-family="Arial, sans-serif" font-size="75" fill="#000000" text-anchor="middle">Testing Time Optimization</text>
+
+    <use href="#arrow" transform="translate(1140, 1530) rotate(35)"/>
+
+    <rect x="1300" y="1600" width="460" height="230" rx="30" fill="#b8e0a8" stroke="#000000" stroke-width="4"/>
+    <text x="1530" y="1735" font-family="Arial, sans-serif" font-size="75" font-weight="bold" fill="#000000" text-anchor="middle">NMT</text>
+    <text x="1720" y="1800" font-family="Times New Roman, serif" font-size="55" fill="#000000">θ</text>
+
+    <text x="2030" y="1630" font-family="Arial, sans-serif" font-size="55" fill="#000000" text-anchor="middle">Sampling</text>
+    <use href="#arrow" transform="translate(2030, 1715)"/>
+
+    <path d="M 2390 1340 C 2550 1400, 2550 1550, 2410 1750 C 2310 1850, 2800 1950, 2390 2090 L 2390 1340 Z" fill="url(#gradOrange)"/>
+    <path d="M 2390 1340 C 2550 1400, 2550 1550, 2410 1750 C 2310 1850, 2800 1950, 2390 2090" fill="none" stroke="#1f4277" stroke-width="4" stroke-dasharray="15, 10"/>
+    <line x1="2390" y1="1340" x2="2390" y2="2090" stroke="#1f4277" stroke-width="2"/>
+    <text x="2700" y="2140" font-family="Times New Roman, serif" font-size="55" fill="#000000" text-anchor="middle">Likelihood</text>
+
+    <text x="3020" y="1630" font-family="Arial, sans-serif" font-size="55" font-weight="bold" fill="#ff0000" text-anchor="middle">Calibration</text>
+    <use href="#arrow" transform="translate(3020, 1715)"/>
+
+    <path d="M 3350 1320 C 3850 1400, 3800 1650, 3430 1750 C 3330 1800, 3650 1950, 3350 2070 L 3350 1320 Z" fill="url(#gradOrange)"/>
+    <path d="M 3350 1320 C 3850 1400, 3800 1650, 3430 1750 C 3330 1800, 3650 1950, 3350 2070" fill="none" stroke="#1f4277" stroke-width="4" stroke-dasharray="15, 10"/>
+    <line x1="3350" y1="1320" x2="3350" y2="2070" stroke="#1f4277" stroke-width="2"/>
+    <text x="3600" y="2140" font-family="Times New Roman, serif" font-size="55" fill="#000000" text-anchor="middle">Likelihood -&gt; Quality</text>
+
+    <text x="3020" y="1200" font-family="Arial, sans-serif" font-size="75" fill="#000000" text-anchor="middle">Training Time Optimization</text>
+</svg>

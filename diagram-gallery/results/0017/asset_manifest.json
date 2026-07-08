@@ -1,0 +1,218 @@
+[
+  {
+    "slot_id": "slot_fire_icon_designer",
+    "filename": "assets/svg_candidate/slot_fire_icon_designer.png",
+    "canonical_slot_id": "slot_fire_icon_designer",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "fire_icon",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      523,
+      88,
+      45,
+      49
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "flame icon beside Designer"
+  },
+  {
+    "slot_id": "slot_snowflake_icon_designer",
+    "filename": "assets/svg_candidate/slot_snowflake_icon_designer.png",
+    "canonical_slot_id": "slot_snowflake_icon_designer",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "snowflake_icon",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      755,
+      88,
+      52,
+      52
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "snowflake icon beside Designer"
+  },
+  {
+    "slot_id": "slot_snowflake_icon_expert",
+    "filename": "assets/svg_candidate/slot_snowflake_icon_expert.png",
+    "canonical_slot_id": "slot_snowflake_icon_expert",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "snowflake_icon",
+    "vlm_duplicate_of": "snowflake_icon",
+    "bbox_xywh": [
+      1085,
+      188,
+      45,
+      49
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "snowflake icon in Expert box"
+  },
+  {
+    "slot_id": "slot_expert_trajectory_pair_t_minus_1",
+    "filename": "assets/svg_candidate/slot_expert_trajectory_pair_t_minus_1.png",
+    "canonical_slot_id": "slot_expert_trajectory_pair_t_minus_1",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "expert_trajectory_pair",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      1238,
+      162,
+      102,
+      56
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "expert trajectory pictogram pair for t minus 1"
+  },
+  {
+    "slot_id": "slot_expert_trajectory_pair_t",
+    "filename": "assets/svg_candidate/slot_expert_trajectory_pair_t.png",
+    "canonical_slot_id": "slot_expert_trajectory_pair_t",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "expert_trajectory_pair",
+    "vlm_duplicate_of": "expert_trajectory_pair",
+    "bbox_xywh": [
+      1374,
+      162,
+      102,
+      56
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "expert trajectory pictogram pair for t"
+  },
+  {
+    "slot_id": "slot_fire_icon_dyplanner",
+    "filename": "assets/svg_candidate/slot_fire_icon_dyplanner.png",
+    "canonical_slot_id": "slot_fire_icon_dyplanner",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "fire_icon",
+    "vlm_duplicate_of": "fire_icon",
+    "bbox_xywh": [
+      1134,
+      331,
+      45,
+      47
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "flame icon beside DyPlanner"
+  },
+  {
+    "slot_id": "slot_preference_pair_top_left",
+    "filename": "assets/svg_candidate/slot_preference_pair_top_left.png",
+    "canonical_slot_id": "slot_preference_pair_top_left",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "preference_trajectory_pair",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      1394,
+      568,
+      61,
+      34
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "small preference trajectory pictogram pair"
+  },
+  {
+    "slot_id": "slot_preference_pair_top_right",
+    "filename": "assets/svg_candidate/slot_preference_pair_top_right.png",
+    "canonical_slot_id": "slot_preference_pair_top_right",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "preference_trajectory_pair",
+    "vlm_duplicate_of": "preference_trajectory_pair",
+    "bbox_xywh": [
+      1462,
+      568,
+      61,
+      34
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "small preference trajectory pictogram pair"
+  },
+  {
+    "slot_id": "slot_preference_pair_bottom_left",
+    "filename": "assets/svg_candidate/slot_preference_pair_bottom_left.png",
+    "canonical_slot_id": "slot_preference_pair_bottom_left",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "preference_trajectory_pair",
+    "vlm_duplicate_of": "preference_trajectory_pair",
+    "bbox_xywh": [
+      1394,
+      621,
+      61,
+      34
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "small preference trajectory pictogram pair"
+  },
+  {
+    "slot_id": "slot_preference_pair_bottom_right",
+    "filename": "assets/svg_candidate/slot_preference_pair_bottom_right.png",
+    "canonical_slot_id": "slot_preference_pair_bottom_right",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "preference_trajectory_pair",
+    "vlm_duplicate_of": "preference_trajectory_pair",
+    "bbox_xywh": [
+      1462,
+      621,
+      61,
+      34
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "small preference trajectory pictogram pair"
+  },
+  {
+    "slot_id": "slot_preference_check_icon",
+    "filename": "assets/svg_candidate/slot_preference_check_icon.png",
+    "canonical_slot_id": "slot_preference_check_icon",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "preference_check_icon",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      1541,
+      572,
+      29,
+      29
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "green check icon indicating accepted preference"
+  },
+  {
+    "slot_id": "slot_preference_cross_icon",
+    "filename": "assets/svg_candidate/slot_preference_cross_icon.png",
+    "canonical_slot_id": "slot_preference_cross_icon",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "preference_cross_icon",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      1541,
+      625,
+      29,
+      29
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "red cross icon indicating rejected preference"
+  }
+]

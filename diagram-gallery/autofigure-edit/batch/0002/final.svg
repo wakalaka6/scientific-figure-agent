@@ -1,0 +1,149 @@
+<svg viewBox="0 0 3840 2132" width="3840" height="2132" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#000000"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="3840" height="2132" fill="#ffffff"/>
+
+  <!-- Dividers -->
+  <line x1="50" y1="0" x2="50" y2="2132" stroke="#000000" stroke-width="10" stroke-dasharray="25 25"/>
+  <line x1="1580" y1="0" x2="1580" y2="2132" stroke="#000000" stroke-width="10" stroke-dasharray="25 25"/>
+  <line x1="2340" y1="0" x2="2340" y2="2132" stroke="#000000" stroke-width="10" stroke-dasharray="25 25"/>
+  <line x1="3830" y1="0" x2="3830" y2="2132" stroke="#000000" stroke-width="10" stroke-dasharray="25 25"/>
+
+  <!-- Section Titles -->
+  <text x="815" y="120" font-family="Arial, sans-serif" font-size="70" text-anchor="middle">1. Tokenize and combine</text>
+  <text x="815" y="200" font-family="Arial, sans-serif" font-size="70" text-anchor="middle">goal and tactic</text>
+
+  <text x="1960" y="120" font-family="Arial, sans-serif" font-size="70" text-anchor="middle">2. Create goal-aware</text>
+  <text x="1960" y="200" font-family="Arial, sans-serif" font-size="70" text-anchor="middle">tactic embedding</text>
+
+  <text x="3085" y="120" font-family="Arial, sans-serif" font-size="70" text-anchor="middle">3. Train embedding to</text>
+  <text x="3085" y="200" font-family="Arial, sans-serif" font-size="70" text-anchor="middle">encode transition</text>
+  <text x="3085" y="280" font-family="Arial, sans-serif" font-size="70" text-anchor="middle">data</text>
+
+  <!-- Section 2 Grey Box -->
+  <rect x="1650" y="420" width="650" height="1400" fill="#f4f4f4" stroke="#999999" stroke-width="4"/>
+
+  <!-- Section 1 Elements -->
+  <rect x="220" y="820" width="440" height="150" fill="#d9f0d3" stroke="#5aae61" stroke-width="4"/>
+  <text x="440" y="905" font-family="Courier New, monospace" font-weight="bold" font-size="65" text-anchor="middle">rw [h_1]</text>
+
+  <rect x="820" y="540" width="290" height="220" fill="#d9f0d3" stroke="#5aae61" stroke-width="4"/>
+  <text x="965" y="660" font-family="Courier New, monospace" font-weight="bold" font-size="65" text-anchor="middle">rw</text>
+  <rect x="820" y="760" width="290" height="220" fill="#d9f0d3" stroke="#5aae61" stroke-width="4"/>
+  <text x="965" y="880" font-family="Courier New, monospace" font-size="65" text-anchor="middle">[</text>
+  <rect x="820" y="980" width="290" height="220" fill="#d9f0d3" stroke="#5aae61" stroke-width="4"/>
+  <text x="965" y="1100" font-family="Courier New, monospace" font-size="65" text-anchor="middle">...</text>
+
+  <rect x="120" y="1440" width="650" height="530" fill="#d1e5f0" stroke="#4393c3" stroke-width="4"/>
+  <text x="160" y="1520" font-family="Times New Roman, serif" font-size="65">
+    <tspan font-style="italic">a, b, c</tspan> : &#x2102;
+  </text>
+  <text x="160" y="1630" font-family="Times New Roman, serif" font-style="italic" font-size="65">
+    h<tspan baseline-shift="sub" font-size="50">0</tspan> : a + b = 2c
+  </text>
+  <text x="160" y="1740" font-family="Times New Roman, serif" font-style="italic" font-size="65">
+    h<tspan baseline-shift="sub" font-size="50">1</tspan> : c = i
+  </text>
+  <text x="160" y="1850" font-family="Times New Roman, serif" font-size="65">
+    &#x22A2; <tspan font-style="italic">ac + bc = -2</tspan>
+  </text>
+
+  <rect x="820" y="1360" width="290" height="260" fill="#d1e5f0" stroke="#4393c3" stroke-width="4"/>
+  <text x="965" y="1500" font-family="Times New Roman, serif" font-style="italic" font-size="65" text-anchor="middle">a</text>
+  <rect x="820" y="1620" width="290" height="260" fill="#d1e5f0" stroke="#4393c3" stroke-width="4"/>
+  <text x="965" y="1760" font-family="Times New Roman, serif" font-size="65" text-anchor="middle">,</text>
+  <rect x="820" y="1880" width="290" height="260" fill="#d1e5f0" stroke="#4393c3" stroke-width="4"/>
+  <text x="965" y="2020" font-family="Courier New, monospace" font-size="65" text-anchor="middle">...</text>
+
+  <path d="M 1110 540 C 1160 540, 1160 850, 1180 870 C 1160 890, 1160 1200, 1110 1200" fill="none" stroke="#000000" stroke-width="6"/>
+  <path d="M 1110 1360 C 1160 1360, 1160 1730, 1180 1750 C 1160 1770, 1160 2140, 1110 2140" fill="none" stroke="#000000" stroke-width="6"/>
+
+  <rect x="1180" y="760" width="230" height="230" fill="#a6dba0" stroke="#5aae61" stroke-width="4"/>
+  <text x="1295" y="885" font-family="Times New Roman, serif" font-weight="bold" font-size="70" text-anchor="middle">t</text>
+
+  <rect x="1180" y="1580" width="230" height="230" fill="#92c5de" stroke="#4393c3" stroke-width="4"/>
+  <text x="1295" y="1705" font-family="Times New Roman, serif" font-weight="bold" font-size="70" text-anchor="middle">g</text>
+
+  <rect x="1180" y="1230" width="350" height="180" fill="#5c7080" stroke="#3b4853" stroke-width="4"/>
+  <text x="1355" y="1330" font-family="Arial, sans-serif" font-size="60" fill="#ffffff" text-anchor="middle">concat</text>
+
+  <!-- Section 2 Elements -->
+  <rect x="1810" y="490" width="320" height="320" fill="#fddbc7" stroke="#d6604d" stroke-width="4"/>
+  <text x="1970" y="570" font-family="Arial, sans-serif" font-size="65" text-anchor="middle">Encoder</text>
+  <text x="1970" y="710" font-family="Times New Roman, serif" font-style="italic" font-size="90" text-anchor="middle">E</text>
+
+  <rect x="1770" y="1010" width="230" height="230" fill="#a6dba0" stroke="#5aae61" stroke-width="4"/>
+  <text x="1885" y="1135" font-family="Times New Roman, serif" font-weight="bold" font-size="70" text-anchor="middle">t'</text>
+  <rect x="2000" y="1010" width="170" height="230" fill="#92c5de" stroke="#4393c3" stroke-width="4"/>
+  <text x="2085" y="1135" font-family="Times New Roman, serif" font-weight="bold" font-size="70" text-anchor="middle">g'</text>
+
+  <rect x="1770" y="1310" width="230" height="130" fill="#762a83" stroke="#40004b" stroke-width="4"/>
+  <text x="1885" y="1385" font-family="Arial, sans-serif" font-size="60" fill="#ffffff" text-anchor="middle">pool</text>
+
+  <rect x="1770" y="1530" width="230" height="230" fill="#a6dba0" stroke="#5aae61" stroke-width="4"/>
+  <text x="1885" y="1655" font-family="Times New Roman, serif" font-weight="bold" font-size="70" text-anchor="middle">e</text>
+
+  <rect x="1710" y="1900" width="350" height="180" fill="#5c7080" stroke="#3b4853" stroke-width="4"/>
+  <text x="1885" y="2000" font-family="Arial, sans-serif" font-size="60" fill="#ffffff" text-anchor="middle">concat</text>
+
+  <!-- Section 3 Elements -->
+  <rect x="2530" y="540" width="350" height="320" fill="#fddbc7" stroke="#d6604d" stroke-width="4"/>
+  <text x="2705" y="620" font-family="Arial, sans-serif" font-size="65" text-anchor="middle">Predictor</text>
+  <text x="2705" y="760" font-family="Times New Roman, serif" font-style="italic" font-size="90" text-anchor="middle">P</text>
+
+  <rect x="2470" y="1330" width="470" height="470" fill="#fddbc7" stroke="#d6604d" stroke-width="4"/>
+  <text x="2705" y="1460" font-family="Arial, sans-serif" font-size="65" text-anchor="middle">Decoder</text>
+  <text x="2705" y="1640" font-family="Times New Roman, serif" font-style="italic" font-size="90" text-anchor="middle">D</text>
+
+  <rect x="3150" y="420" width="560" height="230" fill="#e7d4e8" stroke="#9970ab" stroke-width="4"/>
+  <text x="3430" y="495" font-family="Courier New, monospace" font-weight="bold" font-size="65" text-anchor="middle">Status (s&#x0302;)</text>
+  <text x="3430" y="595" font-family="Courier New, monospace" font-size="65" text-anchor="middle">success</text>
+
+  <rect x="3240" y="810" width="370" height="290" fill="#e7d4e8" stroke="#9970ab" stroke-width="4"/>
+  <text x="3425" y="905" font-family="Courier New, monospace" font-size="65" text-anchor="middle">Time (&#x03C4;&#x0302;)</text>
+  <text x="3425" y="1015" font-family="Courier New, monospace" font-size="65" text-anchor="middle">0.1</text>
+
+  <rect x="3070" y="1240" width="720" height="630" fill="#e7d4e8" stroke="#9970ab" stroke-width="4"/>
+  <text x="3120" y="1340" font-family="Courier New, monospace" font-size="65">Output (o&#x0302;)</text>
+  <text x="3120" y="1460" font-family="Times New Roman, serif" font-size="65">
+    <tspan font-style="italic">a, b, c</tspan> : &#x2102;
+  </text>
+  <text x="3120" y="1570" font-family="Times New Roman, serif" font-style="italic" font-size="65">
+    h<tspan baseline-shift="sub" font-size="50">0</tspan> : a + b = 2c
+  </text>
+  <text x="3120" y="1680" font-family="Times New Roman, serif" font-style="italic" font-size="65">
+    h<tspan baseline-shift="sub" font-size="50">1</tspan> : c = i
+  </text>
+  <text x="3120" y="1790" font-family="Times New Roman, serif" font-size="65">
+    &#x22A2; <tspan font-style="italic">ai + bi = -2</tspan>
+  </text>
+
+  <!-- Arrows -->
+  <path d="M 1295 990 L 1295 1230" fill="none" stroke="#000000" stroke-width="8" marker-end="url(#arrow)"/>
+  <path d="M 1295 1580 L 1295 1410" fill="none" stroke="#000000" stroke-width="8" marker-end="url(#arrow)"/>
+  <path d="M 1530 1320 L 1690 1320 L 1690 650 L 1810 650" fill="none" stroke="#000000" stroke-width="8" marker-end="url(#arrow)"/>
+  <path d="M 1295 1810 L 1295 2000 L 1710 2000" fill="none" stroke="#000000" stroke-width="8" marker-end="url(#arrow)"/>
+  
+  <path d="M 1970 810 L 1970 910" fill="none" stroke="#000000" stroke-width="8"/>
+  <path d="M 1970 910 L 1885 910 L 1885 1010" fill="none" stroke="#000000" stroke-width="8" marker-end="url(#arrow)"/>
+  <path d="M 1970 910 L 2085 910 L 2085 1010" fill="none" stroke="#000000" stroke-width="8" marker-end="url(#arrow)"/>
+  
+  <path d="M 1885 1240 L 1885 1310" fill="none" stroke="#000000" stroke-width="8" marker-end="url(#arrow)"/>
+  <path d="M 1885 1440 L 1885 1530" fill="none" stroke="#000000" stroke-width="8" marker-end="url(#arrow)"/>
+  <path d="M 1885 1760 L 1885 1900" fill="none" stroke="#000000" stroke-width="8" marker-end="url(#arrow)"/>
+  
+  <path d="M 2000 1645 L 2410 1645 L 2410 700 L 2530 700" fill="none" stroke="#000000" stroke-width="8" marker-end="url(#arrow)"/>
+  
+  <path d="M 2880 700 L 3060 700" fill="none" stroke="#000000" stroke-width="8"/>
+  <path d="M 3060 700 L 3060 535 L 3150 535" fill="none" stroke="#000000" stroke-width="8" marker-end="url(#arrow)"/>
+  <path d="M 3060 700 L 3060 955 L 3240 955" fill="none" stroke="#000000" stroke-width="8" marker-end="url(#arrow)"/>
+  
+  <path d="M 2060 1990 L 2705 1990 L 2705 1800" fill="none" stroke="#000000" stroke-width="8" marker-end="url(#arrow)"/>
+  <path d="M 2940 1565 L 3070 1565" fill="none" stroke="#000000" stroke-width="8" marker-end="url(#arrow)"/>
+
+</svg>

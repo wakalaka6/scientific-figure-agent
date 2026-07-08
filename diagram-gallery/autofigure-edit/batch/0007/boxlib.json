@@ -1,0 +1,14 @@
+{
+  "image_size": {
+    "width": 3840,
+    "height": 1800
+  },
+  "prompts_used": [
+    "icon",
+    "person",
+    "robot",
+    "animal"
+  ],
+  "boxes": [],
+  "no_icon_mode": true
+}

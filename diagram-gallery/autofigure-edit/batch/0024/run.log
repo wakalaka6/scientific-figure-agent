@@ -1,0 +1,131 @@
+
+============================================================
+Paper Method 到 SVG 图标替换流程 (Label 模式增强版 + Box合并)
+============================================================
+Provider: openrouter
+输出目录: /app/outputs/batch/Training Language Models to Generate Quality Code with Program Analysis Feedback_diagram
+输入模式: imported_figure
+导入图片: /app/my-benchmark/medium/Training Language Models to Generate Quality Code with Program Analysis Feedback_diagram.jpg
+SVG模型: google/gemini-3.1-pro-preview
+SAM提示词: icon,person,robot,animal
+最低置信度: 0.0
+SAM后端: roboflow
+执行到步骤: 5
+占位符模式: label
+优化迭代次数: 0
+Box合并阈值: 0.01
+4K等比例放大: 开启
+============================================================
+============================================================
+步骤一：跳过生图，使用已有的第一阶段图片
+============================================================
+输入图片: /app/my-benchmark/medium/Training Language Models to Generate Quality Code with Program Analysis Feedback_diagram.jpg
+4K等比例放大: 开启
+导入图片已等比例放大到 4K 长边: 1637 x 864 -> 3840 x 2027
+图片已保存: /app/outputs/batch/Training Language Models to Generate Quality Code with Program Analysis Feedback_diagram/figure.png
+
+============================================================
+步骤二：SAM3 分割 + 灰色填充+黑色边框+序号标记
+============================================================
+原图尺寸: 3840 x 2027
+使用的 prompts: ['icon', 'person', 'robot', 'animal']
+SAM3 Roboflow API 模式: format=polygon
+
+  正在检测: 'icon'
+    对象 1: (3427, 1320, 3671, 1618), score=0.664
+    对象 2: (2428, 1441, 2534, 1547), score=0.730
+    对象 3: (2427, 1291, 2533, 1397), score=0.742
+    对象 4: (27, 147, 195, 320), score=0.750
+    对象 5: (2428, 1648, 2533, 1756), score=0.727
+    对象 6: (1568, 128, 1712, 307), score=0.730
+  'icon' 检测到 6 个有效对象
+
+  正在检测: 'person'
+  'person' 检测到 0 个有效对象
+
+  正在检测: 'robot'
+  'robot' 检测到 0 个有效对象
+
+  正在检测: 'animal'
+  'animal' 检测到 0 个有效对象
+
+总计检测: 6 个对象 (来自 4 个 prompts)
+
+  合并重叠的boxes (阈值: 0.01)...
+  无需合并，所有boxes重叠比例均低于阈值
+
+  绘制 samed.png (使用 6 个boxes)...
+标记图片已保存: /app/outputs/batch/Training Language Models to Generate Quality Code with Program Analysis Feedback_diagram/samed.png
+Box 信息已保存: /app/outputs/batch/Training Language Models to Generate Quality Code with Program Analysis Feedback_diagram/boxlib.json
+
+检测到 6 个图标
+
+============================================================
+步骤三：裁切 + RMBG2 去背景
+============================================================
+从 HuggingFace 加载 RMBG-2.0 模型...
+检测到 HF_TOKEN，使用鉴权访问 gated 模型。
+/usr/local/lib/python3.11/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/usr/local/lib/python3.11/site-packages/timm/models/registry.py:4: FutureWarning: Importing from timm.models.registry is deprecated, please import via timm.models
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.models", FutureWarning)
+  <AF>01: 裁切并去背景完成 -> /app/outputs/batch/Training Language Models to Generate Quality Code with Program Analysis Feedback_diagram/icons/icon_AF01_nobg.png
+  <AF>02: 裁切并去背景完成 -> /app/outputs/batch/Training Language Models to Generate Quality Code with Program Analysis Feedback_diagram/icons/icon_AF02_nobg.png
+  <AF>03: 裁切并去背景完成 -> /app/outputs/batch/Training Language Models to Generate Quality Code with Program Analysis Feedback_diagram/icons/icon_AF03_nobg.png
+  <AF>04: 裁切并去背景完成 -> /app/outputs/batch/Training Language Models to Generate Quality Code with Program Analysis Feedback_diagram/icons/icon_AF04_nobg.png
+  <AF>05: 裁切并去背景完成 -> /app/outputs/batch/Training Language Models to Generate Quality Code with Program Analysis Feedback_diagram/icons/icon_AF05_nobg.png
+  <AF>06: 裁切并去背景完成 -> /app/outputs/batch/Training Language Models to Generate Quality Code with Program Analysis Feedback_diagram/icons/icon_AF06_nobg.png
+
+============================================================
+步骤四：多模态调用生成 SVG
+============================================================
+Provider: openrouter
+模型: google/gemini-3.1-pro-preview
+占位符模式: label
+原图尺寸: 3840 x 2027
+发送多模态请求到: https://openrouter.ai/api/v1
+
+--------------------------------------------------
+步骤 4.5：SVG 语法验证（使用 lxml XML 解析器）
+--------------------------------------------------
+  SVG 语法验证通过！
+SVG 模板已保存: /app/outputs/batch/Training Language Models to Generate Quality Code with Program Analysis Feedback_diagram/template.svg
+
+============================================================
+步骤 4.6：LLM 优化 SVG（位置和样式对齐）
+============================================================
+Provider: openrouter
+模型: google/gemini-3.1-pro-preview
+最大迭代次数: 0
+  迭代次数为 0，跳过 LLM 优化
+  直接复制模板: /app/outputs/batch/Training Language Models to Generate Quality Code with Program Analysis Feedback_diagram/template.svg -> /app/outputs/batch/Training Language Models to Generate Quality Code with Program Analysis Feedback_diagram/optimized_template.svg
+
+--------------------------------------------------
+步骤 4.7：坐标系对齐
+--------------------------------------------------
+原图尺寸: 3840 x 2027
+SVG 尺寸: 3840.0 x 2027.0
+尺寸匹配，使用 1:1 坐标映射
+
+============================================================
+步骤五：图标替换到 SVG
+============================================================
+匹配模式: 序号匹配
+  <AF>01: 替换成功 (序号匹配 <g>) at (3340.0, 1340.0) size 290.0x300.0
+  <AF>02: 替换成功 (序号匹配 <g>) at (2430.0, 1435.0) size 90.0x90.0
+  <AF>03: 替换成功 (序号匹配 <g>) at (2430.0, 1285.0) size 90.0x90.0
+  <AF>04: 替换成功 (序号匹配 <g>) at (25.0, 130.0) size 160.0x160.0
+  <AF>05: 替换成功 (序号匹配 <g>) at (2430.0, 1635.0) size 90.0x90.0
+  <AF>06: 替换成功 (序号匹配 <g>) at (1530.0, 130.0) size 120.0x160.0
+最终 SVG 已保存: /app/outputs/batch/Training Language Models to Generate Quality Code with Program Analysis Feedback_diagram/final.svg
+
+============================================================
+流程完成！
+============================================================
+原始图片: /app/outputs/batch/Training Language Models to Generate Quality Code with Program Analysis Feedback_diagram/figure.png
+标记图片: /app/outputs/batch/Training Language Models to Generate Quality Code with Program Analysis Feedback_diagram/samed.png
+Box信息: /app/outputs/batch/Training Language Models to Generate Quality Code with Program Analysis Feedback_diagram/boxlib.json
+图标数量: 6
+SVG模板: /app/outputs/batch/Training Language Models to Generate Quality Code with Program Analysis Feedback_diagram/template.svg
+优化后模板: /app/outputs/batch/Training Language Models to Generate Quality Code with Program Analysis Feedback_diagram/optimized_template.svg
+最终SVG: /app/outputs/batch/Training Language Models to Generate Quality Code with Program Analysis Feedback_diagram/final.svg

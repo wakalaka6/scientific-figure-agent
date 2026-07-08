@@ -1,0 +1,376 @@
+<svg width="2048" height="960" viewBox="0 0 2048 960" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title{font-family:"Times New Roman",serif;font-style:italic;font-size:44px;font-weight:700;fill:#111}
+      .panel{font-family:"Times New Roman",serif;font-size:40px;font-weight:700;fill:#111}
+      .txt{font-family:Arial,Helvetica,sans-serif;font-size:26px;fill:#111}
+      .small{font-family:Arial,Helvetica,sans-serif;font-size:20px;fill:#111}
+      .tiny{font-family:Arial,Helvetica,sans-serif;font-size:17px;fill:#111}
+      .italic{font-style:italic;font-weight:700}
+      .rect{fill:#eee;stroke:#111;stroke-width:2}
+      .llm{fill:#e9e9e9;stroke:#111;stroke-width:2}
+      .texttok{fill:#d9d9d9;stroke:#111;stroke-width:2}
+      .blueTok{fill:#c7def2;stroke:#2e6c9e;stroke-width:3}
+      .pinkTok{fill:#ead7e9;stroke:#8d2b83;stroke-width:3}
+      .alignB{fill:#eaf6ff;stroke:#2e6c9e;stroke-width:3}
+      .alignO{fill:#fff7ef;stroke:#c96532;stroke-width:3}
+      .dash{fill:none;stroke:#111;stroke-width:2.5;stroke-dasharray:18 12}
+      .dashSmall{fill:none;stroke:#111;stroke-width:2.2;stroke-dasharray:12 9}
+      .orangeDash{fill:none;stroke:#c96532;stroke-width:2.5;stroke-dasharray:18 12}
+      .stack{fill:white;stroke:#111;stroke-width:2}
+    </style>
+
+    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#111"/>
+    </marker>
+    <marker id="arrowSmall" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#111"/>
+    </marker>
+    <marker id="arrowOpen" viewBox="0 0 16 16" refX="12" refY="8" markerWidth="12" markerHeight="12" orient="auto">
+      <path d="M2,8 L12,2 L12,14 Z" fill="white" stroke="#111" stroke-width="2"/>
+    </marker>
+    <marker id="arrowOrange" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="9" markerHeight="9" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#c96532"/>
+    </marker>
+
+    <symbol id="flame" viewBox="0 0 32 40">
+      <path d="M17 2 C22 10 12 13 21 22 C25 27 24 35 17 38 C7 42 0 33 5 24 C8 18 14 15 12 8 C16 11 17 7 17 2 Z" fill="currentColor"/>
+      <path d="M15 21 C18 25 15 27 19 31 C15 34 9 32 10 27 C11 24 14 23 15 21 Z" fill="#ffd36a" opacity=".9"/>
+    </symbol>
+    <symbol id="snow" viewBox="0 0 40 40">
+      <g stroke="currentColor" stroke-width="3" stroke-linecap="round" fill="none">
+        <path d="M20 3 V37"/>
+        <path d="M5 11 L35 29"/>
+        <path d="M35 11 L5 29"/>
+        <path d="M14 7 L20 13 L26 7"/>
+        <path d="M14 33 L20 27 L26 33"/>
+        <path d="M3 18 L11 15 L10 7"/>
+        <path d="M37 22 L29 25 L30 33"/>
+        <path d="M37 18 L29 15 L30 7"/>
+        <path d="M3 22 L11 25 L10 33"/>
+      </g>
+    </symbol>
+  </defs>
+
+  <rect width="2048" height="960" fill="#fff"/>
+
+  <!-- panel separators -->
+  <line x1="435" y1="35" x2="435" y2="805" stroke="#111" stroke-width="3"/>
+  <line x1="1044" y1="35" x2="1044" y2="805" stroke="#111" stroke-width="3"/>
+
+  <!-- Titles -->
+  <text x="170" y="52" class="title">ICL</text>
+  <text x="670" y="52" class="title">MLLM</text>
+  <text x="1500" y="52" class="title">ICRL</text>
+
+  <!-- ===================== ICL ===================== -->
+  <g id="icl">
+    <rect x="30" y="68" width="366" height="45" class="llm"/>
+    <text x="213" y="100" text-anchor="middle" class="txt" font-size="28">LLM</text>
+
+    <path d="M200 182 V125" stroke="#111" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+
+    <!-- N bracket and example stack -->
+    <path d="M74 198 C58 198 58 202 58 208 L58 236 C58 242 62 246 74 250" class="dashSmall" stroke-dasharray="none"/>
+    <text x="36" y="231" class="txt" font-weight="700">N</text>
+
+    <g transform="translate(82 192)">
+      <rect x="0" y="0" width="210" height="48" class="texttok"/>
+      <rect x="8" y="-5" width="210" height="48" class="texttok"/>
+      <rect x="16" y="-10" width="210" height="48" class="texttok"/>
+      <rect x="24" y="-15" width="210" height="48" class="texttok"/>
+      <rect x="58" y="-10" width="53" height="48" class="texttok"/>
+      <rect x="111" y="-10" width="53" height="48" class="texttok"/>
+      <rect x="164" y="-10" width="53" height="48" class="texttok"/>
+      <line x1="58" y1="-10" x2="58" y2="38" stroke="#111" stroke-width="2"/>
+      <line x1="111" y1="-10" x2="111" y2="38" stroke="#111" stroke-width="2"/>
+      <line x1="164" y1="-10" x2="164" y2="38" stroke="#111" stroke-width="2"/>
+    </g>
+
+    <path d="M200 336 V276" stroke="#111" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+
+    <rect x="77" y="350" width="248" height="64" class="rect"/>
+    <text x="201" y="390" text-anchor="middle" class="txt">Embedding Layer</text>
+
+    <path d="M200 475 V428" stroke="#111" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+
+    <g transform="translate(85 490)">
+      <rect x="0" y="8" width="210" height="48" class="stack"/>
+      <rect x="-8" y="3" width="210" height="48" class="stack"/>
+      <rect x="-16" y="-2" width="210" height="48" class="stack"/>
+      <rect x="0" y="8" width="210" height="48" fill="#fff" stroke="#111" stroke-width="2"/>
+      <text x="105" y="41" text-anchor="middle" class="txt" font-size="23">
+        Input x<tspan baseline-shift="sub" font-size="16">i</tspan> , Label y<tspan baseline-shift="sub" font-size="16">i</tspan>
+      </text>
+    </g>
+
+    <path d="M200 616 V570" stroke="#111" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+
+    <g transform="translate(22 628)">
+      <rect x="-18" y="17" width="400" height="62" class="stack"/>
+      <rect x="-10" y="9" width="400" height="62" class="stack"/>
+      <rect x="-2" y="1" width="400" height="62" class="stack"/>
+      <rect x="6" y="-7" width="400" height="62" class="stack"/>
+      <text x="206" y="18" text-anchor="middle" class="small italic">Input X (SMILES sequence): CC(C)(C)CCO</text>
+      <text x="206" y="51" text-anchor="middle" class="small italic">Label Y (Predicted Property): 1.15</text>
+    </g>
+
+    <text x="165" y="793" text-anchor="middle" class="panel">(a)</text>
+  </g>
+
+  <!-- ===================== MLLM ===================== -->
+  <g id="mllm">
+    <rect x="503" y="68" width="490" height="45" class="llm"/>
+    <use href="#flame" x="512" y="70" width="28" height="35" color="#f2b43b"/>
+    <text x="748" y="100" text-anchor="middle" class="txt" font-size="28">LLM</text>
+
+    <path d="M743 148 V122" stroke="#111" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+
+    <!-- top mixed sequence -->
+    <rect x="520" y="160" width="426" height="74" rx="32" class="dash"/>
+    <g transform="translate(548 160)">
+      <rect x="0" y="0" width="50" height="50" class="texttok"/>
+      <rect x="50" y="0" width="50" height="50" class="texttok"/>
+      <rect x="100" y="0" width="50" height="50" class="texttok"/>
+      <rect x="150" y="0" width="50" height="50" class="texttok"/>
+      <rect x="200" y="0" width="48" height="50" class="alignB"/>
+      <rect x="248" y="0" width="48" height="50" class="alignB"/>
+      <rect x="296" y="0" width="48" height="50" class="alignB"/>
+      <rect x="344" y="0" width="48" height="50" class="alignB"/>
+    </g>
+
+    <g transform="translate(505 238)">
+      <rect x="0" y="0" width="50" height="50" class="texttok"/>
+      <rect x="50" y="0" width="50" height="50" class="texttok"/>
+      <rect x="100" y="0" width="50" height="50" class="texttok"/>
+      <rect x="150" y="0" width="50" height="50" class="texttok"/>
+    </g>
+    <g transform="translate(784 237)">
+      <rect x="0" y="0" width="48" height="52" class="blueTok"/>
+      <rect x="48" y="0" width="48" height="52" class="blueTok"/>
+      <rect x="96" y="0" width="48" height="52" class="blueTok"/>
+      <rect x="144" y="0" width="48" height="52" class="blueTok"/>
+    </g>
+
+    <path d="M506 264 H476 V185 H510" stroke="#111" stroke-width="2.5" fill="none" marker-end="url(#arrowOpen)"/>
+    <path d="M976 264 H1005 V185 H970" stroke="#111" stroke-width="2.5" fill="none" marker-end="url(#arrowOpen)"/>
+
+    <rect x="482" y="362" width="236" height="65" class="rect"/>
+    <text x="600" y="402" text-anchor="middle" class="txt">Embedding Layer</text>
+    <path d="M608 350 V303" stroke="#111" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+
+    <g transform="translate(500 505)">
+      <rect x="0" y="0" width="215" height="130" fill="#fff" stroke="#111" stroke-width="2"/>
+      <text x="108" y="43" text-anchor="middle" class="txt" font-size="23">Text Input: x<tspan baseline-shift="sub" font-size="16">i</tspan></text>
+      <text x="108" y="74" text-anchor="middle" class="txt" font-size="23">Modality Input: m<tspan baseline-shift="sub" font-size="16">i</tspan></text>
+      <text x="108" y="105" text-anchor="middle" class="txt" font-size="23">Label y<tspan baseline-shift="sub" font-size="16">i</tspan></text>
+    </g>
+    <path d="M608 490 V438" stroke="#111" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+
+    <!-- dashed modality encoder block -->
+    <rect x="748" y="330" width="265" height="407" class="dash"/>
+    <path d="M500 635 V695 H746" stroke="#111" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+
+    <g transform="translate(760 522)">
+      <polygon points="20,0 210,0 235,104 0,104" fill="#a8c9e8" stroke="#2e6c9e" stroke-width="2"/>
+      <use href="#flame" x="20" y="12" width="28" height="35" color="#f2b43b"/>
+      <text x="120" y="43" text-anchor="middle" class="txt">Pre-trained</text>
+      <text x="120" y="84" text-anchor="middle" class="txt">Modality Encoder</text>
+    </g>
+
+    <g transform="translate(777 672)">
+      <rect x="0" y="0" width="48" height="42" rx="4" fill="#fff" stroke="#111" stroke-width="3"/>
+      <circle cx="12" cy="13" r="5" fill="#111"/>
+      <path d="M5 36 L18 24 L29 33 L38 18 L47 36 Z" fill="#111"/>
+      <rect x="78" y="0" width="48" height="42" rx="4" fill="#fff" stroke="#111" stroke-width="3"/>
+      <path d="M78 14 L126 5 M78 25 L126 16" stroke="#111" stroke-width="4"/>
+      <polygon points="92,29 92,14 108,21" fill="#111"/>
+      <g transform="translate(150 -2)" stroke="#111" stroke-width="2" fill="white">
+        <circle cx="22" cy="20" r="6"/><circle cx="45" cy="13" r="5"/><circle cx="56" cy="32" r="5"/>
+        <circle cx="36" cy="39" r="6"/><circle cx="12" cy="41" r="5"/><circle cx="6" cy="22" r="5"/>
+        <line x1="22" y1="20" x2="45" y2="13"/><line x1="45" y1="13" x2="56" y2="32"/>
+        <line x1="56" y1="32" x2="36" y2="39"/><line x1="36" y1="39" x2="12" y2="41"/>
+        <line x1="12" y1="41" x2="6" y2="22"/><line x1="6" y1="22" x2="22" y2="20"/>
+      </g>
+    </g>
+    <path d="M800 662 V632" stroke="#111" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+    <path d="M879 662 V632" stroke="#111" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+    <path d="M954 662 V632" stroke="#111" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+
+    <g transform="translate(812 428)">
+      <rect x="0" y="0" width="145" height="52" rx="18" class="dashSmall"/>
+      <rect x="10" y="8" width="34" height="34" class="blueTok"/>
+      <rect x="54" y="8" width="34" height="34" class="blueTok"/>
+      <rect x="98" y="8" width="34" height="34" class="blueTok"/>
+    </g>
+    <path d="M882 522 V490" stroke="#111" stroke-width="4" fill="none" marker-end="url(#arrowOpen)"/>
+
+    <rect x="808" y="342" width="148" height="40" fill="#bad3eb" stroke="#2e6c9e" stroke-width="2"/>
+    <use href="#flame" x="815" y="344" width="25" height="31" color="#e83d1f"/>
+    <text x="886" y="371" text-anchor="middle" class="txt" font-size="24">Projector</text>
+    <path d="M882 428 V395" stroke="#111" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+    <path d="M882 342 V302" stroke="#111" stroke-width="4" fill="none" marker-end="url(#arrowOpen)"/>
+
+    <text x="810" y="793" text-anchor="middle" class="panel">(b)</text>
+  </g>
+
+  <!-- ===================== ICRL ===================== -->
+  <g id="icrl">
+    <rect x="1100" y="68" width="894" height="45" class="llm"/>
+    <text x="1547" y="100" text-anchor="middle" class="txt" font-size="28">LLM</text>
+
+    <text x="1394" y="151" text-anchor="middle" class="txt italic">Text Level</text>
+    <line x1="1480" y1="132" x2="1730" y2="132" stroke="#111" stroke-width="3"/>
+    <text x="1609" y="151" text-anchor="middle" class="txt italic">Embedding Level</text>
+    <line x1="1480" y1="132" x2="1480" y2="575" stroke="#111" stroke-width="3" stroke-dasharray="0 0"/>
+    <line x1="1480" y1="197" x2="1480" y2="240" stroke="#111" stroke-width="3" stroke-dasharray="18 14"/>
+    <line x1="1480" y1="332" x2="1480" y2="575" stroke="#111" stroke-width="3" stroke-dasharray="18 14"/>
+
+    <!-- left text-level top -->
+    <path d="M1269 182 V138" stroke="#111" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+    <g transform="translate(1166 205)">
+      <rect x="0" y="0" width="210" height="48" class="texttok"/>
+      <rect x="8" y="-5" width="210" height="48" class="texttok"/>
+      <rect x="16" y="-10" width="210" height="48" class="texttok"/>
+      <rect x="24" y="-15" width="210" height="48" class="texttok"/>
+      <line x1="70" y1="-10" x2="70" y2="38" stroke="#111" stroke-width="2"/>
+      <line x1="124" y1="-10" x2="124" y2="38" stroke="#111" stroke-width="2"/>
+      <line x1="178" y1="-10" x2="178" y2="38" stroke="#111" stroke-width="2"/>
+    </g>
+    <path d="M1270 306 V266" stroke="#111" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+    <rect x="1120" y="309" width="306" height="35" class="rect"/>
+    <text x="1273" y="336" text-anchor="middle" class="txt">Embedding Layer</text>
+    <path d="M1273 379 V347" stroke="#111" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+
+    <!-- left modality to string -->
+    <rect x="1100" y="531" width="154" height="83" fill="#ead7e9" stroke="#8d2b83" stroke-width="2"/>
+    <text x="1177" y="563" text-anchor="middle" class="txt">Pre-trained</text>
+    <text x="1177" y="601" text-anchor="middle" class="txt">FM</text>
+    <path d="M1177 531 V489" stroke="#111" stroke-width="4" fill="none" marker-end="url(#arrowOpen)"/>
+    <g transform="translate(1100 416)">
+      <rect x="0" y="0" width="150" height="68" rx="18" class="dashSmall"/>
+      <rect x="12" y="27" width="34" height="34" class="pinkTok"/>
+      <rect x="58" y="27" width="34" height="34" class="pinkTok"/>
+      <rect x="104" y="27" width="34" height="34" class="pinkTok"/>
+    </g>
+    <path d="M1250 459 H1340" stroke="#111" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+    <text x="1289" y="447" text-anchor="middle" class="tiny" font-weight="700">Stringify</text>
+
+    <g transform="translate(1338 390)">
+      <rect x="0" y="10" width="108" height="78" class="stack"/>
+      <rect x="-10" y="0" width="108" height="78" class="stack"/>
+      <rect x="-20" y="-10" width="108" height="78" class="stack"/>
+      <rect x="0" y="10" width="108" height="78" fill="#fff" stroke="#111" stroke-width="2"/>
+      <text x="54" y="42" text-anchor="middle" class="txt" fill="#8d2b83" font-size="22">Rep r<tspan baseline-shift="sub" font-size="15">i</tspan></text>
+      <text x="54" y="73" text-anchor="middle" class="txt" font-size="22">Label y<tspan baseline-shift="sub" font-size="15">i</tspan></text>
+    </g>
+    <path d="M1407 662 V507" stroke="#111" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+
+    <!-- shared input stack -->
+    <g transform="translate(1202 671)">
+      <rect x="-18" y="17" width="520" height="62" class="stack"/>
+      <rect x="-10" y="9" width="520" height="62" class="stack"/>
+      <rect x="-2" y="1" width="520" height="62" class="stack"/>
+      <rect x="6" y="-7" width="520" height="62" class="stack"/>
+      <text x="266" y="19" text-anchor="middle" class="small italic">Input X (SMILES sequence): Oc1ccccc1O</text>
+      <text x="266" y="51" text-anchor="middle" class="small italic">Label Y (Predicted Property): -6.36</text>
+    </g>
+    <path d="M1177 662 V615" stroke="#111" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+
+    <!-- embedding-level FM/projector -->
+    <rect x="1521" y="531" width="154" height="83" fill="#ead7e9" stroke="#8d2b83" stroke-width="2"/>
+    <text x="1598" y="563" text-anchor="middle" class="txt">Pre-trained</text>
+    <text x="1598" y="601" text-anchor="middle" class="txt">FM</text>
+    <path d="M1598 531 V489" stroke="#111" stroke-width="4" fill="none" marker-end="url(#arrowOpen)"/>
+    <g transform="translate(1524 415)">
+      <rect x="0" y="0" width="150" height="68" rx="18" class="dashSmall"/>
+      <rect x="14" y="18" width="34" height="34" class="pinkTok"/>
+      <rect x="58" y="18" width="34" height="34" class="pinkTok"/>
+      <rect x="102" y="18" width="34" height="34" class="pinkTok"/>
+    </g>
+    <rect x="1524" y="322" width="148" height="40" fill="#fff2e8" stroke="#c96532" stroke-width="2"/>
+    <use href="#snow" x="1530" y="327" width="25" height="25" color="#43a6d7"/>
+    <text x="1602" y="350" text-anchor="middle" class="txt" font-size="24">Projector</text>
+    <path d="M1598 415 V374" stroke="#111" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+    <path d="M1598 322 V289" stroke="#111" stroke-width="4" fill="none" marker-end="url(#arrowOpen)"/>
+
+    <!-- aligned tokens and injection strategy -->
+    <g transform="translate(1568 205)">
+      <rect x="0" y="0" width="64" height="50" class="alignO"/>
+      <rect x="6" y="-5" width="64" height="50" class="alignO"/>
+      <rect x="12" y="-10" width="64" height="50" class="alignO"/>
+      <rect x="18" y="-15" width="64" height="50" class="alignO"/>
+    </g>
+    <path d="M1652 235 H1696 C1715 235 1716 298 1750 298 H1768" class="orangeDash" marker-end="url(#arrowOrange)"/>
+    <text x="1660" y="268" class="small" font-weight="700">M<tspan baseline-shift="sub" font-size="13">inj</tspan></text>
+
+    <!-- right text examples and embedding layer -->
+    <path d="M1864 182 V138" stroke="#111" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+    <g transform="translate(1760 205)">
+      <rect x="0" y="0" width="210" height="48" class="texttok"/>
+      <rect x="8" y="-5" width="210" height="48" class="texttok"/>
+      <rect x="16" y="-10" width="210" height="48" class="texttok"/>
+      <rect x="24" y="-15" width="210" height="48" class="texttok"/>
+      <rect x="104" y="-15" width="50" height="68" fill="#fff6ef" stroke="#c96532" stroke-width="2"/>
+      <line x1="50" y1="-15" x2="50" y2="38" stroke="#111" stroke-width="2"/>
+      <line x1="104" y1="-15" x2="104" y2="38" stroke="#111" stroke-width="2"/>
+      <line x1="154" y1="-15" x2="154" y2="38" stroke="#111" stroke-width="2"/>
+    </g>
+
+    <path d="M1864 485 V465" stroke="#111" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+    <rect x="1748" y="443" width="248" height="35" class="rect"/>
+    <text x="1872" y="470" text-anchor="middle" class="txt">Embedding Layer</text>
+
+    <g transform="translate(1740 330)">
+      <rect x="0" y="0" width="250" height="82" rx="25" class="dash"/>
+      <rect x="37" y="20" width="68" height="52" class="texttok"/>
+      <rect x="105" y="20" width="68" height="52" class="texttok"/>
+      <rect x="173" y="20" width="68" height="52" class="texttok"/>
+      <rect x="112" y="20" width="52" height="52" fill="#fff" stroke="#111" stroke-width="2"/>
+      <rect x="74" y="12" width="110" height="12" class="texttok"/>
+    </g>
+    <path d="M1863 443 V419" stroke="#111" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+    <path d="M1897 330 V273" stroke="#111" stroke-width="3" fill="none" marker-end="url(#arrowOpen)"/>
+    <path d="M1864 272 V309" stroke="#c96532" stroke-width="3" fill="none" stroke-dasharray="10 8" marker-end="url(#arrowOrange)"/>
+
+    <g transform="translate(1720 535)">
+      <rect x="0" y="22" width="260" height="65" class="stack"/>
+      <rect x="10" y="12" width="260" height="65" class="stack"/>
+      <rect x="20" y="2" width="260" height="65" class="stack"/>
+      <rect x="30" y="-8" width="260" height="65" class="stack"/>
+      <rect x="108" y="14" width="70" height="38" fill="white" stroke="#111" stroke-width="2" stroke-dasharray="4 4"/>
+      <text x="160" y="39" text-anchor="middle" class="txt" font-size="22">Rep r<tspan baseline-shift="sub" font-size="15">i</tspan> , Label y<tspan baseline-shift="sub" font-size="15">i</tspan></text>
+    </g>
+    <path d="M1864 532 V489" stroke="#111" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+    <path d="M1598 662 V615" stroke="#111" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+    <path d="M1708 662 H1864 V613" stroke="#111" stroke-width="3" fill="none"/>
+
+    <text x="1432" y="793" text-anchor="middle" class="panel">(c)</text>
+  </g>
+
+  <!-- Legend -->
+  <g id="legend" transform="translate(20 852)">
+    <use href="#flame" x="0" y="0" width="28" height="35" color="#f2b43b"/>
+    <text x="35" y="26" class="txt" font-size="23">: Train-optional</text>
+
+    <use href="#flame" x="240" y="0" width="28" height="35" color="#e83d1f"/>
+    <text x="275" y="26" class="txt" font-size="23">: Train-required</text>
+
+    <use href="#snow" x="475" y="1" width="30" height="30" color="#43a6d7"/>
+    <text x="512" y="26" class="txt" font-size="23">: Train-free</text>
+
+    <rect x="662" y="-4" width="38" height="38" class="texttok"/>
+    <text x="710" y="26" class="txt" font-size="23">: Text token</text>
+
+    <rect x="886" y="-4" width="38" height="38" class="blueTok"/>
+    <rect x="934" y="-4" width="38" height="38" class="pinkTok"/>
+    <text x="984" y="26" class="txt" font-size="23">: Modality token</text>
+
+    <rect x="1210" y="-4" width="38" height="38" class="alignB"/>
+    <rect x="1258" y="-4" width="38" height="38" class="alignO"/>
+    <text x="1307" y="26" class="txt" font-size="23">: Aligned token</text>
+
+    <text x="1490" y="26" class="txt" font-size="23"><tspan font-weight="700">N</tspan> : Example nums</text>
+    <text x="1732" y="26" class="txt" font-size="23"><tspan font-weight="700">M</tspan><tspan baseline-shift="sub" font-size="15" font-weight="700">inj</tspan> : Injection strategy</text>
+  </g>
+</svg>

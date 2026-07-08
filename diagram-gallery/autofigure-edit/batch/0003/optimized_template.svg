@@ -1,0 +1,257 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 2037" width="3840" height="2037">
+  <!-- Define marker for arrows -->
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="black" />
+    </marker>
+    <marker id="arrow-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#88CA83" />
+    </marker>
+  </defs>
+
+  <!-- Background Rectangles -->
+  <!-- Section (a) Background -->
+  <rect x="12" y="12" width="3816" height="1080" fill="#EBEBEB" />
+  <!-- Section (b) Background -->
+  <rect x="12" y="1104" width="1914" height="921" fill="#FCE9DC" />
+  <!-- Section (c) Background -->
+  <rect x="1938" y="1104" width="1890" height="921" fill="#DEE6F8" />
+  
+  <!-- White Borders between sections -->
+  <line x1="0" y1="1092" x2="3840" y2="1092" stroke="white" stroke-width="24" />
+  <line x1="1926" y1="1092" x2="1926" y2="2037" stroke="white" stroke-width="24" />
+  <line x1="0" y1="0" x2="3840" y2="0" stroke="white" stroke-width="24" />
+  <line x1="0" y1="2037" x2="3840" y2="2037" stroke="white" stroke-width="24" />
+  <line x1="0" y1="0" x2="0" y2="2037" stroke="white" stroke-width="24" />
+  <line x1="3840" y1="0" x2="3840" y2="2037" stroke="white" stroke-width="24" />
+
+  <!-- SECTION (a) Overall MINI Architecture -->
+  <text x="45" y="110" font-family="Times New Roman, serif" font-size="75" fill="black">(a) Overall MINI Architecture</text>
+
+  <!-- Query Function Box -->
+  <rect x="1100" y="170" width="595" height="105" rx="15" ry="15" fill="#D3E6D8" stroke="#3F6196" stroke-width="4" />
+  <text x="1397" y="235" font-family="Times New Roman, serif" font-size="55" fill="black" text-anchor="middle">Query function <tspan font-style="italic">q</tspan>(·)</text>
+
+  <!-- Backbone Box (Dashed) -->
+  <rect x="1465" y="440" width="900" height="470" rx="30" ry="30" fill="none" stroke="#3F6196" stroke-width="10" stroke-dasharray="30, 20" />
+  
+  <!-- Backbone Inner Shapes (Left to Right) -->
+  <polygon points="1520,510 1520,840 1890,700 1890,650" fill="none" stroke="#3F6196" stroke-width="4" />
+  <polygon points="1930,650 1930,700 2300,840 2300,510" fill="none" stroke="#3F6196" stroke-width="4" />
+  
+  <!-- Left side blocks -->
+  <rect x="1540" y="525" width="40" height="145" fill="#F4D068" />
+  <rect x="1540" y="670" width="40" height="85" fill="#F4AC68" />
+  <rect x="1540" y="755" width="40" height="70" fill="#4B77C4" />
+
+  <rect x="1600" y="550" width="40" height="120" fill="#F4D068" />
+  <rect x="1600" y="670" width="40" height="75" fill="#F4AC68" />
+  <rect x="1600" y="745" width="40" height="60" fill="#4B77C4" />
+
+  <rect x="1660" y="575" width="40" height="95" fill="#F4D068" />
+  <rect x="1660" y="670" width="40" height="65" fill="#F4AC68" />
+  <rect x="1660" y="735" width="40" height="50" fill="#4B77C4" />
+
+  <rect x="1720" y="600" width="40" height="70" fill="#F4D068" />
+  <rect x="1720" y="670" width="40" height="55" fill="#F4AC68" />
+  <rect x="1720" y="725" width="40" height="40" fill="#4B77C4" />
+
+  <rect x="1780" y="625" width="40" height="45" fill="#F4D068" />
+  <rect x="1780" y="670" width="40" height="45" fill="#F4AC68" />
+  <rect x="1780" y="715" width="40" height="30" fill="#4B77C4" />
+
+  <rect x="1840" y="650" width="40" height="20" fill="#F4D068" />
+  <rect x="1840" y="670" width="40" height="35" fill="#F4AC68" />
+  <rect x="1840" y="705" width="40" height="20" fill="#4B77C4" />
+
+  <!-- Right side blocks -->
+  <rect x="1950" y="650" width="40" height="20" fill="#F4D068" />
+  <rect x="1950" y="670" width="40" height="35" fill="#F4AC68" />
+  <rect x="1950" y="705" width="40" height="20" fill="#4B77C4" />
+
+  <rect x="2010" y="625" width="40" height="45" fill="#F4D068" />
+  <rect x="2010" y="670" width="40" height="45" fill="#F4AC68" />
+  <rect x="2010" y="715" width="40" height="30" fill="#4B77C4" />
+
+  <rect x="2070" y="600" width="40" height="70" fill="#F4D068" />
+  <rect x="2070" y="670" width="40" height="55" fill="#F4AC68" />
+  <rect x="2070" y="725" width="40" height="40" fill="#4B77C4" />
+
+  <rect x="2130" y="575" width="40" height="95" fill="#F4D068" />
+  <rect x="2130" y="670" width="40" height="65" fill="#F4AC68" />
+  <rect x="2130" y="735" width="40" height="50" fill="#4B77C4" />
+
+  <rect x="2190" y="550" width="40" height="120" fill="#F4D068" />
+  <rect x="2190" y="670" width="40" height="75" fill="#F4AC68" />
+  <rect x="2190" y="745" width="40" height="60" fill="#4B77C4" />
+
+  <rect x="2250" y="525" width="40" height="145" fill="#F4D068" />
+  <rect x="2250" y="670" width="40" height="85" fill="#F4AC68" />
+  <rect x="2250" y="755" width="40" height="70" fill="#4B77C4" />
+
+  <text x="1915" y="960" font-family="Times New Roman, serif" font-size="55" fill="black" text-anchor="middle">Any backbone</text>
+  <text x="1915" y="1030" font-family="Times New Roman, serif" font-size="55" fill="black" text-anchor="middle">with MINI-Conv</text>
+
+  <!-- Input and Output Text -->
+  <text x="950" y="880" font-family="Times New Roman, serif" font-size="55" fill="black" text-anchor="middle">input <tspan font-style="italic">x</tspan></text>
+  <text x="2980" y="880" font-family="Times New Roman, serif" font-size="55" fill="black" text-anchor="middle">output <tspan font-style="italic">y</tspan></text>
+
+  <!-- Placeholders for images -->
+  <g id="AF01">
+    <rect x="815" y="565" width="270" height="270" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="950" y="700" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="55" font-family="Arial, sans-serif" font-weight="bold">&lt;AF&gt;01</text>
+  </g>
+  <g id="AF02">
+    <rect x="1085" y="618" width="55" height="55" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="1112" y="645" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="14" font-family="Arial, sans-serif" font-weight="bold">&lt;AF&gt;02</text>
+  </g>
+  <g id="AF03">
+    <rect x="2845" y="565" width="270" height="270" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="2980" y="700" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="55" font-family="Arial, sans-serif" font-weight="bold">&lt;AF&gt;03</text>
+  </g>
+
+  <!-- Arrows for Section (a) -->
+  <path d="M 875 425 L 875 220 L 1080 220" fill="none" stroke="black" stroke-width="10" marker-end="url(#arrow)" />
+  <path d="M 1695 220 L 1915 220 L 1915 420" fill="none" stroke="black" stroke-width="10" marker-end="url(#arrow)" />
+  <path d="M 1160 675 L 1445 675" fill="none" stroke="black" stroke-width="10" marker-end="url(#arrow)" />
+  <path d="M 2385 675 L 2745 675" fill="none" stroke="black" stroke-width="10" marker-end="url(#arrow)" />
+
+
+  <!-- SECTION (b) MINI-Conv -->
+  <text x="45" y="1195" font-family="Times New Roman, serif" font-size="75" fill="black">(b) MINI-Conv</text>
+
+  <!-- q(x) and h input text -->
+  <text x="115" y="1635" font-family="Times New Roman, serif" font-size="65" fill="black" font-style="italic">q(x)</text>
+  <text x="175" y="1880" font-family="Times New Roman, serif" font-size="65" fill="black" font-style="italic">h</text>
+  <text x="35" y="1960" font-family="Times New Roman, serif" font-size="55" fill="black">hidden state</text>
+  <text x="1745" y="1635" font-family="Times New Roman, serif" font-size="65" fill="black" font-style="italic">h'</text>
+
+  <!-- Bias Embeddings -->
+  <text x="565" y="1285" font-family="Times New Roman, serif" font-size="45" fill="black">bias embeddings</text>
+  <rect x="630" y="1310" width="230" height="230" rx="15" ry="15" fill="none" stroke="#00A2E8" stroke-width="6" stroke-dasharray="20, 10" />
+  
+  <!-- Bias embedding squares -->
+  <rect x="680" y="1320" width="130" height="130" fill="#4B77C4" stroke="black" stroke-width="2" />
+  <rect x="670" y="1335" width="130" height="130" fill="#F4AC68" stroke="black" stroke-width="2" />
+  <rect x="660" y="1350" width="130" height="130" fill="#F4D068" stroke="black" stroke-width="2" />
+  <rect x="650" y="1365" width="130" height="130" fill="#A8D08D" stroke="black" stroke-width="2" />
+
+  <!-- Weight Embeddings -->
+  <text x="540" y="1795" font-family="Times New Roman, serif" font-size="45" fill="black">weight embeddings</text>
+  <rect x="590" y="1485" width="270" height="260" rx="15" ry="15" fill="none" stroke="#3F6196" stroke-width="6" stroke-dasharray="20, 10" />
+
+  <!-- Weight embedding squares -->
+  <rect x="680" y="1505" width="160" height="160" fill="#4B77C4" stroke="black" stroke-width="2" />
+  <rect x="665" y="1525" width="160" height="160" fill="#F4AC68" stroke="black" stroke-width="2" />
+  <rect x="650" y="1545" width="160" height="160" fill="#F4D068" stroke="black" stroke-width="2" />
+  <rect x="635" y="1565" width="160" height="160" fill="#C55A11" stroke="black" stroke-width="2" />
+  <rect x="620" y="1585" width="160" height="160" fill="#A8D08D" stroke="black" stroke-width="2" />
+
+  <!-- Transformed Embeddings (Blue Bars) -->
+  <rect x="1020" y="1310" width="30" height="140" fill="#4B77C4" stroke="black" stroke-width="2" />
+  <rect x="1010" y="1490" width="40" height="230" fill="#4B77C4" stroke="black" stroke-width="2" />
+
+  <!-- Operations Circles -->
+  <!-- R: reshape -->
+  <circle cx="1185" cy="1605" r="45" fill="none" stroke="black" stroke-width="6" />
+  <text x="1185" y="1625" font-family="Times New Roman, serif" font-size="65" fill="black" text-anchor="middle">R</text>
+
+  <!-- *: convolution -->
+  <circle cx="1340" cy="1605" r="45" fill="none" stroke="black" stroke-width="6" />
+  <text x="1340" y="1635" font-family="Times New Roman, serif" font-size="80" fill="black" text-anchor="middle">*</text>
+
+  <!-- +: Element-wise addition -->
+  <circle cx="1635" cy="1605" r="45" fill="none" stroke="black" stroke-width="6" />
+  <line x1="1590" y1="1605" x2="1680" y2="1605" stroke="black" stroke-width="6" />
+  <line x1="1635" y1="1560" x2="1635" y2="1650" stroke="black" stroke-width="6" />
+
+  <!-- Legend -->
+  <circle cx="1060" cy="1910" r="30" fill="none" stroke="black" stroke-width="4" />
+  <text x="1060" y="1925" font-family="Times New Roman, serif" font-size="45" fill="black" text-anchor="middle">R</text>
+  <text x="1100" y="1925" font-family="Times New Roman, serif" font-size="55" fill="black">: reshape</text>
+
+  <circle cx="1405" cy="1910" r="30" fill="none" stroke="black" stroke-width="4" />
+  <text x="1405" y="1930" font-family="Times New Roman, serif" font-size="60" fill="black" text-anchor="middle">*</text>
+  <text x="1445" y="1925" font-family="Times New Roman, serif" font-size="55" fill="black">: convolution</text>
+
+  <circle cx="1060" cy="1985" r="30" fill="none" stroke="black" stroke-width="4" />
+  <line x1="1030" y1="1985" x2="1090" y2="1985" stroke="black" stroke-width="4" />
+  <line x1="1060" y1="1955" x2="1060" y2="2015" stroke="black" stroke-width="4" />
+  <text x="1100" y="2000" font-family="Times New Roman, serif" font-size="55" fill="black">: Element-wise addition</text>
+
+  <!-- Arrows for Section (b) -->
+  <path d="M 235 1615 L 570 1615" fill="none" stroke="black" stroke-width="10" marker-end="url(#arrow)" />
+  <path d="M 405 1615 L 405 1380 L 610 1380" fill="none" stroke="black" stroke-width="10" marker-end="url(#arrow)" />
+  <path d="M 860 1380 L 1000 1380" fill="none" stroke="black" stroke-width="10" marker-end="url(#arrow)" />
+  <path d="M 780 1605 L 990 1605" fill="none" stroke="black" stroke-width="10" marker-end="url(#arrow)" />
+  <path d="M 1050 1605 L 1120 1605" fill="none" stroke="black" stroke-width="10" marker-end="url(#arrow)" />
+  <path d="M 1230 1605 L 1275 1605" fill="none" stroke="black" stroke-width="10" marker-end="url(#arrow)" />
+  <path d="M 1385 1605 L 1570 1605" fill="none" stroke="black" stroke-width="10" marker-end="url(#arrow)" />
+  <path d="M 1050 1380 L 1635 1380 L 1635 1540" fill="none" stroke="black" stroke-width="10" marker-end="url(#arrow)" />
+  <path d="M 1680 1605 L 1725 1605" fill="none" stroke="black" stroke-width="10" marker-end="url(#arrow)" />
+  <path d="M 235 1860 L 1450 1860 L 1450 1680" fill="none" stroke="black" stroke-width="10" marker-end="url(#arrow)" />
+
+
+  <!-- SECTION (c) Query function q(·) -->
+  <text x="1985" y="1195" font-family="Times New Roman, serif" font-size="75" fill="black">(c) Query function <tspan font-style="italic">q</tspan>(·)</text>
+
+  <!-- Initial input x -->
+  <text x="1970" y="1740" font-family="Times New Roman, serif" font-size="65" fill="black" font-style="italic">x</text>
+  <path d="M 2010 1720 L 2080 1720" fill="none" stroke="black" stroke-width="10" marker-end="url(#arrow)" />
+
+  <!-- Patching Box -->
+  <rect x="2100" y="1640" width="330" height="170" rx="30" ry="30" fill="#4B77C4" stroke="black" stroke-width="2" />
+  <text x="2265" y="1740" font-family="Times New Roman, serif" font-size="55" fill="white" text-anchor="middle">patching</text>
+
+  <!-- Degradation Classification MLP -->
+  <rect x="2095" y="1295" width="370" height="160" rx="20" ry="20" fill="#FCE9DC" stroke="#FFC000" stroke-width="6" stroke-dasharray="20, 10" />
+  <text x="2280" y="1350" font-family="Times New Roman, serif" font-size="45" fill="black" text-anchor="middle">Degradation</text>
+  <text x="2280" y="1400" font-family="Times New Roman, serif" font-size="45" fill="black" text-anchor="middle">Classification</text>
+  <text x="2280" y="1450" font-family="Times New Roman, serif" font-size="45" fill="black" text-anchor="middle">MLP</text>
+
+  <path d="M 2280 1640 L 2280 1475" fill="none" stroke="black" stroke-width="10" marker-end="url(#arrow)" />
+
+  <!-- Switch Mechanism -->
+  <rect x="2535" y="1530" width="220" height="370" fill="none" stroke="#88CA83" stroke-width="6" stroke-dasharray="20, 10" />
+  <text x="2645" y="1960" font-family="Times New Roman, serif" font-size="55" fill="black" text-anchor="middle">switch</text>
+
+  <path d="M 2430 1720 L 2580 1720" fill="none" stroke="black" stroke-width="10" />
+  
+  <circle cx="2585" cy="1720" r="15" fill="black" />
+  <circle cx="2700" cy="1600" r="15" fill="black" />
+  <circle cx="2700" cy="1840" r="15" fill="black" />
+  
+  <path d="M 2585 1720 L 2690 1605" fill="none" stroke="black" stroke-width="8" />
+
+  <!-- Green Control Arrow -->
+  <path d="M 2465 1375 L 2645 1375 L 2645 1510" fill="none" stroke="#88CA83" stroke-width="6" marker-end="url(#arrow-green)" />
+
+  <!-- Global MLP -->
+  <rect x="2810" y="1510" width="280" height="180" rx="40" ry="40" fill="#E2E2E2" stroke="#8B5A2B" stroke-width="6" />
+  <text x="2950" y="1590" font-family="Times New Roman, serif" font-size="55" fill="black" text-anchor="middle">Global</text>
+  <text x="2950" y="1650" font-family="Times New Roman, serif" font-size="55" fill="black" text-anchor="middle">MLP</text>
+
+  <!-- Local MLP -->
+  <rect x="2810" y="1750" width="280" height="180" rx="40" ry="40" fill="#E2E2E2" stroke="#8B5A2B" stroke-width="6" />
+  <text x="2950" y="1830" font-family="Times New Roman, serif" font-size="55" fill="black" text-anchor="middle">Local</text>
+  <text x="2950" y="1890" font-family="Times New Roman, serif" font-size="55" fill="black" text-anchor="middle">MLP</text>
+
+  <!-- Arrows from switch to MLPs -->
+  <path d="M 2700 1600 L 2790 1600" fill="none" stroke="black" stroke-width="10" marker-end="url(#arrow)" />
+  <path d="M 2700 1840 L 2790 1840" fill="none" stroke="black" stroke-width="10" marker-end="url(#arrow)" />
+
+  <!-- Softmax & Argmax -->
+  <rect x="3250" y="1640" width="230" height="170" rx="50" ry="50" fill="#4B77C4" stroke="black" stroke-width="2" />
+  <text x="3365" y="1705" font-family="Times New Roman, serif" font-size="45" fill="white" text-anchor="middle">softmax</text>
+  <text x="3365" y="1745" font-family="Times New Roman, serif" font-size="45" fill="white" text-anchor="middle">&amp;</text>
+  <text x="3365" y="1785" font-family="Times New Roman, serif" font-size="45" fill="white" text-anchor="middle">argmax</text>
+
+  <!-- Arrows to Softmax -->
+  <path d="M 3090 1600 L 3170 1600 L 3170 1720 L 3230 1720" fill="none" stroke="black" stroke-width="10" marker-end="url(#arrow)" />
+  <path d="M 3090 1840 L 3170 1840 L 3170 1720" fill="none" stroke="black" stroke-width="10" />
+
+  <!-- Final output q(x) -->
+  <path d="M 3480 1720 L 3560 1720" fill="none" stroke="black" stroke-width="10" marker-end="url(#arrow)" />
+  <text x="3580" y="1740" font-family="Times New Roman, serif" font-size="65" fill="black" font-style="italic">q(x)</text>
+
+</svg>

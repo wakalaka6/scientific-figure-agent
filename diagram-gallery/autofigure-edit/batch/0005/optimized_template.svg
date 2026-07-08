@@ -1,0 +1,346 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 1784" width="3840" height="1784">
+  <defs>
+    <style>
+      .title { font-family: sans-serif; font-weight: bold; font-size: 56px; text-anchor: middle; }
+      .subtitle { font-family: sans-serif; font-weight: bold; font-size: 48px; text-anchor: middle; fill: white; }
+      .text-normal { font-family: sans-serif; font-size: 40px; }
+      .text-bold { font-family: sans-serif; font-weight: bold; font-size: 40px; }
+      .text-small { font-family: sans-serif; font-size: 32px; }
+      .text-blue { fill: #2196F3; }
+      .text-center { text-anchor: middle; }
+      .text-italic { font-style: italic; }
+      .bg-purple { fill: #7986CB; }
+      .bg-light-blue { fill: #BBDEFB; }
+      .bg-light-gray { fill: #E0E0E0; }
+      .bg-white { fill: white; }
+      .stroke-black { stroke: black; stroke-width: 4; }
+      .stroke-gray { stroke: #9E9E9E; stroke-width: 4; }
+      .stroke-dashed { stroke-dasharray: 10,10; }
+      .arrow { stroke: black; stroke-width: 6; fill: none; }
+      .arrow-red { stroke: red; stroke-width: 6; fill: none; }
+      .arrow-green { stroke: #4CAF50; stroke-width: 6; fill: none; }
+      .check-green { fill: #4CAF50; }
+      .cross-red { fill: #F44336; }
+      .cross-green { fill: #4CAF50; }
+      .speech-bubble { fill: white; rx: 20; ry: 20; }
+      .speech-bubble-tail { fill: white; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="black" />
+    </marker>
+    <marker id="arrowhead-red" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="red" />
+    </marker>
+    <marker id="arrowhead-green" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4CAF50" />
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="3840" height="1784" fill="white" />
+
+  <!-- Initial Survey Section -->
+  <text x="530" y="80" class="title">Initial Survey</text>
+
+  <!-- Prolific Screening -->
+  <rect x="150" y="110" width="880" height="270" class="bg-purple" />
+  <text x="590" y="170" class="subtitle">Prolific Screening</text>
+  <rect x="190" y="200" width="800" height="150" class="bg-white" />
+  
+  <!-- Checkmarks -->
+  <path d="M 210 240 L 225 255 L 250 215" class="check-green" stroke="#4CAF50" stroke-width="6" fill="none"/>
+  <path d="M 210 290 L 225 305 L 250 265" class="check-green" stroke="#4CAF50" stroke-width="6" fill="none"/>
+  <path d="M 210 340 L 225 355 L 250 315" class="check-green" stroke="#4CAF50" stroke-width="6" fill="none"/>
+  
+  <text x="260" y="245" class="text-normal">US residents</text>
+  <text x="260" y="295" class="text-normal">English speaking</text>
+  <text x="260" y="345" class="text-normal">COVID/Climate views (+ or -)</text>
+
+  <!-- Arrow down -->
+  <line x1="590" y1="380" x2="590" y2="440" class="arrow" marker-end="url(#arrowhead)" />
+  <line x1="590" y1="540" x2="590" y2="580" class="arrow" marker-end="url(#arrowhead)" />
+
+  <!-- AF02 Placeholder -->
+  <g id="AF02">
+    <rect x="540" y="450" width="80" height="80" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="580" y="490" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="20">&lt;AF&gt;02</text>
+  </g>
+  
+  <text x="760" y="470" class="text-normal text-center">1650</text>
+  <text x="760" y="520" class="text-normal text-center">screened</text>
+
+  <!-- Belief Assessment -->
+  <rect x="160" y="590" width="870" height="330" class="bg-purple" />
+  <text x="595" y="650" class="subtitle">Belief Assessment</text>
+  <rect x="190" y="680" width="810" height="210" class="bg-white" />
+  <text x="595" y="730" class="text-normal text-center">COVID origin: man-made vs natural?</text>
+  <text x="595" y="780" class="text-normal text-center">COVID vaccines: safe and effective?</text>
+  <text x="595" y="830" class="text-normal text-center">Climate: human-caused vs natural cycles?</text>
+  <text x="595" y="870" class="text-normal text-center">.............</text>
+
+  <!-- Branching Arrows -->
+  <line x1="595" y1="920" x2="595" y2="980" class="arrow" />
+  <line x1="595" y1="980" x2="330" y2="980" class="arrow-red" />
+  <line x1="330" y1="980" x2="330" y2="1050" class="arrow-red" marker-end="url(#arrowhead-red)" />
+  
+  <line x1="595" y1="980" x2="860" y2="980" class="arrow-green" />
+  <line x1="860" y1="980" x2="860" y2="1050" class="arrow-green" marker-end="url(#arrowhead-green)" />
+
+  <!-- Skeptical Belief -->
+  <rect x="25" y="1060" width="530" height="300" class="bg-light-blue" />
+  <text x="290" y="1120" class="text-bold text-center">Skeptical belief</text>
+  <text x="290" y="1170" class="text-normal text-center">107 participants</text>
+  
+  <path d="M 40 1210 L 60 1230 L 90 1190" class="check-green" stroke="#F44336" stroke-width="6" fill="none"/>
+  <text x="100" y="1225" class="text-normal">COVID is human made</text>
+  
+  <path d="M 45 1255 L 75 1285 M 75 1255 L 45 1285" class="cross-red" stroke="#F44336" stroke-width="6" fill="none"/>
+  <text x="100" y="1275" class="text-normal">Vaccine are safe</text>
+  
+  <path d="M 45 1305 L 75 1335 M 75 1305 L 45 1335" class="cross-red" stroke="#F44336" stroke-width="6" fill="none"/>
+  <text x="100" y="1325" class="text-normal">Climate is human-caused</text>
+
+  <!-- Mainstream Belief -->
+  <rect x="585" y="1060" width="530" height="300" class="bg-light-blue" />
+  <text x="850" y="1120" class="text-bold text-center">Mainstream belief</text>
+  <text x="850" y="1170" class="text-normal text-center">107 participants</text>
+  
+  <path d="M 605 1205 L 635 1235 M 635 1205 L 605 1235" class="cross-green" stroke="#4CAF50" stroke-width="6" fill="none"/>
+  <text x="650" y="1225" class="text-normal">COVID is human made</text>
+  
+  <path d="M 605 1260 L 620 1275 L 645 1240" class="check-green" stroke="#4CAF50" stroke-width="6" fill="none"/>
+  <text x="650" y="1275" class="text-normal">Vaccine are safe</text>
+  
+  <path d="M 605 1310 L 620 1325 L 645 1290" class="check-green" stroke="#4CAF50" stroke-width="6" fill="none"/>
+  <text x="650" y="1325" class="text-normal">Climate is human-caused</text>
+
+  <!-- Plus Sign -->
+  <text x="570" y="1450" font-family="sans-serif" font-weight="bold" font-size="100" text-anchor="middle">+</text>
+
+  <!-- Demographic Information -->
+  <rect x="190" y="1480" width="760" height="280" class="bg-purple" />
+  <text x="570" y="1540" class="subtitle">Demographic Information</text>
+  <rect x="220" y="1580" width="700" height="150" class="bg-white" />
+  <text x="570" y="1640" class="text-normal text-center">Age, Gender, Education,</text>
+  <text x="570" y="1690" class="text-normal text-center">Residence, Political Stance, Income</text>
+
+  <!-- Protocols Section -->
+  <text x="2100" y="80" class="title">Protocols</text>
+
+  <!-- Example Claim -->
+  <text x="1480" y="130" class="text-bold text-blue text-center">Example Claim</text>
+  <rect x="1180" y="150" width="600" height="130" fill="#E0E0E0" />
+  <text x="1480" y="200" class="text-bold text-italic text-center">Cloth masks less effective than</text>
+  <text x="1480" y="250" class="text-bold text-italic text-center">surgical masks</text>
+
+  <!-- Judge's Initial Belief -->
+  <rect x="1900" y="150" width="620" height="130" fill="white" class="stroke-gray stroke-dashed" />
+  <text x="2210" y="200" class="text-normal text-center">Judge's Initial Belief: True/False</text>
+  <text x="2210" y="250" class="text-normal text-center">Confidence: (0-100%)</text>
+
+  <!-- Legend -->
+  <rect x="2680" y="40" width="880" height="260" fill="#E0E0E0" class="stroke-gray" />
+  
+  <!-- AF01 Placeholder -->
+  <g id="AF01">
+    <rect x="2700" y="60" width="80" height="80" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="2740" y="100" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="20">&lt;AF&gt;01</text>
+  </g>
+  <text x="3230" y="100" class="text-normal text-blue text-center">AI expert can access corresponding</text>
+  <text x="3230" y="150" class="text-normal text-blue text-center">sources and cite them</text>
+  
+  <!-- AF12 Placeholder -->
+  <g id="AF12">
+    <rect x="2700" y="190" width="80" height="80" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="2740" y="230" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="20">&lt;AF&gt;12</text>
+  </g>
+  <text x="2810" y="240" class="text-normal text-blue">Cited references are shown to judges</text>
+
+
+  <!-- Consultancy Section -->
+  <rect x="1135" y="350" width="1030" height="1420" fill="white" class="stroke-black" rx="20" ry="20" />
+  <rect x="1135" y="350" width="1030" height="90" class="bg-purple" rx="20" ry="20" />
+  <rect x="1135" y="420" width="1030" height="20" class="bg-purple" />
+  <text x="1650" y="415" class="subtitle">Consultancy</text>
+  
+  <text x="1160" y="1060" class="text-normal text-bold text-center" transform="rotate(-90 1160 1060)">One AI consultant argues a random position between True (50%) or False (50%)</text>
+
+  <!-- Consultancy Round 1 -->
+  <rect x="1220" y="460" width="920" height="260" class="bg-light-gray" rx="20" ry="20" />
+  <text x="1250" y="520" class="text-bold">Round 1</text>
+  
+  <!-- AF10 Placeholder -->
+  <g id="AF10">
+    <rect x="1230" y="550" width="80" height="80" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="1270" y="590" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="20">&lt;AF&gt;10</text>
+  </g>
+  <rect x="1350" y="540" width="760" height="110" class="speech-bubble" />
+  <polygon points="1350,570 1330,590 1350,610" class="speech-bubble-tail" />
+  <text x="1370" y="590" class="text-normal">Studies show surgical masks filter</text>
+  <text x="1370" y="635" class="text-normal">60-80% of particles...</text>
+  
+  <!-- AF17 Placeholder -->
+  <g id="AF17">
+    <rect x="1230" y="700" width="80" height="80" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="1270" y="740" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="20">&lt;AF&gt;17</text>
+  </g>
+  <rect x="1350" y="700" width="760" height="80" class="speech-bubble" />
+  <polygon points="1350,720 1330,740 1350,760" class="speech-bubble-tail" />
+  <text x="1370" y="750" class="text-normal">What about multi-layer cloth masks?</text>
+
+  <!-- Consultancy Round 2 -->
+  <rect x="1220" y="750" width="920" height="260" class="bg-light-gray" rx="20" ry="20" />
+  <text x="1250" y="810" class="text-bold">Round 2</text>
+  
+  <!-- AF06 Placeholder -->
+  <g id="AF06">
+    <rect x="1230" y="840" width="80" height="80" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="1270" y="880" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="20">&lt;AF&gt;06</text>
+  </g>
+  <rect x="1350" y="830" width="760" height="110" class="speech-bubble" />
+  <polygon points="1350,860 1330,880 1350,900" class="speech-bubble-tail" />
+  <text x="1370" y="880" class="text-normal">Even 3-layer cloth masks only achieve</text>
+  <text x="1370" y="925" class="text-normal">50% filtration...</text>
+  
+  <!-- AF08 Placeholder -->
+  <g id="AF08">
+    <rect x="1230" y="990" width="80" height="80" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="1270" y="1030" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="20">&lt;AF&gt;08</text>
+  </g>
+  <rect x="1350" y="990" width="760" height="80" class="speech-bubble" />
+  <polygon points="1350,1010 1330,1030 1350,1050" class="speech-bubble-tail" />
+  <text x="1370" y="1040" class="text-normal">Are there any exceptions to this?</text>
+
+  <!-- Consultancy Round 3 -->
+  <rect x="1220" y="1040" width="920" height="420" class="bg-light-gray" rx="20" ry="20" />
+  <text x="1250" y="1100" class="text-bold">Round 3</text>
+  
+  <!-- AF07 Placeholder -->
+  <g id="AF07">
+    <rect x="1230" y="1130" width="80" height="80" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="1270" y="1170" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="20">&lt;AF&gt;07</text>
+  </g>
+  <rect x="1350" y="1120" width="760" height="110" class="speech-bubble" />
+  <polygon points="1350,1150 1330,1170 1350,1190" class="speech-bubble-tail" />
+  <text x="1370" y="1170" class="text-normal">WHO recommends surgical over cloth</text>
+  <text x="1370" y="1215" class="text-normal">masks...</text>
+  
+  <!-- AF18 Placeholder -->
+  <g id="AF18">
+    <rect x="1230" y="1310" width="80" height="80" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="1270" y="1350" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="20">&lt;AF&gt;18</text>
+  </g>
+  <rect x="1350" y="1290" width="760" height="120" class="speech-bubble" />
+  <polygon points="1350,1330 1330,1350 1350,1370" class="speech-bubble-tail" />
+  <text x="1730" y="1340" class="text-normal text-center">Final decision: True/False</text>
+  <text x="1730" y="1390" class="text-normal text-center">Confidence: 0-100% | Justification</text>
+
+
+  <!-- Debate Section -->
+  <rect x="2210" y="350" width="1610" height="1420" fill="white" class="stroke-black" rx="20" ry="20" />
+  <rect x="2210" y="350" width="1610" height="90" class="bg-purple" rx="20" ry="20" />
+  <rect x="2210" y="420" width="1610" height="20" class="bg-purple" />
+  <text x="3015" y="415" class="subtitle">Debate</text>
+  
+  <text x="3780" y="1060" class="text-normal text-bold text-center" transform="rotate(-90 3780 1060)">Two AI debaters argue opposing positions between True vs. False (100%)</text>
+
+  <!-- Debate Round 1 -->
+  <rect x="2230" y="460" width="1510" height="400" class="bg-light-gray" rx="20" ry="20" />
+  <text x="2260" y="520" class="text-bold">Round 1</text>
+  
+  <!-- AF03 Placeholder -->
+  <g id="AF03">
+    <rect x="2240" y="550" width="80" height="80" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="2280" y="590" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="20">&lt;AF&gt;03</text>
+  </g>
+  <rect x="2350" y="550" width="550" height="80" class="speech-bubble" />
+  <polygon points="2350,570 2330,590 2350,610" class="speech-bubble-tail" />
+  <text x="2370" y="600" class="text-normal">Surgical masks filter 60-80%...</text>
+  
+  <!-- AF16 Placeholder -->
+  <g id="AF16">
+    <rect x="2940" y="550" width="80" height="80" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="2980" y="590" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="20">&lt;AF&gt;16</text>
+  </g>
+  <rect x="3050" y="540" width="650" height="110" class="speech-bubble" />
+  <polygon points="3050,570 3030,590 3050,610" class="speech-bubble-tail" />
+  <text x="3070" y="590" class="text-normal">Quality cloth masks can be</text>
+  <text x="3070" y="635" class="text-normal">effective...</text>
+  
+  <!-- AF11 Placeholder -->
+  <g id="AF11">
+    <rect x="2600" y="730" width="80" height="80" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="2640" y="770" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="20">&lt;AF&gt;11</text>
+  </g>
+  <rect x="2710" y="730" width="700" height="80" class="speech-bubble" />
+  <polygon points="2710,750 2690,770 2710,790" class="speech-bubble-tail" />
+  <text x="2730" y="780" class="text-normal">What defines 'quality' cloth masks?</text>
+
+  <!-- Debate Round 2 -->
+  <rect x="2230" y="890" width="1510" height="400" class="bg-light-gray" rx="20" ry="20" />
+  <text x="2260" y="950" class="text-bold">Round 2</text>
+  
+  <!-- AF13 Placeholder -->
+  <g id="AF13">
+    <rect x="2240" y="980" width="80" height="80" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="2280" y="1020" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="20">&lt;AF&gt;13</text>
+  </g>
+  <rect x="2350" y="970" width="550" height="110" class="speech-bubble" />
+  <polygon points="2350,1000 2330,1020 2350,1040" class="speech-bubble-tail" />
+  <text x="2370" y="1020" class="text-normal">3-layer cloth still only 50%</text>
+  <text x="2370" y="1065" class="text-normal">effective...</text>
+  
+  <!-- AF05 Placeholder -->
+  <g id="AF05">
+    <rect x="2900" y="980" width="80" height="80" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="2940" y="1020" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="20">&lt;AF&gt;05</text>
+  </g>
+  <rect x="3010" y="970" width="690" height="110" class="speech-bubble" />
+  <polygon points="3010,1000 2990,1020 3010,1040" class="speech-bubble-tail" />
+  <text x="3030" y="1020" class="text-normal">But availability and fit matter</text>
+  <text x="3030" y="1065" class="text-normal">too...</text>
+  
+  <!-- AF15 Placeholder -->
+  <g id="AF15">
+    <rect x="2600" y="1160" width="80" height="80" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="2640" y="1200" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="20">&lt;AF&gt;15</text>
+  </g>
+  <rect x="2710" y="1160" width="700" height="80" class="speech-bubble" />
+  <polygon points="2710,1180 2690,1200 2710,1220" class="speech-bubble-tail" />
+  <text x="2730" y="1210" class="text-normal">How important is proper fit?</text>
+
+  <!-- Debate Round 3 -->
+  <rect x="2230" y="1320" width="1510" height="420" class="bg-light-gray" rx="20" ry="20" />
+  <text x="2260" y="1380" class="text-bold">Round 3</text>
+  
+  <!-- AF09 Placeholder -->
+  <g id="AF09">
+    <rect x="2240" y="1410" width="80" height="80" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="2280" y="1450" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="20">&lt;AF&gt;09</text>
+  </g>
+  <rect x="2350" y="1400" width="550" height="110" class="speech-bubble" />
+  <polygon points="2350,1430 2330,1450 2350,1470" class="speech-bubble-tail" />
+  <text x="2370" y="1450" class="text-normal">Medical studies prove</text>
+  <text x="2370" y="1495" class="text-normal">superiority...</text>
+  
+  <!-- AF04 Placeholder -->
+  <g id="AF04">
+    <rect x="2940" y="1410" width="80" height="80" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="2980" y="1450" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="20">&lt;AF&gt;04</text>
+  </g>
+  <rect x="3050" y="1400" width="650" height="110" class="speech-bubble" />
+  <polygon points="3050,1430 3030,1450 3050,1470" class="speech-bubble-tail" />
+  <text x="3070" y="1450" class="text-normal">Real-world usage differs from</text>
+  <text x="3070" y="1495" class="text-normal">labs...</text>
+  
+  <!-- AF14 Placeholder -->
+  <g id="AF14">
+    <rect x="2600" y="1600" width="80" height="80" fill="#808080" stroke="black" stroke-width="2"/>
+    <text x="2640" y="1640" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="20">&lt;AF&gt;14</text>
+  </g>
+  <rect x="2710" y="1580" width="760" height="120" class="speech-bubble" />
+  <polygon points="2710,1620 2690,1640 2710,1660" class="speech-bubble-tail" />
+  <text x="3090" y="1630" class="text-normal text-center">Final decision: True/False</text>
+  <text x="3090" y="1680" class="text-normal text-center">Confidence: 0-100% | Justification</text>
+
+</svg>

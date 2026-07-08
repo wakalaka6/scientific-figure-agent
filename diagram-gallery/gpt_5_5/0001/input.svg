@@ -1,0 +1,275 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1950" height="956" viewBox="0 0 1950 956">
+  <defs>
+    <marker id="arrow-gray" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#9f9f9f"/>
+    </marker>
+    <style>
+      .dashbox{fill:#fff;stroke:#b9b9b9;stroke-width:4;stroke-dasharray:25 18;stroke-linecap:round;}
+      .graybox{fill:#d6d6d6;stroke:none;}
+      .serif{font-family:"Times New Roman", Times, serif;fill:#000;}
+      .ital{font-style:italic;}
+      .bold{font-weight:700;}
+      .conn{stroke:#9f9f9f;stroke-width:4;fill:none;}
+      .dark{stroke:#202326;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;}
+      .iconstroke{stroke:#111;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;}
+    </style>
+  </defs>
+
+  <!-- LEFT DASHED ATTRIBUTE BOXES -->
+  <rect class="dashbox" x="18" y="25" width="425" height="213" rx="28"/>
+  <rect class="dashbox" x="18" y="263" width="425" height="213" rx="28"/>
+  <rect class="dashbox" x="18" y="502" width="425" height="213" rx="28"/>
+  <rect class="dashbox" x="18" y="741" width="425" height="213" rx="28"/>
+
+  <!-- LEFT CONNECTOR -->
+  <path class="conn" d="M500 130 L500 845"/>
+  <path class="conn" d="M500 130 L446 130" marker-end="url(#arrow-gray)"/>
+  <path class="conn" d="M500 370 L446 370" marker-end="url(#arrow-gray)"/>
+  <path class="conn" d="M500 608 L446 608" marker-end="url(#arrow-gray)"/>
+  <path class="conn" d="M500 846 L446 846" marker-end="url(#arrow-gray)"/>
+  <path class="conn" d="M500 735 L545 735"/>
+
+  <!-- Sentiment icon -->
+  <g transform="translate(76 45)">
+    <circle cx="3" cy="25" r="14" fill="#ff3b22" class="iconstroke"/>
+    <circle cx="45" cy="8" r="14" fill="#ffa51c" class="iconstroke"/>
+    <circle cx="88" cy="25" r="14" fill="#19b85a" class="iconstroke"/>
+    <circle cx="-2" cy="23" r="2.5" fill="#000"/><circle cx="8" cy="23" r="2.5" fill="#000"/>
+    <path d="M-5 32 Q3 27 12 32" fill="none" stroke="#000" stroke-width="3"/>
+    <circle cx="40" cy="5" r="2.5" fill="#000"/><circle cx="50" cy="5" r="2.5" fill="#000"/>
+    <path d="M37 15 L53 15" fill="none" stroke="#000" stroke-width="3"/>
+    <circle cx="83" cy="22" r="2.5" fill="#000"/><circle cx="93" cy="22" r="2.5" fill="#000"/>
+    <path d="M80 30 Q88 37 97 30" fill="none" stroke="#000" stroke-width="3"/>
+    <path d="M4 68 A41 41 0 0 1 86 68" fill="#ff5b20" class="iconstroke"/>
+    <path d="M20 68 A25 25 0 0 1 70 68" fill="#ffd72e" class="iconstroke"/>
+    <path d="M4 68 L20 68 A25 25 0 0 1 70 68 L86 68 A41 41 0 0 0 4 68 Z" fill="#37c46e" opacity=".25"/>
+    <path d="M20 68 A25 25 0 0 1 70 68" fill="none" stroke="#111" stroke-width="4"/>
+    <path d="M45 68 L45 50" stroke="#111" stroke-width="4"/>
+    <path d="M33 68 L33 91 M57 68 L57 91" stroke="#111" stroke-width="4"/>
+    <circle cx="33" cy="96" r="6" fill="#ff3b22" class="iconstroke"/>
+    <circle cx="57" cy="96" r="6" fill="#ff3b22" class="iconstroke"/>
+  </g>
+  <text class="serif" x="37" y="209" font-size="39">Sentiment</text>
+  <text class="serif" x="219" y="84" font-size="39">(a) positive</text>
+  <text class="serif" x="219" y="141" font-size="39">(b) negative</text>
+  <text class="serif" x="219" y="199" font-size="39">(c) neutral</text>
+
+  <!-- Style icon -->
+  <g transform="translate(75 286)">
+    <rect x="-2" y="0" width="94" height="8" rx="2" fill="#999" class="iconstroke"/>
+    <rect x="60" y="11" width="32" height="43" fill="#f3f3f3" class="iconstroke"/>
+    <path d="M63 22 H88 M63 34 H88 M63 46 H88" stroke="#777" stroke-width="2"/>
+    <text x="66" y="23" font-family="Times New Roman" font-size="12" font-weight="700">Aa</text>
+    <text x="66" y="38" font-family="Times New Roman" font-size="12" font-weight="700">Aa</text>
+    <text x="66" y="52" font-family="Times New Roman" font-size="12" font-weight="700">Aa</text>
+    <path d="M30 14 L7 88 Q21 93 35 88 L40 66 L65 66 L72 88 Q83 93 93 88 L66 14 Z
+             M46 32 L57 53 L42 53 Z" fill="#159ce5" class="iconstroke"/>
+  </g>
+  <text class="serif" x="80" y="437" font-size="39">Style</text>
+  <text class="serif" x="219" y="337" font-size="39">(a) subjective</text>
+  <text class="serif" x="219" y="423" font-size="39">(b) neutral</text>
+
+  <!-- Topic icon -->
+  <g transform="translate(74 517)">
+    <path d="M4 24 Q4 16 12 16 H50 Q58 16 58 24 V55 Q58 63 50 63 H25 L13 76 V63 H12 Q4 63 4 55 Z" fill="#37c9f4" class="iconstroke"/>
+    <path d="M32 34 Q32 26 40 26 H86 Q94 26 94 34 V68 Q94 76 86 76 H56 L45 88 V76 H40 Q32 76 32 68 Z" fill="#ffd94d" class="iconstroke"/>
+    <path d="M67 2 H95 Q103 2 103 10 Q103 18 95 18 H84 L77 27 L77 18 H67 Q59 18 59 10 Q59 2 67 2 Z" fill="#ff4ac2" class="iconstroke"/>
+    <path d="M3 88 H30 Q38 88 38 96 Q38 104 30 104 H19 L12 113 L12 104 H3 Q-5 104 -5 96 Q-5 88 3 88 Z" fill="#adf24a" class="iconstroke"/>
+    <path d="M58 80 H70 Q82 80 82 92 Q82 104 70 104 H66 L60 115 L55 104 Q46 103 46 92 Q46 80 58 80 Z" fill="#ff4ac2" class="iconstroke"/>
+    <circle cx="18" cy="13" r="12" fill="#a5ef4d" class="iconstroke"/>
+  </g>
+  <text class="serif" x="77" y="681" font-size="39">Topic</text>
+  <text class="serif" x="219" y="548" font-size="39">(a) sports</text>
+  <text class="serif" x="219" y="606" font-size="39">(b) crime</text>
+  <text class="serif" x="219" y="647" font-size="39">(c) politics</text>
+  <text class="serif" x="219" y="690" font-size="39">......</text>
+
+  <!-- Perplexity icon -->
+  <g transform="translate(79 757)">
+    <path d="M27 70 L27 103 H55 L55 75 Z" fill="#5bc0ff" class="iconstroke"/>
+    <path d="M18 32 L9 56 L28 75 L40 61 L29 51 L38 33 Z" fill="#ff6d78" class="iconstroke"/>
+    <path d="M34 39 Q26 53 33 65 L52 60 Q42 49 45 40 Z" fill="#ffe0c0" class="iconstroke"/>
+    <path d="M31 65 Q52 62 62 75 L68 96 L40 96 L38 82 L24 80 Z" fill="#ff6d78" class="iconstroke"/>
+    <circle cx="42" cy="18" r="16" fill="#ffe0c0" class="iconstroke"/>
+    <path d="M29 18 Q19 26 13 31 L25 44 L34 34" fill="#ff6d78" class="iconstroke"/>
+    <path d="M63 8 Q73 0 81 8 Q89 18 77 28 Q70 34 70 43" fill="none" stroke="#111" stroke-width="4"/>
+    <circle cx="70" cy="55" r="2.5" fill="#111"/>
+  </g>
+  <text class="serif" x="38" y="919" font-size="39">Perplexity</text>
+  <text class="serif" x="219" y="817" font-size="39">(a) high</text>
+  <text class="serif" x="219" y="904" font-size="39">(b) low</text>
+
+  <!-- CENTER GAUGE -->
+  <g>
+    <path d="M905 145 A90 90 0 0 1 1085 145" fill="none" stroke="#24272c" stroke-width="61" stroke-linecap="round"/>
+    <path d="M905 145 A90 90 0 0 1 931.4 81.4" fill="none" stroke="#e1322b" stroke-width="49"/>
+    <path d="M931.4 81.4 A90 90 0 0 1 995 55" fill="none" stroke="#f3a126" stroke-width="49"/>
+    <path d="M995 55 A90 90 0 0 1 1058.6 81.4" fill="none" stroke="#ffd22c" stroke-width="49"/>
+    <path d="M1058.6 81.4 A90 90 0 0 1 1085 145" fill="none" stroke="#35ad69" stroke-width="49"/>
+    <path d="M995 55 L995 82 M931 81 L949 101 M1059 81 L1041 101" stroke="#24272c" stroke-width="6" stroke-linecap="round"/>
+    <path d="M995 145 L1075 104" stroke="#24272c" stroke-width="22" stroke-linecap="round"/>
+    <path d="M995 145 L1070 107" stroke="#235b9d" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="995" cy="145" r="18" fill="#17609b" stroke="#24272c" stroke-width="7"/>
+  </g>
+
+  <!-- TITLE -->
+  <text class="serif bold" x="995" y="216" font-size="55" text-anchor="middle">TruthOverTricks</text>
+  <text class="serif ital" x="995" y="264" font-size="39" text-anchor="middle">Evaluate Shortcut Learning in</text>
+  <text class="serif ital" x="995" y="309" font-size="39" text-anchor="middle">Misinformation Detection</text>
+
+  <!-- CENTER BENCHMARK BOX -->
+  <rect class="graybox" x="727" y="331" width="512" height="168" rx="12"/>
+  <g transform="translate(735 355)">
+    <rect x="0" y="1" width="32" height="23" fill="#ffbd3e" class="iconstroke"/>
+    <path d="M0 1 H11 L16 7 H32" fill="none" stroke="#111" stroke-width="4"/>
+    <rect x="0" y="93" width="32" height="23" fill="#ffbd3e" class="iconstroke"/>
+    <path d="M0 93 H11 L16 99 H32" fill="none" stroke="#111" stroke-width="4"/>
+    <rect x="86" y="1" width="32" height="23" fill="#ffbd3e" class="iconstroke"/>
+    <path d="M86 1 H97 L102 7 H118" fill="none" stroke="#111" stroke-width="4"/>
+    <rect x="86" y="93" width="32" height="23" fill="#ffbd3e" class="iconstroke"/>
+    <path d="M86 93 H97 L102 99 H118" fill="none" stroke="#111" stroke-width="4"/>
+    <ellipse cx="59" cy="37" rx="28" ry="12" fill="#b7b7b7" class="iconstroke"/>
+    <path d="M31 37 V83 Q59 97 87 83 V37" fill="#8f8f8f" class="iconstroke"/>
+    <ellipse cx="59" cy="57" rx="28" ry="11" fill="none" stroke="#111" stroke-width="4"/>
+    <ellipse cx="59" cy="76" rx="28" ry="11" fill="none" stroke="#111" stroke-width="4"/>
+    <path d="M17 33 V59 M17 33 L9 43 M17 33 L25 43 M17 59 L9 49 M17 59 L25 49" fill="none" stroke="#111" stroke-width="4"/>
+    <path d="M102 33 V59 M102 33 L94 43 M102 33 L110 43 M102 59 L94 49 M102 59 L110 49" fill="none" stroke="#111" stroke-width="4"/>
+  </g>
+  <text class="serif" x="1050" y="402" font-size="47" text-anchor="middle">Misinformation</text>
+  <text class="serif" x="1050" y="455" font-size="47" text-anchor="middle">Benchmarks</text>
+
+  <!-- LOWER CENTER BOXES -->
+  <rect class="graybox" x="545" y="515" width="356" height="440" rx="8"/>
+  <rect class="graybox" x="1055" y="515" width="358" height="440" rx="8"/>
+
+  <text class="serif" x="723" y="563" font-size="46" text-anchor="middle">Intrinsic</text>
+  <text class="serif" x="723" y="617" font-size="46" text-anchor="middle">Shortcut</text>
+  <text class="serif" x="723" y="671" font-size="46" text-anchor="middle">Induction</text>
+
+  <!-- Magnifier / classifier icon -->
+  <g transform="translate(630 683)">
+    <circle cx="53" cy="54" r="51" fill="#ffd447" class="iconstroke"/>
+    <circle cx="53" cy="54" r="38" fill="#77d8ef" class="iconstroke"/>
+    <circle cx="30" cy="52" r="7" fill="#ff6b66" class="iconstroke"/>
+    <circle cx="53" cy="52" r="7" fill="#ff6b66" class="iconstroke"/>
+    <circle cx="76" cy="52" r="7" fill="#ff6b66" class="iconstroke"/>
+    <path d="M55 105 L43 165 Q45 180 56 180 Q68 180 71 165 L61 105 Z" fill="#7e858b" class="iconstroke"/>
+    <circle cx="56" cy="158" r="5" fill="#111"/>
+    <path d="M101 24 H119 Q127 1 141 1 H181 V51 H136 Q122 51 116 63 H101" fill="none" stroke="#111" stroke-width="5"/>
+    <rect x="133" y="0" width="52" height="51" rx="4" fill="#f4f4f4" class="iconstroke"/>
+    <path d="M146 16 H174 M146 32 H174" stroke="#111" stroke-width="5"/>
+    <path d="M101 67 H119 Q127 67 136 67 H181 V117 H136 Q122 117 116 92 H101" fill="none" stroke="#111" stroke-width="5"/>
+    <rect x="133" y="66" width="52" height="51" rx="4" fill="#f4f4f4" class="iconstroke"/>
+    <path d="M146 83 H174 M146 99 H174" stroke="#111" stroke-width="5"/>
+    <path d="M99 93 H114 Q123 154 136 154 H181 V205 H136 Q123 205 113 154" fill="none" stroke="#111" stroke-width="5"/>
+    <rect x="133" y="132" width="52" height="51" rx="4" fill="#f4f4f4" class="iconstroke"/>
+    <path d="M146 149 H174 M146 166 H174" stroke="#111" stroke-width="5"/>
+  </g>
+  <text class="serif ital" x="723" y="927" font-size="39" text-anchor="middle">Indicator Classifier</text>
+
+  <text class="serif" x="1234" y="563" font-size="46" text-anchor="middle">Extrinsic</text>
+  <text class="serif" x="1234" y="617" font-size="46" text-anchor="middle">Shortcut</text>
+  <text class="serif" x="1234" y="671" font-size="46" text-anchor="middle">Injection</text>
+
+  <!-- Robot AI injector icon -->
+  <g transform="translate(1163 684)">
+    <path d="M26 58 C8 56 3 44 5 32 C6 19 18 14 30 20" fill="#78b9ff" class="iconstroke"/>
+    <path d="M116 20 C129 14 140 20 142 33 C143 45 137 56 121 58" fill="#78b9ff" class="iconstroke"/>
+    <rect x="23" y="27" width="100" height="78" rx="23" fill="#5cb6f5" class="iconstroke"/>
+    <rect x="42" y="43" width="63" height="43" rx="14" fill="#f4f4f4" class="iconstroke"/>
+    <text class="serif bold" x="73" y="75" font-size="36" text-anchor="middle">AI</text>
+    <path d="M73 27 V15 M15 28 V5 M131 28 V5" stroke="#111" stroke-width="5"/>
+    <circle cx="73" cy="13" r="7" fill="#ff4d77" class="iconstroke"/>
+    <circle cx="15" cy="5" r="7" fill="#ff4d77" class="iconstroke"/>
+    <circle cx="131" cy="5" r="7" fill="#ff4d77" class="iconstroke"/>
+    <path d="M73 106 V121" stroke="#111" stroke-width="5"/>
+    <path d="M34 182 Q34 116 73 116 Q113 116 113 182 Z" fill="#f4f4f4" class="iconstroke"/>
+    <circle cx="73" cy="160" r="15" fill="#78b9ff" class="iconstroke"/>
+    <path d="M73 145 V124 M57 156 H43 M89 156 H104 M58 174 L45 181 M88 174 L101 181" stroke="#111" stroke-width="4"/>
+    <circle cx="57" cy="126" r="5" fill="#ff4d77" class="iconstroke"/>
+    <circle cx="89" cy="126" r="5" fill="#ff4d77" class="iconstroke"/>
+    <circle cx="34" cy="164" r="5" fill="#ff4d77" class="iconstroke"/>
+    <circle cx="113" cy="164" r="5" fill="#ff4d77" class="iconstroke"/>
+  </g>
+  <text class="serif ital" x="1234" y="927" font-size="39" text-anchor="middle">LLM Injector</text>
+
+  <!-- CENTRAL ARROWS -->
+  <path class="conn" d="M982 499 L982 735"/>
+  <path class="conn" d="M982 735 L904 735" marker-end="url(#arrow-gray)"/>
+  <path class="conn" d="M982 735 L1052 735" marker-end="url(#arrow-gray)"/>
+
+  <!-- RIGHT CONNECTOR -->
+  <path class="conn" d="M1453 151 L1453 828"/>
+  <path class="conn" d="M1413 735 L1453 735"/>
+  <path class="conn" d="M1413 735 L1453 735"/>
+  <path class="conn" d="M1453 151 L1513 151" marker-end="url(#arrow-gray)"/>
+  <path class="conn" d="M1453 489 L1513 489" marker-end="url(#arrow-gray)"/>
+  <path class="conn" d="M1453 828 L1513 828" marker-end="url(#arrow-gray)"/>
+
+  <!-- RIGHT DASHED PROMPT BOXES -->
+  <rect class="dashbox" x="1515" y="26" width="425" height="250" rx="28"/>
+  <rect class="dashbox" x="1515" y="364" width="425" height="250" rx="28"/>
+  <rect class="dashbox" x="1509" y="703" width="425" height="250" rx="28"/>
+
+  <!-- Vanilla icon -->
+  <g transform="translate(1534 59)">
+    <path d="M59 79 C39 72 23 58 0 39 C22 36 41 39 60 51 C57 31 68 17 80 2 C94 19 100 35 94 56 C112 44 132 39 154 42 C137 59 121 73 99 80 C118 91 126 110 126 134 C104 128 91 116 82 96 C73 116 59 128 37 135 C36 111 41 92 59 79 Z" fill="#fff1b3" class="iconstroke"/>
+    <path d="M80 2 C79 27 77 45 82 67 M0 39 C29 52 51 62 72 70 M154 42 C126 54 105 64 89 72 M37 135 C51 112 63 94 75 82 M126 134 C109 113 96 94 87 82" fill="none" stroke="#111" stroke-width="3"/>
+    <circle cx="82" cy="72" r="11" fill="#ffd84b" class="iconstroke"/>
+    <path d="M5 110 L105 8" stroke="#e07a36" stroke-width="7" stroke-linecap="round"/>
+    <path d="M21 121 L122 20" stroke="#e07a36" stroke-width="7" stroke-linecap="round"/>
+    <path d="M104 8 Q118 -6 124 2 Q130 10 117 20" fill="none" stroke="#111" stroke-width="5"/>
+    <path d="M5 110 L0 124 M21 121 L11 132" stroke="#111" stroke-width="5"/>
+  </g>
+  <text class="serif" x="1538" y="240" font-size="39">Vanilla</text>
+  <text class="serif ital" x="1674" y="121" font-size="35">Please rewrite it</text>
+  <text class="serif ital" x="1674" y="161" font-size="35">to make it more</text>
+  <text class="serif ital" x="1674" y="201" font-size="35">convincing.</text>
+
+  <!-- Explicit icon -->
+  <g transform="translate(1530 389)">
+    <rect x="28" y="14" width="57" height="71" rx="14" fill="#dadada" class="iconstroke"/>
+    <rect x="38" y="25" width="57" height="71" rx="14" fill="#dadada" class="iconstroke"/>
+    <rect x="49" y="36" width="57" height="71" rx="14" fill="#dadada" class="iconstroke"/>
+    <path d="M14 64 H53 V93 H14 Z" fill="#ffdf4d" class="iconstroke"/>
+    <path d="M21 93 H48 L41 117 H28 Z" fill="#ffdf4d" class="iconstroke"/>
+    <path d="M25 126 H45" stroke="#111" stroke-width="5"/>
+    <path d="M14 76 H53 M23 101 H45" stroke="#111" stroke-width="4"/>
+    <path d="M70 47 V10 Q70 1 78 1 Q86 1 86 10 V47" fill="none" stroke="#111" stroke-width="5"/>
+    <path d="M86 47 V5 Q86 -5 94 -5 Q102 -5 102 5 V47" fill="none" stroke="#111" stroke-width="5"/>
+    <path d="M102 47 V11 Q102 2 110 2 Q118 2 118 11 V49" fill="none" stroke="#111" stroke-width="5"/>
+    <path d="M118 52 V19 Q118 10 126 10 Q134 10 134 19 V67" fill="none" stroke="#111" stroke-width="5"/>
+    <path d="M61 61 H127 Q139 61 139 74 V91 H58 V65 Q58 61 61 61 Z" fill="#ffdf4d" class="iconstroke"/>
+    <path d="M69 91 V100 H132 V91" fill="#dadada" class="iconstroke"/>
+    <path d="M85 100 V127 H119 V100" fill="#a8a8a8" class="iconstroke"/>
+    <path d="M93 127 H112 V158 H99 V139 H93 Z" fill="#a8a8a8" class="iconstroke"/>
+    <path d="M63 76 H140 M83 49 H112" stroke="#111" stroke-width="4"/>
+  </g>
+  <text class="serif" x="1533" y="575" font-size="39">Explicit</text>
+  <text class="serif ital" x="1674" y="440" font-size="35">Make the {word</text>
+  <text class="serif ital" x="1674" y="480" font-size="35">choice} of the</text>
+  <text class="serif ital" x="1674" y="520" font-size="35">rewritten content</text>
+  <text class="serif ital" x="1674" y="560" font-size="35">{simple}.</text>
+
+  <!-- Implicit icon -->
+  <g transform="translate(1536 739)">
+    <path d="M7 63 V31 Q7 25 12 25 Q18 25 18 31 V60" fill="none" stroke="#111" stroke-width="5"/>
+    <rect x="0" y="61" width="58" height="55" fill="#ffdf5c" class="iconstroke"/>
+    <path d="M7 70 Q30 60 54 70 V122 Q31 112 7 122 Z" fill="#fff08a" stroke="#111" stroke-width="4"/>
+    <path d="M15 81 H45 M15 94 H45 M15 107 H45" stroke="#111" stroke-width="3"/>
+    <path d="M78 15 Q95 -1 117 8 L118 39 Q95 31 76 38 Z" fill="#b76537" class="iconstroke"/>
+    <circle cx="98" cy="40" r="25" fill="#f0b187" class="iconstroke"/>
+    <path d="M74 29 Q99 27 122 20" stroke="#111" stroke-width="5"/>
+    <rect x="76" y="38" width="18" height="10" rx="3" fill="#8fd2ff" class="iconstroke"/>
+    <rect x="103" y="38" width="18" height="10" rx="3" fill="#8fd2ff" class="iconstroke"/>
+    <path d="M94 43 H103" stroke="#111" stroke-width="4"/>
+    <path d="M88 60 Q99 68 111 60" fill="none" stroke="#111" stroke-width="3"/>
+    <path d="M58 116 Q65 73 98 73 Q134 73 144 116 V116 Z" fill="#7b3f22" class="iconstroke"/>
+    <path d="M98 76 V116 M70 91 H87" stroke="#111" stroke-width="4"/>
+  </g>
+  <text class="serif" x="1532" y="910" font-size="39">Implicit</text>
+  <text class="serif ital" x="1668" y="779" font-size="35">You are</text>
+  <text class="serif ital" x="1668" y="819" font-size="35">{elderly}. Please</text>
+  <text class="serif ital" x="1668" y="859" font-size="35">rewrite this</text>
+  <text class="serif ital" x="1668" y="899" font-size="35">passage.</text>
+</svg>

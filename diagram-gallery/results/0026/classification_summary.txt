@@ -1,0 +1,11 @@
+svg_candidate: 2
+raster_required: 4
+unique_assets: 6
+duplicate_assets: 0
+
+- slot_video_clip_1: raster_required | from first-pass asset detection kind=pixel_image
+- slot_video_clip_2: raster_required | from first-pass asset detection kind=pixel_image
+- slot_video_clip_3: raster_required | from first-pass asset detection kind=pixel_image
+- slot_video_clip_4: raster_required | from first-pass asset detection kind=pixel_image
+- slot_thinking_emoji: svg_candidate | from first-pass asset detection kind=svg_icon
+- slot_answer_robot_icon: svg_candidate | from first-pass asset detection kind=svg_icon

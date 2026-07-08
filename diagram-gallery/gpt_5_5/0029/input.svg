@@ -1,0 +1,336 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1900" height="875" viewBox="0 0 1900 875">
+  <defs>
+    <marker id="arrGray" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 z" fill="#555"/>
+    </marker>
+    <marker id="arrGreen" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 z" fill="#9bc882"/>
+    </marker>
+    <marker id="arrOrange" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 z" fill="#efad78"/>
+    </marker>
+    <marker id="arrBlue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 z" fill="#7fa8c7"/>
+    </marker>
+    <marker id="arrBlack" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 z" fill="#111"/>
+    </marker>
+    <style>
+      .panel{fill:#fff;stroke:#555;stroke-width:4;stroke-dasharray:1 8;stroke-linecap:round}
+      .dashbox{fill:none;stroke:#555;stroke-width:3;stroke-dasharray:5 7}
+      .dotbox{fill:none;stroke:#555;stroke-width:3;stroke-dasharray:1 7;stroke-linecap:round}
+      .grayArrow{fill:none;stroke:#555;stroke-width:3;marker-end:url(#arrGray)}
+      .greenArrow{fill:none;stroke:#9bc882;stroke-width:3.5;marker-end:url(#arrGreen)}
+      .orangeArrow{fill:none;stroke:#efad78;stroke-width:3.5;marker-end:url(#arrOrange)}
+      .blueArrow{fill:none;stroke:#7fa8c7;stroke-width:3.5;marker-end:url(#arrBlue)}
+      .blackArrow{fill:none;stroke:#111;stroke-width:3;marker-end:url(#arrBlack)}
+      .thinBlack{fill:none;stroke:#111;stroke-width:3}
+      .serif{font-family:"Times New Roman", Times, serif}
+      .bold{font-weight:700}
+      .italic{font-style:italic}
+      .small{font-size:20px}
+      .med{font-size:25px}
+      .big{font-size:32px}
+      .label{font-size:34px;font-weight:700}
+      .greenFill{fill:#dfeeda;stroke:#4e8b36;stroke-width:3}
+      .orangeFill{fill:#fae9d8;stroke:#b99300;stroke-width:3}
+      .blueFill{fill:#dce9f4;stroke:#86a5bd;stroke-width:2}
+    </style>
+
+    <symbol id="robot" viewBox="-48 -58 96 116">
+      <line x1="0" y1="-46" x2="0" y2="-56" stroke="#000" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="0" cy="-58" r="5" fill="#000"/>
+      <rect x="-24" y="-43" width="48" height="33" rx="4" fill="#000"/>
+      <circle cx="-10" cy="-27" r="4" fill="#fff"/>
+      <circle cx="10" cy="-27" r="4" fill="#fff"/>
+      <circle cx="0" cy="-17" r="2" fill="#fff"/>
+      <rect x="-35" y="-3" width="70" height="48" rx="5" fill="#000"/>
+      <polyline points="-23,20 -14,20 -10,8 -4,31 1,14 7,20 23,20" fill="none" stroke="#fff" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M-35,8 C-50,8 -50,-8 -50,-18" fill="none" stroke="#000" stroke-width="6" stroke-linecap="round"/>
+      <path d="M35,8 C50,8 50,-8 50,-18" fill="none" stroke="#000" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="-50" cy="-21" r="5" fill="#000"/>
+      <circle cx="50" cy="-21" r="5" fill="#000"/>
+      <rect x="-30" y="45" width="60" height="8" rx="4" fill="#000"/>
+      <circle cx="-20" cy="54" r="5" fill="#fff"/>
+      <circle cx="0" cy="54" r="5" fill="#fff"/>
+      <circle cx="20" cy="54" r="5" fill="#fff"/>
+    </symbol>
+
+    <symbol id="camera" viewBox="0 0 70 55">
+      <rect x="8" y="14" width="54" height="34" rx="4" fill="#000"/>
+      <rect x="18" y="7" width="13" height="9" fill="#000"/>
+      <circle cx="36" cy="31" r="14" fill="#fff"/>
+      <circle cx="36" cy="31" r="8" fill="#000"/>
+      <rect x="4" y="20" width="10" height="10" fill="#000"/>
+    </symbol>
+    <symbol id="video" viewBox="0 0 75 58">
+      <circle cx="22" cy="18" r="10" fill="#000"/>
+      <circle cx="42" cy="18" r="10" fill="#000"/>
+      <circle cx="22" cy="18" r="4" fill="#fff"/>
+      <circle cx="42" cy="18" r="4" fill="#fff"/>
+      <rect x="12" y="28" width="40" height="24" rx="4" fill="#000"/>
+      <polygon points="52,34 70,25 70,54 52,46" fill="#000"/>
+      <circle cx="20" cy="40" r="3" fill="#fff"/>
+      <circle cx="31" cy="40" r="3" fill="#fff"/>
+      <circle cx="42" cy="40" r="3" fill="#fff"/>
+    </symbol>
+    <symbol id="gamepad" viewBox="0 0 85 52">
+      <path d="M18,16 C8,17 2,30 4,42 C6,51 16,50 23,39 L62,39 C69,50 79,51 81,42 C83,30 77,17 67,16 C56,14 51,18 43,18 C34,18 29,14 18,16Z" fill="#000"/>
+      <line x1="20" y1="27" x2="34" y2="27" stroke="#fff" stroke-width="3"/>
+      <line x1="27" y1="20" x2="27" y2="34" stroke="#fff" stroke-width="3"/>
+      <circle cx="60" cy="25" r="3" fill="#fff"/>
+      <circle cx="68" cy="31" r="3" fill="#fff"/>
+    </symbol>
+    <symbol id="usericon" viewBox="0 0 70 80">
+      <circle cx="35" cy="22" r="15" fill="#000"/>
+      <path d="M10,74 C11,48 59,48 60,74 Z" fill="#000"/>
+      <path d="M21,18 C27,24 36,25 48,17" fill="none" stroke="#fff" stroke-width="3"/>
+    </symbol>
+    <symbol id="clock" viewBox="0 0 42 42">
+      <circle cx="21" cy="21" r="17" fill="#fff" stroke="#000" stroke-width="4"/>
+      <line x1="21" y1="21" x2="21" y2="10" stroke="#000" stroke-width="3"/>
+      <line x1="21" y1="21" x2="30" y2="28" stroke="#000" stroke-width="3"/>
+      <rect x="10" y="0" width="22" height="6" rx="2" fill="#000"/>
+    </symbol>
+  </defs>
+
+  <!-- outer panels -->
+  <rect class="panel" x="10" y="20" width="635" height="782" rx="28"/>
+  <rect class="panel" x="676" y="20" width="578" height="782" rx="28"/>
+  <rect class="panel" x="1286" y="20" width="604" height="782" rx="28"/>
+
+  <!-- ===================== PANEL 1 ===================== -->
+  <text class="serif italic bold big" x="78" y="58">Item<tspan baseline-shift="sub" font-size="22">i</tspan></text>
+  <path class="grayArrow" d="M109,63 L109,88"/>
+  <rect x="24" y="93" width="170" height="80" rx="12" fill="#eee" stroke="#555" stroke-width="3"/>
+  <text class="serif med" x="83" y="128">Raw</text>
+  <text class="serif med" x="43" y="160">Information</text>
+  <path class="grayArrow" d="M194,133 L237,133"/>
+  <use href="#robot" x="230" y="68" width="80" height="105"/>
+  <text class="serif bold big" x="228" y="198">MLLM</text>
+  <path class="grayArrow" d="M307,133 L354,133"/>
+
+  <rect class="dotbox" x="355" y="51" width="123" height="188"/>
+  <rect x="371" y="60" width="92" height="48" rx="9" fill="#d7e2f4" stroke="#555" stroke-width="3" stroke-dasharray="8 8"/>
+  <text class="serif bold med" x="395" y="92">ASR</text>
+  <rect x="371" y="119" width="92" height="48" rx="9" fill="#e8eef9" stroke="#555" stroke-width="3" stroke-dasharray="8 8"/>
+  <text class="serif bold med" x="393" y="151">OCR</text>
+  <rect x="371" y="179" width="92" height="49" rx="9" fill="#fff8d5" stroke="#555" stroke-width="3" stroke-dasharray="8 8"/>
+  <text class="serif bold med" x="394" y="212">Text</text>
+
+  <rect x="517" y="60" width="116" height="170" rx="18" fill="#f4e4ee" stroke="#555" stroke-width="4" stroke-dasharray="10 10"/>
+  <text class="serif bold med" x="545" y="139">MLLM</text>
+  <text class="serif bold med" x="538" y="168">Emb <tspan class="italic">E</tspan><tspan baseline-shift="sub" font-size="17">i</tspan></text>
+  <path class="grayArrow" d="M331,132 L331,39 L566,39 L566,58"/>
+  <path class="grayArrow" d="M479,144 L501,144 L501,330"/>
+
+  <path class="grayArrow" d="M501,230 L501,277 L160,277 L160,336"/>
+  <rect x="25" y="338" width="275" height="88" rx="12" class="greenFill"/>
+  <text class="serif bold big" x="44" y="377">ItemTag Extraction</text>
+  <text class="serif bold big" x="113" y="408">Prompt <tspan class="italic">X</tspan><tspan baseline-shift="sub" font-size="22">i</tspan><tspan baseline-shift="super" font-size="22">C</tspan></text>
+
+  <rect x="358" y="340" width="272" height="88" rx="12" class="orangeFill"/>
+  <text class="serif bold big" x="378" y="378">UserTag Extraction</text>
+  <text class="serif bold big" x="450" y="410">Prompt <tspan class="italic">X</tspan><tspan baseline-shift="sub" font-size="22">i</tspan><tspan baseline-shift="super" font-size="22">T</tspan></text>
+
+  <path class="orangeArrow" opacity=".55" d="M575,231 L575,303 L323,303 L323,435"/>
+  <path class="greenArrow" d="M154,426 L154,475 L265,475"/>
+  <path class="greenArrow" d="M154,426 L154,543"/>
+  <path class="orangeArrow" d="M489,428 L489,474 L372,474"/>
+  <path class="orangeArrow" d="M489,428 L489,543"/>
+
+  <use href="#robot" x="283" y="455" width="80" height="105"/>
+  <text class="serif bold big" x="276" y="577">MLLM</text>
+
+  <!-- item tag stack -->
+  <rect x="70" y="543" width="174" height="57" rx="8" fill="#dff0d7" stroke="#a8ce8f" stroke-width="2"/>
+  <rect x="53" y="580" width="176" height="56" rx="8" fill="#d4ecc9" stroke="#a8ce8f" stroke-width="2"/>
+  <rect x="42" y="606" width="166" height="56" rx="8" fill="#bfe0af" stroke="#74b35f" stroke-width="2"/>
+  <text class="serif med" x="101" y="578">Live Music</text>
+  <text class="serif med" x="78" y="628">Instrument</text>
+  <text class="serif med" x="93" y="657">Shows</text>
+  <text class="serif bold big" x="43" y="697">ItemTag Set <tspan class="italic">C</tspan><tspan baseline-shift="super" font-size="22">*</tspan></text>
+
+  <!-- user tag stack -->
+  <rect x="414" y="552" width="176" height="56" rx="8" fill="#fff2d2" stroke="#caa000" stroke-width="2"/>
+  <rect x="398" y="581" width="169" height="56" rx="8" fill="#fde6d0" stroke="#caa000" stroke-width="2"/>
+  <rect x="385" y="606" width="166" height="56" rx="8" fill="#fbd2bb" stroke="#caa000" stroke-width="2"/>
+  <text class="serif med" x="446" y="577">Folk Music</text>
+  <text class="serif med" x="438" y="629">Music</text>
+  <text class="serif med" x="418" y="658">Enthusiast</text>
+  <text class="serif bold big" x="390" y="697">UserTag Set <tspan class="italic">T</tspan><tspan baseline-shift="super" font-size="22">*</tspan></text>
+
+  <!-- bottom outgoing lines from panel 1 into panel 2 -->
+  <path class="greenArrow" opacity=".95" d="M115,709 L115,766 L862,766 L862,729"/>
+  <path class="orangeArrow" opacity=".95" d="M486,709 L486,784 L1088,784 L1088,728"/>
+
+  <!-- ===================== PANEL 2 ===================== -->
+  <rect x="737" y="35" width="480" height="380" rx="28" fill="#eaf2fb" stroke="#555" stroke-width="2" stroke-dasharray="6 8"/>
+  <text class="serif italic bold big" x="757" y="72">Logic Graph</text>
+
+  <!-- logic graph arrows -->
+  <g opacity=".9">
+    <path class="orangeArrow" d="M840,103 L840,285 L890,285"/>
+    <path class="orangeArrow" d="M858,126 L858,315 L885,315"/>
+    <path class="orangeArrow" d="M827,154 L827,348 L865,348"/>
+    <path class="orangeArrow" d="M890,104 L1084,104"/>
+    <path class="orangeArrow" d="M873,128 L1074,128"/>
+    <path class="orangeArrow" d="M855,154 L1065,154"/>
+    <path class="greenArrow" d="M1121,103 L1085,103"/>
+    <path class="greenArrow" d="M1121,130 L1072,130"/>
+    <path class="greenArrow" d="M1121,154 L1052,154"/>
+    <path class="greenArrow" d="M1121,104 L1121,320 L1028,320"/>
+    <path class="greenArrow" d="M1098,130 L1098,315 L1018,315"/>
+    <path class="greenArrow" d="M1082,154 L1082,347 L1018,347"/>
+  </g>
+
+  <rect x="909" y="75" width="176" height="57" rx="8" fill="#fff2d2" stroke="#caa000" stroke-width="2"/>
+  <rect x="892" y="101" width="170" height="57" rx="8" fill="#fde6d0" stroke="#caa000" stroke-width="2"/>
+  <rect x="876" y="127" width="166" height="58" rx="8" fill="#fbd2bb" stroke="#caa000" stroke-width="2"/>
+  <text class="serif med" x="944" y="99">Folk Music</text>
+  <text class="serif med" x="929" y="147">Music</text>
+  <text class="serif med" x="910" y="177">Enthusiast</text>
+
+  <text class="serif bold big" x="884" y="214">UserTag Set <tspan class="italic">C</tspan><tspan baseline-shift="super" font-size="22">*</tspan></text>
+
+  <rect x="897" y="256" width="174" height="55" rx="8" fill="#dff0d7" stroke="#a8ce8f" stroke-width="2"/>
+  <rect x="880" y="291" width="170" height="57" rx="8" fill="#d4ecc9" stroke="#a8ce8f" stroke-width="2"/>
+  <rect x="864" y="318" width="166" height="57" rx="8" fill="#bfe0af" stroke="#74b35f" stroke-width="2"/>
+  <text class="serif med" x="929" y="290">Live Music</text>
+  <text class="serif med" x="894" y="339">Instrument</text>
+  <text class="serif med" x="915" y="370">Shows</text>
+  <text class="serif bold big" x="874" y="407">ItemTag Set <tspan class="italic">T</tspan><tspan baseline-shift="super" font-size="22">*</tspan></text>
+  <text class="serif italic med" fill="#b46d28" x="757" y="221">G<tspan baseline-shift="super" font-size="17">U2I*</tspan></text>
+  <text class="serif italic med" fill="#4b7c2d" x="1136" y="230">G<tspan baseline-shift="super" font-size="17">I2U*</tspan></text>
+
+  <path class="grayArrow" d="M974,449 L974,417"/>
+  <use href="#robot" x="934" y="463" width="80" height="105"/>
+  <text class="serif bold big" x="945" y="590">LLM</text>
+
+  <rect x="750" y="655" width="230" height="73" rx="10" class="greenFill"/>
+  <text class="serif bold big" x="806" y="684">I2U Logic</text>
+  <text class="serif bold big" x="797" y="716">Prompt <tspan class="italic">X</tspan><tspan baseline-shift="sub" font-size="22">c</tspan></text>
+
+  <rect x="986" y="653" width="218" height="73" rx="10" class="orangeFill"/>
+  <text class="serif bold big" x="1030" y="684">U2I Logic</text>
+  <text class="serif bold big" x="1025" y="716">Prompt <tspan class="italic">X</tspan><tspan baseline-shift="sub" font-size="22">t</tspan></text>
+
+  <path class="greenArrow" d="M864,654 L864,513 L917,513"/>
+  <path class="orangeArrow" d="M1088,653 L1088,513 L1028,513"/>
+  <path class="blueArrow" d="M1217,223 L1258,223 L1258,543 L1306,543"/>
+
+  <!-- ===================== PANEL 3 TOP INPUTS ===================== -->
+  <use href="#usericon" x="1322" y="166" width="63" height="72"/>
+  <text class="serif med" x="1334" y="244">user</text>
+  <path class="thinBlack" d="M1413,95 L1402,95 L1402,302 L1413,302"/>
+  <path class="thinBlack" d="M1402,198 L1392,198"/>
+
+  <use href="#camera" x="1436" y="70" width="58" height="47"/>
+  <text class="serif italic med" x="1462" y="135">i<tspan baseline-shift="sub" font-size="17">1</tspan></text>
+  <use href="#video" x="1438" y="146" width="62" height="49"/>
+  <text class="serif italic med" x="1463" y="211">i<tspan baseline-shift="sub" font-size="17">2</tspan></text>
+  <text class="serif bold big" x="1463" y="255">...</text>
+  <use href="#gamepad" x="1435" y="274" width="70" height="47"/>
+  <text class="serif italic med" x="1461" y="336">i<tspan baseline-shift="sub" font-size="17">n</tspan></text>
+
+  <!-- item/user tag rows -->
+  <g class="serif">
+    <rect x="1534" y="56" width="290" height="39" rx="6" fill="#fff2d2" stroke="#caa000" stroke-width="2"/>
+    <rect x="1525" y="89" width="290" height="39" rx="6" fill="#dfeeda" stroke="#5b9a4d" stroke-width="2"/>
+    <text x="1612" y="82" font-size="23" font-style="italic" font-weight="700" fill="#b55c28">T<tspan baseline-shift="sub" font-size="16">1</tspan> = {t<tspan baseline-shift="sub" font-size="16">1,1</tspan>,···, t<tspan baseline-shift="sub" font-size="16">1,k</tspan>}</text>
+    <text x="1575" y="116" font-size="23" font-style="italic" font-weight="700" fill="#354d31">C<tspan baseline-shift="sub" font-size="16">1</tspan> = {c<tspan baseline-shift="sub" font-size="16">1,1</tspan>,···, c<tspan baseline-shift="sub" font-size="16">1,l</tspan>}</text>
+
+    <rect x="1535" y="141" width="290" height="39" rx="6" fill="#fff2d2" stroke="#caa000" stroke-width="2"/>
+    <rect x="1527" y="175" width="290" height="39" rx="6" fill="#dfeeda" stroke="#5b9a4d" stroke-width="2"/>
+    <text x="1588" y="167" font-size="23" font-style="italic" font-weight="700" fill="#b55c28">T<tspan baseline-shift="sub" font-size="16">2</tspan> = {t<tspan baseline-shift="sub" font-size="16">2,1</tspan>,···, t<tspan baseline-shift="sub" font-size="16">2,k</tspan>}</text>
+    <text x="1577" y="202" font-size="23" font-style="italic" font-weight="700" fill="#354d31">C<tspan baseline-shift="sub" font-size="16">2</tspan> = {c<tspan baseline-shift="sub" font-size="16">2,1</tspan>,···, c<tspan baseline-shift="sub" font-size="16">2,l</tspan>}</text>
+
+    <text x="1645" y="254" font-size="31" font-weight="700">...</text>
+
+    <rect x="1536" y="266" width="290" height="39" rx="6" fill="#fff2d2" stroke="#caa000" stroke-width="2"/>
+    <rect x="1527" y="300" width="290" height="39" rx="6" fill="#dfeeda" stroke="#5b9a4d" stroke-width="2"/>
+    <text x="1588" y="292" font-size="23" font-style="italic" font-weight="700" fill="#b55c28">T<tspan baseline-shift="sub" font-size="16">n</tspan> = {t<tspan baseline-shift="sub" font-size="16">n,1</tspan>,···, t<tspan baseline-shift="sub" font-size="16">n,k</tspan>}</text>
+    <text x="1577" y="326" font-size="23" font-style="italic" font-weight="700" fill="#354d31">C<tspan baseline-shift="sub" font-size="16">n</tspan> = {c<tspan baseline-shift="sub" font-size="16">n,1</tspan>,···, c<tspan baseline-shift="sub" font-size="16">n,l</tspan>}</text>
+  </g>
+
+  <text class="serif med" x="1612" y="394">Input</text>
+  <path class="blackArrow" d="M1670,361 L1670,428"/>
+
+  <!-- mini logic graph -->
+  <text class="serif italic med" x="1322" y="452">Logic Graph</text>
+  <rect x="1310" y="456" width="138" height="170" rx="22" fill="#eaf2fb" stroke="#555" stroke-width="3"/>
+  <g stroke-width="3" fill="none">
+    <circle cx="1340" cy="489" r="14" fill="#fbd2bb" stroke="#333"/>
+    <circle cx="1340" cy="536" r="14" fill="#fbd2bb" stroke="#333"/>
+    <circle cx="1340" cy="581" r="14" fill="#fbd2bb" stroke="#333"/>
+    <circle cx="1418" cy="489" r="14" fill="#cfe6c6" stroke="#333"/>
+    <circle cx="1418" cy="536" r="14" fill="#cfe6c6" stroke="#333"/>
+    <circle cx="1418" cy="581" r="14" fill="#cfe6c6" stroke="#333"/>
+    <path class="orangeArrow" d="M1354,489 L1400,489"/>
+    <path class="orangeArrow" d="M1354,536 L1400,493"/>
+    <path class="orangeArrow" d="M1354,581 L1402,537"/>
+    <path class="greenArrow" d="M1355,489 L1400,536"/>
+    <path class="greenArrow" d="M1355,536 L1400,581"/>
+    <path class="greenArrow" d="M1355,581 L1400,489"/>
+  </g>
+  <text class="serif italic med" x="1333" y="614">C<tspan baseline-shift="super" font-size="17">*</tspan></text>
+  <text class="serif italic med" x="1403" y="614">T<tspan baseline-shift="super" font-size="17">*</tspan></text>
+
+  <path class="blackArrow" d="M1448,505 L1513,505"/>
+  <text class="serif italic small" fill="#4b7c2d" x="1457" y="487">G<tspan baseline-shift="super" font-size="14">I2U*</tspan></text>
+  <path class="blackArrow" d="M1448,574 L1513,574"/>
+  <text class="serif italic small" fill="#b46d28" x="1458" y="562">G<tspan baseline-shift="super" font-size="14">U2I*</tspan></text>
+
+  <!-- RecSys block -->
+  <rect x="1518" y="433" width="298" height="181" fill="#fff" stroke="#555" stroke-width="4"/>
+  <text class="serif bold med" x="1530" y="490">RecSys</text>
+  <g transform="translate(1533 520) scale(.85)" fill="none" stroke="#000" stroke-width="5" stroke-linecap="round">
+    <circle cx="0" cy="0" r="4" fill="#000"/>
+    <circle cx="0" cy="28" r="4" fill="#000"/>
+    <circle cx="0" cy="56" r="4" fill="#000"/>
+    <circle cx="34" cy="14" r="4" fill="#000"/>
+    <circle cx="34" cy="42" r="4" fill="#000"/>
+    <circle cx="69" cy="28" r="4" fill="#000"/>
+    <line x1="4" y1="0" x2="30" y2="14"/>
+    <line x1="4" y1="28" x2="30" y2="14"/>
+    <line x1="4" y1="28" x2="30" y2="42"/>
+    <line x1="4" y1="56" x2="30" y2="42"/>
+    <line x1="38" y1="14" x2="65" y2="28"/>
+    <line x1="38" y1="42" x2="65" y2="28"/>
+  </g>
+  <rect x="1601" y="458" width="207" height="70" rx="10" fill="#c9f3ec" stroke="#9fcfc6" stroke-width="2"/>
+  <text class="serif med" x="1660" y="489">Tag-based</text>
+  <text class="serif med" x="1623" y="513">Item/User Encoder</text>
+  <rect x="1598" y="532" width="211" height="68" rx="10" fill="#fff4db" stroke="#ead3a2" stroke-width="2"/>
+  <text class="serif med" x="1662" y="560">Tag-logic</text>
+  <text class="serif med" x="1627" y="588">Inference Extension</text>
+
+  <!-- candidate item and feedback -->
+  <text class="serif small" x="1802" y="410">Candidate</text>
+  <text class="serif small" x="1827" y="432">item</text>
+  <use href="#clock" x="1825" y="446" width="35" height="35"/>
+  <text class="serif italic bold med" x="1863" y="472">v<tspan baseline-shift="sub" font-size="17">i</tspan></text>
+  <path class="thinBlack" d="M1866,484 L1866,555 L1818,555"/>
+  <path class="blackArrow" d="M1866,555 L1819,555"/>
+
+  <path class="blackArrow" d="M1550,672 L1550,616"/>
+  <text class="serif small" x="1421" y="655">Backpropagation</text>
+  <line x1="1550" y1="673" x2="1550" y2="614" stroke="#000" stroke-width="2.5" stroke-dasharray="6 6"/>
+
+  <rect x="1311" y="673" width="330" height="90" rx="10" fill="#cfeefa" stroke="#b6daea" stroke-width="2"/>
+  <text class="serif med" x="1342" y="711">ℒ = λ(ℒ<tspan baseline-shift="sub" font-size="17">ut</tspan> + ℒ<tspan baseline-shift="sub" font-size="17">it</tspan>) + (1 − λ)ℒ<tspan baseline-shift="sub" font-size="17">ui</tspan></text>
+  <text class="serif med" x="1324" y="749">Tag-based Learning Augmentation</text>
+
+  <path class="blackArrow" d="M1673,614 L1673,668"/>
+  <path class="blackArrow" d="M1777,614 L1777,668"/>
+  <text class="serif italic big" x="1659" y="702">ŷ<tspan baseline-shift="sub" font-size="18">raw</tspan></text>
+  <text class="serif italic big" x="1764" y="702">ŷ<tspan baseline-shift="sub" font-size="18">tag</tspan></text>
+  <path class="blackArrow" d="M1697,712 L1733,738"/>
+  <path class="blackArrow" d="M1768,713 L1733,738"/>
+  <text class="serif italic big" x="1720" y="763">ŷ</text>
+
+  <!-- bottom labels -->
+  <text class="serif label" x="102" y="862">(1) MLLM-based Tag Extraction</text>
+  <text class="serif label" x="663" y="862">(2) LLM-based Collaborative Logic Reasoning</text>
+  <text class="serif label" x="1403" y="862">(3) Tag Logic Integration</text>
+</svg>

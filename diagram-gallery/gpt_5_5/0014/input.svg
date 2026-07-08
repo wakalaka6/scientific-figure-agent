@@ -1,0 +1,278 @@
+<svg width="2048" height="854" viewBox="0 0 2048 854" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="10" refX="10" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L12,5 L0,10 Z" fill="#000"/>
+    </marker>
+    <marker id="arrowSmall" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#000"/>
+    </marker>
+    <clipPath id="catClip">
+      <rect x="20" y="421" width="185" height="190"/>
+    </clipPath>
+    <style>
+      .txt{font-family:Arial, Helvetica, sans-serif; fill:#000;}
+      .math{font-family:"Times New Roman", Times, serif; font-style:italic; fill:#000;}
+      .dash{fill:none; stroke:#aaa; stroke-width:3; stroke-dasharray:20 10;}
+      .dashBlue{fill:none; stroke:#9bb0d6; stroke-width:3; stroke-dasharray:20 10;}
+      .dashYellow{fill:none; stroke:#ffe377; stroke-width:3; stroke-dasharray:20 10;}
+      .dashGreen{fill:none; stroke:#b7d6a8; stroke-width:3; stroke-dasharray:20 10;}
+      .line{stroke:#000; stroke-width:3; fill:none;}
+      .box{fill:#fff; stroke:#888; stroke-width:3;}
+    </style>
+  </defs>
+
+  <!-- Legend -->
+  <rect x="21" y="118" width="210" height="240" class="dash"/>
+  <rect x="34" y="137" width="32" height="32" fill="#8faadc" stroke="#6c8fc8" stroke-width="3"/>
+  <text x="80" y="164" class="txt" font-size="32">hard label</text>
+  <rect x="34" y="194" width="32" height="32" fill="#a7a7a7" stroke="#8a8a8a" stroke-width="3"/>
+  <text x="80" y="221" class="txt" font-size="32">mask label</text>
+  <rect x="34" y="251" width="32" height="32" fill="#ffd85d" stroke="#ffcb2e" stroke-width="3"/>
+  <text x="80" y="278" class="txt" font-size="32">target</text>
+  <rect x="34" y="308" width="32" height="32" fill="#b6d7a8" stroke="#93c47d" stroke-width="3"/>
+  <text x="80" y="335" class="txt" font-size="32">non-target</text>
+
+  <!-- Cat image approximation -->
+  <g clip-path="url(#catClip)">
+    <rect x="20" y="421" width="185" height="190" fill="#1c1d22"/>
+    <rect x="20" y="421" width="185" height="50" fill="#303038"/>
+    <path d="M20 560 C65 535,120 610,205 570 L205 611 L20 611 Z" fill="#3b342b"/>
+    <g stroke="#756953" stroke-width="2" opacity="0.7">
+      <line x1="5" y1="570" x2="150" y2="540"/><line x1="0" y1="590" x2="190" y2="550"/>
+      <line x1="10" y1="600" x2="200" y2="575"/><line x1="40" y1="575" x2="170" y2="610"/>
+      <line x1="65" y1="535" x2="200" y2="590"/><line x1="0" y1="535" x2="115" y2="585"/>
+    </g>
+    <ellipse cx="103" cy="535" rx="46" ry="52" fill="#e9e9e5"/>
+    <ellipse cx="91" cy="555" rx="42" ry="42" fill="#f4f3ec"/>
+    <circle cx="103" cy="481" r="42" fill="#d9d9d7"/>
+    <path d="M73 455 L67 407 L101 443 Z" fill="#bfc0c2"/>
+    <path d="M130 454 L151 414 L143 465 Z" fill="#bfc0c2"/>
+    <path d="M79 450 L72 423 L96 444 Z" fill="#dfc1c3"/>
+    <path d="M131 451 L146 428 L141 461 Z" fill="#dfc1c3"/>
+    <path d="M76 478 C90 458,116 457,131 479 C124 501,89 502,76 478 Z" fill="#efefea"/>
+    <circle cx="91" cy="475" r="8" fill="#222"/>
+    <circle cx="120" cy="475" r="8" fill="#222"/>
+    <circle cx="94" cy="472" r="2.5" fill="#fff"/>
+    <circle cx="123" cy="472" r="2.5" fill="#fff"/>
+    <path d="M105 486 l-7 7 h14 z" fill="#d98b8b"/>
+    <path d="M104 494 C98 505,88 506,80 499" stroke="#555" stroke-width="2" fill="none"/>
+    <path d="M106 494 C113 505,124 506,132 499" stroke="#555" stroke-width="2" fill="none"/>
+    <g stroke="#eee" stroke-width="1.5">
+      <line x1="99" y1="491" x2="57" y2="482"/><line x1="99" y1="497" x2="55" y2="499"/>
+      <line x1="112" y1="491" x2="154" y2="482"/><line x1="112" y1="497" x2="158" y2="500"/>
+    </g>
+  </g>
+  <text x="112" y="655" class="txt" font-size="34" text-anchor="middle">cat</text>
+
+  <!-- Left model boxes -->
+  <rect x="267" y="78" width="285" height="96" rx="16" class="box"/>
+  <text x="410" y="139" class="txt" font-size="34" text-anchor="middle">Ground Truth</text>
+
+  <rect x="267" y="301" width="285" height="166" rx="22" class="box"/>
+  <text x="479" y="435" class="txt" font-size="34" text-anchor="middle">Teacher</text>
+
+  <rect x="267" y="565" width="285" height="166" rx="22" class="box"/>
+  <text x="479" y="707" class="txt" font-size="34" text-anchor="middle">Student</text>
+
+  <!-- Teacher network -->
+  <g>
+    <polygon points="305,358 343,315 343,400 305,443" fill="#4b9ad3"/>
+    <polygon points="343,315 356,315 356,400 343,400" fill="#2f6fa4"/>
+    <polygon points="305,358 343,315 356,315 318,358" fill="#77b4df"/>
+    <polygon points="333,350 367,315 367,402 333,437" fill="#4b9ad3"/>
+    <polygon points="367,315 380,315 380,402 367,402" fill="#2f6fa4"/>
+    <polygon points="333,350 367,315 380,315 346,350" fill="#77b4df"/>
+    <polygon points="360,343 394,314 394,405 360,434" fill="#4b9ad3"/>
+    <polygon points="394,314 410,314 410,405 394,405" fill="#2f6fa4"/>
+    <polygon points="360,343 394,314 410,314 376,343" fill="#77b4df"/>
+    <polygon points="404,350 436,324 436,395 404,421" fill="#4b9ad3"/>
+    <polygon points="436,324 448,324 448,395 436,395" fill="#2f6fa4"/>
+    <polygon points="446,354 474,327 474,396 446,423" fill="#4b9ad3"/>
+    <polygon points="474,327 486,327 486,396 474,396" fill="#2f6fa4"/>
+    <polygon points="500,354 529,331 529,373 500,396" fill="#4b9ad3"/>
+    <polygon points="529,331 541,331 541,373 529,373" fill="#2f6fa4"/>
+  </g>
+
+  <!-- Student network -->
+  <g>
+    <polygon points="302,620 340,578 340,675 302,717" fill="#f47724"/>
+    <polygon points="340,578 356,578 356,675 340,675" fill="#bd551c"/>
+    <polygon points="302,620 340,578 356,578 318,620" fill="#ff9b59"/>
+    <polygon points="333,613 369,578 369,680 333,715" fill="#f47724"/>
+    <polygon points="369,578 385,578 385,680 369,680" fill="#bd551c"/>
+    <polygon points="371,617 401,585 401,668 371,700" fill="#f47724"/>
+    <polygon points="401,585 415,585 415,668 401,668" fill="#bd551c"/>
+    <polygon points="419,620 447,590 447,654 419,684" fill="#f47724"/>
+    <polygon points="447,590 460,590 460,654 447,654" fill="#bd551c"/>
+  </g>
+
+  <!-- Arrows from cat -->
+  <line x1="205" y1="421" x2="267" y2="382" class="line" marker-end="url(#arrow)"/>
+  <line x1="205" y1="611" x2="267" y2="641" class="line" marker-end="url(#arrow)"/>
+
+  <!-- Logit/label column -->
+  <rect x="588" y="23" width="108" height="738" class="dash"/>
+
+  <!-- arrows into column -->
+  <line x1="552" y1="126" x2="588" y2="126" class="line" marker-end="url(#arrow)"/>
+  <line x1="552" y1="383" x2="588" y2="383" class="line" marker-end="url(#arrow)"/>
+  <line x1="552" y1="647" x2="588" y2="647" class="line" marker-end="url(#arrow)"/>
+
+  <!-- stacked vectors first column -->
+  <g>
+    <rect x="607" y="37" width="34" height="34" fill="#8faadc" stroke="#6c8fc8" stroke-width="3"/>
+    <rect x="607" y="76" width="34" height="33" fill="#a7a7a7" stroke="#888" stroke-width="2"/>
+    <rect x="607" y="109" width="34" height="33" fill="#a7a7a7" stroke="#888" stroke-width="2"/>
+    <rect x="607" y="142" width="34" height="33" fill="#a7a7a7" stroke="#888" stroke-width="2"/>
+    <rect x="607" y="175" width="34" height="33" fill="#a7a7a7" stroke="#888" stroke-width="2"/>
+    <rect x="607" y="208" width="34" height="29" fill="#a7a7a7" stroke="#888" stroke-width="2"/>
+    <text x="660" y="64" class="txt" font-size="34">1</text>
+  </g>
+
+  <g>
+    <rect x="607" y="286" width="34" height="34" fill="#ffd85d" stroke="#ffcb2e" stroke-width="3"/>
+    <rect x="607" y="324" width="34" height="33" fill="#b6d7a8" stroke="#93c47d" stroke-width="2"/>
+    <rect x="607" y="357" width="34" height="33" fill="#b6d7a8" stroke="#93c47d" stroke-width="2"/>
+    <rect x="607" y="390" width="34" height="33" fill="#b6d7a8" stroke="#93c47d" stroke-width="2"/>
+    <rect x="607" y="423" width="34" height="33" fill="#b6d7a8" stroke="#93c47d" stroke-width="2"/>
+    <rect x="607" y="456" width="34" height="31" fill="#b6d7a8" stroke="#93c47d" stroke-width="2"/>
+    <text x="651" y="322" class="math" font-size="36">p<tspan baseline-shift="sub" font-size="22">t</tspan><tspan baseline-shift="super" font-size="24">T</tspan></text>
+  </g>
+
+  <g>
+    <rect x="607" y="545" width="34" height="34" fill="#ffd85d" stroke="#ffcb2e" stroke-width="3"/>
+    <rect x="607" y="583" width="34" height="33" fill="#b6d7a8" stroke="#93c47d" stroke-width="2"/>
+    <rect x="607" y="616" width="34" height="33" fill="#b6d7a8" stroke="#93c47d" stroke-width="2"/>
+    <rect x="607" y="649" width="34" height="33" fill="#b6d7a8" stroke="#93c47d" stroke-width="2"/>
+    <rect x="607" y="682" width="34" height="33" fill="#b6d7a8" stroke="#93c47d" stroke-width="2"/>
+    <rect x="607" y="715" width="34" height="31" fill="#b6d7a8" stroke="#93c47d" stroke-width="2"/>
+    <text x="651" y="580" class="math" font-size="36">p<tspan baseline-shift="sub" font-size="22">t</tspan><tspan baseline-shift="super" font-size="24">S</tspan></text>
+  </g>
+
+  <!-- Decoupled small boxes -->
+  <rect x="735" y="42" width="116" height="171" class="dash"/>
+  <rect x="747" y="81" width="34" height="34" fill="#8faadc" stroke="#6c8fc8" stroke-width="3"/>
+  <rect x="803" y="81" width="34" height="34" fill="#ffd85d" stroke="#ffcb2e" stroke-width="3"/>
+  <text x="766" y="158" class="txt" font-size="34" text-anchor="middle">1</text>
+  <text x="824" y="154" class="math" font-size="36" text-anchor="middle">p<tspan baseline-shift="sub" font-size="22">t</tspan><tspan baseline-shift="super" font-size="24">S</tspan></text>
+
+  <rect x="735" y="296" width="116" height="177" class="dash"/>
+  <rect x="747" y="338" width="34" height="34" fill="#ffd85d" stroke="#ffcb2e" stroke-width="3"/>
+  <rect x="803" y="338" width="34" height="34" fill="#ffd85d" stroke="#ffcb2e" stroke-width="3"/>
+  <text x="766" y="418" class="math" font-size="36" text-anchor="middle">p<tspan baseline-shift="sub" font-size="22">t</tspan><tspan baseline-shift="super" font-size="24">T</tspan></text>
+  <text x="824" y="418" class="math" font-size="36" text-anchor="middle">p<tspan baseline-shift="sub" font-size="22">t</tspan><tspan baseline-shift="super" font-size="24">S</tspan></text>
+
+  <text x="730" y="523" class="txt" font-size="36">Decoupling</text>
+  <rect x="735" y="557" width="116" height="186" class="dash"/>
+  <g>
+    <rect x="747" y="567" width="34" height="32" fill="#b6d7a8" stroke="#93c47d" stroke-width="2"/>
+    <rect x="747" y="599" width="34" height="32" fill="#b6d7a8" stroke="#93c47d" stroke-width="2"/>
+    <rect x="747" y="631" width="34" height="32" fill="#b6d7a8" stroke="#93c47d" stroke-width="2"/>
+    <rect x="747" y="663" width="34" height="32" fill="#a7a7a7" stroke="#888" stroke-width="2"/>
+    <rect x="747" y="695" width="34" height="32" fill="#a7a7a7" stroke="#888" stroke-width="2"/>
+    <rect x="803" y="567" width="34" height="32" fill="#b6d7a8" stroke="#93c47d" stroke-width="2"/>
+    <rect x="803" y="599" width="34" height="32" fill="#b6d7a8" stroke="#93c47d" stroke-width="2"/>
+    <rect x="803" y="631" width="34" height="32" fill="#b6d7a8" stroke="#93c47d" stroke-width="2"/>
+    <rect x="803" y="663" width="34" height="32" fill="#a7a7a7" stroke="#888" stroke-width="2"/>
+    <rect x="803" y="695" width="34" height="32" fill="#a7a7a7" stroke="#888" stroke-width="2"/>
+  </g>
+
+  <rect x="646" y="780" width="298" height="48" rx="7" fill="#c7a6d7"/>
+  <text x="795" y="816" class="txt" font-size="32" text-anchor="middle">Dynamic Top-k Mask</text>
+  <text x="795" y="773" font-family="Arial, Helvetica, sans-serif" font-size="44" fill="#c7a6d7" text-anchor="middle">⇳</text>
+
+  <!-- arrows from first column to decoupled -->
+  <line x1="696" y1="126" x2="735" y2="126" class="line" marker-end="url(#arrow)"/>
+  <line x1="696" y1="383" x2="735" y2="383" class="line" marker-end="url(#arrow)"/>
+  <line x1="696" y1="647" x2="735" y2="647" class="line" marker-end="url(#arrow)"/>
+
+  <!-- Loss and gradient sections -->
+  <!-- TASK -->
+  <rect x="884" y="41" width="253" height="174" class="dashBlue"/>
+  <text x="1062" y="82" class="txt" font-size="34" text-anchor="middle">TASK</text>
+  <rect x="898" y="102" width="225" height="93" rx="16" fill="#fff" stroke="#9bb0d6" stroke-width="3"/>
+  <text x="1010" y="138" class="txt" font-size="32" text-anchor="middle">Task</text>
+  <text x="1010" y="182" class="txt" font-size="32" text-anchor="middle">CE Loss</text>
+
+  <rect x="1176" y="41" width="253" height="174" class="dashBlue"/>
+  <text x="1366" y="82" class="txt" font-size="34" text-anchor="middle">TOG</text>
+  <rect x="1190" y="99" width="232" height="95" rx="16" fill="#8faadc" stroke="none"/>
+  <text x="1306" y="137" class="txt" font-size="32" text-anchor="middle">Task-oriented</text>
+  <text x="1306" y="178" class="txt" font-size="32" text-anchor="middle">Gradient</text>
+
+  <!-- TCKD -->
+  <rect x="884" y="296" width="253" height="176" class="dashYellow"/>
+  <text x="1065" y="338" class="txt" font-size="34" text-anchor="middle">TCKD</text>
+  <rect x="898" y="357" width="225" height="94" rx="16" fill="#fff" stroke="#ffe377" stroke-width="3"/>
+  <text x="1010" y="395" class="txt" font-size="32" text-anchor="middle">Target Class</text>
+  <text x="1010" y="436" class="txt" font-size="32" text-anchor="middle">KL Loss</text>
+
+  <rect x="1176" y="296" width="253" height="176" class="dashYellow"/>
+  <text x="1364" y="338" class="txt" font-size="34" text-anchor="middle">TCG</text>
+  <rect x="1190" y="357" width="232" height="95" rx="16" fill="#ffd85d" stroke="none"/>
+  <text x="1306" y="395" class="txt" font-size="32" text-anchor="middle">Target class</text>
+  <text x="1306" y="436" class="txt" font-size="32" text-anchor="middle">Gradient</text>
+
+  <!-- NCKD -->
+  <rect x="884" y="562" width="253" height="176" class="dashGreen"/>
+  <text x="1065" y="604" class="txt" font-size="34" text-anchor="middle">NCKD</text>
+  <rect x="898" y="623" width="225" height="94" rx="16" fill="#fff" stroke="#b7d6a8" stroke-width="3"/>
+  <text x="1010" y="661" class="txt" font-size="32" text-anchor="middle">Non-target</text>
+  <text x="1010" y="702" class="txt" font-size="32" text-anchor="middle">Class KL Loss</text>
+
+  <rect x="1176" y="562" width="253" height="176" class="dashGreen"/>
+  <text x="1364" y="604" class="txt" font-size="34" text-anchor="middle">NCG</text>
+  <rect x="1190" y="623" width="232" height="95" rx="16" fill="#b6d7a8" stroke="none"/>
+  <text x="1306" y="661" class="txt" font-size="32" text-anchor="middle">Non-target</text>
+  <text x="1306" y="702" class="txt" font-size="32" text-anchor="middle">class Gradient</text>
+
+  <!-- Arrows across middle -->
+  <line x1="851" y1="126" x2="884" y2="126" class="line" marker-end="url(#arrow)"/>
+  <line x1="1137" y1="126" x2="1176" y2="126" class="line" marker-end="url(#arrow)"/>
+  <line x1="1429" y1="126" x2="1538" y2="126" class="line" marker-end="url(#arrow)"/>
+
+  <line x1="851" y1="383" x2="884" y2="383" class="line" marker-end="url(#arrow)"/>
+  <line x1="1137" y1="383" x2="1176" y2="383" class="line" marker-end="url(#arrow)"/>
+  <line x1="1429" y1="383" x2="1538" y2="383" class="line" marker-end="url(#arrow)"/>
+
+  <line x1="851" y1="647" x2="884" y2="647" class="line" marker-end="url(#arrow)"/>
+  <line x1="1137" y1="647" x2="1176" y2="647" class="line" marker-end="url(#arrow)"/>
+  <line x1="1429" y1="647" x2="1538" y2="647" class="line" marker-end="url(#arrow)"/>
+
+  <!-- Momentum equations and double arrows -->
+  <text x="1445" y="45" class="math" font-size="32">v ← g + (μ + Δ)v</text>
+  <text x="1445" y="306" class="math" font-size="32">v ← g + (μ − Δ)v</text>
+  <text x="1445" y="568" class="math" font-size="32">v ← g + (μ + Δ)v</text>
+  <text x="1471" y="107" font-family="Arial, Helvetica, sans-serif" font-size="54" fill="#8faadc" text-anchor="middle">⇕</text>
+  <text x="1471" y="368" font-family="Arial, Helvetica, sans-serif" font-size="54" fill="#ffd85d" text-anchor="middle">⇕</text>
+  <text x="1471" y="630" font-family="Arial, Helvetica, sans-serif" font-size="54" fill="#93c47d" text-anchor="middle">⇕</text>
+
+  <!-- Momentum buffers -->
+  <rect x="1538" y="79" width="262" height="94" rx="14" fill="#8faadc"/>
+  <text x="1669" y="120" class="txt" font-size="30" text-anchor="middle">Task</text>
+  <text x="1669" y="157" class="txt" font-size="30" text-anchor="middle">Momentum buffer</text>
+
+  <rect x="1538" y="336" width="262" height="94" rx="14" fill="#ffd85d"/>
+  <text x="1669" y="377" class="txt" font-size="30" text-anchor="middle">Target</text>
+  <text x="1669" y="414" class="txt" font-size="30" text-anchor="middle">Momentum buffer</text>
+
+  <rect x="1538" y="599" width="262" height="94" rx="14" fill="#b6d7a8"/>
+  <text x="1669" y="640" class="txt" font-size="30" text-anchor="middle">Non-target</text>
+  <text x="1669" y="677" class="txt" font-size="30" text-anchor="middle">Momentum buffer</text>
+
+  <!-- Combine and update -->
+  <polyline points="1800,126 1856,126 1856,361" class="line" marker-end="url(#arrowSmall)"/>
+  <line x1="1800" y1="383" x2="1836" y2="383" class="line" marker-end="url(#arrowSmall)"/>
+  <polyline points="1800,646 1856,646 1856,404" class="line" marker-end="url(#arrowSmall)"/>
+
+  <circle cx="1856" cy="383" r="20" fill="#fff" stroke="#000" stroke-width="3"/>
+  <line x1="1837" y1="383" x2="1875" y2="383" stroke="#000" stroke-width="3"/>
+  <line x1="1856" y1="364" x2="1856" y2="402" stroke="#000" stroke-width="3"/>
+
+  <line x1="1876" y1="383" x2="2040" y2="383" class="line"/>
+  <text x="1885" y="365" class="math" font-size="32">θ ← θ − γv</text>
+  <text x="1918" y="418" class="txt" font-size="34">Update</text>
+
+  <!-- Feedback update path to student -->
+  <polyline points="2040,383 2040,852 410,852 410,731" class="line" marker-end="url(#arrow)"/>
+</svg>

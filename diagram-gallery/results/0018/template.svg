@@ -1,0 +1,261 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="815" viewBox="0 0 1600 815">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#111"/>
+    </marker>
+    <style>
+      .serif{font-family:"Times New Roman", Times, serif; fill:#111;}
+      .math{font-family:"Times New Roman", Times, serif; font-style:italic; fill:#111;}
+      .line{stroke:#111; stroke-width:2.6; fill:none;}
+      .thin{stroke:#111; stroke-width:2; fill:none;}
+      .box{fill:#eeeeee; stroke:#5b231f; stroke-width:2.4;}
+      .node{fill:#7fa9f2; stroke:none;}
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1600" height="815" fill="#ffffff"/>
+
+  <!-- Panel (a) background -->
+  <rect x="87" y="14" width="1510" height="387" fill="#d8f5f7"/>
+
+  <!-- Panel labels and titles -->
+  <text x="16" y="58" class="serif" font-size="38">(a)</text>
+  <text x="148" y="60" class="serif" font-size="38">GIBMS</text>
+  <text x="16" y="443" class="serif" font-size="38">(b)</text>
+  <text x="133" y="454" class="serif" font-size="38">SLG</text>
+
+  <!-- Panel (a): input graph -->
+  <g id="graph_a">
+    <line x1="220" y1="155" x2="218" y2="216" class="thin"/>
+    <line x1="164" y1="252" x2="218" y2="216" class="thin"/>
+    <line x1="218" y1="216" x2="278" y2="252" class="thin"/>
+    <line x1="281" y1="254" x2="284" y2="178" class="thin"/>
+    <circle cx="220" cy="155" r="16" class="node"/>
+    <circle cx="218" cy="216" r="16" class="node"/>
+    <circle cx="164" cy="252" r="16" class="node"/>
+    <circle cx="278" cy="252" r="16" class="node"/>
+    <circle cx="283" cy="178" r="16" class="node"/>
+  </g>
+  <text x="215" y="313" class="math" font-size="42">𝒢</text>
+
+  <!-- Panel (a): encoder -->
+  <line x1="306" y1="214" x2="381" y2="214" class="line" marker-end="url(#arrow)"/>
+  <rect x="383" y="126" width="76" height="176" class="box"/>
+  <text x="429" y="219" class="serif" font-size="30" text-anchor="middle" transform="rotate(-90 429 219)">Encoder</text>
+
+  <!-- Panel (a): H stack -->
+  <line x1="459" y1="214" x2="527" y2="214" class="line" marker-end="url(#arrow)"/>
+  <text x="486" y="170" class="serif" font-size="42" font-weight="bold">H</text>
+  <g id="h_stack_a">
+    <rect x="527" y="139" width="55" height="149" fill="#9eeeff" stroke="#0d1a5c" stroke-width="2.5"/>
+    <line x1="527" y1="169" x2="582" y2="169" stroke="#0d1a5c" stroke-width="2"/>
+    <line x1="527" y1="199" x2="582" y2="199" stroke="#0d1a5c" stroke-width="2"/>
+    <line x1="527" y1="229" x2="582" y2="229" stroke="#0d1a5c" stroke-width="2"/>
+    <line x1="527" y1="259" x2="582" y2="259" stroke="#0d1a5c" stroke-width="2"/>
+  </g>
+
+  <!-- Panel (a): MLP -->
+  <line x1="582" y1="214" x2="645" y2="214" class="line" marker-end="url(#arrow)"/>
+  <rect x="646" y="126" width="76" height="176" class="box"/>
+  <text x="692" y="218" class="serif" font-size="31" text-anchor="middle" transform="rotate(-90 692 218)">MLP</text>
+  <line x1="722" y1="214" x2="786" y2="214" class="line" marker-end="url(#arrow)"/>
+
+  <!-- Panel (a): information maximization paths -->
+  <path d="M554,139 L554,79 L772,79" class="line" marker-end="url(#arrow)"/>
+  <path d="M554,288 L554,349 L772,349" class="line" marker-end="url(#arrow)"/>
+  <text x="790" y="89" class="math" font-size="42">I (𝒢; 𝒢<tspan baseline-shift="sub" font-size="26">IB</tspan>)</text>
+  <text x="790" y="357" class="math" font-size="42">I (𝒢; 𝒢<tspan baseline-shift="sub" font-size="26">IB</tspan>)</text>
+
+  <!-- Panel (a): sampled graph with scores -->
+  <g id="sample_graph_a">
+    <line x1="884" y1="154" x2="884" y2="216" class="thin"/>
+    <line x1="828" y1="252" x2="884" y2="216" class="thin"/>
+    <line x1="884" y1="216" x2="941" y2="252" class="thin"/>
+    <line x1="943" y1="178" x2="941" y2="252" class="thin"/>
+    <circle cx="884" cy="154" r="16" class="node"/>
+    <circle cx="884" cy="216" r="16" class="node"/>
+    <circle cx="828" cy="252" r="16" class="node"/>
+    <circle cx="941" cy="252" r="16" class="node"/>
+    <circle cx="943" cy="178" r="16" class="node"/>
+    <text x="884" y="159" class="serif" font-size="18" text-anchor="middle">0.1</text>
+    <text x="884" y="222" class="serif" font-size="18" text-anchor="middle">0.9</text>
+    <text x="828" y="258" class="serif" font-size="18" text-anchor="middle">0.7</text>
+    <text x="941" y="258" class="serif" font-size="18" text-anchor="middle">0.6</text>
+    <text x="943" y="184" class="serif" font-size="18" text-anchor="middle">0.3</text>
+  </g>
+
+  <!-- Panel (a): sample to G_IB stacks -->
+  <line x1="982" y1="214" x2="1024" y2="214" class="line"/>
+  <line x1="1024" y1="108" x2="1024" y2="318" class="line"/>
+  <line x1="1024" y1="108" x2="1089" y2="108" class="line" marker-end="url(#arrow)"/>
+  <line x1="1024" y1="318" x2="1089" y2="318" class="line" marker-end="url(#arrow)"/>
+  <text x="1037" y="224" class="serif" font-size="33">Sample</text>
+
+  <text x="1038" y="60" class="math" font-size="38">𝒢<tspan baseline-shift="sub" font-size="24">IB</tspan></text>
+  <text x="1038" y="381" class="math" font-size="38">𝒢<tspan baseline-shift="sub" font-size="24">IB</tspan></text>
+
+  <g id="gib_top_stack_a">
+    <rect x="1090" y="34" width="53" height="149" fill="#d7e98c" stroke="#07175c" stroke-width="2.5"/>
+    <line x1="1090" y1="64" x2="1143" y2="64" stroke="#07175c" stroke-width="2"/>
+    <line x1="1090" y1="94" x2="1143" y2="94" stroke="#07175c" stroke-width="2"/>
+    <line x1="1090" y1="124" x2="1143" y2="124" stroke="#07175c" stroke-width="2"/>
+    <line x1="1090" y1="154" x2="1143" y2="154" stroke="#07175c" stroke-width="2"/>
+  </g>
+  <g id="gib_bottom_stack_a">
+    <rect x="1090" y="244" width="53" height="149" fill="#d7e98c" stroke="#07175c" stroke-width="2.5"/>
+    <line x1="1090" y1="274" x2="1143" y2="274" stroke="#07175c" stroke-width="2"/>
+    <line x1="1090" y1="304" x2="1143" y2="304" stroke="#07175c" stroke-width="2"/>
+    <line x1="1090" y1="334" x2="1143" y2="334" stroke="#07175c" stroke-width="2"/>
+    <line x1="1090" y1="364" x2="1143" y2="364" stroke="#07175c" stroke-width="2"/>
+  </g>
+
+  <text x="1154" y="100" class="serif" font-size="30">Pool</text>
+  <line x1="1143" y1="108" x2="1241" y2="108" class="line" marker-end="url(#arrow)"/>
+  <rect x="1242" y="90" width="58" height="39" fill="#d9e68b" stroke="#6a2220" stroke-width="2.5"/>
+
+  <text x="1154" y="308" class="serif" font-size="30">Pool</text>
+  <line x1="1143" y1="318" x2="1241" y2="318" class="line" marker-end="url(#arrow)"/>
+  <rect x="1242" y="299" width="58" height="39" fill="#d9e68b" stroke="#6a2220" stroke-width="2.5"/>
+
+  <line x1="1300" y1="110" x2="1363" y2="205" class="line" marker-end="url(#arrow)"/>
+  <line x1="1300" y1="318" x2="1363" y2="213" class="line" marker-end="url(#arrow)"/>
+  <line x1="1422" y1="210" x2="1363" y2="210" class="line" marker-end="url(#arrow)"/>
+  <text x="1397" y="217" class="math" font-size="38">− I (Y; 𝒢<tspan baseline-shift="sub" font-size="24">IB</tspan>)</text>
+
+  <!-- Panel (b): input graph -->
+  <g id="graph_b">
+    <line x1="222" y1="518" x2="220" y2="581" class="thin"/>
+    <line x1="166" y1="613" x2="220" y2="581" class="thin"/>
+    <line x1="220" y1="581" x2="279" y2="614" class="thin"/>
+    <line x1="282" y1="614" x2="284" y2="554" class="thin"/>
+    <circle cx="222" cy="518" r="16" class="node"/>
+    <circle cx="220" cy="581" r="16" class="node"/>
+    <circle cx="166" cy="613" r="16" class="node"/>
+    <circle cx="279" cy="614" r="16" class="node"/>
+    <circle cx="284" cy="554" r="16" class="node"/>
+  </g>
+  <text x="216" y="674" class="math" font-size="42">𝒢</text>
+
+  <!-- Panel (b): branch arrows -->
+  <path d="M322,576 L400,513" class="line" marker-end="url(#arrow)"/>
+  <path d="M322,576 L400,701" class="line" marker-end="url(#arrow)"/>
+
+  <!-- Panel (b): GIBMS / Tokenizer -->
+  <rect x="402" y="429" width="77" height="167" fill="#d8f5f7" stroke="none"/>
+  <text x="447" y="514" class="serif" font-size="30" text-anchor="middle" transform="rotate(-90 447 514)">GIBMS</text>
+
+  <rect x="402" y="617" width="77" height="167" fill="#eeeeee" stroke="#6b5417" stroke-width="2.4"/>
+  <text x="447" y="703" class="serif" font-size="30" text-anchor="middle" transform="rotate(-90 447 703)">Tokenizer</text>
+
+  <!-- Panel (b): Encoder / Embedding -->
+  <line x1="479" y1="513" x2="561" y2="513" class="line" marker-end="url(#arrow)"/>
+  <rect x="562" y="429" width="77" height="167" fill="#eeeeee" stroke="#6b5417" stroke-width="2.4"/>
+  <text x="608" y="515" class="serif" font-size="30" text-anchor="middle" transform="rotate(-90 608 515)">Encoder</text>
+
+  <line x1="479" y1="700" x2="561" y2="700" class="line" marker-end="url(#arrow)"/>
+  <rect x="562" y="617" width="77" height="167" fill="#eeeeee" stroke="#6b5417" stroke-width="2.4"/>
+  <text x="608" y="704" class="serif" font-size="30" text-anchor="middle" transform="rotate(-90 608 704)">Embedding</text>
+
+  <!-- Panel (b): H^p and H^y stacks -->
+  <line x1="639" y1="513" x2="720" y2="513" class="line" marker-end="url(#arrow)"/>
+  <text x="667" y="465" class="serif" font-size="36" font-weight="bold">H<tspan baseline-shift="super" font-size="22">p</tspan></text>
+  <g id="hp_stack_b">
+    <rect x="721" y="438" width="55" height="150" fill="#f5f0d8" stroke="#07175c" stroke-width="2.5"/>
+    <line x1="721" y1="468" x2="776" y2="468" stroke="#07175c" stroke-width="2"/>
+    <line x1="721" y1="498" x2="776" y2="498" stroke="#07175c" stroke-width="2"/>
+    <line x1="721" y1="528" x2="776" y2="528" stroke="#07175c" stroke-width="2"/>
+    <line x1="721" y1="558" x2="776" y2="558" stroke="#07175c" stroke-width="2"/>
+  </g>
+
+  <line x1="639" y1="700" x2="720" y2="700" class="line" marker-end="url(#arrow)"/>
+  <text x="667" y="653" class="serif" font-size="36" font-weight="bold">H<tspan baseline-shift="super" font-size="22">y</tspan></text>
+  <g id="hy_stack_b">
+    <rect x="721" y="625" width="55" height="150" fill="#f5f0d8" stroke="#07175c" stroke-width="2.5"/>
+    <line x1="721" y1="655" x2="776" y2="655" stroke="#07175c" stroke-width="2"/>
+    <line x1="721" y1="685" x2="776" y2="685" stroke="#07175c" stroke-width="2"/>
+    <line x1="721" y1="715" x2="776" y2="715" stroke="#07175c" stroke-width="2"/>
+    <line x1="721" y1="745" x2="776" y2="745" stroke="#07175c" stroke-width="2"/>
+  </g>
+
+  <!-- Panel (b): softmax formulas -->
+  <line x1="776" y1="513" x2="858" y2="513" class="line"/>
+  <text x="860" y="518" class="serif" font-size="32">softmax</text>
+  <text x="983" y="522" class="serif" font-size="74">(</text>
+  <text x="1017" y="494" class="serif" font-size="34" font-weight="bold">H<tspan baseline-shift="super" font-size="21">p</tspan> · Q</text>
+  <line x1="1006" y1="510" x2="1104" y2="510" stroke="#111" stroke-width="2"/>
+  <text x="1043" y="545" class="math" font-size="30">τ<tspan baseline-shift="sub" font-size="19">p</tspan></text>
+  <text x="1102" y="522" class="serif" font-size="74">)</text>
+  <line x1="1130" y1="513" x2="1209" y2="513" class="line" marker-end="url(#arrow)"/>
+
+  <line x1="776" y1="700" x2="858" y2="700" class="line"/>
+  <text x="860" y="706" class="serif" font-size="32">softmax</text>
+  <text x="983" y="710" class="serif" font-size="74">(</text>
+  <text x="1017" y="681" class="serif" font-size="34" font-weight="bold">H<tspan baseline-shift="super" font-size="21">y</tspan> · Q</text>
+  <line x1="1006" y1="697" x2="1104" y2="697" stroke="#111" stroke-width="2"/>
+  <text x="1043" y="732" class="math" font-size="30">τ<tspan baseline-shift="sub" font-size="19">y</tspan></text>
+  <text x="1102" y="710" class="serif" font-size="74">)</text>
+  <line x1="1130" y1="700" x2="1209" y2="700" class="line" marker-end="url(#arrow)"/>
+
+  <!-- Panel (b): Q color bar -->
+  <text x="873" y="619" class="serif" font-size="36" font-weight="bold">Q</text>
+  <g id="q_bar_b">
+    <rect x="919" y="570" width="37" height="61" fill="#83a8ee" stroke="#07175c" stroke-width="2"/>
+    <rect x="956" y="570" width="37" height="61" fill="#8dd8af" stroke="#07175c" stroke-width="2"/>
+    <rect x="993" y="570" width="37" height="61" fill="#ffc15b" stroke="#07175c" stroke-width="2"/>
+    <rect x="1030" y="570" width="37" height="61" fill="#f492a8" stroke="#07175c" stroke-width="2"/>
+  </g>
+
+  <!-- Panel (b): s^p and s^y matrices -->
+  <text x="1164" y="478" class="math" font-size="34">s<tspan baseline-shift="super" font-size="22">p</tspan></text>
+  <g id="sp_matrix_b">
+    <rect x="1210" y="436" width="37" height="31" fill="#83a8ee" stroke="#07175c" stroke-width="2"/>
+    <rect x="1247" y="436" width="37" height="31" fill="#8dd8af" stroke="#07175c" stroke-width="2"/>
+    <rect x="1284" y="436" width="37" height="31" fill="#ffc15b" stroke="#07175c" stroke-width="2"/>
+    <rect x="1321" y="436" width="37" height="31" fill="#f492a8" stroke="#07175c" stroke-width="2"/>
+    <rect x="1210" y="467" width="37" height="31" fill="#83a8ee" stroke="#07175c" stroke-width="2"/>
+    <rect x="1247" y="467" width="37" height="31" fill="#8dd8af" stroke="#07175c" stroke-width="2"/>
+    <rect x="1284" y="467" width="37" height="31" fill="#ffc15b" stroke="#07175c" stroke-width="2"/>
+    <rect x="1321" y="467" width="37" height="31" fill="#f492a8" stroke="#07175c" stroke-width="2"/>
+    <rect x="1210" y="498" width="37" height="31" fill="#83a8ee" stroke="#07175c" stroke-width="2"/>
+    <rect x="1247" y="498" width="37" height="31" fill="#8dd8af" stroke="#07175c" stroke-width="2"/>
+    <rect x="1284" y="498" width="37" height="31" fill="#ffc15b" stroke="#07175c" stroke-width="2"/>
+    <rect x="1321" y="498" width="37" height="31" fill="#f492a8" stroke="#07175c" stroke-width="2"/>
+    <rect x="1210" y="529" width="37" height="31" fill="#83a8ee" stroke="#07175c" stroke-width="2"/>
+    <rect x="1247" y="529" width="37" height="31" fill="#8dd8af" stroke="#07175c" stroke-width="2"/>
+    <rect x="1284" y="529" width="37" height="31" fill="#ffc15b" stroke="#07175c" stroke-width="2"/>
+    <rect x="1321" y="529" width="37" height="31" fill="#f492a8" stroke="#07175c" stroke-width="2"/>
+    <rect x="1210" y="560" width="37" height="31" fill="#83a8ee" stroke="#07175c" stroke-width="2"/>
+    <rect x="1247" y="560" width="37" height="31" fill="#8dd8af" stroke="#07175c" stroke-width="2"/>
+    <rect x="1284" y="560" width="37" height="31" fill="#ffc15b" stroke="#07175c" stroke-width="2"/>
+    <rect x="1321" y="560" width="37" height="31" fill="#f492a8" stroke="#07175c" stroke-width="2"/>
+  </g>
+
+  <text x="1164" y="685" class="math" font-size="34">s<tspan baseline-shift="super" font-size="22">y</tspan></text>
+  <g id="sy_matrix_b">
+    <rect x="1210" y="623" width="37" height="31" fill="#83a8ee" stroke="#07175c" stroke-width="2"/>
+    <rect x="1247" y="623" width="37" height="31" fill="#8dd8af" stroke="#07175c" stroke-width="2"/>
+    <rect x="1284" y="623" width="37" height="31" fill="#ffc15b" stroke="#07175c" stroke-width="2"/>
+    <rect x="1321" y="623" width="37" height="31" fill="#f492a8" stroke="#07175c" stroke-width="2"/>
+    <rect x="1210" y="654" width="37" height="31" fill="#83a8ee" stroke="#07175c" stroke-width="2"/>
+    <rect x="1247" y="654" width="37" height="31" fill="#8dd8af" stroke="#07175c" stroke-width="2"/>
+    <rect x="1284" y="654" width="37" height="31" fill="#ffc15b" stroke="#07175c" stroke-width="2"/>
+    <rect x="1321" y="654" width="37" height="31" fill="#f492a8" stroke="#07175c" stroke-width="2"/>
+    <rect x="1210" y="685" width="37" height="31" fill="#83a8ee" stroke="#07175c" stroke-width="2"/>
+    <rect x="1247" y="685" width="37" height="31" fill="#8dd8af" stroke="#07175c" stroke-width="2"/>
+    <rect x="1284" y="685" width="37" height="31" fill="#ffc15b" stroke="#07175c" stroke-width="2"/>
+    <rect x="1321" y="685" width="37" height="31" fill="#f492a8" stroke="#07175c" stroke-width="2"/>
+    <rect x="1210" y="716" width="37" height="31" fill="#83a8ee" stroke="#07175c" stroke-width="2"/>
+    <rect x="1247" y="716" width="37" height="31" fill="#8dd8af" stroke="#07175c" stroke-width="2"/>
+    <rect x="1284" y="716" width="37" height="31" fill="#ffc15b" stroke="#07175c" stroke-width="2"/>
+    <rect x="1321" y="716" width="37" height="31" fill="#f492a8" stroke="#07175c" stroke-width="2"/>
+    <rect x="1210" y="747" width="37" height="31" fill="#83a8ee" stroke="#07175c" stroke-width="2"/>
+    <rect x="1247" y="747" width="37" height="31" fill="#8dd8af" stroke="#07175c" stroke-width="2"/>
+    <rect x="1284" y="747" width="37" height="31" fill="#ffc15b" stroke="#07175c" stroke-width="2"/>
+    <rect x="1321" y="747" width="37" height="31" fill="#f492a8" stroke="#07175c" stroke-width="2"/>
+  </g>
+
+  <!-- Panel (b): loss convergence -->
+  <line x1="1358" y1="513" x2="1410" y2="615" class="line" marker-end="url(#arrow)"/>
+  <line x1="1358" y1="700" x2="1410" y2="615" class="line" marker-end="url(#arrow)"/>
+  <text x="1426" y="621" class="math" font-size="38">L<tspan baseline-shift="sub" font-size="24">soft</tspan>(s<tspan baseline-shift="super" font-size="22">y</tspan>, s<tspan baseline-shift="super" font-size="22">p</tspan>)</text>
+</svg>

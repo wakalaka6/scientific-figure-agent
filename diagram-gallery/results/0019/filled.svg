@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="871" viewBox="0 0 1600 871">
+  <rect x="0" y="0" width="1600" height="871" fill="#f7f7f7" />
+  <rect x="8" y="7" width="1584" height="864" fill="#ffffff" stroke="#c8c8c8" stroke-width="3" />
+  <line x1="13" y1="10" x2="1590" y2="10" stroke="#d9d9d9" stroke-width="4" />
+  <line x1="13" y1="10" x2="13" y2="870" stroke="#d9d9d9" stroke-width="4" />
+
+  
+  <rect x="216" y="39" width="439" height="76" rx="12" ry="12" fill="#ffffff" stroke="#102b52" stroke-width="4" />
+  <text x="294" y="88" font-family="Times New Roman, Times, serif" font-size="42" fill="#000000">Text-Only Request</text>
+
+  <g id="svg_slot_document_icon" data-source-slot="slot_document_icon" fill="none" transform="translate(240 53) scale(1 1) translate(0 0)"><path d="M3 1h25l9 9v33H3z" fill="#fff" stroke="#111" stroke-width="2" stroke-linejoin="miter" />
+  <path d="M28 1v9h9" fill="none" stroke="#111" stroke-width="2" stroke-linejoin="miter" />
+  <path d="M9 11h18M9 16h23M9 21h23M9 26h16M9 31h16" fill="none" stroke="#111" stroke-width="2" stroke-linecap="square" />
+</g><rect x="926" y="40" width="439" height="76" rx="12" ry="12" fill="#ffffff" stroke="#102b52" stroke-width="4" />
+  <text x="995" y="90" font-family="Times New Roman, Times, serif" font-size="42" fill="#000000">Image-Text Request</text>
+
+  <g id="svg_slot_image_icon" data-source-slot="slot_image_icon" fill="none" transform="translate(939 58) scale(1 1.025) translate(0 0)"><path d="M4.5 4.5h42v32h-42z" fill="#47d6a4" stroke="#6f7777" stroke-width="1.5" stroke-linejoin="round" />
+  <path d="M1.5 1.5h42v32h-42z" fill="#f9ffff" stroke="#6f7777" stroke-width="1.5" stroke-linejoin="round" />
+  <circle cx="12.5" cy="9" r="4.2" fill="#ffe07a" stroke="#6f7777" stroke-width="1.5" />
+  <path d="M2 31.5 14.5 21.2 23.2 27.4 36.2 16.1 43.5 21.7v11.8H1.5z" fill="#48d9a5" />
+  <path d="M1.5 31.5 14.5 21.2 23.2 27.4 36.2 16.1 43.5 21.7" fill="none" stroke="#6f7777" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M1.5 1.5h42v32h-42z" fill="none" stroke="#6f7777" stroke-width="1.5" stroke-linejoin="round" />
+</g><line x1="434" y1="115" x2="434" y2="143" stroke="#555555" stroke-width="8" />
+  <polygon points="434,160 421,142 447,142" fill="#555555" />
+  <line x1="1149" y1="116" x2="1149" y2="143" stroke="#555555" stroke-width="8" />
+  <polygon points="1149,160 1136,142 1162,142" fill="#555555" />
+
+  
+  <rect x="94" y="159" width="1433" height="266" fill="#ffffff" stroke="#102b52" stroke-width="3" />
+  <rect x="95.5" y="160.5" width="714" height="263" fill="#dcecfb" stroke="none" />
+  <rect x="812" y="160.5" width="713.5" height="263" fill="#fde4e0" stroke="none" />
+  <line x1="810" y1="160" x2="810" y2="423" stroke="#000000" stroke-width="3" stroke-dasharray="8 5" />
+  <rect x="94" y="159" width="1433" height="266" fill="none" stroke="#102b52" stroke-width="3" />
+
+  <text x="488" y="210" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="40" font-weight="700" fill="#000000">Modality-Level</text>
+  <text x="474" y="255" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="38" font-weight="700" fill="#3c6fbd">(Modality-Aware Load Balancing §3.1)</text>
+
+  
+  <polygon points="758,205 786,188 786,198 837,198 837,188 866,205 837,222 837,212 786,212 786,222" fill="#555555" />
+
+  
+  <rect x="146" y="305" width="278" height="89" rx="14" ry="14" fill="#d7ebff" stroke="#102b52" stroke-width="3" />
+  <text x="285" y="365" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="40" font-weight="700" fill="#000000">Prefill Stage</text>
+
+  <line x1="424" y1="351" x2="471" y2="351" stroke="#555555" stroke-width="9" />
+  <polygon points="492,351 469,338 469,364" fill="#555555" />
+
+  <rect x="491" y="308" width="278" height="86" rx="14" ry="14" fill="#d7ebff" stroke="#102b52" stroke-width="3" />
+  <text x="630" y="365" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="40" font-weight="700" fill="#000000">Decode Stage</text>
+
+  
+  <rect x="1022" y="185" width="277" height="90" rx="14" ry="14" fill="#ffbdb8" stroke="#102b52" stroke-width="3" />
+  <text x="1161" y="244" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="40" font-weight="700" fill="#000000">Encode Stage</text>
+
+  <line x1="1016" y1="252" x2="976" y2="288" stroke="#555555" stroke-width="9" />
+  <polygon points="959,303 971,277 988,296" fill="#555555" />
+
+  <rect x="858" y="305" width="278" height="90" rx="14" ry="14" fill="#ffbdb8" stroke="#102b52" stroke-width="3" />
+  <text x="997" y="364" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="40" font-weight="700" fill="#000000">Prefill Stage</text>
+
+  <line x1="1136" y1="351" x2="1184" y2="351" stroke="#555555" stroke-width="9" />
+  <polygon points="1205,351 1182,338 1182,364" fill="#555555" />
+
+  <rect x="1205" y="303" width="278" height="89" rx="14" ry="14" fill="#ffbdb8" stroke="#102b52" stroke-width="3" />
+  <text x="1344" y="362" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="40" font-weight="700" fill="#000000">Decode Stage</text>
+
+  
+  <rect x="94" y="462" width="1433" height="215" fill="#fffff8" stroke="#102b52" stroke-width="3" />
+  <text x="808" y="509" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="40" font-weight="700">
+    <tspan fill="#000000">Stage-Level </tspan><tspan fill="#3c6fbd">(Elastic Partition Scheduling §3.2)</tspan>
+  </text>
+
+  <rect x="189" y="531" width="320" height="112" rx="15" ry="15" fill="#fff0bd" stroke="#102b52" stroke-width="3" />
+  <text x="349" y="578" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="40" font-weight="700" fill="#000000">Request</text>
+  <text x="349" y="625" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="40" font-weight="700" fill="#000000">Scheduling</text>
+
+  <line x1="509" y1="587" x2="627" y2="587" stroke="#555555" stroke-width="10" />
+  <polygon points="650,587 626,573 626,601" fill="#555555" />
+
+  <rect x="651" y="535" width="320" height="108" rx="15" ry="15" fill="#fff0bd" stroke="#102b52" stroke-width="3" />
+  <text x="811" y="579" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="40" font-weight="700" fill="#000000">Stage</text>
+  <text x="811" y="625" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="40" font-weight="700" fill="#000000">Allocation</text>
+
+  <line x1="970" y1="587" x2="1085" y2="587" stroke="#555555" stroke-width="10" />
+  <polygon points="1108,587 1084,573 1084,601" fill="#555555" />
+
+  <rect x="1107" y="535" width="319" height="108" rx="15" ry="15" fill="#fff0bd" stroke="#102b52" stroke-width="3" />
+  <text x="1267" y="579" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="40" font-weight="700" fill="#000000">Elastic</text>
+  <text x="1267" y="625" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="40" font-weight="700" fill="#000000">Auto-Scaling</text>
+
+  
+  <rect x="94" y="718" width="914" height="131" rx="20" ry="20" fill="#d8f1d3" stroke="#102b52" stroke-width="3" />
+  <text x="551" y="799" text-anchor="middle" font-family="Times New Roman, Times, serif" font-size="40" font-weight="700">
+    <tspan fill="#000000">Unified Multimodal Prefix Cache </tspan><tspan fill="#3c6fbd">(§3.3)</tspan>
+  </text>
+
+  
+  <rect x="1085" y="710" width="439" height="139" fill="#ffffff" stroke="#102b52" stroke-width="3" />
+  <rect x="1117" y="727" width="61" height="29" fill="#d7ebff" stroke="#000000" stroke-width="3" />
+  <text x="1204" y="752" font-family="Times New Roman, Times, serif" font-size="36" fill="#000000">Text-Only Group</text>
+
+  <rect x="1117" y="767" width="61" height="29" fill="#ffbdb8" stroke="#000000" stroke-width="3" />
+  <text x="1204" y="791" font-family="Times New Roman, Times, serif" font-size="36" fill="#000000">Multimodal Group</text>
+
+  <polygon points="1115,821 1136,809 1136,816 1167,816 1167,809 1188,821 1167,833 1167,826 1136,826 1136,833" fill="#555555" />
+  <text x="1204" y="832" font-family="Times New Roman, Times, serif" font-size="36" fill="#000000">Auto-Scaling</text>
+</svg>

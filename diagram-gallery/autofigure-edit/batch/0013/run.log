@@ -1,0 +1,161 @@
+
+============================================================
+Paper Method 到 SVG 图标替换流程 (Label 模式增强版 + Box合并)
+============================================================
+Provider: openrouter
+输出目录: /app/outputs/batch/d794c629fb49374a8f643e359f9f43a7
+输入模式: imported_figure
+导入图片: /app/my-benchmark/simple/d794c629fb49374a8f643e359f9f43a7.jpg
+SVG模型: google/gemini-3.1-pro-preview
+SAM提示词: icon,person,robot,animal
+最低置信度: 0.0
+SAM后端: roboflow
+执行到步骤: 5
+占位符模式: label
+优化迭代次数: 0
+Box合并阈值: 0.01
+4K等比例放大: 开启
+============================================================
+============================================================
+步骤一：跳过生图，使用已有的第一阶段图片
+============================================================
+输入图片: /app/my-benchmark/simple/d794c629fb49374a8f643e359f9f43a7.jpg
+4K等比例放大: 开启
+导入图片已等比例放大到 4K 长边: 1408 x 768 -> 3840 x 2095
+图片已保存: /app/outputs/batch/d794c629fb49374a8f643e359f9f43a7/figure.png
+
+============================================================
+步骤二：SAM3 分割 + 灰色填充+黑色边框+序号标记
+============================================================
+原图尺寸: 3840 x 2095
+使用的 prompts: ['icon', 'person', 'robot', 'animal']
+SAM3 Roboflow API 模式: format=polygon
+
+  正在检测: 'icon'
+    对象 1: (2771, 1018, 2969, 1199), score=0.641
+    对象 2: (1615, 977, 1811, 1155), score=0.746
+    对象 3: (2189, 445, 2341, 591), score=0.645
+    对象 4: (2025, 454, 2129, 584), score=0.699
+    对象 5: (3342, 1018, 3543, 1199), score=0.633
+    对象 6: (1760, 423, 1957, 606), score=0.742
+    对象 7: (2807, 431, 3071, 664), score=0.703
+    对象 8: (2510, 1019, 2695, 1199), score=0.656
+    对象 9: (3244, 445, 3518, 671), score=0.688
+    对象 10: (3056, 1018, 3255, 1199), score=0.648
+    对象 11: (3134, 483, 3247, 597), score=0.629
+    对象 12: (1563, 1496, 1754, 1705), score=0.730
+  'icon' 检测到 12 个有效对象
+
+  正在检测: 'person'
+  'person' 检测到 0 个有效对象
+
+  正在检测: 'robot'
+  'robot' 检测到 0 个有效对象
+
+  正在检测: 'animal'
+  'animal' 检测到 0 个有效对象
+
+总计检测: 12 个对象 (来自 4 个 prompts)
+
+  合并重叠的boxes (阈值: 0.01)...
+    迭代 1: 合并 box 8 和 box 10 (重叠比例: 0.03)
+  合并完成: 12 -> 11 (合并了 1 个)
+
+  合并后的boxes:
+    <AF>01: (2771, 1018, 2969, 1199)
+    <AF>02: (1615, 977, 1811, 1155)
+    <AF>03: (2189, 445, 2341, 591)
+    <AF>04: (2025, 454, 2129, 584)
+    <AF>05: (3342, 1018, 3543, 1199)
+    <AF>06: (1760, 423, 1957, 606)
+    <AF>07: (2807, 431, 3071, 664)
+    <AF>08: (2510, 1019, 2695, 1199)
+    <AF>09: (3056, 1018, 3255, 1199)
+    <AF>10: (1563, 1496, 1754, 1705)
+    <AF>11: (3134, 445, 3518, 671)
+
+  绘制 samed.png (使用 11 个boxes)...
+标记图片已保存: /app/outputs/batch/d794c629fb49374a8f643e359f9f43a7/samed.png
+Box 信息已保存: /app/outputs/batch/d794c629fb49374a8f643e359f9f43a7/boxlib.json
+
+检测到 11 个图标
+
+============================================================
+步骤三：裁切 + RMBG2 去背景
+============================================================
+从 HuggingFace 加载 RMBG-2.0 模型...
+检测到 HF_TOKEN，使用鉴权访问 gated 模型。
+/usr/local/lib/python3.11/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/usr/local/lib/python3.11/site-packages/timm/models/registry.py:4: FutureWarning: Importing from timm.models.registry is deprecated, please import via timm.models
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.models", FutureWarning)
+  <AF>01: 裁切并去背景完成 -> /app/outputs/batch/d794c629fb49374a8f643e359f9f43a7/icons/icon_AF01_nobg.png
+  <AF>02: 裁切并去背景完成 -> /app/outputs/batch/d794c629fb49374a8f643e359f9f43a7/icons/icon_AF02_nobg.png
+  <AF>03: 裁切并去背景完成 -> /app/outputs/batch/d794c629fb49374a8f643e359f9f43a7/icons/icon_AF03_nobg.png
+  <AF>04: 裁切并去背景完成 -> /app/outputs/batch/d794c629fb49374a8f643e359f9f43a7/icons/icon_AF04_nobg.png
+  <AF>05: 裁切并去背景完成 -> /app/outputs/batch/d794c629fb49374a8f643e359f9f43a7/icons/icon_AF05_nobg.png
+  <AF>06: 裁切并去背景完成 -> /app/outputs/batch/d794c629fb49374a8f643e359f9f43a7/icons/icon_AF06_nobg.png
+  <AF>07: 裁切并去背景完成 -> /app/outputs/batch/d794c629fb49374a8f643e359f9f43a7/icons/icon_AF07_nobg.png
+  <AF>08: 裁切并去背景完成 -> /app/outputs/batch/d794c629fb49374a8f643e359f9f43a7/icons/icon_AF08_nobg.png
+  <AF>09: 裁切并去背景完成 -> /app/outputs/batch/d794c629fb49374a8f643e359f9f43a7/icons/icon_AF09_nobg.png
+  <AF>10: 裁切并去背景完成 -> /app/outputs/batch/d794c629fb49374a8f643e359f9f43a7/icons/icon_AF10_nobg.png
+  <AF>11: 裁切并去背景完成 -> /app/outputs/batch/d794c629fb49374a8f643e359f9f43a7/icons/icon_AF11_nobg.png
+
+============================================================
+步骤四：多模态调用生成 SVG
+============================================================
+Provider: openrouter
+模型: google/gemini-3.1-pro-preview
+占位符模式: label
+原图尺寸: 3840 x 2095
+发送多模态请求到: https://openrouter.ai/api/v1
+
+--------------------------------------------------
+步骤 4.5：SVG 语法验证（使用 lxml XML 解析器）
+--------------------------------------------------
+  SVG 语法验证通过！
+SVG 模板已保存: /app/outputs/batch/d794c629fb49374a8f643e359f9f43a7/template.svg
+
+============================================================
+步骤 4.6：LLM 优化 SVG（位置和样式对齐）
+============================================================
+Provider: openrouter
+模型: google/gemini-3.1-pro-preview
+最大迭代次数: 0
+  迭代次数为 0，跳过 LLM 优化
+  直接复制模板: /app/outputs/batch/d794c629fb49374a8f643e359f9f43a7/template.svg -> /app/outputs/batch/d794c629fb49374a8f643e359f9f43a7/optimized_template.svg
+
+--------------------------------------------------
+步骤 4.7：坐标系对齐
+--------------------------------------------------
+原图尺寸: 3840 x 2095
+SVG 尺寸: 3840.0 x 2095.0
+尺寸匹配，使用 1:1 坐标映射
+
+============================================================
+步骤五：图标替换到 SVG
+============================================================
+匹配模式: 序号匹配
+  <AF>01: 替换成功 (序号匹配 <g>) at (2760.0, 1000.0) size 180.0x180.0
+  <AF>02: 替换成功 (序号匹配 <g>) at (1560.0, 980.0) size 180.0x180.0
+  <AF>03: 替换成功 (序号匹配 <g>) at (2150.0, 440.0) size 160.0x160.0
+  <AF>04: 替换成功 (序号匹配 <g>) at (1980.0, 450.0) size 120.0x150.0
+  <AF>05: 替换成功 (序号匹配 <g>) at (3260.0, 1000.0) size 180.0x180.0
+  <AF>06: 替换成功 (序号匹配 <g>) at (1750.0, 420.0) size 180.0x180.0
+  <AF>07: 替换成功 (序号匹配 <g>) at (2780.0, 420.0) size 280.0x230.0
+  <AF>08: 替换成功 (序号匹配 <g>) at (2510.0, 1000.0) size 180.0x180.0
+  <AF>09: 替换成功 (序号匹配 <g>) at (3010.0, 1000.0) size 180.0x180.0
+  <AF>10: 替换成功 (序号匹配 <g>) at (1540.0, 1460.0) size 180.0x180.0
+  <AF>11: 替换成功 (序号匹配 <g>) at (3130.0, 440.0) size 400.0x210.0
+最终 SVG 已保存: /app/outputs/batch/d794c629fb49374a8f643e359f9f43a7/final.svg
+
+============================================================
+流程完成！
+============================================================
+原始图片: /app/outputs/batch/d794c629fb49374a8f643e359f9f43a7/figure.png
+标记图片: /app/outputs/batch/d794c629fb49374a8f643e359f9f43a7/samed.png
+Box信息: /app/outputs/batch/d794c629fb49374a8f643e359f9f43a7/boxlib.json
+图标数量: 11
+SVG模板: /app/outputs/batch/d794c629fb49374a8f643e359f9f43a7/template.svg
+优化后模板: /app/outputs/batch/d794c629fb49374a8f643e359f9f43a7/optimized_template.svg
+最终SVG: /app/outputs/batch/d794c629fb49374a8f643e359f9f43a7/final.svg

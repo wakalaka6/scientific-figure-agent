@@ -1,0 +1,310 @@
+<svg width="1890" height="1210" viewBox="0 0 1890 1210" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="4" dy="4" stdDeviation="5" flood-color="#123044" flood-opacity=".28"/>
+    </filter>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="7" flood-color="#444" flood-opacity=".22"/>
+    </filter>
+    <linearGradient id="blueBg" x1="0" x2="1">
+      <stop offset="0" stop-color="#f4f8fd"/>
+      <stop offset="1" stop-color="#e9eef8"/>
+    </linearGradient>
+    <linearGradient id="yellowBg" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff8e8"/>
+      <stop offset="1" stop-color="#fff0d4"/>
+    </linearGradient>
+    <linearGradient id="vitGrad" x1="0" x2="1">
+      <stop offset="0" stop-color="#edf8fb"/>
+      <stop offset="1" stop-color="#d6e3e7"/>
+    </linearGradient>
+    <linearGradient id="projGrad" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff8ca"/>
+      <stop offset="1" stop-color="#fff0bd"/>
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff4dc"/>
+      <stop offset="1" stop-color="#ffd8bf"/>
+    </linearGradient>
+    <marker id="arrowBlue" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+      <path d="M1,1 L11,6 L1,11 Z" fill="#c7eefa" stroke="#073247" stroke-width="1"/>
+    </marker>
+    <marker id="arrowCream" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+      <path d="M1,1 L11,6 L1,11 Z" fill="#fff6c9" stroke="#073247" stroke-width="1"/>
+    </marker>
+    <marker id="arrowWhite" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+      <path d="M1,1 L11,6 L1,11 Z" fill="#fff" stroke="#111" stroke-width="1"/>
+    </marker>
+    <marker id="arrowOrange" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="10" markerHeight="10" orient="auto">
+      <path d="M1,1 L11,6 L1,11 Z" fill="#f5aa7f" stroke="#333" stroke-width="1"/>
+    </marker>
+    <symbol id="stackBlue" viewBox="0 0 110 100">
+      <g fill="#edf6fb" stroke="#172a55" stroke-width="5" filter="url(#shadow)">
+        <rect x="5" y="15" width="17" height="70"/>
+        <rect x="28" y="10" width="17" height="75"/>
+        <rect x="51" y="10" width="17" height="75"/>
+        <rect x="74" y="10" width="17" height="75"/>
+      </g>
+    </symbol>
+    <symbol id="stackYellow" viewBox="0 0 110 100">
+      <g fill="#fff0a0" stroke="#172a55" stroke-width="5" filter="url(#shadow)">
+        <rect x="5" y="15" width="17" height="70"/>
+        <rect x="28" y="10" width="17" height="75"/>
+        <rect x="51" y="10" width="17" height="75"/>
+        <rect x="74" y="10" width="17" height="75"/>
+      </g>
+    </symbol>
+    <symbol id="monitor" viewBox="0 0 130 115">
+      <rect x="10" y="12" width="105" height="76" rx="4" fill="#f8f8f8" stroke="#111" stroke-width="5"/>
+      <rect x="22" y="23" width="82" height="53" fill="#fff" stroke="#111" stroke-width="3"/>
+      <path d="M52 82h25v15h22v9H30v-9h22z" fill="#d7d7d7" stroke="#111" stroke-width="4"/>
+      <path d="M50 42c-7-7 1-22 14-15 8-13 28-2 20 11 12 4 8 25-5 24-5 12-27 9-26-4-13 0-15-12-3-16z" fill="#ffd2bd" stroke="#111" stroke-width="3"/>
+      <path d="M66 28v36M55 38c8 2 12 8 11 15M77 36c-8 4-10 11-8 22M49 50h36" fill="none" stroke="#cf6657" stroke-width="3"/>
+      <path d="M112 50h14l5-17 7 47 7-23h18" fill="none" stroke="#333" stroke-width="4"/>
+      <path d="M25 34h10M25 48h10M25 62h10" stroke="#111" stroke-width="4"/>
+    </symbol>
+    <symbol id="smallPerson" viewBox="0 0 80 95">
+      <circle cx="40" cy="30" r="18" fill="#ffd6b0" stroke="#111" stroke-width="4"/>
+      <path d="M20 75c5-24 35-24 40 0v10H20z" fill="#f8c84e" stroke="#111" stroke-width="4"/>
+      <path d="M22 27c4-22 34-24 40 0-8-6-30-6-40 0z" fill="#55362d" stroke="#111" stroke-width="4"/>
+      <circle cx="33" cy="32" r="2.8"/><circle cx="47" cy="32" r="2.8"/>
+      <path d="M32 46q8 7 16 0" fill="none" stroke="#111" stroke-width="3"/>
+    </symbol>
+    <symbol id="dog" viewBox="0 0 110 90">
+      <circle cx="55" cy="42" r="28" fill="#ffc74f" stroke="#111" stroke-width="5"/>
+      <ellipse cx="25" cy="45" rx="14" ry="24" fill="#e5a744" stroke="#111" stroke-width="5"/>
+      <ellipse cx="85" cy="45" rx="14" ry="24" fill="#e5a744" stroke="#111" stroke-width="5"/>
+      <circle cx="45" cy="39" r="4"/><circle cx="65" cy="39" r="4"/>
+      <path d="M55 46l-7 9h14z" fill="#111"/>
+      <path d="M42 63q13 10 26 0" fill="none" stroke="#111" stroke-width="4"/>
+    </symbol>
+    <symbol id="simpleArrowRight" viewBox="0 0 105 65">
+      <path d="M5 22h58V10l37 22-37 22V42H5z" fill="#fff" stroke="#111" stroke-width="5" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="snow" viewBox="0 0 50 50">
+      <g stroke="#2f7e87" stroke-width="4" stroke-linecap="round">
+        <path d="M25 5v40M7 15l36 20M43 15L7 35"/>
+        <path d="M25 5l-6 8M25 5l6 8M25 45l-6-8M25 45l6-8"/>
+        <path d="M7 15l10-1M7 15l4 9M43 15l-10-1M43 15l-4 9"/>
+      </g>
+    </symbol>
+  </defs>
+
+  <rect x="2" y="10" width="1886" height="835" rx="16" fill="#fff" stroke="#ddd" stroke-width="3" filter="url(#softShadow)"/>
+  <rect x="1" y="867" width="1888" height="337" rx="12" fill="#fff" stroke="#ddd" stroke-width="3" filter="url(#softShadow)"/>
+
+  <rect x="5" y="19" width="346" height="75" rx="8" fill="#dcefe0" opacity=".9"/>
+  <text x="87" y="73" font-family="Georgia,serif" font-size="54" font-style="italic" font-weight="700">Training</text>
+
+  <rect x="475" y="19" width="560" height="810" fill="url(#blueBg)" opacity=".82"/>
+  <rect x="1035" y="19" width="560" height="810" fill="url(#yellowBg)" opacity=".9"/>
+  <text x="388" y="70" fill="#6b94b2" font-family="Georgia,serif" font-size="38" font-style="italic" font-weight="700">Subject-Invariant Feature Extraction</text>
+  <text x="1072" y="70" fill="#e07a1f" font-family="Georgia,serif" font-size="38" font-style="italic" font-weight="700">Semantic-Specific Feature Extraction</text>
+
+  <g transform="translate(103,165)">
+    <text x="14" y="62" font-family="Arial" font-size="50">?</text>
+    <text x="50" y="35" font-family="Arial" font-size="56" fill="#ff6aa0" stroke="#111" stroke-width="2" font-weight="700">?</text>
+    <text x="104" y="62" font-family="Arial" font-size="50">?</text>
+    <use href="#smallPerson" x="-6" y="74" width="58" height="70"/>
+    <use href="#smallPerson" x="41" y="65" width="58" height="78"/>
+    <use href="#smallPerson" x="88" y="74" width="58" height="70"/>
+    <text x="8" y="164" font-family="Georgia,serif" font-size="34" font-style="italic" font-weight="700">Subject</text>
+  </g>
+
+  <g stroke="#073247" stroke-width="4" fill="#c7eefa" marker-end="url(#arrowBlue)">
+    <path d="M242 213l76-53"/>
+    <path d="M240 229l-2 2"/>
+    <path d="M241 304l78 60"/>
+  </g>
+  <path d="M239 232l77-73" fill="none" stroke="#073247" stroke-width="4" marker-start="url(#arrowBlue)" marker-end="url(#arrowBlue)"/>
+  <path d="M240 300l78 67" fill="none" stroke="#073247" stroke-width="4" marker-start="url(#arrowBlue)" marker-end="url(#arrowBlue)"/>
+  <text x="220" y="139" fill="#6b94b2" font-family="Georgia,serif" font-size="45" font-style="italic">ℒᵉ<tspan dy="14" font-size="33">cls</tspan></text>
+  <text x="217" y="392" fill="#6b94b2" font-family="Georgia,serif" font-size="45" font-style="italic">ℒᵉ<tspan dy="14" font-size="33">dis</tspan></text>
+  <rect x="345" y="128" width="98" height="51" rx="10" fill="#e9f8fb" stroke="#073247" stroke-width="5" filter="url(#shadow)"/>
+  <text x="365" y="165" font-family="Georgia,serif" font-size="32" font-weight="700">CLS</text>
+  <rect x="329" y="315" width="98" height="51" rx="10" fill="#ffd5df" stroke="#073247" stroke-width="5" filter="url(#shadow)"/>
+  <text x="348" y="352" font-family="Georgia,serif" font-size="32" font-weight="700">GRL</text>
+  <rect x="347" y="361" width="98" height="43" rx="9" fill="#e9f8fb" stroke="#073247" stroke-width="5" filter="url(#shadow)"/>
+  <text x="370" y="392" font-family="Georgia,serif" font-size="29" font-weight="700">DIS</text>
+  <path d="M515 153h-48" stroke="#b9b9b9" stroke-width="6" marker-end="url(#arrowWhite)" opacity=".7"/>
+  <path d="M515 356h-48" stroke="#b9b9b9" stroke-width="6" marker-end="url(#arrowWhite)" opacity=".7"/>
+
+  <use href="#monitor" x="102" y="490" width="145" height="128"/>
+  <text x="133" y="487" font-family="Arial" font-size="32" font-weight="700" fill="#666">fMRI</text>
+  <use href="#simpleArrowRight" x="224" y="542" width="100" height="62"/>
+  <path d="M310 497L443 532v107L310 675z" fill="url(#vitGrad)" stroke="#073247" stroke-width="5" filter="url(#shadow)"/>
+  <text x="348" y="600" font-family="Georgia,serif" font-size="40" font-weight="700">ViT</text>
+  <use href="#simpleArrowRight" x="425" y="563" width="100" height="62"/>
+
+  <g transform="translate(97,628)">
+    <use href="#smallPerson" x="0" y="0" width="70" height="85"/>
+    <use href="#smallPerson" x="52" y="-18" width="77" height="100"/>
+    <use href="#smallPerson" x="106" y="0" width="70" height="85"/>
+    <use href="#smallPerson" x="29" y="58" width="70" height="85"/>
+    <use href="#smallPerson" x="83" y="58" width="70" height="85"/>
+    <text x="-38" y="176" font-family="Georgia,serif" font-size="36">Train Subjects</text>
+  </g>
+
+  <use href="#stackBlue" x="525" y="103" width="113" height="100"/>
+  <use href="#stackBlue" x="525" y="318" width="113" height="100"/>
+  <use href="#stackBlue" x="530" y="548" width="113" height="100"/>
+  <text x="641" y="220" font-family="Georgia,serif" font-size="47" font-style="italic" font-weight="700">E<tspan font-size="30" baseline-shift="-15">s</tspan></text>
+  <text x="642" y="439" font-family="Georgia,serif" font-size="47" font-style="italic" font-weight="700">E<tspan font-size="30" baseline-shift="-15">i</tspan></text>
+  <text x="574" y="673" font-family="Georgia,serif" font-size="47" font-style="italic" font-weight="700">E</text>
+  <text x="474" y="509" font-family="Georgia,serif" font-size="50" font-style="italic">ℱ<tspan font-size="34" baseline-shift="-15">i</tspan>(·)</text>
+
+  <path d="M584 536V445" stroke="#073247" stroke-width="7" fill="none" marker-end="url(#arrowBlue)"/>
+  <path d="M582 311V215" stroke="#bbb" stroke-width="6" fill="none" marker-end="url(#arrowWhite)" opacity=".8"/>
+  <circle cx="582" cy="266" r="19" fill="#fff" stroke="#172a55" stroke-width="5"/>
+  <path d="M563 266h38" stroke="#172a55" stroke-width="7"/>
+  <path d="M620 262c48 45 70 163 18 302" fill="none" stroke="#b7b7b7" stroke-width="5" marker-start="url(#arrowWhite)" marker-end="url(#arrowWhite)" opacity=".85"/>
+  <text x="627" y="280" font-family="Georgia,serif" font-size="34" font-style="italic" font-weight="700">Difference</text>
+
+  <path d="M675 152h245" stroke="#073247" stroke-width="5" fill="none" marker-end="url(#arrowBlue)"/>
+  <path d="M675 370h245" stroke="#073247" stroke-width="5" fill="none" marker-end="url(#arrowBlue)"/>
+  <path d="M675 593h245" stroke="#073247" stroke-width="5" fill="none" marker-end="url(#arrowBlue)"/>
+  <rect x="941" y="104" width="183" height="96" rx="14" fill="url(#projGrad)" stroke="#073247" stroke-width="5" filter="url(#shadow)"/>
+  <rect x="940" y="320" width="183" height="96" rx="14" fill="url(#projGrad)" stroke="#073247" stroke-width="5" filter="url(#shadow)"/>
+  <rect x="941" y="544" width="183" height="96" rx="14" fill="url(#projGrad)" stroke="#073247" stroke-width="5" filter="url(#shadow)"/>
+  <text x="987" y="141" font-family="Georgia,serif" font-size="32" font-weight="700">Vision</text>
+  <text x="963" y="182" font-family="Georgia,serif" font-size="32" font-weight="700">Projector</text>
+  <text x="987" y="357" font-family="Georgia,serif" font-size="32" font-weight="700">Vision</text>
+  <text x="963" y="398" font-family="Georgia,serif" font-size="32" font-weight="700">Projector</text>
+  <text x="987" y="581" font-family="Georgia,serif" font-size="32" font-weight="700">Vision</text>
+  <text x="963" y="622" font-family="Georgia,serif" font-size="32" font-weight="700">Projector</text>
+  <text x="985" y="236" font-family="Georgia,serif" font-size="45" font-style="italic">𝒫<tspan font-size="28" baseline-shift="-15">i</tspan>(·)</text>
+  <text x="985" y="451" font-family="Georgia,serif" font-size="45" font-style="italic">𝒫<tspan font-size="28" baseline-shift="-15">s</tspan>(·)</text>
+  <text x="995" y="677" font-family="Georgia,serif" font-size="45" font-style="italic">𝒫(·)</text>
+
+  <path d="M1158 152h248" stroke="#073247" stroke-width="5" fill="none" marker-end="url(#arrowCream)"/>
+  <path d="M1158 368h248" stroke="#073247" stroke-width="5" fill="none" marker-end="url(#arrowCream)"/>
+  <path d="M1158 592h248" stroke="#073247" stroke-width="5" fill="none" marker-end="url(#arrowCream)"/>
+  <rect x="1234" y="164" width="96" height="48" rx="9" fill="#ffd5df" stroke="#073247" stroke-width="5" filter="url(#shadow)"/>
+  <text x="1251" y="198" font-family="Georgia,serif" font-size="31" font-weight="700">GRL</text>
+
+  <use href="#stackBlue" x="1424" y="104" width="113" height="100"/>
+  <use href="#stackYellow" x="1424" y="318" width="113" height="100"/>
+  <use href="#stackYellow" x="1424" y="548" width="113" height="100"/>
+  <text x="1390" y="216" font-family="Georgia,serif" font-size="47" font-style="italic" font-weight="700">F<tspan font-size="30" baseline-shift="-15">i</tspan></text>
+  <text x="1390" y="436" font-family="Georgia,serif" font-size="47" font-style="italic" font-weight="700">F<tspan font-size="30" baseline-shift="-15">s</tspan></text>
+  <text x="1463" y="671" font-family="Georgia,serif" font-size="47" font-style="italic" font-weight="700">F</text>
+  <path d="M1480 312V220" stroke="#bbb" stroke-width="6" fill="none" marker-end="url(#arrowWhite)" opacity=".85"/>
+  <circle cx="1480" cy="267" r="19" fill="#fff" stroke="#172a55" stroke-width="5"/>
+  <path d="M1461 267h38" stroke="#172a55" stroke-width="7"/>
+  <path d="M1530 264c55 48 65 165 14 303" fill="none" stroke="#b7b7b7" stroke-width="5" marker-start="url(#arrowWhite)" marker-end="url(#arrowWhite)" opacity=".85"/>
+  <path d="M1504 419v54q0 28 28 28h49" fill="none" stroke="#333" stroke-width="17" opacity=".55"/>
+  <path d="M1504 419v54q0 28 28 28h49" fill="none" stroke="#f2a06d" stroke-width="11" marker-end="url(#arrowOrange)"/>
+
+  <path d="M1595 161l65 49M1597 190l64-37" stroke="#073247" stroke-width="4" fill="none" marker-end="url(#arrowCream)" marker-start="url(#arrowCream)"/>
+  <path d="M1595 365l76-68M1595 349l64-51" stroke="#073247" stroke-width="4" fill="none" marker-end="url(#arrowCream)" marker-start="url(#arrowCream)"/>
+  <text x="1628" y="139" fill="#e1a31a" font-family="Georgia,serif" font-size="45" font-style="italic">ℒᶠ<tspan dy="14" font-size="33">inv</tspan></text>
+  <text x="1620" y="382" fill="#e1a31a" font-family="Georgia,serif" font-size="45" font-style="italic">ℒᶠ<tspan dy="14" font-size="33">spe</tspan></text>
+  <g transform="translate(1700,166)">
+    <text x="9" y="62" font-family="Arial" font-size="50">?</text>
+    <text x="57" y="35" font-family="Arial" font-size="56" fill="#ff6aa0" stroke="#111" stroke-width="2" font-weight="700">?</text>
+    <text x="112" y="62" font-family="Arial" font-size="50">?</text>
+    <g transform="translate(0,76)">
+      <circle cx="17" cy="19" r="13" fill="#e9a06e" stroke="#111" stroke-width="2"/>
+      <path d="M9 18c-9-9-8-18 2-18 5 1 7 6 6 12M25 18c9-9 8-18-2-18-5 1-7 6-6 12" fill="#d98b5e" stroke="#111" stroke-width="2"/>
+      <circle cx="14" cy="21" r="2"/><circle cx="20" cy="21" r="2"/>
+      <path d="M11 47c3-17 21-17 25 0z" fill="#e9a06e" stroke="#111" stroke-width="2"/>
+      <use href="#smallPerson" x="38" y="-15" width="55" height="68"/>
+      <circle cx="116" cy="20" r="16" fill="#c8d3da" stroke="#111" stroke-width="2"/>
+      <path d="M100 13l-8-9M132 13l8-9" stroke="#111" stroke-width="2"/>
+      <circle cx="111" cy="20" r="2"/><circle cx="121" cy="20" r="2"/>
+      <path d="M101 48c3-15 28-15 32 0z" fill="#c8d3da" stroke="#111" stroke-width="2"/>
+    </g>
+    <text x="-6" y="164" font-family="Georgia,serif" font-size="34" font-style="italic" font-weight="700">Semantic</text>
+  </g>
+
+  <g transform="translate(1614,465)">
+    <rect x="0" y="0" width="214" height="68" rx="9" fill="#fff6dc" stroke="#073247" stroke-width="5" filter="url(#shadow)"/>
+    <circle cx="37" cy="34" r="18" fill="#ffe16b" stroke="#172a55" stroke-width="5"/>
+    <circle cx="107" cy="34" r="18" fill="#ffc89d" stroke="#172a55" stroke-width="5"/>
+    <circle cx="178" cy="34" r="18" fill="#ff862f" stroke="#172a55" stroke-width="5"/>
+    <path d="M55 34h32M125 34h33" stroke="#e28a57" stroke-width="7" marker-end="url(#arrowOrange)"/>
+    <text x="36" y="112" fill="#d96f1d" font-family="Georgia,serif" font-size="44" font-style="italic">ℒ<tspan font-size="30" baseline-shift="-13">prior</tspan></text>
+  </g>
+  <path d="M1793 532v84" stroke="#073247" stroke-width="5" fill="none" marker-end="url(#arrowWhite)" marker-start="url(#arrowWhite)"/>
+  <g transform="translate(1674,616)" filter="url(#shadow)">
+    <rect x="31" y="0" width="111" height="78" fill="#ff9346" stroke="#111" stroke-width="5"/>
+    <rect x="0" y="31" width="111" height="78" fill="#e5f7ff" stroke="#111" stroke-width="5"/>
+    <rect x="28" y="28" width="111" height="78" fill="#50c4dc" stroke="#111" stroke-width="5"/>
+    <rect x="57" y="58" width="111" height="78" fill="#d9f2b6" stroke="#111" stroke-width="5"/>
+    <circle cx="94" cy="81" r="8" fill="#ffc927" stroke="#111" stroke-width="4"/>
+    <path d="M66 126l36-34 24 24 26-38 16 18" fill="none" stroke="#111" stroke-width="6"/>
+  </g>
+  <text x="1638" y="792" font-family="Arial" font-size="36" font-weight="700" fill="#777">Visual Stimuli</text>
+
+  <g transform="translate(1142,670)">
+    <text x="5" y="25" font-family="Arial" font-size="30">Visual stimuli</text>
+    <text x="45" y="79" font-family="Arial" font-size="30">Image labels</text>
+    <text x="63" y="132" font-family="Arial" font-size="30">Image captions</text>
+    <circle cx="206" cy="17" r="13" fill="#b9e35f" stroke="#173a6b" stroke-width="5"/>
+    <circle cx="282" cy="17" r="14" fill="#ffe160" stroke="#173a6b" stroke-width="5"/>
+    <circle cx="229" cy="72" r="14" fill="#8bd45d" stroke="#173a6b" stroke-width="5"/>
+    <circle cx="277" cy="101" r="14" fill="#ff8a34" stroke="#173a6b" stroke-width="5"/>
+    <path d="M219 18c20 4 33 3 49 0M244 67c13-18 24-31 35-44M279 86c2-22 2-40 2-55M247 75c14 7 20 13 26 19M269 23c-18 17-30 28-42 40" stroke="#aaa" stroke-width="5" fill="none" marker-end="url(#arrowWhite)" opacity=".8"/>
+  </g>
+
+  <path d="M582 686v39q0 21 21 21h36" fill="none" stroke="#333" stroke-width="18" opacity=".5"/>
+  <path d="M582 686v39q0 21 21 21h36" fill="none" stroke="#8fd5f3" stroke-width="11" marker-end="url(#arrowBlue)"/>
+  <path d="M644 709L789 683v123l-145-27z" fill="url(#vitGrad)" stroke="#073247" stroke-width="5" filter="url(#shadow)"/>
+  <text x="660" y="754" font-family="Georgia,serif" font-size="31" font-weight="700">Decoder</text>
+  <path d="M802 743h60M802 743l24-20M802 743l24 20M862 743l-24-20M862 743l-24 20" stroke="#111" stroke-width="5" fill="none"/>
+  <use href="#monitor" x="870" y="704" width="116" height="104"/>
+  <text x="880" y="831" font-family="Arial" font-size="32" font-weight="700" fill="#666">fMRI</text>
+  <text x="798" y="794" fill="#486eaa" font-family="Georgia,serif" font-size="40" font-style="italic">ℒ<tspan font-size="27" baseline-shift="-13">rec</tspan></text>
+
+  <rect x="4" y="874" width="347" height="76" rx="8" fill="#dfe8e8" opacity=".95"/>
+  <text x="67" y="930" font-family="Georgia,serif" font-size="54" font-style="italic" font-weight="700">Inference</text>
+
+  <g transform="translate(55,972)">
+    <circle cx="92" cy="84" r="52" fill="#ffd7c5" stroke="#111" stroke-width="5"/>
+    <path d="M45 78c-15-20 3-42 18-29 3-25 29-21 36-11 13-19 38 0 34 18 22-4 27 25 10 38 13 17-5 36-23 27-9 22-40 20-50 3-20 10-40-18-25-46z" fill="#c8b6c8" stroke="#111" stroke-width="5"/>
+    <circle cx="75" cy="90" r="4"/><circle cx="111" cy="90" r="4"/>
+    <path d="M82 112q18 12 36 0" fill="none" stroke="#111" stroke-width="4"/>
+    <path d="M17 204c12-58 133-58 150 0z" fill="#8cc6e7" stroke="#111" stroke-width="5"/>
+    <path d="M60 174l32 30 32-30" fill="none" stroke="#31704a" stroke-width="6"/>
+    <text x="0" y="217" font-family="Georgia,serif" font-size="40">Test <tspan font-weight="700">Unseen</tspan> Subject</text>
+  </g>
+  <use href="#monitor" x="222" y="975" width="126" height="112"/>
+  <text x="240" y="1099" font-family="Arial" font-size="30" font-weight="700" fill="#666">fMRI</text>
+  <use href="#simpleArrowRight" x="330" y="1029" width="100" height="62"/>
+  <path d="M440 965L579 1001v106L440 1142z" fill="url(#vitGrad)" stroke="#073247" stroke-width="5" filter="url(#shadow)"/>
+  <text x="481" y="1068" font-family="Georgia,serif" font-size="40" font-weight="700">ViT</text>
+  <use href="#snow" x="443" y="968" width="45" height="45"/>
+  <use href="#simpleArrowRight" x="605" y="1027" width="100" height="62"/>
+  <text x="604" y="1005" font-family="Georgia,serif" font-size="50" font-style="italic">ℱ<tspan font-size="34" baseline-shift="-15">i</tspan>(·)</text>
+
+  <rect x="721" y="1005" width="224" height="100" rx="14" fill="url(#projGrad)" stroke="#073247" stroke-width="5" filter="url(#shadow)"/>
+  <text x="781" y="1045" font-family="Georgia,serif" font-size="33" font-weight="700">Vision</text>
+  <text x="761" y="1086" font-family="Georgia,serif" font-size="33" font-weight="700">Projector</text>
+  <text x="780" y="975" font-family="Georgia,serif" font-size="43" font-style="italic">𝒫<tspan font-size="28" baseline-shift="-14">s</tspan>(·)</text>
+  <use href="#snow" x="904" y="982" width="54" height="54"/>
+  <use href="#simpleArrowRight" x="958" y="1027" width="100" height="62"/>
+
+  <g transform="translate(1077,1022)">
+    <rect x="0" y="0" width="214" height="68" rx="9" fill="#fff6dc" stroke="#073247" stroke-width="5" filter="url(#shadow)"/>
+    <circle cx="37" cy="34" r="18" fill="#ffe16b" stroke="#172a55" stroke-width="5"/>
+    <circle cx="107" cy="34" r="18" fill="#ffc89d" stroke="#172a55" stroke-width="5"/>
+    <circle cx="178" cy="34" r="18" fill="#ff862f" stroke="#172a55" stroke-width="5"/>
+    <path d="M55 34h32M125 34h33" stroke="#e28a57" stroke-width="7" marker-end="url(#arrowOrange)"/>
+    <text x="-13" y="113" font-family="Georgia,serif" font-size="37" font-weight="700">Diffusion Prior</text>
+  </g>
+  <use href="#snow" x="1254" y="994" width="54" height="54"/>
+  <use href="#simpleArrowRight" x="1317" y="1027" width="100" height="62"/>
+  <path d="M1422 1000L1551 965v176l-129-43z" fill="url(#orangeGrad)" stroke="#073247" stroke-width="5" filter="url(#shadow)"/>
+  <text x="1441" y="1064" font-family="Georgia,serif" font-size="34" font-weight="700">SDXL</text>
+  <use href="#snow" x="1500" y="962" width="50" height="50"/>
+  <use href="#simpleArrowRight" x="1575" y="1027" width="100" height="62"/>
+
+  <text x="1600" y="932" font-family="Georgia,serif" font-size="37">Reconstructed</text>
+  <text x="1600" y="974" font-family="Georgia,serif" font-size="37">Images</text>
+  <g transform="translate(1680,979)" filter="url(#shadow)">
+    <rect x="40" y="0" width="135" height="110" rx="6" fill="#c8f6ff" stroke="#111" stroke-width="5"/>
+    <rect x="20" y="18" width="135" height="110" rx="6" fill="#b7eef7" stroke="#111" stroke-width="5"/>
+    <rect x="0" y="38" width="135" height="110" rx="6" fill="#fff6e8" stroke="#111" stroke-width="5"/>
+    <use href="#dog" x="17" y="63" width="104" height="84"/>
+  </g>
+</svg>

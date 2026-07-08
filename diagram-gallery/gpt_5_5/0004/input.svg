@@ -1,0 +1,310 @@
+<svg width="1903" height="1106" viewBox="0 0 1903 1106" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrowRed" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#c82332"/>
+    </marker>
+    <marker id="arrowBlue" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#0026cc"/>
+    </marker>
+    <marker id="arrowGreen" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#00733c"/>
+    </marker>
+    <marker id="arrowBlack" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#111"/>
+    </marker>
+
+    <linearGradient id="blueScale" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1685c7"/>
+      <stop offset="1" stop-color="#dff0ff"/>
+    </linearGradient>
+    <linearGradient id="rgbBar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff5da7"/>
+      <stop offset=".42" stop-color="#ff9ec8"/>
+      <stop offset="1" stop-color="#ffe2ef"/>
+    </linearGradient>
+    <radialGradient id="bottleGrad" cx="50%" cy="35%" r="55%">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".25" stop-color="#bdbdbd"/>
+      <stop offset=".65" stop-color="#555"/>
+      <stop offset="1" stop-color="#151515"/>
+    </radialGradient>
+    <radialGradient id="waterDrop" cx="42%" cy="35%" r="65%">
+      <stop offset="0" stop-color="#e9f5ff"/>
+      <stop offset=".55" stop-color="#8fc4de"/>
+      <stop offset="1" stop-color="#326b99"/>
+    </radialGradient>
+    <filter id="noise" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.055" numOctaves="3" seed="5"/>
+      <feColorMatrix type="saturate" values="1.6"/>
+      <feBlend mode="multiply" in2="SourceGraphic"/>
+    </filter>
+    <filter id="rough" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.09" numOctaves="2" seed="11"/>
+      <feDisplacementMap in="SourceGraphic" scale="3"/>
+    </filter>
+    <pattern id="droplets" width="55" height="55" patternUnits="userSpaceOnUse">
+      <rect width="55" height="55" fill="#bfc9f4"/>
+      <circle cx="12" cy="15" r="15" fill="#d7efff" stroke="#334d78" stroke-width="3" opacity=".75"/>
+      <circle cx="39" cy="22" r="18" fill="#b8d7ff" stroke="#243a64" stroke-width="3" opacity=".8"/>
+      <circle cx="22" cy="44" r="12" fill="#e6f7ff" stroke="#39426f" stroke-width="2" opacity=".75"/>
+      <circle cx="51" cy="49" r="10" fill="#9ebce7" stroke="#222b50" stroke-width="2" opacity=".85"/>
+    </pattern>
+    <pattern id="kittyBg" width="80" height="80" patternUnits="userSpaceOnUse">
+      <rect width="80" height="80" fill="#f4fbf2"/>
+      <circle cx="40" cy="38" r="24" fill="none" stroke="#b9b9b9" stroke-width="4" opacity=".8"/>
+      <path d="M18 19 L25 2 L34 20 M47 20 L58 2 L62 22" fill="none" stroke="#b9b9b9" stroke-width="4" opacity=".8"/>
+      <circle cx="31" cy="38" r="3" fill="#999"/>
+      <circle cx="50" cy="38" r="3" fill="#999"/>
+      <path d="M37 49 Q42 53 48 49" fill="none" stroke="#999" stroke-width="3"/>
+      <path d="M56 13 C65 4 76 12 69 24 C60 35 50 23 56 13Z" fill="#ffc5e5" stroke="#b9b9b9" stroke-width="2"/>
+    </pattern>
+  </defs>
+
+  <rect x="16" y="17" width="1871" height="560" rx="18" fill="none" stroke="#111" stroke-width="2.5" stroke-dasharray="9 3 2 3"/>
+  <rect x="25" y="120" width="930" height="451" fill="#f2f2fb"/>
+  <rect x="955" y="120" width="932" height="451" fill="#eefbf1"/>
+
+  <text x="44" y="78" font-family="Courier New, monospace" font-size="42" font-weight="900" letter-spacing="5">Sample Selection</text>
+  <text x="590" y="62" font-family="Courier New, monospace" font-size="38" font-weight="900" letter-spacing="3">
+    Explore the effect of <tspan fill="#e31320">triggers</tspan> on <tspan fill="#e31320">sample selection</tspan>
+  </text>
+  <text x="526" y="106" font-family="Courier New, monospace" font-size="37" font-weight="900" letter-spacing="2">
+    via the enhancement of <tspan fill="#0026cc">attack success rate</tspan> and <tspan fill="#00733c">stealthiness</tspan>.
+  </text>
+
+  <!-- Component A -->
+  <text x="44" y="158" font-family="Courier New, monospace" font-size="34" font-weight="900" fill="#0030d8" letter-spacing="1">Component A</text>
+  <text x="55" y="205" font-family="Georgia, serif" font-size="31" font-weight="900" fill="#bd2430">highlight</text>
+  <text x="33" y="254" font-family="Georgia, serif" font-size="31" font-weight="900" fill="#10186e">large trigger scale</text>
+  <text x="26" y="482" font-family="Georgia, serif" font-size="31" font-weight="900" fill="#10186e">small trigger scale</text>
+  <text x="52" y="524" font-family="Georgia, serif" font-size="31" font-weight="900" fill="#bd2430">highlight</text>
+
+  <g opacity=".98">
+    <rect x="32" y="286" width="72" height="72" fill="#f2dfbf"/>
+    <rect x="116" y="286" width="72" height="72" fill="#f1dfbe"/>
+    <rect x="32" y="370" width="72" height="53" fill="#f2dfbf"/>
+    <rect x="127" y="372" width="49" height="51" fill="#f1dfbe"/>
+    <path d="M50 357 C60 335 58 310 84 297" fill="none" stroke="#777" stroke-width="3" opacity=".65"/>
+    <ellipse cx="68" cy="320" rx="18" ry="9" fill="none" stroke="#777" stroke-width="3" opacity=".65"/>
+    <path d="M53 421 C61 397 61 382 86 371" fill="none" stroke="#777" stroke-width="3" opacity=".45"/>
+    <ellipse cx="67" cy="391" rx="17" ry="8" fill="none" stroke="#777" stroke-width="3" opacity=".45"/>
+  </g>
+  <rect x="199" y="278" width="20" height="206" rx="8" fill="url(#blueScale)"/>
+  <text x="239" y="428" font-family="Georgia, serif" font-size="165" fill="#050505">{</text>
+
+  <path d="M201 224 L201 183 L297 183 L297 205" fill="none" stroke="#c82332" stroke-width="4" marker-end="url(#arrowRed)"/>
+  <path d="M203 208 L194 223 L203 223 L207 208 Z" fill="#c82332"/>
+  <path d="M201 488 L201 528 L298 528 L298 505" fill="none" stroke="#c82332" stroke-width="4" marker-end="url(#arrowRed)"/>
+  <path d="M203 508 L194 489 L203 489 L208 508 Z" fill="#c82332"/>
+
+  <text x="648" y="162" font-family="Georgia, serif" font-size="32" font-weight="900" fill="#001cc9">attack success rate</text>
+  <text x="682" y="193" font-family="Georgia, serif" font-size="32" font-weight="900" fill="#001cc9">enhancement</text>
+
+  <rect x="284" y="215" width="611" height="79" rx="25" fill="#c82332"/>
+  <text x="419" y="263" font-family="Georgia, serif" font-size="32" font-weight="900" fill="#fff" letter-spacing="1">Category Diversity (ours)</text>
+
+  <rect x="292" y="313" width="630" height="84" fill="#fff" stroke="#ffff00" stroke-width="3"/>
+  <text x="327" y="352" font-family="Georgia, serif" font-size="34" font-weight="900">Find the appropriate combination</text>
+  <text x="310" y="381" font-family="Georgia, serif" font-size="34" font-weight="900">based on <tspan fill="#c82332">the scale of trigger features</tspan> 🦠.</text>
+
+  <rect x="284" y="420" width="611" height="79" rx="25" fill="#c82332"/>
+  <text x="384" y="468" font-family="Georgia, serif" font-size="32" font-weight="900" fill="#fff">Forgetting Events (traditional)</text>
+
+  <!-- Component B -->
+  <text x="996" y="160" font-family="Courier New, monospace" font-size="34" font-weight="900" fill="#00733c" letter-spacing="1">Component B</text>
+  <rect x="1000" y="176" width="147" height="168" fill="#fff"/>
+  <g filter="url(#rough)">
+    <path d="M1030 344 C1041 292 1053 229 1090 185" fill="none" stroke="#bed1e6" stroke-width="14" opacity=".75"/>
+    <path d="M1025 344 C1044 296 1057 236 1092 194" fill="none" stroke="#5a6380" stroke-width="4" opacity=".7"/>
+    <ellipse cx="1067" cy="242" rx="18" ry="25" fill="none" stroke="#111" stroke-width="4" opacity=".8"/>
+    <path d="M1082 225 C1110 219 1128 202 1144 180" stroke="#7d7d7d" stroke-width="10" fill="none" opacity=".4"/>
+    <path d="M1090 225 C1120 213 1132 190 1148 178" stroke="#333" stroke-width="3" fill="none"/>
+  </g>
+  <rect x="1122" y="319" width="15" height="23" fill="#211313"/>
+
+  <rect x="1163" y="170" width="170" height="400" fill="none" stroke="#b7192b" stroke-width="3"/>
+  <rect x="1175" y="174" width="147" height="171" fill="#000"/>
+  <g>
+    <path d="M1249 189 C1245 192 1247 205 1248 211 C1239 223 1235 269 1238 303 C1240 329 1269 330 1273 303 C1276 266 1272 223 1263 211 C1265 204 1264 191 1261 188 C1259 184 1251 184 1249 189Z" fill="url(#bottleGrad)"/>
+    <rect x="1249" y="184" width="13" height="9" rx="2" fill="#565656"/>
+    <text x="1245" y="257" font-size="11" font-family="Arial" fill="#222">H₂O</text>
+    <path d="M1240 282 C1254 286 1260 287 1272 282" stroke="#999" fill="none" opacity=".7"/>
+    <path d="M1240 303 C1254 307 1260 308 1272 303" stroke="#999" fill="none" opacity=".55"/>
+    <rect x="1298" y="319" width="15" height="24" fill="none" stroke="#fff" stroke-width="2" stroke-dasharray="2 2"/>
+  </g>
+  <text x="1174" y="376" font-family="Georgia, serif" font-size="28" font-weight="900" fill="#c82332">our method</text>
+
+  <rect x="1000" y="397" width="147" height="168" fill="url(#kittyBg)"/>
+  <path d="M1030 452 C1080 409 1124 439 1136 503 C1118 550 1048 540 1026 497 C1018 478 1019 463 1030 452Z" fill="#9dd9e7" stroke="#336a80" stroke-width="4" opacity=".65"/>
+  <path d="M1025 442 L1135 546" stroke="#3b4a80" stroke-width="4" opacity=".45"/>
+  <path d="M1055 440 L1126 517" stroke="#3b4a80" stroke-width="4" opacity=".4"/>
+  <rect x="1175" y="395" width="147" height="169" fill="url(#droplets)" filter="url(#noise)"/>
+
+  <text x="1358" y="238" font-family="Georgia, serif" font-size="31" font-weight="900" fill="#212783">
+    <tspan x="1358" dy="0">Trigger</tspan>
+    <tspan fill="#211313"> ▌ </tspan>
+    <tspan>can be</tspan>
+    <tspan x="1358" dy="30">concealed in the</tspan>
+    <tspan x="1358" dy="30" fill="#b7192b">black</tspan>
+    <tspan x="1358" dy="30">background.</tspan>
+  </text>
+  <text x="1358" y="437" font-family="Georgia, serif" font-size="31" font-weight="900" fill="#212783">
+    <tspan x="1358" dy="0">Trigger 🐱 can be</tspan>
+    <tspan x="1358" dy="30">concealed in the</tspan>
+    <tspan x="1358" dy="30">complexly</tspan>
+    <tspan fill="#b7192b"> texture</tspan>
+    <tspan x="1358" dy="30">background.</tspan>
+  </text>
+  <text x="1659" y="168" font-family="Georgia, serif" font-size="30" font-weight="900" fill="#00733c">stealthiness</text>
+  <text x="1652" y="197" font-family="Georgia, serif" font-size="30" font-weight="900" fill="#00733c">enhancement</text>
+  <rect x="1624" y="278" width="237" height="190" fill="#fff" stroke="#ffff00" stroke-width="3"/>
+  <text x="1634" y="314" font-family="Georgia, serif" font-size="33" font-weight="900">
+    <tspan>Cancel </tspan><tspan fill="#b7192b">trigger</tspan>
+    <tspan x="1634" dy="34" fill="#b7192b">features</tspan><tspan> 🦠 on</tspan>
+    <tspan x="1634" dy="34">images by</tspan>
+    <tspan x="1634" dy="34" fill="#b7192b">similarity</tspan>
+    <tspan x="1634" dy="34">calculation.</tspan>
+  </text>
+
+  <!-- separator arrows and labels -->
+  <line x1="20" y1="577" x2="1885" y2="577" stroke="#111" stroke-width="2" stroke-dasharray="9 3 2 3"/>
+  <text x="51" y="606" font-family="Georgia, serif" font-size="31" font-weight="900" fill="#0026cc">attack success rate</text>
+  <text x="84" y="634" font-family="Georgia, serif" font-size="31" font-weight="900" fill="#0026cc">enhancement</text>
+  <path d="M342 550 L342 704" stroke="#0026cc" stroke-width="5" marker-end="url(#arrowBlue)"/>
+  <path d="M331 550 L342 563 L354 550 L354 581 L342 593 L331 581 Z" fill="#0026cc"/>
+
+  <text x="489" y="615" font-family="Georgia, serif" font-size="31" font-weight="900" fill="#c82332">the scale of triggers</text>
+  <path d="M450 705 L450 551" stroke="#c82332" stroke-width="5" marker-end="url(#arrowRed)"/>
+  <path d="M438 705 L450 691 L461 705 L461 674 L450 663 L438 674 Z" fill="#c82332"/>
+
+  <text x="1262" y="615" font-family="Georgia, serif" font-size="31" font-weight="900" fill="#c82332">trigger features</text>
+  <path d="M1529 705 L1529 551" stroke="#c82332" stroke-width="5" marker-end="url(#arrowRed)"/>
+  <path d="M1517 705 L1529 691 L1540 705 L1540 674 L1529 663 L1517 674 Z" fill="#c82332"/>
+
+  <text x="1693" y="606" font-family="Georgia, serif" font-size="31" font-weight="900" fill="#00733c">stealthiness</text>
+  <text x="1693" y="634" font-family="Georgia, serif" font-size="31" font-weight="900" fill="#00733c">ensurement</text>
+  <path d="M1644 550 L1644 704" stroke="#00733c" stroke-width="5" marker-end="url(#arrowGreen)"/>
+  <path d="M1632 550 L1644 563 L1656 550 L1656 581 L1644 593 L1632 581 Z" fill="#00733c"/>
+
+  <!-- Bottom panel -->
+  <rect x="16" y="644" width="1871" height="462" rx="18" fill="#fff5f5" stroke="#111" stroke-width="2.5" stroke-dasharray="9 3 2 3"/>
+  <text x="44" y="685" font-family="Courier New, monospace" font-size="42" font-weight="900" letter-spacing="5">Triggers</text>
+  <text x="530" y="685" font-family="Courier New, monospace" font-size="38" font-weight="900" letter-spacing="3">
+    Explore the effect of <tspan fill="#e31320">sample selection</tspan> on <tspan fill="#e31320">triggers</tspan>.
+  </text>
+  <text x="44" y="722" font-family="Courier New, monospace" font-size="31" font-weight="900" fill="#e31320">Component C</text>
+
+  <text x="462" y="735" font-family="Georgia, serif" font-size="31" font-weight="900" fill="#c82332">
+    Stealthiness ensurement via avoid selecting single-color dominated samples.
+  </text>
+  <path d="M342 812 L342 752 L1699 752 L1699 793" fill="none" stroke="#c82332" stroke-width="4" marker-start="url(#arrowRed)" marker-end="url(#arrowRed)"/>
+
+  <rect x="46" y="765" width="30" height="206" rx="8" fill="url(#rgbBar)"/>
+  <text x="83" y="772" font-family="Georgia, serif" font-size="31" font-weight="900" fill="#008048">G</text>
+  <text x="87" y="868" font-family="Georgia, serif" font-size="31" font-weight="900" fill="#c82332">R</text>
+  <text x="84" y="1049" font-family="Georgia, serif" font-size="31" font-weight="900" fill="#0026cc">B</text>
+
+  <rect x="132" y="816" width="435" height="108" fill="#fff" stroke="#ffff00" stroke-width="3"/>
+  <text x="143" y="860" font-family="Georgia, serif" font-size="33" font-weight="900">Enhance the <tspan fill="#c82332">trigger feature</tspan></text>
+  <text x="143" y="893" font-family="Georgia, serif" font-size="33" font-weight="900">on the <tspan fill="#c82332">Blue</tspan> color channel.</text>
+
+  <rect x="47" y="982" width="267" height="89" fill="#fff5f5" stroke="#111" stroke-width="2.3" stroke-dasharray="8 3 2 3"/>
+  <line x1="213" y1="927" x2="174" y2="982" stroke="#111" stroke-width="2.4" stroke-dasharray="3 2"/>
+  <line x1="266" y1="927" x2="299" y2="982" stroke="#111" stroke-width="2.4" stroke-dasharray="3 2"/>
+  <text x="90" y="1009" font-family="Georgia, serif" font-size="30" font-weight="900" fill="#1d2784">low sensitivity</text>
+  <text x="84" y="1052" font-family="Georgia, serif" font-size="30" font-weight="900" fill="#0026cc">B</text>
+  <g transform="translate(135 1025)">
+    <path d="M0 17 C28 3 46 3 74 17 C49 25 26 25 0 17Z" fill="#fff" stroke="#d0c5a8" stroke-width="2"/>
+    <path d="M88 17 C116 3 134 3 162 17 C137 25 114 25 88 17Z" fill="#fff" stroke="#d0c5a8" stroke-width="2"/>
+    <circle cx="42" cy="16" r="5" fill="#111"/>
+    <circle cx="122" cy="16" r="5" fill="#111"/>
+    <path d="M24 8 Q45 24 66 8 M108 8 Q124 24 146 8" fill="none" stroke="#111" stroke-width="3"/>
+  </g>
+
+  <text x="632" y="788" font-family="Georgia, serif" font-size="31" font-weight="900" fill="#1d2784">
+    Distinct sensitivity of human visual system on RGB
+  </text>
+
+  <text x="598" y="838" font-family="Georgia, serif" font-size="31" font-weight="900">
+    <tspan fill="#c82332">mild </tspan><tspan fill="#1d2784">distortion</tspan>
+  </text>
+  <text x="878" y="838" font-family="Georgia, serif" font-size="31" font-weight="900">
+    <tspan fill="#c82332">severe </tspan><tspan fill="#1d2784">distortion</tspan>
+  </text>
+  <text x="1176" y="838" font-family="Georgia, serif" font-size="31" font-weight="900">
+    <tspan fill="#c82332">subtle </tspan><tspan fill="#1d2784">distortion</tspan>
+  </text>
+
+  <!-- Stylized three photo panels -->
+  <g>
+    <rect x="579" y="853" width="246" height="227" fill="#ead8d8"/>
+    <rect x="579" y="853" width="246" height="227" fill="#c99" opacity=".28" filter="url(#noise)"/>
+    <ellipse cx="718" cy="925" rx="45" ry="62" fill="#d9c7c0"/>
+    <path d="M679 885 C693 854 762 848 774 891 C752 874 706 872 679 885Z" fill="#1b1b1b"/>
+    <rect x="670" y="991" width="105" height="89" fill="#181414"/>
+    <path d="M700 966 C660 953 625 941 582 926" stroke="#d9dad3" stroke-width="31" fill="none" opacity=".75"/>
+    <path d="M693 965 C644 949 611 932 581 917" stroke="#9da5a9" stroke-width="7" fill="none" opacity=".8"/>
+    <circle cx="705" cy="921" r="4" fill="#111"/>
+    <circle cx="748" cy="920" r="4" fill="#111"/>
+    <path d="M694 919 L759 919" stroke="#111" stroke-width="2"/>
+    <path d="M703 960 Q725 972 749 958" stroke="#663" stroke-width="2" fill="none"/>
+    <text x="842" y="1070" font-family="Georgia, serif" font-size="31" font-weight="900" fill="#c82332">R</text>
+  </g>
+
+  <g>
+    <rect x="879" y="853" width="244" height="227" fill="#d8efd8"/>
+    <rect x="879" y="853" width="244" height="227" fill="#8fbf83" opacity=".35" filter="url(#noise)"/>
+    <ellipse cx="1010" cy="925" rx="44" ry="62" fill="#c8d4bf"/>
+    <path d="M971 887 C990 850 1056 849 1068 893 C1045 875 1002 873 971 887Z" fill="#141b18"/>
+    <rect x="965" y="990" width="112" height="90" fill="#112315"/>
+    <path d="M991 966 C950 950 913 939 881 923" stroke="#e3eadb" stroke-width="31" fill="none" opacity=".7"/>
+    <path d="M984 965 C940 949 907 932 881 916" stroke="#9aa89b" stroke-width="7" fill="none" opacity=".8"/>
+    <circle cx="997" cy="921" r="4" fill="#111"/>
+    <circle cx="1040" cy="920" r="4" fill="#111"/>
+    <path d="M985 919 L1052 919" stroke="#111" stroke-width="2"/>
+    <text x="1139" y="1070" font-family="Georgia, serif" font-size="31" font-weight="900" fill="#008048">G</text>
+  </g>
+
+  <g>
+    <rect x="1175" y="853" width="245" height="227" fill="#deddf1"/>
+    <rect x="1175" y="853" width="245" height="227" fill="#7982c8" opacity=".25" filter="url(#noise)"/>
+    <ellipse cx="1304" cy="925" rx="44" ry="62" fill="#c9c5cf"/>
+    <path d="M1264 887 C1282 852 1349 850 1360 893 C1338 876 1293 873 1264 887Z" fill="#13172a"/>
+    <rect x="1261" y="990" width="110" height="90" fill="#17213d"/>
+    <path d="M1284 966 C1241 950 1206 939 1178 923" stroke="#e7e7ee" stroke-width="31" fill="none" opacity=".75"/>
+    <path d="M1276 965 C1236 949 1204 932 1178 916" stroke="#9ca3b7" stroke-width="7" fill="none" opacity=".85"/>
+    <circle cx="1291" cy="921" r="4" fill="#111"/>
+    <circle cx="1334" cy="920" r="4" fill="#111"/>
+    <path d="M1280 919 L1346 919" stroke="#111" stroke-width="2"/>
+    <text x="1435" y="1070" font-family="Georgia, serif" font-size="31" font-weight="900" fill="#0026cc">B</text>
+  </g>
+
+  <text x="365" y="986" font-family="Georgia, serif" font-size="31" font-weight="900" fill="#c82332">distinct-color</text>
+  <text x="382" y="1073" font-family="Georgia, serif" font-size="31" font-weight="900" fill="#c82332">poisoning</text>
+  <path d="M548 1025 L352 1025" stroke="#c82332" stroke-width="10" marker-end="url(#arrowRed)"/>
+  <path d="M548 1012 L520 1025 L548 1039 Z" fill="#c82332"/>
+
+  <rect x="1516" y="803" width="350" height="279" fill="#fff" stroke="#00733c" stroke-width="3"/>
+  <text x="1591" y="839" font-family="Georgia, serif" font-size="32" font-weight="900">Special samples</text>
+  <text x="1558" y="878" font-family="Georgia, serif" font-size="30" font-weight="900">Green</text>
+  <text x="1528" y="904" font-family="Georgia, serif" font-size="30" font-weight="900">dominated</text>
+  <text x="1743" y="878" font-family="Georgia, serif" font-size="30" font-weight="900">Blue</text>
+  <text x="1708" y="904" font-family="Georgia, serif" font-size="30" font-weight="900">dominated</text>
+
+  <g>
+    <rect x="1530" y="925" width="145" height="140" fill="#111"/>
+    <rect x="1530" y="925" width="145" height="140" fill="#b6ff00" opacity=".35" filter="url(#noise)"/>
+    <rect x="1611" y="929" width="55" height="87" fill="#d3ff18" opacity=".86"/>
+    <path d="M1614 940 H1660 M1614 955 H1660 M1614 970 H1660 M1614 985 H1660" stroke="#5c9600" stroke-width="2"/>
+    <path d="M1595 1030 C1575 1014 1571 977 1590 954" stroke="#fbff00" stroke-width="5" fill="none" opacity=".75"/>
+    <circle cx="1575" cy="1031" r="18" fill="#e8ff00" opacity=".65"/>
+  </g>
+  <g>
+    <rect x="1713" y="925" width="140" height="140" fill="#002272"/>
+    <rect x="1713" y="925" width="140" height="140" fill="#00a6ff" opacity=".55" filter="url(#noise)"/>
+    <path d="M1733 925 C1718 969 1733 1020 1746 1065" stroke="#001c8f" stroke-width="18" fill="none" opacity=".85"/>
+    <rect x="1750" y="928" width="85" height="128" fill="#e9ffff" opacity=".8"/>
+    <path d="M1750 985 C1785 1000 1814 983 1835 1005" stroke="#0d87ff" stroke-width="9" fill="none" opacity=".7"/>
+    <path d="M1750 940 C1781 957 1810 946 1835 970" stroke="#1ba6ff" stroke-width="6" fill="none" opacity=".65"/>
+  </g>
+</svg>

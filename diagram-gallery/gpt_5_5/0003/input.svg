@@ -1,0 +1,244 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1742" height="927" viewBox="0 0 1742 927">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#000"/>
+    </marker>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#75b9f4"/>
+      <stop offset=".45" stop-color="#b8d9ee"/>
+      <stop offset=".46" stop-color="#6eb585"/>
+      <stop offset="1" stop-color="#6f8b78"/>
+    </linearGradient>
+    <linearGradient id="bear" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d7b178"/>
+      <stop offset="1" stop-color="#8d673e"/>
+    </linearGradient>
+    <linearGradient id="greenCube" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c8eab5"/>
+      <stop offset="1" stop-color="#8fc17d"/>
+    </linearGradient>
+    <linearGradient id="blueBlock" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5d86c8"/>
+      <stop offset="1" stop-color="#2e5eaa"/>
+    </linearGradient>
+
+    <symbol id="photo" viewBox="0 0 130 130">
+      <rect width="130" height="130" fill="url(#sky)"/>
+      <rect x="0" y="55" width="130" height="75" fill="#638a73"/>
+      <polygon points="74,37 126,26 126,56 74,67" fill="#333" opacity=".85"/>
+      <polygon points="81,39 116,33 116,47 81,54" fill="#999"/>
+      <rect x="2" y="52" width="22" height="70" fill="#b8a48a" opacity=".65"/>
+      <rect x="24" y="47" width="19" height="78" fill="#d2c0a3" opacity=".55"/>
+      <ellipse cx="62" cy="83" rx="35" ry="23" fill="url(#bear)"/>
+      <ellipse cx="94" cy="84" rx="26" ry="20" fill="url(#bear)"/>
+      <circle cx="36" cy="76" r="13" fill="#c99c64"/>
+      <circle cx="30" cy="68" r="5" fill="#8d673e"/>
+      <rect x="47" y="98" width="8" height="24" fill="#7b5738"/>
+      <rect x="86" y="98" width="8" height="24" fill="#7b5738"/>
+      <rect x="111" y="99" width="8" height="23" fill="#7b5738"/>
+      <g stroke="#7cc6d9" stroke-width="2" opacity=".55">
+        <line x1="8" y1="8" x2="8" y2="127"/>
+        <line x1="20" y1="4" x2="20" y2="130"/>
+        <line x1="33" y1="12" x2="33" y2="130"/>
+        <line x1="48" y1="0" x2="48" y2="130"/>
+        <line x1="61" y1="7" x2="61" y2="130"/>
+        <line x1="77" y1="2" x2="77" y2="130"/>
+        <line x1="91" y1="11" x2="91" y2="130"/>
+        <line x1="107" y1="0" x2="107" y2="130"/>
+        <line x1="121" y1="5" x2="121" y2="130"/>
+      </g>
+    </symbol>
+
+    <symbol id="embeddingStack" viewBox="0 0 100 85">
+      <g stroke="#ad7800" stroke-width="1.5">
+        <polygon points="16,3 84,3 100,16 31,16" fill="#f3a21a"/>
+        <polygon points="31,16 100,16 100,72 31,72" fill="#d38a00"/>
+        <polygon points="16,3 31,16 31,72 16,59" fill="#ffe15d"/>
+      </g>
+      <g transform="translate(-6,7)" stroke="#ad7800" stroke-width="1.5">
+        <polygon points="16,3 84,3 100,16 31,16" fill="#ffc93d"/>
+        <polygon points="31,16 100,16 100,72 31,72" fill="#ec9d17"/>
+        <polygon points="16,3 31,16 31,72 16,59" fill="#fff07b"/>
+      </g>
+      <g transform="translate(-12,14)" stroke="#4f9147" stroke-width="1.5">
+        <polygon points="16,3 84,3 100,16 31,16" fill="#bfe4a8"/>
+        <polygon points="31,16 100,16 100,72 31,72" fill="url(#greenCube)"/>
+        <polygon points="16,3 31,16 31,72 16,59" fill="#d9f0c9"/>
+      </g>
+    </symbol>
+  </defs>
+
+  <style>
+    .serif{font-family:"Times New Roman", Times, serif;}
+    .title{font-size:42px;font-weight:500;}
+    .label{font-size:32px;}
+    .small{font-size:27px;}
+    .math{font-style:italic;}
+    .arrow{stroke:#000;stroke-width:5;fill:none;marker-end:url(#arrow);}
+    .thinArrow{stroke:#000;stroke-width:4;fill:none;marker-end:url(#arrow);}
+  </style>
+
+  <!-- backgrounds -->
+  <rect x="0" y="0" width="1742" height="927" fill="#eeeeee"/>
+  <rect x="0" y="500" width="875" height="427" fill="#f7dfcf"/>
+  <rect x="875" y="500" width="867" height="427" fill="#dce3f6"/>
+  <line x1="0" y1="500" x2="1742" y2="500" stroke="#fff" stroke-width="3"/>
+  <line x1="875" y1="500" x2="875" y2="927" stroke="#fff" stroke-width="3"/>
+
+  <!-- (a) title -->
+  <text class="serif title" x="22" y="52">(a) Overall MINI Architecture</text>
+
+  <!-- Top input image stack -->
+  <g transform="translate(332,195)">
+    <use href="#photo" x="0" y="0" width="130" height="130" opacity=".75"/>
+    <use href="#photo" x="18" y="24" width="130" height="130" opacity=".85"/>
+    <use href="#photo" x="37" y="49" width="130" height="130"/>
+  </g>
+  <text class="serif label" x="386" y="405">input <tspan class="math">x</tspan></text>
+
+  <!-- Query function box and top arrows -->
+  <path class="arrow" d="M397 195 L397 97 L496 97"/>
+  <rect x="498" y="72" width="270" height="52" rx="8" fill="#eef7e8" stroke="#2d568c" stroke-width="2"/>
+  <text class="serif small" x="522" y="107">Query function <tspan class="math">q</tspan>(·)</text>
+  <path class="arrow" d="M768 97 L870 97 L870 201"/>
+
+  <!-- Backbone block -->
+  <rect x="665" y="204" width="408" height="208" rx="25" fill="none" stroke="#2d568c" stroke-width="5" stroke-dasharray="18 18"/>
+  <path class="arrow" d="M498 309 L665 309"/>
+  <path class="arrow" d="M1073 309 L1248 309"/>
+
+  <!-- stylized backbone internals -->
+  <g transform="translate(690,232)">
+    <polygon points="0,0 170,46 170,105 0,152" fill="#efe7cf" stroke="#2d568c" stroke-width="2.5"/>
+    <g>
+      <rect x="10" y="16" width="18" height="116" fill="#ffd85d"/>
+      <rect x="10" y="96" width="18" height="36" fill="#3d6cb4"/>
+      <rect x="42" y="27" width="18" height="95" fill="#ffd85d"/>
+      <rect x="42" y="92" width="18" height="30" fill="#3d6cb4"/>
+      <rect x="74" y="39" width="18" height="75" fill="#ffd85d"/>
+      <rect x="74" y="88" width="18" height="26" fill="#3d6cb4"/>
+      <rect x="106" y="47" width="18" height="58" fill="#ffd85d"/>
+      <rect x="106" y="85" width="18" height="20" fill="#3d6cb4"/>
+      <rect x="138" y="58" width="18" height="37" fill="#ffd85d"/>
+      <rect x="138" y="80" width="18" height="15" fill="#3d6cb4"/>
+      <rect x="42" y="61" width="18" height="31" fill="#f4ae7a"/>
+      <rect x="74" y="64" width="18" height="24" fill="#f4ae7a"/>
+      <rect x="106" y="69" width="18" height="16" fill="#f4ae7a"/>
+      <rect x="138" y="72" width="18" height="8" fill="#f4ae7a"/>
+    </g>
+  </g>
+  <g transform="translate(1045,232) scale(-1,1)">
+    <polygon points="0,0 170,46 170,105 0,152" fill="#efe7cf" stroke="#2d568c" stroke-width="2.5"/>
+    <g>
+      <rect x="10" y="16" width="18" height="116" fill="#ffd85d"/>
+      <rect x="10" y="96" width="18" height="36" fill="#3d6cb4"/>
+      <rect x="42" y="27" width="18" height="95" fill="#ffd85d"/>
+      <rect x="42" y="92" width="18" height="30" fill="#3d6cb4"/>
+      <rect x="74" y="39" width="18" height="75" fill="#ffd85d"/>
+      <rect x="74" y="88" width="18" height="26" fill="#3d6cb4"/>
+      <rect x="106" y="47" width="18" height="58" fill="#ffd85d"/>
+      <rect x="106" y="85" width="18" height="20" fill="#3d6cb4"/>
+      <rect x="138" y="58" width="18" height="37" fill="#ffd85d"/>
+      <rect x="138" y="80" width="18" height="15" fill="#3d6cb4"/>
+      <rect x="42" y="61" width="18" height="31" fill="#f4ae7a"/>
+      <rect x="74" y="64" width="18" height="24" fill="#f4ae7a"/>
+      <rect x="106" y="69" width="18" height="16" fill="#f4ae7a"/>
+      <rect x="138" y="72" width="18" height="8" fill="#f4ae7a"/>
+    </g>
+  </g>
+  <text class="serif label" x="782" y="443">Any backbone</text>
+  <text class="serif label" x="765" y="481">with MINI-Conv</text>
+
+  <!-- Top output image stack -->
+  <g transform="translate(1248,195)">
+    <use href="#photo" x="0" y="0" width="130" height="130" opacity=".75"/>
+    <use href="#photo" x="18" y="24" width="130" height="130" opacity=".85"/>
+    <use href="#photo" x="37" y="49" width="130" height="130"/>
+  </g>
+  <text class="serif label" x="1297" y="405">output <tspan class="math">y</tspan></text>
+
+  <!-- (b) MINI-Conv -->
+  <text class="serif title" x="18" y="546">(b) MINI-Conv</text>
+
+  <text class="serif label" x="52" y="742"><tspan class="math">q</tspan>(<tspan class="math">x</tspan>)</text>
+  <path class="arrow" d="M111 735 L272 735"/>
+  <path class="thinArrow" d="M181 735 L181 625 L292 625"/>
+  <path class="thinArrow" d="M385 625 L461 625"/>
+  <path class="thinArrow" d="M385 731 L461 731"/>
+
+  <text class="serif small" x="258" y="580">bias embeddings</text>
+  <rect x="298" y="587" width="88" height="77" rx="6" fill="none" stroke="#00a9df" stroke-width="4" stroke-dasharray="10 7"/>
+  <use href="#embeddingStack" x="303" y="589" width="78" height="72"/>
+
+  <text class="serif small" x="229" y="816">weight embeddings</text>
+  <rect x="272" y="674" width="126" height="118" rx="10" fill="none" stroke="#2d568c" stroke-width="4" stroke-dasharray="12 8"/>
+  <use href="#embeddingStack" x="283" y="690" width="95" height="88"/>
+
+  <polygon points="466,606 482,590 482,657 466,673" fill="#2d568c"/>
+  <rect x="462" y="606" width="14" height="67" fill="url(#blueBlock)" stroke="#2d568c" stroke-width="2"/>
+  <polygon points="466,686 492,668 492,777 466,794" fill="#2d568c"/>
+  <rect x="461" y="686" width="18" height="108" fill="url(#blueBlock)" stroke="#2d568c" stroke-width="2"/>
+
+  <path class="thinArrow" d="M480 625 L733 625 L733 711"/>
+  <path class="thinArrow" d="M480 732 L540 732"/>
+  <circle cx="563" cy="732" r="22" fill="#f7dfcf" stroke="#000" stroke-width="4"/>
+  <text class="serif label" x="552" y="742">R</text>
+  <path class="thinArrow" d="M585 732 L633 732"/>
+  <circle cx="657" cy="732" r="22" fill="#f7dfcf" stroke="#000" stroke-width="4"/>
+  <text class="serif label" x="647" y="748">*</text>
+  <path class="thinArrow" d="M679 732 L711 732"/>
+
+  <text class="serif label" x="79" y="865"><tspan class="math">h</tspan></text>
+  <text class="serif small" x="10" y="904">hidden state</text>
+  <path class="arrow" d="M111 850 L657 850 L657 754"/>
+
+  <circle cx="735" cy="732" r="20" fill="#f7dfcf" stroke="#000" stroke-width="4"/>
+  <line x1="720" y1="732" x2="750" y2="732" stroke="#000" stroke-width="4"/>
+  <line x1="735" y1="717" x2="735" y2="747" stroke="#000" stroke-width="4"/>
+  <path class="thinArrow" d="M755 732 L815 732"/>
+  <text class="serif label" x="824" y="742"><tspan class="math">h</tspan>′</text>
+
+  <text class="serif small" x="396" y="881">Ⓡ : reshape</text>
+  <text class="serif small" x="618" y="881">⊛ : convolution</text>
+  <text class="serif small" x="396" y="921">⊕: Element-wise addition</text>
+
+  <!-- (c) Query function -->
+  <text class="serif title" x="898" y="546">(c) Query function <tspan class="math">q</tspan>(·)</text>
+
+  <text class="serif label math" x="891" y="799">x</text>
+  <path class="thinArrow" d="M914 788 L948 788"/>
+  <rect x="948" y="745" width="148" height="83" rx="12" fill="#4475c4" stroke="#285a9e" stroke-width="3"/>
+  <text class="serif small" x="977" y="800" fill="#fff">patching</text>
+
+  <path class="thinArrow" d="M1032 745 L1032 673"/>
+  <rect x="947" y="587" width="173" height="84" rx="12" fill="#f3eadf" stroke="#f0c400" stroke-width="3" stroke-dasharray="10 6"/>
+  <text class="serif" font-size="23" x="977" y="610">Degradation</text>
+  <text class="serif" font-size="23" x="969" y="638">Classification</text>
+  <text class="serif" font-size="23" x="1011" y="665">MLP</text>
+
+  <path d="M1120 630 L1200 630 L1200 704" fill="none" stroke="#83c75d" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <path d="M1096 788 L1170 788 L1202 736" stroke="#000" stroke-width="5" fill="none"/>
+  <rect x="1156" y="704" width="86" height="170" fill="none" stroke="#00a85a" stroke-width="4" stroke-dasharray="13 12"/>
+  <circle cx="1204" cy="736" r="10" fill="#000"/>
+  <circle cx="1204" cy="837" r="10" fill="#000"/>
+  <text class="serif small" x="1163" y="904">switch</text>
+
+  <path class="thinArrow" d="M1214 736 L1308 736"/>
+  <path class="thinArrow" d="M1214 837 L1308 837"/>
+  <rect x="1310" y="694" width="128" height="83" rx="14" fill="#f3eadf" stroke="#85521d" stroke-width="3"/>
+  <text class="serif small" x="1335" y="728">Global</text>
+  <text class="serif small" x="1343" y="760">MLP</text>
+  <rect x="1310" y="795" width="128" height="85" rx="14" fill="#f3eadf" stroke="#85521d" stroke-width="3"/>
+  <text class="serif small" x="1341" y="831">Local</text>
+  <text class="serif small" x="1343" y="864">MLP</text>
+
+  <path d="M1438 736 L1464 736 L1464 837 L1438 837" fill="none" stroke="#000" stroke-width="5"/>
+  <path class="thinArrow" d="M1464 787 L1525 787"/>
+  <rect x="1526" y="744" width="103" height="85" rx="12" fill="#4475c4" stroke="#285a9e" stroke-width="3"/>
+  <text class="serif small" x="1534" y="772" fill="#fff">softmax</text>
+  <text class="serif small" x="1570" y="800" fill="#fff">&amp;</text>
+  <text class="serif small" x="1536" y="820" fill="#fff">argmax</text>
+  <path class="thinArrow" d="M1629 787 L1664 787"/>
+  <text class="serif label" x="1673" y="797"><tspan class="math">q</tspan>(<tspan class="math">x</tspan>)</text>
+</svg>

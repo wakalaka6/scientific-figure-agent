@@ -1,0 +1,428 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <marker id="arrowGreen" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L14,7 L0,14 Z" fill="#2f7741"/>
+    </marker>
+    <marker id="arrowPurple" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L14,7 L0,14 Z" fill="#67408e"/>
+    </marker>
+    <marker id="arrowBlack" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#111"/>
+    </marker>
+
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1.2" flood-color="#999" flood-opacity=".25"/>
+    </filter>
+
+    <linearGradient id="counterGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d8c9ad"/>
+      <stop offset=".45" stop-color="#eee9dd"/>
+      <stop offset=".46" stop-color="#f7f4ea"/>
+      <stop offset="1" stop-color="#c9aa82"/>
+    </linearGradient>
+    <linearGradient id="labGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7c8f8f"/>
+      <stop offset=".35" stop-color="#d6ddd8"/>
+      <stop offset="1" stop-color="#48535a"/>
+    </linearGradient>
+    <linearGradient id="darkRoom" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6d604a"/>
+      <stop offset=".5" stop-color="#2f2a27"/>
+      <stop offset="1" stop-color="#8b897e"/>
+    </linearGradient>
+
+    <g id="gptIcon" fill="none" stroke="#111" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round">
+      <ellipse cx="0" cy="-15" rx="13" ry="20" transform="rotate(0)"/>
+      <ellipse cx="0" cy="-15" rx="13" ry="20" transform="rotate(60)"/>
+      <ellipse cx="0" cy="-15" rx="13" ry="20" transform="rotate(120)"/>
+      <ellipse cx="0" cy="-15" rx="13" ry="20" transform="rotate(180)"/>
+      <ellipse cx="0" cy="-15" rx="13" ry="20" transform="rotate(240)"/>
+      <ellipse cx="0" cy="-15" rx="13" ry="20" transform="rotate(300)"/>
+    </g>
+
+    <g id="hierIcon" stroke="#111" stroke-width="5" fill="#fff" stroke-linejoin="round">
+      <rect x="-11" y="-36" width="22" height="22" rx="3"/>
+      <path d="M0,-14 L0,8 M0,8 L-28,8 L-28,25 M0,8 L28,8 L28,25"/>
+      <rect x="-40" y="25" width="22" height="22" rx="3"/>
+      <rect x="-11" y="25" width="22" height="22" rx="3"/>
+      <rect x="18" y="25" width="22" height="22" rx="3"/>
+    </g>
+
+    <g id="docSmall">
+      <path d="M0,0 H92 L116,24 V76 H0 Z" fill="#eefdfb" stroke="#111" stroke-width="3"/>
+      <path d="M92,0 V24 H116" fill="none" stroke="#111" stroke-width="3"/>
+    </g>
+
+    <g id="docMed">
+      <path d="M0,0 H126 L150,24 V96 H0 Z" fill="#effdfa" stroke="#111" stroke-width="3"/>
+      <path d="M126,0 V24 H150" fill="none" stroke="#111" stroke-width="3"/>
+    </g>
+
+    <g id="docLarge">
+      <path d="M0,0 H182 L206,24 V102 H0 Z" fill="#f8f8f0" stroke="#111" stroke-width="3"/>
+      <path d="M182,0 V24 H206" fill="none" stroke="#111" stroke-width="3"/>
+    </g>
+
+    <g id="thumbLab">
+      <rect width="136" height="112" fill="url(#labGrad)"/>
+      <rect x="0" y="61" width="136" height="51" fill="#c9c6b6" opacity=".85"/>
+      <rect x="20" y="50" width="42" height="30" rx="2" fill="#b8ad85"/>
+      <ellipse cx="70" cy="76" rx="32" ry="10" fill="#6d5b45"/>
+      <ellipse cx="104" cy="85" rx="28" ry="10" fill="#d9dfd7"/>
+      <path d="M105,15 C116,14 124,23 121,34 L114,55" stroke="#17191b" stroke-width="8" fill="none"/>
+      <circle cx="112" cy="59" r="10" fill="#222"/>
+      <rect x="2" y="2" width="132" height="108" fill="none" stroke="#cde9cf" stroke-width="3"/>
+    </g>
+
+    <g id="thumbDark">
+      <rect width="136" height="112" fill="url(#darkRoom)"/>
+      <rect x="0" y="58" width="136" height="54" fill="#4b382b" opacity=".75"/>
+      <polygon points="14,70 76,51 120,78 58,105" fill="#6f563d"/>
+      <rect x="41" y="34" width="26" height="37" fill="#ddd4c3"/>
+      <path d="M78,19 C98,18 108,37 94,51" stroke="#222" stroke-width="8" fill="none"/>
+      <circle cx="94" cy="51" r="8" fill="#111"/>
+      <ellipse cx="111" cy="89" rx="16" ry="9" fill="#cfd2c8"/>
+      <rect x="2" y="2" width="132" height="108" fill="none" stroke="#cde9cf" stroke-width="3"/>
+    </g>
+
+    <g id="thumbTable">
+      <rect width="136" height="112" fill="#b9bbb1"/>
+      <rect x="0" y="0" width="68" height="112" fill="#ecefe7"/>
+      <rect x="68" y="0" width="68" height="112" fill="#4f5250"/>
+      <rect x="6" y="31" width="54" height="30" fill="#d8d2b7"/>
+      <ellipse cx="32" cy="47" rx="24" ry="8" fill="#f07822"/>
+      <path d="M95,18 C112,25 111,53 95,64" stroke="#151515" stroke-width="8" fill="none"/>
+      <circle cx="91" cy="67" r="9" fill="#111"/>
+      <path d="M14,98 L32,87" stroke="#e5d900" stroke-width="5"/>
+      <rect x="2" y="2" width="132" height="108" fill="none" stroke="#cde9cf" stroke-width="3"/>
+    </g>
+
+    <g id="kitchenPhoto">
+      <rect width="340" height="275" fill="url(#counterGrad)"/>
+      <rect x="0" y="0" width="340" height="72" fill="#b99263" opacity=".55"/>
+      <line x1="0" y1="72" x2="340" y2="72" stroke="#7d674c" stroke-width="2"/>
+      <rect x="0" y="224" width="340" height="51" fill="#aa835b" opacity=".65"/>
+      <line x1="113" y1="224" x2="113" y2="275" stroke="#6e5139" stroke-width="2"/>
+      <line x1="226" y1="224" x2="226" y2="275" stroke="#6e5139" stroke-width="2"/>
+      <g stroke="#222" stroke-width="3" fill="none">
+        <rect x="52" y="44" width="55" height="80" rx="2"/>
+        <line x1="60" y1="56" x2="99" y2="56"/>
+        <line x1="60" y1="72" x2="99" y2="72"/>
+        <line x1="60" y1="88" x2="99" y2="88"/>
+        <line x1="60" y1="104" x2="99" y2="104"/>
+      </g>
+      <ellipse cx="132" cy="116" rx="39" ry="17" fill="#242424"/>
+      <ellipse cx="132" cy="107" rx="34" ry="12" fill="#d3cbb3"/>
+      <ellipse cx="132" cy="102" rx="17" ry="26" fill="#ddd9c9"/>
+      <rect x="208" y="72" width="61" height="66" rx="3" fill="#e6a72d"/>
+      <rect x="215" y="85" width="47" height="19" fill="#d9a334"/>
+      <rect x="215" y="111" width="47" height="19" fill="#cc8d2f"/>
+      <circle cx="239" cy="95" r="6" fill="#9cc1e8"/>
+      <circle cx="239" cy="121" r="6" fill="#d5e3df"/>
+      <rect x="278" y="76" width="21" height="85" transform="rotate(-17 278 76)" fill="#d8dad1" stroke="#9a9a8d"/>
+      <rect x="301" y="84" width="18" height="74" transform="rotate(-35 301 84)" fill="#a5c3a9"/>
+      <ellipse cx="31" cy="125" rx="22" ry="11" fill="#f1d96d"/>
+      <ellipse cx="62" cy="129" rx="25" ry="13" fill="#e8efe3"/>
+      <rect x="58" y="116" width="40" height="18" rx="6" fill="#fff"/>
+      <rect x="184" y="156" width="10" height="33" rx="5" fill="#f5bd22"/>
+      <circle cx="189" cy="151" r="8" fill="#f7d26a"/>
+      <rect x="212" y="164" width="11" height="24" rx="4" fill="#0a8a7d"/>
+      <circle cx="218" cy="160" r="6" fill="#ffd15a"/>
+      <rect x="284" y="18" width="45" height="15" rx="2" fill="#eee"/>
+      <circle cx="299" cy="26" r="3" fill="#bbb"/>
+      <circle cx="318" cy="26" r="3" fill="#bbb"/>
+    </g>
+
+    <g id="execThumb">
+      <rect width="140" height="115" fill="url(#counterGrad)"/>
+      <rect x="0" y="0" width="140" height="38" fill="#b99263" opacity=".5"/>
+      <rect x="5" y="63" width="130" height="46" fill="#eee9dc"/>
+      <ellipse cx="42" cy="74" rx="25" ry="11" fill="#222"/>
+      <ellipse cx="43" cy="70" rx="16" ry="6" fill="#111"/>
+      <circle cx="82" cy="77" r="15" fill="#ddd9c9"/>
+      <ellipse cx="82" cy="77" rx="20" ry="7" fill="none" stroke="#9c9a8f" stroke-width="2"/>
+      <rect x="91" y="30" width="30" height="30" fill="#e2a32e"/>
+      <path d="M64,43 C85,33 108,39 120,54" stroke="#191919" stroke-width="8" fill="none"/>
+      <circle cx="118" cy="55" r="7" fill="#111"/>
+      <rect x="12" y="26" width="27" height="46" fill="none" stroke="#252525" stroke-width="2"/>
+      <circle cx="103" cy="87" r="4" fill="#0b8c7a"/>
+      <circle cx="113" cy="83" r="4" fill="#e7ba1c"/>
+      <rect x="1" y="1" width="138" height="113" fill="none" stroke="#e9e6dd" stroke-width="2"/>
+    </g>
+  </defs>
+
+  <style>
+    .title{font-family:Arial, Helvetica, sans-serif;font-weight:700;font-size:30px;fill:#000}
+    .labelV{font-family:Arial, Helvetica, sans-serif;font-weight:700;font-size:34px;fill:#000}
+    .txt{font-family:Arial, Helvetica, sans-serif;font-size:28px;fill:#111}
+    .small{font-family:Arial, Helvetica, sans-serif;font-size:18px;fill:#111}
+    .frame{font-family:Arial, Helvetica, sans-serif;font-size:29px;fill:white;text-shadow:0 1px 2px #000}
+    .greenBox{fill:#b9edc7}
+    .purpleBox{fill:#d8ccff}
+    .panel{fill:#fbfbf8}
+  </style>
+
+  <!-- Background bands -->
+  <rect x="12" y="13" width="1896" height="540" rx="42" fill="#e9f4ec"/>
+  <rect x="12" y="575" width="1896" height="490" rx="42" fill="#f0eaf7"/>
+
+  <!-- Left vertical labels -->
+  <text x="55" y="367" class="labelV" transform="rotate(-90 55 367)">Learning</text>
+  <text x="55" y="878" class="labelV" transform="rotate(-90 55 878)">Planning</text>
+
+  <!-- Dataset cylinder -->
+  <g transform="translate(82 169)">
+    <ellipse cx="63" cy="20" rx="62" ry="20" fill="#f4f7f6" stroke="#777" stroke-width="4"/>
+    <path d="M1,20 V220 C1,246 125,246 125,220 V20" fill="#f4f7f6" stroke="#777" stroke-width="4"/>
+    <ellipse cx="63" cy="220" rx="62" ry="20" fill="none" stroke="#777" stroke-width="4"/>
+    <text x="63" y="130" text-anchor="middle" class="txt">
+      <tspan x="63">DROID</tspan>
+      <tspan x="63" dy="36">Dataset</tspan>
+    </text>
+  </g>
+
+  <!-- Panel a -->
+  <rect x="245" y="30" width="495" height="500" rx="38" class="panel"/>
+  <text x="493" y="67" class="title" text-anchor="middle">(a) Keyframe Extraction</text>
+
+  <g transform="translate(260 84)">
+    <rect x="0" y="0" width="455" height="132" fill="#d5f0d6"/>
+    <use href="#thumbLab" x="10" y="11"/>
+    <use href="#thumbLab" x="157" y="11"/>
+    <use href="#thumbLab" x="304" y="11"/>
+    <text x="16" y="37" class="frame">Frame 1</text>
+    <text x="163" y="37" class="frame">Frame 2</text>
+    <text x="310" y="37" class="frame">Frame 7</text>
+    <text x="286" y="75" class="txt" font-size="22">...</text>
+  </g>
+  <g transform="translate(260 225)">
+    <rect x="0" y="0" width="455" height="132" fill="#d5f0d6"/>
+    <use href="#thumbDark" x="10" y="11"/>
+    <use href="#thumbDark" x="157" y="11"/>
+    <use href="#thumbDark" x="304" y="11"/>
+    <text x="16" y="37" class="frame">Frame 1</text>
+    <text x="163" y="37" class="frame">Frame 2</text>
+    <text x="310" y="37" class="frame">Frame 9</text>
+    <text x="286" y="75" class="txt" font-size="22">...</text>
+  </g>
+  <text x="476" y="381" class="txt" text-anchor="middle">...</text>
+  <g transform="translate(260 393)">
+    <rect x="0" y="0" width="455" height="132" fill="#d5f0d6"/>
+    <use href="#thumbTable" x="10" y="11"/>
+    <use href="#thumbTable" x="157" y="11"/>
+    <use href="#thumbTable" x="304" y="11"/>
+    <text x="16" y="37" class="frame">Frame 1</text>
+    <text x="163" y="37" class="frame">Frame 2</text>
+    <text x="310" y="37" class="frame">Frame 8</text>
+    <text x="286" y="75" class="txt" font-size="22">...</text>
+  </g>
+
+  <!-- dataset arrows into panel a -->
+  <path d="M207,190 H242" stroke="#2f7741" stroke-width="5" fill="none" marker-end="url(#arrowGreen)"/>
+  <path d="M207,289 H242" stroke="#2f7741" stroke-width="5" fill="none" marker-end="url(#arrowGreen)"/>
+  <path d="M207,190 H227 V456 H242" stroke="#2f7741" stroke-width="5" fill="none" marker-end="url(#arrowGreen)"/>
+
+  <!-- Panel b -->
+  <rect x="768" y="30" width="615" height="500" rx="38" class="panel"/>
+  <text x="1075" y="73" class="title" text-anchor="middle">(b) Atomic Domain Generation</text>
+
+  <g transform="translate(811 108)">
+    <rect x="0" y="0" width="525" height="94" rx="12" class="greenBox"/>
+    <use href="#gptIcon" transform="translate(40 47) scale(.9)"/>
+    <text x="74" y="38" class="txt">Domain Construction</text>
+    <text x="74" y="75" class="txt">&amp; Revision</text>
+    <use href="#docSmall" x="358" y="7"/>
+    <text x="363" y="25" class="small" font-style="italic" fill="#1f4d9a">:predicates (...)</text>
+    <text x="363" y="45" class="small" font-style="italic" fill="#1f4d9a">:actions ...</text>
+    <text x="377" y="65" class="small" font-style="italic" fill="#80522c">:precondition (...)</text>
+    <text x="377" y="84" class="small" font-style="italic" fill="#b32468">:effect (...)</text>
+  </g>
+
+  <rect x="794" y="232" width="558" height="284" rx="28" fill="#e7f8ec"/>
+  <g transform="translate(810 249)">
+    <rect x="0" y="0" width="228" height="120" rx="14" class="greenBox"/>
+    <use href="#gptIcon" transform="translate(39 50) scale(.8)"/>
+    <use href="#hierIcon" transform="translate(38 73) scale(.6)"/>
+    <text x="73" y="48" class="txt">Solvability</text>
+    <text x="73" y="84" class="txt">Check</text>
+  </g>
+  <g transform="translate(810 392)">
+    <rect x="0" y="0" width="228" height="107" rx="14" class="greenBox"/>
+    <use href="#gptIcon" transform="translate(39 57) scale(.8)"/>
+    <text x="73" y="46" class="txt">Solution</text>
+    <text x="73" y="82" class="txt">Verification</text>
+  </g>
+  <g transform="translate(1149 249)">
+    <rect x="0" y="0" width="188" height="250" rx="22" class="greenBox"/>
+    <use href="#gptIcon" transform="translate(93 59) scale(.95)"/>
+    <text x="94" y="140" class="txt" text-anchor="middle">Closed-Loop</text>
+    <text x="94" y="176" class="txt" text-anchor="middle">Refinement</text>
+    <use href="#docSmall" x="20" y="158"/>
+    <text x="25" y="178" class="small" font-style="italic" fill="#1f4d9a">:predicates (...)</text>
+    <text x="25" y="199" class="small" font-style="italic" fill="#1f4d9a">:actions ...</text>
+    <text x="39" y="219" class="small" font-style="italic" fill="#80522c">:precondition (...)</text>
+    <text x="39" y="239" class="small" font-style="italic" fill="#b32468">:effect (...)</text>
+  </g>
+
+  <path d="M1073,202 V230" stroke="#111" stroke-width="3" fill="none" marker-end="url(#arrowBlack)"/>
+  <path d="M923,369 V391" stroke="#111" stroke-width="3" fill="none" marker-end="url(#arrowBlack)"/>
+  <path d="M1148,288 H1042" stroke="#111" stroke-width="3" fill="none" marker-end="url(#arrowBlack)"/>
+  <path d="M1042,316 H1147" stroke="#111" stroke-width="3" fill="none" marker-end="url(#arrowBlack)"/>
+  <text x="1095" y="347" class="small" font-size="21" text-anchor="middle">Feedback</text>
+  <path d="M1041,457 H1146" stroke="#111" stroke-width="3" fill="none" marker-end="url(#arrowBlack)"/>
+  <text x="1095" y="446" class="small" font-size="21" text-anchor="middle">Feedback</text>
+
+  <!-- a to b arrows -->
+  <path d="M715,155 H807" stroke="#2f7741" stroke-width="5" fill="none" marker-end="url(#arrowGreen)"/>
+  <path d="M715,290 H765 V155 H807" stroke="#2f7741" stroke-width="5" fill="none"/>
+  <path d="M715,458 H765 V155" stroke="#2f7741" stroke-width="5" fill="none"/>
+
+  <!-- Panel c -->
+  <rect x="1418" y="30" width="490" height="500" rx="38" class="panel"/>
+  <text x="1663" y="73" class="title" text-anchor="middle">(c) Domain Fusion</text>
+
+  <g transform="translate(1427 96)">
+    <path d="M0,0 H456 L474,18 V123 H0 Z" fill="#effdfa" stroke="#111" stroke-width="3"/>
+    <path d="M456,0 V18 H474" fill="none" stroke="#111" stroke-width="3"/>
+    <text x="237" y="32" class="txt" text-anchor="middle">Unified Domain</text>
+    <use href="#docSmall" x="8" y="42"/>
+    <use href="#docSmall" x="125" y="42"/>
+    <use href="#docSmall" x="264" y="42"/>
+    <use href="#docSmall" x="374" y="42"/>
+    <text x="66" y="73" class="small" font-size="23" text-anchor="middle">Atomic</text>
+    <text x="66" y="100" class="small" font-size="23" text-anchor="middle">Domain</text>
+    <text x="183" y="73" class="small" font-size="23" text-anchor="middle">Atomic</text>
+    <text x="183" y="100" class="small" font-size="23" text-anchor="middle">Domain</text>
+    <text x="242" y="88" class="txt" text-anchor="middle">...</text>
+    <text x="322" y="73" class="small" font-size="23" text-anchor="middle">Atomic</text>
+    <text x="322" y="100" class="small" font-size="23" text-anchor="middle">Domain</text>
+    <text x="432" y="73" class="small" font-size="23" text-anchor="middle">Atomic</text>
+    <text x="432" y="100" class="small" font-size="23" text-anchor="middle">Domain</text>
+  </g>
+
+  <g transform="translate(1465 278)">
+    <use href="#docMed"/>
+    <text x="75" y="43" class="txt" text-anchor="middle">Meta</text>
+    <text x="75" y="76" class="txt" text-anchor="middle">Domain</text>
+  </g>
+  <g transform="translate(1710 278)">
+    <use href="#docMed"/>
+    <text x="75" y="43" class="txt" text-anchor="middle">Meta</text>
+    <text x="75" y="76" class="txt" text-anchor="middle">Domain</text>
+  </g>
+  <g transform="translate(1566 419)">
+    <use href="#docLarge"/>
+    <text x="103" y="42" class="txt" text-anchor="middle">Meta</text>
+    <text x="103" y="79" class="txt" text-anchor="middle">Domain</text>
+  </g>
+
+  <use href="#gptIcon" transform="translate(1542 250) scale(.72)"/>
+  <use href="#gptIcon" transform="translate(1788 250) scale(.72)"/>
+  <use href="#gptIcon" transform="translate(1664 388) scale(.72)"/>
+  <path d="M1486,218 L1513,276" stroke="#111" stroke-width="2" fill="none" marker-end="url(#arrowBlack)"/>
+  <path d="M1595,218 L1567,276" stroke="#111" stroke-width="2" fill="none" marker-end="url(#arrowBlack)"/>
+  <path d="M1734,218 L1761,276" stroke="#111" stroke-width="2" fill="none" marker-end="url(#arrowBlack)"/>
+  <path d="M1856,218 L1817,276" stroke="#111" stroke-width="2" fill="none" marker-end="url(#arrowBlack)"/>
+  <path d="M1540,375 L1625,418" stroke="#111" stroke-width="2" fill="none" marker-end="url(#arrowBlack)"/>
+  <path d="M1785,375 L1703,418" stroke="#111" stroke-width="2" fill="none" marker-end="url(#arrowBlack)"/>
+  <text x="1663" y="339" class="txt" text-anchor="middle">...</text>
+
+  <!-- b to c arrow -->
+  <path d="M1317,456 H1399 V170 H1417" stroke="#2f7741" stroke-width="5" fill="none" marker-end="url(#arrowGreen)"/>
+
+  <!-- Bottom instruction and scene -->
+  <rect x="82" y="592" width="376" height="173" rx="20" fill="#fff"/>
+  <text x="270" y="622" class="txt" text-anchor="middle" font-size="26" font-style="italic">
+    <tspan x="270">Move the corn from the pot</tspan>
+    <tspan x="270" dy="33">into the orange bowl, wipe the</tspan>
+    <tspan x="270" dy="33">table with the towel in the</tspan>
+    <tspan x="270" dy="33">drawer and put it back to the</tspan>
+    <tspan x="270" dy="33">closed drawer.</tspan>
+  </text>
+  <g transform="translate(101 787)">
+    <use href="#kitchenPhoto"/>
+  </g>
+
+  <!-- Purple arrows from prompt/photo to d -->
+  <path d="M458,712 H488 V864 H522" stroke="#67408e" stroke-width="5" fill="none" marker-end="url(#arrowPurple)"/>
+  <path d="M442,895 H488 V864" stroke="#67408e" stroke-width="5" fill="none"/>
+
+  <!-- Panel d -->
+  <rect x="508" y="592" width="392" height="470" rx="30" class="panel"/>
+  <text x="704" y="638" class="title" text-anchor="middle">(d) Problem Generation</text>
+
+  <g transform="translate(525 685)">
+    <use href="#docMed"/>
+    <text x="75" y="41" class="txt" text-anchor="middle">Meta</text>
+    <text x="75" y="75" class="txt" text-anchor="middle">Domain</text>
+  </g>
+  <rect x="708" y="686" width="175" height="93" rx="12" class="purpleBox"/>
+  <text x="795" y="724" class="txt" text-anchor="middle">Predicate</text>
+  <text x="795" y="758" class="txt" text-anchor="middle">Grouping</text>
+  <path d="M675,740 H706" stroke="#111" stroke-width="3" fill="none" marker-end="url(#arrowBlack)"/>
+  <path d="M795,779 V811" stroke="#111" stroke-width="3" fill="none" marker-end="url(#arrowBlack)"/>
+
+  <rect x="523" y="811" width="360" height="107" rx="12" class="purpleBox"/>
+  <use href="#gptIcon" transform="translate(562 866) scale(.82)"/>
+  <text x="603" y="859" class="txt">Predicate</text>
+  <text x="603" y="894" class="txt">&amp; Operator Filtering</text>
+  <path d="M704,918 V944" stroke="#111" stroke-width="3" fill="none" marker-end="url(#arrowBlack)"/>
+
+  <rect x="523" y="944" width="360" height="93" rx="12" class="purpleBox"/>
+  <use href="#gptIcon" transform="translate(562 991) scale(.82)"/>
+  <text x="603" y="988" class="txt">Problem</text>
+  <text x="603" y="1022" class="txt">Generation</text>
+  <use href="#docSmall" x="764" y="957"/>
+  <text x="768" y="977" class="small" font-style="italic" fill="#1f4d9a">:objects (...)</text>
+  <text x="768" y="998" class="small" font-style="italic" fill="#1f4d9a">:init ...</text>
+  <text x="768" y="1019" class="small" font-style="italic" fill="#7d255d">:goal (...)</text>
+
+  <!-- d to e arrow -->
+  <path d="M883,732 H925" stroke="#67408e" stroke-width="5" fill="none" marker-end="url(#arrowPurple)"/>
+  <path d="M883,990 H915 V732" stroke="#67408e" stroke-width="5" fill="none"/>
+
+  <!-- Panel e -->
+  <rect x="938" y="592" width="310" height="470" rx="30" class="panel"/>
+  <text x="1093" y="638" class="title" text-anchor="middle">(e) Planning</text>
+
+  <rect x="958" y="686" width="267" height="93" rx="12" class="purpleBox"/>
+  <use href="#hierIcon" transform="translate(1039 733) scale(.9)"/>
+  <text x="1093" y="724" class="txt">PDDL</text>
+  <text x="1093" y="760" class="txt">Solver</text>
+  <path d="M1092,779 V809" stroke="#111" stroke-width="3" fill="none" marker-end="url(#arrowBlack)"/>
+
+  <g transform="translate(956 811)">
+    <use href="#docLarge" transform="scale(1.35 2.22)"/>
+    <text x="14" y="37" font-family="Arial, Helvetica, sans-serif" font-size="22" font-style="italic" fill="#05a21a">remove_lid <tspan fill="#003a8c">(lid)</tspan></text>
+    <text x="14" y="68" font-family="Arial, Helvetica, sans-serif" font-size="22" font-style="italic" fill="#05a21a">pick_from_rack <tspan fill="#003a8c">(bowl)</tspan></text>
+    <text x="14" y="99" font-family="Arial, Helvetica, sans-serif" font-size="22" font-style="italic" fill="#05a21a">place_on_table <tspan fill="#003a8c">(bowl)</tspan></text>
+    <text x="14" y="132" font-family="Arial, Helvetica, sans-serif" font-size="22" font-style="italic" fill="#05a21a">...</text>
+    <text x="14" y="164" font-family="Arial, Helvetica, sans-serif" font-size="22" font-style="italic" fill="#05a21a">wipe_table <tspan fill="#003a8c">(towel)</tspan></text>
+    <text x="14" y="195" font-family="Arial, Helvetica, sans-serif" font-size="22" font-style="italic" fill="#05a21a">place_in_drawer <tspan fill="#003a8c">(towel)</tspan></text>
+    <text x="14" y="226" font-family="Arial, Helvetica, sans-serif" font-size="22" font-style="italic" fill="#05a21a">close_drawer <tspan fill="#003a8c">(drawer)</tspan></text>
+  </g>
+
+  <!-- e to f arrow -->
+  <path d="M1232,901 H1275 V712 H1292" stroke="#67408e" stroke-width="5" fill="none" marker-end="url(#arrowPurple)"/>
+
+  <!-- Panel f -->
+  <rect x="1288" y="592" width="620" height="470" rx="30" class="panel"/>
+  <text x="1598" y="638" class="title" text-anchor="middle">(f) Execution</text>
+
+  <g transform="translate(1308 658)">
+    <use href="#execThumb" x="0" y="0"/>
+    <use href="#execThumb" x="146" y="0"/>
+    <use href="#execThumb" x="292" y="0"/>
+    <use href="#execThumb" x="438" y="0"/>
+
+    <use href="#execThumb" x="0" y="133"/>
+    <use href="#execThumb" x="146" y="133"/>
+    <use href="#execThumb" x="292" y="133"/>
+    <use href="#execThumb" x="438" y="133"/>
+
+    <use href="#execThumb" x="0" y="266"/>
+    <use href="#execThumb" x="146" y="266"/>
+    <use href="#execThumb" x="292" y="266"/>
+    <use href="#execThumb" x="438" y="266"/>
+  </g>
+</svg>

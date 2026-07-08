@@ -1,0 +1,74 @@
+[
+  {
+    "slot_id": "slot_video_frame_stack",
+    "filename": "assets/raster_required/slot_video_frame_stack.png",
+    "canonical_slot_id": "slot_video_frame_stack",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "video_frame_stack",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      18,
+      38,
+      244,
+      158
+    ],
+    "classification": "raster_required",
+    "reason": "from first-pass asset detection kind=pixel_image",
+    "asset_hash": "",
+    "description": "stacked low-altitude aerial video frames"
+  },
+  {
+    "slot_id": "slot_predicted_tube_frame_1",
+    "filename": "assets/raster_required/slot_predicted_tube_frame_1.png",
+    "canonical_slot_id": "slot_predicted_tube_frame_1",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "predicted_tube_frame_1",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      1453,
+      49,
+      132,
+      84
+    ],
+    "classification": "raster_required",
+    "reason": "from first-pass asset detection kind=pixel_image",
+    "asset_hash": "",
+    "description": "predicted tube aerial frame top"
+  },
+  {
+    "slot_id": "slot_predicted_tube_frame_2",
+    "filename": "assets/raster_required/slot_predicted_tube_frame_2.png",
+    "canonical_slot_id": "slot_predicted_tube_frame_2",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "predicted_tube_frame_2",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      1453,
+      157,
+      132,
+      84
+    ],
+    "classification": "raster_required",
+    "reason": "from first-pass asset detection kind=pixel_image",
+    "asset_hash": "",
+    "description": "predicted tube aerial frame middle"
+  },
+  {
+    "slot_id": "slot_predicted_tube_frame_3",
+    "filename": "assets/raster_required/slot_predicted_tube_frame_3.png",
+    "canonical_slot_id": "slot_predicted_tube_frame_3",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "predicted_tube_frame_3",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      1453,
+      265,
+      132,
+      84
+    ],
+    "classification": "raster_required",
+    "reason": "from first-pass asset detection kind=pixel_image",
+    "asset_hash": "",
+    "description": "predicted tube aerial frame bottom"
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "slot_id": "slot_llm_robot_training_top",
+    "filename": "assets/svg_candidate/slot_llm_robot_training_top.png",
+    "canonical_slot_id": "slot_llm_robot_training_top",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "llm_robot",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      452,
+      103,
+      82,
+      106
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "neutral robot LLM icon"
+  },
+  {
+    "slot_id": "slot_llm_robot_training_bottom",
+    "filename": "assets/svg_candidate/slot_llm_robot_training_bottom.png",
+    "canonical_slot_id": "slot_llm_robot_training_bottom",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "llm_robot",
+    "vlm_duplicate_of": "llm_robot",
+    "bbox_xywh": [
+      452,
+      272,
+      82,
+      106
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "neutral robot LLM icon"
+  },
+  {
+    "slot_id": "slot_truthful_llm_training",
+    "filename": "assets/svg_candidate/slot_truthful_llm_training.png",
+    "canonical_slot_id": "slot_truthful_llm_training",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "truthful_llm_robot",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      1446,
+      93,
+      134,
+      115
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "angel truthful LLM robot icon"
+  },
+  {
+    "slot_id": "slot_evil_llm_training",
+    "filename": "assets/svg_candidate/slot_evil_llm_training.png",
+    "canonical_slot_id": "slot_evil_llm_training",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "evil_llm_robot",
+    "vlm_duplicate_of": "",
+    "bbox_xywh": [
+      1459,
+      289,
+      112,
+      108
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "devil evil LLM robot icon"
+  },
+  {
+    "slot_id": "slot_llm_robot_inference",
+    "filename": "assets/svg_candidate/slot_llm_robot_inference.png",
+    "canonical_slot_id": "slot_llm_robot_inference",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "llm_robot",
+    "vlm_duplicate_of": "llm_robot",
+    "bbox_xywh": [
+      453,
+      490,
+      82,
+      86
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "neutral robot LLM icon"
+  },
+  {
+    "slot_id": "slot_evil_llm_inference",
+    "filename": "assets/svg_candidate/slot_evil_llm_inference.png",
+    "canonical_slot_id": "slot_evil_llm_inference",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "evil_llm_robot",
+    "vlm_duplicate_of": "evil_llm_robot",
+    "bbox_xywh": [
+      449,
+      621,
+      91,
+      86
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "devil evil LLM robot icon"
+  },
+  {
+    "slot_id": "slot_truthful_llm_inference",
+    "filename": "assets/svg_candidate/slot_truthful_llm_inference.png",
+    "canonical_slot_id": "slot_truthful_llm_inference",
+    "duplicate_of": "",
+    "vlm_canonical_asset_id": "truthful_llm_robot",
+    "vlm_duplicate_of": "truthful_llm_robot",
+    "bbox_xywh": [
+      442,
+      763,
+      112,
+      88
+    ],
+    "classification": "svg_candidate",
+    "reason": "from first-pass asset detection kind=svg_icon",
+    "asset_hash": "",
+    "description": "angel truthful LLM robot icon"
+  }
+]
