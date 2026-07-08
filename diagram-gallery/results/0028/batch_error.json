@@ -1,7 +1,0 @@
-{
-  "status": "failed",
-  "input_image": "/home/wangfeifei/projects/image2svg_reconstruct/example/hard/Where Does It Exist from the Low-Altitude Spatial Aerial Video Grounding_diagram.jpg",
-  "output_dir": "/home/wangfeifei/projects/image2svg_reconstruct/outputs/batch_hard_template_first/Where Does It Exist from the Low-Altitude Spatial Aerial Video Grounding_diagram",
-  "exception_type": "APIStatusError",
-  "exception": "Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 32768 tokens, but can only afford 23802. To increase, visit https://openrouter.ai/settings/credits and add more credits', 'code': 402, 'metadata': {'provider_name': None, 'previous_errors': [{'code': 402, 'message': 'This request requires more credits, or fewer max_tokens. You requested up to 32768 tokens, but can only afford 23802. To increase, visit https://openrouter.ai/settings/credits and add more credits'}]}}, 'user_id': 'user_31vOfp8NCZMZp1rqWPM4KiwaC3Y'}"
-}

@@ -1,7 +1,0 @@
-svg_candidate: 2
-raster_required: 0
-unique_assets: 2
-duplicate_assets: 0
-
-- slot_document_icon: svg_candidate | from first-pass asset detection kind=svg_icon
-- slot_image_icon: svg_candidate | from first-pass asset detection kind=svg_icon

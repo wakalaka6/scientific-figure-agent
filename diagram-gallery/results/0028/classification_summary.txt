@@ -1,9 +1,0 @@
-svg_candidate: 0
-raster_required: 4
-unique_assets: 4
-duplicate_assets: 0
-
-- slot_video_frame_stack: raster_required | from first-pass asset detection kind=pixel_image
-- slot_predicted_tube_frame_1: raster_required | from first-pass asset detection kind=pixel_image
-- slot_predicted_tube_frame_2: raster_required | from first-pass asset detection kind=pixel_image
-- slot_predicted_tube_frame_3: raster_required | from first-pass asset detection kind=pixel_image

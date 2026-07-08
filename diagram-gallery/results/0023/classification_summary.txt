@@ -1,5 +1,0 @@
-svg_candidate: 0
-raster_required: 0
-unique_assets: 0
-duplicate_assets: 0
-

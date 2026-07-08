@@ -1,6 +1,0 @@
-svg_candidate: 1
-raster_required: 0
-unique_assets: 1
-duplicate_assets: 0
-
-- slot_cdpruner_disc_icon: svg_candidate | from first-pass asset detection kind=svg_icon
