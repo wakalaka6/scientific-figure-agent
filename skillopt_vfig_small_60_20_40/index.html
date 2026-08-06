@@ -1,0 +1,1743 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>SkillOpt VFIG small · GT | initial | best</title>
+<style>
+  :root {
+    --bg: #eef2f6; --card: #fff; --ink: #152033; --muted: #5c6b7e;
+    --line: #d7e0ea; --accent: #0b3d91; --up: #0a7a28; --down: #b00020;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+    color: var(--ink);
+    background:
+      radial-gradient(1000px 420px at 0% -10%, #d7e6ff 0%, transparent 55%),
+      radial-gradient(800px 360px at 100% 0%, #e6f4ea 0%, transparent 50%),
+      var(--bg);
+  }
+  .top {
+    position: sticky; top: 0; z-index: 10;
+    backdrop-filter: blur(12px);
+    background: rgba(238,242,246,.94);
+    border-bottom: 1px solid var(--line);
+    padding: 14px 18px 12px;
+  }
+  .top h1 { margin: 0 0 6px; font-size: 1.2rem; }
+  .top .stats { color: var(--muted); font-size: .93rem; margin-bottom: 10px; line-height: 1.45; }
+  .controls { display: flex; flex-wrap: wrap; gap: 8px; }
+  .controls input, .controls select {
+    border: 1px solid #c5d1e0; border-radius: 8px; padding: 8px 10px;
+    font: inherit; background: #fff;
+  }
+  .controls input[type=search] { min-width: min(420px, 70vw); flex: 1; }
+  main { max-width: 1500px; margin: 0 auto; padding: 16px 14px 48px; display: grid; gap: 16px; }
+  .row {
+    background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+    box-shadow: 0 8px 22px rgba(21,32,51,.05); overflow: hidden;
+  }
+  .row-head {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 10px;
+    padding: 12px 14px; border-bottom: 1px solid #edf2f7;
+  }
+  .rank {
+    width: 40px; height: 40px; border-radius: 10px; display: grid; place-items: center;
+    background: #edf3ff; color: var(--accent); font-weight: 700;
+  }
+  .row-head h2 { margin: 0; flex: 1; font-size: .95rem; word-break: break-all; }
+  .delta {
+    font-weight: 750; font-variant-numeric: tabular-nums;
+    padding: 4px 10px; border-radius: 999px; font-size: .88rem;
+  }
+  .delta.up { background: #e7f7eb; color: var(--up); }
+  .delta.down { background: #fdecee; color: var(--down); }
+  .delta.flat { background: #eef1f5; color: var(--muted); }
+  .cols { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0; }
+  figure {
+    margin: 0; padding: 12px; border-right: 1px solid #edf2f7; min-height: 280px;
+    display: flex; flex-direction: column; gap: 8px; background: #fbfcfe;
+  }
+  figure:last-child { border-right: 0; }
+  figcaption {
+    font-size: .75rem; font-weight: 750; letter-spacing: .05em;
+    text-transform: uppercase; color: var(--muted);
+  }
+  .panel {
+    width: 100%; height: min(38vh, 320px); object-fit: contain; background: #fff;
+    border: 1px solid #e3ebf3; border-radius: 8px; display: block;
+  }
+  .missing {
+    flex: 1; min-height: 200px; display: grid; place-items: center;
+    border: 1px dashed #c9d5e3; border-radius: 8px; color: #8a98aa; font-weight: 650;
+  }
+  .missing.fail { background: #fff2f2; border-color: #efb4b4; color: var(--down); }
+  .scores { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+  .scores .lab { font-size: .78rem; color: var(--muted); font-weight: 700; margin-right: 2px; }
+  .pill {
+    display: inline-flex; align-items: center; padding: 3px 9px; border-radius: 999px;
+    font-size: .8rem; font-weight: 700; font-variant-numeric: tabular-nums;
+    background: #eef3f9; color: #243447;
+  }
+  .pill.total { background: #e7eefc; color: var(--accent); }
+  .pill.ok { background: #e7f7eb; color: var(--up); }
+  .pill.bad { background: #fdecee; color: var(--down); }
+  @media (max-width: 1000px) {
+    .cols { grid-template-columns: 1fr; }
+    figure { border-right: 0; border-bottom: 1px solid #edf2f7; }
+    figure:last-child { border-bottom: 0; }
+  }
+</style>
+</head>
+<body>
+<div class="top">
+  <h1>SkillOpt VFIG small · GT | Initial skill | Best skill</h1>
+  <div class="stats">
+    n=40 ·
+    initial soft=<b>71.64</b> hard=25.0% ·
+    best soft=<b>69.06</b> hard=25.0% ·
+    Δ soft=<b>-2.58</b>
+  </div>
+  <div class="controls">
+    <input id="q" type="search" placeholder="按 id 过滤…"/>
+    <select id="sort">
+      <option value="delta-asc" selected>掉分最多在前</option>
+      <option value="delta-desc">涨分最多在前</option>
+      <option value="id">按 id</option>
+      <option value="init-desc">initial 高分在前</option>
+      <option value="best-desc">best 高分在前</option>
+    </select>
+  </div>
+</div>
+<main id="gallery">
+
+<section class="row" data-id="arxiv_svg__2203.15638v1_nlfcos.drawio" data-delta="-6.2500" data-init="0.781250" data-best="0.718750">
+  <header class="row-head">
+    <span class="rank">#1</span>
+    <h2 title="arxiv_svg__2203.15638v1_nlfcos.drawio">arxiv_svg__2203.15638v1_nlfcos.drawio</h2>
+    <span class="delta down">Δ soft -6.2</span>
+  </header>
+  <div class="cols">
+    <figure>
+      <figcaption>Ground truth</figcaption>
+      <img src="gt/arxiv_svg__2203.15638v1_nlfcos.drawio.png" class="panel" loading="lazy" alt="arxiv_svg__2203.15638v1_nlfcos.drawio.png"/>
+    </figure>
+    <figure>
+      <figcaption>Initial skill</figcaption>
+      <img src="initial/arxiv_svg__2203.15638v1_nlfcos.drawio.png" class="panel" loading="lazy" alt="arxiv_svg__2203.15638v1_nlfcos.drawio.png"/>
+      
+    <div class="scores">
+      <div class="lab">initial</div>
+      <span class="pill total">total 78.1</span>
+      <span class="pill">shape 50.0</span>
+      <span class="pill">text 83.3</span>
+      <span class="pill">arrow 91.7</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+    <figure>
+      <figcaption>Best skill</figcaption>
+      <img src="best/arxiv_svg__2203.15638v1_nlfcos.drawio.png" class="panel" loading="lazy" alt="arxiv_svg__2203.15638v1_nlfcos.drawio.png"/>
+      
+    <div class="scores">
+      <div class="lab">best</div>
+      <span class="pill total">total 71.9</span>
+      <span class="pill">shape 50.0</span>
+      <span class="pill">text 91.7</span>
+      <span class="pill">arrow 66.7</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+  </div>
+</section>
+
+<section class="row" data-id="arxiv_svg__2206.12449v1_task_pipeline" data-delta="-3.1250" data-init="0.968750" data-best="0.937500">
+  <header class="row-head">
+    <span class="rank">#2</span>
+    <h2 title="arxiv_svg__2206.12449v1_task_pipeline">arxiv_svg__2206.12449v1_task_pipeline</h2>
+    <span class="delta down">Δ soft -3.1</span>
+  </header>
+  <div class="cols">
+    <figure>
+      <figcaption>Ground truth</figcaption>
+      <img src="gt/arxiv_svg__2206.12449v1_task_pipeline.png" class="panel" loading="lazy" alt="arxiv_svg__2206.12449v1_task_pipeline.png"/>
+    </figure>
+    <figure>
+      <figcaption>Initial skill</figcaption>
+      <img src="initial/arxiv_svg__2206.12449v1_task_pipeline.png" class="panel" loading="lazy" alt="arxiv_svg__2206.12449v1_task_pipeline.png"/>
+      
+    <div class="scores">
+      <div class="lab">initial</div>
+      <span class="pill total">total 96.9</span>
+      <span class="pill">shape 87.5</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 100.0</span>
+      <span class="pill ok">hard=1</span>
+    </div>
+    </figure>
+    <figure>
+      <figcaption>Best skill</figcaption>
+      <img src="best/arxiv_svg__2206.12449v1_task_pipeline.png" class="panel" loading="lazy" alt="arxiv_svg__2206.12449v1_task_pipeline.png"/>
+      
+    <div class="scores">
+      <div class="lab">best</div>
+      <span class="pill total">total 93.8</span>
+      <span class="pill">shape 87.5</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 91.7</span>
+      <span class="pill ok">hard=1</span>
+    </div>
+    </figure>
+  </div>
+</section>
+
+<section class="row" data-id="arxiv_svg__2206.13829v1_training1" data-delta="-3.1250" data-init="0.750000" data-best="0.718750">
+  <header class="row-head">
+    <span class="rank">#3</span>
+    <h2 title="arxiv_svg__2206.13829v1_training1">arxiv_svg__2206.13829v1_training1</h2>
+    <span class="delta down">Δ soft -3.1</span>
+  </header>
+  <div class="cols">
+    <figure>
+      <figcaption>Ground truth</figcaption>
+      <img src="gt/arxiv_svg__2206.13829v1_training1.png" class="panel" loading="lazy" alt="arxiv_svg__2206.13829v1_training1.png"/>
+    </figure>
+    <figure>
+      <figcaption>Initial skill</figcaption>
+      <img src="initial/arxiv_svg__2206.13829v1_training1.png" class="panel" loading="lazy" alt="arxiv_svg__2206.13829v1_training1.png"/>
+      
+    <div class="scores">
+      <div class="lab">initial</div>
+      <span class="pill total">total 75.0</span>
+      <span class="pill">shape 75.0</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 50.0</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+    <figure>
+      <figcaption>Best skill</figcaption>
+      <img src="best/arxiv_svg__2206.13829v1_training1.png" class="panel" loading="lazy" alt="arxiv_svg__2206.13829v1_training1.png"/>
+      
+    <div class="scores">
+      <div class="lab">best</div>
+      <span class="pill total">total 71.9</span>
+      <span class="pill">shape 75.0</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 41.7</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+  </div>
+</section>
+
+<section class="row" data-id="arxiv_svg__2206.15378v1_ActorsLearner" data-delta="-3.1250" data-init="0.937500" data-best="0.906250">
+  <header class="row-head">
+    <span class="rank">#4</span>
+    <h2 title="arxiv_svg__2206.15378v1_ActorsLearner">arxiv_svg__2206.15378v1_ActorsLearner</h2>
+    <span class="delta down">Δ soft -3.1</span>
+  </header>
+  <div class="cols">
+    <figure>
+      <figcaption>Ground truth</figcaption>
+      <img src="gt/arxiv_svg__2206.15378v1_ActorsLearner.png" class="panel" loading="lazy" alt="arxiv_svg__2206.15378v1_ActorsLearner.png"/>
+    </figure>
+    <figure>
+      <figcaption>Initial skill</figcaption>
+      <img src="initial/arxiv_svg__2206.15378v1_ActorsLearner.png" class="panel" loading="lazy" alt="arxiv_svg__2206.15378v1_ActorsLearner.png"/>
+      
+    <div class="scores">
+      <div class="lab">initial</div>
+      <span class="pill total">total 93.8</span>
+      <span class="pill">shape 100.0</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 83.3</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+    <figure>
+      <figcaption>Best skill</figcaption>
+      <img src="best/arxiv_svg__2206.15378v1_ActorsLearner.png" class="panel" loading="lazy" alt="arxiv_svg__2206.15378v1_ActorsLearner.png"/>
+      
+    <div class="scores">
+      <div class="lab">best</div>
+      <span class="pill total">total 90.6</span>
+      <span class="pill">shape 100.0</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 75.0</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+  </div>
+</section>
+
+<section class="row" data-id="arxiv_svg__2207.01490v1_method" data-delta="0.0000" data-init="0.000000" data-best="0.000000">
+  <header class="row-head">
+    <span class="rank">#5</span>
+    <h2 title="arxiv_svg__2207.01490v1_method">arxiv_svg__2207.01490v1_method</h2>
+    <span class="delta flat">Δ soft +0.0</span>
+  </header>
+  <div class="cols">
+    <figure>
+      <figcaption>Ground truth</figcaption>
+      <img src="gt/arxiv_svg__2207.01490v1_method.png" class="panel" loading="lazy" alt="arxiv_svg__2207.01490v1_method.png"/>
+    </figure>
+    <figure>
+      <figcaption>Initial skill</figcaption>
+      <div class="missing fail">FAILED / MISSING</div>
+      
+    <div class="scores">
+      <div class="lab">initial</div>
+      <span class="pill total">total 0.0</span>
+      <span class="pill">shape 0.0</span>
+      <span class="pill">text 0.0</span>
+      <span class="pill">arrow 0.0</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+    <figure>
+      <figcaption>Best skill</figcaption>
+      <div class="missing fail">FAILED / MISSING</div>
+      
+    <div class="scores">
+      <div class="lab">best</div>
+      <span class="pill total">total 0.0</span>
+      <span class="pill">shape 0.0</span>
+      <span class="pill">text 0.0</span>
+      <span class="pill">arrow 0.0</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+  </div>
+</section>
+
+<section class="row" data-id="arxiv_svg__2209.15287v1_miccai_self_attention" data-delta="-12.5000" data-init="0.750000" data-best="0.625000">
+  <header class="row-head">
+    <span class="rank">#6</span>
+    <h2 title="arxiv_svg__2209.15287v1_miccai_self_attention">arxiv_svg__2209.15287v1_miccai_self_attention</h2>
+    <span class="delta down">Δ soft -12.5</span>
+  </header>
+  <div class="cols">
+    <figure>
+      <figcaption>Ground truth</figcaption>
+      <img src="gt/arxiv_svg__2209.15287v1_miccai_self_attention.png" class="panel" loading="lazy" alt="arxiv_svg__2209.15287v1_miccai_self_attention.png"/>
+    </figure>
+    <figure>
+      <figcaption>Initial skill</figcaption>
+      <img src="initial/arxiv_svg__2209.15287v1_miccai_self_attention.png" class="panel" loading="lazy" alt="arxiv_svg__2209.15287v1_miccai_self_attention.png"/>
+      
+    <div class="scores">
+      <div class="lab">initial</div>
+      <span class="pill total">total 75.0</span>
+      <span class="pill">shape 62.5</span>
+      <span class="pill">text 91.7</span>
+      <span class="pill">arrow 66.7</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+    <figure>
+      <figcaption>Best skill</figcaption>
+      <img src="best/arxiv_svg__2209.15287v1_miccai_self_attention.png" class="panel" loading="lazy" alt="arxiv_svg__2209.15287v1_miccai_self_attention.png"/>
+      
+    <div class="scores">
+      <div class="lab">best</div>
+      <span class="pill total">total 62.5</span>
+      <span class="pill">shape 50.0</span>
+      <span class="pill">text 50.0</span>
+      <span class="pill">arrow 83.3</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+  </div>
+</section>
+
+<section class="row" data-id="arxiv_svg__2212.10170v1_vgg+resnet" data-delta="-9.3750" data-init="0.875000" data-best="0.781250">
+  <header class="row-head">
+    <span class="rank">#7</span>
+    <h2 title="arxiv_svg__2212.10170v1_vgg+resnet">arxiv_svg__2212.10170v1_vgg+resnet</h2>
+    <span class="delta down">Δ soft -9.4</span>
+  </header>
+  <div class="cols">
+    <figure>
+      <figcaption>Ground truth</figcaption>
+      <img src="gt/arxiv_svg__2212.10170v1_vgg+resnet.png" class="panel" loading="lazy" alt="arxiv_svg__2212.10170v1_vgg+resnet.png"/>
+    </figure>
+    <figure>
+      <figcaption>Initial skill</figcaption>
+      <img src="initial/arxiv_svg__2212.10170v1_vgg+resnet.png" class="panel" loading="lazy" alt="arxiv_svg__2212.10170v1_vgg+resnet.png"/>
+      
+    <div class="scores">
+      <div class="lab">initial</div>
+      <span class="pill total">total 87.5</span>
+      <span class="pill">shape 50.0</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 100.0</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+    <figure>
+      <figcaption>Best skill</figcaption>
+      <img src="best/arxiv_svg__2212.10170v1_vgg+resnet.png" class="panel" loading="lazy" alt="arxiv_svg__2212.10170v1_vgg+resnet.png"/>
+      
+    <div class="scores">
+      <div class="lab">best</div>
+      <span class="pill total">total 78.1</span>
+      <span class="pill">shape 62.5</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 66.7</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+  </div>
+</section>
+
+<section class="row" data-id="arxiv_svg__2212.10937v1_demo9" data-delta="-78.1250" data-init="0.781250" data-best="0.000000">
+  <header class="row-head">
+    <span class="rank">#8</span>
+    <h2 title="arxiv_svg__2212.10937v1_demo9">arxiv_svg__2212.10937v1_demo9</h2>
+    <span class="delta down">Δ soft -78.1</span>
+  </header>
+  <div class="cols">
+    <figure>
+      <figcaption>Ground truth</figcaption>
+      <img src="gt/arxiv_svg__2212.10937v1_demo9.png" class="panel" loading="lazy" alt="arxiv_svg__2212.10937v1_demo9.png"/>
+    </figure>
+    <figure>
+      <figcaption>Initial skill</figcaption>
+      <img src="initial/arxiv_svg__2212.10937v1_demo9.png" class="panel" loading="lazy" alt="arxiv_svg__2212.10937v1_demo9.png"/>
+      
+    <div class="scores">
+      <div class="lab">initial</div>
+      <span class="pill total">total 78.1</span>
+      <span class="pill">shape 50.0</span>
+      <span class="pill">text 91.7</span>
+      <span class="pill">arrow 83.3</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+    <figure>
+      <figcaption>Best skill</figcaption>
+      <div class="missing fail">FAILED / MISSING</div>
+      
+    <div class="scores">
+      <div class="lab">best</div>
+      <span class="pill total">total 0.0</span>
+      <span class="pill">shape 0.0</span>
+      <span class="pill">text 0.0</span>
+      <span class="pill">arrow 0.0</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+  </div>
+</section>
+
+<section class="row" data-id="arxiv_svg__2212.11517v1_robot_construction_2" data-delta="-9.3750" data-init="0.781250" data-best="0.687500">
+  <header class="row-head">
+    <span class="rank">#9</span>
+    <h2 title="arxiv_svg__2212.11517v1_robot_construction_2">arxiv_svg__2212.11517v1_robot_construction_2</h2>
+    <span class="delta down">Δ soft -9.4</span>
+  </header>
+  <div class="cols">
+    <figure>
+      <figcaption>Ground truth</figcaption>
+      <img src="gt/arxiv_svg__2212.11517v1_robot_construction_2.png" class="panel" loading="lazy" alt="arxiv_svg__2212.11517v1_robot_construction_2.png"/>
+    </figure>
+    <figure>
+      <figcaption>Initial skill</figcaption>
+      <img src="initial/arxiv_svg__2212.11517v1_robot_construction_2.png" class="panel" loading="lazy" alt="arxiv_svg__2212.11517v1_robot_construction_2.png"/>
+      
+    <div class="scores">
+      <div class="lab">initial</div>
+      <span class="pill total">total 78.1</span>
+      <span class="pill">shape 87.5</span>
+      <span class="pill">text 91.7</span>
+      <span class="pill">arrow 58.3</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+    <figure>
+      <figcaption>Best skill</figcaption>
+      <img src="best/arxiv_svg__2212.11517v1_robot_construction_2.png" class="panel" loading="lazy" alt="arxiv_svg__2212.11517v1_robot_construction_2.png"/>
+      
+    <div class="scores">
+      <div class="lab">best</div>
+      <span class="pill total">total 68.8</span>
+      <span class="pill">shape 50.0</span>
+      <span class="pill">text 83.3</span>
+      <span class="pill">arrow 66.7</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+  </div>
+</section>
+
+<section class="row" data-id="arxiv_svg__2301.10368v1_intro-2" data-delta="0.0000" data-init="0.437500" data-best="0.437500">
+  <header class="row-head">
+    <span class="rank">#10</span>
+    <h2 title="arxiv_svg__2301.10368v1_intro-2">arxiv_svg__2301.10368v1_intro-2</h2>
+    <span class="delta flat">Δ soft +0.0</span>
+  </header>
+  <div class="cols">
+    <figure>
+      <figcaption>Ground truth</figcaption>
+      <img src="gt/arxiv_svg__2301.10368v1_intro-2.png" class="panel" loading="lazy" alt="arxiv_svg__2301.10368v1_intro-2.png"/>
+    </figure>
+    <figure>
+      <figcaption>Initial skill</figcaption>
+      <img src="initial/arxiv_svg__2301.10368v1_intro-2.png" class="panel" loading="lazy" alt="arxiv_svg__2301.10368v1_intro-2.png"/>
+      
+    <div class="scores">
+      <div class="lab">initial</div>
+      <span class="pill total">total 43.8</span>
+      <span class="pill">shape 37.5</span>
+      <span class="pill">text 91.7</span>
+      <span class="pill">arrow 0.0</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+    <figure>
+      <figcaption>Best skill</figcaption>
+      <img src="best/arxiv_svg__2301.10368v1_intro-2.png" class="panel" loading="lazy" alt="arxiv_svg__2301.10368v1_intro-2.png"/>
+      
+    <div class="scores">
+      <div class="lab">best</div>
+      <span class="pill total">total 43.8</span>
+      <span class="pill">shape 37.5</span>
+      <span class="pill">text 91.7</span>
+      <span class="pill">arrow 0.0</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+  </div>
+</section>
+
+<section class="row" data-id="arxiv_svg__2302.13399v1_pan_net" data-delta="0.0000" data-init="1.000000" data-best="1.000000">
+  <header class="row-head">
+    <span class="rank">#11</span>
+    <h2 title="arxiv_svg__2302.13399v1_pan_net">arxiv_svg__2302.13399v1_pan_net</h2>
+    <span class="delta flat">Δ soft +0.0</span>
+  </header>
+  <div class="cols">
+    <figure>
+      <figcaption>Ground truth</figcaption>
+      <img src="gt/arxiv_svg__2302.13399v1_pan_net.png" class="panel" loading="lazy" alt="arxiv_svg__2302.13399v1_pan_net.png"/>
+    </figure>
+    <figure>
+      <figcaption>Initial skill</figcaption>
+      <img src="initial/arxiv_svg__2302.13399v1_pan_net.png" class="panel" loading="lazy" alt="arxiv_svg__2302.13399v1_pan_net.png"/>
+      
+    <div class="scores">
+      <div class="lab">initial</div>
+      <span class="pill total">total 100.0</span>
+      <span class="pill">shape 100.0</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 100.0</span>
+      <span class="pill ok">hard=1</span>
+    </div>
+    </figure>
+    <figure>
+      <figcaption>Best skill</figcaption>
+      <img src="best/arxiv_svg__2302.13399v1_pan_net.png" class="panel" loading="lazy" alt="arxiv_svg__2302.13399v1_pan_net.png"/>
+      
+    <div class="scores">
+      <div class="lab">best</div>
+      <span class="pill total">total 100.0</span>
+      <span class="pill">shape 100.0</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 100.0</span>
+      <span class="pill ok">hard=1</span>
+    </div>
+    </figure>
+  </div>
+</section>
+
+<section class="row" data-id="arxiv_svg__2304.14115v1_Inference_Phase_drawio" data-delta="3.1250" data-init="0.937500" data-best="0.968750">
+  <header class="row-head">
+    <span class="rank">#12</span>
+    <h2 title="arxiv_svg__2304.14115v1_Inference_Phase_drawio">arxiv_svg__2304.14115v1_Inference_Phase_drawio</h2>
+    <span class="delta up">Δ soft +3.1</span>
+  </header>
+  <div class="cols">
+    <figure>
+      <figcaption>Ground truth</figcaption>
+      <img src="gt/arxiv_svg__2304.14115v1_Inference_Phase_drawio.png" class="panel" loading="lazy" alt="arxiv_svg__2304.14115v1_Inference_Phase_drawio.png"/>
+    </figure>
+    <figure>
+      <figcaption>Initial skill</figcaption>
+      <img src="initial/arxiv_svg__2304.14115v1_Inference_Phase_drawio.png" class="panel" loading="lazy" alt="arxiv_svg__2304.14115v1_Inference_Phase_drawio.png"/>
+      
+    <div class="scores">
+      <div class="lab">initial</div>
+      <span class="pill total">total 93.8</span>
+      <span class="pill">shape 75.0</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 100.0</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+    <figure>
+      <figcaption>Best skill</figcaption>
+      <img src="best/arxiv_svg__2304.14115v1_Inference_Phase_drawio.png" class="panel" loading="lazy" alt="arxiv_svg__2304.14115v1_Inference_Phase_drawio.png"/>
+      
+    <div class="scores">
+      <div class="lab">best</div>
+      <span class="pill total">total 96.9</span>
+      <span class="pill">shape 87.5</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 100.0</span>
+      <span class="pill ok">hard=1</span>
+    </div>
+    </figure>
+  </div>
+</section>
+
+<section class="row" data-id="arxiv_svg__2306.15796v1_fusion" data-delta="9.3750" data-init="0.875000" data-best="0.968750">
+  <header class="row-head">
+    <span class="rank">#13</span>
+    <h2 title="arxiv_svg__2306.15796v1_fusion">arxiv_svg__2306.15796v1_fusion</h2>
+    <span class="delta up">Δ soft +9.4</span>
+  </header>
+  <div class="cols">
+    <figure>
+      <figcaption>Ground truth</figcaption>
+      <img src="gt/arxiv_svg__2306.15796v1_fusion.png" class="panel" loading="lazy" alt="arxiv_svg__2306.15796v1_fusion.png"/>
+    </figure>
+    <figure>
+      <figcaption>Initial skill</figcaption>
+      <img src="initial/arxiv_svg__2306.15796v1_fusion.png" class="panel" loading="lazy" alt="arxiv_svg__2306.15796v1_fusion.png"/>
+      
+    <div class="scores">
+      <div class="lab">initial</div>
+      <span class="pill total">total 87.5</span>
+      <span class="pill">shape 50.0</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 100.0</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+    <figure>
+      <figcaption>Best skill</figcaption>
+      <img src="best/arxiv_svg__2306.15796v1_fusion.png" class="panel" loading="lazy" alt="arxiv_svg__2306.15796v1_fusion.png"/>
+      
+    <div class="scores">
+      <div class="lab">best</div>
+      <span class="pill total">total 96.9</span>
+      <span class="pill">shape 87.5</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 100.0</span>
+      <span class="pill ok">hard=1</span>
+    </div>
+    </figure>
+  </div>
+</section>
+
+<section class="row" data-id="arxiv_svg__2308.16067v1_population_definition" data-delta="-18.7500" data-init="1.000000" data-best="0.812500">
+  <header class="row-head">
+    <span class="rank">#14</span>
+    <h2 title="arxiv_svg__2308.16067v1_population_definition">arxiv_svg__2308.16067v1_population_definition</h2>
+    <span class="delta down">Δ soft -18.8</span>
+  </header>
+  <div class="cols">
+    <figure>
+      <figcaption>Ground truth</figcaption>
+      <img src="gt/arxiv_svg__2308.16067v1_population_definition.png" class="panel" loading="lazy" alt="arxiv_svg__2308.16067v1_population_definition.png"/>
+    </figure>
+    <figure>
+      <figcaption>Initial skill</figcaption>
+      <img src="initial/arxiv_svg__2308.16067v1_population_definition.png" class="panel" loading="lazy" alt="arxiv_svg__2308.16067v1_population_definition.png"/>
+      
+    <div class="scores">
+      <div class="lab">initial</div>
+      <span class="pill total">total 100.0</span>
+      <span class="pill">shape 100.0</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 100.0</span>
+      <span class="pill ok">hard=1</span>
+    </div>
+    </figure>
+    <figure>
+      <figcaption>Best skill</figcaption>
+      <img src="best/arxiv_svg__2308.16067v1_population_definition.png" class="panel" loading="lazy" alt="arxiv_svg__2308.16067v1_population_definition.png"/>
+      
+    <div class="scores">
+      <div class="lab">best</div>
+      <span class="pill total">total 81.2</span>
+      <span class="pill">shape 75.0</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 66.7</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+  </div>
+</section>
+
+<section class="row" data-id="arxiv_svg__2311.17409v2_student-architecture.drawio" data-delta="-12.5000" data-init="0.812500" data-best="0.687500">
+  <header class="row-head">
+    <span class="rank">#15</span>
+    <h2 title="arxiv_svg__2311.17409v2_student-architecture.drawio">arxiv_svg__2311.17409v2_student-architecture.drawio</h2>
+    <span class="delta down">Δ soft -12.5</span>
+  </header>
+  <div class="cols">
+    <figure>
+      <figcaption>Ground truth</figcaption>
+      <img src="gt/arxiv_svg__2311.17409v2_student-architecture.drawio.png" class="panel" loading="lazy" alt="arxiv_svg__2311.17409v2_student-architecture.drawio.png"/>
+    </figure>
+    <figure>
+      <figcaption>Initial skill</figcaption>
+      <img src="initial/arxiv_svg__2311.17409v2_student-architecture.drawio.png" class="panel" loading="lazy" alt="arxiv_svg__2311.17409v2_student-architecture.drawio.png"/>
+      
+    <div class="scores">
+      <div class="lab">initial</div>
+      <span class="pill total">total 81.2</span>
+      <span class="pill">shape 37.5</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 91.7</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+    <figure>
+      <figcaption>Best skill</figcaption>
+      <img src="best/arxiv_svg__2311.17409v2_student-architecture.drawio.png" class="panel" loading="lazy" alt="arxiv_svg__2311.17409v2_student-architecture.drawio.png"/>
+      
+    <div class="scores">
+      <div class="lab">best</div>
+      <span class="pill total">total 68.8</span>
+      <span class="pill">shape 25.0</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 66.7</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+  </div>
+</section>
+
+<section class="row" data-id="arxiv_svg__2401.14240v1_label2" data-delta="-21.8750" data-init="0.937500" data-best="0.718750">
+  <header class="row-head">
+    <span class="rank">#16</span>
+    <h2 title="arxiv_svg__2401.14240v1_label2">arxiv_svg__2401.14240v1_label2</h2>
+    <span class="delta down">Δ soft -21.9</span>
+  </header>
+  <div class="cols">
+    <figure>
+      <figcaption>Ground truth</figcaption>
+      <img src="gt/arxiv_svg__2401.14240v1_label2.png" class="panel" loading="lazy" alt="arxiv_svg__2401.14240v1_label2.png"/>
+    </figure>
+    <figure>
+      <figcaption>Initial skill</figcaption>
+      <img src="initial/arxiv_svg__2401.14240v1_label2.png" class="panel" loading="lazy" alt="arxiv_svg__2401.14240v1_label2.png"/>
+      
+    <div class="scores">
+      <div class="lab">initial</div>
+      <span class="pill total">total 93.8</span>
+      <span class="pill">shape 87.5</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 91.7</span>
+      <span class="pill ok">hard=1</span>
+    </div>
+    </figure>
+    <figure>
+      <figcaption>Best skill</figcaption>
+      <img src="best/arxiv_svg__2401.14240v1_label2.png" class="panel" loading="lazy" alt="arxiv_svg__2401.14240v1_label2.png"/>
+      
+    <div class="scores">
+      <div class="lab">best</div>
+      <span class="pill total">total 71.9</span>
+      <span class="pill">shape 75.0</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 41.7</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+  </div>
+</section>
+
+<section class="row" data-id="arxiv_svg__2401.14749v1_Fig1protograph_structures" data-delta="62.5000" data-init="0.000000" data-best="0.625000">
+  <header class="row-head">
+    <span class="rank">#17</span>
+    <h2 title="arxiv_svg__2401.14749v1_Fig1protograph_structures">arxiv_svg__2401.14749v1_Fig1protograph_structures</h2>
+    <span class="delta up">Δ soft +62.5</span>
+  </header>
+  <div class="cols">
+    <figure>
+      <figcaption>Ground truth</figcaption>
+      <img src="gt/arxiv_svg__2401.14749v1_Fig1protograph_structures.png" class="panel" loading="lazy" alt="arxiv_svg__2401.14749v1_Fig1protograph_structures.png"/>
+    </figure>
+    <figure>
+      <figcaption>Initial skill</figcaption>
+      <div class="missing fail">FAILED / MISSING</div>
+      
+    <div class="scores">
+      <div class="lab">initial</div>
+      <span class="pill total">total 0.0</span>
+      <span class="pill">shape 0.0</span>
+      <span class="pill">text 0.0</span>
+      <span class="pill">arrow 0.0</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+    <figure>
+      <figcaption>Best skill</figcaption>
+      <img src="best/arxiv_svg__2401.14749v1_Fig1protograph_structures.png" class="panel" loading="lazy" alt="arxiv_svg__2401.14749v1_Fig1protograph_structures.png"/>
+      
+    <div class="scores">
+      <div class="lab">best</div>
+      <span class="pill total">total 62.5</span>
+      <span class="pill">shape 37.5</span>
+      <span class="pill">text 50.0</span>
+      <span class="pill">arrow 91.7</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+  </div>
+</section>
+
+<section class="row" data-id="arxiv_svg__2401.16772v1_GANs" data-delta="-3.1250" data-init="0.906250" data-best="0.875000">
+  <header class="row-head">
+    <span class="rank">#18</span>
+    <h2 title="arxiv_svg__2401.16772v1_GANs">arxiv_svg__2401.16772v1_GANs</h2>
+    <span class="delta down">Δ soft -3.1</span>
+  </header>
+  <div class="cols">
+    <figure>
+      <figcaption>Ground truth</figcaption>
+      <img src="gt/arxiv_svg__2401.16772v1_GANs.png" class="panel" loading="lazy" alt="arxiv_svg__2401.16772v1_GANs.png"/>
+    </figure>
+    <figure>
+      <figcaption>Initial skill</figcaption>
+      <img src="initial/arxiv_svg__2401.16772v1_GANs.png" class="panel" loading="lazy" alt="arxiv_svg__2401.16772v1_GANs.png"/>
+      
+    <div class="scores">
+      <div class="lab">initial</div>
+      <span class="pill total">total 90.6</span>
+      <span class="pill">shape 100.0</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 75.0</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+    <figure>
+      <figcaption>Best skill</figcaption>
+      <img src="best/arxiv_svg__2401.16772v1_GANs.png" class="panel" loading="lazy" alt="arxiv_svg__2401.16772v1_GANs.png"/>
+      
+    <div class="scores">
+      <div class="lab">best</div>
+      <span class="pill total">total 87.5</span>
+      <span class="pill">shape 75.0</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 83.3</span>
+      <span class="pill ok">hard=1</span>
+    </div>
+    </figure>
+  </div>
+</section>
+
+<section class="row" data-id="arxiv_svg__2402.01712v1_workflow1" data-delta="3.1250" data-init="0.968750" data-best="1.000000">
+  <header class="row-head">
+    <span class="rank">#19</span>
+    <h2 title="arxiv_svg__2402.01712v1_workflow1">arxiv_svg__2402.01712v1_workflow1</h2>
+    <span class="delta up">Δ soft +3.1</span>
+  </header>
+  <div class="cols">
+    <figure>
+      <figcaption>Ground truth</figcaption>
+      <img src="gt/arxiv_svg__2402.01712v1_workflow1.png" class="panel" loading="lazy" alt="arxiv_svg__2402.01712v1_workflow1.png"/>
+    </figure>
+    <figure>
+      <figcaption>Initial skill</figcaption>
+      <img src="initial/arxiv_svg__2402.01712v1_workflow1.png" class="panel" loading="lazy" alt="arxiv_svg__2402.01712v1_workflow1.png"/>
+      
+    <div class="scores">
+      <div class="lab">initial</div>
+      <span class="pill total">total 96.9</span>
+      <span class="pill">shape 100.0</span>
+      <span class="pill">text 91.7</span>
+      <span class="pill">arrow 100.0</span>
+      <span class="pill ok">hard=1</span>
+    </div>
+    </figure>
+    <figure>
+      <figcaption>Best skill</figcaption>
+      <img src="best/arxiv_svg__2402.01712v1_workflow1.png" class="panel" loading="lazy" alt="arxiv_svg__2402.01712v1_workflow1.png"/>
+      
+    <div class="scores">
+      <div class="lab">best</div>
+      <span class="pill total">total 100.0</span>
+      <span class="pill">shape 100.0</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 100.0</span>
+      <span class="pill ok">hard=1</span>
+    </div>
+    </figure>
+  </div>
+</section>
+
+<section class="row" data-id="arxiv_svg__2404.18541v1_adversarial_training_procedure" data-delta="-6.2500" data-init="0.687500" data-best="0.625000">
+  <header class="row-head">
+    <span class="rank">#20</span>
+    <h2 title="arxiv_svg__2404.18541v1_adversarial_training_procedure">arxiv_svg__2404.18541v1_adversarial_training_procedure</h2>
+    <span class="delta down">Δ soft -6.2</span>
+  </header>
+  <div class="cols">
+    <figure>
+      <figcaption>Ground truth</figcaption>
+      <img src="gt/arxiv_svg__2404.18541v1_adversarial_training_procedure.png" class="panel" loading="lazy" alt="arxiv_svg__2404.18541v1_adversarial_training_procedure.png"/>
+    </figure>
+    <figure>
+      <figcaption>Initial skill</figcaption>
+      <img src="initial/arxiv_svg__2404.18541v1_adversarial_training_procedure.png" class="panel" loading="lazy" alt="arxiv_svg__2404.18541v1_adversarial_training_procedure.png"/>
+      
+    <div class="scores">
+      <div class="lab">initial</div>
+      <span class="pill total">total 68.8</span>
+      <span class="pill">shape 37.5</span>
+      <span class="pill">text 91.7</span>
+      <span class="pill">arrow 66.7</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+    <figure>
+      <figcaption>Best skill</figcaption>
+      <img src="best/arxiv_svg__2404.18541v1_adversarial_training_procedure.png" class="panel" loading="lazy" alt="arxiv_svg__2404.18541v1_adversarial_training_procedure.png"/>
+      
+    <div class="scores">
+      <div class="lab">best</div>
+      <span class="pill total">total 62.5</span>
+      <span class="pill">shape 50.0</span>
+      <span class="pill">text 91.7</span>
+      <span class="pill">arrow 41.7</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+  </div>
+</section>
+
+<section class="row" data-id="arxiv_svg__2405.19631v1_Aruk_health_codes_Synthetic_data_generation" data-delta="-12.5000" data-init="0.843750" data-best="0.718750">
+  <header class="row-head">
+    <span class="rank">#21</span>
+    <h2 title="arxiv_svg__2405.19631v1_Aruk_health_codes_Synthetic_data_generation">arxiv_svg__2405.19631v1_Aruk_health_codes_Synthetic_data_generation</h2>
+    <span class="delta down">Δ soft -12.5</span>
+  </header>
+  <div class="cols">
+    <figure>
+      <figcaption>Ground truth</figcaption>
+      <img src="gt/arxiv_svg__2405.19631v1_Aruk_health_codes_Synthetic_data_generation.png" class="panel" loading="lazy" alt="arxiv_svg__2405.19631v1_Aruk_health_codes_Synthetic_data_generation.png"/>
+    </figure>
+    <figure>
+      <figcaption>Initial skill</figcaption>
+      <img src="initial/arxiv_svg__2405.19631v1_Aruk_health_codes_Synthetic_data_generation.png" class="panel" loading="lazy" alt="arxiv_svg__2405.19631v1_Aruk_health_codes_Synthetic_data_generation.png"/>
+      
+    <div class="scores">
+      <div class="lab">initial</div>
+      <span class="pill total">total 84.4</span>
+      <span class="pill">shape 100.0</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 58.3</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+    <figure>
+      <figcaption>Best skill</figcaption>
+      <img src="best/arxiv_svg__2405.19631v1_Aruk_health_codes_Synthetic_data_generation.png" class="panel" loading="lazy" alt="arxiv_svg__2405.19631v1_Aruk_health_codes_Synthetic_data_generation.png"/>
+      
+    <div class="scores">
+      <div class="lab">best</div>
+      <span class="pill total">total 71.9</span>
+      <span class="pill">shape 62.5</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 50.0</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+  </div>
+</section>
+
+<section class="row" data-id="arxiv_svg__2409.00544v1_fig1" data-delta="0.0000" data-init="0.000000" data-best="0.000000">
+  <header class="row-head">
+    <span class="rank">#22</span>
+    <h2 title="arxiv_svg__2409.00544v1_fig1">arxiv_svg__2409.00544v1_fig1</h2>
+    <span class="delta flat">Δ soft +0.0</span>
+  </header>
+  <div class="cols">
+    <figure>
+      <figcaption>Ground truth</figcaption>
+      <img src="gt/arxiv_svg__2409.00544v1_fig1.png" class="panel" loading="lazy" alt="arxiv_svg__2409.00544v1_fig1.png"/>
+    </figure>
+    <figure>
+      <figcaption>Initial skill</figcaption>
+      <div class="missing fail">FAILED / MISSING</div>
+      
+    <div class="scores">
+      <div class="lab">initial</div>
+      <span class="pill total">total 0.0</span>
+      <span class="pill">shape 0.0</span>
+      <span class="pill">text 0.0</span>
+      <span class="pill">arrow 0.0</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+    <figure>
+      <figcaption>Best skill</figcaption>
+      <div class="missing fail">FAILED / MISSING</div>
+      
+    <div class="scores">
+      <div class="lab">best</div>
+      <span class="pill total">total 0.0</span>
+      <span class="pill">shape 0.0</span>
+      <span class="pill">text 0.0</span>
+      <span class="pill">arrow 0.0</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+  </div>
+</section>
+
+<section class="row" data-id="arxiv_svg__2411.10454v1_biotic_browser_streamingLLM" data-delta="-25.0000" data-init="0.937500" data-best="0.687500">
+  <header class="row-head">
+    <span class="rank">#23</span>
+    <h2 title="arxiv_svg__2411.10454v1_biotic_browser_streamingLLM">arxiv_svg__2411.10454v1_biotic_browser_streamingLLM</h2>
+    <span class="delta down">Δ soft -25.0</span>
+  </header>
+  <div class="cols">
+    <figure>
+      <figcaption>Ground truth</figcaption>
+      <img src="gt/arxiv_svg__2411.10454v1_biotic_browser_streamingLLM.png" class="panel" loading="lazy" alt="arxiv_svg__2411.10454v1_biotic_browser_streamingLLM.png"/>
+    </figure>
+    <figure>
+      <figcaption>Initial skill</figcaption>
+      <img src="initial/arxiv_svg__2411.10454v1_biotic_browser_streamingLLM.png" class="panel" loading="lazy" alt="arxiv_svg__2411.10454v1_biotic_browser_streamingLLM.png"/>
+      
+    <div class="scores">
+      <div class="lab">initial</div>
+      <span class="pill total">total 93.8</span>
+      <span class="pill">shape 75.0</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 100.0</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+    <figure>
+      <figcaption>Best skill</figcaption>
+      <img src="best/arxiv_svg__2411.10454v1_biotic_browser_streamingLLM.png" class="panel" loading="lazy" alt="arxiv_svg__2411.10454v1_biotic_browser_streamingLLM.png"/>
+      
+    <div class="scores">
+      <div class="lab">best</div>
+      <span class="pill total">total 68.8</span>
+      <span class="pill">shape 100.0</span>
+      <span class="pill">text 58.3</span>
+      <span class="pill">arrow 58.3</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+  </div>
+</section>
+
+<section class="row" data-id="arxiv_svg__2501.17081v1_layer_comp" data-delta="18.7500" data-init="0.812500" data-best="1.000000">
+  <header class="row-head">
+    <span class="rank">#24</span>
+    <h2 title="arxiv_svg__2501.17081v1_layer_comp">arxiv_svg__2501.17081v1_layer_comp</h2>
+    <span class="delta up">Δ soft +18.8</span>
+  </header>
+  <div class="cols">
+    <figure>
+      <figcaption>Ground truth</figcaption>
+      <img src="gt/arxiv_svg__2501.17081v1_layer_comp.png" class="panel" loading="lazy" alt="arxiv_svg__2501.17081v1_layer_comp.png"/>
+    </figure>
+    <figure>
+      <figcaption>Initial skill</figcaption>
+      <img src="initial/arxiv_svg__2501.17081v1_layer_comp.png" class="panel" loading="lazy" alt="arxiv_svg__2501.17081v1_layer_comp.png"/>
+      
+    <div class="scores">
+      <div class="lab">initial</div>
+      <span class="pill total">total 81.2</span>
+      <span class="pill">shape 100.0</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 50.0</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+    <figure>
+      <figcaption>Best skill</figcaption>
+      <img src="best/arxiv_svg__2501.17081v1_layer_comp.png" class="panel" loading="lazy" alt="arxiv_svg__2501.17081v1_layer_comp.png"/>
+      
+    <div class="scores">
+      <div class="lab">best</div>
+      <span class="pill total">total 100.0</span>
+      <span class="pill">shape 100.0</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 100.0</span>
+      <span class="pill ok">hard=1</span>
+    </div>
+    </figure>
+  </div>
+</section>
+
+<section class="row" data-id="arxiv_svg__2504.20437v1_DDP" data-delta="3.1250" data-init="0.906250" data-best="0.937500">
+  <header class="row-head">
+    <span class="rank">#25</span>
+    <h2 title="arxiv_svg__2504.20437v1_DDP">arxiv_svg__2504.20437v1_DDP</h2>
+    <span class="delta up">Δ soft +3.1</span>
+  </header>
+  <div class="cols">
+    <figure>
+      <figcaption>Ground truth</figcaption>
+      <img src="gt/arxiv_svg__2504.20437v1_DDP.png" class="panel" loading="lazy" alt="arxiv_svg__2504.20437v1_DDP.png"/>
+    </figure>
+    <figure>
+      <figcaption>Initial skill</figcaption>
+      <img src="initial/arxiv_svg__2504.20437v1_DDP.png" class="panel" loading="lazy" alt="arxiv_svg__2504.20437v1_DDP.png"/>
+      
+    <div class="scores">
+      <div class="lab">initial</div>
+      <span class="pill total">total 90.6</span>
+      <span class="pill">shape 87.5</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 83.3</span>
+      <span class="pill ok">hard=1</span>
+    </div>
+    </figure>
+    <figure>
+      <figcaption>Best skill</figcaption>
+      <img src="best/arxiv_svg__2504.20437v1_DDP.png" class="panel" loading="lazy" alt="arxiv_svg__2504.20437v1_DDP.png"/>
+      
+    <div class="scores">
+      <div class="lab">best</div>
+      <span class="pill total">total 93.8</span>
+      <span class="pill">shape 87.5</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 91.7</span>
+      <span class="pill ok">hard=1</span>
+    </div>
+    </figure>
+  </div>
+</section>
+
+<section class="row" data-id="paper2fig_svg__1305.3981v1-Figure2-1" data-delta="0.0000" data-init="1.000000" data-best="1.000000">
+  <header class="row-head">
+    <span class="rank">#26</span>
+    <h2 title="paper2fig_svg__1305.3981v1-Figure2-1">paper2fig_svg__1305.3981v1-Figure2-1</h2>
+    <span class="delta flat">Δ soft +0.0</span>
+  </header>
+  <div class="cols">
+    <figure>
+      <figcaption>Ground truth</figcaption>
+      <img src="gt/paper2fig_svg__1305.3981v1-Figure2-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1305.3981v1-Figure2-1.png"/>
+    </figure>
+    <figure>
+      <figcaption>Initial skill</figcaption>
+      <img src="initial/paper2fig_svg__1305.3981v1-Figure2-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1305.3981v1-Figure2-1.png"/>
+      
+    <div class="scores">
+      <div class="lab">initial</div>
+      <span class="pill total">total 100.0</span>
+      <span class="pill">shape 100.0</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 100.0</span>
+      <span class="pill ok">hard=1</span>
+    </div>
+    </figure>
+    <figure>
+      <figcaption>Best skill</figcaption>
+      <img src="best/paper2fig_svg__1305.3981v1-Figure2-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1305.3981v1-Figure2-1.png"/>
+      
+    <div class="scores">
+      <div class="lab">best</div>
+      <span class="pill total">total 100.0</span>
+      <span class="pill">shape 100.0</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 100.0</span>
+      <span class="pill ok">hard=1</span>
+    </div>
+    </figure>
+  </div>
+</section>
+
+<section class="row" data-id="paper2fig_svg__1306.4890v1-Figure1-1" data-delta="-25.0000" data-init="0.781250" data-best="0.531250">
+  <header class="row-head">
+    <span class="rank">#27</span>
+    <h2 title="paper2fig_svg__1306.4890v1-Figure1-1">paper2fig_svg__1306.4890v1-Figure1-1</h2>
+    <span class="delta down">Δ soft -25.0</span>
+  </header>
+  <div class="cols">
+    <figure>
+      <figcaption>Ground truth</figcaption>
+      <img src="gt/paper2fig_svg__1306.4890v1-Figure1-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1306.4890v1-Figure1-1.png"/>
+    </figure>
+    <figure>
+      <figcaption>Initial skill</figcaption>
+      <img src="initial/paper2fig_svg__1306.4890v1-Figure1-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1306.4890v1-Figure1-1.png"/>
+      
+    <div class="scores">
+      <div class="lab">initial</div>
+      <span class="pill total">total 78.1</span>
+      <span class="pill">shape 62.5</span>
+      <span class="pill">text 91.7</span>
+      <span class="pill">arrow 75.0</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+    <figure>
+      <figcaption>Best skill</figcaption>
+      <img src="best/paper2fig_svg__1306.4890v1-Figure1-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1306.4890v1-Figure1-1.png"/>
+      
+    <div class="scores">
+      <div class="lab">best</div>
+      <span class="pill total">total 53.1</span>
+      <span class="pill">shape 37.5</span>
+      <span class="pill">text 58.3</span>
+      <span class="pill">arrow 58.3</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+  </div>
+</section>
+
+<section class="row" data-id="paper2fig_svg__1412.6149v1-Figure2-1" data-delta="-15.6250" data-init="0.781250" data-best="0.625000">
+  <header class="row-head">
+    <span class="rank">#28</span>
+    <h2 title="paper2fig_svg__1412.6149v1-Figure2-1">paper2fig_svg__1412.6149v1-Figure2-1</h2>
+    <span class="delta down">Δ soft -15.6</span>
+  </header>
+  <div class="cols">
+    <figure>
+      <figcaption>Ground truth</figcaption>
+      <img src="gt/paper2fig_svg__1412.6149v1-Figure2-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1412.6149v1-Figure2-1.png"/>
+    </figure>
+    <figure>
+      <figcaption>Initial skill</figcaption>
+      <img src="initial/paper2fig_svg__1412.6149v1-Figure2-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1412.6149v1-Figure2-1.png"/>
+      
+    <div class="scores">
+      <div class="lab">initial</div>
+      <span class="pill total">total 78.1</span>
+      <span class="pill">shape 75.0</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 58.3</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+    <figure>
+      <figcaption>Best skill</figcaption>
+      <img src="best/paper2fig_svg__1412.6149v1-Figure2-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1412.6149v1-Figure2-1.png"/>
+      
+    <div class="scores">
+      <div class="lab">best</div>
+      <span class="pill total">total 62.5</span>
+      <span class="pill">shape 50.0</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 33.3</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+  </div>
+</section>
+
+<section class="row" data-id="paper2fig_svg__1505.07675v1-Figure3-1" data-delta="9.3750" data-init="0.781250" data-best="0.875000">
+  <header class="row-head">
+    <span class="rank">#29</span>
+    <h2 title="paper2fig_svg__1505.07675v1-Figure3-1">paper2fig_svg__1505.07675v1-Figure3-1</h2>
+    <span class="delta up">Δ soft +9.4</span>
+  </header>
+  <div class="cols">
+    <figure>
+      <figcaption>Ground truth</figcaption>
+      <img src="gt/paper2fig_svg__1505.07675v1-Figure3-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1505.07675v1-Figure3-1.png"/>
+    </figure>
+    <figure>
+      <figcaption>Initial skill</figcaption>
+      <img src="initial/paper2fig_svg__1505.07675v1-Figure3-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1505.07675v1-Figure3-1.png"/>
+      
+    <div class="scores">
+      <div class="lab">initial</div>
+      <span class="pill total">total 78.1</span>
+      <span class="pill">shape 50.0</span>
+      <span class="pill">text 75.0</span>
+      <span class="pill">arrow 100.0</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+    <figure>
+      <figcaption>Best skill</figcaption>
+      <img src="best/paper2fig_svg__1505.07675v1-Figure3-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1505.07675v1-Figure3-1.png"/>
+      
+    <div class="scores">
+      <div class="lab">best</div>
+      <span class="pill total">total 87.5</span>
+      <span class="pill">shape 62.5</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 91.7</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+  </div>
+</section>
+
+<section class="row" data-id="paper2fig_svg__1507.04396v1-Figure1-1" data-delta="34.3750" data-init="0.000000" data-best="0.343750">
+  <header class="row-head">
+    <span class="rank">#30</span>
+    <h2 title="paper2fig_svg__1507.04396v1-Figure1-1">paper2fig_svg__1507.04396v1-Figure1-1</h2>
+    <span class="delta up">Δ soft +34.4</span>
+  </header>
+  <div class="cols">
+    <figure>
+      <figcaption>Ground truth</figcaption>
+      <img src="gt/paper2fig_svg__1507.04396v1-Figure1-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1507.04396v1-Figure1-1.png"/>
+    </figure>
+    <figure>
+      <figcaption>Initial skill</figcaption>
+      <div class="missing fail">FAILED / MISSING</div>
+      
+    <div class="scores">
+      <div class="lab">initial</div>
+      <span class="pill total">total 0.0</span>
+      <span class="pill">shape 0.0</span>
+      <span class="pill">text 0.0</span>
+      <span class="pill">arrow 0.0</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+    <figure>
+      <figcaption>Best skill</figcaption>
+      <img src="best/paper2fig_svg__1507.04396v1-Figure1-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1507.04396v1-Figure1-1.png"/>
+      
+    <div class="scores">
+      <div class="lab">best</div>
+      <span class="pill total">total 34.4</span>
+      <span class="pill">shape 37.5</span>
+      <span class="pill">text 33.3</span>
+      <span class="pill">arrow 33.3</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+  </div>
+</section>
+
+<section class="row" data-id="paper2fig_svg__1606.03402v2-Figure1-1" data-delta="0.0000" data-init="0.000000" data-best="0.000000">
+  <header class="row-head">
+    <span class="rank">#31</span>
+    <h2 title="paper2fig_svg__1606.03402v2-Figure1-1">paper2fig_svg__1606.03402v2-Figure1-1</h2>
+    <span class="delta flat">Δ soft +0.0</span>
+  </header>
+  <div class="cols">
+    <figure>
+      <figcaption>Ground truth</figcaption>
+      <img src="gt/paper2fig_svg__1606.03402v2-Figure1-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1606.03402v2-Figure1-1.png"/>
+    </figure>
+    <figure>
+      <figcaption>Initial skill</figcaption>
+      <div class="missing fail">FAILED / MISSING</div>
+      
+    <div class="scores">
+      <div class="lab">initial</div>
+      <span class="pill total">total 0.0</span>
+      <span class="pill">shape 0.0</span>
+      <span class="pill">text 0.0</span>
+      <span class="pill">arrow 0.0</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+    <figure>
+      <figcaption>Best skill</figcaption>
+      <div class="missing fail">FAILED / MISSING</div>
+      
+    <div class="scores">
+      <div class="lab">best</div>
+      <span class="pill total">total 0.0</span>
+      <span class="pill">shape 0.0</span>
+      <span class="pill">text 0.0</span>
+      <span class="pill">arrow 0.0</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+  </div>
+</section>
+
+<section class="row" data-id="paper2fig_svg__1812.07860v1-Figure1-1" data-delta="21.8750" data-init="0.562500" data-best="0.781250">
+  <header class="row-head">
+    <span class="rank">#32</span>
+    <h2 title="paper2fig_svg__1812.07860v1-Figure1-1">paper2fig_svg__1812.07860v1-Figure1-1</h2>
+    <span class="delta up">Δ soft +21.9</span>
+  </header>
+  <div class="cols">
+    <figure>
+      <figcaption>Ground truth</figcaption>
+      <img src="gt/paper2fig_svg__1812.07860v1-Figure1-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1812.07860v1-Figure1-1.png"/>
+    </figure>
+    <figure>
+      <figcaption>Initial skill</figcaption>
+      <img src="initial/paper2fig_svg__1812.07860v1-Figure1-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1812.07860v1-Figure1-1.png"/>
+      
+    <div class="scores">
+      <div class="lab">initial</div>
+      <span class="pill total">total 56.2</span>
+      <span class="pill">shape 50.0</span>
+      <span class="pill">text 58.3</span>
+      <span class="pill">arrow 58.3</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+    <figure>
+      <figcaption>Best skill</figcaption>
+      <img src="best/paper2fig_svg__1812.07860v1-Figure1-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1812.07860v1-Figure1-1.png"/>
+      
+    <div class="scores">
+      <div class="lab">best</div>
+      <span class="pill total">total 78.1</span>
+      <span class="pill">shape 75.0</span>
+      <span class="pill">text 75.0</span>
+      <span class="pill">arrow 83.3</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+  </div>
+</section>
+
+<section class="row" data-id="paper2fig_svg__1812.10730v1-Figure1-1" data-delta="53.1250" data-init="0.000000" data-best="0.531250">
+  <header class="row-head">
+    <span class="rank">#33</span>
+    <h2 title="paper2fig_svg__1812.10730v1-Figure1-1">paper2fig_svg__1812.10730v1-Figure1-1</h2>
+    <span class="delta up">Δ soft +53.1</span>
+  </header>
+  <div class="cols">
+    <figure>
+      <figcaption>Ground truth</figcaption>
+      <img src="gt/paper2fig_svg__1812.10730v1-Figure1-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1812.10730v1-Figure1-1.png"/>
+    </figure>
+    <figure>
+      <figcaption>Initial skill</figcaption>
+      <div class="missing fail">FAILED / MISSING</div>
+      
+    <div class="scores">
+      <div class="lab">initial</div>
+      <span class="pill total">total 0.0</span>
+      <span class="pill">shape 0.0</span>
+      <span class="pill">text 0.0</span>
+      <span class="pill">arrow 0.0</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+    <figure>
+      <figcaption>Best skill</figcaption>
+      <img src="best/paper2fig_svg__1812.10730v1-Figure1-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1812.10730v1-Figure1-1.png"/>
+      
+    <div class="scores">
+      <div class="lab">best</div>
+      <span class="pill total">total 53.1</span>
+      <span class="pill">shape 25.0</span>
+      <span class="pill">text 83.3</span>
+      <span class="pill">arrow 41.7</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+  </div>
+</section>
+
+<section class="row" data-id="paper2fig_svg__1902.08527v1-Figure3-1" data-delta="-18.7500" data-init="1.000000" data-best="0.812500">
+  <header class="row-head">
+    <span class="rank">#34</span>
+    <h2 title="paper2fig_svg__1902.08527v1-Figure3-1">paper2fig_svg__1902.08527v1-Figure3-1</h2>
+    <span class="delta down">Δ soft -18.8</span>
+  </header>
+  <div class="cols">
+    <figure>
+      <figcaption>Ground truth</figcaption>
+      <img src="gt/paper2fig_svg__1902.08527v1-Figure3-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1902.08527v1-Figure3-1.png"/>
+    </figure>
+    <figure>
+      <figcaption>Initial skill</figcaption>
+      <img src="initial/paper2fig_svg__1902.08527v1-Figure3-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1902.08527v1-Figure3-1.png"/>
+      
+    <div class="scores">
+      <div class="lab">initial</div>
+      <span class="pill total">total 100.0</span>
+      <span class="pill">shape 100.0</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 100.0</span>
+      <span class="pill ok">hard=1</span>
+    </div>
+    </figure>
+    <figure>
+      <figcaption>Best skill</figcaption>
+      <img src="best/paper2fig_svg__1902.08527v1-Figure3-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1902.08527v1-Figure3-1.png"/>
+      
+    <div class="scores">
+      <div class="lab">best</div>
+      <span class="pill total">total 81.2</span>
+      <span class="pill">shape 62.5</span>
+      <span class="pill">text 75.0</span>
+      <span class="pill">arrow 100.0</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+  </div>
+</section>
+
+<section class="row" data-id="paper2fig_svg__1904.00388v1-Figure6-1" data-delta="0.0000" data-init="0.968750" data-best="0.968750">
+  <header class="row-head">
+    <span class="rank">#35</span>
+    <h2 title="paper2fig_svg__1904.00388v1-Figure6-1">paper2fig_svg__1904.00388v1-Figure6-1</h2>
+    <span class="delta flat">Δ soft +0.0</span>
+  </header>
+  <div class="cols">
+    <figure>
+      <figcaption>Ground truth</figcaption>
+      <img src="gt/paper2fig_svg__1904.00388v1-Figure6-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1904.00388v1-Figure6-1.png"/>
+    </figure>
+    <figure>
+      <figcaption>Initial skill</figcaption>
+      <img src="initial/paper2fig_svg__1904.00388v1-Figure6-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1904.00388v1-Figure6-1.png"/>
+      
+    <div class="scores">
+      <div class="lab">initial</div>
+      <span class="pill total">total 96.9</span>
+      <span class="pill">shape 100.0</span>
+      <span class="pill">text 91.7</span>
+      <span class="pill">arrow 100.0</span>
+      <span class="pill ok">hard=1</span>
+    </div>
+    </figure>
+    <figure>
+      <figcaption>Best skill</figcaption>
+      <img src="best/paper2fig_svg__1904.00388v1-Figure6-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1904.00388v1-Figure6-1.png"/>
+      
+    <div class="scores">
+      <div class="lab">best</div>
+      <span class="pill total">total 96.9</span>
+      <span class="pill">shape 100.0</span>
+      <span class="pill">text 91.7</span>
+      <span class="pill">arrow 100.0</span>
+      <span class="pill ok">hard=1</span>
+    </div>
+    </figure>
+  </div>
+</section>
+
+<section class="row" data-id="paper2fig_svg__1904.09636v1-Figure1-1" data-delta="3.1250" data-init="0.906250" data-best="0.937500">
+  <header class="row-head">
+    <span class="rank">#36</span>
+    <h2 title="paper2fig_svg__1904.09636v1-Figure1-1">paper2fig_svg__1904.09636v1-Figure1-1</h2>
+    <span class="delta up">Δ soft +3.1</span>
+  </header>
+  <div class="cols">
+    <figure>
+      <figcaption>Ground truth</figcaption>
+      <img src="gt/paper2fig_svg__1904.09636v1-Figure1-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1904.09636v1-Figure1-1.png"/>
+    </figure>
+    <figure>
+      <figcaption>Initial skill</figcaption>
+      <img src="initial/paper2fig_svg__1904.09636v1-Figure1-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1904.09636v1-Figure1-1.png"/>
+      
+    <div class="scores">
+      <div class="lab">initial</div>
+      <span class="pill total">total 90.6</span>
+      <span class="pill">shape 62.5</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 100.0</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+    <figure>
+      <figcaption>Best skill</figcaption>
+      <img src="best/paper2fig_svg__1904.09636v1-Figure1-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1904.09636v1-Figure1-1.png"/>
+      
+    <div class="scores">
+      <div class="lab">best</div>
+      <span class="pill total">total 93.8</span>
+      <span class="pill">shape 75.0</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 100.0</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+  </div>
+</section>
+
+<section class="row" data-id="paper2fig_svg__1904.10419v2-Figure1-1" data-delta="-25.0000" data-init="0.906250" data-best="0.656250">
+  <header class="row-head">
+    <span class="rank">#37</span>
+    <h2 title="paper2fig_svg__1904.10419v2-Figure1-1">paper2fig_svg__1904.10419v2-Figure1-1</h2>
+    <span class="delta down">Δ soft -25.0</span>
+  </header>
+  <div class="cols">
+    <figure>
+      <figcaption>Ground truth</figcaption>
+      <img src="gt/paper2fig_svg__1904.10419v2-Figure1-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1904.10419v2-Figure1-1.png"/>
+    </figure>
+    <figure>
+      <figcaption>Initial skill</figcaption>
+      <img src="initial/paper2fig_svg__1904.10419v2-Figure1-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1904.10419v2-Figure1-1.png"/>
+      
+    <div class="scores">
+      <div class="lab">initial</div>
+      <span class="pill total">total 90.6</span>
+      <span class="pill">shape 87.5</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 83.3</span>
+      <span class="pill ok">hard=1</span>
+    </div>
+    </figure>
+    <figure>
+      <figcaption>Best skill</figcaption>
+      <img src="best/paper2fig_svg__1904.10419v2-Figure1-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1904.10419v2-Figure1-1.png"/>
+      
+    <div class="scores">
+      <div class="lab">best</div>
+      <span class="pill total">total 65.6</span>
+      <span class="pill">shape 62.5</span>
+      <span class="pill">text 66.7</span>
+      <span class="pill">arrow 66.7</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+  </div>
+</section>
+
+<section class="row" data-id="paper2fig_svg__1905.05652v1-Figure2-1" data-delta="-12.5000" data-init="0.843750" data-best="0.718750">
+  <header class="row-head">
+    <span class="rank">#38</span>
+    <h2 title="paper2fig_svg__1905.05652v1-Figure2-1">paper2fig_svg__1905.05652v1-Figure2-1</h2>
+    <span class="delta down">Δ soft -12.5</span>
+  </header>
+  <div class="cols">
+    <figure>
+      <figcaption>Ground truth</figcaption>
+      <img src="gt/paper2fig_svg__1905.05652v1-Figure2-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1905.05652v1-Figure2-1.png"/>
+    </figure>
+    <figure>
+      <figcaption>Initial skill</figcaption>
+      <img src="initial/paper2fig_svg__1905.05652v1-Figure2-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1905.05652v1-Figure2-1.png"/>
+      
+    <div class="scores">
+      <div class="lab">initial</div>
+      <span class="pill total">total 84.4</span>
+      <span class="pill">shape 100.0</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 58.3</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+    <figure>
+      <figcaption>Best skill</figcaption>
+      <img src="best/paper2fig_svg__1905.05652v1-Figure2-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1905.05652v1-Figure2-1.png"/>
+      
+    <div class="scores">
+      <div class="lab">best</div>
+      <span class="pill total">total 71.9</span>
+      <span class="pill">shape 75.0</span>
+      <span class="pill">text 100.0</span>
+      <span class="pill">arrow 41.7</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+  </div>
+</section>
+
+<section class="row" data-id="paper2fig_svg__1906.11555v2-Figure2-1" data-delta="6.2500" data-init="0.625000" data-best="0.687500">
+  <header class="row-head">
+    <span class="rank">#39</span>
+    <h2 title="paper2fig_svg__1906.11555v2-Figure2-1">paper2fig_svg__1906.11555v2-Figure2-1</h2>
+    <span class="delta up">Δ soft +6.2</span>
+  </header>
+  <div class="cols">
+    <figure>
+      <figcaption>Ground truth</figcaption>
+      <img src="gt/paper2fig_svg__1906.11555v2-Figure2-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1906.11555v2-Figure2-1.png"/>
+    </figure>
+    <figure>
+      <figcaption>Initial skill</figcaption>
+      <img src="initial/paper2fig_svg__1906.11555v2-Figure2-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1906.11555v2-Figure2-1.png"/>
+      
+    <div class="scores">
+      <div class="lab">initial</div>
+      <span class="pill total">total 62.5</span>
+      <span class="pill">shape 50.0</span>
+      <span class="pill">text 83.3</span>
+      <span class="pill">arrow 50.0</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+    <figure>
+      <figcaption>Best skill</figcaption>
+      <img src="best/paper2fig_svg__1906.11555v2-Figure2-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1906.11555v2-Figure2-1.png"/>
+      
+    <div class="scores">
+      <div class="lab">best</div>
+      <span class="pill total">total 68.8</span>
+      <span class="pill">shape 37.5</span>
+      <span class="pill">text 83.3</span>
+      <span class="pill">arrow 75.0</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+  </div>
+</section>
+
+<section class="row" data-id="paper2fig_svg__1908.03716v1-Figure2-1" data-delta="-9.3750" data-init="0.812500" data-best="0.718750">
+  <header class="row-head">
+    <span class="rank">#40</span>
+    <h2 title="paper2fig_svg__1908.03716v1-Figure2-1">paper2fig_svg__1908.03716v1-Figure2-1</h2>
+    <span class="delta down">Δ soft -9.4</span>
+  </header>
+  <div class="cols">
+    <figure>
+      <figcaption>Ground truth</figcaption>
+      <img src="gt/paper2fig_svg__1908.03716v1-Figure2-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1908.03716v1-Figure2-1.png"/>
+    </figure>
+    <figure>
+      <figcaption>Initial skill</figcaption>
+      <img src="initial/paper2fig_svg__1908.03716v1-Figure2-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1908.03716v1-Figure2-1.png"/>
+      
+    <div class="scores">
+      <div class="lab">initial</div>
+      <span class="pill total">total 81.2</span>
+      <span class="pill">shape 75.0</span>
+      <span class="pill">text 75.0</span>
+      <span class="pill">arrow 91.7</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+    <figure>
+      <figcaption>Best skill</figcaption>
+      <img src="best/paper2fig_svg__1908.03716v1-Figure2-1.png" class="panel" loading="lazy" alt="paper2fig_svg__1908.03716v1-Figure2-1.png"/>
+      
+    <div class="scores">
+      <div class="lab">best</div>
+      <span class="pill total">total 71.9</span>
+      <span class="pill">shape 62.5</span>
+      <span class="pill">text 66.7</span>
+      <span class="pill">arrow 83.3</span>
+      <span class="pill bad">hard=0</span>
+    </div>
+    </figure>
+  </div>
+</section>
+
+</main>
+<script>
+(() => {
+  const gallery = document.getElementById('gallery');
+  const cards = [...gallery.querySelectorAll('.row')];
+  const q = document.getElementById('q');
+  const sort = document.getElementById('sort');
+  function apply() {
+    const needle = (q.value || '').trim().toLowerCase();
+    let visible = cards.filter(c => !needle || c.dataset.id.toLowerCase().includes(needle));
+    const mode = sort.value;
+    visible.sort((a, b) => {
+      if (mode === 'id') return a.dataset.id.localeCompare(b.dataset.id);
+      if (mode === 'init-desc') return parseFloat(b.dataset.init) - parseFloat(a.dataset.init);
+      if (mode === 'best-desc') return parseFloat(b.dataset.best) - parseFloat(a.dataset.best);
+      const av = parseFloat(a.dataset.delta), bv = parseFloat(b.dataset.delta);
+      return mode.endsWith('-desc') ? (bv - av) : (av - bv);
+    });
+    cards.forEach(c => c.style.display = 'none');
+    visible.forEach(c => { c.style.display = ''; gallery.appendChild(c); });
+  }
+  q.addEventListener('input', apply);
+  sort.addEventListener('change', apply);
+  apply();
+})();
+</script>
+</body>
+</html>
