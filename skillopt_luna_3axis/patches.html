@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>每步 Patch</title>
+<style>
+  :root {
+    --bg: #f6f4ef; --ink: #1c1a16; --muted: #6b655c; --line: #ddd6c8;
+    --card: #fffdf8; --accent: #8b3a2a; --ok: #2f6b4f;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Source Han Sans SC", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: var(--bg); color: var(--ink); line-height: 1.55;
+  }
+  header {
+    position: sticky; top: 0; z-index: 20;
+    background: rgba(246,244,239,.92); backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--line); padding: 14px 20px;
+  }
+  header h1 { margin: 0 0 8px; font-size: 20px; font-weight: 700; }
+  .site-nav { display: flex; gap: 6px; flex-wrap: wrap; margin: 0 0 10px; }
+  .site-nav a {
+    text-decoration: none; color: var(--ink);
+    padding: 5px 12px; border: 1px solid var(--line); border-radius: 999px;
+    font-size: 13px; background: #fff;
+  }
+  .site-nav a.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .jump { display: flex; gap: 8px; flex-wrap: wrap; }
+  .jump a {
+    font-size: 13px; color: var(--accent); text-decoration: none;
+    padding: 4px 10px; border: 1px solid #e5b7ab; border-radius: 999px; background: #fbf0ec;
+  }
+  main { padding: 18px 20px 48px; max-width: 1100px; }
+  .step { margin: 0 0 36px; }
+  .step-head {
+    display: flex; flex-wrap: wrap; gap: 8px; align-items: baseline;
+    margin: 0 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(--line);
+  }
+  .step-head h2 { margin: 0; font-size: 18px; }
+  .badge {
+    font-size: 12px; padding: 2px 8px; border-radius: 999px;
+    border: 1px solid var(--line); color: var(--muted);
+  }
+  .badge.fail { color: var(--accent); border-color: #e5b7ab; background: #fbf0ec; }
+  .badge.ok { color: var(--ok); border-color: #b7d6c6; background: #eef7f1; }
+  .reason {
+    background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+    padding: 12px 14px; margin: 0 0 14px; font-size: 14px;
+  }
+  .fails { display: flex; flex-direction: column; gap: 6px; margin: 0 0 16px; }
+  .fail {
+    display: grid; grid-template-columns: 92px 1fr auto; gap: 10px; align-items: start;
+    padding: 8px 10px; background: #fff; border: 1px solid var(--line); border-radius: 8px;
+    font-size: 13.5px;
+  }
+  .fail .axis { font-weight: 700; font-size: 12px; color: var(--accent); }
+  .fail .ids { color: var(--muted); font-size: 12px; white-space: nowrap; }
+  .edits { display: flex; flex-direction: column; gap: 12px; }
+  .edit {
+    background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 14px;
+  }
+  .edit-meta { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 0 0 8px; }
+  .op {
+    font-size: 12px; font-weight: 700; padding: 2px 8px; border-radius: 6px; color: #fff;
+  }
+  .op.append { background: var(--ok); }
+  .op.replace { background: var(--accent); }
+  .op.insert_after { background: #4a5f8a; }
+  .target { font-size: 13px; color: var(--muted); }
+  .content { font-size: 14.5px; margin: 0; }
+  .old {
+    margin: 10px 0 0; padding: 8px 10px; background: #f3efe6; border-radius: 8px;
+    font-size: 13px; color: var(--muted);
+  }
+  .old strong { color: var(--ink); font-weight: 600; }
+  code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .92em; }
+</style>
+</head>
+<body>
+<header>
+  <nav class="site-nav" aria-label="页面">
+    <a href="index.html">1. Evaluation</a>
+    <a class="active" href="patches.html">2. 每步 Patch</a>
+    <a href="validation.html">3. Validation 对照</a>
+  </nav>
+  <h1>两个 step 的 Patch 操作</h1>
+  <div class="jump">
+    <a href="#step1">Step 1 · reject</a>
+    <a href="#step2">Step 2 · reject</a>
+  </div>
+</header>
+<main>
+
+<section class="step" id="step1">
+  <div class="step-head">
+    <h2>Step 1</h2>
+    <span class="badge fail">reject</span>
+    <span class="badge">4 条 edit</span>
+    <span class="badge">证据 8 张图</span>
+  </div>
+  <p class="reason">反复失败来自四件事：视觉符号靠字体字形、组件内部结构被画扁、文字不检查是否装进容器、箭头头没有稳定的显式几何和比例。这些规则要求初次生成就用 SVG 原生画法，并按几何排版。</p>
+  <div class="fails">
+    <div class="fail"><span class="axis">TEXT</span><span>Emoji、logo、状态符号和特殊数学符号被输出成不支持的字形或空方块，而不是可识别的 SVG 几何。</span><span class="ids">5 张 · ref_51 / 104 / 25 / test_155 / 166</span></div>
+    <div class="fail"><span class="axis">COMPONENT</span><span>张量示意、矩阵堆叠、向量图、token 网格等结构化单元被简化成扁平或不完整的占位几何。</span><span class="ids">4 张 · ref_4 / 12 / 43 / 166</span></div>
+    <div class="fail"><span class="axis">TEXT</span><span>标签没有按渲染范围排版，标题和图例会重叠邻接内容或穿出容器。</span><span class="ids">4 张 · ref_4 / 12 / 25 / 104</span></div>
+    <div class="fail"><span class="axis">ARROW</span><span>连接线箭头头被省略、缩成碎块，或相对箭杆明显过大。</span><span class="ids">4 张 · ref_4 / 12 / 104 / 166</span></div>
+  </div>
+  <div class="edits">
+    <article class="edit">
+      <div class="edit-meta"><span class="op append">append</span><span class="target">接到 <code>## Components</code> 末尾</span><span class="badge">support 4</span></div>
+      <p class="content">保留组件内部所有可视化子结构——单元格划分、错层矩阵、token 格子、向量箭杆、张量示意图、节点标记、图例色块——都要用明确的 SVG 形状画出来；不要把这些结构化单元替换成扁平网格、色带、通用字形或占位块。</p>
+    </article>
+    <article class="edit">
+      <div class="edit-meta"><span class="op append">append</span><span class="target">接到 <code>## Text</code> 末尾</span><span class="badge">support 5</span></div>
+      <p class="content">视觉符号不要靠 emoji、图标字体、logo 或不支持的 Unicode 字形；火焰、雪花、叉号、省略号、锁链、logo、奖牌、靶心、数学符号，都要用明确的 SVG path / polygon / circle / line 画；普通文字标签仍用 <code>&lt;text&gt;</code>。</p>
+    </article>
+    <article class="edit">
+      <div class="edit-meta"><span class="op replace">replace</span><span class="target">替换盒内文字规则</span><span class="badge">support 4</span></div>
+      <p class="content">每条标签最终落位前，先估渲染包围盒，并相对容器边缘和相邻元素预留内边距；一旦会溢出、重叠或撞到别的文字/图形，就用 <code>&lt;tspan&gt;</code> 换行、缩小字号，或整体挪位置。</p>
+      <div class="old"><strong>原文：</strong>盒内文字要按对齐方式排进容器，必要时缩小字号或用 tspan 换行，并留一点内边距，避免碰到或穿出边框。</div>
+    </article>
+    <article class="edit">
+      <div class="edit-meta"><span class="op replace">replace</span><span class="target">替换「禁止 &lt;marker&gt;」</span><span class="badge">support 4</span></div>
+      <p class="content">不要用 <code>&lt;marker&gt;</code> 定义或 marker 属性。每条连线都要画可见箭杆，并另画一个独立、尺寸按箭杆宽度标定的箭头；既不能漏画，也不能过大，且方向要和连线一致。</p>
+      <div class="old"><strong>原文：</strong>不要使用 <code>&lt;marker&gt;</code> 定义或 <code>marker-start / marker-mid / marker-end</code> 属性。</div>
+    </article>
+  </div>
+</section>
+
+<section class="step" id="step2">
+  <div class="step-head">
+    <h2>Step 2</h2>
+    <span class="badge fail">reject</span>
+    <span class="badge">4 条 edit</span>
+    <span class="badge">证据 8 张图</span>
+  </div>
+  <p class="reason">要求：不支持的符号要有显式回退、下标/引用做成一组 SVG 文字、画之前先盘点全部组件、先枚举连接关系再画线。针对的是生成时反复漏画和字形替换，而不是某张图的局部几何。</p>
+  <div class="fails">
+    <div class="fail"><span class="axis">TEXT</span><span>不支持的 emoji、雪花、图标字符渲染成空方块，而不是可见符号。</span><span class="ids">3 张 · ref_242 / 97 / test_200</span></div>
+    <div class="fail"><span class="axis">TEXT</span><span>下标、引用、带编号的标签拆开或重叠，没有做成一体文字。</span><span class="ids">3 张 · ref_281 / 125 / 106</span></div>
+    <div class="fail"><span class="axis">COMPONENT</span><span>次要可见组件被漏画，例如 policy 图标、图例、喇叭符号和标签。</span><span class="ids">3 张 · ref_97 / test_67 / 242</span></div>
+    <div class="fail"><span class="axis">ARROW</span><span>相邻处理阶段之间的多条应有连线被漏掉，因为没有先枚举全部关系。</span><span class="ids">1 张 · test_67</span></div>
+  </div>
+  <div class="edits">
+    <article class="edit">
+      <div class="edit-meta"><span class="op append">append</span><span class="target">接到 <code>## Text</code> 末尾</span><span class="badge">support 3</span></div>
+      <p class="content">emoji、雪花、火焰、数学符号等非 ASCII 字符，先确认当前字体能不能显示；否则改成明确的 SVG 几何/路径，绝不要留下会变成方框（tofu）的不支持字符。</p>
+    </article>
+    <article class="edit">
+      <div class="edit-meta"><span class="op append">append</span><span class="target">接到 <code>## Text</code> 末尾</span><span class="badge">support 3</span></div>
+      <p class="content">带下标、上标、编号、行内引用的标签，要做成一个视觉上成组的文字块：用有意安排的 <code>&lt;tspan&gt;</code> 位置或 baseline 偏移；下标要紧挨本体、不要重叠，公式根号要包住整个表达式。</p>
+    </article>
+    <article class="edit">
+      <div class="edit-meta"><span class="op append">append</span><span class="target">接到 <code>## Components</code> 末尾</span><span class="badge">support 3</span></div>
+      <p class="content">画细节之前，先盘点图上每一个可见节点、图例、标签和语义图标；象形图标用明确 SVG 几何画出，不要换成空白矩形、单个字母或通用占位符。</p>
+    </article>
+    <article class="edit">
+      <div class="edit-meta"><span class="op append">append</span><span class="target">接到 <code>## Arrows</code> 末尾</span><span class="badge">support 1</span></div>
+      <p class="content">画之前先枚举连接关系图：每个 source–target 关系画一条明确连线，保留方向，两端贴到正确组件边界，不要留缝。</p>
+    </article>
+  </div>
+</section>
+
+</main>
+</body>
+</html>

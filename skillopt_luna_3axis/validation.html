@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Validation 对照</title>
+<style>
+  :root {
+    --bg: #f6f4ef; --ink: #1c1a16; --muted: #6b655c; --line: #ddd6c8;
+    --card: #fffdf8; --accent: #8b3a2a; --ok: #2f6b4f;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Source Han Sans SC", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: var(--bg); color: var(--ink); line-height: 1.5;
+  }
+  header {
+    position: sticky; top: 0; z-index: 20;
+    background: rgba(246,244,239,.92); backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--line); padding: 14px 20px;
+  }
+  header h1 { margin: 0 0 8px; font-size: 20px; font-weight: 700; }
+  
+  .site-nav { display:flex; gap:6px; flex-wrap:wrap; margin:0 0 10px; }
+  .site-nav a {
+    text-decoration:none; color:var(--ink);
+    padding:5px 12px; border:1px solid var(--line); border-radius:999px;
+    font-size:13px; background:#fff;
+  }
+  .site-nav a.active { background:var(--accent); color:#fff; border-color:var(--accent); }
+
+  .toolbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .toolbar label { font-size: 13px; color: var(--muted); }
+  select, input[type="search"] {
+    border: 1px solid var(--line); background: #fff; border-radius: 6px;
+    padding: 6px 10px; font: inherit; color: var(--ink);
+  }
+  input[type="search"] { min-width: 200px; }
+  .count { margin-left: auto; font-size: 13px; color: var(--muted); }
+  main { padding: 16px 20px 40px; display: flex; flex-direction: column; gap: 18px; }
+  .overview { display: flex; flex-wrap: wrap; gap: 8px; }
+  .stat {
+    padding: 6px 10px; background: var(--card); border: 1px solid var(--line);
+    border-radius: 8px; font-size: 13px;
+  }
+  .row {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 12px; background: var(--card); border: 1px solid var(--line);
+    border-radius: 10px; padding: 12px;
+  }
+  .meta {
+    grid-column: 1 / -1; display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap;
+    padding-bottom: 6px; border-bottom: 1px solid var(--line); margin-bottom: 2px;
+  }
+  .meta .title { font-weight: 700; font-size: 15px; }
+  .pw-row {
+    grid-column: 1 / -1; display: flex; flex-direction: column; gap: 4px;
+    font-size: 13px; color: var(--ink); padding-top: 4px;
+  }
+  .pw { color: var(--muted); }
+  .pw strong { color: var(--ink); font-weight: 600; }
+  .badge {
+    font-size: 12px; padding: 2px 8px; border-radius: 999px;
+    border: 1px solid var(--line); color: var(--muted);
+  }
+  .badge.fail { color: var(--accent); border-color: #e5b7ab; background: #fbf0ec; }
+  .badge.ok { color: var(--ok); border-color: #b7d6c6; background: #eef7f1; }
+  .col { min-width: 0; }
+  .col h3 { margin: 0 0 8px; font-size: 13px; color: var(--muted); font-weight: 600; }
+  .img-wrap {
+    background: #eeeae2; border: 1px solid var(--line); border-radius: 8px;
+    overflow: auto; max-height: 380px;
+  }
+  .img-stack { position: relative; display: block; width: 100%; }
+  .img-stack > img { display: block; width: 100%; height: auto; cursor: zoom-in; }
+  .metrics { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 8px; }
+  .empty { color: var(--muted); font-size: 13px; padding: 12px; border: 1px dashed var(--line); border-radius: 8px; }
+  .lightbox {
+    display: none; position: fixed; inset: 0; z-index: 50;
+    background: rgba(0,0,0,.82); align-items: center; justify-content: center; padding: 24px;
+  }
+  .lightbox.open { display: flex; }
+  .lightbox img { display: block; max-width: 96vw; max-height: 92vh; object-fit: contain; background: #fff; }
+  @media (max-width: 1400px) { .row { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (max-width: 800px) { .row { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<header>
+  <nav class="site-nav" aria-label="页面">
+    <a href="index.html">1. Evaluation</a>
+    <a href="patches.html">2. 每步 Patch</a>
+    <a class="active" href="validation.html">3. Validation 对照</a>
+  </nav>
+
+  <h1>Validation 对照：GT · Baseline · Step 1 · Step 2</h1>
+  <div class="toolbar">
+    <label>样本 <select id="idFilter"><option value="all">全部</option></select></label>
+    <label><input type="search" id="q" placeholder="搜索 id / pairwise…" /></label>
+    <span class="count" id="count"></span>
+  </div>
+</header>
+<main id="main">
+  <div class="overview">
+    <span class="stat">10 条 validation</span>
+    <span class="stat">Best 仍是 baseline · soft 0.00</span>
+    <span class="stat">Step 1 reject · 0 胜 10 负</span>
+    <span class="stat">Step 2 reject · 1 胜 9 负（ref_79）</span>
+  </div>
+  <article class="row" data-id="ref_215" data-search="ref_215 best 上一版整体更接近：保留了中央 guidance 网格和右下 policy 标签，彩色衬线框文字也更像真值。候选漏了 guidance 网格和 policy，多数标签改成黑色无衬线。 best 上一版字体和配色更接近：world model / policy 仍是真值的蓝/橙/绿；候选把这些标签改成黑色。"><div class="meta"><span class="title">ref_215</span><span class="badge fail">Step 1：baseline 更好</span><span class="badge fail">Step 2：baseline 更好</span></div><div class="col"><h3>GT</h3><div class="img-wrap"><div class="img-stack"><img src="selection_eval_baseline/predictions/ref_215/ground_truth.png" alt="GT" loading="lazy" /></div></div></div><div class="col"><h3>Baseline</h3><div class="img-wrap"><div class="img-stack"><img src="selection_eval_baseline/predictions/ref_215/generated.png" alt="Baseline" loading="lazy" /></div></div><div class="metrics"><span class="badge">C 100%</span><span class="badge">T 0%</span><span class="badge">A 0%</span><span class="badge fail">4 组错误</span></div></div><div class="col"><h3>Step 1</h3><div class="img-wrap"><div class="img-stack"><img src="steps/step_0001/selection_eval/predictions/ref_215/generated.png" alt="Step 1" loading="lazy" /></div></div><div class="metrics"><span class="badge">C 0%</span><span class="badge">T 0%</span><span class="badge">A 0%</span><span class="badge fail">6 组错误</span></div></div><div class="col"><h3>Step 2</h3><div class="img-wrap"><div class="img-stack"><img src="steps/step_0002/selection_eval/predictions/ref_215/generated.png" alt="Step 2" loading="lazy" /></div></div><div class="metrics"><span class="badge">C 0%</span><span class="badge">T 0%</span><span class="badge">A 100%</span><span class="badge fail">3 组错误</span></div></div><div class="pw-row"><div class="pw"><strong>Step 1</strong> · baseline 更好 — 上一版整体更接近：保留了中央 guidance 网格和右下 Policy 标签，彩色衬线框文字也更像真值。候选漏了 guidance 网格和 Policy，多数标签改成黑色无衬线。</div><div class="pw"><strong>Step 2</strong> · baseline 更好 — 上一版字体和配色更接近：World Model / Policy 仍是真值的蓝/橙/绿；候选把这些标签改成黑色。</div></div></article><article class="row" data-id="ref_218" data-search="ref_218 best 上一版面板几何和文字排版更接近真值，间距和可读性更好。候选补了一些图标，但左上变宽、缺空格、公式更乱，右侧文字严重溢出。 best 上一版底部 reward 面板文字可读。候选下部所有面板文字严重溢出重叠。"><div class="meta"><span class="title">ref_218</span><span class="badge fail">Step 1：baseline 更好</span><span class="badge fail">Step 2：baseline 更好</span></div><div class="col"><h3>GT</h3><div class="img-wrap"><div class="img-stack"><img src="selection_eval_baseline/predictions/ref_218/ground_truth.png" alt="GT" loading="lazy" /></div></div></div><div class="col"><h3>Baseline</h3><div class="img-wrap"><div class="img-stack"><img src="selection_eval_baseline/predictions/ref_218/generated.png" alt="Baseline" loading="lazy" /></div></div><div class="metrics"><span class="badge">C 0%</span><span class="badge">T 0%</span><span class="badge">A 100%</span><span class="badge fail">4 组错误</span></div></div><div class="col"><h3>Step 1</h3><div class="img-wrap"><div class="img-stack"><img src="steps/step_0001/selection_eval/predictions/ref_218/generated.png" alt="Step 1" loading="lazy" /></div></div><div class="metrics"><span class="badge">C 0%</span><span class="badge">T 0%</span><span class="badge">A 100%</span><span class="badge fail">5 组错误</span></div></div><div class="col"><h3>Step 2</h3><div class="img-wrap"><div class="img-stack"><img src="steps/step_0002/selection_eval/predictions/ref_218/generated.png" alt="Step 2" loading="lazy" /></div></div><div class="metrics"><span class="badge">C 100%</span><span class="badge">T 0%</span><span class="badge">A 100%</span><span class="badge fail">1 组错误</span></div></div><div class="pw-row"><div class="pw"><strong>Step 1</strong> · baseline 更好 — 上一版面板几何和文字排版更接近真值，间距和可读性更好。候选补了一些图标，但左上变宽、缺空格、公式更乱，右侧文字严重溢出。</div><div class="pw"><strong>Step 2</strong> · baseline 更好 — 上一版底部 reward 面板文字可读。候选下部所有面板文字严重溢出重叠。</div></div></article><article class="row" data-id="ref_30" data-search="ref_30 best 上一版保留了正确的底部流程拓扑和向下的 tmask 连接。候选在 enhance / smusic / xmusic / tmask 附近出现反向或多余箭头，右侧蓝色阶段面板还被错误大缝切开。 best 上一版 tmask 与 s′music/smusic 标签正确。候选把 tmask 换成 adaptive λ，箭头反向或多余。"><div class="meta"><span class="title">ref_30</span><span class="badge fail">Step 1：baseline 更好</span><span class="badge fail">Step 2：baseline 更好</span></div><div class="col"><h3>GT</h3><div class="img-wrap"><div class="img-stack"><img src="selection_eval_baseline/predictions/ref_30/ground_truth.png" alt="GT" loading="lazy" /></div></div></div><div class="col"><h3>Baseline</h3><div class="img-wrap"><div class="img-stack"><img src="selection_eval_baseline/predictions/ref_30/generated.png" alt="Baseline" loading="lazy" /></div></div><div class="metrics"><span class="badge">C 0%</span><span class="badge">T 100%</span><span class="badge">A 0%</span><span class="badge fail">4 组错误</span></div></div><div class="col"><h3>Step 1</h3><div class="img-wrap"><div class="img-stack"><img src="steps/step_0001/selection_eval/predictions/ref_30/generated.png" alt="Step 1" loading="lazy" /></div></div><div class="metrics"><span class="badge">C 0%</span><span class="badge">T 100%</span><span class="badge">A 0%</span><span class="badge fail">4 组错误</span></div></div><div class="col"><h3>Step 2</h3><div class="img-wrap"><div class="img-stack"><img src="steps/step_0002/selection_eval/predictions/ref_30/generated.png" alt="Step 2" loading="lazy" /></div></div><div class="metrics"><span class="badge">C 0%</span><span class="badge">T 0%</span><span class="badge">A 0%</span><span class="badge fail">5 组错误</span></div></div><div class="pw-row"><div class="pw"><strong>Step 1</strong> · baseline 更好 — 上一版保留了正确的底部流程拓扑和向下的 TMask 连接。候选在 Enhance / SMusic / XMusic / TMask 附近出现反向或多余箭头，右侧蓝色阶段面板还被错误大缝切开。</div><div class="pw"><strong>Step 2</strong> · baseline 更好 — 上一版 TMask 与 S′Music/SMusic 标签正确。候选把 TMask 换成 Adaptive λ，箭头反向或多余。</div></div></article><article class="row" data-id="ref_79" data-search="ref_79 best 上一版光流补全漏斗和箭头拓扑更接近。候选出现明显错误的 x 形走线和图例重叠；彩色 memory 块的改进弥补不了这些回退。 candidate 候选在箭头拓扑和走线上更接近，尤其光流补全段，并恢复了 padded-video 胶片细节。"><div class="meta"><span class="title">ref_79</span><span class="badge fail">Step 1：baseline 更好</span><span class="badge ok">Step 2：候选更好</span></div><div class="col"><h3>GT</h3><div class="img-wrap"><div class="img-stack"><img src="selection_eval_baseline/predictions/ref_79/ground_truth.png" alt="GT" loading="lazy" /></div></div></div><div class="col"><h3>Baseline</h3><div class="img-wrap"><div class="img-stack"><img src="selection_eval_baseline/predictions/ref_79/generated.png" alt="Baseline" loading="lazy" /></div></div><div class="metrics"><span class="badge">C 0%</span><span class="badge">T 100%</span><span class="badge">A 0%</span><span class="badge fail">7 组错误</span></div></div><div class="col"><h3>Step 1</h3><div class="img-wrap"><div class="img-stack"><img src="steps/step_0001/selection_eval/predictions/ref_79/generated.png" alt="Step 1" loading="lazy" /></div></div><div class="metrics"><span class="badge">C 0%</span><span class="badge">T 0%</span><span class="badge">A 100%</span><span class="badge fail">5 组错误</span></div></div><div class="col"><h3>Step 2</h3><div class="img-wrap"><div class="img-stack"><img src="steps/step_0002/selection_eval/predictions/ref_79/generated.png" alt="Step 2" loading="lazy" /></div></div><div class="metrics"><span class="badge">C 0%</span><span class="badge">T 0%</span><span class="badge">A 100%</span><span class="badge fail">3 组错误</span></div></div><div class="pw-row"><div class="pw"><strong>Step 1</strong> · baseline 更好 — 上一版光流补全漏斗和箭头拓扑更接近。候选出现明显错误的 X 形走线和图例重叠；彩色 memory 块的改进弥补不了这些回退。</div><div class="pw"><strong>Step 2</strong> · 候选更好 — 候选在箭头拓扑和走线上更接近，尤其光流补全段，并恢复了 padded-video 胶片细节。</div></div></article><article class="row" data-id="test_129" data-search="test_129 best 上一版 tool 1 里雕像缩略图可见，top article 图标也更接近。候选把缩略图留空，文章图标填得过实。 best 上一版整体更接近。候选的 tool application 标题严重叠在 vlm-prf 框上，底部答案文字被裁切。"><div class="meta"><span class="title">test_129</span><span class="badge fail">Step 1：baseline 更好</span><span class="badge fail">Step 2：baseline 更好</span></div><div class="col"><h3>GT</h3><div class="img-wrap"><div class="img-stack"><img src="selection_eval_baseline/predictions/test_129/ground_truth.png" alt="GT" loading="lazy" /></div></div></div><div class="col"><h3>Baseline</h3><div class="img-wrap"><div class="img-stack"><img src="selection_eval_baseline/predictions/test_129/generated.png" alt="Baseline" loading="lazy" /></div></div><div class="metrics"><span class="badge">C 0%</span><span class="badge">T 0%</span><span class="badge">A 100%</span><span class="badge fail">3 组错误</span></div></div><div class="col"><h3>Step 1</h3><div class="img-wrap"><div class="img-stack"><img src="steps/step_0001/selection_eval/predictions/test_129/generated.png" alt="Step 1" loading="lazy" /></div></div><div class="metrics"><span class="badge">C 0%</span><span class="badge">T 100%</span><span class="badge">A 100%</span><span class="badge fail">1 组错误</span></div></div><div class="col"><h3>Step 2</h3><div class="img-wrap"><div class="img-stack"><img src="steps/step_0002/selection_eval/predictions/test_129/generated.png" alt="Step 2" loading="lazy" /></div></div><div class="metrics"><span class="badge">C 0%</span><span class="badge">T 0%</span><span class="badge">A 100%</span><span class="badge fail">3 组错误</span></div></div><div class="pw-row"><div class="pw"><strong>Step 1</strong> · baseline 更好 — 上一版 Tool 1 里雕像缩略图可见，Top Article 图标也更接近。候选把缩略图留空，文章图标填得过实。</div><div class="pw"><strong>Step 2</strong> · baseline 更好 — 上一版整体更接近。候选的 Tool Application 标题严重叠在 VLM-PRF 框上，底部答案文字被裁切。</div></div></article><article class="row" data-id="test_204" data-search="test_204 best 上一版整体更接近：保留了更多图标、标签、箭头和 soft-label 细节。候选大量符号缺失或损坏、格子空白、(c) 面板文字重叠。 best 上一版保留了组件颜色、数据集图像和 soft-label 结构。候选大量遗漏、右缘文字严重溢出。"><div class="meta"><span class="title">test_204</span><span class="badge fail">Step 1：baseline 更好</span><span class="badge fail">Step 2：baseline 更好</span></div><div class="col"><h3>GT</h3><div class="img-wrap"><div class="img-stack"><img src="selection_eval_baseline/predictions/test_204/ground_truth.png" alt="GT" loading="lazy" /></div></div></div><div class="col"><h3>Baseline</h3><div class="img-wrap"><div class="img-stack"><img src="selection_eval_baseline/predictions/test_204/generated.png" alt="Baseline" loading="lazy" /></div></div><div class="metrics"><span class="badge">C 0%</span><span class="badge">T 0%</span><span class="badge">A 100%</span><span class="badge fail">8 组错误</span></div></div><div class="col"><h3>Step 1</h3><div class="img-wrap"><div class="img-stack"><img src="steps/step_0001/selection_eval/predictions/test_204/generated.png" alt="Step 1" loading="lazy" /></div></div><div class="metrics"><span class="badge">C 12%</span><span class="badge">T 14%</span><span class="badge">A 0%</span><span class="badge fail">14 组错误</span></div></div><div class="col"><h3>Step 2</h3><div class="img-wrap"><div class="img-stack"><img src="steps/step_0002/selection_eval/predictions/test_204/generated.png" alt="Step 2" loading="lazy" /></div></div><div class="metrics"><span class="badge">C 0%</span><span class="badge">T 12%</span><span class="badge">A 100%</span><span class="badge fail">14 组错误</span></div></div><div class="pw-row"><div class="pw"><strong>Step 1</strong> · baseline 更好 — 上一版整体更接近：保留了更多图标、标签、箭头和 soft-label 细节。候选大量符号缺失或损坏、格子空白、(c) 面板文字重叠。</div><div class="pw"><strong>Step 2</strong> · baseline 更好 — 上一版保留了组件颜色、数据集图像和 soft-label 结构。候选大量遗漏、右缘文字严重溢出。</div></div></article><article class="row" data-id="test_279" data-search="test_279 best 上一版整体更接近。候选图标严重错位、重复，左上溢出，火焰符号散落到无关框上。 best 上一版 stage 2.1 的 speech encoder 标签仍在梯形内。候选把标签挪到外面。"><div class="meta"><span class="title">test_279</span><span class="badge fail">Step 1：baseline 更好</span><span class="badge fail">Step 2：baseline 更好</span></div><div class="col"><h3>GT</h3><div class="img-wrap"><div class="img-stack"><img src="selection_eval_baseline/predictions/test_279/ground_truth.png" alt="GT" loading="lazy" /></div></div></div><div class="col"><h3>Baseline</h3><div class="img-wrap"><div class="img-stack"><img src="selection_eval_baseline/predictions/test_279/generated.png" alt="Baseline" loading="lazy" /></div></div><div class="metrics"><span class="badge">C 0%</span><span class="badge">T 0%</span><span class="badge">A 100%</span><span class="badge fail">4 组错误</span></div></div><div class="col"><h3>Step 1</h3><div class="img-wrap"><div class="img-stack"><img src="steps/step_0001/selection_eval/predictions/test_279/generated.png" alt="Step 1" loading="lazy" /></div></div><div class="metrics"><span class="badge">C 0%</span><span class="badge">T 100%</span><span class="badge">A 100%</span><span class="badge fail">2 组错误</span></div></div><div class="col"><h3>Step 2</h3><div class="img-wrap"><div class="img-stack"><img src="steps/step_0002/selection_eval/predictions/test_279/generated.png" alt="Step 2" loading="lazy" /></div></div><div class="metrics"><span class="badge">C 0%</span><span class="badge">T 0%</span><span class="badge">A 100%</span><span class="badge fail">2 组错误</span></div></div><div class="pw-row"><div class="pw"><strong>Step 1</strong> · baseline 更好 — 上一版整体更接近。候选图标严重错位、重复，左上溢出，火焰符号散落到无关框上。</div><div class="pw"><strong>Step 2</strong> · baseline 更好 — 上一版 Stage 2.1 的 Speech Encoder 标签仍在梯形内。候选把标签挪到外面。</div></div></article><article class="row" data-id="test_40" data-search="test_40 best 上一版左侧图标和答案标记更靠近应在的阶段。候选多个机器人/答案图标错位，底部标记缺失。 best 上一版渲染成功；候选没有有效渲染。"><div class="meta"><span class="title">test_40</span><span class="badge fail">Step 1：baseline 更好</span><span class="badge fail">Step 2：baseline 更好</span></div><div class="col"><h3>GT</h3><div class="img-wrap"><div class="img-stack"><img src="selection_eval_baseline/predictions/test_40/ground_truth.png" alt="GT" loading="lazy" /></div></div></div><div class="col"><h3>Baseline</h3><div class="img-wrap"><div class="img-stack"><img src="selection_eval_baseline/predictions/test_40/generated.png" alt="Baseline" loading="lazy" /></div></div><div class="metrics"><span class="badge">C 0%</span><span class="badge">T 100%</span><span class="badge">A 100%</span><span class="badge fail">1 组错误</span></div></div><div class="col"><h3>Step 1</h3><div class="img-wrap"><div class="img-stack"><img src="steps/step_0001/selection_eval/predictions/test_40/generated.png" alt="Step 1" loading="lazy" /></div></div><div class="metrics"><span class="badge">C 0%</span><span class="badge">T 100%</span><span class="badge">A 0%</span><span class="badge fail">8 组错误</span></div></div><div class="col"><h3>Step 2</h3><div class="empty">无有效渲染</div><div class="metrics"><span class="badge fail">invalid</span><span class="badge">C 0%</span><span class="badge">T 0%</span><span class="badge">A 0%</span><span class="badge fail">1 组错误</span><span class="badge fail" title="error: SelectorError: (&lt;WhitespaceToken&gt;, &#x27;Expected a class name, got &lt;WhitespaceToken&gt;&#x27;)">生成失败</span></div></div><div class="pw-row"><div class="pw"><strong>Step 1</strong> · baseline 更好 — 上一版左侧图标和答案标记更靠近应在的阶段。候选多个机器人/答案图标错位，底部标记缺失。</div><div class="pw"><strong>Step 2</strong> · baseline 更好 — 上一版渲染成功；候选没有有效渲染。</div></div></article><article class="row" data-id="test_86" data-search="test_86 best 上一版渲染成功；候选没有有效渲染。 best 上一版下部投影和 teacher/student 区更干净。候选那里严重重叠、标签乱码。"><div class="meta"><span class="title">test_86</span><span class="badge fail">Step 1：baseline 更好</span><span class="badge fail">Step 2：baseline 更好</span></div><div class="col"><h3>GT</h3><div class="img-wrap"><div class="img-stack"><img src="selection_eval_baseline/predictions/test_86/ground_truth.png" alt="GT" loading="lazy" /></div></div></div><div class="col"><h3>Baseline</h3><div class="img-wrap"><div class="img-stack"><img src="selection_eval_baseline/predictions/test_86/generated.png" alt="Baseline" loading="lazy" /></div></div><div class="metrics"><span class="badge">C 0%</span><span class="badge">T 0%</span><span class="badge">A 0%</span><span class="badge fail">9 组错误</span></div></div><div class="col"><h3>Step 1</h3><div class="empty">无有效渲染</div><div class="metrics"><span class="badge fail">invalid</span><span class="badge">C 0%</span><span class="badge">T 0%</span><span class="badge">A 0%</span><span class="badge fail">1 组错误</span><span class="badge fail" title="error: AttributeError: &#x27;NoneType&#x27; object has no attribute &#x27;encode&#x27;">生成失败</span></div></div><div class="col"><h3>Step 2</h3><div class="img-wrap"><div class="img-stack"><img src="steps/step_0002/selection_eval/predictions/test_86/generated.png" alt="Step 2" loading="lazy" /></div></div><div class="metrics"><span class="badge">C 0%</span><span class="badge">T 0%</span><span class="badge">A 100%</span><span class="badge fail">6 组错误</span></div></div><div class="pw-row"><div class="pw"><strong>Step 1</strong> · baseline 更好 — 上一版渲染成功；候选没有有效渲染。</div><div class="pw"><strong>Step 2</strong> · baseline 更好 — 上一版下部投影和 teacher/student 区更干净。候选那里严重重叠、标签乱码。</div></div></article><article class="row" data-id="test_88" data-search="test_88 best 上一版整体更接近：树图保留了更多叶子和层级，右侧高亮路径节点颜色更准。候选文字截断/损坏更严重。 best 上一版白色文字可读、右侧树更完整。候选文字大面积截断/重叠。"><div class="meta"><span class="title">test_88</span><span class="badge fail">Step 1：baseline 更好</span><span class="badge fail">Step 2：baseline 更好</span></div><div class="col"><h3>GT</h3><div class="img-wrap"><div class="img-stack"><img src="selection_eval_baseline/predictions/test_88/ground_truth.png" alt="GT" loading="lazy" /></div></div></div><div class="col"><h3>Baseline</h3><div class="img-wrap"><div class="img-stack"><img src="selection_eval_baseline/predictions/test_88/generated.png" alt="Baseline" loading="lazy" /></div></div><div class="metrics"><span class="badge">C 0%</span><span class="badge">T 11%</span><span class="badge">A 100%</span><span class="badge fail">9 组错误</span></div></div><div class="col"><h3>Step 1</h3><div class="img-wrap"><div class="img-stack"><img src="steps/step_0001/selection_eval/predictions/test_88/generated.png" alt="Step 1" loading="lazy" /></div></div><div class="metrics"><span class="badge">C 0%</span><span class="badge">T 0%</span><span class="badge">A 0%</span><span class="badge fail">14 组错误</span></div></div><div class="col"><h3>Step 2</h3><div class="img-wrap"><div class="img-stack"><img src="steps/step_0002/selection_eval/predictions/test_88/generated.png" alt="Step 2" loading="lazy" /></div></div><div class="metrics"><span class="badge">C 0%</span><span class="badge">T 0%</span><span class="badge">A 0%</span><span class="badge fail">9 组错误</span></div></div><div class="pw-row"><div class="pw"><strong>Step 1</strong> · baseline 更好 — 上一版整体更接近：树图保留了更多叶子和层级，右侧高亮路径节点颜色更准。候选文字截断/损坏更严重。</div><div class="pw"><strong>Step 2</strong> · baseline 更好 — 上一版白色文字可读、右侧树更完整。候选文字大面积截断/重叠。</div></div></article>
+</main>
+<div class="lightbox" id="lb"><img alt="preview" /></div>
+<script>
+const idFilter = document.getElementById('idFilter');
+const q = document.getElementById('q');
+const count = document.getElementById('count');
+const rows = [...document.querySelectorAll('article.row')];
+[...new Set(rows.map(r => r.dataset.id))].forEach(id => {
+  const o = document.createElement('option'); o.value = id; o.textContent = id; idFilter.appendChild(o);
+});
+function apply() {
+  const id = idFilter.value, query = q.value.trim().toLowerCase();
+  let n = 0;
+  rows.forEach(r => {
+    const show = (id === 'all' || r.dataset.id === id) && (!query || r.dataset.search.includes(query));
+    r.style.display = show ? '' : 'none'; if (show) n++;
+  });
+  count.textContent = `显示 ${n} / ${rows.length} 条`;
+}
+idFilter.addEventListener('change', apply);
+q.addEventListener('input', apply);
+document.getElementById('main').addEventListener('click', e => {
+  const img = e.target.closest('img');
+  if (!img || !img.closest('.img-stack')) return;
+  const lb = document.getElementById('lb');
+  lb.querySelector('img').src = img.src;
+  lb.classList.add('open');
+});
+document.getElementById('lb').addEventListener('click', () => document.getElementById('lb').classList.remove('open'));
+apply();
+</script>
+</body>
+</html>
