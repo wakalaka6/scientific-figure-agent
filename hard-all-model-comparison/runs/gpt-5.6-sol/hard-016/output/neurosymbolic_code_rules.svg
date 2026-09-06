@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1061" viewBox="0 0 1920 1061">
+<title>NeuroSymbolic Learning of Code Rules</title>
+<desc>Editable vector reconstruction of a four-stage neuro-symbolic learning workflow.</desc>
+<defs>
+  <marker id="arrow-black" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,4 L0,8 Z" fill="#000"/></marker>
+  <marker id="arrow-black-start" markerWidth="8" markerHeight="8" refX="2" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M8,0 L0,4 L8,8 Z" fill="#000"/></marker>
+  <marker id="arrow-green" markerWidth="7" markerHeight="7" refX="5.5" refY="3.5" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L7,3.5 L0,7 Z" fill="#00C900"/></marker>
+  <marker id="arrow-green-start" markerWidth="7" markerHeight="7" refX="1.5" refY="3.5" orient="auto" markerUnits="strokeWidth"><path d="M7,0 L0,3.5 L7,7 Z" fill="#00C900"/></marker>
+  <marker id="arrow-red" markerWidth="7" markerHeight="7" refX="5.5" refY="3.5" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L7,3.5 L0,7 Z" fill="#E00000"/></marker>
+  <marker id="arrow-red-start" markerWidth="7" markerHeight="7" refX="1.5" refY="3.5" orient="auto" markerUnits="strokeWidth"><path d="M7,0 L0,3.5 L7,7 Z" fill="#E00000"/></marker>
+</defs>
+<rect x="4" y="18" width="1912" height="1042" rx="30" fill="#C9EC8B" stroke="#000000" stroke-width="4"/>
+<text text-anchor="middle" style="font-family:Arial,'Liberation Sans',sans-serif;font-size:40px;font-weight:700;fill:#000000;"><tspan x="960.0" y="67.2">NeuroSymbolic Learning of Code Rules</tspan></text>
+<rect x="23" y="88" width="578" height="401" rx="28" fill="#FFFFFF" stroke="#000000" stroke-width="4"/>
+<rect x="640" y="88" width="1266" height="409" rx="28" fill="#E8E8E8" stroke="#000000" stroke-width="4"/>
+<rect x="22" y="513" width="828" height="533" rx="28" fill="#FFFFFF" stroke="#000000" stroke-width="4"/>
+<rect x="868" y="513" width="1038" height="533" rx="28" fill="#E8E8E8" stroke="#000000" stroke-width="4"/>
+<text text-anchor="middle" style="font-family:Arial,'Liberation Sans',sans-serif;font-size:27px;font-weight:700;fill:#000000;"><tspan x="312.0" y="129.23499999999999">Stage 1. Exploration of Trajectory Data</tspan></text>
+<text text-anchor="middle" style="font-family:Arial,'Liberation Sans',sans-serif;font-size:28px;font-weight:700;fill:#000000;"><tspan x="1273.0" y="120.54">Stage 2. Learning Symbolic Knowledge</tspan></text>
+<text text-anchor="middle" style="font-family:Arial,'Liberation Sans',sans-serif;font-size:25px;font-weight:700;fill:#000000;"><tspan x="435.5" y="544.625">Stage 4. Code Rule Set Pruning via Maximum Set Coverage</tspan></text>
+<text text-anchor="middle" style="font-family:Arial,'Liberation Sans',sans-serif;font-size:26px;font-weight:700;fill:#000000;"><tspan x="1387.5" y="544.93">Stage 3. Translating Symbolic Knowledge to Code</tspan></text>
+<rect x="45" y="165" width="528" height="128" rx="20" fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-dasharray="11 10"/>
+<rect x="45" y="340" width="528" height="129" rx="20" fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-dasharray="11 10"/>
+<text text-anchor="middle" style="font-family:Arial,'Liberation Sans',sans-serif;font-size:29px;font-weight:700;fill:#000000;"><tspan x="315.0" y="190.845">Real Trajectory</tspan></text>
+<text text-anchor="middle" style="font-family:Arial,'Liberation Sans',sans-serif;font-size:27px;font-weight:700;fill:#000000;"><tspan x="317.0" y="447.235">Predicted Trajectory</tspan></text>
+<ellipse cx="91.0" cy="245.0" rx="36.0" ry="36.0" fill="#FFFFFF" stroke="#000000" stroke-width="4"/>
+<text text-anchor="middle" style="font-family:'Times New Roman','Liberation Serif',serif;font-size:38px;font-weight:400;fill:#000000;font-style:italic;"><tspan x="91.0" y="254.59">a₀</tspan></text>
+<ellipse cx="190.0" cy="245.0" rx="36.0" ry="36.0" fill="#FFFFFF" stroke="#000000" stroke-width="4"/>
+<text text-anchor="middle" style="font-family:'Times New Roman','Liberation Serif',serif;font-size:38px;font-weight:400;fill:#000000;font-style:italic;"><tspan x="190.0" y="254.59">o₁</tspan></text>
+<ellipse cx="289.0" cy="245.0" rx="36.0" ry="36.0" fill="#FFFFFF" stroke="#000000" stroke-width="4"/>
+<text text-anchor="middle" style="font-family:'Times New Roman','Liberation Serif',serif;font-size:38px;font-weight:400;fill:#000000;font-style:italic;"><tspan x="289.0" y="254.59">a₁</tspan></text>
+<ellipse cx="388.0" cy="245.0" rx="36.0" ry="36.0" fill="#FFFFFF" stroke="#000000" stroke-width="4"/>
+<text text-anchor="middle" style="font-family:'Times New Roman','Liberation Serif',serif;font-size:38px;font-weight:400;fill:#000000;font-style:italic;"><tspan x="388.0" y="254.59">o₂</tspan></text>
+<ellipse cx="528.0" cy="245.0" rx="36.0" ry="36.0" fill="#FFFFFF" stroke="#000000" stroke-width="4"/>
+<text text-anchor="middle" style="font-family:'Times New Roman','Liberation Serif',serif;font-size:38px;font-weight:400;fill:#000000;font-style:italic;"><tspan x="528.0" y="254.59">oₜ</tspan></text>
+<ellipse cx="91.0" cy="388.0" rx="36.0" ry="36.0" fill="#55E9E6" stroke="#000000" stroke-width="4"/>
+<text text-anchor="middle" style="font-family:'Times New Roman','Liberation Serif',serif;font-size:36px;font-weight:400;fill:#000000;font-style:italic;"><tspan x="91.0" y="396.98">â₀</tspan></text>
+<ellipse cx="190.0" cy="388.0" rx="36.0" ry="36.0" fill="#55E9E6" stroke="#000000" stroke-width="4"/>
+<text text-anchor="middle" style="font-family:'Times New Roman','Liberation Serif',serif;font-size:36px;font-weight:400;fill:#000000;font-style:italic;"><tspan x="190.0" y="396.98">ô₁</tspan></text>
+<ellipse cx="289.0" cy="388.0" rx="36.0" ry="36.0" fill="#F653A6" stroke="#000000" stroke-width="4"/>
+<text text-anchor="middle" style="font-family:'Times New Roman','Liberation Serif',serif;font-size:36px;font-weight:400;fill:#000000;font-style:italic;"><tspan x="289.0" y="396.98">â₁</tspan></text>
+<ellipse cx="388.0" cy="388.0" rx="36.0" ry="36.0" fill="#F653A6" stroke="#000000" stroke-width="4"/>
+<text text-anchor="middle" style="font-family:'Times New Roman','Liberation Serif',serif;font-size:36px;font-weight:400;fill:#000000;font-style:italic;"><tspan x="388.0" y="396.98">ô₂</tspan></text>
+<ellipse cx="528.0" cy="388.0" rx="36.0" ry="36.0" fill="#F653A6" stroke="#000000" stroke-width="4"/>
+<text text-anchor="middle" style="font-family:'Times New Roman','Liberation Serif',serif;font-size:36px;font-weight:400;fill:#000000;font-style:italic;"><tspan x="528.0" y="396.98">ôₜ</tspan></text>
+<text text-anchor="middle" style="font-family:Arial,'Liberation Sans',sans-serif;font-size:40px;font-weight:700;fill:#000000;"><tspan x="460.5" y="253.7">…</tspan></text>
+<text text-anchor="middle" style="font-family:Arial,'Liberation Sans',sans-serif;font-size:40px;font-weight:700;fill:#000000;"><tspan x="460.5" y="397.7">…</tspan></text>
+<line x1="190" y1="284" x2="190" y2="349" stroke="#00C900" stroke-width="5" marker-end="url(#arrow-green)" marker-start="url(#arrow-green-start)"/>
+<line x1="388" y1="284" x2="388" y2="349" stroke="#E00000" stroke-width="5" marker-end="url(#arrow-red)" marker-start="url(#arrow-red-start)"/>
+<line x1="528" y1="284" x2="528" y2="349" stroke="#E00000" stroke-width="5" marker-end="url(#arrow-red)" marker-start="url(#arrow-red-start)"/>
+<rect x="205" y="299" width="26" height="26" rx="4" fill="#00C900" stroke="#00C900" stroke-width="1"/>
+<polyline points="210,312 216,319 227,304" fill="none" stroke="#fff" stroke-width="4"/>
+<line x1="210" y1="312" x2="216" y2="319" stroke="#FFFFFF" stroke-width="4"/>
+<line x1="216" y1="319" x2="227" y2="304" stroke="#FFFFFF" stroke-width="4"/>
+<line x1="402.0" y1="299.0" x2="430.0" y2="327.0" stroke="#E00000" stroke-width="6"/>
+<line x1="430.0" y1="299.0" x2="402.0" y2="327.0" stroke="#E00000" stroke-width="6"/>
+<line x1="543.0" y1="299.0" x2="571.0" y2="327.0" stroke="#E00000" stroke-width="6"/>
+<line x1="571.0" y1="299.0" x2="543.0" y2="327.0" stroke="#E00000" stroke-width="6"/>
+<rect x="654" y="146" width="819" height="35" rx="9" fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-dasharray="11 10"/>
+<rect x="1492" y="146" width="396" height="35" rx="9" fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-dasharray="11 10"/>
+<text text-anchor="middle" style="font-family:Arial,'Liberation Sans',sans-serif;font-size:28px;font-weight:400;fill:#000000;"><tspan x="1063.0" y="171.04000000000002">Real trajectory  t = k : t</tspan></text>
+<text text-anchor="middle" style="font-family:'Times New Roman','Liberation Serif',serif;font-size:27px;font-weight:400;fill:#000000;"><tspan x="1690.0" y="170.73499999999999">oₜ in the real trajectory</tspan></text>
+<line x1="1064" y1="181" x2="1064" y2="204" stroke="#000000" stroke-width="4"/>
+<line x1="1688" y1="181" x2="1688" y2="204" stroke="#000000" stroke-width="4"/>
+<rect x="654" y="206" width="819" height="46" rx="6" fill="#F6C4C4" stroke="#000000" stroke-width="4"/>
+<rect x="1490" y="206" width="399" height="46" rx="6" fill="#E2D6E7" stroke="#000000" stroke-width="4"/>
+<text text-anchor="middle" style="font-family:Arial,'Liberation Sans',sans-serif;font-size:30px;font-weight:400;fill:#000000;"><tspan x="1063.5" y="238.15">LLM</tspan></text>
+<text text-anchor="middle" style="font-family:Arial,'Liberation Sans',sans-serif;font-size:30px;font-weight:400;fill:#000000;"><tspan x="1689.5" y="238.15">Program</tspan></text>
+<line x1="854" y1="252" x2="854" y2="277" stroke="#000000" stroke-width="4" marker-end="url(#arrow-black)"/>
+<line x1="1272" y1="252" x2="1272" y2="277" stroke="#000000" stroke-width="4" marker-end="url(#arrow-black)"/>
+<line x1="1689" y1="252" x2="1689" y2="277" stroke="#000000" stroke-width="4" marker-end="url(#arrow-black)"/>
+<rect x="654" y="279" width="402" height="203" rx="18" fill="#FFFFFF" stroke="#000000" stroke-width="4"/>
+<rect x="1071" y="279" width="402" height="203" rx="18" fill="#FFFFFF" stroke="#000000" stroke-width="4"/>
+<rect x="1489" y="279" width="401" height="203" rx="18" fill="#FFFFFF" stroke="#000000" stroke-width="4"/>
+<text text-anchor="middle" style="font-family:Arial,'Liberation Sans',sans-serif;font-size:27px;font-weight:700;fill:#000000;"><tspan x="855.0" y="304.735">Action Rules</tspan></text>
+<text text-anchor="middle" style="font-family:Arial,'Liberation Sans',sans-serif;font-size:27px;font-weight:700;fill:#000000;"><tspan x="1272.0" y="304.735">Knowledge Graph</tspan></text>
+<text text-anchor="middle" style="font-family:Arial,'Liberation Sans',sans-serif;font-size:27px;font-weight:700;fill:#000000;"><tspan x="1689.5" y="304.735">Scene Graph</tspan></text>
+<text text-anchor="start" style="font-family:'Courier New','Liberation Mono',monospace;font-size:24px;font-weight:700;fill:#000000;"><tspan x="665" y="337.12">1. For action &#x27;craft&#x27;,</tspan><tspan x="665" y="367.84000000000003">if the player does not</tspan><tspan x="665" y="398.56">have enough materials...</tspan><tspan x="665" y="429.28">the action will fail</tspan><tspan x="665" y="460.0">2. For action ...</tspan></text>
+<polygon points="1223,329 1242,319 1262,329 1242,341" fill="#8B653B" stroke="#5F4426" stroke-width="2"/>
+<polygon points="1223,329 1242,341 1242,365 1223,354" fill="#7B572E" stroke="#5F4426" stroke-width="2"/>
+<polygon points="1242,341 1262,329 1262,353 1242,365" fill="#9A7040" stroke="#5F4426" stroke-width="2"/>
+<polygon points="1346,330 1367,317 1389,329 1368,341" fill="#A75B30" stroke="#5D351C" stroke-width="2"/>
+<polygon points="1346,330 1368,341 1368,365 1346,354" fill="#7C4B25" stroke="#5D351C" stroke-width="2"/>
+<polygon points="1368,341 1389,329 1389,353 1368,365" fill="#8B532A" stroke="#5D351C" stroke-width="2"/>
+<line x1="1356" y1="323" x2="1379" y2="335" stroke="#4C2A16" stroke-width="2"/>
+<line x1="1379" y1="323" x2="1356" y2="335" stroke="#4C2A16" stroke-width="2"/>
+<line x1="1180" y1="361" x2="1160" y2="392" stroke="#5C431E" stroke-width="6"/>
+<line x1="1157" y1="364" x2="1184" y2="364" stroke="#6B5225" stroke-width="6"/>
+<line x1="1184" y1="364" x2="1196" y2="376" stroke="#6B5225" stroke-width="6"/>
+<polygon points="1286,378 1305,367 1327,378 1306,390" fill="#A7A7A7" stroke="#666666" stroke-width="2"/>
+<polygon points="1286,378 1306,390 1306,414 1286,402" fill="#8F8F8F" stroke="#666666" stroke-width="2"/>
+<polygon points="1306,390 1327,378 1327,402 1306,414" fill="#B3B3B3" stroke="#666666" stroke-width="2"/>
+<line x1="1267" y1="343" x2="1344" y2="342" stroke="#000000" stroke-width="2" marker-end="url(#arrow-black)"/>
+<line x1="1342" y1="351" x2="1191" y2="366" stroke="#000000" stroke-width="2" marker-end="url(#arrow-black)"/>
+<line x1="1282" y1="389" x2="1191" y2="389" stroke="#000000" stroke-width="2" marker-end="url(#arrow-black)"/>
+<line x1="1284" y1="378" x2="1188" y2="378" stroke="#000000" stroke-width="2" marker-end="url(#arrow-black)"/>
+<text text-anchor="start" style="font-family:'Courier New','Liberation Mono',monospace;font-size:23px;font-weight:700;fill:#000000;"><tspan x="1080" y="426.24">&quot;nodes&quot;: [{&quot;id&quot;:1,wood}..]</tspan><tspan x="1080" y="454.99">&quot;edges&quot;: [(1,2),(2,3),...]</tspan></text>
+<line x1="1620" y1="333" x2="1776" y2="338" stroke="#9B72AF" stroke-width="4"/>
+<line x1="1620" y1="333" x2="1573" y2="385" stroke="#9BBCE8" stroke-width="4"/>
+<line x1="1620" y1="333" x2="1687" y2="388" stroke="#9BBCE8" stroke-width="4"/>
+<line x1="1777" y1="338" x2="1820" y2="386" stroke="#9BBCE8" stroke-width="4"/>
+<rect x="1571" y="315" width="102" height="34" rx="17" fill="#9B72AF" stroke="#9B72AF" stroke-width="1"/>
+<rect x="1729" y="318" width="98" height="34" rx="17" fill="#9B72AF" stroke="#9B72AF" stroke-width="1"/>
+<rect x="1518" y="369" width="101" height="34" rx="17" fill="#9BBCE8" stroke="#9BBCE8" stroke-width="1"/>
+<rect x="1638" y="374" width="104" height="34" rx="17" fill="#9BBCE8" stroke="#9BBCE8" stroke-width="1"/>
+<rect x="1769" y="369" width="101" height="34" rx="17" fill="#9BBCE8" stroke="#9BBCE8" stroke-width="1"/>
+<text text-anchor="middle" style="font-family:Arial,'Liberation Sans',sans-serif;font-size:26px;font-weight:400;fill:#FFFFFF;"><tspan x="1622.0" y="339.93">plains</tspan></text>
+<text text-anchor="middle" style="font-family:Arial,'Liberation Sans',sans-serif;font-size:26px;font-weight:400;fill:#FFFFFF;"><tspan x="1778.0" y="342.93">desert</tspan></text>
+<text text-anchor="middle" style="font-family:Arial,'Liberation Sans',sans-serif;font-size:25px;font-weight:400;fill:#FFFFFF;"><tspan x="1568.5" y="393.625">sheep</tspan></text>
+<text text-anchor="middle" style="font-family:Arial,'Liberation Sans',sans-serif;font-size:25px;font-weight:400;fill:#FFFFFF;"><tspan x="1690.0" y="398.625">zombie</tspan></text>
+<text text-anchor="middle" style="font-family:Arial,'Liberation Sans',sans-serif;font-size:25px;font-weight:400;fill:#FFFFFF;"><tspan x="1819.5" y="393.625">sand</tspan></text>
+<text text-anchor="start" style="font-family:'Courier New','Liberation Mono',monospace;font-size:22px;font-weight:700;fill:#000000;"><tspan x="1497" y="429.36">&quot;nodes&quot;: [{&quot;id&quot;:1,plains}]</tspan><tspan x="1497" y="457.96000000000004">&quot;edges&quot;: [(1,2),(2,3),...]</tspan></text>
+<ellipse cx="189.5" cy="740.5" rx="140.5" ry="154.5" fill="#FFD866" stroke="#53565A" stroke-width="4" stroke-dasharray="11 10"/>
+<ellipse cx="614.0" cy="742.0" rx="212.0" ry="167.0" fill="#FFD866" stroke="#53565A" stroke-width="4" stroke-dasharray="11 10"/>
+<ellipse cx="377.0" cy="860.5" rx="83.0" ry="85.5" fill="#E6E6E6" stroke="#53565A" stroke-width="4" stroke-dasharray="11 10"/>
+<ellipse cx="604.0" cy="721.5" rx="84.0" ry="87.5" fill="#E6E6E6" stroke="#53565A" stroke-width="4" stroke-dasharray="11 10"/>
+<ellipse cx="128.0" cy="649.0" rx="11.0" ry="11.0" fill="#F653A6" stroke="#000000" stroke-width="3"/>
+<ellipse cx="188.0" cy="630.0" rx="11.0" ry="11.0" fill="#F653A6" stroke="#000000" stroke-width="3"/>
+<ellipse cx="228.0" cy="664.0" rx="11.0" ry="11.0" fill="#F653A6" stroke="#000000" stroke-width="3"/>
+<ellipse cx="113.0" cy="707.0" rx="11.0" ry="11.0" fill="#F653A6" stroke="#000000" stroke-width="3"/>
+<ellipse cx="172.0" cy="693.0" rx="11.0" ry="11.0" fill="#F653A6" stroke="#000000" stroke-width="3"/>
+<ellipse cx="269.0" cy="708.0" rx="11.0" ry="11.0" fill="#F653A6" stroke="#000000" stroke-width="3"/>
+<ellipse cx="139.0" cy="741.0" rx="11.0" ry="11.0" fill="#F653A6" stroke="#000000" stroke-width="3"/>
+<ellipse cx="274.0" cy="748.0" rx="11.0" ry="11.0" fill="#F653A6" stroke="#000000" stroke-width="3"/>
+<ellipse cx="266.0" cy="792.0" rx="11.0" ry="11.0" fill="#F653A6" stroke="#000000" stroke-width="3"/>
+<ellipse cx="231.0" cy="847.0" rx="11.0" ry="11.0" fill="#F653A6" stroke="#000000" stroke-width="3"/>
+<ellipse cx="93.0" cy="778.0" rx="11.0" ry="11.0" fill="#55E9E6" stroke="#000000" stroke-width="3"/>
+<ellipse cx="206.0" cy="727.0" rx="11.0" ry="11.0" fill="#55E9E6" stroke="#000000" stroke-width="3"/>
+<ellipse cx="151.0" cy="855.0" rx="11.0" ry="11.0" fill="#55E9E6" stroke="#000000" stroke-width="3"/>
+<ellipse cx="456.0" cy="634.0" rx="11.0" ry="11.0" fill="#F653A6" stroke="#000000" stroke-width="3"/>
+<ellipse cx="514.0" cy="625.0" rx="11.0" ry="11.0" fill="#F653A6" stroke="#000000" stroke-width="3"/>
+<ellipse cx="595.0" cy="619.0" rx="11.0" ry="11.0" fill="#F653A6" stroke="#000000" stroke-width="3"/>
+<ellipse cx="449.0" cy="696.0" rx="11.0" ry="11.0" fill="#F653A6" stroke="#000000" stroke-width="3"/>
+<ellipse cx="508.0" cy="695.0" rx="11.0" ry="11.0" fill="#F653A6" stroke="#000000" stroke-width="3"/>
+<ellipse cx="737.0" cy="682.0" rx="11.0" ry="11.0" fill="#F653A6" stroke="#000000" stroke-width="3"/>
+<ellipse cx="468.0" cy="778.0" rx="11.0" ry="11.0" fill="#F653A6" stroke="#000000" stroke-width="3"/>
+<ellipse cx="539.0" cy="819.0" rx="11.0" ry="11.0" fill="#F653A6" stroke="#000000" stroke-width="3"/>
+<ellipse cx="689.0" cy="803.0" rx="11.0" ry="11.0" fill="#F653A6" stroke="#000000" stroke-width="3"/>
+<ellipse cx="781.0" cy="812.0" rx="11.0" ry="11.0" fill="#F653A6" stroke="#000000" stroke-width="3"/>
+<ellipse cx="606.0" cy="673.0" rx="11.0" ry="11.0" fill="#55E9E6" stroke="#000000" stroke-width="3"/>
+<ellipse cx="572.0" cy="774.0" rx="11.0" ry="11.0" fill="#55E9E6" stroke="#000000" stroke-width="3"/>
+<ellipse cx="615.0" cy="778.0" rx="11.0" ry="11.0" fill="#55E9E6" stroke="#000000" stroke-width="3"/>
+<ellipse cx="335.0" cy="838.0" rx="11.0" ry="11.0" fill="#55E9E6" stroke="#000000" stroke-width="3"/>
+<ellipse cx="380.0" cy="810.0" rx="11.0" ry="11.0" fill="#55E9E6" stroke="#000000" stroke-width="3"/>
+<ellipse cx="418.0" cy="842.0" rx="11.0" ry="11.0" fill="#55E9E6" stroke="#000000" stroke-width="3"/>
+<ellipse cx="329.0" cy="901.0" rx="11.0" ry="11.0" fill="#55E9E6" stroke="#000000" stroke-width="3"/>
+<ellipse cx="391.0" cy="902.0" rx="11.0" ry="11.0" fill="#55E9E6" stroke="#000000" stroke-width="3"/>
+<text text-anchor="middle" style="font-family:Arial,'Liberation Sans',sans-serif;font-size:25px;font-weight:700;fill:#000000;"><tspan x="171.0" y="821.625">CodeRule_2</tspan></text>
+<text text-anchor="middle" style="font-family:Arial,'Liberation Sans',sans-serif;font-size:25px;font-weight:700;fill:#000000;"><tspan x="687.5" y="870.625">CodeRule_1</tspan></text>
+<text text-anchor="middle" style="font-family:Arial,'Liberation Sans',sans-serif;font-size:24px;font-weight:700;fill:#000000;"><tspan x="607.0" y="728.32">CodeRule_0</tspan></text>
+<text text-anchor="middle" style="font-family:Arial,'Liberation Sans',sans-serif;font-size:24px;font-weight:700;fill:#000000;"><tspan x="374.5" y="868.32">CodeRule_i</tspan></text>
+<ellipse cx="59.0" cy="979.0" rx="13.0" ry="13.0" fill="#FFD866" stroke="#53565A" stroke-width="3" stroke-dasharray="11 10"/>
+<text text-anchor="middle" style="font-family:Arial,'Liberation Sans',sans-serif;font-size:30px;font-weight:700;fill:#000000;"><tspan x="86.5" y="987.15">/</tspan></text>
+<ellipse cx="112.0" cy="979.0" rx="13.0" ry="13.0" fill="#E6E6E6" stroke="#53565A" stroke-width="3" stroke-dasharray="11 10"/>
+<text text-anchor="start" style="font-family:Arial,'Liberation Sans',sans-serif;font-size:26px;font-weight:700;fill:#000000;"><tspan x="137" y="985.43">Regions covered by selected/dropped CodeRules</tspan></text>
+<ellipse cx="59.5" cy="1018.5" rx="13.5" ry="13.5" fill="#55E9E6" stroke="#000000" stroke-width="3"/>
+<text text-anchor="middle" style="font-family:Arial,'Liberation Sans',sans-serif;font-size:30px;font-weight:700;fill:#000000;"><tspan x="86.5" y="1025.65">/</tspan></text>
+<ellipse cx="112.5" cy="1018.5" rx="13.5" ry="13.5" fill="#F653A6" stroke="#000000" stroke-width="3"/>
+<text text-anchor="start" style="font-family:Arial,'Liberation Sans',sans-serif;font-size:25px;font-weight:700;fill:#000000;"><tspan x="137" y="1025.125">Transitions can/cannot be predicted by world model</tspan></text>
+<rect x="912" y="562" width="955" height="147" rx="13" fill="#FFFFFF" stroke="#000000" stroke-width="4"/>
+<rect x="953" y="572" width="94" height="30" rx="0" fill="#FFD0A3" stroke="#FFD0A3" stroke-width="0"/>
+<rect x="1567" y="572" width="236" height="30" rx="0" fill="#FFD0A3" stroke="#FFD0A3" stroke-width="0"/>
+<rect x="953" y="665" width="82" height="31" rx="0" fill="#FFD0A3" stroke="#FFD0A3" stroke-width="0"/>
+<rect x="1080" y="665" width="205" height="31" rx="0" fill="#FFD0A3" stroke="#FFD0A3" stroke-width="0"/>
+<rect x="1317" y="665" width="237" height="31" rx="0" fill="#FFD0A3" stroke="#FFD0A3" stroke-width="0"/>
+<rect x="1582" y="665" width="221" height="31" rx="0" fill="#FFD0A3" stroke="#FFD0A3" stroke-width="0"/>
+<text text-anchor="start" style="font-family:'Courier New','Liberation Mono',monospace;font-size:25px;font-weight:700;fill:#000000;"><tspan x="953" y="593.625">Prompt:</tspan></text>
+<text text-anchor="start" style="font-family:'Courier New','Liberation Mono',monospace;font-size:25px;font-weight:700;fill:#000000;"><tspan x="1080" y="593.625">Implement the learned rules in</tspan></text>
+<text text-anchor="start" style="font-family:'Courier New','Liberation Mono',monospace;font-size:25px;font-weight:700;fill:#000000;"><tspan x="1567" y="593.625">Python function</tspan></text>
+<text text-anchor="start" style="font-family:'Courier New','Liberation Mono',monospace;font-size:25px;font-weight:700;fill:#000000;"><tspan x="953" y="624.125">to evaluate a observation and action, optionally using</tspan></text>
+<text text-anchor="start" style="font-family:'Courier New','Liberation Mono',monospace;font-size:25px;font-weight:700;fill:#000000;"><tspan x="953" y="655.125">the Knowledge Graph or Scene Graph as extra arguments.</tspan></text>
+<text text-anchor="start" style="font-family:'Courier New','Liberation Mono',monospace;font-size:25px;font-weight:700;fill:#000000;"><tspan x="953" y="687.625">Input:</tspan></text>
+<text text-anchor="start" style="font-family:'Courier New','Liberation Mono',monospace;font-size:25px;font-weight:700;fill:#000000;"><tspan x="1064" y="687.625">[</tspan></text>
+<text text-anchor="start" style="font-family:'Courier New','Liberation Mono',monospace;font-size:25px;font-weight:700;fill:#000000;"><tspan x="1080" y="687.625">textual rules</tspan></text>
+<text text-anchor="start" style="font-family:'Courier New','Liberation Mono',monospace;font-size:25px;font-weight:700;fill:#000000;"><tspan x="1286" y="687.625">,</tspan></text>
+<text text-anchor="start" style="font-family:'Courier New','Liberation Mono',monospace;font-size:25px;font-weight:700;fill:#000000;"><tspan x="1317" y="687.625">knowledge_graph</tspan></text>
+<text text-anchor="start" style="font-family:'Courier New','Liberation Mono',monospace;font-size:25px;font-weight:700;fill:#000000;"><tspan x="1554" y="687.625">,</tspan></text>
+<text text-anchor="start" style="font-family:'Courier New','Liberation Mono',monospace;font-size:25px;font-weight:700;fill:#000000;"><tspan x="1582" y="687.625">scene_graph</tspan></text>
+<text text-anchor="start" style="font-family:'Courier New','Liberation Mono',monospace;font-size:25px;font-weight:700;fill:#000000;"><tspan x="1803" y="687.625">]</tspan></text>
+<line x1="1390" y1="709" x2="1390" y2="726" stroke="#000000" stroke-width="4"/>
+<rect x="912" y="727" width="957" height="46" rx="6" fill="#F6C4C4" stroke="#000000" stroke-width="4"/>
+<text text-anchor="middle" style="font-family:Arial,'Liberation Sans',sans-serif;font-size:30px;font-weight:400;fill:#000000;"><tspan x="1390.5" y="759.15">LLM</tspan></text>
+<line x1="1391" y1="773" x2="1391" y2="796" stroke="#000000" stroke-width="4" marker-end="url(#arrow-black)"/>
+<rect x="912" y="798" width="957" height="233" rx="15" fill="#FFFFFF" stroke="#000000" stroke-width="4"/>
+<rect x="953" y="807" width="96" height="30" rx="0" fill="#FFD0A3" stroke="#FFD0A3" stroke-width="0"/>
+<rect x="1081" y="807" width="170" height="30" rx="0" fill="#CFF39A" stroke="#CFF39A" stroke-width="0"/>
+<rect x="953" y="838" width="835" height="30" rx="0" fill="#CFF39A" stroke="#CFF39A" stroke-width="0"/>
+<rect x="953" y="935" width="770" height="30" rx="0" fill="#CFF39A" stroke="#CFF39A" stroke-width="0"/>
+<text text-anchor="start" style="font-family:'Courier New','Liberation Mono',monospace;font-size:24px;font-weight:700;fill:#000000;"><tspan x="953" y="829.32">Output:</tspan></text>
+<text text-anchor="start" style="font-family:'Courier New','Liberation Mono',monospace;font-size:24px;font-weight:700;fill:#000000;"><tspan x="1050" y="829.32">[</tspan></text>
+<text text-anchor="start" style="font-family:'Courier New','Liberation Mono',monospace;font-size:24px;font-weight:700;fill:#000000;"><tspan x="1081" y="829.32">code rules</tspan></text>
+<text text-anchor="start" style="font-family:'Courier New','Liberation Mono',monospace;font-size:24px;font-weight:700;fill:#000000;"><tspan x="1251" y="829.32">]</tspan></text>
+<text text-anchor="start" style="font-family:'Courier New','Liberation Mono',monospace;font-size:24px;font-weight:700;fill:#000000;"><tspan x="953" y="860.32">def CodeRule_0(observation, action, knowledge_graph):</tspan></text>
+<text text-anchor="start" style="font-family:'Courier New','Liberation Mono',monospace;font-size:23px;font-weight:700;fill:#000000;"><tspan x="1017" y="893.015">if state[&quot;inventory&quot;].get(material, 0) &lt; quantity:</tspan></text>
+<text text-anchor="start" style="font-family:'Courier New','Liberation Mono',monospace;font-size:24px;font-weight:700;fill:#000000;"><tspan x="1055" y="920.82">...</tspan></text>
+<text text-anchor="start" style="font-family:'Courier New','Liberation Mono',monospace;font-size:24px;font-weight:700;fill:#000000;"><tspan x="953" y="957.32">def CodeRule_i(observation, action, scene_graph):</tspan></text>
+<text text-anchor="start" style="font-family:'Courier New','Liberation Mono',monospace;font-size:23px;font-weight:700;fill:#000000;"><tspan x="1017" y="990.015">if &quot;Unexplored&quot; not in location_items:</tspan></text>
+<text text-anchor="start" style="font-family:'Courier New','Liberation Mono',monospace;font-size:24px;font-weight:700;fill:#000000;"><tspan x="1055" y="1017.82">...</tspan></text>
+</svg>

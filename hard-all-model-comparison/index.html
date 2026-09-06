@@ -1,0 +1,562 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="hard_all 数据集的参考图与三种 Codex 模型重建结果对比。" />
+    <title>Hard All · 模型重建对比</title>
+    <style>
+:root {
+  color-scheme: light;
+  --page: #f4f5f6;
+  --paper: #ffffff;
+  --ink: #181a1d;
+  --muted: #70757c;
+  --line: #d8dadd;
+  --line-soft: #eceef0;
+  --green: #3f7836;
+  --amber: #ad6a00;
+  --red: #b33a3a;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--page);
+  color: var(--ink);
+  font: 16px/1.45 Arial, Helvetica, sans-serif;
+}
+
+button, input, select { font: inherit; }
+a { color: inherit; }
+
+.topbar {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 1880px;
+  margin: 0 auto;
+  padding: 1.8rem 1.5rem 1.15rem;
+}
+
+.eyebrow {
+  margin: 0 0 0.3rem;
+  color: var(--muted);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+}
+
+h1 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2rem, 3.2vw, 3.25rem);
+  line-height: 1;
+  letter-spacing: -0.035em;
+}
+
+.summary {
+  display: flex;
+  gap: 1.4rem;
+  color: var(--muted);
+  font-size: 0.82rem;
+  text-align: right;
+}
+
+.summary strong {
+  display: block;
+  color: var(--ink);
+  font-size: 1.05rem;
+}
+
+main {
+  max-width: 1880px;
+  margin: 0 auto 3rem;
+  background: var(--paper);
+  border: 1px solid var(--line-soft);
+  box-shadow: 0 2px 12px rgba(22, 28, 34, 0.08);
+}
+
+.controls {
+  display: flex;
+  align-items: end;
+  gap: 0.9rem;
+  padding: 0.8rem 1rem;
+  border-bottom: 1px solid var(--line-soft);
+}
+
+.search-field, .select-field {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+input, select {
+  min-height: 2.2rem;
+  padding: 0.4rem 0.65rem;
+  border: 1px solid var(--line);
+  border-radius: 0.2rem;
+  background: #fff;
+  color: var(--ink);
+  outline: none;
+}
+
+input { width: min(24rem, 38vw); }
+input:focus, select:focus { border-color: #666; }
+
+.model-totals {
+  display: flex;
+  gap: 1rem;
+  margin-left: auto;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.model-total strong { color: var(--ink); }
+
+.column-guide-scroll { overflow-x: auto; }
+
+.column-guide {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(270px, 1fr));
+  min-width: 1120px;
+  padding: 0 1rem;
+  border-bottom: 1px dashed #aeb2b7;
+}
+
+.column-guide strong {
+  padding: 0.65rem 0.75rem;
+  border-right: 1px dashed #b8bbc0;
+  font-size: 1.08rem;
+  text-align: center;
+}
+
+.column-guide strong:first-child { font-weight: 800; }
+.column-guide strong:last-child { border-right: 0; }
+
+.samples { padding: 0 1rem; }
+
+.sample { border-bottom: 1px solid var(--line); }
+.sample:last-child { border-bottom: 0; }
+
+.sample-header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.7rem;
+  padding: 0.65rem 0.35rem 0.35rem;
+}
+
+.sample-id {
+  flex: none;
+  color: var(--green);
+  font: 700 0.75rem/1 ui-monospace, SFMono-Regular, Menlo, monospace;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.sample h2 {
+  margin: 0;
+  overflow: hidden;
+  font-size: 0.88rem;
+  font-weight: 500;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dimensions {
+  flex: none;
+  margin-left: auto;
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+
+.comparison-scroll { overflow-x: auto; }
+
+.comparison-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(270px, 1fr));
+  min-width: 1120px;
+}
+
+.visual-card {
+  min-width: 0;
+  padding: 0.45rem 0.75rem 0.7rem;
+  border-right: 1px dashed #b8bbc0;
+}
+
+.visual-card:last-child { border-right: 0; }
+
+.canvas {
+  display: grid;
+  place-items: center;
+  height: clamp(190px, 18vw, 315px);
+  background: #fff;
+}
+
+.canvas img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  background: #fff;
+  cursor: zoom-in;
+}
+
+.empty {
+  display: grid;
+  gap: 0.2rem;
+  place-items: center;
+  color: #9a9da1;
+  font-size: 0.82rem;
+  text-align: center;
+}
+
+.empty strong { color: #676b70; font-weight: 600; }
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.7rem;
+  min-height: 1.7rem;
+  padding-top: 0.35rem;
+  color: var(--muted);
+  font-size: 0.72rem;
+}
+
+.state {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.state::before {
+  width: 0.42rem;
+  height: 0.42rem;
+  border-radius: 50%;
+  background: #a4a7ab;
+  content: "";
+}
+
+.state[data-state="complete"]::before { background: var(--green); }
+.state[data-state="preview"]::before,
+.state[data-state="running"]::before { background: var(--amber); }
+.state[data-state="failed"]::before { background: var(--red); }
+
+.file-links { display: flex; gap: 0.55rem; }
+
+.file-links a {
+  color: #44484d;
+  text-decoration-color: #b7b9bc;
+  text-underline-offset: 0.15rem;
+}
+
+.file-links a:hover { color: var(--green); }
+
+.loading, .no-results {
+  margin: 3rem;
+  color: var(--muted);
+  text-align: center;
+}
+
+.lightbox {
+  width: calc(100vw - 2rem);
+  height: calc(100vh - 2rem);
+  max-width: none;
+  max-height: none;
+  padding: 0;
+  border: 1px solid #aaa;
+  background: #fff;
+  color: var(--ink);
+}
+
+.lightbox::backdrop { background: rgba(0, 0, 0, 0.7); }
+
+.lightbox-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: 3.6rem;
+  padding: 0.6rem 0.9rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.lightbox-bar strong, .lightbox-bar span { display: block; }
+.lightbox-bar span { color: var(--muted); font-size: 0.78rem; }
+.lightbox-actions { display: flex; align-items: center; gap: 0.6rem; }
+
+.lightbox-actions a, .lightbox-actions button {
+  padding: 0.4rem 0.65rem;
+  border: 1px solid #aaa;
+  background: #fff;
+  color: var(--ink);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.lightbox-stage {
+  display: grid;
+  place-items: center;
+  height: calc(100% - 3.6rem);
+  overflow: auto;
+  padding: 1rem;
+  background: #f2f2f2;
+}
+
+.lightbox-stage img { max-width: 100%; max-height: 100%; background: #fff; }
+
+@media (max-width: 820px) {
+  .topbar { align-items: flex-start; flex-direction: column; }
+  .summary { text-align: left; }
+  .controls { align-items: stretch; flex-direction: column; }
+  .search-field, .select-field { justify-content: space-between; }
+  input { width: 70%; }
+  .model-totals { margin-left: 0; flex-wrap: wrap; }
+  .dimensions { display: none; }
+}
+
+</style>
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">HARD ALL BENCHMARK</p>
+        <h1>Image to SVG Generation</h1>
+      </div>
+      <div class="summary" id="summary" aria-live="polite"></div>
+    </header>
+
+    <main>
+      <section class="controls" aria-label="结果筛选">
+        <label class="search-field">
+          <span>查找</span>
+          <input id="search" type="search" placeholder="编号或论文标题" autocomplete="off" />
+        </label>
+        <label class="select-field">
+          <span>显示</span>
+          <select id="filter">
+            <option value="all">全部样本</option>
+            <option value="available">已有任一结果</option>
+            <option value="complete">三个模型均有结果</option>
+            <option value="active">生成中或失败</option>
+          </select>
+        </label>
+        <div class="model-totals" id="model-totals"></div>
+      </section>
+
+      <div class="column-guide-scroll" aria-hidden="true">
+        <div class="column-guide">
+          <strong>Input Image</strong>
+          <strong>GPT-6 Astra</strong>
+          <strong>GPT-5.6 Sol</strong>
+          <strong>GPT-5.6 Luna</strong>
+        </div>
+      </div>
+
+      <p class="loading" id="loading">正在读取结果…</p>
+      <section class="samples" id="samples" aria-live="polite"></section>
+    </main>
+
+    <dialog class="lightbox" id="lightbox">
+      <div class="lightbox-bar">
+        <div>
+          <strong id="lightbox-title"></strong>
+          <span id="lightbox-meta"></span>
+        </div>
+        <div class="lightbox-actions">
+          <a id="lightbox-open" target="_blank" rel="noreferrer">打开原文件</a>
+          <button id="lightbox-close" type="button" aria-label="关闭大图">关闭</button>
+        </div>
+      </div>
+      <div class="lightbox-stage">
+        <img id="lightbox-image" alt="" />
+      </div>
+    </dialog>
+
+    <script>window.__STATIC_RESULTS__ = {"models": [{"id": "gpt-6-astra", "label": "GPT-6 Astra"}, {"id": "gpt-5.6-sol", "label": "GPT-5.6 Sol"}, {"id": "gpt-5.6-luna", "label": "GPT-5.6 Luna"}], "items": [{"id": "hard-001", "title": "A Set of Generalized Components to Achieve Effective Poison-only Clean-label Backdoor Attacks with Collaborative Sample Selection and Triggers", "filename": "A Set of Generalized Components to Achieve Effective Poison-only Clean-label Backdoor Attacks with Collaborative Sample Selection and Triggers_diagram.jpg", "size": [1905, 1102], "reference": "./references/hard-001.jpg", "results": [{"model": "gpt-6-astra", "state": "complete", "svg": "./runs/gpt-6-astra/hard-001/output/reconstructed_diagram.svg", "pptx": "./runs/gpt-6-astra/hard-001/output/reconstructed_diagram.pptx", "trace": null, "elapsed_seconds": 955.189, "updated_at": 1788704337.870267}, {"model": "gpt-5.6-sol", "state": "complete", "svg": "./runs/gpt-5.6-sol/hard-001/output/poison_clean_label_diagram_editable.svg", "pptx": "./runs/gpt-5.6-sol/hard-001/output/poison_clean_label_diagram_editable.pptx", "trace": null, "elapsed_seconds": 493.629, "updated_at": 1788703876.2186167}, {"model": "gpt-5.6-luna", "state": "complete", "svg": "./runs/gpt-5.6-luna/hard-001/output/generalized_components_rebuild.svg", "pptx": "./runs/gpt-5.6-luna/hard-001/output/generalized_components_rebuild.pptx", "trace": null, "elapsed_seconds": 451.896, "updated_at": 1788703834.4934669}]}, {"id": "hard-002", "title": "BeyondMix Leveraging Structural Priors and Long-Range Dependencies for Domain-Invariant LiDAR Segmentation", "filename": "BeyondMix Leveraging Structural Priors and Long-Range Dependencies for Domain-Invariant LiDAR Segmentation_diagram.jpg", "size": [1911, 971], "reference": "./references/hard-002.jpg", "results": [{"model": "gpt-6-astra", "state": "complete", "svg": "./runs/gpt-6-astra/hard-002/output/BeyondMix_editable.svg", "pptx": "./runs/gpt-6-astra/hard-002/output/BeyondMix_editable.pptx", "trace": null, "elapsed_seconds": 820.773, "updated_at": 1788704203.3927875}, {"model": "gpt-5.6-sol", "state": "complete", "svg": "./runs/gpt-5.6-sol/hard-002/output/beyondmix_diagram_editable.svg", "pptx": "./runs/gpt-5.6-sol/hard-002/output/beyondmix_diagram_editable.pptx", "trace": null, "elapsed_seconds": 625.825, "updated_at": 1788704008.4310908}, {"model": "gpt-5.6-luna", "state": "complete", "svg": "./runs/gpt-5.6-luna/hard-002/output/beyondmix_diagram_recreated.svg", "pptx": "./runs/gpt-5.6-luna/hard-002/output/beyondmix_diagram_recreated.pptx", "trace": null, "elapsed_seconds": 528.594, "updated_at": 1788703911.2047422}]}, {"id": "hard-003", "title": "DeepVideo-R1 Video Reinforcement Fine-Tuning via Difficulty-aware Regressive GRPO", "filename": "DeepVideo-R1 Video Reinforcement Fine-Tuning via Difficulty-aware Regressive GRPO_diagram.jpg", "size": [1932, 913], "reference": "./references/hard-003.jpg", "results": [{"model": "gpt-6-astra", "state": "complete", "svg": "./runs/gpt-6-astra/hard-003/output/DeepVideo-R1_editable.svg", "pptx": "./runs/gpt-6-astra/hard-003/output/DeepVideo-R1_editable.pptx", "trace": null, "elapsed_seconds": 1039.826, "updated_at": 1788704422.5165682}, {"model": "gpt-5.6-sol", "state": "complete", "svg": "./runs/gpt-5.6-sol/hard-003/output/DeepVideo_R1_diagram_rebuilt.svg", "pptx": "./runs/gpt-5.6-sol/hard-003/output/DeepVideo_R1_diagram_rebuilt.pptx", "trace": null, "elapsed_seconds": 720.295, "updated_at": 1788704102.8854287}, {"model": "gpt-5.6-luna", "state": "complete", "svg": "./runs/gpt-5.6-luna/hard-003/output/deepvideo_r1_rebuild.svg", "pptx": "./runs/gpt-5.6-luna/hard-003/output/deepvideo_r1_rebuild.pptx", "trace": null, "elapsed_seconds": 541.591, "updated_at": 1788703924.1827888}]}, {"id": "hard-004", "title": "DiffLiG Diffusion-enhanced Liquid Graph with Attention Propagation for Grid-to-Station Precipitation Correction", "filename": "DiffLiG Diffusion-enhanced Liquid Graph with Attention Propagation for Grid-to-Station Precipitation Correction_diagram.jpg", "size": [1932, 1091], "reference": "./references/hard-004.jpg", "results": [{"model": "gpt-6-astra", "state": "complete", "svg": "./runs/gpt-6-astra/hard-004/output/DiffLiG_rebuilt.svg", "pptx": "./runs/gpt-6-astra/hard-004/output/DiffLiG_rebuilt.pptx", "trace": null, "elapsed_seconds": 720.536, "updated_at": 1788704103.1794295}, {"model": "gpt-5.6-sol", "state": "complete", "svg": "./runs/gpt-5.6-sol/hard-004/output/DiffLiG_rebuilt_editable.svg", "pptx": "./runs/gpt-5.6-sol/hard-004/output/DiffLiG_rebuilt_editable.pptx", "trace": null, "elapsed_seconds": 329.895, "updated_at": 1788703712.4870274}, {"model": "gpt-5.6-luna", "state": "complete", "svg": "./runs/gpt-5.6-luna/hard-004/output/DiffLiG_recreated_editable.svg", "pptx": "./runs/gpt-5.6-luna/hard-004/output/DiffLiG_recreated_editable.pptx", "trace": null, "elapsed_seconds": 569.633, "updated_at": 1788703952.2268894}]}, {"id": "hard-005", "title": "Diffusion Transformers as Open-World Spatiotemporal Foundation Models", "filename": "Diffusion Transformers as Open-World Spatiotemporal Foundation Models_diagram.jpg", "size": [1809, 890], "reference": "./references/hard-005.jpg", "results": [{"model": "gpt-6-astra", "state": "complete", "svg": "./runs/gpt-6-astra/hard-005/output/reconstructed_diagram.svg", "pptx": "./runs/gpt-6-astra/hard-005/output/reconstructed_diagram.pptx", "trace": null, "elapsed_seconds": 740.914, "updated_at": 1788704575.4651122}, {"model": "gpt-5.6-sol", "state": "complete", "svg": "./runs/gpt-5.6-sol/hard-005/output/urban_diffusion_transformer_rebuild.svg", "pptx": "./runs/gpt-5.6-sol/hard-005/output/urban_diffusion_transformer_rebuild.pptx", "trace": null, "elapsed_seconds": 475.642, "updated_at": 1788704188.2997336}, {"model": "gpt-5.6-luna", "state": "complete", "svg": "./runs/gpt-5.6-luna/hard-005/output/urban_diffusion_transformer.svg", "pptx": "./runs/gpt-5.6-luna/hard-005/output/urban_diffusion_transformer.pptx", "trace": null, "elapsed_seconds": 399.166, "updated_at": 1788704275.4430444}]}, {"id": "hard-006", "title": "Enabling Instructional Image Editing with In-Context Generation in Large Scale Diffusion Transformer", "filename": "Enabling Instructional Image Editing with In-Context Generation in Large Scale Diffusion Transformer_diagram.jpg", "size": [1908, 1071], "reference": "./references/hard-006.jpg", "results": [{"model": "gpt-6-astra", "state": "complete", "svg": "./runs/gpt-6-astra/hard-006/output/ICEdit_editable.svg", "pptx": "./runs/gpt-6-astra/hard-006/output/ICEdit_editable.pptx", "trace": null, "elapsed_seconds": 760.194, "updated_at": 1788704684.4624996}, {"model": "gpt-5.6-sol", "state": "complete", "svg": "./runs/gpt-5.6-sol/hard-006/output/icedit_framework_rebuild.svg", "pptx": "./runs/gpt-5.6-sol/hard-006/output/icedit_framework_rebuild.pptx", "trace": null, "elapsed_seconds": 545.37, "updated_at": 1788704456.6476896}, {"model": "gpt-5.6-luna", "state": "complete", "svg": "./runs/gpt-5.6-luna/hard-006/output/in_context_editing_framework.svg", "pptx": "./runs/gpt-5.6-luna/hard-006/output/in_context_editing_framework.pptx", "trace": null, "elapsed_seconds": 147.195, "updated_at": 1788704099.4684165}]}, {"id": "hard-007", "title": "EverybodyDance Bipartite Graphâ€“Based Identity Correspondence for Multi-Character Animation", "filename": "EverybodyDance Bipartite Graphâ€“Based Identity Correspondence for Multi-Character Animation_diagram.jpg", "size": [1819, 1014], "reference": "./references/hard-007.jpg", "results": [{"model": "gpt-6-astra", "state": "complete", "svg": "./runs/gpt-6-astra/hard-007/output/EverybodyDance_editable.svg", "pptx": "./runs/gpt-6-astra/hard-007/output/EverybodyDance_editable.pptx", "trace": null, "elapsed_seconds": 799.969, "updated_at": 1788704899.498263}, {"model": "gpt-5.6-sol", "state": "complete", "svg": "./runs/gpt-5.6-sol/hard-007/output/everybodydance_rebuilt.svg", "pptx": "./runs/gpt-5.6-sol/hard-007/output/everybodydance_rebuilt.pptx", "trace": null, "elapsed_seconds": 447.752, "updated_at": 1788704456.230688}, {"model": "gpt-5.6-luna", "state": "complete", "svg": "./runs/gpt-5.6-luna/hard-007/output/everybody_dance_recreated.svg", "pptx": "./runs/gpt-5.6-luna/hard-007/output/everybody_dance_recreated.pptx", "trace": null, "elapsed_seconds": 452.487, "updated_at": 1788704555.4620411}]}, {"id": "hard-008", "title": "Evolutionary Multi-View Classification via Eliminating Individual Fitness Bias", "filename": "Evolutionary Multi-View Classification via Eliminating Individual Fitness Bias_diagram.jpg", "size": [1911, 783], "reference": "./references/hard-008.jpg", "results": [{"model": "gpt-6-astra", "state": "complete", "svg": "./runs/gpt-6-astra/hard-008/output/editable_diagram.svg", "pptx": "./runs/gpt-6-astra/hard-008/output/editable_diagram.pptx", "trace": null, "elapsed_seconds": 1073.847, "updated_at": 1788705262.618564}, {"model": "gpt-5.6-sol", "state": "complete", "svg": "./runs/gpt-5.6-sol/hard-008/output/evolutionary_multi_view_classification.svg", "pptx": "./runs/gpt-5.6-sol/hard-008/output/evolutionary_multi_view_classification.pptx", "trace": null, "elapsed_seconds": 714.702, "updated_at": 1788704817.9709735}, {"model": "gpt-5.6-luna", "state": "complete", "svg": "./runs/gpt-5.6-luna/hard-008/output/evolutionary_multi_view_classification_editable.svg", "pptx": "./runs/gpt-5.6-luna/hard-008/output/evolutionary_multi_view_classification_editable.pptx", "trace": null, "elapsed_seconds": 320.25, "updated_at": 1788704523.6889281}]}, {"id": "hard-009", "title": "Fact-R1 Towards Explainable Video Misinformation Detection with Deep Reasoning", "filename": "Fact-R1 Towards Explainable Video Misinformation Detection with Deep Reasoning_diagram.jpg", "size": [1869, 1087], "reference": "./references/hard-009.jpg", "results": [{"model": "gpt-6-astra", "state": "complete", "svg": "./runs/gpt-6-astra/hard-009/output/Fact-R1_editable.svg", "pptx": "./runs/gpt-6-astra/hard-009/output/Fact-R1_editable.pptx", "trace": null, "elapsed_seconds": 1125.461, "updated_at": 1788705463.6292953}, {"model": "gpt-5.6-sol", "state": "complete", "svg": "./runs/gpt-5.6-sol/hard-009/output/fact_r1_rebuilt.svg", "pptx": "./runs/gpt-5.6-sol/hard-009/output/fact_r1_rebuilt.pptx", "trace": null, "elapsed_seconds": 437.883, "updated_at": 1788704713.3726022}, {"model": "gpt-5.6-luna", "state": "complete", "svg": "./runs/gpt-5.6-luna/hard-009/output/fact_r1_rebuild.svg", "pptx": "./runs/gpt-5.6-luna/hard-009/output/fact_r1_rebuild.pptx", "trace": null, "elapsed_seconds": 563.675, "updated_at": 1788704986.2425706}]}, {"id": "hard-010", "title": "Fit the Distribution Cross-ImagePrompt Adversarial Attacks on Multimodal Large Language Models", "filename": "Fit the Distribution Cross-ImagePrompt Adversarial Attacks on Multimodal Large Language Models_diagram.jpg", "size": [1917, 809], "reference": "./references/hard-010.jpg", "results": [{"model": "gpt-6-astra", "state": "complete", "svg": "./runs/gpt-6-astra/hard-010/output/rebuilt_diagram.svg", "pptx": "./runs/gpt-6-astra/hard-010/output/rebuilt_diagram.pptx", "trace": null, "elapsed_seconds": 907.655, "updated_at": 1788705364.348935}, {"model": "gpt-5.6-sol", "state": "complete", "svg": "./runs/gpt-5.6-sol/hard-010/output/distribution_cross_image_prompt_attack.svg", "pptx": "./runs/gpt-5.6-sol/hard-010/output/distribution_cross_image_prompt_attack.pptx", "trace": null, "elapsed_seconds": 410.632, "updated_at": 1788704866.9191473}, {"model": "gpt-5.6-luna", "state": "complete", "svg": "./runs/gpt-5.6-luna/hard-010/output/fit_distribution_cross_imageprompt_adversarial_attacks.svg", "pptx": "./runs/gpt-5.6-luna/hard-010/output/fit_distribution_cross_imageprompt_adversarial_attacks.pptx", "trace": null, "elapsed_seconds": 542.742, "updated_at": 1788705066.4828553}]}, {"id": "hard-011", "title": "KVCOMM Online Cross-context KV-cache Communication for Efficient LLM-based Multi-agent Systems", "filename": "KVCOMM Online Cross-context KV-cache Communication for Efficient LLM-based Multi-agent Systems_diagram.jpg", "size": [1872, 921], "reference": "./references/hard-011.jpg", "results": [{"model": "gpt-6-astra", "state": "complete", "svg": "./runs/gpt-6-astra/hard-011/output/kvcomm_rebuilt.svg", "pptx": "./runs/gpt-6-astra/hard-011/output/kvcomm_rebuilt.pptx", "trace": null, "elapsed_seconds": 973.598, "updated_at": 1788705549.2436051}, {"model": "gpt-5.6-sol", "state": "complete", "svg": "./runs/gpt-5.6-sol/hard-011/output/kvcomm_rebuilt.svg", "pptx": "./runs/gpt-5.6-sol/hard-011/output/kvcomm_rebuilt.pptx", "trace": null, "elapsed_seconds": 418.503, "updated_at": 1788704974.0305274}, {"model": "gpt-5.6-luna", "state": "complete", "svg": "./runs/gpt-5.6-luna/hard-011/output/kvcomm_diagram_editable.svg", "pptx": "./runs/gpt-5.6-luna/hard-011/output/kvcomm_diagram_editable.pptx", "trace": null, "elapsed_seconds": 489.651, "updated_at": 1788705174.1722395}]}, {"id": "hard-012", "title": "No Object Is an Island Enhancing 3D Semantic Segmentation Generalization with Diffusion Models", "filename": "No Object Is an Island Enhancing 3D Semantic Segmentation Generalization with Diffusion Models_diagram.jpg", "size": [1736, 1018], "reference": "./references/hard-012.jpg", "results": [{"model": "gpt-6-astra", "state": "complete", "svg": "./runs/gpt-6-astra/hard-012/output/reconstructed_diagram.svg", "pptx": "./runs/gpt-6-astra/hard-012/output/reconstructed_diagram.pptx", "trace": null, "elapsed_seconds": 1063.032, "updated_at": 1788705881.0617995}, {"model": "gpt-5.6-sol", "state": "complete", "svg": "./runs/gpt-5.6-sol/hard-012/output/object_agent_queries_rebuild.svg", "pptx": "./runs/gpt-5.6-sol/hard-012/output/object_agent_queries_rebuild.pptx", "trace": null, "elapsed_seconds": 611.733, "updated_at": 1788705325.3187926}, {"model": "gpt-5.6-luna", "state": "complete", "svg": "./runs/gpt-5.6-luna/hard-012/output/diagram_rebuild.svg", "pptx": "./runs/gpt-5.6-luna/hard-012/output/diagram_rebuild.pptx", "trace": null, "elapsed_seconds": 531.099, "updated_at": 1788705398.0770574}]}, {"id": "hard-013", "title": "SViMo Synchronized Diffusion for Video and Motion Generation in Hand-object Interaction Scenarios", "filename": "SViMo Synchronized Diffusion for Video and Motion Generation in Hand-object Interaction Scenarios_diagram.jpg", "size": [1938, 1141], "reference": "./references/hard-013.jpg", "results": [{"model": "gpt-6-astra", "state": "complete", "svg": "./runs/gpt-6-astra/hard-013/output/svimo_editable.svg", "pptx": "./runs/gpt-6-astra/hard-013/output/svimo_editable.pptx", "trace": null, "elapsed_seconds": 937.077, "updated_at": 1788705911.2039075}, {"model": "gpt-5.6-sol", "state": "complete", "svg": "./runs/gpt-5.6-sol/hard-013/output/svimo_vid_recreated.svg", "pptx": "./runs/gpt-5.6-sol/hard-013/output/svimo_vid_recreated.pptx", "trace": null, "elapsed_seconds": 656.232, "updated_at": 1788705555.796629}, {"model": "gpt-5.6-luna", "state": "complete", "svg": "./runs/gpt-5.6-luna/hard-013/output/svimo_recreated_editable.svg", "pptx": "./runs/gpt-5.6-luna/hard-013/output/svimo_recreated_editable.pptx", "trace": null, "elapsed_seconds": 527.574, "updated_at": 1788705513.8824773}]}, {"id": "hard-014", "title": "Spectral Compressive Imaging via Chromaticity-Intensity Decomposition", "filename": "Spectral Compressive Imaging via Chromaticity-Intensity Decomposition_diagram.jpg", "size": [1878, 1037], "reference": "./references/hard-014.jpg", "results": [{"model": "gpt-6-astra", "state": "complete", "svg": "./runs/gpt-6-astra/hard-014/output/spectral_compressive_imaging_editable.svg", "pptx": "./runs/gpt-6-astra/hard-014/output/spectral_compressive_imaging_editable.pptx", "trace": null, "elapsed_seconds": 732.796, "updated_at": 1788705907.0128925}, {"model": "gpt-5.6-sol", "state": "complete", "svg": "./runs/gpt-5.6-sol/hard-014/output/spectral_compressive_imaging_rebuilt.svg", "pptx": "./runs/gpt-5.6-sol/hard-014/output/spectral_compressive_imaging_rebuilt.pptx", "trace": null, "elapsed_seconds": 399.075, "updated_at": 1788705465.6413026}, {"model": "gpt-5.6-luna", "state": "complete", "svg": "./runs/gpt-5.6-luna/hard-014/output/spectral_compressive_imaging_recreated.svg", "pptx": "./runs/gpt-5.6-luna/hard-014/output/spectral_compressive_imaging_recreated.pptx", "trace": null, "elapsed_seconds": 489.229, "updated_at": 1788705751.9203358}]}, {"id": "hard-015", "title": "UniDomain Pretraining a Unified PDDL Domain from Real-World Demonstrations for Generalizable Robot Task Planning", "filename": "UniDomain Pretraining a Unified PDDL Domain from Real-World Demonstrations for Generalizable Robot Task Planning_diagram.jpg", "size": [1920, 1071], "reference": "./references/hard-015.jpg", "results": [{"model": "gpt-6-astra", "state": "complete", "svg": "./runs/gpt-6-astra/hard-015/output/unidomain_editable.svg", "pptx": "./runs/gpt-6-astra/hard-015/output/unidomain_editable.pptx", "trace": null, "elapsed_seconds": 924.856, "updated_at": 1788706289.29126}, {"model": "gpt-5.6-sol", "state": "complete", "svg": "./runs/gpt-5.6-sol/hard-015/output/unidomain_recreated.svg", "pptx": "./runs/gpt-5.6-sol/hard-015/output/unidomain_recreated.pptx", "trace": null, "elapsed_seconds": 501.243, "updated_at": 1788705826.6356041}, {"model": "gpt-5.6-luna", "state": "complete", "svg": "./runs/gpt-5.6-luna/hard-015/output/unidomain_diagram_rebuilt.svg", "pptx": "./runs/gpt-5.6-luna/hard-015/output/unidomain_diagram_rebuilt.pptx", "trace": null, "elapsed_seconds": 419.14, "updated_at": 1788705817.2705705}]}, {"id": "hard-016", "title": "WALL-E World Alignment by NeuroSymbolic Learning improves World Model-based LLM Agents", "filename": "WALL-E World Alignment by NeuroSymbolic Learning improves World Model-based LLM Agents_diagram.jpg", "size": [1920, 1060], "reference": "./references/hard-016.jpg", "results": [{"model": "gpt-6-astra", "state": "complete", "svg": "./runs/gpt-6-astra/hard-016/output/neurosymbolic_learning.svg", "pptx": "./runs/gpt-6-astra/hard-016/output/neurosymbolic_learning.pptx", "trace": null, "elapsed_seconds": 1082.685, "updated_at": 1788706548.3881843}, {"model": "gpt-5.6-sol", "state": "complete", "svg": "./runs/gpt-5.6-sol/hard-016/output/neurosymbolic_code_rules.svg", "pptx": "./runs/gpt-5.6-sol/hard-016/output/neurosymbolic_code_rules.pptx", "trace": null, "elapsed_seconds": 339.94, "updated_at": 1788705803.6205215}, {"model": "gpt-5.6-luna", "state": "complete", "svg": "./runs/gpt-5.6-luna/hard-016/output/neurosymbolic_code_rules.svg", "pptx": "./runs/gpt-5.6-luna/hard-016/output/neurosymbolic_code_rules.pptx", "trace": null, "elapsed_seconds": 379.871, "updated_at": 1788705893.8098452}]}, {"id": "hard-017", "title": "Watch and Listen Understanding Audio-Visual-Speech Moments with Multimodal LLM", "filename": "Watch and Listen Understanding Audio-Visual-Speech Moments with Multimodal LLM_diagram.jpg", "size": [1905, 1060], "reference": "./references/hard-017.jpg", "results": [{"model": "gpt-6-astra", "state": "complete", "svg": "./runs/gpt-6-astra/hard-017/output/watch_and_listen_editable.svg", "pptx": "./runs/gpt-6-astra/hard-017/output/watch_and_listen_editable.pptx", "trace": null, "elapsed_seconds": 1007.236, "updated_at": 1788706563.125237}, {"model": "gpt-5.6-sol", "state": "complete", "svg": "./runs/gpt-5.6-sol/hard-017/output/audio_visual_speech_moments.svg", "pptx": "./runs/gpt-5.6-sol/hard-017/output/audio_visual_speech_moments.pptx", "trace": null, "elapsed_seconds": 577.586, "updated_at": 1788706126.8956797}, {"model": "gpt-5.6-luna", "state": "complete", "svg": "./runs/gpt-5.6-luna/hard-017/output/watch_listen_audio_visual_speech_recreated.svg", "pptx": "./runs/gpt-5.6-luna/hard-017/output/watch_listen_audio_visual_speech_recreated.pptx", "trace": null, "elapsed_seconds": 684.27, "updated_at": 1788706436.2507844}]}, {"id": "hard-018", "title": "Where Does It Exist from the Low-Altitude Spatial Aerial Video Grounding", "filename": "Where Does It Exist from the Low-Altitude Spatial Aerial Video Grounding_diagram.jpg", "size": [1815, 929], "reference": "./references/hard-018.jpg", "results": [{"model": "gpt-6-astra", "state": "complete", "svg": "./runs/gpt-6-astra/hard-018/output/diagram_rebuilt.svg", "pptx": "./runs/gpt-6-astra/hard-018/output/diagram_rebuilt.pptx", "trace": null, "elapsed_seconds": 875.275, "updated_at": 1788706692.6246984}, {"model": "gpt-5.6-sol", "state": "complete", "svg": "./runs/gpt-5.6-sol/hard-018/output/low_altitude_spatial_aerial_video_grounding.svg", "pptx": "./runs/gpt-5.6-sol/hard-018/output/low_altitude_spatial_aerial_video_grounding.pptx", "trace": null, "elapsed_seconds": 444.726, "updated_at": 1788706248.420114}, {"model": "gpt-5.6-luna", "state": "complete", "svg": "./runs/gpt-5.6-luna/hard-018/output/rebuild.svg", "pptx": "./runs/gpt-5.6-luna/hard-018/output/rebuild.pptx", "trace": null, "elapsed_seconds": 597.992, "updated_at": 1788706424.6867433}]}, {"id": "hard-019", "title": "Who You Are Matters Bridging Interests and Social Roles via LLM-Enhanced Logic Recommendation", "filename": "Who You Are Matters Bridging Interests and Social Roles via LLM-Enhanced Logic Recommendation_diagram.jpg", "size": [1890, 872], "reference": "./references/hard-019.jpg", "results": [{"model": "gpt-6-astra", "state": "complete", "svg": "./runs/gpt-6-astra/hard-019/output/recreated_diagram.svg", "pptx": "./runs/gpt-6-astra/hard-019/output/recreated_diagram.pptx", "trace": null, "elapsed_seconds": 940.9, "updated_at": 1788706834.7532048}, {"model": "gpt-5.6-sol", "state": "complete", "svg": "./runs/gpt-5.6-sol/hard-019/output/who_you_are_matters_rebuilt.svg", "pptx": "./runs/gpt-5.6-sol/hard-019/output/who_you_are_matters_rebuilt.pptx", "trace": null, "elapsed_seconds": 514.198, "updated_at": 1788706395.3136384}, {"model": "gpt-5.6-luna", "state": "complete", "svg": "./runs/gpt-5.6-luna/hard-019/output/who_you_are_matters_recreated.svg", "pptx": "./runs/gpt-5.6-luna/hard-019/output/who_you_are_matters_recreated.pptx", "trace": null, "elapsed_seconds": 529.512, "updated_at": 1788706436.6137857}]}, {"id": "hard-020", "title": "ZEBRA Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding", "filename": "ZEBRA Towards Zero-Shot Cross-Subject Generalization for Universal Brain Visual Decoding_diagram.jpg", "size": [1890, 1210], "reference": "./references/hard-020.jpg", "results": [{"model": "gpt-6-astra", "state": "complete", "svg": "./runs/gpt-6-astra/hard-020/output/zebra_rebuilt.svg", "pptx": "./runs/gpt-6-astra/hard-020/output/zebra_rebuilt.pptx", "trace": null, "elapsed_seconds": 843.52, "updated_at": 1788706970.460688}, {"model": "gpt-5.6-sol", "state": "complete", "svg": "./runs/gpt-5.6-sol/hard-020/output/zebra_brain_visual_decoding_editable.svg", "pptx": "./runs/gpt-5.6-sol/hard-020/output/zebra_brain_visual_decoding_editable.pptx", "trace": null, "elapsed_seconds": 500.414, "updated_at": 1788706411.6786969}, {"model": "gpt-5.6-luna", "state": "complete", "svg": "./runs/gpt-5.6-luna/hard-020/output/zebra_rebuilt_editable.svg", "pptx": "./runs/gpt-5.6-luna/hard-020/output/zebra_rebuilt_editable.pptx", "trace": null, "elapsed_seconds": 699.811, "updated_at": 1788706948.284609}]}], "summary": {"cases": 20, "total_runs": 60, "completed_by_model": {"gpt-6-astra": 20, "gpt-5.6-sol": 20, "gpt-5.6-luna": 20}, "available_by_model": {"gpt-6-astra": 20, "gpt-5.6-sol": 20, "gpt-5.6-luna": 20}}, "generated_at": "2026-09-06T23:47:37+08:00"};</script>
+<script>
+const stateLabels = {
+  complete: "已完成",
+  preview: "已有预览",
+  running: "生成中",
+  failed: "失败",
+  pending: "等待中",
+};
+
+const appState = {
+  data: null,
+  signature: "",
+  query: "",
+  filter: "all",
+};
+
+const samples = document.getElementById("samples");
+const summary = document.getElementById("summary");
+const totals = document.getElementById("model-totals");
+const loading = document.getElementById("loading");
+const search = document.getElementById("search");
+const filter = document.getElementById("filter");
+const lightbox = document.getElementById("lightbox");
+const lightboxImage = document.getElementById("lightbox-image");
+const lightboxTitle = document.getElementById("lightbox-title");
+const lightboxMeta = document.getElementById("lightbox-meta");
+const lightboxOpen = document.getElementById("lightbox-open");
+
+function escapeHtml(value) {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
+function duration(seconds) {
+  if (seconds == null) return "";
+  const minutes = Math.floor(seconds / 60);
+  const rest = Math.round(seconds % 60);
+  return minutes ? `${minutes}m ${rest}s` : `${rest}s`;
+}
+
+function resultCard(item, result, modelLabel) {
+  const image = result.svg
+    ? `<img loading="lazy" src="${result.svg}" alt="${escapeHtml(item.id)} ${escapeHtml(modelLabel)} 重建结果" data-lightbox data-title="${escapeHtml(item.title)}" data-meta="${escapeHtml(modelLabel)}" />`
+    : `<div class="empty"><strong>${stateLabels[result.state]}</strong><span>暂无 SVG 结果</span></div>`;
+  const links = [
+    result.svg ? `<a href="${result.svg}" target="_blank" rel="noreferrer">SVG</a>` : "",
+    result.pptx ? `<a href="${result.pptx}">PPTX</a>` : "",
+    result.trace ? `<a href="${result.trace}" target="_blank" rel="noreferrer">TRACE</a>` : "",
+  ].join("");
+  return `
+    <article class="visual-card" aria-label="${escapeHtml(modelLabel)}">
+      <div class="canvas">${image}</div>
+      <div class="card-footer">
+        <span class="state" data-state="${result.state}">${stateLabels[result.state]}${result.elapsed_seconds == null ? "" : ` · ${duration(result.elapsed_seconds)}`}</span>
+        <span class="file-links">${links}</span>
+      </div>
+    </article>`;
+}
+
+function referenceCard(item) {
+  return `
+    <article class="visual-card" aria-label="Input Image">
+      <div class="canvas">
+        <img loading="lazy" src="${item.reference}" alt="${escapeHtml(item.id)} 原始参考图" data-lightbox data-title="${escapeHtml(item.title)}" data-meta="Reference · ${item.size[0]} × ${item.size[1]}" />
+      </div>
+      <div class="card-footer">
+        <span class="state" data-state="complete">原图 · ${item.size[0]} × ${item.size[1]}</span>
+        <span class="file-links"><a href="${item.reference}" target="_blank" rel="noreferrer">JPG</a></span>
+      </div>
+    </article>`;
+}
+
+function visible(item) {
+  const text = `${item.id} ${item.title}`.toLowerCase();
+  if (appState.query && !text.includes(appState.query)) return false;
+  const available = item.results.filter((result) => result.svg).length;
+  if (appState.filter === "available") return available > 0;
+  if (appState.filter === "complete") return available === item.results.length;
+  if (appState.filter === "active") {
+    return item.results.some((result) => ["running", "failed", "preview"].includes(result.state));
+  }
+  return true;
+}
+
+function render() {
+  if (!appState.data) return;
+  const { models, items, summary: stats, generated_at: generatedAt } = appState.data;
+  const available = Object.values(stats.available_by_model).reduce((sum, value) => sum + value, 0);
+  summary.innerHTML = `
+    <span><strong>${stats.cases}</strong>参考图</span>
+    <span><strong>${available}/${stats.total_runs}</strong>已有 SVG</span>
+    <span><strong>${generatedAt.slice(11, 19)}</strong>最后扫描</span>`;
+  totals.innerHTML = models.map((model) => `
+    <span class="model-total"><strong>${escapeHtml(model.label)}</strong> ${stats.available_by_model[model.id]}/${stats.cases}</span>
+  `).join("");
+
+  const shown = items.filter(visible);
+  samples.innerHTML = shown.length ? shown.map((item) => {
+    const cards = item.results.map((result) => {
+      const model = models.find((entry) => entry.id === result.model);
+      return resultCard(item, result, model?.label || result.model);
+    }).join("");
+    return `
+      <article class="sample">
+        <header class="sample-header">
+          <span class="sample-id">${escapeHtml(item.id)}</span>
+          <h2 title="${escapeHtml(item.title)}">${escapeHtml(item.title)}</h2>
+          <span class="dimensions">${item.size[0]} × ${item.size[1]}</span>
+        </header>
+        <div class="comparison-scroll">
+          <div class="comparison-grid">${referenceCard(item)}${cards}</div>
+        </div>
+      </article>`;
+  }).join("") : `<p class="no-results">没有符合当前筛选条件的样本。</p>`;
+}
+
+async function refresh() {
+  try {
+    const response = await fetch("/api/results", { cache: "no-store" });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const data = await response.json();
+    const signature = JSON.stringify(data.items.map((item) => item.results));
+    appState.data = data;
+    if (signature !== appState.signature) {
+      appState.signature = signature;
+      render();
+    } else {
+      const generatedAt = data.generated_at;
+      const last = summary.querySelector("span:last-child strong");
+      if (last) last.textContent = generatedAt.slice(11, 19);
+    }
+    loading.hidden = true;
+  } catch (error) {
+    loading.hidden = false;
+    loading.textContent = `读取失败：${error.message}`;
+  }
+}
+
+search.addEventListener("input", () => {
+  appState.query = search.value.trim().toLowerCase();
+  render();
+});
+
+filter.addEventListener("change", () => {
+  appState.filter = filter.value;
+  render();
+});
+
+samples.addEventListener("click", (event) => {
+  const image = event.target.closest("[data-lightbox]");
+  if (!image) return;
+  lightboxImage.src = image.src;
+  lightboxImage.alt = image.alt;
+  lightboxTitle.textContent = image.dataset.title;
+  lightboxMeta.textContent = image.dataset.meta;
+  lightboxOpen.href = image.src;
+  lightbox.showModal();
+});
+
+document.getElementById("lightbox-close").addEventListener("click", () => lightbox.close());
+lightbox.addEventListener("click", (event) => {
+  if (event.target === lightbox) lightbox.close();
+});
+
+if (window.__STATIC_RESULTS__) {
+  appState.data = window.__STATIC_RESULTS__;
+  appState.signature = JSON.stringify(appState.data.items.map((item) => item.results));
+  loading.hidden = true;
+  render();
+} else {
+  refresh();
+  window.setInterval(refresh, 15000);
+}
+
+</script>
+  </body>
+</html>

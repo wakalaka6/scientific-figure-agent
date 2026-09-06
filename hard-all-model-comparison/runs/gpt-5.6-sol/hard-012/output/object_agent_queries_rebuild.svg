@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="1018" version="1.1" viewBox="0 0 1738 1018" width="1738">
+  <defs>
+    <style type="text/css"><![CDATA[
+            text { font-family: Arial, 'Liberation Sans', sans-serif; }
+            .serif { font-family: 'Times New Roman', 'Liberation Serif', serif; }
+        ]]></style>
+    <marker id="arrow" markerHeight="8" markerUnits="strokeWidth" markerWidth="10" orient="auto" refX="9" refY="4">
+      <path d="M0,0 L9,4 L0,8 z" fill="#101010"/>
+    </marker>
+    <marker id="arrowTeal" markerHeight="8" markerUnits="strokeWidth" markerWidth="10" orient="auto" refX="9" refY="4">
+      <path d="M0,0 L9,4 L0,8 z" fill="#58a9b9"/>
+    </marker>
+  </defs>
+  <rect fill="#ffffff" height="1018" width="1738" x="0" y="0"/>
+  <rect fill="#e6f0da" height="174" opacity="1.0" stroke="#e6f0da" stroke-width="0" width="1413" x="320" y="347"/>
+  <text fill="#111111" font-size="30" font-style="normal" font-weight="bold" opacity="1.0" text-anchor="start" x="12" y="36.0">
+    <tspan dy="0" x="12">(a) Construction of Object Agent Queries</tspan>
+  </text>
+  <rect fill="#555555" height="294" opacity="0.18" stroke="none" width="1047" x="11" y="56"/>
+  <rect fill="#eadde1" height="294" opacity="1.0" stroke="#eadde1" stroke-width="0" width="1047" x="8" y="52"/>
+  <image height="147" width="233" x="26" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAEBAQEBAQEBAQEBAQECAgMCAgICAgQDAwIDBQQFBQUEBAQFBgcGBQUHBgQEBgkGBwgICAgIBQYJCgkICgcICAj/2wBDAQEBAQICAgQCAgQIBQQFCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAj/wAARCACTAOkDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD+gb4jeJPHXirRLCHwX8XtV8D+Lo1W5iYSKYJznO2QMv3TjHUdR61+U/xy/ar/AGuvAOl+NP8AhHPiX4q8VXCW0hxpMYkNkY2JJjfyyN+QRjJ7jB7/AHL4G8daTDrcXg7UmsrXUXjeNZ7gZVcOcEMO5x/KvBf2Y4NA8XaJ410O71a6tEl8W3wd7U5imC3EhQ4XOOq8+w4yKw8QOCp4zDRrYGq4VOtm0nbv5+Zw8B8c1MPi54THR5qa1TerX/APyluv+CkX7YHi23/ZJsPAXxv+Id/rXiLX73Q9QiNxbI+qQxNG63DKY87BHBOGYcDee+M/oTd/tX/tF/DmL9oOH4j/AB91R9Sl1PwTJoCyW4QWVhchJ7s2j7QFJhtbxmDBsrkj1r40b9kuX4W/tbfB34cX+mzp8OH+J+v614avGCQs1je6LcTtBHdhTlIpoLhTGQTt8vjmuJ/4Kfajp/gr9oL4ZaHePdReFfFnw8nt0TT7VZvK1eEz2NpNKquMZXVCcKBhwvygZNfkXDeLq4HGqhU53NJtpydt2/hfVLa297H7Fn9GOMwLq0JxUG1qlqr26rz37H2x+wt+2J8efE/xGPxi/aK/aJ+I+p/AqLwZc3ps7PTopLS61GW/jCW8OAGkkjSdLbcGz5ivhcKSP03/AOFhfHTxL4/8fT6L4j1rTNM0yKbUpIhcRiytZTEqQ6Z5rMiyPFHHJO7LuZpmK/dxX5lfD3QfhP4E1j4FWXh3Xtf1LTfhXpkemx+HIR+48Y+KLqTzIbIMF8tI4ws0sjrjDbgTnr+wfwF+BnxGt/hBdfCvxl470WHXtQubrX9aA0OVZ4pbqQu8i+c/z7WxGuOFRADtPFfaZdmNfMablRnpfa1m9Ph0s1qnqu3mfK5sqeX1IurdWVr3uk0/i89Oj7lbUfiL4zg0S1vdS8aalbWjwxwzXGjulw9kSVCXE6ElkVmc715YFR7iq154l+Jd7YaLZeHNX+IV81tpDyXOp/2hEHvLh1VgWgZTtUBJOV6knkVRj+G958Mbyz07Wp/FOreBNWltbPUr2ybzvs8omI3XETIWWHzGd1JYL8xO4lePn/4nx6roOseHdVj1q4aCW2gdrZblSLyISshkOxwXD7o2K4zlmznBNePmsMblqqVPZ3pte8nJtqztdN3Wumx6+UZng8yjCHtvfT91pJJ6bO1npqtWewXvxB+K3hnxbf2mu+IPHF9E1s16LS0niZY7ePYrSkhSQxMkZxk5DHjg19E+H/FPjmKXwVHcrqF2zafZxagLi7QMJJnWR5ZlwwGInQZXb8zN7CvhPXLbWE+KGptruva14aiGgQG9JtZAqkjzTCFUFghSI5PAbqOgr6A+Dl1cXNsut+HNf1iTREuGubWC7sQW1CPykhcK5YZUCSHqoBG8kcAV6fDOb1KmJXJ719FdxbVrNtq262s9dzzOLcGoYRucnHls9FJJ9Er32e/3Nn1rY+K9H1Oe78VXHiZbHRrdJdtnG5UXhjYgswYEhCWRexJB9DjufBi3+q6Zp2p6vf28ct5JiOMSIiiAHd55BweRhQODhlz1r5o+IN3pVz4hbwBb20CRQQQ3F8zIm8Q+WJI4jgqI98aOWLYH7xvlJOK+qfh54i8IPc3OhCW31PWLgR3N1K8ai2toSMqkKbRgZOAACSzEk8cfsODx9Pm9g4xct9O3c/nbiPKMdLDrFwrVIxVlZydteis9d7XPc7Dwto8lrDJJYws7KDluf61or4T0QAE6dB+VdlaWSlIgqqqgccY4xwMf56VpLaAAAjkVwzrwvdpG+Bw+NcFzVZP/ALel/mcQvhHw+w+XS7b8QeasR+DPD7Aj+x7Rj9T/AI13EdoiklUPPWrcdrg52YJ9K46lePZH0eFpYrrUk/mziV8D+G/4tGteme/+NWI/A3hhwAui2pP4/wCNd4lsoYFs9MVYWJF6ZxXJKquiPdo4etb3pv7ziE8B+FWUk6DZZBx35/WpB4C8J5AOhWY/P/Gu22jgjrS89yKylK56MOda8z+840eAvCPfQrP/AL5b/GlPgLwgAf8AiRWX/fJ/xrsqa4ypGM1Js6s/5meSeIdG8EaVaXGzR9MW4CYyxJETcfe54ODnmvl7x5ruk+GtB1/U9Tm8gQqC72IA+ywkgF+eSVypIHIz0r6e8WeFfDZhvb/xXOV0JEMrh5QsfAzlwfvHAPXIxX5V/te/Fae0tLK18N2Op634EWC5iuY7SNDJYpsTM0jBSrR7WYcnAIH3uMfU5XGhGm5tXtq21ofkmf1s0xOOhSdVwTdlGMnf1ey1W2j/AAOf+JnxS1s6hp2neDPidOq6mVmS3giSWe3gVGkcgLvZAfIkHzcgOOgr4c1z9sjx7pGieINEt/Gev3+t3CTxaXdR3UZe2XIMcrZQCR8BUODkAnjvXzHr/gTQJbSPxRpmt63qmootzeS3CamiPYFG5CouGYDcDnOeflGAa+freUx+ANH8QeHJY9YurOZhq1pqcaTy27s4UOjH5pGKvnfgbeB94itIY+FZe0pwj8tb6H0bwVfC2oVa02nbq0/m7n1R4G/bN+K118M/Hnirxv8AGr4geHdZ0qU2UTTSwCKG+hLNJbvGY90rSpt2bN2DgniuJ+IH7efxn8NeJLGx8P8A7RmueKvDWrrZ+dqLacLNNDLlCVjEkYYqVlPLKMlc/KK+e18a6bpGt23g3U5IpPD91M+sravPstZdRe3+zIxdfvbSpw33Q5BByc14D8X5/C2j2Pjrwldx6PpemS6ZNcWDxyMfJnRG8ti4ByrFBtQN36jBrHPcVSjSjToxSl1vpodPDdDFzqznXqScVorO+vc+tfhb+3B+034t8b/ErRz+0P4m07w+NQW00u91W4hUKhkQKI12Dd8u8segDDnvX7zf8Jh8Rf8AoedM/wDAmKv4kfB/iDX7XXvEVhP4eguF0+GJ9ZZDuwSS0UVucsDlVILr0HU4PP8AVH/wszw7/wBASz/8CW/xr5qlmFSN4zpK979evReX/Dn3dLB1JSco1m1ZLp03+ffzPmmLW49W1+GaxibS3tmTzJmUsZW3kED0J5OOaqfsieJbS0+F8Capf/2U815c3RkwWeUNMwPHXI4PFV/iR4j0PTfHt1J4cspNF8Ntcs9uJBhkQAj5h0zxuP1ry39nZdRj+Hfgq98+e5tZYFYAS5SVjy3HIzk8+lfVYqtagor+vM/OMvhzYpytbS//AAD9UEm8L6je+GrC5Gn+K9LilF1p91IgR4W27A8X8UbgGRc5BKkjODX4lf8ABX34Va14g+P/AIG+I/xR+FVm/wCz7/Y6aJb6/wCFovKl0G7aYyiSYOSYyfkwzHD9M8gV+qHw51S2v9UmtJ4o0lMkaAEAGIq3G09cYH619beItP8ADeueFNVsvFWlWXiDQbm3MF3Z3EQkS7jZQCjIeDxj6dsV4+Y8L4fMcI41Jcs0tJrRo6cLxPXyzHxlTjzQbV4vZ/8ABPxv/Zw0DWPg1rtx8c9R1FPFepatLpkmjTalpkUSaPZr5YFslvHhIUkS3RTNEqtwoLHOB+ruj/tH+JPi5dW3jC08L6Jp11Z3EVy9idTmd7l2Q7ZIQg+ZcqdzKM5Azivhfxj4o8X6/repn4f+EfDs3hHQL2Tw+bi5hjCQQeVHIBLGFztw4QEdx65NcSvi2+Eej6bOssnjC3iHmPazNH5kIdVLvGgVRKpAIcYIUd+a/lyFLNcrq/V8XN8vS1umzT5bLXXa3fQ/pylDLcwpe3oRTfW9+u6a/ryP1D8c/HefSpNQl1vQ/C/iGwnuI7t545GkSO1lIkKJjohKv8v3j85IJyR8a694r8G+MLTw3B4mPh/wvcaZHcw6Ze2MIa41NY5t4mmbAZSVULtJ6c84avB/HEOo6HoEg0LU9X824ngtmtr9CkcpVlfMRLBtwXzCcHBGOcsQfN9e0nVdG8UeGfDsaalqllfx35mkuCNkCwEBpkJJzGRMox0BGOpr5/M+Nc8jOX1qUa2G1fLLpZ3tdWdra230+J7HoYHg7LKXK8JB0qv80dPK9m3/AF0Pf9R+KEafFPxfbweIZfHnhOO/sdN0u6ulczXErzERysxOGyEYhcAEFsjgAfVfhX4sNeafdDSrxZL1ITG1v9pitzHBGxVIwoAJPMq+irt/vYH5oXXjzwbYR22k+H9T1bXdet1iOmRRx+RZXN3HZx25EshbBKT3a8Z5yB/ETX0ZF8PLa2udM8Et4hg1XUotPm1/X5dFuQSLvO37M823bIv2hpPlTGSoGdoyfsvDWpUb9tUk1d25YyTWtmrX+7Vt28zwuMIQdBUopOS1UpLax9g+BdW8dWnxFkg03w2/jzxPewSX9/MXFxLZn5jEjzYKpGExkH5jggAV9dfsq6VqPh1/EGr+KZLbUmlu1aKZrrzh5uDtSBD9xepJ6jBznJNcT8JbLwpoMepXthovhfwdodsBGyLJIJZQ0KJ5828cy4UkBiTuyR1r1T4dy+HH1GXVrW2soQZRPdPDAyLBsw7np94nylABOGZh2zX71leIw8asHRdl7z189Pu7XPxLP6eJqYarCtHW0Fp5a97Xa1dj9JvDjtNK6TO5dkzyMZHBz9ck/wD167VbaPgqPzrxfwJ4qOoahJFqCiK/JMCjZhmCk7mPpls8dePrj3BTkD64r0MdFxqWZ4nC7hPD66tNoBGoGNop2BxS0VxH06ilsFFFBoGFJzz0qvczmCKWTYZAozgdTWBNrRha5ieG4EiANny84XJGRzhunQHPNO2lzGdeMWovqdOTVV7lA7RBh5gXdt749a80m+IttpUoGsW1zHaN8onjjZkUnGATgYJDDA5Neb2nxe0a/wDiRo+j6Q15fxamZoDM8TbbVEU45P8AEXXGMcAZry8NnOGqTdNztLs9HudeJwWJhBVYQ5odX0tY8x/ae8T6pLGNP0W7s5kgSWK7gmidoy7RM67HBADDaR3GTz6H8S/2pZPFmp+EtM8Q+C5NbfxBo0xs7y5gLmzMMm93hkcHax3ZxtbjByB1P6h/tM+PdX8Kapp+maleafpmgyXH+iGPl1kCk7mYsCFIIJyCR15wK/Of4xfEi68KfDLxVo+mW1+/hDUZp4PtTQLAIZmVcEKobJKCRm5XmRe4O77HMKlP2EqblaMI6/PW/wDWx8FwrSqOsq9WCcqs7p+S0tfyXTqflAL+58P6qqX1z9nlnOY5LWQI0BJDHhvvKCpGBxngdgcTVbvw1ofwz8RpP4gae6uXa4YSrlJ5/OEYljAwVZVwW6ggZwMYL/EU3hyfxjbia1vLE4LQS2bGQxRGMZG3gnJDfL6jtxnwzx3qWs2vhzUraJTrPhCC3uXSGaNRKyiU5X0cbeuBuHevxPA5/PByqVoy5o6K2vVNaP8Ar5H7hj8gji4RpT0a622tb8zgfjR8Try/1q2tYpbrVdSsrRPtFzKVcLNChQqFUBVQ7gSoIGOwxXiVtZ+HPij4QsZvG/jmTwvd3WkNDELWNRao6thDLGyuzHasm7aQem0knlPHup6hoL674lu9E8Q6nfadbwsPIdV2oJAiTS5+V4jEzxkKck85wMHj9V1vwLdeAibHwrol54iuNYLWVpKJYpXEjtK8YZioVY+IsZ4V1xkmvs6OZVMUqeKcdrdtOlrafqeBDLqOGcsMpWvfy1te/wAjzHT/AIj67omh+MEtoY9T8P6raxeG0ZLgO3kxxhXdJABtdjDKuQDtRiOoBr+orHw+/wChP0T/AL+v/wDFV/I5eeLPAL+GLyx08a7HrD6/KkZgRxZaTY790qQsCNzsrMo/iAwDjPP9m32fwL/0L2pf9/X/AMa9OGMrxvZOMW20reZ0UMBQ+0+aVld36nw9+082l2PjHxPonh17pdMs7RUi81SjbvJ+YMGwd27OT7V674K8OL4V+E3w0tUkiU2ujWi+VHFtIEkSPuYjqxYnJ9hXiX7aut3H/C4/Hs2pXFlNePZRO72yFY13WyNhRk8/NzycnJ719jajax3XhPwrFpwsoCdKtUSSVRiRxAoIUgdtuPrXr4zEzjUqKOy/zPz7JsNCVCE3u7fkcTpM19ppbUYJVDhlL/NlmGR096+rv+EkGseHIk+3pAklvIyKz4aR8bcfotfIqW10ukXnzurghT+fXGPY13/hbxdptt4budIuROuqwiWZZAoZDGV+79eDTynHtxlAvOMti5RnbYT9nu61OH/hbPlWz3c9z4mmN1uAZSFihXHA4zjn86f8RvCs4c6p4e8L6NBO9qbdraNnEhG4MCFJYk5UY9hjB7QfsheK72XTviBdWV4lk1z4lvnlDqF6bVHzEY/hP419LeO7jVLyys3ksbQy/aAC8SZc9myenRR+tfNZ9kNDH/uq6unt3XTQ+lybPquDSq0dP19T87da+LHxHittXs/E0Wl6RDa26i3na0UrZSuqxtAYWcYWRV5IwQGB4ryjRfi03x08dfD68sl0JbfSfDtzFqjaTAxe2vbi6iZ45FViIW2KjMoPKnjOGx9n+DPA2j63pWk+Ir2zkm8QG4vDco0gdrqMXDhSrMcZUIqgHjAAr5Y/4IpfBzxOfiv+374B+JPh6+8MTT+L7VfJvomgmhHkTmGWBuDgqRgjIP4kV+YPwnq4pVsBUdlbRraXr1TX9XPvK/ibRw9CGOer15lfVLTbutfzPj39mbwbpfxa/aGg1K78UXzfDLTde17Vb2CzcKHe3up5wsihGG0O9s+5eMAEgnBr95PAXh2FfCdpdanrMsLavqStCFlAlsrFirW9q4+RBthEZIIzl3JPIr88V/Yz8R/sqfEnTvg1r+ozeJfD1iZNZm1O1t1it9RgurhRHE5PPmv9jWSVQMqGKgkNX0P48+Kliuu2elWCHStMubk3DTXEbtLHL5SK+3Bxtdkzt7DjotflWPz3E5XmMsJFuLp6OLVm13Wiv369Oh+k4KlgsfgI4uNpRnqpJ/h+jPr2afwbZ6Tr/hwy6vclNdhtUIRore7KpGCgAJZiGLfeCnOME5xXsfhnxjY6dokwvruGxsQZr+7aNWaOBmfMUe0YDMVMbFd3G7nBBA/N/wAI+LdR1fUHtIPEV1pbSz3d0stxZxLB5jBxnKnPJc/MTjDADGK+i7jxfoWkeENL8PRSP4i0VZFtbWOwnCreSNtlZoXJ4iyACwBJwePm4/S+HOJp12qsabevLbbZ7tb2s3rrrY+CzrJIRTp86ivivbytZX0T0Wh+xXwA1m41qbTPEF/Z3jSSRFUDoFUAnG9Fxk7iHOTzjPXqftaPoBjua+Jv2N/Amk6T4X/4TF9HuNG12+tY4PLe6kkSW3UBllWNpHCk7iNwxkKOF6V9tKAPu4xX7viqspOPNukfi2T4WNJVHD4ZSbXl0H0UUVzHshSE4HrS1XuWkELmN0ik6KW6A9qBSdlc5rxJqV7bWhNhbLOC6xSEyGMorcbgcHPUf54rybVfElhBPpzvq0VqqXAjl8x1dnQ/JkknCDLAFuMZHHepfiD4o1bTbS+fTLrTft6RuFywcb1HClSQAe/PQD1IFfA3xc8deKXvtLeSMXWgWFzbXsqxeXvSbKbmR4wVkBJQENkDzFyOld870ad7X8z5ijCOLxDbla2lr7/8Od38R/G+s6f4a8Q+GNFt7+/1yHU0a7iX97MkapC7BApIBZ0lJz2AzxXCePfiJF4Nu4Nd1i0svCOpWFrNFp+25YSxGSRghfqWyzuxVVOOOfmrxXTfGieOPG+u+I01EWt34k1W5S5iswGfTrVEieMiNjuDCRZmJXDNs98D5S+MvxGvPGFtoehC6t9Q163t3kXUbQBxcB0TO5vQtGzcnI3e3P5tKrLDYmWJTvdWS0t300ut77n6y6MMTh44aSVou7ave/367W229Txv4nfEnxD488QXs2t6jd6zqk10XiCOxSR8Y4TqNyhTj0yO9R+JPil4UtPCWvxa3a6t45bVdl4im+lsrUOqlGHl4bzJAVXaxyvAJ24xXgfimfy7e/aW01SDVInkVok+QW92rYEcqn7g+VwWByDgeoHyLpiy6vrmoTx3s0uuQF4UsGvW2GOQjiIZ+QFwei9ga+Iw/FNbD1qlSFTmnfW/vL0a6b212PpcTw9RxNKNJw5YJaW0fqn/AJFXxPbx+I9W0KHwdp2reHI2g+2QQyMskcUgjkLAljypKnPIzxXmmn6x421e31rTdR0XQ/FfhwTNbyJZOrNLNISD8pbd0JXcDkHH1Hdz6rFrfi3w5d2eo29k1haySXumOh8+zi3ToiFhjqY2POQSynvkZ/2XXbCz8WxeHbmTQJ4bmIxtLJERBIyI+5ycgkbuVGT8xP8ADz4uIqe3c6NdJS93V7Jt6enqerDDKDjOndpJ/PTzPKdG8A6lqGp6h8O7mTS9G0iHTrubR77VVmHlAg7tOnlYEBf9VsccltqktyT8KfGa0ju59A8P3d1Ja6q15Jp9zdLCyMb6EGJlkhmwUz5ag9iACSNwr9EZ7lotKv8AwJ4mi0u48RzzJLHeTySySPKG+5GWIj8tgCrjG0qxGc181/H7SNCsviP4U8d3P9p+H/FniLSJI5rWWVZrW21BWEVpf2TyDMdoDiFxl3XaC2Sc19ZwfxNKnP6rKDdr67rT9HuuvTqeTm2RRqx9q3Z9tvv/ACPi7wRBqtn8LLe0vl0+4th4kubcxQ28qy6fLE7tIACNhDKm3qTnjtX9m/8AaXhP+9rP/fH/ANev4jvCuqePfGnj79pdPAx1nStGnkm1W4sLe2aRdLR5h5rGTkgb9vPc4OOc1/Yp/wAI1ff897j/AL/v/wDE1+wV4Qk7WWn66/qfB4SbpJ2lv/wx+fX7Z/iHTj8VviedBkWPTEneG3JcuqxhUQbWyeBgjHbA9K/UjxTYWWjeAvhbqOlQlLltGia6iUEIjFyVcAk5JVuSO4r8S/2nbKX/AISXxk9lK01u+rmIOAQrhrjbnHbOeg9a/ZvU7WS98LeEdNGpiG7g0WKQO3zBofLBEeM8EMfTPXitJ60ved3L/K58tSpqM2oaKD09NjnodRjvtMnumd2G1s8ng54/ma4t2eCDU5oHCP8AZsNz2bjj+VZml6jLHpc9s24uz5AU9/Sn69cXFppE2YgkkkI2n2Hv9a83L/c1Z6eMlzx03sR/s2+I4rDw5rOnLbS3E0mt39yhE5QKFmk59+ma961b4p6pKv2r+0JIowGjCBASgCsM7j1PJ9K+QfgLDfJ4OOqR4kkfUrti4ABRWnkyMZ5GK9Q8VSXFrFcOkDwJ5gdMjaBuDNu29AMGvSc+aozyfZr2a9D2D4M+IraLw34SvUui1tIjuzHqqtOxb054r7G+A/iG2Pxn+I2qeZDp6x2Wmp5iEsSNtxg9eMBgePevzd+HF9E/gnw2WV2YWiMmz+Ekk9PrX158C/Fd1Z+M/HatJYFJ9P00b5Y8qSEkVQT6iu7A12qkm3oeXm+H5qCVv6sfUQi8I/EL4q/Ejwjrix6r4dezs/JZHQusqQud8bgfKQZD3xjOfSvzx/aF8Amx8R+CI9UsvEElvL5qaXftMsdvc2qxnDBtwAfgoQ38RJOK+4PAGsWugeO9duZ5LKb7Q8MQARRgNEqgrt5yC/8AU19A+LPg94O+MHwu+E3w+8bW93HYahb3MsV3EhW4sJ/KAE0Z6cFySrZDAnI5r4vi/wAP6Oe0p1aeleL92XyWjt+B6uQcc1MixFOhJN4eSXMu2+q/Xufg1Y+ItQ0G8v8AT7SaCDSGN5LNHCSyTH7LJIINrNhdrbV5wOeAcCvsjwj4Vtvie3hnRYPFMv8AZtiVecLCIcP5eDDCyqOr7wXU4xk9BmvjL4p/s++Nf2cvFmuaP4qa3uIP7P8A7f0/UrdvLTWopnZEmhjA/gMbl1yWXcewBP1/+zPeuuu+H49ae0EK6dLJ5lrmBoUW1mQu7jDMCfPJC/KQwP8ADivzfhPLnhMbGhi6aUk/O92+nbbprY/VOIcyeLwU6uEqXTV/KyWn5/Jn9Bvw78VRafqOll7iE2D2NvBExGwFnRWAjA4KgK3Puv1r6ksruC9t7e6tZEmt5UDo6tkMpGQR9a/F3U/i/FoWpQ2/2iR7sRb7O3iH8ckalduBxhF+UZwAPev1z+Gs13L4H8MtfWr2dx9lVfLZ1baO2CrMCMYxz0x0r9zxmMo1ajjD4o6P06H45keV4jCwXP8ABNXXrfX/ADO7oooJxXKfQiE4GazdW1G20uwub+8cx20Q3OwUkgeuBzWiSccDJ6V4H8ZPidbeFLb+wo4bia+uYXlMgtjJFEi4yHY4UHnvnuccYq6au9djnxVTlg7bvRep+ZP7Qn7T9ro+v6rZx3F7HdZmlSC7s3hCowA2oDgfMo6tu4J6dK+BvGXx6hGg6bZ2MSG4aS0Y3YnwUkinQrvwMBsBFz6MMg8Yyf2rLqWHxXrU8OuTeI4b+5k1BLhYdsNk0hLeQGUAMQDjgAdegr5w0cDxLouq27WWmiGWyZl/e7pC6IW3xAHGd0agluOBzXjVMyrN+xhNuL/r7j3cPleGhCNf2aUl+Z9SfC7xjZ+G/GT2uu2Nw+iXuoSwm4M8kP2eYl8QtMOgfnMh5xkdCa+j/jonw2MWi3Xh6/0Lwzq66jJDaW9vJFPDchhbyqrKhLso28HGNvJycgfHPw41HxP41tpG0e11C+utSuGuLaG0kxcQXLMT9oCEY8tAFGSQRvwATkD1X4t/Cjx5c6H4O8R+IbSzfXxrL22o+ZG9rF9ojsHkhCSLufJVEO1QAWSRCTjbXkZPOpKjLDxhztbX3O3O6VKOIhjJ1ORbaPR+p8L+PLbWNG8S65FHotzJp9xMVuba2t2bexbK5jXkISQdp6cYOa+NJJ7PwJ8R9H1W/tf7L1IyhUS8XAlfKkIcENh1ZFOTncjcda/Q7xx4P8aaJqXiXw74o1vw1p3iDS7QXuoajLfeRGRIiMkduP4mbcRzzkcA4OPCP2vdY0Gx+BXww1HwzbeHPEXiPTdZimlvYNs15e3JhRo7LylYutt0/wBIwuDjJznP5pl3CDc69aq3F3bs7PW+9rO7P0GvxHBKjTp+8nZXTstvwPk/VvE+mar44vGXTtCtdHub+6uYYJr+OMywr5U5kVpPmkxyhLHgEjms7wjqUvxN0T4i6H4d0qS61jUNQSaKWO3L/wBnnyEQSllIRCCHxjJbY3AHNcz4U+HHjf4ifHPVL6XS9L8G6H5dzeafZyWciR+bNHbEpDJKn72ON1zJknDNjnJx3vgpNb+DHjvxj8FW1VLzTNbazuL0WhZIjIkJbjJ3Nwz5J49AK9XCcH15+2qRfNUfK7vRaSTv0+7bpocGZcVUKMqXNpBNppav4Web/wDCt9MHhHw94HvruQ+MorLUtXv9UvEEs95/pCRoJBuO4bw64Ldht4zXlHjD9nbXPidoCWmsyz+BEXdJByJJ4WICMQq8AOC3y8cGvrD4u+HLLSfhrr13Y2Eem2kLW3l+R8rZFyjfL/wLn0610WoJLFp1nfi4fLAbM9wVHJzk+gr6nKuGadCSr1Zc0235L/htduh8rjOJ61S9Gmkotb9T8/v2dfgR4F+CvxC+JvgvRP7S1uW90i3ur291S5Ms16SzsQ6cJsDAELjj9a/rB3N/zzsP+/C1/NB9il079o3WmURBLjw3BwDnn94cjvgiv6W8S+iV9rjYx9pzR6pP8D5DK3Uk5qWrTtr6s/n3+JeteHfGltt0u6t9QS41+ytpTBKHKlrtQykqTg5BB9DX6Ya3rGlJY+H9Os7i3hjtbGKDCyZLFRjJJOTx6mviuw/Zj+FHib4iQPH8NPDmn3rzi5bWNKfyfNnLg7yYiPmzlssD34rq/En/AAnknjVbyXwXZ3Wj2z+QYNOvGtnuY1Ygs28MASP4h+VPEObUYxX9WRGDajzSk9/X/gn0Bpdxbme2bfA9t5oLDOcgc8/oa6f4q2+nw2T3OkOn2WW2DKA5IBIycZAx0r4M8QfEP4ieE725eDwi0uircOQl5JLG0MWBhTPGsiuevJVfStrX/wBoG3trC3sZNH8T6zbG32u1pGJxA+FO3aSrn72OFPTpWcFJWjbRlVppxcr9D3T4F3AX4daJIrsZXFwxCgENmduv616L4l1ndohWW3tp5t6ktIuGxtIAB/EflXz58MPGVjpPgPRbWSKXSriC2HnJcwtA0Tk7iCHA5y3616LP4gttY0yYboG2RGUtnvj/AOvRGEvbtp6XFzWoLm00O++G58rwr4TUOXH2OPJPXBXP9f0r6G+G3iiHRvFWt2skxtLiSKwAwSgA2uTg9zhsV8y/D68WXwj4WhcwwS/YYQRuBAOwd+Pb86y/iE/jq/8AGGt6h8OppzLZ21g8qKFkLOEYtw3JHPIA6A89xtSUm5pdTKdSCjFz2X6n6UaDq9o3jvW767a23LqcI3hcsU8iEgLnOCc96+4rfxNaa34e+AWn295c2upJayySKh2tn7P5qnI7ELjPqB1zX4Lv+0lrPgVW1f4m+Hbi3P2y1WefT7WSbaFCISY+Sny84z279K/Q34CfGbRfiP4u0Sw8Pa5baokHhm4ngjQFJrdhboArI2GU54xjrnmu7K61SEPe6s8PP8vhXkpU90j7q/aD+EPg346/Dbwl4R8WqsMcvhfTGt9RSJXudNkY3AMkW4YJOMMvRlz3wR+a8P7PGtfA39meLxx4j1AS/E9V1C0uprRy0JhF9dCM24J/dhrdolIOeFPU81+o3ivXYNN8E/CW5juIY1l8L6G85Z8mJSlwQ2fXdXzx8Y/if4bn+Efh62eWEhreeaSJuTsaG4XnH+0R19axx+W4TEq9SK59Net1tqRk+OxuFm/ZNuLez1Wu+h8K/BbWJPGfxEtLG/8AEUmmadp+22j84+Y0zIiowXnAyEVACcjH5/0//DuW+Hw88IvcxNcXgsYFkVOOcAHqe3+Nfz66b8NvAnhbxv4ovvAtpPq2oDVJxG5mUpZo9wJTIQT8+0P5YxknK56V/QB8ONS0mPwH4SaC/s5bZrGFkP2hWGGQMPmPXg5yOK+VyfCPDVq0KnRq0n1Vun/BP0PNcasRTo1IaJp3j2d12PTARgYo3ZGe3qK4/VvHHhfSLQXN9rdpAjYVSrBn3H/ZGaoL8RvCdto9nrF/rEFpZTSGCJ5/leeQdQqgZJ/CvYlmFBT9m5q/a6OBYOq4e05Xy7XsdJrVvGYIL641G80+3tH+0uY5NqyqqnKy8HKe3tXyl8RfG2g/EDwBftY2l3a/2hBNHHIZDmMZZFJ24I5UHZ6nFd98W/Heja58PfENpoN6NTtpYGhupbababZHRgrnuQG2ggc8mvg7wJpvjfxH4u8ceGb2W21XwX9tuQt/BughCwBGaIMcM7kMc7RlWxkg8V81xTm9aGG5cCueUnyu3S+n/D9kejkmXU3ib4t8kYrm17n5d/GvWoZv7e8KajHYW2oTMAiF1jjOxMZJI+bPKjnBKmvjK2tPFd/4QvWshYQ/2fp8l9apDcLGIwJgjr5jY3oSpGzOec4xmv2K1v4MQ6rrXgC8+Kf9h6PpusWx8vS7C53zYEhKLLP2dY3CkL065BPPn3jzwX8G/Df7QVxb6No2kWfgqysE0lrBiPsbwszXD788mQsitvzkHP0rzcJlWIlFVnLlato/Nar+tj1cTn2H5/YwjzRd9Vb5a9fM4z9gDwDqkXwjuPiH4wuZvCGi2i3tlpl4iss87Eo0kkHlqC8ceQudxw6EcY5+mP2qPir4L+IsulHw/Y3eiaD4SutJu7SBYok+2o0yFfMyGbC4JBGDguD9412rtoepTiw8L2tnpXgiWbVUsLKzjVLa1tWtLXYEjUYRTyfQ89zXwN49kvLK6+NGiMkxkjgsjGANyP5Mh+/jrlQPQ4OOK9DLsYoVnh468qTv36HBi8NOtFYia92Tat2TPGviv8H7X4tftFfET4uWfiKHTvC8/hjT4otGjgMiPeQres9wSTsErCRVDjLDcW/hGPnvXtTtft3gewt4LePTra5jtLYoBuSGRXZgT/EWIBJPPyjnFfpJ8LtButdh8VeD0vItIu5beEuyzKWRSsigHrjAZhz1Br84fir4cj8Fah8N4XnheY3FhMQhyNrRqOT6nJqMJXlUxkoT3jZL7joxWHdPBJ09nf7w16azb4o/DNpZUhknGp2/mMPuqEjYAnrzt6f15r4/+K7nRv2otLNyEYTWVqwY5xsMNwMgnn/lmK+lfHktvB8RPhPene9v/a9ypycYja1IJ46DK98V8cftG694cH7R/gmKXXdPXfpEIkDzbfKC/awpZj8vO8DgnpX2OW3c9esX+DPjs0X7u63Ul/X3nqvx/wBRt5vhR40gjMkiR2SyrIVyQUYMMH3xXnGu/Z73QvDty+oSzt9kjYwq5CuuOpx05ANQ/Gv4m/Dlvhn4g0g+MvD8V22kSokS3CmSRyhA+UEk9e2Sa+TdR/ad+FPhq006D/hKpNXuIbSO2mgttPuZXg+UZLgRnHJ+tY0MHVnTTjFuzf3WR0vExjV992vE9j1V9Osfj94VuIHjgtrjwj5WWck/JI479TyBX9MOY/WX/vn/AOvX8X/xC/ar0bUfHHh/xV8L/h9458d/2XYz2l1bPYSW5k8xFkHl713OgKMCcDGa/Uz/AIZk/az/AOjwvj3/AN+bj/5Kr1quWzdOnN9Yr8DPB5lH21W1t+6PveW9t5PEfg7RL7wV8OdWudRsbC4mmm0ZUlSWdsEq8bKRx0rmNPGhXGn+MdSt/Ct1p7WGoC0U6f4gvIvPVrnyflR2dVOMnv1/GvQprK2i+P3g/RowVktodHjIPOAsO4A/kaqto8WleCtdCqGNxrNoHK8Ekyu5I/EVrLV6nj043d1oYf2nS7fw7r95rlt4vubKPSP7UEINleYTyy5Xc8aNu2oO/evOrF/B+q6URcJYRWU1mNTi+16P86wlimWMMh6FewPGK+g/E+lRWPhbxRC6xCT/AIROBAxH3We3VSfrzXzXruk/2ZDqNrAxCweDLNOP7zz9f/HqzXxtCraRvE6jXfBvgG41ZL69l0t3EEdt5MDy26oDGrDiSIFmMasfvYrkdW+EPgnxWdPsYINYt7dUDwNYaujSBinUPHIr4YYOD2J9Oe/8U6XHHPpM6zYml1KFZFUYCKmmkf8A1642JbaOKFQGEqW0aA7c4P8AZuf61VGClr1Mqk5p3/A5LWPDPinwfcx6ZoPiTW9Kkj2x2dtMhklMcYxtYyKwOdpHWvY/hZpviSCy8SXfizVrLVr+aW3mLC1EHlRiMgqfnYH8CPpVeTRo18UoZAsW4yyKV4wd9xjpz6d+1eheELRm1qLStRvr65sZYIARJKXCqEfJAORnBNVThGN5EyxE6i5ZbHO+IYJbrR4YLnZqFsW+ZLgCVcGUkEbgdpwOoI44riNP8J6bL4h0fUbR9R8O6yqyompabO0M8S7jgblIYj/gQ6mvRNeu0WcafBxatFlc+3IrBsS9tNYy/ONpIIPfLGtlK/oZQpW1TPobWPit8dU8FXWjv4v0jxhbxQ2VhDbX0QiubaG3HyIs6jBA8yQktuP5VR+IGkeKp/gPJ8SYv7QsNWuppY7m0vLppoVhRVQLGnRGJRmyuM88fNS+GZZNTgeC8jHkSyyzIwUfO23sD78c4r3L4gtoDfA3wp4b1LVNOszdpehEMmMowRlYg9MlmAz1KMB1FeNi8VCjJJ/1ofTYDCSqx9zyOw+GXh/xNDNqGq6NpsdpDfXjo0E0yxfY2aYBJCenlsI2+YjG4qK/V34D2N5rPgwaBqWgWhniuZZbiTKAt95MB8jJIaPHOQOM9K/jK/4Khftp6p4T8VQaXa+JfFHhv4fWjjTbEeDfEzaVqc1y4JVb1IJjcOQYnIBjCDcMAnBr5ji/bT1/UPA2haz4pk+KPhaxjntLw3Fn4p15b6IIpRRcXEkqj5hy+flzjJNe5l/C1HMcP7dVlFPta6t0fmeDxDnuaZVio4X6pJu6te6UubZr/M/tH+Nn7Tmn+CfHs3wz8K/s1/FD4jvpVzHaX19o7wRwQzLDFI6s0rhix85UD4PzRyc4rpPij8TPCXgLwJ8K/Gev6nr+naZr2qRwafpNwA13DeMuXt2JdUfaSFLISCeMYya/Cnwr4n1j9qeJPFnwr/a3i0C88u2uPFmn6Rd292RqSx+QJHu4GmR2kjt4nYcHcDxhufsPwfpfiSH4d23gv42fE7RPj1f2dzczWGp6vpKrPYxyH5fKKRYSVV485QGbGTXIuA8urQpVopNp6tXTa2NKvF+bYPEV8NXco3taMlFqDtd9Pu1277n234v+Lvh3W/h98VtB0221m21GHw/qETLdwpCrNHG2FQlvuudrKCBkEd8A+Pv+1Vpnw/8Ahjoum3mi7fGGpX+tXMNsZpmhjgLJiQSQI5C5l2jOwNtfBIAz8Zx/AH4IWevW+saZcSprsccqKk99cuLldoz55f5JxwCAc/MARyBj4s/aK8G/tt+INSh034JfGP4c2Pw2t4zbw2N1fXsV1ZQl2kjjt5VUtAcvJv8ALIVsICvFdmC8PMqhW92/JdO3Nqnazd7arrY8mvxtnVan784qqr68vutbpWvo+l9j7D+K/wC1PceJrn4e2/g3R5L2+0uN4/tWoy+XG1yhTJVBlgvy4YHBwPcYofCnWZtd+JPhqP4mXF7q1zrmoNq2sPaBY7Wx0+yglaaMKzM5LpGoA55btX5wfD/4OfteWOnaqfi18QfANzBG8k2k3enyy3N2s7keYk88iKZIQERlU4wWeuyHxh+N3wCdvH/i5dO8WabplpLZifTFWOZUuZUjd38wsoVVaRySDwhHfj0nwzRhzuMU7bajp5xiKtSnh3O3NZNpWSutbf5n2N8Xv227/QtJ1XwT8I9P8J+DNXtpEmgtUll/0VJAzMux32kmOJCSATxjHNeJab8VL74lvqOhfEnWo7iDUxGl81tO0Bug6He+5CGGMn0OK+X/AIz/ALV3wz1e90zSNVNp4a8TXDy6jZvbaMXedYI8yYkT5VOxu+3cc49K+HvjT+3dD4b0zQ5/hn8Jj8X7i4DfbJNY0q4gFu4xsC7IX3kjPUj6mvOwWYYehLlxNCLm9norn7K/CfHY3Dxq4HGVKVOGklyOavvdvRaprQ/WT4izS/seeHLuf4Gw2XiO28S3cazG/wDEcqT6e7IVjQ7vNZg21lPIAx78fGPxD+Kfx48dFdKa9+G3ha4gMCLJbW9xczQMigBlZiq5+VcjHQnkV8J+BP8Agoveate32m/EP9mrw/8ADq2SzeS2udOGomSSfgKpQoqbRySTnGK9ik+NfhS88Q2l1/wkdgq3Lx5BfHbGMHnt39K6cow2DxeJqVHTSkreZ8N4i5TmOQYXD0/aupGpf3nDlTafTfpvqddqen/GDxRdR3niv44eL5UsnaeL+ybWOz8iQJsypLMcY3ZBB6+1fn98c/DGjwfEPwhb+LNZ8V+O4ZUuHD6regspMkS7AUUfJ8xOOxJ9a/RKXxDG9jqOy5ikjdGkjCNkENnbnt6/lXwD8fPLvviH8LFDMy3NtOGUAAZEkTZHv8pr7HC5ZRp3lGNtLfifjss4xFW6lJu56donw9+HWkia5tvBnhiOSdxIXkRpWyHOMMzccIOneuvjvJP7QiaCHS7WSeNSxitIlZyBASd23Oc+Zznoa46XUYV0W2k3cRIpUDqQBI39Ktz6qkENrekpuiLxhgOmI2B/9Fk/lXpYemk9tzysRUnKV27mqb2+uI47VtU1BLhZPJcJKV+X/Sk7f7o655A9K/ou333/AD+XX/fxv8a/moGsQR6g7iVBJ9vOeen+l3C4/wDH6/p1+yyf88m/KvIz6NnH5/ofUcIxf7zTt+pyFpbyXP7TeuX3mwP5U8cWMH5DDbnAzj61Gii88E3Mssw3f25b4ByMnZIfT3r0rSZIZPjZ451GUQmCG61N1yAPuQuBXnOrziz8F2AAUtLfrLnPGRC3b/gVfnUq736M/QIUEt9bWLHj6/h1LQvitBFKIbmz0OyjX64t1x/48a8I15G8vxXcTuzP/YmkWpJ6H54z/Wuy8TzPb3/xf81sxtFbRYPTObcD9a4zWiHtPFaybiSNKQg+wiP9KxhdSbuLRwX9f1udD4gkEusQ2rcg6hdED/dssVwltG3m3DFSCFCnjp/xL4hn/wAexXa62jTeILB4+hv9VPHcC2Aqg1i/naqOeGnIGOgFtbqK6ISd9zCb1Ou1SIvrM8sZyE3hSR1y05/rTtOuvJube83OWEVv06nKn/Gk1C4hmkkm82OBmlbJZsEAPLyQfrXlsnxH0q31+90m1t7ydrdYo/tDxlbcvwAgbq5xnhQcEjOKJ1o04uU3ZEQoSn7tNbnouqRvPchjwUiJOT04H/164DWPGGj2EcUVm0usXQB4iOUjwTnc3I456Z6VxOveOLy4V7rULrULW3Iltj+4Xaxz93CkqMA56sfUCuD024k1C7uLdC4Csm5FGME52sf72fm61lTryq60lp3f6I1jQhD3ar17L9X0PcW+Nl5Yabp6JOt3OkbMsSJhCGckgHOT948n24rzPw/+0Bquqa3qviHx8866NZxiCCNs5crwo7AkADjgcZ+vRaP4L022ijvtRcSsW4VujH29K6ZPDWiXgMc+m2MkRwApQEAV6+Dy+jfmqx5n3fQ87HZliIRVOlK0e3f1P48f2x/jxoviP9rT48+MJtIvJry58RTNDKBh4lQBUIxgZG3OeR0rFtv2x7W70m40fWNJ+IXiNJgAYm1VwnAxtwxbK89D3r+wa6+AXwfv7iS81D4feCLq7Y5eSbTonYn/AHiuT0q/YfBH4UacyyWng3wZaMpyPL06NcfTC19dRxDhZQ0S/Ltv+hyYjMI1Evaxu15r/I/O3/gix8e9Y8YeIfjXp7eDNV8NaR/ZunS21y9kIoJirFNiOsaB3GWYkgnnrX7+TeILiZf9eqt1PFfOXhDSdI8PweRp621rCDwsUe0D3AHf/wCvXov2+Ncq0w5Hcda7aU48trHzeKvUqOpa1zotQ1q7lR1afdkYyQPzrkdQ8T69DpLaRBdWrWYffEGiXfFznAkA3YPuSPasq7v9zFVbjtg1zF3eurN+tRNp9BQqSSsdb5l1qGhmaw8SabcXUY3XFjcYgljxzlC3Ei/Q59q+XPjF4Pk+LngDxZ4Au9butJ0zWLKWynntWCzRq4wShIIz6da9MvnS4RxJsyTgg8//AK65WH7DZalBLqIvpNN3fvVt5VSQj2ZgR+grJV3F2aOTEJys07M/Fz9oD9hr9plvAeleDvhL4s8FazpumQwWlh9tjNpdxRIVJLzrkSswTByB1PPavzouP2NP+Chvhm7jkj8Pw/uXDBrLWYwTgdVYtkHrya/rnn8IweIIbm8+HeuReJgq7n06ZhDfwcd0ziQf7SmvG9Rla1uLi01GGW2u0bDxyoVdPqDzXDicuw2KkpVIarsfUZR4lZ/lWHeHweIahLVq716dz+XHxJ+yr+2L4p1LQZNb0DxibprkJqNxeapbzKsG5QTHsbccDccH9K+i9Y/Y/wDHdvDDJ4e1nXIIkzthurgyDbx0546V+6GoRafcbxuBYk8kCuD1LTLYq4jYDA6AdK9XK8vw9By9lG3Na/yPlOI+PM3zH2axVVyUNk72V99G3b5H4nyaT+098PbeC1sdZOrW8aBFSeJSEAzhQ2M45PevLPF3ir4vX2teH9a8ReHtRW70tJXjFhHlGL4Bz970X8q/bXWNGglyJIldcHjArxfxF4M0G8YmezRW6ZCgH8xg178KUZKx8pRzycNZwXy3PyWtv2ivGOkpLZarb3Dr5ZUrLABtUk+h64Y9q6q0/aw0qTSJY7m2tp75WdtgcoANrjJ3Dj/WH17V9leKfg34a1iN1lhifHQSoJMH23ZxXzb4s/Zn8O3kTRRafbgbi2+HKNyee+KI4GSfu6nbSz3CTsprlZ51F+0loT3F1e3FlfW6u7XEhUq6q3mmU4IP1H41/Z9/wsrQP791/wB+/wD69fw3+Lv2ZYbKO/n0+91OydVYqrIHAGCcZGK/sz/4Qe4/5/p/++D/AI181n9KpGUefzt+B+kcHVsJNTcJ9v1PWYNVkTxR8Rr8yMQsOrTA+pZio/nWHqk0sngXwmHUPPJqMqD3CxIP5muJtNTu10P4l3aSg3JsZkVj13NOv/16vz6xHJ4c8CWsswEiX0rbexJdF/UivziMLJH1yqR5nzeQ3xzCHufi8wJAfUYIQfpMv9ErG1dDFaeJJZow4N3p0QHqBGn/AMTU+t6zp99Y+Nb6S8t4rabV0Lu8gXaQ8hOecAfKevoa8i8VfFiK+bxjpegWEN+1nrFlHLezTRwW0KBXBLSSELwVAwMk7hjNTUcY6v8Ar+rnLSUm+Vav/hj23WYodNlh1O7uYIIYZNXlZnbaF3RDr7AV5j4n+Kug6Ol7eRRbrC4ju1+2yArAsixW5KDGXeQjkIisxIPHFeUeN08Y6kthbWn9m6jI09/5l7qReKxhjmKqUSwGDcYUcPIyoNxJUg4rhrW0v5ilxP480zWb8lheX91Gxnt0IVfLgOMIjBQfKjVAM8jrXz1TivC1KnssPOLn66f8H5H0NLhbFqk69aDUF5a/jovmW9T8ajXtV1Miy1/7DPEirJqAVGjYSSN5iWSkhc78gyknA5QGmJ4thjnvrm+n+2y3UYEsCMYfMYAbWcpjpjIT7gxworiLx10+4KWcq6gm7CuygPKeM5UElRnt+OK9P8HeDk13TLXUtTtopEhkEhAYKWJz8pz7GvcWXU5KMqz5357J90un4+p85HMq0bwopQXlq36vr+CN3SNBtbzS7e+awE9xJKRncdsSdti9Acjk+g98V3VnoVlo0x1EyocoYhGRl2+YEAHsOTUt7qej6Fpklvd+fbWypi1hhdR5knXJHORnrXn9rfalrFwbq589iR8qq+FjP0r2sPRnOd2tO551fEU6cW1L3u3U9Wt7mS4ZXl2HHAQfwV01ozFRn5Dnk+tcHpVi8YV5+SOflPNdZHcAKeePr0r14xSaR85OreWp0TTDOGBwOR81PW4UkY3Ee561zUczEgO3Xng9q0hJCfLETFjjkGuxSsc856m7ZXsaSOGjHXI+Y10B1SNgsgiT0Oc8/rXmcd4EvSksfUZHNbUd2QGQDIPTtiuuFbQm+h09zqMYA/dQbjz0Y4/Wucnvg8kmAmcY44FV2uifvAsRxWXPOVYSAZPbI4zRKo2ZTkiC7uS7DgY6fQ1zF/IZFeKQAoSR+Fal1KzgKAAGPOPWubuvMySWzFg57YNZt3Z5lVu7RgSRNZvDNZT3NncRHdG6SsGQ+xzkVyHibUPEGoyi+1bVr/VbhfkElxKZGUexPNdXcO2TGy7kUcMe9c7flZAV2x9cke1dNFWaOOpOVrXOGl1ZV2xyswfH4Cs6a+WVHIcH0OCNw9qt6tZI7DYyqd2BzzTvCM/gG0vza/EDS/Ec1m7fLd6fcKpg5x88ZByO/B/CuulJrVHI8P7R2vY427dXBOWGeOlcVqVlDKrAg7+ea+rtf+A6a3YyeJfhF4nsPHOi4Ltb71W6h/2SBjJ9iAfavlnW4r7Tbiaw1OyvdLv0Yq8M8TRyKckcgjpx+tenhMXz6I8jH5fWpatad+h5bquiSDzCrkD1HNeZappd2gOySQ9ete13l0SpBDA5xgHPPvXJX8iPvDgH1yOle7h6x4lTm+0tj508QWV21jdB49zFGySOnymv6pPm/wCeI/T/AAr+abXbWCa3ugcgGNwB+Br+nL7Iv+1XjcSPm5Lpdf0PvuAKqtV0/l/U+J9a8Y6Xo/hXx/cPfW8UCXFvCzk7VJeZiBk/SvMdd+It7qNx8IY9Itrm50FpF1HUb84itbO1W7Z2eaZsLGNkTHLEDoM818i6t4v0O50vxz4HuL62+O3iO/1W0uLq10m9e30XRbiEMqrc6ng+YAxBMcAZicDPINc54t0/xj8RNA03TPHt7DrmgWEi3MOi2VpLZaXpscZ2qvks224jJfO+UM3civwavnFKM/Zw1krX7L1eyP3vDZHWnHnr+5Hp3fot2euWfj7w/q8nxC8Jacx+JrTawNUbV57p7LR7RY1ZkiQnEt7vaWUYjURnHL8EU6X4n+LL28m1K+m0y81lLo3drHc2i7LJ8j5LdYwqqvGem7JJLGuHsvCet6bYWGoXWl2Vjo2FWOOK5iXemQNqquSOvOAOSa6vWLh/DGinX7nwxbWOhPdw2sjC73XUiyuE3AFcAZI9D/KvN+qwxb5cXLmv0jpFfPRtnoQxlbCx58HD2a7zXvvzttFf1qb+meOvHVzPpb6nqthDY2jXkgt7KQwT5kYFUmkBIkXnJyM4Cck9IbW+uNaia0ghkEVqPLQt87KGbexyexY5JJJPWqemWMer211BZ2kVnaRBWjQrgyHdg9eSeTj8a928LeD9F0HT7e51Mo9w5DLBu5k44LAe4rrynhrC4JupRjeb6vVpdlc4My4kxeNSp1pe4tktE33fmzltD8K2VnaDULyXejDYoIIaQledoHXoOT6V3uk6tLpFqsMYMdspJjtwPve57/jTrm5FrI8sx3XLcRxhcYHbjsKzYbdrmdp7uclj+GB6V9fhqV1zM+QxNaWxZLtq9yuoaoiXFzgqoP3UH91R2H9a6G2nEY2xoijPQKOKggtrMZUyxAgdjWxDbWytjKEkDjNenBq1mjxa6lJ3TNK1uWDZCjYBknpVmW+WfcERUA9OM1JGlpHGoLqhx8wzT44rLbu+QknruHHpThUS1sYQw8npcrxXRQFmBI29M/1qRLmUFWQ5x/tVKTZjCHZkAkncOvpULSW4Dum0HGcHvW6mm9jGeG7sglvz9qD/ADHC9cdK111Eb0ZjIHIGTjiuevp4Y3T/AFW7ABGcUj3UbxqPMVVGF4PSuiLTOHkte7N97yRQxUjJbGfUVDPdDBHKHgjvWR9st1Vtsoz3BqCS93RgDYvHXdnNVcwqTt1LM10VI2EkZBPvXOXV3IQ4GQoyeP5VNPcFo2Uud69AOv41g3d4QrlXiB46H7vbkDrVQV2c86snpcoXsrIQ+WyQP1rm7iYlZmUso6dO9bF1ebSWJVlYA8dj61ylze4ZkyyMrHuMFq7IKxyzUe5RmYSqrIAwxjOO9crqELZ3sqE5x8w6D61rXGoNGNy3EYO75kyMA+wrnbrVHbLTlNpJCjAyeK7KMU3Y4JKPcytP1vxJ4N1Q6z4X1a90m9Uj54G2h/8AeU/Kw7YINe6Wfx88D+PrOLQPjr4StZZiAqazbQ7WQ8fM6qNydP4SRz0r581C+dlcZCDAOSOPoa4fVHSYK8cKupGPc+4zXVLCRk9tfIqhjnTfLe8eqa0PpHxl+zXqF5pjeJfhD4ms/HGguC8cSyr5oX+6rglXPbB2n8eK+MvEFnq2iXz6drWmX2mainDwzxMroc9CD/8AqrsNE+IXjT4c6g+peFNevdKk3fPCuHhuAOMSREFW6+mfcV9M6L+0P8Kvi/aroHxu8K6XpOoriJdQC7odxOAwkAMkHOOOVH0rSnUrUGm1zLy3KlhMLidYPkm+m6fz6H5/6pdB7S9cj5hExU9Apx0Ir+n3zG9V/OvwL+KnwE8NWdvqWp/DD4m+EPFFlskK6fc6pAs6cHKo+7D/AI44r9/vsOrf9Atv++1/xrlzvGxnGDT7/oe9wdlkqEqsJrt+p+P+u+HtE8IX3hMeGNMtNDgknw0Fuu2AEQIdyxfcVs87gASec155+0zZ28fxx0vw6FkfQriwtJp7R5GeKVgocZUk8bgGx0yAe1FFfyHnOGpvEQTirenmf3fwrJqFSa3s9euyOg+G9xPrkuu3WrSvfTWu0W+88RDA6L0rf/aDt4V+BOvXqxqt2sUMyyDghxOuG+tFFfp9eCj7NRVlZH4bFuacp6tt7+rKvw5lkk0+a5dszB1we3IBPHTrXoenXM939oluZWnkAfBbnGKKK9rDvU+XrU48+xytneXU0sxlmeQl9pJ549K2VvLlWKiQ7cdMCiivfw790+bzPSSSLttdTtLChf5STnAAroIbmdWGJX6jvRRW/Mzz4pNXZoPe3TZzO54FLNd3IaNRM4XGcCiinFu5yqTIPtt0xUNO5BUn9auQ3M7rLvlc4Xj2oorTmfKZ197GZezSmLJkckP3NW7eWTcrbzkCiitVJ8m5ww3ZBPeXJZm85s5qZJpJTEJHLDn+VFFVKbstTmm/fsRTEhQ4ZtxOCc9a5u7mkUvtYjPX3oorSM5dxzgr7HLXDt9mL5G4AYOPrXOXE0jA5bOTk8DrmiiuunUlzPU5akFbY5zUZpUkkZXIIwB3rmdRdl8sKQAQzHA74PNFFdDqS7nIoK2xz0ruSpLMf3W7k9+ua5e/lkVJdruMRhxz0JPJoorujVlbc5XBc2xyN1LJJbSeY3mZZgdwzmuG1a7mgR/L8nDq0TBo1YbfQAjA+ooor1KLurmtKlFvVHjOrOy212BtAKMOg6FTX9aHlR/3f1oorw89nL3Ne/6H3HCdONqmnb9T/9k=" y="84"/>
+  <rect fill="none" height="147" stroke="#9b9b9b" stroke-width="1.5" width="233" x="26" y="84"/>
+  <text fill="#111111" font-size="24" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="160.0" y="261.2">
+    <tspan dy="0" x="160.0">Source Image</tspan>
+  </text>
+  <line marker-end="url(#arrow)" stroke="#111111" stroke-width="2.2" x1="259" x2="287" y1="157" y2="157"/>
+  <polygon fill="#111111" opacity="1" points="287,157 279.96,160.872 279.96,153.128" stroke="#111111" stroke-width="0.5"/>
+  <rect fill="#555555" height="189" opacity="0.18" rx="17" ry="17" stroke="none" width="83" x="290" y="68"/>
+  <rect fill="#eadde1" height="189" opacity="1.0" rx="17" ry="17" stroke="#142b4d" stroke-width="2.6" width="83" x="287" y="64"/>
+  <text fill="#111111" font-size="24" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" transform="rotate(90,328.5,158.5)" x="328.5" y="165.7">
+    <tspan dy="0" x="328.5">Pre-trained Encoder</tspan>
+  </text>
+  <line stroke="#111111" stroke-width="1.1" x1="344.0" x2="364.0" y1="236.0" y2="236.0"/>
+  <line stroke="#111111" stroke-width="1.1" x1="349.0" x2="359.0" y1="227.3397459621556" y2="244.6602540378444"/>
+  <line stroke="#111111" stroke-width="1.1" x1="359.0" x2="349.0" y1="227.3397459621556" y2="244.6602540378444"/>
+  <line marker-end="url(#arrow)" stroke="#111111" stroke-width="2.2" x1="370" x2="420" y1="157" y2="157"/>
+  <polygon fill="#111111" opacity="1" points="420,157 412.96,160.872 412.96,153.128" stroke="#111111" stroke-width="0.5"/>
+  <polygon fill="#f9f9f7" opacity="1" points="418,126 458,84 467,84 428,127" stroke="#777777" stroke-width="1.5"/>
+  <polygon fill="#c9c9c9" opacity="1" points="428,127 467,84 467,175 428,216" stroke="#777777" stroke-width="1.5"/>
+  <polygon fill="#f5f5f5" opacity="1" points="418,126 428,127 428,216 418,216" stroke="#777777" stroke-width="1.5"/>
+  <text fill="#444444" font-size="21" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="437.5" y="239.8">
+    <tspan dy="0" x="437.5">Latent z₀</tspan>
+  </text>
+  <line marker-end="url(#arrow)" stroke="#111111" stroke-width="2.2" x1="468" x2="516" y1="157" y2="157"/>
+  <polygon fill="#111111" opacity="1" points="516,157 508.96,160.872 508.96,153.128" stroke="#111111" stroke-width="0.5"/>
+  <rect fill="#eadde1" height="186" opacity="1.0" rx="10" ry="10" stroke="#142b4d" stroke-width="2.6" width="50" x="517" y="65"/>
+  <text fill="#111111" font-size="23" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" transform="rotate(90,542.0,158.0)" x="542.0" y="164.9">
+    <tspan dy="0" x="542.0">Add Noise</tspan>
+  </text>
+  <polyline fill="none" marker-end="url(#arrow)" points="567,157 594,157 594,255 708,255 708,231" stroke="#111111" stroke-linejoin="miter" stroke-width="2.4"/>
+  <line stroke="#111111" stroke-width="2.4" x1="567" x2="594" y1="157" y2="157"/>
+  <line stroke="#111111" stroke-width="2.4" x1="594" x2="594" y1="157" y2="255"/>
+  <line stroke="#111111" stroke-width="2.4" x1="594" x2="708" y1="255" y2="255"/>
+  <line stroke="#111111" stroke-width="2.4" x1="708" x2="708" y1="255" y2="231"/>
+  <polygon fill="#111111" opacity="1" points="708,231 712.224,238.68 703.776,238.68" stroke="#111111" stroke-width="0.5"/>
+  <text class="serif" fill="#111111" font-size="27" font-style="italic" font-weight="normal" opacity="1.0" text-anchor="middle" x="630.0" y="151.6">
+    <tspan dy="0" x="630.0">t</tspan>
+  </text>
+  <text class="serif" fill="#111111" font-size="27" font-style="italic" font-weight="normal" opacity="1.0" text-anchor="middle" x="631.0" y="243.6">
+    <tspan dy="0" x="631.0">t′</tspan>
+  </text>
+  <polygon fill="#dfe6e8" opacity="1" points="670,135 711,97 721,100 681,143" stroke="#6e8790" stroke-width="1.4"/>
+  <polygon fill="#adc1d1" opacity="1" points="681,143 721,100 721,188 681,232" stroke="#6e8790" stroke-width="1.4"/>
+  <polygon fill="#c8d6e2" opacity="1" points="671,135 681,143 681,232 671,224" stroke="#6e8790" stroke-width="1.4"/>
+  <polygon fill="#70aec3" opacity="1" points="705,124 743,98 754,99 716,132" stroke="#597887" stroke-width="1.4"/>
+  <polygon fill="#3997b7" opacity="1" points="716,132 754,99 754,189 716,231" stroke="#597887" stroke-width="1.4"/>
+  <polygon fill="#7cb7c9" opacity="1" points="705,124 716,132 716,231 705,222" stroke="#597887" stroke-width="1.4"/>
+  <line marker-end="url(#arrow)" stroke="#111111" stroke-width="2.3" x1="754" x2="798" y1="157" y2="157"/>
+  <polygon fill="#111111" opacity="1" points="798,157 790.64,161.048 790.64,152.952" stroke="#111111" stroke-width="0.5"/>
+  <rect fill="#555555" height="88" opacity="0.18" rx="17" ry="17" stroke="none" width="173" x="801" y="126"/>
+  <rect fill="#eadde1" height="88" opacity="1.0" rx="17" ry="17" stroke="#142b4d" stroke-width="2.6" width="173" x="798" y="122"/>
+  <text fill="#111111" font-size="27" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="884.5" y="158.98">
+    <tspan dy="0" x="884.5">Diffusion</tspan>
+    <tspan dy="30.240000000000002" x="884.5">Model</tspan>
+  </text>
+  <line stroke="#111111" stroke-width="1.1" x1="944.0" x2="966.0" y1="141.0" y2="141.0"/>
+  <line stroke="#111111" stroke-width="1.1" x1="949.5" x2="960.5" y1="131.47372055837118" y2="150.52627944162882"/>
+  <line stroke="#111111" stroke-width="1.1" x1="960.5" x2="949.5" y1="131.47372055837118" y2="150.52627944162882"/>
+  <polyline fill="none" marker-end="url(#arrowTeal)" points="716,99 716,75 884,75 884,122" stroke="#58a9b9" stroke-linejoin="miter" stroke-width="3"/>
+  <line stroke="#58a9b9" stroke-width="3" x1="716" x2="716" y1="99" y2="75"/>
+  <line stroke="#58a9b9" stroke-width="3" x1="716" x2="884" y1="75" y2="75"/>
+  <line stroke="#58a9b9" stroke-width="3" x1="884" x2="884" y1="75" y2="122"/>
+  <polygon fill="#58a9b9" opacity="1" points="884,122 878.72,112.4 889.28,112.4" stroke="#58a9b9" stroke-width="0.5"/>
+  <polygon fill="#d6e1e5" opacity="1" points="796,237 808,226 817,229 805,240" stroke="#68818c" stroke-width="1.2"/>
+  <rect fill="#9fb7c5" height="23" opacity="1.0" stroke="#68818c" stroke-width="1.1" width="10" x="796" y="238"/>
+  <polygon fill="#d6e1e5" opacity="1" points="803,230 815,219 824,222 812,233" stroke="#68818c" stroke-width="1.2"/>
+  <rect fill="#9fb7c5" height="23" opacity="1.0" stroke="#68818c" stroke-width="1.1" width="10" x="803" y="231"/>
+  <polygon fill="#d6e1e5" opacity="1" points="810,223 822,212 831,215 819,226" stroke="#68818c" stroke-width="1.2"/>
+  <rect fill="#9fb7c5" height="23" opacity="1.0" stroke="#68818c" stroke-width="1.1" width="10" x="810" y="224"/>
+  <polygon fill="#62aec1" opacity="1" points="895,237 907,226 916,229 904,240" stroke="#68818c" stroke-width="1.2"/>
+  <rect fill="#318fad" height="23" opacity="1.0" stroke="#68818c" stroke-width="1.1" width="10" x="895" y="238"/>
+  <polygon fill="#62aec1" opacity="1" points="902,230 914,219 923,222 911,233" stroke="#68818c" stroke-width="1.2"/>
+  <rect fill="#318fad" height="23" opacity="1.0" stroke="#68818c" stroke-width="1.1" width="10" x="902" y="231"/>
+  <polygon fill="#62aec1" opacity="1" points="909,223 921,212 930,215 918,226" stroke="#68818c" stroke-width="1.2"/>
+  <rect fill="#318fad" height="23" opacity="1.0" stroke="#68818c" stroke-width="1.1" width="10" x="909" y="224"/>
+  <line marker-end="url(#arrowTeal)" stroke="#58a9b9" stroke-width="2.8" x1="842" x2="842" y1="210" y2="279"/>
+  <polygon fill="#58a9b9" opacity="1" points="842,279 837.072,270.04 846.928,270.04" stroke="#58a9b9" stroke-width="0.5"/>
+  <line marker-end="url(#arrow)" stroke="#277f94" stroke-width="2.8" x1="938" x2="938" y1="210" y2="279"/>
+  <polygon fill="#277f94" opacity="1" points="938,279 933.072,270.04 942.928,270.04" stroke="#277f94" stroke-width="0.5"/>
+  <rect fill="#555555" height="49" opacity="0.18" rx="11" ry="11" stroke="none" width="437" x="608" y="283"/>
+  <rect fill="#efd8e0" height="49" opacity="1.0" rx="11" ry="11" stroke="#142b4d" stroke-width="2.6" width="437" x="605" y="279"/>
+  <text fill="#111111" font-size="28" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="823.5" y="311.9">
+    <tspan dy="0" x="823.5">Aggregating Instance Semantic</tspan>
+  </text>
+  <rect fill="none" height="238" opacity="1.0" stroke="#142b4d" stroke-dasharray="4,4" stroke-width="3.5" width="210" x="330" y="264"/>
+  <rect fill="none" height="66" opacity="1.0" stroke="#142b4d" stroke-dasharray="2,3" stroke-width="1.5" width="189" x="341" y="278"/>
+  <rect fill="#dce1e2" height="27" opacity="1.0" stroke="#142b4d" stroke-width="1.5" width="27" x="365" y="288"/>
+  <rect fill="#c7d8e8" height="27" opacity="1.0" stroke="#142b4d" stroke-width="1.5" width="27" x="359" y="294"/>
+  <rect fill="#c7d8e8" height="29" opacity="1.0" stroke="#142b4d" stroke-width="1.5" width="29" x="349" y="302"/>
+  <text fill="#111111" font-size="21" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="414.0" y="314.8">
+    <tspan dy="0" x="414.0">···</tspan>
+  </text>
+  <rect fill="#c7d8e8" height="28" opacity="1.0" stroke="#142b4d" stroke-width="1.5" width="28" x="433" y="301"/>
+  <rect fill="#c7d8e8" height="28" opacity="1.0" stroke="#142b4d" stroke-width="1.5" width="28" x="460" y="301"/>
+  <rect fill="#c7d8e8" height="28" opacity="1.0" stroke="#142b4d" stroke-width="1.5" width="28" x="487" y="301"/>
+  <rect fill="#c7d8e8" height="12" opacity="1.0" stroke="#142b4d" stroke-width="1.4" width="27" x="487" y="290"/>
+  <rect fill="#e5f2da" height="67" opacity="1.0" stroke="#142b4d" stroke-dasharray="2,3" stroke-width="1.5" width="189" x="341" y="365"/>
+  <rect fill="#dce1e2" height="27" opacity="1.0" stroke="#142b4d" stroke-width="1.5" width="27" x="365" y="375"/>
+  <rect fill="#c7d8e8" height="27" opacity="1.0" stroke="#142b4d" stroke-width="1.5" width="27" x="359" y="381"/>
+  <rect fill="#c7d8e8" height="29" opacity="1.0" stroke="#142b4d" stroke-width="1.5" width="29" x="349" y="389"/>
+  <text fill="#111111" font-size="21" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="414.0" y="401.8">
+    <tspan dy="0" x="414.0">···</tspan>
+  </text>
+  <rect fill="#c7d8e8" height="28" opacity="1.0" stroke="#142b4d" stroke-width="1.5" width="28" x="433" y="388"/>
+  <rect fill="#c7d8e8" height="28" opacity="1.0" stroke="#142b4d" stroke-width="1.5" width="28" x="460" y="388"/>
+  <rect fill="#c7d8e8" height="28" opacity="1.0" stroke="#142b4d" stroke-width="1.5" width="28" x="487" y="388"/>
+  <rect fill="#c7d8e8" height="12" opacity="1.0" stroke="#142b4d" stroke-width="1.4" width="27" x="487" y="377"/>
+  <text class="serif" fill="#111111" font-size="25" font-style="italic" font-weight="normal" opacity="1.0" text-anchor="middle" x="436.5" y="457.0">
+    <tspan dy="0" x="436.5">Dual-queries</tspan>
+    <tspan dy="28.000000000000004" x="436.5">Design</tspan>
+  </text>
+  <line marker-end="url(#arrowTeal)" stroke="#58a9b9" stroke-width="3" x1="532" x2="605" y1="298" y2="298"/>
+  <polygon fill="#58a9b9" opacity="1" points="605,298 595.4,303.28 595.4,292.72" stroke="#58a9b9" stroke-width="0.5"/>
+  <polyline fill="none" marker-end="url(#arrowTeal)" points="532,414 570,414 570,311 605,311" stroke="#58a9b9" stroke-linejoin="miter" stroke-width="3"/>
+  <line stroke="#58a9b9" stroke-width="3" x1="532" x2="570" y1="414" y2="414"/>
+  <line stroke="#58a9b9" stroke-width="3" x1="570" x2="570" y1="414" y2="311"/>
+  <line stroke="#58a9b9" stroke-width="3" x1="570" x2="605" y1="311" y2="311"/>
+  <polygon fill="#58a9b9" opacity="1" points="605,311 595.4,316.28 595.4,305.72" stroke="#58a9b9" stroke-width="0.5"/>
+  <line marker-end="url(#arrowTeal)" stroke="#58a9b9" stroke-width="3" x1="690" x2="690" y1="328" y2="365"/>
+  <polygon fill="#58a9b9" opacity="1" points="690,365 684.72,355.4 695.28,355.4" stroke="#58a9b9" stroke-width="0.5"/>
+  <line marker-end="url(#arrow)" stroke="#287f93" stroke-width="3" x1="920" x2="920" y1="328" y2="365"/>
+  <polygon fill="#287f93" opacity="1" points="920,365 914.72,355.4 925.28,355.4" stroke="#287f93" stroke-width="0.5"/>
+  <rect fill="none" height="64" opacity="1.0" stroke="#142b4d" stroke-dasharray="2,3" stroke-width="1.5" width="169" x="590" y="365"/>
+  <ellipse cx="717" cy="398.0" fill="#f6efd6" opacity="0.45" rx="57" ry="22" stroke="#8d968f" stroke-width="1.2"/>
+  <rect fill="#c7d8e8" height="28" opacity="1.0" stroke="#142b4d" stroke-width="1.7" width="28" x="600" y="384"/>
+  <text fill="#111111" font-size="23" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="650.0" y="402.9">
+    <tspan dy="0" x="650.0">···</tspan>
+  </text>
+  <rect fill="#c7d8e8" height="28" opacity="1.0" stroke="#142b4d" stroke-width="1.7" width="28" x="670" y="384"/>
+  <rect fill="#c7d8e8" height="28" opacity="1.0" stroke="#142b4d" stroke-width="1.7" width="28" x="697" y="384"/>
+  <rect fill="#c7d8e8" height="28" opacity="1.0" stroke="#142b4d" stroke-width="1.7" width="28" x="724" y="384"/>
+  <text class="serif" fill="#111111" font-size="23" font-style="italic" font-weight="normal" opacity="1.0" text-anchor="middle" x="648.0" y="451.4">
+    <tspan dy="0" x="648.0">qᵢₙₛ</tspan>
+  </text>
+  <rect fill="none" height="64" opacity="1.0" stroke="#142b4d" stroke-dasharray="2,3" stroke-width="1.5" width="171" x="829" y="365"/>
+  <ellipse cx="956" cy="398.0" fill="#f6efd6" opacity="0.45" rx="57" ry="22" stroke="#8d968f" stroke-width="1.2"/>
+  <rect fill="#45a8c8" height="28" opacity="1.0" stroke="#142b4d" stroke-width="1.7" width="28" x="839" y="384"/>
+  <text fill="#111111" font-size="23" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="889.0" y="402.9">
+    <tspan dy="0" x="889.0">···</tspan>
+  </text>
+  <rect fill="#45a8c8" height="28" opacity="1.0" stroke="#142b4d" stroke-width="1.7" width="28" x="909" y="384"/>
+  <rect fill="#45a8c8" height="28" opacity="1.0" stroke="#142b4d" stroke-width="1.7" width="28" x="936" y="384"/>
+  <rect fill="#45a8c8" height="28" opacity="1.0" stroke="#142b4d" stroke-width="1.7" width="28" x="963" y="384"/>
+  <text class="serif" fill="#111111" font-size="23" font-style="italic" font-weight="normal" opacity="1.0" text-anchor="middle" x="885.0" y="451.4">
+    <tspan dy="0" x="885.0">q′ᵢₙₛ</tspan>
+  </text>
+  <rect fill="#d9ebe4" height="49" opacity="1.0" rx="11" ry="11" stroke="#142b4d" stroke-width="2.6" width="433" x="584" y="464"/>
+  <text fill="#111111" font-size="27" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="800.5" y="496.6">
+    <tspan dy="0" x="800.5">Principal Component Extraction</tspan>
+  </text>
+  <rect fill="#555555" height="158" opacity="0.18" stroke="none" width="304" x="13" y="363"/>
+  <rect fill="#f4f4f4" height="158" opacity="1.0" stroke="#aaaaaa" stroke-width="2.1" width="304" x="10" y="359"/>
+  <rect fill="#f4f4f0" height="19" opacity="1.0" stroke="#142b4d" stroke-width="1.4" width="19" x="18" y="369"/>
+  <text fill="#444444" font-size="16.8" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="start" x="43" y="384.03999999999996">
+    <tspan dy="0" x="43">Learnable Queries</tspan>
+  </text>
+  <rect fill="#c7d8e8" height="19" opacity="1.0" stroke="#142b4d" stroke-width="1.4" width="19" x="18" y="406"/>
+  <text fill="#444444" font-size="16.8" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="start" x="43" y="421.03999999999996">
+    <tspan dy="0" x="43">2D Object Agent Queries</tspan>
+  </text>
+  <rect fill="#45a8c8" height="19" opacity="1.0" stroke="#142b4d" stroke-width="1.4" width="19" x="18" y="443"/>
+  <text fill="#444444" font-size="16.8" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="start" x="43" y="458.03999999999996">
+    <tspan dy="0" x="43">2D Auxiliary Object Agent Queries</tspan>
+  </text>
+  <rect fill="#f4b49c" height="19" opacity="1.0" stroke="#142b4d" stroke-width="1.4" width="19" x="18" y="480"/>
+  <text fill="#444444" font-size="16.8" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="start" x="43" y="495.03999999999996">
+    <tspan dy="0" x="43">3D Object Agent Queries</tspan>
+  </text>
+  <text fill="#111111" font-size="30" font-style="normal" font-weight="bold" opacity="1.0" text-anchor="start" x="1069" y="36.0">
+    <tspan dy="0" x="1069">(b) Dual-queries Consistency Scheme</tspan>
+  </text>
+  <rect fill="#cfeae6" height="313" opacity="1.0" rx="20" ry="20" stroke="#111111" stroke-width="2.7" width="649" x="1079" y="61"/>
+  <rect fill="#fff3c6" height="28" opacity="1.0" stroke="#142b4d" stroke-width="1.7" width="28" x="1192" y="79"/>
+  <text fill="#111111" font-size="23" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="1242.0" y="97.9">
+    <tspan dy="0" x="1242.0">···</tspan>
+  </text>
+  <rect fill="#fff3c6" height="28" opacity="1.0" stroke="#142b4d" stroke-width="1.7" width="28" x="1262" y="79"/>
+  <rect fill="#fff3c6" height="28" opacity="1.0" stroke="#142b4d" stroke-width="1.7" width="28" x="1290" y="79"/>
+  <rect fill="#fff3c6" height="28" opacity="1.0" stroke="#142b4d" stroke-width="1.7" width="28" x="1318" y="79"/>
+  <text fill="#111111" font-size="27" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="start" x="1362" y="103.1">
+    <tspan dy="0" x="1362">Object Agent Queries</tspan>
+  </text>
+  <line marker-end="url(#arrow)" stroke="#111111" stroke-width="2.6" x1="1259" x2="1259" y1="111" y2="141"/>
+  <polygon fill="#111111" opacity="1" points="1259,141 1254.424,132.68 1263.576,132.68" stroke="#111111" stroke-width="0.5"/>
+  <rect fill="none" height="156" opacity="1.0" rx="8" ry="8" stroke="#142b4d" stroke-dasharray="2,2" stroke-width="1.5" width="334" x="1089" y="143"/>
+  <rect fill="none" height="156" opacity="1.0" rx="8" ry="8" stroke="#142b4d" stroke-dasharray="2,2" stroke-width="1.5" width="272" x="1447" y="143"/>
+  <text class="serif" fill="#111111" font-size="27" font-style="italic" font-weight="normal" opacity="1.0" text-anchor="middle" x="1385.0" y="171.1">
+    <tspan dy="0" x="1385.0">SVD</tspan>
+  </text>
+  <rect fill="#9bc9d3" height="69" opacity="1.0" stroke="#142b4d" stroke-width="1.5" width="69" x="1098" y="193"/>
+  <line stroke="#111111" stroke-width="1.3" x1="1173" x2="1173" y1="198" y2="258"/>
+  <line stroke="#111111" stroke-width="1.3" x1="1179" x2="1179" y1="198" y2="258"/>
+  <text fill="#aa65c2" font-size="26" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="1129.0" y="179.8">
+    <tspan dy="0" x="1129.0">k</tspan>
+  </text>
+  <text class="serif" fill="#111111" font-size="23" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="1189.0" y="239.9">
+    <tspan dy="0" x="1189.0">r</tspan>
+  </text>
+  <rect fill="#cde9e3" height="69" opacity="1.0" stroke="#142b4d" stroke-width="1.5" width="61" x="1235" y="193"/>
+  <polygon fill="#f5d6b6" opacity="1" points="1235,193 1251,193 1296,238 1296,253 1281,253 1235,208" stroke="#c9a99b" stroke-width="1"/>
+  <text fill="#aa65c2" font-size="26" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="1255.0" y="177.8">
+    <tspan dy="0" x="1255.0">k</tspan>
+  </text>
+  <text class="serif" fill="#111111" font-size="23" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="1316.0" y="238.9">
+    <tspan dy="0" x="1316.0">r</tspan>
+  </text>
+  <text class="serif" fill="#aa65c2" font-size="48" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="1216.0" y="240.4">
+    <tspan dy="0" x="1216.0">{</tspan>
+  </text>
+  <text class="serif" fill="#aa65c2" font-size="48" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="1310.0" y="240.4">
+    <tspan dy="0" x="1310.0">{</tspan>
+  </text>
+  <text class="serif" fill="#111111" font-size="23" font-style="italic" font-weight="normal" opacity="1.0" text-anchor="middle" x="1265.5" y="284.9">
+    <tspan dy="0" x="1265.5">c</tspan>
+  </text>
+  <text class="serif" fill="#111111" font-size="35" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="1263.5" y="279.0">
+    <tspan dy="0" x="1263.5">⌣</tspan>
+  </text>
+  <rect fill="#e8c9d2" height="57" opacity="1.0" stroke="#142b4d" stroke-width="1.5" width="54" x="1359" y="201"/>
+  <text class="serif" fill="#aa65c2" font-size="47" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="1354.0" y="240.60000000000002">
+    <tspan dy="0" x="1354.0">{</tspan>
+  </text>
+  <text class="serif" fill="#111111" font-size="22" font-style="italic" font-weight="normal" opacity="1.0" text-anchor="middle" x="1387.5" y="283.1">
+    <tspan dy="0" x="1387.5">c</tspan>
+  </text>
+  <text class="serif" fill="#111111" font-size="33" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="1385.0" y="277.90000000000003">
+    <tspan dy="0" x="1385.0">⌣</tspan>
+  </text>
+  <line marker-end="url(#arrow)" stroke="#111111" stroke-width="2.2" x1="1415" x2="1446" y1="229" y2="229"/>
+  <polygon fill="#111111" opacity="1" points="1446,229 1438.96,232.872 1438.96,225.128" stroke="#111111" stroke-width="0.5"/>
+  <rect fill="#9bc9d3" height="65" opacity="1.0" stroke="#142b4d" stroke-width="1.5" width="63" x="1457" y="196"/>
+  <text fill="#aa65c2" font-size="26" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="1489.5" y="180.3">
+    <tspan dy="0" x="1489.5">k</tspan>
+  </text>
+  <text class="serif" fill="#111111" font-size="23" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="1537.5" y="237.9">
+    <tspan dy="0" x="1537.5">r</tspan>
+  </text>
+  <rect fill="#cee9e5" height="63" opacity="1.0" stroke="#142b4d" stroke-width="1.5" width="60" x="1569" y="198"/>
+  <polygon fill="#f4d5b3" opacity="1" points="1569,198 1585,198 1629,242 1629,257 1614,257 1569,213" stroke="#c7aa9a" stroke-width="1"/>
+  <text fill="#aa65c2" font-size="26" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="1591.0" y="183.3">
+    <tspan dy="0" x="1591.0">k</tspan>
+  </text>
+  <text class="serif" fill="#aa65c2" font-size="48" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="1557.0" y="244.4">
+    <tspan dy="0" x="1557.0">{</tspan>
+  </text>
+  <text class="serif" fill="#aa65c2" font-size="48" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="1643.0" y="244.4">
+    <tspan dy="0" x="1643.0">{</tspan>
+  </text>
+  <rect fill="#e8c9d2" height="51" opacity="1.0" stroke="#142b4d" stroke-width="1.5" width="54" x="1657" y="207"/>
+  <text class="serif" fill="#aa65c2" font-size="47" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="1651.0" y="244.10000000000002">
+    <tspan dy="0" x="1651.0">{</tspan>
+  </text>
+  <text class="serif" fill="#111111" font-size="22" font-style="italic" font-weight="normal" opacity="1.0" text-anchor="middle" x="1686.5" y="282.6">
+    <tspan dy="0" x="1686.5">c</tspan>
+  </text>
+  <text class="serif" fill="#111111" font-size="33" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="1684.0" y="277.90000000000003">
+    <tspan dy="0" x="1684.0">⌣</tspan>
+  </text>
+  <line marker-end="url(#arrow)" stroke="#111111" stroke-width="2.4" x1="1585" x2="1585" y1="298" y2="322"/>
+  <polygon fill="#111111" opacity="1" points="1585,322 1580.776,314.32 1589.224,314.32" stroke="#111111" stroke-width="0.5"/>
+  <text fill="#111111" font-size="25" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="start" x="1110" y="352.0">
+    <tspan dy="0" x="1110">Quantized Object Agent Queries</tspan>
+  </text>
+  <rect fill="#fff3c6" height="29" opacity="1.0" stroke="#142b4d" stroke-width="1.6" width="30" x="1510" y="327"/>
+  <line stroke="#111111" stroke-width="2.2" x1="1510" x2="1510" y1="356" y2="356"/>
+  <line stroke="#111111" stroke-width="2.2" x1="1510" x2="1521" y1="356" y2="345"/>
+  <line stroke="#111111" stroke-width="2.2" x1="1510" x2="1532" y1="356" y2="334"/>
+  <line stroke="#111111" stroke-width="2.2" x1="1514" x2="1540" y1="352" y2="327"/>
+  <line stroke="#111111" stroke-width="2.2" x1="1525" x2="1540" y1="341" y2="327"/>
+  <line stroke="#111111" stroke-width="2.2" x1="1536" x2="1540" y1="330" y2="327"/>
+  <rect fill="#fff3c6" height="29" opacity="1.0" stroke="#142b4d" stroke-width="1.6" width="30" x="1544" y="327"/>
+  <line stroke="#111111" stroke-width="2.2" x1="1544" x2="1544" y1="356" y2="356"/>
+  <line stroke="#111111" stroke-width="2.2" x1="1544" x2="1555" y1="356" y2="345"/>
+  <line stroke="#111111" stroke-width="2.2" x1="1544" x2="1566" y1="356" y2="334"/>
+  <line stroke="#111111" stroke-width="2.2" x1="1548" x2="1574" y1="352" y2="327"/>
+  <line stroke="#111111" stroke-width="2.2" x1="1559" x2="1574" y1="341" y2="327"/>
+  <line stroke="#111111" stroke-width="2.2" x1="1570" x2="1574" y1="330" y2="327"/>
+  <rect fill="#fff3c6" height="29" opacity="1.0" stroke="#142b4d" stroke-width="1.6" width="30" x="1578" y="327"/>
+  <line stroke="#111111" stroke-width="2.2" x1="1578" x2="1578" y1="356" y2="356"/>
+  <line stroke="#111111" stroke-width="2.2" x1="1578" x2="1589" y1="356" y2="345"/>
+  <line stroke="#111111" stroke-width="2.2" x1="1578" x2="1600" y1="356" y2="334"/>
+  <line stroke="#111111" stroke-width="2.2" x1="1582" x2="1608" y1="352" y2="327"/>
+  <line stroke="#111111" stroke-width="2.2" x1="1593" x2="1608" y1="341" y2="327"/>
+  <line stroke="#111111" stroke-width="2.2" x1="1604" x2="1608" y1="330" y2="327"/>
+  <rect fill="#fff3c6" height="29" opacity="1.0" stroke="#142b4d" stroke-width="1.6" width="30" x="1612" y="327"/>
+  <line stroke="#111111" stroke-width="2.2" x1="1612" x2="1612" y1="356" y2="356"/>
+  <line stroke="#111111" stroke-width="2.2" x1="1612" x2="1623" y1="356" y2="345"/>
+  <line stroke="#111111" stroke-width="2.2" x1="1612" x2="1634" y1="356" y2="334"/>
+  <line stroke="#111111" stroke-width="2.2" x1="1616" x2="1642" y1="352" y2="327"/>
+  <line stroke="#111111" stroke-width="2.2" x1="1627" x2="1642" y1="341" y2="327"/>
+  <line stroke="#111111" stroke-width="2.2" x1="1638" x2="1642" y1="330" y2="327"/>
+  <polyline fill="none" marker-end="url(#arrow)" points="1017,488 1044,488 1044,397 1644,397 1644,415" stroke="#2d6678" stroke-linejoin="miter" stroke-width="3.2"/>
+  <line stroke="#2d6678" stroke-width="3.2" x1="1017" x2="1044" y1="488" y2="488"/>
+  <line stroke="#2d6678" stroke-width="3.2" x1="1044" x2="1044" y1="488" y2="397"/>
+  <line stroke="#2d6678" stroke-width="3.2" x1="1044" x2="1644" y1="397" y2="397"/>
+  <line stroke="#2d6678" stroke-width="3.2" x1="1644" x2="1644" y1="397" y2="415"/>
+  <polygon fill="#2d6678" opacity="1" points="1644,415 1638.368,404.76 1649.632,404.76" stroke="#2d6678" stroke-width="0.5"/>
+  <rect fill="none" height="63" opacity="1.0" stroke="#142b4d" stroke-dasharray="2,3" stroke-width="1.5" width="162" x="1094" y="416"/>
+  <rect fill="#c2d1d9" height="29" opacity="1.0" stroke="#142b4d" stroke-width="1.6" width="28" x="1102" y="432"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1102" x2="1102" y1="461" y2="461"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1102" x2="1113" y1="461" y2="450"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1102" x2="1124" y1="461" y2="439"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1106" x2="1130" y1="457" y2="432"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1117" x2="1130" y1="446" y2="432"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1128" x2="1130" y1="435" y2="432"/>
+  <rect fill="#c2d1d9" height="29" opacity="1.0" stroke="#142b4d" stroke-width="1.6" width="28" x="1136" y="432"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1136" x2="1136" y1="461" y2="461"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1136" x2="1147" y1="461" y2="450"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1136" x2="1158" y1="461" y2="439"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1140" x2="1164" y1="457" y2="432"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1151" x2="1164" y1="446" y2="432"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1162" x2="1164" y1="435" y2="432"/>
+  <rect fill="#c2d1d9" height="29" opacity="1.0" stroke="#142b4d" stroke-width="1.6" width="28" x="1170" y="432"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1170" x2="1170" y1="461" y2="461"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1170" x2="1181" y1="461" y2="450"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1170" x2="1192" y1="461" y2="439"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1174" x2="1198" y1="457" y2="432"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1185" x2="1198" y1="446" y2="432"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1196" x2="1198" y1="435" y2="432"/>
+  <rect fill="#c2d1d9" height="29" opacity="1.0" stroke="#142b4d" stroke-width="1.6" width="28" x="1204" y="432"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1204" x2="1204" y1="461" y2="461"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1204" x2="1215" y1="461" y2="450"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1204" x2="1226" y1="461" y2="439"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1208" x2="1232" y1="457" y2="432"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1219" x2="1232" y1="446" y2="432"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1230" x2="1232" y1="435" y2="432"/>
+  <text class="serif" fill="#111111" font-size="22" font-style="italic" font-weight="normal" opacity="1.0" text-anchor="middle" x="1153.0" y="502.1">
+    <tspan dy="0" x="1153.0">qᵢₙₛ_ₚ꜀</tspan>
+  </text>
+  <line marker-end="url(#arrowTeal)" stroke="#58a9b9" stroke-width="2.5" x1="1257" x2="1290" y1="448" y2="448"/>
+  <polygon fill="#58a9b9" opacity="1" points="1290,448 1282.0,452.4 1282.0,443.6" stroke="#58a9b9" stroke-width="0.5"/>
+  <rect fill="#e7efdf" height="42" opacity="1.0" rx="10" ry="10" stroke="#142b4d" stroke-width="2.6" width="92" x="1290" y="428"/>
+  <text fill="#111111" font-size="25" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="1336.0" y="456.5">
+    <tspan dy="0" x="1336.0">MLP</tspan>
+  </text>
+  <line marker-end="url(#arrowTeal)" stroke="#58a9b9" stroke-width="2.5" x1="1382" x2="1413" y1="448" y2="448"/>
+  <polygon fill="#58a9b9" opacity="1" points="1413,448 1405.0,452.4 1405.0,443.6" stroke="#58a9b9" stroke-width="0.5"/>
+  <rect fill="#e7efdf" height="52" opacity="1.0" rx="10" ry="10" stroke="#142b4d" stroke-width="2.6" width="112" x="1413" y="422"/>
+  <text fill="#111111" font-size="23" font-style="italic" font-weight="normal" opacity="1.0" text-anchor="middle" x="1469.0" y="454.9">
+    <tspan dy="0" x="1469.0">ℒ₍consist₎</tspan>
+  </text>
+  <line stroke="#58a9b9" stroke-width="2.5" x1="1525" x2="1557" y1="448" y2="448"/>
+  <rect fill="none" height="63" opacity="1.0" stroke="#142b4d" stroke-dasharray="2,3" stroke-width="1.5" width="159" x="1560" y="416"/>
+  <rect fill="#6eb5c9" height="29" opacity="1.0" stroke="#142b4d" stroke-width="1.6" width="28" x="1568" y="432"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1568" x2="1568" y1="461" y2="461"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1568" x2="1579" y1="461" y2="450"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1568" x2="1590" y1="461" y2="439"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1572" x2="1596" y1="457" y2="432"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1583" x2="1596" y1="446" y2="432"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1594" x2="1596" y1="435" y2="432"/>
+  <rect fill="#6eb5c9" height="29" opacity="1.0" stroke="#142b4d" stroke-width="1.6" width="28" x="1602" y="432"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1602" x2="1602" y1="461" y2="461"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1602" x2="1613" y1="461" y2="450"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1602" x2="1624" y1="461" y2="439"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1606" x2="1630" y1="457" y2="432"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1617" x2="1630" y1="446" y2="432"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1628" x2="1630" y1="435" y2="432"/>
+  <rect fill="#6eb5c9" height="29" opacity="1.0" stroke="#142b4d" stroke-width="1.6" width="28" x="1636" y="432"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1636" x2="1636" y1="461" y2="461"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1636" x2="1647" y1="461" y2="450"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1636" x2="1658" y1="461" y2="439"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1640" x2="1664" y1="457" y2="432"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1651" x2="1664" y1="446" y2="432"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1662" x2="1664" y1="435" y2="432"/>
+  <rect fill="#6eb5c9" height="29" opacity="1.0" stroke="#142b4d" stroke-width="1.6" width="28" x="1670" y="432"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1670" x2="1670" y1="461" y2="461"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1670" x2="1681" y1="461" y2="450"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1670" x2="1692" y1="461" y2="439"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1674" x2="1698" y1="457" y2="432"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1685" x2="1698" y1="446" y2="432"/>
+  <line stroke="#142b4d" stroke-width="2.2" x1="1696" x2="1698" y1="435" y2="432"/>
+  <text class="serif" fill="#111111" font-size="22" font-style="italic" font-weight="normal" opacity="1.0" text-anchor="middle" x="1658.0" y="502.1">
+    <tspan dy="0" x="1658.0">q′ᵢₙₛ_ₚ꜀</tspan>
+  </text>
+  <rect fill="#555555" height="450" opacity="0.18" stroke="none" width="1725" x="11" y="532"/>
+  <rect fill="#fff0c9" height="450" opacity="1.0" stroke="#fff0c9" stroke-width="0" width="1725" x="8" y="528"/>
+  <rect fill="#fbd39a" height="273" opacity="1.0" rx="16" ry="16" stroke="#fbd39a" stroke-width="0" width="772" x="641" y="690"/>
+  <text fill="#111111" font-size="28" font-style="normal" font-weight="bold" opacity="1.0" text-anchor="start" x="12" y="1008.9000000000001">
+    <tspan dy="0" x="12">(c) Cross-modal Semantic Enhancement</tspan>
+  </text>
+  <polyline fill="none" marker-end="url(#arrow)" points="62,739 62,232" stroke="#111111" stroke-dasharray="7,7" stroke-linejoin="miter" stroke-width="2"/>
+  <line stroke="#111111" stroke-dasharray="7,7" stroke-width="2" x1="62" x2="62" y1="739" y2="232"/>
+  <polygon fill="#111111" opacity="1" points="62,232 65.575,238.5 58.425,238.5" stroke="#111111" stroke-width="0.5"/>
+  <text fill="#555555" font-size="25" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" transform="rotate(90,44.5,621.0)" x="44.5" y="628.5">
+    <tspan dy="0" x="44.5">Paired</tspan>
+  </text>
+  <image height="149" width="217" x="27" xlink:href="data:image/jpeg;base64,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" y="740"/>
+  <rect fill="none" height="149" stroke="#aaaaaa" stroke-width="2" width="217" x="27" y="740"/>
+  <text fill="#111111" font-size="25" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="138.0" y="918.0">
+    <tspan dy="0" x="138.0">Source Point Cloud</tspan>
+  </text>
+  <rect fill="none" height="65" opacity="1.0" stroke="#142b4d" stroke-dasharray="2,3" stroke-width="1.4" width="192" x="307" y="538"/>
+  <rect fill="#dce1e2" height="27" opacity="1.0" stroke="#142b4d" stroke-width="1.5" width="27" x="334" y="548"/>
+  <rect fill="#c7d8e8" height="27" opacity="1.0" stroke="#142b4d" stroke-width="1.5" width="27" x="328" y="554"/>
+  <rect fill="#c7d8e8" height="29" opacity="1.0" stroke="#142b4d" stroke-width="1.5" width="29" x="318" y="562"/>
+  <text fill="#111111" font-size="21" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="383.0" y="574.8">
+    <tspan dy="0" x="383.0">···</tspan>
+  </text>
+  <rect fill="#c7d8e8" height="28" opacity="1.0" stroke="#142b4d" stroke-width="1.5" width="28" x="402" y="561"/>
+  <rect fill="#c7d8e8" height="28" opacity="1.0" stroke="#142b4d" stroke-width="1.5" width="28" x="429" y="561"/>
+  <rect fill="#c7d8e8" height="28" opacity="1.0" stroke="#142b4d" stroke-width="1.5" width="28" x="456" y="561"/>
+  <rect fill="#c7d8e8" height="12" opacity="1.0" stroke="#142b4d" stroke-width="1.4" width="27" x="456" y="550"/>
+  <line marker-end="url(#arrow)" stroke="#111111" stroke-width="2.1" x1="404" x2="404" y1="603" y2="628"/>
+  <polygon fill="#111111" opacity="1" points="404,628 400.304,621.28 407.696,621.28" stroke="#111111" stroke-width="0.5"/>
+  <rect fill="#555555" height="51" opacity="0.18" rx="10" ry="10" stroke="none" width="436" x="195" y="632"/>
+  <rect fill="#ffe48e" height="51" opacity="1.0" rx="10" ry="10" stroke="#142b4d" stroke-width="2.6" width="436" x="192" y="628"/>
+  <text fill="#111111" font-size="27" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="410.0" y="661.6">
+    <tspan dy="0" x="410.0">Aggregating Instance Semantic</tspan>
+  </text>
+  <line marker-end="url(#arrow)" stroke="#111111" stroke-width="2.4" x1="244" x2="282" y1="813" y2="813"/>
+  <polygon fill="#111111" opacity="1" points="282,813 274.32,817.224 274.32,808.776" stroke="#111111" stroke-width="0.5"/>
+  <rect fill="#ffeab3" height="206" opacity="1.0" rx="15" ry="15" stroke="#142b4d" stroke-width="2.6" width="238" x="282" y="719"/>
+  <rect fill="#fff1c3" height="153" opacity="1.0" stroke="#142b4d" stroke-width="2.1" width="42" x="301" y="735"/>
+  <text fill="#111111" font-size="22" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" transform="rotate(90,322.0,812.0)" x="322.0" y="818.5999999999999">
+    <tspan dy="0" x="322.0">Layer 1</tspan>
+  </text>
+  <line marker-end="url(#arrow)" stroke="#111111" stroke-width="2" x1="343" x2="377" y1="811" y2="811"/>
+  <polygon fill="#111111" opacity="1" points="377,811 370.5,814.575 370.5,807.425" stroke="#111111" stroke-width="0.5"/>
+  <text fill="#111111" font-size="25" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="404.0" y="817.5">
+    <tspan dy="0" x="404.0">···</tspan>
+  </text>
+  <line marker-end="url(#arrow)" stroke="#111111" stroke-width="2" x1="429" x2="449" y1="811" y2="811"/>
+  <polygon fill="#111111" opacity="1" points="449,811 442.5,814.575 442.5,807.425" stroke="#111111" stroke-width="0.5"/>
+  <rect fill="#fff1c3" height="153" opacity="1.0" stroke="#142b4d" stroke-width="2.1" width="43" x="449" y="735"/>
+  <text fill="#111111" font-size="22" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" transform="rotate(90,470.0,811.0)" x="470.0" y="817.5999999999999">
+    <tspan dy="0" x="470.0">Layer l</tspan>
+  </text>
+  <text fill="#111111" font-size="26" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="401.0" y="913.8000000000001">
+    <tspan dy="0" x="401.0">Backbone</tspan>
+  </text>
+  <line marker-end="url(#arrow)" stroke="#111111" stroke-width="2.2" x1="322" x2="322" y1="735" y2="679"/>
+  <polygon fill="#111111" opacity="1" points="322,679 325.872,686.04 318.128,686.04" stroke="#111111" stroke-width="0.5"/>
+  <line marker-end="url(#arrow)" stroke="#111111" stroke-width="2.2" x1="470" x2="470" y1="735" y2="679"/>
+  <polygon fill="#111111" opacity="1" points="470,679 473.872,686.04 466.128,686.04" stroke="#111111" stroke-width="0.5"/>
+  <line marker-end="url(#arrow)" stroke="#111111" stroke-width="2.2" x1="492" x2="559" y1="811" y2="811"/>
+  <polygon fill="#111111" opacity="1" points="559,811 551.96,814.872 551.96,807.128" stroke="#111111" stroke-width="0.5"/>
+  <rect fill="#f4b49c" height="23" opacity="1.0" stroke="#142b4d" stroke-width="1.4" width="30" x="560" y="850"/>
+  <polygon fill="#ef9f8d" opacity="1" points="590,850 599,841 599,864 590,873" stroke="#142b4d" stroke-width="1.2"/>
+  <rect fill="#f4b49c" height="23" opacity="1.0" stroke="#142b4d" stroke-width="1.4" width="30" x="560" y="828"/>
+  <polygon fill="#ef9f8d" opacity="1" points="590,828 599,819 599,842 590,851" stroke="#142b4d" stroke-width="1.2"/>
+  <rect fill="#f4b49c" height="23" opacity="1.0" stroke="#142b4d" stroke-width="1.4" width="30" x="560" y="806"/>
+  <polygon fill="#ef9f8d" opacity="1" points="590,806 599,797 599,820 590,829" stroke="#142b4d" stroke-width="1.2"/>
+  <rect fill="#f4b49c" height="23" opacity="1.0" stroke="#142b4d" stroke-width="1.4" width="30" x="560" y="784"/>
+  <polygon fill="#ef9f8d" opacity="1" points="590,784 599,775 599,798 590,807" stroke="#142b4d" stroke-width="1.2"/>
+  <rect fill="#f4b49c" height="23" opacity="1.0" stroke="#142b4d" stroke-width="1.4" width="30" x="560" y="762"/>
+  <polygon fill="#ef9f8d" opacity="1" points="590,762 599,753 599,776 590,785" stroke="#142b4d" stroke-width="1.2"/>
+  <polygon fill="#f7c6b5" opacity="1" points="560,762 569,753 599,753 590,762" stroke="#142b4d" stroke-width="1.2"/>
+  <polyline fill="none" marker-end="url(#arrow)" points="599,794 630,794 630,738 662,738" stroke="#111111" stroke-linejoin="miter" stroke-width="2.2"/>
+  <line stroke="#111111" stroke-width="2.2" x1="599" x2="630" y1="794" y2="794"/>
+  <line stroke="#111111" stroke-width="2.2" x1="630" x2="630" y1="794" y2="738"/>
+  <line stroke="#111111" stroke-width="2.2" x1="630" x2="662" y1="738" y2="738"/>
+  <polygon fill="#111111" opacity="1" points="662,738 654.96,741.872 654.96,734.128" stroke="#111111" stroke-width="0.5"/>
+  <polyline fill="none" marker-end="url(#arrow)" points="599,827 630,827 630,911 662,911" stroke="#111111" stroke-linejoin="miter" stroke-width="2.2"/>
+  <line stroke="#111111" stroke-width="2.2" x1="599" x2="630" y1="827" y2="827"/>
+  <line stroke="#111111" stroke-width="2.2" x1="630" x2="630" y1="827" y2="911"/>
+  <line stroke="#111111" stroke-width="2.2" x1="630" x2="662" y1="911" y2="911"/>
+  <polygon fill="#111111" opacity="1" points="662,911 654.96,914.872 654.96,907.128" stroke="#111111" stroke-width="0.5"/>
+  <text class="serif" fill="#111111" font-size="26" font-style="italic" font-weight="normal" opacity="1.0" text-anchor="middle" x="664.0" y="635.3000000000001">
+    <tspan dy="0" x="664.0">q₃ᴅ</tspan>
+  </text>
+  <line marker-end="url(#arrow)" stroke="#111111" stroke-width="2.2" x1="628" x2="705" y1="653" y2="653"/>
+  <polygon fill="#111111" opacity="1" points="705,653 697.96,656.872 697.96,649.128" stroke="#111111" stroke-width="0.5"/>
+  <rect fill="none" height="64" opacity="1.0" stroke="#142b4d" stroke-dasharray="2,3" stroke-width="1.5" width="166" x="702" y="610"/>
+  <rect fill="#f4b49c" height="28" opacity="1.0" stroke="#142b4d" stroke-width="1.7" width="28" x="708" y="627"/>
+  <text fill="#111111" font-size="23" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="758.0" y="645.9">
+    <tspan dy="0" x="758.0">···</tspan>
+  </text>
+  <rect fill="#f4b49c" height="28" opacity="1.0" stroke="#142b4d" stroke-width="1.7" width="28" x="778" y="627"/>
+  <rect fill="#f4b49c" height="28" opacity="1.0" stroke="#142b4d" stroke-width="1.7" width="28" x="805" y="627"/>
+  <rect fill="#f4b49c" height="28" opacity="1.0" stroke="#142b4d" stroke-width="1.7" width="28" x="832" y="627"/>
+  <line marker-end="url(#arrow)" stroke="#111111" stroke-width="2.2" x1="785" x2="785" y1="674" y2="704"/>
+  <polygon fill="#111111" opacity="1" points="785,704 781.128,696.96 788.872,696.96" stroke="#111111" stroke-width="0.5"/>
+  <line marker-end="url(#arrow)" stroke="#111111" stroke-width="2.2" x1="868" x2="929" y1="642" y2="642"/>
+  <polygon fill="#111111" opacity="1" points="929,642 921.96,645.872 921.96,638.128" stroke="#111111" stroke-width="0.5"/>
+  <rect fill="none" height="135" opacity="1.0" stroke="#142b4d" stroke-dasharray="5,4" stroke-width="3" width="801" x="901" y="540"/>
+  <text class="serif" fill="#111111" font-size="25" font-style="italic" font-weight="normal" opacity="1.0" text-anchor="middle" x="1474.0" y="566.5">
+    <tspan dy="0" x="1474.0">Cross-modal Semantic Alignment</tspan>
+  </text>
+  <line marker-end="url(#arrow)" stroke="#111111" stroke-width="2" x1="946" x2="946" y1="575" y2="607"/>
+  <polygon fill="#111111" opacity="1" points="946,607 942.425,600.5 949.575,600.5" stroke="#111111" stroke-width="0.5"/>
+  <ellipse cx="947" cy="625" fill="#fff9dc" opacity="1" rx="17" ry="17" stroke="#111111" stroke-width="2"/>
+  <line stroke="#111111" stroke-width="1.8" x1="936" x2="958" y1="614" y2="636"/>
+  <line stroke="#111111" stroke-width="1.8" x1="958" x2="936" y1="614" y2="636"/>
+  <text fill="#666666" font-size="20" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="981.0" y="595.0">
+    <tspan dy="0" x="981.0">Linear</tspan>
+  </text>
+  <line marker-end="url(#arrow)" stroke="#111111" stroke-width="2" x1="964" x2="1000" y1="625" y2="625"/>
+  <polygon fill="#111111" opacity="1" points="1000,625 993.5,628.575 993.5,621.425" stroke="#111111" stroke-width="0.5"/>
+  <ellipse cx="1018" cy="625" fill="#fff9dc" opacity="1" rx="17" ry="17" stroke="#111111" stroke-width="2"/>
+  <text class="serif" fill="#111111" font-size="26" font-style="italic" font-weight="normal" opacity="1.0" text-anchor="middle" x="1018.5" y="633.3000000000001">
+    <tspan dy="0" x="1018.5">S</tspan>
+  </text>
+  <line marker-end="url(#arrow)" stroke="#111111" stroke-width="2" x1="1035" x2="1075" y1="625" y2="625"/>
+  <polygon fill="#111111" opacity="1" points="1075,625 1068.5,628.575 1068.5,621.425" stroke="#111111" stroke-width="0.5"/>
+  <rect fill="#f5aa82" height="20" opacity="1.0" stroke="#f3c09f" stroke-width="0.6" width="20" x="1075" y="584"/>
+  <rect fill="#fff2e7" height="20" opacity="1.0" stroke="#f3c09f" stroke-width="0.6" width="20" x="1095" y="584"/>
+  <rect fill="#f5aa82" height="20" opacity="1.0" stroke="#f3c09f" stroke-width="0.6" width="20" x="1115" y="584"/>
+  <rect fill="#f5aa82" height="20" opacity="1.0" stroke="#f3c09f" stroke-width="0.6" width="20" x="1135" y="584"/>
+  <rect fill="#fff2e7" height="20" opacity="1.0" stroke="#f3c09f" stroke-width="0.6" width="20" x="1075" y="604"/>
+  <rect fill="#f5aa82" height="20" opacity="1.0" stroke="#f3c09f" stroke-width="0.6" width="20" x="1095" y="604"/>
+  <rect fill="#f5aa82" height="20" opacity="1.0" stroke="#f3c09f" stroke-width="0.6" width="20" x="1115" y="604"/>
+  <rect fill="#fff2e7" height="20" opacity="1.0" stroke="#f3c09f" stroke-width="0.6" width="20" x="1135" y="604"/>
+  <rect fill="#f5aa82" height="20" opacity="1.0" stroke="#f3c09f" stroke-width="0.6" width="20" x="1075" y="624"/>
+  <rect fill="#f5aa82" height="20" opacity="1.0" stroke="#f3c09f" stroke-width="0.6" width="20" x="1095" y="624"/>
+  <rect fill="#fff2e7" height="20" opacity="1.0" stroke="#f3c09f" stroke-width="0.6" width="20" x="1115" y="624"/>
+  <rect fill="#f5aa82" height="20" opacity="1.0" stroke="#f3c09f" stroke-width="0.6" width="20" x="1135" y="624"/>
+  <rect fill="#f5aa82" height="20" opacity="1.0" stroke="#f3c09f" stroke-width="0.6" width="20" x="1075" y="644"/>
+  <rect fill="#fff2e7" height="20" opacity="1.0" stroke="#f3c09f" stroke-width="0.6" width="20" x="1095" y="644"/>
+  <rect fill="#f5aa82" height="20" opacity="1.0" stroke="#f3c09f" stroke-width="0.6" width="20" x="1115" y="644"/>
+  <rect fill="#f5aa82" height="20" opacity="1.0" stroke="#f3c09f" stroke-width="0.6" width="20" x="1135" y="644"/>
+  <line marker-end="url(#arrow)" stroke="#111111" stroke-width="2" x1="1155" x2="1199" y1="625" y2="625"/>
+  <polygon fill="#111111" opacity="1" points="1199,625 1192.5,628.575 1192.5,621.425" stroke="#111111" stroke-width="0.5"/>
+  <ellipse cx="1217" cy="625" fill="#fff9dc" opacity="1" rx="17" ry="17" stroke="#111111" stroke-width="2"/>
+  <line stroke="#111111" stroke-width="1.8" x1="1206" x2="1228" y1="614" y2="636"/>
+  <line stroke="#111111" stroke-width="1.8" x1="1228" x2="1206" y1="614" y2="636"/>
+  <text fill="#666666" font-size="20" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="1250.0" y="593.5">
+    <tspan dy="0" x="1250.0">Linear</tspan>
+  </text>
+  <line marker-end="url(#arrow)" stroke="#111111" stroke-width="2" x1="1234" x2="1289" y1="625" y2="625"/>
+  <polygon fill="#111111" opacity="1" points="1289,625 1282.5,628.575 1282.5,621.425" stroke="#111111" stroke-width="0.5"/>
+  <rect fill="#fff6c9" height="42" opacity="1.0" rx="8" ry="8" stroke="#142b4d" stroke-width="2.6" width="93" x="1289" y="604"/>
+  <text fill="#111111" font-size="24" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="1335.5" y="632.1999999999999">
+    <tspan dy="0" x="1335.5">MLP</tspan>
+  </text>
+  <line marker-end="url(#arrow)" stroke="#111111" stroke-width="2" x1="1382" x2="1433" y1="625" y2="625"/>
+  <polygon fill="#111111" opacity="1" points="1433,625 1426.5,628.575 1426.5,621.425" stroke="#111111" stroke-width="0.5"/>
+  <rect fill="none" height="66" opacity="1.0" stroke="#142b4d" stroke-dasharray="2,3" stroke-width="1.4" width="180" x="1437" y="589"/>
+  <ellipse cx="1563" cy="624.5" fill="#f6efd6" opacity="0.45" rx="57" ry="22" stroke="#8d968f" stroke-width="1.2"/>
+  <rect fill="#f4b49c" height="27" opacity="1.0" stroke="#142b4d" stroke-width="1.7" width="27" x="1450" y="611"/>
+  <text fill="#111111" font-size="23" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="1499.0" y="629.4">
+    <tspan dy="0" x="1499.0">···</tspan>
+  </text>
+  <rect fill="#f4b49c" height="27" opacity="1.0" stroke="#142b4d" stroke-width="1.7" width="27" x="1519" y="611"/>
+  <rect fill="#f4b49c" height="27" opacity="1.0" stroke="#142b4d" stroke-width="1.7" width="27" x="1545" y="611"/>
+  <rect fill="#f4b49c" height="27" opacity="1.0" stroke="#142b4d" stroke-width="1.7" width="27" x="1571" y="611"/>
+  <text class="serif" fill="#111111" font-size="25" font-style="italic" font-weight="normal" opacity="1.0" text-anchor="middle" x="1653.0" y="613.0">
+    <tspan dy="0" x="1653.0">q̂₃ᴅ</tspan>
+  </text>
+  <line stroke="#111111" stroke-width="2.1" x1="1217" x2="1217" y1="607" y2="479"/>
+  <line marker-end="url(#arrow)" stroke="#111111" stroke-width="2.1" x1="1217" x2="1217" y1="479" y2="584"/>
+  <polygon fill="#111111" opacity="1" points="1217,584 1213.304,577.28 1220.696,577.28" stroke="#111111" stroke-width="0.5"/>
+  <rect fill="#555555" height="67" opacity="0.18" rx="11" ry="11" stroke="none" width="207" x="665" y="708"/>
+  <rect fill="#ffe084" height="67" opacity="1.0" rx="11" ry="11" stroke="#142b4d" stroke-width="2.6" width="207" x="662" y="704"/>
+  <text fill="#111111" font-size="26" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="765.5" y="730.74">
+    <tspan dy="0" x="765.5">Feature</tspan>
+    <tspan dy="29.120000000000005" x="765.5">Refinement</tspan>
+  </text>
+  <rect fill="#555555" height="67" opacity="0.18" rx="11" ry="11" stroke="none" width="207" x="665" y="882"/>
+  <rect fill="#ffe084" height="67" opacity="1.0" rx="11" ry="11" stroke="#142b4d" stroke-width="2.6" width="207" x="662" y="878"/>
+  <text fill="#111111" font-size="26" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="765.5" y="904.74">
+    <tspan dy="0" x="765.5">Feature</tspan>
+    <tspan dy="29.120000000000005" x="765.5">Refinement</tspan>
+  </text>
+  <line marker-end="url(#arrow)" stroke="#111111" stroke-width="2.1" x1="765" x2="765" y1="771" y2="799"/>
+  <polygon fill="#111111" opacity="1" points="765,799 761.304,792.28 768.696,792.28" stroke="#111111" stroke-width="0.5"/>
+  <rect fill="#f5d8bd" height="53" opacity="1.0" rx="10" ry="10" stroke="#142b4d" stroke-width="2.6" width="99" x="768" y="798"/>
+  <text fill="#111111" font-size="24" font-style="italic" font-weight="normal" opacity="1.0" text-anchor="middle" x="817.5" y="831.6999999999999">
+    <tspan dy="0" x="817.5">ℒ¹₍sup₎</tspan>
+  </text>
+  <line marker-end="url(#arrow)" stroke="#111111" stroke-width="2.1" x1="816" x2="816" y1="878" y2="851"/>
+  <polygon fill="#111111" opacity="1" points="816,851 819.696,857.72 812.304,857.72" stroke="#111111" stroke-width="0.5"/>
+  <line marker-end="url(#arrow)" stroke="#8a8a8a" stroke-width="2.0" x1="681" x2="681" y1="771" y2="878"/>
+  <polygon fill="#8a8a8a" opacity="1" points="681,878 677.425,871.5 684.575,871.5" stroke="#8a8a8a" stroke-width="0.5"/>
+  <line marker-end="url(#arrow)" stroke="#8a8a8a" stroke-width="2.0" x1="690" x2="690" y1="878" y2="771"/>
+  <polygon fill="#8a8a8a" opacity="1" points="690,771 693.575,777.5 686.425,777.5" stroke="#8a8a8a" stroke-width="0.5"/>
+  <text fill="#8a8a8a" font-size="17" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" transform="rotate(90,701.5,828.0)" x="701.5" y="823.58">
+    <tspan dy="0" x="701.5">Share</tspan>
+    <tspan dy="19.040000000000003" x="701.5">Weight</tspan>
+  </text>
+  <line marker-end="url(#arrow)" stroke="#111111" stroke-width="2.1" x1="869" x2="909" y1="738" y2="738"/>
+  <polygon fill="#111111" opacity="1" points="909,738 902.28,741.696 902.28,734.304" stroke="#111111" stroke-width="0.5"/>
+  <rect fill="#f4b49c" height="23" opacity="1.0" stroke="#142b4d" stroke-width="1.4" width="30" x="909" y="799"/>
+  <polygon fill="#ef9f8d" opacity="1" points="939,799 948,790 948,813 939,822" stroke="#142b4d" stroke-width="1.2"/>
+  <rect fill="#f4b49c" height="23" opacity="1.0" stroke="#142b4d" stroke-width="1.4" width="30" x="909" y="777"/>
+  <polygon fill="#ef9f8d" opacity="1" points="939,777 948,768 948,791 939,800" stroke="#142b4d" stroke-width="1.2"/>
+  <rect fill="#f4b49c" height="23" opacity="1.0" stroke="#142b4d" stroke-width="1.4" width="30" x="909" y="755"/>
+  <polygon fill="#ef9f8d" opacity="1" points="939,755 948,746 948,769 939,778" stroke="#142b4d" stroke-width="1.2"/>
+  <rect fill="#f4b49c" height="23" opacity="1.0" stroke="#142b4d" stroke-width="1.4" width="30" x="909" y="733"/>
+  <polygon fill="#ef9f8d" opacity="1" points="939,733 948,724 948,747 939,756" stroke="#142b4d" stroke-width="1.2"/>
+  <rect fill="#f4b49c" height="23" opacity="1.0" stroke="#142b4d" stroke-width="1.4" width="30" x="909" y="711"/>
+  <polygon fill="#ef9f8d" opacity="1" points="939,711 948,702 948,725 939,734" stroke="#142b4d" stroke-width="1.2"/>
+  <polygon fill="#f7c6b5" opacity="1" points="909,711 918,702 948,702 939,711" stroke="#142b4d" stroke-width="1.2"/>
+  <text fill="#111111" font-size="27" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="976.0" y="748.1">
+    <tspan dy="0" x="976.0">···</tspan>
+  </text>
+  <line marker-end="url(#arrow)" stroke="#111111" stroke-width="2.1" x1="984" x2="1055" y1="738" y2="738"/>
+  <polygon fill="#111111" opacity="1" points="1055,738 1048.28,741.696 1048.28,734.304" stroke="#111111" stroke-width="0.5"/>
+  <rect fill="#555555" height="69" opacity="0.18" rx="11" ry="11" stroke="none" width="204" x="1058" y="705"/>
+  <rect fill="#ffe084" height="69" opacity="1.0" rx="11" ry="11" stroke="#142b4d" stroke-width="2.6" width="204" x="1055" y="701"/>
+  <text fill="#111111" font-size="26" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="1157.0" y="728.74">
+    <tspan dy="0" x="1157.0">Feature</tspan>
+    <tspan dy="29.120000000000005" x="1157.0">Refinement</tspan>
+  </text>
+  <rect fill="#555555" height="69" opacity="0.18" rx="11" ry="11" stroke="none" width="204" x="1058" y="860"/>
+  <rect fill="#ffe084" height="69" opacity="1.0" rx="11" ry="11" stroke="#142b4d" stroke-width="2.6" width="204" x="1055" y="856"/>
+  <text fill="#111111" font-size="26" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="1157.0" y="883.74">
+    <tspan dy="0" x="1157.0">Feature</tspan>
+    <tspan dy="29.120000000000005" x="1157.0">Refinement</tspan>
+  </text>
+  <line marker-end="url(#arrow)" stroke="#111111" stroke-width="2.1" x1="1156" x2="1156" y1="770" y2="796"/>
+  <polygon fill="#111111" opacity="1" points="1156,796 1152.304,789.28 1159.696,789.28" stroke="#111111" stroke-width="0.5"/>
+  <rect fill="#f5d8bd" height="54" opacity="1.0" rx="10" ry="10" stroke="#142b4d" stroke-width="2.6" width="101" x="1156" y="787"/>
+  <text fill="#111111" font-size="24" font-style="italic" font-weight="normal" opacity="1.0" text-anchor="middle" x="1206.5" y="821.1999999999999">
+    <tspan dy="0" x="1206.5">ℒˢ₍sup₎</tspan>
+  </text>
+  <line marker-end="url(#arrow)" stroke="#111111" stroke-width="2.1" x1="1207" x2="1207" y1="856" y2="841"/>
+  <polygon fill="#111111" opacity="1" points="1207,841 1210.696,847.72 1203.304,847.72" stroke="#111111" stroke-width="0.5"/>
+  <line marker-end="url(#arrow)" stroke="#8a8a8a" stroke-width="2.0" x1="1075" x2="1075" y1="770" y2="856"/>
+  <polygon fill="#8a8a8a" opacity="1" points="1075,856 1071.425,849.5 1078.575,849.5" stroke="#8a8a8a" stroke-width="0.5"/>
+  <line marker-end="url(#arrow)" stroke="#8a8a8a" stroke-width="2.0" x1="1084" x2="1084" y1="856" y2="770"/>
+  <polygon fill="#8a8a8a" opacity="1" points="1084,770 1087.575,776.5 1080.425,776.5" stroke="#8a8a8a" stroke-width="0.5"/>
+  <text fill="#8a8a8a" font-size="16.5" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" transform="rotate(90,1096.5,817.0)" x="1096.5" y="812.71">
+    <tspan dy="0" x="1096.5">Share</tspan>
+    <tspan dy="18.48" x="1096.5">Weight</tspan>
+  </text>
+  <line marker-end="url(#arrow)" stroke="#111111" stroke-width="2.1" x1="1259" x2="1292" y1="737" y2="737"/>
+  <polygon fill="#111111" opacity="1" points="1292,737 1285.28,740.696 1285.28,733.304" stroke="#111111" stroke-width="0.5"/>
+  <rect fill="#f4b49c" height="23" opacity="1.0" stroke="#142b4d" stroke-width="1.4" width="30" x="1292" y="794"/>
+  <polygon fill="#ef9f8d" opacity="1" points="1322,794 1331,785 1331,808 1322,817" stroke="#142b4d" stroke-width="1.2"/>
+  <rect fill="#f4b49c" height="23" opacity="1.0" stroke="#142b4d" stroke-width="1.4" width="30" x="1292" y="772"/>
+  <polygon fill="#ef9f8d" opacity="1" points="1322,772 1331,763 1331,786 1322,795" stroke="#142b4d" stroke-width="1.2"/>
+  <rect fill="#f4b49c" height="23" opacity="1.0" stroke="#142b4d" stroke-width="1.4" width="30" x="1292" y="750"/>
+  <polygon fill="#ef9f8d" opacity="1" points="1322,750 1331,741 1331,764 1322,773" stroke="#142b4d" stroke-width="1.2"/>
+  <rect fill="#f4b49c" height="23" opacity="1.0" stroke="#142b4d" stroke-width="1.4" width="30" x="1292" y="728"/>
+  <polygon fill="#ef9f8d" opacity="1" points="1322,728 1331,719 1331,742 1322,751" stroke="#142b4d" stroke-width="1.2"/>
+  <rect fill="#f4b49c" height="23" opacity="1.0" stroke="#142b4d" stroke-width="1.4" width="30" x="1292" y="706"/>
+  <polygon fill="#ef9f8d" opacity="1" points="1322,706 1331,697 1331,720 1322,729" stroke="#142b4d" stroke-width="1.2"/>
+  <polygon fill="#f7c6b5" opacity="1" points="1292,706 1301,697 1331,697 1322,706" stroke="#142b4d" stroke-width="1.2"/>
+  <text fill="#111111" font-size="27" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" transform="rotate(90,1379.0,758.5)" x="1379.0" y="766.6">
+    <tspan dy="0" x="1379.0">Decoder</tspan>
+  </text>
+  <polyline fill="none" points="869,936 1461,936 1461,653 1612,653" stroke="#111111" stroke-linejoin="miter" stroke-width="2.2"/>
+  <line stroke="#111111" stroke-width="2.2" x1="869" x2="1461" y1="936" y2="936"/>
+  <line stroke="#111111" stroke-width="2.2" x1="1461" x2="1461" y1="936" y2="653"/>
+  <line stroke="#111111" stroke-width="2.2" x1="1461" x2="1612" y1="653" y2="653"/>
+  <polyline fill="none" marker-end="url(#arrow)" points="1259,890 1460,890 1460,736 1501,736" stroke="#111111" stroke-linejoin="miter" stroke-width="2.2"/>
+  <line stroke="#111111" stroke-width="2.2" x1="1259" x2="1460" y1="890" y2="890"/>
+  <line stroke="#111111" stroke-width="2.2" x1="1460" x2="1460" y1="890" y2="736"/>
+  <line stroke="#111111" stroke-width="2.2" x1="1460" x2="1501" y1="736" y2="736"/>
+  <polygon fill="#111111" opacity="1" points="1501,736 1493.96,739.872 1493.96,732.128" stroke="#111111" stroke-width="0.5"/>
+  <line stroke="#111111" stroke-width="2.2" x1="1331" x2="1494" y1="748" y2="748"/>
+  <rect fill="#fffbd7" height="48" opacity="1.0" rx="9" ry="9" stroke="#142b4d" stroke-width="2.6" width="112" x="1501" y="713"/>
+  <text fill="#111111" font-size="25" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="1557.0" y="744.5">
+    <tspan dy="0" x="1557.0">Conv</tspan>
+  </text>
+  <line marker-end="url(#arrow)" stroke="#111111" stroke-width="2.2" x1="1613" x2="1640" y1="737" y2="737"/>
+  <polygon fill="#111111" opacity="1" points="1640,737 1632.96,740.872 1632.96,733.128" stroke="#111111" stroke-width="0.5"/>
+  <rect fill="#fffbd7" height="58" opacity="1.0" rx="9" ry="9" stroke="#142b4d" stroke-width="2.6" width="74" x="1640" y="706"/>
+  <text fill="#111111" font-size="23" font-style="italic" font-weight="normal" opacity="1.0" text-anchor="middle" x="1677.0" y="741.9">
+    <tspan dy="0" x="1677.0">ℒ₍seg₎</tspan>
+  </text>
+  <image height="133" width="213" x="1504" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAEBAQEBAQEBAQEBAQECAgMCAgICAgQDAwIDBQQFBQUEBAQFBgcGBQUHBgQEBgkGBwgICAgIBQYJCgkICgcICAj/2wBDAQEBAQICAgQCAgQIBQQFCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAj/wAARCACFANUDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD+0/4GfCD4Wav8Gvhfquq/DrwTqOp3GhWU09xNpcLyTSGFSWZiuSxJJJPJr1b/AIUd8G/+iW+AP/BRB/8AE1Q/Z7/5IZ8JP+xesP8A0StexVMYpbDcm9Tyz/hR3wb/AOiW+AP/AAUQf/E0f8KO+Df/AES3wB/4KIP/AImvU6KdgueWf8KO+Df/AES3wB/4KIP/AImj/hR3wb/6Jb4A/wDBRB/8TXqdFFgueWf8KO+Df/RLfAH/AIKIP/iaQ/A/4OY4+FvgD/wUQf8AxNeqUUWQXPHIvgx8IXnuYpfhH4HhSMja7aRbbZcjJx8vY8c4q6vwP+DLDP8Awqz4f/8Agog/+Jr1UgEEVStLVbRJEWW4l3SPL+8kZyu45wM9FB4A6AdKlRsTdnnP/Cjfg1/0Sz4f/wDgog/+Jo/4Ub8Gv+iWfD//AMFEH/xNeqUVVkVc8r/4Ub8Gv+iWfD//AMFEH/xNH/Cjfg1/0Sz4f/8Agog/+Jr04yAbsZYjqM1Db3UVypeGRZEyQSpzjBxWMqsE1Hqw1PN/+FG/Br/olnw//wDBRB/8TR/wo34Nf9Es+H//AIKIP/ia9UorayC55X/wo34Nf9Es+H//AIKIP/iaP+FG/Br/AKJZ8P8A/wAFEH/xNeqUUWQXPK/+FG/Br/olnw//APBRB/8AE1yXjb9lL9mn4keH7nwn4++A3wi8Y+GZnSSWw1Pw5aXVvIynKsY5I2UkEZBI4NfQNFFhXPH7D4AfA/TLKz07TvhF8OLKwt4Vgghi0W3RIo1ACqqhMBQAAAOAAKuf8KN+DX/RLPh//wCCiD/4mvVKKLDueV/8KN+DX/RLPh//AOCiD/4mj/hRvwa/6JZ8P/8AwUQf/E16pRRYLnlf/Cjfg1/0Sz4f/wDgog/+Jo/4Ub8Gv+iWfD//AMFEH/xNeqUUWQXPKD8D/g2AMfC34f8A4aRb/wDxFFerYBJyM0VlLcLnj37Pf/JDPhJ/2L1h/wCiFr2KvHf2e/8Akhnwk/7F6w/9ELXsVbCCiiigAooooAKjeRY1LuQqgEkk8ACpKimhjmjeKWNJY2GCrAEMPQioqXt7u4FG8lkDW0cUskZZwTsK52jk53dj045Ga0FKlR0qs9jbSPazSW8Dzw58tygLR5GDtPbI44qK7tmuYJYPOlty6lQ0bYZfcZrjkqkLzSu+1/L+twv0K+px30kSS2V5LBJGysUUKfNAIJU7umQCoPbdntUdpeXP225tbxlRjiSEBW4jx/E3Qtu3cA9MVds7ZrO0gt5J5rlkXaZJOXc46nAxmsaWzD6jHe3dva3scTGW0k8sb7Q7NrYPUlgW6djXHUp1LxrXcXpeN7rXR/nvtpfQL2NuKyt4Li7uY0YTTEFyWJBwMYweB+FMtrCO1mmlje5bzCWIeQsB/ugnjr29Kz9L8QaXq0Vq1hdLOJozLGMEEqCMnB5HJ6Vq3Fzb2cEtzcypBbIpeR3OFQAZJPtXXSq4eulWg1Ll6p3/AB9AbtuWycc5GKznup1u4IVtpZYHVi0gZdsWMbcjO75snGAenOKxdcuJBFL5zM+mtH5biGXy51csPmVtyjAXJOOfTNeeaV8U3vvHieBLrRdSimuLWS/tL6OIm2kt8KY9z84dhvJBxjAB6jMYrM6VGSjUdm9vO+33nLXxdOnJRm7XaS9XsvmexXd0trE0rb5AvJCDcTyOg/Gn+cuBh1POOvJNeF+L/F01zoF/4f0aTS9Z8SxrLZ3ED3SwObtUUqq79vysSAXUZUNkcivOvH9n4nltLPxjp9zqvhCezspLUw6hdGVHkUtuMVuQ2WZQ+JmIyrcgYrwsVxFUhz1KNP2kYpOydnfra65dF3a1VjmxWZxp35U3bV+n5H2ArBhlTkfXrT6+Hfh3+1Dp9vJD4P8AG7aZp+u2VkhnuELwQ3bmN2BjWUA7f3ZBPTPcgZP1D4F+JHhP4j6ONc8JavBq9kCFk8tsGJioOGU8g4IPNdmScVYPHRXsppSd/dbXMraO68jPLs9wuKsqM0326+eh6DRSZyu4elG4E4B5r6JyWx64tFFFUAUUUUAIOrfWigdW+tFYz3A8e/Z7/wCSGfCT/sXrD/0QtexV47+z3/yQz4Sf9i9Yf+iFr2KtgCqt1cG2glmCPKVUtsXGXwO1WNwzjvSSRxyxvFIiPGwIKkZBHoRWdS7i1F6gJE4kjRwcgjIIqSmoiRqEjVUQcAAYApdwBwTzTgmopS3AWijrRVgFRkhVycbfUdhTyQOTWLdvJO89sv2V0MPCsWzuzxkDnb7is6lTlt1EzlfFl1rNxaavZ6Rb2eplIoGayeAlrlDIfMRWZlQkoCF5GD14Iq3ZW6TTz2s9rdWb3CyGRYZiyr9xRuYfck24IVeOGwT1rC0zwnJpgtbKS7vb+P8AeG2kWJGOkOU2jyGbGyILlVUhj03GsHUJ9Q8Oywyx+JJNetodSQXAupYY54WJ+6gUIJMhwgViCOCCSMV4tes1KMpp2e+u1tfx/TWx5sqsovnlt8j1y20extZYriCJopUjMSgHA2lsn5emcgc1xXjO6v3STSLnw+viLRL1TbvFGwXGVH+tZmACElhgZY8YBr0qMAxrkdRXHeLNPvNV0m/s7a0meXyw0TwzokglB6KzAhf97qK68VRhTouMFZeS/wCA/Q68RTcoWj/XkeF+LLzwjqen+B9N+IWm+MtLu2JWK10uO58qNom+USrCWwp2YG7jHGeTXhS/GrTr1PGmnW/juR/Hs0s8Xh3SLeL7FKYI5d0Ubb4wwJXkIPvg9y3Evxsu9Ch06ys9e8X6HpWs2l29pcR2sMTurgo0b3gifeIyXeQoFB/eqGZRnfsyfB3xr4Wk0nW9L1/w14hGn3NvBpD6ppU7zyyy3Cu7m5RieUKIHYMilDwqg1+TZzicZWxU6eFjpFJSafvWatqlKOqXM46O0tLan5rmGKxk8Q4YdaJLmatfZLVcy1Vm1pvZW1PdvhjoEPxD+FnhbUPiToD3uuXNtJNdLexx+YkkhIcgxkhQQFIwQdpX0roviQ9hpugavdarpeoXduqC3g+zzlpI02HdOg2tskUNJzgk4x3FdX4F8PT6BosEWom2OtTKst+bcnyZLkj53jBAwCc/gBXY3NtDcwS206q8Lghlx1B61+i0cplSwEaFB2mopXet7K3vdW/17pWf32Gwd8Ooy+JpJtpXelrvz7n8+Xj3xTefFfxxZ6HpPhm4sdRnRbNZtXuvtcsTtK258hUCnGOcEhVwoAAr1r4XyaJ8BNKGrQ6kvi651WWxM17Y21xD/Z+neYRNIhOAzq4RSSCPmU8ivt7wz+yfBoPxG1Dx5LrcE1kdQlkt9IMPm20VowX5UHDRyZUjOXHLH+Lj1v8AsnwJ4G1PT9Q1XxJNd2sRngsbK8jt7hbPzGwwgcR+ai/wY3kY4OcV/OuU8E4jCwlnOd1oUK13acnHlitFdawXV/Ek72sk9T8fyjwyxzxc8XUf75yfLJq7S01snbVX3u7+h0Hws+LenfFPTLrUNI0XxHpNrHt2PfQBEuEZQyvG6sysCGHRjjvivAfG/wC014r+EXxZtPAXjXwsNe0W8tmubOfSxuu5WecpFEkTsofAK7iOc5r3/VPiXomi2V3NptiL2ytJ1tZT9ohtVVtpfCeayBiF2nGeR7ivJbv46aBP4ehvPE/gZtavUfYCY4GgZw/yFNzM3UKTt3bT0Jr1eN/HnhvLYwp4vNVSqwTk5qE5QlGL95e6nF/J6WfmfstbhzNK+HjDD1LVU1eXKrPuuXzR9WaZfHUdPs74Qz2wmiWXy5VKPGGGcMp5DDoRWnXwXqv7Tfi2/khj0LS9F0SFWzK0zmfKk4HGBjnk4Brvf2d/Hfifxprfi6TxFrM2pBYopEjziOAlmztXoBwOlfK8G/Td4N4g4kwvDOSe0rVcQ5JT5OSC5YOTfvNT6W+Hf0PqKvD+IpUXVqbL7/8AL8T63opAQehpa/sY8YQdW+tFA6t9aKxnuB49+z3/AMkM+En/AGL1h/6IWvYq8d/Z7/5IZ8JP+xesP/RC17FWwGdc2008trIl3LbrHJvdUxiUYI2n25Bz7Vo0YA6DFFZU6MYttbsArOukvWeD7I8CqJAZfMBPyYPC4/izt69s1o0mBxwK1ARV29yadRRQA1wSOma84uI00+5vtb0/w+q6286pdtGqSSy265wdxZdoIUHHbPQ16TXE3t1qE/iiPQptNgl8OT6bLLNOQ5Yyh1UREbdgBVyeWDHBwDgkceKpt2cd/wCv666HPiNv63PKPh1q2vWFzrng+88O3WjaiZrm/tLp4S0E8ZlK/M5cNI+Q2CAo2bCcZFey2mh2D3s2ty2cDahKF2tLBGJIVwPkDKM9eTknB6VuR2NpE0LpBGrxrtRsDKj0B9KthVHRVH4Vhg8vdKKhKXMl3X9eZnhMJ7OmoSfNbYYXCYXAz2HrVSe4gjKLLNFEzEAbnAJOcAYqd4YpJEkbmRfunJrJvoys6zLaWLME+WWZsbWB4UccdzRjK9SEXJW/H5nbGN9DzLxh8KfDfiXXtA1GbRrZDBfvqNxPBIqMJ/IeNZGQqQ7fMMNwy7V5wCK9LOo24UssEshXbwImB5Yrxkeu7/JqjBcuJb5W1iynIuxGqqgzbnarGJsHliMtk4OGzis/UWt7jTpUvW1K9t2SM42CHgEuCM4weFBH06V87iMRHCqpUoLlb5m723Ssvh1S0vs92ZYfBU4ycoxScrX87GvLq86Pbrb6dcuzOpbewTZHgZfGe24D3waxPEfip9Isre4EmnWrswyt3Mf7yjaAisScN26d64y8eOSRymhxavLJCq/armYNt2hTjb1blZDgZJ256GsvXNXubuWSwS50/TLU7S8Voq70Ksow00gULkZ4xk7eM1+U8UeJVejhqqhJqb0jZN699VBPbXllLfTY9Snhk2rHN+JvGWq3zmdINFtY4roqZJHuFD9tqqoXecj6YI9RnhvEl5brLbWVheWuiykvCVguIrSWQ8MOHMjgli5woJPOR0J7NbVNSaUWcUN1fPkumn6e11KhBzzcTERoexAGOT6CvjbxD8f/AIcaF4/8SfD/AFPxRb+Fb7SbpbTUDq+r22nr58gJULNIyPcEdSIlbAYc8jP8f8XZXxPnDq/V6VTFe0erpxvy26Ll2b6xfv6WSk2b43P8BgFD6zVjT5nZX6u233fI9CbxB4m0e48Q2hutTujOVwpkkRgqhgBkoryHLE7sYrzvUbV5wL1LgXt1Ixnmij8yQoD13uec49d31ryi1+NvijTo/HLf8Id448VeFlIt9FvbPSt8eqXczMFii+0ywLMibWDOgchUdmZQNzcXa61+0dd2TeGYfBvw6gvZWuba/wDGFpd3T6dp0IGPMgtysbyTDIx87JuB3MMV/MHGH0UeMMbShHOcRRw1KCemIrKEqavzvlhHmqSsnreL+JWTd7ebhPFvKr2w1OpUevw0202nZK+3vO9ne1k22lZv17Vby20vRLq/nkC2+FzhkSXfnOxNxxk9PftTPgX+0zoPggeJrzREn1Z5YBaxB2EkkNwc7RPudNiblZdy7lJ6FQGI+R734I/F/wAYw3Oj+P8A4maGug2V003h6CHSZXvLxAxaOeS8Z0eKQt8xWPep4Rdorz5PgD4C0nxHb6BrdlfiCz8sWtxe2oZtzO2UbyzjHzlcbc/vCfvGvs/Bzws4L4FzWhnH9tLHYyjeSVCnLkjeMoaubXNL3r2Suk9pJ3PyLjrxM4mxFWDwuD9hSl7t6klzX36XSWnWyem1z+h7wB+0L4M8WaDpmqareQeFby4iadYrucFHiEfm+Ys4/dlTHh+DwDmvbtJ1qw1yxstT0m9ttR06dQ8NxDIHjlU9CGHUf4V+L3hn4s/DpLmw0DWPAtheadaalYw+bdXLNA8Y3xl1jZB5e1RCP9hcBQMYr7e+Afia/msLDQdC/wCEb8N+FJrs3FuLSXzNk7XMzzWavhojt8thhdpKtuBBNf6jeHvjDgc5qRoYavGq2ul1Ppbmi0rXT1a0Tdlc9nIeKataao1rN6q6vuml25bH26OrfWikJ9GAor9qluffnj/7Pf8AyQz4Sf8AYvWH/oha9irx39nv/khnwk/7F6w/9ELXsVbgFFFFABRRRQAUUUUAFchrYS31PRtWk1NdPt43Nq6S3BjjnMxCou3O15N4QLxn5iAfmIrr65XX/wC02+xw6daPMGlVpHWRFMSj5ujDncVC+27NcOYq9J6N21st3bW34Eydjqc8ZPFU7p5/LH2V4xLuGCwJXGRnp7ZpoNyZmLsn2cqu0YO7dzn8Olci0XiO/m1nTntbSws0nt5bK8eUXP2tN++RDF8nlsAu0ckfMrZOCtVKcqkbQ0/AJTUdzaneRrifGoNFGsB8yFUBdc5ww/izx3HavNfEvibwxo2lvd315CkR8ktcapMqRhQFBYiVgBlXUZUYLSKT0r06fRLS53m4luixYPuWVkK4x8oK4wvHT3PrVTU9E8P6hd6c+oWNjPc2/wA9uzKAyAYyB6rnaMdM4r5fMsjrYhSfMo3vv72/+K6WnS33XYVaslH3Fr5nifivxJKlg8mm+H9cutNuL9HS40oYdbncjRFzK8edxAycbAGUGuD8T+O/FXw01XSNN8R+DfF3jzSJLaLULvxDEnmQ6RDHNEsguVRGHmANvAQHesLnI+7Xv/jqSX/hGtevtOuLHUEtbJ5IbbYHEc6k7Zcg5ypUnA5yvHPFL4D8K+GPDdi8ejWEkFyI4be4nnmluHuSqKc+dKS0gJYncTlnMhPzFicqPDeFeJ5sS3Ustm3bqtIr3e/S66HjV6Ndz5aVXklpsl8/W/3re5xklnqdzrdzp0OmeJdZhguobUkKLO0jX7M0gk8x3zPGWdUOxWKtwR8pYcT4n8C/FHxFoVn4ck0HwZ4Yvp9lxNfabd3Diwxc8xh90UkzNG+c7UQlHBDBglfWiIuFYEcD0qXaozgV6eG4Vy+laeHpRUtNWuZ6ebvY7a+FnVTjVm2nfRab/j+J8pjwre+C9M8J6Bb+HPE/i+2LQLcST6wtjZ2oT7NvleKH5AuIpZfLICs4kUHEvP49/tG/s3ftGf8AC6NI8VfC/U7L4ifB/UvEcza7DazWrax4Oj8xBI+m3LxuCo3mPa4MsSRgRFC3P77eKbG+W3udXg1q+tre3hLyWixxMkwUMePMHDE7eScfKPUmvOE8MXo0vUbmPxR4w0q31No7uKKyuUml0xt7uxjZgwaL5k+UBhjA5XAHz3EmBxvuRwVR0+S7urJa3d2lKKeulvnbdnJiMLSk1B0lJLXVJ9LJ631T1W2u91dHwh4Zi1qGx0hNe8XeKfC1h9lMNqDcNfT3Ua4QXDPMiujBY2kdVkccsQzsSB6Vq+m+DdV2+JfCmpNdakkslr9q07FxPP5ZwdxkuAqovfAHK8HtWl8QPh/4F0/+ydU8U+J9HudPubEsYNVtUl/tdWdWLPNGGWKSTOAYl3Mcms7wndRa1rR8P+AtF8T6d4b0y+efWZobi3sV0klZCsKIyO+4BguQyEhgcDcCf4/zjgRYybwGaU17V+8pXlOUpWXvRX/LuTSbb0aXvNSj7z8SjjJ4as4aNSaSV7yT9FJqy117X1Rw66dp+uRWC6lojW0128cnnwPMsW94iwW5d1kYSrjmEhWXgH1ryzxX8K7tbT+2tHaHV7rywLN9n7+dlR48RW6nzGGeQQBkA+gNfcPg34deNvG2k2t34m0qy8K+G5L2WaLSL4vcTLbdYjKm/wAvdnaSCAcknsVaPQPCvhvwX4x1bTfEt02saO0MUUbwzMn9lbs+XbTpC3z7sZV2AwSq8givyfGfRpxTrxxVemqdKWntnaNk7fGre9TvezlFO+tlC7f0eJpUcXh1Ca0ltfRp237p/kfmbP4EurJYotXh0mzgknDLa3N28d3FLG/7xIo5EWQgqmAOQd+N+eK7b4K2vi/QNc12bwvb654b1DTb4MsU8yGbfIATH9lLFpByQNoJIGcEnFfTPjzws/hnVdTfwx4d1hd6M+nXVvafZfLQxgNGVBE0sGBhizcMWYHoDo/DCyvvEWuSaj4ej0zwp4omBvLi4SJkSxRFCBWlI/epndmNs7sDMgYE18nmnC2XU8xp5bRxEo4rnSgqMmnJ6Jypy0Tkk7uLnrF3hJRu18nk3BtWji4VbNKF27rpr1e/vaqyXnY+vfhB4r8W+LtAubzxLb6ekkMohhuLcPi7AHzOUIDIc8bWAPGcc0V6B4e0+9sNHsrfWruzvNW27rie3hWJJ5CeXCY4zxRX+p3BuX43DZXQoYyrOpVUVzSn8Tb197lurq9tG9t29X9+zh/2e/8Akhnwk/7F6w/9ELXsVeO/s9/8kM+En/YvWH/oha9ir70kKKOlZcd1eNqMts1mFsRCrpceYPnkJOU29RgAHPvis5VEnYTlY1Kp3tv9qtpIPPubcNj54nKsOexHNXKQjIIq2rqwNGXa36z3N3bBJQ0ITcxYEMT2HOemDyB1FamR6ioIrWGF55Y4oklkIZ2CgFyBgEnvwAPwrH0231JJdSm1C7WbzJ2MKIfkiiHCgcZ3EckHPPSo5pKysTFtaM6Cm7V/ur+VOorRosbtX+6v5UbE/uL+VOooAQgc8AmueutOXULtxqEFhcWQjVYspmRZN25vmJxj5U465FdCehrhte1nXLXUobCwsWjtWhd5L14zLHEQrY3IGVuGCfL1YMcdCRzYmcYq89jKrJRV2QWnhaTTdSs57W/RbCJn3xGMhpFIfajSBxuCl2I3hurfxEEcNbaPpN74m8Y6Fe2TW+lrAj+dHeRIkaFHABjRlaNlDygFgRhFbJPTuPEcV3fRrcWNtcT3lpELu33FfJuHJ+4ATkP8uAxHy7gRnkVm+HJrSeTUHGgQvp8yGGfUpJIma42DaUuAQCSDuX+JcA89K8nF0KVb9zJXjLfqmmrNbefyOKcYqcYx0s79/wDOxZ8Ma3faddR+EPE135mrImbK8dhjVYez5HHmAYDKO/I4Ir0sHPIryu6uLTxJ4s8OafBGJtPtYptQl3wkAOriOL5WGQM72VsYPlggkV6Z5ixhVY4Y8AE+2ce5ry+FJ1aaq4acuanSlyRk92kouzb35W+W97uzvrdv1NGk0ZyXc90t0f7OnjCNtUPx5uCeR7ZH5V8jeJfjFd+A5NVuvHHg2b4ZeE7WCaC4u7q5tbe0IZ3SN7e4SZpHdgsWI0hLgsu4AkCvrrWn1CKwnfTLWO7vcqFR32gjOCT9AScd8YrwLW/g23iTxnZ+JfEcuga3pUERk8rW4H1FrS6V4DHLZozrb24QRSbj5TOxkGHQKVbuxOIpwrKnWjKfKubSO99kpaJPTq7JWvowhQUpqTdl1Xc/MT9o79qL4geO9Zg+Hfwk0K58L/DZPD3299ZvY54dSu2kWZHmiuBcWqWbxKivulnWRXyWi+XA+Av2QP22f2xNI1nQ7rwnoOg/tjeB7fwfbf2v4Xtbu8h8VWuqZeZJry8v444pZjumUBncERbI3VlCt++118APhvpA8QQaRq3iDVNY1HUDfzWzalNIvnvFFE7RFSDbho7YZVSE3F2Kkuac/hUeENJ8W3PhTw1o2kLOI30q6Z/MBubZQ8azuqBow8oKmNNyjlurkH814h8QYQp1adLC0lCmozV7Td4qzu0uVS1s37SPKnFvRo2w9WpzulKkuR2s09b2tfb8rfM6T9nv9oS2/aA+EFn8UfBEP/CQ6fdi48jKizWGWN/Le1mzJLiRJA6F1LJ8uQTWDc+L7rVp/FOm61a2ui39xhbuw0lUvre/Upj7T54jMmThYiChZTGOAOa5C98ZfBT4AfC6Sz8Oad4Y8D+EI7Umwt76c2dgLhi0pgz800zGVnG2NGOCF24Az5n8LfjD4i+IeleG9S8EaAuneEbizB1CWylWxtU2FomWwtj5siR5jACl4wWV22jNfnviJxZWxnDjxNCunSdXlUlzcs01VXLFqdHmVkm7Tq31TjJnlLF4almcMEpNz5XLl0btdK7VpNb6PSx6Lp+nR2eoTWXiKfxNc69KTJBNdLJM9zD2xbMPvDgZLY79yB6xo/h7w5qWuaHpfii+1Wx15h5ljFqeoWwuZQhDPEtouQYyqliCCQOeCBXlFt8P9R8a75NDsPG9hcZZvtljepapDJnG4Tyq3mEjOXVB39q9s+DXwTTwHqF1rutwQ6lrpQJBeXF9NfXEakndiWXoSMAlcAgD5Riv5w+j7wZiMZjaVWpg+bCyn8VqnK4Jc3POUqXJOXNZJpqomlzSbV39XmtWUV7OD/r0uz6URAq7QFAHbFFPHeiv9N5U0jwTx79nv/khnwk/7F6w/wDRC17FXjv7Pf8AyQz4Sf8AYvWH/oha9irpAztQ1C002yvNRv7u3s9Pt4nmnnkcKkSKMszEkABQDkk8VzXibx74M8FeEr3x34t8VeH/AAz4KtoBdXGrX15HBaRRHGHaZ2CAHIwSec1b8YDxR/wjmpDwfBoVx4h2AW6ak7rbP8w3CQoCwG3f0BrhPhF8P28H/C7wz8Ptemg8RWWmxm3tWuYw5NrHKTaiQFQN6RCFc7eqZqHUgpKLer6eXX80XGKtdnqmn6laapZWmpaddQ3lhPEs0MyMGWWNhkMpHUHPBrSrPtL2zuBKltIrCJzC4C4CsO1aFOLT2M0+wUmFHYCqIvFF39jMdxu8vzN+07OuNu7puz29Ky9b1CayjtWgaV5zISsUcO97gKCxjXkBWIUgFiBmplUSV2JyR0dFQISACwIyK4nw38RvBXi/XPGHhjw34lsNW8Q+H7pLLWbJGIm06V0DoJUOCA6ncrfdYcgnFVF3V0Ukd7RRRVAFUBbQRSyzorK743Hcece3ar9VYbaOIzFS5LsSdzEjPt7VjVi21Zf8AdzlPE+lHxFpMK6bNALlZo57ebzmTaQcFgyck7Swx0Oa838I6DrTakupR6t4eutMJmttRto9OWHe5PzIFViQRtAyc5A5AOSfZLu2srmWKxnshNEpWdSUGxGVgV+hBwfwrB8MeENP8LC5j0+51SWGSV5AJ7gyCLJztXPbJY885Y89MeDicBOtXhOMrKN+a2mvT5b3XW+6OKpQTqKTX4v8hvhzwxZaHqGvXNlYxWUVxIoj2SFgw5YnBHyfO78cjp9K7KS2glZHkijdkO5SVBKn1HpU2B6CgjIIr1cFl1KhT9nFaXb26tt/mzsSsrIzb++tLK3a6vrm3s7YYLSSsqKo65LMcD1zXiC/F/4SeLfGOp+CdB1yHxp4y060g1GSwtBJLHHGzuqPvAMXUMTySFKNjDIa7i4+Fvgq9u76/wBT0p9YvJ5mnLX1xJceQ5feDCsjFYircqVAK9sVa8EfDnwj8OtNudM8JaTHpwnkE91cMTJPezbQvmTStlpHwAMsT0FRm2XwxOHlS+09m0mk+9no/Lz1NYOK3OXupdduI/N1vTtH0yNXWaBMq0ilTkbWJJLg5Iwn/wBbDufDPjbxG4ktTpvhy3AUia6iaa6kx0DMX3KPu5AC9+a9RXww4nguv7Tv4L0TpPJLGI/3u0ksh3K3yOMAgYOACNprpL27FnF532e4ufmVNsSbm5YDOPQZyfYGvyet4Xf2jRUM0r1HBX0U7Sl5uUVG1+qgorzaN/rai/cS/r+up8l6Z+yD8MYNP1iPUbcXd/qCMLuYW0UmWbJYJ5ySYQF22qeFHSvQW/Z58B3+mNomrTeJ9S0f7DFp4txqctugiR3YY8jyznMmP7uFXjg178GQ8YAPpT8D0Ffa5T4e5PhMN9Vp0FKDak+e825R2bc3J3XTXToeQ8DR9p7VQSlZrRW0e607mfZWFvYW0FnArmONFRS7FmwBjJJ5J96vCNR2zT6K+yVOK2R1rQQdW+tFA6t9aKie4Hj37Pf/ACQz4Sf9i9Yf+iFr2KvHf2ex/wAWL+EfX/kXrD/0SterRrcLcSu8weAhQq7TlcZzz36r+VXKdnYC5gegphQdBhR6AU+inZPUDE1hUSxZS19ECyrvthmQEsORgHjnn2zWyVJXAJBpSqnqAao2d210rN5NxCA7KfMUrnacZ57HqPapsk7dyLJMq4a0tL2S5v2m2F5jIVGYk5OMDqAPzqTTP3lhYtJeNqDiNSZmUAzfL94gDAz1wOlMvIpYhusFs0upHUybx99cgHpySASB+FRaMgjt5FjgvLeMSybfOZizDJJb5iSBknA9AK5FW5ZqEt36/wBff8gS1N3A9K5/VNCsNUm0+a5a7jltblLuMwzvFmRQwG/YRvX5myrZXpxXQUYHoK71psaJ2Mp9TtU1CHS2l23kiGRF5+ZR1I/StWomt4GkSVoYmlXO1ioyueuD2zUtc2GhVXN7Rp66WVtOz1YO3QKKKK6RDCmTnpTgoHYZpaKADpWGmpTz3CJa2zyQLM0U8j5TyyozlQR8wJ4yOPetym7EJztGcY/Ck0Jow0vp4b6S3vpbCCOaTFkquRJKAm5twPGc7jx2rcHO7OOtVZrG1uJLeaaCOSWJi0bEcoSMHH1BI/GrlJXvqKKfUQqCCOlYc8V1apdTwm41OR3DJCzIAg2gEIeMDq3Pqfat2mOPQUNA0edNL4r07xOvn3X9oeH7h2KqluC1tlVAQkcgAgtv5BDEcbQT6RXG6dp89vrEt9eaxBcXL2ccUsCQKgZlZiJM5LY+ZsKSQK7KubCxa5rvqZUItJ37hRRRXWbiDq31ooHVvrRWM9wPww8J/tx/F3wR4Y0DwfpWn+EJdM0uyjsYGltXLukahVLEPjOB2Arpf+HhHxt/6Bfgb/wDk/8AjlFFc/Oz1PYx7B/w8J+N3/QL8Df+Acn/AMco/wCHhPxu/wCgX4G/8A5P/jlFFLmYexj2D/h4T8bv+gX4G/8AAOT/AOOUn/Dwj42/9AvwL/4Byf8AxyiijmYvYx7Fd/2/PjI91HdtongA3axmISGyk3BSQSM+Z0JAOPYVYH/BQf42AYGleBQP+vOT/wCOUUVEJsFQh2F/4eE/G7/oF+Bv/AOT/wCOUf8ADwn43f8AQL8Df+Acn/xyiio9rLuP2Mewf8PCfjd/0C/A3/gHJ/8AHKP+HhPxu/6Bfgb/AMA5P/jlFFHtZdw9jHsH/Dwn43f9AvwN/wCAcn/xyj/h4T8bv+gX4G/8A5P/AI5RRR7WXcPYx7B/w8J+N3/QL8Df+Acn/wAco/4eE/G7/oF+Bv8AwDk/+OUUUe1l3D2Mewf8PCfjd/0C/A3/AIByf/HKP+HhPxu/6Bfgb/wDk/8AjlFFHtZdw9jHsL/w8K+Nv/QK8Cn/ALc5P/jlH/Dwr42/9ArwL/4Byf8Axyiin7WXcPYx7B/w8K+Nv/QK8C/+Acn/AMco/wCHhXxt/wCgV4F/8A5P/jlFFHtZdw9jHsUm/bz+Lz3qao3h/wCHZ1BU2LN/Z771X+6G8zOOTxV3/h4V8bf+gV4F/wDAOT/45RRTc2thKhDsPb/goP8AG4An+y/Af/gFL/8AHaQf8FB/jcQD/ZngT/wCl/8AjlFFL2su4/Yx7EE3/BQz42xsVGleBfXIs5PQf9NKKKK0jNtGUqcb7H//2Q==" y="839"/>
+  <rect fill="none" height="133" stroke="#aaaaaa" stroke-width="2" width="213" x="1504" y="839"/>
+  <text fill="#111111" font-size="25" font-style="normal" font-weight="normal" opacity="1.0" text-anchor="middle" x="1590.0" y="822.0">
+    <tspan dy="0" x="1590.0">Label</tspan>
+  </text>
+  <line marker-end="url(#arrow)" stroke="#111111" stroke-width="2.1" x1="1677" x2="1677" y1="839" y2="764"/>
+  <polygon fill="#111111" opacity="1" points="1677,764 1680.696,770.72 1673.304,770.72" stroke="#111111" stroke-width="0.5"/>
+</svg>

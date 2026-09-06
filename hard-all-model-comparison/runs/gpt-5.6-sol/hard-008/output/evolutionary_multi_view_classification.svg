@@ -1,0 +1,572 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1911" height="783" viewBox="0 0 1911 783">
+<defs>
+  <linearGradient id="topbg" x1="0" x2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="0.45" stop-color="#fffef0"/><stop offset="1" stop-color="#daf8c8"/></linearGradient>
+  <linearGradient id="mainbg" x1="0" x2="1"><stop offset="0" stop-color="#edf8fd"/><stop offset="1" stop-color="#e4f3f8"/></linearGradient>
+  <linearGradient id="surface" x1="0" y1="1" x2="0.52" y2="0"><stop offset="0" stop-color="#6f8cff"/><stop offset="0.48" stop-color="#d1e4ff"/><stop offset="0.76" stop-color="#ffbe91"/><stop offset="1" stop-color="#b7182f"/></linearGradient>
+  <linearGradient id="orangebox" x1="0" x2="1"><stop offset="0" stop-color="#fff6ef"/><stop offset="1" stop-color="#efe7e3"/></linearGradient>
+  <linearGradient id="greenbox" x1="0" x2="1"><stop offset="0" stop-color="#eff9e9"/><stop offset="1" stop-color="#d0e9d7"/></linearGradient>
+  <marker id="arrow" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L9,3.5 L0,7 z" fill="#082B61"/></marker>
+  <marker id="arrow-gray" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L9,3.5 L0,7 z" fill="#666"/></marker>
+  <marker id="arrow-black" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L8,3 L0,6 z" fill="#111"/></marker>
+</defs>
+<rect x="0" y="0" width="1911" height="783" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="#FFFFFF" stroke-width="2"/>
+<rect x="3" y="23" width="1904" height="219" rx="42" fill="url(#topbg)" fill-opacity="1" stroke="#8C9694" stroke-width="1.5" stroke-dasharray="8 7"/>
+<text x="92" y="48.04" text-anchor="start" font-family="Times New Roman" font-size="24" font-weight="700" font-style="normal" fill="#082B61"><tspan x="92" dy="0">(a) The whole process of evolutionary multi-view classification</tspan></text>
+<rect x="44" y="76" width="132" height="55" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="#082B61" stroke-width="1.4" stroke-dasharray="5 3"/>
+<ellipse cx="59.5" cy="91.0" rx="9.5" ry="9.0" fill="#DCE8F7" fill-opacity="1" stroke="#082B61" stroke-width="1.7"/>
+<ellipse cx="85.5" cy="91.0" rx="9.5" ry="9.0" fill="#DCE8F7" fill-opacity="1" stroke="#082B61" stroke-width="1.7"/>
+<ellipse cx="163.5" cy="91.0" rx="9.5" ry="9.0" fill="#DCE8F7" fill-opacity="1" stroke="#082B61" stroke-width="1.7"/>
+<ellipse cx="109.5" cy="92.5" rx="2.5" ry="2.5" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0"/>
+<ellipse cx="124.5" cy="92.5" rx="2.5" ry="2.5" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0"/>
+<ellipse cx="59.5" cy="117.0" rx="9.5" ry="9.0" fill="#DCE8F7" fill-opacity="1" stroke="#082B61" stroke-width="1.7"/>
+<ellipse cx="85.5" cy="117.0" rx="9.5" ry="9.0" fill="#DCE8F7" fill-opacity="1" stroke="#082B61" stroke-width="1.7"/>
+<ellipse cx="163.5" cy="117.0" rx="9.5" ry="9.0" fill="#DCE8F7" fill-opacity="1" stroke="#082B61" stroke-width="1.7"/>
+<ellipse cx="109.5" cy="118.5" rx="2.5" ry="2.5" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0"/>
+<ellipse cx="124.5" cy="118.5" rx="2.5" ry="2.5" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0"/>
+<rect x="44" y="162" width="132" height="55" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="#082B61" stroke-width="1.4" stroke-dasharray="5 3"/>
+<ellipse cx="63.5" cy="177.0" rx="12.5" ry="6.0" fill="#F39969" fill-opacity="1" stroke="#082B61" stroke-width="1.5"/>
+<ellipse cx="92.5" cy="177.0" rx="12.5" ry="6.0" fill="#E4815F" fill-opacity="1" stroke="#082B61" stroke-width="1.5"/>
+<ellipse cx="156.5" cy="177.0" rx="12.5" ry="6.0" fill="#F3D05D" fill-opacity="1" stroke="#082B61" stroke-width="1.5"/>
+<ellipse cx="63.5" cy="204.0" rx="12.5" ry="6.0" fill="#438ACA" fill-opacity="1" stroke="#082B61" stroke-width="1.5"/>
+<ellipse cx="92.5" cy="204.0" rx="12.5" ry="6.0" fill="#9DCE87" fill-opacity="1" stroke="#082B61" stroke-width="1.5"/>
+<ellipse cx="156.5" cy="204.0" rx="12.5" ry="6.0" fill="#D1D1CF" fill-opacity="1" stroke="#082B61" stroke-width="1.5"/>
+<ellipse cx="112.5" cy="179.5" rx="2.5" ry="2.5" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0"/>
+<ellipse cx="125.5" cy="179.5" rx="2.5" ry="2.5" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0"/>
+<ellipse cx="112.5" cy="206.5" rx="2.5" ry="2.5" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0"/>
+<ellipse cx="125.5" cy="206.5" rx="2.5" ry="2.5" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0"/>
+<text x="109.0" y="148.695" text-anchor="middle" font-family="Times New Roman" font-size="17" font-weight="700" font-style="normal" fill="#101010"><tspan x="109.0" dy="0">Fusion operator set</tspan></text>
+<text x="108.0" y="232.695" text-anchor="middle" font-family="Times New Roman" font-size="17" font-weight="700" font-style="normal" fill="#101010"><tspan x="108.0" dy="0">View set</tspan></text>
+<polyline points="177,101 188,101 196,109 196,181 188,190 177,190" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="196,151 227,151" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polygon points="225.0,173.75999416948983 232.91666666666666,175.10372417264583 240.83333333333334,172.73762413538242 248.75,166.18984460593822 256.6666666666667,158.4500758171869 264.5833333333333,151.95457583326413 272.5,144.14621653398362 280.4166666666667,132.96771714625154 288.3333333333333,128.32990754593675 296.25,140.70672881224183 304.1666666666667,160.38305701090476 312.0833333333333,172.19523658799272 320.0,175.83812507636807 327.91666666666663,170.90484570724274 335.83333333333337,128.30906726232044 343.75,72.32635977670695 351.66666666666663,107.34310509686595 359.58333333333337,155.59519331298966 367.5,160.06413838077864 375.41666666666663,156.63721643553038 383.33333333333337,159.25986893720616 391.25,166.2761088963205 399.16666666666663,172.74330619079151 407.08333333333337,175.10395562602264 415.0,173.76 415,194.17000000000002 392.2,203.59 361.79999999999995,189.46 335.2,217.72 308.6,195.73999999999998 280.1,209.87 247.8,191.03 225,173.76" fill="#BCD6FA" fill-opacity="1" stroke="#9BB9EF" stroke-width="0.5"/>
+<polyline points="234.5,167.48000000000002 278.2,162.76999999999998 310.5,170.62 339.0,161.2 375.1,172.19 403.6,167.48000000000002" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="234.5,171.405 278.2,167.48000000000002 310.5,175.01600000000002 339.0,167.48000000000002 375.1,176.115 403.6,170.62" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="234.5,175.33 278.2,172.19 310.5,179.412 339.0,173.76 375.1,180.04000000000002 403.6,173.76" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="234.5,179.255 278.2,176.89999999999998 310.5,183.808 339.0,180.04 375.1,183.96500000000003 403.6,176.89999999999998" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="234.5,183.18 278.2,181.61 310.5,188.204 339.0,186.32 375.1,187.89 403.6,180.04" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="234.5,187.10500000000002 278.2,186.32 310.5,192.60000000000002 339.0,192.60000000000002 375.1,191.815 403.6,183.18" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="234.5,191.03 278.2,191.03 310.5,196.996 339.0,198.88 375.1,195.74 403.6,186.32" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="263.0,162.76999999999998 289.6,101.53999999999999 306.7,169.05" fill="#FFB189" fill-opacity="0.86" stroke="#EFA17D" stroke-width="0.5"/>
+<polygon points="316.2,165.91 344.7,71.71 358.0,169.05" fill="#E65B53" fill-opacity="0.94" stroke="#D64B49" stroke-width="0.5"/>
+<polygon points="331.4,162.76999999999998 344.7,71.71 350.4,167.48000000000002" fill="#AF1831" fill-opacity="0.93" stroke="#A20E2C" stroke-width="0.4"/>
+<polyline points="248.75,170.47390616456062 248.75,198.88000000000002" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="264.5833333333333,165.44923349241176 264.5833333333333,194.955" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="280.4166666666667,137.67394442466014 280.4166666666667,187.10500000000002" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="296.25,132.8299553223712 296.25,183.18" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="312.0833333333333,162.79005102253657 312.0833333333333,187.10500000000002" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="327.91666666666663,159.36707651317496 327.91666666666663,194.95499999999998" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="343.75,75.51082394899366 343.75,198.88000000000002" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="359.58333333333337,153.20249986505004 359.58333333333337,194.955" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="375.41666666666663,170.5526650923548 375.41666666666663,187.10500000000002" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="391.25,170.6199945048815 391.25,183.18" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="324.5" y="231.53" text-anchor="middle" font-family="Times New Roman" font-size="18" font-weight="700" font-style="normal" fill="#101010"><tspan x="324.5" dy="0">Search space</tspan></text>
+<polyline points="414,151 505,151" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="472.5" y="111.2" text-anchor="middle" font-family="Times New Roman" font-size="20" font-weight="700" font-style="normal" fill="#D00000"><tspan x="472.5" dy="0">① Initialize</tspan><tspan x="472.5" dy="21.0">population</tspan></text>
+<polygon points="505.0,160.79999498650403 512.7916666666666,162.1437566056031 520.5833333333334,159.77842034699364 528.375,153.2419326338736 536.1666666666666,145.60356837783587 543.9583333333334,139.6535438342125 551.75,133.5523881957829 559.5416666666666,125.26199654594585 567.3333333333334,122.58538491009085 575.125,133.8744918999474 582.9166666666666,150.64134185009607 590.7083333333334,160.28144284190708 598.5,163.1474323905076 606.2916666666666,159.171871065466 614.0833333333334,123.06179652488022 621.875,75.07608540442374 629.6666666666666,104.53940828190899 637.4583333333334,144.71874356830025 645.25,147.23977322328182 653.0416666666666,143.6800182374351 660.8333333333334,146.2998873026932 668.625,153.31610893452077 676.4166666666666,159.78330619081675 684.2083333333334,162.14395562602266 692.0,160.8 692,178.35000000000002 669.56,186.45 639.64,174.3 613.46,198.6 587.28,179.7 559.23,191.85000000000002 527.44,175.65 505,160.8" fill="#BCD6FA" fill-opacity="1" stroke="#9BB9EF" stroke-width="0.5"/>
+<polyline points="514.35,155.4 557.36,151.35 589.15,158.10000000000002 617.2,150.0 652.73,159.45 680.78,155.4" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="514.35,158.775 557.36,155.4 589.15,161.88 617.2,155.4 652.73,162.825 680.78,158.10000000000002" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="514.35,162.15 557.36,159.45 589.15,165.66000000000003 617.2,160.8 652.73,166.20000000000002 680.78,160.8" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="514.35,165.525 557.36,163.5 589.15,169.44 617.2,166.2 652.73,169.57500000000002 680.78,163.5" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="514.35,168.9 557.36,167.55 589.15,173.22 617.2,171.6 652.73,172.95 680.78,166.2" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="514.35,172.275 557.36,171.6 589.15,177.0 617.2,177.0 652.73,176.325 680.78,168.9" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="514.35,175.65 557.36,175.65 589.15,180.78000000000003 617.2,182.39999999999998 652.73,179.7 680.78,171.6" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="542.4,151.35 568.58,98.7 585.41,156.75" fill="#FFB189" fill-opacity="0.86" stroke="#EFA17D" stroke-width="0.5"/>
+<polygon points="594.76,154.05 622.81,73.05 635.9,156.75" fill="#E65B53" fill-opacity="0.94" stroke="#D64B49" stroke-width="0.5"/>
+<polygon points="609.72,151.35 622.81,73.05 628.42,155.4" fill="#AF1831" fill-opacity="0.93" stroke="#A20E2C" stroke-width="0.4"/>
+<polyline points="528.375,157.97437791220182 528.375,182.4" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="543.9583333333334,153.65379949984452 543.9583333333334,179.025" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="559.5416666666666,129.77058915496255 559.5416666666666,172.275" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="575.125,125.60537559566953 575.125,168.9" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="590.7083333333334,151.36724132511108 590.7083333333334,172.275" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="606.2916666666666,148.4239192947683 606.2916666666666,179.02499999999998" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="621.875,76.31822441473979 621.875,182.4" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="637.4583333333334,143.12316867376916 637.4583333333334,179.025" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="653.0416666666666,158.0421005571204 653.0416666666666,172.27500000000003" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="668.625,158.09999527489813 668.625,168.9" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="585.41" cy="159.45" rx="4.0" ry="4.0" fill="#4C8D35" fill-opacity="1" stroke="#4C8D35" stroke-width="0.5"/>
+<ellipse cx="658.34" cy="170.25" rx="4.0" ry="4.0" fill="#4C8D35" fill-opacity="1" stroke="#4C8D35" stroke-width="0.5"/>
+<ellipse cx="665.8199999999999" cy="96.0" rx="4.0" ry="4.0" fill="#4C8D35" fill-opacity="1" stroke="#4C8D35" stroke-width="0.5"/>
+<text x="552.5" y="217.53" text-anchor="middle" font-family="Times New Roman" font-size="18" font-weight="700" font-style="normal" fill="#101010"><tspan x="552.5" dy="0">Individual</tspan></text>
+<polyline points="692,151 800,151" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="758.0" y="110.2" text-anchor="middle" font-family="Times New Roman" font-size="20" font-weight="700" font-style="normal" fill="#D00000"><tspan x="758.0" dy="0">② Fitness</tspan><tspan x="758.0" dy="21.0">evaluation</tspan></text>
+<polygon points="800.0,173.07999420662688 808.4166666666666,174.4237256468712 816.8333333333334,172.0576603268193 825.25,165.5103940617535 833.6666666666666,157.77523456994368 842.0833333333334,151.30452892421636 850.5,143.57376979133815 858.9166666666666,132.52654802805588 867.3333333333334,127.97788378976193 875.75,140.30526349804666 884.1666666666666,159.8493426854135 892.5833333333334,171.56279141771614 901.0,175.17036631791987 909.4166666666666,170.28061958716202 917.8333333333334,127.97964586516407 926.25,72.36043821433047 934.6666666666666,107.12475524164068 943.0833333333334,155.00990014277653 951.5,159.39030360089245 959.9166666666666,155.95734379016244 968.3333333333334,158.57986977200108 976.75,165.59610889805688 985.1666666666666,172.0633061907927 993.5833333333334,174.42395562602266 1002.0,173.08 1002,193.36 977.76,202.72 945.44,188.68 917.16,216.76 888.88,194.92 858.58,208.96 824.24,190.24 800,173.08" fill="#BCD6FA" fill-opacity="1" stroke="#9BB9EF" stroke-width="0.5"/>
+<polyline points="810.1,166.84 856.56,162.16 890.9,169.96 921.2,160.6 959.58,171.52 989.88,166.84" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="810.1,170.74 856.56,166.84 890.9,174.328 921.2,166.84 959.58,175.42000000000002 989.88,169.96" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="810.1,174.64000000000001 856.56,171.51999999999998 890.9,178.69600000000003 921.2,173.07999999999998 959.58,179.32 989.88,173.08" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="810.1,178.54000000000002 856.56,176.2 890.9,183.064 921.2,179.32 959.58,183.22000000000003 989.88,176.2" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="810.1,182.44 856.56,180.88 890.9,187.43200000000002 921.2,185.56 959.58,187.12 989.88,179.32" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="810.1,186.34 856.56,185.56 890.9,191.8 921.2,191.8 959.58,191.02 989.88,182.44" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="810.1,190.24 856.56,190.24 890.9,196.168 921.2,198.04 959.58,194.92000000000002 989.88,185.56" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="840.4,162.16 868.6800000000001,101.32 886.86,168.4" fill="#FFB189" fill-opacity="0.86" stroke="#EFA17D" stroke-width="0.5"/>
+<polygon points="896.96,165.28 927.26,71.68 941.4,168.4" fill="#E65B53" fill-opacity="0.94" stroke="#D64B49" stroke-width="0.5"/>
+<polygon points="913.12,162.16 927.26,71.68 933.3199999999999,166.84" fill="#AF1831" fill-opacity="0.93" stroke="#A20E2C" stroke-width="0.4"/>
+<polyline points="825.25,169.8148366985443 825.25,198.04000000000002" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="842.0833333333334,164.82216831093143 842.0833333333334,194.14000000000001" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="858.9166666666666,137.22379191240114 858.9166666666666,186.34" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="875.75,132.41065624388477 875.75,182.44" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="892.5833333333334,162.17992330901725 892.5833333333334,186.34" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="909.4166666666666,158.77875118506557 909.4166666666666,194.14" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="926.25,75.45661487925487 926.25,198.04000000000002" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="943.0833333333334,152.65343935635545 943.0833333333334,194.14000000000001" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="959.9166666666666,169.89309397711685 959.9166666666666,186.34000000000003" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="976.75,169.95999453988227 976.75,182.44" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="876.76" cy="173.08" rx="4.0" ry="4.0" fill="#4C8D35" fill-opacity="1" stroke="#4C8D35" stroke-width="0.5"/>
+<ellipse cx="929.28" cy="184.0" rx="4.0" ry="4.0" fill="#4C8D35" fill-opacity="1" stroke="#4C8D35" stroke-width="0.5"/>
+<text x="834.82" y="180.555" text-anchor="middle" font-family="Times New Roman" font-size="13" font-weight="700" font-style="normal" fill="#101010"><tspan x="834.82" dy="0">78.89</tspan></text>
+<text x="891.38" y="191.47500000000002" text-anchor="middle" font-family="Times New Roman" font-size="13" font-weight="700" font-style="normal" fill="#101010"><tspan x="891.38" dy="0">77.23</tspan></text>
+<text x="939.86" y="119.715" text-anchor="middle" font-family="Times New Roman" font-size="13" font-weight="700" font-style="normal" fill="#101010"><tspan x="939.86" dy="0">83.01</tspan></text>
+<text x="887.0" y="232.03" text-anchor="middle" font-family="Times New Roman" font-size="18" font-weight="700" font-style="normal" fill="#101010"><tspan x="887.0" dy="0">Pₜ</tspan></text>
+<polyline points="1000,151 1118,151" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="1015.0" y="110.7" text-anchor="middle" font-family="Times New Roman" font-size="20" font-weight="700" font-style="normal" fill="#D00000"><tspan x="1015.0" dy="0">③ Offspring</tspan><tspan x="1015.0" dy="21.0">generation</tspan></text>
+<rect x="1080" y="84" width="89" height="52" rx="8" fill="#FFFFFF" fill-opacity="1" stroke="#777777" stroke-width="1.4" stroke-dasharray="6 4"/>
+<text x="1136.0" y="97.86" text-anchor="middle" font-family="Times New Roman" font-size="16" font-weight="700" font-style="normal" fill="#5B2D93"><tspan x="1136.0" dy="0">Crossover</tspan></text>
+<text x="1131.5" y="135.85999999999999" text-anchor="middle" font-family="Times New Roman" font-size="16" font-weight="700" font-style="normal" fill="#5B2D93"><tspan x="1131.5" dy="0">Mutation</tspan></text>
+<polygon points="1120.0,174.75999416948983 1128.25,176.10372417264583 1136.5,173.73762413538242 1144.75,167.18984460593822 1153.0,159.4500758171869 1161.25,152.95457583326413 1169.5,145.14621653398362 1177.75,133.96771714625154 1186.0,129.32990754593675 1194.25,141.70672881224183 1202.5,161.38305701090476 1210.75,173.19523658799272 1219.0,176.83812507636807 1227.25,171.90484570724274 1235.5,129.30906726232044 1243.75,73.32635977670695 1252.0,108.34310509686595 1260.25,156.59519331298966 1268.5,161.06413838077864 1276.75,157.63721643553038 1285.0,160.25986893720616 1293.25,167.2761088963205 1301.5,173.74330619079151 1309.75,176.10395562602264 1318.0,174.76 1318,195.17000000000002 1294.24,204.59 1262.56,190.46 1234.84,218.72 1207.12,196.73999999999998 1177.42,210.87 1143.76,192.03 1120,174.76" fill="#BCD6FA" fill-opacity="1" stroke="#9BB9EF" stroke-width="0.5"/>
+<polyline points="1129.9,168.48000000000002 1175.44,163.76999999999998 1209.1,171.62 1238.8,162.2 1276.42,173.19 1306.12,168.48000000000002" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1129.9,172.405 1175.44,168.48000000000002 1209.1,176.01600000000002 1238.8,168.48000000000002 1276.42,177.115 1306.12,171.62" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1129.9,176.33 1175.44,173.19 1209.1,180.412 1238.8,174.76 1276.42,181.04000000000002 1306.12,174.76" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1129.9,180.255 1175.44,177.89999999999998 1209.1,184.808 1238.8,181.04 1276.42,184.96500000000003 1306.12,177.89999999999998" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1129.9,184.18 1175.44,182.61 1209.1,189.204 1238.8,187.32 1276.42,188.89 1306.12,181.04" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1129.9,188.10500000000002 1175.44,187.32 1209.1,193.60000000000002 1238.8,193.60000000000002 1276.42,192.815 1306.12,184.18" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1129.9,192.03 1175.44,192.03 1209.1,197.996 1238.8,199.88 1276.42,196.74 1306.12,187.32" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="1159.6,163.76999999999998 1187.32,102.53999999999999 1205.14,170.05" fill="#FFB189" fill-opacity="0.86" stroke="#EFA17D" stroke-width="0.5"/>
+<polygon points="1215.04,166.91 1244.74,72.71 1258.6,170.05" fill="#E65B53" fill-opacity="0.94" stroke="#D64B49" stroke-width="0.5"/>
+<polygon points="1230.88,163.76999999999998 1244.74,72.71 1250.68,168.48000000000002" fill="#AF1831" fill-opacity="0.93" stroke="#A20E2C" stroke-width="0.4"/>
+<polyline points="1144.75,171.47390616456062 1144.75,199.88000000000002" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1161.25,166.44923349241176 1161.25,195.955" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1177.75,138.67394442466014 1177.75,188.10500000000002" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1194.25,133.8299553223712 1194.25,184.18" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1210.75,163.79005102253657 1210.75,188.10500000000002" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1227.25,160.36707651317496 1227.25,195.95499999999998" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1243.75,76.51082394899366 1243.75,199.88000000000002" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1260.25,154.20249986505004 1260.25,195.955" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1276.75,171.5526650923548 1276.75,188.10500000000002" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1293.25,171.6199945048815 1293.25,184.18" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="1197.22" cy="171.62" rx="4.0" ry="4.0" fill="#E00000" fill-opacity="1" stroke="#E00000" stroke-width="0.5"/>
+<ellipse cx="1222.96" cy="190.46" rx="4.0" ry="4.0" fill="#E00000" fill-opacity="1" stroke="#E00000" stroke-width="0.5"/>
+<ellipse cx="1272.46" cy="187.32" rx="4.0" ry="4.0" fill="#4C8D35" fill-opacity="1" stroke="#4C8D35" stroke-width="0.5"/>
+<text x="1162.1" y="182.255" text-anchor="middle" font-family="Times New Roman" font-size="13" font-weight="700" font-style="normal" fill="#101010"><tspan x="1162.1" dy="0">78.89</tspan></text>
+<text x="1253.18" y="196.38500000000002" text-anchor="middle" font-family="Times New Roman" font-size="13" font-weight="700" font-style="normal" fill="#101010"><tspan x="1253.18" dy="0">77.23</tspan></text>
+<text x="1257.14" y="121.025" text-anchor="middle" font-family="Times New Roman" font-size="13" font-weight="700" font-style="normal" fill="#101010"><tspan x="1257.14" dy="0">83.01</tspan></text>
+<polyline points="1208,189 1237,204 1260,212" fill="none" stroke="#666666" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 3" marker-end="url(#arrow-gray)"/>
+<text x="1309.5" y="224.695" text-anchor="middle" font-family="Times New Roman" font-size="17" font-weight="700" font-style="normal" fill="#101010"><tspan x="1309.5" dy="0">New individual</tspan></text>
+<polyline points="1318,151 1395,151" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="1367.0" y="110.2" text-anchor="middle" font-family="Times New Roman" font-size="20" font-weight="700" font-style="normal" fill="#D00000"><tspan x="1367.0" dy="0">④ Fitness</tspan><tspan x="1367.0" dy="21.0">evaluation</tspan></text>
+<polygon points="1391.0,173.7199942809009 1399.5416666666667,175.06372859532186 1408.0833333333333,172.69773270969307 1416.625,166.15149297338397 1425.1666666666667,158.42555207545723 1433.7083333333333,152.00443510612078 1442.25,144.4288763060472 1450.7916666666667,133.64420979166445 1459.3333333333333,129.27383627741233 1467.875,141.50233286965627 1476.4166666666667,160.78191403443088 1484.9583333333333,172.29790107716292 1493.5,175.8348488010235 1502.0416666666667,171.0321673470005 1510.5833333333333,129.32080307085135 1519.125,74.42859508957746 1527.6666666666667,108.68805553119006 1536.2083333333333,155.83931380235023 1544.75,160.04263404112004 1553.2916666666667,156.5975984994265 1561.8333333333333,159.2198714415908 1570.375,166.23610890152963 1578.9166666666667,172.703306190795 1587.4583333333333,175.06395562602268 1596.0,173.72000000000003 1596,193.74 1571.4,202.98 1538.6,189.12 1509.9,216.84 1481.2,195.27999999999997 1450.45,209.14000000000001 1415.6,190.66000000000003 1391,173.72000000000003" fill="#BCD6FA" fill-opacity="1" stroke="#9BB9EF" stroke-width="0.5"/>
+<polyline points="1401.25,167.56 1448.4,162.94 1483.25,170.64 1514.0,161.39999999999998 1552.95,172.18 1583.7,167.56" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1401.25,171.41000000000003 1448.4,167.56 1483.25,174.952 1514.0,167.56 1552.95,176.03000000000003 1583.7,170.64" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1401.25,175.26 1448.4,172.18 1483.25,179.264 1514.0,173.71999999999997 1552.95,179.88 1583.7,173.72000000000003" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1401.25,179.11 1448.4,176.8 1483.25,183.576 1514.0,179.88 1552.95,183.73000000000002 1583.7,176.8" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1401.25,182.95999999999998 1448.4,181.42000000000002 1483.25,187.888 1514.0,186.04000000000002 1552.95,187.57999999999998 1583.7,179.88" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1401.25,186.81 1448.4,186.04000000000002 1483.25,192.2 1514.0,192.2 1552.95,191.43 1583.7,182.95999999999998" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1401.25,190.66000000000003 1448.4,190.66000000000003 1483.25,196.512 1514.0,198.35999999999999 1552.95,195.28000000000003 1583.7,186.04000000000002" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="1432.0,162.94 1460.7,102.88 1479.15,169.10000000000002" fill="#FFB189" fill-opacity="0.86" stroke="#EFA17D" stroke-width="0.5"/>
+<polygon points="1489.4,166.01999999999998 1520.15,73.62 1534.5,169.10000000000002" fill="#E65B53" fill-opacity="0.94" stroke="#D64B49" stroke-width="0.5"/>
+<polygon points="1505.8,162.94 1520.15,73.62 1526.3,167.56" fill="#AF1831" fill-opacity="0.93" stroke="#A20E2C" stroke-width="0.4"/>
+<polyline points="1416.625,170.49669776651166 1416.625,198.36" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1433.7083333333333,165.56803794797077 1433.7083333333333,194.51" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1450.7916666666667,138.32348688788318 1450.7916666666667,186.81" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1467.875,133.57205808691188 1467.875,182.95999999999998" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1484.9583333333333,162.95966788197853 1484.9583333333333,186.81" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1502.0416666666667,159.60210052884673 1502.0416666666667,194.51" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1519.125,77.34819673977721 1519.125,198.36" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1536.2083333333333,153.55531833896626 1536.2083333333333,194.51" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1553.2916666666667,170.573951746641 1553.2916666666667,186.81" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1570.375,170.63999460988376 1570.375,182.95999999999998" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="1491.45" cy="172.18" rx="4.0" ry="4.0" fill="#E00000" fill-opacity="1" stroke="#E00000" stroke-width="0.5"/>
+<ellipse cx="1532.45" cy="189.12" rx="4.0" ry="4.0" fill="#E00000" fill-opacity="1" stroke="#E00000" stroke-width="0.5"/>
+<ellipse cx="1581.65" cy="169.10000000000002" rx="4.0" ry="4.0" fill="#E00000" fill-opacity="1" stroke="#E00000" stroke-width="0.5"/>
+<ellipse cx="1487.35" cy="98.26" rx="4.0" ry="4.0" fill="#4C8D35" fill-opacity="1" stroke="#4C8D35" stroke-width="0.5"/>
+<text x="1442.7" y="179.615" text-anchor="middle" font-family="Times New Roman" font-size="13" font-weight="700" font-style="normal" fill="#101010"><tspan x="1442.7" dy="0">78.89</tspan></text>
+<text x="1489.85" y="195.01500000000004" text-anchor="middle" font-family="Times New Roman" font-size="13" font-weight="700" font-style="normal" fill="#101010"><tspan x="1489.85" dy="0">77.12</tspan></text>
+<text x="1504.2" y="131.875" text-anchor="middle" font-family="Times New Roman" font-size="13" font-weight="700" font-style="normal" fill="#101010"><tspan x="1504.2" dy="0">80.10</tspan></text>
+<text x="1537.0" y="198.09500000000003" text-anchor="middle" font-family="Times New Roman" font-size="13" font-weight="700" font-style="normal" fill="#101010"><tspan x="1537.0" dy="0">77.23</tspan></text>
+<text x="1551.35" y="107.23499999999999" text-anchor="middle" font-family="Times New Roman" font-size="13" font-weight="700" font-style="normal" fill="#101010"><tspan x="1551.35" dy="0">83.01</tspan></text>
+<text x="1573.9" y="184.235" text-anchor="middle" font-family="Times New Roman" font-size="13" font-weight="700" font-style="normal" fill="#101010"><tspan x="1573.9" dy="0">80.91</tspan></text>
+<polyline points="1608,151 1680,151" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="1632.0" y="107.7" text-anchor="middle" font-family="Times New Roman" font-size="20" font-weight="700" font-style="normal" fill="#D00000"><tspan x="1632.0" dy="0">⑤ Selection</tspan></text>
+<polygon points="1682.0,173.75999416948983 1690.4583333333333,175.10372417264583 1698.9166666666667,172.73762413538242 1707.375,166.18984460593822 1715.8333333333333,158.4500758171869 1724.2916666666667,151.95457583326413 1732.75,144.14621653398362 1741.2083333333333,132.96771714625154 1749.6666666666667,128.32990754593675 1758.125,140.70672881224183 1766.5833333333333,160.38305701090476 1775.0416666666667,172.19523658799272 1783.5,175.83812507636807 1791.9583333333333,170.90484570724274 1800.4166666666667,128.30906726232044 1808.875,72.32635977670695 1817.3333333333333,107.34310509686595 1825.7916666666667,155.59519331298966 1834.25,160.06413838077864 1842.7083333333333,156.63721643553038 1851.1666666666667,159.25986893720616 1859.625,166.2761088963205 1868.0833333333333,172.74330619079151 1876.5416666666667,175.10395562602264 1885.0,173.76 1885,194.17000000000002 1860.64,203.59 1828.16,189.46 1799.74,217.72 1771.32,195.73999999999998 1740.87,209.87 1706.36,191.03 1682,173.76" fill="#BCD6FA" fill-opacity="1" stroke="#9BB9EF" stroke-width="0.5"/>
+<polyline points="1692.15,167.48000000000002 1738.84,162.76999999999998 1773.35,170.62 1803.8,161.2 1842.37,172.19 1872.82,167.48000000000002" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1692.15,171.405 1738.84,167.48000000000002 1773.35,175.01600000000002 1803.8,167.48000000000002 1842.37,176.115 1872.82,170.62" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1692.15,175.33 1738.84,172.19 1773.35,179.412 1803.8,173.76 1842.37,180.04000000000002 1872.82,173.76" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1692.15,179.255 1738.84,176.89999999999998 1773.35,183.808 1803.8,180.04 1842.37,183.96500000000003 1872.82,176.89999999999998" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1692.15,183.18 1738.84,181.61 1773.35,188.204 1803.8,186.32 1842.37,187.89 1872.82,180.04" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1692.15,187.10500000000002 1738.84,186.32 1773.35,192.60000000000002 1803.8,192.60000000000002 1842.37,191.815 1872.82,183.18" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1692.15,191.03 1738.84,191.03 1773.35,196.996 1803.8,198.88 1842.37,195.74 1872.82,186.32" fill="none" stroke="#7795E8" stroke-opacity="0.65" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="1722.6,162.76999999999998 1751.02,101.53999999999999 1769.29,169.05" fill="#FFB189" fill-opacity="0.86" stroke="#EFA17D" stroke-width="0.5"/>
+<polygon points="1779.44,165.91 1809.89,71.71 1824.1,169.05" fill="#E65B53" fill-opacity="0.94" stroke="#D64B49" stroke-width="0.5"/>
+<polygon points="1795.68,162.76999999999998 1809.89,71.71 1815.98,167.48000000000002" fill="#AF1831" fill-opacity="0.93" stroke="#A20E2C" stroke-width="0.4"/>
+<polyline points="1707.375,170.47390616456062 1707.375,198.88000000000002" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1724.2916666666667,165.44923349241176 1724.2916666666667,194.955" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1741.2083333333333,137.67394442466014 1741.2083333333333,187.10500000000002" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1758.125,132.8299553223712 1758.125,183.18" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1775.0416666666667,162.79005102253657 1775.0416666666667,187.10500000000002" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1791.9583333333333,159.36707651317496 1791.9583333333333,194.95499999999998" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1808.875,75.51082394899366 1808.875,198.88000000000002" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1825.7916666666667,153.20249986505004 1825.7916666666667,194.955" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1842.7083333333333,170.5526650923548 1842.7083333333333,187.10500000000002" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1859.625,170.6199945048815 1859.625,183.18" fill="none" stroke="#FFFFFF" stroke-opacity="0.75" stroke-width="0.45" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="1753.05" cy="170.62" rx="4.0" ry="4.0" fill="#E00000" fill-opacity="1" stroke="#E00000" stroke-width="0.5"/>
+<ellipse cx="1807.86" cy="184.75" rx="4.0" ry="4.0" fill="#E00000" fill-opacity="1" stroke="#E00000" stroke-width="0.5"/>
+<ellipse cx="1820.04" cy="98.4" rx="4.0" ry="4.0" fill="#4C8D35" fill-opacity="1" stroke="#4C8D35" stroke-width="0.5"/>
+<text x="1779.0" y="231.03" text-anchor="middle" font-family="Times New Roman" font-size="18" font-weight="700" font-style="normal" fill="#101010"><tspan x="1779.0" dy="0">New population  Pₜ₊₁</tspan></text>
+<polyline points="1742,157 1742,48 1028,48 1015,58 1015,82" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="54" y="275.375" text-anchor="start" font-family="Times New Roman" font-size="25" font-weight="700" font-style="normal" fill="#082B61"><tspan x="54" dy="0">(b) Unbiased fitness evaluation</tspan></text>
+<rect x="38" y="284" width="320" height="484" rx="0" fill="#F7FAFB" fill-opacity="1" stroke="#7C8EA7" stroke-width="2"/>
+<rect x="393" y="284" width="162" height="484" rx="0" fill="#EAF6FD" fill-opacity="1" stroke="#7C8EA7" stroke-width="2"/>
+<rect x="638" y="259" width="1233" height="519" rx="18" fill="url(#mainbg)" fill-opacity="1" stroke="#77858F" stroke-width="2" stroke-dasharray="8 6"/>
+<rect x="46" y="298" width="306" height="65" rx="13" fill="#FFFFFF" fill-opacity="1" stroke="#65727A" stroke-width="1.8" stroke-dasharray="6 4"/>
+<ellipse cx="71.375" cy="316.625" rx="8.625" ry="8.625" fill="#4C8D35" fill-opacity="1" stroke="#4C8D35" stroke-width="0.7"/>
+<ellipse cx="68.5" cy="333.29999999999995" rx="10.35" ry="12.649999999999999" fill="#4C8D35" fill-opacity="1" stroke="#4C8D35" stroke-width="0.7"/>
+<polygon points="74.25,318.35 89.19999999999999,322.95 76.55,329.85" fill="#4C8D35" fill-opacity="1" stroke="#4C8D35" stroke-width="0.5"/>
+<polyline points="77.7,316.05 88.05,312.6" fill="none" stroke="#4C8D35" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="89.2" cy="312.6" rx="2.3" ry="2.3" fill="#FFFFFF" fill-opacity="1" stroke="#FFFFFF" stroke-width="0"/>
+<ellipse cx="83.45" cy="318.35" rx="2.3" ry="2.3" fill="#FFFFFF" fill-opacity="1" stroke="#FFFFFF" stroke-width="0"/>
+<text x="217.0" y="327.08000000000004" text-anchor="middle" font-family="Times New Roman" font-size="18" font-weight="700" font-style="normal" fill="#101010"><tspan x="217.0" dy="0">Evolutionary navigator</tspan><tspan x="217.0" dy="18.900000000000002">of the view⁽ᵛ⁾</tspan></text>
+<polyline points="86,365 86,418" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="92" y="394.695" text-anchor="start" font-family="Times New Roman" font-size="17" font-weight="700" font-style="normal" fill="#101010"><tspan x="92" dy="0">Pre-training process</tspan></text>
+<polyline points="351,326 367,326 367,406 350,406" fill="none" stroke="#4C8D35" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-black)"/>
+<rect x="47" y="421" width="306" height="207" rx="31" fill="#F5FAFC" fill-opacity="1" stroke="#65727A" stroke-width="1.8" stroke-dasharray="7 5"/>
+<ellipse cx="96.5" cy="460.0" rx="44.5" ry="24.0" fill="#4C8D35" fill-opacity="1" stroke="#082B61" stroke-width="1.5"/>
+<text x="96.5" y="466.86499999999995" text-anchor="middle" font-family="Times New Roman" font-size="19" font-weight="700" font-style="normal" fill="#101010"><tspan x="96.5" dy="0">View⁽ᵛ⁾</tspan></text>
+<polyline points="141,460 188,460" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="188" y="433" width="36" height="54" rx="0" fill="#D7E2EA" fill-opacity="1" stroke="#082B61" stroke-width="1.8"/>
+<text x="206.0" y="466.03000000000003" text-anchor="middle" font-family="Times New Roman" font-size="18" font-weight="700" font-style="normal" fill="#101010"><tspan x="206.0" dy="0">FC</tspan></text>
+<polyline points="224,460 267,460" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="267" y="433" width="37" height="54" rx="0" fill="#D7E2EA" fill-opacity="1" stroke="#082B61" stroke-width="1.8"/>
+<text x="285.5" y="466.03000000000003" text-anchor="middle" font-family="Times New Roman" font-size="18" font-weight="700" font-style="normal" fill="#101010"><tspan x="285.5" dy="0">FC</tspan></text>
+<polyline points="304,460 334,460 340,469 340,548 327,548" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="270" y="499" width="32" height="99" rx="0" fill="#FFF0A3" fill-opacity="1" stroke="#082B61" stroke-width="1.8"/>
+<text x="286.0" y="554.195" text-anchor="middle" font-family="Times New Roman" font-size="17" font-weight="700" font-style="normal" fill="#101010" transform="rotate(270 286.0 548.5)"><tspan x="286.0" dy="0">Softmax</tspan></text>
+<polyline points="270,548 223,548" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="188" y="516" width="34" height="68" rx="0" fill="#FFF0B8" fill-opacity="1" stroke="#082B61" stroke-width="1.8"/>
+<text x="205.0" y="556.03" text-anchor="middle" font-family="Times New Roman" font-size="18" font-weight="700" font-style="normal" fill="#101010" transform="rotate(270 205.0 550.0)"><tspan x="205.0" dy="0">L꜀ₑ</tspan></text>
+<text x="201.0" y="618.195" text-anchor="middle" font-family="Times New Roman" font-size="17" font-weight="700" font-style="normal" fill="#101010"><tspan x="201.0" dy="0">Evolutionary navigator</tspan></text>
+<rect x="48" y="640" width="305" height="123" rx="25" fill="#F7FAFB" fill-opacity="1" stroke="#65727A" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="61" y="646" width="36" height="48" rx="0" fill="#D7E2EA" fill-opacity="1" stroke="#082B61" stroke-width="1.8"/>
+<text x="79.0" y="675.36" text-anchor="middle" font-family="Times New Roman" font-size="16" font-weight="700" font-style="normal" fill="#101010" transform="rotate(270 79.0 670.0)"><tspan x="79.0" dy="0">FC</tspan></text>
+<text x="107" y="674.86" text-anchor="start" font-family="Times New Roman" font-size="16" font-weight="700" font-style="normal" fill="#101010"><tspan x="107" dy="0">Dimensions of fused views</tspan></text>
+<rect x="61" y="705" width="36" height="48" rx="0" fill="#D7E2EA" fill-opacity="1" stroke="#082B61" stroke-width="1.8"/>
+<text x="79.0" y="734.36" text-anchor="middle" font-family="Times New Roman" font-size="16" font-weight="700" font-style="normal" fill="#101010" transform="rotate(270 79.0 729.0)"><tspan x="79.0" dy="0">FC</tspan></text>
+<text x="107" y="725.96" text-anchor="start" font-family="Times New Roman" font-size="16" font-weight="700" font-style="normal" fill="#101010"><tspan x="107" dy="0">Dimensions of the number of</tspan><tspan x="107" dy="16.8">category</tspan></text>
+<rect x="400" y="294" width="149" height="154" rx="20" fill="#F8FCFF" fill-opacity="1" stroke="#082B61" stroke-width="1.5" stroke-dasharray="6 4"/>
+<rect x="414" y="307" width="124" height="43" rx="16" fill="#FFF8D1" fill-opacity="1" stroke="#F1E2A2" stroke-width="1"/>
+<ellipse cx="435.0" cy="319.0" rx="6.0" ry="6.0" fill="#4C8D35" fill-opacity="1" stroke="#4C8D35" stroke-width="0.7"/>
+<ellipse cx="433.0" cy="330.6" rx="7.2" ry="8.8" fill="#4C8D35" fill-opacity="1" stroke="#4C8D35" stroke-width="0.7"/>
+<polygon points="437.0,320.2 447.4,323.4 438.6,328.2" fill="#4C8D35" fill-opacity="1" stroke="#4C8D35" stroke-width="0.5"/>
+<polyline points="439.4,318.6 446.6,316.2" fill="none" stroke="#4C8D35" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="447.40000000000003" cy="316.20000000000005" rx="1.6" ry="1.6" fill="#FFFFFF" fill-opacity="1" stroke="#FFFFFF" stroke-width="0"/>
+<ellipse cx="443.40000000000003" cy="320.20000000000005" rx="1.6" ry="1.6" fill="#FFFFFF" fill-opacity="1" stroke="#FFFFFF" stroke-width="0"/>
+<ellipse cx="464.0" cy="319.0" rx="6.0" ry="6.0" fill="#3D7CB8" fill-opacity="1" stroke="#3D7CB8" stroke-width="0.7"/>
+<ellipse cx="462.0" cy="330.6" rx="7.2" ry="8.8" fill="#3D7CB8" fill-opacity="1" stroke="#3D7CB8" stroke-width="0.7"/>
+<polygon points="466.0,320.2 476.4,323.4 467.6,328.2" fill="#3D7CB8" fill-opacity="1" stroke="#3D7CB8" stroke-width="0.5"/>
+<polyline points="468.4,318.6 475.6,316.2" fill="none" stroke="#3D7CB8" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="476.40000000000003" cy="316.20000000000005" rx="1.6" ry="1.6" fill="#FFFFFF" fill-opacity="1" stroke="#FFFFFF" stroke-width="0"/>
+<ellipse cx="472.40000000000003" cy="320.20000000000005" rx="1.6" ry="1.6" fill="#FFFFFF" fill-opacity="1" stroke="#FFFFFF" stroke-width="0"/>
+<ellipse cx="496.0" cy="330.0" rx="3.0" ry="3.0" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0"/>
+<ellipse cx="509.0" cy="330.0" rx="3.0" ry="3.0" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0"/>
+<ellipse cx="522.0" cy="330.0" rx="3.0" ry="3.0" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0"/>
+<text x="474.5" y="374.58000000000004" text-anchor="middle" font-family="Times New Roman" font-size="18" font-weight="700" font-style="normal" fill="#101010"><tspan x="474.5" dy="0">Evolutionary</tspan><tspan x="474.5" dy="18.900000000000002">navigator set</tspan></text>
+<polyline points="473,407 473,459" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="476" y="418" width="62" height="26" rx="0" fill="#FFE03E" fill-opacity="1" stroke="#F0B800" stroke-width="1"/>
+<text x="507.0" y="436.36" text-anchor="middle" font-family="Times New Roman" font-size="16" font-weight="700" font-style="normal" fill="#101010"><tspan x="507.0" dy="0">Search</tspan></text>
+<rect x="401" y="461" width="148" height="143" rx="23" fill="#F8FCFF" fill-opacity="1" stroke="#082B61" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="414" y="476" width="123" height="44" rx="15" fill="#FFF7D2" fill-opacity="1" stroke="#F1E2A2" stroke-width="1"/>
+<ellipse cx="434.0" cy="488.0" rx="6.0" ry="6.0" fill="#FDA978" fill-opacity="1" stroke="#FDA978" stroke-width="0.7"/>
+<ellipse cx="432.0" cy="499.6" rx="7.2" ry="8.8" fill="#FDA978" fill-opacity="1" stroke="#FDA978" stroke-width="0.7"/>
+<polygon points="436.0,489.2 446.4,492.4 437.6,497.2" fill="#FDA978" fill-opacity="1" stroke="#FDA978" stroke-width="0.5"/>
+<polyline points="438.4,487.6 445.6,485.2" fill="none" stroke="#FDA978" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="446.40000000000003" cy="485.20000000000005" rx="1.6" ry="1.6" fill="#FFFFFF" fill-opacity="1" stroke="#FFFFFF" stroke-width="0"/>
+<ellipse cx="442.40000000000003" cy="489.20000000000005" rx="1.6" ry="1.6" fill="#FFFFFF" fill-opacity="1" stroke="#FFFFFF" stroke-width="0"/>
+<ellipse cx="506.0" cy="488.0" rx="6.0" ry="6.0" fill="#9ECB69" fill-opacity="1" stroke="#9ECB69" stroke-width="0.7"/>
+<ellipse cx="504.0" cy="499.6" rx="7.2" ry="8.8" fill="#9ECB69" fill-opacity="1" stroke="#9ECB69" stroke-width="0.7"/>
+<polygon points="508.0,489.2 518.4,492.4 509.6,497.2" fill="#9ECB69" fill-opacity="1" stroke="#9ECB69" stroke-width="0.5"/>
+<polyline points="510.4,487.6 517.6,485.2" fill="none" stroke="#9ECB69" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="518.4" cy="485.20000000000005" rx="1.6" ry="1.6" fill="#FFFFFF" fill-opacity="1" stroke="#FFFFFF" stroke-width="0"/>
+<ellipse cx="514.4" cy="489.20000000000005" rx="1.6" ry="1.6" fill="#FFFFFF" fill-opacity="1" stroke="#FFFFFF" stroke-width="0"/>
+<text x="476.0" y="545.845" text-anchor="middle" font-family="Times New Roman" font-size="17" font-weight="700" font-style="normal" fill="#101010"><tspan x="476.0" dy="0">Evolutionary</tspan><tspan x="476.0" dy="17.85">navigators of</tspan><tspan x="476.0" dy="17.85">individual</tspan></text>
+<rect x="416" y="624" width="118" height="122" rx="20" fill="#F8FCFF" fill-opacity="1" stroke="#082B61" stroke-width="1.5" stroke-dasharray="7 4"/>
+<ellipse cx="474.0" cy="648.0" rx="16.0" ry="16.0" fill="#B5C8E8" fill-opacity="1" stroke="#082B61" stroke-width="1.7"/>
+<ellipse cx="446.5" cy="700.5" rx="18.5" ry="12.5" fill="#FDA978" fill-opacity="1" stroke="#082B61" stroke-width="1.5"/>
+<ellipse cx="502.5" cy="700.5" rx="18.5" ry="12.5" fill="#9ECB69" fill-opacity="1" stroke="#082B61" stroke-width="1.5"/>
+<polyline points="474,665 446,688" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="474,665 503,688" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="475.5" y="732.695" text-anchor="middle" font-family="Times New Roman" font-size="17" font-weight="700" font-style="normal" fill="#101010"><tspan x="475.5" dy="0">Individual</tspan></text>
+<polyline points="534,652 638,652" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="585.0" y="646.86" text-anchor="middle" font-family="Times New Roman" font-size="16" font-weight="700" font-style="normal" fill="#101010"><tspan x="585.0" dy="0">Decode</tspan></text>
+<polyline points="638,713 534,713" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<text x="585.0" y="724.36" text-anchor="middle" font-family="Times New Roman" font-size="16" font-weight="700" font-style="normal" fill="#101010"><tspan x="585.0" dy="0">Encode</tspan></text>
+<polyline points="549,534 589,534 592,544 592,651" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="590" y="545" width="26" height="67" rx="0" fill="#FFE85B" fill-opacity="1" stroke="#F3BE00" stroke-width="1"/>
+<text x="603.0" y="583.86" text-anchor="middle" font-family="Times New Roman" font-size="16" font-weight="700" font-style="normal" fill="#101010" transform="rotate(270 603.0 578.5)"><tspan x="603.0" dy="0">Guide</tspan></text>
+<rect x="645" y="270" width="400" height="100" rx="19" fill="#FFF0E7" fill-opacity="1" stroke="#FDA978" stroke-width="1.7" stroke-dasharray="7 4"/>
+<text x="651" y="290.87" text-anchor="start" font-family="Times New Roman" font-size="22" font-weight="700" font-style="normal" fill="#3187D8"><tspan x="651" dy="0">❄ Parameter freeze</tspan></text>
+<rect x="645" y="672" width="400" height="98" rx="19" fill="#EDF7E8" fill-opacity="1" stroke="#9ECB69" stroke-width="1.7" stroke-dasharray="7 4"/>
+<text x="651" y="758.87" text-anchor="start" font-family="Times New Roman" font-size="22" font-weight="700" font-style="normal" fill="#3187D8"><tspan x="651" dy="0">❄ Parameter freeze</tspan></text>
+<ellipse cx="697.5" cy="325.0" rx="45.5" ry="20.0" fill="#FDA978" fill-opacity="1" stroke="#082B61" stroke-width="1.6"/>
+<text x="697.5" y="331.03000000000003" text-anchor="middle" font-family="Times New Roman" font-size="18" font-weight="700" font-style="normal" fill="#101010"><tspan x="697.5" dy="0">View⁽¹⁾</tspan></text>
+<ellipse cx="697.5" cy="433.0" rx="45.5" ry="20.0" fill="#FDA978" fill-opacity="1" stroke="#082B61" stroke-width="1.6"/>
+<text x="697.5" y="439.03000000000003" text-anchor="middle" font-family="Times New Roman" font-size="18" font-weight="700" font-style="normal" fill="#101010"><tspan x="697.5" dy="0">View⁽¹⁾</tspan></text>
+<ellipse cx="697.5" cy="584.0" rx="45.5" ry="20.0" fill="#9ECB69" fill-opacity="1" stroke="#082B61" stroke-width="1.6"/>
+<text x="697.5" y="590.03" text-anchor="middle" font-family="Times New Roman" font-size="18" font-weight="700" font-style="normal" fill="#101010"><tspan x="697.5" dy="0">View⁽²⁾</tspan></text>
+<ellipse cx="697.5" cy="707.0" rx="45.5" ry="20.0" fill="#9ECB69" fill-opacity="1" stroke="#082B61" stroke-width="1.6"/>
+<text x="697.5" y="713.03" text-anchor="middle" font-family="Times New Roman" font-size="18" font-weight="700" font-style="normal" fill="#101010"><tspan x="697.5" dy="0">View⁽²⁾</tspan></text>
+<polyline points="743,325 857,325" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="857" y="291" width="38" height="55" rx="0" fill="#D7E2EA" fill-opacity="1" stroke="#082B61" stroke-width="1.8"/>
+<text x="876.0" y="324.53000000000003" text-anchor="middle" font-family="Times New Roman" font-size="18" font-weight="700" font-style="normal" fill="#101010" transform="rotate(270 876.0 318.5)"><tspan x="876.0" dy="0">FC</tspan></text>
+<polyline points="895,319 933,319" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="936" y="279" width="23" height="84" rx="9" fill="#F5F5F3" fill-opacity="1" stroke="#082B61" stroke-width="1.7"/>
+<ellipse cx="947.5" cy="289.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="947.5" cy="310.3333333333333" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="947.5" cy="331.6666666666667" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="947.5" cy="353.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="947.5" cy="289.5" rx="5.5" ry="5.5" fill="#F49B56" fill-opacity="1" stroke="#082B61" stroke-width="1"/>
+<ellipse cx="947.5" cy="352.5" rx="5.5" ry="5.5" fill="#F49B56" fill-opacity="1" stroke="#082B61" stroke-width="1"/>
+<polyline points="959,319 999,319" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="999" y="293" width="36" height="50" rx="0" fill="#D7E2EA" fill-opacity="1" stroke="#082B61" stroke-width="1.8"/>
+<text x="1017.0" y="324.03000000000003" text-anchor="middle" font-family="Times New Roman" font-size="18" font-weight="700" font-style="normal" fill="#101010" transform="rotate(270 1017.0 318.0)"><tspan x="1017.0" dy="0">FC</tspan></text>
+<polyline points="1035,319 1103,319" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="1106" y="280" width="22" height="83" rx="9" fill="#F5F5F3" fill-opacity="1" stroke="#082B61" stroke-width="1.7"/>
+<ellipse cx="1117.0" cy="290.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1117.0" cy="311.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1117.0" cy="332.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1117.0" cy="353.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1117.0" cy="290.5" rx="5.5" ry="5.5" fill="#F49B56" fill-opacity="1" stroke="#082B61" stroke-width="1"/>
+<ellipse cx="1117.0" cy="352.5" rx="5.5" ry="5.5" fill="#F49B56" fill-opacity="1" stroke="#082B61" stroke-width="1"/>
+<polyline points="743,433 857,433" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="857" y="406" width="38" height="55" rx="0" fill="#D7E2EA" fill-opacity="1" stroke="#082B61" stroke-width="1.8"/>
+<text x="876.0" y="439.53000000000003" text-anchor="middle" font-family="Times New Roman" font-size="18" font-weight="700" font-style="normal" fill="#101010" transform="rotate(270 876.0 433.5)"><tspan x="876.0" dy="0">FC</tspan></text>
+<polyline points="895,433 934,433" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="936" y="393" width="23" height="84" rx="9" fill="#F5F5F3" fill-opacity="1" stroke="#082B61" stroke-width="1.7"/>
+<ellipse cx="947.5" cy="403.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="947.5" cy="424.3333333333333" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="947.5" cy="445.6666666666667" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="947.5" cy="467.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="947.5" cy="403.5" rx="5.5" ry="5.5" fill="#FDA978" fill-opacity="1" stroke="#082B61" stroke-width="1"/>
+<ellipse cx="947.5" cy="466.5" rx="5.5" ry="5.5" fill="#FDA978" fill-opacity="1" stroke="#082B61" stroke-width="1"/>
+<polyline points="959,414 986,414 986,522 1038,522" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="959,452 986,452 986,408 1026,408" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="1026" y="380" width="38" height="57" rx="0" fill="#D7E2EA" fill-opacity="1" stroke="#082B61" stroke-width="1.8"/>
+<text x="1045.0" y="414.53000000000003" text-anchor="middle" font-family="Times New Roman" font-size="18" font-weight="700" font-style="normal" fill="#101010" transform="rotate(270 1045.0 408.5)"><tspan x="1045.0" dy="0">FC</tspan></text>
+<polyline points="1064,408 1104,408" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="1106" y="369" width="22" height="83" rx="9" fill="#F5F5F3" fill-opacity="1" stroke="#082B61" stroke-width="1.7"/>
+<ellipse cx="1117.0" cy="379.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1117.0" cy="400.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1117.0" cy="421.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1117.0" cy="442.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1117.0" cy="379.5" rx="5.5" ry="5.5" fill="#FDA978" fill-opacity="1" stroke="#082B61" stroke-width="1"/>
+<ellipse cx="1117.0" cy="441.5" rx="5.5" ry="5.5" fill="#FDA978" fill-opacity="1" stroke="#082B61" stroke-width="1"/>
+<polyline points="743,584 857,584" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="857" y="557" width="38" height="55" rx="0" fill="#D7E2EA" fill-opacity="1" stroke="#082B61" stroke-width="1.8"/>
+<text x="876.0" y="590.53" text-anchor="middle" font-family="Times New Roman" font-size="18" font-weight="700" font-style="normal" fill="#101010" transform="rotate(270 876.0 584.5)"><tspan x="876.0" dy="0">FC</tspan></text>
+<polyline points="895,584 934,584" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="936" y="544" width="23" height="84" rx="9" fill="#F5F5F3" fill-opacity="1" stroke="#082B61" stroke-width="1.7"/>
+<ellipse cx="947.5" cy="554.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="947.5" cy="575.3333333333334" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="947.5" cy="596.6666666666666" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="947.5" cy="618.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="947.5" cy="554.5" rx="5.5" ry="5.5" fill="#9ECB69" fill-opacity="1" stroke="#082B61" stroke-width="1"/>
+<ellipse cx="947.5" cy="617.5" rx="5.5" ry="5.5" fill="#9ECB69" fill-opacity="1" stroke="#082B61" stroke-width="1"/>
+<polyline points="959,565 986,565 986,522 1038,522" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="959,603 986,603 986,629 1026,629" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="1026" y="600" width="38" height="57" rx="0" fill="#D7E2EA" fill-opacity="1" stroke="#082B61" stroke-width="1.8"/>
+<text x="1045.0" y="634.53" text-anchor="middle" font-family="Times New Roman" font-size="18" font-weight="700" font-style="normal" fill="#101010" transform="rotate(270 1045.0 628.5)"><tspan x="1045.0" dy="0">FC</tspan></text>
+<polyline points="1064,629 1104,629" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="1106" y="590" width="22" height="83" rx="9" fill="#F5F5F3" fill-opacity="1" stroke="#082B61" stroke-width="1.7"/>
+<ellipse cx="1117.0" cy="600.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1117.0" cy="621.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1117.0" cy="642.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1117.0" cy="663.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1117.0" cy="600.5" rx="5.5" ry="5.5" fill="#9ECB69" fill-opacity="1" stroke="#082B61" stroke-width="1"/>
+<ellipse cx="1117.0" cy="662.5" rx="5.5" ry="5.5" fill="#9ECB69" fill-opacity="1" stroke="#082B61" stroke-width="1"/>
+<polyline points="743,707 857,707" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="857" y="680" width="38" height="55" rx="0" fill="#D7E2EA" fill-opacity="1" stroke="#082B61" stroke-width="1.8"/>
+<text x="876.0" y="713.53" text-anchor="middle" font-family="Times New Roman" font-size="18" font-weight="700" font-style="normal" fill="#101010" transform="rotate(270 876.0 707.5)"><tspan x="876.0" dy="0">FC</tspan></text>
+<polyline points="895,707 934,707" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="936" y="667" width="23" height="84" rx="9" fill="#F5F5F3" fill-opacity="1" stroke="#082B61" stroke-width="1.7"/>
+<ellipse cx="947.5" cy="677.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="947.5" cy="698.3333333333334" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="947.5" cy="719.6666666666666" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="947.5" cy="741.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="947.5" cy="677.5" rx="5.5" ry="5.5" fill="#4C8D35" fill-opacity="1" stroke="#082B61" stroke-width="1"/>
+<ellipse cx="947.5" cy="740.5" rx="5.5" ry="5.5" fill="#4C8D35" fill-opacity="1" stroke="#082B61" stroke-width="1"/>
+<polyline points="959,707 999,707" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="999" y="680" width="36" height="52" rx="0" fill="#D7E2EA" fill-opacity="1" stroke="#082B61" stroke-width="1.8"/>
+<text x="1017.0" y="712.03" text-anchor="middle" font-family="Times New Roman" font-size="18" font-weight="700" font-style="normal" fill="#101010" transform="rotate(270 1017.0 706.0)"><tspan x="1017.0" dy="0">FC</tspan></text>
+<polyline points="1035,707 1104,707" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="1106" y="668" width="22" height="83" rx="9" fill="#F5F5F3" fill-opacity="1" stroke="#082B61" stroke-width="1.7"/>
+<ellipse cx="1117.0" cy="678.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1117.0" cy="699.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1117.0" cy="720.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1117.0" cy="741.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1117.0" cy="678.5" rx="5.5" ry="5.5" fill="#4C8D35" fill-opacity="1" stroke="#082B61" stroke-width="1"/>
+<ellipse cx="1117.0" cy="740.5" rx="5.5" ry="5.5" fill="#4C8D35" fill-opacity="1" stroke="#082B61" stroke-width="1"/>
+<rect x="847" y="493" width="79" height="44" rx="0" fill="#FFF0A8" fill-opacity="1" stroke="#FFF0A8" stroke-width="0"/>
+<text x="886.5" y="511.77" text-anchor="middle" font-family="Times New Roman" font-size="17" font-weight="700" font-style="normal" fill="#101010"><tspan x="886.5" dy="0">Feature</tspan><tspan x="886.5" dy="17.85">vector</tspan></text>
+<ellipse cx="769.375" cy="387.625" rx="5.625" ry="5.625" fill="#FDA978" fill-opacity="1" stroke="#FDA978" stroke-width="0.7"/>
+<ellipse cx="767.5" cy="398.5" rx="6.75" ry="8.25" fill="#FDA978" fill-opacity="1" stroke="#FDA978" stroke-width="0.7"/>
+<polygon points="771.25,388.75 781.0,391.75 772.75,396.25" fill="#FDA978" fill-opacity="1" stroke="#FDA978" stroke-width="0.5"/>
+<polyline points="773.5,387.25 780.25,385.0" fill="none" stroke="#FDA978" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="781.0" cy="385.0" rx="1.5" ry="1.5" fill="#FFFFFF" fill-opacity="1" stroke="#FFFFFF" stroke-width="0"/>
+<ellipse cx="777.25" cy="388.75" rx="1.5" ry="1.5" fill="#FFFFFF" fill-opacity="1" stroke="#FFFFFF" stroke-width="0"/>
+<polyline points="787,397 850,415 933,432" fill="none" stroke="#FDA978" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 3" marker-end="url(#arrow-black)"/>
+<ellipse cx="769.375" cy="636.625" rx="5.625" ry="5.625" fill="#9ECB69" fill-opacity="1" stroke="#9ECB69" stroke-width="0.7"/>
+<ellipse cx="767.5" cy="647.5" rx="6.75" ry="8.25" fill="#9ECB69" fill-opacity="1" stroke="#9ECB69" stroke-width="0.7"/>
+<polygon points="771.25,637.75 781.0,640.75 772.75,645.25" fill="#9ECB69" fill-opacity="1" stroke="#9ECB69" stroke-width="0.5"/>
+<polyline points="773.5,636.25 780.25,634.0" fill="none" stroke="#9ECB69" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="781.0" cy="634.0" rx="1.5" ry="1.5" fill="#FFFFFF" fill-opacity="1" stroke="#FFFFFF" stroke-width="0"/>
+<ellipse cx="777.25" cy="637.75" rx="1.5" ry="1.5" fill="#FFFFFF" fill-opacity="1" stroke="#FFFFFF" stroke-width="0"/>
+<polyline points="787,647 850,620 933,584" fill="none" stroke="#9ECB69" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 3" marker-end="url(#arrow-black)"/>
+<polyline points="922,522 939,502 947,477" fill="none" stroke="#666666" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 3" marker-end="url(#arrow-gray)"/>
+<ellipse cx="1055.5" cy="522.0" rx="16.5" ry="16.0" fill="#B4C8E8" fill-opacity="1" stroke="#082B61" stroke-width="1.5"/>
+<text x="1058.5" y="467.46" text-anchor="middle" font-family="Times New Roman" font-size="16" font-weight="700" font-style="normal" fill="#101010"><tspan x="1058.5" dy="0">Fusion</tspan><tspan x="1058.5" dy="16.8">operator</tspan></text>
+<polyline points="1072,522 1104,522" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="1106" y="480" width="22" height="84" rx="9" fill="#F5F5F3" fill-opacity="1" stroke="#082B61" stroke-width="1.7"/>
+<ellipse cx="1117.0" cy="490.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1117.0" cy="511.3333333333333" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1117.0" cy="532.6666666666666" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1117.0" cy="554.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1117.0" cy="490.5" rx="5.5" ry="5.5" fill="#6E91C5" fill-opacity="1" stroke="#082B61" stroke-width="1"/>
+<ellipse cx="1117.0" cy="553.5" rx="5.5" ry="5.5" fill="#6E91C5" fill-opacity="1" stroke="#082B61" stroke-width="1"/>
+<polyline points="1128,522 1168,522" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="1168" y="496" width="37" height="53" rx="0" fill="#D7E2EA" fill-opacity="1" stroke="#082B61" stroke-width="1.8"/>
+<text x="1186.5" y="528.53" text-anchor="middle" font-family="Times New Roman" font-size="18" font-weight="700" font-style="normal" fill="#101010" transform="rotate(270 1186.5 522.5)"><tspan x="1186.5" dy="0">FC</tspan></text>
+<polyline points="1205,522 1246,522" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="1246" y="477" width="34" height="90" rx="0" fill="#FFEFA7" fill-opacity="1" stroke="#082B61" stroke-width="1.8"/>
+<text x="1263.0" y="527.695" text-anchor="middle" font-family="Times New Roman" font-size="17" font-weight="700" font-style="normal" fill="#101010" transform="rotate(270 1263.0 522.0)"><tspan x="1263.0" dy="0">Softmax</tspan></text>
+<polyline points="1280,522 1354,522" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="1165" y="270" width="695" height="184" rx="24" fill="url(#orangebox)" fill-opacity="1" stroke="#FDA978" stroke-width="1.6" stroke-dasharray="7 4"/>
+<text x="1263.5" y="315.08000000000004" text-anchor="middle" font-family="Times New Roman" font-size="18" font-weight="700" font-style="normal" fill="#101010"><tspan x="1263.5" dy="0">Corresponding</tspan><tspan x="1263.5" dy="18.900000000000002">category</tspan></text>
+<text x="1259.0" y="409.03000000000003" text-anchor="middle" font-family="Times New Roman" font-size="18" font-weight="700" font-style="normal" fill="#101010"><tspan x="1259.0" dy="0">Cross-category</tspan></text>
+<polyline points="1288,322 1347,322" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="1298,413 1347,413" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="1347" y="282" width="129" height="78" rx="12" fill="#FFFFFF" fill-opacity="1" stroke="#111111" stroke-width="2" stroke-dasharray="7 5"/>
+<rect x="1355" y="289" width="20" height="64" rx="9" fill="#F5F5F3" fill-opacity="1" stroke="#082B61" stroke-width="1.7"/>
+<ellipse cx="1365.0" cy="299.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1365.0" cy="313.6666666666667" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1365.0" cy="328.3333333333333" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1365.0" cy="343.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1365.0" cy="299.5" rx="5.5" ry="5.5" fill="#F49B56" fill-opacity="1" stroke="#082B61" stroke-width="1"/>
+<ellipse cx="1365.0" cy="342.5" rx="5.5" ry="5.5" fill="#F49B56" fill-opacity="1" stroke="#082B61" stroke-width="1"/>
+<rect x="1448" y="289" width="20" height="64" rx="9" fill="#F5F5F3" fill-opacity="1" stroke="#082B61" stroke-width="1.7"/>
+<ellipse cx="1458.0" cy="299.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1458.0" cy="313.6666666666667" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1458.0" cy="328.3333333333333" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1458.0" cy="343.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1458.0" cy="299.5" rx="5.5" ry="5.5" fill="#E6B48F" fill-opacity="1" stroke="#082B61" stroke-width="1"/>
+<ellipse cx="1458.0" cy="342.5" rx="5.5" ry="5.5" fill="#E6B48F" fill-opacity="1" stroke="#082B61" stroke-width="1"/>
+<polyline points="1378,297 1445,297" fill="none" stroke="#111111" stroke-opacity="1" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 3" marker-start="url(#arrow-black)" marker-end="url(#arrow-black)"/>
+<polyline points="1378,345 1445,345" fill="none" stroke="#111111" stroke-opacity="1" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 3" marker-start="url(#arrow-black)" marker-end="url(#arrow-black)"/>
+<rect x="1347" y="373" width="129" height="78" rx="12" fill="#FFFFFF" fill-opacity="1" stroke="#111111" stroke-width="2" stroke-dasharray="7 5"/>
+<rect x="1355" y="380" width="20" height="64" rx="9" fill="#F5F5F3" fill-opacity="1" stroke="#082B61" stroke-width="1.7"/>
+<ellipse cx="1365.0" cy="390.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1365.0" cy="404.6666666666667" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1365.0" cy="419.3333333333333" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1365.0" cy="434.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1365.0" cy="390.5" rx="5.5" ry="5.5" fill="#F49B56" fill-opacity="1" stroke="#082B61" stroke-width="1"/>
+<ellipse cx="1365.0" cy="433.5" rx="5.5" ry="5.5" fill="#F49B56" fill-opacity="1" stroke="#082B61" stroke-width="1"/>
+<rect x="1448" y="380" width="20" height="64" rx="9" fill="#F5F5F3" fill-opacity="1" stroke="#082B61" stroke-width="1.7"/>
+<ellipse cx="1458.0" cy="390.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1458.0" cy="404.6666666666667" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1458.0" cy="419.3333333333333" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1458.0" cy="434.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1458.0" cy="390.5" rx="5.5" ry="5.5" fill="#E6B48F" fill-opacity="1" stroke="#082B61" stroke-width="1"/>
+<ellipse cx="1458.0" cy="433.5" rx="5.5" ry="5.5" fill="#E6B48F" fill-opacity="1" stroke="#082B61" stroke-width="1"/>
+<polyline points="1378,388 1445,436" fill="none" stroke="#111111" stroke-opacity="1" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 3" marker-end="url(#arrow-black)"/>
+<polyline points="1378,436 1445,388" fill="none" stroke="#111111" stroke-opacity="1" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 3" marker-end="url(#arrow-black)"/>
+<polyline points="1495,289 1505,289 1510,297 1510,359.0 1516,367.0 1510,375.0 1510,437 1505,445 1495,445" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1516,367 1530,367 1530,320 1593,320" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="1530,367 1530,413 1593,413" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="1593" y="303" width="99" height="38" rx="0" fill="#F4DFD5" fill-opacity="1" stroke="#082B61" stroke-width="1.8"/>
+<text x="1642.5" y="329.035" text-anchor="middle" font-family="Times New Roman" font-size="21" font-weight="700" font-style="normal" fill="#101010"><tspan x="1642.5" dy="0">Lₜ⁽¹⁾</tspan></text>
+<rect x="1593" y="394" width="99" height="38" rx="0" fill="#F4DFD5" fill-opacity="1" stroke="#082B61" stroke-width="1.8"/>
+<text x="1642.5" y="420.035" text-anchor="middle" font-family="Times New Roman" font-size="21" font-weight="700" font-style="normal" fill="#101010"><tspan x="1642.5" dy="0">Lwd⁽¹⁾</tspan></text>
+<polyline points="1693,320 1703,320 1708,328 1708,358.5 1714,366.5 1708,374.5 1708,405 1703,413 1693,413" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1714,367 1761,367" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="1761" y="340" width="98" height="40" rx="0" fill="#D99A69" fill-opacity="1" stroke="#082B61" stroke-width="1.8"/>
+<text x="1810.0" y="366.7" text-anchor="middle" font-family="Times New Roman" font-size="20" font-weight="700" font-style="normal" fill="#101010"><tspan x="1810.0" dy="0">Lₑₙₗ⁽¹⁾</tspan></text>
+<text x="1783.5" y="287.36" text-anchor="middle" font-family="Times New Roman" font-size="16" font-weight="700" font-style="normal" fill="#101010"><tspan x="1783.5" dy="0">Distillation loss</tspan></text>
+<polyline points="1811,338 1808,313 1789,292" fill="none" stroke="#666666" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 3" marker-end="url(#arrow-gray)"/>
+<rect x="1329" y="463" width="317" height="111" rx="20" fill="#FFF9D9" fill-opacity="1" stroke="#EABB27" stroke-width="1.5" stroke-dasharray="7 4"/>
+<rect x="1355" y="478" width="126" height="79" rx="12" fill="#FFFFFF" fill-opacity="1" stroke="#111111" stroke-width="2" stroke-dasharray="7 5"/>
+<rect x="1363" y="485" width="20" height="65" rx="9" fill="#F5F5F3" fill-opacity="1" stroke="#082B61" stroke-width="1.7"/>
+<ellipse cx="1373.0" cy="495.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1373.0" cy="510.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1373.0" cy="525.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1373.0" cy="540.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1373.0" cy="495.5" rx="5.5" ry="5.5" fill="#F0C22A" fill-opacity="1" stroke="#082B61" stroke-width="1"/>
+<ellipse cx="1373.0" cy="539.5" rx="5.5" ry="5.5" fill="#F0C22A" fill-opacity="1" stroke="#082B61" stroke-width="1"/>
+<rect x="1453" y="485" width="20" height="65" rx="9" fill="#F5F5F3" fill-opacity="1" stroke="#082B61" stroke-width="1.7"/>
+<ellipse cx="1463.0" cy="495.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1463.0" cy="510.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1463.0" cy="525.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1463.0" cy="540.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1463.0" cy="495.5" rx="5.5" ry="5.5" fill="#F00027" fill-opacity="1" stroke="#082B61" stroke-width="1"/>
+<ellipse cx="1463.0" cy="539.5" rx="5.5" ry="5.5" fill="#F00027" fill-opacity="1" stroke="#082B61" stroke-width="1"/>
+<polyline points="1386,493 1450,493" fill="none" stroke="#111111" stroke-opacity="1" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 3" marker-start="url(#arrow-black)" marker-end="url(#arrow-black)"/>
+<polyline points="1386,542 1450,542" fill="none" stroke="#111111" stroke-opacity="1" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 3" marker-start="url(#arrow-black)" marker-end="url(#arrow-black)"/>
+<polyline points="1481,519 1564,519" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="1564" y="495" width="70" height="49" rx="0" fill="#FFEBA0" fill-opacity="1" stroke="#082B61" stroke-width="1.8"/>
+<text x="1599.0" y="526.87" text-anchor="middle" font-family="Times New Roman" font-size="22" font-weight="700" font-style="normal" fill="#101010"><tspan x="1599.0" dy="0">L꜀ₑ</tspan></text>
+<text x="1560.0" y="475.695" text-anchor="middle" font-family="Times New Roman" font-size="17" font-weight="700" font-style="normal" fill="#101010"><tspan x="1560.0" dy="0">Cross-entropy loss</tspan></text>
+<polyline points="1581,483 1572,468 1553,463" fill="none" stroke="#666666" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 3" marker-end="url(#arrow-gray)"/>
+<text x="1578.0" y="563.195" text-anchor="middle" font-family="Times New Roman" font-size="17" font-weight="700" font-style="normal" fill="#101010"><tspan x="1578.0" dy="0">Label</tspan></text>
+<polyline points="1538,557 1484,543 1461,536" fill="none" stroke="#666666" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 3" marker-end="url(#arrow-gray)"/>
+<rect x="1165" y="582" width="695" height="188" rx="24" fill="url(#greenbox)" fill-opacity="1" stroke="#9ECB69" stroke-width="1.6" stroke-dasharray="7 4"/>
+<text x="1263.5" y="625.08" text-anchor="middle" font-family="Times New Roman" font-size="18" font-weight="700" font-style="normal" fill="#101010"><tspan x="1263.5" dy="0">Corresponding</tspan><tspan x="1263.5" dy="18.900000000000002">category</tspan></text>
+<text x="1259.0" y="720.03" text-anchor="middle" font-family="Times New Roman" font-size="18" font-weight="700" font-style="normal" fill="#101010"><tspan x="1259.0" dy="0">Cross-category</tspan></text>
+<polyline points="1288,630 1347,630" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="1298,722 1347,722" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="1347" y="590" width="129" height="78" rx="12" fill="#FFFFFF" fill-opacity="1" stroke="#111111" stroke-width="2" stroke-dasharray="7 5"/>
+<rect x="1355" y="597" width="20" height="64" rx="9" fill="#F5F5F3" fill-opacity="1" stroke="#082B61" stroke-width="1.7"/>
+<ellipse cx="1365.0" cy="607.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1365.0" cy="621.6666666666666" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1365.0" cy="636.3333333333334" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1365.0" cy="651.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1365.0" cy="607.5" rx="5.5" ry="5.5" fill="#4C8D35" fill-opacity="1" stroke="#082B61" stroke-width="1"/>
+<ellipse cx="1365.0" cy="650.5" rx="5.5" ry="5.5" fill="#4C8D35" fill-opacity="1" stroke="#082B61" stroke-width="1"/>
+<rect x="1448" y="597" width="20" height="64" rx="9" fill="#F5F5F3" fill-opacity="1" stroke="#082B61" stroke-width="1.7"/>
+<ellipse cx="1458.0" cy="607.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1458.0" cy="621.6666666666666" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1458.0" cy="636.3333333333334" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1458.0" cy="651.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1458.0" cy="607.5" rx="5.5" ry="5.5" fill="#ADD2A2" fill-opacity="1" stroke="#082B61" stroke-width="1"/>
+<ellipse cx="1458.0" cy="650.5" rx="5.5" ry="5.5" fill="#ADD2A2" fill-opacity="1" stroke="#082B61" stroke-width="1"/>
+<polyline points="1378,605 1445,605" fill="none" stroke="#111111" stroke-opacity="1" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 3" marker-start="url(#arrow-black)" marker-end="url(#arrow-black)"/>
+<polyline points="1378,653 1445,653" fill="none" stroke="#111111" stroke-opacity="1" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 3" marker-start="url(#arrow-black)" marker-end="url(#arrow-black)"/>
+<rect x="1347" y="681" width="129" height="78" rx="12" fill="#FFFFFF" fill-opacity="1" stroke="#111111" stroke-width="2" stroke-dasharray="7 5"/>
+<rect x="1355" y="688" width="20" height="64" rx="9" fill="#F5F5F3" fill-opacity="1" stroke="#082B61" stroke-width="1.7"/>
+<ellipse cx="1365.0" cy="698.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1365.0" cy="712.6666666666666" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1365.0" cy="727.3333333333334" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1365.0" cy="742.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1365.0" cy="698.5" rx="5.5" ry="5.5" fill="#4C8D35" fill-opacity="1" stroke="#082B61" stroke-width="1"/>
+<ellipse cx="1365.0" cy="741.5" rx="5.5" ry="5.5" fill="#4C8D35" fill-opacity="1" stroke="#082B61" stroke-width="1"/>
+<rect x="1448" y="688" width="20" height="64" rx="9" fill="#F5F5F3" fill-opacity="1" stroke="#082B61" stroke-width="1.7"/>
+<ellipse cx="1458.0" cy="698.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1458.0" cy="712.6666666666666" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1458.0" cy="727.3333333333334" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1458.0" cy="742.0" rx="3.8" ry="3.8" fill="#111111" fill-opacity="1" stroke="#111111" stroke-width="0.6"/>
+<ellipse cx="1458.0" cy="698.5" rx="5.5" ry="5.5" fill="#ADD2A2" fill-opacity="1" stroke="#082B61" stroke-width="1"/>
+<ellipse cx="1458.0" cy="741.5" rx="5.5" ry="5.5" fill="#ADD2A2" fill-opacity="1" stroke="#082B61" stroke-width="1"/>
+<polyline points="1378,696 1445,744" fill="none" stroke="#111111" stroke-opacity="1" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 3" marker-end="url(#arrow-black)"/>
+<polyline points="1378,744 1445,696" fill="none" stroke="#111111" stroke-opacity="1" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 3" marker-end="url(#arrow-black)"/>
+<polyline points="1495,597 1505,597 1510,605 1510,667.0 1516,675.0 1510,683.0 1510,745 1505,753 1495,753" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1516,675 1530,675 1530,628 1593,628" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="1530,675 1530,721 1593,721" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="1593" y="610" width="99" height="38" rx="0" fill="#B9DDAA" fill-opacity="1" stroke="#082B61" stroke-width="1.8"/>
+<text x="1642.5" y="636.035" text-anchor="middle" font-family="Times New Roman" font-size="21" font-weight="700" font-style="normal" fill="#101010"><tspan x="1642.5" dy="0">Lₜ⁽²⁾</tspan></text>
+<rect x="1593" y="702" width="99" height="38" rx="0" fill="#B9DDAA" fill-opacity="1" stroke="#082B61" stroke-width="1.8"/>
+<text x="1642.5" y="728.035" text-anchor="middle" font-family="Times New Roman" font-size="21" font-weight="700" font-style="normal" fill="#101010"><tspan x="1642.5" dy="0">Lwd⁽²⁾</tspan></text>
+<polyline points="1693,628 1703,628 1708,636 1708,666.5 1714,674.5 1708,682.5 1708,713 1703,721 1693,721" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="1714,675 1761,675" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="1761" y="647" width="98" height="40" rx="0" fill="#85BA70" fill-opacity="1" stroke="#082B61" stroke-width="1.8"/>
+<text x="1810.0" y="673.7" text-anchor="middle" font-family="Times New Roman" font-size="20" font-weight="700" font-style="normal" fill="#101010"><tspan x="1810.0" dy="0">Lₑₙₗ⁽²⁾</tspan></text>
+<text x="1783.5" y="757.86" text-anchor="middle" font-family="Times New Roman" font-size="16" font-weight="700" font-style="normal" fill="#101010"><tspan x="1783.5" dy="0">Distillation loss</tspan></text>
+<polyline points="1811,689 1808,713 1789,736" fill="none" stroke="#666666" stroke-opacity="1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 3" marker-end="url(#arrow-gray)"/>
+<rect x="1756" y="498" width="105" height="54" rx="0" fill="#CB596A" fill-opacity="1" stroke="#082B61" stroke-width="1.8"/>
+<text x="1808.5" y="532.37" text-anchor="middle" font-family="Times New Roman" font-size="22" font-weight="700" font-style="normal" fill="#101010"><tspan x="1808.5" dy="0">LᵂᴰᴼᴸF</tspan></text>
+<polyline points="1634,519 1756,519" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="1810,380 1810,498" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<polyline points="1810,647 1810,552" fill="none" stroke="#082B61" stroke-opacity="1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+</svg>

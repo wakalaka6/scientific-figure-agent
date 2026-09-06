@@ -1,0 +1,841 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="1872" height="921" viewBox="0 0 1872 921">
+<title>KV-cache Communication Module — editable reconstruction</title>
+<desc>Vector reconstruction of the supplied KVCOMM diagram. All labels remain text; all diagrams are independent vector objects.</desc>
+<defs><filter id="shadow" filterUnits="userSpaceOnUse" x="-100" y="-100" width="2072" height="1121"><feDropShadow dx="3" dy="1.8" stdDeviation="2" flood-color="#000000" flood-opacity="0.42"/></filter></defs>
+<rect width="1872" height="921" fill="white"/>
+<g id="communication-connectors">
+<path id="communication-connectors-0001" d="M 400.000 488.000 L 400.000 538.000 L 554.000 538.000" fill="none" stroke="#548636" stroke-width="9" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<path id="communication-connectors-0002" d="M 577.000 538.000 L 554.000 549.040 L 554.000 526.960 Z " fill="#548636" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<path id="communication-connectors-0003" d="M 0.000 921.000 L 0.000 539.000 L 397.000 539.000" fill="none" stroke="#548636" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<path id="communication-connectors-0004" d="M 335.000 899.000 L 335.000 921.000" fill="none" stroke="#548636" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="communication-connectors-0005" d="M 722.000 899.000 L 722.000 921.000" fill="none" stroke="#548636" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="communication-connectors-0006" d="M 482.000 817.000 L 512.000 817.000 L 512.000 287.000 L 554.000 287.000" fill="none" stroke="#80748F" stroke-width="9" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<path id="communication-connectors-0007" d="M 577.000 287.000 L 554.000 298.040 L 554.000 275.960 Z " fill="#80748F" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<path id="communication-connectors-0008" d="M 578.000 507.000 L 534.000 507.000 L 534.000 849.000" fill="none" stroke="#F6B181" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<path id="communication-connectors-0009" d="M 534.000 870.000 L 523.920 849.000 L 544.080 849.000 Z " fill="#F6B181" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<path id="communication-connectors-0010" d="M 534.000 870.000 L 534.000 352.000 L 485.000 352.000" fill="none" stroke="#F6B181" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<path id="communication-connectors-0011" d="M 464.000 352.000 L 485.000 341.920 L 485.000 362.080 Z " fill="#F6B181" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<path id="communication-connectors-0012" d="M 508.000 870.000 L 555.000 870.000" fill="none" stroke="#F6B181" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<path id="communication-connectors-0013" d="M 577.000 870.000 L 555.000 880.560 L 555.000 859.440 Z " fill="#F6B181" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<path id="communication-connectors-0014" d="M 486.000 870.000 L 508.000 859.440 L 508.000 880.560 Z " fill="#F6B181" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+</g>
+<g id="agent-1">
+<rect id="agent-1-0015" x="19" y="44" width="466" height="459" rx="0" fill="#DFEBF6" stroke="#457BA5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0016" d="M 19.000 79.000 L 19.000 42.000 C 19.000 26.536 31.536 14.000 47.000 14.000 L 457.000 14.000 C 472.464 14.000 485.000 26.536 485.000 42.000 L 485.000 79.000 Z " fill="#9DC3E2" stroke="#457BA5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="agent-1-0017" x="252" y="57" font-family="Arial, Liberation Sans, sans-serif" font-size="36" fill="#203D67" font-weight="bold" font-style="normal" text-anchor="middle" xml:space="preserve">Agent 1</text>
+<text id="agent-1-0018" x="42" y="110" font-family="Arial, Liberation Sans, sans-serif" font-size="26" fill="#203D67" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">Prefix KV</text>
+<rect id="agent-1-0019" x="35.0" y="120" width="75" height="34" rx="0" fill="#8EAADC" stroke="#F3F7FD" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="agent-1-0020" x="46.10465" y="140.4" font-family="Times New Roman, Liberation Serif, serif" font-size="26.97" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">p</text>
+<text id="agent-1-0021" x="61.20785" y="144.9849" font-family="Times New Roman, Liberation Serif, serif" font-size="17.360000000000003" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(1, 0)</text>
+<rect id="agent-1-0022" x="119.5" y="120" width="75" height="34" rx="0" fill="#8EAADC" stroke="#F3F7FD" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="agent-1-0023" x="130.60465" y="140.4" font-family="Times New Roman, Liberation Serif, serif" font-size="26.97" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">p</text>
+<text id="agent-1-0024" x="145.70785" y="144.9849" font-family="Times New Roman, Liberation Serif, serif" font-size="17.360000000000003" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(1, 1)</text>
+<rect id="agent-1-0025" x="204.0" y="120" width="75" height="34" rx="0" fill="#8EAADC" stroke="#F3F7FD" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="agent-1-0026" x="215.10465" y="140.4" font-family="Times New Roman, Liberation Serif, serif" font-size="26.97" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">p</text>
+<text id="agent-1-0027" x="230.20785" y="144.9849" font-family="Times New Roman, Liberation Serif, serif" font-size="17.360000000000003" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(1, 2)</text>
+<rect id="agent-1-0028" x="288.5" y="120" width="75" height="34" rx="0" fill="#8EAADC" stroke="#F3F7FD" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="agent-1-0029" x="299.60465" y="140.4" font-family="Times New Roman, Liberation Serif, serif" font-size="26.97" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">p</text>
+<text id="agent-1-0030" x="314.70785" y="144.9849" font-family="Times New Roman, Liberation Serif, serif" font-size="17.360000000000003" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(1, 3)</text>
+<text id="agent-1-0031" x="42" y="183" font-family="Arial, Liberation Sans, sans-serif" font-size="26" fill="#203D67" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">Placeholder KV</text>
+<rect id="agent-1-0032" x="38.0" y="190" width="66" height="28" rx="0" fill="#FFFFFF" stroke="#EEF0F2" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<path id="agent-1-0033" d="M 40.000 195.000 L 44.000 191.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0034" d="M 40.000 199.000 L 48.000 191.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0035" d="M 40.000 203.000 L 52.000 191.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0036" d="M 40.000 207.000 L 56.000 191.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0037" d="M 40.000 211.000 L 60.000 191.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0038" d="M 40.000 215.000 L 64.000 191.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0039" d="M 42.000 217.000 L 68.000 191.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0040" d="M 46.000 217.000 L 72.000 191.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0041" d="M 50.000 217.000 L 76.000 191.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0042" d="M 54.000 217.000 L 80.000 191.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0043" d="M 58.000 217.000 L 84.000 191.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0044" d="M 62.000 217.000 L 88.000 191.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0045" d="M 66.000 217.000 L 92.000 191.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0046" d="M 70.000 217.000 L 96.000 191.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0047" d="M 74.000 217.000 L 100.000 191.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0048" d="M 78.000 217.000 L 102.000 193.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0049" d="M 82.000 217.000 L 102.000 197.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0050" d="M 86.000 217.000 L 102.000 201.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0051" d="M 90.000 217.000 L 102.000 205.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0052" d="M 94.000 217.000 L 102.000 209.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0053" d="M 98.000 217.000 L 102.000 213.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="agent-1-0054" x="45.6246875" y="210.16" font-family="Times New Roman, Liberation Serif, serif" font-size="27" fill="#000000" font-weight="normal" font-style="italic" text-anchor="start" xml:space="preserve">ϕ</text>
+<text id="agent-1-0055" x="61.2846875" y="214.75" font-family="Times New Roman, Liberation Serif, serif" font-size="16.2" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(1, 1)</text>
+<rect id="agent-1-0056" x="109.5" y="190" width="66" height="28" rx="0" fill="#FFFFFF" stroke="#EEF0F2" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<path id="agent-1-0057" d="M 111.500 195.000 L 115.500 191.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0058" d="M 111.500 199.000 L 119.500 191.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0059" d="M 111.500 203.000 L 123.500 191.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0060" d="M 111.500 207.000 L 127.500 191.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0061" d="M 111.500 211.000 L 131.500 191.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0062" d="M 111.500 215.000 L 135.500 191.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0063" d="M 113.500 217.000 L 139.500 191.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0064" d="M 117.500 217.000 L 143.500 191.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0065" d="M 121.500 217.000 L 147.500 191.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0066" d="M 125.500 217.000 L 151.500 191.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0067" d="M 129.500 217.000 L 155.500 191.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0068" d="M 133.500 217.000 L 159.500 191.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0069" d="M 137.500 217.000 L 163.500 191.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0070" d="M 141.500 217.000 L 167.500 191.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0071" d="M 145.500 217.000 L 171.500 191.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0072" d="M 149.500 217.000 L 173.500 193.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0073" d="M 153.500 217.000 L 173.500 197.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0074" d="M 157.500 217.000 L 173.500 201.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0075" d="M 161.500 217.000 L 173.500 205.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0076" d="M 165.500 217.000 L 173.500 209.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0077" d="M 169.500 217.000 L 173.500 213.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="agent-1-0078" x="117.1246875" y="210.16" font-family="Times New Roman, Liberation Serif, serif" font-size="27" fill="#000000" font-weight="normal" font-style="italic" text-anchor="start" xml:space="preserve">ϕ</text>
+<text id="agent-1-0079" x="132.7846875" y="214.75" font-family="Times New Roman, Liberation Serif, serif" font-size="16.2" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(1, 2)</text>
+<rect id="agent-1-0080" x="181.0" y="190" width="66" height="28" rx="0" fill="#FFFFFF" stroke="#EEF0F2" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<path id="agent-1-0081" d="M 183.000 195.000 L 187.000 191.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0082" d="M 183.000 199.000 L 191.000 191.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0083" d="M 183.000 203.000 L 195.000 191.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0084" d="M 183.000 207.000 L 199.000 191.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0085" d="M 183.000 211.000 L 203.000 191.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0086" d="M 183.000 215.000 L 207.000 191.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0087" d="M 185.000 217.000 L 211.000 191.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0088" d="M 189.000 217.000 L 215.000 191.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0089" d="M 193.000 217.000 L 219.000 191.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0090" d="M 197.000 217.000 L 223.000 191.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0091" d="M 201.000 217.000 L 227.000 191.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0092" d="M 205.000 217.000 L 231.000 191.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0093" d="M 209.000 217.000 L 235.000 191.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0094" d="M 213.000 217.000 L 239.000 191.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0095" d="M 217.000 217.000 L 243.000 191.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0096" d="M 221.000 217.000 L 245.000 193.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0097" d="M 225.000 217.000 L 245.000 197.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0098" d="M 229.000 217.000 L 245.000 201.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0099" d="M 233.000 217.000 L 245.000 205.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0100" d="M 237.000 217.000 L 245.000 209.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0101" d="M 241.000 217.000 L 245.000 213.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="agent-1-0102" x="188.6246875" y="210.16" font-family="Times New Roman, Liberation Serif, serif" font-size="27" fill="#000000" font-weight="normal" font-style="italic" text-anchor="start" xml:space="preserve">ϕ</text>
+<text id="agent-1-0103" x="204.2846875" y="214.75" font-family="Times New Roman, Liberation Serif, serif" font-size="16.2" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(1, 3)</text>
+<rect id="agent-1-0104" x="19" y="223" width="466" height="46" rx="0" fill="#D7D0DE" stroke="#80748F" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="agent-1-0105" x="109" y="255" font-family="Arial, Liberation Sans, sans-serif" font-size="29" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">All placeholders</text>
+<ellipse id="agent-1-0106" cx="358.0" cy="246.0" rx="16.0" ry="16.0" fill="#548636" stroke="#FFFFFF" stroke-width="0.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0107" d="M 349.360 246.000 L 356.240 252.400 L 367.920 239.120" fill="none" stroke="#FFFFFF" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="agent-1-0108" x="378" y="255" font-family="Arial, Liberation Sans, sans-serif" font-size="29" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">?</text>
+<rect id="agent-1-0109" x="19" y="269" width="175" height="35" rx="0" fill="#DFEBF6" stroke="#457BA5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="agent-1-0110" x="194" y="269" width="291" height="35" rx="0" fill="#D7D0DE" stroke="#80748F" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="agent-1-0111" x="106.5" y="295" font-family="Arial, Liberation Sans, sans-serif" font-size="29" fill="#000000" font-weight="bold" font-style="normal" text-anchor="middle" xml:space="preserve">No</text>
+<text id="agent-1-0112" x="339.5" y="295" font-family="Arial, Liberation Sans, sans-serif" font-size="29" fill="#000000" font-weight="bold" font-style="normal" text-anchor="middle" xml:space="preserve">Yes</text>
+<rect id="agent-1-0113" x="194" y="304" width="291" height="200" rx="0" fill="#FBE5D4" stroke="#C75A08" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="agent-1-0114" x="106" y="347" font-family="Arial, Liberation Sans, sans-serif" font-size="28" fill="#203D67" font-weight="bold" font-style="normal" text-anchor="middle" xml:space="preserve">Dense</text>
+<text id="agent-1-0115" x="106" y="378" font-family="Arial, Liberation Sans, sans-serif" font-size="28" fill="#203D67" font-weight="bold" font-style="normal" text-anchor="middle" xml:space="preserve">Prefilling</text>
+<ellipse id="agent-1-0116" cx="106.0" cy="399.0" rx="16.0" ry="16.0" fill="#C75A08" stroke="#FFFFFF" stroke-width="0.45" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0117" d="M 98.160 399.000 L 113.840 399.000" fill="none" stroke="#FFFFFF" stroke-width="2.1" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0118" d="M 106.000 391.160 L 106.000 406.840" fill="none" stroke="#FFFFFF" stroke-width="2.1" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="agent-1-0119" x="202" y="330" font-family="Arial, Liberation Sans, sans-serif" font-size="28" fill="#203D67" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">Cache Update</text>
+<text id="agent-1-0120" x="213" y="361" font-family="Arial, Liberation Sans, sans-serif" font-size="24" fill="#203D67" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">PH</text>
+<text id="agent-1-0121" x="213" y="394" font-family="Arial, Liberation Sans, sans-serif" font-size="24" fill="#203D67" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">PF</text>
+<rect id="agent-1-0122" x="255" y="337" width="65" height="29" rx="4" fill="#F6B181" stroke="#9D632D" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="agent-1-0123" x="262.1246875" y="357.88" font-family="Times New Roman, Liberation Serif, serif" font-size="27" fill="#000000" font-weight="normal" font-style="italic" text-anchor="start" xml:space="preserve">ϕ</text>
+<text id="agent-1-0124" x="277.7846875" y="362.46999999999997" font-family="Times New Roman, Liberation Serif, serif" font-size="16.2" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(1, 1)</text>
+<rect id="agent-1-0125" x="255" y="375" width="65" height="29" rx="0" fill="#203D67" stroke="#A4BDD9" stroke-width="0.9" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="agent-1-0126" x="263.67607499999997" y="392.4" font-family="Times New Roman, Liberation Serif, serif" font-size="24.36" fill="#FFFFFF" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">p</text>
+<text id="agent-1-0127" x="277.31767499999995" y="396.5412" font-family="Times New Roman, Liberation Serif, serif" font-size="15.680000000000001" fill="#FFFFFF" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(1, 1)</text>
+<rect id="agent-1-0128" x="327" y="337" width="65" height="29" rx="4" fill="#A9D18E" stroke="#597A3E" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="agent-1-0129" x="334.1246875" y="357.88" font-family="Times New Roman, Liberation Serif, serif" font-size="27" fill="#000000" font-weight="normal" font-style="italic" text-anchor="start" xml:space="preserve">ϕ</text>
+<text id="agent-1-0130" x="349.7846875" y="362.46999999999997" font-family="Times New Roman, Liberation Serif, serif" font-size="16.2" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(1, 2)</text>
+<rect id="agent-1-0131" x="327" y="375" width="65" height="29" rx="0" fill="#203D67" stroke="#A4BDD9" stroke-width="0.9" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="agent-1-0132" x="335.67607499999997" y="392.4" font-family="Times New Roman, Liberation Serif, serif" font-size="24.36" fill="#FFFFFF" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">p</text>
+<text id="agent-1-0133" x="349.31767499999995" y="396.5412" font-family="Times New Roman, Liberation Serif, serif" font-size="15.680000000000001" fill="#FFFFFF" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(1, 2)</text>
+<rect id="agent-1-0134" x="399" y="337" width="65" height="29" rx="4" fill="#F6B181" stroke="#9D632D" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="agent-1-0135" x="406.1246875" y="357.88" font-family="Times New Roman, Liberation Serif, serif" font-size="27" fill="#000000" font-weight="normal" font-style="italic" text-anchor="start" xml:space="preserve">ϕ</text>
+<text id="agent-1-0136" x="421.7846875" y="362.46999999999997" font-family="Times New Roman, Liberation Serif, serif" font-size="16.2" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(1, 3)</text>
+<rect id="agent-1-0137" x="399" y="375" width="65" height="29" rx="0" fill="#203D67" stroke="#A4BDD9" stroke-width="0.9" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="agent-1-0138" x="407.67607499999997" y="392.4" font-family="Times New Roman, Liberation Serif, serif" font-size="24.36" fill="#FFFFFF" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">p</text>
+<text id="agent-1-0139" x="421.31767499999995" y="396.5412" font-family="Times New Roman, Liberation Serif, serif" font-size="15.680000000000001" fill="#FFFFFF" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(1, 3)</text>
+<path id="agent-1-0140" d="M 20.000 419.000 L 194.000 419.000" fill="none" stroke="#457BA5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="17 9"/>
+<path id="agent-1-0141" d="M 194.000 419.000 L 485.000 419.000" fill="none" stroke="#C75A08" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="17 9"/>
+<text id="agent-1-0142" x="106" y="457" font-family="Arial, Liberation Sans, sans-serif" font-size="28" fill="#203D67" font-weight="bold" font-style="normal" text-anchor="middle" xml:space="preserve">Decoding</text>
+<ellipse id="agent-1-0143" cx="106.0" cy="479.0" rx="16.0" ry="16.0" fill="#C75A08" stroke="#FFFFFF" stroke-width="0.45" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0144" d="M 98.160 479.000 L 113.840 479.000" fill="none" stroke="#FFFFFF" stroke-width="2.1" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0145" d="M 106.000 471.160 L 106.000 486.840" fill="none" stroke="#FFFFFF" stroke-width="2.1" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="agent-1-0146" x="206" y="451" font-family="Arial, Liberation Sans, sans-serif" font-size="28" fill="#203D67" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">Response Cache</text>
+<text id="agent-1-0147" x="205" y="484" font-family="Arial, Liberation Sans, sans-serif" font-size="24" fill="#203D67" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">[PH, PF]</text>
+<path id="agent-1-0148" d="M 298.000 479.000 L 323.000 479.000" fill="none" stroke="#548636" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-1-0149" d="M 336.000 479.000 L 323.000 485.240 L 323.000 472.760 Z " fill="#548636" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="agent-1-0150" x="338" y="467" width="125" height="25" rx="8" fill="#A9D18E" stroke="#456432" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="agent-1-0151" x="400.5" y="486" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#000000" font-weight="normal" font-style="normal" text-anchor="middle" xml:space="preserve">Response</text>
+</g>
+<g id="connector-labels">
+<path id="connector-labels-0152" d="M 533.000 352.000 L 485.000 352.000" fill="none" stroke="#F6B181" stroke-width="8" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<path id="connector-labels-0153" d="M 464.000 352.000 L 485.000 341.920 L 485.000 362.080 Z " fill="#F6B181" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<path id="connector-labels-0154" d="M 485.000 287.000 L 553.000 287.000" fill="none" stroke="#80748F" stroke-width="9" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<path id="connector-labels-0155" d="M 577.000 287.000 L 553.000 298.520 L 553.000 275.480 Z " fill="#80748F" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="connector-labels-0156" x="487" y="271" font-family="Arial, Liberation Sans, sans-serif" font-size="28" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">Query</text>
+<text id="connector-labels-0157" x="8" y="567" font-family="Arial, Liberation Sans, sans-serif" font-size="29" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">Anchor Prediction of Response KV</text>
+<text id="connector-labels-0158" x="535" y="901" font-family="Arial, Liberation Sans, sans-serif" font-size="28" fill="#000000" font-weight="bold" font-style="normal" text-anchor="middle" xml:space="preserve">Reuse</text>
+</g>
+<g id="agent-2">
+<rect id="agent-2-0159" x="19" y="609" width="466" height="293" rx="0" fill="#DFEBF6" stroke="#457BA5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0160" d="M 19.000 643.000 L 19.000 606.000 C 19.000 590.536 31.536 578.000 47.000 578.000 L 457.000 578.000 C 472.464 578.000 485.000 590.536 485.000 606.000 L 485.000 643.000 Z " fill="#9DC3E2" stroke="#457BA5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="agent-2-0161" x="252" y="621" font-family="Arial, Liberation Sans, sans-serif" font-size="36" fill="#203D67" font-weight="bold" font-style="normal" text-anchor="middle" xml:space="preserve">Agent 2</text>
+<text id="agent-2-0162" x="42" y="674" font-family="Arial, Liberation Sans, sans-serif" font-size="26" fill="#203D67" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">Prefix KV</text>
+<rect id="agent-2-0163" x="35.0" y="684" width="75" height="34" rx="0" fill="#8EAADC" stroke="#F3F7FD" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="agent-2-0164" x="46.10465" y="704.4" font-family="Times New Roman, Liberation Serif, serif" font-size="26.97" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">p</text>
+<text id="agent-2-0165" x="61.20785" y="708.9848999999999" font-family="Times New Roman, Liberation Serif, serif" font-size="17.360000000000003" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(2, 0)</text>
+<rect id="agent-2-0166" x="119.5" y="684" width="75" height="34" rx="0" fill="#8EAADC" stroke="#F3F7FD" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="agent-2-0167" x="130.60465" y="704.4" font-family="Times New Roman, Liberation Serif, serif" font-size="26.97" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">p</text>
+<text id="agent-2-0168" x="145.70785" y="708.9848999999999" font-family="Times New Roman, Liberation Serif, serif" font-size="17.360000000000003" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(2, 1)</text>
+<rect id="agent-2-0169" x="204.0" y="684" width="75" height="34" rx="0" fill="#8EAADC" stroke="#F3F7FD" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="agent-2-0170" x="215.10465" y="704.4" font-family="Times New Roman, Liberation Serif, serif" font-size="26.97" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">p</text>
+<text id="agent-2-0171" x="230.20785" y="708.9848999999999" font-family="Times New Roman, Liberation Serif, serif" font-size="17.360000000000003" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(2, 2)</text>
+<rect id="agent-2-0172" x="288.5" y="684" width="75" height="34" rx="0" fill="#8EAADC" stroke="#F3F7FD" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="agent-2-0173" x="299.60465" y="704.4" font-family="Times New Roman, Liberation Serif, serif" font-size="26.97" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">p</text>
+<text id="agent-2-0174" x="314.70785" y="708.9848999999999" font-family="Times New Roman, Liberation Serif, serif" font-size="17.360000000000003" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(2, 3)</text>
+<rect id="agent-2-0175" x="373.0" y="684" width="75" height="34" rx="0" fill="#8EAADC" stroke="#F3F7FD" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="agent-2-0176" x="384.10465" y="704.4" font-family="Times New Roman, Liberation Serif, serif" font-size="26.97" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">p</text>
+<text id="agent-2-0177" x="399.20785" y="708.9848999999999" font-family="Times New Roman, Liberation Serif, serif" font-size="17.360000000000003" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(2, 4)</text>
+<text id="agent-2-0178" x="42" y="746" font-family="Arial, Liberation Sans, sans-serif" font-size="26" fill="#203D67" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">Placeholder KV</text>
+<rect id="agent-2-0179" x="36.0" y="753" width="66" height="28" rx="0" fill="#FFFFFF" stroke="#EEF0F2" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<path id="agent-2-0180" d="M 38.000 758.000 L 42.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0181" d="M 38.000 762.000 L 46.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0182" d="M 38.000 766.000 L 50.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0183" d="M 38.000 770.000 L 54.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0184" d="M 38.000 774.000 L 58.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0185" d="M 38.000 778.000 L 62.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0186" d="M 40.000 780.000 L 66.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0187" d="M 44.000 780.000 L 70.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0188" d="M 48.000 780.000 L 74.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0189" d="M 52.000 780.000 L 78.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0190" d="M 56.000 780.000 L 82.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0191" d="M 60.000 780.000 L 86.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0192" d="M 64.000 780.000 L 90.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0193" d="M 68.000 780.000 L 94.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0194" d="M 72.000 780.000 L 98.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0195" d="M 76.000 780.000 L 100.000 756.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0196" d="M 80.000 780.000 L 100.000 760.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0197" d="M 84.000 780.000 L 100.000 764.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0198" d="M 88.000 780.000 L 100.000 768.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0199" d="M 92.000 780.000 L 100.000 772.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0200" d="M 96.000 780.000 L 100.000 776.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="agent-2-0201" x="43.6246875" y="773.16" font-family="Times New Roman, Liberation Serif, serif" font-size="27" fill="#000000" font-weight="normal" font-style="italic" text-anchor="start" xml:space="preserve">ϕ</text>
+<text id="agent-2-0202" x="59.2846875" y="777.75" font-family="Times New Roman, Liberation Serif, serif" font-size="16.2" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(2, 1)</text>
+<rect id="agent-2-0203" x="107.5" y="753" width="66" height="28" rx="0" fill="#FFFFFF" stroke="#EEF0F2" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<path id="agent-2-0204" d="M 109.500 758.000 L 113.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0205" d="M 109.500 762.000 L 117.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0206" d="M 109.500 766.000 L 121.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0207" d="M 109.500 770.000 L 125.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0208" d="M 109.500 774.000 L 129.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0209" d="M 109.500 778.000 L 133.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0210" d="M 111.500 780.000 L 137.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0211" d="M 115.500 780.000 L 141.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0212" d="M 119.500 780.000 L 145.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0213" d="M 123.500 780.000 L 149.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0214" d="M 127.500 780.000 L 153.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0215" d="M 131.500 780.000 L 157.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0216" d="M 135.500 780.000 L 161.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0217" d="M 139.500 780.000 L 165.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0218" d="M 143.500 780.000 L 169.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0219" d="M 147.500 780.000 L 171.500 756.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0220" d="M 151.500 780.000 L 171.500 760.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0221" d="M 155.500 780.000 L 171.500 764.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0222" d="M 159.500 780.000 L 171.500 768.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0223" d="M 163.500 780.000 L 171.500 772.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0224" d="M 167.500 780.000 L 171.500 776.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="agent-2-0225" x="115.1246875" y="773.16" font-family="Times New Roman, Liberation Serif, serif" font-size="27" fill="#000000" font-weight="normal" font-style="italic" text-anchor="start" xml:space="preserve">ϕ</text>
+<text id="agent-2-0226" x="130.7846875" y="777.75" font-family="Times New Roman, Liberation Serif, serif" font-size="16.2" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(2, 2)</text>
+<rect id="agent-2-0227" x="179.0" y="753" width="66" height="28" rx="0" fill="#FFFFFF" stroke="#EEF0F2" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<path id="agent-2-0228" d="M 181.000 758.000 L 185.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0229" d="M 181.000 762.000 L 189.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0230" d="M 181.000 766.000 L 193.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0231" d="M 181.000 770.000 L 197.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0232" d="M 181.000 774.000 L 201.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0233" d="M 181.000 778.000 L 205.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0234" d="M 183.000 780.000 L 209.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0235" d="M 187.000 780.000 L 213.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0236" d="M 191.000 780.000 L 217.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0237" d="M 195.000 780.000 L 221.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0238" d="M 199.000 780.000 L 225.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0239" d="M 203.000 780.000 L 229.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0240" d="M 207.000 780.000 L 233.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0241" d="M 211.000 780.000 L 237.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0242" d="M 215.000 780.000 L 241.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0243" d="M 219.000 780.000 L 243.000 756.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0244" d="M 223.000 780.000 L 243.000 760.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0245" d="M 227.000 780.000 L 243.000 764.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0246" d="M 231.000 780.000 L 243.000 768.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0247" d="M 235.000 780.000 L 243.000 772.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0248" d="M 239.000 780.000 L 243.000 776.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="agent-2-0249" x="186.6246875" y="773.16" font-family="Times New Roman, Liberation Serif, serif" font-size="27" fill="#000000" font-weight="normal" font-style="italic" text-anchor="start" xml:space="preserve">ϕ</text>
+<text id="agent-2-0250" x="202.2846875" y="777.75" font-family="Times New Roman, Liberation Serif, serif" font-size="16.2" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(2, 3)</text>
+<rect id="agent-2-0251" x="250.5" y="753" width="66" height="28" rx="0" fill="#FFFFFF" stroke="#EEF0F2" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<path id="agent-2-0252" d="M 252.500 758.000 L 256.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0253" d="M 252.500 762.000 L 260.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0254" d="M 252.500 766.000 L 264.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0255" d="M 252.500 770.000 L 268.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0256" d="M 252.500 774.000 L 272.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0257" d="M 252.500 778.000 L 276.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0258" d="M 254.500 780.000 L 280.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0259" d="M 258.500 780.000 L 284.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0260" d="M 262.500 780.000 L 288.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0261" d="M 266.500 780.000 L 292.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0262" d="M 270.500 780.000 L 296.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0263" d="M 274.500 780.000 L 300.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0264" d="M 278.500 780.000 L 304.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0265" d="M 282.500 780.000 L 308.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0266" d="M 286.500 780.000 L 312.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0267" d="M 290.500 780.000 L 314.500 756.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0268" d="M 294.500 780.000 L 314.500 760.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0269" d="M 298.500 780.000 L 314.500 764.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0270" d="M 302.500 780.000 L 314.500 768.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0271" d="M 306.500 780.000 L 314.500 772.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0272" d="M 310.500 780.000 L 314.500 776.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="agent-2-0273" x="258.1246875" y="773.16" font-family="Times New Roman, Liberation Serif, serif" font-size="27" fill="#000000" font-weight="normal" font-style="italic" text-anchor="start" xml:space="preserve">ϕ</text>
+<text id="agent-2-0274" x="273.7846875" y="777.75" font-family="Times New Roman, Liberation Serif, serif" font-size="16.2" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(2, 4)</text>
+<rect id="agent-2-0275" x="19" y="794" width="466" height="46" rx="0" fill="#D7D0DE" stroke="#80748F" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="agent-2-0276" x="109" y="827" font-family="Arial, Liberation Sans, sans-serif" font-size="29" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">All placeholders</text>
+<ellipse id="agent-2-0277" cx="358.0" cy="817.0" rx="16.0" ry="16.0" fill="#548636" stroke="#FFFFFF" stroke-width="0.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0278" d="M 349.360 817.000 L 356.240 823.400 L 367.920 810.120" fill="none" stroke="#FFFFFF" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="agent-2-0279" x="378" y="827" font-family="Arial, Liberation Sans, sans-serif" font-size="29" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">?</text>
+<rect id="agent-2-0280" x="19" y="840" width="175" height="61" rx="0" fill="#DFEBF6" stroke="#457BA5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="agent-2-0281" x="194" y="840" width="291" height="61" rx="0" fill="#FBE5D4" stroke="#C75A08" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="agent-2-0282" x="24" y="878" font-family="Arial, Liberation Sans, sans-serif" font-size="26" fill="#203D67" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">(N) Dense</text>
+<ellipse id="agent-2-0283" cx="169.0" cy="874.0" rx="16.0" ry="16.0" fill="#C75A08" stroke="#FFFFFF" stroke-width="0.45" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0284" d="M 161.160 874.000 L 176.840 874.000" fill="none" stroke="#FFFFFF" stroke-width="2.1" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-2-0285" d="M 169.000 866.160 L 169.000 881.840" fill="none" stroke="#FFFFFF" stroke-width="2.1" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="agent-2-0286" x="264" y="878" font-family="Arial, Liberation Sans, sans-serif" font-size="26" fill="#203D67" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">(Y) Sharing</text>
+</g>
+<g id="agent-3">
+<rect id="agent-3-0287" x="577" y="609" width="466" height="293" rx="0" fill="#DFEBF6" stroke="#457BA5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0288" d="M 577.000 643.000 L 577.000 606.000 C 577.000 590.536 589.536 578.000 605.000 578.000 L 1015.000 578.000 C 1030.464 578.000 1043.000 590.536 1043.000 606.000 L 1043.000 643.000 Z " fill="#9DC3E2" stroke="#457BA5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="agent-3-0289" x="810" y="621" font-family="Arial, Liberation Sans, sans-serif" font-size="36" fill="#203D67" font-weight="bold" font-style="normal" text-anchor="middle" xml:space="preserve">Agent 3</text>
+<text id="agent-3-0290" x="600" y="674" font-family="Arial, Liberation Sans, sans-serif" font-size="26" fill="#203D67" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">Prefix KV</text>
+<rect id="agent-3-0291" x="593.0" y="684" width="75" height="34" rx="0" fill="#8EAADC" stroke="#F3F7FD" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="agent-3-0292" x="604.10465" y="704.4" font-family="Times New Roman, Liberation Serif, serif" font-size="26.97" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">p</text>
+<text id="agent-3-0293" x="619.20785" y="708.9848999999999" font-family="Times New Roman, Liberation Serif, serif" font-size="17.360000000000003" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(3, 0)</text>
+<rect id="agent-3-0294" x="677.5" y="684" width="75" height="34" rx="0" fill="#8EAADC" stroke="#F3F7FD" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="agent-3-0295" x="688.60465" y="704.4" font-family="Times New Roman, Liberation Serif, serif" font-size="26.97" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">p</text>
+<text id="agent-3-0296" x="703.70785" y="708.9848999999999" font-family="Times New Roman, Liberation Serif, serif" font-size="17.360000000000003" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(3, 1)</text>
+<rect id="agent-3-0297" x="762.0" y="684" width="75" height="34" rx="0" fill="#8EAADC" stroke="#F3F7FD" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="agent-3-0298" x="773.10465" y="704.4" font-family="Times New Roman, Liberation Serif, serif" font-size="26.97" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">p</text>
+<text id="agent-3-0299" x="788.20785" y="708.9848999999999" font-family="Times New Roman, Liberation Serif, serif" font-size="17.360000000000003" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(3, 2)</text>
+<rect id="agent-3-0300" x="846.5" y="684" width="75" height="34" rx="0" fill="#8EAADC" stroke="#F3F7FD" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="agent-3-0301" x="857.60465" y="704.4" font-family="Times New Roman, Liberation Serif, serif" font-size="26.97" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">p</text>
+<text id="agent-3-0302" x="872.70785" y="708.9848999999999" font-family="Times New Roman, Liberation Serif, serif" font-size="17.360000000000003" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(3, 3)</text>
+<rect id="agent-3-0303" x="931.0" y="684" width="75" height="34" rx="0" fill="#8EAADC" stroke="#F3F7FD" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="agent-3-0304" x="942.10465" y="704.4" font-family="Times New Roman, Liberation Serif, serif" font-size="26.97" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">p</text>
+<text id="agent-3-0305" x="957.20785" y="708.9848999999999" font-family="Times New Roman, Liberation Serif, serif" font-size="17.360000000000003" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(3, 4)</text>
+<text id="agent-3-0306" x="600" y="746" font-family="Arial, Liberation Sans, sans-serif" font-size="26" fill="#203D67" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">Placeholder KV</text>
+<rect id="agent-3-0307" x="594.0" y="753" width="66" height="28" rx="0" fill="#FFFFFF" stroke="#EEF0F2" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<path id="agent-3-0308" d="M 596.000 758.000 L 600.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0309" d="M 596.000 762.000 L 604.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0310" d="M 596.000 766.000 L 608.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0311" d="M 596.000 770.000 L 612.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0312" d="M 596.000 774.000 L 616.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0313" d="M 596.000 778.000 L 620.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0314" d="M 598.000 780.000 L 624.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0315" d="M 602.000 780.000 L 628.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0316" d="M 606.000 780.000 L 632.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0317" d="M 610.000 780.000 L 636.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0318" d="M 614.000 780.000 L 640.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0319" d="M 618.000 780.000 L 644.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0320" d="M 622.000 780.000 L 648.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0321" d="M 626.000 780.000 L 652.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0322" d="M 630.000 780.000 L 656.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0323" d="M 634.000 780.000 L 658.000 756.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0324" d="M 638.000 780.000 L 658.000 760.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0325" d="M 642.000 780.000 L 658.000 764.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0326" d="M 646.000 780.000 L 658.000 768.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0327" d="M 650.000 780.000 L 658.000 772.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0328" d="M 654.000 780.000 L 658.000 776.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="agent-3-0329" x="601.6246875" y="773.16" font-family="Times New Roman, Liberation Serif, serif" font-size="27" fill="#000000" font-weight="normal" font-style="italic" text-anchor="start" xml:space="preserve">ϕ</text>
+<text id="agent-3-0330" x="617.2846875" y="777.75" font-family="Times New Roman, Liberation Serif, serif" font-size="16.2" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(3, 1)</text>
+<rect id="agent-3-0331" x="665.5" y="753" width="66" height="28" rx="0" fill="#FFFFFF" stroke="#EEF0F2" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<path id="agent-3-0332" d="M 667.500 758.000 L 671.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0333" d="M 667.500 762.000 L 675.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0334" d="M 667.500 766.000 L 679.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0335" d="M 667.500 770.000 L 683.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0336" d="M 667.500 774.000 L 687.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0337" d="M 667.500 778.000 L 691.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0338" d="M 669.500 780.000 L 695.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0339" d="M 673.500 780.000 L 699.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0340" d="M 677.500 780.000 L 703.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0341" d="M 681.500 780.000 L 707.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0342" d="M 685.500 780.000 L 711.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0343" d="M 689.500 780.000 L 715.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0344" d="M 693.500 780.000 L 719.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0345" d="M 697.500 780.000 L 723.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0346" d="M 701.500 780.000 L 727.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0347" d="M 705.500 780.000 L 729.500 756.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0348" d="M 709.500 780.000 L 729.500 760.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0349" d="M 713.500 780.000 L 729.500 764.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0350" d="M 717.500 780.000 L 729.500 768.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0351" d="M 721.500 780.000 L 729.500 772.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0352" d="M 725.500 780.000 L 729.500 776.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="agent-3-0353" x="673.1246875" y="773.16" font-family="Times New Roman, Liberation Serif, serif" font-size="27" fill="#000000" font-weight="normal" font-style="italic" text-anchor="start" xml:space="preserve">ϕ</text>
+<text id="agent-3-0354" x="688.7846875" y="777.75" font-family="Times New Roman, Liberation Serif, serif" font-size="16.2" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(3, 2)</text>
+<rect id="agent-3-0355" x="737.0" y="753" width="66" height="28" rx="0" fill="#FFFFFF" stroke="#EEF0F2" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<path id="agent-3-0356" d="M 739.000 758.000 L 743.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0357" d="M 739.000 762.000 L 747.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0358" d="M 739.000 766.000 L 751.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0359" d="M 739.000 770.000 L 755.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0360" d="M 739.000 774.000 L 759.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0361" d="M 739.000 778.000 L 763.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0362" d="M 741.000 780.000 L 767.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0363" d="M 745.000 780.000 L 771.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0364" d="M 749.000 780.000 L 775.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0365" d="M 753.000 780.000 L 779.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0366" d="M 757.000 780.000 L 783.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0367" d="M 761.000 780.000 L 787.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0368" d="M 765.000 780.000 L 791.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0369" d="M 769.000 780.000 L 795.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0370" d="M 773.000 780.000 L 799.000 754.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0371" d="M 777.000 780.000 L 801.000 756.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0372" d="M 781.000 780.000 L 801.000 760.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0373" d="M 785.000 780.000 L 801.000 764.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0374" d="M 789.000 780.000 L 801.000 768.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0375" d="M 793.000 780.000 L 801.000 772.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0376" d="M 797.000 780.000 L 801.000 776.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="agent-3-0377" x="744.6246875" y="773.16" font-family="Times New Roman, Liberation Serif, serif" font-size="27" fill="#000000" font-weight="normal" font-style="italic" text-anchor="start" xml:space="preserve">ϕ</text>
+<text id="agent-3-0378" x="760.2846875" y="777.75" font-family="Times New Roman, Liberation Serif, serif" font-size="16.2" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(3, 3)</text>
+<rect id="agent-3-0379" x="808.5" y="753" width="66" height="28" rx="0" fill="#FFFFFF" stroke="#EEF0F2" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<path id="agent-3-0380" d="M 810.500 758.000 L 814.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0381" d="M 810.500 762.000 L 818.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0382" d="M 810.500 766.000 L 822.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0383" d="M 810.500 770.000 L 826.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0384" d="M 810.500 774.000 L 830.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0385" d="M 810.500 778.000 L 834.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0386" d="M 812.500 780.000 L 838.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0387" d="M 816.500 780.000 L 842.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0388" d="M 820.500 780.000 L 846.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0389" d="M 824.500 780.000 L 850.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0390" d="M 828.500 780.000 L 854.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0391" d="M 832.500 780.000 L 858.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0392" d="M 836.500 780.000 L 862.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0393" d="M 840.500 780.000 L 866.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0394" d="M 844.500 780.000 L 870.500 754.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0395" d="M 848.500 780.000 L 872.500 756.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0396" d="M 852.500 780.000 L 872.500 760.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0397" d="M 856.500 780.000 L 872.500 764.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0398" d="M 860.500 780.000 L 872.500 768.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0399" d="M 864.500 780.000 L 872.500 772.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0400" d="M 868.500 780.000 L 872.500 776.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="agent-3-0401" x="816.1246875" y="773.16" font-family="Times New Roman, Liberation Serif, serif" font-size="27" fill="#000000" font-weight="normal" font-style="italic" text-anchor="start" xml:space="preserve">ϕ</text>
+<text id="agent-3-0402" x="831.7846875" y="777.75" font-family="Times New Roman, Liberation Serif, serif" font-size="16.2" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(3, 4)</text>
+<rect id="agent-3-0403" x="577" y="794" width="466" height="46" rx="0" fill="#D7D0DE" stroke="#80748F" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="agent-3-0404" x="667" y="827" font-family="Arial, Liberation Sans, sans-serif" font-size="29" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">All placeholders</text>
+<ellipse id="agent-3-0405" cx="916.0" cy="817.0" rx="16.0" ry="16.0" fill="#548636" stroke="#FFFFFF" stroke-width="0.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0406" d="M 907.360 817.000 L 914.240 823.400 L 925.920 810.120" fill="none" stroke="#FFFFFF" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="agent-3-0407" x="936" y="827" font-family="Arial, Liberation Sans, sans-serif" font-size="29" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">?</text>
+<rect id="agent-3-0408" x="577" y="840" width="291" height="61" rx="0" fill="#FBE5D4" stroke="#C75A08" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="agent-3-0409" x="868" y="840" width="175" height="61" rx="0" fill="#DFEBF6" stroke="#457BA5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="agent-3-0410" x="648" y="878" font-family="Arial, Liberation Sans, sans-serif" font-size="26" fill="#203D67" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">(Y) Sharing</text>
+<text id="agent-3-0411" x="875" y="878" font-family="Arial, Liberation Sans, sans-serif" font-size="26" fill="#203D67" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">(N) Dense</text>
+<ellipse id="agent-3-0412" cx="1019.0" cy="874.0" rx="16.0" ry="16.0" fill="#C75A08" stroke="#FFFFFF" stroke-width="0.45" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0413" d="M 1011.160 874.000 L 1026.840 874.000" fill="none" stroke="#FFFFFF" stroke-width="2.1" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="agent-3-0414" d="M 1019.000 866.160 L 1019.000 881.840" fill="none" stroke="#FFFFFF" stroke-width="2.1" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g id="module-container">
+<path id="module-container-0415" d="M 577.000 537.000 L 577.000 47.000 C 577.000 28.775 591.775 14.000 610.000 14.000 L 1839.000 14.000 C 1857.225 14.000 1872.000 28.775 1872.000 47.000 L 1872.000 537.000 C 1872.000 546.941 1863.941 555.000 1854.000 555.000 L 595.000 555.000 C 585.059 555.000 577.000 546.941 577.000 537.000 Z " fill="#A9D18E" stroke="#548636" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="module-container-0416" d="M 577.000 80.000 L 577.000 47.000 C 577.000 28.775 591.775 14.000 610.000 14.000 L 1839.000 14.000 C 1857.225 14.000 1872.000 28.775 1872.000 47.000 L 1872.000 80.000 Z " fill="#80748F" stroke="#457BA5" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="module-container-0417" x="579" y="81" width="456" height="410" rx="0" fill="#D7D0DE" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="module-container-0418" x="579" y="491" width="456" height="32" rx="0" fill="#FBE5D4" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="module-container-0419" x="1035" y="81" width="435" height="442" rx="0" fill="#FBE5D4" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="module-container-0420" x="1224" y="63" font-family="Arial, Liberation Sans, sans-serif" font-size="52" fill="#FFFFFF" font-weight="bold" font-style="normal" text-anchor="middle" xml:space="preserve">KV-cache Communication Module</text>
+<text id="module-container-0421" x="795" y="112" font-family="Arial, Liberation Sans, sans-serif" font-size="34" fill="#000000" font-weight="bold" font-style="normal" text-anchor="middle" xml:space="preserve">Anchor Matching</text>
+<text id="module-container-0422" x="1252" y="113" font-family="Arial, Liberation Sans, sans-serif" font-size="34" fill="#000000" font-weight="bold" font-style="normal" text-anchor="middle" xml:space="preserve">Offset Approximation</text>
+<text id="module-container-0423" x="1669" y="115" font-family="Arial, Liberation Sans, sans-serif" font-size="34" fill="#000000" font-weight="bold" font-style="normal" text-anchor="middle" xml:space="preserve">Anchor Prediction</text>
+</g>
+<g id="anchor-matching">
+<rect id="anchor-matching-0424" x="609" y="138" width="168" height="160" rx="0" fill="#FFFFFF" stroke="#80748F" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<rect id="anchor-matching-0425" x="609" y="138" width="168" height="36" rx="0" fill="#BEB5C9" stroke="#80748F" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="anchor-matching-0426" x="631" y="163" font-family="Times New Roman, Liberation Serif, serif" font-size="32" fill="#000000" font-weight="normal" font-style="italic" text-anchor="start" xml:space="preserve">ϕ</text>
+<text id="anchor-matching-0427" x="649.56" y="168.44" font-family="Times New Roman, Liberation Serif, serif" font-size="17" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(1, 1)</text>
+<text id="anchor-matching-0428" x="699" y="163" font-family="Arial, Liberation Sans, sans-serif" font-size="24" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">Pool</text>
+<ellipse id="anchor-matching-0429" cx="726.0" cy="258.0" rx="28.0" ry="28.0" fill="#DCE2F3" stroke="#D6D7DC" stroke-width="0.7" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<ellipse id="anchor-matching-0430" cx="630.0" cy="193.0" rx="6.4" ry="6.4" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-matching-0431" cx="679.0" cy="224.0" rx="6.4" ry="6.4" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-matching-0432" cx="733.0" cy="211.0" rx="6.4" ry="6.4" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-matching-0433" cx="638.0" cy="254.0" rx="6.4" ry="6.4" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-matching-0434" cx="713.0" cy="270.0" rx="6.4" ry="6.4" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-matching-0435" cx="739.0" cy="271.0" rx="6.4" ry="6.4" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="anchor-matching-0436" d="M 726.000 246.000 L 728.457 253.618 L 736.462 253.601 L 729.975 258.292 L 732.466 265.899 L 726.000 261.180 L 719.534 265.899 L 722.025 258.292 L 715.538 253.601 L 723.543 253.618 Z " fill="#F6B181" stroke="#895223" stroke-width="0.75" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<rect id="anchor-matching-0437" x="797" y="137" width="168" height="160" rx="0" fill="#FFFFFF" stroke="#80748F" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<rect id="anchor-matching-0438" x="797" y="137" width="168" height="36" rx="0" fill="#BEB5C9" stroke="#80748F" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="anchor-matching-0439" x="819" y="162" font-family="Times New Roman, Liberation Serif, serif" font-size="32" fill="#000000" font-weight="normal" font-style="italic" text-anchor="start" xml:space="preserve">ϕ</text>
+<text id="anchor-matching-0440" x="837.56" y="167.44" font-family="Times New Roman, Liberation Serif, serif" font-size="17" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(1, 2)</text>
+<text id="anchor-matching-0441" x="887" y="162" font-family="Arial, Liberation Sans, sans-serif" font-size="24" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">Pool</text>
+<ellipse id="anchor-matching-0442" cx="842.0" cy="263.0" rx="28.0" ry="28.0" fill="#DCE2F3" stroke="#D6D7DC" stroke-width="0.7" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<ellipse id="anchor-matching-0443" cx="836.0" cy="197.0" rx="6.4" ry="6.4" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-matching-0444" cx="897.0" cy="186.0" rx="6.4" ry="6.4" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-matching-0445" cx="868.0" cy="225.0" rx="6.4" ry="6.4" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-matching-0446" cx="895.0" cy="214.0" rx="6.4" ry="6.4" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-matching-0447" cx="926.0" cy="214.0" rx="6.4" ry="6.4" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-matching-0448" cx="914.0" cy="249.0" rx="6.4" ry="6.4" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-matching-0449" cx="895.0" cy="280.0" rx="6.4" ry="6.4" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-matching-0450" cx="861.0" cy="257.0" rx="6.4" ry="6.4" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="anchor-matching-0451" d="M 842.000 251.000 L 844.457 258.618 L 852.462 258.601 L 845.975 263.292 L 848.466 270.899 L 842.000 266.180 L 835.534 270.899 L 838.025 263.292 L 831.538 258.601 L 839.543 258.618 Z " fill="#A9D18E" stroke="#4D7335" stroke-width="0.75" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<rect id="anchor-matching-0452" x="609" y="310" width="168" height="160" rx="0" fill="#FFFFFF" stroke="#80748F" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<rect id="anchor-matching-0453" x="609" y="310" width="168" height="36" rx="0" fill="#BEB5C9" stroke="#80748F" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="anchor-matching-0454" x="631" y="335" font-family="Times New Roman, Liberation Serif, serif" font-size="32" fill="#000000" font-weight="normal" font-style="italic" text-anchor="start" xml:space="preserve">ϕ</text>
+<text id="anchor-matching-0455" x="649.56" y="340.44" font-family="Times New Roman, Liberation Serif, serif" font-size="17" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(1, 3)</text>
+<text id="anchor-matching-0456" x="699" y="335" font-family="Arial, Liberation Sans, sans-serif" font-size="24" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">Pool</text>
+<ellipse id="anchor-matching-0457" cx="660.0" cy="378.0" rx="28.0" ry="28.0" fill="#DCE2F3" stroke="#D6D7DC" stroke-width="0.7" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<ellipse id="anchor-matching-0458" cx="642.0" cy="369.0" rx="6.4" ry="6.4" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-matching-0459" cx="658.0" cy="360.0" rx="6.4" ry="6.4" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-matching-0460" cx="678.0" cy="454.0" rx="6.4" ry="6.4" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-matching-0461" cx="643.0" cy="419.0" rx="6.4" ry="6.4" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-matching-0462" cx="711.0" cy="360.0" rx="6.4" ry="6.4" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-matching-0463" cx="757.0" cy="378.0" rx="6.4" ry="6.4" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-matching-0464" cx="752.0" cy="454.0" rx="6.4" ry="6.4" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-matching-0465" cx="692.0" cy="423.0" rx="6.4" ry="6.4" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="anchor-matching-0466" d="M 660.000 366.000 L 662.457 373.618 L 670.462 373.601 L 663.975 378.292 L 666.466 385.899 L 660.000 381.180 L 653.534 385.899 L 656.025 378.292 L 649.538 373.601 L 657.543 373.618 Z " fill="#F6B181" stroke="#895223" stroke-width="0.75" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<rect id="anchor-matching-0467" x="797" y="310" width="168" height="160" rx="0" fill="#FFFFFF" stroke="#80748F" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<rect id="anchor-matching-0468" x="797" y="310" width="168" height="36" rx="0" fill="#BEB5C9" stroke="#80748F" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="anchor-matching-0469" x="819" y="335" font-family="Times New Roman, Liberation Serif, serif" font-size="32" fill="#000000" font-weight="normal" font-style="italic" text-anchor="start" xml:space="preserve">ϕ</text>
+<text id="anchor-matching-0470" x="837.56" y="340.44" font-family="Times New Roman, Liberation Serif, serif" font-size="17" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(2, 1)</text>
+<text id="anchor-matching-0471" x="887" y="335" font-family="Arial, Liberation Sans, sans-serif" font-size="24" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">Pool</text>
+<ellipse id="anchor-matching-0472" cx="854.0" cy="391.0" rx="28.0" ry="28.0" fill="#DCE2F3" stroke="#D6D7DC" stroke-width="0.7" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<ellipse id="anchor-matching-0473" cx="831.0" cy="369.0" rx="6.4" ry="6.4" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-matching-0474" cx="893.0" cy="358.0" rx="6.4" ry="6.4" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-matching-0475" cx="921.0" cy="387.0" rx="6.4" ry="6.4" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-matching-0476" cx="872.0" cy="380.0" rx="6.4" ry="6.4" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-matching-0477" cx="826.0" cy="431.0" rx="6.4" ry="6.4" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-matching-0478" cx="850.0" cy="446.0" rx="6.4" ry="6.4" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-matching-0479" cx="891.0" cy="452.0" rx="6.4" ry="6.4" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-matching-0480" cx="905.0" cy="432.0" rx="6.4" ry="6.4" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-matching-0481" cx="934.0" cy="432.0" rx="6.4" ry="6.4" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="anchor-matching-0482" d="M 854.000 379.000 L 856.457 386.618 L 864.462 386.601 L 857.975 391.292 L 860.466 398.899 L 854.000 394.180 L 847.534 398.899 L 850.025 391.292 L 843.538 386.601 L 851.543 386.618 Z " fill="#A9D18E" stroke="#4D7335" stroke-width="0.75" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<path id="anchor-matching-0483" d="M 982.000 282.000 L 1054.000 282.000" fill="none" stroke="#80748F" stroke-width="9" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<path id="anchor-matching-0484" d="M 1079.000 282.000 L 1054.000 294.000 L 1054.000 270.000 Z " fill="#80748F" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="anchor-matching-0485" x="1022" y="265" font-family="Arial, Liberation Sans, sans-serif" font-size="29" fill="#000000" font-weight="bold" font-style="normal" text-anchor="middle" xml:space="preserve">Hit</text>
+<ellipse id="anchor-matching-0486" cx="983.0" cy="305.0" rx="4.5" ry="4.5" fill="#80748F" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-matching-0487" cx="996.0" cy="305.0" rx="4.5" ry="4.5" fill="#80748F" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-matching-0488" cx="1009.0" cy="305.0" rx="4.5" ry="4.5" fill="#80748F" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g id="offset-approximation">
+<ellipse id="offset-approximation-0489" cx="1138.0" cy="219.0" rx="64.0" ry="64.0" fill="#DCE2F3" stroke="#D0D6E2" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<ellipse id="offset-approximation-0490" cx="1107.0" cy="244.0" rx="11.0" ry="11.0" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="offset-approximation-0491" cx="1163.0" cy="246.0" rx="11.0" ry="11.0" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="offset-approximation-0492" d="M 1134.000 192.000 L 1138.244 205.159 L 1152.070 205.129 L 1140.867 213.231 L 1145.168 226.371 L 1134.000 218.220 L 1122.832 226.371 L 1127.133 213.231 L 1115.930 205.129 L 1129.756 205.159 Z " fill="#F6B181" stroke="#895223" stroke-width="0.75" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<path id="offset-approximation-0493" d="M 1129.000 223.000 L 1113.278 236.756" fill="none" stroke="#000000" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="offset-approximation-0494" d="M 1105.000 244.000 L 1109.801 232.783 L 1116.755 240.730 Z " fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="offset-approximation-0495" d="M 1138.000 223.000 L 1158.236 238.352" fill="none" stroke="#000000" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="offset-approximation-0496" d="M 1167.000 245.000 L 1155.045 242.558 L 1161.428 234.145 Z " fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="offset-approximation-0497" x="1089" y="226" font-family="Times New Roman, Liberation Serif, serif" font-size="28" fill="#000000" font-weight="bold" font-style="italic" text-anchor="start" xml:space="preserve">w</text>
+<text id="offset-approximation-0498" x="1109" y="232" font-family="Times New Roman, Liberation Serif, serif" font-size="17" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">1</text>
+<text id="offset-approximation-0499" x="1160" y="231" font-family="Times New Roman, Liberation Serif, serif" font-size="28" fill="#000000" font-weight="bold" font-style="italic" text-anchor="start" xml:space="preserve">w</text>
+<text id="offset-approximation-0500" x="1180" y="236" font-family="Times New Roman, Liberation Serif, serif" font-size="17" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">2</text>
+<text id="offset-approximation-0501" x="1105" y="269" font-family="Times New Roman, Liberation Serif, serif" font-size="18" fill="#000000" font-weight="normal" font-style="normal" text-anchor="middle" xml:space="preserve">(1)</text>
+<text id="offset-approximation-0502" x="1158" y="269" font-family="Times New Roman, Liberation Serif, serif" font-size="18" fill="#000000" font-weight="normal" font-style="normal" text-anchor="middle" xml:space="preserve">(2)</text>
+<rect id="offset-approximation-0503" x="1224" y="142" width="231" height="156" rx="0" fill="#FFFFFF" stroke="#A397B2" stroke-width="1.2" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="9 6" filter="url(#shadow)"/>
+<text id="offset-approximation-0504" x="1237" y="167" font-family="Arial, Liberation Sans, sans-serif" font-size="24" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">Each</text>
+<text id="offset-approximation-0505" x="1300" y="166" font-family="Times New Roman, Liberation Serif, serif" font-size="27" fill="#000000" font-weight="normal" font-style="italic" text-anchor="start" xml:space="preserve">ϕ</text>
+<text id="offset-approximation-0506" x="1315.66" y="170.59" font-family="Times New Roman, Liberation Serif, serif" font-size="16" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(1, 1)</text>
+<text id="offset-approximation-0507" x="1365" y="167" font-family="Arial, Liberation Sans, sans-serif" font-size="24" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">Anchor</text>
+<ellipse id="offset-approximation-0508" cx="1242.0" cy="232.0" rx="11.0" ry="11.0" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="offset-approximation-0509" x="1247" y="260" font-family="Times New Roman, Liberation Serif, serif" font-size="92" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">{</text>
+<rect id="offset-approximation-0510" x="1283" y="176" width="77" height="33" rx="6" fill="#C8B99B" stroke="#897655" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="offset-approximation-0511" x="1293" y="198" font-family="Times New Roman, Liberation Serif, serif" font-size="29" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">h</text>
+<text id="offset-approximation-0512" x="1310" y="204" font-family="Times New Roman, Liberation Serif, serif" font-size="15" fill="#000000" font-weight="normal" font-style="italic" text-anchor="start" xml:space="preserve">ϕ</text>
+<text id="offset-approximation-0513" x="1318.7" y="206.55" font-family="Times New Roman, Liberation Serif, serif" font-size="9" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(1, 1)</text>
+<rect id="offset-approximation-0514" x="1283" y="216" width="167" height="33" rx="8" fill="#C8B99B" stroke="#8D7C5E" stroke-width="0.9" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="offset-approximation-0515" x="1289" y="241.08" font-family="Times New Roman, Liberation Serif, serif" font-size="32" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(Δ</text>
+<text id="offset-approximation-0516" x="1320.234375" y="241.08" font-family="Times New Roman, Liberation Serif, serif" font-size="32" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">k</text>
+<text id="offset-approximation-0517" x="1338.03125" y="241.08" font-family="Times New Roman, Liberation Serif, serif" font-size="32" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">, Δ</text>
+<text id="offset-approximation-0518" x="1372.84375" y="241.08" font-family="Times New Roman, Liberation Serif, serif" font-size="32" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">v</text>
+<text id="offset-approximation-0519" x="1388.84375" y="241.08" font-family="Times New Roman, Liberation Serif, serif" font-size="32" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">)</text>
+<text id="offset-approximation-0520" x="1401.5" y="228" font-family="Times New Roman, Liberation Serif, serif" font-size="16" fill="#000000" font-weight="normal" font-style="italic" text-anchor="start" xml:space="preserve">ϕ</text>
+<text id="offset-approximation-0521" x="1410.78" y="230.72" font-family="Times New Roman, Liberation Serif, serif" font-size="9" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(1, 1)</text>
+<rect id="offset-approximation-0522" x="1283" y="255" width="167" height="33" rx="8" fill="#C8B99B" stroke="#8D7C5E" stroke-width="0.9" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="offset-approximation-0523" x="1289" y="280.08" font-family="Times New Roman, Liberation Serif, serif" font-size="32" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(Δ</text>
+<text id="offset-approximation-0524" x="1320.234375" y="280.08" font-family="Times New Roman, Liberation Serif, serif" font-size="32" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">k</text>
+<text id="offset-approximation-0525" x="1338.03125" y="280.08" font-family="Times New Roman, Liberation Serif, serif" font-size="32" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">, Δ</text>
+<text id="offset-approximation-0526" x="1372.84375" y="280.08" font-family="Times New Roman, Liberation Serif, serif" font-size="32" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">v</text>
+<text id="offset-approximation-0527" x="1388.84375" y="280.08" font-family="Times New Roman, Liberation Serif, serif" font-size="32" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">)</text>
+<text id="offset-approximation-0528" x="1401.5" y="267" font-family="Times New Roman, Liberation Serif, serif" font-size="16" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">p</text>
+<text id="offset-approximation-0529" x="1410.46" y="269.72" font-family="Times New Roman, Liberation Serif, serif" font-size="9" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(1, 1)</text>
+<rect id="offset-approximation-0530" x="1050" y="299" width="85" height="191" rx="0" fill="none" stroke="#9E4F0F" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="18 9" filter="url(#shadow)"/>
+<rect id="offset-approximation-0531" x="1055" y="305" width="73" height="39" rx="4" fill="#F6B181" stroke="#9D632D" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="offset-approximation-0532" x="1061.42625" y="333.08" font-family="Times New Roman, Liberation Serif, serif" font-size="32" fill="#000000" font-weight="normal" font-style="italic" text-anchor="start" xml:space="preserve">ϕ</text>
+<text id="offset-approximation-0533" x="1079.98625" y="338.52" font-family="Times New Roman, Liberation Serif, serif" font-size="19.2" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(1, 1)</text>
+<rect id="offset-approximation-0534" x="1055" y="400" width="73" height="34" rx="0" fill="#203D67" stroke="#A4BDD9" stroke-width="0.9" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="offset-approximation-0535" x="1064.3188625" y="420.4" font-family="Times New Roman, Liberation Serif, serif" font-size="27.84" fill="#FFFFFF" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">p</text>
+<text id="offset-approximation-0536" x="1079.9092625" y="425.1328" font-family="Times New Roman, Liberation Serif, serif" font-size="17.92" fill="#FFFFFF" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(1, 1)</text>
+<ellipse id="offset-approximation-0537" cx="1080.0" cy="475.0" rx="4.5" ry="4.5" fill="#913B00" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="offset-approximation-0538" cx="1093.0" cy="475.0" rx="4.5" ry="4.5" fill="#913B00" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="offset-approximation-0539" cx="1106.0" cy="475.0" rx="4.5" ry="4.5" fill="#913B00" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="offset-approximation-0540" x="1136" y="332" font-family="Times New Roman, Liberation Serif, serif" font-size="29" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">=</text>
+<rect id="offset-approximation-0541" x="1159" y="306" width="73" height="36" rx="0" fill="#FFFFFF" stroke="#EEF0F2" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<path id="offset-approximation-0542" d="M 1161.000 311.000 L 1165.000 307.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="offset-approximation-0543" d="M 1161.000 315.000 L 1169.000 307.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="offset-approximation-0544" d="M 1161.000 319.000 L 1173.000 307.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="offset-approximation-0545" d="M 1161.000 323.000 L 1177.000 307.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="offset-approximation-0546" d="M 1161.000 327.000 L 1181.000 307.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="offset-approximation-0547" d="M 1161.000 331.000 L 1185.000 307.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="offset-approximation-0548" d="M 1161.000 335.000 L 1189.000 307.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="offset-approximation-0549" d="M 1161.000 339.000 L 1193.000 307.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="offset-approximation-0550" d="M 1163.000 341.000 L 1197.000 307.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="offset-approximation-0551" d="M 1167.000 341.000 L 1201.000 307.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="offset-approximation-0552" d="M 1171.000 341.000 L 1205.000 307.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="offset-approximation-0553" d="M 1175.000 341.000 L 1209.000 307.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="offset-approximation-0554" d="M 1179.000 341.000 L 1213.000 307.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="offset-approximation-0555" d="M 1183.000 341.000 L 1217.000 307.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="offset-approximation-0556" d="M 1187.000 341.000 L 1221.000 307.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="offset-approximation-0557" d="M 1191.000 341.000 L 1225.000 307.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="offset-approximation-0558" d="M 1195.000 341.000 L 1229.000 307.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="offset-approximation-0559" d="M 1199.000 341.000 L 1230.000 310.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="offset-approximation-0560" d="M 1203.000 341.000 L 1230.000 314.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="offset-approximation-0561" d="M 1207.000 341.000 L 1230.000 318.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="offset-approximation-0562" d="M 1211.000 341.000 L 1230.000 322.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="offset-approximation-0563" d="M 1215.000 341.000 L 1230.000 326.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="offset-approximation-0564" d="M 1219.000 341.000 L 1230.000 330.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="offset-approximation-0565" d="M 1223.000 341.000 L 1230.000 334.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="offset-approximation-0566" d="M 1227.000 341.000 L 1230.000 338.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="offset-approximation-0567" x="1166.36625" y="331.92" font-family="Times New Roman, Liberation Serif, serif" font-size="31" fill="#000000" font-weight="normal" font-style="italic" text-anchor="start" xml:space="preserve">ϕ</text>
+<text id="offset-approximation-0568" x="1184.34625" y="337.19" font-family="Times New Roman, Liberation Serif, serif" font-size="18.599999999999998" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(1, 1)</text>
+<text id="offset-approximation-0569" x="1240" y="331" font-family="Times New Roman, Liberation Serif, serif" font-size="28" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">+</text>
+<text id="offset-approximation-0570" x="1260" y="330" font-family="Times New Roman, Liberation Serif, serif" font-size="26" fill="#000000" font-weight="bold" font-style="italic" text-anchor="start" xml:space="preserve">w</text>
+<text id="offset-approximation-0571" x="1276.9" y="334.42" font-family="Times New Roman, Liberation Serif, serif" font-size="16" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">1</text>
+<rect id="offset-approximation-0572" x="1287" y="304" width="166" height="40" rx="8" fill="#C8B99B" stroke="#8D7C5E" stroke-width="0.9" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="offset-approximation-0573" x="1293" y="334.4" font-family="Times New Roman, Liberation Serif, serif" font-size="32" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(Δ</text>
+<text id="offset-approximation-0574" x="1324.234375" y="334.4" font-family="Times New Roman, Liberation Serif, serif" font-size="32" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">k</text>
+<text id="offset-approximation-0575" x="1342.03125" y="334.4" font-family="Times New Roman, Liberation Serif, serif" font-size="32" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">, Δ</text>
+<text id="offset-approximation-0576" x="1376.84375" y="334.4" font-family="Times New Roman, Liberation Serif, serif" font-size="32" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">v</text>
+<text id="offset-approximation-0577" x="1392.84375" y="334.4" font-family="Times New Roman, Liberation Serif, serif" font-size="32" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">)</text>
+<text id="offset-approximation-0578" x="1405.5" y="316" font-family="Times New Roman, Liberation Serif, serif" font-size="16" fill="#000000" font-weight="normal" font-style="italic" text-anchor="start" xml:space="preserve">ϕ</text>
+<text id="offset-approximation-0579" x="1414.78" y="318.72" font-family="Times New Roman, Liberation Serif, serif" font-size="9" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(1, 1)</text>
+<text id="offset-approximation-0580" x="1405.5" y="339" font-family="Times New Roman, Liberation Serif, serif" font-size="16" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(1)</text>
+<text id="offset-approximation-0581" x="1137" y="377" font-family="Times New Roman, Liberation Serif, serif" font-size="28" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">+</text>
+<text id="offset-approximation-0582" x="1156" y="376" font-family="Times New Roman, Liberation Serif, serif" font-size="26" fill="#000000" font-weight="bold" font-style="italic" text-anchor="start" xml:space="preserve">w</text>
+<text id="offset-approximation-0583" x="1172.9" y="380.42" font-family="Times New Roman, Liberation Serif, serif" font-size="16" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">2</text>
+<rect id="offset-approximation-0584" x="1187" y="350" width="174" height="40" rx="8" fill="#C8B99B" stroke="#8D7C5E" stroke-width="0.9" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="offset-approximation-0585" x="1193" y="380.4" font-family="Times New Roman, Liberation Serif, serif" font-size="32" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(Δ</text>
+<text id="offset-approximation-0586" x="1224.234375" y="380.4" font-family="Times New Roman, Liberation Serif, serif" font-size="32" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">k</text>
+<text id="offset-approximation-0587" x="1242.03125" y="380.4" font-family="Times New Roman, Liberation Serif, serif" font-size="32" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">, Δ</text>
+<text id="offset-approximation-0588" x="1276.84375" y="380.4" font-family="Times New Roman, Liberation Serif, serif" font-size="32" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">v</text>
+<text id="offset-approximation-0589" x="1292.84375" y="380.4" font-family="Times New Roman, Liberation Serif, serif" font-size="32" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">)</text>
+<text id="offset-approximation-0590" x="1305.5" y="362" font-family="Times New Roman, Liberation Serif, serif" font-size="16" fill="#000000" font-weight="normal" font-style="italic" text-anchor="start" xml:space="preserve">ϕ</text>
+<text id="offset-approximation-0591" x="1314.78" y="364.72" font-family="Times New Roman, Liberation Serif, serif" font-size="9" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(1, 1)</text>
+<text id="offset-approximation-0592" x="1305.5" y="385" font-family="Times New Roman, Liberation Serif, serif" font-size="16" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(2)</text>
+<text id="offset-approximation-0593" x="1136" y="426" font-family="Times New Roman, Liberation Serif, serif" font-size="29" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">=</text>
+<rect id="offset-approximation-0594" x="1163" y="400" width="73" height="34" rx="0" fill="#8EAADC" stroke="#F3F7FD" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="offset-approximation-0595" x="1173.10465" y="420.4" font-family="Times New Roman, Liberation Serif, serif" font-size="26.97" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">p</text>
+<text id="offset-approximation-0596" x="1188.20785" y="424.9849" font-family="Times New Roman, Liberation Serif, serif" font-size="17.360000000000003" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(1, 1)</text>
+<text id="offset-approximation-0597" x="1240" y="423" font-family="Times New Roman, Liberation Serif, serif" font-size="28" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">+</text>
+<text id="offset-approximation-0598" x="1260" y="422" font-family="Times New Roman, Liberation Serif, serif" font-size="26" fill="#000000" font-weight="bold" font-style="italic" text-anchor="start" xml:space="preserve">w</text>
+<text id="offset-approximation-0599" x="1276.9" y="426.42" font-family="Times New Roman, Liberation Serif, serif" font-size="16" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">1</text>
+<rect id="offset-approximation-0600" x="1287" y="395" width="166" height="40" rx="8" fill="#C8B99B" stroke="#8D7C5E" stroke-width="0.9" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="offset-approximation-0601" x="1293" y="425.4" font-family="Times New Roman, Liberation Serif, serif" font-size="32" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(Δ</text>
+<text id="offset-approximation-0602" x="1324.234375" y="425.4" font-family="Times New Roman, Liberation Serif, serif" font-size="32" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">k</text>
+<text id="offset-approximation-0603" x="1342.03125" y="425.4" font-family="Times New Roman, Liberation Serif, serif" font-size="32" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">, Δ</text>
+<text id="offset-approximation-0604" x="1376.84375" y="425.4" font-family="Times New Roman, Liberation Serif, serif" font-size="32" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">v</text>
+<text id="offset-approximation-0605" x="1392.84375" y="425.4" font-family="Times New Roman, Liberation Serif, serif" font-size="32" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">)</text>
+<text id="offset-approximation-0606" x="1405.5" y="407" font-family="Times New Roman, Liberation Serif, serif" font-size="16" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">p</text>
+<text id="offset-approximation-0607" x="1414.46" y="409.72" font-family="Times New Roman, Liberation Serif, serif" font-size="9" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(1, 1)</text>
+<text id="offset-approximation-0608" x="1405.5" y="430" font-family="Times New Roman, Liberation Serif, serif" font-size="16" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(1)</text>
+<text id="offset-approximation-0609" x="1137" y="469" font-family="Times New Roman, Liberation Serif, serif" font-size="28" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">+</text>
+<text id="offset-approximation-0610" x="1156" y="468" font-family="Times New Roman, Liberation Serif, serif" font-size="26" fill="#000000" font-weight="bold" font-style="italic" text-anchor="start" xml:space="preserve">w</text>
+<text id="offset-approximation-0611" x="1172.9" y="472.42" font-family="Times New Roman, Liberation Serif, serif" font-size="16" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">2</text>
+<rect id="offset-approximation-0612" x="1187" y="442" width="174" height="39" rx="8" fill="#C8B99B" stroke="#8D7C5E" stroke-width="0.9" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="offset-approximation-0613" x="1193" y="471.64" font-family="Times New Roman, Liberation Serif, serif" font-size="32" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(Δ</text>
+<text id="offset-approximation-0614" x="1224.234375" y="471.64" font-family="Times New Roman, Liberation Serif, serif" font-size="32" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">k</text>
+<text id="offset-approximation-0615" x="1242.03125" y="471.64" font-family="Times New Roman, Liberation Serif, serif" font-size="32" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">, Δ</text>
+<text id="offset-approximation-0616" x="1276.84375" y="471.64" font-family="Times New Roman, Liberation Serif, serif" font-size="32" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">v</text>
+<text id="offset-approximation-0617" x="1292.84375" y="471.64" font-family="Times New Roman, Liberation Serif, serif" font-size="32" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">)</text>
+<text id="offset-approximation-0618" x="1305.5" y="454" font-family="Times New Roman, Liberation Serif, serif" font-size="16" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">p</text>
+<text id="offset-approximation-0619" x="1314.46" y="456.72" font-family="Times New Roman, Liberation Serif, serif" font-size="9" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(1, 1)</text>
+<text id="offset-approximation-0620" x="1305.5" y="476" font-family="Times New Roman, Liberation Serif, serif" font-size="16" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(2)</text>
+<path id="offset-approximation-0621" d="M 1093.000 492.000 L 1093.000 507.000 L 585.000 507.000" fill="none" stroke="#9E4F0F" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="20 18" filter="url(#shadow)"/>
+</g>
+<g id="anchor-prediction">
+<rect id="anchor-prediction-0622" x="1484" y="131" width="186" height="403" rx="18" fill="#FFFFFF" stroke="#C75A08" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="anchor-prediction-0623" x="1493" y="141" width="168" height="154" rx="0" fill="#FFFFFF" stroke="#80748F" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<rect id="anchor-prediction-0624" x="1493" y="141" width="168" height="35" rx="0" fill="#BEB5C9" stroke="#80748F" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="anchor-prediction-0625" x="1505" y="166" font-family="Times New Roman, Liberation Serif, serif" font-size="30" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">h</text>
+<text id="anchor-prediction-0626" x="1522.7" y="171.1" font-family="Times New Roman, Liberation Serif, serif" font-size="16" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">φ</text>
+<text id="anchor-prediction-0627" x="1542" y="165" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">Unmatched</text>
+<ellipse id="anchor-prediction-0628" cx="1610.0" cy="236.0" rx="28.0" ry="28.0" fill="#DCE2F3" stroke="#D2D6E0" stroke-width="0.6" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-prediction-0629" cx="1515.0" cy="189.0" rx="6.5" ry="6.5" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-prediction-0630" cx="1564.0" cy="221.0" rx="6.5" ry="6.5" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-prediction-0631" cx="1617.0" cy="203.0" rx="6.5" ry="6.5" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-prediction-0632" cx="1523.0" cy="251.0" rx="6.5" ry="6.5" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-prediction-0633" cx="1597.0" cy="268.0" rx="6.5" ry="6.5" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-prediction-0634" cx="1622.0" cy="268.0" rx="6.5" ry="6.5" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="anchor-prediction-0635" d="M 1610.000 224.000 L 1612.457 231.618 L 1620.462 231.601 L 1613.975 236.292 L 1616.466 243.899 L 1610.000 239.180 L 1603.534 243.899 L 1606.025 236.292 L 1599.538 231.601 L 1607.543 231.618 Z " fill="#F6B181" stroke="#895223" stroke-width="0.75" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="anchor-prediction-0636" x="1577" y="323" font-family="Times New Roman, Liberation Serif, serif" font-size="27" fill="#000000" font-weight="bold" font-style="italic" text-anchor="middle" xml:space="preserve">OR</text>
+<rect id="anchor-prediction-0637" x="1493" y="334" width="168" height="155" rx="0" fill="#FFFFFF" stroke="#80748F" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<rect id="anchor-prediction-0638" x="1493" y="334" width="168" height="31" rx="0" fill="#BEB5C9" stroke="#80748F" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="anchor-prediction-0639" x="1577" y="356" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#000000" font-weight="bold" font-style="normal" text-anchor="middle" xml:space="preserve">Length Uncover</text>
+<rect id="anchor-prediction-0640" x="1508" y="375" width="80" height="14" rx="6" fill="#C8B99B" stroke="#8E7D61" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<rect id="anchor-prediction-0641" x="1508" y="398" width="55" height="14" rx="6" fill="#C8B99B" stroke="#8E7D61" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<rect id="anchor-prediction-0642" x="1508" y="421" width="99" height="14" rx="6" fill="#C8B99B" stroke="#8E7D61" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<rect id="anchor-prediction-0643" x="1508" y="444" width="127" height="14" rx="6" fill="#F6B181" stroke="#C75A08" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<ellipse id="anchor-prediction-0644" cx="1577.0" cy="512.0" rx="16.0" ry="16.0" fill="#C75A08" stroke="#FFFFFF" stroke-width="0.45" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="anchor-prediction-0645" d="M 1569.160 512.000 L 1584.840 512.000" fill="none" stroke="#FFFFFF" stroke-width="2.1" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="anchor-prediction-0646" d="M 1577.000 504.160 L 1577.000 519.840" fill="none" stroke="#FFFFFF" stroke-width="2.1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="anchor-prediction-0647" x="1674" y="131" width="186" height="403" rx="18" fill="#FFFFFF" stroke="#548636" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="anchor-prediction-0648" x="1683" y="141" width="168" height="154" rx="0" fill="#FFFFFF" stroke="#80748F" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<rect id="anchor-prediction-0649" x="1683" y="141" width="168" height="35" rx="0" fill="#BEB5C9" stroke="#80748F" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="anchor-prediction-0650" x="1695" y="166" font-family="Times New Roman, Liberation Serif, serif" font-size="30" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">h</text>
+<text id="anchor-prediction-0651" x="1712.7" y="171.1" font-family="Times New Roman, Liberation Serif, serif" font-size="16" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">φ</text>
+<text id="anchor-prediction-0652" x="1732" y="165" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">Matched</text>
+<ellipse id="anchor-prediction-0653" cx="1778.0" cy="234.0" rx="28.0" ry="28.0" fill="#DCE2F3" stroke="#D2D6E0" stroke-width="0.6" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-prediction-0654" cx="1722.0" cy="194.0" rx="6.5" ry="6.5" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-prediction-0655" cx="1783.0" cy="183.0" rx="6.5" ry="6.5" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-prediction-0656" cx="1755.0" cy="222.0" rx="6.5" ry="6.5" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-prediction-0657" cx="1780.0" cy="212.0" rx="6.5" ry="6.5" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-prediction-0658" cx="1811.0" cy="212.0" rx="6.5" ry="6.5" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-prediction-0659" cx="1747.0" cy="254.0" rx="6.5" ry="6.5" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-prediction-0660" cx="1799.0" cy="247.0" rx="6.5" ry="6.5" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-prediction-0661" cx="1782.0" cy="277.0" rx="6.5" ry="6.5" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="anchor-prediction-0662" cx="1724.0" cy="268.0" rx="6.5" ry="6.5" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="anchor-prediction-0663" d="M 1778.000 222.000 L 1780.457 229.618 L 1788.462 229.601 L 1781.975 234.292 L 1784.466 241.899 L 1778.000 237.180 L 1771.534 241.899 L 1774.025 234.292 L 1767.538 229.601 L 1775.543 229.618 Z " fill="#F6B181" stroke="#895223" stroke-width="0.75" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="anchor-prediction-0664" x="1767" y="323" font-family="Times New Roman, Liberation Serif, serif" font-size="27" fill="#000000" font-weight="bold" font-style="italic" text-anchor="middle" xml:space="preserve">AND</text>
+<rect id="anchor-prediction-0665" x="1683" y="334" width="168" height="155" rx="0" fill="#FFFFFF" stroke="#80748F" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<rect id="anchor-prediction-0666" x="1683" y="334" width="168" height="31" rx="0" fill="#BEB5C9" stroke="#80748F" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="anchor-prediction-0667" x="1767" y="356" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#000000" font-weight="bold" font-style="normal" text-anchor="middle" xml:space="preserve">Length Covered</text>
+<rect id="anchor-prediction-0668" x="1698" y="375" width="80" height="14" rx="6" fill="#C8B99B" stroke="#8E7D61" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<rect id="anchor-prediction-0669" x="1698" y="398" width="55" height="14" rx="6" fill="#C8B99B" stroke="#8E7D61" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<rect id="anchor-prediction-0670" x="1698" y="421" width="99" height="14" rx="6" fill="#C8B99B" stroke="#8E7D61" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<rect id="anchor-prediction-0671" x="1698" y="444" width="63" height="14" rx="6" fill="#F6B181" stroke="#C75A08" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<ellipse id="anchor-prediction-0672" cx="1767.0" cy="512.0" rx="16.0" ry="16.0" fill="#548636" stroke="#FFFFFF" stroke-width="0.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="anchor-prediction-0673" d="M 1758.360 512.000 L 1765.240 518.400 L 1776.920 505.120" fill="none" stroke="#FFFFFF" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g id="legend-frame">
+<rect id="legend-frame-0674" x="1076" y="577" width="796" height="344" rx="0" fill="none" stroke="#000000" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="24 14"/>
+</g>
+<g id="prompt-example">
+<rect id="prompt-example-0675" x="1096" y="581" width="477" height="174" rx="0" fill="#DFEBF6" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<rect id="prompt-example-0676" x="1101" y="584" width="470" height="23" rx="0" fill="none" stroke="#203D67" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="12 6"/>
+<rect id="prompt-example-0677" x="1101" y="606" width="235" height="28" rx="0" fill="none" stroke="#203D67" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="12 6"/>
+<text id="prompt-example-0678" x="1102" y="603" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#203D67" font-weight="normal" font-style="italic" text-anchor="start" xml:space="preserve">You are a math expert. You will be given a math</text>
+<text id="prompt-example-0679" x="1102" y="628" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#203D67" font-weight="normal" font-style="italic" text-anchor="start" xml:space="preserve">problem ...Q:</text>
+<rect id="prompt-example-0680" x="1230" y="608" width="67" height="24" rx="0" fill="#FFFFFF" stroke="#EEF0F2" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<path id="prompt-example-0681" d="M 1232.000 613.000 L 1236.000 609.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0682" d="M 1232.000 617.000 L 1240.000 609.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0683" d="M 1232.000 621.000 L 1244.000 609.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0684" d="M 1232.000 625.000 L 1248.000 609.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0685" d="M 1232.000 629.000 L 1252.000 609.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0686" d="M 1234.000 631.000 L 1256.000 609.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0687" d="M 1238.000 631.000 L 1260.000 609.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0688" d="M 1242.000 631.000 L 1264.000 609.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0689" d="M 1246.000 631.000 L 1268.000 609.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0690" d="M 1250.000 631.000 L 1272.000 609.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0691" d="M 1254.000 631.000 L 1276.000 609.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0692" d="M 1258.000 631.000 L 1280.000 609.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0693" d="M 1262.000 631.000 L 1284.000 609.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0694" d="M 1266.000 631.000 L 1288.000 609.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0695" d="M 1270.000 631.000 L 1292.000 609.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0696" d="M 1274.000 631.000 L 1295.000 610.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0697" d="M 1278.000 631.000 L 1295.000 614.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0698" d="M 1282.000 631.000 L 1295.000 618.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0699" d="M 1286.000 631.000 L 1295.000 622.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0700" d="M 1290.000 631.000 L 1295.000 626.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0701" d="M 1294.000 631.000 L 1295.000 630.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="prompt-example-0702" x="1239.0646875" y="625.28" font-family="Times New Roman, Liberation Serif, serif" font-size="26" fill="#000000" font-weight="normal" font-style="italic" text-anchor="start" xml:space="preserve">ϕ</text>
+<text id="prompt-example-0703" x="1254.1446875" y="629.6999999999999" font-family="Times New Roman, Liberation Serif, serif" font-size="15.6" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(1, 1)</text>
+<rect id="prompt-example-0704" x="1334" y="605" width="82" height="23" rx="0" fill="#8EAADC" stroke="#F3F7FD" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="prompt-example-0705" x="1353.7475" y="618.8" font-family="Times New Roman, Liberation Serif, serif" font-size="21.75" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">p</text>
+<text id="prompt-example-0706" x="1365.9275" y="622.4975" font-family="Times New Roman, Liberation Serif, serif" font-size="14.000000000000002" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(1, 0)</text>
+<rect id="prompt-example-0707" x="1101" y="635" width="320" height="46" rx="0" fill="none" stroke="#203D67" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="12 6"/>
+<text id="prompt-example-0708" x="1102" y="651" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#203D67" font-weight="normal" font-style="italic" text-anchor="start" xml:space="preserve">Answers from other agents are:</text>
+<text id="prompt-example-0709" x="1102" y="675" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#203D67" font-weight="normal" font-style="italic" text-anchor="start" xml:space="preserve">Agent 2 as a mathematical analyst:</text>
+<rect id="prompt-example-0710" x="1424" y="658" width="66" height="25" rx="0" fill="#FFFFFF" stroke="#EEF0F2" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<path id="prompt-example-0711" d="M 1426.000 663.000 L 1430.000 659.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0712" d="M 1426.000 667.000 L 1434.000 659.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0713" d="M 1426.000 671.000 L 1438.000 659.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0714" d="M 1426.000 675.000 L 1442.000 659.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0715" d="M 1426.000 679.000 L 1446.000 659.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0716" d="M 1427.000 682.000 L 1450.000 659.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0717" d="M 1431.000 682.000 L 1454.000 659.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0718" d="M 1435.000 682.000 L 1458.000 659.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0719" d="M 1439.000 682.000 L 1462.000 659.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0720" d="M 1443.000 682.000 L 1466.000 659.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0721" d="M 1447.000 682.000 L 1470.000 659.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0722" d="M 1451.000 682.000 L 1474.000 659.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0723" d="M 1455.000 682.000 L 1478.000 659.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0724" d="M 1459.000 682.000 L 1482.000 659.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0725" d="M 1463.000 682.000 L 1486.000 659.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0726" d="M 1467.000 682.000 L 1488.000 661.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0727" d="M 1471.000 682.000 L 1488.000 665.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0728" d="M 1475.000 682.000 L 1488.000 669.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0729" d="M 1479.000 682.000 L 1488.000 673.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0730" d="M 1483.000 682.000 L 1488.000 677.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0731" d="M 1487.000 682.000 L 1488.000 681.000" fill="none" stroke="#A7C889" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="prompt-example-0732" x="1432.5646875" y="676.0" font-family="Times New Roman, Liberation Serif, serif" font-size="26" fill="#000000" font-weight="normal" font-style="italic" text-anchor="start" xml:space="preserve">ϕ</text>
+<text id="prompt-example-0733" x="1447.6446875" y="680.42" font-family="Times New Roman, Liberation Serif, serif" font-size="15.6" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(1, 2)</text>
+<text id="prompt-example-0734" x="1491" y="677" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#203D67" font-weight="normal" font-style="italic" text-anchor="start" xml:space="preserve">,</text>
+<path id="prompt-example-0735" d="M 1422.000 646.000 L 1424.000 646.000" fill="none" stroke="#203D67" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="5 3"/>
+<path id="prompt-example-0736" d="M 1437.000 646.000 L 1424.000 652.240 L 1424.000 639.760 Z " fill="#203D67" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="prompt-example-0737" x="1438" y="631" width="81" height="24" rx="0" fill="#8EAADC" stroke="#F3F7FD" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="prompt-example-0738" x="1456.3539" y="645.4" font-family="Times New Roman, Liberation Serif, serif" font-size="22.62" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">p</text>
+<text id="prompt-example-0739" x="1469.0211000000002" y="649.2454" font-family="Times New Roman, Liberation Serif, serif" font-size="14.560000000000002" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(1, 1)</text>
+<rect id="prompt-example-0740" x="1101" y="681" width="272" height="23" rx="0" fill="none" stroke="#203D67" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="12 6"/>
+<text id="prompt-example-0741" x="1102" y="699" font-family="Arial, Liberation Sans, sans-serif" font-size="21" fill="#203D67" font-weight="normal" font-style="italic" text-anchor="start" xml:space="preserve">The execution result is</text>
+<rect id="prompt-example-0742" x="1301" y="683" width="65" height="24" rx="0" fill="#FFFFFF" stroke="#EEF0F2" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<path id="prompt-example-0743" d="M 1303.000 688.000 L 1307.000 684.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0744" d="M 1303.000 692.000 L 1311.000 684.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0745" d="M 1303.000 696.000 L 1315.000 684.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0746" d="M 1303.000 700.000 L 1319.000 684.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0747" d="M 1303.000 704.000 L 1323.000 684.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0748" d="M 1305.000 706.000 L 1327.000 684.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0749" d="M 1309.000 706.000 L 1331.000 684.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0750" d="M 1313.000 706.000 L 1335.000 684.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0751" d="M 1317.000 706.000 L 1339.000 684.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0752" d="M 1321.000 706.000 L 1343.000 684.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0753" d="M 1325.000 706.000 L 1347.000 684.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0754" d="M 1329.000 706.000 L 1351.000 684.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0755" d="M 1333.000 706.000 L 1355.000 684.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0756" d="M 1337.000 706.000 L 1359.000 684.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0757" d="M 1341.000 706.000 L 1363.000 684.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0758" d="M 1345.000 706.000 L 1364.000 687.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0759" d="M 1349.000 706.000 L 1364.000 691.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0760" d="M 1353.000 706.000 L 1364.000 695.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0761" d="M 1357.000 706.000 L 1364.000 699.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0762" d="M 1361.000 706.000 L 1364.000 703.000" fill="none" stroke="#F0AD88" stroke-width="0.48" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="prompt-example-0763" x="1309.0646875" y="700.28" font-family="Times New Roman, Liberation Serif, serif" font-size="26" fill="#000000" font-weight="normal" font-style="italic" text-anchor="start" xml:space="preserve">ϕ</text>
+<text id="prompt-example-0764" x="1324.1446875" y="704.6999999999999" font-family="Times New Roman, Liberation Serif, serif" font-size="15.6" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(1, 3)</text>
+<path id="prompt-example-0765" d="M 1198.000 704.000 L 1198.000 708.000" fill="none" stroke="#203D67" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4"/>
+<path id="prompt-example-0766" d="M 1198.000 720.000 L 1192.240 708.000 L 1203.760 708.000 Z " fill="#203D67" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="prompt-example-0767" d="M 1375.000 681.000 L 1375.000 708.000" fill="none" stroke="#203D67" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4"/>
+<path id="prompt-example-0768" d="M 1375.000 720.000 L 1369.240 708.000 L 1380.760 708.000 Z " fill="#203D67" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="prompt-example-0769" x="1158" y="722" width="84" height="25" rx="0" fill="#8EAADC" stroke="#F3F7FD" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="prompt-example-0770" x="1177.8539" y="737.0" font-family="Times New Roman, Liberation Serif, serif" font-size="22.62" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">p</text>
+<text id="prompt-example-0771" x="1190.5211000000002" y="740.8454" font-family="Times New Roman, Liberation Serif, serif" font-size="14.560000000000002" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(1, 2)</text>
+<rect id="prompt-example-0772" x="1335" y="722" width="80" height="25" rx="0" fill="#8EAADC" stroke="#F3F7FD" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="prompt-example-0773" x="1352.8539" y="737.0" font-family="Times New Roman, Liberation Serif, serif" font-size="22.62" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">p</text>
+<text id="prompt-example-0774" x="1365.5211000000002" y="740.8454" font-family="Times New Roman, Liberation Serif, serif" font-size="14.560000000000002" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(1, 3)</text>
+<text id="prompt-example-0775" x="1450" y="744" font-family="Arial, Liberation Sans, sans-serif" font-size="28" fill="#000000" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">Example</text>
+</g>
+<g id="kv-symbol-legend">
+<rect id="kv-symbol-legend-0776" x="1110" y="765" width="80" height="34" rx="4" fill="#F6B181" stroke="#9D632D" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="kv-symbol-legend-0777" x="1120.3490625" y="789.48" font-family="Times New Roman, Liberation Serif, serif" font-size="31" fill="#000000" font-weight="normal" font-style="italic" text-anchor="start" xml:space="preserve">ϕ</text>
+<text id="kv-symbol-legend-0778" x="1138.3290625" y="794.75" font-family="Times New Roman, Liberation Serif, serif" font-size="18.599999999999998" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(m, i)</text>
+<text id="kv-symbol-legend-0779" x="1199" y="782" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">Estimated KV of the i-th (external input)</text>
+<text id="kv-symbol-legend-0780" x="1199" y="802" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">Placeholder of Agent m</text>
+<rect id="kv-symbol-legend-0781" x="1110" y="820" width="80" height="35" rx="4" fill="#A9D18E" stroke="#597A3E" stroke-width="0.8" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="kv-symbol-legend-0782" x="1120.3490625" y="845.2" font-family="Times New Roman, Liberation Serif, serif" font-size="31" fill="#000000" font-weight="normal" font-style="italic" text-anchor="start" xml:space="preserve">ϕ</text>
+<text id="kv-symbol-legend-0783" x="1138.3290625" y="850.47" font-family="Times New Roman, Liberation Serif, serif" font-size="18.599999999999998" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(m, i)</text>
+<text id="kv-symbol-legend-0784" x="1199" y="836" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">Estimated KV of the i-th (response)</text>
+<text id="kv-symbol-legend-0785" x="1199" y="856" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">Placeholder of Agent m</text>
+<rect id="kv-symbol-legend-0786" x="1110" y="874" width="80" height="35" rx="0" fill="#203D67" stroke="#A4BDD9" stroke-width="0.9" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="kv-symbol-legend-0787" x="1123.120275" y="895.0" font-family="Times New Roman, Liberation Serif, serif" font-size="26.97" fill="#FFFFFF" font-weight="bold" font-style="normal" text-anchor="start" xml:space="preserve">p</text>
+<text id="kv-symbol-legend-0788" x="1138.223475" y="899.5849" font-family="Times New Roman, Liberation Serif, serif" font-size="17.360000000000003" fill="#FFFFFF" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">(m, i)</text>
+<text id="kv-symbol-legend-0789" x="1199" y="891" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">Estimated KV of the i-th Prefix</text>
+<text id="kv-symbol-legend-0790" x="1199" y="911" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">Segment of Agent m</text>
+</g>
+<g id="symbol-legend">
+<text id="symbol-legend-0791" x="1720" y="620" font-family="Arial, Liberation Sans, sans-serif" font-size="46" fill="#000000" font-weight="bold" font-style="normal" text-anchor="middle" xml:space="preserve">Legend</text>
+<path id="symbol-legend-0792" d="M 1609.000 650.000 L 1611.457 657.618 L 1619.462 657.601 L 1612.975 662.292 L 1615.466 669.899 L 1609.000 665.180 L 1602.534 669.899 L 1605.025 662.292 L 1598.538 657.601 L 1606.543 657.618 Z " fill="#F6B181" stroke="#895223" stroke-width="0.75" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="symbol-legend-0793" x="1635" y="656" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">Queried (external input)</text>
+<text id="symbol-legend-0794" x="1635" y="676" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">Placeholder</text>
+<path id="symbol-legend-0795" d="M 1609.000 698.000 L 1611.457 705.618 L 1619.462 705.601 L 1612.975 710.292 L 1615.466 717.899 L 1609.000 713.180 L 1602.534 717.899 L 1605.025 710.292 L 1598.538 705.601 L 1606.543 705.618 Z " fill="#A9D18E" stroke="#4D7335" stroke-width="0.75" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="symbol-legend-0796" x="1635" y="707" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">Queried (response)</text>
+<text id="symbol-legend-0797" x="1635" y="727" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">Placeholder</text>
+<ellipse id="symbol-legend-0798" cx="1609.0" cy="757.0" rx="10.5" ry="10.5" fill="#BDAA8B" stroke="none" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="symbol-legend-0799" x="1635" y="757" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">KV Anchor of the</text>
+<text id="symbol-legend-0800" x="1635" y="777" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">Placeholder</text>
+<ellipse id="symbol-legend-0801" cx="1609.0" cy="807.0" rx="16.5" ry="16.5" fill="#DCE2F3" stroke="#D8D9E0" stroke-width="0.7" stroke-linejoin="round" stroke-linecap="round" filter="url(#shadow)"/>
+<text id="symbol-legend-0802" x="1635" y="814" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">Anchor Hit Range</text>
+<ellipse id="symbol-legend-0803" cx="1609.0" cy="852.0" rx="16.0" ry="16.0" fill="#C75A08" stroke="#FFFFFF" stroke-width="0.45" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="symbol-legend-0804" d="M 1601.160 852.000 L 1616.840 852.000" fill="none" stroke="#FFFFFF" stroke-width="2.1" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="symbol-legend-0805" d="M 1609.000 844.160 L 1609.000 859.840" fill="none" stroke="#FFFFFF" stroke-width="2.1" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="symbol-legend-0806" x="1635" y="859" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">Add as a New Anchor</text>
+<ellipse id="symbol-legend-0807" cx="1609.0" cy="890.0" rx="16.0" ry="16.0" fill="#548636" stroke="#FFFFFF" stroke-width="0.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path id="symbol-legend-0808" d="M 1600.360 890.000 L 1607.240 896.400 L 1618.920 883.120" fill="none" stroke="#FFFFFF" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="symbol-legend-0809" x="1635" y="897" font-family="Arial, Liberation Sans, sans-serif" font-size="20" fill="#000000" font-weight="normal" font-style="normal" text-anchor="start" xml:space="preserve">Sharable placeholder</text>
+</g>
+</svg>

@@ -1,0 +1,474 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="930" viewBox="0 0 1600 930">
+<defs><filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="4" stdDeviation="3" flood-color="#000" flood-opacity=".20"/></filter></defs>
+<rect width="1600" height="930" fill="#ffffff"/>
+<rect x="8" y="10" width="1584" height="47" rx="1" ry="1" fill="#f0f8ea" stroke="#9d9d9d" stroke-width="2.5"/>
+<text x="800.0" y="43.7" text-anchor="middle" font-family="Liberation Serif" font-size="30" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">FakeVV Dataset Construction Process</text>
+<rect x="8" y="70" width="288" height="213" rx="10" ry="10" fill="#ffffff" stroke="#9d9d9d" stroke-width="2.5"/>
+<ellipse cx="47.0" cy="106.0" rx="24.0" ry="24.0" fill="#f8fbff" stroke="#63718b" stroke-width="2"/>
+<ellipse cx="47.0" cy="106.0" rx="10.0" ry="24.0" fill="#f8fbff" stroke="#63718b" stroke-width="1.5"/>
+<line x1="25" y1="98" x2="69" y2="98" stroke="#63718b" stroke-width="1.5"/>
+<line x1="25" y1="114" x2="69" y2="114" stroke="#63718b" stroke-width="1.5"/>
+<line x1="47" y1="82" x2="47" y2="130" stroke="#63718b" stroke-width="1.5"/>
+<ellipse cx="65.5" cy="117.5" rx="10.5" ry="10.5" fill="#fff4be" fill-opacity="0.85" stroke="#d1aa55" stroke-width="2"/>
+<line x1="71" y1="125" x2="82" y2="136" stroke="#63718b" stroke-width="4"/>
+<text x="88" y="101.16" text-anchor="start" font-family="Liberation Serif" font-size="24" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">Data Collection</text>
+<text x="88" y="131.82" text-anchor="start" font-family="Liberation Serif" font-size="23" font-weight="400" font-style="normal" fill="#111111" fill-opacity="1">120,000 raw data</text>
+<text x="23" y="168.16" text-anchor="start" font-family="Liberation Serif" font-size="24" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">Sources:</text>
+<rect x="17" y="189" width="34" height="19" rx="5" ry="5" fill="#f10d19" stroke="#f10d19" stroke-width="1"/>
+<polygon points="29,193 29,204 39,198.5" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<text x="54" y="204.62" text-anchor="start" font-family="Arial" font-size="18" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">YouTube</text>
+<rect x="128" y="171" width="18" height="25" fill="#c81019" stroke="#c81019" stroke-width="0"/>
+<text x="137.0" y="187.92" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" font-style="normal" fill="#ffffff" fill-opacity="1">B</text>
+<rect x="148" y="171" width="18" height="25" fill="#c81019" stroke="#c81019" stroke-width="0"/>
+<text x="157.0" y="187.92" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" font-style="normal" fill="#ffffff" fill-opacity="1">B</text>
+<rect x="168" y="171" width="18" height="25" fill="#c81019" stroke="#c81019" stroke-width="0"/>
+<text x="177.0" y="187.92" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" font-style="normal" fill="#ffffff" fill-opacity="1">C</text>
+<text x="156.0" y="209.1" text-anchor="middle" font-family="Arial" font-size="15" font-weight="700" font-style="normal" fill="#c81019" fill-opacity="1">NEWS</text>
+<text x="240.5" y="200.9" text-anchor="middle" font-family="Arial" font-size="35" font-weight="700" font-style="normal" fill="#e51519" fill-opacity="1">CNN</text>
+<text x="76.0" y="241.5" text-anchor="middle" font-family="Liberation Serif" font-size="25" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">
+<tspan x="76.0" dy="0">The</tspan>
+<tspan x="76.0" dy="28.000000000000004">Guardian</tspan>
+</text>
+<text x="175.0" y="262.46" text-anchor="middle" font-family="Liberation Serif" font-size="44" font-weight="700" font-style="italic" fill="#111111" fill-opacity="1">T</text>
+<polygon points="307,136 314,136 321,176 314,216 307,216 313,176" fill="#858585" stroke="#858585" stroke-width="1"/>
+<rect x="322" y="70" width="284" height="213" rx="10" ry="10" fill="#ffffff" stroke="#9d9d9d" stroke-width="2.5"/>
+<rect x="338" y="89" width="40" height="37" fill="#ffffff" stroke="#6e6e6e" stroke-width="2"/>
+<ellipse cx="358.0" cy="89.0" rx="20.0" ry="7.0" fill="#ffffff" stroke="#6e6e6e" stroke-width="2"/>
+<ellipse cx="358.0" cy="126.0" rx="20.0" ry="7.0" fill="#ffffff" stroke="#6e6e6e" stroke-width="2"/>
+<line x1="338" y1="104" x2="378" y2="104" stroke="#6e6e6e" stroke-width="1.5"/>
+<polygon points="363,111 387,111 379,121 379,137 372,132 372,121" fill="#ffffff" stroke="#6e6e6e" stroke-width="2"/>
+<text x="404" y="102.16" text-anchor="start" font-family="Liberation Serif" font-size="24" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">Data Filtering</text>
+<text x="404" y="121.88" text-anchor="start" font-family="Liberation Serif" font-size="21" font-weight="400" font-style="normal" fill="#111111" fill-opacity="1">
+<tspan x="404" dy="0">Retain high-quality</tspan>
+<tspan x="404" dy="23.520000000000003">news samples</tspan>
+</text>
+<text x="330" y="173.82" text-anchor="start" font-family="Liberation Serif" font-size="23" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">Filtering target:</text>
+<text x="329" y="209.68" text-anchor="start" font-family="Liberation Serif" font-size="19" font-weight="400" font-style="normal" fill="#111111" fill-opacity="1">
+<tspan x="329" dy="0">•   Noise Information</tspan>
+<tspan x="329" dy="21.28">•   Duplicate data</tspan>
+<tspan x="329" dy="21.28">•   Video length within 5 minutes</tspan>
+</text>
+<polygon points="615,136 622,136 629,176 622,216 615,216 621,176" fill="#858585" stroke="#858585" stroke-width="1"/>
+<rect x="630" y="70" width="437" height="213" rx="10" ry="10" fill="#ffffff" stroke="#9d9d9d" stroke-width="2.5"/>
+<rect x="640" y="87" width="48" height="43" fill="#ffffff" stroke="#6e6e6e" stroke-width="2"/>
+<ellipse cx="664.0" cy="87.0" rx="24.0" ry="7.0" fill="#ffffff" stroke="#6e6e6e" stroke-width="2"/>
+<ellipse cx="664.0" cy="130.0" rx="24.0" ry="7.0" fill="#ffffff" stroke="#6e6e6e" stroke-width="2"/>
+<line x1="640" y1="102" x2="688" y2="102" stroke="#6e6e6e" stroke-width="1.5"/>
+<text x="698" y="101.48" text-anchor="start" font-family="Liberation Serif" font-size="22" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">Data Processing</text>
+<rect x="638" y="139" width="141" height="132" rx="10" ry="10" fill="#f9fbfd" stroke="#6e6e6e" stroke-width="2"/>
+<rect x="648" y="149" width="123" height="52" rx="5" ry="5" fill="#eef2f5" stroke="#111111" stroke-width="2"/>
+<text x="660" y="171.26" text-anchor="start" font-family="Arial" font-size="17" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">
+<tspan x="660" dy="0">News Title,</tspan>
+<tspan x="660" dy="19.040000000000003">Visual Entity</tspan>
+</text>
+<rect x="677" y="206" width="67" height="48" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+<polygon points="683,247 695,224 705,236 716,215 738,247" fill="#2d2d3a" stroke="#2d2d3a" stroke-width="1"/>
+<text x="708.5" y="264.44" text-anchor="middle" font-family="Liberation Serif" font-size="16" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">Video Frames</text>
+<line x1="786" y1="204" x2="804.8" y2="204.0" stroke="#111111" stroke-width="3"/><polygon points="818,204 804.8,211.0 804.8,197.0" fill="#111111"/>
+<ellipse cx="867.6" cy="101.8" rx="9.600000000000001" ry="10.8" fill="#ffffff" stroke="#6e6e6e" stroke-width="2"/>
+<line x1="863.6" y1="112.6" x2="871.6" y2="112.6" stroke="#6e6e6e" stroke-width="2"/>
+<line x1="864.4" y1="115.8" x2="870.8" y2="115.8" stroke="#6e6e6e" stroke-width="2"/>
+<line x1="883.6" y1="101.4" x2="888.4" y2="101.4" stroke="#6e6e6e" stroke-width="1.5"/>
+<line x1="878.9137084989848" y1="112.71370849898477" x2="882.3078210486802" y2="116.1078210486802" stroke="#6e6e6e" stroke-width="1.5"/>
+<line x1="867.6" y1="117.4" x2="867.6" y2="122.2" stroke="#6e6e6e" stroke-width="1.5"/>
+<line x1="856.2862915010153" y1="112.71370849898477" x2="852.8921789513198" y2="116.1078210486802" stroke="#6e6e6e" stroke-width="1.5"/>
+<line x1="851.6" y1="101.4" x2="846.8000000000001" y2="101.4" stroke="#6e6e6e" stroke-width="1.5"/>
+<line x1="856.2862915010153" y1="90.08629150101524" x2="852.8921789513198" y2="86.69217895131982" stroke="#6e6e6e" stroke-width="1.5"/>
+<line x1="867.6" y1="85.4" x2="867.6" y2="80.60000000000001" stroke="#6e6e6e" stroke-width="1.5"/>
+<line x1="878.9137084989848" y1="90.08629150101524" x2="882.3078210486802" y2="86.69217895131982" stroke="#6e6e6e" stroke-width="1.5"/>
+<text x="883" y="107.76" text-anchor="start" font-family="Arial" font-size="17" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">
+<tspan x="883" dy="0">Designed</tspan>
+<tspan x="883" dy="19.040000000000003">Prompt</tspan>
+</text>
+<line x1="866" y1="146" x2="866.0" y2="158.8" stroke="#111111" stroke-width="3"/><polygon points="866,172 859.0,158.8 873.0,158.8" fill="#111111"/>
+<rect x="838" y="177" width="45.919999999999995" height="45.919999999999995" rx="5.739999999999999" ry="5.739999999999999" fill="#65a99c" stroke="#65a99c" stroke-width="1"/>
+<ellipse cx="869.98" cy="199.96" rx="8.2" ry="5.739999999999999" fill="#65a99c" stroke="#ffffff" stroke-width="1.64"/>
+<ellipse cx="865.47" cy="207.77154914213565" rx="8.2" ry="5.739999999999999" fill="#65a99c" stroke="#ffffff" stroke-width="1.64"/>
+<ellipse cx="856.45" cy="207.77154914213565" rx="8.2" ry="5.739999999999999" fill="#65a99c" stroke="#ffffff" stroke-width="1.64"/>
+<ellipse cx="851.94" cy="199.96" rx="8.2" ry="5.739999999999999" fill="#65a99c" stroke="#ffffff" stroke-width="1.64"/>
+<ellipse cx="856.45" cy="192.14845085786436" rx="8.2" ry="5.739999999999999" fill="#65a99c" stroke="#ffffff" stroke-width="1.64"/>
+<ellipse cx="865.47" cy="192.14845085786436" rx="8.2" ry="5.739999999999999" fill="#65a99c" stroke="#ffffff" stroke-width="1.64"/>
+<ellipse cx="860.96" cy="199.96" rx="3.28" ry="3.28" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<text x="860.6" y="236.12199999999999" text-anchor="middle" font-family="Arial" font-size="12.299999999999999" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">GPT-4o</text>
+<line x1="875" y1="205" x2="902.8" y2="205.0" stroke="#111111" stroke-width="3"/><polygon points="916,205 902.8,212.0 902.8,198.0" fill="#111111"/>
+<rect x="919" y="166" width="138" height="83" rx="10" ry="10" fill="#a8cbe9" stroke="#d8ebfb" stroke-width="3"/>
+<text x="988.0" y="203.32000000000002" text-anchor="middle" font-family="Arial" font-size="19" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">
+<tspan x="988.0" dy="0">News-domain</tspan>
+<tspan x="988.0" dy="21.28">Video Caption</tspan>
+</text>
+<polygon points="1072,140 1079,140 1086,176 1079,212 1072,212 1078,176" fill="#858585" stroke="#858585" stroke-width="1"/>
+<rect x="1087" y="70" width="505" height="213" rx="10" ry="10" fill="#ffffff" stroke="#9d9d9d" stroke-width="2.5"/>
+<rect x="1099" y="76" width="54" height="34" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+<text x="1118.0" y="98.98" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">▥</text>
+<ellipse cx="1140.0" cy="89.0" rx="7.0" ry="7.0" fill="#ffffff" stroke="#111111" stroke-width="1.5"/>
+<text x="1168" y="102.82" text-anchor="start" font-family="Liberation Serif" font-size="23" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">Misinformation Data Construction</text>
+<text x="1131.0" y="144.26" text-anchor="middle" font-family="Liberation Serif" font-size="14" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">Video news</text>
+<rect x="1100" y="154.1" width="38.25" height="25.5" rx="5.1" ry="5.1" fill="#7f78cf" stroke="#7f78cf" stroke-width="1"/>
+<polygon points="1138.25,159.2 1151.85,153.25 1151.85,180.45 1138.25,174.5" fill="#7f78cf" stroke="#7f78cf" stroke-width="1"/>
+<polygon points="1115.3,160.05 1115.3,173.65 1127.2,166.85" fill="#c7c5ef" stroke="#c7c5ef" stroke-width="1"/>
+<line x1="1163" y1="172" x2="1187.8" y2="172.0" stroke="#111111" stroke-width="3"/><polygon points="1201,172 1187.8,179.0 1187.8,165.0" fill="#111111"/>
+<line x1="1118" y1="189" x2="1118.0" y2="201.2" stroke="#111111" stroke-width="2"/><polygon points="1118,213 1112.0,201.2 1124.0,201.2" fill="#111111"/>
+<text x="1122" y="205.76" text-anchor="start" font-family="Arial" font-size="14" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">Retrieve</text>
+<rect x="1096" y="223" width="42" height="36" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+<ellipse cx="1117.0" cy="223.0" rx="21.0" ry="7.0" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+<ellipse cx="1117.0" cy="259.0" rx="21.0" ry="7.0" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+<line x1="1096" y1="238" x2="1138" y2="238" stroke="#111111" stroke-width="1.5"/>
+<text x="1126.0" y="273.4" text-anchor="middle" font-family="Arial" font-size="10" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">News Database</text>
+<line x1="1142" y1="241" x2="1186.8" y2="241.0" stroke="#111111" stroke-width="3"/><polygon points="1200,241 1186.8,248.0 1186.8,234.0" fill="#111111"/>
+<rect x="1207" y="143" width="114" height="50" rx="8" ry="8" fill="#f3f5f6" stroke="#111111" stroke-width="2"/>
+<text x="1264.0" y="173.62" text-anchor="middle" font-family="Arial" font-size="18" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">News Title</text>
+<text x="1264.5" y="220.22" text-anchor="middle" font-family="Arial" font-size="33" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">+</text>
+<rect x="1207" y="218" width="114" height="50" rx="8" ry="8" fill="#f5faea" stroke="#111111" stroke-width="2"/>
+<text x="1264.0" y="239.2" text-anchor="middle" font-family="Arial" font-size="15" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">
+<tspan x="1264.0" dy="0">Top k Similar</tspan>
+<tspan x="1264.0" dy="16.8">News Titles</tspan>
+</text>
+<line x1="1324" y1="209" x2="1339.8" y2="209.0" stroke="#111111" stroke-width="3"/><polygon points="1353,209 1339.8,216.0 1339.8,202.0" fill="#111111"/>
+<ellipse cx="1328.64" cy="114.72" rx="8.64" ry="9.719999999999999" fill="#ffffff" stroke="#6e6e6e" stroke-width="2"/>
+<line x1="1325.04" y1="124.44" x2="1332.24" y2="124.44" stroke="#6e6e6e" stroke-width="2"/>
+<line x1="1325.76" y1="127.32" x2="1331.52" y2="127.32" stroke="#6e6e6e" stroke-width="2"/>
+<line x1="1343.0400000000002" y1="114.36" x2="1347.3600000000001" y2="114.36" stroke="#6e6e6e" stroke-width="1.5"/>
+<line x1="1338.8223376490864" y1="124.54233764908628" x2="1341.8770389438123" y2="127.59703894381217" stroke="#6e6e6e" stroke-width="1.5"/>
+<line x1="1328.64" y1="128.76" x2="1328.64" y2="133.07999999999998" stroke="#6e6e6e" stroke-width="1.5"/>
+<line x1="1318.4576623509138" y1="124.54233764908628" x2="1315.402961056188" y2="127.59703894381217" stroke="#6e6e6e" stroke-width="1.5"/>
+<line x1="1314.24" y1="114.36" x2="1309.92" y2="114.36" stroke="#6e6e6e" stroke-width="1.5"/>
+<line x1="1318.4576623509138" y1="104.17766235091372" x2="1315.402961056188" y2="101.12296105618783" stroke="#6e6e6e" stroke-width="1.5"/>
+<line x1="1328.64" y1="99.96000000000001" x2="1328.64" y2="95.64" stroke="#6e6e6e" stroke-width="1.5"/>
+<line x1="1338.8223376490864" y1="104.1776623509137" x2="1341.8770389438123" y2="101.12296105618783" stroke="#6e6e6e" stroke-width="1.5"/>
+<text x="1350" y="126.69999999999999" text-anchor="start" font-family="Arial" font-size="15" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">
+<tspan x="1350" dy="0">Designed</tspan>
+<tspan x="1350" dy="16.8">Prompt</tspan>
+</text>
+<line x1="1380" y1="155" x2="1380.0" y2="164.8" stroke="#111111" stroke-width="3"/><polygon points="1380,178 1373.0,164.8 1387.0,164.8" fill="#111111"/>
+<rect x="1356" y="180" width="45.919999999999995" height="45.919999999999995" rx="5.739999999999999" ry="5.739999999999999" fill="#65a99c" stroke="#65a99c" stroke-width="1"/>
+<ellipse cx="1387.98" cy="202.96" rx="8.2" ry="5.739999999999999" fill="#65a99c" stroke="#ffffff" stroke-width="1.64"/>
+<ellipse cx="1383.47" cy="210.77154914213565" rx="8.2" ry="5.739999999999999" fill="#65a99c" stroke="#ffffff" stroke-width="1.64"/>
+<ellipse cx="1374.45" cy="210.77154914213565" rx="8.2" ry="5.739999999999999" fill="#65a99c" stroke="#ffffff" stroke-width="1.64"/>
+<ellipse cx="1369.94" cy="202.96" rx="8.2" ry="5.739999999999999" fill="#65a99c" stroke="#ffffff" stroke-width="1.64"/>
+<ellipse cx="1374.45" cy="195.14845085786436" rx="8.2" ry="5.739999999999999" fill="#65a99c" stroke="#ffffff" stroke-width="1.64"/>
+<ellipse cx="1383.47" cy="195.14845085786436" rx="8.2" ry="5.739999999999999" fill="#65a99c" stroke="#ffffff" stroke-width="1.64"/>
+<ellipse cx="1378.96" cy="202.96" rx="3.28" ry="3.28" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<text x="1378.6" y="239.12199999999999" text-anchor="middle" font-family="Arial" font-size="12.299999999999999" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">GPT-4o</text>
+<line x1="1408" y1="208" x2="1421.8" y2="208.0" stroke="#111111" stroke-width="3"/><polygon points="1435,208 1421.8,215.0 1421.8,201.0" fill="#111111"/>
+<rect x="1445" y="110" width="143" height="71" rx="7" ry="7" fill="#fffdf4" stroke="#6e6e6e" stroke-width="2"/>
+<rect x="1445" y="110" width="143" height="25" rx="6" ry="6" fill="#a9cceb" stroke="#6e6e6e" stroke-width="2"/>
+<text x="1516.5" y="128.28" text-anchor="middle" font-family="Liberation Serif" font-size="17" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">Forged News</text>
+<text x="1517.5" y="154.48" text-anchor="middle" font-family="Liberation Serif" font-size="16" font-weight="400" font-style="normal" fill="#111111" fill-opacity="1">
+<tspan x="1517.5" dy="0">Four types of</tspan>
+<tspan x="1517.5" dy="17.92">entity replacing</tspan>
+</text>
+<rect x="1445" y="187" width="143" height="75" rx="7" ry="7" fill="#fffdf4" stroke="#6e6e6e" stroke-width="2"/>
+<rect x="1445" y="187" width="143" height="27" rx="6" ry="6" fill="#dff1d6" stroke="#6e6e6e" stroke-width="2"/>
+<text x="1516.5" y="205.44" text-anchor="middle" font-family="Liberation Serif" font-size="16" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">Interpretability</text>
+<text x="1456" y="234.7" text-anchor="start" font-family="Liberation Serif" font-size="15" font-weight="400" font-style="normal" fill="#111111" fill-opacity="1">
+<tspan x="1456" dy="0">•   Fake entity</tspan>
+<tspan x="1456" dy="16.8">•   Forged type</tspan>
+</text>
+<rect x="8" y="296" width="1584" height="45" rx="1" ry="1" fill="#eef1f9" stroke="#9d9d9d" stroke-width="2.5"/>
+<text x="800.0" y="328.7" text-anchor="middle" font-family="Liberation Serif" font-size="30" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">Fact-R1 Pipeline</text>
+<rect x="8" y="352" width="478" height="570" rx="10" ry="10" fill="#ffffff" stroke="#9d9d9d" stroke-width="2.5"/>
+<rect x="8" y="352" width="478" height="34" rx="9" ry="9" fill="#fffef0" stroke="#9d9d9d" stroke-width="2"/>
+<text x="247.0" y="377.16" text-anchor="middle" font-family="Liberation Serif" font-size="24" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">Long-CoT Instruction Tuning</text>
+<text x="20" y="416.98" text-anchor="start" font-family="Liberation Serif" font-size="22" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">(a) Misinformation Long-cot Generation</text>
+<rect x="22" y="451" width="126" height="62" rx="7" ry="7" fill="#b9d7ef" stroke="#dcecf9" stroke-width="3"/>
+<text x="27" y="477.76" text-anchor="start" font-family="Arial" font-size="17" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">
+<tspan x="27" dy="0">News-domain</tspan>
+<tspan x="27" dy="19.040000000000003">Video Caption</tspan>
+</text>
+<rect x="22" y="518" width="126" height="37" rx="7" ry="7" fill="#b9d7ef" stroke="#dcecf9" stroke-width="3"/>
+<text x="28" y="542.28" text-anchor="start" font-family="Arial" font-size="17" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">News Audio</text>
+<rect x="22" y="560" width="126" height="37" rx="7" ry="7" fill="#b9d7ef" stroke="#dcecf9" stroke-width="3"/>
+<text x="28" y="584.28" text-anchor="start" font-family="Arial" font-size="17" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">News Title</text>
+<line x1="150" y1="523" x2="168.8" y2="523.0" stroke="#111111" stroke-width="3"/><polygon points="182,523 168.8,530.0 168.8,516.0" fill="#111111"/>
+<ellipse cx="164.16" cy="438.18" rx="8.16" ry="9.180000000000001" fill="#ffffff" stroke="#6e6e6e" stroke-width="2"/>
+<line x1="160.76" y1="447.36" x2="167.56" y2="447.36" stroke="#6e6e6e" stroke-width="2"/>
+<line x1="161.44" y1="450.08" x2="166.88" y2="450.08" stroke="#6e6e6e" stroke-width="2"/>
+<line x1="177.76" y1="437.84" x2="181.84" y2="437.84" stroke="#6e6e6e" stroke-width="1.5"/>
+<line x1="173.77665222413705" y1="447.45665222413703" x2="176.66164789137815" y2="450.34164789137816" stroke="#6e6e6e" stroke-width="1.5"/>
+<line x1="164.16" y1="451.44" x2="164.16" y2="455.52" stroke="#6e6e6e" stroke-width="1.5"/>
+<line x1="154.54334777586294" y1="447.45665222413703" x2="151.65835210862184" y2="450.34164789137816" stroke="#6e6e6e" stroke-width="1.5"/>
+<line x1="150.56" y1="437.84" x2="146.48" y2="437.84" stroke="#6e6e6e" stroke-width="1.5"/>
+<line x1="154.54334777586294" y1="428.2233477758629" x2="151.65835210862184" y2="425.3383521086218" stroke="#6e6e6e" stroke-width="1.5"/>
+<line x1="164.16" y1="424.23999999999995" x2="164.16" y2="420.15999999999997" stroke="#6e6e6e" stroke-width="1.5"/>
+<line x1="173.77665222413705" y1="428.2233477758629" x2="176.66164789137815" y2="425.3383521086218" stroke="#6e6e6e" stroke-width="1.5"/>
+<text x="187" y="443.26" text-anchor="start" font-family="Arial" font-size="17" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">
+<tspan x="187" dy="0">Designed</tspan>
+<tspan x="187" dy="19.040000000000003">Prompt</tspan>
+</text>
+<line x1="214" y1="473" x2="214.0" y2="479.8" stroke="#111111" stroke-width="3"/><polygon points="214,493 207.0,479.8 221.0,479.8" fill="#111111"/>
+<ellipse cx="215.0" cy="517.5" rx="31.0" ry="20.5" fill="#476fe9" stroke="#476fe9" stroke-width="1"/>
+<polygon points="184,512 170,503 176,520 169,531 190,527" fill="#476fe9" stroke="#476fe9" stroke-width="1"/>
+<ellipse cx="234.0" cy="506.0" rx="4.0" ry="4.0" fill="#ffffff" stroke="#ffffff" stroke-width="1"/>
+<ellipse cx="234.5" cy="505.5" rx="1.5" ry="1.5" fill="#111111" stroke="#111111" stroke-width="1"/>
+<text x="215.0" y="551.08" text-anchor="middle" font-family="Arial" font-size="12" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">DeepSeek-R1</text>
+<line x1="249" y1="520" x2="265.8" y2="520.0" stroke="#111111" stroke-width="3"/><polygon points="279,520 265.8,527.0 265.8,513.0" fill="#111111"/>
+<text x="382.0" y="444.54" text-anchor="middle" font-family="Arial" font-size="18" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">
+<tspan x="382.0" dy="0">Misinformation</tspan>
+<tspan x="382.0" dy="20.160000000000004">Long-cot Data</tspan>
+</text>
+<rect x="283" y="482" width="184" height="67" rx="8" ry="8" fill="#b7d6ee" stroke="#dcecf9" stroke-width="3"/>
+<text x="375.0" y="511.76" text-anchor="middle" font-family="Arial" font-size="17" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">
+<tspan x="375.0" dy="0">&lt;think&gt;... &lt;think&gt;</tspan>
+<tspan x="375.0" dy="19.040000000000003">&lt;answer&gt;...&lt;/answer&gt;</tspan>
+</text>
+<ellipse cx="319.0" cy="563.0" rx="9.0" ry="9.0" fill="#09a868" stroke="#09a868" stroke-width="1"/>
+<line x1="314" y1="563" x2="318" y2="567" stroke="#ffffff" stroke-width="2"/>
+<line x1="318" y1="567" x2="325" y2="559" stroke="#ffffff" stroke-width="2"/>
+<text x="334" y="568.28" text-anchor="start" font-family="Arial" font-size="17" font-weight="700" font-style="normal" fill="#00aa63" fill-opacity="1">Label</text>
+<ellipse cx="319.0" cy="590.0" rx="9.0" ry="9.0" fill="#09a868" stroke="#09a868" stroke-width="1"/>
+<line x1="314" y1="590" x2="318" y2="594" stroke="#ffffff" stroke-width="2"/>
+<line x1="318" y1="594" x2="325" y2="586" stroke="#ffffff" stroke-width="2"/>
+<text x="334" y="595.28" text-anchor="start" font-family="Arial" font-size="17" font-weight="700" font-style="normal" fill="#00aa63" fill-opacity="1">Explainability</text>
+<text x="20" y="641.32" text-anchor="start" font-family="Liberation Serif" font-size="23" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">(b) Thinking SFT</text>
+<text x="333.0" y="666.1" text-anchor="middle" font-family="Liberation Serif" font-size="15" font-weight="400" font-style="normal" fill="#111111" fill-opacity="1">Generation: &lt;think&gt;\nThe video…</text>
+<line x1="350" y1="690" x2="350.0" y2="682.2" stroke="#3a92d8" stroke-width="3"/><polygon points="350,669 357.0,682.2 343.0,682.2" fill="#3a92d8"/>
+<rect x="26" y="692" width="445" height="50" rx="8" ry="8" fill="#d9e9f7" stroke="#edf4fa" stroke-width="2"/>
+<rect x="28" y="696" width="78" height="35" rx="7" ry="7" fill="#f4bea0" stroke="#ee8b2b" stroke-width="1.5"/>
+<polygon points="35,722 40,708 45,714 49,700 55,713 52,724" fill="#ee8b2b" stroke="#ee8b2b" stroke-width="1"/>
+<text x="76.5" y="718.44" text-anchor="middle" font-family="Arial" font-size="16" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">LoRA</text>
+<text x="118" y="724.32" text-anchor="start" font-family="Liberation Serif" font-size="23" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">Large Language Model</text>
+<line x1="128" y1="790" x2="128.0" y2="758.6" stroke="#3a92d8" stroke-width="4"/><polygon points="128,744 136.0,758.6 120.0,758.6" fill="#3a92d8"/>
+<line x1="346" y1="790" x2="346.0" y2="758.6" stroke="#3a92d8" stroke-width="4"/><polygon points="346,744 354.0,758.6 338.0,758.6" fill="#3a92d8"/>
+<rect x="42" y="770" width="178" height="37" rx="6" ry="6" fill="#dedede" stroke="#dedede" stroke-width="1" filter="url(#shadow)"/>
+<text x="131.0" y="793.96" text-anchor="middle" font-family="Liberation Serif" font-size="19" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">🔥  Projector</text>
+<rect x="255" y="770" width="171" height="37" rx="6" ry="6" fill="#d6e5f3" stroke="#d6e5f3" stroke-width="1" filter="url(#shadow)"/>
+<text x="340.5" y="794.3" text-anchor="middle" font-family="Liberation Serif" font-size="20" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">Embedding</text>
+<rect x="42" y="814" width="178" height="36" rx="6" ry="6" fill="#f5f5f5" stroke="#dddddd" stroke-width="1" filter="url(#shadow)"/>
+<text x="131.0" y="837.12" text-anchor="middle" font-family="Liberation Serif" font-size="18" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">❄ Visual Encoder</text>
+<rect x="70" y="857" width="108" height="55" rx="1" ry="1" fill="#132033" stroke="#172a44" stroke-width="1"/>
+<rect x="70" y="857" width="108" height="9" fill="#d71920" stroke="#d71920" stroke-width="0"/>
+<rect x="70" y="898" width="108" height="14" fill="#be1720" stroke="#be1720" stroke-width="0"/>
+<ellipse cx="125.62" cy="884.1" rx="13.5" ry="12.1" fill="#e7b8a4" stroke="#c98f7a" stroke-width="1"/>
+<rect x="82.96" y="874" width="19.439999999999998" height="13.75" fill="#273c57" stroke="#273c57" stroke-width="0"/>
+<rect x="144.51999999999998" y="872" width="21.6" height="15.95" fill="#344b65" stroke="#344b65" stroke-width="0"/>
+<text x="124.0" y="905.38" text-anchor="middle" font-family="Arial" font-size="7" font-weight="700" font-style="normal" fill="#ffffff" fill-opacity="1">BREAKING NEWS</text>
+<polygon points="236,826.0 242.0,826.0 248.0,820 248.0,838.0 242.0,832.0 236,832.0" fill="#111111" stroke="#111111" stroke-width="1"/>
+<line x1="251.0" y1="824.5" x2="254.0" y2="829.0" stroke="#111111" stroke-width="1.5"/>
+<line x1="254.0" y1="829.0" x2="251.0" y2="833.5" stroke="#111111" stroke-width="1.5"/>
+<text x="257" y="835.7" text-anchor="start" font-family="Arial" font-size="12" font-weight="400" font-style="italic" fill="#111111" fill-opacity="1">
+<tspan x="257" dy="0">News title:</tspan>
+<tspan x="257" dy="13.440000000000001">The news title is &#x27;British man captur-</tspan>
+<tspan x="257" dy="13.440000000000001">ed while fighting with Russia.&#x27;, the</tspan>
+<tspan x="257" dy="13.440000000000001">news audio is &#x27;British foreign..&#x27; is this</tspan>
+<tspan x="257" dy="13.440000000000001">multimodal content manipulated?</tspan>
+</text>
+<polygon points="496,625 521,625 521,615 543,633 521,651 521,641 496,641" fill="#7f7f7f" stroke="#111111" stroke-width="1.5"/>
+<rect x="557" y="352" width="480" height="570" rx="10" ry="10" fill="#ffffff" stroke="#9d9d9d" stroke-width="2.5"/>
+<rect x="557" y="352" width="480" height="34" rx="9" ry="9" fill="#fffef0" stroke="#9d9d9d" stroke-width="2"/>
+<text x="797.0" y="377.16" text-anchor="middle" font-family="Liberation Serif" font-size="24" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">Preference Alignment via DPO</text>
+<text x="576" y="415.64" text-anchor="start" font-family="Liberation Serif" font-size="21" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">(a) Human Preference Data Generation</text>
+<rect x="625" y="412" width="89" height="52" fill="#501017" stroke="#79151b" stroke-width="1"/>
+<rect x="625" y="412" width="89" height="7" fill="#d71920" stroke="#d71920" stroke-width="0"/>
+<rect x="619" y="417" width="89" height="52" fill="#501017" stroke="#79151b" stroke-width="1"/>
+<rect x="619" y="417" width="89" height="7" fill="#d71920" stroke="#d71920" stroke-width="0"/>
+<rect x="613" y="422" width="89" height="52" fill="#501017" stroke="#79151b" stroke-width="1"/>
+<rect x="613" y="422" width="89" height="7" fill="#d71920" stroke="#d71920" stroke-width="0"/>
+<rect x="607" y="427" width="89" height="52" rx="1" ry="1" fill="#132033" stroke="#172a44" stroke-width="1"/>
+<rect x="607" y="427" width="89" height="9" fill="#d71920" stroke="#d71920" stroke-width="0"/>
+<rect x="607" y="465" width="89" height="14" fill="#be1720" stroke="#be1720" stroke-width="0"/>
+<ellipse cx="652.835" cy="453.44" rx="11.125" ry="11.44" fill="#e7b8a4" stroke="#c98f7a" stroke-width="1"/>
+<rect x="617.68" y="444" width="16.02" height="13.0" fill="#273c57" stroke="#273c57" stroke-width="0"/>
+<rect x="668.41" y="442" width="17.8" height="15.079999999999998" fill="#344b65" stroke="#344b65" stroke-width="0"/>
+<text x="651.5" y="472.38" text-anchor="middle" font-family="Arial" font-size="7" font-weight="700" font-style="normal" fill="#ffffff" fill-opacity="1">BREAKING NEWS</text>
+<polygon points="571,509.8 577.8,509.8 584.6,503 584.6,523.4 577.8,516.6 571,516.6" fill="#111111" stroke="#111111" stroke-width="1"/>
+<line x1="588.0" y1="508.1" x2="591.4" y2="513.2" stroke="#111111" stroke-width="1.7"/>
+<line x1="591.4" y1="513.2" x2="588.0" y2="518.3" stroke="#111111" stroke-width="1.7"/>
+<text x="597" y="514.44" text-anchor="start" font-family="Liberation Serif" font-size="16" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">News Title</text>
+<text x="640.0" y="507.04" text-anchor="middle" font-family="Arial" font-size="31" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">+</text>
+<line x1="707" y1="468" x2="724.8" y2="468.0" stroke="#111111" stroke-width="3"/><polygon points="738,468 724.8,475.0 724.8,461.0" fill="#111111"/>
+<ellipse cx="776.92" cy="443.92" rx="29.92" ry="29.92" fill="#ffcf57" stroke="#ffb627" stroke-width="1.5"/>
+<line x1="776.92" y1="421.92" x2="776.92" y2="427.2" stroke="#111111" stroke-width="1.5"/>
+<ellipse cx="776.92" cy="421.03999999999996" rx="2.64" ry="2.64" fill="#ffffff" stroke="#111111" stroke-width="1"/>
+<rect x="762.84" y="428.08" width="29.92" height="21.12" rx="5.28" ry="5.28" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+<ellipse cx="771.2" cy="437.32" rx="2.2" ry="2.2" fill="#111111" stroke="#111111" stroke-width="1"/>
+<ellipse cx="784.4000000000001" cy="437.32" rx="2.2" ry="2.2" fill="#111111" stroke="#111111" stroke-width="1"/>
+<line x1="771.64" y1="443.92" x2="783.96" y2="443.92" stroke="#111111" stroke-width="1.5"/>
+<rect x="767.24" y="451.84000000000003" width="21.12" height="14.08" rx="1.76" ry="1.76" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+<line x1="759.32" y1="453.6" x2="767.24" y2="457.12" stroke="#111111" stroke-width="2"/>
+<line x1="788.36" y1="457.12" x2="797.16" y2="452.72" stroke="#111111" stroke-width="2"/>
+<line x1="771.64" y1="465.92" x2="768.12" y2="471.2" stroke="#111111" stroke-width="2"/>
+<line x1="783.96" y1="465.92" x2="787.48" y2="471.2" stroke="#111111" stroke-width="2"/>
+<text x="776.9200000000001" y="489.04640000000006" text-anchor="middle" font-family="Liberation Serif" font-size="14.96" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">Fact-R1</text>
+<line x1="813" y1="468" x2="836.8" y2="468.0" stroke="#111111" stroke-width="3"/><polygon points="850,468 836.8,475.0 836.8,461.0" fill="#111111"/>
+<rect x="863" y="425" width="102" height="64" rx="7" ry="7" fill="#a9cbe9" stroke="#d7ebfa" stroke-width="3"/>
+<text x="914.5" y="452.76" text-anchor="middle" font-family="Arial" font-size="17" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">
+<tspan x="914.5" dy="0">Long-cot</tspan>
+<tspan x="914.5" dy="19.040000000000003">Prediction</tspan>
+</text>
+<line x1="914" y1="491" x2="914.0" y2="509.8" stroke="#111111" stroke-width="3"/><polygon points="914,523 907.0,509.8 921.0,509.8" fill="#111111"/>
+<ellipse cx="909.375" cy="551.375" rx="23.375" ry="23.375" fill="#ffffff" stroke="#6e6e6e" stroke-width="3"/>
+<ellipse cx="909.8000000000001" cy="543.3" rx="5.95" ry="6.8" fill="#222222" stroke="#222222" stroke-width="1"/>
+<polygon points="897.05,567.95 901.3,552.65 908.95,549.25 917.45,552.65 922.55,567.95" fill="#222222" stroke="#222222" stroke-width="1"/>
+<text x="915.0" y="595.28" text-anchor="middle" font-family="Liberation Serif" font-size="17" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">Human Correct</text>
+<line x1="884" y1="558" x2="847.5" y2="558.0" stroke="#111111" stroke-width="2.5"/><polygon points="835,558 847.5,551.5 847.5,564.5" fill="#111111"/>
+<ellipse cx="673.0" cy="540.0" rx="9.0" ry="9.0" fill="#e72e27" stroke="#e72e27" stroke-width="1"/>
+<line x1="669" y1="536" x2="677" y2="544" stroke="#ffffff" stroke-width="2"/>
+<line x1="677" y1="536" x2="669" y2="544" stroke="#ffffff" stroke-width="2"/>
+<rect x="694" y="510" width="25.2" height="32.4" rx="2" ry="2" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+<line x1="700.3" y1="519.0" x2="712.9" y2="519.0" stroke="#6e6e6e" stroke-width="1.5"/>
+<line x1="700.3" y1="525.3" x2="712.9" y2="525.3" stroke="#6e6e6e" stroke-width="1.5"/>
+<line x1="700.3" y1="531.6" x2="712.9" y2="531.6" stroke="#6e6e6e" stroke-width="1.5"/>
+<text x="743" y="527.76" text-anchor="start" font-family="Arial" font-size="17" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">
+<tspan x="743" dy="0">Raw</tspan>
+<tspan x="743" dy="19.040000000000003">Prediction</tspan>
+</text>
+<ellipse cx="673.0" cy="599.0" rx="9.0" ry="9.0" fill="#09a868" stroke="#09a868" stroke-width="1"/>
+<line x1="668" y1="599" x2="672" y2="603" stroke="#ffffff" stroke-width="2"/>
+<line x1="672" y1="603" x2="679" y2="595" stroke="#ffffff" stroke-width="2"/>
+<rect x="694" y="570" width="25.2" height="32.4" rx="2" ry="2" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+<line x1="700.3" y1="579.0" x2="712.9" y2="579.0" stroke="#6e6e6e" stroke-width="1.5"/>
+<line x1="700.3" y1="585.3" x2="712.9" y2="585.3" stroke="#6e6e6e" stroke-width="1.5"/>
+<line x1="700.3" y1="591.6" x2="712.9" y2="591.6" stroke="#6e6e6e" stroke-width="1.5"/>
+<text x="743" y="587.76" text-anchor="start" font-family="Arial" font-size="17" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">
+<tspan x="743" dy="0">Correct</tspan>
+<tspan x="743" dy="19.040000000000003">Prediction</tspan>
+</text>
+<text x="576" y="654.98" text-anchor="start" font-family="Liberation Serif" font-size="22" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">(b) DPO Training</text>
+<ellipse cx="612.96" cy="733.96" rx="31.959999999999997" ry="31.959999999999997" fill="#ffcf57" stroke="#ffb627" stroke-width="1.5"/>
+<line x1="612.96" y1="710.46" x2="612.96" y2="716.1" stroke="#111111" stroke-width="1.5"/>
+<ellipse cx="612.96" cy="709.5200000000001" rx="2.82" ry="2.82" fill="#ffffff" stroke="#111111" stroke-width="1"/>
+<rect x="597.92" y="717.04" width="31.959999999999997" height="22.56" rx="5.64" ry="5.64" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+<ellipse cx="606.85" cy="726.91" rx="2.3499999999999996" ry="2.3499999999999996" fill="#111111" stroke="#111111" stroke-width="1"/>
+<ellipse cx="620.95" cy="726.91" rx="2.3499999999999996" ry="2.3499999999999996" fill="#111111" stroke="#111111" stroke-width="1"/>
+<line x1="607.32" y1="733.96" x2="620.48" y2="733.96" stroke="#111111" stroke-width="1.5"/>
+<rect x="602.62" y="742.42" width="22.56" height="15.04" rx="1.88" ry="1.88" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+<line x1="594.16" y1="744.3" x2="602.62" y2="748.06" stroke="#111111" stroke-width="2"/>
+<line x1="625.18" y1="748.06" x2="634.58" y2="743.36" stroke="#111111" stroke-width="2"/>
+<line x1="607.32" y1="757.46" x2="603.56" y2="763.1" stroke="#111111" stroke-width="2"/>
+<line x1="620.48" y1="757.46" x2="624.24" y2="763.1" stroke="#111111" stroke-width="2"/>
+<text x="612.96" y="782.1632000000001" text-anchor="middle" font-family="Liberation Serif" font-size="15.979999999999999" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">Fact-R1</text>
+<line x1="660" y1="744" x2="660.0" y2="716.2" stroke="#111111" stroke-width="3"/><polygon points="660,703 667.0,716.2 653.0,716.2" fill="#111111"/>
+<ellipse cx="700.0" cy="692.0" rx="19.0" ry="19.0" fill="#8a98ad" stroke="#8a98ad" stroke-width="1"/>
+<text x="700.0" y="697.62" text-anchor="middle" font-family="Liberation Serif" font-size="18" font-weight="400" font-style="italic" fill="#ffffff" fill-opacity="1">Y₀</text>
+<rect x="703" y="670" width="285" height="70" rx="10" ry="10" fill="#f1f4f5" stroke="#f1f4f5" stroke-width="1"/>
+<text x="710" y="688.4200000000001" text-anchor="start" font-family="Liberation Serif" font-size="12" font-weight="400" font-style="normal" fill="#111111" fill-opacity="1">
+<tspan x="710" dy="0">&lt;think&gt; The video shows Trump supporters</tspan>
+<tspan x="710" dy="13.440000000000001">storming.... The entity in question is Trump,</tspan>
+<tspan x="710" dy="13.440000000000001">the event is directly linked to his supporters,</tspan>
+<tspan x="710" dy="13.440000000000001">&lt;/think&gt;&lt;answer&gt; Yes. &lt;/answer&gt;</tspan>
+</text>
+<text x="1006.5" y="716.8" text-anchor="middle" font-family="Liberation Serif" font-size="20" font-weight="700" font-style="italic" fill="#ef332a" fill-opacity="1">0.3</text>
+<ellipse cx="700.0" cy="792.0" rx="19.0" ry="19.0" fill="#8a98ad" stroke="#8a98ad" stroke-width="1"/>
+<text x="700.0" y="797.62" text-anchor="middle" font-family="Liberation Serif" font-size="18" font-weight="400" font-style="italic" fill="#ffffff" fill-opacity="1">Y₁</text>
+<rect x="703" y="755" width="285" height="88" rx="10" ry="10" fill="#f1f4f5" stroke="#f1f4f5" stroke-width="1"/>
+<text x="710" y="781.9200000000001" text-anchor="start" font-family="Liberation Serif" font-size="12" font-weight="400" font-style="normal" fill="#111111" fill-opacity="1">
+<tspan x="710" dy="0">&lt;think&gt; The video depicts the well-</tspan>
+<tspan x="710" dy="13.440000000000001">documented event of Trump supporters</tspan>
+<tspan x="710" dy="13.440000000000001">storming the Capitol in Washington,</tspan>
+<tspan x="710" dy="13.440000000000001">D.C., …&lt;/think&gt;&lt;answer&gt; Yes&lt;/answer&gt;</tspan>
+</text>
+<text x="1006.5" y="803.8" text-anchor="middle" font-family="Liberation Serif" font-size="20" font-weight="700" font-style="italic" fill="#239b28" fill-opacity="1">0.8</text>
+<rect x="976.75" y="730.75" width="12.75" height="11.25" rx="2" ry="2" fill="#d6a23a" stroke="#aa761c" stroke-width="1"/>
+<line x1="973.0" y1="733.0" x2="976.75" y2="738.25" stroke="#aa761c" stroke-width="2"/>
+<line x1="993.25" y1="733.0" x2="989.5" y2="738.25" stroke="#aa761c" stroke-width="2"/>
+<line x1="982.75" y1="742.0" x2="982.75" y2="748.75" stroke="#aa761c" stroke-width="2"/>
+<rect x="977.5" y="748.75" width="11.25" height="3.0" fill="#d6a23a" stroke="#aa761c" stroke-width="1"/>
+<line x1="611" y1="869" x2="611" y2="846" stroke="#111111" stroke-width="2.5"/>
+<line x1="611" y1="869" x2="1014" y2="869" stroke="#111111" stroke-width="2.5"/>
+<line x1="1014" y1="869" x2="1014.0" y2="853.5" stroke="#111111" stroke-width="2.5"/><polygon points="1014,841 1020.5,853.5 1007.5,853.5" fill="#111111"/>
+<text x="811.0" y="893.64" text-anchor="middle" font-family="Arial" font-size="21" font-weight="700" font-style="normal" fill="#2aa99d" fill-opacity="1">Maximum likelihood</text>
+<polygon points="1046,625 1071,625 1071,615 1093,633 1071,651 1071,641 1046,641" fill="#7f7f7f" stroke="#111111" stroke-width="1.5"/>
+<rect x="1108" y="352" width="484" height="570" rx="10" ry="10" fill="#ffffff" stroke="#9d9d9d" stroke-width="2.5"/>
+<rect x="1108" y="352" width="484" height="34" rx="9" ry="9" fill="#fffef0" stroke="#9d9d9d" stroke-width="2"/>
+<text x="1350.0" y="376.82" text-anchor="middle" font-family="Liberation Serif" font-size="23" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">GRPO with Verifiable Reward Function</text>
+<rect x="1152" y="400" width="116" height="64" fill="#501017" stroke="#79151b" stroke-width="1"/>
+<rect x="1152" y="400" width="116" height="7" fill="#d71920" stroke="#d71920" stroke-width="0"/>
+<rect x="1146" y="405" width="116" height="64" fill="#501017" stroke="#79151b" stroke-width="1"/>
+<rect x="1146" y="405" width="116" height="7" fill="#d71920" stroke="#d71920" stroke-width="0"/>
+<rect x="1140" y="410" width="116" height="64" fill="#501017" stroke="#79151b" stroke-width="1"/>
+<rect x="1140" y="410" width="116" height="7" fill="#d71920" stroke="#d71920" stroke-width="0"/>
+<rect x="1134" y="415" width="116" height="64" fill="#501017" stroke="#79151b" stroke-width="1"/>
+<rect x="1134" y="415" width="116" height="7" fill="#d71920" stroke="#d71920" stroke-width="0"/>
+<rect x="1128" y="420" width="116" height="64" rx="1" ry="1" fill="#132033" stroke="#172a44" stroke-width="1"/>
+<rect x="1128" y="420" width="116" height="9" fill="#d71920" stroke="#d71920" stroke-width="0"/>
+<rect x="1128" y="470" width="116" height="14" fill="#be1720" stroke="#be1720" stroke-width="0"/>
+<ellipse cx="1187.74" cy="449.08" rx="14.5" ry="14.08" fill="#e7b8a4" stroke="#c98f7a" stroke-width="1"/>
+<rect x="1141.92" y="437" width="20.88" height="16.0" fill="#273c57" stroke="#273c57" stroke-width="0"/>
+<rect x="1208.04" y="435" width="23.200000000000003" height="18.56" fill="#344b65" stroke="#344b65" stroke-width="0"/>
+<text x="1186.0" y="477.38" text-anchor="middle" font-family="Arial" font-size="7" font-weight="700" font-style="normal" fill="#ffffff" fill-opacity="1">BREAKING NEWS</text>
+<polygon points="1140,507.0 1146.0,507.0 1152.0,501 1152.0,519.0 1146.0,513.0 1140,513.0" fill="#111111" stroke="#111111" stroke-width="1"/>
+<line x1="1155.0" y1="505.5" x2="1158.0" y2="510.0" stroke="#111111" stroke-width="1.5"/>
+<line x1="1158.0" y1="510.0" x2="1155.0" y2="514.5" stroke="#111111" stroke-width="1.5"/>
+<text x="1162" y="509.94" text-anchor="start" font-family="Liberation Serif" font-size="16" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">News Title</text>
+<text x="1201.0" y="502.7" text-anchor="middle" font-family="Arial" font-size="30" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">+</text>
+<line x1="1266" y1="468" x2="1284.8" y2="468.0" stroke="#111111" stroke-width="3"/><polygon points="1298,468 1284.8,475.0 1284.8,461.0" fill="#111111"/>
+<ellipse cx="1339.28" cy="447.28" rx="31.28" ry="31.28" fill="#ffcf57" stroke="#ffb627" stroke-width="1.5"/>
+<line x1="1339.28" y1="424.28" x2="1339.28" y2="429.8" stroke="#111111" stroke-width="1.5"/>
+<ellipse cx="1339.28" cy="423.36" rx="2.7600000000000002" ry="2.7600000000000002" fill="#ffffff" stroke="#111111" stroke-width="1"/>
+<rect x="1324.56" y="430.72" width="31.28" height="22.080000000000002" rx="5.5200000000000005" ry="5.5200000000000005" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+<ellipse cx="1333.3" cy="440.38" rx="2.3000000000000003" ry="2.3000000000000003" fill="#111111" stroke="#111111" stroke-width="1"/>
+<ellipse cx="1347.1" cy="440.38" rx="2.3000000000000003" ry="2.3000000000000003" fill="#111111" stroke="#111111" stroke-width="1"/>
+<line x1="1333.76" y1="447.28" x2="1346.64" y2="447.28" stroke="#111111" stroke-width="1.5"/>
+<rect x="1329.16" y="455.56" width="22.080000000000002" height="14.72" rx="1.84" ry="1.84" fill="#ffffff" stroke="#111111" stroke-width="2"/>
+<line x1="1320.88" y1="457.4" x2="1329.16" y2="461.08" stroke="#111111" stroke-width="2"/>
+<line x1="1351.24" y1="461.08" x2="1360.44" y2="456.48" stroke="#111111" stroke-width="2"/>
+<line x1="1333.76" y1="470.28" x2="1330.08" y2="475.8" stroke="#111111" stroke-width="2"/>
+<line x1="1346.64" y1="470.28" x2="1350.32" y2="475.8" stroke="#111111" stroke-width="2"/>
+<text x="1339.28" y="494.45760000000007" text-anchor="middle" font-family="Liberation Serif" font-size="15.64" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">Fact-R1</text>
+<line x1="1374" y1="468" x2="1398.8" y2="468.0" stroke="#111111" stroke-width="3"/><polygon points="1412,468 1398.8,475.0 1398.8,461.0" fill="#111111"/>
+<rect x="1435" y="404" width="136" height="197" rx="18" ry="18" fill="#edf2f5" stroke="#edf2f5" stroke-width="1"/>
+<rect x="1444" y="412" width="118" height="33" rx="6" ry="6" fill="#8496b1" stroke="#111111" stroke-width="1.5"/>
+<text x="1503.0" y="434.62" text-anchor="middle" font-family="Liberation Serif" font-size="18" font-weight="700" font-style="italic" fill="#ffffff" fill-opacity="1">Response Y₁</text>
+<rect x="1444" y="451" width="118" height="33" rx="6" ry="6" fill="#8496b1" stroke="#111111" stroke-width="1.5"/>
+<text x="1503.0" y="473.62" text-anchor="middle" font-family="Liberation Serif" font-size="18" font-weight="700" font-style="italic" fill="#ffffff" fill-opacity="1">Response Y₂</text>
+<text x="1503.0" y="531.66" text-anchor="middle" font-family="Liberation Serif" font-size="24" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">…</text>
+<rect x="1444" y="547" width="118" height="33" rx="6" ry="6" fill="#8496b1" stroke="#111111" stroke-width="1.5"/>
+<text x="1503.0" y="569.62" text-anchor="middle" font-family="Liberation Serif" font-size="18" font-weight="700" font-style="italic" fill="#ffffff" fill-opacity="1">Response Yₙ</text>
+<line x1="1510" y1="604" x2="1510" y2="618" stroke="#6e6e6e" stroke-width="3"/>
+<line x1="1510" y1="618" x2="1420" y2="626" stroke="#6e6e6e" stroke-width="3"/>
+<line x1="1420" y1="626" x2="1350.7491254514975" y2="644.579502927647" stroke="#6e6e6e" stroke-width="3"/><polygon points="1338,648 1348.935225488886,637.8186030670043 1352.563025414109,651.3404027882897" fill="#6e6e6e"/>
+<line x1="1195" y1="649" x2="1201" y2="614" stroke="#6e6e6e" stroke-width="3"/>
+<line x1="1201" y1="614" x2="1236" y2="585" stroke="#6e6e6e" stroke-width="3"/>
+<line x1="1236" y1="585" x2="1282.9971357337581" y2="563.492836189636" stroke="#6e6e6e" stroke-width="3"/><polygon points="1295,558 1285.9100034100802,569.85799148234 1280.084268057436,557.127680896932" fill="#6e6e6e"/>
+<text x="1272.0" y="575.82" text-anchor="middle" font-family="Liberation Serif" font-size="19" font-weight="700" font-style="italic" fill="#111111" fill-opacity="1">
+<tspan x="1272.0" dy="0">Policy</tspan>
+<tspan x="1272.0" dy="21.28">Optimization</tspan>
+</text>
+<rect x="1116" y="640" width="468" height="267" rx="20" ry="20" fill="#ffffff" stroke="#9d9d9d" stroke-width="2" stroke-dasharray="10 7"/>
+<text x="1350.0" y="666.82" text-anchor="middle" font-family="Liberation Serif" font-size="23" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">Normalized Verifiable Reward</text>
+<rect x="1122" y="678" width="456" height="77" rx="5" ry="5" fill="#d9e8f6" stroke="#d9e8f6" stroke-width="1"/>
+<text x="1129" y="699.12" text-anchor="start" font-family="Liberation Serif" font-size="18" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">Overall Reward:</text>
+<text x="1150" y="725.36" text-anchor="start" font-family="Liberation Serif" font-size="12" font-weight="400" font-style="italic" fill="#111111" fill-opacity="1">
+<tspan x="1150" dy="0">R = { 0.8·Racc + 0.1·Rformat + 0.1·Rword,                 if ylabel = real</tspan>
+<tspan x="1150" dy="13.440000000000001">       0.7·Racc + 0.1·Rformat + 0.1·Rword + 0.1·Rentity,  if ylabel = fake</tspan>
+</text>
+<line x1="1354" y1="760" x2="1354" y2="897" stroke="#9d9d9d" stroke-width="1.5"/>
+<rect x="1133.1" y="776.25" width="17.0" height="5.95" rx="2" ry="2" fill="#ee8b2b" stroke="#ee8b2b" stroke-width="1"/>
+<rect x="1128.85" y="782.2" width="17.0" height="5.95" rx="2" ry="2" fill="#ee8b2b" stroke="#ee8b2b" stroke-width="1"/>
+<rect x="1140.75" y="783.9" width="4.25" height="16.15" rx="1" ry="1" fill="#ee8b2b" stroke="#ee8b2b" stroke-width="1"/>
+<line x1="1130.55" y1="800.05" x2="1148.4" y2="800.05" stroke="#ee8b2b" stroke-width="2.55"/>
+<text x="1164" y="792.28" text-anchor="start" font-family="Liberation Serif" font-size="17" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">Accuracy Reward Racc</text>
+<rect x="1133.1" y="822.25" width="17.0" height="5.95" rx="2" ry="2" fill="#ee8b2b" stroke="#ee8b2b" stroke-width="1"/>
+<rect x="1128.85" y="828.2" width="17.0" height="5.95" rx="2" ry="2" fill="#ee8b2b" stroke="#ee8b2b" stroke-width="1"/>
+<rect x="1140.75" y="829.9" width="4.25" height="16.15" rx="1" ry="1" fill="#ee8b2b" stroke="#ee8b2b" stroke-width="1"/>
+<line x1="1130.55" y1="846.05" x2="1148.4" y2="846.05" stroke="#ee8b2b" stroke-width="2.55"/>
+<text x="1164" y="838.28" text-anchor="start" font-family="Liberation Serif" font-size="17" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">Format Reward Rformat</text>
+<rect x="1133.1" y="868.25" width="17.0" height="5.95" rx="2" ry="2" fill="#ee8b2b" stroke="#ee8b2b" stroke-width="1"/>
+<rect x="1128.85" y="874.2" width="17.0" height="5.95" rx="2" ry="2" fill="#ee8b2b" stroke="#ee8b2b" stroke-width="1"/>
+<rect x="1140.75" y="875.9" width="4.25" height="16.15" rx="1" ry="1" fill="#ee8b2b" stroke="#ee8b2b" stroke-width="1"/>
+<line x1="1130.55" y1="892.05" x2="1148.4" y2="892.05" stroke="#ee8b2b" stroke-width="2.55"/>
+<text x="1164" y="875.48" text-anchor="start" font-family="Liberation Serif" font-size="16" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">
+<tspan x="1164" dy="0">Reasoning Keywords</tspan>
+<tspan x="1164" dy="17.92">Reward Rword</tspan>
+</text>
+<rect x="1375.1" y="776.25" width="17.0" height="5.95" rx="2" ry="2" fill="#ee8b2b" stroke="#ee8b2b" stroke-width="1"/>
+<rect x="1370.85" y="782.2" width="17.0" height="5.95" rx="2" ry="2" fill="#ee8b2b" stroke="#ee8b2b" stroke-width="1"/>
+<rect x="1382.75" y="783.9" width="4.25" height="16.15" rx="1" ry="1" fill="#ee8b2b" stroke="#ee8b2b" stroke-width="1"/>
+<line x1="1372.55" y1="800.05" x2="1390.4" y2="800.05" stroke="#ee8b2b" stroke-width="2.55"/>
+<text x="1488.0" y="786.76" text-anchor="middle" font-family="Liberation Serif" font-size="17" font-weight="700" font-style="normal" fill="#111111" fill-opacity="1">
+<tspan x="1488.0" dy="0">Entity Grounding</tspan>
+<tspan x="1488.0" dy="19.040000000000003">Reward</tspan>
+</text>
+<rect x="1369" y="824" width="105" height="34" rx="6" ry="6" fill="#8496b1" stroke="#111111" stroke-width="1.5"/>
+<text x="1421.5" y="846.44" text-anchor="middle" font-family="Liberation Serif" font-size="16" font-weight="700" font-style="italic" fill="#ffffff" fill-opacity="1">Response Yₙ</text>
+<line x1="1476" y1="841" x2="1502.5" y2="841.0" stroke="#6e6e6e" stroke-width="2.5"/><polygon points="1515,841 1502.5,847.5 1502.5,834.5" fill="#6e6e6e"/>
+<ellipse cx="1538.5" cy="835.5" rx="13.5" ry="13.5" fill="#e8edf1" stroke="#e8edf1" stroke-width="1"/>
+<ellipse cx="1538.5" cy="831.0" rx="4.5" ry="5.0" fill="#f1c0ab" stroke="#f1c0ab" stroke-width="1"/>
+<polygon points="1527,848 1532,838 1543,838 1551,848" fill="#7a8d9d" stroke="#7a8d9d" stroke-width="1"/>
+<text x="1530.5" y="866.26" text-anchor="middle" font-family="Liberation Serif" font-size="14" font-weight="700" font-style="italic" fill="#111111" fill-opacity="1">Judge model</text>
+<line x1="1540" y1="877" x2="1521.491326274953" y2="881.3186905358442" stroke="#6e6e6e" stroke-width="2"/><polygon points="1510,884 1520.1279485813145,875.4756432773935 1522.8547039685916,887.1617377942949" fill="#6e6e6e"/>
+<text x="1376" y="885.64" text-anchor="start" font-family="Liberation Serif" font-size="13" font-weight="400" font-style="italic" fill="#111111" fill-opacity="1">
+<tspan x="1376" dy="0">Rentity = { 1,  if Judge = True</tspan>
+<tspan x="1376" dy="14.560000000000002">             0,  otherwise</tspan>
+</text>
+</svg>
