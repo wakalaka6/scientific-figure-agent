@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1890" height="872" viewBox="0 0 1890 872">
+<title>Who You Are Matters — editable logic recommendation architecture</title>
+<rect id="canvas" x="0" y="0" width="1890" height="872" rx="0" ry="0" fill="#FFFFFF" stroke="none" stroke-width="0" opacity="1.0"/>
+<rect id="panel-extraction" x="10" y="20" width="635" height="783" rx="24" ry="24" fill="none" stroke="#595959" stroke-width="4" opacity="1.0" stroke-dasharray="2 7" stroke-linecap="round"/>
+<rect id="panel-reasoning" x="675" y="20" width="580" height="783" rx="24" ry="24" fill="none" stroke="#595959" stroke-width="4" opacity="1.0" stroke-dasharray="2 7" stroke-linecap="round"/>
+<rect id="panel-integration" x="1285" y="20" width="603" height="783" rx="24" ry="24" fill="none" stroke="#595959" stroke-width="4" opacity="1.0" stroke-dasharray="2 7" stroke-linecap="round"/>
+<text id="item-i" x="109.0" y="49.5" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="30" font-weight="700" font-style="italic" text-anchor="middle" dominant-baseline="central">
+<tspan x="109.0" dy="0">Itemᵢ</tspan>
+</text>
+<polyline id="item-to-raw-shaft" points="109,65 109,92" fill="none" stroke="#595959" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="item-to-raw-head" points="109.00,92.00 103.80,82.00 114.20,82.00" fill="#595959" stroke="none"/>
+<rect id="raw-information" x="22" y="92" width="172" height="82" rx="14" ry="14" fill="#EAEAEA" stroke="#595959" stroke-width="3.5" opacity="1.0"/>
+<text id="raw-information-text" x="108.0" y="117.81" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="31" font-weight="400" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="108.0" dy="0">Raw</tspan>
+<tspan x="108.0" dy="30.38">Information</tspan>
+</text>
+<polyline id="raw-to-mllm-shaft" points="194,133 237,133" fill="none" stroke="#595959" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="raw-to-mllm-head" points="237.00,133.00 226.00,127.28 226.00,138.72" fill="#595959" stroke="none"/>
+<polyline id="mllm-input-antenna" points="269.64,79.12 269.64,69.92" fill="none" stroke="#000000" stroke-width="3.68" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse id="mllm-input-antenna-dot" cx="269.64" cy="69.92" rx="3.68" ry="3.68" fill="#000000" stroke="#000000" stroke-width="0" opacity="1.0"/>
+<rect id="mllm-input-head" x="252.16" y="78.2" width="34.96" height="24.84" rx="4.6000000000000005" ry="4.6000000000000005" fill="#000000" stroke="#000000" stroke-width="0" opacity="1.0"/>
+<ellipse id="mllm-input-eye-left" cx="261.82" cy="88.78" rx="2.3000000000000003" ry="2.3000000000000003" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0" opacity="1.0"/>
+<ellipse id="mllm-input-eye-right" cx="277.46000000000004" cy="88.78" rx="2.3000000000000003" ry="2.3000000000000003" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0" opacity="1.0"/>
+<rect id="mllm-input-body" x="244.8" y="107.64" width="51.52" height="34.04" rx="2.7600000000000002" ry="2.7600000000000002" fill="#000000" stroke="#000000" stroke-width="0" opacity="1.0"/>
+<rect id="mllm-input-screen" x="254.0" y="113.16" width="33.120000000000005" height="20.240000000000002" rx="0.92" ry="0.92" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0" opacity="1.0"/>
+<polyline id="mllm-input-pulse" points="255.84,125.12 262.28,125.12 265.96,115.92 270.56,131.56 275.16,121.44 280.68,125.12 286.2,125.12" fill="none" stroke="#000000" stroke-width="2.0240000000000005" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="mllm-input-arm-left" points="244.8,115.0 237.44,115.0 237.44,107.64" fill="none" stroke="#000000" stroke-width="3.68" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="mllm-input-arm-right" points="296.32,115.0 302.76,115.0 302.76,125.12" fill="none" stroke="#000000" stroke-width="3.68" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse id="mllm-input-hand-left" cx="237.44" cy="105.80000000000001" rx="3.68" ry="3.68" fill="#000000" stroke="#000000" stroke-width="0" opacity="1.0"/>
+<ellipse id="mllm-input-hand-right" cx="302.76" cy="126.96000000000001" rx="3.68" ry="3.68" fill="#000000" stroke="#000000" stroke-width="0" opacity="1.0"/>
+<rect id="mllm-input-base" x="240.2" y="145.36" width="60.720000000000006" height="15.64" rx="7.36" ry="7.36" fill="#000000" stroke="#000000" stroke-width="0" opacity="1.0"/>
+<ellipse id="mllm-input-base-light-0" cx="251.24" cy="152.72000000000003" rx="3.68" ry="3.68" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0" opacity="1.0"/>
+<ellipse id="mllm-input-base-light-1" cx="269.64" cy="152.72000000000003" rx="3.68" ry="3.68" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0" opacity="1.0"/>
+<ellipse id="mllm-input-base-light-2" cx="288.04" cy="152.72000000000003" rx="3.68" ry="3.68" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0" opacity="1.0"/>
+<text id="mllm-input-label" x="272.0" y="186.0" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="29" font-weight="700" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="272.0" dy="0">MLLM</tspan>
+</text>
+<polyline id="mllm-to-modal-shaft" points="313,133 354,133" fill="none" stroke="#595959" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="mllm-to-modal-head" points="354.00,133.00 343.00,127.28 343.00,138.72" fill="#595959" stroke="none"/>
+<polyline id="raw-route-to-embedding-shaft" points="331,133 331,39 568,39 568,58" fill="none" stroke="#595959" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="raw-route-to-embedding-head" points="568.00,58.00 562.80,48.00 573.20,48.00" fill="#595959" stroke="none"/>
+<rect id="modal-input-group" x="354" y="51" width="125" height="192" rx="0" ry="0" fill="none" stroke="#595959" stroke-width="2.8" opacity="1.0" stroke-dasharray="2 7" stroke-linecap="round"/>
+<rect id="asr" x="369" y="59" width="94" height="50" rx="12" ry="12" fill="#CDD9EF" stroke="#595959" stroke-width="3" opacity="1.0" stroke-dasharray="12 9" stroke-linecap="round"/>
+<rect id="ocr" x="369" y="118" width="94" height="50" rx="12" ry="12" fill="#E3E5FE" stroke="#595959" stroke-width="3" opacity="1.0" stroke-dasharray="12 9" stroke-linecap="round"/>
+<rect id="text-mode" x="369" y="177" width="94" height="52" rx="12" ry="12" fill="#FFF1CC" stroke="#595959" stroke-width="3" opacity="1.0" stroke-dasharray="12 9" stroke-linecap="round"/>
+<text id="asr-text" x="416.0" y="84.0" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="25" font-weight="700" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="416.0" dy="0">ASR</tspan>
+</text>
+<text id="ocr-text" x="416.0" y="143.0" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="25" font-weight="700" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="416.0" dy="0">OCR</tspan>
+</text>
+<text id="text-mode-text" x="416.0" y="202.0" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="24" font-weight="700" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="416.0" dy="0">Text</tspan>
+</text>
+<rect id="mllm-embedding" x="517" y="58" width="117" height="173" rx="19" ry="19" fill="#FCEBF5" stroke="#595959" stroke-width="3.5" opacity="1.0" stroke-dasharray="12 9" stroke-linecap="round"/>
+<text id="mllm-embedding-text" x="575.5" y="124.26" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="26" font-weight="700" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="575.5" dy="0">MLLM</tspan>
+<tspan x="575.5" dy="25.48">Emb Eᵢ</tspan>
+</text>
+<polyline id="modal-to-item-prompt-shaft" points="355,242 355,276 160,276 160,338" fill="none" stroke="#595959" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 7"/>
+<polygon id="modal-to-item-prompt-head" points="160.00,338.00 154.80,328.00 165.20,328.00" fill="#595959" stroke="none"/>
+<polyline id="modal-to-user-prompt-shaft" points="479,143 500,143 500,338" fill="none" stroke="#595959" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 7"/>
+<polygon id="modal-to-user-prompt-head" points="500.00,338.00 494.80,328.00 505.20,328.00" fill="#595959" stroke="none"/>
+<polyline id="embedding-to-center-mllm-shaft" points="574,231 574,302 321,302 321,437" fill="none" stroke="#FFB3B3" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="embedding-to-center-mllm-head" points="321.00,437.00 314.76,425.00 327.24,425.00" fill="#FFB3B3" stroke="none"/>
+<rect id="item-prompt" x="22" y="338" width="278" height="92" rx="15" ry="15" fill="#E1EFD8" stroke="#54833A" stroke-width="3.2" opacity="1.0"/>
+<text id="item-prompt-text" x="161.0" y="367.79" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="29" font-weight="700" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="161.0" dy="0">ItemTag Extraction</tspan>
+<tspan x="161.0" dy="28.419999999999998">Prompt Xᶜᵢ</tspan>
+</text>
+<rect id="user-prompt" x="358" y="339" width="271" height="91" rx="15" ry="15" fill="#FAE4D6" stroke="#C58E00" stroke-width="3.2" opacity="1.0"/>
+<text id="user-prompt-text" x="493.0" y="368.29" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="29" font-weight="700" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="493.0" dy="0">UserTag Extraction</tspan>
+<tspan x="493.0" dy="28.419999999999998">Prompt Xᵀᵢ</tspan>
+</text>
+<polyline id="item-prompt-to-mllm-shaft" points="154,430 154,476 267,476" fill="none" stroke="#9CCF82" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="item-prompt-to-mllm-head" points="267.00,476.00 257.00,470.80 257.00,481.20" fill="#9CCF82" stroke="none"/>
+<polyline id="item-prompt-to-tags-shaft" points="151,430 151,543" fill="none" stroke="#9CCF82" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="item-prompt-to-tags-head" points="151.00,543.00 145.80,533.00 156.20,533.00" fill="#9CCF82" stroke="none"/>
+<polyline id="user-prompt-to-mllm-shaft" points="489,430 489,471 371,471" fill="none" stroke="#FFAD7D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="user-prompt-to-mllm-head" points="371.00,471.00 381.00,465.80 381.00,476.20" fill="#FFAD7D" stroke="none"/>
+<polyline id="user-prompt-to-tags-shaft" points="490,430 490,544" fill="none" stroke="#FFAD7D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="user-prompt-to-tags-head" points="490.00,544.00 484.80,534.00 495.20,534.00" fill="#FFAD7D" stroke="none"/>
+<polyline id="mllm-extract-antenna" points="317.48,457.34 317.48,447.94" fill="none" stroke="#000000" stroke-width="3.76" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse id="mllm-extract-antenna-dot" cx="317.48" cy="447.94" rx="3.76" ry="3.76" fill="#000000" stroke="#000000" stroke-width="0" opacity="1.0"/>
+<rect id="mllm-extract-head" x="299.62" y="456.4" width="35.72" height="25.38" rx="4.699999999999999" ry="4.699999999999999" fill="#000000" stroke="#000000" stroke-width="0" opacity="1.0"/>
+<ellipse id="mllm-extract-eye-left" cx="309.49" cy="467.21000000000004" rx="2.3499999999999996" ry="2.3499999999999996" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0" opacity="1.0"/>
+<ellipse id="mllm-extract-eye-right" cx="325.47" cy="467.21000000000004" rx="2.3499999999999996" ry="2.3499999999999996" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0" opacity="1.0"/>
+<rect id="mllm-extract-body" x="292.1" y="486.48" width="52.64" height="34.78" rx="2.82" ry="2.82" fill="#000000" stroke="#000000" stroke-width="0" opacity="1.0"/>
+<rect id="mllm-extract-screen" x="301.5" y="492.12" width="33.839999999999996" height="20.68" rx="0.94" ry="0.94" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0" opacity="1.0"/>
+<polyline id="mllm-extract-pulse" points="303.38,504.34 309.96,504.34 313.72,494.94 318.42,510.92 323.12,500.58 328.76,504.34 334.4,504.34" fill="none" stroke="#000000" stroke-width="2.068" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="mllm-extract-arm-left" points="292.1,494.0 284.58,494.0 284.58,486.48" fill="none" stroke="#000000" stroke-width="3.76" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="mllm-extract-arm-right" points="344.74,494.0 351.32,494.0 351.32,504.34" fill="none" stroke="#000000" stroke-width="3.76" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse id="mllm-extract-hand-left" cx="284.58" cy="484.59999999999997" rx="3.76" ry="3.76" fill="#000000" stroke="#000000" stroke-width="0" opacity="1.0"/>
+<ellipse id="mllm-extract-hand-right" cx="351.32" cy="506.21999999999997" rx="3.76" ry="3.76" fill="#000000" stroke="#000000" stroke-width="0" opacity="1.0"/>
+<rect id="mllm-extract-base" x="287.4" y="525.02" width="62.04" height="15.979999999999999" rx="7.52" ry="7.52" fill="#000000" stroke="#000000" stroke-width="0" opacity="1.0"/>
+<ellipse id="mllm-extract-base-light-0" cx="298.68" cy="532.54" rx="3.76" ry="3.76" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0" opacity="1.0"/>
+<ellipse id="mllm-extract-base-light-1" cx="317.48" cy="532.54" rx="3.76" ry="3.76" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0" opacity="1.0"/>
+<ellipse id="mllm-extract-base-light-2" cx="336.28" cy="532.54" rx="3.76" ry="3.76" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0" opacity="1.0"/>
+<text id="mllm-extract-label" x="323.0" y="565.0" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="29" font-weight="700" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="323.0" dy="0">MLLM</tspan>
+</text>
+<rect id="item-tag-back" x="69" y="544" width="175" height="56" rx="10" ry="10" fill="#E1EFD8" stroke="#54833A" stroke-width="1.8" opacity="0.7"/>
+<text id="item-tag-back-text" x="156.5" y="572.0" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="25" font-weight="400" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="156.5" dy="0">Live Music</tspan>
+</text>
+<rect id="item-tag-mid" x="53" y="579" width="176" height="56" rx="10" ry="10" fill="#E1EFD8" stroke="#54833A" stroke-width="1.8" opacity="0.78"/>
+<rect id="item-tag-front" x="41" y="606" width="168" height="57" rx="10" ry="10" fill="#E1EFD8" stroke="#54833A" stroke-width="1.8" opacity="0.96"/>
+<text id="item-tag-front-text" x="125.0" y="622.74" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="24" font-weight="400" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="125.0" dy="0">Instrument</tspan>
+<tspan x="125.0" dy="23.52">Shows</tspan>
+</text>
+<text id="item-tag-set-label" x="149.0" y="689.0" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="28" font-weight="700" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="149.0" dy="0">ItemTag Set C*</tspan>
+</text>
+<rect id="user-tag-back" x="414" y="553" width="177" height="57" rx="10" ry="10" fill="#FAE4D6" stroke="#C58E00" stroke-width="1.8" opacity="0.78"/>
+<text id="user-tag-back-text" x="502.5" y="568.5" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="25" font-weight="400" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="502.5" dy="0">Folk Music</tspan>
+</text>
+<rect id="user-tag-mid" x="396" y="581" width="170" height="59" rx="10" ry="10" fill="#FAE4D6" stroke="#C58E00" stroke-width="1.8" opacity="0.82"/>
+<rect id="user-tag-front" x="384" y="605" width="168" height="58" rx="10" ry="10" fill="#FAE4D6" stroke="#C58E00" stroke-width="1.8" opacity="0.96"/>
+<text id="user-tag-front-text" x="468.0" y="622.24" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="24" font-weight="400" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="468.0" dy="0">Music</tspan>
+<tspan x="468.0" dy="23.52">Enthusiast</tspan>
+</text>
+<text id="user-tag-set-label" x="499.0" y="689.0" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="28" font-weight="700" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="499.0" dy="0">UserTag Set T*</tspan>
+</text>
+<polyline id="item-set-bottom-route" points="114,709 114,766 861,766" fill="none" stroke="#9CCF82" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="user-set-bottom-route" points="486,709 486,786 1087,786" fill="none" stroke="#FFAD7D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="logic-graph-field" x="736" y="35" width="483" height="379" rx="34" ry="34" fill="#EDF4FA" stroke="#595959" stroke-width="1.8" opacity="1.0" stroke-dasharray="12 7 2 7" stroke-linecap="round"/>
+<text id="logic-graph-title" x="757" y="63.5" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="29" font-weight="700" font-style="italic" text-anchor="start" dominant-baseline="central">
+<tspan x="757" dy="0">Logic Graph</tspan>
+</text>
+<polyline id="graph-u2i-a-shaft" points="839,104 839,282 897,282" fill="none" stroke="#FFAD7D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="graph-u2i-a-head" points="897.00,282.00 887.00,276.80 887.00,287.20" fill="#FFAD7D" stroke="none"/>
+<polyline id="graph-u2i-b-shaft" points="825,130 825,319 875,319" fill="none" stroke="#FFAD7D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="graph-u2i-b-head" points="875.00,319.00 865.00,313.80 865.00,324.20" fill="#FFAD7D" stroke="none"/>
+<polyline id="graph-u2i-c-shaft" points="810,154 810,346 862,346" fill="none" stroke="#FFAD7D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="graph-u2i-c-head" points="862.00,346.00 852.00,340.80 852.00,351.20" fill="#FFAD7D" stroke="none"/>
+<polyline id="graph-i2u-a-shaft" points="1121,316 1121,104 1085,104" fill="none" stroke="#9CCF82" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="graph-i2u-a-head" points="1085.00,104.00 1095.00,98.80 1095.00,109.20" fill="#9CCF82" stroke="none"/>
+<polyline id="graph-i2u-b-shaft" points="1100,346 1100,130 1063,130" fill="none" stroke="#9CCF82" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="graph-i2u-b-head" points="1063.00,130.00 1073.00,124.80 1073.00,135.20" fill="#9CCF82" stroke="none"/>
+<polyline id="graph-i2u-c-shaft" points="1078,374 1078,155 1041,155" fill="none" stroke="#9CCF82" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="graph-i2u-c-head" points="1041.00,155.00 1051.00,149.80 1051.00,160.20" fill="#9CCF82" stroke="none"/>
+<text id="graph-u2i-label" x="757" y="208.0" fill="#C55400" font-family="Times New Roman, Liberation Serif, serif" font-size="26" font-weight="400" font-style="italic" text-anchor="start" dominant-baseline="central">
+<tspan x="757" dy="0">G U2I*</tspan>
+</text>
+<text id="graph-i2u-label" x="1134" y="218.0" fill="#355F22" font-family="Times New Roman, Liberation Serif, serif" font-size="26" font-weight="400" font-style="italic" text-anchor="start" dominant-baseline="central">
+<tspan x="1134" dy="0">G I2U*</tspan>
+</text>
+<rect id="graph-user-back" x="909" y="75" width="176" height="58" rx="10" ry="10" fill="#FAE4D6" stroke="#C58E00" stroke-width="1.8" opacity="0.77"/>
+<text id="graph-user-back-text" x="997.0" y="89.5" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="24" font-weight="400" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="997.0" dy="0">Folk Music</tspan>
+</text>
+<rect id="graph-user-mid" x="891" y="101" width="172" height="59" rx="10" ry="10" fill="#FAE4D6" stroke="#C58E00" stroke-width="1.8" opacity="0.82"/>
+<rect id="graph-user-front" x="873" y="125" width="168" height="60" rx="10" ry="10" fill="#FAE4D6" stroke="#C58E00" stroke-width="1.8" opacity="0.96"/>
+<text id="graph-user-front-text" x="957.0" y="143.24" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="24" font-weight="400" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="957.0" dy="0">Music</tspan>
+<tspan x="957.0" dy="23.52">Enthusiast</tspan>
+</text>
+<text id="graph-user-set-label" x="995.0" y="205.0" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="28" font-weight="700" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="995.0" dy="0">UserTag Set C*</tspan>
+</text>
+<rect id="graph-item-back" x="897" y="255" width="173" height="56" rx="10" ry="10" fill="#E1EFD8" stroke="#54833A" stroke-width="1.8" opacity="0.7"/>
+<text id="graph-item-back-text" x="983.5" y="283.0" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="24" font-weight="400" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="983.5" dy="0">Live Music</tspan>
+</text>
+<rect id="graph-item-mid" x="875" y="291" width="174" height="57" rx="10" ry="10" fill="#E1EFD8" stroke="#54833A" stroke-width="1.8" opacity="0.78"/>
+<rect id="graph-item-front" x="862" y="316" width="169" height="60" rx="10" ry="10" fill="#E1EFD8" stroke="#54833A" stroke-width="1.8" opacity="0.96"/>
+<text id="graph-item-front-text" x="946.5" y="334.24" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="24" font-weight="400" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="946.5" dy="0">Instrument</tspan>
+<tspan x="946.5" dy="23.52">Shows</tspan>
+</text>
+<text id="graph-item-set-label" x="973.0" y="397.0" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="28" font-weight="700" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="973.0" dy="0">ItemTag Set T*</tspan>
+</text>
+<polyline id="llm-to-logic-graph-shaft" points="974,475 974,416" fill="none" stroke="#595959" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="llm-to-logic-graph-head" points="974.00,416.00 968.28,427.00 979.72,427.00" fill="#595959" stroke="none"/>
+<polyline id="llm-reason-antenna" points="972.32,478.56 972.32,468.96" fill="none" stroke="#000000" stroke-width="3.84" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse id="llm-reason-antenna-dot" cx="972.32" cy="468.96" rx="3.84" ry="3.84" fill="#000000" stroke="#000000" stroke-width="0" opacity="1.0"/>
+<rect id="llm-reason-head" x="954.08" y="477.6" width="36.48" height="25.919999999999998" rx="4.8" ry="4.8" fill="#000000" stroke="#000000" stroke-width="0" opacity="1.0"/>
+<ellipse id="llm-reason-eye-left" cx="964.16" cy="488.64" rx="2.4" ry="2.4" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0" opacity="1.0"/>
+<ellipse id="llm-reason-eye-right" cx="980.48" cy="488.64" rx="2.4" ry="2.4" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0" opacity="1.0"/>
+<rect id="llm-reason-body" x="946.4" y="508.32" width="53.76" height="35.519999999999996" rx="2.88" ry="2.88" fill="#000000" stroke="#000000" stroke-width="0" opacity="1.0"/>
+<rect id="llm-reason-screen" x="956.0" y="514.08" width="34.56" height="21.119999999999997" rx="0.96" ry="0.96" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0" opacity="1.0"/>
+<polyline id="llm-reason-pulse" points="957.92,526.56 964.64,526.56 968.48,516.96 973.28,533.28 978.08,522.72 983.84,526.56 989.6,526.56" fill="none" stroke="#000000" stroke-width="2.112" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="llm-reason-arm-left" points="946.4,516.0 938.72,516.0 938.72,508.32" fill="none" stroke="#000000" stroke-width="3.84" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="llm-reason-arm-right" points="1000.16,516.0 1006.88,516.0 1006.88,526.56" fill="none" stroke="#000000" stroke-width="3.84" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse id="llm-reason-hand-left" cx="938.72" cy="506.4" rx="3.84" ry="3.84" fill="#000000" stroke="#000000" stroke-width="0" opacity="1.0"/>
+<ellipse id="llm-reason-hand-right" cx="1006.88" cy="528.48" rx="3.84" ry="3.84" fill="#000000" stroke="#000000" stroke-width="0" opacity="1.0"/>
+<rect id="llm-reason-base" x="941.6" y="547.68" width="63.36" height="16.32" rx="7.68" ry="7.68" fill="#000000" stroke="#000000" stroke-width="0" opacity="1.0"/>
+<ellipse id="llm-reason-base-light-0" cx="953.12" cy="555.36" rx="3.84" ry="3.84" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0" opacity="1.0"/>
+<ellipse id="llm-reason-base-light-1" cx="972.32" cy="555.36" rx="3.84" ry="3.84" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0" opacity="1.0"/>
+<ellipse id="llm-reason-base-light-2" cx="991.52" cy="555.36" rx="3.84" ry="3.84" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0" opacity="1.0"/>
+<text id="llm-reason-label" x="976.0" y="581.0" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="30" font-weight="700" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="976.0" dy="0">LLM</tspan>
+</text>
+<rect id="i2u-prompt" x="749" y="653" width="229" height="76" rx="14" ry="14" fill="#E1EFD8" stroke="#54833A" stroke-width="3.2" opacity="1.0"/>
+<text id="i2u-prompt-text" x="863.5" y="676.28" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="28" font-weight="700" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="863.5" dy="0">I2U Logic</tspan>
+<tspan x="863.5" dy="27.439999999999998">Prompt X꜀</tspan>
+</text>
+<rect id="u2i-prompt" x="985" y="652" width="220" height="76" rx="14" ry="14" fill="#FAE4D6" stroke="#C58E00" stroke-width="3.2" opacity="1.0"/>
+<text id="u2i-prompt-text" x="1095.0" y="675.28" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="28" font-weight="700" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="1095.0" dy="0">U2I Logic</tspan>
+<tspan x="1095.0" dy="27.439999999999998">Prompt Xₜ</tspan>
+</text>
+<polyline id="i2u-prompt-to-llm-shaft" points="864,653 864,513 916,513" fill="none" stroke="#9CCF82" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="i2u-prompt-to-llm-head" points="916.00,513.00 906.00,507.80 906.00,518.20" fill="#9CCF82" stroke="none"/>
+<polyline id="u2i-prompt-to-llm-shaft" points="1095,652 1095,513 1040,513" fill="none" stroke="#FFAD7D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="u2i-prompt-to-llm-head" points="1040.00,513.00 1050.00,507.80 1050.00,518.20" fill="#FFAD7D" stroke="none"/>
+<polyline id="item-bottom-route-to-i2u-shaft" points="861,766 861,729" fill="none" stroke="#9CCF82" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="item-bottom-route-to-i2u-head" points="861.00,729.00 855.80,739.00 866.20,739.00" fill="#9CCF82" stroke="none"/>
+<polyline id="user-bottom-route-to-u2i-shaft" points="1087,786 1087,728" fill="none" stroke="#FFAD7D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="user-bottom-route-to-u2i-head" points="1087.00,728.00 1081.80,738.00 1092.20,738.00" fill="#FFAD7D" stroke="none"/>
+<polyline id="reasoning-to-integration-shaft" points="1219,223 1259,223 1259,539 1308,539" fill="none" stroke="#75ADD4" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="reasoning-to-integration-head" points="1308.00,539.00 1297.00,533.28 1297.00,544.72" fill="#75ADD4" stroke="none"/>
+<ellipse id="history-user-head" cx="1343.24" cy="175.0" rx="9.0" ry="9.0" fill="#000000" stroke="#000000" stroke-width="0" opacity="1.0"/>
+<polyline id="history-user-hair" points="1333.52,172.48 1342.16,168.88 1352.24,173.2" fill="none" stroke="#FFFFFF" stroke-width="1.44" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="history-user-torso" x="1322" y="186.88" width="41.76" height="25.2" rx="12.959999999999999" ry="12.959999999999999" fill="#000000" stroke="#000000" stroke-width="0" opacity="1.0"/>
+<text id="history-user-label" x="1352.5" y="233.5" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="29" font-weight="400" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="1352.5" dy="0">user</tspan>
+</text>
+<polyline id="history-bracket" points="1412,95 1401,95 1401,302 1412,302" fill="none" stroke="#595959" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="history-bracket-mid" points="1401,198 1389,198" fill="none" stroke="#595959" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="history-camera-body" x="1439" y="78.92" width="50.160000000000004" height="34.32" rx="2.64" ry="2.64" fill="#000000" stroke="#000000" stroke-width="0" opacity="1.0"/>
+<rect id="history-camera-prism" x="1449.56" y="73.64" width="19.36" height="8.8" rx="1.76" ry="1.76" fill="#000000" stroke="#000000" stroke-width="0" opacity="1.0"/>
+<ellipse id="history-camera-lens-outer" cx="1466.7199999999998" cy="95.2" rx="10.12" ry="10.12" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0" opacity="1.0"/>
+<ellipse id="history-camera-lens-inner" cx="1466.7199999999998" cy="95.19999999999999" rx="6.6" ry="6.6" fill="#000000" stroke="#000000" stroke-width="0" opacity="1.0"/>
+<rect id="history-camera-flash" x="1441.64" y="83.32" width="7.92" height="4.4" rx="0" ry="0" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0" opacity="1.0"/>
+<text id="history-i1" x="1469.0" y="132.0" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="27" font-weight="400" font-style="italic" text-anchor="middle" dominant-baseline="central">
+<tspan x="1469.0" dy="0">i₁</tspan>
+</text>
+<rect id="history-video-body" x="1444.2" y="162.8" width="35.28" height="25.2" rx="2.52" ry="2.52" fill="#000000" stroke="#000000" stroke-width="0" opacity="1.0"/>
+<ellipse id="history-video-reel-left" cx="1456.8" cy="156.92000000000002" rx="9.24" ry="9.24" fill="#000000" stroke="#000000" stroke-width="0" opacity="1.0"/>
+<ellipse id="history-video-reel-right" cx="1472.3400000000001" cy="155.66" rx="9.66" ry="9.66" fill="#000000" stroke="#000000" stroke-width="0" opacity="1.0"/>
+<ellipse id="history-video-reel-hole-0" cx="1455.96" cy="156.08" rx="1.68" ry="1.68" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0" opacity="1.0"/>
+<ellipse id="history-video-reel-hole-1" cx="1460.16" cy="161.12" rx="1.68" ry="1.68" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0" opacity="1.0"/>
+<ellipse id="history-video-reel-hole-2" cx="1471.92" cy="154.4" rx="1.68" ry="1.68" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0" opacity="1.0"/>
+<ellipse id="history-video-reel-hole-3" cx="1476.1200000000001" cy="160.28" rx="1.68" ry="1.68" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0" opacity="1.0"/>
+<rect id="history-video-lens" x="1479.48" y="167.0" width="13.44" height="16.8" rx="0" ry="0" fill="#000000" stroke="#000000" stroke-width="0" opacity="1.0"/>
+<text id="history-i2" x="1469.0" y="211.0" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="27" font-weight="400" font-style="italic" text-anchor="middle" dominant-baseline="central">
+<tspan x="1469.0" dy="0">i₂</tspan>
+</text>
+<text id="history-dots-items" x="1471.0" y="241.5" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="31" font-weight="700" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="1471.0" dy="0">⋯</tspan>
+</text>
+<rect id="history-game-body" x="1438" y="279.56" width="54.12" height="28.7" rx="11.479999999999999" ry="11.479999999999999" fill="#000000" stroke="#000000" stroke-width="0" opacity="1.0"/>
+<polyline id="history-game-cross-h" points="1448.66,292.68 1460.14,292.68" fill="none" stroke="#FFFFFF" stroke-width="2.46" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="history-game-cross-v" points="1454.4,286.94 1454.4,298.42" fill="none" stroke="#FFFFFF" stroke-width="2.46" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse id="history-game-button-0" cx="1479.4099999999999" cy="290.63" rx="2.05" ry="2.05" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0" opacity="1.0"/>
+<ellipse id="history-game-button-1" cx="1485.1499999999999" cy="295.55" rx="2.05" ry="2.05" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0" opacity="1.0"/>
+<ellipse id="history-game-button-2" cx="1477.77" cy="298.83" rx="2.05" ry="2.05" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0" opacity="1.0"/>
+<text id="history-in" x="1469.0" y="329.0" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="27" font-weight="400" font-style="italic" text-anchor="middle" dominant-baseline="central">
+<tspan x="1469.0" dy="0">iₙ</tspan>
+</text>
+<rect id="history-t1" x="1533" y="55" width="290" height="42" rx="10" ry="10" fill="#FAE4D6" stroke="#C58E00" stroke-width="1.8" opacity="0.72"/>
+<text id="history-t1-text" x="1678.0" y="76.0" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="24" font-weight="400" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="1678.0" dy="0">T₁ = {t₁,₁, ···, t₁,k}</tspan>
+</text>
+<rect id="history-c1" x="1524" y="88" width="290" height="42" rx="10" ry="10" fill="#E1EFD8" stroke="#54833A" stroke-width="1.8" opacity="0.82"/>
+<text id="history-c1-text" x="1669.0" y="109.0" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="23" font-weight="400" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="1669.0" dy="0">C₁ = {c₁,₁, ···, c₁,l}</tspan>
+</text>
+<rect id="history-t2" x="1535" y="140" width="290" height="42" rx="10" ry="10" fill="#FAE4D6" stroke="#C58E00" stroke-width="1.8" opacity="0.72"/>
+<text id="history-t2-text" x="1680.0" y="161.0" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="24" font-weight="400" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="1680.0" dy="0">T₂ = {t₂,₁, ···, t₂,k}</tspan>
+</text>
+<rect id="history-c2" x="1527" y="174" width="290" height="42" rx="10" ry="10" fill="#E1EFD8" stroke="#54833A" stroke-width="1.8" opacity="0.82"/>
+<text id="history-c2-text" x="1672.0" y="195.0" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="23" font-weight="400" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="1672.0" dy="0">C₂ = {c₂,₁, ···, c₂,l}</tspan>
+</text>
+<text id="history-dots-tc" x="1652.0" y="245.0" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="31" font-weight="700" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="1652.0" dy="0">⋯</tspan>
+</text>
+<rect id="history-tn" x="1535" y="266" width="290" height="42" rx="10" ry="10" fill="#FAE4D6" stroke="#C58E00" stroke-width="1.8" opacity="0.72"/>
+<text id="history-tn-text" x="1680.0" y="287.0" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="24" font-weight="400" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="1680.0" dy="0">Tₙ = {tₙ,₁, ···, tₙ,k}</tspan>
+</text>
+<rect id="history-cn" x="1527" y="298" width="290" height="42" rx="10" ry="10" fill="#E1EFD8" stroke="#54833A" stroke-width="1.8" opacity="0.82"/>
+<text id="history-cn-text" x="1672.0" y="319.0" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="23" font-weight="400" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="1672.0" dy="0">Cₙ = {cₙ,₁, ···, cₙ,l}</tspan>
+</text>
+<text id="input-label" x="1634.5" y="388.5" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="23" font-weight="400" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="1634.5" dy="0">Input</tspan>
+</text>
+<polyline id="input-to-recsys-shaft" points="1670,360 1670,432" fill="none" stroke="#000000" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="input-to-recsys-head" points="1670.00,432.00 1664.80,422.00 1675.20,422.00" fill="#000000" stroke="none"/>
+<text id="mini-logic-title" x="1318" y="444.0" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="24" font-weight="400" font-style="italic" text-anchor="start" dominant-baseline="central">
+<tspan x="1318" dy="0">Logic Graph</tspan>
+</text>
+<rect id="mini-logic-field" x="1310" y="457" width="137" height="170" rx="24" ry="24" fill="#EDF4FA" stroke="#595959" stroke-width="3" opacity="1.0"/>
+<polyline id="mini-edge-0-shaft" points="1341,487 1405,487" fill="none" stroke="#FFAD7D" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="mini-edge-0-head" points="1405.00,487.00 1397.00,482.84 1397.00,491.16" fill="#FFAD7D" stroke="none"/>
+<polyline id="mini-edge-1-shaft" points="1341,487 1405,529" fill="none" stroke="#9CCF82" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="mini-edge-1-head" points="1405.00,529.00 1397.00,524.84 1397.00,533.16" fill="#9CCF82" stroke="none"/>
+<polyline id="mini-edge-2-shaft" points="1341,529 1405,487" fill="none" stroke="#9CCF82" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="mini-edge-2-head" points="1405.00,487.00 1397.00,482.84 1397.00,491.16" fill="#9CCF82" stroke="none"/>
+<polyline id="mini-edge-3-shaft" points="1341,529 1405,572" fill="none" stroke="#FFAD7D" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="mini-edge-3-head" points="1405.00,572.00 1397.00,567.84 1397.00,576.16" fill="#FFAD7D" stroke="none"/>
+<polyline id="mini-edge-4-shaft" points="1341,572 1405,529" fill="none" stroke="#9CCF82" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="mini-edge-4-head" points="1405.00,529.00 1397.00,524.84 1397.00,533.16" fill="#9CCF82" stroke="none"/>
+<polyline id="mini-edge-5-shaft" points="1341,572 1405,572" fill="none" stroke="#FFAD7D" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="mini-edge-5-head" points="1405.00,572.00 1397.00,567.84 1397.00,576.16" fill="#FFAD7D" stroke="none"/>
+<ellipse id="mini-left-node-0" cx="1341.5" cy="487.5" rx="14.5" ry="14.5" fill="#FAE4D6" stroke="#23364A" stroke-width="2" opacity="1.0"/>
+<ellipse id="mini-left-node-1" cx="1341.5" cy="529.5" rx="14.5" ry="14.5" fill="#FAE4D6" stroke="#23364A" stroke-width="2" opacity="1.0"/>
+<ellipse id="mini-left-node-2" cx="1341.5" cy="572.5" rx="14.5" ry="14.5" fill="#FAE4D6" stroke="#23364A" stroke-width="2" opacity="1.0"/>
+<ellipse id="mini-right-node-0" cx="1418.5" cy="487.5" rx="14.5" ry="14.5" fill="#D9EBD1" stroke="#23364A" stroke-width="2" opacity="1.0"/>
+<ellipse id="mini-right-node-1" cx="1418.5" cy="529.5" rx="14.5" ry="14.5" fill="#D9EBD1" stroke="#23364A" stroke-width="2" opacity="1.0"/>
+<ellipse id="mini-right-node-2" cx="1418.5" cy="572.5" rx="14.5" ry="14.5" fill="#D9EBD1" stroke="#23364A" stroke-width="2" opacity="1.0"/>
+<text id="mini-c-label" x="1341.0" y="602.0" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="23" font-weight="400" font-style="italic" text-anchor="middle" dominant-baseline="central">
+<tspan x="1341.0" dy="0">C*</tspan>
+</text>
+<text id="mini-t-label" x="1413.0" y="602.0" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="23" font-weight="400" font-style="italic" text-anchor="middle" dominant-baseline="central">
+<tspan x="1413.0" dy="0">T*</tspan>
+</text>
+<polyline id="mini-logic-to-recsys-i2u-shaft" points="1447,501 1517,501" fill="none" stroke="#000000" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="mini-logic-to-recsys-i2u-head" points="1517.00,501.00 1508.00,496.32 1508.00,505.68" fill="#000000" stroke="none"/>
+<text id="mini-i2u-label" x="1483.5" y="479.5" fill="#355F22" font-family="Times New Roman, Liberation Serif, serif" font-size="22" font-weight="400" font-style="italic" text-anchor="middle" dominant-baseline="central">
+<tspan x="1483.5" dy="0">G I2U*</tspan>
+</text>
+<polyline id="mini-logic-to-recsys-u2i-shaft" points="1447,573 1517,573" fill="none" stroke="#000000" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="mini-logic-to-recsys-u2i-head" points="1517.00,573.00 1508.00,568.32 1508.00,577.68" fill="#000000" stroke="none"/>
+<text id="mini-u2i-label" x="1483.5" y="552.5" fill="#C55400" font-family="Times New Roman, Liberation Serif, serif" font-size="22" font-weight="400" font-style="italic" text-anchor="middle" dominant-baseline="central">
+<tspan x="1483.5" dy="0">G U2I*</tspan>
+</text>
+<rect id="recsys-container" x="1517" y="433" width="300" height="182" rx="0" ry="0" fill="#FFFFFF" stroke="#595959" stroke-width="3.3" opacity="1.0"/>
+<text id="recsys-label" x="1527" y="484.0" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="24" font-weight="700" font-style="normal" text-anchor="start" dominant-baseline="central">
+<tspan x="1527" dy="0">RecSys</tspan>
+</text>
+<polyline id="recsys-network-edge-0-2" points="1537.28,522.56 1556.96,536.5" fill="none" stroke="#000000" stroke-width="2.46" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="recsys-network-edge-1-2" points="1537.28,550.44 1556.96,536.5" fill="none" stroke="#000000" stroke-width="2.46" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="recsys-network-edge-2-3" points="1556.96,536.5 1575.0,522.56" fill="none" stroke="#000000" stroke-width="2.46" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="recsys-network-edge-2-4" points="1556.96,536.5 1575.0,550.44" fill="none" stroke="#000000" stroke-width="2.46" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="recsys-network-edge-3-5" points="1575.0,522.56 1588.94,536.5" fill="none" stroke="#000000" stroke-width="2.46" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="recsys-network-edge-4-5" points="1575.0,550.44 1588.94,536.5" fill="none" stroke="#000000" stroke-width="2.46" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="recsys-network-edge-0-4" points="1537.28,522.56 1575.0,550.44" fill="none" stroke="#000000" stroke-width="2.46" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="recsys-network-edge-1-3" points="1537.28,550.44 1575.0,522.56" fill="none" stroke="#000000" stroke-width="2.46" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse id="recsys-network-node-0" cx="1537.28" cy="522.56" rx="3.28" ry="3.28" fill="#FFFFFF" stroke="#000000" stroke-width="2.46" opacity="1.0"/>
+<ellipse id="recsys-network-node-1" cx="1537.28" cy="550.4399999999999" rx="3.28" ry="3.28" fill="#FFFFFF" stroke="#000000" stroke-width="2.46" opacity="1.0"/>
+<ellipse id="recsys-network-node-2" cx="1556.96" cy="536.5" rx="3.28" ry="3.28" fill="#FFFFFF" stroke="#000000" stroke-width="2.46" opacity="1.0"/>
+<ellipse id="recsys-network-node-3" cx="1575.0" cy="522.56" rx="3.28" ry="3.28" fill="#FFFFFF" stroke="#000000" stroke-width="2.46" opacity="1.0"/>
+<ellipse id="recsys-network-node-4" cx="1575.0" cy="550.4399999999999" rx="3.28" ry="3.28" fill="#FFFFFF" stroke="#000000" stroke-width="2.46" opacity="1.0"/>
+<ellipse id="recsys-network-node-5" cx="1588.94" cy="536.5" rx="3.28" ry="3.28" fill="#FFFFFF" stroke="#000000" stroke-width="2.46" opacity="1.0"/>
+<rect id="tag-encoder" x="1600" y="458" width="208" height="70" rx="13" ry="13" fill="#D3FCF4" stroke="#D0D0D0" stroke-width="1.6" opacity="1.0"/>
+<text id="tag-encoder-text" x="1704.0" y="481.73" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="23" font-weight="400" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="1704.0" dy="0">Tag-based</tspan>
+<tspan x="1704.0" dy="22.54">Item/User Encoder</tspan>
+</text>
+<rect id="logic-extension" x="1598" y="531" width="210" height="69" rx="13" ry="13" fill="#FFF3D3" stroke="#D0D0D0" stroke-width="1.6" opacity="1.0"/>
+<text id="logic-extension-text" x="1703.0" y="553.73" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="23" font-weight="400" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="1703.0" dy="0">Tag-logic</tspan>
+<tspan x="1703.0" dy="22.54">Inference Extension</tspan>
+</text>
+<text id="candidate-label" x="1839.0" y="401.7" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="20" font-weight="400" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="1839.0" dy="0">Candidate</tspan>
+<tspan x="1839.0" dy="19.6">item</tspan>
+</text>
+<ellipse id="candidate-clock-face" cx="1838.3" cy="460.58" rx="12.299999999999999" ry="12.299999999999999" fill="#FFFFFF" stroke="#000000" stroke-width="2.46" opacity="1.0"/>
+<polyline id="candidate-clock-hand1" points="1838.3,459.76 1838.3,452.38" fill="none" stroke="#000000" stroke-width="1.64" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="candidate-clock-hand2" points="1838.3,459.76 1844.86,463.04" fill="none" stroke="#000000" stroke-width="1.64" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="candidate-clock-bell" x="1830.92" y="445" width="14.76" height="4.1" rx="1.64" ry="1.64" fill="#000000" stroke="#000000" stroke-width="0" opacity="1.0"/>
+<rect id="candidate-clock-base" x="1830.92" y="473.7" width="16.4" height="3.28" rx="0.82" ry="0.82" fill="#000000" stroke="#000000" stroke-width="0" opacity="1.0"/>
+<text id="candidate-vi" x="1872.5" y="465.0" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="26" font-weight="700" font-style="italic" text-anchor="middle" dominant-baseline="central">
+<tspan x="1872.5" dy="0">vᵢ</tspan>
+</text>
+<polyline id="candidate-to-recsys-shaft" points="1867,485 1867,558 1817,558" fill="none" stroke="#000000" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="candidate-to-recsys-head" points="1817.00,558.00 1826.00,553.32 1826.00,562.68" fill="#000000" stroke="none"/>
+<polyline id="recsys-to-raw-shaft" points="1675,615 1675,669" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="recsys-to-raw-head" points="1675.00,669.00 1670.32,660.00 1679.68,660.00" fill="#000000" stroke="none"/>
+<polyline id="recsys-to-tag-shaft" points="1777,615 1777,669" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="recsys-to-tag-head" points="1777.00,669.00 1772.32,660.00 1781.68,660.00" fill="#000000" stroke="none"/>
+<text id="y-raw" x="1675.5" y="690.0" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="24" font-weight="400" font-style="italic" text-anchor="middle" dominant-baseline="central">
+<tspan x="1675.5" dy="0">ŷraw</tspan>
+</text>
+<text id="y-tag" x="1776.5" y="690.0" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="24" font-weight="400" font-style="italic" text-anchor="middle" dominant-baseline="central">
+<tspan x="1776.5" dy="0">ŷtag</tspan>
+</text>
+<polyline id="raw-to-y-shaft" points="1675,708 1725,741" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="raw-to-y-head" points="1725.00,741.00 1716.00,736.32 1716.00,745.68" fill="#000000" stroke="none"/>
+<polyline id="tag-to-y-shaft" points="1777,708 1737,741" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="tag-to-y-head" points="1737.00,741.00 1746.00,736.32 1746.00,745.68" fill="#000000" stroke="none"/>
+<text id="y-final" x="1734.0" y="751.0" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="27" font-weight="400" font-style="italic" text-anchor="middle" dominant-baseline="central">
+<tspan x="1734.0" dy="0">ŷ</tspan>
+</text>
+<rect id="loss-box" x="1310" y="672" width="331" height="91" rx="14" ry="14" fill="#D3EEFF" stroke="#D0D0D0" stroke-width="1.6" opacity="1.0"/>
+<text id="loss-formula" x="1475.5" y="699.5" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="22" font-weight="400" font-style="italic" text-anchor="middle" dominant-baseline="central">
+<tspan x="1475.5" dy="0">L = λ(Lut + Lit) + (1 − λ)Lui</tspan>
+</text>
+<text id="loss-caption" x="1475.5" y="738.0" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="22" font-weight="400" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="1475.5" dy="0">Tag-based Learning Augmentation</tspan>
+</text>
+<text id="backprop-label" x="1477.5" y="647.0" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="18" font-weight="400" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="1477.5" dy="0">Backpropagation</tspan>
+</text>
+<polyline id="loss-feedback-shaft" points="1550,672 1550,615" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="12 9"/>
+<polygon id="loss-feedback-head" points="1550.00,615.00 1545.32,624.00 1554.68,624.00" fill="#000000" stroke="none"/>
+<text id="caption-one" x="327.0" y="846.0" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="30" font-weight="700" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="327.0" dy="0">(1) MLLM-based Tag Extraction</tspan>
+</text>
+<text id="caption-two" x="969.0" y="846.0" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="30" font-weight="700" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="969.0" dy="0">(2) LLM-based Collaborative Logic Reasoning</tspan>
+</text>
+<text id="caption-three" x="1588.0" y="846.0" fill="#000000" font-family="Times New Roman, Liberation Serif, serif" font-size="30" font-weight="700" font-style="normal" text-anchor="middle" dominant-baseline="central">
+<tspan x="1588.0" dy="0">(3) Tag Logic Integration</tspan>
+</text>
+</svg>

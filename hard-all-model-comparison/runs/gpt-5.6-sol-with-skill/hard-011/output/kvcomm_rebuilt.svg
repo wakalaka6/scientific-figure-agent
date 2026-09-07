@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1872" height="921" viewBox="0 0 1872 921">
+<title>KV-cache Communication Module</title>
+<desc>Editable vector reconstruction of the KVCOMM multi-agent KV-cache workflow.</desc>
+<rect id="Canvas" data-group="background" x="0" y="0" width="1872" height="921" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1.5"/>
+<line id="external_flows_002" data-group="external_flows" x1="482" y1="286" x2="513" y2="286" stroke="#817492" stroke-width="8" stroke-linecap="round"/>
+<line id="external_flows_003" data-group="external_flows" x1="513" y1="286" x2="513" y2="814" stroke="#817492" stroke-width="8" stroke-linecap="round"/>
+<line id="external_flows_004" data-group="external_flows" x1="513" y1="814" x2="482" y2="814" stroke="#817492" stroke-width="8" stroke-linecap="round"/>
+<line id="external_flows_005" data-group="external_flows" x1="483" y1="286" x2="576" y2="286" stroke="#817492" stroke-width="8" stroke-linecap="round"/>
+<polygon id="external_flows_006" data-group="external_flows" points="576.0,286.0 558.0,274.8 558.0,297.2" fill="#817492" stroke="#817492" stroke-width="1"/>
+<text id="external_flows_007" data-group="external_flows" x="529.0" y="263.0" font-family="Liberation Sans" font-size="27" fill="#000000" text-anchor="middle" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="529.0" dy="0">Query</tspan>
+</text>
+<line id="external_flows_008" data-group="external_flows" x1="576" y1="349" x2="530" y2="349" stroke="#F4B083" stroke-width="8" stroke-linecap="round"/>
+<line id="external_flows_009" data-group="external_flows" x1="530" y1="349" x2="530" y2="869" stroke="#F4B083" stroke-width="8" stroke-linecap="round"/>
+<line id="external_flows_010" data-group="external_flows" x1="530" y1="349" x2="484" y2="349" stroke="#F4B083" stroke-width="8" stroke-linecap="round"/>
+<polygon id="external_flows_011" data-group="external_flows" points="484.0,349.0 502.0,360.2 502.0,337.8" fill="#F4B083" stroke="#F4B083" stroke-width="1"/>
+<line id="external_flows_012" data-group="external_flows" x1="530" y1="869" x2="483" y2="869" stroke="#F4B083" stroke-width="8" stroke-linecap="round"/>
+<polygon id="external_flows_013" data-group="external_flows" points="483.0,869.0 501.0,880.2 501.0,857.8" fill="#F4B083" stroke="#F4B083" stroke-width="1"/>
+<line id="external_flows_014" data-group="external_flows" x1="530" y1="869" x2="577" y2="869" stroke="#F4B083" stroke-width="8" stroke-linecap="round"/>
+<polygon id="external_flows_015" data-group="external_flows" points="577.0,869.0 559.0,857.8 559.0,880.2" fill="#F4B083" stroke="#F4B083" stroke-width="1"/>
+<text id="external_flows_016" data-group="external_flows" x="532.0" y="889.0" font-family="Liberation Sans" font-size="27" fill="#000000" text-anchor="middle" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="532.0" dy="0">Reuse</tspan>
+</text>
+<line id="external_flows_017" data-group="external_flows" x1="397" y1="479" x2="397" y2="539" stroke="#518135" stroke-width="8" stroke-linecap="round"/>
+<line id="external_flows_018" data-group="external_flows" x1="397" y1="539" x2="548" y2="539" stroke="#518135" stroke-width="8" stroke-linecap="round"/>
+<line id="external_flows_019" data-group="external_flows" x1="548" y1="539" x2="577" y2="539" stroke="#518135" stroke-width="8" stroke-linecap="round"/>
+<polygon id="external_flows_020" data-group="external_flows" points="577.0,539.0 559.0,527.8 559.0,550.2" fill="#518135" stroke="#518135" stroke-width="1"/>
+<line id="external_flows_021" data-group="external_flows" x1="333" y1="539" x2="333" y2="577" stroke="#518135" stroke-width="7" stroke-linecap="round"/>
+<line id="external_flows_022" data-group="external_flows" x1="722" y1="901" x2="722" y2="921" stroke="#518135" stroke-width="7" stroke-linecap="round"/>
+<rect id="KV_cache_module" data-group="module" x="576" y="14" width="1296" height="542" rx="25" fill="#A7D08C" stroke="#518135" stroke-width="2"/>
+<rect id="module_024" data-group="module" x="576" y="14" width="1296" height="66" rx="25" fill="#817492" stroke="#376A9B" stroke-width="2"/>
+<rect id="module_025" data-group="module" x="576" y="80" width="459" height="443" rx="0" fill="#D9D1DE" stroke="none" stroke-width="1.5"/>
+<rect id="module_026" data-group="module" x="1035" y="80" width="434" height="443" rx="0" fill="#FAE5D4" stroke="none" stroke-width="1.5"/>
+<rect id="module_027" data-group="module" x="1469" y="80" width="403" height="443" rx="0" fill="#A7D08C" stroke="none" stroke-width="1.5"/>
+<text id="module_028" data-group="module" x="1224.0" y="43.5" font-family="Liberation Sans" font-size="49" fill="#FFFFFF" text-anchor="middle" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="1224.0" dy="0">KV-cache Communication Module</tspan>
+</text>
+<text id="matching_029" data-group="matching" x="805.5" y="100.0" font-family="Liberation Sans" font-size="36" fill="#000000" text-anchor="middle" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="805.5" dy="0">Anchor Matching</tspan>
+</text>
+<text id="offset_030" data-group="offset" x="1252.0" y="100.0" font-family="Liberation Sans" font-size="36" fill="#000000" text-anchor="middle" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="1252.0" dy="0">Offset Approximation</tspan>
+</text>
+<text id="prediction_031" data-group="prediction" x="1670.5" y="100.0" font-family="Liberation Sans" font-size="36" fill="#000000" text-anchor="middle" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="1670.5" dy="0">Anchor Prediction</tspan>
+</text>
+<rect id="Agent_1_panel" data-group="agent1" x="18" y="14" width="467" height="490" rx="28" fill="#9CC3E4" stroke="#376A9B" stroke-width="2"/>
+<rect id="agent1_033" data-group="agent1" x="18" y="79" width="467" height="425" rx="0" fill="#DEEAF6" stroke="#376A9B" stroke-width="2"/>
+<text id="agent1_034" data-group="agent1" x="251.5" y="48.5" font-family="Liberation Sans" font-size="37" fill="#1F3763" text-anchor="middle" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="251.5" dy="0">Agent 1</tspan>
+</text>
+<text id="agent1_035" data-group="agent1" x="43" y="101.0" font-family="Liberation Sans" font-size="27" fill="#1F3763" text-anchor="start" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="43" dy="0">Prefix KV</tspan>
+</text>
+<rect id="agent1_036" data-group="agent1" x="36" y="119" width="74" height="34" rx="1" fill="#90AADB" stroke="#FFFFFF" stroke-width="1.3"/>
+<text id="agent1_037" data-group="agent1" x="73.0" y="136.0" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="73.0" dy="0">p(1,0)</tspan>
+</text>
+<rect id="agent1_038" data-group="agent1" x="120" y="119" width="74" height="34" rx="1" fill="#90AADB" stroke="#FFFFFF" stroke-width="1.3"/>
+<text id="agent1_039" data-group="agent1" x="157.0" y="136.0" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="157.0" dy="0">p(1,1)</tspan>
+</text>
+<rect id="agent1_040" data-group="agent1" x="204" y="119" width="74" height="34" rx="1" fill="#90AADB" stroke="#FFFFFF" stroke-width="1.3"/>
+<text id="agent1_041" data-group="agent1" x="241.0" y="136.0" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="241.0" dy="0">p(1,2)</tspan>
+</text>
+<rect id="agent1_042" data-group="agent1" x="288" y="119" width="74" height="34" rx="1" fill="#90AADB" stroke="#FFFFFF" stroke-width="1.3"/>
+<text id="agent1_043" data-group="agent1" x="325.0" y="136.0" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="325.0" dy="0">p(1,3)</tspan>
+</text>
+<text id="agent1_044" data-group="agent1" x="43" y="173.5" font-family="Liberation Sans" font-size="27" fill="#1F3763" text-anchor="start" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="43" dy="0">Placeholder KV</tspan>
+</text>
+<rect id="agent1_045" data-group="agent1" x="36" y="190" width="66" height="32" rx="1" fill="#F4B083" stroke="#C95B0B" stroke-width="1.3"/>
+<line id="agent1_046" data-group="agent1" x1="36" y1="210" x2="48" y2="202" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_047" data-group="agent1" x1="36" y1="198" x2="60" y2="214" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_048" data-group="agent1" x1="40" y1="190" x2="72" y2="222" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_049" data-group="agent1" x1="52" y1="190" x2="84" y2="222" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_050" data-group="agent1" x1="64" y1="190" x2="96" y2="222" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_051" data-group="agent1" x1="76" y1="190" x2="102" y2="222" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_052" data-group="agent1" x1="88" y1="190" x2="102" y2="222" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_053" data-group="agent1" x1="100" y1="190" x2="102" y2="222" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<text id="agent1_054" data-group="agent1" x="69.0" y="206.0" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="69.0" dy="0">φ(1,1)</tspan>
+</text>
+<rect id="agent1_055" data-group="agent1" x="107" y="190" width="66" height="32" rx="1" fill="#A7D08C" stroke="#518135" stroke-width="1.3"/>
+<line id="agent1_056" data-group="agent1" x1="107" y1="210" x2="119" y2="202" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_057" data-group="agent1" x1="107" y1="198" x2="131" y2="214" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_058" data-group="agent1" x1="111" y1="190" x2="143" y2="222" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_059" data-group="agent1" x1="123" y1="190" x2="155" y2="222" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_060" data-group="agent1" x1="135" y1="190" x2="167" y2="222" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_061" data-group="agent1" x1="147" y1="190" x2="173" y2="222" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_062" data-group="agent1" x1="159" y1="190" x2="173" y2="222" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_063" data-group="agent1" x1="171" y1="190" x2="173" y2="222" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<text id="agent1_064" data-group="agent1" x="140.0" y="206.0" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="140.0" dy="0">φ(1,2)</tspan>
+</text>
+<rect id="agent1_065" data-group="agent1" x="178" y="190" width="66" height="32" rx="1" fill="#F4B083" stroke="#C95B0B" stroke-width="1.3"/>
+<line id="agent1_066" data-group="agent1" x1="178" y1="210" x2="190" y2="202" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_067" data-group="agent1" x1="178" y1="198" x2="202" y2="214" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_068" data-group="agent1" x1="182" y1="190" x2="214" y2="222" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_069" data-group="agent1" x1="194" y1="190" x2="226" y2="222" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_070" data-group="agent1" x1="206" y1="190" x2="238" y2="222" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_071" data-group="agent1" x1="218" y1="190" x2="244" y2="222" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_072" data-group="agent1" x1="230" y1="190" x2="244" y2="222" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_073" data-group="agent1" x1="242" y1="190" x2="244" y2="222" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<text id="agent1_074" data-group="agent1" x="211.0" y="206.0" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="211.0" dy="0">φ(1,3)</tspan>
+</text>
+<rect id="agent1_075" data-group="agent1" x="18" y="223" width="467" height="46" rx="0" fill="#D9D1DE" stroke="#817492" stroke-width="2"/>
+<text id="agent1_076" data-group="agent1" x="251.5" y="246.0" font-family="Liberation Sans" font-size="29" fill="#000000" text-anchor="middle" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="251.5" dy="0">All placeholders       ?</tspan>
+</text>
+<ellipse id="agent1_077" data-group="agent1" cx="358.90999999999997" cy="246.0" rx="17.0" ry="17.0" fill="#518135" stroke="#FFFFFF" stroke-width="1.2"/>
+<line id="agent1_078" data-group="agent1" x1="349.90999999999997" y1="246" x2="356.90999999999997" y2="253" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round"/>
+<line id="agent1_079" data-group="agent1" x1="356.90999999999997" y1="253" x2="368.90999999999997" y2="238" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round"/>
+<rect id="agent1_080" data-group="agent1" x="18" y="269" width="175.125" height="36" rx="0" fill="#DEEAF6" stroke="#376A9B" stroke-width="1.6"/>
+<rect id="agent1_081" data-group="agent1" x="193.125" y="269" width="291.875" height="36" rx="0" fill="#D9D1DE" stroke="#817492" stroke-width="1.6"/>
+<text id="agent1_082" data-group="agent1" x="105.5625" y="287.0" font-family="Liberation Sans" font-size="28" fill="#000000" text-anchor="middle" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="105.5625" dy="0">No</tspan>
+</text>
+<text id="agent1_083" data-group="agent1" x="339.0625" y="287.0" font-family="Liberation Sans" font-size="28" fill="#000000" text-anchor="middle" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="339.0625" dy="0">Yes</tspan>
+</text>
+<rect id="agent1_084" data-group="agent1" x="18" y="305" width="175.125" height="115" rx="0" fill="#DEEAF6" stroke="#376A9B" stroke-width="1.5"/>
+<rect id="agent1_085" data-group="agent1" x="18" y="420" width="175.125" height="84" rx="0" fill="#DEEAF6" stroke="#376A9B" stroke-width="1.5"/>
+<line id="agent1_086" data-group="agent1" x1="28" y1="420" x2="183.125" y2="420" stroke="#376A9B" stroke-width="2" stroke-linecap="round" stroke-dasharray="10,8"/>
+<text id="agent1_087" data-group="agent1" x="105.5625" y="342.825" font-family="Liberation Sans" font-size="27" fill="#1F3763" text-anchor="middle" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="105.5625" dy="0">Dense</tspan>
+<tspan x="105.5625" dy="28.35">Prefilling</tspan>
+</text>
+<ellipse id="agent1_088" data-group="agent1" cx="105.5625" cy="399.0" rx="17.0" ry="17.0" fill="#C95B0B" stroke="#FFFFFF" stroke-width="1.2"/>
+<line id="agent1_089" data-group="agent1" x1="96.5625" y1="399" x2="114.5625" y2="399" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round"/>
+<line id="agent1_090" data-group="agent1" x1="105.5625" y1="390" x2="105.5625" y2="408" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round"/>
+<text id="agent1_091" data-group="agent1" x="105.5625" y="451.0" font-family="Liberation Sans" font-size="27" fill="#1F3763" text-anchor="middle" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="105.5625" dy="0">Decoding</tspan>
+</text>
+<ellipse id="agent1_092" data-group="agent1" cx="105.5625" cy="481.0" rx="17.0" ry="17.0" fill="#C95B0B" stroke="#FFFFFF" stroke-width="1.2"/>
+<line id="agent1_093" data-group="agent1" x1="96.5625" y1="481" x2="114.5625" y2="481" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round"/>
+<line id="agent1_094" data-group="agent1" x1="105.5625" y1="472" x2="105.5625" y2="490" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round"/>
+<rect id="agent1_095" data-group="agent1" x="193.125" y="305" width="291.875" height="115" rx="0" fill="#FAE5D4" stroke="#C95B0B" stroke-width="1.5"/>
+<rect id="agent1_096" data-group="agent1" x="193.125" y="420" width="291.875" height="84" rx="0" fill="#FAE5D4" stroke="#C95B0B" stroke-width="1.5"/>
+<text id="agent1_097" data-group="agent1" x="203.125" y="324.5" font-family="Liberation Sans" font-size="27" fill="#1F3763" text-anchor="start" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="203.125" dy="0">Cache Update</tspan>
+</text>
+<text id="agent1_098" data-group="agent1" x="215.125" y="355.0" font-family="Liberation Sans" font-size="24" fill="#1F3763" text-anchor="start" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="215.125" dy="0">PH</tspan>
+</text>
+<rect id="agent1_099" data-group="agent1" x="255.125" y="337" width="68" height="31" rx="1" fill="#F4B083" stroke="#C95B0B" stroke-width="1.3"/>
+<line id="agent1_100" data-group="agent1" x1="255.125" y1="356" x2="267.125" y2="349" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_101" data-group="agent1" x1="255.125" y1="344" x2="279.125" y2="361" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_102" data-group="agent1" x1="260.125" y1="337" x2="291.125" y2="368" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_103" data-group="agent1" x1="272.125" y1="337" x2="303.125" y2="368" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_104" data-group="agent1" x1="284.125" y1="337" x2="315.125" y2="368" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_105" data-group="agent1" x1="296.125" y1="337" x2="323.125" y2="368" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_106" data-group="agent1" x1="308.125" y1="337" x2="323.125" y2="368" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_107" data-group="agent1" x1="320.125" y1="337" x2="323.125" y2="368" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<text id="agent1_108" data-group="agent1" x="289.125" y="352.5" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="289.125" dy="0">φ(1,1)</tspan>
+</text>
+<rect id="agent1_109" data-group="agent1" x="327.125" y="337" width="68" height="31" rx="1" fill="#A7D08C" stroke="#518135" stroke-width="1.3"/>
+<line id="agent1_110" data-group="agent1" x1="327.125" y1="356" x2="339.125" y2="349" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_111" data-group="agent1" x1="327.125" y1="344" x2="351.125" y2="361" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_112" data-group="agent1" x1="332.125" y1="337" x2="363.125" y2="368" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_113" data-group="agent1" x1="344.125" y1="337" x2="375.125" y2="368" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_114" data-group="agent1" x1="356.125" y1="337" x2="387.125" y2="368" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_115" data-group="agent1" x1="368.125" y1="337" x2="395.125" y2="368" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_116" data-group="agent1" x1="380.125" y1="337" x2="395.125" y2="368" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_117" data-group="agent1" x1="392.125" y1="337" x2="395.125" y2="368" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<text id="agent1_118" data-group="agent1" x="361.125" y="352.5" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="361.125" dy="0">φ(1,2)</tspan>
+</text>
+<rect id="agent1_119" data-group="agent1" x="399.125" y="337" width="66" height="31" rx="1" fill="#F4B083" stroke="#C95B0B" stroke-width="1.3"/>
+<line id="agent1_120" data-group="agent1" x1="399.125" y1="356" x2="411.125" y2="349" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_121" data-group="agent1" x1="399.125" y1="344" x2="423.125" y2="361" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_122" data-group="agent1" x1="404.125" y1="337" x2="435.125" y2="368" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_123" data-group="agent1" x1="416.125" y1="337" x2="447.125" y2="368" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_124" data-group="agent1" x1="428.125" y1="337" x2="459.125" y2="368" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_125" data-group="agent1" x1="440.125" y1="337" x2="465.125" y2="368" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_126" data-group="agent1" x1="452.125" y1="337" x2="465.125" y2="368" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent1_127" data-group="agent1" x1="464.125" y1="337" x2="465.125" y2="368" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<text id="agent1_128" data-group="agent1" x="432.125" y="352.5" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="432.125" dy="0">φ(1,3)</tspan>
+</text>
+<text id="agent1_129" data-group="agent1" x="215.125" y="388.0" font-family="Liberation Sans" font-size="24" fill="#1F3763" text-anchor="start" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="215.125" dy="0">PF</tspan>
+</text>
+<rect id="agent1_130" data-group="agent1" x="255.125" y="373" width="68" height="31" rx="1" fill="#90AADB" stroke="#FFFFFF" stroke-width="1.3"/>
+<text id="agent1_131" data-group="agent1" x="289.125" y="388.5" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="289.125" dy="0">p(1,1)</tspan>
+</text>
+<rect id="agent1_132" data-group="agent1" x="327.125" y="373" width="68" height="31" rx="1" fill="#90AADB" stroke="#FFFFFF" stroke-width="1.3"/>
+<text id="agent1_133" data-group="agent1" x="361.125" y="388.5" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="361.125" dy="0">p(1,2)</tspan>
+</text>
+<rect id="agent1_134" data-group="agent1" x="399.125" y="373" width="66" height="31" rx="1" fill="#90AADB" stroke="#FFFFFF" stroke-width="1.3"/>
+<text id="agent1_135" data-group="agent1" x="432.125" y="388.5" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="432.125" dy="0">p(1,3)</tspan>
+</text>
+<text id="agent1_136" data-group="agent1" x="205.125" y="443.5" font-family="Liberation Sans" font-size="27" fill="#1F3763" text-anchor="start" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="205.125" dy="0">Response Cache</tspan>
+</text>
+<text id="agent1_137" data-group="agent1" x="215.125" y="475.0" font-family="Liberation Sans" font-size="23" fill="#1F3763" text-anchor="start" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="215.125" dy="0">[PH, PF]</tspan>
+</text>
+<line id="agent1_138" data-group="agent1" x1="313.125" y1="475" x2="338.125" y2="475" stroke="#518135" stroke-width="3" stroke-linecap="round"/>
+<polygon id="agent1_139" data-group="agent1" points="338.1,475.0 330.1,470.0 330.1,480.0" fill="#518135" stroke="#518135" stroke-width="1"/>
+<rect id="agent1_140" data-group="agent1" x="338.125" y="462" width="126" height="27" rx="7" fill="#A7D08C" stroke="#518135" stroke-width="1.4"/>
+<text id="agent1_141" data-group="agent1" x="401.125" y="475.5" font-family="Liberation Sans" font-size="20" fill="#000000" text-anchor="middle" font-weight="400" font-style="normal" dominant-baseline="middle">
+<tspan x="401.125" dy="0">Response</tspan>
+</text>
+<text id="agents_142" data-group="agents" x="10" y="554.5" font-family="Liberation Sans" font-size="28" fill="#000000" text-anchor="start" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="10" dy="0">Anchor Prediction of Response KV</tspan>
+</text>
+<rect id="Agent_2_panel" data-group="agent2" x="18" y="577" width="467" height="324" rx="28" fill="#9CC3E4" stroke="#376A9B" stroke-width="2"/>
+<rect id="agent2_144" data-group="agent2" x="18" y="642" width="467" height="259" rx="0" fill="#DEEAF6" stroke="#376A9B" stroke-width="2"/>
+<text id="agent2_145" data-group="agent2" x="251.5" y="611.5" font-family="Liberation Sans" font-size="37" fill="#1F3763" text-anchor="middle" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="251.5" dy="0">Agent 2</tspan>
+</text>
+<text id="agent2_146" data-group="agent2" x="43" y="664.0" font-family="Liberation Sans" font-size="27" fill="#1F3763" text-anchor="start" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="43" dy="0">Prefix KV</tspan>
+</text>
+<rect id="agent2_147" data-group="agent2" x="36" y="682" width="73" height="34" rx="1" fill="#90AADB" stroke="#FFFFFF" stroke-width="1.3"/>
+<text id="agent2_148" data-group="agent2" x="72.5" y="699.0" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="72.5" dy="0">p(2,0)</tspan>
+</text>
+<rect id="agent2_149" data-group="agent2" x="119" y="682" width="73" height="34" rx="1" fill="#90AADB" stroke="#FFFFFF" stroke-width="1.3"/>
+<text id="agent2_150" data-group="agent2" x="155.5" y="699.0" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="155.5" dy="0">p(2,1)</tspan>
+</text>
+<rect id="agent2_151" data-group="agent2" x="202" y="682" width="73" height="34" rx="1" fill="#90AADB" stroke="#FFFFFF" stroke-width="1.3"/>
+<text id="agent2_152" data-group="agent2" x="238.5" y="699.0" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="238.5" dy="0">p(2,2)</tspan>
+</text>
+<rect id="agent2_153" data-group="agent2" x="285" y="682" width="73" height="34" rx="1" fill="#90AADB" stroke="#FFFFFF" stroke-width="1.3"/>
+<text id="agent2_154" data-group="agent2" x="321.5" y="699.0" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="321.5" dy="0">p(2,3)</tspan>
+</text>
+<rect id="agent2_155" data-group="agent2" x="368" y="682" width="73" height="34" rx="1" fill="#90AADB" stroke="#FFFFFF" stroke-width="1.3"/>
+<text id="agent2_156" data-group="agent2" x="404.5" y="699.0" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="404.5" dy="0">p(2,4)</tspan>
+</text>
+<text id="agent2_157" data-group="agent2" x="43" y="736.5" font-family="Liberation Sans" font-size="27" fill="#1F3763" text-anchor="start" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="43" dy="0">Placeholder KV</tspan>
+</text>
+<rect id="agent2_158" data-group="agent2" x="36" y="753" width="64" height="32" rx="1" fill="#F4B083" stroke="#C95B0B" stroke-width="1.3"/>
+<line id="agent2_159" data-group="agent2" x1="36" y1="773" x2="48" y2="765" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent2_160" data-group="agent2" x1="36" y1="761" x2="60" y2="777" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent2_161" data-group="agent2" x1="40" y1="753" x2="72" y2="785" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent2_162" data-group="agent2" x1="52" y1="753" x2="84" y2="785" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent2_163" data-group="agent2" x1="64" y1="753" x2="96" y2="785" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent2_164" data-group="agent2" x1="76" y1="753" x2="100" y2="785" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent2_165" data-group="agent2" x1="88" y1="753" x2="100" y2="785" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<text id="agent2_166" data-group="agent2" x="68.0" y="769.0" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="68.0" dy="0">φ(2,1)</tspan>
+</text>
+<rect id="agent2_167" data-group="agent2" x="105" y="753" width="64" height="32" rx="1" fill="#A7D08C" stroke="#518135" stroke-width="1.3"/>
+<line id="agent2_168" data-group="agent2" x1="105" y1="773" x2="117" y2="765" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent2_169" data-group="agent2" x1="105" y1="761" x2="129" y2="777" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent2_170" data-group="agent2" x1="109" y1="753" x2="141" y2="785" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent2_171" data-group="agent2" x1="121" y1="753" x2="153" y2="785" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent2_172" data-group="agent2" x1="133" y1="753" x2="165" y2="785" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent2_173" data-group="agent2" x1="145" y1="753" x2="169" y2="785" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent2_174" data-group="agent2" x1="157" y1="753" x2="169" y2="785" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<text id="agent2_175" data-group="agent2" x="137.0" y="769.0" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="137.0" dy="0">φ(2,2)</tspan>
+</text>
+<rect id="agent2_176" data-group="agent2" x="174" y="753" width="64" height="32" rx="1" fill="#F4B083" stroke="#C95B0B" stroke-width="1.3"/>
+<line id="agent2_177" data-group="agent2" x1="174" y1="773" x2="186" y2="765" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent2_178" data-group="agent2" x1="174" y1="761" x2="198" y2="777" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent2_179" data-group="agent2" x1="178" y1="753" x2="210" y2="785" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent2_180" data-group="agent2" x1="190" y1="753" x2="222" y2="785" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent2_181" data-group="agent2" x1="202" y1="753" x2="234" y2="785" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent2_182" data-group="agent2" x1="214" y1="753" x2="238" y2="785" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent2_183" data-group="agent2" x1="226" y1="753" x2="238" y2="785" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<text id="agent2_184" data-group="agent2" x="206.0" y="769.0" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="206.0" dy="0">φ(2,3)</tspan>
+</text>
+<rect id="agent2_185" data-group="agent2" x="243" y="753" width="64" height="32" rx="1" fill="#A7D08C" stroke="#518135" stroke-width="1.3"/>
+<line id="agent2_186" data-group="agent2" x1="243" y1="773" x2="255" y2="765" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent2_187" data-group="agent2" x1="243" y1="761" x2="267" y2="777" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent2_188" data-group="agent2" x1="247" y1="753" x2="279" y2="785" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent2_189" data-group="agent2" x1="259" y1="753" x2="291" y2="785" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent2_190" data-group="agent2" x1="271" y1="753" x2="303" y2="785" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent2_191" data-group="agent2" x1="283" y1="753" x2="307" y2="785" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent2_192" data-group="agent2" x1="295" y1="753" x2="307" y2="785" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<text id="agent2_193" data-group="agent2" x="275.0" y="769.0" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="275.0" dy="0">φ(2,4)</tspan>
+</text>
+<rect id="agent2_194" data-group="agent2" x="18" y="793" width="467" height="46" rx="0" fill="#D9D1DE" stroke="#817492" stroke-width="2"/>
+<text id="agent2_195" data-group="agent2" x="251.5" y="816.0" font-family="Liberation Sans" font-size="29" fill="#000000" text-anchor="middle" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="251.5" dy="0">All placeholders       ?</tspan>
+</text>
+<ellipse id="agent2_196" data-group="agent2" cx="358.90999999999997" cy="816.0" rx="17.0" ry="17.0" fill="#518135" stroke="#FFFFFF" stroke-width="1.2"/>
+<line id="agent2_197" data-group="agent2" x1="349.90999999999997" y1="816" x2="356.90999999999997" y2="823" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round"/>
+<line id="agent2_198" data-group="agent2" x1="356.90999999999997" y1="823" x2="368.90999999999997" y2="808" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round"/>
+<rect id="agent2_199" data-group="agent2" x="18" y="839" width="175.125" height="62" rx="0" fill="#DEEAF6" stroke="#376A9B" stroke-width="1.7"/>
+<rect id="agent2_200" data-group="agent2" x="193.125" y="839" width="291.875" height="62" rx="0" fill="#FAE5D4" stroke="#C95B0B" stroke-width="1.7"/>
+<text id="agent2_201" data-group="agent2" x="105.5625" y="870.0" font-family="Liberation Sans" font-size="25" fill="#1F3763" text-anchor="middle" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="105.5625" dy="0">(N) Dense</tspan>
+</text>
+<text id="agent2_202" data-group="agent2" x="339.0625" y="870.0" font-family="Liberation Sans" font-size="25" fill="#1F3763" text-anchor="middle" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="339.0625" dy="0">(Y) Sharing</tspan>
+</text>
+<ellipse id="agent2_203" data-group="agent2" cx="169.125" cy="870.0" rx="17.0" ry="17.0" fill="#C95B0B" stroke="#FFFFFF" stroke-width="1.2"/>
+<line id="agent2_204" data-group="agent2" x1="160.125" y1="870.0" x2="178.125" y2="870.0" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round"/>
+<line id="agent2_205" data-group="agent2" x1="169.125" y1="861.0" x2="169.125" y2="879.0" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round"/>
+<rect id="Agent_3_panel" data-group="agent3" x="576" y="577" width="467" height="324" rx="28" fill="#9CC3E4" stroke="#376A9B" stroke-width="2"/>
+<rect id="agent3_207" data-group="agent3" x="576" y="642" width="467" height="259" rx="0" fill="#DEEAF6" stroke="#376A9B" stroke-width="2"/>
+<text id="agent3_208" data-group="agent3" x="809.5" y="611.5" font-family="Liberation Sans" font-size="37" fill="#1F3763" text-anchor="middle" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="809.5" dy="0">Agent 3</tspan>
+</text>
+<text id="agent3_209" data-group="agent3" x="601" y="664.0" font-family="Liberation Sans" font-size="27" fill="#1F3763" text-anchor="start" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="601" dy="0">Prefix KV</tspan>
+</text>
+<rect id="agent3_210" data-group="agent3" x="594" y="682" width="73" height="34" rx="1" fill="#90AADB" stroke="#FFFFFF" stroke-width="1.3"/>
+<text id="agent3_211" data-group="agent3" x="630.5" y="699.0" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="630.5" dy="0">p(3,0)</tspan>
+</text>
+<rect id="agent3_212" data-group="agent3" x="677" y="682" width="73" height="34" rx="1" fill="#90AADB" stroke="#FFFFFF" stroke-width="1.3"/>
+<text id="agent3_213" data-group="agent3" x="713.5" y="699.0" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="713.5" dy="0">p(3,1)</tspan>
+</text>
+<rect id="agent3_214" data-group="agent3" x="760" y="682" width="73" height="34" rx="1" fill="#90AADB" stroke="#FFFFFF" stroke-width="1.3"/>
+<text id="agent3_215" data-group="agent3" x="796.5" y="699.0" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="796.5" dy="0">p(3,2)</tspan>
+</text>
+<rect id="agent3_216" data-group="agent3" x="843" y="682" width="73" height="34" rx="1" fill="#90AADB" stroke="#FFFFFF" stroke-width="1.3"/>
+<text id="agent3_217" data-group="agent3" x="879.5" y="699.0" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="879.5" dy="0">p(3,3)</tspan>
+</text>
+<rect id="agent3_218" data-group="agent3" x="926" y="682" width="73" height="34" rx="1" fill="#90AADB" stroke="#FFFFFF" stroke-width="1.3"/>
+<text id="agent3_219" data-group="agent3" x="962.5" y="699.0" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="962.5" dy="0">p(3,4)</tspan>
+</text>
+<text id="agent3_220" data-group="agent3" x="601" y="736.5" font-family="Liberation Sans" font-size="27" fill="#1F3763" text-anchor="start" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="601" dy="0">Placeholder KV</tspan>
+</text>
+<rect id="agent3_221" data-group="agent3" x="594" y="753" width="64" height="32" rx="1" fill="#F4B083" stroke="#C95B0B" stroke-width="1.3"/>
+<line id="agent3_222" data-group="agent3" x1="594" y1="773" x2="606" y2="765" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent3_223" data-group="agent3" x1="594" y1="761" x2="618" y2="777" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent3_224" data-group="agent3" x1="598" y1="753" x2="630" y2="785" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent3_225" data-group="agent3" x1="610" y1="753" x2="642" y2="785" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent3_226" data-group="agent3" x1="622" y1="753" x2="654" y2="785" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent3_227" data-group="agent3" x1="634" y1="753" x2="658" y2="785" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent3_228" data-group="agent3" x1="646" y1="753" x2="658" y2="785" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<text id="agent3_229" data-group="agent3" x="626.0" y="769.0" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="626.0" dy="0">φ(3,1)</tspan>
+</text>
+<rect id="agent3_230" data-group="agent3" x="663" y="753" width="64" height="32" rx="1" fill="#A7D08C" stroke="#518135" stroke-width="1.3"/>
+<line id="agent3_231" data-group="agent3" x1="663" y1="773" x2="675" y2="765" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent3_232" data-group="agent3" x1="663" y1="761" x2="687" y2="777" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent3_233" data-group="agent3" x1="667" y1="753" x2="699" y2="785" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent3_234" data-group="agent3" x1="679" y1="753" x2="711" y2="785" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent3_235" data-group="agent3" x1="691" y1="753" x2="723" y2="785" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent3_236" data-group="agent3" x1="703" y1="753" x2="727" y2="785" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent3_237" data-group="agent3" x1="715" y1="753" x2="727" y2="785" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<text id="agent3_238" data-group="agent3" x="695.0" y="769.0" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="695.0" dy="0">φ(3,2)</tspan>
+</text>
+<rect id="agent3_239" data-group="agent3" x="732" y="753" width="64" height="32" rx="1" fill="#F4B083" stroke="#C95B0B" stroke-width="1.3"/>
+<line id="agent3_240" data-group="agent3" x1="732" y1="773" x2="744" y2="765" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent3_241" data-group="agent3" x1="732" y1="761" x2="756" y2="777" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent3_242" data-group="agent3" x1="736" y1="753" x2="768" y2="785" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent3_243" data-group="agent3" x1="748" y1="753" x2="780" y2="785" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent3_244" data-group="agent3" x1="760" y1="753" x2="792" y2="785" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent3_245" data-group="agent3" x1="772" y1="753" x2="796" y2="785" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent3_246" data-group="agent3" x1="784" y1="753" x2="796" y2="785" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<text id="agent3_247" data-group="agent3" x="764.0" y="769.0" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="764.0" dy="0">φ(3,3)</tspan>
+</text>
+<rect id="agent3_248" data-group="agent3" x="801" y="753" width="64" height="32" rx="1" fill="#A7D08C" stroke="#518135" stroke-width="1.3"/>
+<line id="agent3_249" data-group="agent3" x1="801" y1="773" x2="813" y2="765" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent3_250" data-group="agent3" x1="801" y1="761" x2="825" y2="777" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent3_251" data-group="agent3" x1="805" y1="753" x2="837" y2="785" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent3_252" data-group="agent3" x1="817" y1="753" x2="849" y2="785" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent3_253" data-group="agent3" x1="829" y1="753" x2="861" y2="785" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent3_254" data-group="agent3" x1="841" y1="753" x2="865" y2="785" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="agent3_255" data-group="agent3" x1="853" y1="753" x2="865" y2="785" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<text id="agent3_256" data-group="agent3" x="833.0" y="769.0" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="833.0" dy="0">φ(3,4)</tspan>
+</text>
+<rect id="agent3_257" data-group="agent3" x="576" y="793" width="467" height="46" rx="0" fill="#D9D1DE" stroke="#817492" stroke-width="2"/>
+<text id="agent3_258" data-group="agent3" x="809.5" y="816.0" font-family="Liberation Sans" font-size="29" fill="#000000" text-anchor="middle" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="809.5" dy="0">All placeholders       ?</tspan>
+</text>
+<ellipse id="agent3_259" data-group="agent3" cx="916.91" cy="816.0" rx="17.0" ry="17.0" fill="#518135" stroke="#FFFFFF" stroke-width="1.2"/>
+<line id="agent3_260" data-group="agent3" x1="907.91" y1="816" x2="914.91" y2="823" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round"/>
+<line id="agent3_261" data-group="agent3" x1="914.91" y1="823" x2="926.91" y2="808" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round"/>
+<rect id="agent3_262" data-group="agent3" x="576" y="839" width="175.125" height="62" rx="0" fill="#FAE5D4" stroke="#376A9B" stroke-width="1.7"/>
+<rect id="agent3_263" data-group="agent3" x="751.125" y="839" width="291.875" height="62" rx="0" fill="#DEEAF6" stroke="#C95B0B" stroke-width="1.7"/>
+<text id="agent3_264" data-group="agent3" x="663.5625" y="870.0" font-family="Liberation Sans" font-size="25" fill="#1F3763" text-anchor="middle" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="663.5625" dy="0">(Y) Sharing</tspan>
+</text>
+<text id="agent3_265" data-group="agent3" x="897.0625" y="870.0" font-family="Liberation Sans" font-size="25" fill="#1F3763" text-anchor="middle" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="897.0625" dy="0">(N) Dense</tspan>
+</text>
+<ellipse id="agent3_266" data-group="agent3" cx="1018.0" cy="870.0" rx="17.0" ry="17.0" fill="#C95B0B" stroke="#FFFFFF" stroke-width="1.2"/>
+<line id="agent3_267" data-group="agent3" x1="1009" y1="870.0" x2="1027" y2="870.0" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round"/>
+<line id="agent3_268" data-group="agent3" x1="1018" y1="861.0" x2="1018" y2="879.0" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round"/>
+<rect id="matching_269" data-group="matching" x="609" y="136" width="169" height="159" rx="0" fill="#FFFFFF" stroke="#817492" stroke-width="4"/>
+<rect id="matching_270" data-group="matching" x="609" y="136" width="169" height="36" rx="0" fill="#B4ABBE" stroke="#817492" stroke-width="3"/>
+<text id="matching_271" data-group="matching" x="693.5" y="154.0" font-family="Liberation Serif" font-size="24" fill="#000000" text-anchor="middle" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="693.5" dy="0">φ(1,1) Pool</tspan>
+</text>
+<ellipse id="matching_272" data-group="matching" cx="630.0" cy="192.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="matching_273" data-group="matching" cx="678.0" cy="224.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="matching_274" data-group="matching" cx="732.0" cy="202.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="matching_275" data-group="matching" cx="638.0" cy="254.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="matching_276" data-group="matching" cx="714.0" cy="274.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="matching_277" data-group="matching" cx="741.0" cy="272.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="matching_278" data-group="matching" cx="725.0" cy="257.0" rx="29.0" ry="29.0" fill="#DAE1F3" stroke="#C7CEDD" stroke-width="1"/>
+<polygon id="matching_279" data-group="matching" points="725.0,245.0 728.0,252.8 736.4,253.3 729.9,258.6 732.1,266.7 725.0,262.2 717.9,266.7 720.1,258.6 713.6,253.3 722.0,252.8" fill="#F4B083" stroke="#C95B0B" stroke-width="1.5"/>
+<rect id="matching_280" data-group="matching" x="797" y="136" width="169" height="159" rx="0" fill="#FFFFFF" stroke="#817492" stroke-width="4"/>
+<rect id="matching_281" data-group="matching" x="797" y="136" width="169" height="36" rx="0" fill="#B4ABBE" stroke="#817492" stroke-width="3"/>
+<text id="matching_282" data-group="matching" x="881.5" y="154.0" font-family="Liberation Serif" font-size="24" fill="#000000" text-anchor="middle" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="881.5" dy="0">φ(1,2) Pool</tspan>
+</text>
+<ellipse id="matching_283" data-group="matching" cx="837.0" cy="196.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="matching_284" data-group="matching" cx="899.0" cy="187.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="matching_285" data-group="matching" cx="867.0" cy="225.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="matching_286" data-group="matching" cx="925.0" cy="229.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="matching_287" data-group="matching" cx="898.0" cy="255.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="matching_288" data-group="matching" cx="895.0" cy="284.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="matching_289" data-group="matching" cx="845.0" cy="260.0" rx="29.0" ry="29.0" fill="#DAE1F3" stroke="#C7CEDD" stroke-width="1"/>
+<polygon id="matching_290" data-group="matching" points="845.0,248.0 848.0,255.8 856.4,256.3 849.9,261.6 852.1,269.7 845.0,265.2 837.9,269.7 840.1,261.6 833.6,256.3 842.0,255.8" fill="#A7D08C" stroke="#518135" stroke-width="1.5"/>
+<rect id="matching_291" data-group="matching" x="609" y="310" width="169" height="159" rx="0" fill="#FFFFFF" stroke="#817492" stroke-width="4"/>
+<rect id="matching_292" data-group="matching" x="609" y="310" width="169" height="36" rx="0" fill="#B4ABBE" stroke="#817492" stroke-width="3"/>
+<text id="matching_293" data-group="matching" x="693.5" y="328.0" font-family="Liberation Serif" font-size="24" fill="#000000" text-anchor="middle" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="693.5" dy="0">φ(1,3) Pool</tspan>
+</text>
+<ellipse id="matching_294" data-group="matching" cx="639.0" cy="361.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="matching_295" data-group="matching" cx="688.0" cy="356.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="matching_296" data-group="matching" cx="737.0" cy="381.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="matching_297" data-group="matching" cx="674.0" cy="408.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="matching_298" data-group="matching" cx="717.0" cy="394.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="matching_299" data-group="matching" cx="642.0" cy="433.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="matching_300" data-group="matching" cx="687.0" cy="457.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="matching_301" data-group="matching" cx="752.0" cy="454.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="matching_302" data-group="matching" cx="658.0" cy="415.0" rx="29.0" ry="29.0" fill="#DAE1F3" stroke="#C7CEDD" stroke-width="1"/>
+<polygon id="matching_303" data-group="matching" points="658.0,403.0 661.0,410.8 669.4,411.3 662.9,416.6 665.1,424.7 658.0,420.2 650.9,424.7 653.1,416.6 646.6,411.3 655.0,410.8" fill="#F4B083" stroke="#C95B0B" stroke-width="1.5"/>
+<rect id="matching_304" data-group="matching" x="797" y="310" width="169" height="159" rx="0" fill="#FFFFFF" stroke="#817492" stroke-width="4"/>
+<rect id="matching_305" data-group="matching" x="797" y="310" width="169" height="36" rx="0" fill="#B4ABBE" stroke="#817492" stroke-width="3"/>
+<text id="matching_306" data-group="matching" x="881.5" y="328.0" font-family="Liberation Serif" font-size="24" fill="#000000" text-anchor="middle" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="881.5" dy="0">φ(2,1) Pool</tspan>
+</text>
+<ellipse id="matching_307" data-group="matching" cx="832.0" cy="368.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="matching_308" data-group="matching" cx="888.0" cy="358.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="matching_309" data-group="matching" cx="911.0" cy="392.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="matching_310" data-group="matching" cx="931.0" cy="434.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="matching_311" data-group="matching" cx="825.0" cy="447.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="matching_312" data-group="matching" cx="871.0" cy="459.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="matching_313" data-group="matching" cx="906.0" cy="449.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="matching_314" data-group="matching" cx="857.0" cy="419.0" rx="29.0" ry="29.0" fill="#DAE1F3" stroke="#C7CEDD" stroke-width="1"/>
+<polygon id="matching_315" data-group="matching" points="857.0,407.0 860.0,414.8 868.4,415.3 861.9,420.6 864.1,428.7 857.0,424.2 849.9,428.7 852.1,420.6 845.6,415.3 854.0,414.8" fill="#A7D08C" stroke="#518135" stroke-width="1.5"/>
+<line id="matching_316" data-group="matching" x1="979" y1="282" x2="1077" y2="282" stroke="#817492" stroke-width="8" stroke-linecap="round"/>
+<polygon id="matching_317" data-group="matching" points="1077.0,282.0 1059.0,270.8 1059.0,293.2" fill="#817492" stroke="#817492" stroke-width="1"/>
+<text id="matching_318" data-group="matching" x="1020.0" y="254.5" font-family="Liberation Sans" font-size="28" fill="#000000" text-anchor="middle" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="1020.0" dy="0">Hit</tspan>
+</text>
+<ellipse id="matching_319" data-group="matching" cx="984.0" cy="305.0" rx="4.0" ry="4.0" fill="#817492" stroke="none" stroke-width="1"/>
+<ellipse id="matching_320" data-group="matching" cx="997.0" cy="305.0" rx="4.0" ry="4.0" fill="#817492" stroke="none" stroke-width="1"/>
+<ellipse id="matching_321" data-group="matching" cx="1010.0" cy="305.0" rx="4.0" ry="4.0" fill="#817492" stroke="none" stroke-width="1"/>
+<ellipse id="offset_322" data-group="offset" cx="1137.0" cy="218.0" rx="64.0" ry="64.0" fill="#DAE1F3" stroke="#C3C8D3" stroke-width="1.5"/>
+<polygon id="offset_323" data-group="offset" points="1137.0,193.0 1141.5,204.7 1154.1,205.4 1144.4,213.4 1147.6,225.6 1137.0,218.7 1126.4,225.6 1129.6,213.4 1119.9,205.4 1132.5,204.7" fill="#F4B083" stroke="#C95B0B" stroke-width="1.5"/>
+<ellipse id="offset_324" data-group="offset" cx="1108.0" cy="243.0" rx="10.0" ry="10.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="offset_325" data-group="offset" cx="1168.0" cy="243.0" rx="10.0" ry="10.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<line id="offset_326" data-group="offset" x1="1133" y1="216" x2="1104" y2="239" stroke="#000000" stroke-width="3" stroke-linecap="round"/>
+<polygon id="offset_327" data-group="offset" points="1104.0,239.0 1114.5,237.8 1107.6,229.0" fill="#000000" stroke="#000000" stroke-width="1"/>
+<line id="offset_328" data-group="offset" x1="1141" y1="216" x2="1172" y2="239" stroke="#000000" stroke-width="3" stroke-linecap="round"/>
+<polygon id="offset_329" data-group="offset" points="1172.0,239.0 1168.1,229.2 1161.4,238.1" fill="#000000" stroke="#000000" stroke-width="1"/>
+<text id="offset_330" data-group="offset" x="1105.0" y="213.0" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="1105.0" dy="0">w₁</tspan>
+</text>
+<text id="offset_331" data-group="offset" x="1174.0" y="213.0" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="1174.0" dy="0">w₂</tspan>
+</text>
+<text id="offset_332" data-group="offset" x="1108.0" y="262.0" font-family="Liberation Serif" font-size="18" fill="#000000" text-anchor="middle" font-weight="400" font-style="normal" dominant-baseline="middle">
+<tspan x="1108.0" dy="0">(1)</tspan>
+</text>
+<text id="offset_333" data-group="offset" x="1168.0" y="262.0" font-family="Liberation Serif" font-size="18" fill="#000000" text-anchor="middle" font-weight="400" font-style="normal" dominant-baseline="middle">
+<tspan x="1168.0" dy="0">(2)</tspan>
+</text>
+<rect id="offset_334" data-group="offset" x="1224" y="141" width="233" height="157" rx="0" fill="#FFFFFF" stroke="#817492" stroke-width="1.5" stroke-dasharray="6,6"/>
+<text id="offset_335" data-group="offset" x="1341.0" y="161.5" font-family="Liberation Serif" font-size="24" fill="#000000" text-anchor="middle" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="1341.0" dy="0">Each φ(1,1) Anchor</tspan>
+</text>
+<text id="offset_336" data-group="offset" x="1238.5" y="230.5" font-family="Liberation Serif" font-size="83" fill="#000000" text-anchor="middle" font-weight="400" font-style="normal" dominant-baseline="middle">
+<tspan x="1238.5" dy="0">{</tspan>
+</text>
+<ellipse id="offset_337" data-group="offset" cx="1242.0" cy="229.0" rx="11.0" ry="11.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<rect id="offset_338" data-group="offset" x="1282" y="176" width="76" height="32" rx="5" fill="#BCAD90" stroke="#6E5D3A" stroke-width="1"/>
+<text id="offset_339" data-group="offset" x="1320.0" y="192.0" font-family="Liberation Serif" font-size="18" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="1320.0" dy="0">hφ(1,1)</tspan>
+</text>
+<rect id="offset_340" data-group="offset" x="1282" y="214" width="161" height="35" rx="6" fill="#BCAD90" stroke="#6E5D3A" stroke-width="1"/>
+<text id="offset_341" data-group="offset" x="1362.5" y="231.0" font-family="Liberation Serif" font-size="22" fill="#000000" text-anchor="middle" font-weight="400" font-style="italic" dominant-baseline="middle">
+<tspan x="1362.5" dy="0">(Δk, Δv) φ(1,1)</tspan>
+</text>
+<rect id="offset_342" data-group="offset" x="1282" y="254" width="161" height="35" rx="6" fill="#BCAD90" stroke="#6E5D3A" stroke-width="1"/>
+<text id="offset_343" data-group="offset" x="1362.5" y="271.0" font-family="Liberation Serif" font-size="22" fill="#000000" text-anchor="middle" font-weight="400" font-style="italic" dominant-baseline="middle">
+<tspan x="1362.5" dy="0">(Δk, Δv) p(1,1)</tspan>
+</text>
+<line id="offset_344" data-group="offset" x1="1051" y1="298" x2="1134" y2="298" stroke="#C95B0B" stroke-width="3" stroke-linecap="round" stroke-dasharray="10,8"/>
+<line id="offset_345" data-group="offset" x1="1134" y1="298" x2="1134" y2="489" stroke="#C95B0B" stroke-width="3" stroke-linecap="round" stroke-dasharray="10,8"/>
+<line id="offset_346" data-group="offset" x1="1134" y1="489" x2="1051" y2="489" stroke="#C95B0B" stroke-width="3" stroke-linecap="round" stroke-dasharray="10,8"/>
+<line id="offset_347" data-group="offset" x1="1051" y1="489" x2="1051" y2="298" stroke="#C95B0B" stroke-width="3" stroke-linecap="round" stroke-dasharray="10,8"/>
+<rect id="offset_348" data-group="offset" x="1057" y="306" width="75" height="39" rx="1" fill="#F4B083" stroke="#C95B0B" stroke-width="1.3"/>
+<line id="offset_349" data-group="offset" x1="1057" y1="333" x2="1069" y2="318" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="offset_350" data-group="offset" x1="1057" y1="321" x2="1081" y2="330" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="offset_351" data-group="offset" x1="1057" y1="309" x2="1093" y2="342" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="offset_352" data-group="offset" x1="1066" y1="306" x2="1105" y2="345" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="offset_353" data-group="offset" x1="1078" y1="306" x2="1117" y2="345" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="offset_354" data-group="offset" x1="1090" y1="306" x2="1129" y2="345" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="offset_355" data-group="offset" x1="1102" y1="306" x2="1132" y2="345" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="offset_356" data-group="offset" x1="1114" y1="306" x2="1132" y2="345" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="offset_357" data-group="offset" x1="1126" y1="306" x2="1132" y2="345" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<text id="offset_358" data-group="offset" x="1094.5" y="325.5" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="1094.5" dy="0">φ(1,1)</tspan>
+</text>
+<rect id="offset_359" data-group="offset" x="1160" y="306" width="75" height="39" rx="1" fill="#F4B083" stroke="#C95B0B" stroke-width="1.3"/>
+<line id="offset_360" data-group="offset" x1="1160" y1="333" x2="1172" y2="318" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="offset_361" data-group="offset" x1="1160" y1="321" x2="1184" y2="330" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="offset_362" data-group="offset" x1="1160" y1="309" x2="1196" y2="342" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="offset_363" data-group="offset" x1="1169" y1="306" x2="1208" y2="345" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="offset_364" data-group="offset" x1="1181" y1="306" x2="1220" y2="345" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="offset_365" data-group="offset" x1="1193" y1="306" x2="1232" y2="345" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="offset_366" data-group="offset" x1="1205" y1="306" x2="1235" y2="345" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="offset_367" data-group="offset" x1="1217" y1="306" x2="1235" y2="345" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="offset_368" data-group="offset" x1="1229" y1="306" x2="1235" y2="345" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<text id="offset_369" data-group="offset" x="1197.5" y="325.5" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="1197.5" dy="0">φ(1,i)</tspan>
+</text>
+<text id="offset_370" data-group="offset" x="1146.0" y="324.0" font-family="Liberation Serif" font-size="31" fill="#000000" text-anchor="middle" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="1146.0" dy="0">=</tspan>
+</text>
+<text id="offset_371" data-group="offset" x="1256.5" y="325.5" font-family="Liberation Sans" font-size="30" fill="#000000" text-anchor="middle" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="1256.5" dy="0">+</tspan>
+</text>
+<text id="offset_372" data-group="offset" x="1356.0" y="324.5" font-family="Liberation Serif" font-size="25" fill="#000000" text-anchor="middle" font-weight="400" font-style="italic" dominant-baseline="middle">
+<tspan x="1356.0" dy="0">w₁(Δk, Δv) φ₍₁₎</tspan>
+</text>
+<text id="offset_373" data-group="offset" x="1289.5" y="367.5" font-family="Liberation Serif" font-size="25" fill="#000000" text-anchor="middle" font-weight="400" font-style="italic" dominant-baseline="middle">
+<tspan x="1289.5" dy="0">+ w₂(Δk, Δv) φ₍₂₎</tspan>
+</text>
+<rect id="offset_374" data-group="offset" x="1057" y="397" width="75" height="39" rx="1" fill="#90AADB" stroke="#FFFFFF" stroke-width="1.3"/>
+<text id="offset_375" data-group="offset" x="1094.5" y="416.5" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="1094.5" dy="0">p(1,1)</tspan>
+</text>
+<rect id="offset_376" data-group="offset" x="1160" y="397" width="75" height="39" rx="1" fill="#90AADB" stroke="#FFFFFF" stroke-width="1.3"/>
+<text id="offset_377" data-group="offset" x="1197.5" y="416.5" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="1197.5" dy="0">p(1,1)</tspan>
+</text>
+<text id="offset_378" data-group="offset" x="1146.0" y="415.0" font-family="Liberation Serif" font-size="31" fill="#000000" text-anchor="middle" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="1146.0" dy="0">=</tspan>
+</text>
+<text id="offset_379" data-group="offset" x="1256.5" y="416.5" font-family="Liberation Sans" font-size="30" fill="#000000" text-anchor="middle" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="1256.5" dy="0">+</tspan>
+</text>
+<text id="offset_380" data-group="offset" x="1356.0" y="415.5" font-family="Liberation Serif" font-size="25" fill="#000000" text-anchor="middle" font-weight="400" font-style="italic" dominant-baseline="middle">
+<tspan x="1356.0" dy="0">w₁(Δk, Δv) p₍₁₎</tspan>
+</text>
+<text id="offset_381" data-group="offset" x="1289.5" y="458.5" font-family="Liberation Serif" font-size="25" fill="#000000" text-anchor="middle" font-weight="400" font-style="italic" dominant-baseline="middle">
+<tspan x="1289.5" dy="0">+ w₂(Δk, Δv) p₍₂₎</tspan>
+</text>
+<text id="offset_382" data-group="offset" x="1095.0" y="469.0" font-family="Liberation Sans" font-size="31" fill="#C95B0B" text-anchor="middle" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="1095.0" dy="0">•••</tspan>
+</text>
+<rect id="prediction_383" data-group="prediction" x="1485" y="130" width="185" height="405" rx="18" fill="#FFFFFF" stroke="#C95B0B" stroke-width="3"/>
+<rect id="prediction_384" data-group="prediction" x="1673" y="130" width="186" height="405" rx="18" fill="#FFFFFF" stroke="#518135" stroke-width="3"/>
+<rect id="prediction_385" data-group="prediction" x="1493" y="138" width="169" height="157" rx="0" fill="#FFFFFF" stroke="#817492" stroke-width="3.5"/>
+<rect id="prediction_386" data-group="prediction" x="1493" y="138" width="169" height="37" rx="0" fill="#B4ABBE" stroke="#817492" stroke-width="3"/>
+<text id="prediction_387" data-group="prediction" x="1577.5" y="156.0" font-family="Liberation Serif" font-size="20" fill="#000000" text-anchor="middle" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="1577.5" dy="0">hφ Unmatched</tspan>
+</text>
+<ellipse id="prediction_388" data-group="prediction" cx="1514.0" cy="191.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="prediction_389" data-group="prediction" cx="1563.0" cy="215.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="prediction_390" data-group="prediction" cx="1617.0" cy="194.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="prediction_391" data-group="prediction" cx="1535.0" cy="246.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="prediction_392" data-group="prediction" cx="1603.0" cy="263.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="prediction_393" data-group="prediction" cx="1632.0" cy="263.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="prediction_394" data-group="prediction" cx="1610.0" cy="229.0" rx="28.0" ry="28.0" fill="#DAE1F3" stroke="#C7CEDD" stroke-width="1"/>
+<polygon id="prediction_395" data-group="prediction" points="1610.0,217.0 1613.0,224.8 1621.4,225.3 1614.9,230.6 1617.1,238.7 1610.0,234.2 1602.9,238.7 1605.1,230.6 1598.6,225.3 1607.0,224.8" fill="#F4B083" stroke="#C95B0B" stroke-width="1.5"/>
+<rect id="prediction_396" data-group="prediction" x="1681" y="138" width="169" height="157" rx="0" fill="#FFFFFF" stroke="#817492" stroke-width="3.5"/>
+<rect id="prediction_397" data-group="prediction" x="1681" y="138" width="169" height="37" rx="0" fill="#B4ABBE" stroke="#817492" stroke-width="3"/>
+<text id="prediction_398" data-group="prediction" x="1765.5" y="156.0" font-family="Liberation Serif" font-size="20" fill="#000000" text-anchor="middle" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="1765.5" dy="0">hφ Matched</tspan>
+</text>
+<ellipse id="prediction_399" data-group="prediction" cx="1706.0" cy="191.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="prediction_400" data-group="prediction" cx="1761.0" cy="201.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="prediction_401" data-group="prediction" cx="1784.0" cy="177.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="prediction_402" data-group="prediction" cx="1810.0" cy="210.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="prediction_403" data-group="prediction" cx="1729.0" cy="246.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="prediction_404" data-group="prediction" cx="1760.0" cy="259.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="prediction_405" data-group="prediction" cx="1814.0" cy="247.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="prediction_406" data-group="prediction" cx="1828.0" cy="181.0" rx="7.0" ry="7.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<ellipse id="prediction_407" data-group="prediction" cx="1777.0" cy="222.0" rx="28.0" ry="28.0" fill="#DAE1F3" stroke="#C7CEDD" stroke-width="1"/>
+<polygon id="prediction_408" data-group="prediction" points="1777.0,210.0 1780.0,217.8 1788.4,218.3 1781.9,223.6 1784.1,231.7 1777.0,227.2 1769.9,231.7 1772.1,223.6 1765.6,218.3 1774.0,217.8" fill="#F4B083" stroke="#C95B0B" stroke-width="1.5"/>
+<text id="prediction_409" data-group="prediction" x="1577.5" y="313.0" font-family="Liberation Serif" font-size="24" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="1577.5" dy="0">OR</tspan>
+</text>
+<text id="prediction_410" data-group="prediction" x="1765.5" y="313.0" font-family="Liberation Serif" font-size="24" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="1765.5" dy="0">AND</tspan>
+</text>
+<rect id="prediction_411" data-group="prediction" x="1493" y="335" width="169" height="154" rx="0" fill="#FFFFFF" stroke="#817492" stroke-width="3.5"/>
+<rect id="prediction_412" data-group="prediction" x="1493" y="335" width="169" height="31" rx="0" fill="#B4ABBE" stroke="#817492" stroke-width="3"/>
+<text id="prediction_413" data-group="prediction" x="1577.5" y="350.5" font-family="Liberation Sans" font-size="19" fill="#000000" text-anchor="middle" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="1577.5" dy="0">Length Uncover</tspan>
+</text>
+<rect id="prediction_414" data-group="prediction" x="1509" y="383" width="80" height="13" rx="5" fill="#BCAD90" stroke="#6E5D3A" stroke-width="1"/>
+<rect id="prediction_415" data-group="prediction" x="1509" y="406" width="58" height="13" rx="5" fill="#BCAD90" stroke="#6E5D3A" stroke-width="1"/>
+<rect id="prediction_416" data-group="prediction" x="1509" y="429" width="99" height="13" rx="5" fill="#BCAD90" stroke="#6E5D3A" stroke-width="1"/>
+<rect id="prediction_417" data-group="prediction" x="1509" y="453" width="126" height="15" rx="7" fill="#F4B083" stroke="#C95B0B" stroke-width="1.2"/>
+<rect id="prediction_418" data-group="prediction" x="1681" y="335" width="169" height="154" rx="0" fill="#FFFFFF" stroke="#817492" stroke-width="3.5"/>
+<rect id="prediction_419" data-group="prediction" x="1681" y="335" width="169" height="31" rx="0" fill="#B4ABBE" stroke="#817492" stroke-width="3"/>
+<text id="prediction_420" data-group="prediction" x="1765.5" y="350.5" font-family="Liberation Sans" font-size="19" fill="#000000" text-anchor="middle" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="1765.5" dy="0">Length Covered</tspan>
+</text>
+<rect id="prediction_421" data-group="prediction" x="1697" y="383" width="80" height="13" rx="5" fill="#BCAD90" stroke="#6E5D3A" stroke-width="1"/>
+<rect id="prediction_422" data-group="prediction" x="1697" y="406" width="58" height="13" rx="5" fill="#BCAD90" stroke="#6E5D3A" stroke-width="1"/>
+<rect id="prediction_423" data-group="prediction" x="1697" y="429" width="99" height="13" rx="5" fill="#BCAD90" stroke="#6E5D3A" stroke-width="1"/>
+<rect id="prediction_424" data-group="prediction" x="1697" y="453" width="51" height="15" rx="7" fill="#F4B083" stroke="#C95B0B" stroke-width="1.2"/>
+<ellipse id="prediction_425" data-group="prediction" cx="1577.0" cy="512.0" rx="17.0" ry="17.0" fill="#C95B0B" stroke="#FFFFFF" stroke-width="1.2"/>
+<line id="prediction_426" data-group="prediction" x1="1568" y1="512" x2="1586" y2="512" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round"/>
+<line id="prediction_427" data-group="prediction" x1="1577" y1="503" x2="1577" y2="521" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round"/>
+<ellipse id="prediction_428" data-group="prediction" cx="1767.0" cy="512.0" rx="17.0" ry="17.0" fill="#518135" stroke="#FFFFFF" stroke-width="1.2"/>
+<line id="prediction_429" data-group="prediction" x1="1758" y1="512" x2="1765" y2="519" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round"/>
+<line id="prediction_430" data-group="prediction" x1="1765" y1="519" x2="1777" y2="504" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round"/>
+<rect id="example_legend_431" data-group="example_legend" x="1075" y="578" width="797" height="343" rx="0" fill="#FFFFFF" stroke="#000000" stroke-width="3" stroke-dasharray="16,12"/>
+<rect id="example_432" data-group="example" x="1096" y="580" width="480" height="177" rx="0" fill="#DEEAF6" stroke="#CDD4DD" stroke-width="1"/>
+<text id="example_433" data-group="example" x="1104" y="595.5" font-family="Liberation Sans" font-size="20" fill="#1F3763" text-anchor="start" font-weight="400" font-style="italic" dominant-baseline="middle">
+<tspan x="1104" dy="0">You are a math expert. You will be given a math</tspan>
+</text>
+<text id="example_434" data-group="example" x="1104" y="620.5" font-family="Liberation Sans" font-size="20" fill="#1F3763" text-anchor="start" font-weight="400" font-style="italic" dominant-baseline="middle">
+<tspan x="1104" dy="0">problem ... Q:</tspan>
+</text>
+<text id="example_435" data-group="example" x="1104" y="645.5" font-family="Liberation Sans" font-size="20" fill="#1F3763" text-anchor="start" font-weight="400" font-style="italic" dominant-baseline="middle">
+<tspan x="1104" dy="0">Answers from other agents are:</tspan>
+</text>
+<text id="example_436" data-group="example" x="1104" y="670.5" font-family="Liberation Sans" font-size="20" fill="#1F3763" text-anchor="start" font-weight="400" font-style="italic" dominant-baseline="middle">
+<tspan x="1104" dy="0">Agent 2 as a mathematical analyst!</tspan>
+</text>
+<text id="example_437" data-group="example" x="1104" y="695.5" font-family="Liberation Sans" font-size="20" fill="#1F3763" text-anchor="start" font-weight="400" font-style="italic" dominant-baseline="middle">
+<tspan x="1104" dy="0">The execution result is</tspan>
+</text>
+<rect id="example_438" data-group="example" x="1228" y="605" width="67" height="27" rx="1" fill="#F4B083" stroke="#C95B0B" stroke-width="1.3"/>
+<line id="example_439" data-group="example" x1="1228" y1="620" x2="1240" y2="617" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="example_440" data-group="example" x1="1228" y1="608" x2="1252" y2="629" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="example_441" data-group="example" x1="1237" y1="605" x2="1264" y2="632" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="example_442" data-group="example" x1="1249" y1="605" x2="1276" y2="632" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="example_443" data-group="example" x1="1261" y1="605" x2="1288" y2="632" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="example_444" data-group="example" x1="1273" y1="605" x2="1295" y2="632" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="example_445" data-group="example" x1="1285" y1="605" x2="1295" y2="632" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<text id="example_446" data-group="example" x="1261.5" y="618.5" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="1261.5" dy="0">φ(1,1)</tspan>
+</text>
+<rect id="example_447" data-group="example" x="1342" y="580" width="74" height="29" rx="1" fill="#90AADB" stroke="#FFFFFF" stroke-width="1.3"/>
+<text id="example_448" data-group="example" x="1379.0" y="594.5" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="1379.0" dy="0">p(1,0)</tspan>
+</text>
+<rect id="example_449" data-group="example" x="1418" y="625" width="74" height="29" rx="1" fill="#90AADB" stroke="#FFFFFF" stroke-width="1.3"/>
+<text id="example_450" data-group="example" x="1455.0" y="639.5" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="1455.0" dy="0">p(1,1)</tspan>
+</text>
+<rect id="example_451" data-group="example" x="1368" y="653" width="67" height="27" rx="1" fill="#A7D08C" stroke="#518135" stroke-width="1.3"/>
+<line id="example_452" data-group="example" x1="1368" y1="668" x2="1380" y2="665" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="example_453" data-group="example" x1="1368" y1="656" x2="1392" y2="677" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="example_454" data-group="example" x1="1377" y1="653" x2="1404" y2="680" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="example_455" data-group="example" x1="1389" y1="653" x2="1416" y2="680" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="example_456" data-group="example" x1="1401" y1="653" x2="1428" y2="680" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="example_457" data-group="example" x1="1413" y1="653" x2="1435" y2="680" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="example_458" data-group="example" x1="1425" y1="653" x2="1435" y2="680" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<text id="example_459" data-group="example" x="1401.5" y="666.5" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="1401.5" dy="0">φ(1,2)</tspan>
+</text>
+<rect id="example_460" data-group="example" x="1240" y="681" width="67" height="27" rx="1" fill="#F4B083" stroke="#C95B0B" stroke-width="1.3"/>
+<line id="example_461" data-group="example" x1="1240" y1="696" x2="1252" y2="693" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="example_462" data-group="example" x1="1240" y1="684" x2="1264" y2="705" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="example_463" data-group="example" x1="1249" y1="681" x2="1276" y2="708" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="example_464" data-group="example" x1="1261" y1="681" x2="1288" y2="708" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="example_465" data-group="example" x1="1273" y1="681" x2="1300" y2="708" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="example_466" data-group="example" x1="1285" y1="681" x2="1307" y2="708" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="example_467" data-group="example" x1="1297" y1="681" x2="1307" y2="708" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<text id="example_468" data-group="example" x="1273.5" y="694.5" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="1273.5" dy="0">φ(1,3)</tspan>
+</text>
+<rect id="example_469" data-group="example" x="1157" y="714" width="84" height="29" rx="1" fill="#90AADB" stroke="#FFFFFF" stroke-width="1.3"/>
+<text id="example_470" data-group="example" x="1199.0" y="728.5" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="1199.0" dy="0">p(1,2)</tspan>
+</text>
+<rect id="example_471" data-group="example" x="1335" y="714" width="84" height="29" rx="1" fill="#90AADB" stroke="#FFFFFF" stroke-width="1.3"/>
+<text id="example_472" data-group="example" x="1377.0" y="728.5" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="1377.0" dy="0">p(1,3)</tspan>
+</text>
+<line id="example_473" data-group="example" x1="1295" y1="619" x2="1342" y2="595" stroke="#1F3763" stroke-width="3" stroke-linecap="round"/>
+<polygon id="example_474" data-group="example" points="1342.0,595.0 1332.6,594.2 1337.1,603.1" fill="#1F3763" stroke="#1F3763" stroke-width="1"/>
+<line id="example_475" data-group="example" x1="1416" y1="596" x2="1416" y2="625" stroke="#1F3763" stroke-width="3" stroke-linecap="round"/>
+<polygon id="example_476" data-group="example" points="1416.0,625.0 1421.0,617.0 1411.0,617.0" fill="#1F3763" stroke="#1F3763" stroke-width="1"/>
+<line id="example_477" data-group="example" x1="1492" y1="640" x2="1437" y2="640" stroke="#1F3763" stroke-width="3" stroke-linecap="round"/>
+<polygon id="example_478" data-group="example" points="1437.0,640.0 1445.0,645.0 1445.0,635.0" fill="#1F3763" stroke="#1F3763" stroke-width="1"/>
+<line id="example_479" data-group="example" x1="1368" y1="667" x2="1307" y2="692" stroke="#1F3763" stroke-width="3" stroke-linecap="round"/>
+<polygon id="example_480" data-group="example" points="1307.0,692.0 1316.3,693.6 1312.5,684.4" fill="#1F3763" stroke="#1F3763" stroke-width="1"/>
+<line id="example_481" data-group="example" x1="1273" y1="706" x2="1199" y2="714" stroke="#1F3763" stroke-width="3" stroke-linecap="round"/>
+<polygon id="example_482" data-group="example" points="1199.0,714.0 1207.5,718.1 1206.4,708.2" fill="#1F3763" stroke="#1F3763" stroke-width="1"/>
+<line id="example_483" data-group="example" x1="1370" y1="680" x2="1370" y2="714" stroke="#1F3763" stroke-width="3" stroke-linecap="round"/>
+<polygon id="example_484" data-group="example" points="1370.0,714.0 1375.0,706.0 1365.0,706.0" fill="#1F3763" stroke="#1F3763" stroke-width="1"/>
+<text id="example_485" data-group="example" x="1499.0" y="731.5" font-family="Liberation Sans" font-size="27" fill="#000000" text-anchor="middle" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="1499.0" dy="0">Example</tspan>
+</text>
+<rect id="example_legend_486" data-group="example_legend" x="1108" y="765" width="80" height="36" rx="1" fill="#F4B083" stroke="#C95B0B" stroke-width="1.3"/>
+<line id="example_legend_487" data-group="example_legend" x1="1108" y1="789" x2="1120" y2="777" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="example_legend_488" data-group="example_legend" x1="1108" y1="777" x2="1132" y2="789" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="example_legend_489" data-group="example_legend" x1="1108" y1="765" x2="1144" y2="801" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="example_legend_490" data-group="example_legend" x1="1120" y1="765" x2="1156" y2="801" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="example_legend_491" data-group="example_legend" x1="1132" y1="765" x2="1168" y2="801" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="example_legend_492" data-group="example_legend" x1="1144" y1="765" x2="1180" y2="801" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="example_legend_493" data-group="example_legend" x1="1156" y1="765" x2="1188" y2="801" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="example_legend_494" data-group="example_legend" x1="1168" y1="765" x2="1188" y2="801" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="example_legend_495" data-group="example_legend" x1="1180" y1="765" x2="1188" y2="801" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<text id="example_legend_496" data-group="example_legend" x="1148.0" y="783.0" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="1148.0" dy="0">φ(m,i)</tspan>
+</text>
+<text id="example_legend_497" data-group="example_legend" x="1200" y="773.0" font-family="Liberation Sans" font-size="20" fill="#000000" text-anchor="start" font-weight="400" font-style="normal" dominant-baseline="middle">
+<tspan x="1200" dy="0">Estimated KV of the i-th (external input)</tspan>
+<tspan x="1200" dy="21.0">Placeholder of Agent m</tspan>
+</text>
+<rect id="example_legend_498" data-group="example_legend" x="1108" y="815" width="80" height="36" rx="1" fill="#A7D08C" stroke="#518135" stroke-width="1.3"/>
+<line id="example_legend_499" data-group="example_legend" x1="1108" y1="839" x2="1120" y2="827" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="example_legend_500" data-group="example_legend" x1="1108" y1="827" x2="1132" y2="839" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="example_legend_501" data-group="example_legend" x1="1108" y1="815" x2="1144" y2="851" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="example_legend_502" data-group="example_legend" x1="1120" y1="815" x2="1156" y2="851" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="example_legend_503" data-group="example_legend" x1="1132" y1="815" x2="1168" y2="851" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="example_legend_504" data-group="example_legend" x1="1144" y1="815" x2="1180" y2="851" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="example_legend_505" data-group="example_legend" x1="1156" y1="815" x2="1188" y2="851" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="example_legend_506" data-group="example_legend" x1="1168" y1="815" x2="1188" y2="851" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<line id="example_legend_507" data-group="example_legend" x1="1180" y1="815" x2="1188" y2="851" stroke="#FFFFFF" stroke-width="0.8" stroke-linecap="round"/>
+<text id="example_legend_508" data-group="example_legend" x="1148.0" y="833.0" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="1148.0" dy="0">φ(m,i)</tspan>
+</text>
+<text id="example_legend_509" data-group="example_legend" x="1200" y="823.0" font-family="Liberation Sans" font-size="20" fill="#000000" text-anchor="start" font-weight="400" font-style="normal" dominant-baseline="middle">
+<tspan x="1200" dy="0">Estimated KV of the i-th (response)</tspan>
+<tspan x="1200" dy="21.0">Placeholder of Agent m</tspan>
+</text>
+<rect id="example_legend_510" data-group="example_legend" x="1108" y="865" width="80" height="36" rx="1" fill="#90AADB" stroke="#FFFFFF" stroke-width="1.3"/>
+<text id="example_legend_511" data-group="example_legend" x="1148.0" y="883.0" font-family="Liberation Serif" font-size="23" fill="#000000" text-anchor="middle" font-weight="700" font-style="italic" dominant-baseline="middle">
+<tspan x="1148.0" dy="0">p(m,i)</tspan>
+</text>
+<text id="example_legend_512" data-group="example_legend" x="1200" y="875.0" font-family="Liberation Sans" font-size="20" fill="#000000" text-anchor="start" font-weight="400" font-style="normal" dominant-baseline="middle">
+<tspan x="1200" dy="0">Estimated KV of the i-th Prefix</tspan>
+<tspan x="1200" dy="21.0">Segment of Agent m</tspan>
+</text>
+<text id="legend_513" data-group="legend" x="1746.5" y="610.0" font-family="Liberation Sans" font-size="42" fill="#000000" text-anchor="middle" font-weight="700" font-style="normal" dominant-baseline="middle">
+<tspan x="1746.5" dy="0">Legend</tspan>
+</text>
+<polygon id="legend_514" data-group="legend" points="1608.0,651.0 1610.5,657.5 1617.5,657.9 1612.1,662.3 1613.9,669.1 1608.0,665.3 1602.1,669.1 1603.9,662.3 1598.5,657.9 1605.5,657.5" fill="#F4B083" stroke="#C95B0B" stroke-width="1.5"/>
+<text id="legend_515" data-group="legend" x="1637" y="654.5" font-family="Liberation Sans" font-size="20" fill="#000000" text-anchor="start" font-weight="400" font-style="normal" dominant-baseline="middle">
+<tspan x="1637" dy="0">Queried (external input)</tspan>
+<tspan x="1637" dy="21.0">Placeholder</tspan>
+</text>
+<polygon id="legend_516" data-group="legend" points="1608.0,701.0 1610.5,707.5 1617.5,707.9 1612.1,712.3 1613.9,719.1 1608.0,715.3 1602.1,719.1 1603.9,712.3 1598.5,707.9 1605.5,707.5" fill="#A7D08C" stroke="#518135" stroke-width="1.5"/>
+<text id="legend_517" data-group="legend" x="1637" y="704.5" font-family="Liberation Sans" font-size="20" fill="#000000" text-anchor="start" font-weight="400" font-style="normal" dominant-baseline="middle">
+<tspan x="1637" dy="0">Queried (response)</tspan>
+<tspan x="1637" dy="21.0">Placeholder</tspan>
+</text>
+<ellipse id="legend_518" data-group="legend" cx="1608.0" cy="757.0" rx="11.0" ry="11.0" fill="#BCAD90" stroke="none" stroke-width="1"/>
+<text id="legend_519" data-group="legend" x="1637" y="750.5" font-family="Liberation Sans" font-size="20" fill="#000000" text-anchor="start" font-weight="400" font-style="normal" dominant-baseline="middle">
+<tspan x="1637" dy="0">KV Anchor of the</tspan>
+<tspan x="1637" dy="21.0">Placeholder</tspan>
+</text>
+<ellipse id="legend_520" data-group="legend" cx="1608.0" cy="807.0" rx="17.0" ry="17.0" fill="#DAE1F3" stroke="#C7CEDD" stroke-width="1"/>
+<text id="legend_521" data-group="legend" x="1637" y="807.5" font-family="Liberation Sans" font-size="20" fill="#000000" text-anchor="start" font-weight="400" font-style="normal" dominant-baseline="middle">
+<tspan x="1637" dy="0">Anchor Hit Range</tspan>
+</text>
+<ellipse id="legend_522" data-group="legend" cx="1608.0" cy="852.0" rx="17.0" ry="17.0" fill="#C95B0B" stroke="#FFFFFF" stroke-width="1.2"/>
+<line id="legend_523" data-group="legend" x1="1599" y1="852" x2="1617" y2="852" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round"/>
+<line id="legend_524" data-group="legend" x1="1608" y1="843" x2="1608" y2="861" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round"/>
+<text id="legend_525" data-group="legend" x="1637" y="852.0" font-family="Liberation Sans" font-size="20" fill="#000000" text-anchor="start" font-weight="400" font-style="normal" dominant-baseline="middle">
+<tspan x="1637" dy="0">Add as a New Anchor</tspan>
+</text>
+<ellipse id="legend_526" data-group="legend" cx="1608.0" cy="895.0" rx="17.0" ry="17.0" fill="#518135" stroke="#FFFFFF" stroke-width="1.2"/>
+<line id="legend_527" data-group="legend" x1="1599" y1="895" x2="1606" y2="902" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round"/>
+<line id="legend_528" data-group="legend" x1="1606" y1="902" x2="1618" y2="887" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round"/>
+<text id="legend_529" data-group="legend" x="1637" y="895.0" font-family="Liberation Sans" font-size="20" fill="#000000" text-anchor="start" font-weight="400" font-style="normal" dominant-baseline="middle">
+<tspan x="1637" dy="0">Sharable placeholder</tspan>
+</text>
+</svg>

@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1060" viewBox="0 0 1920 1060">
+<title>NeuroSymbolic Learning of Code Rules</title>
+<desc>Editable vector reconstruction of the four-stage neuro-symbolic code-rule learning workflow.</desc>
+<g id="outer_board">
+<rect x="4" y="18" width="1912" height="1050" rx="36" fill="#CCEC89" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="main_title">
+<text x="960.0" y="54.0" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="40" font-weight="700" fill="#000000">NeuroSymbolic Learning of Code Rules</text>
+</g>
+<g id="stage1_panel">
+<rect x="23" y="88" width="578" height="400" rx="30" fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="stage2_panel">
+<rect x="640" y="88" width="1267" height="408" rx="30" fill="#E6E6E6" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="stage4_panel">
+<rect x="23" y="512" width="827" height="534" rx="30" fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="stage3_panel">
+<rect x="868" y="512" width="1039" height="534" rx="25" fill="#E6E6E6" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="stage1_title">
+<text x="311.0" y="102" text-anchor="middle" dominant-baseline="hanging" font-family="Liberation Sans" font-size="28" font-weight="700" fill="#000000">Stage 1. Exploration of Trajectory Data</text>
+</g>
+<g id="real_lane">
+<rect x="46" y="165" width="528" height="127" rx="24" fill="none" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt" stroke-dasharray="12 10"/>
+</g>
+<g id="pred_lane">
+<rect x="46" y="340" width="528" height="129" rx="24" fill="none" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt" stroke-dasharray="12 10"/>
+</g>
+<g id="real_label">
+<text x="312.5" y="161" text-anchor="middle" dominant-baseline="hanging" font-family="Liberation Sans" font-size="29" font-weight="700" fill="#000000">Real Trajectory</text>
+</g>
+<g id="pred_label">
+<text x="302.0" y="423" text-anchor="middle" dominant-baseline="hanging" font-family="Liberation Sans" font-size="27" font-weight="700" fill="#000000">Predicted Trajectory</text>
+</g>
+<g id="real_token_0_circle">
+<ellipse cx="91.0" cy="246.0" rx="36.0" ry="36.0" fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="real_token_0_label">
+<text x="91.0" y="246.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Serif" font-size="36" font-weight="400" font-style="italic" fill="#000000">a₀</text>
+</g>
+<g id="real_token_1_circle">
+<ellipse cx="190.0" cy="246.0" rx="36.0" ry="36.0" fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="real_token_1_label">
+<text x="190.0" y="246.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Serif" font-size="36" font-weight="400" font-style="italic" fill="#000000">o₁</text>
+</g>
+<g id="real_token_2_circle">
+<ellipse cx="290.0" cy="246.0" rx="36.0" ry="36.0" fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="real_token_2_label">
+<text x="290.0" y="246.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Serif" font-size="36" font-weight="400" font-style="italic" fill="#000000">a₁</text>
+</g>
+<g id="real_token_3_circle">
+<ellipse cx="389.0" cy="246.0" rx="36.0" ry="36.0" fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="real_token_3_label">
+<text x="389.0" y="246.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Serif" font-size="36" font-weight="400" font-style="italic" fill="#000000">o₂</text>
+</g>
+<g id="real_token_4_circle">
+<ellipse cx="528.0" cy="246.0" rx="36.0" ry="36.0" fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="real_token_4_label">
+<text x="528.0" y="246.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Serif" font-size="36" font-weight="400" font-style="italic" fill="#000000">oₜ</text>
+</g>
+<g id="pred_token_0_circle">
+<ellipse cx="91.0" cy="388.0" rx="36.0" ry="36.0" fill="#65FFFF" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="pred_token_0_label">
+<text x="91.0" y="388.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Serif" font-size="36" font-weight="400" font-style="italic" fill="#000000">â₀</text>
+</g>
+<g id="pred_token_1_circle">
+<ellipse cx="190.0" cy="388.0" rx="36.0" ry="36.0" fill="#65FFFF" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="pred_token_1_label">
+<text x="190.0" y="388.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Serif" font-size="36" font-weight="400" font-style="italic" fill="#000000">ô₁</text>
+</g>
+<g id="pred_token_2_circle">
+<ellipse cx="290.0" cy="388.0" rx="36.0" ry="36.0" fill="#FF67B4" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="pred_token_2_label">
+<text x="290.0" y="388.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Serif" font-size="36" font-weight="400" font-style="italic" fill="#000000">â₁</text>
+</g>
+<g id="pred_token_3_circle">
+<ellipse cx="389.0" cy="388.0" rx="36.0" ry="36.0" fill="#FF67B4" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="pred_token_3_label">
+<text x="389.0" y="388.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Serif" font-size="36" font-weight="400" font-style="italic" fill="#000000">ô₂</text>
+</g>
+<g id="pred_token_4_circle">
+<ellipse cx="528.0" cy="388.0" rx="36.0" ry="36.0" fill="#FF67B4" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="pred_token_4_label">
+<text x="528.0" y="388.0" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Serif" font-size="36" font-weight="400" font-style="italic" fill="#000000">ôₜ</text>
+</g>
+<g id="real_ellipsis">
+<text x="456.5" y="218" text-anchor="middle" dominant-baseline="hanging" font-family="Liberation Sans" font-size="38" font-weight="700" fill="#000000">···</text>
+</g>
+<g id="pred_ellipsis">
+<text x="456.5" y="360" text-anchor="middle" dominant-baseline="hanging" font-family="Liberation Sans" font-size="38" font-weight="700" fill="#000000">···</text>
+</g>
+<g id="match_arrow_shaft">
+<line x1="190" y1="283" x2="190" y2="349" fill="none" stroke="#00C500" stroke-width="5" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="match_arrow_end">
+<polygon points="190,349 181.32,335.0 198.68,335.0" fill="#00C500" stroke="#00C500" stroke-width="1" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="match_arrow_start">
+<polygon points="190,283 198.68,297.0 181.32,297.0" fill="#00C500" stroke="#00C500" stroke-width="1" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="match_check_box">
+<rect x="205" y="299" width="27" height="27" rx="4" fill="#00C500" stroke="none"/>
+</g>
+<g id="match_check_short">
+<line x1="211" y1="312" x2="217" y2="318" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="match_check_long">
+<line x1="217" y1="318" x2="227" y2="305" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="mismatch_arrow_0_shaft">
+<line x1="389" y1="283" x2="389" y2="349" fill="none" stroke="#E00000" stroke-width="5" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="mismatch_arrow_0_end">
+<polygon points="389,349 380.32,335.0 397.68,335.0" fill="#E00000" stroke="#E00000" stroke-width="1" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="mismatch_arrow_0_start">
+<polygon points="389,283 397.68,297.0 380.32,297.0" fill="#E00000" stroke="#E00000" stroke-width="1" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="mismatch_cross_0">
+<text x="417.0" y="292" text-anchor="middle" dominant-baseline="hanging" font-family="Liberation Sans" font-size="40" font-weight="700" fill="#E00000">×</text>
+</g>
+<g id="mismatch_arrow_1_shaft">
+<line x1="528" y1="283" x2="528" y2="349" fill="none" stroke="#E00000" stroke-width="5" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="mismatch_arrow_1_end">
+<polygon points="528,349 519.32,335.0 536.68,335.0" fill="#E00000" stroke="#E00000" stroke-width="1" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="mismatch_arrow_1_start">
+<polygon points="528,283 536.68,297.0 519.32,297.0" fill="#E00000" stroke="#E00000" stroke-width="1" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="mismatch_cross_1">
+<text x="556.0" y="292" text-anchor="middle" dominant-baseline="hanging" font-family="Liberation Sans" font-size="40" font-weight="700" fill="#E00000">×</text>
+</g>
+<g id="stage2_title">
+<text x="1281.0" y="93" text-anchor="middle" dominant-baseline="hanging" font-family="Liberation Sans" font-size="29" font-weight="700" fill="#000000">Stage 2. Learning Symbolic Knowledge</text>
+</g>
+<g id="real_trajectory_input">
+<rect x="655" y="146" width="818" height="34" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt" stroke-dasharray="12 10"/>
+</g>
+<g id="observation_input">
+<rect x="1490" y="146" width="400" height="34" rx="8" fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt" stroke-dasharray="12 10"/>
+</g>
+<g id="real_trajectory_text">
+<text x="1064.0" y="162.5" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Serif" font-size="27" font-weight="400" fill="#000000">Real trajectory  t − k : t</text>
+</g>
+<g id="observation_text">
+<text x="1690.0" y="162.5" text-anchor="middle" dominant-baseline="middle" font-family="DejaVu Serif" font-size="27" font-weight="400" fill="#000000">oₜ in the real trajectory</text>
+</g>
+<g id="input_to_llm">
+<line x1="1065" y1="180" x2="1065" y2="206" fill="none" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="input_to_program">
+<line x1="1688" y1="180" x2="1688" y2="206" fill="none" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="llm_stage2">
+<rect x="655" y="206" width="818" height="45" rx="7" fill="#FECCCB" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="program_stage2">
+<rect x="1490" y="206" width="400" height="45" rx="7" fill="#E2D5E7" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="llm_stage2_label">
+<text x="1064.0" y="228.5" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="30" font-weight="400" fill="#000000">LLM</text>
+</g>
+<g id="program_stage2_label">
+<text x="1690.0" y="228.5" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="30" font-weight="400" fill="#000000">Program</text>
+</g>
+<g id="llm_to_rules_shaft">
+<line x1="855" y1="251" x2="855" y2="280" fill="none" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="llm_to_rules_end">
+<polygon points="855,280 846.94,267.0 863.06,267.0" fill="#000000" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="llm_to_kg_shaft">
+<line x1="1272" y1="251" x2="1272" y2="280" fill="none" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="llm_to_kg_end">
+<polygon points="1272,280 1263.94,267.0 1280.06,267.0" fill="#000000" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="program_to_scene_shaft">
+<line x1="1690" y1="251" x2="1690" y2="280" fill="none" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="program_to_scene_end">
+<polygon points="1690,280 1681.94,267.0 1698.06,267.0" fill="#000000" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="action_rules_card">
+<rect x="655" y="279" width="400" height="202" rx="18" fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="knowledge_graph_card">
+<rect x="1071" y="279" width="401" height="202" rx="18" fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="scene_graph_card">
+<rect x="1490" y="279" width="400" height="202" rx="18" fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="action_rules_title">
+<text x="855.0" y="283" text-anchor="middle" dominant-baseline="hanging" font-family="Liberation Sans" font-size="27" font-weight="700" fill="#000000">Action Rules</text>
+</g>
+<g id="action_rule_line_0">
+<text x="665" y="318" text-anchor="start" dominant-baseline="hanging" font-family="Liberation Mono" font-size="25" font-weight="700" fill="#000000">1. For action &#x27;craft&#x27;,</text>
+</g>
+<g id="action_rule_line_1">
+<text x="665" y="349" text-anchor="start" dominant-baseline="hanging" font-family="Liberation Mono" font-size="25" font-weight="700" fill="#000000">if the player does not</text>
+</g>
+<g id="action_rule_line_2">
+<text x="665" y="380" text-anchor="start" dominant-baseline="hanging" font-family="Liberation Mono" font-size="25" font-weight="700" fill="#000000">have enough materials...</text>
+</g>
+<g id="action_rule_line_3">
+<text x="665" y="411" text-anchor="start" dominant-baseline="hanging" font-family="Liberation Mono" font-size="25" font-weight="700" fill="#000000">the action will fail</text>
+</g>
+<g id="action_rule_line_4">
+<text x="665" y="442" text-anchor="start" dominant-baseline="hanging" font-family="Liberation Mono" font-size="25" font-weight="700" fill="#000000">2. For action ...</text>
+</g>
+<g id="knowledge_graph_title">
+<text x="1271.5" y="283" text-anchor="middle" dominant-baseline="hanging" font-family="Liberation Sans" font-size="27" font-weight="700" fill="#000000">Knowledge Graph</text>
+</g>
+<g id="kg_edge_0_shaft">
+<line x1="1244" y1="348" x2="1347" y2="348" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="kg_edge_0_end">
+<polygon points="1347,348 1340.0,352.34 1340.0,343.66" fill="#000000" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="kg_edge_1_shaft">
+<line x1="1229" y1="357" x2="1188" y2="377" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="kg_edge_1_end">
+<polygon points="1188,377 1192.3886205565345,370.0303795217556 1196.1941376824802,377.8316896299446" fill="#000000" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="kg_edge_2_shaft">
+<line x1="1228" y1="363" x2="1273" y2="391" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="kg_edge_2_end">
+<polygon points="1273,391 1264.7637735849055,390.9867924528302 1269.3494339622641,383.61698113207547" fill="#000000" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="kg_edge_3_shaft">
+<line x1="1195" y1="385" x2="1272" y2="389" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="kg_edge_3_end">
+<polygon points="1272,389 1264.78427507289,392.97100916345994 1265.234576980772,384.30269743673034" fill="#000000" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="kg_edge_4_shaft">
+<line x1="1347" y1="358" x2="1190" y2="397" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="kg_edge_4_end">
+<polygon points="1190,397 1195.7472442520018,391.1004420921705 1197.8398261826358,399.5244257616457" fill="#000000" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="kg_wood_top">
+<polygon points="1223,329.5 1244.0,319 1265,329.5 1244.0,340.0" fill="#9A7340" stroke="#5B5B5B" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="kg_wood_left">
+<polygon points="1223,329.5 1244.0,340.0 1244.0,361 1223,350.5" fill="#6F502B" stroke="#5B5B5B" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="kg_wood_right">
+<polygon points="1244.0,340.0 1265,329.5 1265,350.5 1244.0,361" fill="#8C6533" stroke="#5B5B5B" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="kg_wood_grain_0.18">
+<line x1="1230.56" y1="326.56" x2="1230.56" y2="349.24" fill="none" stroke="#4F3821" stroke-width="1" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="kg_wood_grain_0.36">
+<line x1="1238.12" y1="326.56" x2="1238.12" y2="349.24" fill="none" stroke="#4F3821" stroke-width="1" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="kg_wood_grain_0.66">
+<line x1="1250.72" y1="326.56" x2="1250.72" y2="349.24" fill="none" stroke="#4F3821" stroke-width="1" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="kg_wood_grain_0.82">
+<line x1="1257.44" y1="326.56" x2="1257.44" y2="349.24" fill="none" stroke="#4F3821" stroke-width="1" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="kg_table_top">
+<polygon points="1347,331.0 1369.0,320 1391,331.0 1369.0,342.0" fill="#9C572C" stroke="#5B5B5B" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="kg_table_left">
+<polygon points="1347,331.0 1369.0,342.0 1369.0,364 1347,353.0" fill="#7D4C27" stroke="#5B5B5B" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="kg_table_right">
+<polygon points="1369.0,342.0 1391,331.0 1391,353.0 1369.0,364" fill="#5F3A20" stroke="#5B5B5B" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="kg_table_grain_0.18">
+<line x1="1354.92" y1="327.92" x2="1354.92" y2="351.68" fill="none" stroke="#4F3821" stroke-width="1" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="kg_table_grain_0.36">
+<line x1="1362.84" y1="327.92" x2="1362.84" y2="351.68" fill="none" stroke="#4F3821" stroke-width="1" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="kg_table_grain_0.66">
+<line x1="1376.04" y1="327.92" x2="1376.04" y2="351.68" fill="none" stroke="#4F3821" stroke-width="1" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="kg_table_grain_0.82">
+<line x1="1383.08" y1="327.92" x2="1383.08" y2="351.68" fill="none" stroke="#4F3821" stroke-width="1" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="kg_pickaxe_handle">
+<line x1="1177" y1="408" x2="1214" y2="367" fill="none" stroke="#7A5425" stroke-width="7" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="kg_pickaxe_head">
+<line x1="1186" y1="369" x2="1217" y2="374" fill="none" stroke="#6D4A1E" stroke-width="7" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="kg_pickaxe_head_left">
+<line x1="1184" y1="371" x2="1174" y2="381" fill="none" stroke="#6D4A1E" stroke-width="6" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="kg_stone_top">
+<polygon points="1269,381.5 1290.0,371 1311,381.5 1290.0,392.0" fill="#8C9296" stroke="#5B5B5B" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="kg_stone_left">
+<polygon points="1269,381.5 1290.0,392.0 1290.0,413 1269,402.5" fill="#6D7477" stroke="#5B5B5B" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="kg_stone_right">
+<polygon points="1290.0,392.0 1311,381.5 1311,402.5 1290.0,413" fill="#7F8588" stroke="#5B5B5B" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="kg_stone_grain_0.18">
+<line x1="1276.56" y1="378.56" x2="1276.56" y2="401.24" fill="none" stroke="#4F3821" stroke-width="1" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="kg_stone_grain_0.36">
+<line x1="1284.12" y1="378.56" x2="1284.12" y2="401.24" fill="none" stroke="#4F3821" stroke-width="1" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="kg_stone_grain_0.66">
+<line x1="1296.72" y1="378.56" x2="1296.72" y2="401.24" fill="none" stroke="#4F3821" stroke-width="1" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="kg_stone_grain_0.82">
+<line x1="1303.44" y1="378.56" x2="1303.44" y2="401.24" fill="none" stroke="#4F3821" stroke-width="1" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="kg_nodes">
+<text x="1080" y="411" text-anchor="start" dominant-baseline="hanging" font-family="Liberation Mono" font-size="23" font-weight="700" fill="#000000">&quot;nodes&quot;: [{&quot;id&quot;:1,wood}...]</text>
+</g>
+<g id="kg_edges_text">
+<text x="1080" y="445" text-anchor="start" dominant-baseline="hanging" font-family="Liberation Mono" font-size="23" font-weight="700" fill="#000000">&quot;edges&quot;: [(1,2),(2,3),...]</text>
+</g>
+<g id="scene_graph_title">
+<text x="1690.0" y="283" text-anchor="middle" dominant-baseline="hanging" font-family="Liberation Sans" font-size="27" font-weight="700" fill="#000000">Scene Graph</text>
+</g>
+<g id="scene_edge_0">
+<line x1="1623" y1="333" x2="1777" y2="340" fill="none" stroke="#A680B9" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="scene_edge_1">
+<line x1="1623" y1="342" x2="1557" y2="382" fill="none" stroke="#A7C3EB" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="scene_edge_2">
+<line x1="1623" y1="342" x2="1668" y2="382" fill="none" stroke="#A7C3EB" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="scene_edge_3">
+<line x1="1777" y1="348" x2="1820" y2="382" fill="none" stroke="#A7C3EB" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="plains_pill">
+<rect x="1571" y="316" width="104" height="34" rx="17.0" fill="#A680B9" stroke="none"/>
+</g>
+<g id="plains_text">
+<text x="1623.0" y="333.0" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="25" font-weight="400" fill="#FFFFFF">plains</text>
+</g>
+<g id="desert_pill">
+<rect x="1728" y="316" width="99" height="34" rx="17.0" fill="#A680B9" stroke="none"/>
+</g>
+<g id="desert_text">
+<text x="1777.5" y="333.0" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="25" font-weight="400" fill="#FFFFFF">desert</text>
+</g>
+<g id="sheep_pill">
+<rect x="1518" y="367" width="101" height="34" rx="17.0" fill="#A7C3EB" stroke="none"/>
+</g>
+<g id="sheep_text">
+<text x="1568.5" y="384.0" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="25" font-weight="400" fill="#FFFFFF">sheep</text>
+</g>
+<g id="zombie_pill">
+<rect x="1637" y="367" width="101" height="34" rx="17.0" fill="#A7C3EB" stroke="none"/>
+</g>
+<g id="zombie_text">
+<text x="1687.5" y="384.0" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="25" font-weight="400" fill="#FFFFFF">zombie</text>
+</g>
+<g id="sand_pill">
+<rect x="1769" y="367" width="101" height="34" rx="17.0" fill="#A7C3EB" stroke="none"/>
+</g>
+<g id="sand_text">
+<text x="1819.5" y="384.0" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="25" font-weight="400" fill="#FFFFFF">sand</text>
+</g>
+<g id="scene_nodes">
+<text x="1500" y="412" text-anchor="start" dominant-baseline="hanging" font-family="Liberation Mono" font-size="23" font-weight="700" fill="#000000">&quot;nodes&quot;: [{&quot;id&quot;:1,plains}]</text>
+</g>
+<g id="scene_edges_text">
+<text x="1500" y="445" text-anchor="start" dominant-baseline="hanging" font-family="Liberation Mono" font-size="23" font-weight="700" fill="#000000">&quot;edges&quot;: [(1,2),(2,3),...]</text>
+</g>
+<g id="stage3_title">
+<text x="1390.0" y="521" text-anchor="middle" dominant-baseline="hanging" font-family="Liberation Sans" font-size="27" font-weight="700" fill="#000000">Stage 3. Translating Symbolic Knowledge to Code</text>
+</g>
+<g id="prompt_card">
+<rect x="912" y="562" width="954" height="148" rx="15" fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="prompt_highlight_0">
+<rect x="953" y="572" width="93" height="30" rx="0" fill="#FFCB99" stroke="none"/>
+</g>
+<g id="prompt_highlight_1">
+<rect x="1567" y="572" width="235" height="30" rx="0" fill="#FFCB99" stroke="none"/>
+</g>
+<g id="prompt_highlight_2">
+<rect x="953" y="665" width="83" height="30" rx="0" fill="#FFCB99" stroke="none"/>
+</g>
+<g id="prompt_highlight_3">
+<rect x="1080" y="665" width="206" height="30" rx="0" fill="#FFCB99" stroke="none"/>
+</g>
+<g id="prompt_highlight_4">
+<rect x="1316" y="665" width="236" height="30" rx="0" fill="#FFCB99" stroke="none"/>
+</g>
+<g id="prompt_highlight_5">
+<rect x="1582" y="665" width="221" height="30" rx="0" fill="#FFCB99" stroke="none"/>
+</g>
+<g id="prompt_line_0">
+<text x="953" y="573" text-anchor="start" dominant-baseline="hanging" font-family="Liberation Mono" font-size="25" font-weight="700" fill="#000000">Prompt: Implement the learned rules in Python function</text>
+</g>
+<g id="prompt_line_1">
+<text x="953" y="604" text-anchor="start" dominant-baseline="hanging" font-family="Liberation Mono" font-size="25" font-weight="700" fill="#000000">to evaluate a observation and action, optionally using</text>
+</g>
+<g id="prompt_line_2">
+<text x="953" y="635" text-anchor="start" dominant-baseline="hanging" font-family="Liberation Mono" font-size="25" font-weight="700" fill="#000000">the Knowledge Graph or Scene Graph as extra arguments.</text>
+</g>
+<g id="prompt_line_3">
+<text x="953" y="666" text-anchor="start" dominant-baseline="hanging" font-family="Liberation Mono" font-size="25" font-weight="700" fill="#000000">Input: [textual rules, knowledge_graph, scene_graph]</text>
+</g>
+<g id="prompt_to_llm">
+<line x1="1390" y1="710" x2="1390" y2="726" fill="none" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="llm_stage3">
+<rect x="912" y="726" width="957" height="47" rx="7" fill="#FECCCB" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="llm_stage3_label">
+<text x="1390.5" y="749.5" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="30" font-weight="400" fill="#000000">LLM</text>
+</g>
+<g id="llm_to_output_shaft">
+<line x1="1390" y1="773" x2="1390" y2="798" fill="none" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="llm_to_output_end">
+<polygon points="1390,798 1381.94,785.0 1398.06,785.0" fill="#000000" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="output_card">
+<rect x="912" y="798" width="957" height="232" rx="18" fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="code_highlight_0">
+<rect x="953" y="807" width="87" height="30" rx="0" fill="#FFCB99" stroke="none"/>
+</g>
+<g id="code_highlight_1">
+<rect x="1078" y="807" width="145" height="30" rx="0" fill="#CCEC89" stroke="none"/>
+</g>
+<g id="code_highlight_2">
+<rect x="953" y="839" width="835" height="30" rx="0" fill="#CCEC89" stroke="none"/>
+</g>
+<g id="code_highlight_3">
+<rect x="953" y="935" width="770" height="30" rx="0" fill="#CCEC89" stroke="none"/>
+</g>
+<g id="code_line_0">
+<text x="953" y="809" text-anchor="start" dominant-baseline="hanging" font-family="Liberation Mono" font-size="24" font-weight="700" fill="#000000">Output: [code rules]</text>
+</g>
+<g id="code_line_1">
+<text x="953" y="841" text-anchor="start" dominant-baseline="hanging" font-family="Liberation Mono" font-size="24" font-weight="700" fill="#000000">def CodeRule_0(observation, action, knowledge_graph):</text>
+</g>
+<g id="code_line_2">
+<text x="953" y="875" text-anchor="start" dominant-baseline="hanging" font-family="Liberation Mono" font-size="24" font-weight="700" fill="#000000">    if state[&quot;inventory&quot;].get(material, 0) &lt; quantity:</text>
+</g>
+<g id="code_line_3">
+<text x="1070" y="907" text-anchor="start" dominant-baseline="hanging" font-family="Liberation Mono" font-size="24" font-weight="700" fill="#000000">···</text>
+</g>
+<g id="code_line_4">
+<text x="953" y="937" text-anchor="start" dominant-baseline="hanging" font-family="Liberation Mono" font-size="24" font-weight="700" fill="#000000">def CodeRule_i(observation, action, scene_graph):</text>
+</g>
+<g id="code_line_5">
+<text x="953" y="969" text-anchor="start" dominant-baseline="hanging" font-family="Liberation Mono" font-size="24" font-weight="700" fill="#000000">    if &quot;Unexplored&quot; not in location_items:</text>
+</g>
+<g id="code_line_6">
+<text x="1070" y="1001" text-anchor="start" dominant-baseline="hanging" font-family="Liberation Mono" font-size="24" font-weight="700" fill="#000000">···</text>
+</g>
+<g id="stage4_title">
+<text x="435.5" y="520" text-anchor="middle" dominant-baseline="hanging" font-family="Liberation Sans" font-size="27" font-weight="700" fill="#000000">Stage 4. Code Rule Set Pruning via Maximum Set Coverage</text>
+</g>
+<g id="coverage_rule_2">
+<ellipse cx="187.0" cy="740.0" rx="133.0" ry="158.0" fill="#FED966" stroke="#5B5B5B" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt" stroke-dasharray="11 8" transform="rotate(15 187.0 740.0)"/>
+</g>
+<g id="coverage_rule_1">
+<polygon points="455,583 520,575 593,591 660,618 724,653 776,703 810,762 824,819 813,865 781,895 728,908 669,901 611,883 552,852 500,815 453,774 420,730 403,682 403,638 420,604" fill="#FED966" stroke="#5B5B5B" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt" stroke-dasharray="11 8"/>
+</g>
+<g id="dropped_rule_0">
+<ellipse cx="597.0" cy="721.5" rx="87.0" ry="88.5" fill="#E6E6E6" stroke="#5B5B5B" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt" stroke-dasharray="11 8"/>
+</g>
+<g id="dropped_rule_i">
+<ellipse cx="376.5" cy="860.0" rx="84.5" ry="85.0" fill="#E6E6E6" stroke="#5B5B5B" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt" stroke-dasharray="11 8"/>
+</g>
+<g id="rule2_transition_0">
+<ellipse cx="128.0" cy="648.0" rx="12.0" ry="12.0" fill="#FF67B4" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="rule2_transition_1">
+<ellipse cx="188.0" cy="630.0" rx="12.0" ry="12.0" fill="#FF67B4" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="rule2_transition_2">
+<ellipse cx="228.0" cy="665.0" rx="12.0" ry="12.0" fill="#FF67B4" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="rule2_transition_3">
+<ellipse cx="113.0" cy="708.0" rx="12.0" ry="12.0" fill="#FF67B4" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="rule2_transition_4">
+<ellipse cx="171.0" cy="697.0" rx="12.0" ry="12.0" fill="#FF67B4" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="rule2_transition_5">
+<ellipse cx="269.0" cy="708.0" rx="12.0" ry="12.0" fill="#FF67B4" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="rule2_transition_6">
+<ellipse cx="139.0" cy="740.0" rx="12.0" ry="12.0" fill="#FF67B4" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="rule2_transition_7">
+<ellipse cx="274.0" cy="757.0" rx="12.0" ry="12.0" fill="#FF67B4" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="rule2_transition_8">
+<ellipse cx="265.0" cy="795.0" rx="12.0" ry="12.0" fill="#FF67B4" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="rule2_transition_9">
+<ellipse cx="231.0" cy="847.0" rx="12.0" ry="12.0" fill="#FF67B4" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="rule2_transition_10">
+<ellipse cx="92.0" cy="777.0" rx="12.0" ry="12.0" fill="#65FFFF" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="rule2_transition_11">
+<ellipse cx="205.0" cy="727.0" rx="12.0" ry="12.0" fill="#65FFFF" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="rule2_transition_12">
+<ellipse cx="151.0" cy="855.0" rx="12.0" ry="12.0" fill="#65FFFF" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="rule1_transition_0">
+<ellipse cx="456.0" cy="635.0" rx="12.0" ry="12.0" fill="#FF67B4" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="rule1_transition_1">
+<ellipse cx="514.0" cy="625.0" rx="12.0" ry="12.0" fill="#FF67B4" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="rule1_transition_2">
+<ellipse cx="595.0" cy="619.0" rx="12.0" ry="12.0" fill="#FF67B4" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="rule1_transition_3">
+<ellipse cx="449.0" cy="696.0" rx="12.0" ry="12.0" fill="#FF67B4" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="rule1_transition_4">
+<ellipse cx="509.0" cy="697.0" rx="12.0" ry="12.0" fill="#FF67B4" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="rule1_transition_5">
+<ellipse cx="738.0" cy="681.0" rx="12.0" ry="12.0" fill="#FF67B4" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="rule1_transition_6">
+<ellipse cx="468.0" cy="779.0" rx="12.0" ry="12.0" fill="#FF67B4" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="rule1_transition_7">
+<ellipse cx="539.0" cy="813.0" rx="12.0" ry="12.0" fill="#FF67B4" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="rule1_transition_8">
+<ellipse cx="688.0" cy="800.0" rx="12.0" ry="12.0" fill="#FF67B4" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="rule1_transition_9">
+<ellipse cx="782.0" cy="838.0" rx="12.0" ry="12.0" fill="#FF67B4" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="rule0_transition_0">
+<ellipse cx="607.0" cy="673.0" rx="12.0" ry="12.0" fill="#65FFFF" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="rule0_transition_1">
+<ellipse cx="662.0" cy="696.0" rx="12.0" ry="12.0" fill="#FF67B4" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="rule0_transition_2">
+<ellipse cx="571.0" cy="773.0" rx="12.0" ry="12.0" fill="#65FFFF" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="rule0_transition_3">
+<ellipse cx="615.0" cy="779.0" rx="12.0" ry="12.0" fill="#65FFFF" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="rulei_transition_0">
+<ellipse cx="380.0" cy="806.0" rx="12.0" ry="12.0" fill="#65FFFF" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="rulei_transition_1">
+<ellipse cx="334.0" cy="827.0" rx="12.0" ry="12.0" fill="#65FFFF" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="rulei_transition_2">
+<ellipse cx="418.0" cy="839.0" rx="12.0" ry="12.0" fill="#65FFFF" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="rulei_transition_3">
+<ellipse cx="329.0" cy="908.0" rx="12.0" ry="12.0" fill="#65FFFF" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="rulei_transition_4">
+<ellipse cx="391.0" cy="905.0" rx="12.0" ry="12.0" fill="#65FFFF" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="rule2_label">
+<text x="166.0" y="786" text-anchor="middle" dominant-baseline="hanging" font-family="Liberation Sans" font-size="25" font-weight="400" fill="#000000">CodeRule_2</text>
+</g>
+<g id="rule1_label">
+<text x="685.0" y="842" text-anchor="middle" dominant-baseline="hanging" font-family="Liberation Sans" font-size="25" font-weight="400" fill="#000000">CodeRule_1</text>
+</g>
+<g id="rule0_label">
+<text x="600.0" y="704" text-anchor="middle" dominant-baseline="hanging" font-family="Liberation Sans" font-size="24" font-weight="400" fill="#000000">CodeRule_0</text>
+</g>
+<g id="rulei_label">
+<text x="375.0" y="846" text-anchor="middle" dominant-baseline="hanging" font-family="Liberation Sans" font-size="24" font-weight="400" fill="#000000">CodeRule_i</text>
+</g>
+<g id="legend_selected">
+<ellipse cx="59.5" cy="978.5" rx="13.5" ry="13.5" fill="#FED966" stroke="#5B5B5B" stroke-width="3" stroke-linejoin="round" stroke-linecap="butt" stroke-dasharray="7 5"/>
+</g>
+<g id="legend_slash_1">
+<text x="85.0" y="961" text-anchor="middle" dominant-baseline="hanging" font-family="Liberation Sans" font-size="29" font-weight="700" fill="#000000">/</text>
+</g>
+<g id="legend_dropped">
+<ellipse cx="110.5" cy="978.5" rx="13.5" ry="13.5" fill="#E6E6E6" stroke="#5B5B5B" stroke-width="3" stroke-linejoin="round" stroke-linecap="butt" stroke-dasharray="7 5"/>
+</g>
+<g id="legend_regions_text">
+<text x="137" y="958" text-anchor="start" dominant-baseline="hanging" font-family="Liberation Sans" font-size="25" font-weight="700" fill="#000000">Regions covered by selected/dropped CodeRules</text>
+</g>
+<g id="legend_predictable">
+<ellipse cx="59.0" cy="1024.0" rx="14.0" ry="14.0" fill="#65FFFF" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="legend_slash_2">
+<text x="86.0" y="1008" text-anchor="middle" dominant-baseline="hanging" font-family="Liberation Sans" font-size="29" font-weight="700" fill="#000000">/</text>
+</g>
+<g id="legend_unpredictable">
+<ellipse cx="111.0" cy="1024.0" rx="14.0" ry="14.0" fill="#FF67B4" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="butt"/>
+</g>
+<g id="legend_transitions_text">
+<text x="137" y="1001" text-anchor="start" dominant-baseline="hanging" font-family="Liberation Sans" font-size="25" font-weight="700" fill="#000000">Transitions can/cannot be predicted by world model</text>
+</g>
+</svg>

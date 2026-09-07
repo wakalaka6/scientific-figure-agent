@@ -1,0 +1,542 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1890" height="1210" viewBox="0 0 1890 1210">
+<defs><filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur in="SourceAlpha" stdDeviation="5"/><feOffset dx="4" dy="5" result="o"/><feComponentTransfer><feFuncA type="linear" slope="0.20"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect id="canvas" x="0" y="0" width="1890.0" height="1210.0" rx="0" fill="#F4F4F3" stroke="none"/>
+<rect id="training_panel_shadow" x="5" y="15" width="1886" height="830" rx="18" fill="#D8D8D8" stroke="none" opacity="0.65"/>
+<rect id="training_panel" x="2" y="10" width="1886" height="830" rx="18" fill="#FFFFFF" stroke="#D5D5D5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="inference_panel_shadow" x="5" y="871" width="1886" height="342" rx="18" fill="#D8D8D8" stroke="none" opacity="0.65"/>
+<rect id="inference_panel" x="2" y="866" width="1886" height="342" rx="18" fill="#FFFFFF" stroke="#D5D5D5" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="subject_field" x="4" y="20" width="470" height="430" rx="14" fill="#F4F7FC" stroke="none"/>
+<rect id="invariant_field" x="470" y="20" width="567" height="810" rx="14" fill="#F4F7FC" stroke="none"/>
+<rect id="semantic_field" x="1037" y="20" width="555" height="810" rx="14" fill="#FFF7EA" stroke="none"/>
+<rect id="training_tab" x="5" y="20" width="346" height="75" rx="12" fill="#DFEEE6" stroke="none"/>
+<rect id="inference_tab" x="5" y="876" width="346" height="72" rx="12" fill="#E1E6E7" stroke="none"/>
+<text id="training_title" x="178.0" y="55.0" font-family="Liberation Serif" font-size="54" font-weight="700" font-style="italic" fill="#000000" text-anchor="middle" dominant-baseline="middle">
+<tspan x="178.0" dy="0">Training</tspan>
+</text>
+<text id="inference_title" x="178.0" y="910.0" font-family="Liberation Serif" font-size="52" font-weight="700" font-style="italic" fill="#000000" text-anchor="middle" dominant-baseline="middle">
+<tspan x="178.0" dy="0">Inference</tspan>
+</text>
+<text id="invariant_title" x="710.0" y="55.0" font-family="Liberation Serif" font-size="41" font-weight="700" font-style="italic" fill="#6C9BC3" text-anchor="middle" dominant-baseline="middle">
+<tspan x="710.0" dy="0">Subject-Invariant Feature Extraction</tspan>
+</text>
+<text id="semantic_title" x="1385.0" y="55.0" font-family="Liberation Serif" font-size="39" font-weight="700" font-style="italic" fill="#F77A24" text-anchor="middle" dominant-baseline="middle">
+<tspan x="1385.0" dy="0">Semantic-Specific Feature Extraction</tspan>
+</text>
+<text id="subject_questions" x="169.5" y="185.0" font-family="Liberation Serif" font-size="49" font-weight="700" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle">
+<tspan x="169.5" dy="0">?  ?  ?</tspan>
+</text>
+<text id="subject_question_focus" x="164.5" y="173.0" font-family="Liberation Serif" font-size="54" font-weight="700" font-style="normal" fill="#E85B7C" text-anchor="middle" dominant-baseline="middle">
+<tspan x="164.5" dy="0">?</tspan>
+</text>
+<ellipse id="subject_head_1_hair" cx="126" cy="251" rx="18" ry="17" fill="#6D3D26" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="subject_head_1_face" cx="126" cy="257" rx="15" ry="16" fill="#DE936B" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="subject_head_2_hair" cx="170" cy="249" rx="18" ry="17" fill="#171717" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="subject_head_2_face" cx="170" cy="255" rx="15" ry="16" fill="#FFD18A" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="subject_head_3_hair" cx="212" cy="252" rx="18" ry="17" fill="#263746" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="subject_head_3_face" cx="212" cy="258" rx="15" ry="16" fill="#F0A383" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="subject_label" x="178.0" y="314.0" font-family="Liberation Serif" font-size="34" font-weight="700" font-style="italic" fill="#000000" text-anchor="middle" dominant-baseline="middle">
+<tspan x="178.0" dy="0">Subject</tspan>
+</text>
+<polygon id="subject_cls_arrow" points="239,196 263,182.5 263,188.44 294,188.44 294,182.5 318,196 294,209.5 294,203.56 263,203.56 263,209.5" fill="#A9DDEB" stroke="#062A3A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="subject_dis_arrow" points="240,321 264,307.5 264,313.44 294,313.44 294,307.5 318,321 294,334.5 294,328.56 264,328.56 264,334.5" fill="#A9DDEB" stroke="#062A3A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="loss_cls_base" x="220" y="118.78" font-family="Latin Modern Math" font-size="42" font-weight="400" font-style="italic" fill="#6C9BC3" text-anchor="start" dominant-baseline="middle">
+<tspan x="220" dy="0">ℒ</tspan>
+</text>
+<text id="loss_cls_sup" x="244.2424" y="104.08000000000001" font-family="Liberation Serif" font-size="25.2" font-weight="400" font-style="italic" fill="#6C9BC3" text-anchor="start" dominant-baseline="middle">
+<tspan x="244.2424" dy="0">E</tspan>
+</text>
+<text id="loss_cls_sub" x="244.2424" y="126.34" font-family="Liberation Serif" font-size="25.2" font-weight="400" font-style="italic" fill="#6C9BC3" text-anchor="start" dominant-baseline="middle">
+<tspan x="244.2424" dy="0">cls</tspan>
+</text>
+<text id="loss_dis_base" x="220" y="374.78" font-family="Latin Modern Math" font-size="42" font-weight="400" font-style="italic" fill="#6C9BC3" text-anchor="start" dominant-baseline="middle">
+<tspan x="220" dy="0">ℒ</tspan>
+</text>
+<text id="loss_dis_sup" x="244.2424" y="360.08" font-family="Liberation Serif" font-size="25.2" font-weight="400" font-style="italic" fill="#6C9BC3" text-anchor="start" dominant-baseline="middle">
+<tspan x="244.2424" dy="0">E</tspan>
+</text>
+<text id="loss_dis_sub" x="244.2424" y="382.34000000000003" font-family="Liberation Serif" font-size="25.2" font-weight="400" font-style="italic" fill="#6C9BC3" text-anchor="start" dominant-baseline="middle">
+<tspan x="244.2424" dy="0">dis</tspan>
+</text>
+<rect id="cls_shadow" x="352" y="134" width="110" height="54" rx="10" fill="#8BC9D7" stroke="none" opacity="0.4"/>
+<rect id="cls_box" x="345" y="127" width="100" height="52" rx="10" fill="#E8F2F4" stroke="#062A3A" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="cls_text" x="395.0" y="153.0" font-family="Liberation Serif" font-size="31" font-weight="700" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle">
+<tspan x="395.0" dy="0">CLS</tspan>
+</text>
+<rect id="grl_subject_box" x="329" y="313" width="104" height="52" rx="9" fill="#F4CCCC" stroke="#062A3A" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="grl_subject_text" x="381.0" y="338.0" font-family="Liberation Serif" font-size="31" font-weight="700" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle">
+<tspan x="381.0" dy="0">GRL</tspan>
+</text>
+<rect id="dis_shadow" x="353" y="355" width="110" height="54" rx="10" fill="#8BC9D7" stroke="none" opacity="0.4"/>
+<rect id="dis_box" x="346" y="347" width="100" height="53" rx="9" fill="#E8F2F4" stroke="#062A3A" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="dis_text" x="396.0" y="373.0" font-family="Liberation Serif" font-size="31" font-weight="700" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle">
+<tspan x="396.0" dy="0">DIS</tspan>
+</text>
+<polygon id="cls_to_es" points="466,145.0 498,145.0 498,139.5 520,152 498,164.5 498,159.0 466,159.0" fill="#C4C4C4" stroke="none"/>
+<polygon id="dis_to_ei" points="466,357.0 498,357.0 498,351.5 520,364 498,376.5 498,371.0 466,371.0" fill="#C4C4C4" stroke="none"/>
+<rect id="training_fmri_back" x="103.0" y="500.0" width="112.0" height="99.0" rx="4" fill="#C0B4BD" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="training_fmri_screen" x="108" y="493" width="112.0" height="99.0" rx="5" fill="#EAF4F6" stroke="#000000" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="training_fmri_inner" x="118.0" y="503.0" width="91.0" height="70.0" rx="2" fill="#FFFFFF" stroke="#062A3A" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="training_fmri_brain" cx="163.0" cy="538.0" rx="27.0" ry="25.0" fill="#F5B39C" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="training_fmri_brain_v" x1="163.0" y1="515.0" x2="163.0" y2="560.0" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="training_fmri_brain_h1" x1="142.0" y1="531.0" x2="154.0" y2="539.0" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="training_fmri_brain_h2" x1="173.0" y1="532.0" x2="186.0" y2="525.0" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="training_fmri_brain_h3" x1="144.0" y1="548.0" x2="156.0" y2="543.0" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="training_fmri_brain_h4" x1="173.0" y1="545.0" x2="186.0" y2="554.0" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="training_fmri_stand" x="148.0" y="593.0" width="31.0" height="12.0" rx="1" fill="#91868E" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="training_fmri_wave1" x1="220.0" y1="541.0" x2="232.0" y2="541.0" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="training_fmri_wave2" x1="232.0" y1="541.0" x2="238.0" y2="521.0" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="training_fmri_wave3" x1="238.0" y1="521.0" x2="245.0" y2="559.0" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="training_fmri_wave4" x1="245.0" y1="559.0" x2="253.0" y2="541.0" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="training_fmri_wave5" x1="253.0" y1="541.0" x2="262.0" y2="541.0" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="training_fmri_label" x="178.5" y="472.0" font-family="Liberation Serif" font-size="34" font-weight="700" font-style="normal" fill="#737373" text-anchor="middle" dominant-baseline="middle">
+<tspan x="178.5" dy="0">fMRI</tspan>
+</text>
+<ellipse id="train_person_back_l_hair" cx="132" cy="638.0" rx="18.75" ry="20.25" fill="#31313B" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="train_person_back_l_head" cx="132" cy="642.5" rx="14.25" ry="16.5" fill="#B67055" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="train_person_back_l_body" points="111.75,675.5 118.5,659.75 132,656.0 145.5,659.75 152.25,675.5" fill="#E99A45" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="train_person_back_l_eye_l" cx="126.75" cy="641" rx="1.35" ry="1.6500000000000001" fill="#000000" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="train_person_back_l_eye_r" cx="137.25" cy="641" rx="1.35" ry="1.6500000000000001" fill="#000000" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="train_person_back_l_smile" x1="126.75" y1="648.5" x2="137.25" y2="648.5" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="train_person_back_r_hair" cx="205" cy="636.0" rx="18.75" ry="20.25" fill="#F4C542" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="train_person_back_r_head" cx="205" cy="640.5" rx="14.25" ry="16.5" fill="#F7C4A4" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="train_person_back_r_body" points="184.75,673.5 191.5,657.75 205,654.0 218.5,657.75 225.25,673.5" fill="#A8663C" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="train_person_back_r_eye_l" cx="199.75" cy="639" rx="1.35" ry="1.6500000000000001" fill="#000000" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="train_person_back_r_eye_r" cx="210.25" cy="639" rx="1.35" ry="1.6500000000000001" fill="#000000" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="train_person_back_r_smile" x1="199.75" y1="646.5" x2="210.25" y2="646.5" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="train_person_front_l_hair" cx="127" cy="689.28" rx="17.0" ry="18.360000000000003" fill="#5B392E" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="train_person_front_l_head" cx="127" cy="693.36" rx="12.920000000000002" ry="14.96" fill="#DFA381" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="train_person_front_l_body" points="108.64,723.28 114.76,709.0 127,705.6 139.24,709.0 145.36,723.28" fill="#F0C65A" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="train_person_front_l_eye_l" cx="122.24" cy="692" rx="1.2240000000000002" ry="1.4960000000000002" fill="#000000" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="train_person_front_l_eye_r" cx="131.76" cy="692" rx="1.2240000000000002" ry="1.4960000000000002" fill="#000000" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="train_person_front_l_smile" x1="122.24" y1="698.8" x2="131.76" y2="698.8" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="train_person_front_m_hair" cx="175" cy="692.28" rx="17.0" ry="18.360000000000003" fill="#34343A" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="train_person_front_m_head" cx="175" cy="696.36" rx="12.920000000000002" ry="14.96" fill="#F1B995" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="train_person_front_m_body" points="156.64,726.28 162.76,712.0 175,708.6 187.24,712.0 193.36,726.28" fill="#8993A7" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="train_person_front_m_eye_l" cx="170.24" cy="695" rx="1.2240000000000002" ry="1.4960000000000002" fill="#000000" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="train_person_front_m_eye_r" cx="179.76" cy="695" rx="1.2240000000000002" ry="1.4960000000000002" fill="#000000" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="train_person_front_m_smile" x1="170.24" y1="701.8" x2="179.76" y2="701.8" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="train_person_front_r_hair" cx="221" cy="689.28" rx="17.0" ry="18.360000000000003" fill="#3A2A26" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="train_person_front_r_head" cx="221" cy="693.36" rx="12.920000000000002" ry="14.96" fill="#EFC0A3" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="train_person_front_r_body" points="202.64,723.28 208.76,709.0 221,705.6 233.24,709.0 239.36,723.28" fill="#5DA7E0" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="train_person_front_r_eye_l" cx="216.24" cy="692" rx="1.2240000000000002" ry="1.4960000000000002" fill="#000000" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="train_person_front_r_eye_r" cx="225.76" cy="692" rx="1.2240000000000002" ry="1.4960000000000002" fill="#000000" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="train_person_front_r_smile" x1="216.24" y1="698.8" x2="225.76" y2="698.8" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="train_subjects_label" x="172.0" y="787.0" font-family="Liberation Serif" font-size="37" font-weight="400" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle">
+<tspan x="172.0" dy="0">Train Subjects</tspan>
+</text>
+<polygon id="fmri_to_vit" points="227,577.08 293,577.08 293,568.5 322,588 293,607.5 293,598.92 227,598.92" fill="#FFFFFF" stroke="#2C61B1" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="vit_train" points="310,496 444,535 444,635 310,675" fill="#E1E9EC" stroke="#062A3A" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="vit_train_label" x="377.5" y="570.5" font-family="Liberation Serif" font-size="38" font-weight="700" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle">
+<tspan x="377.5" dy="0">ViT</tspan>
+</text>
+<polygon id="vit_to_e" points="428,577.08 491,577.08 491,568.5 520,588 491,607.5 491,598.92 428,598.92" fill="#FFFFFF" stroke="#2C61B1" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="embedding_e_shadow_0" points="540,553 558,553 558,639 540,639" fill="#CBD1D8" stroke="none" opacity="0.5"/>
+<polygon id="embedding_e_bar_0" points="535,556 542,548 553,548 553,626 546,634 535,634" fill="#6F94B8" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="embedding_e_shine_0" x1="541" y1="556" x2="541" y2="629" stroke="#EAF1F7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="embedding_e_shadow_1" points="565,553 583,553 583,639 565,639" fill="#CBD1D8" stroke="none" opacity="0.5"/>
+<polygon id="embedding_e_bar_1" points="560,556 567,548 578,548 578,626 571,634 560,634" fill="#6F94B8" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="embedding_e_shine_1" x1="566" y1="556" x2="566" y2="629" stroke="#EAF1F7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="embedding_e_shadow_2" points="590,553 608,553 608,639 590,639" fill="#CBD1D8" stroke="none" opacity="0.5"/>
+<polygon id="embedding_e_bar_2" points="585,556 592,548 603,548 603,626 596,634 585,634" fill="#6F94B8" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="embedding_e_shine_2" x1="591" y1="556" x2="591" y2="629" stroke="#EAF1F7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="embedding_e_shadow_3" points="615,553 633,553 633,639 615,639" fill="#CBD1D8" stroke="none" opacity="0.5"/>
+<polygon id="embedding_e_bar_3" points="610,556 617,548 628,548 628,626 621,634 610,634" fill="#6F94B8" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="embedding_e_shine_3" x1="616" y1="556" x2="616" y2="629" stroke="#EAF1F7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="embedding_e_label" x="594.5" y="662.5" font-family="Liberation Serif" font-size="41" font-weight="700" font-style="italic" fill="#000000" text-anchor="middle" dominant-baseline="middle">
+<tspan x="594.5" dy="0">E</tspan>
+</text>
+<polygon id="e_to_ei" points="583,417 597.0,444 590.84,444 590.84,535 575.16,535 575.16,444 569.0,444" fill="#A9DDEB" stroke="#062A3A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="fi_function_base" x="470" y="482.19" font-family="Latin Modern Math" font-size="41" font-weight="400" font-style="italic" fill="#000000" text-anchor="start" dominant-baseline="middle">
+<tspan x="470" dy="0">ℱ</tspan>
+</text>
+<text id="fi_function_sub" x="493.6652" y="489.57" font-family="Liberation Serif" font-size="24.599999999999998" font-weight="400" font-style="italic" fill="#000000" text-anchor="start" dominant-baseline="middle">
+<tspan x="493.6652" dy="0">i</tspan>
+</text>
+<text id="fi_function_suffix" x="522.4300000000001" y="482.19" font-family="Latin Modern Math" font-size="41" font-weight="400" font-style="italic" fill="#000000" text-anchor="start" dominant-baseline="middle">
+<tspan x="522.4300000000001" dy="0">(·)</tspan>
+</text>
+<polygon id="difference_up" points="582,137 595.0,163 589.28,163 589.28,311 574.72,311 574.72,163 569.0,163" fill="#C7C7C7" stroke="#C7C7C7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="difference_symbol" cx="582" cy="265" rx="19" ry="19" fill="#FFFFFF" stroke="#172B50" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="difference_bar" x1="564" y1="265" x2="600" y2="265" stroke="#172B50" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="difference_label" x="702.5" y="270.0" font-family="Liberation Serif" font-size="31" font-weight="700" font-style="italic" fill="#000000" text-anchor="middle" dominant-baseline="middle">
+<tspan x="702.5" dy="0">Difference</tspan>
+</text>
+<polygon id="embedding_ei_shadow_0" points="533,328 552,328 552,414 533,414" fill="#CBD1D8" stroke="none" opacity="0.5"/>
+<polygon id="embedding_ei_bar_0" points="528,331 535,323 547,323 547,401 540,409 528,409" fill="#7795B2" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="embedding_ei_shine_0" x1="534" y1="331" x2="534" y2="404" stroke="#EAF1F7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="embedding_ei_shadow_1" points="559,328 578,328 578,414 559,414" fill="#CBD1D8" stroke="none" opacity="0.5"/>
+<polygon id="embedding_ei_bar_1" points="554,331 561,323 573,323 573,401 566,409 554,409" fill="#7795B2" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="embedding_ei_shine_1" x1="560" y1="331" x2="560" y2="404" stroke="#EAF1F7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="embedding_ei_shadow_2" points="585,328 604,328 604,414 585,414" fill="#CBD1D8" stroke="none" opacity="0.5"/>
+<polygon id="embedding_ei_bar_2" points="580,331 587,323 599,323 599,401 592,409 580,409" fill="#7795B2" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="embedding_ei_shine_2" x1="586" y1="331" x2="586" y2="404" stroke="#EAF1F7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="embedding_ei_shadow_3" points="611,328 630,328 630,414 611,414" fill="#CBD1D8" stroke="none" opacity="0.5"/>
+<polygon id="embedding_ei_bar_3" points="606,331 613,323 625,323 625,401 618,409 606,409" fill="#7795B2" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="embedding_ei_shine_3" x1="612" y1="331" x2="612" y2="404" stroke="#EAF1F7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="embedding_ei_label" x="665.0" y="423.0" font-family="Liberation Serif" font-size="40" font-weight="700" font-style="italic" fill="#000000" text-anchor="middle" dominant-baseline="middle">
+<tspan x="665.0" dy="0">Eᵢ</tspan>
+</text>
+<polygon id="embedding_es_shadow_0" points="531,114 550,114 550,199 531,199" fill="#CBD1D8" stroke="none" opacity="0.5"/>
+<polygon id="embedding_es_bar_0" points="526,117 533,109 545,109 545,186 538,194 526,194" fill="#E8EEF4" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="embedding_es_shine_0" x1="532" y1="117" x2="532" y2="189" stroke="#EAF1F7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="embedding_es_shadow_1" points="557,114 576,114 576,199 557,199" fill="#CBD1D8" stroke="none" opacity="0.5"/>
+<polygon id="embedding_es_bar_1" points="552,117 559,109 571,109 571,186 564,194 552,194" fill="#E8EEF4" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="embedding_es_shine_1" x1="558" y1="117" x2="558" y2="189" stroke="#EAF1F7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="embedding_es_shadow_2" points="583,114 602,114 602,199 583,199" fill="#CBD1D8" stroke="none" opacity="0.5"/>
+<polygon id="embedding_es_bar_2" points="578,117 585,109 597,109 597,186 590,194 578,194" fill="#E8EEF4" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="embedding_es_shine_2" x1="584" y1="117" x2="584" y2="189" stroke="#EAF1F7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="embedding_es_shadow_3" points="609,114 628,114 628,199 609,199" fill="#CBD1D8" stroke="none" opacity="0.5"/>
+<polygon id="embedding_es_bar_3" points="604,117 611,109 623,109 623,186 616,194 604,194" fill="#E8EEF4" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="embedding_es_shine_3" x1="610" y1="117" x2="610" y2="189" stroke="#EAF1F7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="embedding_es_label" x="665.5" y="205.0" font-family="Liberation Serif" font-size="40" font-weight="700" font-style="italic" fill="#000000" text-anchor="middle" dominant-baseline="middle">
+<tspan x="665.5" dy="0">Eₛ</tspan>
+</text>
+<polygon id="projector_in_arrow_0" points="674,141.48 891,141.48 891,134.0 925,151 891,168.0 891,160.52 674,160.52" fill="#A9DDEB" stroke="#062A3A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="projector_0_shadow" x="946" y="110" width="185" height="96" rx="16" fill="#E4D9A9" stroke="none" opacity="0.45"/>
+<rect id="projector_0" x="940" y="103" width="185" height="96" rx="16" fill="#FBEABE" stroke="#062A3A" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="projector_0_label" x="1032.5" y="135.55" font-family="Liberation Serif" font-size="30" font-weight="700" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle">
+<tspan x="1032.5" dy="0">Vision</tspan>
+<tspan x="1032.5" dy="30.900000000000002">Projector</tspan>
+</text>
+<text id="projector_formula_0_base" x="991" y="224.19" font-family="Latin Modern Math" font-size="41" font-weight="400" font-style="italic" fill="#000000" text-anchor="start" dominant-baseline="middle">
+<tspan x="991" dy="0">P</tspan>
+</text>
+<text id="projector_formula_0_sub" x="1014.6652" y="231.57" font-family="Liberation Serif" font-size="24.599999999999998" font-weight="400" font-style="italic" fill="#000000" text-anchor="start" dominant-baseline="middle">
+<tspan x="1014.6652" dy="0">i</tspan>
+</text>
+<text id="projector_formula_0_suffix" x="1043.43" y="224.19" font-family="Latin Modern Math" font-size="41" font-weight="400" font-style="italic" fill="#000000" text-anchor="start" dominant-baseline="middle">
+<tspan x="1043.43" dy="0">(·)</tspan>
+</text>
+<polygon id="projector_out_arrow_0" points="1158,141.48 1374,141.48 1374,134.0 1408,151 1374,168.0 1374,160.52 1158,160.52" fill="#FFE7A7" stroke="#062A3A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="semantic_grl_box" x="1233" y="162" width="99" height="49" rx="8" fill="#F4CCCC" stroke="#062A3A" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="semantic_grl_text" x="1282.5" y="185.5" font-family="Liberation Serif" font-size="29" font-weight="700" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle">
+<tspan x="1282.5" dy="0">GRL</tspan>
+</text>
+<polygon id="feature_f_0_shadow_0" points="1431,113 1449,113 1449,197 1431,197" fill="#CBD1D8" stroke="none" opacity="0.5"/>
+<polygon id="feature_f_0_bar_0" points="1426,116 1433,108 1444,108 1444,184 1437,192 1426,192" fill="#FED966" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="feature_f_0_shine_0" x1="1432" y1="116" x2="1432" y2="187" stroke="#EAF1F7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="feature_f_0_shadow_1" points="1456,113 1474,113 1474,197 1456,197" fill="#CBD1D8" stroke="none" opacity="0.5"/>
+<polygon id="feature_f_0_bar_1" points="1451,116 1458,108 1469,108 1469,184 1462,192 1451,192" fill="#FED966" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="feature_f_0_shine_1" x1="1457" y1="116" x2="1457" y2="187" stroke="#EAF1F7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="feature_f_0_shadow_2" points="1481,113 1499,113 1499,197 1481,197" fill="#CBD1D8" stroke="none" opacity="0.5"/>
+<polygon id="feature_f_0_bar_2" points="1476,116 1483,108 1494,108 1494,184 1487,192 1476,192" fill="#FED966" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="feature_f_0_shine_2" x1="1482" y1="116" x2="1482" y2="187" stroke="#EAF1F7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="feature_f_0_shadow_3" points="1506,113 1524,113 1524,197 1506,197" fill="#CBD1D8" stroke="none" opacity="0.5"/>
+<polygon id="feature_f_0_bar_3" points="1501,116 1508,108 1519,108 1519,184 1512,192 1501,192" fill="#FED966" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="feature_f_0_shine_3" x1="1507" y1="116" x2="1507" y2="187" stroke="#EAF1F7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="feature_f_label_0" x="1449.0" y="216.5" font-family="Liberation Serif" font-size="41" font-weight="700" font-style="italic" fill="#000000" text-anchor="middle" dominant-baseline="middle">
+<tspan x="1449.0" dy="0">Fᵢ</tspan>
+</text>
+<polygon id="projector_in_arrow_1" points="674,356.48 891,356.48 891,349.0 925,366 891,383.0 891,375.52 674,375.52" fill="#A9DDEB" stroke="#062A3A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="projector_1_shadow" x="946" y="325" width="185" height="96" rx="16" fill="#E4D9A9" stroke="none" opacity="0.45"/>
+<rect id="projector_1" x="940" y="318" width="185" height="96" rx="16" fill="#FBEABE" stroke="#062A3A" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="projector_1_label" x="1032.5" y="350.55" font-family="Liberation Serif" font-size="30" font-weight="700" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle">
+<tspan x="1032.5" dy="0">Vision</tspan>
+<tspan x="1032.5" dy="30.900000000000002">Projector</tspan>
+</text>
+<text id="projector_formula_1_base" x="991" y="439.19" font-family="Latin Modern Math" font-size="41" font-weight="400" font-style="italic" fill="#000000" text-anchor="start" dominant-baseline="middle">
+<tspan x="991" dy="0">P</tspan>
+</text>
+<text id="projector_formula_1_sub" x="1014.6652" y="446.57" font-family="Liberation Serif" font-size="24.599999999999998" font-weight="400" font-style="italic" fill="#000000" text-anchor="start" dominant-baseline="middle">
+<tspan x="1014.6652" dy="0">s</tspan>
+</text>
+<text id="projector_formula_1_suffix" x="1043.43" y="439.19" font-family="Latin Modern Math" font-size="41" font-weight="400" font-style="italic" fill="#000000" text-anchor="start" dominant-baseline="middle">
+<tspan x="1043.43" dy="0">(·)</tspan>
+</text>
+<polygon id="projector_out_arrow_1" points="1158,356.48 1374,356.48 1374,349.0 1408,366 1374,383.0 1374,375.52 1158,375.52" fill="#FFE7A7" stroke="#062A3A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="feature_f_1_shadow_0" points="1431,328 1449,328 1449,412 1431,412" fill="#CBD1D8" stroke="none" opacity="0.5"/>
+<polygon id="feature_f_1_bar_0" points="1426,331 1433,323 1444,323 1444,399 1437,407 1426,407" fill="#FED966" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="feature_f_1_shine_0" x1="1432" y1="331" x2="1432" y2="402" stroke="#EAF1F7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="feature_f_1_shadow_1" points="1456,328 1474,328 1474,412 1456,412" fill="#CBD1D8" stroke="none" opacity="0.5"/>
+<polygon id="feature_f_1_bar_1" points="1451,331 1458,323 1469,323 1469,399 1462,407 1451,407" fill="#FED966" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="feature_f_1_shine_1" x1="1457" y1="331" x2="1457" y2="402" stroke="#EAF1F7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="feature_f_1_shadow_2" points="1481,328 1499,328 1499,412 1481,412" fill="#CBD1D8" stroke="none" opacity="0.5"/>
+<polygon id="feature_f_1_bar_2" points="1476,331 1483,323 1494,323 1494,399 1487,407 1476,407" fill="#FED966" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="feature_f_1_shine_2" x1="1482" y1="331" x2="1482" y2="402" stroke="#EAF1F7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="feature_f_1_shadow_3" points="1506,328 1524,328 1524,412 1506,412" fill="#CBD1D8" stroke="none" opacity="0.5"/>
+<polygon id="feature_f_1_bar_3" points="1501,331 1508,323 1519,323 1519,399 1512,407 1501,407" fill="#FED966" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="feature_f_1_shine_3" x1="1507" y1="331" x2="1507" y2="402" stroke="#EAF1F7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="feature_f_label_1" x="1449.0" y="431.5" font-family="Liberation Serif" font-size="41" font-weight="700" font-style="italic" fill="#000000" text-anchor="middle" dominant-baseline="middle">
+<tspan x="1449.0" dy="0">Fₛ</tspan>
+</text>
+<polygon id="projector_in_arrow_2" points="674,578.48 891,578.48 891,571.0 925,588 891,605.0 891,597.52 674,597.52" fill="#A9DDEB" stroke="#062A3A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="projector_2_shadow" x="946" y="547" width="185" height="96" rx="16" fill="#E4D9A9" stroke="none" opacity="0.45"/>
+<rect id="projector_2" x="940" y="540" width="185" height="96" rx="16" fill="#FBEABE" stroke="#062A3A" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="projector_2_label" x="1032.5" y="572.55" font-family="Liberation Serif" font-size="30" font-weight="700" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle">
+<tspan x="1032.5" dy="0">Vision</tspan>
+<tspan x="1032.5" dy="30.900000000000002">Projector</tspan>
+</text>
+<text id="projector_formula_2_base" x="991" y="661.19" font-family="Latin Modern Math" font-size="41" font-weight="400" font-style="italic" fill="#000000" text-anchor="start" dominant-baseline="middle">
+<tspan x="991" dy="0">P</tspan>
+</text>
+<text id="projector_formula_2_suffix" x="1043.43" y="661.19" font-family="Latin Modern Math" font-size="41" font-weight="400" font-style="italic" fill="#000000" text-anchor="start" dominant-baseline="middle">
+<tspan x="1043.43" dy="0">(·)</tspan>
+</text>
+<polygon id="projector_out_arrow_2" points="1158,578.48 1374,578.48 1374,571.0 1408,588 1374,605.0 1374,597.52 1158,597.52" fill="#FFE7A7" stroke="#062A3A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="feature_f_2_shadow_0" points="1431,550 1449,550 1449,634 1431,634" fill="#CBD1D8" stroke="none" opacity="0.5"/>
+<polygon id="feature_f_2_bar_0" points="1426,553 1433,545 1444,545 1444,621 1437,629 1426,629" fill="#FED966" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="feature_f_2_shine_0" x1="1432" y1="553" x2="1432" y2="624" stroke="#EAF1F7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="feature_f_2_shadow_1" points="1456,550 1474,550 1474,634 1456,634" fill="#CBD1D8" stroke="none" opacity="0.5"/>
+<polygon id="feature_f_2_bar_1" points="1451,553 1458,545 1469,545 1469,621 1462,629 1451,629" fill="#FED966" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="feature_f_2_shine_1" x1="1457" y1="553" x2="1457" y2="624" stroke="#EAF1F7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="feature_f_2_shadow_2" points="1481,550 1499,550 1499,634 1481,634" fill="#CBD1D8" stroke="none" opacity="0.5"/>
+<polygon id="feature_f_2_bar_2" points="1476,553 1483,545 1494,545 1494,621 1487,629 1476,629" fill="#FED966" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="feature_f_2_shine_2" x1="1482" y1="553" x2="1482" y2="624" stroke="#EAF1F7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="feature_f_2_shadow_3" points="1506,550 1524,550 1524,634 1506,634" fill="#CBD1D8" stroke="none" opacity="0.5"/>
+<polygon id="feature_f_2_bar_3" points="1501,553 1508,545 1519,545 1519,621 1512,629 1501,629" fill="#FED966" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="feature_f_2_shine_3" x1="1507" y1="553" x2="1507" y2="624" stroke="#EAF1F7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="feature_f_label_2" x="1449.0" y="653.5" font-family="Liberation Serif" font-size="41" font-weight="700" font-style="italic" fill="#000000" text-anchor="middle" dominant-baseline="middle">
+<tspan x="1449.0" dy="0">F</tspan>
+</text>
+<polygon id="decoder_pipe" points="575,681 589,681 589,730 628,730 628,714 650,743 628,771 628,755 591,755 575,741" fill="#7B9DB7" stroke="#062A3A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="decoder_box" points="642,709 789,682 789,805 642,779" fill="#E1E9EC" stroke="#062A3A" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="decoder_label" x="716.5" y="747.0" font-family="Liberation Serif" font-size="31" font-weight="700" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle">
+<tspan x="716.5" dy="0">Decoder</tspan>
+</text>
+<polygon id="decoder_recon_arrow" points="789,744 815,727.5 815,734.76 832,734.76 832,727.5 858,744 832,760.5 832,753.24 815,753.24 815,760.5" fill="#FFFFFF" stroke="#062A3A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="recon_loss_base" x="798" y="780.06" font-family="Latin Modern Math" font-size="34" font-weight="400" font-style="italic" fill="#3263A1" text-anchor="start" dominant-baseline="middle">
+<tspan x="798" dy="0">ℒ</tspan>
+</text>
+<text id="recon_loss_sub" x="817.6248" y="786.1800000000001" font-family="Liberation Serif" font-size="20.4" font-weight="400" font-style="italic" fill="#3263A1" text-anchor="start" dominant-baseline="middle">
+<tspan x="817.6248" dy="0">rec</tspan>
+</text>
+<rect id="decoded_fmri_back" x="871.15" y="710.39" width="86.24000000000001" height="76.23" rx="4" fill="#C0B4BD" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="decoded_fmri_screen" x="875" y="705" width="86.24000000000001" height="76.23" rx="5" fill="#EAF4F6" stroke="#000000" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="decoded_fmri_inner" x="882.7" y="712.7" width="70.07000000000001" height="53.9" rx="2" fill="#FFFFFF" stroke="#062A3A" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="decoded_fmri_brain" cx="917.35" cy="739.65" rx="20.79" ry="19.25" fill="#F5B39C" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="decoded_fmri_brain_v" x1="917.35" y1="721.94" x2="917.35" y2="756.59" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="decoded_fmri_brain_h1" x1="901.18" y1="734.26" x2="910.42" y2="740.42" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="decoded_fmri_brain_h2" x1="925.05" y1="735.03" x2="935.06" y2="729.64" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="decoded_fmri_brain_h3" x1="902.72" y1="747.35" x2="911.96" y2="743.5" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="decoded_fmri_brain_h4" x1="925.05" y1="745.04" x2="935.06" y2="751.97" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="decoded_fmri_stand" x="905.8" y="782.0" width="23.87" height="9.24" rx="1" fill="#91868E" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="decoded_fmri_wave1" x1="961.24" y1="741.96" x2="970.48" y2="741.96" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="decoded_fmri_wave2" x1="970.48" y1="741.96" x2="975.1" y2="726.56" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="decoded_fmri_wave3" x1="975.1" y1="726.56" x2="980.49" y2="755.82" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="decoded_fmri_wave4" x1="980.49" y1="755.82" x2="986.65" y2="741.96" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="decoded_fmri_wave5" x1="986.65" y1="741.96" x2="993.58" y2="741.96" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="decoded_fmri_label" x="934.0" y="823.0" font-family="Liberation Serif" font-size="31" font-weight="700" font-style="normal" fill="#737373" text-anchor="middle" dominant-baseline="middle">
+<tspan x="934.0" dy="0">fMRI</tspan>
+</text>
+<polygon id="f_difference" points="1484,180 1496.5,204 1491.0,204 1491.0,545 1477.0,545 1477.0,204 1471.5,204" fill="#C7C7C7" stroke="#C7C7C7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="f_difference_symbol" cx="1484" cy="266" rx="19" ry="19" fill="#FFFFFF" stroke="#172B50" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="f_difference_bar" x1="1466" y1="266" x2="1502" y2="266" stroke="#172B50" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="feature_f_front_0_shadow_0" points="1431,113 1449,113 1449,197 1431,197" fill="#CBD1D8" stroke="none" opacity="0.5"/>
+<polygon id="feature_f_front_0_bar_0" points="1426,116 1433,108 1444,108 1444,184 1437,192 1426,192" fill="#FED966" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="feature_f_front_0_shine_0" x1="1432" y1="116" x2="1432" y2="187" stroke="#EAF1F7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="feature_f_front_0_shadow_1" points="1456,113 1474,113 1474,197 1456,197" fill="#CBD1D8" stroke="none" opacity="0.5"/>
+<polygon id="feature_f_front_0_bar_1" points="1451,116 1458,108 1469,108 1469,184 1462,192 1451,192" fill="#FED966" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="feature_f_front_0_shine_1" x1="1457" y1="116" x2="1457" y2="187" stroke="#EAF1F7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="feature_f_front_0_shadow_2" points="1481,113 1499,113 1499,197 1481,197" fill="#CBD1D8" stroke="none" opacity="0.5"/>
+<polygon id="feature_f_front_0_bar_2" points="1476,116 1483,108 1494,108 1494,184 1487,192 1476,192" fill="#FED966" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="feature_f_front_0_shine_2" x1="1482" y1="116" x2="1482" y2="187" stroke="#EAF1F7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="feature_f_front_0_shadow_3" points="1506,113 1524,113 1524,197 1506,197" fill="#CBD1D8" stroke="none" opacity="0.5"/>
+<polygon id="feature_f_front_0_bar_3" points="1501,116 1508,108 1519,108 1519,184 1512,192 1501,192" fill="#FED966" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="feature_f_front_0_shine_3" x1="1507" y1="116" x2="1507" y2="187" stroke="#EAF1F7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="feature_f_label_front_0" x="1449.0" y="216.5" font-family="Liberation Serif" font-size="41" font-weight="700" font-style="italic" fill="#000000" text-anchor="middle" dominant-baseline="middle">
+<tspan x="1449.0" dy="0">Fᵢ</tspan>
+</text>
+<polygon id="feature_f_front_1_shadow_0" points="1431,328 1449,328 1449,412 1431,412" fill="#CBD1D8" stroke="none" opacity="0.5"/>
+<polygon id="feature_f_front_1_bar_0" points="1426,331 1433,323 1444,323 1444,399 1437,407 1426,407" fill="#FED966" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="feature_f_front_1_shine_0" x1="1432" y1="331" x2="1432" y2="402" stroke="#EAF1F7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="feature_f_front_1_shadow_1" points="1456,328 1474,328 1474,412 1456,412" fill="#CBD1D8" stroke="none" opacity="0.5"/>
+<polygon id="feature_f_front_1_bar_1" points="1451,331 1458,323 1469,323 1469,399 1462,407 1451,407" fill="#FED966" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="feature_f_front_1_shine_1" x1="1457" y1="331" x2="1457" y2="402" stroke="#EAF1F7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="feature_f_front_1_shadow_2" points="1481,328 1499,328 1499,412 1481,412" fill="#CBD1D8" stroke="none" opacity="0.5"/>
+<polygon id="feature_f_front_1_bar_2" points="1476,331 1483,323 1494,323 1494,399 1487,407 1476,407" fill="#FED966" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="feature_f_front_1_shine_2" x1="1482" y1="331" x2="1482" y2="402" stroke="#EAF1F7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="feature_f_front_1_shadow_3" points="1506,328 1524,328 1524,412 1506,412" fill="#CBD1D8" stroke="none" opacity="0.5"/>
+<polygon id="feature_f_front_1_bar_3" points="1501,331 1508,323 1519,323 1519,399 1512,407 1501,407" fill="#FED966" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="feature_f_front_1_shine_3" x1="1507" y1="331" x2="1507" y2="402" stroke="#EAF1F7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="feature_f_label_front_1" x="1449.0" y="431.5" font-family="Liberation Serif" font-size="41" font-weight="700" font-style="italic" fill="#000000" text-anchor="middle" dominant-baseline="middle">
+<tspan x="1449.0" dy="0">Fₛ</tspan>
+</text>
+<polygon id="feature_f_front_2_shadow_0" points="1431,550 1449,550 1449,634 1431,634" fill="#CBD1D8" stroke="none" opacity="0.5"/>
+<polygon id="feature_f_front_2_bar_0" points="1426,553 1433,545 1444,545 1444,621 1437,629 1426,629" fill="#FED966" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="feature_f_front_2_shine_0" x1="1432" y1="553" x2="1432" y2="624" stroke="#EAF1F7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="feature_f_front_2_shadow_1" points="1456,550 1474,550 1474,634 1456,634" fill="#CBD1D8" stroke="none" opacity="0.5"/>
+<polygon id="feature_f_front_2_bar_1" points="1451,553 1458,545 1469,545 1469,621 1462,629 1451,629" fill="#FED966" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="feature_f_front_2_shine_1" x1="1457" y1="553" x2="1457" y2="624" stroke="#EAF1F7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="feature_f_front_2_shadow_2" points="1481,550 1499,550 1499,634 1481,634" fill="#CBD1D8" stroke="none" opacity="0.5"/>
+<polygon id="feature_f_front_2_bar_2" points="1476,553 1483,545 1494,545 1494,621 1487,629 1476,629" fill="#FED966" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="feature_f_front_2_shine_2" x1="1482" y1="553" x2="1482" y2="624" stroke="#EAF1F7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="feature_f_front_2_shadow_3" points="1506,550 1524,550 1524,634 1506,634" fill="#CBD1D8" stroke="none" opacity="0.5"/>
+<polygon id="feature_f_front_2_bar_3" points="1501,553 1508,545 1519,545 1519,621 1512,629 1501,629" fill="#FED966" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="feature_f_front_2_shine_3" x1="1507" y1="553" x2="1507" y2="624" stroke="#EAF1F7" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="feature_f_label_front_2" x="1449.0" y="653.5" font-family="Liberation Serif" font-size="41" font-weight="700" font-style="italic" fill="#000000" text-anchor="middle" dominant-baseline="middle">
+<tspan x="1449.0" dy="0">F</tspan>
+</text>
+<text id="semantic_questions" x="1775.0" y="185.0" font-family="Liberation Serif" font-size="47" font-weight="700" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle">
+<tspan x="1775.0" dy="0">?  ?  ?</tspan>
+</text>
+<text id="semantic_question_focus" x="1769.5" y="173.0" font-family="Liberation Serif" font-size="52" font-weight="700" font-style="normal" fill="#E85B7C" text-anchor="middle" dominant-baseline="middle">
+<tspan x="1769.5" dy="0">?</tspan>
+</text>
+<ellipse id="semantic_dog_head" cx="1710" cy="253" rx="16" ry="18" fill="#D68A52" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="semantic_dog_ears" points="1699,242 1687,238 1694,259 1702,250 1719,242 1730,238 1725,259 1717,250" fill="#D68A52" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="semantic_human_head" cx="1765" cy="251" rx="14" ry="17" fill="#F2B899" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="semantic_human_body" points="1745,292 1750,267 1765,259 1780,267 1785,292" fill="#D9794C" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="semantic_cat_head" cx="1810" cy="253" rx="16" ry="17" fill="#CEDDE0" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="semantic_cat_ears" points="1797,241 1798,230 1806,239 1815,239 1823,230 1823,244" fill="#CEDDE0" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="semantic_label" x="1769.0" y="317.0" font-family="Liberation Serif" font-size="33" font-weight="700" font-style="italic" fill="#000000" text-anchor="middle" dominant-baseline="middle">
+<tspan x="1769.0" dy="0">Semantic</tspan>
+</text>
+<polygon id="semantic_inv_arrow" points="1595,197 1620,182.5 1620,188.88 1657,188.88 1657,182.5 1682,197 1657,211.5 1657,205.12 1620,205.12 1620,211.5" fill="#FFE7A7" stroke="#062A3A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="semantic_spe_arrow" points="1595,329 1620,314.5 1620,320.88 1657,320.88 1657,314.5 1682,329 1657,343.5 1657,337.12 1620,337.12 1620,343.5" fill="#FFE7A7" stroke="#062A3A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="loss_inv_base" x="1625" y="112.19" font-family="Latin Modern Math" font-size="41" font-weight="400" font-style="italic" fill="#E4A900" text-anchor="start" dominant-baseline="middle">
+<tspan x="1625" dy="0">ℒ</tspan>
+</text>
+<text id="loss_inv_sup" x="1648.6652" y="97.84" font-family="Liberation Serif" font-size="24.599999999999998" font-weight="400" font-style="italic" fill="#E4A900" text-anchor="start" dominant-baseline="middle">
+<tspan x="1648.6652" dy="0">F</tspan>
+</text>
+<text id="loss_inv_sub" x="1648.6652" y="119.57000000000001" font-family="Liberation Serif" font-size="24.599999999999998" font-weight="400" font-style="italic" fill="#E4A900" text-anchor="start" dominant-baseline="middle">
+<tspan x="1648.6652" dy="0">inv</tspan>
+</text>
+<text id="loss_spe_base" x="1625" y="373.19" font-family="Latin Modern Math" font-size="41" font-weight="400" font-style="italic" fill="#E4A900" text-anchor="start" dominant-baseline="middle">
+<tspan x="1625" dy="0">ℒ</tspan>
+</text>
+<text id="loss_spe_sup" x="1648.6652" y="358.84" font-family="Liberation Serif" font-size="24.599999999999998" font-weight="400" font-style="italic" fill="#E4A900" text-anchor="start" dominant-baseline="middle">
+<tspan x="1648.6652" dy="0">F</tspan>
+</text>
+<text id="loss_spe_sub" x="1648.6652" y="380.57" font-family="Liberation Serif" font-size="24.599999999999998" font-weight="400" font-style="italic" fill="#E4A900" text-anchor="start" dominant-baseline="middle">
+<tspan x="1648.6652" dy="0">spe</tspan>
+</text>
+<polygon id="prior_flow" points="1506,418 1521,418 1521,468 1564,468 1564,449 1603,487 1564,525 1564,506 1536,506 1518,489 1506,473" fill="#F4A37E" stroke="#062A3A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="prior_box" x="1615" y="464" width="215" height="70" rx="12" fill="#FFF0E8" stroke="#062A3A" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="prior_node_0" cx="1652" cy="499" rx="18" ry="18" fill="#FED966" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="prior_node_1" cx="1722" cy="499" rx="18" ry="18" fill="#F6B38B" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="prior_node_2" cx="1792" cy="499" rx="18" ry="18" fill="#F77A24" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="prior_link_1" points="1671,493.96 1684,493.96 1684,490.0 1702,499 1684,508.0 1684,504.04 1671,504.04" fill="#F4A37E" stroke="none"/>
+<polygon id="prior_link_2" points="1741,493.96 1754,493.96 1754,490.0 1772,499 1754,508.0 1754,504.04 1741,504.04" fill="#F77A24" stroke="none"/>
+<text id="prior_loss_base" x="1665" y="556.6" font-family="Latin Modern Math" font-size="40" font-weight="400" font-style="italic" fill="#F77A24" text-anchor="start" dominant-baseline="middle">
+<tspan x="1665" dy="0">ℒ</tspan>
+</text>
+<text id="prior_loss_sub" x="1688.088" y="563.8000000000001" font-family="Liberation Serif" font-size="24.0" font-weight="400" font-style="italic" fill="#F77A24" text-anchor="start" dominant-baseline="middle">
+<tspan x="1688.088" dy="0">prior</tspan>
+</text>
+<polygon id="prior_to_images" points="1794,540 1809.5,565 1802.68,565 1802.68,585 1809.5,585 1794,610 1778.5,585 1785.32,585 1785.32,565 1778.5,565" fill="#FFFFFF" stroke="#062A3A" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="visual_stimuli_18_-22" x="1725.0" y="621.0" width="118.0" height="83.0" rx="5" fill="#FFE0B2" stroke="#000000" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="visual_stimuli_8_-10" x="1715.0" y="633.0" width="118.0" height="83.0" rx="5" fill="#75C7DB" stroke="#000000" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="visual_stimuli_0_0" x="1707.0" y="643.0" width="118.0" height="83.0" rx="5" fill="#D9EEF2" stroke="#000000" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="visual_stimuli_mountain1" points="1712.0,715.0 1742.0,683.0 1768.0,715.0" fill="#6E9845" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="visual_stimuli_mountain2" points="1754.0,715.0 1788.0,673.0 1819.0,715.0" fill="#9FC65D" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="visual_stimuli_sun" cx="1769.0" cy="666.0" rx="8.0" ry="8.0" fill="#FED966" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="visual_stimuli_label" x="1752.0" y="784.0" font-family="Liberation Serif" font-size="34" font-weight="700" font-style="normal" fill="#737373" text-anchor="middle" dominant-baseline="middle">
+<tspan x="1752.0" dy="0">Visual Stimuli</tspan>
+</text>
+<line id="legend_link_0" x1="1348" y1="685" x2="1425" y2="677" stroke="#BDBDBD" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="legend_link_1" x1="1372" y1="742" x2="1425" y2="677" stroke="#BDBDBD" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="legend_link_2" x1="1348" y1="685" x2="1372" y2="742" stroke="#BDBDBD" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="legend_link_3" x1="1348" y1="685" x2="1422" y2="765" stroke="#BDBDBD" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="legend_link_4" x1="1372" y1="742" x2="1422" y2="765" stroke="#BDBDBD" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="legend_link_5" x1="1425" y1="677" x2="1422" y2="765" stroke="#BDBDBD" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="legend_node_0" cx="1348" cy="685" rx="14" ry="14" fill="#A9D18E" stroke="#172B50" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="legend_node_1" cx="1372" cy="742" rx="14" ry="14" fill="#A9D18E" stroke="#172B50" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="legend_node_2" cx="1425" cy="677" rx="14" ry="14" fill="#FED966" stroke="#172B50" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="legend_node_3" cx="1422" cy="765" rx="14" ry="14" fill="#F77A24" stroke="#172B50" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="legend_visual" x="1329" y="683.0" font-family="Liberation Serif" font-size="28" font-weight="400" font-style="normal" fill="#000000" text-anchor="end" dominant-baseline="middle">
+<tspan x="1329" dy="0">Visual stimuli</tspan>
+</text>
+<text id="legend_labels" x="1329" y="742.0" font-family="Liberation Serif" font-size="28" font-weight="400" font-style="normal" fill="#000000" text-anchor="end" dominant-baseline="middle">
+<tspan x="1329" dy="0">Image labels</tspan>
+</text>
+<text id="legend_captions" x="1329" y="801.0" font-family="Liberation Serif" font-size="28" font-weight="400" font-style="normal" fill="#000000" text-anchor="end" dominant-baseline="middle">
+<tspan x="1329" dy="0">Image captions</tspan>
+</text>
+<ellipse id="test_subject_hair" cx="151" cy="1010.6" rx="33.75" ry="36.45" fill="#8A788C" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="test_subject_head" cx="151" cy="1018.7" rx="25.650000000000002" ry="29.700000000000003" fill="#F2B89C" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="test_subject_body" points="114.55,1078.1 126.7,1049.75 151,1043.0 175.3,1049.75 187.45,1078.1" fill="#5CB5DB" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="test_subject_eye_l" cx="141.55" cy="1016" rx="2.43" ry="2.9700000000000006" fill="#000000" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="test_subject_eye_r" cx="160.45" cy="1016" rx="2.43" ry="2.9700000000000006" fill="#000000" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="test_subject_smile" x1="141.55" y1="1029.5" x2="160.45" y2="1029.5" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="test_subject_label" x="220.0" y="1174.0" font-family="Liberation Serif" font-size="39" font-weight="400" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle">
+<tspan x="220.0" dy="0">Test Unseen Subject</tspan>
+</text>
+<rect id="test_fmri_back" x="224.9" y="979.74" width="91.83999999999999" height="81.17999999999999" rx="4" fill="#C0B4BD" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="test_fmri_screen" x="229" y="974" width="91.83999999999999" height="81.17999999999999" rx="5" fill="#EAF4F6" stroke="#000000" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="test_fmri_inner" x="237.2" y="982.2" width="74.61999999999999" height="57.4" rx="2" fill="#FFFFFF" stroke="#062A3A" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="test_fmri_brain" cx="274.1" cy="1010.9" rx="22.139999999999997" ry="20.5" fill="#F5B39C" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="test_fmri_brain_v" x1="274.1" y1="992.04" x2="274.1" y2="1028.94" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="test_fmri_brain_h1" x1="256.88" y1="1005.16" x2="266.72" y2="1011.72" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="test_fmri_brain_h2" x1="282.3" y1="1005.98" x2="292.96" y2="1000.24" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="test_fmri_brain_h3" x1="258.52" y1="1019.1" x2="268.36" y2="1015.0" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="test_fmri_brain_h4" x1="282.3" y1="1016.64" x2="292.96" y2="1024.02" stroke="#000000" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="test_fmri_stand" x="261.8" y="1056.0" width="25.419999999999998" height="9.84" rx="1" fill="#91868E" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="test_fmri_wave1" x1="320.84" y1="1013.36" x2="330.68" y2="1013.36" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="test_fmri_wave2" x1="330.68" y1="1013.36" x2="335.6" y2="996.96" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="test_fmri_wave3" x1="335.6" y1="996.96" x2="341.34" y2="1028.12" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="test_fmri_wave4" x1="341.34" y1="1028.12" x2="347.9" y2="1013.36" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="test_fmri_wave5" x1="347.9" y1="1013.36" x2="355.28" y2="1013.36" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="test_fmri_label" x="292.0" y="1102.0" font-family="Liberation Serif" font-size="30" font-weight="700" font-style="normal" fill="#737373" text-anchor="middle" dominant-baseline="middle">
+<tspan x="292.0" dy="0">fMRI</tspan>
+</text>
+<polygon id="infer_arrow_1" points="337,1037.36 397,1037.36 397,1029.0 425,1048 397,1067.0 397,1058.64 337,1058.64" fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="vit_infer" points="440,964 580,1001 580,1106 440,1144" fill="#E1E9EC" stroke="#062A3A" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="vit_infer_label" x="511.0" y="1047.5" font-family="Liberation Serif" font-size="35" font-weight="700" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle">
+<tspan x="511.0" dy="0">ViT</tspan>
+</text>
+<text id="vit_snow" x="469.0" y="981.0" font-family="DejaVu Sans" font-size="31" font-weight="400" font-style="normal" fill="#58B6C4" text-anchor="middle" dominant-baseline="middle">
+<tspan x="469.0" dy="0">❄</tspan>
+</text>
+<text id="infer_fi_base" x="608" y="976.6" font-family="Latin Modern Math" font-size="40" font-weight="400" font-style="italic" fill="#000000" text-anchor="start" dominant-baseline="middle">
+<tspan x="608" dy="0">ℱ</tspan>
+</text>
+<text id="infer_fi_sub" x="631.088" y="983.8000000000001" font-family="Liberation Serif" font-size="24.0" font-weight="400" font-style="italic" fill="#000000" text-anchor="start" dominant-baseline="middle">
+<tspan x="631.088" dy="0">i</tspan>
+</text>
+<text id="infer_fi_suffix" x="659.2" y="976.6" font-family="Latin Modern Math" font-size="40" font-weight="400" font-style="italic" fill="#000000" text-anchor="start" dominant-baseline="middle">
+<tspan x="659.2" dy="0">(·)</tspan>
+</text>
+<polygon id="infer_arrow_2" points="596,1037.36 676,1037.36 676,1029.0 704,1048 676,1067.0 676,1058.64 596,1058.64" fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="infer_projector_shadow" x="724" y="1011" width="240" height="104" rx="16" fill="#E4D9A9" stroke="none" opacity="0.45"/>
+<rect id="infer_projector" x="718" y="1004" width="240" height="104" rx="16" fill="#FBEABE" stroke="#062A3A" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="infer_projector_label" x="838.0" y="1040.035" font-family="Liberation Serif" font-size="31" font-weight="700" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle">
+<tspan x="838.0" dy="0">Vision</tspan>
+<tspan x="838.0" dy="31.93">Projector</tspan>
+</text>
+<text id="infer_ps_base" x="790" y="945.6" font-family="Latin Modern Math" font-size="40" font-weight="400" font-style="italic" fill="#000000" text-anchor="start" dominant-baseline="middle">
+<tspan x="790" dy="0">P</tspan>
+</text>
+<text id="infer_ps_sub" x="813.088" y="952.8000000000001" font-family="Liberation Serif" font-size="24.0" font-weight="400" font-style="italic" fill="#000000" text-anchor="start" dominant-baseline="middle">
+<tspan x="813.088" dy="0">s</tspan>
+</text>
+<text id="infer_ps_suffix" x="841.2" y="945.6" font-family="Latin Modern Math" font-size="40" font-weight="400" font-style="italic" fill="#000000" text-anchor="start" dominant-baseline="middle">
+<tspan x="841.2" dy="0">(·)</tspan>
+</text>
+<text id="projector_snow" x="919.0" y="982.0" font-family="DejaVu Sans" font-size="31" font-weight="400" font-style="normal" fill="#58B6C4" text-anchor="middle" dominant-baseline="middle">
+<tspan x="919.0" dy="0">❄</tspan>
+</text>
+<polygon id="infer_arrow_3" points="970,1037.36 1040,1037.36 1040,1029.0 1068,1048 1040,1067.0 1040,1058.64 970,1058.64" fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="infer_prior" x="1075" y="1004" width="215" height="70" rx="12" fill="#FFF0E8" stroke="#062A3A" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="infer_prior_node_0" cx="1110" cy="1039" rx="18" ry="18" fill="#FED966" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="infer_prior_node_1" cx="1180" cy="1039" rx="18" ry="18" fill="#F6B38B" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="infer_prior_node_2" cx="1250" cy="1039" rx="18" ry="18" fill="#F77A24" stroke="#172B50" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="infer_prior_link_1" points="1129,1033.96 1142,1033.96 1142,1030.0 1160,1039 1142,1048.0 1142,1044.04 1129,1044.04" fill="#F4A37E" stroke="none"/>
+<polygon id="infer_prior_link_2" points="1199,1033.96 1212,1033.96 1212,1030.0 1230,1039 1212,1048.0 1212,1044.04 1199,1044.04" fill="#F77A24" stroke="none"/>
+<text id="prior_snow" x="1279.0" y="990.0" font-family="DejaVu Sans" font-size="31" font-weight="400" font-style="normal" fill="#58B6C4" text-anchor="middle" dominant-baseline="middle">
+<tspan x="1279.0" dy="0">❄</tspan>
+</text>
+<text id="infer_prior_label" x="1189.0" y="1106.0" font-family="Liberation Serif" font-size="34" font-weight="700" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle">
+<tspan x="1189.0" dy="0">Diffusion Prior</tspan>
+</text>
+<polygon id="infer_arrow_4" points="1310,1037.36 1377,1037.36 1377,1029.0 1405,1048 1377,1067.0 1377,1058.64 1310,1058.64" fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="sdxl" points="1424,1000 1552,963 1552,1143 1424,1107" fill="#FAE7D9" stroke="#062A3A" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="sdxl_label" x="1488.0" y="1050.0" font-family="Liberation Serif" font-size="31" font-weight="700" font-style="normal" fill="#000000" text-anchor="middle" dominant-baseline="middle">
+<tspan x="1488.0" dy="0">SDXL</tspan>
+</text>
+<text id="sdxl_snow" x="1514.0" y="980.0" font-family="DejaVu Sans" font-size="31" font-weight="400" font-style="normal" fill="#58B6C4" text-anchor="middle" dominant-baseline="middle">
+<tspan x="1514.0" dy="0">❄</tspan>
+</text>
+<polygon id="infer_arrow_5" points="1572,1037.36 1636,1037.36 1636,1029.0 1664,1048 1636,1067.0 1636,1058.64 1572,1058.64" fill="#FFFFFF" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="reconstructed_label" x="1598" y="916.49" font-family="Liberation Serif" font-size="34" font-weight="400" font-style="normal" fill="#000000" text-anchor="start" dominant-baseline="middle">
+<tspan x="1598" dy="0">Reconstructed</tspan>
+<tspan x="1598" dy="35.02">Images</tspan>
+</text>
+<rect id="reconstructed_images_18_-22" x="1698.9" y="980.9" width="123.9" height="87.15" rx="5" fill="#FFE0B2" stroke="#000000" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="reconstructed_images_8_-10" x="1688.4" y="993.5" width="123.9" height="87.15" rx="5" fill="#75C7DB" stroke="#000000" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="reconstructed_images_0_0" x="1680.0" y="1004.0" width="123.9" height="87.15" rx="5" fill="#D9EEF2" stroke="#000000" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="reconstructed_images_dog_head" cx="1741.95" cy="1043.9" rx="26.25" ry="25.200000000000003" fill="#F2B84B" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="reconstructed_images_dog_l" points="1722.0,1028.15 1710.45,1021.85 1713.6,1057.55 1727.25,1052.3" fill="#E2A23F" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="reconstructed_images_dog_r" points="1761.9,1028.15 1773.45,1021.85 1770.3,1057.55 1756.65,1052.3" fill="#E2A23F" stroke="#000000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<ellipse id="reconstructed_images_dog_nose" cx="1741.95" cy="1049.15" rx="4.2" ry="5.25" fill="#000000" stroke="#000000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>
