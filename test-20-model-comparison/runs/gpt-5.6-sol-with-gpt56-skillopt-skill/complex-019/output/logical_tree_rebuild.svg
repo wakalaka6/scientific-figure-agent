@@ -1,0 +1,432 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1908" height="1099" viewBox="0 0 1908 1099">
+<defs><linearGradient id="grad283" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#2A9B93"/><stop offset="100%" stop-color="#72E0D7"/></linearGradient><linearGradient id="grad284" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#72E0D7"/><stop offset="100%" stop-color="#72E0D7"/></linearGradient></defs>
+<rect x="0" y="0" width="1908" height="1099" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1" opacity="1.0"><title>canvas</title></rect>
+<rect x="0" y="16" width="1045" height="690" rx="0" fill="#F4FAFA" stroke="#62D8CF" stroke-width="4" opacity="1.0"><title>logical generation outer</title></rect>
+<rect x="0" y="718" width="1047" height="381" rx="0" fill="#F6FBF0" stroke="#258E84" stroke-width="4" opacity="1.0"><title>post processing panel</title></rect>
+<rect x="1061" y="17" width="847" height="1082" rx="0" fill="#FFF5EA" stroke="#C4560B" stroke-width="4" opacity="1.0"><title>LLM outer panel</title></rect>
+<rect x="30" y="67" width="979" height="622" rx="17" fill="#F3F8F8" stroke="#8D9995" stroke-width="3" opacity="1.0"><title>logical tree inner panel</title></rect>
+<rect x="1087" y="70" width="224" height="195" rx="17" fill="#FFF0E2" stroke="#F7AB76" stroke-width="3" opacity="1.0"><title>leaf node list card</title></rect>
+<rect x="1527" y="70" width="341" height="195" rx="17" fill="#DCE6F6" stroke="#9EA4A9" stroke-width="3" opacity="1.0"><title>diversity card</title></rect>
+<rect x="1087" y="281" width="721" height="169" rx="16" fill="#F1F1F1" stroke="#D0D0D0" stroke-width="3" opacity="1.0"><title>scenario card</title></rect>
+<rect x="1087" y="463" width="483" height="197" rx="15" fill="#E3F2D9" stroke="#9FD486" stroke-width="3" opacity="1.0"><title>inode sequence card</title></rect>
+<rect x="1087" y="681" width="810" height="396" rx="15" fill="#F2F2F2" stroke="#B8B8B8" stroke-width="3" opacity="1.0"><title>natural language card</title></rect>
+<polygon points="1018,171.2 1061.4,171.2 1061.4,160 1088,180.0 1061.4,200 1061.4,188.8 1018,188.8" fill="#F7AB76" stroke="#F7AB76" stroke-width="1" opacity="1.0"><title>leaf flow arrow</title></polygon>
+<polygon points="1018,551.2 1061.4,551.2 1061.4,540 1088,560.0 1061.4,580 1061.4,568.8 1018,568.8" fill="#9FD486" stroke="#9FD486" stroke-width="1" opacity="1.0"><title>inode flow arrow</title></polygon>
+<polygon points="1079,857.2 1039.94,857.2 1039.94,846 1016,866.0 1039.94,886 1039.94,874.8 1079,874.8" fill="#2256A5" stroke="#2256A5" stroke-width="1" opacity="1.0"><title>return flow arrow</title></polygon>
+<text x="530.0" y="24" fill="#050505" font-family="Liberation Sans" font-size="35" font-weight="700" font-style="italic" text-anchor="middle" dominant-baseline="text-before-edge"><title>left title</title><tspan x="530.0" dy="0">Logical Tree Generation</tspan></text>
+<text x="1490.0" y="24" fill="#050505" font-family="Liberation Sans" font-size="35" font-weight="700" font-style="italic" text-anchor="middle" dominant-baseline="text-before-edge"><title>right title</title><tspan x="1490.0" dy="0">Instantiation via LLM</tspan></text>
+<rect x="50" y="119" width="291" height="334" rx="0" fill="#F7FCFB" stroke="#21988F" stroke-width="3" opacity="1.0"><title>logical rules card</title></rect>
+<ellipse cx="57.85" cy="128.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="76.85" cy="128.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="95.85" cy="128.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="114.85" cy="128.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="133.85" cy="128.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="152.85" cy="128.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="171.85" cy="128.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="190.85" cy="128.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="209.85" cy="128.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="228.85" cy="128.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="247.85" cy="128.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="266.85" cy="128.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="285.85" cy="128.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="304.85" cy="128.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="63.85" cy="146.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="82.85" cy="146.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="101.85" cy="146.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="120.85" cy="146.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="139.85" cy="146.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="158.85" cy="146.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="177.85" cy="146.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="196.85" cy="146.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="215.85" cy="146.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="234.85" cy="146.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="253.85" cy="146.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="272.85" cy="146.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="291.85" cy="146.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="310.85" cy="146.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="57.85" cy="164.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="76.85" cy="164.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="95.85" cy="164.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="114.85" cy="164.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="133.85" cy="164.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="152.85" cy="164.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="171.85" cy="164.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="190.85" cy="164.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="209.85" cy="164.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="228.85" cy="164.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="247.85" cy="164.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="266.85" cy="164.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="285.85" cy="164.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="304.85" cy="164.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="63.85" cy="182.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="82.85" cy="182.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="101.85" cy="182.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="120.85" cy="182.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="139.85" cy="182.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="158.85" cy="182.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="177.85" cy="182.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="196.85" cy="182.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="215.85" cy="182.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="234.85" cy="182.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="253.85" cy="182.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="272.85" cy="182.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="291.85" cy="182.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="310.85" cy="182.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="57.85" cy="200.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="76.85" cy="200.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="95.85" cy="200.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="114.85" cy="200.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="133.85" cy="200.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="152.85" cy="200.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="171.85" cy="200.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="190.85" cy="200.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="209.85" cy="200.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="228.85" cy="200.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="247.85" cy="200.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="266.85" cy="200.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="285.85" cy="200.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="304.85" cy="200.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="63.85" cy="218.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="82.85" cy="218.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="101.85" cy="218.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="120.85" cy="218.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="139.85" cy="218.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="158.85" cy="218.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="177.85" cy="218.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="196.85" cy="218.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="215.85" cy="218.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="234.85" cy="218.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="253.85" cy="218.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="272.85" cy="218.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="291.85" cy="218.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="310.85" cy="218.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="57.85" cy="236.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="76.85" cy="236.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="95.85" cy="236.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="114.85" cy="236.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="133.85" cy="236.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="152.85" cy="236.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="171.85" cy="236.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="190.85" cy="236.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="209.85" cy="236.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="228.85" cy="236.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="247.85" cy="236.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="266.85" cy="236.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="285.85" cy="236.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="304.85" cy="236.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="63.85" cy="254.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="82.85" cy="254.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="101.85" cy="254.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="120.85" cy="254.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="139.85" cy="254.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="158.85" cy="254.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="177.85" cy="254.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="196.85" cy="254.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="215.85" cy="254.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="234.85" cy="254.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="253.85" cy="254.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="272.85" cy="254.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="291.85" cy="254.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="310.85" cy="254.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="57.85" cy="272.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="76.85" cy="272.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="95.85" cy="272.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="114.85" cy="272.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="133.85" cy="272.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="152.85" cy="272.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="171.85" cy="272.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="190.85" cy="272.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="209.85" cy="272.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="228.85" cy="272.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="247.85" cy="272.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="266.85" cy="272.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="285.85" cy="272.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="304.85" cy="272.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="63.85" cy="290.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="82.85" cy="290.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="101.85" cy="290.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="120.85" cy="290.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="139.85" cy="290.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="158.85" cy="290.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="177.85" cy="290.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="196.85" cy="290.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="215.85" cy="290.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="234.85" cy="290.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="253.85" cy="290.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="272.85" cy="290.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="291.85" cy="290.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="310.85" cy="290.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="57.85" cy="308.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="76.85" cy="308.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="95.85" cy="308.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="114.85" cy="308.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="133.85" cy="308.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="152.85" cy="308.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="171.85" cy="308.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="190.85" cy="308.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="209.85" cy="308.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="228.85" cy="308.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="247.85" cy="308.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="266.85" cy="308.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="285.85" cy="308.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="304.85" cy="308.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="63.85" cy="326.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="82.85" cy="326.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="101.85" cy="326.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="120.85" cy="326.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="139.85" cy="326.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="158.85" cy="326.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="177.85" cy="326.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="196.85" cy="326.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="215.85" cy="326.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="234.85" cy="326.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="253.85" cy="326.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="272.85" cy="326.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="291.85" cy="326.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="310.85" cy="326.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="57.85" cy="344.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="76.85" cy="344.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="95.85" cy="344.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="114.85" cy="344.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="133.85" cy="344.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="152.85" cy="344.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="171.85" cy="344.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="190.85" cy="344.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="209.85" cy="344.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="228.85" cy="344.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="247.85" cy="344.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="266.85" cy="344.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="285.85" cy="344.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="304.85" cy="344.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="63.85" cy="362.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="82.85" cy="362.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="101.85" cy="362.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="120.85" cy="362.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="139.85" cy="362.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="158.85" cy="362.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="177.85" cy="362.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="196.85" cy="362.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="215.85" cy="362.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="234.85" cy="362.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="253.85" cy="362.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="272.85" cy="362.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="291.85" cy="362.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="310.85" cy="362.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="57.85" cy="380.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="76.85" cy="380.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="95.85" cy="380.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="114.85" cy="380.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="133.85" cy="380.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="152.85" cy="380.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="171.85" cy="380.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="190.85" cy="380.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="209.85" cy="380.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="228.85" cy="380.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="247.85" cy="380.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="266.85" cy="380.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="285.85" cy="380.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="304.85" cy="380.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="63.85" cy="398.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="82.85" cy="398.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="101.85" cy="398.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="120.85" cy="398.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="139.85" cy="398.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="158.85" cy="398.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="177.85" cy="398.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="196.85" cy="398.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="215.85" cy="398.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="234.85" cy="398.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="253.85" cy="398.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="272.85" cy="398.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="291.85" cy="398.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="310.85" cy="398.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="57.85" cy="416.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="76.85" cy="416.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="95.85" cy="416.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="114.85" cy="416.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="133.85" cy="416.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="152.85" cy="416.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="171.85" cy="416.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="190.85" cy="416.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="209.85" cy="416.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="228.85" cy="416.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="247.85" cy="416.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="266.85" cy="416.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="285.85" cy="416.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<ellipse cx="304.85" cy="416.85" rx="0.85" ry="0.85" fill="#C9EDE9" stroke="none" stroke-width="1" opacity="0.75"><title>rule texture dot</title></ellipse>
+<polyline points="50,186 341,186" fill="none" stroke="#21988F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"><title>rules header separator</title></polyline>
+<text x="194.5" y="145.325" fill="#050505" font-family="Liberation Sans" font-size="29" font-weight="700" font-style="normal" text-anchor="middle" dominant-baseline="text-before-edge"><title></title><tspan x="194.5" dy="0">Logical Rules</tspan></text>
+<rect x="71" y="201" width="152" height="129" rx="0" fill="#FFFFFF" stroke="#62D8CF" stroke-width="4" opacity="1.0"><title>syllogism card</title></rect>
+<polyline points="71,240 223,240" fill="none" stroke="#62D8CF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"><title>syllogism separator</title></polyline>
+<text x="147.5" y="209.85" fill="#050505" font-family="Liberation Sans" font-size="22" font-weight="700" font-style="normal" text-anchor="middle" dominant-baseline="text-before-edge"><title></title><tspan x="147.5" dy="0">Syllogism</tspan></text>
+<text x="106.0" y="273.9" fill="#050505" font-family="Liberation Sans" font-size="28" font-weight="400" font-style="normal" text-anchor="middle" dominant-baseline="text-before-edge"><title></title><tspan x="106.0" dy="0">…</tspan></text>
+<rect x="119" y="256" width="146" height="127" rx="0" fill="#FFFFFF" stroke="#62D8CF" stroke-width="4" opacity="1.0"><title>instantiation card</title></rect>
+<polyline points="119,296 265,296" fill="none" stroke="#62D8CF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"><title>instantiation separator</title></polyline>
+<text x="191.5" y="264.5" fill="#050505" font-family="Liberation Sans" font-size="20" font-weight="700" font-style="normal" text-anchor="middle" dominant-baseline="text-before-edge"><title></title><tspan x="191.5" dy="0">Instantiation</tspan></text>
+<text x="145.0" y="327.9" fill="#050505" font-family="Liberation Sans" font-size="28" font-weight="400" font-style="normal" text-anchor="middle" dominant-baseline="text-before-edge"><title></title><tspan x="145.0" dy="0">…</tspan></text>
+<rect x="150" y="311" width="175" height="132" rx="0" fill="#FFFFFF" stroke="#62D8CF" stroke-width="4" opacity="1.0"><title>modus ponens card</title></rect>
+<polyline points="150,351 325,351" fill="none" stroke="#62D8CF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"><title>modus separator</title></polyline>
+<text x="239.0" y="318.925" fill="#050505" font-family="Liberation Sans" font-size="21" font-weight="700" font-style="normal" text-anchor="middle" dominant-baseline="text-before-edge"><title></title><tspan x="239.0" dy="0">Modus Ponens</tspan></text>
+<text x="237.5" y="363" fill="#050505" font-family="Latin Modern Math" font-size="19" font-weight="400" font-style="italic" text-anchor="middle" dominant-baseline="text-before-edge"><title></title><tspan x="237.5" dy="0">ℱ    ℱ → 𝒢</tspan></text>
+<polyline points="174,394 292,394" fill="none" stroke="#050505" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"><title>fraction bar</title></polyline>
+<text x="271.0" y="401" fill="#050505" font-family="Latin Modern Math" font-size="20" font-weight="400" font-style="italic" text-anchor="middle" dominant-baseline="text-before-edge"><title></title><tspan x="271.0" dy="0">𝒢</tspan></text>
+<polygon points="316.0,247.0 351.0,247.0 366.0,261.0 366.0,309.0 316.0,309.0" fill="#FFFFFF" stroke="#050505" stroke-width="2.3" opacity="1.0"><title>document page</title></polygon>
+<polygon points="351.0,247.0 351.0,261.0 366.0,261.0" fill="#FFFFFF" stroke="#050505" stroke-width="2.0" opacity="1.0"><title>document fold</title></polygon>
+<polyline points="329.0,269.0 357.0,269.0" fill="none" stroke="#050505" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"><title>document rule</title></polyline>
+<polyline points="329.0,278.0 360.0,278.0" fill="none" stroke="#050505" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"><title>document rule</title></polyline>
+<polyline points="329.0,287.0 354.0,287.0" fill="none" stroke="#050505" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"><title>document rule</title></polyline>
+<polyline points="329.0,297.0 360.0,297.0" fill="none" stroke="#050505" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"><title>document rule</title></polyline>
+<ellipse cx="323.0" cy="284.0" rx="21.0" ry="21.0" fill="#FFFFFF" stroke="#050505" stroke-width="2.5" opacity="1.0"><title>magnifier lens</title></ellipse>
+<ellipse cx="323.0" cy="282.0" rx="13.0" ry="11.0" fill="none" stroke="#050505" stroke-width="1.7" opacity="1.0"><title>magnifier inner</title></ellipse>
+<polyline points="333.0,297.0 346.0,311.0" fill="none" stroke="#050505" stroke-width="5.0" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"><title>magnifier handle</title></polyline>
+<polyline points="315.0,278.0 331.0,278.0" fill="none" stroke="#050505" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"><title>magnifier text</title></polyline>
+<polyline points="315.0,284.0 329.0,284.0" fill="none" stroke="#050505" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"><title>magnifier text</title></polyline>
+<rect x="50" y="491" width="311" height="93" rx="0" fill="#D6F3F1" stroke="none" stroke-width="1" opacity="1.0"><title>search panel</title></rect>
+<text x="205.0" y="503.25" fill="#050505" font-family="Liberation Sans" font-size="29" font-weight="700" font-style="normal" text-anchor="middle" dominant-baseline="text-before-edge"><title></title><tspan x="205.0" dy="0">Search for</tspan><tspan x="205.0" dy="36.25">Applicable Rules</tspan></text>
+<rect x="382" y="101" width="14" height="565" rx="0" fill="url(#grad283)" stroke="none" stroke-width="1" opacity="1.0"><title>deduction arrow shaft</title></rect>
+<polygon points="374,103 389,89 404,103" fill="url(#grad284)" stroke="none" stroke-width="1" opacity="1.0"><title>deduction arrow head</title></polygon>
+<text x="379" y="544" fill="#CE0000" font-family="Liberation Sans" font-size="22" font-weight="700" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title>backward deduction</title><tspan x="379" dy="0">Backward</tspan><tspan x="379" dy="25.959999999999997">Deduction</tspan></text>
+<rect x="475" y="107" width="203" height="152" rx="0" fill="none" stroke="#F0A9B8" stroke-width="4" opacity="1.0" stroke-dasharray="13 11"><title>instantiation top group</title></rect>
+<rect x="441" y="258" width="237" height="264" rx="0" fill="none" stroke="#F0A9B8" stroke-width="4" opacity="1.0" stroke-dasharray="13 11"><title>instantiation lower group</title></rect>
+<rect x="710" y="159" width="245" height="287" rx="0" fill="none" stroke="#F0A9B8" stroke-width="4" opacity="1.0" stroke-dasharray="13 11"><title>syllogism group</title></rect>
+<rect x="641" y="366" width="242" height="246" rx="0" fill="none" stroke="#F0A9B8" stroke-width="4" opacity="1.0" stroke-dasharray="13 11"><title>modus ponens group</title></rect>
+<text x="580.5" y="77" fill="#050505" font-family="Liberation Sans" font-size="28" font-weight="700" font-style="normal" text-anchor="middle" dominant-baseline="text-before-edge"><title></title><tspan x="580.5" dy="0">4. Instantiation</tspan></text>
+<text x="856.0" y="128" fill="#050505" font-family="Liberation Sans" font-size="28" font-weight="700" font-style="normal" text-anchor="middle" dominant-baseline="text-before-edge"><title></title><tspan x="856.0" dy="0">2. Syllogism</tspan></text>
+<text x="944.0" y="511" fill="#050505" font-family="Liberation Sans" font-size="27" font-weight="700" font-style="normal" text-anchor="middle" dominant-baseline="text-before-edge"><title></title><tspan x="944.0" dy="0">1. Modus</tspan><tspan x="944.0" dy="33.75">Ponens</tspan></text>
+<polyline points="568,170 615,276" fill="none" stroke="#A9A9A9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"><title>logical inference edge</title></polyline>
+<polyline points="615,317 689,466" fill="none" stroke="#A9A9A9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"><title>logical inference edge</title></polyline>
+<polyline points="536,408 689,466" fill="none" stroke="#A9A9A9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"><title>logical inference edge</title></polyline>
+<polyline points="770,217 815,384" fill="none" stroke="#A9A9A9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"><title>logical inference edge</title></polyline>
+<polyline points="881,311 815,384" fill="none" stroke="#A9A9A9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"><title>logical inference edge</title></polyline>
+<polyline points="815,425 765,555" fill="none" stroke="#A9A9A9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"><title>logical inference edge</title></polyline>
+<polyline points="690,515 765,555" fill="none" stroke="#A9A9A9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"><title>logical inference edge</title></polyline>
+<rect x="495" y="129" width="148" height="42" rx="0" fill="#FFF9F4" stroke="#F7AB76" stroke-width="4" opacity="1.0"><title>formula node ∀x (¬R(x))</title></rect>
+<text x="569.0" y="137.275" fill="#050505" font-family="Latin Modern Math" font-size="23" font-weight="700" font-style="italic" text-anchor="middle" dominant-baseline="text-before-edge"><title>formula ∀x (¬R(x))</title><tspan x="569.0" dy="0">∀x (¬R(x))</tspan></text>
+<rect x="575" y="275" width="84" height="42" rx="0" fill="#F8FFF8" stroke="#9FD486" stroke-width="4" opacity="1.0"><title>formula node ¬R(a)</title></rect>
+<text x="617.0" y="282.7" fill="#050505" font-family="Latin Modern Math" font-size="24" font-weight="700" font-style="italic" text-anchor="middle" dominant-baseline="text-before-edge"><title>formula ¬R(a)</title><tspan x="617.0" dy="0">¬R(a)</tspan></text>
+<rect x="465" y="367" width="140" height="42" rx="0" fill="#FFF9F4" stroke="#F7AB76" stroke-width="4" opacity="1.0"><title>formula node P ∨ (R(a))</title></rect>
+<text x="535.0" y="375.275" fill="#050505" font-family="Latin Modern Math" font-size="23" font-weight="700" font-style="italic" text-anchor="middle" dominant-baseline="text-before-edge"><title>formula P ∨ (R(a))</title><tspan x="535.0" dy="0">P ∨ (R(a))</tspan></text>
+<rect x="663" y="466" width="48" height="50" rx="0" fill="#F8FFF8" stroke="#9FD486" stroke-width="4" opacity="1.0"><title>formula node P</title></rect>
+<text x="687.0" y="477.125" fill="#050505" font-family="Latin Modern Math" font-size="25" font-weight="700" font-style="italic" text-anchor="middle" dominant-baseline="text-before-edge"><title>formula P</title><tspan x="687.0" dy="0">P</tspan></text>
+<rect x="721" y="176" width="99" height="42" rx="0" fill="#FFF9F4" stroke="#F7AB76" stroke-width="4" opacity="1.0"><title>formula node P → T</title></rect>
+<text x="770.5" y="183.7" fill="#050505" font-family="Latin Modern Math" font-size="24" font-weight="700" font-style="italic" text-anchor="middle" dominant-baseline="text-before-edge"><title>formula P → T</title><tspan x="770.5" dy="0">P → T</tspan></text>
+<rect x="835" y="269" width="90" height="44" rx="0" fill="#FFF9F4" stroke="#F7AB76" stroke-width="4" opacity="1.0"><title>formula node T → Q</title></rect>
+<text x="880.0" y="277.7" fill="#050505" font-family="Latin Modern Math" font-size="24" font-weight="700" font-style="italic" text-anchor="middle" dominant-baseline="text-before-edge"><title>formula T → Q</title><tspan x="880.0" dy="0">T → Q</tspan></text>
+<rect x="759" y="383" width="110" height="42" rx="0" fill="#F8FFF8" stroke="#9FD486" stroke-width="4" opacity="1.0"><title>formula node P → Q</title></rect>
+<text x="814.0" y="390.7" fill="#050505" font-family="Latin Modern Math" font-size="24" font-weight="700" font-style="italic" text-anchor="middle" dominant-baseline="text-before-edge"><title>formula P → Q</title><tspan x="814.0" dy="0">P → Q</tspan></text>
+<rect x="739" y="555" width="52" height="48" rx="0" fill="#F8FFF8" stroke="#00A94F" stroke-width="4" opacity="1.0"><title>formula node Q</title></rect>
+<text x="765.0" y="565.125" fill="#050505" font-family="Latin Modern Math" font-size="25" font-weight="700" font-style="italic" text-anchor="middle" dominant-baseline="text-before-edge"><title>formula Q</title><tspan x="765.0" dy="0">Q</tspan></text>
+<rect x="442" y="642" width="53" height="26" rx="0" fill="#FFFFFF" stroke="#00A94F" stroke-width="4" opacity="1.0"><title>root node legend swatch</title></rect>
+<text x="505" y="641.275" fill="#050505" font-family="Liberation Sans" font-size="23" font-weight="700" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="505" dy="0">root node</tspan></text>
+<rect x="640" y="642" width="53" height="26" rx="0" fill="#FFFFFF" stroke="#9FD486" stroke-width="4" opacity="1.0"><title>inode legend swatch</title></rect>
+<text x="703" y="641.275" fill="#050505" font-family="Liberation Sans" font-size="23" font-weight="700" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="703" dy="0">inode</tspan></text>
+<rect x="796" y="642" width="53" height="26" rx="0" fill="#FFFFFF" stroke="#F7AB76" stroke-width="4" opacity="1.0"><title>leaf node legend swatch</title></rect>
+<text x="859" y="641.275" fill="#050505" font-family="Liberation Sans" font-size="23" font-weight="700" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="859" dy="0">leaf node</tspan></text>
+<text x="1109" y="83" fill="#050505" font-family="Liberation Sans" font-size="28" font-weight="700" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="1109" dy="0">Leaf Node List</tspan></text>
+<text x="1205.5" y="133" fill="#050505" font-family="Latin Modern Math" font-size="23" font-weight="700" font-style="italic" text-anchor="middle" dominant-baseline="text-before-edge"><title></title><tspan x="1205.5" dy="0">∀x (¬R(x))</tspan></text>
+<text x="1205.5" y="164" fill="#050505" font-family="Latin Modern Math" font-size="23" font-weight="700" font-style="italic" text-anchor="middle" dominant-baseline="text-before-edge"><title></title><tspan x="1205.5" dy="0">P → T</tspan></text>
+<text x="1205.5" y="193" fill="#050505" font-family="Latin Modern Math" font-size="23" font-weight="700" font-style="italic" text-anchor="middle" dominant-baseline="text-before-edge"><title></title><tspan x="1205.5" dy="0">T → Q</tspan></text>
+<text x="1205.5" y="222" fill="#050505" font-family="Latin Modern Math" font-size="23" font-weight="700" font-style="italic" text-anchor="middle" dominant-baseline="text-before-edge"><title></title><tspan x="1205.5" dy="0">P ∨ (R(a))</tspan></text>
+<text x="1548" y="86" fill="#050505" font-family="Liberation Sans" font-size="29" font-weight="700" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="1548" dy="0">Diversity</tspan></text>
+<text x="1548" y="124" fill="#050505" font-family="Liberation Sans" font-size="25" font-weight="400" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="1548" dy="0">randomly select scenarios</tspan><tspan x="1548" dy="30.0">topics   (num=3)</tspan></text>
+<text x="1548" y="190" fill="#D81216" font-family="Liberation Sans" font-size="25" font-weight="700" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="1548" dy="0">•</tspan></text>
+<text x="1575" y="190" fill="#D81216" font-family="Liberation Sans" font-size="25" font-weight="700" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="1575" dy="0">Public Health</tspan></text>
+<text x="1548" y="225" fill="#050505" font-family="Liberation Sans" font-size="25" font-weight="700" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="1548" dy="0">•</tspan></text>
+<text x="1575" y="225" fill="#050505" font-family="Liberation Sans" font-size="25" font-weight="400" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="1575" dy="0">Economics</tspan></text>
+<polygon points="1390.0,159.0 1381.0,169.0 1378.0,185.0 1387.0,180.0 1397.0,166.0" fill="#CDE8F6" stroke="#AFCFE0" stroke-width="1.2" opacity="1.0"><title>top robot left arm</title></polygon>
+<polygon points="1446.0,159.0 1457.0,168.0 1460.0,184.0 1451.0,179.0 1440.0,166.0" fill="#CDE8F6" stroke="#AFCFE0" stroke-width="1.2" opacity="1.0"><title>top robot right arm</title></polygon>
+<ellipse cx="1408.5" cy="186.0" rx="7.5" ry="7.0" fill="#CDE8F6" stroke="#AFCFE0" stroke-width="1.0" opacity="1.0"><title>top robot foot 1</title></ellipse>
+<ellipse cx="1431.5" cy="186.0" rx="7.5" ry="7.0" fill="#CDE8F6" stroke="#AFCFE0" stroke-width="1.0" opacity="1.0"><title>top robot foot 2</title></ellipse>
+<ellipse cx="1420.5" cy="174.5" rx="23.5" ry="18.5" fill="#BFDDED" stroke="#91BACA" stroke-width="1.4" opacity="1.0"><title>top robot body</title></ellipse>
+<ellipse cx="1420.5" cy="174.5" rx="6.5" ry="6.5" fill="#1B477F" stroke="none" stroke-width="1" opacity="1.0"><title>top robot body light</title></ellipse>
+<rect x="1386.0" y="126.0" width="67.0" height="43.0" rx="12.0" fill="#D5EAF4" stroke="#91AEBB" stroke-width="1.6" opacity="1.0"><title>top robot head</title></rect>
+<rect x="1392.0" y="132.0" width="55.0" height="29.0" rx="7.0" fill="#12477D" stroke="#0F3C68" stroke-width="1.2" opacity="1.0"><title>top robot screen</title></rect>
+<ellipse cx="1403.0" cy="146.0" rx="4.0" ry="4.0" fill="#20D7D5" stroke="none" stroke-width="1" opacity="1.0"><title>top robot eye 1</title></ellipse>
+<ellipse cx="1431.0" cy="146.0" rx="4.0" ry="4.0" fill="#20D7D5" stroke="none" stroke-width="1" opacity="1.0"><title>top robot eye 2</title></ellipse>
+<path d="M 1409.0 150.0 C 1415.0 156.0, 1421.0 156.0, 1426.0 150.0" fill="none" stroke="#20D7D5" stroke-width="2.2" stroke-linecap="round" opacity="1.0"><title>top robot smile</title></path>
+<rect x="1433.0" y="114.0" width="40.0" height="34.0" rx="4.0" fill="#66C87B" stroke="#66C87B" stroke-width="1.0" opacity="1.0"><title>top robot data card</title></rect>
+<polyline points="1442.0,124.0 1464.0,124.0" fill="none" stroke="#3E9D5E" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"><title>top robot line 1</title></polyline>
+<polyline points="1442.0,131.0 1462.0,131.0" fill="none" stroke="#3E9D5E" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"><title>top robot line 2</title></polyline>
+<polyline points="1442.0,138.0 1456.0,138.0" fill="none" stroke="#3E9D5E" stroke-width="2.0" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"><title>top robot line 3</title></polyline>
+<polygon points="1437.0,147.0 1444.0,147.0 1440.0,154.0" fill="#66C87B" stroke="#66C87B" stroke-width="1.0" opacity="1.0"><title>top robot tail</title></polygon>
+<polygon points="1310,153.4 1350.92,153.4 1350.92,145 1376,160.0 1350.92,175 1350.92,166.6 1310,166.6" fill="#FFFDF2" stroke="#2256A5" stroke-width="2" opacity="1.0"><title>leaf to robot arrow</title></polygon>
+<polygon points="1527,153.4 1487.32,153.4 1487.32,145 1463,160.0 1487.32,175 1487.32,166.6 1527,166.6" fill="#FFFDF2" stroke="#2256A5" stroke-width="2" opacity="1.0"><title>diversity to robot arrow</title></polygon>
+<polygon points="1410.84,214 1423.16,214 1423.16,255.54 1431,255.54 1417.0,281 1403,255.54 1410.84,255.54" fill="#FFFDF2" stroke="#2256A5" stroke-width="2" opacity="1.0"><title>step one down arrow</title></polygon>
+<text x="1436" y="214" fill="#D81216" font-family="Liberation Sans" font-size="27" font-weight="700" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="1436" dy="0">Step</tspan></text>
+<ellipse cx="1464.0" cy="260.0" rx="14.0" ry="14.0" fill="#FFFFFF" stroke="#D81216" stroke-width="2" opacity="1.0"><title>step one circle</title></ellipse>
+<text x="1464.0" y="248.425" fill="#D81216" font-family="Liberation Sans" font-size="21" font-weight="700" font-style="normal" text-anchor="middle" dominant-baseline="text-before-edge"><title></title><tspan x="1464.0" dy="0">1</tspan></text>
+<text x="1117" y="300" fill="#050505" font-family="Liberation Sans" font-size="28" font-weight="700" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="1117" dy="0">Instantiated Realistic Reasoning Scenarios</tspan></text>
+<text x="1117" y="338" fill="#050505" font-family="Liberation Sans" font-size="21" font-weight="700" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="1117" dy="0">"P":</tspan></text>
+<text x="1195" y="338" fill="#050505" font-family="Liberation Sans" font-size="21" font-weight="400" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="1195" dy="0">"The government initiated a nationwide vaccination campaign.",</tspan></text>
+<text x="1117" y="364" fill="#050505" font-family="Liberation Sans" font-size="21" font-weight="700" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="1117" dy="0">"Q":</tspan></text>
+<text x="1195" y="364" fill="#050505" font-family="Liberation Sans" font-size="21" font-weight="400" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="1195" dy="0">"The spread of the disease was effectively contained.",</tspan></text>
+<text x="1117" y="390" fill="#050505" font-family="Liberation Sans" font-size="21" font-weight="700" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="1117" dy="0">“R(x)”:</tspan></text>
+<text x="1195" y="390" fill="#050505" font-family="Liberation Sans" font-size="21" font-weight="400" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="1195" dy="0">“Region x has achieved full vaccination coverage.”,</tspan></text>
+<text x="1117" y="416" fill="#050505" font-family="Liberation Sans" font-size="21" font-weight="700" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="1117" dy="0">"T":</tspan></text>
+<text x="1195" y="416" fill="#050505" font-family="Liberation Sans" font-size="21" font-weight="400" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="1195" dy="0">"Vaccination rates across regions increased significantly."</tspan></text>
+<text x="1113" y="484" fill="#050505" font-family="Liberation Sans" font-size="28" font-weight="700" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="1113" dy="0">Inode Sequence based on depth</tspan></text>
+<text x="1113" y="530" fill="#050505" font-family="Liberation Sans" font-size="21" font-weight="700" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="1113" dy="0">Step1:</tspan></text>
+<text x="1195" y="529" fill="#050505" font-family="Latin Modern Math" font-size="21" font-weight="700" font-style="italic" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="1195" dy="0">(P → T), (T → Q)  ⊢  (P → Q)</tspan></text>
+<text x="1113" y="560" fill="#050505" font-family="Liberation Sans" font-size="21" font-weight="700" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="1113" dy="0">Step2:</tspan></text>
+<text x="1195" y="559" fill="#050505" font-family="Latin Modern Math" font-size="21" font-weight="700" font-style="italic" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="1195" dy="0">∀x (¬R(x))  ⊢  ¬R(a)</tspan></text>
+<text x="1113" y="590" fill="#050505" font-family="Liberation Sans" font-size="21" font-weight="700" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="1113" dy="0">Step3:</tspan></text>
+<text x="1195" y="589" fill="#050505" font-family="Latin Modern Math" font-size="21" font-weight="700" font-style="italic" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="1195" dy="0">(¬R(a) ∨ P), (¬R(a))  ⊢  P</tspan></text>
+<text x="1113" y="620" fill="#050505" font-family="Liberation Sans" font-size="21" font-weight="700" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="1113" dy="0">Step4:</tspan></text>
+<text x="1195" y="619" fill="#050505" font-family="Latin Modern Math" font-size="21" font-weight="700" font-style="italic" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="1195" dy="0">P, (P → Q)  ⊢  P</tspan></text>
+<polygon points="1570,535.68 1611.54,535.68 1611.54,527 1637,542.5 1611.54,558 1611.54,549.32 1570,549.32" fill="#FFFDF2" stroke="#2256A5" stroke-width="2" opacity="1.0"><title>sequence to robot arrow</title></polygon>
+<polygon points="1667.84,459 1680.16,459 1680.16,488.76 1688,488.76 1674.0,507 1660,488.76 1667.84,488.76" fill="#FFFDF2" stroke="#2256A5" stroke-width="2" opacity="1.0"><title>scenario to lower robot arrow</title></polygon>
+<polygon points="1645.04,542.16 1636.76,551.36 1634.0,566.08 1642.28,561.48 1651.48,548.6" fill="#CDE8F6" stroke="#AFCFE0" stroke-width="1.104" opacity="1.0"><title>lower robot left arm</title></polygon>
+<polygon points="1696.56,542.16 1706.68,550.44 1709.44,565.16 1701.16,560.56 1691.04,548.6" fill="#CDE8F6" stroke="#AFCFE0" stroke-width="1.104" opacity="1.0"><title>lower robot right arm</title></polygon>
+<ellipse cx="1662.0600000000002" cy="567.0" rx="6.9" ry="6.44" fill="#CDE8F6" stroke="#AFCFE0" stroke-width="0.92" opacity="1.0"><title>lower robot foot 1</title></ellipse>
+<ellipse cx="1683.22" cy="567.0" rx="6.9" ry="6.44" fill="#CDE8F6" stroke="#AFCFE0" stroke-width="0.92" opacity="1.0"><title>lower robot foot 2</title></ellipse>
+<ellipse cx="1673.1" cy="556.42" rx="21.62" ry="17.02" fill="#BFDDED" stroke="#91BACA" stroke-width="1.288" opacity="1.0"><title>lower robot body</title></ellipse>
+<ellipse cx="1673.1" cy="556.4200000000001" rx="5.98" ry="5.98" fill="#1B477F" stroke="none" stroke-width="1" opacity="1.0"><title>lower robot body light</title></ellipse>
+<rect x="1641.36" y="511.8" width="61.64" height="39.56" rx="11.040000000000001" fill="#D5EAF4" stroke="#91AEBB" stroke-width="1.4720000000000002" opacity="1.0"><title>lower robot head</title></rect>
+<rect x="1646.88" y="517.32" width="50.6" height="26.68" rx="6.44" fill="#12477D" stroke="#0F3C68" stroke-width="1.104" opacity="1.0"><title>lower robot screen</title></rect>
+<ellipse cx="1657.0" cy="530.1999999999999" rx="3.68" ry="3.68" fill="#20D7D5" stroke="none" stroke-width="1" opacity="1.0"><title>lower robot eye 1</title></ellipse>
+<ellipse cx="1682.76" cy="530.1999999999999" rx="3.68" ry="3.68" fill="#20D7D5" stroke="none" stroke-width="1" opacity="1.0"><title>lower robot eye 2</title></ellipse>
+<path d="M 1662.52 533.88 C 1668.04 539.4, 1673.56 539.4, 1678.16 533.88" fill="none" stroke="#20D7D5" stroke-width="2.0240000000000005" stroke-linecap="round" opacity="1.0"><title>lower robot smile</title></path>
+<rect x="1684.6" y="500.76" width="36.800000000000004" height="31.28" rx="3.68" fill="#66C87B" stroke="#66C87B" stroke-width="0.92" opacity="1.0"><title>lower robot data card</title></rect>
+<polyline points="1692.88,509.96 1713.12,509.96" fill="none" stroke="#3E9D5E" stroke-width="1.84" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"><title>lower robot line 1</title></polyline>
+<polyline points="1692.88,516.4 1711.28,516.4" fill="none" stroke="#3E9D5E" stroke-width="1.84" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"><title>lower robot line 2</title></polyline>
+<polyline points="1692.88,522.84 1705.76,522.84" fill="none" stroke="#3E9D5E" stroke-width="1.84" stroke-linecap="round" stroke-linejoin="round" opacity="1.0"><title>lower robot line 3</title></polyline>
+<polygon points="1688.28,531.12 1694.72,531.12 1691.04,537.56" fill="#66C87B" stroke="#66C87B" stroke-width="0.92" opacity="1.0"><title>lower robot tail</title></polygon>
+<polygon points="1668.12,614 1680.88,614 1680.88,655.54 1689,655.54 1674.5,681 1660,655.54 1668.12,655.54" fill="#FFFDF2" stroke="#2256A5" stroke-width="2" opacity="1.0"><title>step two down arrow</title></polygon>
+<text x="1695" y="610" fill="#D81216" font-family="Liberation Sans" font-size="27" font-weight="700" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="1695" dy="0">Step</tspan></text>
+<ellipse cx="1726.0" cy="659.0" rx="14.0" ry="14.0" fill="#FFFFFF" stroke="#D81216" stroke-width="2" opacity="1.0"><title>step two circle</title></ellipse>
+<text x="1726.0" y="647.425" fill="#D81216" font-family="Liberation Sans" font-size="21" font-weight="700" font-style="normal" text-anchor="middle" dominant-baseline="text-before-edge"><title></title><tspan x="1726.0" dy="0">2</tspan></text>
+<text x="1110" y="695" fill="#050505" font-family="Liberation Sans" font-size="28" font-weight="700" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="1110" dy="0">Natural Language Reasoning Processes</tspan></text>
+<text x="1108" y="735" fill="#050505" font-family="Liberation Sans" font-size="22" font-weight="700" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="1108" dy="0">Step 1:</tspan></text>
+<text x="1192" y="735" fill="#050505" font-family="DejaVu Sans Condensed" font-size="22" font-weight="400" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="1192" dy="0">From rule (∀x ¬R(x)), we deduce that no region has achieved</tspan><tspan x="1192" dy="29.040000000000003">full vaccination coverage. Therefore, City Z has not achieved full</tspan><tspan x="1192" dy="29.040000000000003">vaccination coverage (~R(a)).</tspan></text>
+<text x="1108" y="835" fill="#050505" font-family="Liberation Sans" font-size="22" font-weight="700" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="1108" dy="0">Step 2:</tspan></text>
+<text x="1192" y="835" fill="#050505" font-family="DejaVu Sans Condensed" font-size="22" font-weight="400" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="1192" dy="0">Using rule (P → T) and rule (T → Q), we deduce that if the</tspan><tspan x="1192" dy="29.040000000000003">government initiated a nationwide vaccination campaign (P), then</tspan><tspan x="1192" dy="29.040000000000003">the spread of the disease was effectively contained (Q).</tspan></text>
+<text x="1108" y="935" fill="#050505" font-family="Liberation Sans" font-size="22" font-weight="700" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="1108" dy="0">Step 3:</tspan></text>
+<text x="1192" y="935" fill="#050505" font-family="DejaVu Sans Condensed" font-size="22" font-weight="400" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="1192" dy="0">From rule (P ∨ R(a)) and step1 (~R(a)), we deduce that the</tspan><tspan x="1192" dy="29.040000000000003">government initiated a nationwide vaccination campaign (P).</tspan></text>
+<text x="1108" y="1009" fill="#050505" font-family="Liberation Sans" font-size="22" font-weight="700" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="1108" dy="0">Step 4:</tspan></text>
+<text x="1192" y="1009" fill="#050505" font-family="DejaVu Sans Condensed" font-size="22" font-weight="400" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="1192" dy="0">From step2 (P → Q) and step3 (P), we deduce that the spread</tspan><tspan x="1192" dy="29.040000000000003">of the disease was effectively contained (Q).</tspan></text>
+<text x="524.5" y="735" fill="#050505" font-family="Liberation Sans" font-size="34" font-weight="700" font-style="italic" text-anchor="middle" dominant-baseline="text-before-edge"><title></title><tspan x="524.5" dy="0">Synthetic Example Post-processing</tspan></text>
+<text x="29" y="775" fill="#050505" font-family="Liberation Sans" font-size="29" font-weight="700" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="29" dy="0">Premises:</tspan></text>
+<text x="29" y="813" fill="#050505" font-family="Liberation Sans" font-size="23" font-weight="700" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="29" dy="0">"rule1":</tspan></text>
+<text x="121" y="813" fill="#050505" font-family="Liberation Sans" font-size="23" font-weight="400" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="121" dy="0">"No region has achieved full vaccination coverage."</tspan></text>
+<text x="700" y="813" fill="#050505" font-family="Liberation Sans" font-size="23" font-weight="700" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="700" dy="0">"rule2":</tspan></text>
+<text x="796" y="813" fill="#050505" font-family="Liberation Sans" font-size="23" font-weight="400" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="796" dy="0">"If the</tspan></text>
+<text x="29" y="850" fill="#050505" font-family="Liberation Sans" font-size="23" font-weight="400" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="29" dy="0">government initiated a nationwide vaccination campaign, then vaccination rates across</tspan></text>
+<text x="29" y="893" fill="#050505" font-family="Liberation Sans" font-size="23" font-weight="400" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="29" dy="0">regions increased significantly."</tspan></text>
+<text x="390" y="893" fill="#050505" font-family="Liberation Sans" font-size="23" font-weight="700" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="390" dy="0">"rule3":</tspan></text>
+<text x="480" y="893" fill="#050505" font-family="Liberation Sans" font-size="23" font-weight="400" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="480" dy="0">…,</tspan></text>
+<text x="535" y="893" fill="#050505" font-family="Liberation Sans" font-size="23" font-weight="700" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="535" dy="0">"rule4":</tspan></text>
+<text x="625" y="893" fill="#050505" font-family="Liberation Sans" font-size="23" font-weight="400" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="625" dy="0">…,</tspan></text>
+<text x="29" y="934" fill="#050505" font-family="Liberation Sans" font-size="29" font-weight="700" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="29" dy="0">conclusions:</tspan></text>
+<ellipse cx="34.5" cy="987.5" rx="3.5" ry="3.5" fill="#050505" stroke="none" stroke-width="1" opacity="1.0"><title>conclusion bullet 1</title></ellipse>
+<text x="61" y="973" fill="#050505" font-family="Liberation Sans Narrow" font-size="22" font-weight="700" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="61" dy="0">"The spread of the disease was effectively contained."</tspan></text>
+<rect x="695" y="967" width="119" height="35" rx="0" fill="#A8D78E" stroke="none" stroke-width="1" opacity="1.0"><title>True badge</title></rect>
+<text x="754.5" y="970.625" fill="#FFFFFF" font-family="Liberation Sans" font-size="25" font-weight="700" font-style="normal" text-anchor="middle" dominant-baseline="text-before-edge"><title>True text</title><tspan x="754.5" dy="0">True</tspan></text>
+<ellipse cx="34.5" cy="1021.5" rx="3.5" ry="3.5" fill="#050505" stroke="none" stroke-width="1" opacity="1.0"><title>conclusion bullet 2</title></ellipse>
+<text x="61" y="1007" fill="#050505" font-family="Liberation Sans Narrow" font-size="22" font-weight="700" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="61" dy="0">"Country a is making great efforts to develop the new energy vehicle industry."</tspan></text>
+<rect x="874" y="1011" width="145" height="31" rx="0" fill="#A5A5A5" stroke="none" stroke-width="1" opacity="1.0"><title>Uncertain badge</title></rect>
+<text x="946.5" y="1014.35" fill="#FFFFFF" font-family="Liberation Sans" font-size="22" font-weight="700" font-style="normal" text-anchor="middle" dominant-baseline="text-before-edge"><title>Uncertain text</title><tspan x="946.5" dy="0">Uncertain</tspan></text>
+<ellipse cx="34.5" cy="1056.5" rx="3.5" ry="3.5" fill="#050505" stroke="none" stroke-width="1" opacity="1.0"><title>conclusion bullet 3</title></ellipse>
+<text x="61" y="1042" fill="#050505" font-family="Liberation Sans Narrow" font-size="22" font-weight="700" font-style="normal" text-anchor="start" dominant-baseline="text-before-edge"><title></title><tspan x="61" dy="0">"City Z has achieved full vaccination coverage."</tspan></text>
+<rect x="623" y="1044" width="118" height="34" rx="0" fill="#F3A0AF" stroke="none" stroke-width="1" opacity="1.0"><title>False badge</title></rect>
+<text x="682.0" y="1047.125" fill="#FFFFFF" font-family="Liberation Sans" font-size="25" font-weight="700" font-style="normal" text-anchor="middle" dominant-baseline="text-before-edge"><title>False text</title><tspan x="682.0" dy="0">False</tspan></text>
+</svg>

@@ -1,0 +1,623 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1941" height="1091" viewBox="0 0 1941 1091">
+<defs><marker id="arr0" markerWidth="13" markerHeight="13" refX="12" refY="6.5" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0 L13,6.5 L0,13 z" fill="#666666"/></marker><marker id="arr1" markerWidth="13" markerHeight="13" refX="12" refY="6.5" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0 L13,6.5 L0,13 z" fill="#E51C23"/></marker><marker id="arr2" markerWidth="13" markerHeight="13" refX="12" refY="6.5" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0 L13,6.5 L0,13 z" fill="#000000"/></marker><marker id="arr3" markerWidth="13" markerHeight="13" refX="12" refY="6.5" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0 L13,6.5 L0,13 z" fill="#003F78"/></marker><marker id="arr4" markerWidth="13" markerHeight="13" refX="12" refY="6.5" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0,0 L13,6.5 L0,13 z" fill="#C65A5A"/></marker></defs>
+<rect x="0" y="0" width="100%" height="100%" fill="#fff"/>
+<rect x="17" y="20" width="1912" height="1071" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="#777777" stroke-width="2" style="stroke-dasharray:12 10;"/>
+<rect x="44" y="50" width="347" height="272" rx="0" fill="#F7F7F7" fill-opacity="0.34" stroke="#777777" stroke-width="2" style=""/>
+<rect x="53" y="58" width="347" height="272" rx="0" fill="#F7F7F7" fill-opacity="0.34" stroke="#777777" stroke-width="2" style=""/>
+<rect x="35" y="41" width="347" height="272" rx="0" fill="#F7F7F7" fill-opacity="0.86" stroke="#777777" stroke-width="2.2" style=""/>
+<rect x="47" y="361" width="347" height="698" rx="0" fill="#F8F8F8" fill-opacity="0.34" stroke="#777777" stroke-width="2" style=""/>
+<rect x="56" y="369" width="347" height="698" rx="0" fill="#F8F8F8" fill-opacity="0.34" stroke="#777777" stroke-width="2" style=""/>
+<rect x="38" y="352" width="347" height="698" rx="0" fill="#F8F8F8" fill-opacity="0.86" stroke="#777777" stroke-width="2.2" style=""/>
+<rect x="967" y="71" width="562" height="239" rx="0" fill="#DDEFD9" fill-opacity="0.34" stroke="#6F8F87" stroke-width="2" style=""/>
+<rect x="977" y="80" width="562" height="239" rx="0" fill="#DDEFD9" fill-opacity="0.34" stroke="#6F8F87" stroke-width="2" style=""/>
+<rect x="957" y="62" width="562" height="239" rx="0" fill="#DDEFD9" fill-opacity="0.86" stroke="#6F8F87" stroke-width="2.2" style=""/>
+<rect x="965" y="357" width="284" height="335" rx="0" fill="#DCEBFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1266" y="357" width="273" height="335" rx="0" fill="#DCEBFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="967" y="754" width="568" height="306" rx="0" fill="#F2DFF0" fill-opacity="0.34" stroke="#C48DB7" stroke-width="2" style=""/>
+<rect x="977" y="763" width="568" height="306" rx="0" fill="#F2DFF0" fill-opacity="0.34" stroke="#C48DB7" stroke-width="2" style=""/>
+<rect x="957" y="745" width="568" height="306" rx="0" fill="#F2DFF0" fill-opacity="0.86" stroke="#C48DB7" stroke-width="2.2" style=""/>
+<polygon points="690,243 886,208 803,517 728,517" fill="#CFE6D5" fill-opacity="0.38" stroke="#777777" stroke-width="3" style="stroke-dasharray:2 8;stroke-linecap:round;"/>
+<polygon points="703,626 788,562 898,768 620,768" fill="#EDF0F3" fill-opacity="0.34" stroke="#666666" stroke-width="3" style="stroke-dasharray:2 8;stroke-linecap:round;"/>
+<polygon points="703,861 840,861 1000,789 1000,1015 613,1070" fill="#EEE7EF" fill-opacity="0.24" stroke="#777777" stroke-width="3" style="stroke-dasharray:2 8;stroke-linecap:round;"/>
+<rect x="1695" y="270" width="84" height="535" rx="28" fill="#F8BEBE" fill-opacity="0.22" stroke="#CC6A6A" stroke-width="2" style=""/>
+<polygon points="1737,548 1610,807 1870,807" fill="#F8BEBE" fill-opacity="0.28" stroke="#111111" stroke-width="3" style="stroke-dasharray:2 8;stroke-linecap:round;"/>
+<rect x="54" y="60.3" width="27" height="34.2" rx="0" fill="#CDE8EA" fill-opacity="1" stroke="#333333" stroke-width="2" style=""/>
+<rect x="59.4" y="54" width="16.2" height="9" rx="2.7" fill="#E5C85D" fill-opacity="1" stroke="#333333" stroke-width="1.5" style=""/>
+<rect x="58.5" y="68.4" width="4.5" height="4.5" rx="0" fill="#7CDDD5" fill-opacity="1" stroke="#222222" stroke-width="1" style=""/>
+<line x1="65.7" y1="70.2" x2="76.5" y2="70.2" stroke="#333333" stroke-width="1" stroke-opacity="1" style=""/>
+<rect x="58.5" y="75.6" width="4.5" height="4.5" rx="0" fill="#7CDDD5" fill-opacity="1" stroke="#222222" stroke-width="1" style=""/>
+<line x1="65.7" y1="77.4" x2="76.5" y2="77.4" stroke="#333333" stroke-width="1" stroke-opacity="1" style=""/>
+<rect x="58.5" y="82.8" width="4.5" height="4.5" rx="0" fill="#7CDDD5" fill-opacity="1" stroke="#222222" stroke-width="1" style=""/>
+<line x1="65.7" y1="84.6" x2="76.5" y2="84.6" stroke="#333333" stroke-width="1" stroke-opacity="1" style=""/>
+<rect x="85" y="57" width="7" height="38" rx="3" fill="#E50000" fill-opacity="1" stroke="#111111" stroke-width="1.3" style=""/>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:31px;fill:#222222;font-weight:700;font-style:normal;"><tspan x="107" y="87.115">Symbols</tspan></text>
+<rect x="50" y="108" width="92" height="25" rx="0" fill="#000000" fill-opacity="1" stroke="#000000" stroke-width="0" style=""/>
+<text text-anchor="start" style="font-family:DejaVu Sans;font-size:18px;fill:#FFFFFF;font-weight:400;font-style:normal;"><tspan x="52" y="127.42">Black font</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Sans;font-size:18px;fill:#555555;font-weight:400;font-style:normal;"><tspan x="147" y="128.92">: Notations</tspan></text>
+<rect x="50" y="141" width="83" height="27" rx="0" fill="#E50000" fill-opacity="1" stroke="#E50000" stroke-width="0" style=""/>
+<text text-anchor="start" style="font-family:DejaVu Sans;font-size:18px;fill:#FFFFFF;font-weight:400;font-style:normal;"><tspan x="52" y="161.42">Red font</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Sans;font-size:18px;fill:#555555;font-weight:400;font-style:normal;"><tspan x="137" y="162.92">: Operations</tspan></text>
+<line x1="52" y1="189" x2="132" y2="189" stroke="#E51C23" stroke-width="7" stroke-opacity="1" style="" marker-end="url(#arr1)"/>
+<text text-anchor="start" style="font-family:DejaVu Sans;font-size:18px;fill:#555555;font-weight:400;font-style:normal;"><tspan x="144" y="196.92">: Forward Process</tspan></text>
+<line x1="52" y1="220" x2="132" y2="216" stroke="#666666" stroke-width="5" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<text text-anchor="start" style="font-family:DejaVu Sans;font-size:18px;fill:#555555;font-weight:400;font-style:normal;"><tspan x="144" y="226.42">: Edges between nodes</tspan></text>
+<ellipse cx="65" cy="253" rx="14" ry="14" fill="#75CF70" fill-opacity="1" stroke="#006400" stroke-width="3" style=""/>
+<text text-anchor="start" style="font-family:DejaVu Sans;font-size:18px;fill:#555555;font-weight:400;font-style:normal;"><tspan x="86" y="259.92">: Insight node</tspan></text>
+<ellipse cx="233" cy="253" rx="14" ry="14" fill="#70A9EA" fill-opacity="1" stroke="#003F78" stroke-width="3" style=""/>
+<text text-anchor="start" style="font-family:DejaVu Sans;font-size:18px;fill:#555555;font-weight:400;font-style:normal;"><tspan x="254" y="259.92">: Query node</tspan></text>
+<ellipse cx="65" cy="290" rx="14" ry="14" fill="#BC86F2" fill-opacity="1" stroke="#3C0074" stroke-width="3" style=""/>
+<text text-anchor="start" style="font-family:DejaVu Sans;font-size:18px;fill:#555555;font-weight:400;font-style:normal;"><tspan x="86" y="296.92">: Agent utterance node</tspan></text>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:31px;fill:#222222;font-weight:700;font-style:normal;"><tspan x="215" y="402.115">Query/Task Q</tspan></text>
+<rect x="89" y="418" width="273" height="185" rx="20" fill="#DDF3F4" fill-opacity="1" stroke="#65BAC1" stroke-width="2.2" style=""/>
+<text text-anchor="start" style="font-family:DejaVu Sans Mono;font-size:17px;fill:#222222;font-weight:400;font-style:normal;"><tspan x="97" y="443">Topic: Embodied</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Sans Mono;font-size:17px;fill:#222222;font-weight:400;font-style:normal;"><tspan x="97" y="466">Difficulty:</tspan></text>
+<polygon points="227,450.5 229.148,456.043 235.084,456.373 230.476,460.129 231.996,465.877 227,462.655 222.004,465.877 223.524,460.129 218.916,456.373 224.852,456.043" fill="#FFC400" fill-opacity="1" stroke="#555555" stroke-width="1" style=""/>
+<polygon points="247,450.5 249.148,456.043 255.084,456.373 250.476,460.129 251.996,465.877 247,462.655 242.004,465.877 243.524,460.129 238.916,456.373 244.852,456.043" fill="#FFFFFF" fill-opacity="1" stroke="#555555" stroke-width="1" style=""/>
+<polygon points="267,450.5 269.148,456.043 275.084,456.373 270.476,460.129 271.996,465.877 267,462.655 262.004,465.877 263.524,460.129 258.916,456.373 264.852,456.043" fill="#FFFFFF" fill-opacity="1" stroke="#555555" stroke-width="1" style=""/>
+<polygon points="287,450.5 289.148,456.043 295.084,456.373 290.476,460.129 291.996,465.877 287,462.655 282.004,465.877 283.524,460.129 278.916,456.373 284.852,456.043" fill="#FFFFFF" fill-opacity="1" stroke="#555555" stroke-width="1" style=""/>
+<polygon points="307,450.5 309.148,456.043 315.084,456.373 310.476,460.129 311.996,465.877 307,462.655 302.004,465.877 303.524,460.129 298.916,456.373 304.852,456.043" fill="#FFFFFF" fill-opacity="1" stroke="#555555" stroke-width="1" style=""/>
+<text text-anchor="start" style="font-family:DejaVu Sans;font-size:17px;fill:#101010;font-weight:400;font-style:normal;"><tspan x="102" y="495">You are in the middle of a</tspan><tspan x="102" y="516.25">room. Looking quickly around</tspan><tspan x="102" y="537.5">you, you see a cabinet 6, a</tspan><tspan x="102" y="558.75">cabinet 5, ... Your task is to:</tspan><tspan x="102" y="580">put a clean egg in microwave.</tspan></text>
+<rect x="64" y="617" width="280" height="122" rx="20" fill="#EEEAF0" fill-opacity="1" stroke="#C7AED2" stroke-width="2.2" style=""/>
+<text text-anchor="start" style="font-family:DejaVu Sans Mono;font-size:17px;fill:#222222;font-weight:400;font-style:normal;"><tspan x="72" y="642">Topic: Web search</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Sans Mono;font-size:17px;fill:#222222;font-weight:400;font-style:normal;"><tspan x="72" y="665">Difficulty:</tspan></text>
+<polygon points="202,649.5 204.148,655.043 210.084,655.373 205.476,659.129 206.996,664.877 202,661.655 197.004,664.877 198.524,659.129 193.916,655.373 199.852,655.043" fill="#FFC400" fill-opacity="1" stroke="#555555" stroke-width="1" style=""/>
+<polygon points="222,649.5 224.148,655.043 230.084,655.373 225.476,659.129 226.996,664.877 222,661.655 217.004,664.877 218.524,659.129 213.916,655.373 219.852,655.043" fill="#FFC400" fill-opacity="1" stroke="#555555" stroke-width="1" style=""/>
+<polygon points="242,649.5 244.148,655.043 250.084,655.373 245.476,659.129 246.996,664.877 242,661.655 237.004,664.877 238.524,659.129 233.916,655.373 239.852,655.043" fill="#FFFFFF" fill-opacity="1" stroke="#555555" stroke-width="1" style=""/>
+<polygon points="262,649.5 264.148,655.043 270.084,655.373 265.476,659.129 266.996,664.877 262,661.655 257.004,664.877 258.524,659.129 253.916,655.373 259.852,655.043" fill="#FFFFFF" fill-opacity="1" stroke="#555555" stroke-width="1" style=""/>
+<polygon points="282,649.5 284.148,655.043 290.084,655.373 285.476,659.129 286.996,664.877 282,661.655 277.004,664.877 278.524,659.129 273.916,655.373 279.852,655.043" fill="#FFFFFF" fill-opacity="1" stroke="#555555" stroke-width="1" style=""/>
+<text text-anchor="start" style="font-family:DejaVu Sans;font-size:17px;fill:#101010;font-weight:400;font-style:normal;"><tspan x="77" y="694">Are both Lygodium or</tspan><tspan x="77" y="715.25">Maxillaria a genus of orchids?</tspan></text>
+<rect x="122" y="752" width="249" height="163" rx="20" fill="#F8EAE7" fill-opacity="1" stroke="#D8998F" stroke-width="2.2" style=""/>
+<text text-anchor="start" style="font-family:DejaVu Sans Mono;font-size:17px;fill:#222222;font-weight:400;font-style:normal;"><tspan x="130" y="777">Topic: Embodied</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Sans Mono;font-size:17px;fill:#222222;font-weight:400;font-style:normal;"><tspan x="130" y="800">Difficulty:</tspan></text>
+<polygon points="260,784.5 262.148,790.043 268.084,790.373 263.476,794.129 264.996,799.877 260,796.655 255.004,799.877 256.524,794.129 251.916,790.373 257.852,790.043" fill="#FFC400" fill-opacity="1" stroke="#555555" stroke-width="1" style=""/>
+<polygon points="280,784.5 282.148,790.043 288.084,790.373 283.476,794.129 284.996,799.877 280,796.655 275.004,799.877 276.524,794.129 271.916,790.373 277.852,790.043" fill="#FFC400" fill-opacity="1" stroke="#555555" stroke-width="1" style=""/>
+<polygon points="300,784.5 302.148,790.043 308.084,790.373 303.476,794.129 304.996,799.877 300,796.655 295.004,799.877 296.524,794.129 291.916,790.373 297.852,790.043" fill="#FFC400" fill-opacity="1" stroke="#555555" stroke-width="1" style=""/>
+<polygon points="320,784.5 322.148,790.043 328.084,790.373 323.476,794.129 324.996,799.877 320,796.655 315.004,799.877 316.524,794.129 311.916,790.373 317.852,790.043" fill="#FFC400" fill-opacity="1" stroke="#555555" stroke-width="1" style=""/>
+<polygon points="340,784.5 342.148,790.043 348.084,790.373 343.476,794.129 344.996,799.877 340,796.655 335.004,799.877 336.524,794.129 331.916,790.373 337.852,790.043" fill="#FFFFFF" fill-opacity="1" stroke="#555555" stroke-width="1" style=""/>
+<text text-anchor="start" style="font-family:DejaVu Sans;font-size:17px;fill:#101010;font-weight:400;font-style:normal;"><tspan x="135" y="829">Your task is to find a</tspan><tspan x="135" y="850.25">butterfly egg in the</tspan><tspan x="135" y="871.5">outside. Move it to the</tspan><tspan x="135" y="892.75">green box in the bathroom.</tspan></text>
+<rect x="56" y="926" width="249" height="115" rx="20" fill="#FFF5DF" fill-opacity="1" stroke="#EBC35E" stroke-width="2.2" style=""/>
+<text text-anchor="start" style="font-family:DejaVu Sans Mono;font-size:17px;fill:#222222;font-weight:400;font-style:normal;"><tspan x="64" y="951">Topic: Game</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Sans Mono;font-size:17px;fill:#222222;font-weight:400;font-style:normal;"><tspan x="64" y="974">Difficulty:</tspan></text>
+<polygon points="194,958.5 196.148,964.043 202.084,964.373 197.476,968.129 198.996,973.877 194,970.655 189.004,973.877 190.524,968.129 185.916,964.373 191.852,964.043" fill="#FFC400" fill-opacity="1" stroke="#555555" stroke-width="1" style=""/>
+<polygon points="214,958.5 216.148,964.043 222.084,964.373 217.476,968.129 218.996,973.877 214,970.655 209.004,973.877 210.524,968.129 205.916,964.373 211.852,964.043" fill="#FFC400" fill-opacity="1" stroke="#555555" stroke-width="1" style=""/>
+<polygon points="234,958.5 236.148,964.043 242.084,964.373 237.476,968.129 238.996,973.877 234,970.655 229.004,973.877 230.524,968.129 225.916,964.373 231.852,964.043" fill="#FFC400" fill-opacity="1" stroke="#555555" stroke-width="1" style=""/>
+<polygon points="254,958.5 256.148,964.043 262.084,964.373 257.476,968.129 258.996,973.877 254,970.655 249.004,973.877 250.524,968.129 245.916,964.373 251.852,964.043" fill="#FFC400" fill-opacity="1" stroke="#555555" stroke-width="1" style=""/>
+<polygon points="274,958.5 276.148,964.043 282.084,964.373 277.476,968.129 278.996,973.877 274,970.655 269.004,973.877 270.524,968.129 265.916,964.373 271.852,964.043" fill="#FFFFFF" fill-opacity="1" stroke="#555555" stroke-width="1" style=""/>
+<text text-anchor="start" style="font-family:DejaVu Sans;font-size:17px;fill:#101010;font-weight:400;font-style:normal;"><tspan x="69" y="1003">b1 is on b2., b2 is on b6.,</tspan><tspan x="69" y="1024.25">b3 is on b7., b5 is on b3.</tspan></text>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:30px;fill:#006400;font-weight:700;font-style:normal;"><tspan x="542" y="99.95">Insight Graph</tspan></text>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:27.28px;fill:#008A20;font-weight:400;font-style:italic;"><tspan x="479.96" y="131.603">G</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:13.2px;fill:#008A20;font-weight:400;font-style:italic;"><tspan x="486.12" y="109.92">(t)</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:12.32px;fill:#008A20;font-weight:400;font-style:normal;"><tspan x="484.36" y="135.44">insight</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:19.36px;fill:#008A20;font-weight:400;font-style:italic;"><tspan x="528.36" y="125.76"> = (I, Eᵢ)</tspan></text>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:29px;fill:#0964C5;font-weight:700;font-style:normal;"><tspan x="541" y="669.785">Query Graph</tspan></text>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:27.28px;fill:#0964C5;font-weight:400;font-style:italic;"><tspan x="492.96" y="699.603">G</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:13.2px;fill:#0964C5;font-weight:400;font-style:italic;"><tspan x="499.12" y="677.92">(t)</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:12.32px;fill:#0964C5;font-weight:400;font-style:normal;"><tspan x="497.36" y="703.44">query</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:19.36px;fill:#0964C5;font-weight:400;font-style:italic;"><tspan x="541.36" y="693.76"> = (Q, E_q)</tspan></text>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:28px;fill:#5D00C4;font-weight:700;font-style:normal;"><tspan x="536" y="960.94">Interaction</tspan><tspan x="536" y="992.3">Graphs</tspan></text>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:24.18px;fill:#6610D0;font-weight:400;font-style:italic;"><tspan x="439.26" y="1041.24">G</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:11.700000000000001px;fill:#6610D0;font-weight:400;font-style:italic;"><tspan x="444.72" y="1022.02">(Q)</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:10.92px;fill:#6610D0;font-weight:400;font-style:normal;"><tspan x="443.16" y="1044.64">inter</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:17.16px;fill:#6610D0;font-weight:400;font-style:italic;"><tspan x="482.16" y="1036.06"> = (U(Q), E_u(Q))</tspan></text>
+<ellipse cx="770" cy="199" rx="157" ry="157" fill="#EDF7ED" fill-opacity="1" stroke="#006400" stroke-width="5.2" style=""/>
+<line x1="674" y1="204" x2="732" y2="126" stroke="#666666" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<line x1="732" y1="126" x2="834" y2="126" stroke="#666666" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<line x1="732" y1="126" x2="861" y2="250" stroke="#666666" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<line x1="732" y1="126" x2="739" y2="280" stroke="#666666" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<line x1="674" y1="204" x2="739" y2="280" stroke="#666666" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<line x1="739" y1="280" x2="834" y2="126" stroke="#666666" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<line x1="739" y1="280" x2="861" y2="250" stroke="#666666" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<ellipse cx="732" cy="126" rx="29" ry="29" fill="#52A879" fill-opacity="1" stroke="#006400" stroke-width="5" style=""/>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:31px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="722" y="135.64">l</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:15px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="737" y="143.6">1</tspan></text>
+<ellipse cx="834" cy="126" rx="29" ry="29" fill="#98FF45" fill-opacity="1" stroke="#006400" stroke-width="5" style=""/>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:31px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="824" y="135.64">l</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:15px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="839" y="143.6">2</tspan></text>
+<ellipse cx="674" cy="204" rx="29" ry="29" fill="#75D66B" fill-opacity="1" stroke="#006400" stroke-width="5" style=""/>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:31px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="664" y="213.64">l</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:15px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="679" y="221.6">3</tspan></text>
+<ellipse cx="739" cy="280" rx="29" ry="29" fill="#00EB70" fill-opacity="1" stroke="#006400" stroke-width="5" style=""/>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:31px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="729" y="289.64">l</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:15px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="744" y="297.6">4</tspan></text>
+<ellipse cx="861" cy="250" rx="29" ry="29" fill="#75EFB1" fill-opacity="1" stroke="#006400" stroke-width="5" style=""/>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:31px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="851" y="259.64">l</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:15px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="866" y="267.6">5</tspan></text>
+<ellipse cx="772" cy="558" rx="157" ry="157" fill="#EAF2FF" fill-opacity="1" stroke="#003F78" stroke-width="5.2" style=""/>
+<line x1="667" y1="555" x2="733" y2="489" stroke="#6FA4D6" stroke-width="6" stroke-opacity="0.75" style=""/>
+<line x1="682" y1="555" x2="748" y2="489" stroke="#6FA4D6" stroke-width="6" stroke-opacity="0.75" style=""/>
+<line x1="697" y1="555" x2="763" y2="489" stroke="#6FA4D6" stroke-width="6" stroke-opacity="0.75" style=""/>
+<line x1="712" y1="555" x2="778" y2="489" stroke="#6FA4D6" stroke-width="6" stroke-opacity="0.75" style=""/>
+<line x1="727" y1="555" x2="793" y2="489" stroke="#6FA4D6" stroke-width="6" stroke-opacity="0.75" style=""/>
+<line x1="742" y1="555" x2="808" y2="489" stroke="#6FA4D6" stroke-width="6" stroke-opacity="0.75" style=""/>
+<line x1="757" y1="555" x2="823" y2="489" stroke="#6FA4D6" stroke-width="6" stroke-opacity="0.75" style=""/>
+<line x1="772" y1="555" x2="838" y2="489" stroke="#6FA4D6" stroke-width="6" stroke-opacity="0.75" style=""/>
+<line x1="787" y1="555" x2="853" y2="489" stroke="#6FA4D6" stroke-width="6" stroke-opacity="0.75" style=""/>
+<line x1="706" y1="514" x2="706" y2="622" stroke="#666666" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<line x1="706" y1="622" x2="780" y2="558" stroke="#666666" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<line x1="858" y1="625" x2="780" y2="558" stroke="#666666" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<line x1="780" y1="558" x2="868" y2="505" stroke="#666666" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<line x1="780" y1="558" x2="706" y2="514" stroke="#666666" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<ellipse cx="706" cy="514" rx="25" ry="25" fill="#73A9EC" fill-opacity="1" stroke="#003F78" stroke-width="5" style=""/>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:31px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="700" y="527.64">q</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:15px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="711" y="531.6">1</tspan></text>
+<ellipse cx="706" cy="622" rx="25" ry="25" fill="#73A9EC" fill-opacity="1" stroke="#003F78" stroke-width="5" style=""/>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:31px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="700" y="635.64">q</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:15px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="711" y="639.6">2</tspan></text>
+<ellipse cx="858" cy="625" rx="25" ry="25" fill="#73A9EC" fill-opacity="1" stroke="#003F78" stroke-width="5" style=""/>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:31px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="852" y="638.64">q</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:15px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="863" y="642.6">3</tspan></text>
+<ellipse cx="780" cy="558" rx="25" ry="25" fill="#73A9EC" fill-opacity="1" stroke="#003F78" stroke-width="5" style=""/>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:31px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="774" y="571.64">q</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:15px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="785" y="575.6">4</tspan></text>
+<ellipse cx="868" cy="505" rx="25" ry="25" fill="#73A9EC" fill-opacity="1" stroke="#003F78" stroke-width="5" style=""/>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:31px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="862" y="518.64">q</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:15px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="873" y="522.6">5</tspan></text>
+<line x1="780" y1="532" x2="739" y2="306" stroke="#111111" stroke-width="5" stroke-opacity="1" style="stroke-dasharray:12 10;" marker-end="url(#arr0)"/>
+<ellipse cx="770" cy="906" rx="157" ry="157" fill="#F8E7F7" fill-opacity="1" stroke="#3C0074" stroke-width="5.2" style=""/>
+<line x1="775" y1="796" x2="674" y2="855" stroke="#666666" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<line x1="775" y1="796" x2="858" y2="848" stroke="#666666" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<line x1="674" y1="855" x2="775" y2="918" stroke="#666666" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<line x1="858" y1="848" x2="775" y2="918" stroke="#666666" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<line x1="775" y1="918" x2="674" y2="971" stroke="#666666" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<line x1="775" y1="918" x2="861" y2="965" stroke="#666666" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<line x1="674" y1="971" x2="775" y2="1018" stroke="#666666" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<line x1="861" y1="965" x2="775" y2="1018" stroke="#666666" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<ellipse cx="775" cy="796" rx="22" ry="22" fill="#F4E8FA" fill-opacity="1" stroke="#3C0074" stroke-width="5" style=""/>
+<rect x="762.02" y="783.02" width="25.96" height="25.96" rx="0" fill="#ECF7FF" fill-opacity="1" stroke="#222222" stroke-width="1.2" style=""/>
+<polygon points="764.02,792.106 766.693,784.318 771.106,791.846 775.519,783.539 780.711,791.846 785.903,785.356 785.98,792.885" fill="#FFE62E" fill-opacity="1" stroke="#533A00" stroke-width="1" style=""/>
+<rect x="764.616" y="792.106" width="20.768" height="13.4992" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="#15479C" stroke-width="1" style=""/>
+<rect x="767.212" y="796" width="3.3748" height="4.6728" rx="0" fill="#0C5BCA" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="778.634" y="796" width="3.3748" height="4.6728" rx="0" fill="#0C5BCA" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<ellipse cx="674" cy="855" rx="22" ry="22" fill="#F4E8FA" fill-opacity="1" stroke="#3C0074" stroke-width="5" style=""/>
+<rect x="661.02" y="842.02" width="25.96" height="25.96" rx="0" fill="#FFF7EF" fill-opacity="1" stroke="#222222" stroke-width="1.4" style=""/>
+<rect x="661.02" y="842.02" width="6.49" height="6.49" rx="0" fill="#FF4081" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="667.51" y="842.02" width="6.49" height="6.49" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="674" y="842.02" width="6.49" height="6.49" rx="0" fill="#003F8F" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="680.49" y="842.02" width="6.49" height="6.49" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="661.02" y="848.51" width="6.49" height="6.49" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="667.51" y="848.51" width="6.49" height="6.49" rx="0" fill="#EE174C" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="674" y="848.51" width="6.49" height="6.49" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="680.49" y="848.51" width="6.49" height="6.49" rx="0" fill="#FF80AB" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="661.02" y="855" width="6.49" height="6.49" rx="0" fill="#002B66" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="667.51" y="855" width="6.49" height="6.49" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="674" y="855" width="6.49" height="6.49" rx="0" fill="#FF1744" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="680.49" y="855" width="6.49" height="6.49" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<ellipse cx="858" cy="848" rx="22" ry="22" fill="#F4E8FA" fill-opacity="1" stroke="#3C0074" stroke-width="5" style=""/>
+<rect x="845.02" y="835.02" width="25.96" height="25.96" rx="0" fill="#111111" fill-opacity="1" stroke="#222222" stroke-width="1.2" style=""/>
+<polygon points="848.135,848 858,839.174 867.865,848" fill="#FFFFFF" fill-opacity="1" stroke="#FFFFFF" stroke-width="1" style=""/>
+<rect x="850.731" y="848" width="14.5376" height="8.5668" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="#FFFFFF" stroke-width="1" style=""/>
+<rect x="856.442" y="850.596" width="3.1152" height="5.9708" rx="0" fill="#FF77A8" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<ellipse cx="775" cy="918" rx="22" ry="22" fill="#F4E8FA" fill-opacity="1" stroke="#3C0074" stroke-width="5" style=""/>
+<rect x="762.02" y="905.02" width="25.96" height="25.96" rx="0" fill="#ECF7FF" fill-opacity="1" stroke="#222222" stroke-width="1.2" style=""/>
+<polygon points="764.02,914.106 766.693,906.318 771.106,913.846 775.519,905.539 780.711,913.846 785.903,907.356 785.98,914.885" fill="#FFE62E" fill-opacity="1" stroke="#533A00" stroke-width="1" style=""/>
+<rect x="764.616" y="914.106" width="20.768" height="13.4992" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="#15479C" stroke-width="1" style=""/>
+<rect x="767.212" y="918" width="3.3748" height="4.6728" rx="0" fill="#0C5BCA" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="778.634" y="918" width="3.3748" height="4.6728" rx="0" fill="#0C5BCA" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<ellipse cx="674" cy="971" rx="22" ry="22" fill="#F4E8FA" fill-opacity="1" stroke="#3C0074" stroke-width="5" style=""/>
+<rect x="661.02" y="958.02" width="25.96" height="25.96" rx="0" fill="#D9A6F2" fill-opacity="1" stroke="#222222" stroke-width="1.2" style=""/>
+<polygon points="663.02,980.98 670.885,966.587 676.077,976.192 680.75,968.923 684.98,980.98" fill="#9C4DCE" fill-opacity="1" stroke="#4C146F" stroke-width="1" style=""/>
+<ellipse cx="667.51" cy="964.25" rx="1.8172" ry="1.8172" fill="#FFE34D" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<ellipse cx="861" cy="965" rx="22" ry="22" fill="#F4E8FA" fill-opacity="1" stroke="#3C0074" stroke-width="5" style=""/>
+<rect x="848.02" y="952.02" width="25.96" height="25.96" rx="0" fill="#111111" fill-opacity="1" stroke="#222222" stroke-width="1.2" style=""/>
+<polygon points="851.135,965 861,956.174 870.865,965" fill="#FFFFFF" fill-opacity="1" stroke="#FFFFFF" stroke-width="1" style=""/>
+<rect x="853.731" y="965" width="14.5376" height="8.5668" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="#FFFFFF" stroke-width="1" style=""/>
+<rect x="859.442" y="967.596" width="3.1152" height="5.9708" rx="0" fill="#FF77A8" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<ellipse cx="775" cy="1018" rx="22" ry="22" fill="#F4E8FA" fill-opacity="1" stroke="#3C0074" stroke-width="5" style=""/>
+<rect x="762.02" y="1005.02" width="25.96" height="25.96" rx="0" fill="#FFF7EF" fill-opacity="1" stroke="#222222" stroke-width="1.4" style=""/>
+<rect x="762.02" y="1005.02" width="6.49" height="6.49" rx="0" fill="#FF4081" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="768.51" y="1005.02" width="6.49" height="6.49" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="775" y="1005.02" width="6.49" height="6.49" rx="0" fill="#003F8F" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="781.49" y="1005.02" width="6.49" height="6.49" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="762.02" y="1011.51" width="6.49" height="6.49" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="768.51" y="1011.51" width="6.49" height="6.49" rx="0" fill="#EE174C" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="775" y="1011.51" width="6.49" height="6.49" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="781.49" y="1011.51" width="6.49" height="6.49" rx="0" fill="#FF80AB" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="762.02" y="1018" width="6.49" height="6.49" rx="0" fill="#002B66" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="768.51" y="1018" width="6.49" height="6.49" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="775" y="1018" width="6.49" height="6.49" rx="0" fill="#FF1744" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="781.49" y="1018" width="6.49" height="6.49" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<polygon points="628,292 679,307 638,337" fill="#91C9BE" fill-opacity="1" stroke="#006B43" stroke-width="2" style=""/>
+<rect x="452" y="155" width="187" height="205" rx="0" fill="#91C9BE" fill-opacity="0.96" stroke="#006B43" stroke-width="2" style=""/>
+<rect x="462" y="165" width="98" height="30" rx="0" fill="#91C9BE" fill-opacity="1" stroke="#006B43" stroke-width="2" style=""/>
+<rect x="471" y="168" width="80" height="24" rx="0" fill="#91C9BE" fill-opacity="0.36" stroke="#006B43" stroke-width="1.3" style=""/>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:23px;fill:#1A1A1A;font-weight:700;font-style:normal;"><tspan x="470" y="189.62">Insight</tspan></text>
+<text text-anchor="middle" style="font-family:DejaVu Sans;font-size:18px;fill:#101010;font-weight:400;font-style:normal;"><tspan x="545.5" y="225">Ensure the search</tspan><tspan x="545.5" y="246.24">terms are precise</tspan><tspan x="545.5" y="267.48">and directly</tspan><tspan x="545.5" y="288.72">related to the</tspan><tspan x="545.5" y="309.96">specific entity or</tspan><tspan x="545.5" y="331.2">institution ...</tspan></text>
+<polygon points="632,477 660,505 663,471" fill="#D2E5FF" fill-opacity="1" stroke="#062B8A" stroke-width="2" style=""/>
+<rect x="451" y="383" width="231" height="107" rx="0" fill="#D2E5FF" fill-opacity="0.96" stroke="#062B8A" stroke-width="2" style=""/>
+<rect x="461" y="393" width="90" height="30" rx="0" fill="#D2E5FF" fill-opacity="1" stroke="#062B8A" stroke-width="2" style=""/>
+<rect x="470" y="396" width="72" height="24" rx="0" fill="#D2E5FF" fill-opacity="0.36" stroke="#062B8A" stroke-width="1.3" style=""/>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:23px;fill:#1A1A1A;font-weight:700;font-style:normal;"><tspan x="469" y="417.62">Query</tspan></text>
+<text text-anchor="middle" style="font-family:DejaVu Sans;font-size:18px;fill:#101010;font-weight:400;font-style:normal;"><tspan x="566.5" y="453">Are Deodato and</tspan><tspan x="566.5" y="474.24">Alejandro both film</tspan><tspan x="566.5" y="495.48">directors?</tspan></text>
+<polygon points="590,906 617,946 614,901" fill="#EEDAF4" fill-opacity="1" stroke="#5A00B3" stroke-width="2" style=""/>
+<rect x="428" y="755" width="190" height="170" rx="0" fill="#EEDAF4" fill-opacity="0.96" stroke="#5A00B3" stroke-width="2" style=""/>
+<rect x="438" y="765" width="168" height="30" rx="0" fill="#EEDAF4" fill-opacity="1" stroke="#5A00B3" stroke-width="2" style=""/>
+<rect x="447" y="768" width="150" height="24" rx="0" fill="#EEDAF4" fill-opacity="0.36" stroke="#5A00B3" stroke-width="1.3" style=""/>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:23px;fill:#1A1A1A;font-weight:700;font-style:normal;"><tspan x="446" y="789.62">Interactions</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Sans;font-size:16px;fill:#101010;font-weight:400;font-style:normal;"><tspan x="440" y="823">· CEO agent:</tspan><tspan x="440" y="841.88">  assigning tasks...</tspan><tspan x="440" y="860.76">· Thinker agent:</tspan><tspan x="440" y="879.64">  OK, I will...</tspan><tspan x="440" y="898.52">· Executor agent: ...</tspan></text>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:27px;fill:#E60000;font-weight:700;font-style:normal;"><tspan x="519" y="565.76">Similarity-</tspan><tspan x="519" y="596">based Retrieval</tspan></text>
+<rect x="351" y="613" width="12" height="24" rx="0" fill="#FF9999" fill-opacity="1" stroke="#E00000" stroke-width="2" style="" transform="rotate(3 357 625)"/>
+<rect x="375" y="611" width="15" height="28" rx="0" fill="#FF9999" fill-opacity="1" stroke="#E00000" stroke-width="2" style="" transform="rotate(-2 382.5 625)"/>
+<polygon points="396,611 630,611 630,603 660,625 630,647 630,639 396,639" fill="#FF7777" fill-opacity="1" stroke="#E00000" stroke-width="2.2" style=""/>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:27px;fill:#E60000;font-weight:700;font-style:normal;"><tspan x="852.5" y="338">upward</tspan><tspan x="852.5" y="368.24">traversal</tspan></text>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:27px;fill:#E60000;font-weight:700;font-style:normal;"><tspan x="782" y="698">downward</tspan><tspan x="782" y="728.24">traversal</tspan></text>
+<rect x="898" y="237" width="12" height="24" rx="0" fill="#FF9999" fill-opacity="1" stroke="#E00000" stroke-width="2" style="" transform="rotate(3 904 249)"/>
+<rect x="922" y="235" width="15" height="28" rx="0" fill="#FF9999" fill-opacity="1" stroke="#E00000" stroke-width="2" style="" transform="rotate(-2 929.5 249)"/>
+<polygon points="943,235 973.55,235 973.55,227 990,249 973.55,271 973.55,263 943,263" fill="#FF7777" fill-opacity="1" stroke="#E00000" stroke-width="2.2" style=""/>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:29px;fill:#222222;font-weight:700;font-style:normal;"><tspan x="981" y="111.785">Distilled Insights</tspan></text>
+<ellipse cx="1009.3" cy="142.275" rx="15.3" ry="18.275" fill="#FFE57D" fill-opacity="1" stroke="#222222" stroke-width="2" style=""/>
+<line x1="1003.35" y1="137.6" x2="1007.6" y2="148.65" stroke="#333333" stroke-width="1.5" stroke-opacity="1" style=""/>
+<line x1="1015.25" y1="137.6" x2="1011" y2="148.65" stroke="#333333" stroke-width="1.5" stroke-opacity="1" style=""/>
+<rect x="1005.05" y="150.35" width="8.5" height="10.2" rx="0" fill="#C2B9D7" fill-opacity="1" stroke="#333333" stroke-width="1.2" style=""/>
+<line x1="988.05" y1="129.95" x2="992.3" y2="131.65" stroke="#333333" stroke-width="1.4" stroke-opacity="1" style=""/>
+<line x1="1030.55" y1="129.95" x2="1026.3" y2="131.65" stroke="#333333" stroke-width="1.4" stroke-opacity="1" style=""/>
+<line x1="1000.8" y1="118.9" x2="1003.35" y2="123.15" stroke="#333333" stroke-width="1.4" stroke-opacity="1" style=""/>
+<line x1="1017.8" y1="119.75" x2="1016.1" y2="124" stroke="#333333" stroke-width="1.4" stroke-opacity="1" style=""/>
+<line x1="989.75" y1="146.1" x2="994" y2="145.25" stroke="#333333" stroke-width="1.4" stroke-opacity="1" style=""/>
+<line x1="1029.7" y1="146.95" x2="1025.45" y2="145.25" stroke="#333333" stroke-width="1.4" stroke-opacity="1" style=""/>
+<text text-anchor="start" style="font-family:DejaVu Sans;font-size:18px;fill:#111111;font-weight:400;font-style:normal;"><tspan x="1044" y="142">Insight 1: Clearly identify key</tspan><tspan x="1044" y="163.24">entities and their roles, use</tspan><tspan x="1044" y="184.48">specific names and titles</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:24px;fill:#111111;font-weight:400;font-style:normal;"><tspan x="1323" y="173.56">from</tspan></text>
+<ellipse cx="1445" cy="165" rx="26" ry="26" fill="#F4E8FA" fill-opacity="1" stroke="#3C0074" stroke-width="5" style=""/>
+<rect x="1429.66" y="149.66" width="30.68" height="30.68" rx="0" fill="#ECF7FF" fill-opacity="1" stroke="#222222" stroke-width="1.2" style=""/>
+<polygon points="1431.66,160.398 1435.18,151.194 1440.4,160.091 1445.61,150.274 1451.75,160.091 1457.89,152.421 1458.34,161.318" fill="#FFE62E" fill-opacity="1" stroke="#533A00" stroke-width="1" style=""/>
+<rect x="1432.73" y="160.398" width="24.544" height="15.9536" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="#15479C" stroke-width="1" style=""/>
+<rect x="1435.8" y="165" width="3.9884" height="5.5224" rx="0" fill="#0C5BCA" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1449.3" y="165" width="3.9884" height="5.5224" rx="0" fill="#0C5BCA" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<ellipse cx="1009.3" cy="231.275" rx="15.3" ry="18.275" fill="#FFE57D" fill-opacity="1" stroke="#222222" stroke-width="2" style=""/>
+<line x1="1003.35" y1="226.6" x2="1007.6" y2="237.65" stroke="#333333" stroke-width="1.5" stroke-opacity="1" style=""/>
+<line x1="1015.25" y1="226.6" x2="1011" y2="237.65" stroke="#333333" stroke-width="1.5" stroke-opacity="1" style=""/>
+<rect x="1005.05" y="239.35" width="8.5" height="10.2" rx="0" fill="#C2B9D7" fill-opacity="1" stroke="#333333" stroke-width="1.2" style=""/>
+<line x1="988.05" y1="218.95" x2="992.3" y2="220.65" stroke="#333333" stroke-width="1.4" stroke-opacity="1" style=""/>
+<line x1="1030.55" y1="218.95" x2="1026.3" y2="220.65" stroke="#333333" stroke-width="1.4" stroke-opacity="1" style=""/>
+<line x1="1000.8" y1="207.9" x2="1003.35" y2="212.15" stroke="#333333" stroke-width="1.4" stroke-opacity="1" style=""/>
+<line x1="1017.8" y1="208.75" x2="1016.1" y2="213" stroke="#333333" stroke-width="1.4" stroke-opacity="1" style=""/>
+<line x1="989.75" y1="235.1" x2="994" y2="234.25" stroke="#333333" stroke-width="1.4" stroke-opacity="1" style=""/>
+<line x1="1029.7" y1="235.95" x2="1025.45" y2="234.25" stroke="#333333" stroke-width="1.4" stroke-opacity="1" style=""/>
+<text text-anchor="start" style="font-family:DejaVu Sans;font-size:18px;fill:#111111;font-weight:400;font-style:normal;"><tspan x="1044" y="229">Insight 2: Double-</tspan><tspan x="1044" y="250.24">check the relevance</tspan><tspan x="1044" y="271.48">of the search results</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:24px;fill:#111111;font-weight:400;font-style:normal;"><tspan x="1242" y="259.56">from</tspan></text>
+<ellipse cx="1340" cy="254" rx="25" ry="25" fill="#F4E8FA" fill-opacity="1" stroke="#3C0074" stroke-width="5" style=""/>
+<rect x="1325.25" y="239.25" width="29.5" height="29.5" rx="0" fill="#ECF7FF" fill-opacity="1" stroke="#222222" stroke-width="1.2" style=""/>
+<polygon points="1327.25,249.575 1330.56,240.725 1335.58,249.28 1340.59,239.84 1346.49,249.28 1352.39,241.905 1352.75,250.46" fill="#FFE62E" fill-opacity="1" stroke="#533A00" stroke-width="1" style=""/>
+<rect x="1328.2" y="249.575" width="23.6" height="15.34" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="#15479C" stroke-width="1" style=""/>
+<rect x="1331.15" y="254" width="3.835" height="5.31" rx="0" fill="#0C5BCA" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1344.13" y="254" width="3.835" height="5.31" rx="0" fill="#0C5BCA" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:24px;fill:#111111;font-weight:400;font-style:normal;"><tspan x="1380" y="262.56">and</tspan></text>
+<ellipse cx="1448" cy="254" rx="25" ry="25" fill="#F4E8FA" fill-opacity="1" stroke="#3C0074" stroke-width="5" style=""/>
+<rect x="1433.25" y="239.25" width="29.5" height="29.5" rx="0" fill="#FFF7EF" fill-opacity="1" stroke="#222222" stroke-width="1.4" style=""/>
+<rect x="1433.25" y="239.25" width="7.375" height="7.375" rx="0" fill="#FF4081" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1440.62" y="239.25" width="7.375" height="7.375" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1448" y="239.25" width="7.375" height="7.375" rx="0" fill="#003F8F" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1455.38" y="239.25" width="7.375" height="7.375" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1433.25" y="246.625" width="7.375" height="7.375" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1440.62" y="246.625" width="7.375" height="7.375" rx="0" fill="#EE174C" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1448" y="246.625" width="7.375" height="7.375" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1455.38" y="246.625" width="7.375" height="7.375" rx="0" fill="#FF80AB" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1433.25" y="254" width="7.375" height="7.375" rx="0" fill="#002B66" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1440.62" y="254" width="7.375" height="7.375" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1448" y="254" width="7.375" height="7.375" rx="0" fill="#FF1744" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1455.38" y="254" width="7.375" height="7.375" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:28px;fill:#E60000;font-weight:700;font-style:italic;"><tspan x="1270" y="343.88">Memory  Augmentation</tspan></text>
+<rect x="1211" y="284" width="29" height="12" rx="0" fill="#FF9999" fill-opacity="1" stroke="#E00000" stroke-width="2" style="" transform="rotate(2 1225.5 290)"/>
+<rect x="1209" y="304" width="33" height="15" rx="0" fill="#FF9999" fill-opacity="1" stroke="#E00000" stroke-width="2" style="" transform="rotate(-2 1225.5 311.5)"/>
+<polygon points="1215,325 1236,325 1236,358 1244,358 1225.5,388 1207,358 1215,358" fill="#FF7777" fill-opacity="1" stroke="#E00000" stroke-width="2.2" style=""/>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:28px;fill:#E60000;font-weight:700;font-style:italic;"><tspan x="1270" y="731.88">Memory  Augmentation</tspan></text>
+<rect x="1202" y="742" width="35" height="12" rx="0" fill="#FF9999" fill-opacity="1" stroke="#E00000" stroke-width="2" style="" transform="rotate(-2 1219.5 748)"/>
+<rect x="1200" y="720" width="39" height="15" rx="0" fill="#FF9999" fill-opacity="1" stroke="#E00000" stroke-width="2" style="" transform="rotate(2 1219.5 727.5)"/>
+<polygon points="1206,714 1233,714 1233,708 1241,708 1219.5,678 1198,708 1206,708" fill="#FF7777" fill-opacity="1" stroke="#E00000" stroke-width="2.2" style=""/>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:29px;fill:#222222;font-weight:700;font-style:normal;"><tspan x="984" y="382.545">Multi-agent</tspan><tspan x="984" y="415.025">System G</tspan></text>
+<polygon points="1044,481 1128,468 1160,486 1138,514 1134,497 1053,504 1079,526 1046,534 1016,496" fill="#CFE7FF" fill-opacity="0.92" stroke="#2B70B5" stroke-width="2.2" style=""/>
+<line x1="1016" y1="508" x2="1021" y2="513" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1016" y1="498" x2="1031" y2="513" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1016" y1="488" x2="1041" y2="513" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1016" y1="478" x2="1051" y2="513" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1016" y1="468" x2="1061" y2="513" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1026" y1="468" x2="1071" y2="513" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1036" y1="468" x2="1081" y2="513" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1046" y1="468" x2="1091" y2="513" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1056" y1="468" x2="1101" y2="513" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1066" y1="468" x2="1111" y2="513" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1076" y1="468" x2="1121" y2="513" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1086" y1="468" x2="1131" y2="513" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1096" y1="468" x2="1141" y2="513" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1106" y1="468" x2="1151" y2="513" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1116" y1="468" x2="1160" y2="513" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1126" y1="468" x2="1160" y2="513" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1136" y1="468" x2="1160" y2="513" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1146" y1="468" x2="1160" y2="513" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1156" y1="468" x2="1160" y2="513" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<polygon points="1182,513 1200,575 1184,606 1154,586 1167,581 1155,528 1137,551 1128,520 1164,490" fill="#CFE7FF" fill-opacity="0.92" stroke="#2B70B5" stroke-width="2.2" style=""/>
+<line x1="1128" y1="530" x2="1133" y2="535" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1128" y1="520" x2="1143" y2="535" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1128" y1="510" x2="1153" y2="535" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1128" y1="500" x2="1163" y2="535" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1128" y1="490" x2="1173" y2="535" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1138" y1="490" x2="1183" y2="535" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1148" y1="490" x2="1193" y2="535" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1158" y1="490" x2="1200" y2="535" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1168" y1="490" x2="1200" y2="535" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1178" y1="490" x2="1200" y2="535" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1188" y1="490" x2="1200" y2="535" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1198" y1="490" x2="1200" y2="535" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<polygon points="1158,618 1075,644 1037,626 1058,596 1062,614 1138,590 1116,572 1150,566 1189,608" fill="#CFE7FF" fill-opacity="0.92" stroke="#2B70B5" stroke-width="2.2" style=""/>
+<line x1="1037" y1="606" x2="1042" y2="611" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1037" y1="596" x2="1052" y2="611" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1037" y1="586" x2="1062" y2="611" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1037" y1="576" x2="1072" y2="611" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1037" y1="566" x2="1082" y2="611" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1047" y1="566" x2="1092" y2="611" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1057" y1="566" x2="1102" y2="611" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1067" y1="566" x2="1112" y2="611" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1077" y1="566" x2="1122" y2="611" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1087" y1="566" x2="1132" y2="611" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1097" y1="566" x2="1142" y2="611" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1107" y1="566" x2="1152" y2="611" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1117" y1="566" x2="1162" y2="611" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1127" y1="566" x2="1172" y2="611" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1137" y1="566" x2="1182" y2="611" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1147" y1="566" x2="1189" y2="611" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1157" y1="566" x2="1189" y2="611" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1167" y1="566" x2="1189" y2="611" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1177" y1="566" x2="1189" y2="611" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1187" y1="566" x2="1189" y2="611" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<polygon points="1018,602 1003,540 1015,512 1046,532 1033,539 1046,590 1065,571 1075,602 1044,636" fill="#CFE7FF" fill-opacity="0.92" stroke="#2B70B5" stroke-width="2.2" style=""/>
+<line x1="1003" y1="552" x2="1008" y2="557" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1003" y1="542" x2="1018" y2="557" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1003" y1="532" x2="1028" y2="557" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1003" y1="522" x2="1038" y2="557" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1003" y1="512" x2="1048" y2="557" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1013" y1="512" x2="1058" y2="557" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1023" y1="512" x2="1068" y2="557" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1033" y1="512" x2="1075" y2="557" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1043" y1="512" x2="1075" y2="557" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1053" y1="512" x2="1075" y2="557" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1063" y1="512" x2="1075" y2="557" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<line x1="1073" y1="512" x2="1075" y2="557" stroke="#4389CA" stroke-width="0.8" stroke-opacity="0.8" style=""/>
+<ellipse cx="1031" cy="491" rx="41" ry="41" fill="#DFF28C" fill-opacity="1" stroke="#111111" stroke-width="2.2" style=""/>
+<rect x="1016.25" y="476.25" width="29.5" height="29.5" rx="0" fill="#FF2CA0" fill-opacity="1" stroke="#222222" stroke-width="1.2" style=""/>
+<rect x="1021.56" y="482.74" width="18.88" height="17.11" rx="0" fill="#FFB6E1" fill-opacity="1" stroke="#7A0050" stroke-width="1" style=""/>
+<ellipse cx="1026.87" cy="489.82" rx="1.475" ry="1.475" fill="#222222" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<ellipse cx="1035.72" cy="489.82" rx="1.475" ry="1.475" fill="#222222" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<ellipse cx="1176" cy="491" rx="41" ry="41" fill="#40AFAF" fill-opacity="1" stroke="#111111" stroke-width="2.2" style=""/>
+<rect x="1161.25" y="476.25" width="29.5" height="29.5" rx="0" fill="#FFF7EF" fill-opacity="1" stroke="#222222" stroke-width="1.4" style=""/>
+<rect x="1161.25" y="476.25" width="7.375" height="7.375" rx="0" fill="#FF4081" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1168.62" y="476.25" width="7.375" height="7.375" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1176" y="476.25" width="7.375" height="7.375" rx="0" fill="#003F8F" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1183.38" y="476.25" width="7.375" height="7.375" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1161.25" y="483.625" width="7.375" height="7.375" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1168.62" y="483.625" width="7.375" height="7.375" rx="0" fill="#EE174C" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1176" y="483.625" width="7.375" height="7.375" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1183.38" y="483.625" width="7.375" height="7.375" rx="0" fill="#FF80AB" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1161.25" y="491" width="7.375" height="7.375" rx="0" fill="#002B66" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1168.62" y="491" width="7.375" height="7.375" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1176" y="491" width="7.375" height="7.375" rx="0" fill="#FF1744" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1183.38" y="491" width="7.375" height="7.375" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<ellipse cx="1031" cy="628" rx="41" ry="41" fill="#9BCB68" fill-opacity="1" stroke="#111111" stroke-width="2.2" style=""/>
+<rect x="1016.25" y="613.25" width="29.5" height="29.5" rx="0" fill="#F5DB20" fill-opacity="1" stroke="#222222" stroke-width="1.2" style=""/>
+<ellipse cx="1024.81" cy="624.755" rx="2.655" ry="3.245" fill="#222222" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<ellipse cx="1036.9" cy="624.755" rx="2.655" ry="3.245" fill="#222222" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<line x1="1027.46" y1="633.9" x2="1035.42" y2="633.9" stroke="#8A4A00" stroke-width="2" stroke-opacity="1" style=""/>
+<ellipse cx="1176" cy="628" rx="41" ry="41" fill="#3CAAAA" fill-opacity="1" stroke="#111111" stroke-width="2.2" style=""/>
+<rect x="1161.25" y="613.25" width="29.5" height="29.5" rx="0" fill="#ECF7FF" fill-opacity="1" stroke="#222222" stroke-width="1.2" style=""/>
+<polygon points="1163.25,623.575 1166.56,614.725 1171.58,623.28 1176.59,613.84 1182.49,623.28 1188.39,615.905 1188.75,624.46" fill="#FFE62E" fill-opacity="1" stroke="#533A00" stroke-width="1" style=""/>
+<rect x="1164.2" y="623.575" width="23.6" height="15.34" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="#15479C" stroke-width="1" style=""/>
+<rect x="1167.15" y="628" width="3.835" height="5.31" rx="0" fill="#0C5BCA" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1180.13" y="628" width="3.835" height="5.31" rx="0" fill="#0C5BCA" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:28px;fill:#444444;font-weight:400;font-style:italic;"><tspan x="1140" y="576.32">Iteration</tspan></text>
+<rect x="1284" y="376" width="30" height="38" rx="0" fill="#CDE8EA" fill-opacity="1" stroke="#333333" stroke-width="2" style=""/>
+<rect x="1290" y="369" width="18" height="10" rx="3" fill="#E5C85D" fill-opacity="1" stroke="#333333" stroke-width="1.5" style=""/>
+<rect x="1289" y="385" width="5" height="5" rx="0" fill="#7CDDD5" fill-opacity="1" stroke="#222222" stroke-width="1" style=""/>
+<line x1="1297" y1="387" x2="1309" y2="387" stroke="#333333" stroke-width="1" stroke-opacity="1" style=""/>
+<rect x="1289" y="393" width="5" height="5" rx="0" fill="#7CDDD5" fill-opacity="1" stroke="#222222" stroke-width="1" style=""/>
+<line x1="1297" y1="395" x2="1309" y2="395" stroke="#333333" stroke-width="1" stroke-opacity="1" style=""/>
+<rect x="1289" y="401" width="5" height="5" rx="0" fill="#7CDDD5" fill-opacity="1" stroke="#222222" stroke-width="1" style=""/>
+<line x1="1297" y1="403" x2="1309" y2="403" stroke="#333333" stroke-width="1" stroke-opacity="1" style=""/>
+<ellipse cx="1333" cy="377" rx="8" ry="8" fill="#6CD266" fill-opacity="1" stroke="#174A23" stroke-width="1.5" style=""/>
+<text text-anchor="middle" style="font-family:DejaVu Sans;font-size:13px;fill:#174A23;font-weight:700;font-style:normal;"><tspan x="1336" y="380">✓</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:28px;fill:#222222;font-weight:700;font-style:normal;"><tspan x="1340" y="374.94">Output</tspan><tspan x="1340" y="406.3">Solution</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Sans;font-size:18px;fill:#111111;font-weight:400;font-style:normal;"><tspan x="1284" y="454">Since both are confirmed</tspan><tspan x="1284" y="475.6">as film directors from</tspan><tspan x="1284" y="497.2">their respective countries,</tspan><tspan x="1284" y="518.8">the answer is Yes.</tspan></text>
+<rect x="1289" y="554" width="22" height="29" rx="4" fill="#F2C5A9" fill-opacity="1" stroke="#333333" stroke-width="1.5" style=""/>
+<polygon points="1293,558 1297,548 1303,550 1301,560" fill="#F2C5A9" fill-opacity="1" stroke="#333333" stroke-width="1.3" style=""/>
+<ellipse cx="1284.5" cy="583.5" rx="2.5" ry="2.5" fill="#E65C6A" fill-opacity="1" stroke="#333333" stroke-width="0.6" style=""/>
+<ellipse cx="1289.5" cy="585.5" rx="2.5" ry="2.5" fill="#E65C6A" fill-opacity="1" stroke="#333333" stroke-width="0.6" style=""/>
+<ellipse cx="1294.5" cy="587.5" rx="2.5" ry="2.5" fill="#E65C6A" fill-opacity="1" stroke="#333333" stroke-width="0.6" style=""/>
+<ellipse cx="1299.5" cy="589.5" rx="2.5" ry="2.5" fill="#E65C6A" fill-opacity="1" stroke="#333333" stroke-width="0.6" style=""/>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:27px;fill:#222222;font-weight:700;font-style:normal;"><tspan x="1338" y="555.335">Environment</tspan><tspan x="1338" y="585.575">Feedback</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Sans;font-size:18px;fill:#111111;font-weight:400;font-style:normal;"><tspan x="1292" y="628">· Execution: Success</tspan><tspan x="1292" y="650.68">· Token cost: 3,345</tspan><tspan x="1292" y="673.36">· Tool calls: 3 ...</tspan></text>
+<rect x="1200" y="549" width="12" height="22" rx="0" fill="#FF9999" fill-opacity="1" stroke="#E00000" stroke-width="2" style="" transform="rotate(3 1206 560)"/>
+<rect x="1224" y="547" width="15" height="26" rx="0" fill="#FF9999" fill-opacity="1" stroke="#E00000" stroke-width="2" style="" transform="rotate(-2 1231.5 560)"/>
+<polygon points="1245,547 1267.75,547 1267.75,539 1280,560 1267.75,581 1267.75,573 1245,573" fill="#FF7777" fill-opacity="1" stroke="#E00000" stroke-width="2.2" style=""/>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:29px;fill:#222222;font-weight:700;font-style:normal;"><tspan x="1290" y="801.785">Trajectory Condensation</tspan></text>
+<ellipse cx="1108" cy="910" rx="104" ry="104" fill="#F7E7F3" fill-opacity="1" stroke="#3C0074" stroke-width="5.2" style=""/>
+<line x1="1109" y1="835" x2="1041" y2="875" stroke="#666666" stroke-width="2.2" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<line x1="1041" y1="875" x2="1107" y2="918" stroke="#666666" stroke-width="2.2" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<line x1="1107" y1="918" x2="1170" y2="958" stroke="#666666" stroke-width="2.2" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<ellipse cx="1109" cy="835" rx="17" ry="17" fill="#F4E8FA" fill-opacity="1" stroke="#3C0074" stroke-width="5" style=""/>
+<rect x="1098.97" y="824.97" width="20.06" height="20.06" rx="0" fill="#ECF7FF" fill-opacity="1" stroke="#222222" stroke-width="1.2" style=""/>
+<polygon points="1100.97,831.991 1102.58,825.973 1105.99,831.79 1109.4,825.371 1113.41,831.79 1117.43,826.775 1117.03,832.593" fill="#FFE62E" fill-opacity="1" stroke="#533A00" stroke-width="1" style=""/>
+<rect x="1100.98" y="831.991" width="16.048" height="10.4312" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="#15479C" stroke-width="1" style=""/>
+<rect x="1102.98" y="835" width="2.6078" height="3.6108" rx="0" fill="#0C5BCA" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1111.81" y="835" width="2.6078" height="3.6108" rx="0" fill="#0C5BCA" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<ellipse cx="1041" cy="875" rx="17" ry="17" fill="#F4E8FA" fill-opacity="1" stroke="#3C0074" stroke-width="5" style=""/>
+<rect x="1030.97" y="864.97" width="20.06" height="20.06" rx="0" fill="#FFF7EF" fill-opacity="1" stroke="#222222" stroke-width="1.4" style=""/>
+<rect x="1030.97" y="864.97" width="5.015" height="5.015" rx="0" fill="#FF4081" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1035.99" y="864.97" width="5.015" height="5.015" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1041" y="864.97" width="5.015" height="5.015" rx="0" fill="#003F8F" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1046.02" y="864.97" width="5.015" height="5.015" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1030.97" y="869.985" width="5.015" height="5.015" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1035.99" y="869.985" width="5.015" height="5.015" rx="0" fill="#EE174C" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1041" y="869.985" width="5.015" height="5.015" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1046.02" y="869.985" width="5.015" height="5.015" rx="0" fill="#FF80AB" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1030.97" y="875" width="5.015" height="5.015" rx="0" fill="#002B66" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1035.99" y="875" width="5.015" height="5.015" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1041" y="875" width="5.015" height="5.015" rx="0" fill="#FF1744" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1046.02" y="875" width="5.015" height="5.015" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<ellipse cx="1107" cy="918" rx="17" ry="17" fill="#F4E8FA" fill-opacity="1" stroke="#3C0074" stroke-width="5" style=""/>
+<rect x="1096.97" y="907.97" width="20.06" height="20.06" rx="0" fill="#ECF7FF" fill-opacity="1" stroke="#222222" stroke-width="1.2" style=""/>
+<polygon points="1098.97,914.991 1100.58,908.973 1103.99,914.79 1107.4,908.371 1111.41,914.79 1115.43,909.775 1115.03,915.593" fill="#FFE62E" fill-opacity="1" stroke="#533A00" stroke-width="1" style=""/>
+<rect x="1098.98" y="914.991" width="16.048" height="10.4312" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="#15479C" stroke-width="1" style=""/>
+<rect x="1100.98" y="918" width="2.6078" height="3.6108" rx="0" fill="#0C5BCA" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1109.81" y="918" width="2.6078" height="3.6108" rx="0" fill="#0C5BCA" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<ellipse cx="1170" cy="958" rx="17" ry="17" fill="#F4E8FA" fill-opacity="1" stroke="#3C0074" stroke-width="5" style=""/>
+<rect x="1159.97" y="947.97" width="20.06" height="20.06" rx="0" fill="#111111" fill-opacity="1" stroke="#222222" stroke-width="1.2" style=""/>
+<polygon points="1162.38,958 1170,951.18 1177.62,958" fill="#FFFFFF" fill-opacity="1" stroke="#FFFFFF" stroke-width="1" style=""/>
+<rect x="1164.38" y="958" width="11.2336" height="6.6198" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="#FFFFFF" stroke-width="1" style=""/>
+<rect x="1168.8" y="960.006" width="2.4072" height="4.6138" rx="0" fill="#FF77A8" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<ellipse cx="1166" cy="875" rx="18" ry="18" fill="#F5F5F5" fill-opacity="1" stroke="#777777" stroke-width="2.5" style=""/>
+<ellipse cx="1041" cy="958" rx="18" ry="18" fill="#F5F5F5" fill-opacity="1" stroke="#777777" stroke-width="2.5" style=""/>
+<ellipse cx="1107" cy="985" rx="18" ry="18" fill="#F5F5F5" fill-opacity="1" stroke="#777777" stroke-width="2.5" style=""/>
+<rect x="1225" y="823" width="12" height="25" rx="0" fill="#F1B39E" fill-opacity="1" stroke="#333333" stroke-width="1.3" style="" transform="rotate(-38 1231 835.5)"/>
+<rect x="1246" y="823" width="12" height="25" rx="0" fill="#F5C98A" fill-opacity="1" stroke="#333333" stroke-width="1.3" style="" transform="rotate(38 1252 835.5)"/>
+<rect x="1232" y="819" width="20" height="22" rx="4" fill="#EBC2A7" fill-opacity="1" stroke="#333333" stroke-width="1.2" style=""/>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:24px;fill:#444444;font-weight:400;font-style:normal;"><tspan x="1270" y="845.06">Collab. Experience</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Sans;font-size:18px;fill:#111111;font-weight:400;font-style:normal;"><tspan x="1237" y="874">· This history follows a chain-</tspan><tspan x="1237" y="896.5">   style, collaboration strategy...</tspan></text>
+<rect x="1228" y="928" width="48" height="35" rx="0" fill="#B7E9F1" fill-opacity="1" stroke="#222222" stroke-width="2" style=""/>
+<polygon points="1252,933 1266,957 1238,957" fill="#FFB631" fill-opacity="1" stroke="#333333" stroke-width="1.5" style=""/>
+<text text-anchor="middle" style="font-family:DejaVu Sans;font-size:14.0px;fill:#111111;font-weight:700;font-style:normal;"><tspan x="1252" y="952">!</tspan></text>
+<line x1="1252" y1="963" x2="1252" y2="971" stroke="#333333" stroke-width="2" stroke-opacity="1" style=""/>
+<line x1="1242" y1="971" x2="1262" y2="971" stroke="#333333" stroke-width="2" stroke-opacity="1" style=""/>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:24px;fill:#444444;font-weight:400;font-style:normal;"><tspan x="1285" y="953.06">Failure Lessons</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Sans;font-size:18px;fill:#111111;font-weight:400;font-style:normal;"><tspan x="1220" y="987">· Take care when summarizing the</tspan><tspan x="1220" y="1009.5">   final result, DO NOT ...</tspan></text>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:24px;fill:#E60000;font-weight:700;font-style:italic;" transform="rotate(90 939.5 916.5)"><tspan x="939.5" y="914.58">Core Path</tspan><tspan x="939.5" y="940.5">Extraction</tspan></text>
+<ellipse cx="1745" cy="199" rx="157" ry="157" fill="#EDF7ED" fill-opacity="1" stroke="#006400" stroke-width="5.2" style=""/>
+<line x1="1650" y1="204" x2="1710" y2="125" stroke="#666666" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<line x1="1710" y1="125" x2="1811" y2="126" stroke="#666666" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<line x1="1710" y1="125" x2="1839" y2="209" stroke="#666666" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<line x1="1710" y1="125" x2="1744" y2="207" stroke="#666666" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<line x1="1650" y1="204" x2="1744" y2="207" stroke="#666666" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<line x1="1744" y1="207" x2="1811" y2="126" stroke="#666666" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<line x1="1744" y1="207" x2="1839" y2="209" stroke="#666666" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<line x1="1744" y1="207" x2="1737" y2="300" stroke="#C65A5A" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr4)"/>
+<line x1="1839" y1="209" x2="1737" y2="300" stroke="#C65A5A" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr4)"/>
+<ellipse cx="1710" cy="125" rx="29" ry="29" fill="#52A879" fill-opacity="1" stroke="#006400" stroke-width="5" style=""/>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:31px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="1700" y="134.64">l</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:15px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="1715" y="142.6">1</tspan></text>
+<ellipse cx="1811" cy="126" rx="29" ry="29" fill="#98FF45" fill-opacity="1" stroke="#006400" stroke-width="5" style=""/>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:31px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="1801" y="135.64">l</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:15px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="1816" y="143.6">2</tspan></text>
+<ellipse cx="1650" cy="204" rx="29" ry="29" fill="#75D66B" fill-opacity="1" stroke="#006400" stroke-width="5" style=""/>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:31px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="1640" y="213.64">l</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:15px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="1655" y="221.6">3</tspan></text>
+<ellipse cx="1744" cy="207" rx="29" ry="29" fill="#00EB70" fill-opacity="1" stroke="#006400" stroke-width="5" style=""/>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:31px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="1734" y="216.64">l</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:15px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="1749" y="224.6">4</tspan></text>
+<ellipse cx="1839" cy="209" rx="29" ry="29" fill="#75EFB1" fill-opacity="1" stroke="#006400" stroke-width="5" style=""/>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:31px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="1829" y="218.64">l</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:15px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="1844" y="226.6">5</tspan></text>
+<ellipse cx="1737" cy="300" rx="29" ry="29" fill="#FFE1E1" fill-opacity="1" stroke="#C65A5A" stroke-width="5" style=""/>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:31px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="1727" y="309.64">l</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:15px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="1742" y="317.6">6</tspan></text>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:26.04px;fill:#00751C;font-weight:400;font-style:italic;"><tspan x="1609.28" y="277.258">G</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:12.6px;fill:#00751C;font-weight:400;font-style:italic;"><tspan x="1615.16" y="256.56">(t+1)</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:11.76px;fill:#00751C;font-weight:400;font-style:normal;"><tspan x="1613.48" y="280.92">insight</tspan></text>
+<ellipse cx="1745" cy="559" rx="157" ry="157" fill="#EAF2FF" fill-opacity="1" stroke="#003F78" stroke-width="5.2" style=""/>
+<line x1="1652" y1="506" x2="1654" y2="636" stroke="#666666" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<line x1="1654" y1="636" x2="1737" y2="550" stroke="#666666" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<line x1="1813" y1="637" x2="1870" y2="573" stroke="#666666" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<line x1="1813" y1="637" x2="1828" y2="476" stroke="#666666" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<line x1="1870" y1="573" x2="1828" y2="476" stroke="#666666" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<line x1="1737" y1="550" x2="1652" y2="506" stroke="#E45B5B" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<line x1="1737" y1="550" x2="1654" y2="636" stroke="#E45B5B" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<line x1="1737" y1="550" x2="1870" y2="573" stroke="#E45B5B" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<line x1="1737" y1="550" x2="1813" y2="637" stroke="#E45B5B" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<ellipse cx="1652" cy="506" rx="25" ry="25" fill="#73A9EC" fill-opacity="1" stroke="#003F78" stroke-width="5" style=""/>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:31px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="1646" y="519.64">q</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:15px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="1657" y="523.6">1</tspan></text>
+<ellipse cx="1654" cy="636" rx="25" ry="25" fill="#73A9EC" fill-opacity="1" stroke="#003F78" stroke-width="5" style=""/>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:31px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="1648" y="649.64">q</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:15px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="1659" y="653.6">2</tspan></text>
+<ellipse cx="1813" cy="637" rx="25" ry="25" fill="#73A9EC" fill-opacity="1" stroke="#003F78" stroke-width="5" style=""/>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:31px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="1807" y="650.64">q</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:15px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="1818" y="654.6">3</tspan></text>
+<ellipse cx="1870" cy="573" rx="25" ry="25" fill="#73A9EC" fill-opacity="1" stroke="#003F78" stroke-width="5" style=""/>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:31px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="1864" y="586.64">q</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:15px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="1875" y="590.6">4</tspan></text>
+<ellipse cx="1828" cy="476" rx="25" ry="25" fill="#73A9EC" fill-opacity="1" stroke="#003F78" stroke-width="5" style=""/>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:31px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="1822" y="489.64">q</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:15px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="1833" y="493.6">5</tspan></text>
+<ellipse cx="1737" cy="550" rx="25" ry="25" fill="#FFE1E1" fill-opacity="1" stroke="#C65A5A" stroke-width="5" style=""/>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:31px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="1731" y="563.64">q</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:15px;fill:#111111;font-weight:400;font-style:italic;"><tspan x="1742" y="567.6">6</tspan></text>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:26.04px;fill:#003F78;font-weight:400;font-style:italic;"><tspan x="1577.28" y="680.258">G</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:12.6px;fill:#003F78;font-weight:400;font-style:italic;"><tspan x="1583.16" y="659.56">(t+1)</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:11.76px;fill:#003F78;font-weight:400;font-style:normal;"><tspan x="1581.48" y="683.92">query</tspan></text>
+<line x1="1737" y1="522" x2="1737" y2="329" stroke="#C65A5A" stroke-width="5" stroke-opacity="1" style="stroke-dasharray:12 10;" marker-end="url(#arr4)"/>
+<ellipse cx="1745" cy="911" rx="157" ry="157" fill="#F8E7F7" fill-opacity="1" stroke="#3C0074" stroke-width="5.2" style=""/>
+<line x1="1814" y1="985" x2="1682" y2="985" stroke="#666666" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<line x1="1682" y1="985" x2="1684" y2="865" stroke="#666666" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<line x1="1684" y1="865" x2="1813" y2="866" stroke="#666666" stroke-width="4" stroke-opacity="1" style="" marker-end="url(#arr0)"/>
+<ellipse cx="1684" cy="865" rx="22" ry="22" fill="#F4E8FA" fill-opacity="1" stroke="#3C0074" stroke-width="5" style=""/>
+<rect x="1671.02" y="852.02" width="25.96" height="25.96" rx="0" fill="#FFF7EF" fill-opacity="1" stroke="#222222" stroke-width="1.4" style=""/>
+<rect x="1671.02" y="852.02" width="6.49" height="6.49" rx="0" fill="#FF4081" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1677.51" y="852.02" width="6.49" height="6.49" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1684" y="852.02" width="6.49" height="6.49" rx="0" fill="#003F8F" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1690.49" y="852.02" width="6.49" height="6.49" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1671.02" y="858.51" width="6.49" height="6.49" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1677.51" y="858.51" width="6.49" height="6.49" rx="0" fill="#EE174C" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1684" y="858.51" width="6.49" height="6.49" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1690.49" y="858.51" width="6.49" height="6.49" rx="0" fill="#FF80AB" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1671.02" y="865" width="6.49" height="6.49" rx="0" fill="#002B66" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1677.51" y="865" width="6.49" height="6.49" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1684" y="865" width="6.49" height="6.49" rx="0" fill="#FF1744" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1690.49" y="865" width="6.49" height="6.49" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<ellipse cx="1813" cy="866" rx="22" ry="22" fill="#F4E8FA" fill-opacity="1" stroke="#3C0074" stroke-width="5" style=""/>
+<rect x="1800.02" y="853.02" width="25.96" height="25.96" rx="0" fill="#FFF7EF" fill-opacity="1" stroke="#222222" stroke-width="1.4" style=""/>
+<rect x="1800.02" y="853.02" width="6.49" height="6.49" rx="0" fill="#FF4081" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1806.51" y="853.02" width="6.49" height="6.49" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1813" y="853.02" width="6.49" height="6.49" rx="0" fill="#003F8F" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1819.49" y="853.02" width="6.49" height="6.49" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1800.02" y="859.51" width="6.49" height="6.49" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1806.51" y="859.51" width="6.49" height="6.49" rx="0" fill="#EE174C" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1813" y="859.51" width="6.49" height="6.49" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1819.49" y="859.51" width="6.49" height="6.49" rx="0" fill="#FF80AB" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1800.02" y="866" width="6.49" height="6.49" rx="0" fill="#002B66" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1806.51" y="866" width="6.49" height="6.49" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1813" y="866" width="6.49" height="6.49" rx="0" fill="#FF1744" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1819.49" y="866" width="6.49" height="6.49" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<ellipse cx="1682" cy="985" rx="22" ry="22" fill="#F4E8FA" fill-opacity="1" stroke="#3C0074" stroke-width="5" style=""/>
+<rect x="1669.02" y="972.02" width="25.96" height="25.96" rx="0" fill="#FFF7EF" fill-opacity="1" stroke="#222222" stroke-width="1.4" style=""/>
+<rect x="1669.02" y="972.02" width="6.49" height="6.49" rx="0" fill="#FF4081" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1675.51" y="972.02" width="6.49" height="6.49" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1682" y="972.02" width="6.49" height="6.49" rx="0" fill="#003F8F" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1688.49" y="972.02" width="6.49" height="6.49" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1669.02" y="978.51" width="6.49" height="6.49" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1675.51" y="978.51" width="6.49" height="6.49" rx="0" fill="#EE174C" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1682" y="978.51" width="6.49" height="6.49" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1688.49" y="978.51" width="6.49" height="6.49" rx="0" fill="#FF80AB" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1669.02" y="985" width="6.49" height="6.49" rx="0" fill="#002B66" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1675.51" y="985" width="6.49" height="6.49" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1682" y="985" width="6.49" height="6.49" rx="0" fill="#FF1744" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1688.49" y="985" width="6.49" height="6.49" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<ellipse cx="1814" cy="985" rx="22" ry="22" fill="#F4E8FA" fill-opacity="1" stroke="#3C0074" stroke-width="5" style=""/>
+<rect x="1801.02" y="972.02" width="25.96" height="25.96" rx="0" fill="#ECF7FF" fill-opacity="1" stroke="#222222" stroke-width="1.2" style=""/>
+<polygon points="1803.02,981.106 1805.69,973.318 1810.11,980.846 1814.52,972.539 1819.71,980.846 1824.9,974.356 1824.98,981.885" fill="#FFE62E" fill-opacity="1" stroke="#533A00" stroke-width="1" style=""/>
+<rect x="1803.62" y="981.106" width="20.768" height="13.4992" rx="0" fill="#FFFFFF" fill-opacity="1" stroke="#15479C" stroke-width="1" style=""/>
+<rect x="1806.21" y="985" width="3.3748" height="4.6728" rx="0" fill="#0C5BCA" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1817.63" y="985" width="3.3748" height="4.6728" rx="0" fill="#0C5BCA" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1587" y="786" width="72" height="58" rx="8" fill="#39A7E8" fill-opacity="1" stroke="#39A7E8" stroke-width="1" style=""/>
+<polygon points="1628.76,843 1641,862 1642.44,843" fill="#39A7E8" fill-opacity="1" stroke="#39A7E8" stroke-width="1" style=""/>
+<ellipse cx="1611" cy="816.94" rx="6" ry="6" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<ellipse cx="1629" cy="816.94" rx="6" ry="6" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<ellipse cx="1647" cy="816.94" rx="6" ry="6" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1809" y="770" width="72" height="58" rx="8" fill="#39A7E8" fill-opacity="1" stroke="#39A7E8" stroke-width="1" style=""/>
+<polygon points="1850.76,827 1863,846 1864.44,827" fill="#39A7E8" fill-opacity="1" stroke="#39A7E8" stroke-width="1" style=""/>
+<ellipse cx="1833" cy="800.94" rx="6" ry="6" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<ellipse cx="1851" cy="800.94" rx="6" ry="6" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<ellipse cx="1869" cy="800.94" rx="6" ry="6" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1584" y="906" width="72" height="58" rx="8" fill="#39A7E8" fill-opacity="1" stroke="#39A7E8" stroke-width="1" style=""/>
+<polygon points="1625.76,963 1638,982 1639.44,963" fill="#39A7E8" fill-opacity="1" stroke="#39A7E8" stroke-width="1" style=""/>
+<ellipse cx="1608" cy="936.94" rx="6" ry="6" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<ellipse cx="1626" cy="936.94" rx="6" ry="6" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<ellipse cx="1644" cy="936.94" rx="6" ry="6" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<rect x="1815" y="901" width="72" height="58" rx="8" fill="#39A7E8" fill-opacity="1" stroke="#39A7E8" stroke-width="1" style=""/>
+<polygon points="1856.76,958 1869,977 1870.44,958" fill="#39A7E8" fill-opacity="1" stroke="#39A7E8" stroke-width="1" style=""/>
+<ellipse cx="1839" cy="931.94" rx="6" ry="6" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<ellipse cx="1857" cy="931.94" rx="6" ry="6" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<ellipse cx="1875" cy="931.94" rx="6" ry="6" fill="#FFFFFF" fill-opacity="1" stroke="none" stroke-width="0" style=""/>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:28.52px;fill:#444444;font-weight:400;font-style:italic;"><tspan x="1730.64" y="930.949">G</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:13.8px;fill:#444444;font-weight:400;font-style:italic;"><tspan x="1737.08" y="908.28">(Q)</tspan></text>
+<text text-anchor="start" style="font-family:DejaVu Serif;font-size:12.88px;fill:#444444;font-weight:400;font-style:normal;"><tspan x="1735.24" y="934.96">inter</tspan></text>
+<rect x="1528" y="540" width="12" height="24" rx="0" fill="#FF9999" fill-opacity="1" stroke="#E00000" stroke-width="2" style="" transform="rotate(3 1534 552)"/>
+<rect x="1552" y="538" width="15" height="28" rx="0" fill="#FF9999" fill-opacity="1" stroke="#E00000" stroke-width="2" style="" transform="rotate(-2 1559.5 552)"/>
+<polygon points="1573,538 1668,538 1668,530 1698,552 1668,574 1668,566 1573,566" fill="#FF7777" fill-opacity="1" stroke="#E00000" stroke-width="2.2" style=""/>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:27px;fill:#E60000;font-weight:700;font-style:italic;"><tspan x="1639.5" y="369.84">Update</tspan><tspan x="1639.5" y="399">Insights</tspan></text>
+<text text-anchor="middle" style="font-family:DejaVu Serif;font-size:27px;fill:#E60000;font-weight:700;font-style:italic;"><tspan x="1741" y="706.34">Update</tspan><tspan x="1741" y="735.5">Interaction</tspan></text>
+</svg>
