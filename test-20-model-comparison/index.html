@@ -552,9 +552,10 @@ input:focus, select:focus { border-color: #666; }
   }
 
   .visual-card {
-    display: grid;
-    grid-template-rows: auto clamp(130px, 38vw, 190px) auto auto;
+    display: flex;
+    flex-direction: column;
     width: auto;
+    min-width: 0;
     padding: 0.5rem 0.65rem 0.65rem;
     border: 1px solid var(--line);
     border-radius: 0.5rem;
@@ -576,7 +577,19 @@ input:focus, select:focus { border-color: #666; }
 
   .visual-card:last-child { border-right: 1px solid var(--line); }
 
-  .canvas { height: auto; }
+  .canvas {
+    flex: none;
+    height: clamp(130px, 38vw, 190px);
+    min-height: 0;
+    overflow: hidden;
+  }
+
+  .canvas img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+  }
 
   .card-label {
     padding-bottom: 0.35rem;
