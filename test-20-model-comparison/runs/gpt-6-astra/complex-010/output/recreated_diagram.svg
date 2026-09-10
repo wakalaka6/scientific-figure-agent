@@ -1,0 +1,1346 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1742" height="1156" viewBox="0 0 1742 1156">
+  <title>A dynamic learning strategy for Dempster–Shafer theory</title>
+  <desc>Editable vector reconstruction of the supplied reference. Every diagram element is a vector shape, path, or text object.</desc>
+  <defs>
+    <filter id="shadow" x="-60%" y="-60%" width="240%" height="260%" color-interpolation-filters="sRGB">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3.2" result="blur"/>
+      <feOffset in="blur" dx="1.1" dy="4" result="offset"/>
+      <feFlood flood-color="#5896BA" flood-opacity="0.4" result="color"/>
+      <feComposite in="color" in2="offset" operator="in" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft" x="-60%" y="-60%" width="240%" height="260%" color-interpolation-filters="sRGB">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2" result="blur"/>
+      <feOffset in="blur" dx="0.8" dy="2.5" result="offset"/>
+      <feFlood flood-color="#799EBB" flood-opacity="0.18" result="color"/>
+      <feComposite in="color" in2="offset" operator="in" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="ring" x="-60%" y="-60%" width="240%" height="260%" color-interpolation-filters="sRGB">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2" result="blur"/>
+      <feOffset in="blur" dx="0.5" dy="2" result="offset"/>
+      <feFlood flood-color="#98A1B0" flood-opacity="0.2" result="color"/>
+      <feComposite in="color" in2="offset" operator="in" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#EAC632"/>
+      <stop offset="100%" stop-color="#A1CF77"/>
+    </linearGradient>
+    <linearGradient id="gradient2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#EAC632"/>
+      <stop offset="100%" stop-color="#A1CF77"/>
+    </linearGradient>
+    <linearGradient id="gradient3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#EAC632"/>
+      <stop offset="100%" stop-color="#A1CF77"/>
+    </linearGradient>
+    <linearGradient id="gradient4" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#EAC632"/>
+      <stop offset="100%" stop-color="#A1CF77"/>
+    </linearGradient>
+    <linearGradient id="gradient5" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#EAC632"/>
+      <stop offset="100%" stop-color="#A1CF77"/>
+    </linearGradient>
+    <linearGradient id="gradient6" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#EAC632"/>
+      <stop offset="100%" stop-color="#A1CF77"/>
+    </linearGradient>
+    <linearGradient id="gradient7" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#EAC632"/>
+      <stop offset="100%" stop-color="#A1CF77"/>
+    </linearGradient>
+    <linearGradient id="gradient8" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#EAC632"/>
+      <stop offset="100%" stop-color="#A1CF77"/>
+    </linearGradient>
+    <linearGradient id="gradient9" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#EAC632"/>
+      <stop offset="100%" stop-color="#A1CF77"/>
+    </linearGradient>
+    <linearGradient id="gradient10" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#EAC632"/>
+      <stop offset="100%" stop-color="#A1CF77"/>
+    </linearGradient>
+    <linearGradient id="gradient11" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#EAC632"/>
+      <stop offset="100%" stop-color="#A1CF77"/>
+    </linearGradient>
+    <linearGradient id="gradient12" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#EAC632"/>
+      <stop offset="100%" stop-color="#A1CF77"/>
+    </linearGradient>
+  </defs>
+  <g data-name="Panel backgrounds and headings">
+    <rect fill="#FFFFFF" stroke="none" stroke-width="1" stroke-linejoin="round" x="0" y="0" width="1742" height="1156"/>
+    <rect fill="#DDEBF4" stroke="#BACCD5" stroke-width="0.7" stroke-linejoin="round" filter="url(#shadow)" x="8" y="83" width="1730" height="413"/>
+    <rect fill="#F9F4FA" stroke="#D1CED2" stroke-width="0.7" stroke-linejoin="round" x="8" y="496" width="810" height="660"/>
+    <rect fill="#FEFAEE" stroke="#D8D1BC" stroke-width="0.7" stroke-linejoin="round" x="819" y="496" width="919" height="660"/>
+    <rect fill="#EDC9EB" stroke="#D6C3D6" stroke-width="0.6" stroke-linejoin="round" x="8" y="496" width="810" height="67"/>
+    <rect fill="#F1E8C9" stroke="#D7CEB2" stroke-width="0.6" stroke-linejoin="round" x="819" y="496" width="919" height="67"/>
+    <rect fill="#5A9BD3" stroke="#A2C2DC" stroke-width="0.9" stroke-linejoin="round" filter="url(#shadow)" x="5" y="15" width="1733" height="68"/>
+    <text x="822" y="63" font-family="'Times New Roman', 'Liberation Serif', serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#000000">Adaptive diffusion probability transformation</text>
+    <text x="413" y="538" font-family="'Times New Roman', 'Liberation Serif', serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#000000">Probabilistic reliability assessment</text>
+    <text x="1278" y="538" font-family="'Times New Roman', 'Liberation Serif', serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#000000">Collaborative decision optimization</text>
+  </g>
+  <g data-name="Feature generation">
+    <rect fill="#E9F4F8" stroke="none" stroke-width="1" stroke-linejoin="round" filter="url(#shadow)" x="278" y="100" width="368" height="337" rx="39"/>
+    <rect fill="#88B8E0" stroke="#B6C9D6" stroke-width="0.6" stroke-linejoin="round" x="31" y="115" width="200" height="79"/>
+    <text x="131" y="147" font-family="'Times New Roman', 'Liberation Serif', serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#000000">Pattern</text>
+    <text x="131" y="181" font-family="'Times New Roman', 'Liberation Serif', serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#000000">dataset</text>
+    <rect fill="#88B8E0" stroke="#B6C9D6" stroke-width="0.6" stroke-linejoin="round" x="31" y="202" width="200" height="128"/>
+    <text x="131" y="243" font-family="'Times New Roman', 'Liberation Serif', serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#000000">Image</text>
+    <text x="131" y="275" font-family="'Times New Roman', 'Liberation Serif', serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#000000">classification</text>
+    <text x="131" y="307" font-family="'Times New Roman', 'Liberation Serif', serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#000000">dataset</text>
+    <rect fill="#88B8E0" stroke="#B6C9D6" stroke-width="0.6" stroke-linejoin="round" x="31" y="337" width="200" height="97"/>
+    <text x="131" y="377" font-family="'Times New Roman', 'Liberation Serif', serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#000000">Low-light</text>
+    <text x="131" y="410" font-family="'Times New Roman', 'Liberation Serif', serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#000000">dataset</text>
+    <path fill="#FBE5D4" stroke="#FFAC7C" stroke-width="1.5" stroke-linejoin="round" filter="url(#shadow)" d="M 241.000 174.750 L 267.460 174.750 L 267.460 169.000 L 295.000 180.500 L 267.460 192.000 L 267.460 186.250 L 241.000 186.250 Z "/>
+    <path fill="#E6EFDC" stroke="#548B2C" stroke-width="1.5" stroke-linejoin="round" filter="url(#shadow)" d="M 241.000 363.000 L 267.460 363.000 L 267.460 357.000 L 295.000 369.000 L 267.460 381.000 L 267.460 375.000 L 241.000 375.000 Z "/>
+    <g data-name="Feature volume">
+      <path fill="#C8DDED" stroke="#14212B" stroke-width="0.9" stroke-linejoin="round" d="M 306.000 215.000 L 406.000 131.000 L 464.000 131.000 L 364.000 215.000 Z "/>
+      <path fill="#6BA3D5" stroke="#14212B" stroke-width="0.9" stroke-linejoin="round" filter="url(#shadow)" d="M 364.000 215.000 L 464.000 131.000 L 464.000 322.000 L 364.000 406.000 Z "/>
+      <rect fill="#9FC5E2" stroke="#14212B" stroke-width="0.9" stroke-linejoin="round" filter="url(#shadow)" x="306" y="215" width="58" height="191"/>
+      <path fill="none" stroke="#283742" stroke-width="0.85" stroke-linejoin="round" d="M 335.000 215.000 L 335.000 406.000"/>
+      <path fill="none" stroke="#283742" stroke-width="0.85" stroke-linejoin="round" d="M 335.000 215.000 L 435.000 131.000"/>
+    </g>
+    <g data-name="Feature volume">
+      <path fill="#EAF2F8" stroke="#14212B" stroke-width="0.9" stroke-linejoin="round" d="M 394.000 240.000 L 461.000 183.000 L 528.000 183.000 L 461.000 240.000 Z "/>
+      <path fill="#B6D2EA" stroke="#14212B" stroke-width="0.9" stroke-linejoin="round" filter="url(#shadow)" d="M 461.000 240.000 L 528.000 183.000 L 528.000 310.000 L 461.000 367.000 Z "/>
+      <rect fill="#DDEBF6" stroke="#14212B" stroke-width="0.9" stroke-linejoin="round" filter="url(#shadow)" x="394" y="240" width="67" height="127"/>
+      <path fill="none" stroke="#283742" stroke-width="0.85" stroke-linejoin="round" d="M 416.333 240.000 L 416.333 367.000"/>
+      <path fill="none" stroke="#283742" stroke-width="0.85" stroke-linejoin="round" d="M 416.333 240.000 L 483.333 183.000"/>
+      <path fill="none" stroke="#283742" stroke-width="0.85" stroke-linejoin="round" d="M 438.667 240.000 L 438.667 367.000"/>
+      <path fill="none" stroke="#283742" stroke-width="0.85" stroke-linejoin="round" d="M 438.667 240.000 L 505.667 183.000"/>
+    </g>
+    <g data-name="Feature volume">
+      <path fill="#DEE6F6" stroke="#14212B" stroke-width="0.9" stroke-linejoin="round" d="M 477.000 269.000 L 517.000 234.000 L 590.000 234.000 L 550.000 269.000 Z "/>
+      <path fill="#8EAADB" stroke="#14212B" stroke-width="0.9" stroke-linejoin="round" filter="url(#shadow)" d="M 550.000 269.000 L 590.000 234.000 L 590.000 311.000 L 550.000 346.000 Z "/>
+      <rect fill="#B7C8EB" stroke="#14212B" stroke-width="0.9" stroke-linejoin="round" filter="url(#shadow)" x="477" y="269" width="73" height="77"/>
+      <path fill="none" stroke="#283742" stroke-width="0.85" stroke-linejoin="round" d="M 495.250 269.000 L 495.250 346.000"/>
+      <path fill="none" stroke="#283742" stroke-width="0.85" stroke-linejoin="round" d="M 495.250 269.000 L 535.250 234.000"/>
+      <path fill="none" stroke="#283742" stroke-width="0.85" stroke-linejoin="round" d="M 513.500 269.000 L 513.500 346.000"/>
+      <path fill="none" stroke="#283742" stroke-width="0.85" stroke-linejoin="round" d="M 513.500 269.000 L 553.500 234.000"/>
+      <path fill="none" stroke="#283742" stroke-width="0.85" stroke-linejoin="round" d="M 531.750 269.000 L 531.750 346.000"/>
+      <path fill="none" stroke="#283742" stroke-width="0.85" stroke-linejoin="round" d="M 531.750 269.000 L 571.750 234.000"/>
+    </g>
+    <g data-name="Feature volume">
+      <path fill="#FFFFFF" stroke="#14212B" stroke-width="0.9" stroke-linejoin="round" d="M 568.000 285.000 L 586.000 269.000 L 631.000 269.000 L 613.000 285.000 Z "/>
+      <path fill="#CDE2EE" stroke="#14212B" stroke-width="0.9" stroke-linejoin="round" filter="url(#shadow)" d="M 613.000 285.000 L 631.000 269.000 L 631.000 304.000 L 613.000 320.000 Z "/>
+      <rect fill="#F3F8FB" stroke="#14212B" stroke-width="0.9" stroke-linejoin="round" filter="url(#shadow)" x="568" y="285" width="45" height="35"/>
+      <path fill="none" stroke="#283742" stroke-width="0.85" stroke-linejoin="round" d="M 579.250 285.000 L 579.250 320.000"/>
+      <path fill="none" stroke="#283742" stroke-width="0.85" stroke-linejoin="round" d="M 579.250 285.000 L 597.250 269.000"/>
+      <path fill="none" stroke="#283742" stroke-width="0.85" stroke-linejoin="round" d="M 590.500 285.000 L 590.500 320.000"/>
+      <path fill="none" stroke="#283742" stroke-width="0.85" stroke-linejoin="round" d="M 590.500 285.000 L 608.500 269.000"/>
+      <path fill="none" stroke="#283742" stroke-width="0.85" stroke-linejoin="round" d="M 601.750 285.000 L 601.750 320.000"/>
+      <path fill="none" stroke="#283742" stroke-width="0.85" stroke-linejoin="round" d="M 601.750 285.000 L 619.750 269.000"/>
+    </g>
+    <text x="461" y="475" font-family="'Times New Roman', 'Liberation Serif', serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#000000">Feature generation</text>
+  </g>
+  <g data-name="Build BBA">
+    <path fill="#FBE5D4" stroke="#FFAC7C" stroke-width="1.5" stroke-linejoin="round" filter="url(#shadow)" d="M 633.000 177.750 L 659.460 177.750 L 659.460 172.000 L 687.000 183.500 L 659.460 195.000 L 659.460 189.250 L 633.000 189.250 Z "/>
+    <path fill="#E6EFDC" stroke="#548B2C" stroke-width="1.5" stroke-linejoin="round" filter="url(#shadow)" d="M 633.000 366.000 L 659.460 366.000 L 659.460 360.000 L 687.000 372.000 L 659.460 384.000 L 659.460 378.000 L 633.000 378.000 Z "/>
+    <g data-name="BBA tensor 1">
+      <rect fill="#DCECF5" stroke="#F59FE5" stroke-width="1.6" stroke-linejoin="round" stroke-dasharray="15 9" filter="url(#shadow)" x="693" y="104" width="305" height="97" rx="19"/>
+      <path fill="#FAE9E2" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 714.000 115.000 L 735.700 115.000 L 731.700 111.000 L 710.000 111.000 Z "/>
+      <path fill="#E5BBB4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 710.000 111.000 L 714.000 115.000 L 714.000 133.000 L 710.000 129.000 Z "/>
+      <rect fill="#F9DCD5" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="714.0" y="115" width="21.7" height="18"/>
+      <path fill="#FAE9E2" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 738.900 115.000 L 760.600 115.000 L 756.600 111.000 L 734.900 111.000 Z "/>
+      <path fill="#E5BBB4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 734.900 111.000 L 738.900 115.000 L 738.900 133.000 L 734.900 129.000 Z "/>
+      <rect fill="#F9DCD5" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="738.9" y="115" width="21.7" height="18"/>
+      <path fill="#FAE9E2" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 763.800 115.000 L 785.500 115.000 L 781.500 111.000 L 759.800 111.000 Z "/>
+      <path fill="#E5BBB4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 759.800 111.000 L 763.800 115.000 L 763.800 133.000 L 759.800 129.000 Z "/>
+      <rect fill="#F9DCD5" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="763.8" y="115" width="21.7" height="18"/>
+      <path fill="#FAE9E2" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 788.700 115.000 L 810.400 115.000 L 806.400 111.000 L 784.700 111.000 Z "/>
+      <path fill="#E5BBB4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 784.700 111.000 L 788.700 115.000 L 788.700 133.000 L 784.700 129.000 Z "/>
+      <rect fill="#F9DCD5" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="788.7" y="115" width="21.7" height="18"/>
+      <path fill="#FAE9E2" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 813.600 115.000 L 835.300 115.000 L 831.300 111.000 L 809.600 111.000 Z "/>
+      <path fill="#E5BBB4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 809.600 111.000 L 813.600 115.000 L 813.600 133.000 L 809.600 129.000 Z "/>
+      <rect fill="#F9DCD5" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="813.6" y="115" width="21.7" height="18"/>
+      <path fill="#FAE9E2" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 838.500 115.000 L 860.200 115.000 L 856.200 111.000 L 834.500 111.000 Z "/>
+      <path fill="#E5BBB4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 834.500 111.000 L 838.500 115.000 L 838.500 133.000 L 834.500 129.000 Z "/>
+      <rect fill="#F9DCD5" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="838.5" y="115" width="21.7" height="18"/>
+      <path fill="#FAE9E2" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 863.400 115.000 L 885.100 115.000 L 881.100 111.000 L 859.400 111.000 Z "/>
+      <path fill="#E5BBB4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 859.400 111.000 L 863.400 115.000 L 863.400 133.000 L 859.400 129.000 Z "/>
+      <rect fill="#F9DCD5" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="863.4" y="115" width="21.7" height="18"/>
+      <path fill="#FAE9E2" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 888.300 115.000 L 910.000 115.000 L 906.000 111.000 L 884.300 111.000 Z "/>
+      <path fill="#E5BBB4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 884.300 111.000 L 888.300 115.000 L 888.300 133.000 L 884.300 129.000 Z "/>
+      <rect fill="#F9DCD5" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="888.3" y="115" width="21.7" height="18"/>
+      <path fill="#FAE9E2" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 913.200 115.000 L 934.900 115.000 L 930.900 111.000 L 909.200 111.000 Z "/>
+      <path fill="#E5BBB4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 909.200 111.000 L 913.200 115.000 L 913.200 133.000 L 909.200 129.000 Z "/>
+      <rect fill="#F9DCD5" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="913.2" y="115" width="21.7" height="18"/>
+      <path fill="#FAE9E2" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 938.100 115.000 L 959.800 115.000 L 955.800 111.000 L 934.100 111.000 Z "/>
+      <path fill="#E5BBB4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 934.100 111.000 L 938.100 115.000 L 938.100 133.000 L 934.100 129.000 Z "/>
+      <rect fill="#F9DCD5" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="938.1" y="115" width="21.7" height="18"/>
+      <path fill="#FAE9E2" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 963.000 115.000 L 984.700 115.000 L 980.700 111.000 L 959.000 111.000 Z "/>
+      <path fill="#E5BBB4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 959.000 111.000 L 963.000 115.000 L 963.000 133.000 L 959.000 129.000 Z "/>
+      <rect fill="#F9DCD5" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="963.0" y="115" width="21.7" height="18"/>
+      <path fill="#FFE788" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 714.000 141.000 L 735.700 141.000 L 731.700 137.000 L 710.000 137.000 Z "/>
+      <path fill="#E3BD45" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 710.000 137.000 L 714.000 141.000 L 714.000 159.000 L 710.000 155.000 Z "/>
+      <rect fill="#FFDD66" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="714.0" y="141" width="21.7" height="18"/>
+      <path fill="#FFE788" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 738.900 141.000 L 760.600 141.000 L 756.600 137.000 L 734.900 137.000 Z "/>
+      <path fill="#E3BD45" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 734.900 137.000 L 738.900 141.000 L 738.900 159.000 L 734.900 155.000 Z "/>
+      <rect fill="#FFDD66" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="738.9" y="141" width="21.7" height="18"/>
+      <path fill="#FFE788" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 763.800 141.000 L 785.500 141.000 L 781.500 137.000 L 759.800 137.000 Z "/>
+      <path fill="#E3BD45" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 759.800 137.000 L 763.800 141.000 L 763.800 159.000 L 759.800 155.000 Z "/>
+      <rect fill="#FFDD66" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="763.8" y="141" width="21.7" height="18"/>
+      <path fill="#FFE788" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 788.700 141.000 L 810.400 141.000 L 806.400 137.000 L 784.700 137.000 Z "/>
+      <path fill="#E3BD45" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 784.700 137.000 L 788.700 141.000 L 788.700 159.000 L 784.700 155.000 Z "/>
+      <rect fill="#FFDD66" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="788.7" y="141" width="21.7" height="18"/>
+      <path fill="#FFE788" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 813.600 141.000 L 835.300 141.000 L 831.300 137.000 L 809.600 137.000 Z "/>
+      <path fill="#E3BD45" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 809.600 137.000 L 813.600 141.000 L 813.600 159.000 L 809.600 155.000 Z "/>
+      <rect fill="#FFDD66" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="813.6" y="141" width="21.7" height="18"/>
+      <path fill="#FFE788" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 838.500 141.000 L 860.200 141.000 L 856.200 137.000 L 834.500 137.000 Z "/>
+      <path fill="#E3BD45" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 834.500 137.000 L 838.500 141.000 L 838.500 159.000 L 834.500 155.000 Z "/>
+      <rect fill="#FFDD66" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="838.5" y="141" width="21.7" height="18"/>
+      <path fill="#FFE788" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 863.400 141.000 L 885.100 141.000 L 881.100 137.000 L 859.400 137.000 Z "/>
+      <path fill="#E3BD45" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 859.400 137.000 L 863.400 141.000 L 863.400 159.000 L 859.400 155.000 Z "/>
+      <rect fill="#FFDD66" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="863.4" y="141" width="21.7" height="18"/>
+      <path fill="#FFE788" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 888.300 141.000 L 910.000 141.000 L 906.000 137.000 L 884.300 137.000 Z "/>
+      <path fill="#E3BD45" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 884.300 137.000 L 888.300 141.000 L 888.300 159.000 L 884.300 155.000 Z "/>
+      <rect fill="#FFDD66" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="888.3" y="141" width="21.7" height="18"/>
+      <path fill="#FFE788" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 913.200 141.000 L 934.900 141.000 L 930.900 137.000 L 909.200 137.000 Z "/>
+      <path fill="#E3BD45" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 909.200 137.000 L 913.200 141.000 L 913.200 159.000 L 909.200 155.000 Z "/>
+      <rect fill="#FFDD66" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="913.2" y="141" width="21.7" height="18"/>
+      <path fill="#FFE788" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 938.100 141.000 L 959.800 141.000 L 955.800 137.000 L 934.100 137.000 Z "/>
+      <path fill="#E3BD45" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 934.100 137.000 L 938.100 141.000 L 938.100 159.000 L 934.100 155.000 Z "/>
+      <rect fill="#FFDD66" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="938.1" y="141" width="21.7" height="18"/>
+      <path fill="#FFE788" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 963.000 141.000 L 984.700 141.000 L 980.700 137.000 L 959.000 137.000 Z "/>
+      <path fill="#E3BD45" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 959.000 137.000 L 963.000 141.000 L 963.000 159.000 L 959.000 155.000 Z "/>
+      <rect fill="#FFDD66" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="963.0" y="141" width="21.7" height="18"/>
+      <path fill="#D0C2FE" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 714.000 178.000 L 735.700 178.000 L 731.700 174.000 L 710.000 174.000 Z "/>
+      <path fill="#9D85D3" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 710.000 174.000 L 714.000 178.000 L 714.000 196.000 L 710.000 192.000 Z "/>
+      <rect fill="#BDAAF4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="714.0" y="178" width="21.7" height="18"/>
+      <path fill="#D0C2FE" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 738.900 178.000 L 760.600 178.000 L 756.600 174.000 L 734.900 174.000 Z "/>
+      <path fill="#9D85D3" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 734.900 174.000 L 738.900 178.000 L 738.900 196.000 L 734.900 192.000 Z "/>
+      <rect fill="#BDAAF4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="738.9" y="178" width="21.7" height="18"/>
+      <path fill="#D0C2FE" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 763.800 178.000 L 785.500 178.000 L 781.500 174.000 L 759.800 174.000 Z "/>
+      <path fill="#9D85D3" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 759.800 174.000 L 763.800 178.000 L 763.800 196.000 L 759.800 192.000 Z "/>
+      <rect fill="#BDAAF4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="763.8" y="178" width="21.7" height="18"/>
+      <path fill="#D0C2FE" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 788.700 178.000 L 810.400 178.000 L 806.400 174.000 L 784.700 174.000 Z "/>
+      <path fill="#9D85D3" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 784.700 174.000 L 788.700 178.000 L 788.700 196.000 L 784.700 192.000 Z "/>
+      <rect fill="#BDAAF4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="788.7" y="178" width="21.7" height="18"/>
+      <path fill="#D0C2FE" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 813.600 178.000 L 835.300 178.000 L 831.300 174.000 L 809.600 174.000 Z "/>
+      <path fill="#9D85D3" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 809.600 174.000 L 813.600 178.000 L 813.600 196.000 L 809.600 192.000 Z "/>
+      <rect fill="#BDAAF4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="813.6" y="178" width="21.7" height="18"/>
+      <path fill="#D0C2FE" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 838.500 178.000 L 860.200 178.000 L 856.200 174.000 L 834.500 174.000 Z "/>
+      <path fill="#9D85D3" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 834.500 174.000 L 838.500 178.000 L 838.500 196.000 L 834.500 192.000 Z "/>
+      <rect fill="#BDAAF4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="838.5" y="178" width="21.7" height="18"/>
+      <path fill="#D0C2FE" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 863.400 178.000 L 885.100 178.000 L 881.100 174.000 L 859.400 174.000 Z "/>
+      <path fill="#9D85D3" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 859.400 174.000 L 863.400 178.000 L 863.400 196.000 L 859.400 192.000 Z "/>
+      <rect fill="#BDAAF4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="863.4" y="178" width="21.7" height="18"/>
+      <path fill="#D0C2FE" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 888.300 178.000 L 910.000 178.000 L 906.000 174.000 L 884.300 174.000 Z "/>
+      <path fill="#9D85D3" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 884.300 174.000 L 888.300 178.000 L 888.300 196.000 L 884.300 192.000 Z "/>
+      <rect fill="#BDAAF4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="888.3" y="178" width="21.7" height="18"/>
+      <path fill="#D0C2FE" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 913.200 178.000 L 934.900 178.000 L 930.900 174.000 L 909.200 174.000 Z "/>
+      <path fill="#9D85D3" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 909.200 174.000 L 913.200 178.000 L 913.200 196.000 L 909.200 192.000 Z "/>
+      <rect fill="#BDAAF4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="913.2" y="178" width="21.7" height="18"/>
+      <path fill="#D0C2FE" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 938.100 178.000 L 959.800 178.000 L 955.800 174.000 L 934.100 174.000 Z "/>
+      <path fill="#9D85D3" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 934.100 174.000 L 938.100 178.000 L 938.100 196.000 L 934.100 192.000 Z "/>
+      <rect fill="#BDAAF4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="938.1" y="178" width="21.7" height="18"/>
+      <path fill="#D0C2FE" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 963.000 178.000 L 984.700 178.000 L 980.700 174.000 L 959.000 174.000 Z "/>
+      <path fill="#9D85D3" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 959.000 174.000 L 963.000 178.000 L 963.000 196.000 L 959.000 192.000 Z "/>
+      <rect fill="#BDAAF4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="963.0" y="178" width="21.7" height="18"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="825" y="155.0" width="4.6" height="4.6"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="825" y="163.2" width="4.6" height="4.6"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="825" y="171.4" width="4.6" height="4.6"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="864" y="155.0" width="4.6" height="4.6"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="864" y="163.2" width="4.6" height="4.6"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="864" y="171.4" width="4.6" height="4.6"/>
+    </g>
+    <g data-name="BBA tensor 2">
+      <rect fill="#DCECF5" stroke="#F59FE5" stroke-width="1.6" stroke-linejoin="round" stroke-dasharray="15 9" filter="url(#shadow)" x="693" y="224" width="305" height="97" rx="19"/>
+      <path fill="#FAE9E2" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 714.000 235.000 L 735.700 235.000 L 731.700 231.000 L 710.000 231.000 Z "/>
+      <path fill="#E5BBB4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 710.000 231.000 L 714.000 235.000 L 714.000 253.000 L 710.000 249.000 Z "/>
+      <rect fill="#F9DCD5" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="714.0" y="235" width="21.7" height="18"/>
+      <path fill="#FAE9E2" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 738.900 235.000 L 760.600 235.000 L 756.600 231.000 L 734.900 231.000 Z "/>
+      <path fill="#E5BBB4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 734.900 231.000 L 738.900 235.000 L 738.900 253.000 L 734.900 249.000 Z "/>
+      <rect fill="#F9DCD5" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="738.9" y="235" width="21.7" height="18"/>
+      <path fill="#FAE9E2" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 763.800 235.000 L 785.500 235.000 L 781.500 231.000 L 759.800 231.000 Z "/>
+      <path fill="#E5BBB4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 759.800 231.000 L 763.800 235.000 L 763.800 253.000 L 759.800 249.000 Z "/>
+      <rect fill="#F9DCD5" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="763.8" y="235" width="21.7" height="18"/>
+      <path fill="#FAE9E2" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 788.700 235.000 L 810.400 235.000 L 806.400 231.000 L 784.700 231.000 Z "/>
+      <path fill="#E5BBB4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 784.700 231.000 L 788.700 235.000 L 788.700 253.000 L 784.700 249.000 Z "/>
+      <rect fill="#F9DCD5" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="788.7" y="235" width="21.7" height="18"/>
+      <path fill="#FAE9E2" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 813.600 235.000 L 835.300 235.000 L 831.300 231.000 L 809.600 231.000 Z "/>
+      <path fill="#E5BBB4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 809.600 231.000 L 813.600 235.000 L 813.600 253.000 L 809.600 249.000 Z "/>
+      <rect fill="#F9DCD5" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="813.6" y="235" width="21.7" height="18"/>
+      <path fill="#FAE9E2" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 838.500 235.000 L 860.200 235.000 L 856.200 231.000 L 834.500 231.000 Z "/>
+      <path fill="#E5BBB4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 834.500 231.000 L 838.500 235.000 L 838.500 253.000 L 834.500 249.000 Z "/>
+      <rect fill="#F9DCD5" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="838.5" y="235" width="21.7" height="18"/>
+      <path fill="#FAE9E2" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 863.400 235.000 L 885.100 235.000 L 881.100 231.000 L 859.400 231.000 Z "/>
+      <path fill="#E5BBB4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 859.400 231.000 L 863.400 235.000 L 863.400 253.000 L 859.400 249.000 Z "/>
+      <rect fill="#F9DCD5" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="863.4" y="235" width="21.7" height="18"/>
+      <path fill="#FAE9E2" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 888.300 235.000 L 910.000 235.000 L 906.000 231.000 L 884.300 231.000 Z "/>
+      <path fill="#E5BBB4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 884.300 231.000 L 888.300 235.000 L 888.300 253.000 L 884.300 249.000 Z "/>
+      <rect fill="#F9DCD5" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="888.3" y="235" width="21.7" height="18"/>
+      <path fill="#FAE9E2" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 913.200 235.000 L 934.900 235.000 L 930.900 231.000 L 909.200 231.000 Z "/>
+      <path fill="#E5BBB4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 909.200 231.000 L 913.200 235.000 L 913.200 253.000 L 909.200 249.000 Z "/>
+      <rect fill="#F9DCD5" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="913.2" y="235" width="21.7" height="18"/>
+      <path fill="#FAE9E2" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 938.100 235.000 L 959.800 235.000 L 955.800 231.000 L 934.100 231.000 Z "/>
+      <path fill="#E5BBB4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 934.100 231.000 L 938.100 235.000 L 938.100 253.000 L 934.100 249.000 Z "/>
+      <rect fill="#F9DCD5" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="938.1" y="235" width="21.7" height="18"/>
+      <path fill="#FAE9E2" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 963.000 235.000 L 984.700 235.000 L 980.700 231.000 L 959.000 231.000 Z "/>
+      <path fill="#E5BBB4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 959.000 231.000 L 963.000 235.000 L 963.000 253.000 L 959.000 249.000 Z "/>
+      <rect fill="#F9DCD5" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="963.0" y="235" width="21.7" height="18"/>
+      <path fill="#FFE788" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 714.000 261.000 L 735.700 261.000 L 731.700 257.000 L 710.000 257.000 Z "/>
+      <path fill="#E3BD45" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 710.000 257.000 L 714.000 261.000 L 714.000 279.000 L 710.000 275.000 Z "/>
+      <rect fill="#FFDD66" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="714.0" y="261" width="21.7" height="18"/>
+      <path fill="#FFE788" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 738.900 261.000 L 760.600 261.000 L 756.600 257.000 L 734.900 257.000 Z "/>
+      <path fill="#E3BD45" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 734.900 257.000 L 738.900 261.000 L 738.900 279.000 L 734.900 275.000 Z "/>
+      <rect fill="#FFDD66" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="738.9" y="261" width="21.7" height="18"/>
+      <path fill="#FFE788" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 763.800 261.000 L 785.500 261.000 L 781.500 257.000 L 759.800 257.000 Z "/>
+      <path fill="#E3BD45" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 759.800 257.000 L 763.800 261.000 L 763.800 279.000 L 759.800 275.000 Z "/>
+      <rect fill="#FFDD66" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="763.8" y="261" width="21.7" height="18"/>
+      <path fill="#FFE788" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 788.700 261.000 L 810.400 261.000 L 806.400 257.000 L 784.700 257.000 Z "/>
+      <path fill="#E3BD45" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 784.700 257.000 L 788.700 261.000 L 788.700 279.000 L 784.700 275.000 Z "/>
+      <rect fill="#FFDD66" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="788.7" y="261" width="21.7" height="18"/>
+      <path fill="#FFE788" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 813.600 261.000 L 835.300 261.000 L 831.300 257.000 L 809.600 257.000 Z "/>
+      <path fill="#E3BD45" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 809.600 257.000 L 813.600 261.000 L 813.600 279.000 L 809.600 275.000 Z "/>
+      <rect fill="#FFDD66" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="813.6" y="261" width="21.7" height="18"/>
+      <path fill="#FFE788" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 838.500 261.000 L 860.200 261.000 L 856.200 257.000 L 834.500 257.000 Z "/>
+      <path fill="#E3BD45" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 834.500 257.000 L 838.500 261.000 L 838.500 279.000 L 834.500 275.000 Z "/>
+      <rect fill="#FFDD66" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="838.5" y="261" width="21.7" height="18"/>
+      <path fill="#FFE788" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 863.400 261.000 L 885.100 261.000 L 881.100 257.000 L 859.400 257.000 Z "/>
+      <path fill="#E3BD45" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 859.400 257.000 L 863.400 261.000 L 863.400 279.000 L 859.400 275.000 Z "/>
+      <rect fill="#FFDD66" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="863.4" y="261" width="21.7" height="18"/>
+      <path fill="#FFE788" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 888.300 261.000 L 910.000 261.000 L 906.000 257.000 L 884.300 257.000 Z "/>
+      <path fill="#E3BD45" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 884.300 257.000 L 888.300 261.000 L 888.300 279.000 L 884.300 275.000 Z "/>
+      <rect fill="#FFDD66" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="888.3" y="261" width="21.7" height="18"/>
+      <path fill="#FFE788" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 913.200 261.000 L 934.900 261.000 L 930.900 257.000 L 909.200 257.000 Z "/>
+      <path fill="#E3BD45" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 909.200 257.000 L 913.200 261.000 L 913.200 279.000 L 909.200 275.000 Z "/>
+      <rect fill="#FFDD66" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="913.2" y="261" width="21.7" height="18"/>
+      <path fill="#FFE788" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 938.100 261.000 L 959.800 261.000 L 955.800 257.000 L 934.100 257.000 Z "/>
+      <path fill="#E3BD45" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 934.100 257.000 L 938.100 261.000 L 938.100 279.000 L 934.100 275.000 Z "/>
+      <rect fill="#FFDD66" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="938.1" y="261" width="21.7" height="18"/>
+      <path fill="#FFE788" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 963.000 261.000 L 984.700 261.000 L 980.700 257.000 L 959.000 257.000 Z "/>
+      <path fill="#E3BD45" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 959.000 257.000 L 963.000 261.000 L 963.000 279.000 L 959.000 275.000 Z "/>
+      <rect fill="#FFDD66" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="963.0" y="261" width="21.7" height="18"/>
+      <path fill="#D0C2FE" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 714.000 298.000 L 735.700 298.000 L 731.700 294.000 L 710.000 294.000 Z "/>
+      <path fill="#9D85D3" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 710.000 294.000 L 714.000 298.000 L 714.000 316.000 L 710.000 312.000 Z "/>
+      <rect fill="#BDAAF4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="714.0" y="298" width="21.7" height="18"/>
+      <path fill="#D0C2FE" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 738.900 298.000 L 760.600 298.000 L 756.600 294.000 L 734.900 294.000 Z "/>
+      <path fill="#9D85D3" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 734.900 294.000 L 738.900 298.000 L 738.900 316.000 L 734.900 312.000 Z "/>
+      <rect fill="#BDAAF4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="738.9" y="298" width="21.7" height="18"/>
+      <path fill="#D0C2FE" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 763.800 298.000 L 785.500 298.000 L 781.500 294.000 L 759.800 294.000 Z "/>
+      <path fill="#9D85D3" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 759.800 294.000 L 763.800 298.000 L 763.800 316.000 L 759.800 312.000 Z "/>
+      <rect fill="#BDAAF4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="763.8" y="298" width="21.7" height="18"/>
+      <path fill="#D0C2FE" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 788.700 298.000 L 810.400 298.000 L 806.400 294.000 L 784.700 294.000 Z "/>
+      <path fill="#9D85D3" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 784.700 294.000 L 788.700 298.000 L 788.700 316.000 L 784.700 312.000 Z "/>
+      <rect fill="#BDAAF4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="788.7" y="298" width="21.7" height="18"/>
+      <path fill="#D0C2FE" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 813.600 298.000 L 835.300 298.000 L 831.300 294.000 L 809.600 294.000 Z "/>
+      <path fill="#9D85D3" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 809.600 294.000 L 813.600 298.000 L 813.600 316.000 L 809.600 312.000 Z "/>
+      <rect fill="#BDAAF4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="813.6" y="298" width="21.7" height="18"/>
+      <path fill="#D0C2FE" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 838.500 298.000 L 860.200 298.000 L 856.200 294.000 L 834.500 294.000 Z "/>
+      <path fill="#9D85D3" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 834.500 294.000 L 838.500 298.000 L 838.500 316.000 L 834.500 312.000 Z "/>
+      <rect fill="#BDAAF4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="838.5" y="298" width="21.7" height="18"/>
+      <path fill="#D0C2FE" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 863.400 298.000 L 885.100 298.000 L 881.100 294.000 L 859.400 294.000 Z "/>
+      <path fill="#9D85D3" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 859.400 294.000 L 863.400 298.000 L 863.400 316.000 L 859.400 312.000 Z "/>
+      <rect fill="#BDAAF4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="863.4" y="298" width="21.7" height="18"/>
+      <path fill="#D0C2FE" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 888.300 298.000 L 910.000 298.000 L 906.000 294.000 L 884.300 294.000 Z "/>
+      <path fill="#9D85D3" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 884.300 294.000 L 888.300 298.000 L 888.300 316.000 L 884.300 312.000 Z "/>
+      <rect fill="#BDAAF4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="888.3" y="298" width="21.7" height="18"/>
+      <path fill="#D0C2FE" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 913.200 298.000 L 934.900 298.000 L 930.900 294.000 L 909.200 294.000 Z "/>
+      <path fill="#9D85D3" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 909.200 294.000 L 913.200 298.000 L 913.200 316.000 L 909.200 312.000 Z "/>
+      <rect fill="#BDAAF4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="913.2" y="298" width="21.7" height="18"/>
+      <path fill="#D0C2FE" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 938.100 298.000 L 959.800 298.000 L 955.800 294.000 L 934.100 294.000 Z "/>
+      <path fill="#9D85D3" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 934.100 294.000 L 938.100 298.000 L 938.100 316.000 L 934.100 312.000 Z "/>
+      <rect fill="#BDAAF4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="938.1" y="298" width="21.7" height="18"/>
+      <path fill="#D0C2FE" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 963.000 298.000 L 984.700 298.000 L 980.700 294.000 L 959.000 294.000 Z "/>
+      <path fill="#9D85D3" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 959.000 294.000 L 963.000 298.000 L 963.000 316.000 L 959.000 312.000 Z "/>
+      <rect fill="#BDAAF4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="963.0" y="298" width="21.7" height="18"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="825" y="275.0" width="4.6" height="4.6"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="825" y="283.2" width="4.6" height="4.6"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="825" y="291.4" width="4.6" height="4.6"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="864" y="275.0" width="4.6" height="4.6"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="864" y="283.2" width="4.6" height="4.6"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="864" y="291.4" width="4.6" height="4.6"/>
+    </g>
+    <g data-name="BBA tensor 3">
+      <rect fill="#DCECF5" stroke="#F59FE5" stroke-width="1.6" stroke-linejoin="round" stroke-dasharray="15 9" filter="url(#shadow)" x="693" y="340" width="305" height="97" rx="19"/>
+      <path fill="#FAE9E2" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 714.000 351.000 L 735.700 351.000 L 731.700 347.000 L 710.000 347.000 Z "/>
+      <path fill="#E5BBB4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 710.000 347.000 L 714.000 351.000 L 714.000 369.000 L 710.000 365.000 Z "/>
+      <rect fill="#F9DCD5" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="714.0" y="351" width="21.7" height="18"/>
+      <path fill="#FAE9E2" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 738.900 351.000 L 760.600 351.000 L 756.600 347.000 L 734.900 347.000 Z "/>
+      <path fill="#E5BBB4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 734.900 347.000 L 738.900 351.000 L 738.900 369.000 L 734.900 365.000 Z "/>
+      <rect fill="#F9DCD5" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="738.9" y="351" width="21.7" height="18"/>
+      <path fill="#FAE9E2" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 763.800 351.000 L 785.500 351.000 L 781.500 347.000 L 759.800 347.000 Z "/>
+      <path fill="#E5BBB4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 759.800 347.000 L 763.800 351.000 L 763.800 369.000 L 759.800 365.000 Z "/>
+      <rect fill="#F9DCD5" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="763.8" y="351" width="21.7" height="18"/>
+      <path fill="#FAE9E2" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 788.700 351.000 L 810.400 351.000 L 806.400 347.000 L 784.700 347.000 Z "/>
+      <path fill="#E5BBB4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 784.700 347.000 L 788.700 351.000 L 788.700 369.000 L 784.700 365.000 Z "/>
+      <rect fill="#F9DCD5" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="788.7" y="351" width="21.7" height="18"/>
+      <path fill="#FAE9E2" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 813.600 351.000 L 835.300 351.000 L 831.300 347.000 L 809.600 347.000 Z "/>
+      <path fill="#E5BBB4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 809.600 347.000 L 813.600 351.000 L 813.600 369.000 L 809.600 365.000 Z "/>
+      <rect fill="#F9DCD5" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="813.6" y="351" width="21.7" height="18"/>
+      <path fill="#FAE9E2" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 838.500 351.000 L 860.200 351.000 L 856.200 347.000 L 834.500 347.000 Z "/>
+      <path fill="#E5BBB4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 834.500 347.000 L 838.500 351.000 L 838.500 369.000 L 834.500 365.000 Z "/>
+      <rect fill="#F9DCD5" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="838.5" y="351" width="21.7" height="18"/>
+      <path fill="#FAE9E2" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 863.400 351.000 L 885.100 351.000 L 881.100 347.000 L 859.400 347.000 Z "/>
+      <path fill="#E5BBB4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 859.400 347.000 L 863.400 351.000 L 863.400 369.000 L 859.400 365.000 Z "/>
+      <rect fill="#F9DCD5" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="863.4" y="351" width="21.7" height="18"/>
+      <path fill="#FAE9E2" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 888.300 351.000 L 910.000 351.000 L 906.000 347.000 L 884.300 347.000 Z "/>
+      <path fill="#E5BBB4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 884.300 347.000 L 888.300 351.000 L 888.300 369.000 L 884.300 365.000 Z "/>
+      <rect fill="#F9DCD5" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="888.3" y="351" width="21.7" height="18"/>
+      <path fill="#FAE9E2" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 913.200 351.000 L 934.900 351.000 L 930.900 347.000 L 909.200 347.000 Z "/>
+      <path fill="#E5BBB4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 909.200 347.000 L 913.200 351.000 L 913.200 369.000 L 909.200 365.000 Z "/>
+      <rect fill="#F9DCD5" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="913.2" y="351" width="21.7" height="18"/>
+      <path fill="#FAE9E2" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 938.100 351.000 L 959.800 351.000 L 955.800 347.000 L 934.100 347.000 Z "/>
+      <path fill="#E5BBB4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 934.100 347.000 L 938.100 351.000 L 938.100 369.000 L 934.100 365.000 Z "/>
+      <rect fill="#F9DCD5" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="938.1" y="351" width="21.7" height="18"/>
+      <path fill="#FAE9E2" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 963.000 351.000 L 984.700 351.000 L 980.700 347.000 L 959.000 347.000 Z "/>
+      <path fill="#E5BBB4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 959.000 347.000 L 963.000 351.000 L 963.000 369.000 L 959.000 365.000 Z "/>
+      <rect fill="#F9DCD5" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="963.0" y="351" width="21.7" height="18"/>
+      <path fill="#FFE788" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 714.000 377.000 L 735.700 377.000 L 731.700 373.000 L 710.000 373.000 Z "/>
+      <path fill="#E3BD45" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 710.000 373.000 L 714.000 377.000 L 714.000 395.000 L 710.000 391.000 Z "/>
+      <rect fill="#FFDD66" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="714.0" y="377" width="21.7" height="18"/>
+      <path fill="#FFE788" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 738.900 377.000 L 760.600 377.000 L 756.600 373.000 L 734.900 373.000 Z "/>
+      <path fill="#E3BD45" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 734.900 373.000 L 738.900 377.000 L 738.900 395.000 L 734.900 391.000 Z "/>
+      <rect fill="#FFDD66" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="738.9" y="377" width="21.7" height="18"/>
+      <path fill="#FFE788" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 763.800 377.000 L 785.500 377.000 L 781.500 373.000 L 759.800 373.000 Z "/>
+      <path fill="#E3BD45" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 759.800 373.000 L 763.800 377.000 L 763.800 395.000 L 759.800 391.000 Z "/>
+      <rect fill="#FFDD66" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="763.8" y="377" width="21.7" height="18"/>
+      <path fill="#FFE788" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 788.700 377.000 L 810.400 377.000 L 806.400 373.000 L 784.700 373.000 Z "/>
+      <path fill="#E3BD45" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 784.700 373.000 L 788.700 377.000 L 788.700 395.000 L 784.700 391.000 Z "/>
+      <rect fill="#FFDD66" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="788.7" y="377" width="21.7" height="18"/>
+      <path fill="#FFE788" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 813.600 377.000 L 835.300 377.000 L 831.300 373.000 L 809.600 373.000 Z "/>
+      <path fill="#E3BD45" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 809.600 373.000 L 813.600 377.000 L 813.600 395.000 L 809.600 391.000 Z "/>
+      <rect fill="#FFDD66" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="813.6" y="377" width="21.7" height="18"/>
+      <path fill="#FFE788" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 838.500 377.000 L 860.200 377.000 L 856.200 373.000 L 834.500 373.000 Z "/>
+      <path fill="#E3BD45" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 834.500 373.000 L 838.500 377.000 L 838.500 395.000 L 834.500 391.000 Z "/>
+      <rect fill="#FFDD66" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="838.5" y="377" width="21.7" height="18"/>
+      <path fill="#FFE788" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 863.400 377.000 L 885.100 377.000 L 881.100 373.000 L 859.400 373.000 Z "/>
+      <path fill="#E3BD45" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 859.400 373.000 L 863.400 377.000 L 863.400 395.000 L 859.400 391.000 Z "/>
+      <rect fill="#FFDD66" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="863.4" y="377" width="21.7" height="18"/>
+      <path fill="#FFE788" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 888.300 377.000 L 910.000 377.000 L 906.000 373.000 L 884.300 373.000 Z "/>
+      <path fill="#E3BD45" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 884.300 373.000 L 888.300 377.000 L 888.300 395.000 L 884.300 391.000 Z "/>
+      <rect fill="#FFDD66" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="888.3" y="377" width="21.7" height="18"/>
+      <path fill="#FFE788" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 913.200 377.000 L 934.900 377.000 L 930.900 373.000 L 909.200 373.000 Z "/>
+      <path fill="#E3BD45" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 909.200 373.000 L 913.200 377.000 L 913.200 395.000 L 909.200 391.000 Z "/>
+      <rect fill="#FFDD66" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="913.2" y="377" width="21.7" height="18"/>
+      <path fill="#FFE788" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 938.100 377.000 L 959.800 377.000 L 955.800 373.000 L 934.100 373.000 Z "/>
+      <path fill="#E3BD45" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 934.100 373.000 L 938.100 377.000 L 938.100 395.000 L 934.100 391.000 Z "/>
+      <rect fill="#FFDD66" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="938.1" y="377" width="21.7" height="18"/>
+      <path fill="#FFE788" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 963.000 377.000 L 984.700 377.000 L 980.700 373.000 L 959.000 373.000 Z "/>
+      <path fill="#E3BD45" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 959.000 373.000 L 963.000 377.000 L 963.000 395.000 L 959.000 391.000 Z "/>
+      <rect fill="#FFDD66" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="963.0" y="377" width="21.7" height="18"/>
+      <path fill="#D0C2FE" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 714.000 414.000 L 735.700 414.000 L 731.700 410.000 L 710.000 410.000 Z "/>
+      <path fill="#9D85D3" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 710.000 410.000 L 714.000 414.000 L 714.000 432.000 L 710.000 428.000 Z "/>
+      <rect fill="#BDAAF4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="714.0" y="414" width="21.7" height="18"/>
+      <path fill="#D0C2FE" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 738.900 414.000 L 760.600 414.000 L 756.600 410.000 L 734.900 410.000 Z "/>
+      <path fill="#9D85D3" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 734.900 410.000 L 738.900 414.000 L 738.900 432.000 L 734.900 428.000 Z "/>
+      <rect fill="#BDAAF4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="738.9" y="414" width="21.7" height="18"/>
+      <path fill="#D0C2FE" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 763.800 414.000 L 785.500 414.000 L 781.500 410.000 L 759.800 410.000 Z "/>
+      <path fill="#9D85D3" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 759.800 410.000 L 763.800 414.000 L 763.800 432.000 L 759.800 428.000 Z "/>
+      <rect fill="#BDAAF4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="763.8" y="414" width="21.7" height="18"/>
+      <path fill="#D0C2FE" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 788.700 414.000 L 810.400 414.000 L 806.400 410.000 L 784.700 410.000 Z "/>
+      <path fill="#9D85D3" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 784.700 410.000 L 788.700 414.000 L 788.700 432.000 L 784.700 428.000 Z "/>
+      <rect fill="#BDAAF4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="788.7" y="414" width="21.7" height="18"/>
+      <path fill="#D0C2FE" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 813.600 414.000 L 835.300 414.000 L 831.300 410.000 L 809.600 410.000 Z "/>
+      <path fill="#9D85D3" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 809.600 410.000 L 813.600 414.000 L 813.600 432.000 L 809.600 428.000 Z "/>
+      <rect fill="#BDAAF4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="813.6" y="414" width="21.7" height="18"/>
+      <path fill="#D0C2FE" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 838.500 414.000 L 860.200 414.000 L 856.200 410.000 L 834.500 410.000 Z "/>
+      <path fill="#9D85D3" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 834.500 410.000 L 838.500 414.000 L 838.500 432.000 L 834.500 428.000 Z "/>
+      <rect fill="#BDAAF4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="838.5" y="414" width="21.7" height="18"/>
+      <path fill="#D0C2FE" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 863.400 414.000 L 885.100 414.000 L 881.100 410.000 L 859.400 410.000 Z "/>
+      <path fill="#9D85D3" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 859.400 410.000 L 863.400 414.000 L 863.400 432.000 L 859.400 428.000 Z "/>
+      <rect fill="#BDAAF4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="863.4" y="414" width="21.7" height="18"/>
+      <path fill="#D0C2FE" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 888.300 414.000 L 910.000 414.000 L 906.000 410.000 L 884.300 410.000 Z "/>
+      <path fill="#9D85D3" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 884.300 410.000 L 888.300 414.000 L 888.300 432.000 L 884.300 428.000 Z "/>
+      <rect fill="#BDAAF4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="888.3" y="414" width="21.7" height="18"/>
+      <path fill="#D0C2FE" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 913.200 414.000 L 934.900 414.000 L 930.900 410.000 L 909.200 410.000 Z "/>
+      <path fill="#9D85D3" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 909.200 410.000 L 913.200 414.000 L 913.200 432.000 L 909.200 428.000 Z "/>
+      <rect fill="#BDAAF4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="913.2" y="414" width="21.7" height="18"/>
+      <path fill="#D0C2FE" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 938.100 414.000 L 959.800 414.000 L 955.800 410.000 L 934.100 410.000 Z "/>
+      <path fill="#9D85D3" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 934.100 410.000 L 938.100 414.000 L 938.100 432.000 L 934.100 428.000 Z "/>
+      <rect fill="#BDAAF4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="938.1" y="414" width="21.7" height="18"/>
+      <path fill="#D0C2FE" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 963.000 414.000 L 984.700 414.000 L 980.700 410.000 L 959.000 410.000 Z "/>
+      <path fill="#9D85D3" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" d="M 959.000 410.000 L 963.000 414.000 L 963.000 432.000 L 959.000 428.000 Z "/>
+      <rect fill="#BDAAF4" stroke="#13121A" stroke-width="0.75" stroke-linejoin="round" x="963.0" y="414" width="21.7" height="18"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="825" y="391.0" width="4.6" height="4.6"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="825" y="399.2" width="4.6" height="4.6"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="825" y="407.4" width="4.6" height="4.6"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="864" y="391.0" width="4.6" height="4.6"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="864" y="399.2" width="4.6" height="4.6"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="864" y="407.4" width="4.6" height="4.6"/>
+    </g>
+    <text x="849" y="475" font-family="'Times New Roman', 'Liberation Serif', serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#000000">Build BBA</text>
+  </g>
+  <g data-name="Adaptive transformation">
+    <path fill="#FBE5D4" stroke="#FFAC7C" stroke-width="1.5" stroke-linejoin="round" filter="url(#shadow)" d="M 1017.000 168.000 L 1043.460 168.000 L 1043.460 162.000 L 1071.000 174.000 L 1043.460 186.000 L 1043.460 180.000 L 1017.000 180.000 Z "/>
+    <path fill="#E6EFDC" stroke="#548B2C" stroke-width="1.5" stroke-linejoin="round" filter="url(#shadow)" d="M 1017.000 371.000 L 1043.460 371.000 L 1043.460 365.000 L 1071.000 377.000 L 1043.460 389.000 L 1043.460 383.000 L 1017.000 383.000 Z "/>
+    <g data-name="Learned weights and diffusion connections">
+      <rect fill="url(#gradient1)" stroke="#ADCF90" stroke-width="0.6" stroke-linejoin="round" filter="url(#shadow)" x="1083" y="104.0" width="22" height="20"/>
+      <path fill="none" stroke="#FFB187" stroke-width="1.1" stroke-linejoin="round" d="M 1109.000 114.000 L 1156.000 114.000"/>
+      <path fill="#FFB187" stroke="none" stroke-width="1" stroke-linejoin="round" d="M 1108.000 114.000 L 1124.000 106.000 L 1121.000 114.000 L 1124.000 122.000 Z "/>
+      <path fill="#FFB187" stroke="none" stroke-width="1" stroke-linejoin="round" d="M 1157.000 114.000 L 1140.000 106.000 L 1144.000 114.000 L 1140.000 122.000 Z "/>
+      <ellipse fill="#BFC0C2" stroke="none" stroke-width="1" stroke-linejoin="round" filter="url(#shadow)" cx="1170.0" cy="114.0" rx="12.0" ry="10.0"/>
+      <rect fill="url(#gradient2)" stroke="#ADCF90" stroke-width="0.6" stroke-linejoin="round" filter="url(#shadow)" x="1083" y="131.8" width="22" height="20"/>
+      <path fill="none" stroke="#FFB187" stroke-width="1.1" stroke-linejoin="round" d="M 1109.000 141.800 L 1156.000 141.800"/>
+      <path fill="#FFB187" stroke="none" stroke-width="1" stroke-linejoin="round" d="M 1108.000 141.800 L 1124.000 133.800 L 1121.000 141.800 L 1124.000 149.800 Z "/>
+      <path fill="#FFB187" stroke="none" stroke-width="1" stroke-linejoin="round" d="M 1157.000 141.800 L 1140.000 133.800 L 1144.000 141.800 L 1140.000 149.800 Z "/>
+      <ellipse fill="#5E5F60" stroke="none" stroke-width="1" stroke-linejoin="round" filter="url(#shadow)" cx="1170.0" cy="141.8" rx="12.0" ry="10.0"/>
+      <rect fill="url(#gradient3)" stroke="#ADCF90" stroke-width="0.6" stroke-linejoin="round" filter="url(#shadow)" x="1083" y="159.6" width="22" height="20"/>
+      <path fill="none" stroke="#FFB187" stroke-width="1.1" stroke-linejoin="round" d="M 1109.000 169.600 L 1156.000 169.600"/>
+      <path fill="#FFB187" stroke="none" stroke-width="1" stroke-linejoin="round" d="M 1108.000 169.600 L 1124.000 161.600 L 1121.000 169.600 L 1124.000 177.600 Z "/>
+      <path fill="#FFB187" stroke="none" stroke-width="1" stroke-linejoin="round" d="M 1157.000 169.600 L 1140.000 161.600 L 1144.000 169.600 L 1140.000 177.600 Z "/>
+      <ellipse fill="#BFC0C2" stroke="none" stroke-width="1" stroke-linejoin="round" filter="url(#shadow)" cx="1170.0" cy="169.6" rx="12.0" ry="10.0"/>
+      <rect fill="url(#gradient4)" stroke="#ADCF90" stroke-width="0.6" stroke-linejoin="round" filter="url(#shadow)" x="1083" y="187.4" width="22" height="20"/>
+      <path fill="none" stroke="#FFB187" stroke-width="1.1" stroke-linejoin="round" d="M 1109.000 197.400 L 1156.000 197.400"/>
+      <path fill="#FFB187" stroke="none" stroke-width="1" stroke-linejoin="round" d="M 1108.000 197.400 L 1124.000 189.400 L 1121.000 197.400 L 1124.000 205.400 Z "/>
+      <path fill="#FFB187" stroke="none" stroke-width="1" stroke-linejoin="round" d="M 1157.000 197.400 L 1140.000 189.400 L 1144.000 197.400 L 1140.000 205.400 Z "/>
+      <ellipse fill="#5E5F60" stroke="none" stroke-width="1" stroke-linejoin="round" filter="url(#shadow)" cx="1170.0" cy="197.4" rx="12.0" ry="10.0"/>
+      <rect fill="url(#gradient5)" stroke="#ADCF90" stroke-width="0.6" stroke-linejoin="round" filter="url(#shadow)" x="1083" y="215.2" width="22" height="20"/>
+      <path fill="none" stroke="#FFB187" stroke-width="1.1" stroke-linejoin="round" d="M 1109.000 225.200 L 1156.000 225.200"/>
+      <path fill="#FFB187" stroke="none" stroke-width="1" stroke-linejoin="round" d="M 1108.000 225.200 L 1124.000 217.200 L 1121.000 225.200 L 1124.000 233.200 Z "/>
+      <path fill="#FFB187" stroke="none" stroke-width="1" stroke-linejoin="round" d="M 1157.000 225.200 L 1140.000 217.200 L 1144.000 225.200 L 1140.000 233.200 Z "/>
+      <ellipse fill="#BFC0C2" stroke="none" stroke-width="1" stroke-linejoin="round" filter="url(#shadow)" cx="1170.0" cy="225.2" rx="12.0" ry="10.0"/>
+      <rect fill="url(#gradient6)" stroke="#ADCF90" stroke-width="0.6" stroke-linejoin="round" filter="url(#shadow)" x="1083" y="243.0" width="22" height="20"/>
+      <path fill="none" stroke="#FFB187" stroke-width="1.1" stroke-linejoin="round" d="M 1109.000 253.000 L 1156.000 253.000"/>
+      <path fill="#FFB187" stroke="none" stroke-width="1" stroke-linejoin="round" d="M 1108.000 253.000 L 1124.000 245.000 L 1121.000 253.000 L 1124.000 261.000 Z "/>
+      <path fill="#FFB187" stroke="none" stroke-width="1" stroke-linejoin="round" d="M 1157.000 253.000 L 1140.000 245.000 L 1144.000 253.000 L 1140.000 261.000 Z "/>
+      <ellipse fill="#5E5F60" stroke="none" stroke-width="1" stroke-linejoin="round" filter="url(#shadow)" cx="1170.0" cy="253.0" rx="12.0" ry="10.0"/>
+      <rect fill="url(#gradient7)" stroke="#ADCF90" stroke-width="0.6" stroke-linejoin="round" filter="url(#shadow)" x="1083" y="270.8" width="22" height="20"/>
+      <path fill="none" stroke="#FFB187" stroke-width="1.1" stroke-linejoin="round" d="M 1109.000 280.800 L 1156.000 280.800"/>
+      <path fill="#FFB187" stroke="none" stroke-width="1" stroke-linejoin="round" d="M 1108.000 280.800 L 1124.000 272.800 L 1121.000 280.800 L 1124.000 288.800 Z "/>
+      <path fill="#FFB187" stroke="none" stroke-width="1" stroke-linejoin="round" d="M 1157.000 280.800 L 1140.000 272.800 L 1144.000 280.800 L 1140.000 288.800 Z "/>
+      <ellipse fill="#BFC0C2" stroke="none" stroke-width="1" stroke-linejoin="round" filter="url(#shadow)" cx="1170.0" cy="280.8" rx="12.0" ry="10.0"/>
+      <rect fill="url(#gradient8)" stroke="#ADCF90" stroke-width="0.6" stroke-linejoin="round" filter="url(#shadow)" x="1083" y="298.6" width="22" height="20"/>
+      <path fill="none" stroke="#FFB187" stroke-width="1.1" stroke-linejoin="round" d="M 1109.000 308.600 L 1156.000 308.600"/>
+      <path fill="#FFB187" stroke="none" stroke-width="1" stroke-linejoin="round" d="M 1108.000 308.600 L 1124.000 300.600 L 1121.000 308.600 L 1124.000 316.600 Z "/>
+      <path fill="#FFB187" stroke="none" stroke-width="1" stroke-linejoin="round" d="M 1157.000 308.600 L 1140.000 300.600 L 1144.000 308.600 L 1140.000 316.600 Z "/>
+      <ellipse fill="#5E5F60" stroke="none" stroke-width="1" stroke-linejoin="round" filter="url(#shadow)" cx="1170.0" cy="308.6" rx="12.0" ry="10.0"/>
+      <rect fill="url(#gradient9)" stroke="#ADCF90" stroke-width="0.6" stroke-linejoin="round" filter="url(#shadow)" x="1083" y="326.4" width="22" height="20"/>
+      <path fill="none" stroke="#FFB187" stroke-width="1.1" stroke-linejoin="round" d="M 1109.000 336.400 L 1156.000 336.400"/>
+      <path fill="#FFB187" stroke="none" stroke-width="1" stroke-linejoin="round" d="M 1108.000 336.400 L 1124.000 328.400 L 1121.000 336.400 L 1124.000 344.400 Z "/>
+      <path fill="#FFB187" stroke="none" stroke-width="1" stroke-linejoin="round" d="M 1157.000 336.400 L 1140.000 328.400 L 1144.000 336.400 L 1140.000 344.400 Z "/>
+      <ellipse fill="#BFC0C2" stroke="none" stroke-width="1" stroke-linejoin="round" filter="url(#shadow)" cx="1170.0" cy="336.4" rx="12.0" ry="10.0"/>
+      <rect fill="url(#gradient10)" stroke="#ADCF90" stroke-width="0.6" stroke-linejoin="round" filter="url(#shadow)" x="1083" y="354.20000000000005" width="22" height="20"/>
+      <path fill="none" stroke="#FFB187" stroke-width="1.1" stroke-linejoin="round" d="M 1109.000 364.200 L 1156.000 364.200"/>
+      <path fill="#FFB187" stroke="none" stroke-width="1" stroke-linejoin="round" d="M 1108.000 364.200 L 1124.000 356.200 L 1121.000 364.200 L 1124.000 372.200 Z "/>
+      <path fill="#FFB187" stroke="none" stroke-width="1" stroke-linejoin="round" d="M 1157.000 364.200 L 1140.000 356.200 L 1144.000 364.200 L 1140.000 372.200 Z "/>
+      <ellipse fill="#5E5F60" stroke="none" stroke-width="1" stroke-linejoin="round" filter="url(#shadow)" cx="1170.0" cy="364.20000000000005" rx="12.0" ry="10.0"/>
+      <rect fill="url(#gradient11)" stroke="#ADCF90" stroke-width="0.6" stroke-linejoin="round" filter="url(#shadow)" x="1083" y="382.0" width="22" height="20"/>
+      <path fill="none" stroke="#FFB187" stroke-width="1.1" stroke-linejoin="round" d="M 1109.000 392.000 L 1156.000 392.000"/>
+      <path fill="#FFB187" stroke="none" stroke-width="1" stroke-linejoin="round" d="M 1108.000 392.000 L 1124.000 384.000 L 1121.000 392.000 L 1124.000 400.000 Z "/>
+      <path fill="#FFB187" stroke="none" stroke-width="1" stroke-linejoin="round" d="M 1157.000 392.000 L 1140.000 384.000 L 1144.000 392.000 L 1140.000 400.000 Z "/>
+      <ellipse fill="#BFC0C2" stroke="none" stroke-width="1" stroke-linejoin="round" filter="url(#shadow)" cx="1170.0" cy="392.0" rx="12.0" ry="10.0"/>
+      <rect fill="url(#gradient12)" stroke="#ADCF90" stroke-width="0.6" stroke-linejoin="round" filter="url(#shadow)" x="1083" y="409.8" width="22" height="20"/>
+      <path fill="none" stroke="#FFB187" stroke-width="1.1" stroke-linejoin="round" d="M 1109.000 419.800 L 1156.000 419.800"/>
+      <path fill="#FFB187" stroke="none" stroke-width="1" stroke-linejoin="round" d="M 1108.000 419.800 L 1124.000 411.800 L 1121.000 419.800 L 1124.000 427.800 Z "/>
+      <path fill="#FFB187" stroke="none" stroke-width="1" stroke-linejoin="round" d="M 1157.000 419.800 L 1140.000 411.800 L 1144.000 419.800 L 1140.000 427.800 Z "/>
+      <ellipse fill="#5E5F60" stroke="none" stroke-width="1" stroke-linejoin="round" filter="url(#shadow)" cx="1170.0" cy="419.8" rx="12.0" ry="10.0"/>
+    </g>
+    <path fill="none" stroke="#5A9FD9" stroke-width="2.3" stroke-linejoin="round" d="M 1192.000 234.000 C 1217.000 219.000 1227.000 194.000 1236.000 169.000"/>
+    <path fill="#5A9FD9" stroke="none" stroke-width="1" stroke-linejoin="round" d="M 1236.000 169.000 L 1223.505 181.507 L 1237.656 186.601 Z "/>
+    <path fill="none" stroke="#5A9FD9" stroke-width="2.3" stroke-linejoin="round" d="M 1187.000 275.000 L 1236.000 275.000"/>
+    <path fill="#5A9FD9" stroke="none" stroke-width="1" stroke-linejoin="round" d="M 1236.000 275.000 L 1219.000 267.010 L 1219.000 282.990 Z "/>
+    <path fill="none" stroke="#5A9FD9" stroke-width="2.3" stroke-linejoin="round" d="M 1187.000 345.000 C 1216.000 347.000 1235.000 370.000 1236.000 398.000"/>
+    <path fill="#5A9FD9" stroke="none" stroke-width="1" stroke-linejoin="round" d="M 1236.000 398.000 L 1243.378 380.726 L 1227.408 381.296 Z "/>
+    <rect fill="none" stroke="#8CAFE0" stroke-width="3.2" stroke-linejoin="round" stroke-dasharray="3.3 16.9" x="1250" y="90" width="80" height="347"/>
+    <g data-name="Probability distribution">
+      <rect fill="#FFFFFF" stroke="#E5DDCF" stroke-width="0.5" stroke-linejoin="round" x="1266" y="94" width="50" height="44"/>
+      <ellipse fill="none" stroke="#FFC000" stroke-width="1.35" stroke-linejoin="round" cx="1291.0" cy="116.0" rx="23.25" ry="19.580000000000002"/>
+      <path fill="none" stroke="#FFC000" stroke-width="1.15" stroke-linejoin="round" d="M 1272.000 127.356 C 1272.792 127.239 1273.583 127.065 1274.375 126.763 C 1275.167 126.461 1275.958 126.029 1276.750 125.367 C 1277.542 124.705 1278.333 123.808 1279.125 122.587 C 1279.917 121.366 1280.708 119.815 1281.500 117.944 C 1282.292 116.074 1283.083 113.880 1283.875 111.555 C 1284.667 109.229 1285.458 106.777 1286.250 104.553 C 1287.042 102.328 1287.833 100.346 1288.625 98.964 C 1289.417 97.583 1290.208 96.816 1291.000 96.816 C 1291.792 96.816 1292.583 97.583 1293.375 98.964 C 1294.167 100.346 1294.958 102.328 1295.750 104.553 C 1296.542 106.777 1297.333 109.229 1298.125 111.555 C 1298.917 113.880 1299.708 116.074 1300.500 117.944 C 1301.292 119.815 1302.083 121.366 1302.875 122.587 C 1303.667 123.808 1304.458 124.705 1305.250 125.367 C 1306.042 126.029 1306.833 126.461 1307.625 126.763 C 1308.417 127.065 1309.208 127.239 1310.000 127.356"/>
+    </g>
+    <g data-name="Probability distribution">
+      <rect fill="#FFFFFF" stroke="#E5DDCF" stroke-width="0.5" stroke-linejoin="round" x="1266" y="143" width="50" height="44"/>
+      <ellipse fill="none" stroke="#FFC000" stroke-width="1.35" stroke-linejoin="round" cx="1291.0" cy="165.0" rx="23.25" ry="19.580000000000002"/>
+      <path fill="none" stroke="#FFC000" stroke-width="1.15" stroke-linejoin="round" d="M 1272.000 176.356 C 1272.792 176.239 1273.583 176.065 1274.375 175.763 C 1275.167 175.461 1275.958 175.029 1276.750 174.367 C 1277.542 173.705 1278.333 172.808 1279.125 171.587 C 1279.917 170.366 1280.708 168.815 1281.500 166.944 C 1282.292 165.074 1283.083 162.880 1283.875 160.555 C 1284.667 158.229 1285.458 155.777 1286.250 153.553 C 1287.042 151.328 1287.833 149.346 1288.625 147.964 C 1289.417 146.583 1290.208 145.816 1291.000 145.816 C 1291.792 145.816 1292.583 146.583 1293.375 147.964 C 1294.167 149.346 1294.958 151.328 1295.750 153.553 C 1296.542 155.777 1297.333 158.229 1298.125 160.555 C 1298.917 162.880 1299.708 165.074 1300.500 166.944 C 1301.292 168.815 1302.083 170.366 1302.875 171.587 C 1303.667 172.808 1304.458 173.705 1305.250 174.367 C 1306.042 175.029 1306.833 175.461 1307.625 175.763 C 1308.417 176.065 1309.208 176.239 1310.000 176.356"/>
+    </g>
+    <g data-name="Probability distribution">
+      <rect fill="#FFFFFF" stroke="#E5DDCF" stroke-width="0.5" stroke-linejoin="round" x="1266" y="192" width="50" height="44"/>
+      <ellipse fill="none" stroke="#FFC000" stroke-width="1.35" stroke-linejoin="round" cx="1291.0" cy="214.0" rx="23.25" ry="19.580000000000002"/>
+      <path fill="none" stroke="#FFC000" stroke-width="1.15" stroke-linejoin="round" d="M 1272.000 225.356 C 1272.792 225.239 1273.583 225.065 1274.375 224.763 C 1275.167 224.461 1275.958 224.029 1276.750 223.367 C 1277.542 222.705 1278.333 221.808 1279.125 220.587 C 1279.917 219.366 1280.708 217.815 1281.500 215.944 C 1282.292 214.074 1283.083 211.880 1283.875 209.555 C 1284.667 207.229 1285.458 204.777 1286.250 202.553 C 1287.042 200.328 1287.833 198.346 1288.625 196.964 C 1289.417 195.583 1290.208 194.816 1291.000 194.816 C 1291.792 194.816 1292.583 195.583 1293.375 196.964 C 1294.167 198.346 1294.958 200.328 1295.750 202.553 C 1296.542 204.777 1297.333 207.229 1298.125 209.555 C 1298.917 211.880 1299.708 214.074 1300.500 215.944 C 1301.292 217.815 1302.083 219.366 1302.875 220.587 C 1303.667 221.808 1304.458 222.705 1305.250 223.367 C 1306.042 224.029 1306.833 224.461 1307.625 224.763 C 1308.417 225.065 1309.208 225.239 1310.000 225.356"/>
+    </g>
+    <g data-name="Probability distribution">
+      <rect fill="#FFFFFF" stroke="#E5DDCF" stroke-width="0.5" stroke-linejoin="round" x="1266" y="242" width="50" height="44"/>
+      <ellipse fill="none" stroke="#FFC000" stroke-width="1.35" stroke-linejoin="round" cx="1291.0" cy="264.0" rx="23.25" ry="19.580000000000002"/>
+      <path fill="none" stroke="#FFC000" stroke-width="1.15" stroke-linejoin="round" d="M 1272.000 275.356 C 1272.792 275.239 1273.583 275.065 1274.375 274.763 C 1275.167 274.461 1275.958 274.029 1276.750 273.367 C 1277.542 272.705 1278.333 271.808 1279.125 270.587 C 1279.917 269.366 1280.708 267.815 1281.500 265.944 C 1282.292 264.074 1283.083 261.880 1283.875 259.555 C 1284.667 257.229 1285.458 254.777 1286.250 252.553 C 1287.042 250.328 1287.833 248.346 1288.625 246.964 C 1289.417 245.583 1290.208 244.816 1291.000 244.816 C 1291.792 244.816 1292.583 245.583 1293.375 246.964 C 1294.167 248.346 1294.958 250.328 1295.750 252.553 C 1296.542 254.777 1297.333 257.229 1298.125 259.555 C 1298.917 261.880 1299.708 264.074 1300.500 265.944 C 1301.292 267.815 1302.083 269.366 1302.875 270.587 C 1303.667 271.808 1304.458 272.705 1305.250 273.367 C 1306.042 274.029 1306.833 274.461 1307.625 274.763 C 1308.417 275.065 1309.208 275.239 1310.000 275.356"/>
+    </g>
+    <g data-name="Probability distribution">
+      <rect fill="#FFFFFF" stroke="#E5DDCF" stroke-width="0.5" stroke-linejoin="round" x="1266" y="290" width="50" height="44"/>
+      <ellipse fill="none" stroke="#FFC000" stroke-width="1.35" stroke-linejoin="round" cx="1291.0" cy="312.0" rx="23.25" ry="19.580000000000002"/>
+      <path fill="none" stroke="#FFC000" stroke-width="1.15" stroke-linejoin="round" d="M 1272.000 323.356 C 1272.792 323.239 1273.583 323.065 1274.375 322.763 C 1275.167 322.461 1275.958 322.029 1276.750 321.367 C 1277.542 320.705 1278.333 319.808 1279.125 318.587 C 1279.917 317.366 1280.708 315.815 1281.500 313.944 C 1282.292 312.074 1283.083 309.880 1283.875 307.555 C 1284.667 305.229 1285.458 302.777 1286.250 300.553 C 1287.042 298.328 1287.833 296.346 1288.625 294.964 C 1289.417 293.583 1290.208 292.816 1291.000 292.816 C 1291.792 292.816 1292.583 293.583 1293.375 294.964 C 1294.167 296.346 1294.958 298.328 1295.750 300.553 C 1296.542 302.777 1297.333 305.229 1298.125 307.555 C 1298.917 309.880 1299.708 312.074 1300.500 313.944 C 1301.292 315.815 1302.083 317.366 1302.875 318.587 C 1303.667 319.808 1304.458 320.705 1305.250 321.367 C 1306.042 322.029 1306.833 322.461 1307.625 322.763 C 1308.417 323.065 1309.208 323.239 1310.000 323.356"/>
+    </g>
+    <g data-name="Probability distribution">
+      <rect fill="#FFFFFF" stroke="#E5DDCF" stroke-width="0.5" stroke-linejoin="round" x="1266" y="339" width="50" height="44"/>
+      <ellipse fill="none" stroke="#FFC000" stroke-width="1.35" stroke-linejoin="round" cx="1291.0" cy="361.0" rx="23.25" ry="19.580000000000002"/>
+      <path fill="none" stroke="#FFC000" stroke-width="1.15" stroke-linejoin="round" d="M 1272.000 372.356 C 1272.792 372.239 1273.583 372.065 1274.375 371.763 C 1275.167 371.461 1275.958 371.029 1276.750 370.367 C 1277.542 369.705 1278.333 368.808 1279.125 367.587 C 1279.917 366.366 1280.708 364.815 1281.500 362.944 C 1282.292 361.074 1283.083 358.880 1283.875 356.555 C 1284.667 354.229 1285.458 351.777 1286.250 349.553 C 1287.042 347.328 1287.833 345.346 1288.625 343.964 C 1289.417 342.583 1290.208 341.816 1291.000 341.816 C 1291.792 341.816 1292.583 342.583 1293.375 343.964 C 1294.167 345.346 1294.958 347.328 1295.750 349.553 C 1296.542 351.777 1297.333 354.229 1298.125 356.555 C 1298.917 358.880 1299.708 361.074 1300.500 362.944 C 1301.292 364.815 1302.083 366.366 1302.875 367.587 C 1303.667 368.808 1304.458 369.705 1305.250 370.367 C 1306.042 371.029 1306.833 371.461 1307.625 371.763 C 1308.417 372.065 1309.208 372.239 1310.000 372.356"/>
+    </g>
+    <g data-name="Probability distribution">
+      <rect fill="#FFFFFF" stroke="#E5DDCF" stroke-width="0.5" stroke-linejoin="round" x="1266" y="389" width="50" height="44"/>
+      <ellipse fill="none" stroke="#FFC000" stroke-width="1.35" stroke-linejoin="round" cx="1291.0" cy="411.0" rx="23.25" ry="19.580000000000002"/>
+      <path fill="none" stroke="#FFC000" stroke-width="1.15" stroke-linejoin="round" d="M 1272.000 422.356 C 1272.792 422.239 1273.583 422.065 1274.375 421.763 C 1275.167 421.461 1275.958 421.029 1276.750 420.367 C 1277.542 419.705 1278.333 418.808 1279.125 417.587 C 1279.917 416.366 1280.708 414.815 1281.500 412.944 C 1282.292 411.074 1283.083 408.880 1283.875 406.555 C 1284.667 404.229 1285.458 401.777 1286.250 399.553 C 1287.042 397.328 1287.833 395.346 1288.625 393.964 C 1289.417 392.583 1290.208 391.816 1291.000 391.816 C 1291.792 391.816 1292.583 392.583 1293.375 393.964 C 1294.167 395.346 1294.958 397.328 1295.750 399.553 C 1296.542 401.777 1297.333 404.229 1298.125 406.555 C 1298.917 408.880 1299.708 411.074 1300.500 412.944 C 1301.292 414.815 1302.083 416.366 1302.875 417.587 C 1303.667 418.808 1304.458 419.705 1305.250 420.367 C 1306.042 421.029 1306.833 421.461 1307.625 421.763 C 1308.417 422.065 1309.208 422.239 1310.000 422.356"/>
+    </g>
+    <g data-name="Transformed evidence">
+      <g data-name="Evidence M₁(A)">
+        <rect fill="#526D37" stroke="#324C23" stroke-width="0.8" stroke-linejoin="round" filter="url(#shadow)" x="1369" y="93" width="66" height="43"/>
+        <rect fill="none" stroke="#BCD0A7" stroke-width="0.75" stroke-linejoin="round" x="1370.7" y="94.7" width="62.6" height="39.6"/>
+        <rect fill="#DDEBF4" stroke="#7D9070" stroke-width="0.75" stroke-linejoin="round" x="1373.6" y="97.6" width="56.8" height="33.8"/>
+        <text x="1402.0" y="119.4" font-family="Arial, 'Liberation Sans', sans-serif" font-size="17.5" font-weight="normal" text-anchor="middle" fill="#000000">M1(A)</text>
+        <ellipse fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" cx="1457.0" cy="114.5" rx="10.0" ry="8.6"/>
+        <path fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" d="M 1448.300 114.500 L 1465.700 114.500"/>
+        <path fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" d="M 1457.000 107.200 L 1457.000 121.800"/>
+        <rect fill="#526D37" stroke="#2C4420" stroke-width="0.8" stroke-linejoin="round" filter="url(#shadow)" x="1478" y="93" width="67" height="43"/>
+        <rect fill="#FFFFFF" stroke="none" stroke-width="1" stroke-linejoin="round" x="1482" y="97" width="59" height="35"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1493.500 97.000 L 1482.000 108.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1505.000 97.000 L 1482.000 120.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1516.500 97.000 L 1482.000 131.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1493.000 132.000 L 1528.000 97.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1504.500 132.000 L 1539.500 97.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1516.000 132.000 L 1541.000 107.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1527.500 132.000 L 1541.000 118.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1539.000 132.000 L 1541.000 130.000"/>
+        <rect fill="none" stroke="#445644" stroke-width="0.7" stroke-linejoin="round" x="1482" y="97" width="59" height="35"/>
+        <rect fill="none" stroke="#D2E3BC" stroke-width="0.7" stroke-linejoin="round" x="1479.7" y="94.7" width="63.6" height="39.6"/>
+      </g>
+      <g data-name="Evidence M₂(A)">
+        <rect fill="#526D37" stroke="#324C23" stroke-width="0.8" stroke-linejoin="round" filter="url(#shadow)" x="1369" y="149" width="66" height="43"/>
+        <rect fill="none" stroke="#BCD0A7" stroke-width="0.75" stroke-linejoin="round" x="1370.7" y="150.7" width="62.6" height="39.6"/>
+        <rect fill="#DDEBF4" stroke="#7D9070" stroke-width="0.75" stroke-linejoin="round" x="1373.6" y="153.6" width="56.8" height="33.8"/>
+        <text x="1402.0" y="175.4" font-family="Arial, 'Liberation Sans', sans-serif" font-size="17.5" font-weight="normal" text-anchor="middle" fill="#000000">M2(A)</text>
+        <ellipse fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" cx="1457.0" cy="170.5" rx="10.0" ry="8.6"/>
+        <path fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" d="M 1448.300 170.500 L 1465.700 170.500"/>
+        <path fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" d="M 1457.000 163.200 L 1457.000 177.800"/>
+        <rect fill="#526D37" stroke="#2C4420" stroke-width="0.8" stroke-linejoin="round" filter="url(#shadow)" x="1478" y="149" width="67" height="43"/>
+        <rect fill="#FFFFFF" stroke="none" stroke-width="1" stroke-linejoin="round" x="1482" y="153" width="59" height="35"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1493.500 153.000 L 1482.000 164.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1505.000 153.000 L 1482.000 176.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1516.500 153.000 L 1482.000 187.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1493.000 188.000 L 1528.000 153.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1504.500 188.000 L 1539.500 153.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1516.000 188.000 L 1541.000 163.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1527.500 188.000 L 1541.000 174.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1539.000 188.000 L 1541.000 186.000"/>
+        <rect fill="none" stroke="#445644" stroke-width="0.7" stroke-linejoin="round" x="1482" y="153" width="59" height="35"/>
+        <rect fill="none" stroke="#D2E3BC" stroke-width="0.7" stroke-linejoin="round" x="1479.7" y="150.7" width="63.6" height="39.6"/>
+      </g>
+      <g data-name="Evidence M₃(A)">
+        <rect fill="#526D37" stroke="#324C23" stroke-width="0.8" stroke-linejoin="round" filter="url(#shadow)" x="1369" y="207" width="66" height="43"/>
+        <rect fill="none" stroke="#BCD0A7" stroke-width="0.75" stroke-linejoin="round" x="1370.7" y="208.7" width="62.6" height="39.6"/>
+        <rect fill="#DDEBF4" stroke="#7D9070" stroke-width="0.75" stroke-linejoin="round" x="1373.6" y="211.6" width="56.8" height="33.8"/>
+        <text x="1402.0" y="233.4" font-family="Arial, 'Liberation Sans', sans-serif" font-size="17.5" font-weight="normal" text-anchor="middle" fill="#000000">M3(A)</text>
+        <ellipse fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" cx="1457.0" cy="228.5" rx="10.0" ry="8.6"/>
+        <path fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" d="M 1448.300 228.500 L 1465.700 228.500"/>
+        <path fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" d="M 1457.000 221.200 L 1457.000 235.800"/>
+        <rect fill="#526D37" stroke="#2C4420" stroke-width="0.8" stroke-linejoin="round" filter="url(#shadow)" x="1478" y="207" width="67" height="43"/>
+        <rect fill="#FFFFFF" stroke="none" stroke-width="1" stroke-linejoin="round" x="1482" y="211" width="59" height="35"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1493.500 211.000 L 1482.000 222.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1505.000 211.000 L 1482.000 234.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1516.500 211.000 L 1482.000 245.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1493.000 246.000 L 1528.000 211.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1504.500 246.000 L 1539.500 211.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1516.000 246.000 L 1541.000 221.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1527.500 246.000 L 1541.000 232.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1539.000 246.000 L 1541.000 244.000"/>
+        <rect fill="none" stroke="#445644" stroke-width="0.7" stroke-linejoin="round" x="1482" y="211" width="59" height="35"/>
+        <rect fill="none" stroke="#D2E3BC" stroke-width="0.7" stroke-linejoin="round" x="1479.7" y="208.7" width="63.6" height="39.6"/>
+      </g>
+      <g data-name="Evidence M₄(A)">
+        <rect fill="#526D37" stroke="#324C23" stroke-width="0.8" stroke-linejoin="round" filter="url(#shadow)" x="1369" y="266" width="66" height="43"/>
+        <rect fill="none" stroke="#BCD0A7" stroke-width="0.75" stroke-linejoin="round" x="1370.7" y="267.7" width="62.6" height="39.6"/>
+        <rect fill="#DDEBF4" stroke="#7D9070" stroke-width="0.75" stroke-linejoin="round" x="1373.6" y="270.6" width="56.8" height="33.8"/>
+        <text x="1402.0" y="292.4" font-family="Arial, 'Liberation Sans', sans-serif" font-size="17.5" font-weight="normal" text-anchor="middle" fill="#000000">M4(A)</text>
+        <ellipse fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" cx="1457.0" cy="287.5" rx="10.0" ry="8.6"/>
+        <path fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" d="M 1448.300 287.500 L 1465.700 287.500"/>
+        <path fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" d="M 1457.000 280.200 L 1457.000 294.800"/>
+        <rect fill="#526D37" stroke="#2C4420" stroke-width="0.8" stroke-linejoin="round" filter="url(#shadow)" x="1478" y="266" width="67" height="43"/>
+        <rect fill="#FFFFFF" stroke="none" stroke-width="1" stroke-linejoin="round" x="1482" y="270" width="59" height="35"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1493.500 270.000 L 1482.000 281.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1505.000 270.000 L 1482.000 293.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1516.500 270.000 L 1482.000 304.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1493.000 305.000 L 1528.000 270.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1504.500 305.000 L 1539.500 270.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1516.000 305.000 L 1541.000 280.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1527.500 305.000 L 1541.000 291.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1539.000 305.000 L 1541.000 303.000"/>
+        <rect fill="none" stroke="#445644" stroke-width="0.7" stroke-linejoin="round" x="1482" y="270" width="59" height="35"/>
+        <rect fill="none" stroke="#D2E3BC" stroke-width="0.7" stroke-linejoin="round" x="1479.7" y="267.7" width="63.6" height="39.6"/>
+      </g>
+      <g data-name="Evidence Mₙ₋₁(A)">
+        <rect fill="#526D37" stroke="#324C23" stroke-width="0.8" stroke-linejoin="round" filter="url(#shadow)" x="1369" y="343" width="66" height="43"/>
+        <rect fill="none" stroke="#BCD0A7" stroke-width="0.75" stroke-linejoin="round" x="1370.7" y="344.7" width="62.6" height="39.6"/>
+        <rect fill="#DDEBF4" stroke="#7D9070" stroke-width="0.75" stroke-linejoin="round" x="1373.6" y="347.6" width="56.8" height="33.8"/>
+        <text x="1402.0" y="369.008" font-family="Arial, 'Liberation Sans', sans-serif" font-size="16.1" font-weight="normal" text-anchor="middle" fill="#000000">Mn-1(A)</text>
+        <ellipse fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" cx="1457.0" cy="364.5" rx="10.0" ry="8.6"/>
+        <path fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" d="M 1448.300 364.500 L 1465.700 364.500"/>
+        <path fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" d="M 1457.000 357.200 L 1457.000 371.800"/>
+        <rect fill="#526D37" stroke="#2C4420" stroke-width="0.8" stroke-linejoin="round" filter="url(#shadow)" x="1478" y="343" width="67" height="43"/>
+        <rect fill="#FFFFFF" stroke="none" stroke-width="1" stroke-linejoin="round" x="1482" y="347" width="59" height="35"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1493.500 347.000 L 1482.000 358.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1505.000 347.000 L 1482.000 370.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1516.500 347.000 L 1482.000 381.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1493.000 382.000 L 1528.000 347.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1504.500 382.000 L 1539.500 347.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1516.000 382.000 L 1541.000 357.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1527.500 382.000 L 1541.000 368.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1539.000 382.000 L 1541.000 380.000"/>
+        <rect fill="none" stroke="#445644" stroke-width="0.7" stroke-linejoin="round" x="1482" y="347" width="59" height="35"/>
+        <rect fill="none" stroke="#D2E3BC" stroke-width="0.7" stroke-linejoin="round" x="1479.7" y="344.7" width="63.6" height="39.6"/>
+      </g>
+      <g data-name="Evidence Mₙ(A)">
+        <rect fill="#526D37" stroke="#324C23" stroke-width="0.8" stroke-linejoin="round" filter="url(#shadow)" x="1369" y="395" width="66" height="43"/>
+        <rect fill="none" stroke="#BCD0A7" stroke-width="0.75" stroke-linejoin="round" x="1370.7" y="396.7" width="62.6" height="39.6"/>
+        <rect fill="#DDEBF4" stroke="#7D9070" stroke-width="0.75" stroke-linejoin="round" x="1373.6" y="399.6" width="56.8" height="33.8"/>
+        <text x="1402.0" y="421.4" font-family="Arial, 'Liberation Sans', sans-serif" font-size="17.5" font-weight="normal" text-anchor="middle" fill="#000000">Mn(A)</text>
+        <ellipse fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" cx="1457.0" cy="416.5" rx="10.0" ry="8.6"/>
+        <path fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" d="M 1448.300 416.500 L 1465.700 416.500"/>
+        <path fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" d="M 1457.000 409.200 L 1457.000 423.800"/>
+        <rect fill="#526D37" stroke="#2C4420" stroke-width="0.8" stroke-linejoin="round" filter="url(#shadow)" x="1478" y="395" width="67" height="43"/>
+        <rect fill="#FFFFFF" stroke="none" stroke-width="1" stroke-linejoin="round" x="1482" y="399" width="59" height="35"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1493.500 399.000 L 1482.000 410.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1505.000 399.000 L 1482.000 422.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1516.500 399.000 L 1482.000 433.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1493.000 434.000 L 1528.000 399.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1504.500 434.000 L 1539.500 399.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1516.000 434.000 L 1541.000 409.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1527.500 434.000 L 1541.000 420.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1539.000 434.000 L 1541.000 432.000"/>
+        <rect fill="none" stroke="#445644" stroke-width="0.7" stroke-linejoin="round" x="1482" y="399" width="59" height="35"/>
+        <rect fill="none" stroke="#D2E3BC" stroke-width="0.7" stroke-linejoin="round" x="1479.7" y="396.7" width="63.6" height="39.6"/>
+      </g>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="1433" y="317.0" width="4" height="4"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="1433" y="325.5" width="4" height="4"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="1433" y="334.0" width="4" height="4"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="1472" y="317.0" width="4" height="4"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="1472" y="325.5" width="4" height="4"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="1472" y="334.0" width="4" height="4"/>
+    </g>
+    <g data-name="Transformed histograms">
+      <rect fill="none" stroke="#77AF4C" stroke-width="3.2" stroke-linejoin="round" stroke-dasharray="3.3 16.9" x="1575" y="92" width="142" height="345"/>
+      <rect fill="#DFEBF1" stroke="#14232A" stroke-width="1.05" stroke-linejoin="round" filter="url(#soft)" x="1598" y="98" width="96" height="79" rx="6"/>
+      <rect fill="#E3EED4" stroke="#A7CF86" stroke-width="1.1" stroke-linejoin="round" x="1605.0" y="152" width="14" height="20"/>
+      <path fill="none" stroke="#F8F8DF" stroke-width="1" stroke-linejoin="round" d="M 1607.000 153.000 L 1607.000 170.000"/>
+      <rect fill="#E3EED4" stroke="#A7CF86" stroke-width="1.1" stroke-linejoin="round" x="1621.5" y="141" width="14" height="31"/>
+      <path fill="none" stroke="#F8F8DF" stroke-width="1" stroke-linejoin="round" d="M 1623.500 142.000 L 1623.500 170.000"/>
+      <rect fill="#E3EED4" stroke="#A7CF86" stroke-width="1.1" stroke-linejoin="round" x="1638.0" y="105" width="14" height="67"/>
+      <path fill="none" stroke="#F8F8DF" stroke-width="1" stroke-linejoin="round" d="M 1640.000 106.000 L 1640.000 170.000"/>
+      <rect fill="#E3EED4" stroke="#A7CF86" stroke-width="1.1" stroke-linejoin="round" x="1654.5" y="147" width="14" height="25"/>
+      <path fill="none" stroke="#F8F8DF" stroke-width="1" stroke-linejoin="round" d="M 1656.500 148.000 L 1656.500 170.000"/>
+      <rect fill="#E3EED4" stroke="#A7CF86" stroke-width="1.1" stroke-linejoin="round" x="1671.0" y="159" width="14" height="13"/>
+      <path fill="none" stroke="#F8F8DF" stroke-width="1" stroke-linejoin="round" d="M 1673.000 160.000 L 1673.000 170.000"/>
+      <rect fill="#DFEBF1" stroke="#14232A" stroke-width="1.05" stroke-linejoin="round" filter="url(#soft)" x="1598" y="184" width="96" height="79" rx="6"/>
+      <rect fill="#E3EED4" stroke="#A7CF86" stroke-width="1.1" stroke-linejoin="round" x="1605.0" y="222" width="14" height="36"/>
+      <path fill="none" stroke="#F8F8DF" stroke-width="1" stroke-linejoin="round" d="M 1607.000 223.000 L 1607.000 256.000"/>
+      <rect fill="#E3EED4" stroke="#A7CF86" stroke-width="1.1" stroke-linejoin="round" x="1621.5" y="211" width="14" height="47"/>
+      <path fill="none" stroke="#F8F8DF" stroke-width="1" stroke-linejoin="round" d="M 1623.500 212.000 L 1623.500 256.000"/>
+      <rect fill="#E3EED4" stroke="#A7CF86" stroke-width="1.1" stroke-linejoin="round" x="1638.0" y="191" width="14" height="67"/>
+      <path fill="none" stroke="#F8F8DF" stroke-width="1" stroke-linejoin="round" d="M 1640.000 192.000 L 1640.000 256.000"/>
+      <rect fill="#E3EED4" stroke="#A7CF86" stroke-width="1.1" stroke-linejoin="round" x="1654.5" y="220" width="14" height="38"/>
+      <path fill="none" stroke="#F8F8DF" stroke-width="1" stroke-linejoin="round" d="M 1656.500 221.000 L 1656.500 256.000"/>
+      <rect fill="#E3EED4" stroke="#A7CF86" stroke-width="1.1" stroke-linejoin="round" x="1671.0" y="226" width="14" height="32"/>
+      <path fill="none" stroke="#F8F8DF" stroke-width="1" stroke-linejoin="round" d="M 1673.000 227.000 L 1673.000 256.000"/>
+      <rect fill="#DFEBF1" stroke="#14232A" stroke-width="1.05" stroke-linejoin="round" filter="url(#soft)" x="1598" y="269" width="96" height="79" rx="6"/>
+      <rect fill="#E3EED4" stroke="#A7CF86" stroke-width="1.1" stroke-linejoin="round" x="1605.0" y="302" width="14" height="41"/>
+      <path fill="none" stroke="#F8F8DF" stroke-width="1" stroke-linejoin="round" d="M 1607.000 303.000 L 1607.000 341.000"/>
+      <rect fill="#E3EED4" stroke="#A7CF86" stroke-width="1.1" stroke-linejoin="round" x="1621.5" y="293" width="14" height="50"/>
+      <path fill="none" stroke="#F8F8DF" stroke-width="1" stroke-linejoin="round" d="M 1623.500 294.000 L 1623.500 341.000"/>
+      <rect fill="#E3EED4" stroke="#A7CF86" stroke-width="1.1" stroke-linejoin="round" x="1638.0" y="287" width="14" height="56"/>
+      <path fill="none" stroke="#F8F8DF" stroke-width="1" stroke-linejoin="round" d="M 1640.000 288.000 L 1640.000 341.000"/>
+      <rect fill="#E3EED4" stroke="#A7CF86" stroke-width="1.1" stroke-linejoin="round" x="1654.5" y="302" width="14" height="41"/>
+      <path fill="none" stroke="#F8F8DF" stroke-width="1" stroke-linejoin="round" d="M 1656.500 303.000 L 1656.500 341.000"/>
+      <rect fill="#E3EED4" stroke="#A7CF86" stroke-width="1.1" stroke-linejoin="round" x="1671.0" y="317" width="14" height="26"/>
+      <path fill="none" stroke="#F8F8DF" stroke-width="1" stroke-linejoin="round" d="M 1673.000 318.000 L 1673.000 341.000"/>
+      <rect fill="#DFEBF1" stroke="#14232A" stroke-width="1.05" stroke-linejoin="round" filter="url(#soft)" x="1598" y="354" width="96" height="79" rx="6"/>
+      <rect fill="#E3EED4" stroke="#A7CF86" stroke-width="1.1" stroke-linejoin="round" x="1605.0" y="373" width="14" height="55"/>
+      <path fill="none" stroke="#F8F8DF" stroke-width="1" stroke-linejoin="round" d="M 1607.000 374.000 L 1607.000 426.000"/>
+      <rect fill="#E3EED4" stroke="#A7CF86" stroke-width="1.1" stroke-linejoin="round" x="1621.5" y="373" width="14" height="55"/>
+      <path fill="none" stroke="#F8F8DF" stroke-width="1" stroke-linejoin="round" d="M 1623.500 374.000 L 1623.500 426.000"/>
+      <rect fill="#E3EED4" stroke="#A7CF86" stroke-width="1.1" stroke-linejoin="round" x="1638.0" y="373" width="14" height="55"/>
+      <path fill="none" stroke="#F8F8DF" stroke-width="1" stroke-linejoin="round" d="M 1640.000 374.000 L 1640.000 426.000"/>
+      <rect fill="#E3EED4" stroke="#A7CF86" stroke-width="1.1" stroke-linejoin="round" x="1654.5" y="373" width="14" height="55"/>
+      <path fill="none" stroke="#F8F8DF" stroke-width="1" stroke-linejoin="round" d="M 1656.500 374.000 L 1656.500 426.000"/>
+      <rect fill="#E3EED4" stroke="#A7CF86" stroke-width="1.1" stroke-linejoin="round" x="1671.0" y="373" width="14" height="55"/>
+      <path fill="none" stroke="#F8F8DF" stroke-width="1" stroke-linejoin="round" d="M 1673.000 374.000 L 1673.000 426.000"/>
+    </g>
+    <text x="1420" y="475" font-family="'Times New Roman', 'Liberation Serif', serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#000000">Adaptive transformation</text>
+  </g>
+  <g data-name="Probabilistic reliability assessment">
+    <g data-name="Distribution discrepancy inputs">
+      <rect fill="none" stroke="#000000" stroke-width="1.7" stroke-linejoin="round" stroke-dasharray="15 9" filter="url(#soft)" x="70" y="576" width="687" height="75"/>
+      <g data-name="Evidence M₁(A)">
+        <rect fill="#526D37" stroke="#324C23" stroke-width="0.8" stroke-linejoin="round" filter="url(#shadow)" x="129" y="594" width="66" height="43"/>
+        <rect fill="none" stroke="#BCD0A7" stroke-width="0.75" stroke-linejoin="round" x="130.7" y="595.7" width="62.6" height="39.6"/>
+        <rect fill="#F9F4FA" stroke="#7D9070" stroke-width="0.75" stroke-linejoin="round" x="133.6" y="598.6" width="56.8" height="33.8"/>
+        <text x="162.0" y="620.54" font-family="Arial, 'Liberation Sans', sans-serif" font-size="18" font-weight="normal" text-anchor="middle" fill="#000000">M1(A)</text>
+        <ellipse fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" cx="217.0" cy="615.5" rx="10.0" ry="8.6"/>
+        <path fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" d="M 208.300 615.500 L 225.700 615.500"/>
+        <path fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" d="M 217.000 608.200 L 217.000 622.800"/>
+        <rect fill="#526D37" stroke="#2C4420" stroke-width="0.8" stroke-linejoin="round" filter="url(#shadow)" x="239" y="594" width="67" height="43"/>
+        <rect fill="#FFFFFF" stroke="none" stroke-width="1" stroke-linejoin="round" x="243" y="598" width="59" height="35"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 254.500 598.000 L 243.000 609.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 266.000 598.000 L 243.000 621.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 277.500 598.000 L 243.000 632.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 254.000 633.000 L 289.000 598.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 265.500 633.000 L 300.500 598.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 277.000 633.000 L 302.000 608.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 288.500 633.000 L 302.000 619.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 300.000 633.000 L 302.000 631.000"/>
+        <rect fill="none" stroke="#445644" stroke-width="0.7" stroke-linejoin="round" x="243" y="598" width="59" height="35"/>
+        <rect fill="none" stroke="#D2E3BC" stroke-width="0.7" stroke-linejoin="round" x="240.7" y="595.7" width="63.6" height="39.6"/>
+      </g>
+      <g data-name="Evidence M₁(A)">
+        <rect fill="#526D37" stroke="#324C23" stroke-width="0.8" stroke-linejoin="round" filter="url(#shadow)" x="520" y="594" width="66" height="43"/>
+        <rect fill="none" stroke="#BCD0A7" stroke-width="0.75" stroke-linejoin="round" x="521.7" y="595.7" width="62.6" height="39.6"/>
+        <rect fill="#F9F4FA" stroke="#7D9070" stroke-width="0.75" stroke-linejoin="round" x="524.6" y="598.6" width="56.8" height="33.8"/>
+        <text x="553.0" y="620.54" font-family="Arial, 'Liberation Sans', sans-serif" font-size="18" font-weight="normal" text-anchor="middle" fill="#000000">M1(A)</text>
+        <ellipse fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" cx="608.0" cy="615.5" rx="10.0" ry="8.6"/>
+        <path fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" d="M 599.300 615.500 L 616.700 615.500"/>
+        <path fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" d="M 608.000 608.200 L 608.000 622.800"/>
+        <rect fill="#526D37" stroke="#2C4420" stroke-width="0.8" stroke-linejoin="round" filter="url(#shadow)" x="630" y="594" width="67" height="43"/>
+        <rect fill="#FFFFFF" stroke="none" stroke-width="1" stroke-linejoin="round" x="634" y="598" width="59" height="35"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 645.500 598.000 L 634.000 609.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 657.000 598.000 L 634.000 621.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 668.500 598.000 L 634.000 632.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 645.000 633.000 L 680.000 598.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 656.500 633.000 L 691.500 598.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 668.000 633.000 L 693.000 608.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 679.500 633.000 L 693.000 619.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 691.000 633.000 L 693.000 631.000"/>
+        <rect fill="none" stroke="#445644" stroke-width="0.7" stroke-linejoin="round" x="634" y="598" width="59" height="35"/>
+        <rect fill="none" stroke="#D2E3BC" stroke-width="0.7" stroke-linejoin="round" x="631.7" y="595.7" width="63.6" height="39.6"/>
+      </g>
+      <path fill="#FFF9FD" stroke="#F98DDD" stroke-width="1.5" stroke-linejoin="round" d="M 246.006 655.143 L 271.447 665.423 L 273.414 660.555 L 295.961 680.989 L 265.547 680.026 L 267.514 675.158 L 242.072 664.879 Z "/>
+      <path fill="#FFF9FD" stroke="#F98DDD" stroke-width="1.5" stroke-linejoin="round" d="M 572.001 663.253 L 547.467 673.165 L 549.434 678.033 L 519.966 678.614 L 541.567 658.562 L 543.534 663.430 L 568.067 653.518 Z "/>
+      <text x="418" y="686" font-family="'Times New Roman', 'Liberation Serif', serif" font-size="30" font-weight="normal" text-anchor="middle" fill="#000000">HODMMD</text>
+      <path fill="none" stroke="#000000" stroke-width="2.4" stroke-linejoin="round" d="M 417.000 690.000 L 417.000 706.000 L 169.000 706.000 L 169.000 729.000"/>
+      <path fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" d="M 169.000 733.000 L 159.000 710.000 L 179.000 710.000 Z "/>
+    </g>
+    <g data-name="Reliability sequence">
+      <rect fill="none" stroke="#000000" stroke-width="1.65" stroke-linejoin="round" stroke-dasharray="15 9" filter="url(#soft)" x="70" y="733" width="198" height="64"/>
+      <rect fill="none" stroke="#000000" stroke-width="1.65" stroke-linejoin="round" stroke-dasharray="15 9" filter="url(#soft)" x="283" y="733" width="474" height="64"/>
+      <ellipse fill="#F9F9F9" stroke="#FFC000" stroke-width="2.1" stroke-linejoin="round" filter="url(#ring)" cx="97.0" cy="765.0" rx="14.5" ry="12.47"/>
+      <ellipse fill="#F9F9F9" stroke="#548630" stroke-width="2.1" stroke-linejoin="round" filter="url(#ring)" cx="145.0" cy="765.0" rx="14.5" ry="12.47"/>
+      <ellipse fill="#F9F9F9" stroke="#0073C8" stroke-width="2.1" stroke-linejoin="round" filter="url(#ring)" cx="193.0" cy="765.0" rx="14.5" ry="12.47"/>
+      <ellipse fill="#F9F9F9" stroke="#DF37C4" stroke-width="2.1" stroke-linejoin="round" filter="url(#ring)" cx="241.0" cy="765.0" rx="14.5" ry="12.47"/>
+      <ellipse fill="#F9F9F9" stroke="#8DABE7" stroke-width="2.1" stroke-linejoin="round" filter="url(#ring)" cx="317.0" cy="765.0" rx="14.5" ry="12.47"/>
+      <ellipse fill="#F9F9F9" stroke="#F5EF00" stroke-width="2.1" stroke-linejoin="round" filter="url(#ring)" cx="359.0" cy="765.0" rx="14.5" ry="12.47"/>
+      <ellipse fill="#F9F9F9" stroke="#0077CC" stroke-width="2.1" stroke-linejoin="round" filter="url(#ring)" cx="401.0" cy="765.0" rx="14.5" ry="12.47"/>
+      <ellipse fill="#F9F9F9" stroke="#DF37C4" stroke-width="2.1" stroke-linejoin="round" filter="url(#ring)" cx="443.0" cy="765.0" rx="14.5" ry="12.47"/>
+      <ellipse fill="#F9F9F9" stroke="#75AF45" stroke-width="2.1" stroke-linejoin="round" filter="url(#ring)" cx="561.0" cy="765.0" rx="14.5" ry="12.47"/>
+      <ellipse fill="#F9F9F9" stroke="#DF37C4" stroke-width="2.1" stroke-linejoin="round" filter="url(#ring)" cx="605.0" cy="765.0" rx="14.5" ry="12.47"/>
+      <ellipse fill="#F9F9F9" stroke="#F2E900" stroke-width="2.1" stroke-linejoin="round" filter="url(#ring)" cx="645.0" cy="765.0" rx="14.5" ry="12.47"/>
+      <ellipse fill="#F9F9F9" stroke="#0077CC" stroke-width="2.1" stroke-linejoin="round" filter="url(#ring)" cx="687.0" cy="765.0" rx="14.5" ry="12.47"/>
+      <ellipse fill="#F9F9F9" stroke="#FFC000" stroke-width="2.1" stroke-linejoin="round" filter="url(#ring)" cx="729.0" cy="765.0" rx="14.5" ry="12.47"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="481" y="753.0" width="4.3" height="4.3"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="481" y="761.5" width="4.3" height="4.3"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="481" y="770.0" width="4.3" height="4.3"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="520" y="753.0" width="4.3" height="4.3"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="520" y="761.5" width="4.3" height="4.3"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="520" y="770.0" width="4.3" height="4.3"/>
+    </g>
+    <g data-name="Evidence and reliability weights">
+      <g data-name="Evidence M₁(A)">
+        <rect fill="#526D37" stroke="#324C23" stroke-width="0.8" stroke-linejoin="round" filter="url(#shadow)" x="79" y="820" width="67" height="43"/>
+        <rect fill="none" stroke="#BCD0A7" stroke-width="0.75" stroke-linejoin="round" x="80.7" y="821.7" width="63.6" height="39.6"/>
+        <rect fill="#F9F4FA" stroke="#7D9070" stroke-width="0.75" stroke-linejoin="round" x="83.6" y="824.6" width="57.8" height="33.8"/>
+        <text x="112.5" y="846.4" font-family="Arial, 'Liberation Sans', sans-serif" font-size="17.5" font-weight="normal" text-anchor="middle" fill="#000000">M1(A)</text>
+        <ellipse fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" cx="168.0" cy="841.5" rx="10.0" ry="8.6"/>
+        <path fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" d="M 159.300 841.500 L 176.700 841.500"/>
+        <path fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" d="M 168.000 834.200 L 168.000 848.800"/>
+        <rect fill="#526D37" stroke="#2C4420" stroke-width="0.8" stroke-linejoin="round" filter="url(#shadow)" x="190" y="820" width="67" height="43"/>
+        <rect fill="#FFFFFF" stroke="none" stroke-width="1" stroke-linejoin="round" x="194" y="824" width="59" height="35"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 205.500 824.000 L 194.000 835.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 217.000 824.000 L 194.000 847.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 228.500 824.000 L 194.000 858.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 205.000 859.000 L 240.000 824.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 216.500 859.000 L 251.500 824.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 228.000 859.000 L 253.000 834.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 239.500 859.000 L 253.000 845.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 251.000 859.000 L 253.000 857.000"/>
+        <rect fill="none" stroke="#445644" stroke-width="0.7" stroke-linejoin="round" x="194" y="824" width="59" height="35"/>
+        <rect fill="none" stroke="#D2E3BC" stroke-width="0.7" stroke-linejoin="round" x="191.7" y="821.7" width="63.6" height="39.6"/>
+      </g>
+      <g data-name="Evidence M₂(A)">
+        <rect fill="#526D37" stroke="#324C23" stroke-width="0.8" stroke-linejoin="round" filter="url(#shadow)" x="79" y="878" width="67" height="43"/>
+        <rect fill="none" stroke="#BCD0A7" stroke-width="0.75" stroke-linejoin="round" x="80.7" y="879.7" width="63.6" height="39.6"/>
+        <rect fill="#F9F4FA" stroke="#7D9070" stroke-width="0.75" stroke-linejoin="round" x="83.6" y="882.6" width="57.8" height="33.8"/>
+        <text x="112.5" y="904.4" font-family="Arial, 'Liberation Sans', sans-serif" font-size="17.5" font-weight="normal" text-anchor="middle" fill="#000000">M2(A)</text>
+        <ellipse fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" cx="168.0" cy="899.5" rx="10.0" ry="8.6"/>
+        <path fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" d="M 159.300 899.500 L 176.700 899.500"/>
+        <path fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" d="M 168.000 892.200 L 168.000 906.800"/>
+        <rect fill="#526D37" stroke="#2C4420" stroke-width="0.8" stroke-linejoin="round" filter="url(#shadow)" x="190" y="878" width="67" height="43"/>
+        <rect fill="#FFFFFF" stroke="none" stroke-width="1" stroke-linejoin="round" x="194" y="882" width="59" height="35"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 205.500 882.000 L 194.000 893.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 217.000 882.000 L 194.000 905.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 228.500 882.000 L 194.000 916.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 205.000 917.000 L 240.000 882.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 216.500 917.000 L 251.500 882.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 228.000 917.000 L 253.000 892.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 239.500 917.000 L 253.000 903.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 251.000 917.000 L 253.000 915.000"/>
+        <rect fill="none" stroke="#445644" stroke-width="0.7" stroke-linejoin="round" x="194" y="882" width="59" height="35"/>
+        <rect fill="none" stroke="#D2E3BC" stroke-width="0.7" stroke-linejoin="round" x="191.7" y="879.7" width="63.6" height="39.6"/>
+      </g>
+      <g data-name="Evidence M₃(A)">
+        <rect fill="#526D37" stroke="#324C23" stroke-width="0.8" stroke-linejoin="round" filter="url(#shadow)" x="79" y="938" width="67" height="43"/>
+        <rect fill="none" stroke="#BCD0A7" stroke-width="0.75" stroke-linejoin="round" x="80.7" y="939.7" width="63.6" height="39.6"/>
+        <rect fill="#F9F4FA" stroke="#7D9070" stroke-width="0.75" stroke-linejoin="round" x="83.6" y="942.6" width="57.8" height="33.8"/>
+        <text x="112.5" y="964.4" font-family="Arial, 'Liberation Sans', sans-serif" font-size="17.5" font-weight="normal" text-anchor="middle" fill="#000000">M3(A)</text>
+        <ellipse fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" cx="168.0" cy="959.5" rx="10.0" ry="8.6"/>
+        <path fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" d="M 159.300 959.500 L 176.700 959.500"/>
+        <path fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" d="M 168.000 952.200 L 168.000 966.800"/>
+        <rect fill="#526D37" stroke="#2C4420" stroke-width="0.8" stroke-linejoin="round" filter="url(#shadow)" x="190" y="938" width="67" height="43"/>
+        <rect fill="#FFFFFF" stroke="none" stroke-width="1" stroke-linejoin="round" x="194" y="942" width="59" height="35"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 205.500 942.000 L 194.000 953.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 217.000 942.000 L 194.000 965.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 228.500 942.000 L 194.000 976.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 205.000 977.000 L 240.000 942.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 216.500 977.000 L 251.500 942.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 228.000 977.000 L 253.000 952.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 239.500 977.000 L 253.000 963.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 251.000 977.000 L 253.000 975.000"/>
+        <rect fill="none" stroke="#445644" stroke-width="0.7" stroke-linejoin="round" x="194" y="942" width="59" height="35"/>
+        <rect fill="none" stroke="#D2E3BC" stroke-width="0.7" stroke-linejoin="round" x="191.7" y="939.7" width="63.6" height="39.6"/>
+      </g>
+      <g data-name="Evidence Mₙ₋₁(A)">
+        <rect fill="#526D37" stroke="#324C23" stroke-width="0.8" stroke-linejoin="round" filter="url(#shadow)" x="76" y="1027" width="67" height="43"/>
+        <rect fill="none" stroke="#BCD0A7" stroke-width="0.75" stroke-linejoin="round" x="77.7" y="1028.7" width="63.6" height="39.6"/>
+        <rect fill="#F9F4FA" stroke="#7D9070" stroke-width="0.75" stroke-linejoin="round" x="80.6" y="1031.6" width="57.8" height="33.8"/>
+        <text x="109.5" y="1052.98" font-family="Arial, 'Liberation Sans', sans-serif" font-size="16" font-weight="normal" text-anchor="middle" fill="#000000">Mn-1(A)</text>
+        <ellipse fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" cx="165.0" cy="1048.5" rx="10.0" ry="8.6"/>
+        <path fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" d="M 156.300 1048.500 L 173.700 1048.500"/>
+        <path fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" d="M 165.000 1041.200 L 165.000 1055.800"/>
+        <rect fill="#526D37" stroke="#2C4420" stroke-width="0.8" stroke-linejoin="round" filter="url(#shadow)" x="187" y="1027" width="67" height="43"/>
+        <rect fill="#FFFFFF" stroke="none" stroke-width="1" stroke-linejoin="round" x="191" y="1031" width="59" height="35"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 202.500 1031.000 L 191.000 1042.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 214.000 1031.000 L 191.000 1054.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 225.500 1031.000 L 191.000 1065.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 202.000 1066.000 L 237.000 1031.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 213.500 1066.000 L 248.500 1031.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 225.000 1066.000 L 250.000 1041.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 236.500 1066.000 L 250.000 1052.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 248.000 1066.000 L 250.000 1064.000"/>
+        <rect fill="none" stroke="#445644" stroke-width="0.7" stroke-linejoin="round" x="191" y="1031" width="59" height="35"/>
+        <rect fill="none" stroke="#D2E3BC" stroke-width="0.7" stroke-linejoin="round" x="188.7" y="1028.7" width="63.6" height="39.6"/>
+      </g>
+      <g data-name="Evidence Mₙ(A)">
+        <rect fill="#526D37" stroke="#324C23" stroke-width="0.8" stroke-linejoin="round" filter="url(#shadow)" x="76" y="1082" width="67" height="43"/>
+        <rect fill="none" stroke="#BCD0A7" stroke-width="0.75" stroke-linejoin="round" x="77.7" y="1083.7" width="63.6" height="39.6"/>
+        <rect fill="#F9F4FA" stroke="#7D9070" stroke-width="0.75" stroke-linejoin="round" x="80.6" y="1086.6" width="57.8" height="33.8"/>
+        <text x="109.5" y="1108.4" font-family="Arial, 'Liberation Sans', sans-serif" font-size="17.5" font-weight="normal" text-anchor="middle" fill="#000000">Mn(A)</text>
+        <ellipse fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" cx="165.0" cy="1103.5" rx="10.0" ry="8.6"/>
+        <path fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" d="M 156.300 1103.500 L 173.700 1103.500"/>
+        <path fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" d="M 165.000 1096.200 L 165.000 1110.800"/>
+        <rect fill="#526D37" stroke="#2C4420" stroke-width="0.8" stroke-linejoin="round" filter="url(#shadow)" x="187" y="1082" width="67" height="43"/>
+        <rect fill="#FFFFFF" stroke="none" stroke-width="1" stroke-linejoin="round" x="191" y="1086" width="59" height="35"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 202.500 1086.000 L 191.000 1097.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 214.000 1086.000 L 191.000 1109.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 225.500 1086.000 L 191.000 1120.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 202.000 1121.000 L 237.000 1086.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 213.500 1121.000 L 248.500 1086.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 225.000 1121.000 L 250.000 1096.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 236.500 1121.000 L 250.000 1107.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 248.000 1121.000 L 250.000 1119.000"/>
+        <rect fill="none" stroke="#445644" stroke-width="0.7" stroke-linejoin="round" x="191" y="1086" width="59" height="35"/>
+        <rect fill="none" stroke="#D2E3BC" stroke-width="0.7" stroke-linejoin="round" x="188.7" y="1083.7" width="63.6" height="39.6"/>
+      </g>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="146" y="990" width="4.3" height="4.3"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="146" y="999" width="4.3" height="4.3"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="146" y="1008" width="4.3" height="4.3"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="185" y="990" width="4.3" height="4.3"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="185" y="999" width="4.3" height="4.3"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="185" y="1008" width="4.3" height="4.3"/>
+      <ellipse fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" cx="298.0" cy="956.0" rx="10.0" ry="8.6"/>
+      <path fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" d="M 289.300 956.000 L 306.700 956.000"/>
+      <path fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" d="M 298.000 948.700 L 298.000 963.300"/>
+      <rect fill="#FEF9FD" stroke="#F4A8E7" stroke-width="1.15" stroke-linejoin="round" filter="url(#soft)" x="340" y="809" width="47" height="326" rx="5"/>
+      <rect fill="none" stroke="#F8BDEB" stroke-width="0.75" stroke-linejoin="round" x="342.5" y="811.5" width="42" height="321" rx="4"/>
+      <ellipse fill="#F9F9F9" stroke="#DF37C4" stroke-width="2.1" stroke-linejoin="round" filter="url(#ring)" cx="364.0" cy="827.0" rx="14.5" ry="12.47"/>
+      <ellipse fill="#F9F9F9" stroke="#578433" stroke-width="2.1" stroke-linejoin="round" filter="url(#ring)" cx="364.0" cy="862.0" rx="14.5" ry="12.47"/>
+      <ellipse fill="#F9F9F9" stroke="#FFC000" stroke-width="2.1" stroke-linejoin="round" filter="url(#ring)" cx="364.0" cy="897.0" rx="14.5" ry="12.47"/>
+      <ellipse fill="#F9F9F9" stroke="#0077CC" stroke-width="2.1" stroke-linejoin="round" filter="url(#ring)" cx="364.0" cy="933.0" rx="14.5" ry="12.47"/>
+      <ellipse fill="#F9F9F9" stroke="#F3EF00" stroke-width="2.1" stroke-linejoin="round" filter="url(#ring)" cx="364.0" cy="969.0" rx="14.5" ry="12.47"/>
+      <ellipse fill="#F9F9F9" stroke="#8DABE7" stroke-width="2.1" stroke-linejoin="round" filter="url(#ring)" cx="364.0" cy="1005.0" rx="14.5" ry="12.47"/>
+      <ellipse fill="#F9F9F9" stroke="#FFAF77" stroke-width="2.1" stroke-linejoin="round" filter="url(#ring)" cx="364.0" cy="1076.0" rx="14.5" ry="12.47"/>
+      <ellipse fill="#F9F9F9" stroke="#75AF45" stroke-width="2.1" stroke-linejoin="round" filter="url(#ring)" cx="364.0" cy="1112.0" rx="14.5" ry="12.47"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="351" y="1040" width="4" height="4"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="361" y="1040" width="4" height="4"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="371" y="1040" width="4" height="4"/>
+      <path fill="#F3ADE5" stroke="#F784D9" stroke-width="1.5" stroke-linejoin="round" filter="url(#shadow)" d="M 434.000 953.000 L 458.500 953.000 L 458.500 941.000 L 484.000 965.000 L 458.500 989.000 L 458.500 977.000 L 434.000 977.000 Z "/>
+    </g>
+    <g data-name="Reliability distribution matrix">
+      <rect fill="#FFFEFB" stroke="none" stroke-width="1" stroke-linejoin="round" x="514" y="809" width="231" height="326"/>
+      <path fill="none" stroke="#FFF3BD" stroke-width="1.8" stroke-linejoin="round" d="M 532.000 809.000 L 514.000 827.000"/>
+      <path fill="none" stroke="#FFF3BD" stroke-width="1.8" stroke-linejoin="round" d="M 550.000 809.000 L 514.000 845.000"/>
+      <path fill="none" stroke="#FFF3BD" stroke-width="1.8" stroke-linejoin="round" d="M 568.000 809.000 L 514.000 863.000"/>
+      <path fill="none" stroke="#FFF3BD" stroke-width="1.8" stroke-linejoin="round" d="M 586.000 809.000 L 514.000 881.000"/>
+      <path fill="none" stroke="#FFF3BD" stroke-width="1.8" stroke-linejoin="round" d="M 604.000 809.000 L 514.000 899.000"/>
+      <path fill="none" stroke="#FFF3BD" stroke-width="1.8" stroke-linejoin="round" d="M 622.000 809.000 L 514.000 917.000"/>
+      <path fill="none" stroke="#FFF3BD" stroke-width="1.8" stroke-linejoin="round" d="M 640.000 809.000 L 514.000 935.000"/>
+      <path fill="none" stroke="#FFF3BD" stroke-width="1.8" stroke-linejoin="round" d="M 658.000 809.000 L 514.000 953.000"/>
+      <path fill="none" stroke="#FFF3BD" stroke-width="1.8" stroke-linejoin="round" d="M 676.000 809.000 L 514.000 971.000"/>
+      <path fill="none" stroke="#FFF3BD" stroke-width="1.8" stroke-linejoin="round" d="M 694.000 809.000 L 514.000 989.000"/>
+      <path fill="none" stroke="#FFF3BD" stroke-width="1.8" stroke-linejoin="round" d="M 712.000 809.000 L 514.000 1007.000"/>
+      <path fill="none" stroke="#FFF3BD" stroke-width="1.8" stroke-linejoin="round" d="M 730.000 809.000 L 514.000 1025.000"/>
+      <path fill="none" stroke="#FFF3BD" stroke-width="1.8" stroke-linejoin="round" d="M 514.000 1043.000 L 745.000 812.000"/>
+      <path fill="none" stroke="#FFF3BD" stroke-width="1.8" stroke-linejoin="round" d="M 514.000 1061.000 L 745.000 830.000"/>
+      <path fill="none" stroke="#FFF3BD" stroke-width="1.8" stroke-linejoin="round" d="M 514.000 1079.000 L 745.000 848.000"/>
+      <path fill="none" stroke="#FFF3BD" stroke-width="1.8" stroke-linejoin="round" d="M 514.000 1097.000 L 745.000 866.000"/>
+      <path fill="none" stroke="#FFF3BD" stroke-width="1.8" stroke-linejoin="round" d="M 514.000 1115.000 L 745.000 884.000"/>
+      <path fill="none" stroke="#FFF3BD" stroke-width="1.8" stroke-linejoin="round" d="M 514.000 1133.000 L 745.000 902.000"/>
+      <path fill="none" stroke="#FFF3BD" stroke-width="1.8" stroke-linejoin="round" d="M 530.000 1135.000 L 745.000 920.000"/>
+      <path fill="none" stroke="#FFF3BD" stroke-width="1.8" stroke-linejoin="round" d="M 548.000 1135.000 L 745.000 938.000"/>
+      <path fill="none" stroke="#FFF3BD" stroke-width="1.8" stroke-linejoin="round" d="M 566.000 1135.000 L 745.000 956.000"/>
+      <path fill="none" stroke="#FFF3BD" stroke-width="1.8" stroke-linejoin="round" d="M 584.000 1135.000 L 745.000 974.000"/>
+      <path fill="none" stroke="#FFF3BD" stroke-width="1.8" stroke-linejoin="round" d="M 602.000 1135.000 L 745.000 992.000"/>
+      <path fill="none" stroke="#FFF3BD" stroke-width="1.8" stroke-linejoin="round" d="M 620.000 1135.000 L 745.000 1010.000"/>
+      <path fill="none" stroke="#FFF3BD" stroke-width="1.8" stroke-linejoin="round" d="M 638.000 1135.000 L 745.000 1028.000"/>
+      <path fill="none" stroke="#FFF3BD" stroke-width="1.8" stroke-linejoin="round" d="M 656.000 1135.000 L 745.000 1046.000"/>
+      <path fill="none" stroke="#FFF3BD" stroke-width="1.8" stroke-linejoin="round" d="M 674.000 1135.000 L 745.000 1064.000"/>
+      <path fill="none" stroke="#FFF3BD" stroke-width="1.8" stroke-linejoin="round" d="M 692.000 1135.000 L 745.000 1082.000"/>
+      <path fill="none" stroke="#FFF3BD" stroke-width="1.8" stroke-linejoin="round" d="M 710.000 1135.000 L 745.000 1100.000"/>
+      <path fill="none" stroke="#FFF3BD" stroke-width="1.8" stroke-linejoin="round" d="M 728.000 1135.000 L 745.000 1118.000"/>
+      <rect fill="none" stroke="#F6ADE4" stroke-width="3" stroke-linejoin="round" stroke-dasharray="3.3 16.9" filter="url(#soft)" x="514" y="809" width="231" height="326"/>
+      <g data-name="Probability distribution">
+        <rect fill="#FFFFFF" stroke="#E5DDCF" stroke-width="0.5" stroke-linejoin="round" x="533" y="821" width="48" height="42"/>
+        <ellipse fill="none" stroke="#B7A6FF" stroke-width="1.35" stroke-linejoin="round" cx="557.0" cy="842.0" rx="22.32" ry="18.69"/>
+        <path fill="none" stroke="#B7A6FF" stroke-width="1.15" stroke-linejoin="round" d="M 538.760 853.130 C 539.520 853.130 540.280 853.130 541.040 853.128 C 541.800 853.127 542.560 853.126 543.320 853.108 C 544.080 853.091 544.840 853.065 545.600 852.934 C 546.360 852.804 547.120 852.577 547.880 851.940 C 548.640 851.304 549.400 850.230 550.160 848.288 C 550.920 846.345 551.680 843.460 552.440 839.930 C 553.200 836.401 553.960 832.259 554.720 829.038 C 555.480 825.817 556.240 823.688 557.000 823.688 C 557.760 823.688 558.520 825.817 559.280 829.038 C 560.040 832.259 560.800 836.401 561.560 839.930 C 562.320 843.460 563.080 846.345 563.840 848.288 C 564.600 850.230 565.360 851.304 566.120 851.940 C 566.880 852.577 567.640 852.804 568.400 852.934 C 569.160 853.065 569.920 853.091 570.680 853.108 C 571.440 853.126 572.200 853.127 572.960 853.128 C 573.720 853.130 574.480 853.130 575.240 853.130"/>
+      </g>
+      <g data-name="Probability distribution">
+        <rect fill="#FFFFFF" stroke="#E5DDCF" stroke-width="0.5" stroke-linejoin="round" x="605" y="821" width="48" height="42"/>
+        <ellipse fill="none" stroke="#FFA6EA" stroke-width="1.35" stroke-linejoin="round" cx="629.0" cy="842.0" rx="22.32" ry="18.69"/>
+        <path fill="none" stroke="#FFA6EA" stroke-width="1.15" stroke-linejoin="round" d="M 610.760 853.130 C 611.520 853.130 612.280 853.130 613.040 853.128 C 613.800 853.127 614.560 853.126 615.320 853.108 C 616.080 853.091 616.840 853.065 617.600 852.934 C 618.360 852.804 619.120 852.577 619.880 851.940 C 620.640 851.304 621.400 850.230 622.160 848.288 C 622.920 846.345 623.680 843.460 624.440 839.930 C 625.200 836.401 625.960 832.259 626.720 829.038 C 627.480 825.817 628.240 823.688 629.000 823.688 C 629.760 823.688 630.520 825.817 631.280 829.038 C 632.040 832.259 632.800 836.401 633.560 839.930 C 634.320 843.460 635.080 846.345 635.840 848.288 C 636.600 850.230 637.360 851.304 638.120 851.940 C 638.880 852.577 639.640 852.804 640.400 852.934 C 641.160 853.065 641.920 853.091 642.680 853.108 C 643.440 853.126 644.200 853.127 644.960 853.128 C 645.720 853.130 646.480 853.130 647.240 853.130"/>
+      </g>
+      <g data-name="Probability distribution">
+        <rect fill="#FFFFFF" stroke="#E5DDCF" stroke-width="0.5" stroke-linejoin="round" x="676" y="821" width="48" height="42"/>
+        <ellipse fill="none" stroke="#FFC000" stroke-width="1.35" stroke-linejoin="round" cx="700.0" cy="842.0" rx="22.32" ry="18.69"/>
+        <path fill="none" stroke="#FFC000" stroke-width="1.15" stroke-linejoin="round" d="M 681.760 853.130 C 682.520 853.130 683.280 853.130 684.040 853.128 C 684.800 853.127 685.560 853.126 686.320 853.108 C 687.080 853.091 687.840 853.065 688.600 852.934 C 689.360 852.804 690.120 852.577 690.880 851.940 C 691.640 851.304 692.400 850.230 693.160 848.288 C 693.920 846.345 694.680 843.460 695.440 839.930 C 696.200 836.401 696.960 832.259 697.720 829.038 C 698.480 825.817 699.240 823.688 700.000 823.688 C 700.760 823.688 701.520 825.817 702.280 829.038 C 703.040 832.259 703.800 836.401 704.560 839.930 C 705.320 843.460 706.080 846.345 706.840 848.288 C 707.600 850.230 708.360 851.304 709.120 851.940 C 709.880 852.577 710.640 852.804 711.400 852.934 C 712.160 853.065 712.920 853.091 713.680 853.108 C 714.440 853.126 715.200 853.127 715.960 853.128 C 716.720 853.130 717.480 853.130 718.240 853.130"/>
+      </g>
+      <g data-name="Probability distribution">
+        <rect fill="#FFFFFF" stroke="#E5DDCF" stroke-width="0.5" stroke-linejoin="round" x="533" y="874" width="48" height="42"/>
+        <ellipse fill="none" stroke="#B7A6FF" stroke-width="1.35" stroke-linejoin="round" cx="557.0" cy="895.0" rx="22.32" ry="18.69"/>
+        <path fill="none" stroke="#B7A6FF" stroke-width="1.15" stroke-linejoin="round" d="M 538.760 906.130 C 539.520 906.130 540.280 906.130 541.040 906.128 C 541.800 906.127 542.560 906.126 543.320 906.108 C 544.080 906.091 544.840 906.065 545.600 905.934 C 546.360 905.804 547.120 905.577 547.880 904.940 C 548.640 904.304 549.400 903.230 550.160 901.288 C 550.920 899.345 551.680 896.460 552.440 892.930 C 553.200 889.401 553.960 885.259 554.720 882.038 C 555.480 878.817 556.240 876.688 557.000 876.688 C 557.760 876.688 558.520 878.817 559.280 882.038 C 560.040 885.259 560.800 889.401 561.560 892.930 C 562.320 896.460 563.080 899.345 563.840 901.288 C 564.600 903.230 565.360 904.304 566.120 904.940 C 566.880 905.577 567.640 905.804 568.400 905.934 C 569.160 906.065 569.920 906.091 570.680 906.108 C 571.440 906.126 572.200 906.127 572.960 906.128 C 573.720 906.130 574.480 906.130 575.240 906.130"/>
+      </g>
+      <g data-name="Probability distribution">
+        <rect fill="#FFFFFF" stroke="#E5DDCF" stroke-width="0.5" stroke-linejoin="round" x="605" y="874" width="48" height="42"/>
+        <ellipse fill="none" stroke="#FFA6EA" stroke-width="1.35" stroke-linejoin="round" cx="629.0" cy="895.0" rx="22.32" ry="18.69"/>
+        <path fill="none" stroke="#FFA6EA" stroke-width="1.15" stroke-linejoin="round" d="M 610.760 906.130 C 611.520 906.130 612.280 906.130 613.040 906.128 C 613.800 906.127 614.560 906.126 615.320 906.108 C 616.080 906.091 616.840 906.065 617.600 905.934 C 618.360 905.804 619.120 905.577 619.880 904.940 C 620.640 904.304 621.400 903.230 622.160 901.288 C 622.920 899.345 623.680 896.460 624.440 892.930 C 625.200 889.401 625.960 885.259 626.720 882.038 C 627.480 878.817 628.240 876.688 629.000 876.688 C 629.760 876.688 630.520 878.817 631.280 882.038 C 632.040 885.259 632.800 889.401 633.560 892.930 C 634.320 896.460 635.080 899.345 635.840 901.288 C 636.600 903.230 637.360 904.304 638.120 904.940 C 638.880 905.577 639.640 905.804 640.400 905.934 C 641.160 906.065 641.920 906.091 642.680 906.108 C 643.440 906.126 644.200 906.127 644.960 906.128 C 645.720 906.130 646.480 906.130 647.240 906.130"/>
+      </g>
+      <g data-name="Probability distribution">
+        <rect fill="#FFFFFF" stroke="#E5DDCF" stroke-width="0.5" stroke-linejoin="round" x="676" y="874" width="48" height="42"/>
+        <ellipse fill="none" stroke="#FFC000" stroke-width="1.35" stroke-linejoin="round" cx="700.0" cy="895.0" rx="22.32" ry="18.69"/>
+        <path fill="none" stroke="#FFC000" stroke-width="1.15" stroke-linejoin="round" d="M 681.760 906.130 C 682.520 906.130 683.280 906.130 684.040 906.128 C 684.800 906.127 685.560 906.126 686.320 906.108 C 687.080 906.091 687.840 906.065 688.600 905.934 C 689.360 905.804 690.120 905.577 690.880 904.940 C 691.640 904.304 692.400 903.230 693.160 901.288 C 693.920 899.345 694.680 896.460 695.440 892.930 C 696.200 889.401 696.960 885.259 697.720 882.038 C 698.480 878.817 699.240 876.688 700.000 876.688 C 700.760 876.688 701.520 878.817 702.280 882.038 C 703.040 885.259 703.800 889.401 704.560 892.930 C 705.320 896.460 706.080 899.345 706.840 901.288 C 707.600 903.230 708.360 904.304 709.120 904.940 C 709.880 905.577 710.640 905.804 711.400 905.934 C 712.160 906.065 712.920 906.091 713.680 906.108 C 714.440 906.126 715.200 906.127 715.960 906.128 C 716.720 906.130 717.480 906.130 718.240 906.130"/>
+      </g>
+      <g data-name="Probability distribution">
+        <rect fill="#FFFFFF" stroke="#E5DDCF" stroke-width="0.5" stroke-linejoin="round" x="533" y="926" width="48" height="42"/>
+        <ellipse fill="none" stroke="#B7A6FF" stroke-width="1.35" stroke-linejoin="round" cx="557.0" cy="947.0" rx="22.32" ry="18.69"/>
+        <path fill="none" stroke="#B7A6FF" stroke-width="1.15" stroke-linejoin="round" d="M 538.760 958.130 C 539.520 958.130 540.280 958.130 541.040 958.128 C 541.800 958.127 542.560 958.126 543.320 958.108 C 544.080 958.091 544.840 958.065 545.600 957.934 C 546.360 957.804 547.120 957.577 547.880 956.940 C 548.640 956.304 549.400 955.230 550.160 953.288 C 550.920 951.345 551.680 948.460 552.440 944.930 C 553.200 941.401 553.960 937.259 554.720 934.038 C 555.480 930.817 556.240 928.688 557.000 928.688 C 557.760 928.688 558.520 930.817 559.280 934.038 C 560.040 937.259 560.800 941.401 561.560 944.930 C 562.320 948.460 563.080 951.345 563.840 953.288 C 564.600 955.230 565.360 956.304 566.120 956.940 C 566.880 957.577 567.640 957.804 568.400 957.934 C 569.160 958.065 569.920 958.091 570.680 958.108 C 571.440 958.126 572.200 958.127 572.960 958.128 C 573.720 958.130 574.480 958.130 575.240 958.130"/>
+      </g>
+      <g data-name="Probability distribution">
+        <rect fill="#FFFFFF" stroke="#E5DDCF" stroke-width="0.5" stroke-linejoin="round" x="605" y="926" width="48" height="42"/>
+        <ellipse fill="none" stroke="#FFA6EA" stroke-width="1.35" stroke-linejoin="round" cx="629.0" cy="947.0" rx="22.32" ry="18.69"/>
+        <path fill="none" stroke="#FFA6EA" stroke-width="1.15" stroke-linejoin="round" d="M 610.760 958.130 C 611.520 958.130 612.280 958.130 613.040 958.128 C 613.800 958.127 614.560 958.126 615.320 958.108 C 616.080 958.091 616.840 958.065 617.600 957.934 C 618.360 957.804 619.120 957.577 619.880 956.940 C 620.640 956.304 621.400 955.230 622.160 953.288 C 622.920 951.345 623.680 948.460 624.440 944.930 C 625.200 941.401 625.960 937.259 626.720 934.038 C 627.480 930.817 628.240 928.688 629.000 928.688 C 629.760 928.688 630.520 930.817 631.280 934.038 C 632.040 937.259 632.800 941.401 633.560 944.930 C 634.320 948.460 635.080 951.345 635.840 953.288 C 636.600 955.230 637.360 956.304 638.120 956.940 C 638.880 957.577 639.640 957.804 640.400 957.934 C 641.160 958.065 641.920 958.091 642.680 958.108 C 643.440 958.126 644.200 958.127 644.960 958.128 C 645.720 958.130 646.480 958.130 647.240 958.130"/>
+      </g>
+      <g data-name="Probability distribution">
+        <rect fill="#FFFFFF" stroke="#E5DDCF" stroke-width="0.5" stroke-linejoin="round" x="676" y="926" width="48" height="42"/>
+        <ellipse fill="none" stroke="#FFC000" stroke-width="1.35" stroke-linejoin="round" cx="700.0" cy="947.0" rx="22.32" ry="18.69"/>
+        <path fill="none" stroke="#FFC000" stroke-width="1.15" stroke-linejoin="round" d="M 681.760 958.130 C 682.520 958.130 683.280 958.130 684.040 958.128 C 684.800 958.127 685.560 958.126 686.320 958.108 C 687.080 958.091 687.840 958.065 688.600 957.934 C 689.360 957.804 690.120 957.577 690.880 956.940 C 691.640 956.304 692.400 955.230 693.160 953.288 C 693.920 951.345 694.680 948.460 695.440 944.930 C 696.200 941.401 696.960 937.259 697.720 934.038 C 698.480 930.817 699.240 928.688 700.000 928.688 C 700.760 928.688 701.520 930.817 702.280 934.038 C 703.040 937.259 703.800 941.401 704.560 944.930 C 705.320 948.460 706.080 951.345 706.840 953.288 C 707.600 955.230 708.360 956.304 709.120 956.940 C 709.880 957.577 710.640 957.804 711.400 957.934 C 712.160 958.065 712.920 958.091 713.680 958.108 C 714.440 958.126 715.200 958.127 715.960 958.128 C 716.720 958.130 717.480 958.130 718.240 958.130"/>
+      </g>
+      <g data-name="Probability distribution">
+        <rect fill="#FFFFFF" stroke="#E5DDCF" stroke-width="0.5" stroke-linejoin="round" x="533" y="979" width="48" height="42"/>
+        <ellipse fill="none" stroke="#B7A6FF" stroke-width="1.35" stroke-linejoin="round" cx="557.0" cy="1000.0" rx="22.32" ry="18.69"/>
+        <path fill="none" stroke="#B7A6FF" stroke-width="1.15" stroke-linejoin="round" d="M 538.760 1011.130 C 539.520 1011.130 540.280 1011.130 541.040 1011.128 C 541.800 1011.127 542.560 1011.126 543.320 1011.108 C 544.080 1011.091 544.840 1011.065 545.600 1010.934 C 546.360 1010.804 547.120 1010.577 547.880 1009.940 C 548.640 1009.304 549.400 1008.230 550.160 1006.288 C 550.920 1004.345 551.680 1001.460 552.440 997.930 C 553.200 994.401 553.960 990.259 554.720 987.038 C 555.480 983.817 556.240 981.688 557.000 981.688 C 557.760 981.688 558.520 983.817 559.280 987.038 C 560.040 990.259 560.800 994.401 561.560 997.930 C 562.320 1001.460 563.080 1004.345 563.840 1006.288 C 564.600 1008.230 565.360 1009.304 566.120 1009.940 C 566.880 1010.577 567.640 1010.804 568.400 1010.934 C 569.160 1011.065 569.920 1011.091 570.680 1011.108 C 571.440 1011.126 572.200 1011.127 572.960 1011.128 C 573.720 1011.130 574.480 1011.130 575.240 1011.130"/>
+      </g>
+      <g data-name="Probability distribution">
+        <rect fill="#FFFFFF" stroke="#E5DDCF" stroke-width="0.5" stroke-linejoin="round" x="605" y="979" width="48" height="42"/>
+        <ellipse fill="none" stroke="#FFA6EA" stroke-width="1.35" stroke-linejoin="round" cx="629.0" cy="1000.0" rx="22.32" ry="18.69"/>
+        <path fill="none" stroke="#FFA6EA" stroke-width="1.15" stroke-linejoin="round" d="M 610.760 1011.130 C 611.520 1011.130 612.280 1011.130 613.040 1011.128 C 613.800 1011.127 614.560 1011.126 615.320 1011.108 C 616.080 1011.091 616.840 1011.065 617.600 1010.934 C 618.360 1010.804 619.120 1010.577 619.880 1009.940 C 620.640 1009.304 621.400 1008.230 622.160 1006.288 C 622.920 1004.345 623.680 1001.460 624.440 997.930 C 625.200 994.401 625.960 990.259 626.720 987.038 C 627.480 983.817 628.240 981.688 629.000 981.688 C 629.760 981.688 630.520 983.817 631.280 987.038 C 632.040 990.259 632.800 994.401 633.560 997.930 C 634.320 1001.460 635.080 1004.345 635.840 1006.288 C 636.600 1008.230 637.360 1009.304 638.120 1009.940 C 638.880 1010.577 639.640 1010.804 640.400 1010.934 C 641.160 1011.065 641.920 1011.091 642.680 1011.108 C 643.440 1011.126 644.200 1011.127 644.960 1011.128 C 645.720 1011.130 646.480 1011.130 647.240 1011.130"/>
+      </g>
+      <g data-name="Probability distribution">
+        <rect fill="#FFFFFF" stroke="#E5DDCF" stroke-width="0.5" stroke-linejoin="round" x="676" y="979" width="48" height="42"/>
+        <ellipse fill="none" stroke="#FFC000" stroke-width="1.35" stroke-linejoin="round" cx="700.0" cy="1000.0" rx="22.32" ry="18.69"/>
+        <path fill="none" stroke="#FFC000" stroke-width="1.15" stroke-linejoin="round" d="M 681.760 1011.130 C 682.520 1011.130 683.280 1011.130 684.040 1011.128 C 684.800 1011.127 685.560 1011.126 686.320 1011.108 C 687.080 1011.091 687.840 1011.065 688.600 1010.934 C 689.360 1010.804 690.120 1010.577 690.880 1009.940 C 691.640 1009.304 692.400 1008.230 693.160 1006.288 C 693.920 1004.345 694.680 1001.460 695.440 997.930 C 696.200 994.401 696.960 990.259 697.720 987.038 C 698.480 983.817 699.240 981.688 700.000 981.688 C 700.760 981.688 701.520 983.817 702.280 987.038 C 703.040 990.259 703.800 994.401 704.560 997.930 C 705.320 1001.460 706.080 1004.345 706.840 1006.288 C 707.600 1008.230 708.360 1009.304 709.120 1009.940 C 709.880 1010.577 710.640 1010.804 711.400 1010.934 C 712.160 1011.065 712.920 1011.091 713.680 1011.108 C 714.440 1011.126 715.200 1011.127 715.960 1011.128 C 716.720 1011.130 717.480 1011.130 718.240 1011.130"/>
+      </g>
+      <g data-name="Probability distribution">
+        <rect fill="#FFFFFF" stroke="#E5DDCF" stroke-width="0.5" stroke-linejoin="round" x="533" y="1031" width="48" height="42"/>
+        <ellipse fill="none" stroke="#B7A6FF" stroke-width="1.35" stroke-linejoin="round" cx="557.0" cy="1052.0" rx="22.32" ry="18.69"/>
+        <path fill="none" stroke="#B7A6FF" stroke-width="1.15" stroke-linejoin="round" d="M 538.760 1063.130 C 539.520 1063.130 540.280 1063.130 541.040 1063.128 C 541.800 1063.127 542.560 1063.126 543.320 1063.108 C 544.080 1063.091 544.840 1063.065 545.600 1062.934 C 546.360 1062.804 547.120 1062.577 547.880 1061.940 C 548.640 1061.304 549.400 1060.230 550.160 1058.288 C 550.920 1056.345 551.680 1053.460 552.440 1049.930 C 553.200 1046.401 553.960 1042.259 554.720 1039.038 C 555.480 1035.817 556.240 1033.688 557.000 1033.688 C 557.760 1033.688 558.520 1035.817 559.280 1039.038 C 560.040 1042.259 560.800 1046.401 561.560 1049.930 C 562.320 1053.460 563.080 1056.345 563.840 1058.288 C 564.600 1060.230 565.360 1061.304 566.120 1061.940 C 566.880 1062.577 567.640 1062.804 568.400 1062.934 C 569.160 1063.065 569.920 1063.091 570.680 1063.108 C 571.440 1063.126 572.200 1063.127 572.960 1063.128 C 573.720 1063.130 574.480 1063.130 575.240 1063.130"/>
+      </g>
+      <g data-name="Probability distribution">
+        <rect fill="#FFFFFF" stroke="#E5DDCF" stroke-width="0.5" stroke-linejoin="round" x="605" y="1031" width="48" height="42"/>
+        <ellipse fill="none" stroke="#FFA6EA" stroke-width="1.35" stroke-linejoin="round" cx="629.0" cy="1052.0" rx="22.32" ry="18.69"/>
+        <path fill="none" stroke="#FFA6EA" stroke-width="1.15" stroke-linejoin="round" d="M 610.760 1063.130 C 611.520 1063.130 612.280 1063.130 613.040 1063.128 C 613.800 1063.127 614.560 1063.126 615.320 1063.108 C 616.080 1063.091 616.840 1063.065 617.600 1062.934 C 618.360 1062.804 619.120 1062.577 619.880 1061.940 C 620.640 1061.304 621.400 1060.230 622.160 1058.288 C 622.920 1056.345 623.680 1053.460 624.440 1049.930 C 625.200 1046.401 625.960 1042.259 626.720 1039.038 C 627.480 1035.817 628.240 1033.688 629.000 1033.688 C 629.760 1033.688 630.520 1035.817 631.280 1039.038 C 632.040 1042.259 632.800 1046.401 633.560 1049.930 C 634.320 1053.460 635.080 1056.345 635.840 1058.288 C 636.600 1060.230 637.360 1061.304 638.120 1061.940 C 638.880 1062.577 639.640 1062.804 640.400 1062.934 C 641.160 1063.065 641.920 1063.091 642.680 1063.108 C 643.440 1063.126 644.200 1063.127 644.960 1063.128 C 645.720 1063.130 646.480 1063.130 647.240 1063.130"/>
+      </g>
+      <g data-name="Probability distribution">
+        <rect fill="#FFFFFF" stroke="#E5DDCF" stroke-width="0.5" stroke-linejoin="round" x="676" y="1031" width="48" height="42"/>
+        <ellipse fill="none" stroke="#FFC000" stroke-width="1.35" stroke-linejoin="round" cx="700.0" cy="1052.0" rx="22.32" ry="18.69"/>
+        <path fill="none" stroke="#FFC000" stroke-width="1.15" stroke-linejoin="round" d="M 681.760 1063.130 C 682.520 1063.130 683.280 1063.130 684.040 1063.128 C 684.800 1063.127 685.560 1063.126 686.320 1063.108 C 687.080 1063.091 687.840 1063.065 688.600 1062.934 C 689.360 1062.804 690.120 1062.577 690.880 1061.940 C 691.640 1061.304 692.400 1060.230 693.160 1058.288 C 693.920 1056.345 694.680 1053.460 695.440 1049.930 C 696.200 1046.401 696.960 1042.259 697.720 1039.038 C 698.480 1035.817 699.240 1033.688 700.000 1033.688 C 700.760 1033.688 701.520 1035.817 702.280 1039.038 C 703.040 1042.259 703.800 1046.401 704.560 1049.930 C 705.320 1053.460 706.080 1056.345 706.840 1058.288 C 707.600 1060.230 708.360 1061.304 709.120 1061.940 C 709.880 1062.577 710.640 1062.804 711.400 1062.934 C 712.160 1063.065 712.920 1063.091 713.680 1063.108 C 714.440 1063.126 715.200 1063.127 715.960 1063.128 C 716.720 1063.130 717.480 1063.130 718.240 1063.130"/>
+      </g>
+      <g data-name="Probability distribution">
+        <rect fill="#FFFFFF" stroke="#E5DDCF" stroke-width="0.5" stroke-linejoin="round" x="533" y="1084" width="48" height="42"/>
+        <ellipse fill="none" stroke="#B7A6FF" stroke-width="1.35" stroke-linejoin="round" cx="557.0" cy="1105.0" rx="22.32" ry="18.69"/>
+        <path fill="none" stroke="#B7A6FF" stroke-width="1.15" stroke-linejoin="round" d="M 538.760 1116.130 C 539.520 1116.130 540.280 1116.130 541.040 1116.128 C 541.800 1116.127 542.560 1116.126 543.320 1116.108 C 544.080 1116.091 544.840 1116.065 545.600 1115.934 C 546.360 1115.804 547.120 1115.577 547.880 1114.940 C 548.640 1114.304 549.400 1113.230 550.160 1111.288 C 550.920 1109.345 551.680 1106.460 552.440 1102.930 C 553.200 1099.401 553.960 1095.259 554.720 1092.038 C 555.480 1088.817 556.240 1086.688 557.000 1086.688 C 557.760 1086.688 558.520 1088.817 559.280 1092.038 C 560.040 1095.259 560.800 1099.401 561.560 1102.930 C 562.320 1106.460 563.080 1109.345 563.840 1111.288 C 564.600 1113.230 565.360 1114.304 566.120 1114.940 C 566.880 1115.577 567.640 1115.804 568.400 1115.934 C 569.160 1116.065 569.920 1116.091 570.680 1116.108 C 571.440 1116.126 572.200 1116.127 572.960 1116.128 C 573.720 1116.130 574.480 1116.130 575.240 1116.130"/>
+      </g>
+      <g data-name="Probability distribution">
+        <rect fill="#FFFFFF" stroke="#E5DDCF" stroke-width="0.5" stroke-linejoin="round" x="605" y="1084" width="48" height="42"/>
+        <ellipse fill="none" stroke="#FFA6EA" stroke-width="1.35" stroke-linejoin="round" cx="629.0" cy="1105.0" rx="22.32" ry="18.69"/>
+        <path fill="none" stroke="#FFA6EA" stroke-width="1.15" stroke-linejoin="round" d="M 610.760 1116.130 C 611.520 1116.130 612.280 1116.130 613.040 1116.128 C 613.800 1116.127 614.560 1116.126 615.320 1116.108 C 616.080 1116.091 616.840 1116.065 617.600 1115.934 C 618.360 1115.804 619.120 1115.577 619.880 1114.940 C 620.640 1114.304 621.400 1113.230 622.160 1111.288 C 622.920 1109.345 623.680 1106.460 624.440 1102.930 C 625.200 1099.401 625.960 1095.259 626.720 1092.038 C 627.480 1088.817 628.240 1086.688 629.000 1086.688 C 629.760 1086.688 630.520 1088.817 631.280 1092.038 C 632.040 1095.259 632.800 1099.401 633.560 1102.930 C 634.320 1106.460 635.080 1109.345 635.840 1111.288 C 636.600 1113.230 637.360 1114.304 638.120 1114.940 C 638.880 1115.577 639.640 1115.804 640.400 1115.934 C 641.160 1116.065 641.920 1116.091 642.680 1116.108 C 643.440 1116.126 644.200 1116.127 644.960 1116.128 C 645.720 1116.130 646.480 1116.130 647.240 1116.130"/>
+      </g>
+      <g data-name="Probability distribution">
+        <rect fill="#FFFFFF" stroke="#E5DDCF" stroke-width="0.5" stroke-linejoin="round" x="676" y="1084" width="48" height="42"/>
+        <ellipse fill="none" stroke="#FFC000" stroke-width="1.35" stroke-linejoin="round" cx="700.0" cy="1105.0" rx="22.32" ry="18.69"/>
+        <path fill="none" stroke="#FFC000" stroke-width="1.15" stroke-linejoin="round" d="M 681.760 1116.130 C 682.520 1116.130 683.280 1116.130 684.040 1116.128 C 684.800 1116.127 685.560 1116.126 686.320 1116.108 C 687.080 1116.091 687.840 1116.065 688.600 1115.934 C 689.360 1115.804 690.120 1115.577 690.880 1114.940 C 691.640 1114.304 692.400 1113.230 693.160 1111.288 C 693.920 1109.345 694.680 1106.460 695.440 1102.930 C 696.200 1099.401 696.960 1095.259 697.720 1092.038 C 698.480 1088.817 699.240 1086.688 700.000 1086.688 C 700.760 1086.688 701.520 1088.817 702.280 1092.038 C 703.040 1095.259 703.800 1099.401 704.560 1102.930 C 705.320 1106.460 706.080 1109.345 706.840 1111.288 C 707.600 1113.230 708.360 1114.304 709.120 1114.940 C 709.880 1115.577 710.640 1115.804 711.400 1115.934 C 712.160 1116.065 712.920 1116.091 713.680 1116.108 C 714.440 1116.126 715.200 1116.127 715.960 1116.128 C 716.720 1116.130 717.480 1116.130 718.240 1116.130"/>
+      </g>
+    </g>
+  </g>
+  <g data-name="Collaborative decision optimization">
+    <g data-name="Reliability assignment">
+      <rect fill="none" stroke="#000000" stroke-width="3.1" stroke-linejoin="round" stroke-dasharray="3.3 16.9" x="948" y="581" width="84" height="382"/>
+      <g data-name="Probability distribution">
+        <rect fill="#FFFFFF" stroke="#E5DDCF" stroke-width="0.5" stroke-linejoin="round" x="963" y="584" width="50" height="46"/>
+        <ellipse fill="none" stroke="#FFC000" stroke-width="1.35" stroke-linejoin="round" cx="988.0" cy="607.0" rx="23.25" ry="20.47"/>
+        <path fill="none" stroke="#FFC000" stroke-width="1.15" stroke-linejoin="round" d="M 969.000 618.873 C 969.792 618.750 970.583 618.568 971.375 618.252 C 972.167 617.936 972.958 617.485 973.750 616.793 C 974.542 616.101 975.333 615.163 976.125 613.886 C 976.917 612.610 977.708 610.988 978.500 609.033 C 979.292 607.077 980.083 604.784 980.875 602.353 C 981.667 599.921 982.458 597.358 983.250 595.033 C 984.042 592.707 984.833 590.634 985.625 589.190 C 986.417 587.746 987.208 586.944 988.000 586.944 C 988.792 586.944 989.583 587.746 990.375 589.190 C 991.167 590.634 991.958 592.707 992.750 595.033 C 993.542 597.358 994.333 599.921 995.125 602.353 C 995.917 604.784 996.708 607.077 997.500 609.033 C 998.292 610.988 999.083 612.610 999.875 613.886 C 1000.667 615.163 1001.458 616.101 1002.250 616.793 C 1003.042 617.485 1003.833 617.936 1004.625 618.252 C 1005.417 618.568 1006.208 618.750 1007.000 618.873"/>
+      </g>
+      <g data-name="Probability distribution">
+        <rect fill="#FFFFFF" stroke="#E5DDCF" stroke-width="0.5" stroke-linejoin="round" x="963" y="637" width="50" height="46"/>
+        <ellipse fill="none" stroke="#FFA6EA" stroke-width="1.35" stroke-linejoin="round" cx="988.0" cy="660.0" rx="23.25" ry="20.47"/>
+        <path fill="none" stroke="#FFA6EA" stroke-width="1.15" stroke-linejoin="round" d="M 969.000 672.190 C 969.792 672.190 970.583 672.190 971.375 672.188 C 972.167 672.187 972.958 672.185 973.750 672.166 C 974.542 672.147 975.333 672.119 976.125 671.976 C 976.917 671.832 977.708 671.584 978.500 670.887 C 979.292 670.190 980.083 669.014 980.875 666.886 C 981.667 664.759 982.458 661.599 983.250 657.733 C 984.042 653.867 984.833 649.332 985.625 645.804 C 986.417 642.276 987.208 639.944 988.000 639.944 C 988.792 639.944 989.583 642.276 990.375 645.804 C 991.167 649.332 991.958 653.867 992.750 657.733 C 993.542 661.599 994.333 664.759 995.125 666.886 C 995.917 669.014 996.708 670.190 997.500 670.887 C 998.292 671.584 999.083 671.832 999.875 671.976 C 1000.667 672.119 1001.458 672.147 1002.250 672.166 C 1003.042 672.185 1003.833 672.187 1004.625 672.188 C 1005.417 672.190 1006.208 672.190 1007.000 672.190"/>
+      </g>
+      <g data-name="Probability distribution">
+        <rect fill="#FFFFFF" stroke="#E5DDCF" stroke-width="0.5" stroke-linejoin="round" x="963" y="690" width="50" height="46"/>
+        <ellipse fill="none" stroke="#B7A6FF" stroke-width="1.35" stroke-linejoin="round" cx="988.0" cy="713.0" rx="23.25" ry="20.47"/>
+        <path fill="none" stroke="#B7A6FF" stroke-width="1.15" stroke-linejoin="round" d="M 969.000 725.190 C 969.792 725.190 970.583 725.190 971.375 725.188 C 972.167 725.187 972.958 725.185 973.750 725.166 C 974.542 725.147 975.333 725.119 976.125 724.976 C 976.917 724.832 977.708 724.584 978.500 723.887 C 979.292 723.190 980.083 722.014 980.875 719.886 C 981.667 717.759 982.458 714.599 983.250 710.733 C 984.042 706.867 984.833 702.332 985.625 698.804 C 986.417 695.276 987.208 692.944 988.000 692.944 C 988.792 692.944 989.583 695.276 990.375 698.804 C 991.167 702.332 991.958 706.867 992.750 710.733 C 993.542 714.599 994.333 717.759 995.125 719.886 C 995.917 722.014 996.708 723.190 997.500 723.887 C 998.292 724.584 999.083 724.832 999.875 724.976 C 1000.667 725.119 1001.458 725.147 1002.250 725.166 C 1003.042 725.185 1003.833 725.187 1004.625 725.188 C 1005.417 725.190 1006.208 725.190 1007.000 725.190"/>
+      </g>
+      <g data-name="Probability distribution">
+        <rect fill="#FFFFFF" stroke="#E5DDCF" stroke-width="0.5" stroke-linejoin="round" x="963" y="743" width="50" height="46"/>
+        <ellipse fill="none" stroke="#FFC000" stroke-width="1.35" stroke-linejoin="round" cx="988.0" cy="766.0" rx="23.25" ry="20.47"/>
+        <path fill="none" stroke="#FFC000" stroke-width="1.15" stroke-linejoin="round" d="M 969.000 777.873 C 969.792 777.750 970.583 777.568 971.375 777.252 C 972.167 776.936 972.958 776.485 973.750 775.793 C 974.542 775.101 975.333 774.163 976.125 772.886 C 976.917 771.610 977.708 769.988 978.500 768.033 C 979.292 766.077 980.083 763.784 980.875 761.353 C 981.667 758.921 982.458 756.358 983.250 754.033 C 984.042 751.707 984.833 749.634 985.625 748.190 C 986.417 746.746 987.208 745.944 988.000 745.944 C 988.792 745.944 989.583 746.746 990.375 748.190 C 991.167 749.634 991.958 751.707 992.750 754.033 C 993.542 756.358 994.333 758.921 995.125 761.353 C 995.917 763.784 996.708 766.077 997.500 768.033 C 998.292 769.988 999.083 771.610 999.875 772.886 C 1000.667 774.163 1001.458 775.101 1002.250 775.793 C 1003.042 776.485 1003.833 776.936 1004.625 777.252 C 1005.417 777.568 1006.208 777.750 1007.000 777.873"/>
+      </g>
+      <g data-name="Probability distribution">
+        <rect fill="#FFFFFF" stroke="#E5DDCF" stroke-width="0.5" stroke-linejoin="round" x="963" y="796" width="50" height="46"/>
+        <ellipse fill="none" stroke="#FFA6EA" stroke-width="1.35" stroke-linejoin="round" cx="988.0" cy="819.0" rx="23.25" ry="20.47"/>
+        <path fill="none" stroke="#FFA6EA" stroke-width="1.15" stroke-linejoin="round" d="M 969.000 831.190 C 969.792 831.190 970.583 831.190 971.375 831.188 C 972.167 831.187 972.958 831.185 973.750 831.166 C 974.542 831.147 975.333 831.119 976.125 830.976 C 976.917 830.832 977.708 830.584 978.500 829.887 C 979.292 829.190 980.083 828.014 980.875 825.886 C 981.667 823.759 982.458 820.599 983.250 816.733 C 984.042 812.867 984.833 808.332 985.625 804.804 C 986.417 801.276 987.208 798.944 988.000 798.944 C 988.792 798.944 989.583 801.276 990.375 804.804 C 991.167 808.332 991.958 812.867 992.750 816.733 C 993.542 820.599 994.333 823.759 995.125 825.886 C 995.917 828.014 996.708 829.190 997.500 829.887 C 998.292 830.584 999.083 830.832 999.875 830.976 C 1000.667 831.119 1001.458 831.147 1002.250 831.166 C 1003.042 831.185 1003.833 831.187 1004.625 831.188 C 1005.417 831.190 1006.208 831.190 1007.000 831.190"/>
+      </g>
+      <g data-name="Probability distribution">
+        <rect fill="#FFFFFF" stroke="#E5DDCF" stroke-width="0.5" stroke-linejoin="round" x="963" y="849" width="50" height="46"/>
+        <ellipse fill="none" stroke="#B7A6FF" stroke-width="1.35" stroke-linejoin="round" cx="988.0" cy="872.0" rx="23.25" ry="20.47"/>
+        <path fill="none" stroke="#B7A6FF" stroke-width="1.15" stroke-linejoin="round" d="M 969.000 884.190 C 969.792 884.190 970.583 884.190 971.375 884.188 C 972.167 884.187 972.958 884.185 973.750 884.166 C 974.542 884.147 975.333 884.119 976.125 883.976 C 976.917 883.832 977.708 883.584 978.500 882.887 C 979.292 882.190 980.083 881.014 980.875 878.886 C 981.667 876.759 982.458 873.599 983.250 869.733 C 984.042 865.867 984.833 861.332 985.625 857.804 C 986.417 854.276 987.208 851.944 988.000 851.944 C 988.792 851.944 989.583 854.276 990.375 857.804 C 991.167 861.332 991.958 865.867 992.750 869.733 C 993.542 873.599 994.333 876.759 995.125 878.886 C 995.917 881.014 996.708 882.190 997.500 882.887 C 998.292 883.584 999.083 883.832 999.875 883.976 C 1000.667 884.119 1001.458 884.147 1002.250 884.166 C 1003.042 884.185 1003.833 884.187 1004.625 884.188 C 1005.417 884.190 1006.208 884.190 1007.000 884.190"/>
+      </g>
+      <g data-name="Probability distribution">
+        <rect fill="#FFFFFF" stroke="#E5DDCF" stroke-width="0.5" stroke-linejoin="round" x="963" y="902" width="50" height="46"/>
+        <ellipse fill="none" stroke="#FFC000" stroke-width="1.35" stroke-linejoin="round" cx="988.0" cy="925.0" rx="23.25" ry="20.47"/>
+        <path fill="none" stroke="#FFC000" stroke-width="1.15" stroke-linejoin="round" d="M 969.000 936.873 C 969.792 936.750 970.583 936.568 971.375 936.252 C 972.167 935.936 972.958 935.485 973.750 934.793 C 974.542 934.101 975.333 933.163 976.125 931.886 C 976.917 930.610 977.708 928.988 978.500 927.033 C 979.292 925.077 980.083 922.784 980.875 920.353 C 981.667 917.921 982.458 915.358 983.250 913.033 C 984.042 910.707 984.833 908.634 985.625 907.190 C 986.417 905.746 987.208 904.944 988.000 904.944 C 988.792 904.944 989.583 905.746 990.375 907.190 C 991.167 908.634 991.958 910.707 992.750 913.033 C 993.542 915.358 994.333 917.921 995.125 920.353 C 995.917 922.784 996.708 925.077 997.500 927.033 C 998.292 928.988 999.083 930.610 999.875 931.886 C 1000.667 933.163 1001.458 934.101 1002.250 934.793 C 1003.042 935.485 1003.833 935.936 1004.625 936.252 C 1005.417 936.568 1006.208 936.750 1007.000 936.873"/>
+      </g>
+      <g data-name="Evidence M₁(A)">
+        <rect fill="#526D37" stroke="#324C23" stroke-width="0.8" stroke-linejoin="round" filter="url(#shadow)" x="1193" y="580" width="66" height="43"/>
+        <rect fill="none" stroke="#BCD0A7" stroke-width="0.75" stroke-linejoin="round" x="1194.7" y="581.7" width="62.6" height="39.6"/>
+        <rect fill="#FEFAEE" stroke="#7D9070" stroke-width="0.75" stroke-linejoin="round" x="1197.6" y="584.6" width="56.8" height="33.8"/>
+        <text x="1226.0" y="606.4" font-family="Arial, 'Liberation Sans', sans-serif" font-size="17.5" font-weight="normal" text-anchor="middle" fill="#000000">M1(A)</text>
+        <ellipse fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" cx="1281.0" cy="601.5" rx="10.0" ry="8.6"/>
+        <path fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" d="M 1272.300 601.500 L 1289.700 601.500"/>
+        <path fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" d="M 1281.000 594.200 L 1281.000 608.800"/>
+        <rect fill="#526D37" stroke="#2C4420" stroke-width="0.8" stroke-linejoin="round" filter="url(#shadow)" x="1302" y="580" width="67" height="43"/>
+        <rect fill="#FFFFFF" stroke="none" stroke-width="1" stroke-linejoin="round" x="1306" y="584" width="59" height="35"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1317.500 584.000 L 1306.000 595.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1329.000 584.000 L 1306.000 607.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1340.500 584.000 L 1306.000 618.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1317.000 619.000 L 1352.000 584.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1328.500 619.000 L 1363.500 584.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1340.000 619.000 L 1365.000 594.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1351.500 619.000 L 1365.000 605.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1363.000 619.000 L 1365.000 617.000"/>
+        <rect fill="none" stroke="#445644" stroke-width="0.7" stroke-linejoin="round" x="1306" y="584" width="59" height="35"/>
+        <rect fill="none" stroke="#D2E3BC" stroke-width="0.7" stroke-linejoin="round" x="1303.7" y="581.7" width="63.6" height="39.6"/>
+      </g>
+      <path fill="none" stroke="#00B6ED" stroke-width="2.15" stroke-linejoin="round" d="M 1078.000 609.000 C 1098.000 569.000 1140.000 578.000 1170.000 608.000"/>
+      <path fill="#00B6ED" stroke="none" stroke-width="1" stroke-linejoin="round" d="M 1170.000 608.000 L 1164.379 592.408 L 1154.408 602.379 Z "/>
+      <g data-name="Evidence M₂(A)">
+        <rect fill="#526D37" stroke="#324C23" stroke-width="0.8" stroke-linejoin="round" filter="url(#shadow)" x="1193" y="639" width="66" height="43"/>
+        <rect fill="none" stroke="#BCD0A7" stroke-width="0.75" stroke-linejoin="round" x="1194.7" y="640.7" width="62.6" height="39.6"/>
+        <rect fill="#FEFAEE" stroke="#7D9070" stroke-width="0.75" stroke-linejoin="round" x="1197.6" y="643.6" width="56.8" height="33.8"/>
+        <text x="1226.0" y="665.4" font-family="Arial, 'Liberation Sans', sans-serif" font-size="17.5" font-weight="normal" text-anchor="middle" fill="#000000">M2(A)</text>
+        <ellipse fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" cx="1281.0" cy="660.5" rx="10.0" ry="8.6"/>
+        <path fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" d="M 1272.300 660.500 L 1289.700 660.500"/>
+        <path fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" d="M 1281.000 653.200 L 1281.000 667.800"/>
+        <rect fill="#526D37" stroke="#2C4420" stroke-width="0.8" stroke-linejoin="round" filter="url(#shadow)" x="1302" y="639" width="67" height="43"/>
+        <rect fill="#FFFFFF" stroke="none" stroke-width="1" stroke-linejoin="round" x="1306" y="643" width="59" height="35"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1317.500 643.000 L 1306.000 654.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1329.000 643.000 L 1306.000 666.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1340.500 643.000 L 1306.000 677.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1317.000 678.000 L 1352.000 643.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1328.500 678.000 L 1363.500 643.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1340.000 678.000 L 1365.000 653.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1351.500 678.000 L 1365.000 664.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1363.000 678.000 L 1365.000 676.000"/>
+        <rect fill="none" stroke="#445644" stroke-width="0.7" stroke-linejoin="round" x="1306" y="643" width="59" height="35"/>
+        <rect fill="none" stroke="#D2E3BC" stroke-width="0.7" stroke-linejoin="round" x="1303.7" y="640.7" width="63.6" height="39.6"/>
+      </g>
+      <path fill="none" stroke="#00B6ED" stroke-width="2.15" stroke-linejoin="round" d="M 1078.000 668.000 C 1098.000 628.000 1140.000 637.000 1170.000 667.000"/>
+      <path fill="#00B6ED" stroke="none" stroke-width="1" stroke-linejoin="round" d="M 1170.000 667.000 L 1164.379 651.408 L 1154.408 661.379 Z "/>
+      <g data-name="Evidence M₃(A)">
+        <rect fill="#526D37" stroke="#324C23" stroke-width="0.8" stroke-linejoin="round" filter="url(#shadow)" x="1193" y="696" width="66" height="43"/>
+        <rect fill="none" stroke="#BCD0A7" stroke-width="0.75" stroke-linejoin="round" x="1194.7" y="697.7" width="62.6" height="39.6"/>
+        <rect fill="#FEFAEE" stroke="#7D9070" stroke-width="0.75" stroke-linejoin="round" x="1197.6" y="700.6" width="56.8" height="33.8"/>
+        <text x="1226.0" y="722.4" font-family="Arial, 'Liberation Sans', sans-serif" font-size="17.5" font-weight="normal" text-anchor="middle" fill="#000000">M3(A)</text>
+        <ellipse fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" cx="1281.0" cy="717.5" rx="10.0" ry="8.6"/>
+        <path fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" d="M 1272.300 717.500 L 1289.700 717.500"/>
+        <path fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" d="M 1281.000 710.200 L 1281.000 724.800"/>
+        <rect fill="#526D37" stroke="#2C4420" stroke-width="0.8" stroke-linejoin="round" filter="url(#shadow)" x="1302" y="696" width="67" height="43"/>
+        <rect fill="#FFFFFF" stroke="none" stroke-width="1" stroke-linejoin="round" x="1306" y="700" width="59" height="35"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1317.500 700.000 L 1306.000 711.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1329.000 700.000 L 1306.000 723.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1340.500 700.000 L 1306.000 734.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1317.000 735.000 L 1352.000 700.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1328.500 735.000 L 1363.500 700.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1340.000 735.000 L 1365.000 710.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1351.500 735.000 L 1365.000 721.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1363.000 735.000 L 1365.000 733.000"/>
+        <rect fill="none" stroke="#445644" stroke-width="0.7" stroke-linejoin="round" x="1306" y="700" width="59" height="35"/>
+        <rect fill="none" stroke="#D2E3BC" stroke-width="0.7" stroke-linejoin="round" x="1303.7" y="697.7" width="63.6" height="39.6"/>
+      </g>
+      <path fill="none" stroke="#00B6ED" stroke-width="2.15" stroke-linejoin="round" d="M 1078.000 725.000 C 1098.000 685.000 1140.000 694.000 1170.000 724.000"/>
+      <path fill="#00B6ED" stroke="none" stroke-width="1" stroke-linejoin="round" d="M 1170.000 724.000 L 1164.379 708.408 L 1154.408 718.379 Z "/>
+      <g data-name="Evidence M₄(A)">
+        <rect fill="#526D37" stroke="#324C23" stroke-width="0.8" stroke-linejoin="round" filter="url(#shadow)" x="1193" y="756" width="66" height="43"/>
+        <rect fill="none" stroke="#BCD0A7" stroke-width="0.75" stroke-linejoin="round" x="1194.7" y="757.7" width="62.6" height="39.6"/>
+        <rect fill="#FEFAEE" stroke="#7D9070" stroke-width="0.75" stroke-linejoin="round" x="1197.6" y="760.6" width="56.8" height="33.8"/>
+        <text x="1226.0" y="782.4" font-family="Arial, 'Liberation Sans', sans-serif" font-size="17.5" font-weight="normal" text-anchor="middle" fill="#000000">M4(A)</text>
+        <ellipse fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" cx="1281.0" cy="777.5" rx="10.0" ry="8.6"/>
+        <path fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" d="M 1272.300 777.500 L 1289.700 777.500"/>
+        <path fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" d="M 1281.000 770.200 L 1281.000 784.800"/>
+        <rect fill="#526D37" stroke="#2C4420" stroke-width="0.8" stroke-linejoin="round" filter="url(#shadow)" x="1302" y="756" width="67" height="43"/>
+        <rect fill="#FFFFFF" stroke="none" stroke-width="1" stroke-linejoin="round" x="1306" y="760" width="59" height="35"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1317.500 760.000 L 1306.000 771.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1329.000 760.000 L 1306.000 783.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1340.500 760.000 L 1306.000 794.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1317.000 795.000 L 1352.000 760.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1328.500 795.000 L 1363.500 760.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1340.000 795.000 L 1365.000 770.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1351.500 795.000 L 1365.000 781.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1363.000 795.000 L 1365.000 793.000"/>
+        <rect fill="none" stroke="#445644" stroke-width="0.7" stroke-linejoin="round" x="1306" y="760" width="59" height="35"/>
+        <rect fill="none" stroke="#D2E3BC" stroke-width="0.7" stroke-linejoin="round" x="1303.7" y="757.7" width="63.6" height="39.6"/>
+      </g>
+      <path fill="none" stroke="#00B6ED" stroke-width="2.15" stroke-linejoin="round" d="M 1078.000 785.000 C 1098.000 745.000 1140.000 754.000 1170.000 784.000"/>
+      <path fill="#00B6ED" stroke="none" stroke-width="1" stroke-linejoin="round" d="M 1170.000 784.000 L 1164.379 768.408 L 1154.408 778.379 Z "/>
+      <g data-name="Evidence Mₙ₋₁(A)">
+        <rect fill="#526D37" stroke="#324C23" stroke-width="0.8" stroke-linejoin="round" filter="url(#shadow)" x="1193" y="865" width="66" height="43"/>
+        <rect fill="none" stroke="#BCD0A7" stroke-width="0.75" stroke-linejoin="round" x="1194.7" y="866.7" width="62.6" height="39.6"/>
+        <rect fill="#FEFAEE" stroke="#7D9070" stroke-width="0.75" stroke-linejoin="round" x="1197.6" y="869.6" width="56.8" height="33.8"/>
+        <text x="1226.0" y="891.008" font-family="Arial, 'Liberation Sans', sans-serif" font-size="16.1" font-weight="normal" text-anchor="middle" fill="#000000">Mn-1(A)</text>
+        <ellipse fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" cx="1281.0" cy="886.5" rx="10.0" ry="8.6"/>
+        <path fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" d="M 1272.300 886.500 L 1289.700 886.500"/>
+        <path fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" d="M 1281.000 879.200 L 1281.000 893.800"/>
+        <rect fill="#526D37" stroke="#2C4420" stroke-width="0.8" stroke-linejoin="round" filter="url(#shadow)" x="1302" y="865" width="67" height="43"/>
+        <rect fill="#FFFFFF" stroke="none" stroke-width="1" stroke-linejoin="round" x="1306" y="869" width="59" height="35"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1317.500 869.000 L 1306.000 880.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1329.000 869.000 L 1306.000 892.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1340.500 869.000 L 1306.000 903.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1317.000 904.000 L 1352.000 869.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1328.500 904.000 L 1363.500 869.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1340.000 904.000 L 1365.000 879.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1351.500 904.000 L 1365.000 890.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1363.000 904.000 L 1365.000 902.000"/>
+        <rect fill="none" stroke="#445644" stroke-width="0.7" stroke-linejoin="round" x="1306" y="869" width="59" height="35"/>
+        <rect fill="none" stroke="#D2E3BC" stroke-width="0.7" stroke-linejoin="round" x="1303.7" y="866.7" width="63.6" height="39.6"/>
+      </g>
+      <path fill="none" stroke="#00B6ED" stroke-width="2.15" stroke-linejoin="round" d="M 1078.000 894.000 C 1098.000 854.000 1140.000 863.000 1170.000 893.000"/>
+      <path fill="#00B6ED" stroke="none" stroke-width="1" stroke-linejoin="round" d="M 1170.000 893.000 L 1164.379 877.408 L 1154.408 887.379 Z "/>
+      <g data-name="Evidence Mₙ(A)">
+        <rect fill="#526D37" stroke="#324C23" stroke-width="0.8" stroke-linejoin="round" filter="url(#shadow)" x="1193" y="918" width="66" height="43"/>
+        <rect fill="none" stroke="#BCD0A7" stroke-width="0.75" stroke-linejoin="round" x="1194.7" y="919.7" width="62.6" height="39.6"/>
+        <rect fill="#FEFAEE" stroke="#7D9070" stroke-width="0.75" stroke-linejoin="round" x="1197.6" y="922.6" width="56.8" height="33.8"/>
+        <text x="1226.0" y="944.4" font-family="Arial, 'Liberation Sans', sans-serif" font-size="17.5" font-weight="normal" text-anchor="middle" fill="#000000">Mn(A)</text>
+        <ellipse fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" cx="1281.0" cy="939.5" rx="10.0" ry="8.6"/>
+        <path fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" d="M 1272.300 939.500 L 1289.700 939.500"/>
+        <path fill="none" stroke="#000000" stroke-width="1.4" stroke-linejoin="round" d="M 1281.000 932.200 L 1281.000 946.800"/>
+        <rect fill="#526D37" stroke="#2C4420" stroke-width="0.8" stroke-linejoin="round" filter="url(#shadow)" x="1302" y="918" width="67" height="43"/>
+        <rect fill="#FFFFFF" stroke="none" stroke-width="1" stroke-linejoin="round" x="1306" y="922" width="59" height="35"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1317.500 922.000 L 1306.000 933.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1329.000 922.000 L 1306.000 945.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1340.500 922.000 L 1306.000 956.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1317.000 957.000 L 1352.000 922.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1328.500 957.000 L 1363.500 922.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1340.000 957.000 L 1365.000 932.000"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1351.500 957.000 L 1365.000 943.500"/>
+        <path fill="none" stroke="#82B9E8" stroke-width="1.5" stroke-linejoin="round" d="M 1363.000 957.000 L 1365.000 955.000"/>
+        <rect fill="none" stroke="#445644" stroke-width="0.7" stroke-linejoin="round" x="1306" y="922" width="59" height="35"/>
+        <rect fill="none" stroke="#D2E3BC" stroke-width="0.7" stroke-linejoin="round" x="1303.7" y="919.7" width="63.6" height="39.6"/>
+      </g>
+      <path fill="none" stroke="#00B6ED" stroke-width="2.15" stroke-linejoin="round" d="M 1078.000 947.000 C 1098.000 907.000 1140.000 916.000 1170.000 946.000"/>
+      <path fill="#00B6ED" stroke="none" stroke-width="1" stroke-linejoin="round" d="M 1170.000 946.000 L 1164.379 930.408 L 1154.408 940.379 Z "/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="1256" y="828" width="4.3" height="4.3"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="1256" y="837" width="4.3" height="4.3"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="1256" y="846" width="4.3" height="4.3"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="1295" y="828" width="4.3" height="4.3"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="1295" y="837" width="4.3" height="4.3"/>
+      <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="1295" y="846" width="4.3" height="4.3"/>
+      <text x="1166" y="1005" font-family="'Times New Roman', 'Liberation Serif', serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#000000">Reliability Assignment</text>
+    </g>
+    <g data-name="Fusion">
+      <rect fill="none" stroke="#FFB284" stroke-width="3.1" stroke-linejoin="round" stroke-dasharray="3.3 16.9" x="1393" y="588" width="227" height="370"/>
+      <g data-name="Fusion BBA 1">
+        <rect fill="none" stroke="#F19DDF" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="15 9" x="1430" y="600" width="63" height="97" rx="7"/>
+        <path fill="#FAE8E0" stroke="#13121A" stroke-width="0.65" stroke-linejoin="round" d="M 1452.000 611.000 L 1473.000 611.000 L 1469.000 607.000 L 1448.000 607.000 Z "/>
+        <path fill="#DCBFB9" stroke="#13121A" stroke-width="0.65" stroke-linejoin="round" d="M 1448.000 607.000 L 1452.000 611.000 L 1452.000 629.000 L 1448.000 625.000 Z "/>
+        <rect fill="#F9DCD6" stroke="#13121A" stroke-width="0.65" stroke-linejoin="round" x="1452" y="611" width="21" height="18"/>
+        <path fill="#FFE88C" stroke="#13121A" stroke-width="0.65" stroke-linejoin="round" d="M 1452.000 637.000 L 1473.000 637.000 L 1469.000 633.000 L 1448.000 633.000 Z "/>
+        <path fill="#D6B542" stroke="#13121A" stroke-width="0.65" stroke-linejoin="round" d="M 1448.000 633.000 L 1452.000 637.000 L 1452.000 655.000 L 1448.000 651.000 Z "/>
+        <rect fill="#FFDC65" stroke="#13121A" stroke-width="0.65" stroke-linejoin="round" x="1452" y="637" width="21" height="18"/>
+        <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="1460" y="657" width="3.7" height="3.7"/>
+        <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="1460" y="665" width="3.7" height="3.7"/>
+        <path fill="#CABBFC" stroke="#13121A" stroke-width="0.65" stroke-linejoin="round" d="M 1452.000 674.000 L 1473.000 674.000 L 1469.000 670.000 L 1448.000 670.000 Z "/>
+        <path fill="#9A84D4" stroke="#13121A" stroke-width="0.65" stroke-linejoin="round" d="M 1448.000 670.000 L 1452.000 674.000 L 1452.000 692.000 L 1448.000 688.000 Z "/>
+        <rect fill="#BAA8F5" stroke="#13121A" stroke-width="0.65" stroke-linejoin="round" x="1452" y="674" width="21" height="18"/>
+      </g>
+      <g data-name="Fusion BBA 2">
+        <rect fill="none" stroke="#F19DDF" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="15 9" x="1430" y="722" width="63" height="97" rx="7"/>
+        <path fill="#FAE8E0" stroke="#13121A" stroke-width="0.65" stroke-linejoin="round" d="M 1452.000 733.000 L 1473.000 733.000 L 1469.000 729.000 L 1448.000 729.000 Z "/>
+        <path fill="#DCBFB9" stroke="#13121A" stroke-width="0.65" stroke-linejoin="round" d="M 1448.000 729.000 L 1452.000 733.000 L 1452.000 751.000 L 1448.000 747.000 Z "/>
+        <rect fill="#F9DCD6" stroke="#13121A" stroke-width="0.65" stroke-linejoin="round" x="1452" y="733" width="21" height="18"/>
+        <path fill="#FFE88C" stroke="#13121A" stroke-width="0.65" stroke-linejoin="round" d="M 1452.000 759.000 L 1473.000 759.000 L 1469.000 755.000 L 1448.000 755.000 Z "/>
+        <path fill="#D6B542" stroke="#13121A" stroke-width="0.65" stroke-linejoin="round" d="M 1448.000 755.000 L 1452.000 759.000 L 1452.000 777.000 L 1448.000 773.000 Z "/>
+        <rect fill="#FFDC65" stroke="#13121A" stroke-width="0.65" stroke-linejoin="round" x="1452" y="759" width="21" height="18"/>
+        <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="1460" y="779" width="3.7" height="3.7"/>
+        <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="1460" y="787" width="3.7" height="3.7"/>
+        <path fill="#CABBFC" stroke="#13121A" stroke-width="0.65" stroke-linejoin="round" d="M 1452.000 796.000 L 1473.000 796.000 L 1469.000 792.000 L 1448.000 792.000 Z "/>
+        <path fill="#9A84D4" stroke="#13121A" stroke-width="0.65" stroke-linejoin="round" d="M 1448.000 792.000 L 1452.000 796.000 L 1452.000 814.000 L 1448.000 810.000 Z "/>
+        <rect fill="#BAA8F5" stroke="#13121A" stroke-width="0.65" stroke-linejoin="round" x="1452" y="796" width="21" height="18"/>
+      </g>
+      <g data-name="Fusion BBA 3">
+        <rect fill="none" stroke="#F19DDF" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="15 9" x="1430" y="844" width="63" height="97" rx="7"/>
+        <path fill="#FAE8E0" stroke="#13121A" stroke-width="0.65" stroke-linejoin="round" d="M 1452.000 855.000 L 1473.000 855.000 L 1469.000 851.000 L 1448.000 851.000 Z "/>
+        <path fill="#DCBFB9" stroke="#13121A" stroke-width="0.65" stroke-linejoin="round" d="M 1448.000 851.000 L 1452.000 855.000 L 1452.000 873.000 L 1448.000 869.000 Z "/>
+        <rect fill="#F9DCD6" stroke="#13121A" stroke-width="0.65" stroke-linejoin="round" x="1452" y="855" width="21" height="18"/>
+        <path fill="#FFE88C" stroke="#13121A" stroke-width="0.65" stroke-linejoin="round" d="M 1452.000 881.000 L 1473.000 881.000 L 1469.000 877.000 L 1448.000 877.000 Z "/>
+        <path fill="#D6B542" stroke="#13121A" stroke-width="0.65" stroke-linejoin="round" d="M 1448.000 877.000 L 1452.000 881.000 L 1452.000 899.000 L 1448.000 895.000 Z "/>
+        <rect fill="#FFDC65" stroke="#13121A" stroke-width="0.65" stroke-linejoin="round" x="1452" y="881" width="21" height="18"/>
+        <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="1460" y="901" width="3.7" height="3.7"/>
+        <rect fill="#000000" stroke="none" stroke-width="1" stroke-linejoin="round" x="1460" y="909" width="3.7" height="3.7"/>
+        <path fill="#CABBFC" stroke="#13121A" stroke-width="0.65" stroke-linejoin="round" d="M 1452.000 918.000 L 1473.000 918.000 L 1469.000 914.000 L 1448.000 914.000 Z "/>
+        <path fill="#9A84D4" stroke="#13121A" stroke-width="0.65" stroke-linejoin="round" d="M 1448.000 914.000 L 1452.000 918.000 L 1452.000 936.000 L 1448.000 932.000 Z "/>
+        <rect fill="#BAA8F5" stroke="#13121A" stroke-width="0.65" stroke-linejoin="round" x="1452" y="918" width="21" height="18"/>
+      </g>
+      <rect fill="#526D37" stroke="#324C23" stroke-width="0.8" stroke-linejoin="round" filter="url(#shadow)" x="1524" y="748" width="67" height="43"/>
+      <rect fill="none" stroke="#BCD0A7" stroke-width="0.75" stroke-linejoin="round" x="1525.7" y="749.7" width="63.6" height="39.6"/>
+      <rect fill="#FEFAEE" stroke="#7D9070" stroke-width="0.75" stroke-linejoin="round" x="1528.6" y="752.6" width="57.8" height="33.8"/>
+      <text x="1557.5" y="775.66" font-family="Arial, 'Liberation Sans', sans-serif" font-size="22" font-weight="normal" text-anchor="middle" fill="#000000">M</text>
+      <text x="1506" y="1005" font-family="'Times New Roman', 'Liberation Serif', serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#000000">Fusion</text>
+    </g>
+    <g data-name="Application outputs">
+      <rect fill="none" stroke="#000000" stroke-width="3.1" stroke-linejoin="round" stroke-dasharray="3.3 16.9" x="873" y="1020" width="836" height="122"/>
+      <rect fill="#F1E8C9" stroke="#D8CEB7" stroke-width="0.7" stroke-linejoin="round" x="885" y="1040" width="215" height="90"/>
+      <text x="992.5" y="1078" font-family="'Times New Roman', 'Liberation Serif', serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#000000">Pattern</text>
+      <text x="992.5" y="1111" font-family="'Times New Roman', 'Liberation Serif', serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#000000">classification</text>
+      <rect fill="#F1E8C9" stroke="#D8CEB7" stroke-width="0.7" stroke-linejoin="round" x="1129" y="1040" width="215" height="90"/>
+      <text x="1236.5" y="1078" font-family="'Times New Roman', 'Liberation Serif', serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#000000">Image</text>
+      <text x="1236.5" y="1111" font-family="'Times New Roman', 'Liberation Serif', serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#000000">classification</text>
+      <rect fill="#F1E8C9" stroke="#D8CEB7" stroke-width="0.7" stroke-linejoin="round" x="1372" y="1040" width="322" height="90"/>
+      <text x="1533.0" y="1078" font-family="'Times New Roman', 'Liberation Serif', serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#000000">Low- light image</text>
+      <text x="1533.0" y="1111" font-family="'Times New Roman', 'Liberation Serif', serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#000000">enhancement</text>
+    </g>
+  </g>
+</svg>

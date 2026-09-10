@@ -1,0 +1,785 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1941" height="1091" viewBox="0 0 1941 1091">
+  <title>G-Memory: Tracing Hierarchical Memory for Multi-Agent Systems</title>
+  <g id="misc">
+    <rect x="0" y="0" width="1941" height="1091" rx="0" fill="#FFFFFF" stroke="none" stroke-width="1" id="background-1" opacity="1.0" />
+    <rect x="17" y="20" width="1907" height="1068" rx="0" fill="none" stroke="#7F7F7F" stroke-width="2" id="outer-dashed-frame-2" opacity="1.0" stroke-dasharray="25 26" />
+  </g>
+  <g id="legend">
+    <rect x="51" y="59" width="349" height="271" rx="0" fill="#F5F5F5" stroke="#7F7F7F" stroke-width="3" id="legend-panel-layer-0-3" opacity="0.72" />
+    <rect x="43" y="51" width="349" height="271" rx="0" fill="#F5F5F5" stroke="#7F7F7F" stroke-width="3" id="legend-panel-layer-1-4" opacity="0.72" />
+    <rect x="34" y="42" width="349" height="271" rx="0" fill="#F5F5F5" stroke="#7F7F7F" stroke-width="3" id="legend-panel-layer-2-5" opacity="1.0" />
+    <rect x="52" y="59" width="40" height="52" rx="5" fill="#F09B79" stroke="#111111" stroke-width="2.5" id="legend-symbol-board-6" opacity="1.0" />
+    <rect x="58" y="66" width="28" height="37" rx="1" fill="#E8F5F5" stroke="#111111" stroke-width="1.5" id="legend-symbol-paper-7" opacity="1.0" />
+    <rect x="61" y="54" width="22" height="12" rx="4" fill="#6C8C9C" stroke="#111111" stroke-width="2" id="legend-symbol-clip-8" opacity="1.0" />
+    <ellipse cx="66.5" cy="59.5" rx="2.5" ry="2.5" fill="#FFD84A" stroke="#111111" stroke-width="1" id="legend-symbol-clip-dot1-9" opacity="1.0" />
+    <ellipse cx="77.5" cy="59.5" rx="2.5" ry="2.5" fill="#FFD84A" stroke="#111111" stroke-width="1" id="legend-symbol-clip-dot2-10" opacity="1.0" />
+    <line x1="63" y1="76" x2="81" y2="76" stroke="#707070" stroke-width="1.6" fill="none" stroke-linecap="round" id="legend-symbol-line-0-11" opacity="1.0" />
+    <line x1="63" y1="85" x2="81" y2="85" stroke="#707070" stroke-width="1.6" fill="none" stroke-linecap="round" id="legend-symbol-line-1-12" opacity="1.0" />
+    <line x1="63" y1="94" x2="81" y2="94" stroke="#707070" stroke-width="1.6" fill="none" stroke-linecap="round" id="legend-symbol-line-2-13" opacity="1.0" />
+    <ellipse cx="95.5" cy="64.5" rx="8.5" ry="8.5" fill="#72CE7C" stroke="#006400" stroke-width="1.5" id="legend-symbol-check-14" opacity="1.0" />
+    <text x="95.5" y="67.35" fill="#006400" font-family="DejaVu Sans" font-size="15" font-weight="700" font-style="normal" text-anchor="middle" id="legend-symbol-checkmark-15" opacity="1.0">
+      <tspan x="95.5" dy="0">✓</tspan>
+    </text>
+    <text x="108" y="82.4" fill="#111111" font-family="DejaVu Serif" font-size="30" font-weight="700" font-style="normal" text-anchor="start" id="legend-title-16" opacity="1.0">
+      <tspan x="108" dy="0">Symbols</tspan>
+    </text>
+    <rect x="50" y="108" width="74" height="25" rx="0" fill="#111111" stroke="#111111" stroke-width="1" id="black-swatch-17" opacity="1.0" />
+    <text x="51" y="125.42999999999999" fill="#FFFFFF" font-family="DejaVu Sans" font-size="17" font-weight="400" font-style="normal" text-anchor="start" id="black-font-18" opacity="1.0">
+      <tspan x="51" dy="0">Black font</tspan>
+    </text>
+    <text x="130" y="122.84" fill="#707070" font-family="DejaVu Sans" font-size="18" font-weight="400" font-style="normal" text-anchor="start" id="black-copy-19" opacity="1.0">
+      <tspan x="130" dy="0">: Notations</tspan>
+    </text>
+    <rect x="50" y="140" width="61" height="26" rx="0" fill="#F00000" stroke="#F00000" stroke-width="1" id="red-swatch-20" opacity="1.0" />
+    <text x="51" y="157.93" fill="#FFFFFF" font-family="DejaVu Sans" font-size="17" font-weight="400" font-style="normal" text-anchor="start" id="red-font-21" opacity="1.0">
+      <tspan x="51" dy="0">Red font</tspan>
+    </text>
+    <text x="117" y="154.84" fill="#707070" font-family="DejaVu Sans" font-size="18" font-weight="400" font-style="normal" text-anchor="start" id="red-copy-22" opacity="1.0">
+      <tspan x="117" dy="0">: Operations</tspan>
+    </text>
+    <polygon points="51,184.0 124,184.0 124,180 139,188 124,196 124,192.0 51,192.0" fill="#FFFFFF" stroke="#F00000" stroke-width="4" stroke-linejoin="round" id="legend-forward-arrow-23" opacity="1.0" />
+    <text x="146" y="194.22" fill="#707070" font-family="DejaVu Sans" font-size="18" font-weight="400" font-style="normal" text-anchor="start" id="legend-forward-copy-24" opacity="1.0">
+      <tspan x="146" dy="0">: Forward Process</tspan>
+    </text>
+    <line x1="51" y1="218" x2="111.84" y2="218.0" stroke="#707070" stroke-width="5" fill="none" stroke-linecap="round" id="legend-edge-arrow-shaft-25" opacity="1.0" />
+    <polygon points="120,218 110.75384108669053,225.64908787698428 110.75384108669053,210.35091212301572" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="legend-edge-arrow-head-26" opacity="1.0" />
+    <text x="126" y="224.22" fill="#707070" font-family="DejaVu Sans" font-size="18" font-weight="400" font-style="normal" text-anchor="start" id="legend-edge-copy-27" opacity="1.0">
+      <tspan x="126" dy="0">: Edges between nodes</tspan>
+    </text>
+    <ellipse cx="64.0" cy="253.0" rx="14.0" ry="14.0" fill="#7DD45C" stroke="#006400" stroke-width="3" id="legend-insight-node-28" opacity="1.0" />
+    <text x="81" y="258.43" fill="#707070" font-family="DejaVu Sans" font-size="17" font-weight="400" font-style="normal" text-anchor="start" id="legend-insight-copy-29" opacity="1.0">
+      <tspan x="81" dy="0">: Insight node</tspan>
+    </text>
+    <ellipse cx="230.0" cy="253.0" rx="14.0" ry="14.0" fill="#6EA8E2" stroke="#003A78" stroke-width="3" id="legend-query-node-30" opacity="1.0" />
+    <text x="247" y="258.43" fill="#707070" font-family="DejaVu Sans" font-size="17" font-weight="400" font-style="normal" text-anchor="start" id="legend-query-copy-31" opacity="1.0">
+      <tspan x="247" dy="0">: Query node</tspan>
+    </text>
+    <polygon points="39,282 51,276 66,280 71,291 64,306 49,309 38,299 35,289" fill="#B886F0" stroke="#3D0072" stroke-width="3" stroke-linejoin="round" id="legend-agent-node-32" opacity="1.0" />
+    <text x="78" y="297.93" fill="#707070" font-family="DejaVu Sans" font-size="17" font-weight="400" font-style="normal" text-anchor="start" id="legend-agent-copy-33" opacity="1.0">
+      <tspan x="78" dy="0">: Agent utterance node</tspan>
+    </text>
+  </g>
+  <g id="task-panel">
+    <rect x="54" y="368" width="350" height="700" rx="0" fill="#F5F5F5" stroke="#7F7F7F" stroke-width="3" id="task-panel-layer-0-34" opacity="0.72" />
+    <rect x="46" y="360" width="350" height="700" rx="0" fill="#F5F5F5" stroke="#7F7F7F" stroke-width="3" id="task-panel-layer-1-35" opacity="0.72" />
+    <rect x="37" y="351" width="350" height="700" rx="0" fill="#F5F5F5" stroke="#7F7F7F" stroke-width="3" id="task-panel-layer-2-36" opacity="1.0" />
+    <text x="221.5" y="397.4" fill="#111111" font-family="DejaVu Serif" font-size="30" font-weight="700" font-style="normal" text-anchor="middle" id="task-title-37" opacity="1.0">
+      <tspan x="221.5" dy="0">Query/Task Q</tspan>
+    </text>
+    <rect x="88" y="418" width="276" height="184" rx="22" fill="#D2ECED" stroke="#6CBBC0" stroke-width="2" id="task-embodied-1-card-38" opacity="1.0" />
+    <text x="100" y="441.84" fill="#111111" font-family="Liberation Mono" font-size="18" font-weight="400" font-style="normal" text-anchor="start" id="task-embodied-1-topic-39" opacity="1.0">
+      <tspan x="100" dy="0">Topic: Embodied</tspan>
+    </text>
+    <text x="100" y="467.84" fill="#111111" font-family="Liberation Mono" font-size="18" font-weight="400" font-style="normal" text-anchor="start" id="task-embodied-1-difficulty-40" opacity="1.0">
+      <tspan x="100" dy="0">Difficulty:</tspan>
+    </text>
+    <polygon points="230.0,454.0 232.58625511008688,460.4403252247502 239.51056516295154,460.90983005625054 234.18464867169868,465.35967477524974 235.87785252292474,472.09016994374946 230.0,468.4 224.12214747707526,472.09016994374946 225.81535132830132,465.35967477524974 220.48943483704846,460.90983005625054 227.41374488991312,460.4403252247502" fill="#FFD84A" stroke="#111111" stroke-width="1.6" stroke-linejoin="round" id="task-embodied-1-star-0-41" opacity="1.0" />
+    <polygon points="252.0,454.0 254.58625511008688,460.4403252247502 261.51056516295154,460.90983005625054 256.18464867169865,465.35967477524974 257.87785252292474,472.09016994374946 252.0,468.4 246.12214747707526,472.09016994374946 247.81535132830132,465.35967477524974 242.48943483704846,460.90983005625054 249.41374488991312,460.4403252247502" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" stroke-linejoin="round" id="task-embodied-1-star-1-42" opacity="1.0" />
+    <polygon points="274.0,454.0 276.5862551100869,460.4403252247502 283.51056516295154,460.90983005625054 278.18464867169865,465.35967477524974 279.87785252292474,472.09016994374946 274.0,468.4 268.12214747707526,472.09016994374946 269.81535132830135,465.35967477524974 264.48943483704846,460.90983005625054 271.4137448899131,460.4403252247502" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" stroke-linejoin="round" id="task-embodied-1-star-2-43" opacity="1.0" />
+    <polygon points="296.0,454.0 298.5862551100869,460.4403252247502 305.51056516295154,460.90983005625054 300.18464867169865,465.35967477524974 301.87785252292474,472.09016994374946 296.0,468.4 290.12214747707526,472.09016994374946 291.81535132830135,465.35967477524974 286.48943483704846,460.90983005625054 293.4137448899131,460.4403252247502" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" stroke-linejoin="round" id="task-embodied-1-star-3-44" opacity="1.0" />
+    <polygon points="318.0,454.0 320.5862551100869,460.4403252247502 327.51056516295154,460.90983005625054 322.18464867169865,465.35967477524974 323.87785252292474,472.09016994374946 318.0,468.4 312.12214747707526,472.09016994374946 313.81535132830135,465.35967477524974 308.48943483704846,460.90983005625054 315.4137448899131,460.4403252247502" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" stroke-linejoin="round" id="task-embodied-1-star-4-45" opacity="1.0" />
+    <text x="105" y="498.4" fill="#111111" font-family="DejaVu Sans" font-size="17.5" font-weight="400" font-style="normal" text-anchor="start" id="task-embodied-1-body-46" opacity="1.0">
+      <tspan x="105" dy="0">You are in the middle of a</tspan>
+      <tspan x="105" dy="19.6">room. Looking quickly around</tspan>
+      <tspan x="105" dy="19.6">you, you see a cabinet 6, a</tspan>
+      <tspan x="105" dy="19.6">cabinet 5, ... Your task is to:</tspan>
+      <tspan x="105" dy="19.6">put a clean egg in microwave.</tspan>
+    </text>
+    <rect x="65" y="617" width="280" height="123" rx="22" fill="#EBE6ED" stroke="#C8B5D2" stroke-width="2" id="task-search-card-47" opacity="1.0" />
+    <text x="77" y="640.84" fill="#111111" font-family="Liberation Mono" font-size="18" font-weight="400" font-style="normal" text-anchor="start" id="task-search-topic-48" opacity="1.0">
+      <tspan x="77" dy="0">Topic: Web search</tspan>
+    </text>
+    <text x="77" y="666.84" fill="#111111" font-family="Liberation Mono" font-size="18" font-weight="400" font-style="normal" text-anchor="start" id="task-search-difficulty-49" opacity="1.0">
+      <tspan x="77" dy="0">Difficulty:</tspan>
+    </text>
+    <polygon points="207.0,653.0 209.58625511008688,659.4403252247503 216.51056516295154,659.9098300562505 211.18464867169868,664.3596747752498 212.87785252292474,671.0901699437495 207.0,667.4 201.12214747707526,671.0901699437495 202.81535132830132,664.3596747752498 197.48943483704846,659.9098300562505 204.41374488991312,659.4403252247503" fill="#FFD84A" stroke="#111111" stroke-width="1.6" stroke-linejoin="round" id="task-search-star-0-50" opacity="1.0" />
+    <polygon points="229.0,653.0 231.58625511008688,659.4403252247503 238.51056516295154,659.9098300562505 233.18464867169868,664.3596747752498 234.87785252292474,671.0901699437495 229.0,667.4 223.12214747707526,671.0901699437495 224.81535132830132,664.3596747752498 219.48943483704846,659.9098300562505 226.41374488991312,659.4403252247503" fill="#FFD84A" stroke="#111111" stroke-width="1.6" stroke-linejoin="round" id="task-search-star-1-51" opacity="1.0" />
+    <polygon points="251.0,653.0 253.58625511008688,659.4403252247503 260.51056516295154,659.9098300562505 255.18464867169868,664.3596747752498 256.87785252292474,671.0901699437495 251.0,667.4 245.12214747707526,671.0901699437495 246.81535132830132,664.3596747752498 241.48943483704846,659.9098300562505 248.41374488991312,659.4403252247503" fill="#FFD84A" stroke="#111111" stroke-width="1.6" stroke-linejoin="round" id="task-search-star-2-52" opacity="1.0" />
+    <polygon points="273.0,653.0 275.5862551100869,659.4403252247503 282.51056516295154,659.9098300562505 277.18464867169865,664.3596747752498 278.87785252292474,671.0901699437495 273.0,667.4 267.12214747707526,671.0901699437495 268.81535132830135,664.3596747752498 263.48943483704846,659.9098300562505 270.4137448899131,659.4403252247503" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" stroke-linejoin="round" id="task-search-star-3-53" opacity="1.0" />
+    <polygon points="295.0,653.0 297.5862551100869,659.4403252247503 304.51056516295154,659.9098300562505 299.18464867169865,664.3596747752498 300.87785252292474,671.0901699437495 295.0,667.4 289.12214747707526,671.0901699437495 290.81535132830135,664.3596747752498 285.48943483704846,659.9098300562505 292.4137448899131,659.4403252247503" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" stroke-linejoin="round" id="task-search-star-4-54" opacity="1.0" />
+    <text x="82" y="697.4" fill="#111111" font-family="DejaVu Sans" font-size="17.5" font-weight="400" font-style="normal" text-anchor="start" id="task-search-body-55" opacity="1.0">
+      <tspan x="82" dy="0">Are both Lygodium or</tspan>
+      <tspan x="82" dy="19.6">Maxillaria a genus of orchids?</tspan>
+    </text>
+    <rect x="122" y="753" width="250" height="163" rx="22" fill="#F7E8E5" stroke="#DF9B90" stroke-width="2" id="task-embodied-2-card-56" opacity="1.0" />
+    <text x="134" y="776.84" fill="#111111" font-family="Liberation Mono" font-size="18" font-weight="400" font-style="normal" text-anchor="start" id="task-embodied-2-topic-57" opacity="1.0">
+      <tspan x="134" dy="0">Topic: Embodied</tspan>
+    </text>
+    <text x="134" y="802.84" fill="#111111" font-family="Liberation Mono" font-size="18" font-weight="400" font-style="normal" text-anchor="start" id="task-embodied-2-difficulty-58" opacity="1.0">
+      <tspan x="134" dy="0">Difficulty:</tspan>
+    </text>
+    <polygon points="264.0,789.0 266.5862551100869,795.4403252247503 273.51056516295154,795.9098300562505 268.18464867169865,800.3596747752498 269.87785252292474,807.0901699437495 264.0,803.4 258.12214747707526,807.0901699437495 259.81535132830135,800.3596747752498 254.48943483704846,795.9098300562505 261.4137448899131,795.4403252247503" fill="#FFD84A" stroke="#111111" stroke-width="1.6" stroke-linejoin="round" id="task-embodied-2-star-0-59" opacity="1.0" />
+    <polygon points="286.0,789.0 288.5862551100869,795.4403252247503 295.51056516295154,795.9098300562505 290.18464867169865,800.3596747752498 291.87785252292474,807.0901699437495 286.0,803.4 280.12214747707526,807.0901699437495 281.81535132830135,800.3596747752498 276.48943483704846,795.9098300562505 283.4137448899131,795.4403252247503" fill="#FFD84A" stroke="#111111" stroke-width="1.6" stroke-linejoin="round" id="task-embodied-2-star-1-60" opacity="1.0" />
+    <polygon points="308.0,789.0 310.5862551100869,795.4403252247503 317.51056516295154,795.9098300562505 312.18464867169865,800.3596747752498 313.87785252292474,807.0901699437495 308.0,803.4 302.12214747707526,807.0901699437495 303.81535132830135,800.3596747752498 298.48943483704846,795.9098300562505 305.4137448899131,795.4403252247503" fill="#FFD84A" stroke="#111111" stroke-width="1.6" stroke-linejoin="round" id="task-embodied-2-star-2-61" opacity="1.0" />
+    <polygon points="330.0,789.0 332.5862551100869,795.4403252247503 339.51056516295154,795.9098300562505 334.18464867169865,800.3596747752498 335.87785252292474,807.0901699437495 330.0,803.4 324.12214747707526,807.0901699437495 325.81535132830135,800.3596747752498 320.48943483704846,795.9098300562505 327.4137448899131,795.4403252247503" fill="#FFD84A" stroke="#111111" stroke-width="1.6" stroke-linejoin="round" id="task-embodied-2-star-3-62" opacity="1.0" />
+    <polygon points="352.0,789.0 354.5862551100869,795.4403252247503 361.51056516295154,795.9098300562505 356.18464867169865,800.3596747752498 357.87785252292474,807.0901699437495 352.0,803.4 346.12214747707526,807.0901699437495 347.81535132830135,800.3596747752498 342.48943483704846,795.9098300562505 349.4137448899131,795.4403252247503" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" stroke-linejoin="round" id="task-embodied-2-star-4-63" opacity="1.0" />
+    <text x="139" y="833.4" fill="#111111" font-family="DejaVu Sans" font-size="17.5" font-weight="400" font-style="normal" text-anchor="start" id="task-embodied-2-body-64" opacity="1.0">
+      <tspan x="139" dy="0">Your task is to find a</tspan>
+      <tspan x="139" dy="19.6">butterfly egg in the</tspan>
+      <tspan x="139" dy="19.6">outside. Move it to the</tspan>
+      <tspan x="139" dy="19.6">green box in the bathroom.</tspan>
+    </text>
+    <rect x="56" y="926" width="250" height="116" rx="22" fill="#F9EDDF" stroke="#E9BE57" stroke-width="2" id="task-game-card-65" opacity="1.0" />
+    <text x="68" y="949.84" fill="#111111" font-family="Liberation Mono" font-size="18" font-weight="400" font-style="normal" text-anchor="start" id="task-game-topic-66" opacity="1.0">
+      <tspan x="68" dy="0">Topic: Game</tspan>
+    </text>
+    <text x="68" y="975.84" fill="#111111" font-family="Liberation Mono" font-size="18" font-weight="400" font-style="normal" text-anchor="start" id="task-game-difficulty-67" opacity="1.0">
+      <tspan x="68" dy="0">Difficulty:</tspan>
+    </text>
+    <polygon points="198.0,962.0 200.58625511008688,968.4403252247503 207.51056516295154,968.9098300562505 202.18464867169868,973.3596747752498 203.87785252292474,980.0901699437495 198.0,976.4 192.12214747707526,980.0901699437495 193.81535132830132,973.3596747752498 188.48943483704846,968.9098300562505 195.41374488991312,968.4403252247503" fill="#FFD84A" stroke="#111111" stroke-width="1.6" stroke-linejoin="round" id="task-game-star-0-68" opacity="1.0" />
+    <polygon points="220.0,962.0 222.58625511008688,968.4403252247503 229.51056516295154,968.9098300562505 224.18464867169868,973.3596747752498 225.87785252292474,980.0901699437495 220.0,976.4 214.12214747707526,980.0901699437495 215.81535132830132,973.3596747752498 210.48943483704846,968.9098300562505 217.41374488991312,968.4403252247503" fill="#FFD84A" stroke="#111111" stroke-width="1.6" stroke-linejoin="round" id="task-game-star-1-69" opacity="1.0" />
+    <polygon points="242.0,962.0 244.58625511008688,968.4403252247503 251.51056516295154,968.9098300562505 246.18464867169868,973.3596747752498 247.87785252292474,980.0901699437495 242.0,976.4 236.12214747707526,980.0901699437495 237.81535132830132,973.3596747752498 232.48943483704846,968.9098300562505 239.41374488991312,968.4403252247503" fill="#FFD84A" stroke="#111111" stroke-width="1.6" stroke-linejoin="round" id="task-game-star-2-70" opacity="1.0" />
+    <polygon points="264.0,962.0 266.5862551100869,968.4403252247503 273.51056516295154,968.9098300562505 268.18464867169865,973.3596747752498 269.87785252292474,980.0901699437495 264.0,976.4 258.12214747707526,980.0901699437495 259.81535132830135,973.3596747752498 254.48943483704846,968.9098300562505 261.4137448899131,968.4403252247503" fill="#FFD84A" stroke="#111111" stroke-width="1.6" stroke-linejoin="round" id="task-game-star-3-71" opacity="1.0" />
+    <polygon points="286.0,962.0 288.5862551100869,968.4403252247503 295.51056516295154,968.9098300562505 290.18464867169865,973.3596747752498 291.87785252292474,980.0901699437495 286.0,976.4 280.12214747707526,980.0901699437495 281.81535132830135,973.3596747752498 276.48943483704846,968.9098300562505 283.4137448899131,968.4403252247503" fill="#FFFFFF" stroke="#111111" stroke-width="1.6" stroke-linejoin="round" id="task-game-star-4-72" opacity="1.0" />
+    <text x="73" y="1006.4" fill="#111111" font-family="DejaVu Sans" font-size="17.5" font-weight="400" font-style="normal" text-anchor="start" id="task-game-body-73" opacity="1.0">
+      <tspan x="73" dy="0">b1 is on b2., b2 is on b6.,</tspan>
+      <tspan x="73" dy="19.6">b3 is on b7., b5 is on b3.</tspan>
+    </text>
+  </g>
+  <g id="insight-graph">
+    <text x="441" y="95.4" fill="#006400" font-family="DejaVu Serif" font-size="30" font-weight="700" font-style="normal" text-anchor="start" id="insight-graph-title-74" opacity="1.0">
+      <tspan x="441" dy="0">Insight Graph</tspan>
+    </text>
+    <text x="575.0" y="123.6" fill="#006400" font-family="DejaVu Serif" font-size="20" font-weight="400" font-style="italic" text-anchor="middle" id="insight-graph-formula-75" opacity="1.0">
+      <tspan x="575.0" dy="0">G_insight^(t) = (I, E_i)</tspan>
+    </text>
+    <ellipse cx="767.5" cy="198.5" rx="156.5" ry="156.5" fill="#E9F3EA" stroke="#006400" stroke-width="5" id="insight-graph-circle-76" opacity="1.0" />
+    <line x1="737" y1="126" x2="799.1678807405096" y2="128.62681186227505" stroke="#707070" stroke-width="4" fill="none" stroke-linecap="round" id="insight-e-l1-l2-shaft-77" opacity="1.0" />
+    <polygon points="808,129 797.6424354075177,136.85626219728928 798.3420797359751,120.29801309046394" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="insight-e-l1-l2-head-78" opacity="1.0" />
+    <line x1="690" y1="183" x2="711.0081941861669" y2="152.2957161894485" stroke="#707070" stroke-width="4" fill="none" stroke-linecap="round" id="insight-e-l3-l1-shaft-79" opacity="1.0" />
+    <polygon points="716,145 717.1826647597481,157.94609223148242 703.5048279316529,148.58757229646992" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="insight-e-l3-l1-head-80" opacity="1.0" />
+    <line x1="687" y1="210" x2="718.8749656088535" y2="254.7972489637941" stroke="#707070" stroke-width="4" fill="none" stroke-linecap="round" id="insight-e-l3-l4-shaft-81" opacity="1.0" />
+    <polygon points="724,262 711.441010043052,258.6426541343973 724.9445579920664,249.03436040144476" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="insight-e-l3-l4-head-82" opacity="1.0" />
+    <line x1="742" y1="145" x2="831.0338645362749" y2="214.55770666896473" stroke="#707070" stroke-width="4" fill="none" stroke-linecap="round" id="insight-e-l1-l5-shaft-83" opacity="1.0" />
+    <polygon points="838,220 825.0050765379096,220.36326879085954 835.2081598568836,207.3033221425727" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="insight-e-l1-l5-head-84" opacity="1.0" />
+    <line x1="756" y1="259" x2="813.5988511359886" y2="158.6665173760197" stroke="#707070" stroke-width="4" fill="none" stroke-linecap="round" id="insight-e-l4-l2-shaft-85" opacity="1.0" />
+    <polygon points="818,151 820.1995273678702,163.81257504789687 805.8265212111052,155.561404846791" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="insight-e-l4-l2-head-86" opacity="1.0" />
+    <line x1="763" y1="278" x2="821.7177810790704" y2="256.09038019437673" stroke="#707070" stroke-width="4" fill="none" stroke-linecap="round" id="insight-e-l4-l5-shaft-87" opacity="1.0" />
+    <polygon points="830,253 823.5122398752875,264.26538807872106 817.7184678948759,248.738079171218" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="insight-e-l4-l5-head-88" opacity="1.0" />
+    <ellipse cx="730.0" cy="125.0" rx="30.0" ry="30.0" fill="#4DA864" stroke="#006400" stroke-width="5" id="insight-l1-circle-89" opacity="1.0" />
+    <text x="730.0" y="133.83" fill="#111111" font-family="DejaVu Serif" font-size="27.0" font-weight="400" font-style="italic" text-anchor="middle" id="insight-l1-label-90" opacity="1.0">
+      <tspan x="730.0" dy="0">l₁</tspan>
+    </text>
+    <ellipse cx="832.0" cy="129.0" rx="30.0" ry="30.0" fill="#98F451" stroke="#006400" stroke-width="5" id="insight-l2-circle-91" opacity="1.0" />
+    <text x="832.0" y="137.83" fill="#111111" font-family="DejaVu Serif" font-size="27.0" font-weight="400" font-style="italic" text-anchor="middle" id="insight-l2-label-92" opacity="1.0">
+      <tspan x="832.0" dy="0">l₂</tspan>
+    </text>
+    <ellipse cx="670.0" cy="202.0" rx="29.0" ry="29.0" fill="#7DD45C" stroke="#006400" stroke-width="5" id="insight-l3-circle-93" opacity="1.0" />
+    <text x="670.0" y="210.56900000000002" fill="#111111" font-family="DejaVu Serif" font-size="26.1" font-weight="400" font-style="italic" text-anchor="middle" id="insight-l3-label-94" opacity="1.0">
+      <tspan x="670.0" dy="0">l₃</tspan>
+    </text>
+    <ellipse cx="742.0" cy="280.0" rx="30.0" ry="30.0" fill="#00E979" stroke="#006400" stroke-width="5" id="insight-l4-circle-95" opacity="1.0" />
+    <text x="742.0" y="288.83000000000004" fill="#111111" font-family="DejaVu Serif" font-size="27.0" font-weight="400" font-style="italic" text-anchor="middle" id="insight-l4-label-96" opacity="1.0">
+      <tspan x="742.0" dy="0">l₄</tspan>
+    </text>
+    <ellipse cx="861.0" cy="247.0" rx="30.0" ry="30.0" fill="#99FFCD" stroke="#006400" stroke-width="5" id="insight-l5-circle-97" opacity="1.0" />
+    <text x="861.0" y="255.82999999999998" fill="#111111" font-family="DejaVu Serif" font-size="27.0" font-weight="400" font-style="italic" text-anchor="middle" id="insight-l5-label-98" opacity="1.0">
+      <tspan x="861.0" dy="0">l₅</tspan>
+    </text>
+    <rect x="451" y="154" width="188" height="205" rx="0" fill="#99C7BD" stroke="#006400" stroke-width="2" id="insight-card-body-99" opacity="1.0" />
+    <polygon points="604,357 677,341 627,307" fill="#99C7BD" stroke="#006400" stroke-width="2" stroke-linejoin="round" id="insight-card-tail-100" opacity="1.0" />
+    <rect x="461" y="164" width="130" height="29" rx="0" fill="none" stroke="#006400" stroke-width="2" id="insight-card-title-outline-101" opacity="1.0" />
+    <rect x="456" y="162" width="130" height="31" rx="0" fill="none" stroke="#B8D4A1" stroke-width="4" id="insight-card-title-accent-102" opacity="1.0" />
+    <text x="466" y="185.67" fill="#111111" font-family="DejaVu Serif" font-size="23" font-weight="700" font-style="normal" text-anchor="start" id="insight-card-title-103" opacity="1.0">
+      <tspan x="466" dy="0">Insight</tspan>
+    </text>
+    <text x="545.0" y="219.84" fill="#111111" font-family="DejaVu Sans" font-size="18" font-weight="400" font-style="normal" text-anchor="middle" id="insight-card-copy-104" opacity="1.0">
+      <tspan x="545.0" dy="0">Ensure the search</tspan>
+      <tspan x="545.0" dy="20.339999999999996">terms are precise</tspan>
+      <tspan x="545.0" dy="20.339999999999996">and directly</tspan>
+      <tspan x="545.0" dy="20.339999999999996">related to the</tspan>
+      <tspan x="545.0" dy="20.339999999999996">specific entity or</tspan>
+      <tspan x="545.0" dy="20.339999999999996">institution ...</tspan>
+    </text>
+    <text x="853.0" y="336.64" fill="#F00000" font-family="DejaVu Serif" font-size="28" font-weight="700" font-style="normal" text-anchor="middle" id="upward-label-105" opacity="1.0">
+      <tspan x="853.0" dy="0">upward</tspan>
+      <tspan x="853.0" dy="30.240000000000002">traversal</tspan>
+    </text>
+  </g>
+  <g id="query-graph">
+    <ellipse cx="772.5" cy="557.5" rx="156.5" ry="156.5" fill="#ECF3FD" stroke="#003A78" stroke-width="5" id="query-graph-circle-106" opacity="1.0" />
+    <line x1="662" y1="610" x2="762" y2="495" stroke="#80AAD7" stroke-width="6" fill="none" stroke-linecap="round" id="retrieval-stripe-0-107" opacity="0.62" />
+    <line x1="680" y1="610" x2="780" y2="495" stroke="#80AAD7" stroke-width="6" fill="none" stroke-linecap="round" id="retrieval-stripe-1-108" opacity="0.62" />
+    <line x1="698" y1="610" x2="798" y2="495" stroke="#80AAD7" stroke-width="6" fill="none" stroke-linecap="round" id="retrieval-stripe-2-109" opacity="0.62" />
+    <line x1="716" y1="610" x2="816" y2="495" stroke="#80AAD7" stroke-width="6" fill="none" stroke-linecap="round" id="retrieval-stripe-3-110" opacity="0.62" />
+    <line x1="734" y1="610" x2="834" y2="495" stroke="#80AAD7" stroke-width="6" fill="none" stroke-linecap="round" id="retrieval-stripe-4-111" opacity="0.62" />
+    <line x1="752" y1="610" x2="852" y2="495" stroke="#80AAD7" stroke-width="6" fill="none" stroke-linecap="round" id="retrieval-stripe-5-112" opacity="0.62" />
+    <line x1="770" y1="610" x2="870" y2="495" stroke="#80AAD7" stroke-width="6" fill="none" stroke-linecap="round" id="retrieval-stripe-6-113" opacity="0.62" />
+    <line x1="706" y1="526" x2="706.0" y2="583.84" stroke="#707070" stroke-width="4" fill="none" stroke-linecap="round" id="query-e-q1-q2-shaft-114" opacity="1.0" />
+    <polygon points="706,592 698.3509121230157,582.7538410866905 713.6490878769843,582.7538410866905" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="query-e-q1-q2-head-115" opacity="1.0" />
+    <line x1="727" y1="609" x2="751.5109900009901" y2="582.0379109989109" stroke="#707070" stroke-width="4" fill="none" stroke-linecap="round" id="query-e-q2-q4-shaft-116" opacity="1.0" />
+    <polygon points="757,576 756.440227095158,587.986936818679 745.1204938049425,577.6962701912104" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="query-e-q2-q4-head-117" opacity="1.0" />
+    <line x1="728" y1="520" x2="749.8044661246992" y2="538.6895423925993" stroke="#707070" stroke-width="4" fill="none" stroke-linecap="round" id="query-e-q1-q4-shaft-118" opacity="1.0" />
+    <polygon points="756,544 744.0018323934031,543.7903000142878 753.9577532036991,532.1750590689426" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="query-e-q1-q4-head-119" opacity="1.0" />
+    <line x1="803" y1="544" x2="832.6453681018804" y2="520.1190090290407" stroke="#707070" stroke-width="4" fill="none" stroke-linecap="round" id="query-e-q4-q5-shaft-120" opacity="1.0" />
+    <polygon points="839,515 836.5980163652708,526.7571456833065 827.0010188392392,514.8436315130604" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="query-e-q4-q5-head-121" opacity="1.0" />
+    <line x1="832" y1="629" x2="800.1824600606753" y2="590.3029919656863" stroke="#707070" stroke-width="4" fill="none" stroke-linecap="round" id="query-e-q3-q4-shaft-122" opacity="1.0" />
+    <polygon points="795,584 806.7806358721009,586.2839917795319 794.9639350305666,595.9999458047935" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="query-e-q3-q4-head-123" opacity="1.0" />
+    <line x1="860" y1="620" x2="863.6493564403223" y2="535.1524627625066" stroke="#707070" stroke-width="4" fill="none" stroke-linecap="round" id="query-e-q3-q5-shaft-124" opacity="1.0" />
+    <polygon points="864,527 871.2447056384248,536.5663075537312 855.9606605197349,535.9089292690564" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="query-e-q3-q5-head-125" opacity="1.0" />
+    <ellipse cx="706.0" cy="510.0" rx="25.0" ry="25.0" fill="#6EA8E2" stroke="#003A78" stroke-width="5" id="query-q1-circle-126" opacity="1.0" />
+    <text x="706.0" y="517.525" fill="#111111" font-family="DejaVu Serif" font-size="22.5" font-weight="400" font-style="italic" text-anchor="middle" id="query-q1-label-127" opacity="1.0">
+      <tspan x="706.0" dy="0">q₁</tspan>
+    </text>
+    <ellipse cx="706.0" cy="619.0" rx="25.0" ry="25.0" fill="#6EA8E2" stroke="#003A78" stroke-width="5" id="query-q2-circle-128" opacity="1.0" />
+    <text x="706.0" y="626.525" fill="#111111" font-family="DejaVu Serif" font-size="22.5" font-weight="400" font-style="italic" text-anchor="middle" id="query-q2-label-129" opacity="1.0">
+      <tspan x="706.0" dy="0">q₂</tspan>
+    </text>
+    <ellipse cx="781.0" cy="558.0" rx="25.0" ry="25.0" fill="#6EA8E2" stroke="#003A78" stroke-width="5" id="query-q4-circle-130" opacity="1.0" />
+    <text x="781.0" y="565.525" fill="#111111" font-family="DejaVu Serif" font-size="22.5" font-weight="400" font-style="italic" text-anchor="middle" id="query-q4-label-131" opacity="1.0">
+      <tspan x="781.0" dy="0">q₄</tspan>
+    </text>
+    <ellipse cx="866.0" cy="495.0" rx="25.0" ry="25.0" fill="#6EA8E2" stroke="#003A78" stroke-width="5" id="query-q5-circle-132" opacity="1.0" />
+    <text x="866.0" y="502.52500000000003" fill="#111111" font-family="DejaVu Serif" font-size="22.5" font-weight="400" font-style="italic" text-anchor="middle" id="query-q5-label-133" opacity="1.0">
+      <tspan x="866.0" dy="0">q₅</tspan>
+    </text>
+    <ellipse cx="851.0" cy="645.0" rx="25.0" ry="25.0" fill="#6EA8E2" stroke="#003A78" stroke-width="5" id="query-q3-circle-134" opacity="1.0" />
+    <text x="851.0" y="652.525" fill="#111111" font-family="DejaVu Serif" font-size="22.5" font-weight="400" font-style="italic" text-anchor="middle" id="query-q3-label-135" opacity="1.0">
+      <tspan x="851.0" dy="0">q₃</tspan>
+    </text>
+    <rect x="451" y="383" width="230" height="108" rx="0" fill="#CCE4FF" stroke="#003A78" stroke-width="2" id="query-card-body-136" opacity="1.0" />
+    <polygon points="633,489 663,511 657,489" fill="#CCE4FF" stroke="#003A78" stroke-width="2" stroke-linejoin="round" id="query-card-tail-137" opacity="1.0" />
+    <rect x="461" y="393" width="130" height="29" rx="0" fill="none" stroke="#003A78" stroke-width="2" id="query-card-title-outline-138" opacity="1.0" />
+    <rect x="456" y="391" width="130" height="31" rx="0" fill="none" stroke="#8BAFD7" stroke-width="4" id="query-card-title-accent-139" opacity="1.0" />
+    <text x="466" y="414.66999999999996" fill="#111111" font-family="DejaVu Serif" font-size="23" font-weight="700" font-style="normal" text-anchor="start" id="query-card-title-140" opacity="1.0">
+      <tspan x="466" dy="0">Query</tspan>
+    </text>
+    <text x="566.0" y="448.84" fill="#111111" font-family="DejaVu Sans" font-size="18" font-weight="400" font-style="normal" text-anchor="middle" id="query-card-copy-141" opacity="1.0">
+      <tspan x="566.0" dy="0">Are Deodato and</tspan>
+      <tspan x="566.0" dy="20.339999999999996">Alejandro both film</tspan>
+      <tspan x="566.0" dy="20.339999999999996">directors?</tspan>
+    </text>
+    <text x="446" y="674.52" fill="#0065CF" font-family="DejaVu Serif" font-size="29" font-weight="700" font-style="normal" text-anchor="start" id="query-graph-title-142" opacity="1.0">
+      <tspan x="446" dy="0">Query Graph</tspan>
+    </text>
+    <text x="466" y="702.72" fill="#0065CF" font-family="DejaVu Serif" font-size="19" font-weight="400" font-style="italic" text-anchor="start" id="query-graph-formula-143" opacity="1.0">
+      <tspan x="466" dy="0">G_query^(t) = (Q, E_q)</tspan>
+    </text>
+    <text x="790.0" y="701.64" fill="#F00000" font-family="DejaVu Serif" font-size="28" font-weight="700" font-style="normal" text-anchor="middle" id="downward-label-144" opacity="1.0">
+      <tspan x="790.0" dy="0">downward</tspan>
+      <tspan x="790.0" dy="30.240000000000002">traversal</tspan>
+    </text>
+  </g>
+  <g id="retrieval-flow">
+    <polygon points="351,613.0 633,613.0 633,603 659,623 633,643 633,633.0 351,633.0" fill="#FF9899" stroke="#F00000" stroke-width="3" stroke-linejoin="round" id="similarity-arrow-145" opacity="1.0" />
+    <text x="517.5" y="568.76" fill="#F00000" font-family="DejaVu Serif" font-size="27" font-weight="700" font-style="normal" text-anchor="middle" id="similarity-label-146" opacity="1.0">
+      <tspan x="517.5" dy="0">Similarity-</tspan>
+      <tspan x="517.5" dy="29.160000000000004">based Retrieval</tspan>
+    </text>
+  </g>
+  <g id="traversal-connectors">
+    <polygon points="781,558 691,236 888,188" fill="none" stroke="#7F7F7F" stroke-width="4" stroke-linejoin="round" id="upward-wedge-147" opacity="0.9" stroke-dasharray="4 7" />
+    <line x1="781" y1="540" x2="743.2528551293012" y2="297.0632471142204" stroke="#111111" stroke-width="4" fill="none" stroke-linecap="round" id="upward-dashed-arrow-shaft-148" opacity="1.0" stroke-dasharray="10 10" />
+    <polygon points="742,289 750.978012668062,296.96211583262385 735.8612269448972,299.31093911231875" fill="#111111" stroke="#111111" stroke-width="1" stroke-linejoin="round" id="upward-dashed-arrow-head-149" opacity="1.0" />
+    <polygon points="706,619 603,930 941,939 781,558" fill="none" stroke="#111111" stroke-width="3" stroke-linejoin="round" id="downward-wedge-150" opacity="0.9" stroke-dasharray="3 7" />
+  </g>
+  <g id="interaction-graph">
+    <ellipse cx="773.0" cy="909.0" rx="158.0" ry="158.0" fill="#F5DFEC" stroke="#3D0072" stroke-width="5" id="interaction-circle-151" opacity="1.0" />
+    <line x1="775" y1="799" x2="699.8531338567745" y2="847.570535434036" stroke="#707070" stroke-width="4" fill="none" stroke-linecap="round" id="interaction-edge-0-shaft-152" opacity="1.0" />
+    <polygon points="693,852 696.6132109045186,840.5568926003699 704.9174667165399,853.4049864982142" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="interaction-edge-0-head-153" opacity="1.0" />
+    <line x1="775" y1="799" x2="843.2104695982032" y2="844.4736463988021" stroke="#707070" stroke-width="4" fill="none" stroke-linecap="round" id="interaction-edge-1-shaft-154" opacity="1.0" />
+    <polygon points="850,849 838.0637802083792,850.2355796559184 846.5496813009936,837.5067280169968" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="interaction-edge-1-head-155" opacity="1.0" />
+    <line x1="693" y1="852" x2="763.400713552086" y2="903.2005189469717" stroke="#707070" stroke-width="4" fill="none" stroke-linecap="round" id="interaction-edge-2-shaft-156" opacity="1.0" />
+    <polygon points="770,908 758.0233206433336,908.7477643931088 767.0212746478766,896.3755776368622" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="interaction-edge-2-head-157" opacity="1.0" />
+    <line x1="850" y1="849" x2="776.5671917351873" y2="903.1566960952994" stroke="#707070" stroke-width="4" fill="none" stroke-linecap="round" id="interaction-edge-3-shaft-158" opacity="1.0" />
+    <polygon points="770,908 772.9012795607498,896.3560068314011 781.9813916151605,908.668023176365" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="interaction-edge-3-head-159" opacity="1.0" />
+    <line x1="770" y1="908" x2="693.0484358313312" y2="952.8884124317235" stroke="#707070" stroke-width="4" fill="none" stroke-linecap="round" id="interaction-edge-4-shaft-160" opacity="1.0" />
+    <polygon points="686,957 690.1324832307707,945.734007706935 697.8407907365706,958.948249145449" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="interaction-edge-4-head-161" opacity="1.0" />
+    <line x1="770" y1="908" x2="850.9399531436183" y2="954.908381935506" stroke="#707070" stroke-width="4" fill="none" stroke-linecap="round" id="interaction-edge-5-shaft-162" opacity="1.0" />
+    <polygon points="858,959 846.1647718990333,960.9817607822563 853.8356410496144,947.7457512675281" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="interaction-edge-5-head-163" opacity="1.0" />
+    <line x1="686" y1="957" x2="769.1756760056802" y2="1011.5262764926126" stroke="#707070" stroke-width="4" fill="none" stroke-linecap="round" id="interaction-edge-6-shaft-164" opacity="1.0" />
+    <polygon points="776,1016 764.0736901504009,1017.3278303247613 772.4609215830815,1004.5337484782993" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="interaction-edge-6-head-165" opacity="1.0" />
+    <line x1="776" y1="1016" x2="851.2997485466774" y2="963.657491863895" stroke="#707070" stroke-width="4" fill="none" stroke-linecap="round" id="interaction-edge-7-shaft-166" opacity="1.0" />
+    <polygon points="858,959 854.7737714285195,970.5581767249234 846.0420154105606,957.9967031552283" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="interaction-edge-7-head-167" opacity="1.0" />
+    <ellipse cx="775.0" cy="799.0" rx="26.0" ry="26.0" fill="#F4D6F0" stroke="#3D0072" stroke-width="5" id="inter-top-ring-168" opacity="1.0" />
+    <rect x="760.44" y="790.34" width="29.120000000000005" height="21.32" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="2" id="inter-top-screen-169" opacity="1.0" />
+    <rect x="764.2256" y="796.4416" width="21.548800000000004" height="7.6752" rx="1" fill="#3555E6" stroke="#3555E6" stroke-width="1" id="inter-top-avatar-170" opacity="1.0" />
+    <rect x="769.7584" y="797.2944" width="10.483200000000002" height="6.8224" rx="1" fill="#FFFFFF" stroke="none" stroke-width="0" id="inter-top-face-171" opacity="1.0" />
+    <ellipse cx="773.3968" cy="800.3868" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="inter-top-eye-l-172" opacity="1.0" />
+    <ellipse cx="778.6384" cy="800.3868" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="inter-top-eye-r-173" opacity="1.0" />
+    <polygon points="766.5552,791.3248 769.7584,787.274 774.1264,791.1116 778.4944,786.6344 783.1536,791.7512" fill="#FFD84A" stroke="#3D0072" stroke-width="2" stroke-linejoin="round" id="inter-top-crown-174" opacity="1.0" />
+    <ellipse cx="681.0" cy="855.0" rx="26.0" ry="26.0" fill="#F4D6F0" stroke="#3D0072" stroke-width="5" id="inter-left-top-ring-175" opacity="1.0" />
+    <rect x="666.44" y="846.34" width="29.120000000000005" height="21.32" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="2" id="inter-left-top-screen-176" opacity="1.0" />
+    <rect x="670.2256" y="852.4416" width="21.548800000000004" height="7.6752" rx="1" fill="#F04B7A" stroke="#F04B7A" stroke-width="1" id="inter-left-top-avatar-177" opacity="1.0" />
+    <rect x="675.7584" y="853.2944" width="10.483200000000002" height="6.8224" rx="1" fill="#FFFFFF" stroke="none" stroke-width="0" id="inter-left-top-face-178" opacity="1.0" />
+    <ellipse cx="679.3968" cy="856.3868" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="inter-left-top-eye-l-179" opacity="1.0" />
+    <ellipse cx="684.6384" cy="856.3868" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="inter-left-top-eye-r-180" opacity="1.0" />
+    <ellipse cx="862.0" cy="851.0" rx="26.0" ry="26.0" fill="#F4D6F0" stroke="#3D0072" stroke-width="5" id="inter-right-top-ring-181" opacity="1.0" />
+    <rect x="847.44" y="842.34" width="29.120000000000005" height="21.32" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="2" id="inter-right-top-screen-182" opacity="1.0" />
+    <rect x="851.2256" y="848.4416" width="21.548800000000004" height="7.6752" rx="1" fill="#222222" stroke="#222222" stroke-width="1" id="inter-right-top-avatar-183" opacity="1.0" />
+    <rect x="856.7584" y="849.2944" width="10.483200000000002" height="6.8224" rx="1" fill="#FFFFFF" stroke="none" stroke-width="0" id="inter-right-top-face-184" opacity="1.0" />
+    <ellipse cx="860.3968" cy="852.3868" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="inter-right-top-eye-l-185" opacity="1.0" />
+    <ellipse cx="865.6384" cy="852.3868" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="inter-right-top-eye-r-186" opacity="1.0" />
+    <ellipse cx="770.0" cy="909.0" rx="26.0" ry="26.0" fill="#F4D6F0" stroke="#3D0072" stroke-width="5" id="inter-center-ring-187" opacity="1.0" />
+    <rect x="755.44" y="900.34" width="29.120000000000005" height="21.32" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="2" id="inter-center-screen-188" opacity="1.0" />
+    <rect x="759.2256" y="906.4416" width="21.548800000000004" height="7.6752" rx="1" fill="#3555E6" stroke="#3555E6" stroke-width="1" id="inter-center-avatar-189" opacity="1.0" />
+    <rect x="764.7584" y="907.2944" width="10.483200000000002" height="6.8224" rx="1" fill="#FFFFFF" stroke="none" stroke-width="0" id="inter-center-face-190" opacity="1.0" />
+    <ellipse cx="768.3968" cy="910.3868" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="inter-center-eye-l-191" opacity="1.0" />
+    <ellipse cx="773.6384" cy="910.3868" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="inter-center-eye-r-192" opacity="1.0" />
+    <polygon points="761.5552,901.3248 764.7584,897.274 769.1264,901.1116 773.4944,896.6344 778.1536,901.7512" fill="#FFD84A" stroke="#3D0072" stroke-width="2" stroke-linejoin="round" id="inter-center-crown-193" opacity="1.0" />
+    <ellipse cx="674.0" cy="963.0" rx="26.0" ry="26.0" fill="#F4D6F0" stroke="#3D0072" stroke-width="5" id="inter-left-low-ring-194" opacity="1.0" />
+    <rect x="659.44" y="954.34" width="29.120000000000005" height="21.32" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="2" id="inter-left-low-screen-195" opacity="1.0" />
+    <rect x="663.2256" y="960.4416" width="21.548800000000004" height="7.6752" rx="1" fill="#B666E5" stroke="#B666E5" stroke-width="1" id="inter-left-low-avatar-196" opacity="1.0" />
+    <rect x="668.7584" y="961.2944" width="10.483200000000002" height="6.8224" rx="1" fill="#FFFFFF" stroke="none" stroke-width="0" id="inter-left-low-face-197" opacity="1.0" />
+    <ellipse cx="672.3968" cy="964.3868" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="inter-left-low-eye-l-198" opacity="1.0" />
+    <ellipse cx="677.6384" cy="964.3868" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="inter-left-low-eye-r-199" opacity="1.0" />
+    <ellipse cx="776.0" cy="1020.0" rx="26.0" ry="26.0" fill="#F4D6F0" stroke="#3D0072" stroke-width="5" id="inter-bottom-ring-200" opacity="1.0" />
+    <rect x="761.44" y="1011.34" width="29.120000000000005" height="21.32" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="2" id="inter-bottom-screen-201" opacity="1.0" />
+    <rect x="765.2256" y="1017.4416" width="21.548800000000004" height="7.6752" rx="1" fill="#F04B7A" stroke="#F04B7A" stroke-width="1" id="inter-bottom-avatar-202" opacity="1.0" />
+    <rect x="770.7584" y="1018.2944" width="10.483200000000002" height="6.8224" rx="1" fill="#FFFFFF" stroke="none" stroke-width="0" id="inter-bottom-face-203" opacity="1.0" />
+    <ellipse cx="774.3968" cy="1021.3868" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="inter-bottom-eye-l-204" opacity="1.0" />
+    <ellipse cx="779.6384" cy="1021.3868" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="inter-bottom-eye-r-205" opacity="1.0" />
+    <ellipse cx="870.0" cy="963.0" rx="26.0" ry="26.0" fill="#F4D6F0" stroke="#3D0072" stroke-width="5" id="inter-right-low-ring-206" opacity="1.0" />
+    <rect x="855.44" y="954.34" width="29.120000000000005" height="21.32" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="2" id="inter-right-low-screen-207" opacity="1.0" />
+    <rect x="859.2256" y="960.4416" width="21.548800000000004" height="7.6752" rx="1" fill="#222222" stroke="#222222" stroke-width="1" id="inter-right-low-avatar-208" opacity="1.0" />
+    <rect x="864.7584" y="961.2944" width="10.483200000000002" height="6.8224" rx="1" fill="#FFFFFF" stroke="none" stroke-width="0" id="inter-right-low-face-209" opacity="1.0" />
+    <ellipse cx="868.3968" cy="964.3868" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="inter-right-low-eye-l-210" opacity="1.0" />
+    <ellipse cx="873.6384" cy="964.3868" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="inter-right-low-eye-r-211" opacity="1.0" />
+    <rect x="427" y="754" width="190" height="170" rx="0" fill="#E2D5E7" stroke="#3D0072" stroke-width="2" id="interaction-card-body-212" opacity="1.0" />
+    <polygon points="569,922 599,944 593,922" fill="#E2D5E7" stroke="#3D0072" stroke-width="2" stroke-linejoin="round" id="interaction-card-tail-213" opacity="1.0" />
+    <rect x="437" y="764" width="130" height="29" rx="0" fill="none" stroke="#3D0072" stroke-width="2" id="interaction-card-title-outline-214" opacity="1.0" />
+    <rect x="432" y="762" width="130" height="31" rx="0" fill="none" stroke="#8BAFD7" stroke-width="4" id="interaction-card-title-accent-215" opacity="1.0" />
+    <text x="442" y="785.6700000000001" fill="#111111" font-family="DejaVu Serif" font-size="23" font-weight="700" font-style="normal" text-anchor="start" id="interaction-card-title-216" opacity="1.0">
+      <tspan x="442" dy="0">Interactions</tspan>
+    </text>
+    <text x="522.0" y="819.84" fill="#111111" font-family="DejaVu Sans" font-size="18" font-weight="400" font-style="normal" text-anchor="middle" id="interaction-card-copy-217" opacity="1.0">
+      <tspan x="522.0" dy="0">· CEO agent:</tspan>
+      <tspan x="522.0" dy="20.339999999999996">  assigning tasks...</tspan>
+      <tspan x="522.0" dy="20.339999999999996">· Thinker agent:</tspan>
+      <tspan x="522.0" dy="20.339999999999996">  OK, I will...</tspan>
+      <tspan x="522.0" dy="20.339999999999996">· Executor agent: ...</tspan>
+    </text>
+    <text x="539.0" y="964.76" fill="#5200C7" font-family="DejaVu Serif" font-size="27" font-weight="700" font-style="normal" text-anchor="middle" id="interaction-title-218" opacity="1.0">
+      <tspan x="539.0" dy="0">Interaction</tspan>
+      <tspan x="539.0" dy="29.160000000000004">Graphs</tspan>
+    </text>
+    <text x="540.0" y="1029.96" fill="#5200C7" font-family="DejaVu Serif" font-size="17" font-weight="400" font-style="italic" text-anchor="middle" id="interaction-formula-219" opacity="1.0">
+      <tspan x="540.0" dy="0">G_inter^(Q) = (U^(Q), E_u^(Q))</tspan>
+    </text>
+  </g>
+  <g id="distilled-insights">
+    <rect x="975" y="80" width="562" height="239" rx="0" fill="#D5E6D4" stroke="#6C8C84" stroke-width="2" id="distilled-panel-layer-0-220" opacity="0.72" />
+    <rect x="966" y="71" width="562" height="239" rx="0" fill="#D5E6D4" stroke="#6C8C84" stroke-width="2" id="distilled-panel-layer-1-221" opacity="0.72" />
+    <rect x="957" y="62" width="562" height="239" rx="0" fill="#D5E6D4" stroke="#6C8C84" stroke-width="2" id="distilled-panel-layer-2-222" opacity="1.0" />
+    <text x="981" y="110.4" fill="#303030" font-family="DejaVu Serif" font-size="30" font-weight="700" font-style="normal" text-anchor="start" id="distilled-title-223" opacity="1.0">
+      <tspan x="981" dy="0">Distilled Insights</tspan>
+    </text>
+    <ellipse cx="1012.0" cy="146.5" rx="16.2" ry="18.0" fill="#FFE380" stroke="#111111" stroke-width="2" id="bulb-1-bulb-224" opacity="1.0" />
+    <rect x="1004.8" y="159.1" width="14.4" height="11.700000000000001" rx="2" fill="#D8D8D8" stroke="#111111" stroke-width="2" id="bulb-1-neck-225" opacity="1.0" />
+    <line x1="1004.8" y1="165.4" x2="1019.2" y2="165.4" stroke="#111111" stroke-width="1.5" fill="none" stroke-linecap="round" id="bulb-1-base-16-226" opacity="1.0" />
+    <line x1="1004.8" y1="169.9" x2="1019.2" y2="169.9" stroke="#111111" stroke-width="1.5" fill="none" stroke-linecap="round" id="bulb-1-base-21-227" opacity="1.0" />
+    <line x1="1004.8" y1="174.4" x2="1019.2" y2="174.4" stroke="#111111" stroke-width="1.5" fill="none" stroke-linecap="round" id="bulb-1-base-26-228" opacity="1.0" />
+    <line x1="988.6" y1="133.9" x2="982.3" y2="129.4" stroke="#111111" stroke-width="1.5" fill="none" stroke-linecap="round" id="bulb-1-ray-0-229" opacity="1.0" />
+    <line x1="1035.4" y1="133.9" x2="1041.7" y2="129.4" stroke="#111111" stroke-width="1.5" fill="none" stroke-linecap="round" id="bulb-1-ray-1-230" opacity="1.0" />
+    <line x1="985.9" y1="145.6" x2="978.7" y2="145.6" stroke="#111111" stroke-width="1.5" fill="none" stroke-linecap="round" id="bulb-1-ray-2-231" opacity="1.0" />
+    <line x1="1038.1" y1="145.6" x2="1045.3" y2="145.6" stroke="#111111" stroke-width="1.5" fill="none" stroke-linecap="round" id="bulb-1-ray-3-232" opacity="1.0" />
+    <line x1="994.0" y1="124.0" x2="990.4" y2="117.69999999999999" stroke="#111111" stroke-width="1.5" fill="none" stroke-linecap="round" id="bulb-1-ray-4-233" opacity="1.0" />
+    <line x1="1030.0" y1="124.0" x2="1033.6" y2="117.69999999999999" stroke="#111111" stroke-width="1.5" fill="none" stroke-linecap="round" id="bulb-1-ray-5-234" opacity="1.0" />
+    <text x="1044" y="143.84" fill="#111111" font-family="DejaVu Sans" font-size="18" font-weight="400" font-style="normal" text-anchor="start" id="insight-1-copy-235" opacity="1.0">
+      <tspan x="1044" dy="0">Insight 1: Clearly identify key</tspan>
+      <tspan x="1044" dy="20.7">entities and their roles, use</tspan>
+      <tspan x="1044" dy="20.7">specific names and titles</tspan>
+    </text>
+    <text x="1355" y="169.95999999999998" fill="#303030" font-family="DejaVu Serif" font-size="24" font-weight="400" font-style="normal" text-anchor="start" id="insight-1-from-236" opacity="1.0">
+      <tspan x="1355" dy="0">from</tspan>
+    </text>
+    <ellipse cx="1445.0" cy="157.0" rx="27.0" ry="27.0" fill="#F4D6F0" stroke="#3D0072" stroke-width="5" id="source-crown-ring-237" opacity="1.0" />
+    <rect x="1429.88" y="147.93" width="30.240000000000002" height="22.139999999999997" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="2" id="source-crown-screen-238" opacity="1.0" />
+    <rect x="1433.8112" y="154.3432" width="22.3776" height="7.970399999999999" rx="1" fill="#3555E6" stroke="#3555E6" stroke-width="1" id="source-crown-avatar-239" opacity="1.0" />
+    <rect x="1439.5568" y="155.2288" width="10.8864" height="7.0847999999999995" rx="1" fill="#FFFFFF" stroke="none" stroke-width="0" id="source-crown-face-240" opacity="1.0" />
+    <ellipse cx="1443.2736" cy="158.3786" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="source-crown-eye-l-241" opacity="1.0" />
+    <ellipse cx="1448.7168" cy="158.3786" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="source-crown-eye-r-242" opacity="1.0" />
+    <polygon points="1436.2304,149.0296 1439.5568,144.823 1444.0928,148.8082 1448.6288,144.1588 1453.4672,149.4724" fill="#FFD84A" stroke="#3D0072" stroke-width="2" stroke-linejoin="round" id="source-crown-crown-243" opacity="1.0" />
+    <ellipse cx="1012.0" cy="234.5" rx="16.2" ry="18.0" fill="#FFE380" stroke="#111111" stroke-width="2" id="bulb-2-bulb-244" opacity="1.0" />
+    <rect x="1004.8" y="247.1" width="14.4" height="11.700000000000001" rx="2" fill="#D8D8D8" stroke="#111111" stroke-width="2" id="bulb-2-neck-245" opacity="1.0" />
+    <line x1="1004.8" y1="253.4" x2="1019.2" y2="253.4" stroke="#111111" stroke-width="1.5" fill="none" stroke-linecap="round" id="bulb-2-base-16-246" opacity="1.0" />
+    <line x1="1004.8" y1="257.9" x2="1019.2" y2="257.9" stroke="#111111" stroke-width="1.5" fill="none" stroke-linecap="round" id="bulb-2-base-21-247" opacity="1.0" />
+    <line x1="1004.8" y1="262.4" x2="1019.2" y2="262.4" stroke="#111111" stroke-width="1.5" fill="none" stroke-linecap="round" id="bulb-2-base-26-248" opacity="1.0" />
+    <line x1="988.6" y1="221.9" x2="982.3" y2="217.4" stroke="#111111" stroke-width="1.5" fill="none" stroke-linecap="round" id="bulb-2-ray-0-249" opacity="1.0" />
+    <line x1="1035.4" y1="221.9" x2="1041.7" y2="217.4" stroke="#111111" stroke-width="1.5" fill="none" stroke-linecap="round" id="bulb-2-ray-1-250" opacity="1.0" />
+    <line x1="985.9" y1="233.6" x2="978.7" y2="233.6" stroke="#111111" stroke-width="1.5" fill="none" stroke-linecap="round" id="bulb-2-ray-2-251" opacity="1.0" />
+    <line x1="1038.1" y1="233.6" x2="1045.3" y2="233.6" stroke="#111111" stroke-width="1.5" fill="none" stroke-linecap="round" id="bulb-2-ray-3-252" opacity="1.0" />
+    <line x1="994.0" y1="212.0" x2="990.4" y2="205.7" stroke="#111111" stroke-width="1.5" fill="none" stroke-linecap="round" id="bulb-2-ray-4-253" opacity="1.0" />
+    <line x1="1030.0" y1="212.0" x2="1033.6" y2="205.7" stroke="#111111" stroke-width="1.5" fill="none" stroke-linecap="round" id="bulb-2-ray-5-254" opacity="1.0" />
+    <text x="1044" y="230.84" fill="#111111" font-family="DejaVu Sans" font-size="18" font-weight="400" font-style="normal" text-anchor="start" id="insight-2-copy-255" opacity="1.0">
+      <tspan x="1044" dy="0">Insight 2: Double-</tspan>
+      <tspan x="1044" dy="20.7">check the relevance</tspan>
+      <tspan x="1044" dy="20.7">of the search results</tspan>
+    </text>
+    <text x="1244" y="267.96" fill="#303030" font-family="DejaVu Serif" font-size="24" font-weight="400" font-style="normal" text-anchor="start" id="insight-2-from-256" opacity="1.0">
+      <tspan x="1244" dy="0">from</tspan>
+    </text>
+    <ellipse cx="1341.0" cy="251.0" rx="27.0" ry="27.0" fill="#F4D6F0" stroke="#3D0072" stroke-width="5" id="source-crown-2-ring-257" opacity="1.0" />
+    <rect x="1325.88" y="241.93" width="30.240000000000002" height="22.139999999999997" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="2" id="source-crown-2-screen-258" opacity="1.0" />
+    <rect x="1329.8112" y="248.3432" width="22.3776" height="7.970399999999999" rx="1" fill="#3555E6" stroke="#3555E6" stroke-width="1" id="source-crown-2-avatar-259" opacity="1.0" />
+    <rect x="1335.5568" y="249.2288" width="10.8864" height="7.0847999999999995" rx="1" fill="#FFFFFF" stroke="none" stroke-width="0" id="source-crown-2-face-260" opacity="1.0" />
+    <ellipse cx="1339.2736" cy="252.3786" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="source-crown-2-eye-l-261" opacity="1.0" />
+    <ellipse cx="1344.7168" cy="252.3786" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="source-crown-2-eye-r-262" opacity="1.0" />
+    <polygon points="1332.2304,243.0296 1335.5568,238.823 1340.0928,242.8082 1344.6288,238.1588 1349.4672,243.4724" fill="#FFD84A" stroke="#3D0072" stroke-width="2" stroke-linejoin="round" id="source-crown-2-crown-263" opacity="1.0" />
+    <text x="1380" y="261.38" fill="#303030" font-family="DejaVu Serif" font-size="22" font-weight="400" font-style="normal" text-anchor="start" id="source-and-264" opacity="1.0">
+      <tspan x="1380" dy="0">and</tspan>
+    </text>
+    <ellipse cx="1452.0" cy="251.0" rx="27.0" ry="27.0" fill="#F4D6F0" stroke="#3D0072" stroke-width="5" id="source-pink-ring-265" opacity="1.0" />
+    <rect x="1436.88" y="241.93" width="30.240000000000002" height="22.139999999999997" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="2" id="source-pink-screen-266" opacity="1.0" />
+    <rect x="1440.8112" y="248.3432" width="22.3776" height="7.970399999999999" rx="1" fill="#F04B7A" stroke="#F04B7A" stroke-width="1" id="source-pink-avatar-267" opacity="1.0" />
+    <rect x="1446.5568" y="249.2288" width="10.8864" height="7.0847999999999995" rx="1" fill="#FFFFFF" stroke="none" stroke-width="0" id="source-pink-face-268" opacity="1.0" />
+    <ellipse cx="1450.2736" cy="252.3786" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="source-pink-eye-l-269" opacity="1.0" />
+    <ellipse cx="1455.7168" cy="252.3786" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="source-pink-eye-r-270" opacity="1.0" />
+  </g>
+  <g id="memory-augmentation-top">
+    <polygon points="901,240.5 958,240.5 958,232 981,249 958,266 958,257.5 901,257.5" fill="#FF9899" stroke="#F00000" stroke-width="3" stroke-linejoin="round" id="distill-in-arrow-271" opacity="1.0" />
+    <text x="1261.0" y="341.64" fill="#F00000" font-family="DejaVu Serif" font-size="28" font-weight="700" font-style="italic" text-anchor="middle" id="memory-augmentation-top-label-272" opacity="1.0">
+      <tspan x="1261.0" dy="0">Memory    Augmentation</tspan>
+    </text>
+  </g>
+  <g id="multi-agent-system">
+    <rect x="965" y="357" width="285" height="334" rx="0" fill="#D8E7FA" stroke="none" stroke-width="1" id="system-panel-273" opacity="1.0" />
+    <text x="983" y="397.52" fill="#303030" font-family="DejaVu Serif" font-size="29" font-weight="700" font-style="normal" text-anchor="start" id="system-title-274" opacity="1.0">
+      <tspan x="983" dy="0">Multi-agent</tspan>
+      <tspan x="983" dy="31.32">System G</tspan>
+    </text>
+    <line x1="1054" y1="488" x2="1137.0407787813326" y2="487.1526451144762" stroke="#2A6BA6" stroke-width="10" fill="none" stroke-linecap="round" id="system-e-top-shaft-275" opacity="0.75" />
+    <polygon points="1152,487 1135.192678834249,501.1955611101252 1134.9065033698812,473.15036560207756" fill="#2A6BA6" stroke="#2A6BA6" stroke-width="1" stroke-linejoin="round" id="system-e-top-head-276" opacity="0.75" />
+    <line x1="1174" y1="511" x2="1162.274775476439" y2="587.2139594031468" stroke="#2A6BA6" stroke-width="10" fill="none" stroke-linecap="round" id="system-e-right-shaft-277" opacity="0.75" />
+    <polygon points="1160,602 1148.7173053516258,583.1134756646029 1176.437825909956,587.3781711351152" fill="#2A6BA6" stroke="#2A6BA6" stroke-width="1" stroke-linejoin="round" id="system-e-right-head-278" opacity="0.75" />
+    <line x1="1147" y1="630" x2="1068.96" y2="630.0" stroke="#2A6BA6" stroke-width="10" fill="none" stroke-linecap="round" id="system-e-bottom-shaft-279" opacity="0.75" />
+    <polygon points="1054,630 1070.9512913410674,615.9766722255288 1070.9512913410674,644.0233277744712" fill="#2A6BA6" stroke="#2A6BA6" stroke-width="1" stroke-linejoin="round" id="system-e-bottom-head-280" opacity="0.75" />
+    <line x1="1024" y1="606" x2="1034.1252133461983" y2="525.8420610092644" stroke="#2A6BA6" stroke-width="10" fill="none" stroke-linecap="round" id="system-e-left-shaft-281" opacity="0.75" />
+    <polygon points="1036,511 1047.78843794189,529.5750566860564 1019.9628916341877,526.0602508366625" fill="#2A6BA6" stroke="#2A6BA6" stroke-width="1" stroke-linejoin="round" id="system-e-left-head-282" opacity="0.75" />
+    <ellipse cx="1025.0" cy="488.0" rx="40.0" ry="40.0" fill="#D8F47F" stroke="#111111" stroke-width="5" id="system-a-ring-283" opacity="1.0" />
+    <rect x="1002.6" y="473.6" width="44.800000000000004" height="32.8" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="2" id="system-a-screen-284" opacity="1.0" />
+    <rect x="1008.424" y="484.064" width="33.152" height="11.807999999999998" rx="1" fill="#E745B9" stroke="#E745B9" stroke-width="1" id="system-a-avatar-285" opacity="1.0" />
+    <rect x="1016.936" y="485.376" width="16.128" height="10.495999999999999" rx="1" fill="#FFFFFF" stroke="none" stroke-width="0" id="system-a-face-286" opacity="1.0" />
+    <ellipse cx="1021.672" cy="489.27200000000005" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="system-a-eye-l-287" opacity="1.0" />
+    <ellipse cx="1029.7359999999999" cy="489.27200000000005" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="system-a-eye-r-288" opacity="1.0" />
+    <ellipse cx="1174.0" cy="488.0" rx="40.0" ry="40.0" fill="#39A7A2" stroke="#111111" stroke-width="5" id="system-b-ring-289" opacity="1.0" />
+    <rect x="1151.6" y="473.6" width="44.800000000000004" height="32.8" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="2" id="system-b-screen-290" opacity="1.0" />
+    <rect x="1157.424" y="484.064" width="33.152" height="11.807999999999998" rx="1" fill="#F04B7A" stroke="#F04B7A" stroke-width="1" id="system-b-avatar-291" opacity="1.0" />
+    <rect x="1165.936" y="485.376" width="16.128" height="10.495999999999999" rx="1" fill="#FFFFFF" stroke="none" stroke-width="0" id="system-b-face-292" opacity="1.0" />
+    <ellipse cx="1170.6719999999998" cy="489.27200000000005" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="system-b-eye-l-293" opacity="1.0" />
+    <ellipse cx="1178.7359999999999" cy="489.27200000000005" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="system-b-eye-r-294" opacity="1.0" />
+    <ellipse cx="1025.0" cy="630.0" rx="40.0" ry="40.0" fill="#90CC7E" stroke="#111111" stroke-width="5" id="system-c-ring-295" opacity="1.0" />
+    <rect x="1002.6" y="615.6" width="44.800000000000004" height="32.8" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="2" id="system-c-screen-296" opacity="1.0" />
+    <rect x="1008.424" y="626.064" width="33.152" height="11.807999999999998" rx="1" fill="#F2CE17" stroke="#F2CE17" stroke-width="1" id="system-c-avatar-297" opacity="1.0" />
+    <rect x="1016.936" y="627.376" width="16.128" height="10.495999999999999" rx="1" fill="#FFFFFF" stroke="none" stroke-width="0" id="system-c-face-298" opacity="1.0" />
+    <ellipse cx="1021.672" cy="631.272" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="system-c-eye-l-299" opacity="1.0" />
+    <ellipse cx="1029.7359999999999" cy="631.272" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="system-c-eye-r-300" opacity="1.0" />
+    <ellipse cx="1174.0" cy="630.0" rx="40.0" ry="40.0" fill="#276F99" stroke="#111111" stroke-width="5" id="system-d-ring-301" opacity="1.0" />
+    <rect x="1151.6" y="615.6" width="44.800000000000004" height="32.8" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="2" id="system-d-screen-302" opacity="1.0" />
+    <rect x="1157.424" y="626.064" width="33.152" height="11.807999999999998" rx="1" fill="#3555E6" stroke="#3555E6" stroke-width="1" id="system-d-avatar-303" opacity="1.0" />
+    <rect x="1165.936" y="627.376" width="16.128" height="10.495999999999999" rx="1" fill="#FFFFFF" stroke="none" stroke-width="0" id="system-d-face-304" opacity="1.0" />
+    <ellipse cx="1170.6719999999998" cy="631.272" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="system-d-eye-l-305" opacity="1.0" />
+    <ellipse cx="1178.7359999999999" cy="631.272" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="system-d-eye-r-306" opacity="1.0" />
+    <polygon points="1161.008,618.192 1165.936,611.96 1172.656,617.864 1179.376,610.976 1186.544,618.848" fill="#FFD84A" stroke="#3D0072" stroke-width="2" stroke-linejoin="round" id="system-d-crown-307" opacity="1.0" />
+    <text x="1124.0" y="566.62" fill="#4A4A4A" font-family="DejaVu Serif" font-size="28" font-weight="400" font-style="italic" text-anchor="middle" id="iteration-label-308" opacity="1.0">
+      <tspan x="1124.0" dy="0">Iteration</tspan>
+    </text>
+  </g>
+  <g id="output-feedback">
+    <rect x="1265" y="357" width="274" height="334" rx="0" fill="#D8E7FA" stroke="none" stroke-width="1" id="output-panel-309" opacity="1.0" />
+    <rect x="1284" y="376" width="40" height="52" rx="5" fill="#F09B79" stroke="#111111" stroke-width="2.5" id="output-icon-board-310" opacity="1.0" />
+    <rect x="1290" y="383" width="28" height="37" rx="1" fill="#E8F5F5" stroke="#111111" stroke-width="1.5" id="output-icon-paper-311" opacity="1.0" />
+    <rect x="1293" y="371" width="22" height="12" rx="4" fill="#6C8C9C" stroke="#111111" stroke-width="2" id="output-icon-clip-312" opacity="1.0" />
+    <ellipse cx="1298.5" cy="376.5" rx="2.5" ry="2.5" fill="#FFD84A" stroke="#111111" stroke-width="1" id="output-icon-clip-dot1-313" opacity="1.0" />
+    <ellipse cx="1309.5" cy="376.5" rx="2.5" ry="2.5" fill="#FFD84A" stroke="#111111" stroke-width="1" id="output-icon-clip-dot2-314" opacity="1.0" />
+    <line x1="1295" y1="393" x2="1313" y2="393" stroke="#707070" stroke-width="1.6" fill="none" stroke-linecap="round" id="output-icon-line-0-315" opacity="1.0" />
+    <line x1="1295" y1="402" x2="1313" y2="402" stroke="#707070" stroke-width="1.6" fill="none" stroke-linecap="round" id="output-icon-line-1-316" opacity="1.0" />
+    <line x1="1295" y1="411" x2="1313" y2="411" stroke="#707070" stroke-width="1.6" fill="none" stroke-linecap="round" id="output-icon-line-2-317" opacity="1.0" />
+    <ellipse cx="1327.5" cy="381.5" rx="8.5" ry="8.5" fill="#72CE7C" stroke="#006400" stroke-width="1.5" id="output-icon-check-318" opacity="1.0" />
+    <text x="1327.5" y="384.34999999999997" fill="#006400" font-family="DejaVu Sans" font-size="15" font-weight="700" font-style="normal" text-anchor="middle" id="output-icon-checkmark-319" opacity="1.0">
+      <tspan x="1327.5" dy="0">✓</tspan>
+    </text>
+    <text x="1338" y="392.4" fill="#303030" font-family="DejaVu Serif" font-size="30" font-weight="700" font-style="normal" text-anchor="start" id="output-title-320" opacity="1.0">
+      <tspan x="1338" dy="0">Output</tspan>
+      <tspan x="1338" dy="32.400000000000006">Solution</tspan>
+    </text>
+    <text x="1284" y="450.84" fill="#111111" font-family="DejaVu Sans" font-size="18" font-weight="400" font-style="normal" text-anchor="start" id="output-copy-321" opacity="1.0">
+      <tspan x="1284" dy="0">Since both are confirmed</tspan>
+      <tspan x="1284" dy="20.88">as film directors from</tspan>
+      <tspan x="1284" dy="20.88">their respective countries,</tspan>
+      <tspan x="1284" dy="20.88">the answer is Yes.</tspan>
+    </text>
+    <rect x="1291" y="558" width="22" height="34" rx="5" fill="#FFD7B8" stroke="#111111" stroke-width="2" id="feedback-icon-hand-322" opacity="1.0" />
+    <rect x="1283" y="567" width="15" height="13" rx="4" fill="#FFD7B8" stroke="#111111" stroke-width="2" id="feedback-icon-thumb-323" opacity="1.0" />
+    <rect x="1307" y="580" width="15" height="17" rx="2" fill="#F18A8A" stroke="#111111" stroke-width="2" id="feedback-icon-cuff-324" opacity="1.0" />
+    <ellipse cx="1339.0" cy="567.0" rx="2.0" ry="2.0" fill="#111111" stroke="none" stroke-width="1" id="feedback-icon-spark-0-325" opacity="1.0" />
+    <ellipse cx="1332.5" cy="578.2583302491977" rx="2.0" ry="2.0" fill="#111111" stroke="none" stroke-width="1" id="feedback-icon-spark-1-326" opacity="1.0" />
+    <ellipse cx="1319.5" cy="578.2583302491977" rx="2.0" ry="2.0" fill="#111111" stroke="none" stroke-width="1" id="feedback-icon-spark-2-327" opacity="1.0" />
+    <ellipse cx="1313.0" cy="567.0" rx="2.0" ry="2.0" fill="#111111" stroke="none" stroke-width="1" id="feedback-icon-spark-3-328" opacity="1.0" />
+    <ellipse cx="1319.5" cy="555.7416697508023" rx="2.0" ry="2.0" fill="#111111" stroke="none" stroke-width="1" id="feedback-icon-spark-4-329" opacity="1.0" />
+    <ellipse cx="1332.5" cy="555.7416697508023" rx="2.0" ry="2.0" fill="#111111" stroke="none" stroke-width="1" id="feedback-icon-spark-5-330" opacity="1.0" />
+    <text x="1336" y="565.52" fill="#303030" font-family="DejaVu Serif" font-size="29" font-weight="700" font-style="normal" text-anchor="start" id="feedback-title-331" opacity="1.0">
+      <tspan x="1336" dy="0">Environment</tspan>
+      <tspan x="1336" dy="31.32">Feedback</tspan>
+    </text>
+    <text x="1292" y="625.4" fill="#303030" font-family="DejaVu Sans" font-size="17.5" font-weight="400" font-style="normal" text-anchor="start" id="feedback-copy-332" opacity="1.0">
+      <tspan x="1292" dy="0">· Execution: Success</tspan>
+      <tspan x="1292" dy="20.65">· Token cost: 3,345</tspan>
+      <tspan x="1292" dy="20.65">· Tool calls: 3 ...</tspan>
+    </text>
+    <polygon points="1243,549.5 1260,549.5 1260,541 1280,558 1260,575 1260,566.5 1243,566.5" fill="#FF9899" stroke="#F00000" stroke-width="3" stroke-linejoin="round" id="system-output-arrow-333" opacity="1.0" />
+    <polygon points="1214.5,287 1214.5,363 1206,363 1223,387 1240,363 1231.5,363 1231.5,287" fill="#FF9899" stroke="#F00000" stroke-width="3" stroke-linejoin="round" id="augmentation-down-334" opacity="1.0" />
+  </g>
+  <g id="trajectory-condensation">
+    <rect x="975" y="763" width="567" height="306" rx="0" fill="#E2D5E7" stroke="#C28AAD" stroke-width="2" id="trajectory-panel-layer-0-335" opacity="0.72" />
+    <rect x="966" y="754" width="567" height="306" rx="0" fill="#E2D5E7" stroke="#C28AAD" stroke-width="2" id="trajectory-panel-layer-1-336" opacity="0.72" />
+    <rect x="957" y="745" width="567" height="306" rx="0" fill="#E2D5E7" stroke="#C28AAD" stroke-width="2" id="trajectory-panel-layer-2-337" opacity="1.0" />
+    <text x="1160" y="802.52" fill="#303030" font-family="DejaVu Serif" font-size="29" font-weight="700" font-style="normal" text-anchor="start" id="trajectory-title-338" opacity="1.0">
+      <tspan x="1160" dy="0">Trajectory Condensation</tspan>
+    </text>
+    <ellipse cx="1103.5" cy="910.5" rx="107.5" ry="107.5" fill="#F5DFEC" stroke="#3D0072" stroke-width="5" id="core-path-circle-339" opacity="1.0" />
+    <ellipse cx="1109.0" cy="831.0" rx="18.0" ry="18.0" fill="#F4D6F0" stroke="#3D0072" stroke-width="5" id="core-a-ring-340" opacity="1.0" />
+    <rect x="1098.92" y="825.62" width="20.160000000000004" height="14.76" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="2" id="core-a-screen-341" opacity="1.0" />
+    <rect x="1101.5408" y="829.2288" width="14.918400000000002" height="5.3136" rx="1" fill="#3555E6" stroke="#3555E6" stroke-width="1" id="core-a-avatar-342" opacity="1.0" />
+    <rect x="1105.3712" y="829.8192" width="7.257600000000001" height="4.7232" rx="1" fill="#FFFFFF" stroke="none" stroke-width="0" id="core-a-face-343" opacity="1.0" />
+    <ellipse cx="1108.3824" cy="832.4524" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="core-a-eye-l-344" opacity="1.0" />
+    <ellipse cx="1112.0112" cy="832.4524" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="core-a-eye-r-345" opacity="1.0" />
+    <polygon points="1103.1536,825.6864 1105.3712,822.882 1108.3952,825.5388 1111.4192,822.4392 1114.6448,825.9816" fill="#FFD84A" stroke="#3D0072" stroke-width="2" stroke-linejoin="round" id="core-a-crown-346" opacity="1.0" />
+    <ellipse cx="1043.0" cy="868.0" rx="18.0" ry="18.0" fill="#F4D6F0" stroke="#3D0072" stroke-width="5" id="core-b-ring-347" opacity="1.0" />
+    <rect x="1032.92" y="862.62" width="20.160000000000004" height="14.76" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="2" id="core-b-screen-348" opacity="1.0" />
+    <rect x="1035.5408" y="866.2288" width="14.918400000000002" height="5.3136" rx="1" fill="#F04B7A" stroke="#F04B7A" stroke-width="1" id="core-b-avatar-349" opacity="1.0" />
+    <rect x="1039.3712" y="866.8192" width="7.257600000000001" height="4.7232" rx="1" fill="#FFFFFF" stroke="none" stroke-width="0" id="core-b-face-350" opacity="1.0" />
+    <ellipse cx="1042.3824" cy="869.4524" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="core-b-eye-l-351" opacity="1.0" />
+    <ellipse cx="1046.0112" cy="869.4524" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="core-b-eye-r-352" opacity="1.0" />
+    <ellipse cx="1107.0" cy="911.0" rx="18.0" ry="18.0" fill="#F4D6F0" stroke="#3D0072" stroke-width="5" id="core-c-ring-353" opacity="1.0" />
+    <rect x="1096.92" y="905.62" width="20.160000000000004" height="14.76" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="2" id="core-c-screen-354" opacity="1.0" />
+    <rect x="1099.5408" y="909.2288" width="14.918400000000002" height="5.3136" rx="1" fill="#3555E6" stroke="#3555E6" stroke-width="1" id="core-c-avatar-355" opacity="1.0" />
+    <rect x="1103.3712" y="909.8192" width="7.257600000000001" height="4.7232" rx="1" fill="#FFFFFF" stroke="none" stroke-width="0" id="core-c-face-356" opacity="1.0" />
+    <ellipse cx="1106.3824" cy="912.4524" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="core-c-eye-l-357" opacity="1.0" />
+    <ellipse cx="1110.0112" cy="912.4524" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="core-c-eye-r-358" opacity="1.0" />
+    <polygon points="1101.1536,905.6864 1103.3712,902.882 1106.3952,905.5388 1109.4192,902.4392 1112.6448,905.9816" fill="#FFD84A" stroke="#3D0072" stroke-width="2" stroke-linejoin="round" id="core-c-crown-359" opacity="1.0" />
+    <ellipse cx="1171.0" cy="955.0" rx="18.0" ry="18.0" fill="#F4D6F0" stroke="#3D0072" stroke-width="5" id="core-d-ring-360" opacity="1.0" />
+    <rect x="1160.92" y="949.62" width="20.160000000000004" height="14.76" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="2" id="core-d-screen-361" opacity="1.0" />
+    <rect x="1163.5408" y="953.2288" width="14.918400000000002" height="5.3136" rx="1" fill="#222222" stroke="#222222" stroke-width="1" id="core-d-avatar-362" opacity="1.0" />
+    <rect x="1167.3712" y="953.8192" width="7.257600000000001" height="4.7232" rx="1" fill="#FFFFFF" stroke="none" stroke-width="0" id="core-d-face-363" opacity="1.0" />
+    <ellipse cx="1170.3824" cy="956.4524" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="core-d-eye-l-364" opacity="1.0" />
+    <ellipse cx="1174.0112" cy="956.4524" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="core-d-eye-r-365" opacity="1.0" />
+    <line x1="1093" y1="839" x2="1063.3785830017941" y2="855.0801977990261" stroke="#707070" stroke-width="3" fill="none" stroke-linecap="round" id="core-e1-shaft-366" opacity="1.0" />
+    <polygon points="1058,858 1061.3575256794547,849.6497292671554 1066.8315020565778,859.7333699618555" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="core-e1-head-367" opacity="1.0" />
+    <line x1="1057" y1="878" x2="1084.9078521986523" y2="896.6052347991016" stroke="#707070" stroke-width="3" fill="none" stroke-linecap="round" id="core-e2-shaft-368" opacity="1.0" />
+    <polygon points="1090,900 1081.0478351562845,900.9266847419387 1087.412260975745,891.3800460127476" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="core-e2-head-369" opacity="1.0" />
+    <line x1="1124" y1="920" x2="1149.2210828862087" y2="940.176866308967" stroke="#707070" stroke-width="3" fill="none" stroke-linecap="round" id="core-e3-shaft-370" opacity="1.0" />
+    <polygon points="1154,944 1145.0012116867867,944.1476783463352 1152.1687326593778,935.1882771305964" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="core-e3-head-371" opacity="1.0" />
+    <ellipse cx="1165.0" cy="870.0" rx="17.0" ry="17.0" fill="#F5F5F5" stroke="#7F7F7F" stroke-width="2" id="core-empty-0-372" opacity="1.0" />
+    <ellipse cx="1045.0" cy="950.0" rx="17.0" ry="17.0" fill="#F5F5F5" stroke="#7F7F7F" stroke-width="2" id="core-empty-1-373" opacity="1.0" />
+    <ellipse cx="1110.0" cy="989.0" rx="17.0" ry="17.0" fill="#F5F5F5" stroke="#7F7F7F" stroke-width="2" id="core-empty-2-374" opacity="1.0" />
+    <text x="971.0" y="914.25" fill="#F00000" font-family="DejaVu Serif" font-size="27" font-weight="700" font-style="normal" text-anchor="middle" id="core-path-label-375" opacity="1.0" transform="rotate(90 971.0 921.0)">
+      <tspan x="971.0" dy="0">Core Path</tspan>
+      <tspan x="971.0" dy="29.160000000000004">Extraction</tspan>
+    </text>
+    <polygon points="1229,847 1245,832 1259,845 1250,856 1240,853" fill="#FFD7B8" stroke="#111111" stroke-width="2" stroke-linejoin="round" id="handshake-left-hand-376" opacity="1.0" />
+    <polygon points="1277,847 1261,832 1248,845 1256,857 1267,853" fill="#F0B78E" stroke="#111111" stroke-width="2" stroke-linejoin="round" id="handshake-right-hand-377" opacity="1.0" />
+    <rect x="1225" y="844" width="13" height="20" rx="2" fill="#EF86A4" stroke="#111111" stroke-width="2" id="handshake-left-cuff-378" opacity="1.0" />
+    <rect x="1268" y="844" width="13" height="20" rx="2" fill="#FFD34D" stroke="#111111" stroke-width="2" id="handshake-right-cuff-379" opacity="1.0" />
+    <line x1="1248" y1="846" x2="1255" y2="853" stroke="#111111" stroke-width="1" fill="none" stroke-linecap="round" id="handshake-finger-0-380" opacity="1.0" />
+    <line x1="1253" y1="847" x2="1260" y2="854" stroke="#111111" stroke-width="1" fill="none" stroke-linecap="round" id="handshake-finger-1-381" opacity="1.0" />
+    <line x1="1258" y1="848" x2="1265" y2="855" stroke="#111111" stroke-width="1" fill="none" stroke-linecap="round" id="handshake-finger-2-382" opacity="1.0" />
+    <text x="1282" y="847.12" fill="#414141" font-family="DejaVu Serif" font-size="24" font-weight="400" font-style="normal" text-anchor="start" id="collab-title-383" opacity="1.0">
+      <tspan x="1282" dy="0">Collab. Experience</tspan>
+    </text>
+    <text x="1241" y="889.96" fill="#414141" font-family="DejaVu Sans" font-size="17" font-weight="400" font-style="normal" text-anchor="start" id="collab-copy-384" opacity="1.0">
+      <tspan x="1241" dy="0">· This history follows a chain-</tspan>
+      <tspan x="1241" dy="20.06">  style, collaboration strategy...</tspan>
+    </text>
+    <rect x="1230" y="950" width="52" height="39" rx="2" fill="#9DD9EA" stroke="#111111" stroke-width="2" id="failure-icon-monitor-385" opacity="1.0" />
+    <line x1="1256" y1="989" x2="1256" y2="999" stroke="#111111" stroke-width="2" fill="none" stroke-linecap="round" id="failure-icon-stand-386" opacity="1.0" />
+    <line x1="1245" y1="999" x2="1267" y2="999" stroke="#111111" stroke-width="2" fill="none" stroke-linecap="round" id="failure-icon-foot-387" opacity="1.0" />
+    <polygon points="1256,939 1238,976 1274,976" fill="#FFC13D" stroke="#111111" stroke-width="2" stroke-linejoin="round" id="failure-icon-triangle-388" opacity="1.0" />
+    <text x="1256.0" y="965.8000000000001" fill="#111111" font-family="DejaVu Sans" font-size="20" font-weight="700" font-style="normal" text-anchor="middle" id="failure-icon-mark-389" opacity="1.0">
+      <tspan x="1256.0" dy="0">!</tspan>
+    </text>
+    <text x="1292" y="965.12" fill="#414141" font-family="DejaVu Serif" font-size="24" font-weight="400" font-style="normal" text-anchor="start" id="failure-title-390" opacity="1.0">
+      <tspan x="1292" dy="0">Failure Lessons</tspan>
+    </text>
+    <text x="1230" y="1014.64" fill="#414141" font-family="DejaVu Sans" font-size="15.5" font-weight="400" font-style="normal" text-anchor="start" id="failure-copy-391" opacity="1.0">
+      <tspan x="1230" dy="0">· Take care when summarizing the</tspan>
+      <tspan x="1230" dy="17.669999999999998">  final result, DO NOT ...</tspan>
+    </text>
+  </g>
+  <g id="memory-augmentation-bottom">
+    <text x="1260.0" y="719.64" fill="#F00000" font-family="DejaVu Serif" font-size="28" font-weight="700" font-style="italic" text-anchor="middle" id="memory-augmentation-bottom-label-392" opacity="1.0">
+      <tspan x="1260.0" dy="0">Memory    Augmentation</tspan>
+    </text>
+    <polygon points="1209.5,750 1209.5,703 1201,703 1218,680 1235,703 1226.5,703 1226.5,750" fill="#FF9899" stroke="#F00000" stroke-width="3" stroke-linejoin="round" id="augmentation-up-393" opacity="1.0" />
+  </g>
+  <g id="trajectory-connectors">
+    <line x1="606" y1="930" x2="958" y2="781" stroke="#7F7F7F" stroke-width="4" fill="none" stroke-linecap="round" id="trajectory-wedge-upper-394" opacity="0.85" stroke-dasharray="4 8" />
+    <line x1="615" y1="1064" x2="958" y2="1020" stroke="#7F7F7F" stroke-width="4" fill="none" stroke-linecap="round" id="trajectory-wedge-lower-395" opacity="0.85" stroke-dasharray="4 8" />
+  </g>
+  <g id="right-insight-graph">
+    <ellipse cx="1745.0" cy="199.0" rx="157.0" ry="157.0" fill="#E9F3EA" stroke="#006400" stroke-width="5" id="right-insight-circle-396" opacity="1.0" />
+    <line x1="1713" y1="124" x2="1778.8466973701493" y2="126.66946070419525" stroke="#707070" stroke-width="4" fill="none" stroke-linecap="round" id="right-i-e1-shaft-397" opacity="1.0" />
+    <polygon points="1787,127 1777.4515862862365,134.26827321657723 1778.07127357065,118.98265353437763" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="right-i-e1-head-398" opacity="1.0" />
+    <line x1="1654" y1="202" x2="1689.2570963392523" y2="152.64006512504696" stroke="#707070" stroke-width="4" fill="none" stroke-linecap="round" id="right-i-e2-shaft-399" opacity="1.0" />
+    <polygon points="1694,146 1694.850098124092,157.96985100907338 1682.4014604646845,149.07796696663942" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="right-i-e2-head-400" opacity="1.0" />
+    <line x1="1664" y1="208" x2="1708.9102534378283" y2="213.93154290688298" stroke="#707070" stroke-width="4" fill="none" stroke-linecap="round" id="right-i-e3-shaft-401" opacity="1.0" />
+    <polygon points="1717,215 1706.8318867058483,221.37255616195708 1708.8350048916423,206.20608989808886" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="right-i-e3-head-402" opacity="1.0" />
+    <line x1="1728" y1="144" x2="1808.0312870108887" y2="192.75469208709308" stroke="#707070" stroke-width="4" fill="none" stroke-linecap="round" id="right-i-e4-shaft-403" opacity="1.0" />
+    <polygon points="1815,197 1803.1241959547488,198.7219983387901 1811.083199212269,185.6572194066345" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="right-i-e4-head-404" opacity="1.0" />
+    <line x1="1740" y1="213" x2="1793.8495358079708" y2="215.60562270038568" stroke="#707070" stroke-width="4" fill="none" stroke-linecap="round" id="right-i-e5-shaft-405" opacity="1.0" />
+    <polygon points="1802,216 1792.394961549243,223.19327716409418 1793.1343308192031,207.91297891824996" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="right-i-e5-head-406" opacity="1.0" />
+    <line x1="1734" y1="207" x2="1786.279533770859" y2="153.8190949572297" stroke="#707070" stroke-width="4" fill="none" stroke-linecap="round" id="right-i-e6-shaft-407" opacity="1.0" />
+    <polygon points="1792,148 1790.9728466764102,159.95595901840744 1780.0633445459284,149.23136370369642" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="right-i-e6-head-408" opacity="1.0" />
+    <ellipse cx="1709.0" cy="125.0" rx="29.0" ry="29.0" fill="#4DA864" stroke="#006400" stroke-width="5" id="right-l1-circle-409" opacity="1.0" />
+    <text x="1709.0" y="133.56900000000002" fill="#111111" font-family="DejaVu Serif" font-size="26.1" font-weight="400" font-style="italic" text-anchor="middle" id="right-l1-label-410" opacity="1.0">
+      <tspan x="1709.0" dy="0">l₁</tspan>
+    </text>
+    <ellipse cx="1810.0" cy="128.0" rx="29.0" ry="29.0" fill="#98F451" stroke="#006400" stroke-width="5" id="right-l2-circle-411" opacity="1.0" />
+    <text x="1810.0" y="136.56900000000002" fill="#111111" font-family="DejaVu Serif" font-size="26.1" font-weight="400" font-style="italic" text-anchor="middle" id="right-l2-label-412" opacity="1.0">
+      <tspan x="1810.0" dy="0">l₂</tspan>
+    </text>
+    <ellipse cx="1652.0" cy="206.0" rx="29.0" ry="29.0" fill="#7DD45C" stroke="#006400" stroke-width="5" id="right-l3-circle-413" opacity="1.0" />
+    <text x="1652.0" y="214.56900000000002" fill="#111111" font-family="DejaVu Serif" font-size="26.1" font-weight="400" font-style="italic" text-anchor="middle" id="right-l3-label-414" opacity="1.0">
+      <tspan x="1652.0" dy="0">l₃</tspan>
+    </text>
+    <ellipse cx="1744.0" cy="210.0" rx="30.0" ry="30.0" fill="#00E979" stroke="#006400" stroke-width="5" id="right-l4-circle-415" opacity="1.0" />
+    <text x="1744.0" y="218.82999999999998" fill="#111111" font-family="DejaVu Serif" font-size="27.0" font-weight="400" font-style="italic" text-anchor="middle" id="right-l4-label-416" opacity="1.0">
+      <tspan x="1744.0" dy="0">l₄</tspan>
+    </text>
+    <ellipse cx="1840.0" cy="213.0" rx="29.0" ry="29.0" fill="#99FFCD" stroke="#006400" stroke-width="5" id="right-l5-circle-417" opacity="1.0" />
+    <text x="1840.0" y="221.56900000000002" fill="#111111" font-family="DejaVu Serif" font-size="26.1" font-weight="400" font-style="italic" text-anchor="middle" id="right-l5-label-418" opacity="1.0">
+      <tspan x="1840.0" dy="0">l₅</tspan>
+    </text>
+    <ellipse cx="1740.0" cy="304.0" rx="29.0" ry="29.0" fill="#FBE6E5" stroke="#B55252" stroke-width="5" id="right-l6-circle-419" opacity="1.0" />
+    <text x="1740.0" y="312.569" fill="#B55252" font-family="DejaVu Serif" font-size="26.1" font-weight="400" font-style="italic" text-anchor="middle" id="right-l6-label-420" opacity="1.0">
+      <tspan x="1740.0" dy="0">l₆</tspan>
+    </text>
+    <line x1="1744" y1="241" x2="1741.7616601829354" y2="264.8756247153562" stroke="#B55252" stroke-width="4" fill="none" stroke-linecap="round" id="right-update-l4-l6-shaft-421" opacity="1.0" />
+    <polygon points="1741,273 1734.2473493371963,263.08023644303273 1749.4787367141178,264.50817900961914" fill="#B55252" stroke="#B55252" stroke-width="1" stroke-linejoin="round" id="right-update-l4-l6-head-422" opacity="1.0" />
+    <line x1="1825" y1="236" x2="1769.3518504021188" y2="280.87753999829135" stroke="#B55252" stroke-width="4" fill="none" stroke-linecap="round" id="right-update-l5-l6-shaft-423" opacity="1.0" />
+    <polygon points="1763,286 1765.3955969990382,274.2415513345425 1774.999064327324,286.14985082161695" fill="#B55252" stroke="#B55252" stroke-width="1" stroke-linejoin="round" id="right-update-l5-l6-head-424" opacity="1.0" />
+    <text x="1670.0" y="273.72" fill="#006400" font-family="DejaVu Serif" font-size="19" font-weight="400" font-style="italic" text-anchor="middle" id="right-insight-formula-425" opacity="1.0">
+      <tspan x="1670.0" dy="0">G_insight</tspan>
+      <tspan x="1670.0" dy="20.520000000000003">^(t+1)</tspan>
+    </text>
+  </g>
+  <g id="right-query-graph">
+    <ellipse cx="1747.0" cy="561.0" rx="158.0" ry="158.0" fill="#ECF3FD" stroke="#003A78" stroke-width="5" id="right-query-circle-426" opacity="1.0" />
+    <line x1="1652" y1="508" x2="1652.905122692949" y2="585.8405515936059" stroke="#707070" stroke-width="4" fill="none" stroke-linecap="round" id="right-q-e1-shaft-427" opacity="1.0" />
+    <polygon points="1653,594 1645.243922972244,584.843402971654 1660.5410646115154,584.6655292316624" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="right-q-e1-head-428" opacity="1.0" />
+    <line x1="1676" y1="618" x2="1704.7911793041087" y2="583.2812249568101" stroke="#707070" stroke-width="4" fill="none" stroke-linecap="round" id="right-q-e2-shaft-429" opacity="1.0" />
+    <polygon points="1710,577 1709.9857913927208,588.999991588142 1698.2098988266061,579.2346172650226" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="right-q-e2-head-430" opacity="1.0" />
+    <line x1="1766" y1="576" x2="1829.9335961573988" y2="566.2323672537308" stroke="#707070" stroke-width="4" fill="none" stroke-linecap="round" id="right-q-e3-shaft-431" opacity="1.0" />
+    <polygon points="1838,565 1830.0151021608926,573.9577567782909 1827.7046890676318,558.835052895129" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="right-q-e3-head-432" opacity="1.0" />
+    <line x1="1760" y1="578" x2="1809.5849048757623" y2="633.8957109508594" stroke="#707070" stroke-width="4" fill="none" stroke-linecap="round" id="right-q-e4-shaft-433" opacity="1.0" />
+    <polygon points="1815,640 1803.1420253170616,638.1592293953914 1814.5862026120099,628.0071366337437" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="right-q-e4-head-434" opacity="1.0" />
+    <line x1="1833" y1="545" x2="1821.012902929981" y2="497.90783293921123" stroke="#707070" stroke-width="4" fill="none" stroke-linecap="round" id="right-q-e5-shaft-435" opacity="1.0" />
+    <polygon points="1819,490 1828.6935452740452,497.0735549775228 1813.8681263846977,500.84729796753845" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="right-q-e5-head-436" opacity="1.0" />
+    <line x1="1807" y1="639" x2="1813.61186838077" y2="500.1507640038314" stroke="#707070" stroke-width="4" fill="none" stroke-linecap="round" id="right-q-e6-shaft-437" opacity="1.0" />
+    <polygon points="1814,492 1821.2006352327433,501.5995235426023 1805.9197749067955,500.87186352708096" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="right-q-e6-head-438" opacity="1.0" />
+    <line x1="1679" y1="626" x2="1833.5291394442565" y2="576.0899673844638" stroke="#707070" stroke-width="3" fill="none" stroke-linecap="round" id="right-q-e7-shaft-439" opacity="1.0" />
+    <polygon points="1840,574 1834.62692882102,582.4338666165415 1830.708707207345,570.3024496972785" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="right-q-e7-head-440" opacity="1.0" />
+    <ellipse cx="1654.0" cy="506.0" rx="24.0" ry="24.0" fill="#6EA8E2" stroke="#003A78" stroke-width="5" id="right-q1-circle-441" opacity="1.0" />
+    <text x="1654.0" y="513.264" fill="#111111" font-family="DejaVu Serif" font-size="21.6" font-weight="400" font-style="italic" text-anchor="middle" id="right-q1-label-442" opacity="1.0">
+      <tspan x="1654.0" dy="0">q₁</tspan>
+    </text>
+    <ellipse cx="1655.0" cy="632.0" rx="24.0" ry="24.0" fill="#6EA8E2" stroke="#003A78" stroke-width="5" id="right-q2-circle-443" opacity="1.0" />
+    <text x="1655.0" y="639.264" fill="#111111" font-family="DejaVu Serif" font-size="21.6" font-weight="400" font-style="italic" text-anchor="middle" id="right-q2-label-444" opacity="1.0">
+      <tspan x="1655.0" dy="0">q₂</tspan>
+    </text>
+    <ellipse cx="1740.0" cy="555.0" rx="25.0" ry="25.0" fill="#FBE6E5" stroke="#B55252" stroke-width="5" id="right-q6-circle-445" opacity="1.0" />
+    <text x="1740.0" y="562.525" fill="#111111" font-family="DejaVu Serif" font-size="22.5" font-weight="400" font-style="italic" text-anchor="middle" id="right-q6-label-446" opacity="1.0">
+      <tspan x="1740.0" dy="0">q₆</tspan>
+    </text>
+    <ellipse cx="1828.0" cy="476.0" rx="24.0" ry="24.0" fill="#6EA8E2" stroke="#003A78" stroke-width="5" id="right-q5-circle-447" opacity="1.0" />
+    <text x="1828.0" y="483.264" fill="#111111" font-family="DejaVu Serif" font-size="21.6" font-weight="400" font-style="italic" text-anchor="middle" id="right-q5-label-448" opacity="1.0">
+      <tspan x="1828.0" dy="0">q₅</tspan>
+    </text>
+    <ellipse cx="1868.0" cy="570.0" rx="24.0" ry="24.0" fill="#6EA8E2" stroke="#003A78" stroke-width="5" id="right-q4-circle-449" opacity="1.0" />
+    <text x="1868.0" y="577.264" fill="#111111" font-family="DejaVu Serif" font-size="21.6" font-weight="400" font-style="italic" text-anchor="middle" id="right-q4-label-450" opacity="1.0">
+      <tspan x="1868.0" dy="0">q₄</tspan>
+    </text>
+    <ellipse cx="1820.0" cy="668.0" rx="24.0" ry="24.0" fill="#6EA8E2" stroke="#003A78" stroke-width="5" id="right-q3-circle-451" opacity="1.0" />
+    <text x="1820.0" y="675.264" fill="#111111" font-family="DejaVu Serif" font-size="21.6" font-weight="400" font-style="italic" text-anchor="middle" id="right-q3-label-452" opacity="1.0">
+      <tspan x="1820.0" dy="0">q₃</tspan>
+    </text>
+    <text x="1634.0" y="671.84" fill="#003A78" font-family="DejaVu Serif" font-size="18" font-weight="400" font-style="italic" text-anchor="middle" id="right-query-formula-453" opacity="1.0">
+      <tspan x="1634.0" dy="0">G_query</tspan>
+      <tspan x="1634.0" dy="19.44">^(t+1)</tspan>
+    </text>
+  </g>
+  <g id="right-update-flow">
+    <rect x="1692" y="279" width="96" height="301" rx="40" fill="#F1E1E4" stroke="#E2A0A0" stroke-width="2" id="update-corridor-454" opacity="0.46" />
+    <line x1="1740" y1="548" x2="1740.0" y2="333.2" stroke="#B55252" stroke-width="5" fill="none" stroke-linecap="round" id="update-corridor-up-shaft-455" opacity="1.0" stroke-dasharray="11 12" />
+    <polygon points="1740,323 1749.5613598462303,334.5576986416368 1730.4386401537697,334.5576986416368" fill="#B55252" stroke="#B55252" stroke-width="1" stroke-linejoin="round" id="update-corridor-up-head-456" opacity="1.0" />
+    <ellipse cx="1740.0" cy="304.0" rx="29.0" ry="29.0" fill="#FBE6E5" stroke="#B55252" stroke-width="5" id="right-l6-overlay-circle-457" opacity="1.0" />
+    <text x="1740.0" y="312.569" fill="#B55252" font-family="DejaVu Serif" font-size="26.1" font-weight="400" font-style="italic" text-anchor="middle" id="right-l6-overlay-label-458" opacity="1.0">
+      <tspan x="1740.0" dy="0">l₆</tspan>
+    </text>
+    <ellipse cx="1740.0" cy="555.0" rx="25.0" ry="25.0" fill="#FBE6E5" stroke="#B55252" stroke-width="5" id="right-q6-overlay-circle-459" opacity="1.0" />
+    <text x="1740.0" y="562.525" fill="#111111" font-family="DejaVu Serif" font-size="22.5" font-weight="400" font-style="italic" text-anchor="middle" id="right-q6-overlay-label-460" opacity="1.0">
+      <tspan x="1740.0" dy="0">q₆</tspan>
+    </text>
+    <polygon points="1534,537.5 1683,537.5 1683,527 1711,548 1683,569 1683,558.5 1534,558.5" fill="#FF9899" stroke="#F00000" stroke-width="3" stroke-linejoin="round" id="feedback-update-arrow-461" opacity="1.0" />
+    <text x="1645.0" y="370.76" fill="#F00000" font-family="DejaVu Serif" font-size="27" font-weight="400" font-style="italic" text-anchor="middle" id="update-insights-label-462" opacity="1.0">
+      <tspan x="1645.0" dy="0">Update</tspan>
+      <tspan x="1645.0" dy="29.160000000000004">Insights</tspan>
+    </text>
+  </g>
+  <g id="right-interaction-graph">
+    <polygon points="1740,575 1877,797 1612,797" fill="#F5DFEC" stroke="#111111" stroke-width="3" stroke-linejoin="round" id="interaction-update-fill-463" opacity="0.48" stroke-dasharray="4 7" />
+    <ellipse cx="1746.0" cy="915.0" rx="159.0" ry="159.0" fill="#F5DFEC" stroke="#3D0072" stroke-width="5" id="right-interaction-circle-464" opacity="1.0" />
+    <line x1="1690" y1="861" x2="1786.84" y2="861.0" stroke="#707070" stroke-width="4" fill="none" stroke-linecap="round" id="right-inter-top-shaft-465" opacity="1.0" />
+    <polygon points="1795,861 1785.7538410866905,868.6490878769843 1785.7538410866905,853.3509121230157" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="right-inter-top-head-466" opacity="1.0" />
+    <line x1="1811" y1="883" x2="1811.0" y2="966.84" stroke="#707070" stroke-width="4" fill="none" stroke-linecap="round" id="right-inter-right-shaft-467" opacity="1.0" />
+    <polygon points="1811,975 1803.3509121230156,965.7538410866905 1818.6490878769844,965.7538410866905" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="right-inter-right-head-468" opacity="1.0" />
+    <line x1="1790" y1="1000" x2="1698.16" y2="1000.0" stroke="#707070" stroke-width="4" fill="none" stroke-linecap="round" id="right-inter-bottom-shaft-469" opacity="1.0" />
+    <polygon points="1690,1000 1699.2461589133095,992.3509121230157 1699.2461589133095,1007.6490878769843" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="right-inter-bottom-head-470" opacity="1.0" />
+    <line x1="1673" y1="979" x2="1673.0" y2="892.16" stroke="#707070" stroke-width="4" fill="none" stroke-linecap="round" id="right-inter-left-shaft-471" opacity="1.0" />
+    <polygon points="1673,884 1680.6490878769844,893.2461589133095 1665.3509121230156,893.2461589133095" fill="#707070" stroke="#707070" stroke-width="1" stroke-linejoin="round" id="right-inter-left-head-472" opacity="1.0" />
+    <ellipse cx="1673.0" cy="862.0" rx="25.0" ry="25.0" fill="#F4D6F0" stroke="#3D0072" stroke-width="5" id="right-inter-a-ring-473" opacity="1.0" />
+    <rect x="1659.0" y="853.75" width="28.000000000000004" height="20.5" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="2" id="right-inter-a-screen-474" opacity="1.0" />
+    <rect x="1662.64" y="859.54" width="20.720000000000002" height="7.38" rx="1" fill="#F04B7A" stroke="#F04B7A" stroke-width="1" id="right-inter-a-avatar-475" opacity="1.0" />
+    <rect x="1667.96" y="860.36" width="10.08" height="6.5600000000000005" rx="1" fill="#FFFFFF" stroke="none" stroke-width="0" id="right-inter-a-face-476" opacity="1.0" />
+    <ellipse cx="1671.52" cy="863.395" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="right-inter-a-eye-l-477" opacity="1.0" />
+    <ellipse cx="1676.56" cy="863.395" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="right-inter-a-eye-r-478" opacity="1.0" />
+    <ellipse cx="1812.0" cy="862.0" rx="25.0" ry="25.0" fill="#F4D6F0" stroke="#3D0072" stroke-width="5" id="right-inter-b-ring-479" opacity="1.0" />
+    <rect x="1798.0" y="853.75" width="28.000000000000004" height="20.5" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="2" id="right-inter-b-screen-480" opacity="1.0" />
+    <rect x="1801.64" y="859.54" width="20.720000000000002" height="7.38" rx="1" fill="#F04B7A" stroke="#F04B7A" stroke-width="1" id="right-inter-b-avatar-481" opacity="1.0" />
+    <rect x="1806.96" y="860.36" width="10.08" height="6.5600000000000005" rx="1" fill="#FFFFFF" stroke="none" stroke-width="0" id="right-inter-b-face-482" opacity="1.0" />
+    <ellipse cx="1810.52" cy="863.395" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="right-inter-b-eye-l-483" opacity="1.0" />
+    <ellipse cx="1815.56" cy="863.395" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="right-inter-b-eye-r-484" opacity="1.0" />
+    <ellipse cx="1673.0" cy="1001.0" rx="25.0" ry="25.0" fill="#F4D6F0" stroke="#3D0072" stroke-width="5" id="right-inter-c-ring-485" opacity="1.0" />
+    <rect x="1659.0" y="992.75" width="28.000000000000004" height="20.5" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="2" id="right-inter-c-screen-486" opacity="1.0" />
+    <rect x="1662.64" y="998.54" width="20.720000000000002" height="7.38" rx="1" fill="#F04B7A" stroke="#F04B7A" stroke-width="1" id="right-inter-c-avatar-487" opacity="1.0" />
+    <rect x="1667.96" y="999.36" width="10.08" height="6.5600000000000005" rx="1" fill="#FFFFFF" stroke="none" stroke-width="0" id="right-inter-c-face-488" opacity="1.0" />
+    <ellipse cx="1671.52" cy="1002.395" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="right-inter-c-eye-l-489" opacity="1.0" />
+    <ellipse cx="1676.56" cy="1002.395" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="right-inter-c-eye-r-490" opacity="1.0" />
+    <ellipse cx="1812.0" cy="1001.0" rx="25.0" ry="25.0" fill="#F4D6F0" stroke="#3D0072" stroke-width="5" id="right-inter-d-ring-491" opacity="1.0" />
+    <rect x="1798.0" y="992.75" width="28.000000000000004" height="20.5" rx="3" fill="#FFFFFF" stroke="#111111" stroke-width="2" id="right-inter-d-screen-492" opacity="1.0" />
+    <rect x="1801.64" y="998.54" width="20.720000000000002" height="7.38" rx="1" fill="#3555E6" stroke="#3555E6" stroke-width="1" id="right-inter-d-avatar-493" opacity="1.0" />
+    <rect x="1806.96" y="999.36" width="10.08" height="6.5600000000000005" rx="1" fill="#FFFFFF" stroke="none" stroke-width="0" id="right-inter-d-face-494" opacity="1.0" />
+    <ellipse cx="1810.52" cy="1002.395" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="right-inter-d-eye-l-495" opacity="1.0" />
+    <ellipse cx="1815.56" cy="1002.395" rx="1.6" ry="1.6" fill="#111111" stroke="none" stroke-width="1" id="right-inter-d-eye-r-496" opacity="1.0" />
+    <polygon points="1803.88,993.62 1806.96,989.725 1811.16,993.415 1815.36,989.11 1819.84,994.03" fill="#FFD84A" stroke="#3D0072" stroke-width="2" stroke-linejoin="round" id="right-inter-d-crown-497" opacity="1.0" />
+    <rect x="1585" y="768" width="72" height="56" rx="7" fill="#40A5ED" stroke="#40A5ED" stroke-width="1" id="bubble-tl-box-498" opacity="1.0" />
+    <polygon points="1639,822 1659,840 1652,822" fill="#40A5ED" stroke="#40A5ED" stroke-width="1" stroke-linejoin="round" id="bubble-tl-tail-499" opacity="1.0" />
+    <ellipse cx="1608.5" cy="795.5" rx="5.5" ry="5.5" fill="#FFFFFF" stroke="none" stroke-width="1" id="bubble-tl-dot-0-500" opacity="1.0" />
+    <ellipse cx="1625.5" cy="795.5" rx="5.5" ry="5.5" fill="#FFFFFF" stroke="none" stroke-width="1" id="bubble-tl-dot-1-501" opacity="1.0" />
+    <ellipse cx="1642.5" cy="795.5" rx="5.5" ry="5.5" fill="#FFFFFF" stroke="none" stroke-width="1" id="bubble-tl-dot-2-502" opacity="1.0" />
+    <rect x="1810" y="768" width="72" height="56" rx="7" fill="#40A5ED" stroke="#40A5ED" stroke-width="1" id="bubble-tr-box-503" opacity="1.0" />
+    <polygon points="1822,822 1835,841 1842,822" fill="#40A5ED" stroke="#40A5ED" stroke-width="1" stroke-linejoin="round" id="bubble-tr-tail-504" opacity="1.0" />
+    <ellipse cx="1833.5" cy="795.5" rx="5.5" ry="5.5" fill="#FFFFFF" stroke="none" stroke-width="1" id="bubble-tr-dot-0-505" opacity="1.0" />
+    <ellipse cx="1850.5" cy="795.5" rx="5.5" ry="5.5" fill="#FFFFFF" stroke="none" stroke-width="1" id="bubble-tr-dot-1-506" opacity="1.0" />
+    <ellipse cx="1867.5" cy="795.5" rx="5.5" ry="5.5" fill="#FFFFFF" stroke="none" stroke-width="1" id="bubble-tr-dot-2-507" opacity="1.0" />
+    <rect x="1585" y="905" width="72" height="56" rx="7" fill="#40A5ED" stroke="#40A5ED" stroke-width="1" id="bubble-ml-box-508" opacity="1.0" />
+    <polygon points="1639,959 1659,977 1652,959" fill="#40A5ED" stroke="#40A5ED" stroke-width="1" stroke-linejoin="round" id="bubble-ml-tail-509" opacity="1.0" />
+    <ellipse cx="1608.5" cy="932.5" rx="5.5" ry="5.5" fill="#FFFFFF" stroke="none" stroke-width="1" id="bubble-ml-dot-0-510" opacity="1.0" />
+    <ellipse cx="1625.5" cy="932.5" rx="5.5" ry="5.5" fill="#FFFFFF" stroke="none" stroke-width="1" id="bubble-ml-dot-1-511" opacity="1.0" />
+    <ellipse cx="1642.5" cy="932.5" rx="5.5" ry="5.5" fill="#FFFFFF" stroke="none" stroke-width="1" id="bubble-ml-dot-2-512" opacity="1.0" />
+    <rect x="1810" y="905" width="72" height="56" rx="7" fill="#40A5ED" stroke="#40A5ED" stroke-width="1" id="bubble-mr-box-513" opacity="1.0" />
+    <polygon points="1822,959 1835,978 1842,959" fill="#40A5ED" stroke="#40A5ED" stroke-width="1" stroke-linejoin="round" id="bubble-mr-tail-514" opacity="1.0" />
+    <ellipse cx="1833.5" cy="932.5" rx="5.5" ry="5.5" fill="#FFFFFF" stroke="none" stroke-width="1" id="bubble-mr-dot-0-515" opacity="1.0" />
+    <ellipse cx="1850.5" cy="932.5" rx="5.5" ry="5.5" fill="#FFFFFF" stroke="none" stroke-width="1" id="bubble-mr-dot-1-516" opacity="1.0" />
+    <ellipse cx="1867.5" cy="932.5" rx="5.5" ry="5.5" fill="#FFFFFF" stroke="none" stroke-width="1" id="bubble-mr-dot-2-517" opacity="1.0" />
+    <text x="1754.5" y="928.5" fill="#474747" font-family="DejaVu Serif" font-size="20" font-weight="400" font-style="italic" text-anchor="middle" id="right-interaction-formula-518" opacity="1.0">
+      <tspan x="1754.5" dy="0">G_inter</tspan>
+      <tspan x="1754.5" dy="21.6">^(Q)</tspan>
+    </text>
+    <text x="1755.0" y="713.76" fill="#F00000" font-family="DejaVu Serif" font-size="27" font-weight="400" font-style="italic" text-anchor="middle" id="update-interaction-label-519" opacity="1.0">
+      <tspan x="1755.0" dy="0">Update</tspan>
+      <tspan x="1755.0" dy="29.160000000000004">Interaction</tspan>
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,1100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1742" height="1156" viewBox="0 0 1742 1156">
+<metadata>Editable vector reconstruction; no embedded reference image.</metadata>
+<g id="background">
+<rect id="background-0001" x="0" y="0" width="1742.0" height="1156.0" rx="0" style="fill:#FFFFFF;stroke:none;stroke-width:1"/>
+</g>
+<g id="title-band">
+<rect id="title-band-0002" x="5" y="15" width="1734" height="68" rx="0" style="fill:#5A9BD3;stroke:none;stroke-width:1"/>
+<text id="title-band-0003" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="31" font-weight="700" fill="#000000"><tspan x="870.0" y="51.0">Adaptive diffusion probability transformation</tspan></text>
+</g>
+<g id="upper-panel">
+<rect id="upper-panel-0004" x="7" y="83" width="1732" height="413" rx="0" style="fill:#DDEBF4;stroke:#C6DDEB;stroke-width:1"/>
+</g>
+<g id="assessment-panel">
+<rect id="assessment-panel-0005" x="7" y="496" width="811" height="660" rx="0" style="fill:#F9F4FA;stroke:#D9D2DA;stroke-width:1"/>
+</g>
+<g id="optimization-panel">
+<rect id="optimization-panel-0006" x="819" y="496" width="920" height="660" rx="0" style="fill:#FEFAEE;stroke:#D9D3C4;stroke-width:1"/>
+</g>
+<g id="assessment-header">
+<rect id="assessment-header-0007" x="7" y="497" width="811" height="66" rx="0" style="fill:#EDC8E9;stroke:#E1B8DD;stroke-width:1"/>
+<text id="assessment-header-0009" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="29" font-weight="700" fill="#000000"><tspan x="415.0" y="529.0">Probabilistic reliability assessment</tspan></text>
+</g>
+<g id="optimization-header">
+<rect id="optimization-header-0008" x="819" y="497" width="920" height="66" rx="0" style="fill:#F1E8C9;stroke:#DED4B6;stroke-width:1"/>
+<text id="optimization-header-0010" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="29" font-weight="700" fill="#000000"><tspan x="1280.0" y="529.0">Collaborative decision optimization</tspan></text>
+</g>
+<g id="datasets">
+<rect id="datasets-0011" x="31" y="115" width="200" height="79" rx="0" style="fill:#88B8E0;stroke:none;stroke-width:1"/>
+<text id="datasets-0012" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="28" font-weight="700" fill="#000000"><tspan x="131.0" y="139.8">Pattern</tspan><tspan x="131.0" y="169.20000000000002">dataset</tspan></text>
+<rect id="datasets-0013" x="31" y="201" width="200" height="129" rx="0" style="fill:#88B8E0;stroke:none;stroke-width:1"/>
+<text id="datasets-0014" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="28" font-weight="700" fill="#000000"><tspan x="131.0" y="236.1">Image</tspan><tspan x="131.0" y="265.5">classification</tspan><tspan x="131.0" y="294.9">dataset</tspan></text>
+<rect id="datasets-0015" x="31" y="337" width="200" height="97" rx="0" style="fill:#88B8E0;stroke:none;stroke-width:1"/>
+<text id="datasets-0016" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="28" font-weight="700" fill="#000000"><tspan x="131.0" y="370.8">Low-light</tspan><tspan x="131.0" y="400.2">dataset</tspan></text>
+</g>
+<g id="dataset-arrows">
+<polygon id="dataset-arrows-0017" points="241,173 273.86,173 273.86,166 294,180 273.86,194 273.86,187 241,187" style="fill:#FEFAEE;stroke:#F4A070;stroke-width:2"/>
+<polygon id="dataset-arrows-0018" points="241,362 273.86,362 273.86,355 294,369 273.86,383 273.86,376 241,376" style="fill:#FEFAEE;stroke:#5D873E;stroke-width:2"/>
+</g>
+<g id="feature-card">
+<rect id="feature-card-0019" x="284" y="106" width="366" height="338" rx="34" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="feature-card-0020" x="279" y="100" width="366" height="338" rx="34" style="fill:#E9F4F8;stroke:none;stroke-width:0"/>
+</g>
+<g id="feature-extractor">
+<polygon id="feature-extractor-0021" points="306,215 406,130 464,130 365,215" style="fill:#C7DFF2;stroke:#1C2730;stroke-width:1"/>
+<rect id="feature-extractor-0022" x="306" y="215" width="59" height="193" rx="0" style="fill:#9AC0E4;stroke:#1C2730;stroke-width:1"/>
+<line id="feature-extractor-0023" x1="335" y1="215" x2="335" y2="408" stroke="#1C2730" stroke-width="1"/>
+<line id="feature-extractor-0024" x1="435" y1="130" x2="335" y2="215" stroke="#1C2730" stroke-width="1"/>
+<polygon id="feature-extractor-0025" points="365,215 464,130 464,182 394,240 394,368 365,408" style="fill:#6FA7D8;stroke:#1C2730;stroke-width:1"/>
+<polygon id="feature-extractor-0026" points="394,240 464,182 528,182 461,240" style="fill:#F3F7FA;stroke:#1C2730;stroke-width:1"/>
+<rect id="feature-extractor-0027" x="394" y="240" width="68" height="128" rx="0" style="fill:#DEEAF6;stroke:#1C2730;stroke-width:1"/>
+<line id="feature-extractor-0028" x1="416" y1="240" x2="416" y2="368" stroke="#1C2730" stroke-width="0.8"/>
+<line id="feature-extractor-0029" x1="438" y1="240" x2="438" y2="368" stroke="#1C2730" stroke-width="0.8"/>
+<polygon id="feature-extractor-0030" points="462,240 528,182 528,233 477,276 477,344 462,368" style="fill:#AFC5D9;stroke:#1C2730;stroke-width:1"/>
+<polygon id="feature-extractor-0031" points="477,276 528,233 589,233 548,269" style="fill:#D6E1F2;stroke:#1C2730;stroke-width:1"/>
+<rect id="feature-extractor-0032" x="477" y="276" width="72" height="68" rx="0" style="fill:#B5C5E7;stroke:#1C2730;stroke-width:1"/>
+<line id="feature-extractor-0033" x1="495" y1="276" x2="495" y2="344" stroke="#1C2730" stroke-width="0.8"/>
+<line id="feature-extractor-0034" x1="513" y1="276" x2="513" y2="344" stroke="#1C2730" stroke-width="0.8"/>
+<line id="feature-extractor-0035" x1="531" y1="276" x2="531" y2="344" stroke="#1C2730" stroke-width="0.8"/>
+<polygon id="feature-extractor-0036" points="549,276 589,233 589,269 568,287 568,319 549,344" style="fill:#809BC8;stroke:#1C2730;stroke-width:1"/>
+<polygon id="feature-extractor-0037" points="568,287 589,269 631,269 612,287" style="fill:#FFFFFF;stroke:#1C2730;stroke-width:1"/>
+<rect id="feature-extractor-0038" x="568" y="287" width="44" height="32" rx="0" style="fill:#DEEAF6;stroke:#1C2730;stroke-width:1"/>
+<line id="feature-extractor-0039" x1="579" y1="287" x2="579" y2="319" stroke="#1C2730" stroke-width="0.8"/>
+<line id="feature-extractor-0040" x1="590" y1="287" x2="590" y2="319" stroke="#1C2730" stroke-width="0.8"/>
+<line id="feature-extractor-0041" x1="601" y1="287" x2="601" y2="319" stroke="#1C2730" stroke-width="0.8"/>
+<polygon id="feature-extractor-0042" points="612,287 631,269 631,300 612,319" style="fill:#AEC4D2;stroke:#1C2730;stroke-width:1"/>
+</g>
+<g id="feature-caption">
+<text id="feature-caption-0043" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="29" font-weight="700" fill="#000000"><tspan x="467.0" y="464.5">Feature generation</tspan></text>
+</g>
+<g id="feature-arrows">
+<polygon id="feature-arrows-0044" points="632,174 666.72,174 666.72,167 688,181 666.72,195 666.72,188 632,188" style="fill:#FEFAEE;stroke:#F4A070;stroke-width:2"/>
+<polygon id="feature-arrows-0045" points="632,364 666.72,364 666.72,357 688,371 666.72,385 666.72,378 632,378" style="fill:#FEFAEE;stroke:#5D873E;stroke-width:2"/>
+</g>
+<g id="bba-group-1">
+<rect id="bba-group-1-0046" x="692" y="104" width="307" height="100" rx="16" style="fill:none;stroke:#F7A9DD;stroke-width:2;stroke-dasharray:14 10;stroke-linecap:round"/>
+<rect id="bba-group-1-0047" x="710" y="112" width="24" height="20" rx="2" style="fill:#FFDAD4;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-1-0048" points="710,112 715,109 739,109 734,112" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-1-0049" points="734,112 739,109 739,129 734,132" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-1-0050" x="735" y="112" width="24" height="20" rx="2" style="fill:#FFDAD4;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-1-0051" points="735,112 740,109 764,109 759,112" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-1-0052" points="759,112 764,109 764,129 759,132" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-1-0053" x="760" y="112" width="24" height="20" rx="2" style="fill:#FFDAD4;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-1-0054" points="760,112 765,109 789,109 784,112" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-1-0055" points="784,112 789,109 789,129 784,132" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-1-0056" x="785" y="112" width="24" height="20" rx="2" style="fill:#FFDAD4;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-1-0057" points="785,112 790,109 814,109 809,112" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-1-0058" points="809,112 814,109 814,129 809,132" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-1-0059" x="810" y="112" width="24" height="20" rx="2" style="fill:#FFDAD4;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-1-0060" points="810,112 815,109 839,109 834,112" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-1-0061" points="834,112 839,109 839,129 834,132" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-1-0062" x="835" y="112" width="24" height="20" rx="2" style="fill:#FFDAD4;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-1-0063" points="835,112 840,109 864,109 859,112" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-1-0064" points="859,112 864,109 864,129 859,132" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-1-0065" x="860" y="112" width="24" height="20" rx="2" style="fill:#FFDAD4;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-1-0066" points="860,112 865,109 889,109 884,112" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-1-0067" points="884,112 889,109 889,129 884,132" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-1-0068" x="885" y="112" width="24" height="20" rx="2" style="fill:#FFDAD4;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-1-0069" points="885,112 890,109 914,109 909,112" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-1-0070" points="909,112 914,109 914,129 909,132" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-1-0071" x="910" y="112" width="24" height="20" rx="2" style="fill:#FFDAD4;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-1-0072" points="910,112 915,109 939,109 934,112" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-1-0073" points="934,112 939,109 939,129 934,132" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-1-0074" x="935" y="112" width="24" height="20" rx="2" style="fill:#FFDAD4;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-1-0075" points="935,112 940,109 964,109 959,112" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-1-0076" points="959,112 964,109 964,129 959,132" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-1-0077" x="960" y="112" width="24" height="20" rx="2" style="fill:#FFDAD4;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-1-0078" points="960,112 965,109 989,109 984,112" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-1-0079" points="984,112 989,109 989,129 984,132" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-1-0080" x="710" y="139" width="24" height="20" rx="2" style="fill:#FED966;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-1-0081" points="710,139 715,136 739,136 734,139" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-1-0082" points="734,139 739,136 739,156 734,159" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-1-0083" x="735" y="139" width="24" height="20" rx="2" style="fill:#FED966;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-1-0084" points="735,139 740,136 764,136 759,139" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-1-0085" points="759,139 764,136 764,156 759,159" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-1-0086" x="760" y="139" width="24" height="20" rx="2" style="fill:#FED966;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-1-0087" points="760,139 765,136 789,136 784,139" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-1-0088" points="784,139 789,136 789,156 784,159" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-1-0089" x="785" y="139" width="24" height="20" rx="2" style="fill:#FED966;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-1-0090" points="785,139 790,136 814,136 809,139" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-1-0091" points="809,139 814,136 814,156 809,159" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-1-0092" x="810" y="139" width="24" height="20" rx="2" style="fill:#FED966;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-1-0093" points="810,139 815,136 839,136 834,139" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-1-0094" points="834,139 839,136 839,156 834,159" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-1-0095" x="835" y="139" width="24" height="20" rx="2" style="fill:#FED966;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-1-0096" points="835,139 840,136 864,136 859,139" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-1-0097" points="859,139 864,136 864,156 859,159" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-1-0098" x="860" y="139" width="24" height="20" rx="2" style="fill:#FED966;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-1-0099" points="860,139 865,136 889,136 884,139" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-1-0100" points="884,139 889,136 889,156 884,159" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-1-0101" x="885" y="139" width="24" height="20" rx="2" style="fill:#FED966;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-1-0102" points="885,139 890,136 914,136 909,139" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-1-0103" points="909,139 914,136 914,156 909,159" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-1-0104" x="910" y="139" width="24" height="20" rx="2" style="fill:#FED966;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-1-0105" points="910,139 915,136 939,136 934,139" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-1-0106" points="934,139 939,136 939,156 934,159" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-1-0107" x="935" y="139" width="24" height="20" rx="2" style="fill:#FED966;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-1-0108" points="935,139 940,136 964,136 959,139" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-1-0109" points="959,139 964,136 964,156 959,159" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-1-0110" x="960" y="139" width="24" height="20" rx="2" style="fill:#FED966;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-1-0111" points="960,139 965,136 989,136 984,139" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-1-0112" points="984,139 989,136 989,156 984,159" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-1-0113" x="710" y="176" width="24" height="20" rx="2" style="fill:#BAACFB;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-1-0114" points="710,176 715,173 739,173 734,176" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-1-0115" points="734,176 739,173 739,193 734,196" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-1-0116" x="735" y="176" width="24" height="20" rx="2" style="fill:#BAACFB;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-1-0117" points="735,176 740,173 764,173 759,176" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-1-0118" points="759,176 764,173 764,193 759,196" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-1-0119" x="760" y="176" width="24" height="20" rx="2" style="fill:#BAACFB;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-1-0120" points="760,176 765,173 789,173 784,176" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-1-0121" points="784,176 789,173 789,193 784,196" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-1-0122" x="785" y="176" width="24" height="20" rx="2" style="fill:#BAACFB;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-1-0123" points="785,176 790,173 814,173 809,176" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-1-0124" points="809,176 814,173 814,193 809,196" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-1-0125" x="810" y="176" width="24" height="20" rx="2" style="fill:#BAACFB;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-1-0126" points="810,176 815,173 839,173 834,176" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-1-0127" points="834,176 839,173 839,193 834,196" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-1-0128" x="835" y="176" width="24" height="20" rx="2" style="fill:#BAACFB;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-1-0129" points="835,176 840,173 864,173 859,176" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-1-0130" points="859,176 864,173 864,193 859,196" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-1-0131" x="860" y="176" width="24" height="20" rx="2" style="fill:#BAACFB;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-1-0132" points="860,176 865,173 889,173 884,176" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-1-0133" points="884,176 889,173 889,193 884,196" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-1-0134" x="885" y="176" width="24" height="20" rx="2" style="fill:#BAACFB;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-1-0135" points="885,176 890,173 914,173 909,176" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-1-0136" points="909,176 914,173 914,193 909,196" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-1-0137" x="910" y="176" width="24" height="20" rx="2" style="fill:#BAACFB;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-1-0138" points="910,176 915,173 939,173 934,176" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-1-0139" points="934,176 939,173 939,193 934,196" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-1-0140" x="935" y="176" width="24" height="20" rx="2" style="fill:#BAACFB;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-1-0141" points="935,176 940,173 964,173 959,176" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-1-0142" points="959,176 964,173 964,193 959,196" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-1-0143" x="960" y="176" width="24" height="20" rx="2" style="fill:#BAACFB;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-1-0144" points="960,176 965,173 989,173 984,176" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-1-0145" points="984,176 989,173 989,193 984,196" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<text id="bba-group-1-0146" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="24" font-weight="700" fill="#000000"><tspan x="827.5" y="162.0">⋮</tspan></text>
+<text id="bba-group-1-0147" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="24" font-weight="700" fill="#000000"><tspan x="864.5" y="162.0">⋮</tspan></text>
+</g>
+<g id="bba-group-2">
+<rect id="bba-group-2-0148" x="692" y="221" width="307" height="100" rx="16" style="fill:none;stroke:#F7A9DD;stroke-width:2;stroke-dasharray:14 10;stroke-linecap:round"/>
+<rect id="bba-group-2-0149" x="710" y="229" width="24" height="20" rx="2" style="fill:#FFDAD4;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-2-0150" points="710,229 715,226 739,226 734,229" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-2-0151" points="734,229 739,226 739,246 734,249" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-2-0152" x="735" y="229" width="24" height="20" rx="2" style="fill:#FFDAD4;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-2-0153" points="735,229 740,226 764,226 759,229" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-2-0154" points="759,229 764,226 764,246 759,249" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-2-0155" x="760" y="229" width="24" height="20" rx="2" style="fill:#FFDAD4;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-2-0156" points="760,229 765,226 789,226 784,229" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-2-0157" points="784,229 789,226 789,246 784,249" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-2-0158" x="785" y="229" width="24" height="20" rx="2" style="fill:#FFDAD4;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-2-0159" points="785,229 790,226 814,226 809,229" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-2-0160" points="809,229 814,226 814,246 809,249" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-2-0161" x="810" y="229" width="24" height="20" rx="2" style="fill:#FFDAD4;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-2-0162" points="810,229 815,226 839,226 834,229" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-2-0163" points="834,229 839,226 839,246 834,249" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-2-0164" x="835" y="229" width="24" height="20" rx="2" style="fill:#FFDAD4;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-2-0165" points="835,229 840,226 864,226 859,229" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-2-0166" points="859,229 864,226 864,246 859,249" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-2-0167" x="860" y="229" width="24" height="20" rx="2" style="fill:#FFDAD4;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-2-0168" points="860,229 865,226 889,226 884,229" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-2-0169" points="884,229 889,226 889,246 884,249" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-2-0170" x="885" y="229" width="24" height="20" rx="2" style="fill:#FFDAD4;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-2-0171" points="885,229 890,226 914,226 909,229" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-2-0172" points="909,229 914,226 914,246 909,249" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-2-0173" x="910" y="229" width="24" height="20" rx="2" style="fill:#FFDAD4;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-2-0174" points="910,229 915,226 939,226 934,229" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-2-0175" points="934,229 939,226 939,246 934,249" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-2-0176" x="935" y="229" width="24" height="20" rx="2" style="fill:#FFDAD4;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-2-0177" points="935,229 940,226 964,226 959,229" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-2-0178" points="959,229 964,226 964,246 959,249" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-2-0179" x="960" y="229" width="24" height="20" rx="2" style="fill:#FFDAD4;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-2-0180" points="960,229 965,226 989,226 984,229" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-2-0181" points="984,229 989,226 989,246 984,249" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-2-0182" x="710" y="256" width="24" height="20" rx="2" style="fill:#FED966;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-2-0183" points="710,256 715,253 739,253 734,256" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-2-0184" points="734,256 739,253 739,273 734,276" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-2-0185" x="735" y="256" width="24" height="20" rx="2" style="fill:#FED966;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-2-0186" points="735,256 740,253 764,253 759,256" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-2-0187" points="759,256 764,253 764,273 759,276" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-2-0188" x="760" y="256" width="24" height="20" rx="2" style="fill:#FED966;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-2-0189" points="760,256 765,253 789,253 784,256" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-2-0190" points="784,256 789,253 789,273 784,276" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-2-0191" x="785" y="256" width="24" height="20" rx="2" style="fill:#FED966;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-2-0192" points="785,256 790,253 814,253 809,256" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-2-0193" points="809,256 814,253 814,273 809,276" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-2-0194" x="810" y="256" width="24" height="20" rx="2" style="fill:#FED966;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-2-0195" points="810,256 815,253 839,253 834,256" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-2-0196" points="834,256 839,253 839,273 834,276" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-2-0197" x="835" y="256" width="24" height="20" rx="2" style="fill:#FED966;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-2-0198" points="835,256 840,253 864,253 859,256" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-2-0199" points="859,256 864,253 864,273 859,276" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-2-0200" x="860" y="256" width="24" height="20" rx="2" style="fill:#FED966;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-2-0201" points="860,256 865,253 889,253 884,256" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-2-0202" points="884,256 889,253 889,273 884,276" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-2-0203" x="885" y="256" width="24" height="20" rx="2" style="fill:#FED966;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-2-0204" points="885,256 890,253 914,253 909,256" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-2-0205" points="909,256 914,253 914,273 909,276" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-2-0206" x="910" y="256" width="24" height="20" rx="2" style="fill:#FED966;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-2-0207" points="910,256 915,253 939,253 934,256" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-2-0208" points="934,256 939,253 939,273 934,276" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-2-0209" x="935" y="256" width="24" height="20" rx="2" style="fill:#FED966;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-2-0210" points="935,256 940,253 964,253 959,256" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-2-0211" points="959,256 964,253 964,273 959,276" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-2-0212" x="960" y="256" width="24" height="20" rx="2" style="fill:#FED966;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-2-0213" points="960,256 965,253 989,253 984,256" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-2-0214" points="984,256 989,253 989,273 984,276" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-2-0215" x="710" y="293" width="24" height="20" rx="2" style="fill:#BAACFB;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-2-0216" points="710,293 715,290 739,290 734,293" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-2-0217" points="734,293 739,290 739,310 734,313" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-2-0218" x="735" y="293" width="24" height="20" rx="2" style="fill:#BAACFB;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-2-0219" points="735,293 740,290 764,290 759,293" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-2-0220" points="759,293 764,290 764,310 759,313" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-2-0221" x="760" y="293" width="24" height="20" rx="2" style="fill:#BAACFB;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-2-0222" points="760,293 765,290 789,290 784,293" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-2-0223" points="784,293 789,290 789,310 784,313" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-2-0224" x="785" y="293" width="24" height="20" rx="2" style="fill:#BAACFB;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-2-0225" points="785,293 790,290 814,290 809,293" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-2-0226" points="809,293 814,290 814,310 809,313" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-2-0227" x="810" y="293" width="24" height="20" rx="2" style="fill:#BAACFB;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-2-0228" points="810,293 815,290 839,290 834,293" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-2-0229" points="834,293 839,290 839,310 834,313" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-2-0230" x="835" y="293" width="24" height="20" rx="2" style="fill:#BAACFB;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-2-0231" points="835,293 840,290 864,290 859,293" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-2-0232" points="859,293 864,290 864,310 859,313" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-2-0233" x="860" y="293" width="24" height="20" rx="2" style="fill:#BAACFB;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-2-0234" points="860,293 865,290 889,290 884,293" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-2-0235" points="884,293 889,290 889,310 884,313" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-2-0236" x="885" y="293" width="24" height="20" rx="2" style="fill:#BAACFB;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-2-0237" points="885,293 890,290 914,290 909,293" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-2-0238" points="909,293 914,290 914,310 909,313" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-2-0239" x="910" y="293" width="24" height="20" rx="2" style="fill:#BAACFB;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-2-0240" points="910,293 915,290 939,290 934,293" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-2-0241" points="934,293 939,290 939,310 934,313" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-2-0242" x="935" y="293" width="24" height="20" rx="2" style="fill:#BAACFB;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-2-0243" points="935,293 940,290 964,290 959,293" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-2-0244" points="959,293 964,290 964,310 959,313" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-2-0245" x="960" y="293" width="24" height="20" rx="2" style="fill:#BAACFB;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-2-0246" points="960,293 965,290 989,290 984,293" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-2-0247" points="984,293 989,290 989,310 984,313" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<text id="bba-group-2-0248" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="24" font-weight="700" fill="#000000"><tspan x="827.5" y="279.0">⋮</tspan></text>
+<text id="bba-group-2-0249" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="24" font-weight="700" fill="#000000"><tspan x="864.5" y="279.0">⋮</tspan></text>
+</g>
+<g id="bba-group-3">
+<rect id="bba-group-3-0250" x="692" y="339" width="307" height="100" rx="16" style="fill:none;stroke:#F7A9DD;stroke-width:2;stroke-dasharray:14 10;stroke-linecap:round"/>
+<rect id="bba-group-3-0251" x="710" y="347" width="24" height="20" rx="2" style="fill:#FFDAD4;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-3-0252" points="710,347 715,344 739,344 734,347" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-3-0253" points="734,347 739,344 739,364 734,367" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-3-0254" x="735" y="347" width="24" height="20" rx="2" style="fill:#FFDAD4;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-3-0255" points="735,347 740,344 764,344 759,347" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-3-0256" points="759,347 764,344 764,364 759,367" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-3-0257" x="760" y="347" width="24" height="20" rx="2" style="fill:#FFDAD4;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-3-0258" points="760,347 765,344 789,344 784,347" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-3-0259" points="784,347 789,344 789,364 784,367" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-3-0260" x="785" y="347" width="24" height="20" rx="2" style="fill:#FFDAD4;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-3-0261" points="785,347 790,344 814,344 809,347" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-3-0262" points="809,347 814,344 814,364 809,367" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-3-0263" x="810" y="347" width="24" height="20" rx="2" style="fill:#FFDAD4;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-3-0264" points="810,347 815,344 839,344 834,347" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-3-0265" points="834,347 839,344 839,364 834,367" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-3-0266" x="835" y="347" width="24" height="20" rx="2" style="fill:#FFDAD4;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-3-0267" points="835,347 840,344 864,344 859,347" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-3-0268" points="859,347 864,344 864,364 859,367" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-3-0269" x="860" y="347" width="24" height="20" rx="2" style="fill:#FFDAD4;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-3-0270" points="860,347 865,344 889,344 884,347" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-3-0271" points="884,347 889,344 889,364 884,367" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-3-0272" x="885" y="347" width="24" height="20" rx="2" style="fill:#FFDAD4;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-3-0273" points="885,347 890,344 914,344 909,347" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-3-0274" points="909,347 914,344 914,364 909,367" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-3-0275" x="910" y="347" width="24" height="20" rx="2" style="fill:#FFDAD4;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-3-0276" points="910,347 915,344 939,344 934,347" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-3-0277" points="934,347 939,344 939,364 934,367" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-3-0278" x="935" y="347" width="24" height="20" rx="2" style="fill:#FFDAD4;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-3-0279" points="935,347 940,344 964,344 959,347" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-3-0280" points="959,347 964,344 964,364 959,367" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-3-0281" x="960" y="347" width="24" height="20" rx="2" style="fill:#FFDAD4;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-3-0282" points="960,347 965,344 989,344 984,347" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-3-0283" points="984,347 989,344 989,364 984,367" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-3-0284" x="710" y="374" width="24" height="20" rx="2" style="fill:#FED966;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-3-0285" points="710,374 715,371 739,371 734,374" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-3-0286" points="734,374 739,371 739,391 734,394" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-3-0287" x="735" y="374" width="24" height="20" rx="2" style="fill:#FED966;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-3-0288" points="735,374 740,371 764,371 759,374" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-3-0289" points="759,374 764,371 764,391 759,394" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-3-0290" x="760" y="374" width="24" height="20" rx="2" style="fill:#FED966;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-3-0291" points="760,374 765,371 789,371 784,374" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-3-0292" points="784,374 789,371 789,391 784,394" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-3-0293" x="785" y="374" width="24" height="20" rx="2" style="fill:#FED966;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-3-0294" points="785,374 790,371 814,371 809,374" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-3-0295" points="809,374 814,371 814,391 809,394" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-3-0296" x="810" y="374" width="24" height="20" rx="2" style="fill:#FED966;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-3-0297" points="810,374 815,371 839,371 834,374" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-3-0298" points="834,374 839,371 839,391 834,394" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-3-0299" x="835" y="374" width="24" height="20" rx="2" style="fill:#FED966;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-3-0300" points="835,374 840,371 864,371 859,374" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-3-0301" points="859,374 864,371 864,391 859,394" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-3-0302" x="860" y="374" width="24" height="20" rx="2" style="fill:#FED966;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-3-0303" points="860,374 865,371 889,371 884,374" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-3-0304" points="884,374 889,371 889,391 884,394" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-3-0305" x="885" y="374" width="24" height="20" rx="2" style="fill:#FED966;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-3-0306" points="885,374 890,371 914,371 909,374" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-3-0307" points="909,374 914,371 914,391 909,394" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-3-0308" x="910" y="374" width="24" height="20" rx="2" style="fill:#FED966;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-3-0309" points="910,374 915,371 939,371 934,374" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-3-0310" points="934,374 939,371 939,391 934,394" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-3-0311" x="935" y="374" width="24" height="20" rx="2" style="fill:#FED966;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-3-0312" points="935,374 940,371 964,371 959,374" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-3-0313" points="959,374 964,371 964,391 959,394" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-3-0314" x="960" y="374" width="24" height="20" rx="2" style="fill:#FED966;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-3-0315" points="960,374 965,371 989,371 984,374" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-3-0316" points="984,374 989,371 989,391 984,394" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-3-0317" x="710" y="411" width="24" height="20" rx="2" style="fill:#BAACFB;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-3-0318" points="710,411 715,408 739,408 734,411" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-3-0319" points="734,411 739,408 739,428 734,431" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-3-0320" x="735" y="411" width="24" height="20" rx="2" style="fill:#BAACFB;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-3-0321" points="735,411 740,408 764,408 759,411" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-3-0322" points="759,411 764,408 764,428 759,431" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-3-0323" x="760" y="411" width="24" height="20" rx="2" style="fill:#BAACFB;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-3-0324" points="760,411 765,408 789,408 784,411" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-3-0325" points="784,411 789,408 789,428 784,431" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-3-0326" x="785" y="411" width="24" height="20" rx="2" style="fill:#BAACFB;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-3-0327" points="785,411 790,408 814,408 809,411" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-3-0328" points="809,411 814,408 814,428 809,431" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-3-0329" x="810" y="411" width="24" height="20" rx="2" style="fill:#BAACFB;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-3-0330" points="810,411 815,408 839,408 834,411" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-3-0331" points="834,411 839,408 839,428 834,431" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-3-0332" x="835" y="411" width="24" height="20" rx="2" style="fill:#BAACFB;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-3-0333" points="835,411 840,408 864,408 859,411" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-3-0334" points="859,411 864,408 864,428 859,431" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-3-0335" x="860" y="411" width="24" height="20" rx="2" style="fill:#BAACFB;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-3-0336" points="860,411 865,408 889,408 884,411" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-3-0337" points="884,411 889,408 889,428 884,431" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-3-0338" x="885" y="411" width="24" height="20" rx="2" style="fill:#BAACFB;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-3-0339" points="885,411 890,408 914,408 909,411" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-3-0340" points="909,411 914,408 914,428 909,431" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-3-0341" x="910" y="411" width="24" height="20" rx="2" style="fill:#BAACFB;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-3-0342" points="910,411 915,408 939,408 934,411" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-3-0343" points="934,411 939,408 939,428 934,431" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-3-0344" x="935" y="411" width="24" height="20" rx="2" style="fill:#BAACFB;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-3-0345" points="935,411 940,408 964,408 959,411" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-3-0346" points="959,411 964,408 964,428 959,431" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="bba-group-3-0347" x="960" y="411" width="24" height="20" rx="2" style="fill:#BAACFB;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="bba-group-3-0348" points="960,411 965,408 989,408 984,411" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="bba-group-3-0349" points="984,411 989,408 989,428 984,431" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<text id="bba-group-3-0350" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="24" font-weight="700" fill="#000000"><tspan x="827.5" y="397.0">⋮</tspan></text>
+<text id="bba-group-3-0351" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="24" font-weight="700" fill="#000000"><tspan x="864.5" y="397.0">⋮</tspan></text>
+</g>
+<g id="bba-caption">
+<text id="bba-caption-0352" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="29" font-weight="700" fill="#000000"><tspan x="845.0" y="464.5">Build BBA</tspan></text>
+</g>
+<g id="bba-arrows">
+<polygon id="bba-arrows-0353" points="1016,171 1051.34,171 1051.34,164 1073,178 1051.34,192 1051.34,185 1016,185" style="fill:#FEFAEE;stroke:#F4A070;stroke-width:2"/>
+<polygon id="bba-arrows-0354" points="1016,363 1051.34,363 1051.34,356 1073,370 1051.34,384 1051.34,377 1016,377" style="fill:#FEFAEE;stroke:#5D873E;stroke-width:2"/>
+</g>
+<g id="diffusion-column">
+<rect id="diffusion-column-0355" x="1082" y="104" width="23" height="21" rx="0" style="fill:#F2C92B;stroke:#8FB4C5;stroke-width:1"/>
+<line id="diffusion-column-0356" x1="1118" y1="114" x2="1142" y2="114" stroke="#F4A070" stroke-width="2"/>
+<polygon id="diffusion-column-0357" points="1152,114 1142.0,118.8 1142.0,109.2" style="fill:#F4A070;stroke:#F4A070;stroke-width:1"/>
+<polygon id="diffusion-column-0358" points="1108,114 1118.0,109.2 1118.0,118.8" style="fill:#F4A070;stroke:#F4A070;stroke-width:1"/>
+<ellipse id="diffusion-column-0359" cx="1174" cy="119" rx="12" ry="10" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<ellipse id="diffusion-column-0360" cx="1170" cy="114" rx="12" ry="10" style="fill:#B9BDC2;stroke:none;stroke-width:1"/>
+<rect id="diffusion-column-0361" x="1082" y="132" width="23" height="21" rx="0" style="fill:#8FC3A0;stroke:#8FB4C5;stroke-width:1"/>
+<line id="diffusion-column-0362" x1="1118" y1="142" x2="1142" y2="142" stroke="#F4A070" stroke-width="2"/>
+<polygon id="diffusion-column-0363" points="1152,142 1142.0,146.8 1142.0,137.2" style="fill:#F4A070;stroke:#F4A070;stroke-width:1"/>
+<polygon id="diffusion-column-0364" points="1108,142 1118.0,137.2 1118.0,146.8" style="fill:#F4A070;stroke:#F4A070;stroke-width:1"/>
+<ellipse id="diffusion-column-0365" cx="1174" cy="147" rx="12" ry="10" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<ellipse id="diffusion-column-0366" cx="1170" cy="142" rx="12" ry="10" style="fill:#666A70;stroke:none;stroke-width:1"/>
+<rect id="diffusion-column-0367" x="1082" y="160" width="23" height="21" rx="0" style="fill:#8FC3A0;stroke:#8FB4C5;stroke-width:1"/>
+<line id="diffusion-column-0368" x1="1118" y1="170" x2="1142" y2="170" stroke="#F4A070" stroke-width="2"/>
+<polygon id="diffusion-column-0369" points="1152,170 1142.0,174.8 1142.0,165.2" style="fill:#F4A070;stroke:#F4A070;stroke-width:1"/>
+<polygon id="diffusion-column-0370" points="1108,170 1118.0,165.2 1118.0,174.8" style="fill:#F4A070;stroke:#F4A070;stroke-width:1"/>
+<ellipse id="diffusion-column-0371" cx="1174" cy="175" rx="12" ry="10" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<ellipse id="diffusion-column-0372" cx="1170" cy="170" rx="12" ry="10" style="fill:#B9BDC2;stroke:none;stroke-width:1"/>
+<rect id="diffusion-column-0373" x="1082" y="188" width="23" height="21" rx="0" style="fill:#F2C92B;stroke:#8FB4C5;stroke-width:1"/>
+<line id="diffusion-column-0374" x1="1118" y1="198" x2="1142" y2="198" stroke="#F4A070" stroke-width="2"/>
+<polygon id="diffusion-column-0375" points="1152,198 1142.0,202.8 1142.0,193.2" style="fill:#F4A070;stroke:#F4A070;stroke-width:1"/>
+<polygon id="diffusion-column-0376" points="1108,198 1118.0,193.2 1118.0,202.8" style="fill:#F4A070;stroke:#F4A070;stroke-width:1"/>
+<ellipse id="diffusion-column-0377" cx="1174" cy="203" rx="12" ry="10" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<ellipse id="diffusion-column-0378" cx="1170" cy="198" rx="12" ry="10" style="fill:#666A70;stroke:none;stroke-width:1"/>
+<rect id="diffusion-column-0379" x="1082" y="216" width="23" height="21" rx="0" style="fill:#8FC3A0;stroke:#8FB4C5;stroke-width:1"/>
+<line id="diffusion-column-0380" x1="1118" y1="226" x2="1142" y2="226" stroke="#F4A070" stroke-width="2"/>
+<polygon id="diffusion-column-0381" points="1152,226 1142.0,230.8 1142.0,221.2" style="fill:#F4A070;stroke:#F4A070;stroke-width:1"/>
+<polygon id="diffusion-column-0382" points="1108,226 1118.0,221.2 1118.0,230.8" style="fill:#F4A070;stroke:#F4A070;stroke-width:1"/>
+<ellipse id="diffusion-column-0383" cx="1174" cy="231" rx="12" ry="10" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<ellipse id="diffusion-column-0384" cx="1170" cy="226" rx="12" ry="10" style="fill:#B9BDC2;stroke:none;stroke-width:1"/>
+<rect id="diffusion-column-0385" x="1082" y="244" width="23" height="21" rx="0" style="fill:#8FC3A0;stroke:#8FB4C5;stroke-width:1"/>
+<line id="diffusion-column-0386" x1="1118" y1="254" x2="1142" y2="254" stroke="#F4A070" stroke-width="2"/>
+<polygon id="diffusion-column-0387" points="1152,254 1142.0,258.8 1142.0,249.2" style="fill:#F4A070;stroke:#F4A070;stroke-width:1"/>
+<polygon id="diffusion-column-0388" points="1108,254 1118.0,249.2 1118.0,258.8" style="fill:#F4A070;stroke:#F4A070;stroke-width:1"/>
+<ellipse id="diffusion-column-0389" cx="1174" cy="259" rx="12" ry="10" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<ellipse id="diffusion-column-0390" cx="1170" cy="254" rx="12" ry="10" style="fill:#666A70;stroke:none;stroke-width:1"/>
+<rect id="diffusion-column-0391" x="1082" y="272" width="23" height="21" rx="0" style="fill:#F2C92B;stroke:#8FB4C5;stroke-width:1"/>
+<line id="diffusion-column-0392" x1="1118" y1="282" x2="1142" y2="282" stroke="#F4A070" stroke-width="2"/>
+<polygon id="diffusion-column-0393" points="1152,282 1142.0,286.8 1142.0,277.2" style="fill:#F4A070;stroke:#F4A070;stroke-width:1"/>
+<polygon id="diffusion-column-0394" points="1108,282 1118.0,277.2 1118.0,286.8" style="fill:#F4A070;stroke:#F4A070;stroke-width:1"/>
+<ellipse id="diffusion-column-0395" cx="1174" cy="287" rx="12" ry="10" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<ellipse id="diffusion-column-0396" cx="1170" cy="282" rx="12" ry="10" style="fill:#B9BDC2;stroke:none;stroke-width:1"/>
+<rect id="diffusion-column-0397" x="1082" y="300" width="23" height="21" rx="0" style="fill:#8FC3A0;stroke:#8FB4C5;stroke-width:1"/>
+<line id="diffusion-column-0398" x1="1118" y1="310" x2="1142" y2="310" stroke="#F4A070" stroke-width="2"/>
+<polygon id="diffusion-column-0399" points="1152,310 1142.0,314.8 1142.0,305.2" style="fill:#F4A070;stroke:#F4A070;stroke-width:1"/>
+<polygon id="diffusion-column-0400" points="1108,310 1118.0,305.2 1118.0,314.8" style="fill:#F4A070;stroke:#F4A070;stroke-width:1"/>
+<ellipse id="diffusion-column-0401" cx="1174" cy="315" rx="12" ry="10" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<ellipse id="diffusion-column-0402" cx="1170" cy="310" rx="12" ry="10" style="fill:#666A70;stroke:none;stroke-width:1"/>
+<rect id="diffusion-column-0403" x="1082" y="328" width="23" height="21" rx="0" style="fill:#8FC3A0;stroke:#8FB4C5;stroke-width:1"/>
+<line id="diffusion-column-0404" x1="1118" y1="338" x2="1142" y2="338" stroke="#F4A070" stroke-width="2"/>
+<polygon id="diffusion-column-0405" points="1152,338 1142.0,342.8 1142.0,333.2" style="fill:#F4A070;stroke:#F4A070;stroke-width:1"/>
+<polygon id="diffusion-column-0406" points="1108,338 1118.0,333.2 1118.0,342.8" style="fill:#F4A070;stroke:#F4A070;stroke-width:1"/>
+<ellipse id="diffusion-column-0407" cx="1174" cy="343" rx="12" ry="10" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<ellipse id="diffusion-column-0408" cx="1170" cy="338" rx="12" ry="10" style="fill:#B9BDC2;stroke:none;stroke-width:1"/>
+<rect id="diffusion-column-0409" x="1082" y="356" width="23" height="21" rx="0" style="fill:#F2C92B;stroke:#8FB4C5;stroke-width:1"/>
+<line id="diffusion-column-0410" x1="1118" y1="366" x2="1142" y2="366" stroke="#F4A070" stroke-width="2"/>
+<polygon id="diffusion-column-0411" points="1152,366 1142.0,370.8 1142.0,361.2" style="fill:#F4A070;stroke:#F4A070;stroke-width:1"/>
+<polygon id="diffusion-column-0412" points="1108,366 1118.0,361.2 1118.0,370.8" style="fill:#F4A070;stroke:#F4A070;stroke-width:1"/>
+<ellipse id="diffusion-column-0413" cx="1174" cy="371" rx="12" ry="10" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<ellipse id="diffusion-column-0414" cx="1170" cy="366" rx="12" ry="10" style="fill:#666A70;stroke:none;stroke-width:1"/>
+<rect id="diffusion-column-0415" x="1082" y="384" width="23" height="21" rx="0" style="fill:#8FC3A0;stroke:#8FB4C5;stroke-width:1"/>
+<line id="diffusion-column-0416" x1="1118" y1="394" x2="1142" y2="394" stroke="#F4A070" stroke-width="2"/>
+<polygon id="diffusion-column-0417" points="1152,394 1142.0,398.8 1142.0,389.2" style="fill:#F4A070;stroke:#F4A070;stroke-width:1"/>
+<polygon id="diffusion-column-0418" points="1108,394 1118.0,389.2 1118.0,398.8" style="fill:#F4A070;stroke:#F4A070;stroke-width:1"/>
+<ellipse id="diffusion-column-0419" cx="1174" cy="399" rx="12" ry="10" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<ellipse id="diffusion-column-0420" cx="1170" cy="394" rx="12" ry="10" style="fill:#B9BDC2;stroke:none;stroke-width:1"/>
+<rect id="diffusion-column-0421" x="1082" y="412" width="23" height="21" rx="0" style="fill:#8FC3A0;stroke:#8FB4C5;stroke-width:1"/>
+<line id="diffusion-column-0422" x1="1118" y1="422" x2="1142" y2="422" stroke="#F4A070" stroke-width="2"/>
+<polygon id="diffusion-column-0423" points="1152,422 1142.0,426.8 1142.0,417.2" style="fill:#F4A070;stroke:#F4A070;stroke-width:1"/>
+<polygon id="diffusion-column-0424" points="1108,422 1118.0,417.2 1118.0,426.8" style="fill:#F4A070;stroke:#F4A070;stroke-width:1"/>
+<ellipse id="diffusion-column-0425" cx="1174" cy="427" rx="12" ry="10" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<ellipse id="diffusion-column-0426" cx="1170" cy="422" rx="12" ry="10" style="fill:#666A70;stroke:none;stroke-width:1"/>
+</g>
+<g id="diffusion-branches">
+<polyline id="diffusion-branches-0427" points="1189,232 1204,223 1219,206 1231,181" fill="none" stroke="#4396D2" stroke-width="2.6" stroke-linejoin="round"/>
+<polygon id="diffusion-branches-0428" points="1231,181 1231.0,195.42004160881655 1219.7489922427958,190.01955788535858" style="fill:#4396D2;stroke:#4396D2;stroke-width:1"/>
+<polyline id="diffusion-branches-0429" points="1189,275 1207,275 1221,276 1238,276" fill="none" stroke="#4396D2" stroke-width="2.6" stroke-linejoin="round"/>
+<polygon id="diffusion-branches-0430" points="1238,276 1225.0,282.24 1225.0,269.76" style="fill:#4396D2;stroke:#4396D2;stroke-width:1"/>
+<polyline id="diffusion-branches-0431" points="1189,340 1210,345 1226,361 1238,382" fill="none" stroke="#4396D2" stroke-width="2.6" stroke-linejoin="round"/>
+<polygon id="diffusion-branches-0432" points="1238,382 1226.1323565945047,373.8087461277286 1236.9680310082178,367.6169321770354" style="fill:#4396D2;stroke:#4396D2;stroke-width:1"/>
+</g>
+<g id="adaptive-probability">
+<rect id="adaptive-probability-0433" x="1250" y="89" width="81" height="349" rx="0" style="fill:none;stroke:#88A8E8;stroke-width:2.8;stroke-dasharray:3 12;stroke-linecap:round"/>
+<rect id="adaptive-probability-0434" x="1266" y="95" width="48" height="42" rx="0" style="fill:#FFFFFF;stroke:#C8D2DB;stroke-width:1"/>
+<polyline id="adaptive-probability-0435" points="1271.0,129.1487071837378 1272.5833333333333,127.80465743317167 1274.1666666666667,126.03090897549362 1275.75,123.78771260905248 1277.3333333333333,121.07465295599623 1278.9166666666667,117.94530233682497 1280.5,114.5167189641786 1282.0833333333333,110.96998733914077 1283.6666666666667,107.53916410263028 1285.25,104.48824987130268 1286.8333333333333,102.07871042242749 1288.4166666666667,100.53283911793497 1290.0,100.0 1291.5833333333333,100.53283911793497 1293.1666666666667,102.07871042242749 1294.75,104.48824987130268 1296.3333333333333,107.53916410263028 1297.9166666666667,110.96998733914077 1299.5,114.5167189641786 1301.0833333333333,117.94530233682497 1302.6666666666667,121.07465295599623 1304.25,123.78771260905248 1305.8333333333333,126.03090897549362 1307.4166666666667,127.80465743317167 1309.0,129.1487071837378" fill="none" stroke="#F3B700" stroke-width="1.6" stroke-linejoin="round"/>
+<rect id="adaptive-probability-0436" x="1266" y="143" width="48" height="42" rx="0" style="fill:#FFFFFF;stroke:#C8D2DB;stroke-width:1"/>
+<polyline id="adaptive-probability-0437" points="1271.0,177.1487071837378 1272.5833333333333,175.80465743317168 1274.1666666666667,174.03090897549362 1275.75,171.78771260905248 1277.3333333333333,169.0746529559962 1278.9166666666667,165.94530233682497 1280.5,162.5167189641786 1282.0833333333333,158.96998733914077 1283.6666666666667,155.53916410263028 1285.25,152.48824987130268 1286.8333333333333,150.0787104224275 1288.4166666666667,148.53283911793497 1290.0,148.0 1291.5833333333333,148.53283911793497 1293.1666666666667,150.0787104224275 1294.75,152.48824987130268 1296.3333333333333,155.53916410263028 1297.9166666666667,158.96998733914077 1299.5,162.5167189641786 1301.0833333333333,165.94530233682497 1302.6666666666667,169.0746529559962 1304.25,171.78771260905248 1305.8333333333333,174.03090897549362 1307.4166666666667,175.80465743317168 1309.0,177.1487071837378" fill="none" stroke="#F3B700" stroke-width="1.6" stroke-linejoin="round"/>
+<rect id="adaptive-probability-0438" x="1266" y="191" width="48" height="42" rx="0" style="fill:#FFFFFF;stroke:#C8D2DB;stroke-width:1"/>
+<polyline id="adaptive-probability-0439" points="1271.0,225.1487071837378 1272.5833333333333,223.80465743317168 1274.1666666666667,222.03090897549362 1275.75,219.78771260905248 1277.3333333333333,217.0746529559962 1278.9166666666667,213.94530233682497 1280.5,210.5167189641786 1282.0833333333333,206.96998733914077 1283.6666666666667,203.53916410263028 1285.25,200.48824987130268 1286.8333333333333,198.0787104224275 1288.4166666666667,196.53283911793497 1290.0,196.0 1291.5833333333333,196.53283911793497 1293.1666666666667,198.0787104224275 1294.75,200.48824987130268 1296.3333333333333,203.53916410263028 1297.9166666666667,206.96998733914077 1299.5,210.5167189641786 1301.0833333333333,213.94530233682497 1302.6666666666667,217.0746529559962 1304.25,219.78771260905248 1305.8333333333333,222.03090897549362 1307.4166666666667,223.80465743317168 1309.0,225.1487071837378" fill="none" stroke="#F3B700" stroke-width="1.6" stroke-linejoin="round"/>
+<rect id="adaptive-probability-0440" x="1266" y="239" width="48" height="42" rx="0" style="fill:#FFFFFF;stroke:#C8D2DB;stroke-width:1"/>
+<polyline id="adaptive-probability-0441" points="1271.0,273.14870718373777 1272.5833333333333,271.80465743317166 1274.1666666666667,270.0309089754936 1275.75,267.7877126090525 1277.3333333333333,265.0746529559962 1278.9166666666667,261.94530233682497 1280.5,258.5167189641786 1282.0833333333333,254.96998733914077 1283.6666666666667,251.53916410263028 1285.25,248.48824987130268 1286.8333333333333,246.0787104224275 1288.4166666666667,244.53283911793497 1290.0,244.0 1291.5833333333333,244.53283911793497 1293.1666666666667,246.0787104224275 1294.75,248.48824987130268 1296.3333333333333,251.53916410263028 1297.9166666666667,254.96998733914077 1299.5,258.5167189641786 1301.0833333333333,261.94530233682497 1302.6666666666667,265.0746529559962 1304.25,267.7877126090525 1305.8333333333333,270.0309089754936 1307.4166666666667,271.80465743317166 1309.0,273.14870718373777" fill="none" stroke="#F3B700" stroke-width="1.6" stroke-linejoin="round"/>
+<rect id="adaptive-probability-0442" x="1266" y="287" width="48" height="42" rx="0" style="fill:#FFFFFF;stroke:#C8D2DB;stroke-width:1"/>
+<polyline id="adaptive-probability-0443" points="1271.0,321.14870718373777 1272.5833333333333,319.80465743317166 1274.1666666666667,318.0309089754936 1275.75,315.7877126090525 1277.3333333333333,313.0746529559962 1278.9166666666667,309.94530233682497 1280.5,306.5167189641786 1282.0833333333333,302.96998733914074 1283.6666666666667,299.5391641026303 1285.25,296.4882498713027 1286.8333333333333,294.0787104224275 1288.4166666666667,292.532839117935 1290.0,292.0 1291.5833333333333,292.532839117935 1293.1666666666667,294.0787104224275 1294.75,296.4882498713027 1296.3333333333333,299.5391641026303 1297.9166666666667,302.96998733914074 1299.5,306.5167189641786 1301.0833333333333,309.94530233682497 1302.6666666666667,313.0746529559962 1304.25,315.7877126090525 1305.8333333333333,318.0309089754936 1307.4166666666667,319.80465743317166 1309.0,321.14870718373777" fill="none" stroke="#F3B700" stroke-width="1.6" stroke-linejoin="round"/>
+<rect id="adaptive-probability-0444" x="1266" y="335" width="48" height="42" rx="0" style="fill:#FFFFFF;stroke:#C8D2DB;stroke-width:1"/>
+<polyline id="adaptive-probability-0445" points="1271.0,369.14870718373777 1272.5833333333333,367.80465743317166 1274.1666666666667,366.0309089754936 1275.75,363.7877126090525 1277.3333333333333,361.0746529559962 1278.9166666666667,357.94530233682497 1280.5,354.5167189641786 1282.0833333333333,350.96998733914074 1283.6666666666667,347.5391641026303 1285.25,344.4882498713027 1286.8333333333333,342.0787104224275 1288.4166666666667,340.532839117935 1290.0,340.0 1291.5833333333333,340.532839117935 1293.1666666666667,342.0787104224275 1294.75,344.4882498713027 1296.3333333333333,347.5391641026303 1297.9166666666667,350.96998733914074 1299.5,354.5167189641786 1301.0833333333333,357.94530233682497 1302.6666666666667,361.0746529559962 1304.25,363.7877126090525 1305.8333333333333,366.0309089754936 1307.4166666666667,367.80465743317166 1309.0,369.14870718373777" fill="none" stroke="#F3B700" stroke-width="1.6" stroke-linejoin="round"/>
+<rect id="adaptive-probability-0446" x="1266" y="383" width="48" height="42" rx="0" style="fill:#FFFFFF;stroke:#C8D2DB;stroke-width:1"/>
+<polyline id="adaptive-probability-0447" points="1271.0,417.14870718373777 1272.5833333333333,415.80465743317166 1274.1666666666667,414.0309089754936 1275.75,411.7877126090525 1277.3333333333333,409.0746529559962 1278.9166666666667,405.94530233682497 1280.5,402.5167189641786 1282.0833333333333,398.96998733914074 1283.6666666666667,395.5391641026303 1285.25,392.4882498713027 1286.8333333333333,390.0787104224275 1288.4166666666667,388.532839117935 1290.0,388.0 1291.5833333333333,388.532839117935 1293.1666666666667,390.0787104224275 1294.75,392.4882498713027 1296.3333333333333,395.5391641026303 1297.9166666666667,398.96998733914074 1299.5,402.5167189641786 1301.0833333333333,405.94530233682497 1302.6666666666667,409.0746529559962 1304.25,411.7877126090525 1305.8333333333333,414.0309089754936 1307.4166666666667,415.80465743317166 1309.0,417.14870718373777" fill="none" stroke="#F3B700" stroke-width="1.6" stroke-linejoin="round"/>
+</g>
+<g id="adaptive-masses">
+<rect id="adaptive-masses-0448" x="1373" y="98" width="66" height="42" rx="0" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="adaptive-masses-0449" x="1368" y="92" width="66" height="42" rx="0" style="fill:#FEFAEE;stroke:#5D873E;stroke-width:2.2"/>
+<text id="adaptive-masses-0450" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="18" font-weight="400" fill="#000000"><tspan x="1382.0" y="113.0">M</tspan></text>
+<text id="adaptive-masses-0451" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="11" font-weight="400" fill="#000000"><tspan x="1395.0" y="116.0">1</tspan></text>
+<text id="adaptive-masses-0452" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="17" font-weight="400" fill="#000000"><tspan x="1414.0" y="113.0">(A)</tspan></text>
+<ellipse id="adaptive-masses-0453" cx="1454" cy="113.0" rx="10" ry="10" style="fill:#FEFAEE;stroke:#000000;stroke-width:1.5"/>
+<line id="adaptive-masses-0454" x1="1447.5" y1="113.0" x2="1460.5" y2="113.0" stroke="#000000" stroke-width="1.4"/>
+<line id="adaptive-masses-0455" x1="1454" y1="106.5" x2="1454" y2="119.5" stroke="#000000" stroke-width="1.4"/>
+<rect id="adaptive-masses-0456" x="1478" y="97" width="68" height="42" rx="0" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="adaptive-masses-0457" x="1474" y="92" width="68" height="42" rx="0" style="fill:#FFFFFF;stroke:#5D873E;stroke-width:2.3"/>
+<line id="adaptive-masses-0458" x1="1474" y1="102" x2="1484" y2="92" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0459" x1="1474" y1="112" x2="1494" y2="92" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0460" x1="1474" y1="122" x2="1504" y2="92" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0461" x1="1474" y1="132" x2="1514" y2="92" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0462" x1="1482" y1="134" x2="1524" y2="92" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0463" x1="1492" y1="134" x2="1534" y2="92" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0464" x1="1502" y1="134" x2="1542" y2="94" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0465" x1="1512" y1="134" x2="1542" y2="104" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0466" x1="1522" y1="134" x2="1542" y2="114" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0467" x1="1532" y1="134" x2="1542" y2="124" stroke="#86B7F4" stroke-width="1.6"/>
+<rect id="adaptive-masses-0468" x="1373" y="155" width="66" height="42" rx="0" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="adaptive-masses-0469" x="1368" y="149" width="66" height="42" rx="0" style="fill:#FEFAEE;stroke:#5D873E;stroke-width:2.2"/>
+<text id="adaptive-masses-0470" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="18" font-weight="400" fill="#000000"><tspan x="1382.0" y="170.0">M</tspan></text>
+<text id="adaptive-masses-0471" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="11" font-weight="400" fill="#000000"><tspan x="1395.0" y="173.0">2</tspan></text>
+<text id="adaptive-masses-0472" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="17" font-weight="400" fill="#000000"><tspan x="1414.0" y="170.0">(A)</tspan></text>
+<ellipse id="adaptive-masses-0473" cx="1454" cy="170.0" rx="10" ry="10" style="fill:#FEFAEE;stroke:#000000;stroke-width:1.5"/>
+<line id="adaptive-masses-0474" x1="1447.5" y1="170.0" x2="1460.5" y2="170.0" stroke="#000000" stroke-width="1.4"/>
+<line id="adaptive-masses-0475" x1="1454" y1="163.5" x2="1454" y2="176.5" stroke="#000000" stroke-width="1.4"/>
+<rect id="adaptive-masses-0476" x="1478" y="154" width="68" height="42" rx="0" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="adaptive-masses-0477" x="1474" y="149" width="68" height="42" rx="0" style="fill:#FFFFFF;stroke:#5D873E;stroke-width:2.3"/>
+<line id="adaptive-masses-0478" x1="1474" y1="159" x2="1484" y2="149" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0479" x1="1474" y1="169" x2="1494" y2="149" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0480" x1="1474" y1="179" x2="1504" y2="149" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0481" x1="1474" y1="189" x2="1514" y2="149" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0482" x1="1482" y1="191" x2="1524" y2="149" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0483" x1="1492" y1="191" x2="1534" y2="149" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0484" x1="1502" y1="191" x2="1542" y2="151" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0485" x1="1512" y1="191" x2="1542" y2="161" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0486" x1="1522" y1="191" x2="1542" y2="171" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0487" x1="1532" y1="191" x2="1542" y2="181" stroke="#86B7F4" stroke-width="1.6"/>
+<rect id="adaptive-masses-0488" x="1373" y="212" width="66" height="42" rx="0" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="adaptive-masses-0489" x="1368" y="206" width="66" height="42" rx="0" style="fill:#FEFAEE;stroke:#5D873E;stroke-width:2.2"/>
+<text id="adaptive-masses-0490" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="18" font-weight="400" fill="#000000"><tspan x="1382.0" y="227.0">M</tspan></text>
+<text id="adaptive-masses-0491" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="11" font-weight="400" fill="#000000"><tspan x="1395.0" y="230.0">3</tspan></text>
+<text id="adaptive-masses-0492" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="17" font-weight="400" fill="#000000"><tspan x="1414.0" y="227.0">(A)</tspan></text>
+<ellipse id="adaptive-masses-0493" cx="1454" cy="227.0" rx="10" ry="10" style="fill:#FEFAEE;stroke:#000000;stroke-width:1.5"/>
+<line id="adaptive-masses-0494" x1="1447.5" y1="227.0" x2="1460.5" y2="227.0" stroke="#000000" stroke-width="1.4"/>
+<line id="adaptive-masses-0495" x1="1454" y1="220.5" x2="1454" y2="233.5" stroke="#000000" stroke-width="1.4"/>
+<rect id="adaptive-masses-0496" x="1478" y="211" width="68" height="42" rx="0" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="adaptive-masses-0497" x="1474" y="206" width="68" height="42" rx="0" style="fill:#FFFFFF;stroke:#5D873E;stroke-width:2.3"/>
+<line id="adaptive-masses-0498" x1="1474" y1="216" x2="1484" y2="206" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0499" x1="1474" y1="226" x2="1494" y2="206" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0500" x1="1474" y1="236" x2="1504" y2="206" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0501" x1="1474" y1="246" x2="1514" y2="206" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0502" x1="1482" y1="248" x2="1524" y2="206" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0503" x1="1492" y1="248" x2="1534" y2="206" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0504" x1="1502" y1="248" x2="1542" y2="208" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0505" x1="1512" y1="248" x2="1542" y2="218" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0506" x1="1522" y1="248" x2="1542" y2="228" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0507" x1="1532" y1="248" x2="1542" y2="238" stroke="#86B7F4" stroke-width="1.6"/>
+<rect id="adaptive-masses-0508" x="1373" y="273" width="66" height="42" rx="0" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="adaptive-masses-0509" x="1368" y="267" width="66" height="42" rx="0" style="fill:#FEFAEE;stroke:#5D873E;stroke-width:2.2"/>
+<text id="adaptive-masses-0510" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="18" font-weight="400" fill="#000000"><tspan x="1382.0" y="288.0">M</tspan></text>
+<text id="adaptive-masses-0511" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="11" font-weight="400" fill="#000000"><tspan x="1395.0" y="291.0">4</tspan></text>
+<text id="adaptive-masses-0512" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="17" font-weight="400" fill="#000000"><tspan x="1414.0" y="288.0">(A)</tspan></text>
+<ellipse id="adaptive-masses-0513" cx="1454" cy="288.0" rx="10" ry="10" style="fill:#FEFAEE;stroke:#000000;stroke-width:1.5"/>
+<line id="adaptive-masses-0514" x1="1447.5" y1="288.0" x2="1460.5" y2="288.0" stroke="#000000" stroke-width="1.4"/>
+<line id="adaptive-masses-0515" x1="1454" y1="281.5" x2="1454" y2="294.5" stroke="#000000" stroke-width="1.4"/>
+<rect id="adaptive-masses-0516" x="1478" y="272" width="68" height="42" rx="0" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="adaptive-masses-0517" x="1474" y="267" width="68" height="42" rx="0" style="fill:#FFFFFF;stroke:#5D873E;stroke-width:2.3"/>
+<line id="adaptive-masses-0518" x1="1474" y1="277" x2="1484" y2="267" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0519" x1="1474" y1="287" x2="1494" y2="267" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0520" x1="1474" y1="297" x2="1504" y2="267" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0521" x1="1474" y1="307" x2="1514" y2="267" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0522" x1="1482" y1="309" x2="1524" y2="267" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0523" x1="1492" y1="309" x2="1534" y2="267" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0524" x1="1502" y1="309" x2="1542" y2="269" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0525" x1="1512" y1="309" x2="1542" y2="279" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0526" x1="1522" y1="309" x2="1542" y2="289" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0527" x1="1532" y1="309" x2="1542" y2="299" stroke="#86B7F4" stroke-width="1.6"/>
+<rect id="adaptive-masses-0528" x="1373" y="348" width="66" height="42" rx="0" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="adaptive-masses-0529" x="1368" y="342" width="66" height="42" rx="0" style="fill:#FEFAEE;stroke:#5D873E;stroke-width:2.2"/>
+<text id="adaptive-masses-0530" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="18" font-weight="400" fill="#000000"><tspan x="1382.0" y="363.0">M</tspan></text>
+<text id="adaptive-masses-0531" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="11" font-weight="400" fill="#000000"><tspan x="1400.5" y="366.0">n−1</tspan></text>
+<text id="adaptive-masses-0532" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="16" font-weight="400" fill="#000000"><tspan x="1420.5" y="363.0">(A)</tspan></text>
+<ellipse id="adaptive-masses-0533" cx="1454" cy="363.0" rx="10" ry="10" style="fill:#FEFAEE;stroke:#000000;stroke-width:1.5"/>
+<line id="adaptive-masses-0534" x1="1447.5" y1="363.0" x2="1460.5" y2="363.0" stroke="#000000" stroke-width="1.4"/>
+<line id="adaptive-masses-0535" x1="1454" y1="356.5" x2="1454" y2="369.5" stroke="#000000" stroke-width="1.4"/>
+<rect id="adaptive-masses-0536" x="1478" y="347" width="68" height="42" rx="0" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="adaptive-masses-0537" x="1474" y="342" width="68" height="42" rx="0" style="fill:#FFFFFF;stroke:#5D873E;stroke-width:2.3"/>
+<line id="adaptive-masses-0538" x1="1474" y1="352" x2="1484" y2="342" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0539" x1="1474" y1="362" x2="1494" y2="342" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0540" x1="1474" y1="372" x2="1504" y2="342" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0541" x1="1474" y1="382" x2="1514" y2="342" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0542" x1="1482" y1="384" x2="1524" y2="342" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0543" x1="1492" y1="384" x2="1534" y2="342" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0544" x1="1502" y1="384" x2="1542" y2="344" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0545" x1="1512" y1="384" x2="1542" y2="354" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0546" x1="1522" y1="384" x2="1542" y2="364" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0547" x1="1532" y1="384" x2="1542" y2="374" stroke="#86B7F4" stroke-width="1.6"/>
+<rect id="adaptive-masses-0548" x="1373" y="403" width="66" height="42" rx="0" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="adaptive-masses-0549" x="1368" y="397" width="66" height="42" rx="0" style="fill:#FEFAEE;stroke:#5D873E;stroke-width:2.2"/>
+<text id="adaptive-masses-0550" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="18" font-weight="400" fill="#000000"><tspan x="1382.0" y="418.0">M</tspan></text>
+<text id="adaptive-masses-0551" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="11" font-weight="400" fill="#000000"><tspan x="1395.0" y="421.0">n</tspan></text>
+<text id="adaptive-masses-0552" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="17" font-weight="400" fill="#000000"><tspan x="1414.0" y="418.0">(A)</tspan></text>
+<ellipse id="adaptive-masses-0553" cx="1454" cy="418.0" rx="10" ry="10" style="fill:#FEFAEE;stroke:#000000;stroke-width:1.5"/>
+<line id="adaptive-masses-0554" x1="1447.5" y1="418.0" x2="1460.5" y2="418.0" stroke="#000000" stroke-width="1.4"/>
+<line id="adaptive-masses-0555" x1="1454" y1="411.5" x2="1454" y2="424.5" stroke="#000000" stroke-width="1.4"/>
+<rect id="adaptive-masses-0556" x="1478" y="402" width="68" height="42" rx="0" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="adaptive-masses-0557" x="1474" y="397" width="68" height="42" rx="0" style="fill:#FFFFFF;stroke:#5D873E;stroke-width:2.3"/>
+<line id="adaptive-masses-0558" x1="1474" y1="407" x2="1484" y2="397" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0559" x1="1474" y1="417" x2="1494" y2="397" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0560" x1="1474" y1="427" x2="1504" y2="397" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0561" x1="1474" y1="437" x2="1514" y2="397" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0562" x1="1482" y1="439" x2="1524" y2="397" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0563" x1="1492" y1="439" x2="1534" y2="397" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0564" x1="1502" y1="439" x2="1542" y2="399" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0565" x1="1512" y1="439" x2="1542" y2="409" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0566" x1="1522" y1="439" x2="1542" y2="419" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="adaptive-masses-0567" x1="1532" y1="439" x2="1542" y2="429" stroke="#86B7F4" stroke-width="1.6"/>
+<text id="adaptive-masses-0568" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="25" font-weight="700" fill="#000000"><tspan x="1404.0" y="317.0">⋮</tspan></text>
+<text id="adaptive-masses-0569" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="25" font-weight="700" fill="#000000"><tspan x="1469.0" y="317.0">⋮</tspan></text>
+</g>
+<g id="adaptive-outcomes">
+<rect id="adaptive-outcomes-0570" x="1576" y="90" width="142" height="350" rx="0" style="fill:none;stroke:#6CB446;stroke-width:2.8;stroke-dasharray:3 12;stroke-linecap:round"/>
+<rect id="adaptive-outcomes-0571" x="1601" y="102" width="96" height="76" rx="6" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="adaptive-outcomes-0572" x="1597" y="97" width="96" height="76" rx="6" style="fill:#DDEBF4;stroke:#1C2730;stroke-width:1.5"/>
+<rect id="adaptive-outcomes-0573" x="1606" y="145" width="14" height="21" rx="0" style="fill:#E1EEDA;stroke:#AED58A;stroke-width:1.4"/>
+<rect id="adaptive-outcomes-0574" x="1622" y="134" width="14" height="32" rx="0" style="fill:#E1EEDA;stroke:#AED58A;stroke-width:1.4"/>
+<rect id="adaptive-outcomes-0575" x="1638" y="98" width="14" height="68" rx="0" style="fill:#E1EEDA;stroke:#AED58A;stroke-width:1.4"/>
+<rect id="adaptive-outcomes-0576" x="1654" y="138" width="14" height="28" rx="0" style="fill:#E1EEDA;stroke:#AED58A;stroke-width:1.4"/>
+<rect id="adaptive-outcomes-0577" x="1670" y="149" width="14" height="17" rx="0" style="fill:#E1EEDA;stroke:#AED58A;stroke-width:1.4"/>
+<rect id="adaptive-outcomes-0578" x="1601" y="187" width="96" height="76" rx="6" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="adaptive-outcomes-0579" x="1597" y="182" width="96" height="76" rx="6" style="fill:#DDEBF4;stroke:#1C2730;stroke-width:1.5"/>
+<rect id="adaptive-outcomes-0580" x="1606" y="217" width="14" height="34" rx="0" style="fill:#E1EEDA;stroke:#AED58A;stroke-width:1.4"/>
+<rect id="adaptive-outcomes-0581" x="1622" y="190" width="14" height="61" rx="0" style="fill:#E1EEDA;stroke:#AED58A;stroke-width:1.4"/>
+<rect id="adaptive-outcomes-0582" x="1638" y="220" width="14" height="31" rx="0" style="fill:#E1EEDA;stroke:#AED58A;stroke-width:1.4"/>
+<rect id="adaptive-outcomes-0583" x="1654" y="223" width="14" height="28" rx="0" style="fill:#E1EEDA;stroke:#AED58A;stroke-width:1.4"/>
+<rect id="adaptive-outcomes-0584" x="1670" y="230" width="14" height="21" rx="0" style="fill:#E1EEDA;stroke:#AED58A;stroke-width:1.4"/>
+<rect id="adaptive-outcomes-0585" x="1601" y="273" width="96" height="76" rx="6" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="adaptive-outcomes-0586" x="1597" y="268" width="96" height="76" rx="6" style="fill:#DDEBF4;stroke:#1C2730;stroke-width:1.5"/>
+<rect id="adaptive-outcomes-0587" x="1606" y="302" width="14" height="35" rx="0" style="fill:#E1EEDA;stroke:#AED58A;stroke-width:1.4"/>
+<rect id="adaptive-outcomes-0588" x="1622" y="294" width="14" height="43" rx="0" style="fill:#E1EEDA;stroke:#AED58A;stroke-width:1.4"/>
+<rect id="adaptive-outcomes-0589" x="1638" y="287" width="14" height="50" rx="0" style="fill:#E1EEDA;stroke:#AED58A;stroke-width:1.4"/>
+<rect id="adaptive-outcomes-0590" x="1654" y="299" width="14" height="38" rx="0" style="fill:#E1EEDA;stroke:#AED58A;stroke-width:1.4"/>
+<rect id="adaptive-outcomes-0591" x="1670" y="314" width="14" height="23" rx="0" style="fill:#E1EEDA;stroke:#AED58A;stroke-width:1.4"/>
+<rect id="adaptive-outcomes-0592" x="1601" y="358" width="96" height="76" rx="6" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="adaptive-outcomes-0593" x="1597" y="353" width="96" height="76" rx="6" style="fill:#DDEBF4;stroke:#1C2730;stroke-width:1.5"/>
+<rect id="adaptive-outcomes-0594" x="1606" y="366" width="14" height="56" rx="0" style="fill:#E1EEDA;stroke:#AED58A;stroke-width:1.4"/>
+<rect id="adaptive-outcomes-0595" x="1622" y="366" width="14" height="56" rx="0" style="fill:#E1EEDA;stroke:#AED58A;stroke-width:1.4"/>
+<rect id="adaptive-outcomes-0596" x="1638" y="366" width="14" height="56" rx="0" style="fill:#E1EEDA;stroke:#AED58A;stroke-width:1.4"/>
+<rect id="adaptive-outcomes-0597" x="1654" y="366" width="14" height="56" rx="0" style="fill:#E1EEDA;stroke:#AED58A;stroke-width:1.4"/>
+<rect id="adaptive-outcomes-0598" x="1670" y="366" width="14" height="56" rx="0" style="fill:#E1EEDA;stroke:#AED58A;stroke-width:1.4"/>
+</g>
+<g id="adaptive-caption">
+<text id="adaptive-caption-0599" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="29" font-weight="700" fill="#000000"><tspan x="1390.0" y="464.5">Adaptive transformation</tspan></text>
+</g>
+<g id="hodmmd-input">
+<rect id="hodmmd-input-0600" x="69" y="575" width="688" height="76" rx="0" style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:14 10;stroke-linecap:round"/>
+<rect id="hodmmd-input-0601" x="135" y="600" width="65" height="42" rx="0" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="hodmmd-input-0602" x="130" y="594" width="65" height="42" rx="0" style="fill:#FEFAEE;stroke:#5D873E;stroke-width:2.2"/>
+<text id="hodmmd-input-0603" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="18" font-weight="400" fill="#000000"><tspan x="144.0" y="615.0">M</tspan></text>
+<text id="hodmmd-input-0604" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="11" font-weight="400" fill="#000000"><tspan x="157.0" y="618.0">1</tspan></text>
+<text id="hodmmd-input-0605" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="17" font-weight="400" fill="#000000"><tspan x="175.5" y="615.0">(A)</tspan></text>
+<ellipse id="hodmmd-input-0606" cx="215" cy="615.0" rx="10" ry="10" style="fill:#FEFAEE;stroke:#000000;stroke-width:1.5"/>
+<line id="hodmmd-input-0607" x1="208.5" y1="615.0" x2="221.5" y2="615.0" stroke="#000000" stroke-width="1.4"/>
+<line id="hodmmd-input-0608" x1="215" y1="608.5" x2="215" y2="621.5" stroke="#000000" stroke-width="1.4"/>
+<rect id="hodmmd-input-0609" x="239" y="599" width="68" height="42" rx="0" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="hodmmd-input-0610" x="235" y="594" width="68" height="42" rx="0" style="fill:#FFFFFF;stroke:#5D873E;stroke-width:2.3"/>
+<line id="hodmmd-input-0611" x1="235" y1="604" x2="245" y2="594" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="hodmmd-input-0612" x1="235" y1="614" x2="255" y2="594" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="hodmmd-input-0613" x1="235" y1="624" x2="265" y2="594" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="hodmmd-input-0614" x1="235" y1="634" x2="275" y2="594" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="hodmmd-input-0615" x1="243" y1="636" x2="285" y2="594" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="hodmmd-input-0616" x1="253" y1="636" x2="295" y2="594" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="hodmmd-input-0617" x1="263" y1="636" x2="303" y2="596" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="hodmmd-input-0618" x1="273" y1="636" x2="303" y2="606" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="hodmmd-input-0619" x1="283" y1="636" x2="303" y2="616" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="hodmmd-input-0620" x1="293" y1="636" x2="303" y2="626" stroke="#86B7F4" stroke-width="1.6"/>
+<rect id="hodmmd-input-0621" x="525" y="600" width="65" height="42" rx="0" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="hodmmd-input-0622" x="520" y="594" width="65" height="42" rx="0" style="fill:#FEFAEE;stroke:#5D873E;stroke-width:2.2"/>
+<text id="hodmmd-input-0623" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="18" font-weight="400" fill="#000000"><tspan x="534.0" y="615.0">M</tspan></text>
+<text id="hodmmd-input-0624" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="11" font-weight="400" fill="#000000"><tspan x="547.0" y="618.0">1</tspan></text>
+<text id="hodmmd-input-0625" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="17" font-weight="400" fill="#000000"><tspan x="565.5" y="615.0">(A)</tspan></text>
+<ellipse id="hodmmd-input-0626" cx="605" cy="615.0" rx="10" ry="10" style="fill:#FEFAEE;stroke:#000000;stroke-width:1.5"/>
+<line id="hodmmd-input-0627" x1="598.5" y1="615.0" x2="611.5" y2="615.0" stroke="#000000" stroke-width="1.4"/>
+<line id="hodmmd-input-0628" x1="605" y1="608.5" x2="605" y2="621.5" stroke="#000000" stroke-width="1.4"/>
+<rect id="hodmmd-input-0629" x="629" y="599" width="68" height="42" rx="0" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="hodmmd-input-0630" x="625" y="594" width="68" height="42" rx="0" style="fill:#FFFFFF;stroke:#5D873E;stroke-width:2.3"/>
+<line id="hodmmd-input-0631" x1="625" y1="604" x2="635" y2="594" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="hodmmd-input-0632" x1="625" y1="614" x2="645" y2="594" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="hodmmd-input-0633" x1="625" y1="624" x2="655" y2="594" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="hodmmd-input-0634" x1="625" y1="634" x2="665" y2="594" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="hodmmd-input-0635" x1="633" y1="636" x2="675" y2="594" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="hodmmd-input-0636" x1="643" y1="636" x2="685" y2="594" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="hodmmd-input-0637" x1="653" y1="636" x2="693" y2="596" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="hodmmd-input-0638" x1="663" y1="636" x2="693" y2="606" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="hodmmd-input-0639" x1="673" y1="636" x2="693" y2="616" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="hodmmd-input-0640" x1="683" y1="636" x2="693" y2="626" stroke="#86B7F4" stroke-width="1.6"/>
+</g>
+<g id="hodmmd">
+<polygon id="hodmmd-0641" points="243,657 267,665 272,657 299,681 265,675 263,684" style="fill:#F9F4FA;stroke:#FF76D1;stroke-width:1.5"/>
+<polygon id="hodmmd-0642" points="569,657 545,665 540,657 515,681 548,675 551,684" style="fill:#F9F4FA;stroke:#FF76D1;stroke-width:1.5"/>
+<text id="hodmmd-0643" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="29" font-weight="400" fill="#000000"><tspan x="416.5" y="677.0">HODMMD</tspan></text>
+<polyline id="hodmmd-0644" points="417,693 417,707 169,707 169,733" fill="none" stroke="#000000" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon id="hodmmd-0645" points="169,733 162.28,719.0 175.72,719.0" style="fill:#000000;stroke:#000000;stroke-width:1"/>
+</g>
+<g id="reliability-sets">
+<rect id="reliability-sets-0646" x="69" y="733" width="200" height="64" rx="0" style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:14 10;stroke-linecap:round"/>
+<ellipse id="reliability-sets-0647" cx="97" cy="766" rx="14" ry="14" style="fill:#FEFAEE;stroke:#F3B700;stroke-width:2.2"/>
+<ellipse id="reliability-sets-0648" cx="145" cy="766" rx="14" ry="14" style="fill:#FEFAEE;stroke:#5D873E;stroke-width:2.2"/>
+<ellipse id="reliability-sets-0649" cx="193" cy="766" rx="14" ry="14" style="fill:#FEFAEE;stroke:#0070C0;stroke-width:2.2"/>
+<ellipse id="reliability-sets-0650" cx="241" cy="766" rx="14" ry="14" style="fill:#FEFAEE;stroke:#D93EC0;stroke-width:2.2"/>
+<rect id="reliability-sets-0651" x="282" y="733" width="475" height="64" rx="0" style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:14 10;stroke-linecap:round"/>
+<ellipse id="reliability-sets-0652" cx="317" cy="766" rx="14" ry="14" style="fill:#FEFAEE;stroke:#9AB8EA;stroke-width:2.2"/>
+<ellipse id="reliability-sets-0653" cx="359" cy="766" rx="14" ry="14" style="fill:#FEFAEE;stroke:#E3DE00;stroke-width:2.2"/>
+<ellipse id="reliability-sets-0654" cx="401" cy="766" rx="14" ry="14" style="fill:#FEFAEE;stroke:#0070C0;stroke-width:2.2"/>
+<ellipse id="reliability-sets-0655" cx="443" cy="766" rx="14" ry="14" style="fill:#FEFAEE;stroke:#D93EC0;stroke-width:2.2"/>
+<text id="reliability-sets-0656" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="25" font-weight="700" fill="#000000"><tspan x="495.0" y="765.0">⋮</tspan></text>
+<ellipse id="reliability-sets-0657" cx="527" cy="766" rx="14" ry="14" style="fill:#FEFAEE;stroke:#D93EC0;stroke-width:2.2"/>
+<ellipse id="reliability-sets-0658" cx="569" cy="766" rx="14" ry="14" style="fill:#FEFAEE;stroke:#E3DE00;stroke-width:2.2"/>
+<ellipse id="reliability-sets-0659" cx="611" cy="766" rx="14" ry="14" style="fill:#FEFAEE;stroke:#0070C0;stroke-width:2.2"/>
+<ellipse id="reliability-sets-0660" cx="653" cy="766" rx="14" ry="14" style="fill:#FEFAEE;stroke:#F3B700;stroke-width:2.2"/>
+</g>
+<g id="assessment-masses">
+<rect id="assessment-masses-0661" x="83" y="826" width="66" height="42" rx="0" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="assessment-masses-0662" x="78" y="820" width="66" height="42" rx="0" style="fill:#FEFAEE;stroke:#5D873E;stroke-width:2.2"/>
+<text id="assessment-masses-0663" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="18" font-weight="400" fill="#000000"><tspan x="92.0" y="841.0">M</tspan></text>
+<text id="assessment-masses-0664" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="11" font-weight="400" fill="#000000"><tspan x="105.0" y="844.0">1</tspan></text>
+<text id="assessment-masses-0665" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="17" font-weight="400" fill="#000000"><tspan x="124.0" y="841.0">(A)</tspan></text>
+<ellipse id="assessment-masses-0666" cx="164" cy="841.0" rx="10" ry="10" style="fill:#FEFAEE;stroke:#000000;stroke-width:1.5"/>
+<line id="assessment-masses-0667" x1="157.5" y1="841.0" x2="170.5" y2="841.0" stroke="#000000" stroke-width="1.4"/>
+<line id="assessment-masses-0668" x1="164" y1="834.5" x2="164" y2="847.5" stroke="#000000" stroke-width="1.4"/>
+<rect id="assessment-masses-0669" x="188" y="825" width="68" height="42" rx="0" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="assessment-masses-0670" x="184" y="820" width="68" height="42" rx="0" style="fill:#FFFFFF;stroke:#5D873E;stroke-width:2.3"/>
+<line id="assessment-masses-0671" x1="184" y1="830" x2="194" y2="820" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0672" x1="184" y1="840" x2="204" y2="820" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0673" x1="184" y1="850" x2="214" y2="820" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0674" x1="184" y1="860" x2="224" y2="820" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0675" x1="192" y1="862" x2="234" y2="820" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0676" x1="202" y1="862" x2="244" y2="820" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0677" x1="212" y1="862" x2="252" y2="822" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0678" x1="222" y1="862" x2="252" y2="832" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0679" x1="232" y1="862" x2="252" y2="842" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0680" x1="242" y1="862" x2="252" y2="852" stroke="#86B7F4" stroke-width="1.6"/>
+<rect id="assessment-masses-0681" x="83" y="885" width="66" height="42" rx="0" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="assessment-masses-0682" x="78" y="879" width="66" height="42" rx="0" style="fill:#FEFAEE;stroke:#5D873E;stroke-width:2.2"/>
+<text id="assessment-masses-0683" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="18" font-weight="400" fill="#000000"><tspan x="92.0" y="900.0">M</tspan></text>
+<text id="assessment-masses-0684" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="11" font-weight="400" fill="#000000"><tspan x="105.0" y="903.0">2</tspan></text>
+<text id="assessment-masses-0685" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="17" font-weight="400" fill="#000000"><tspan x="124.0" y="900.0">(A)</tspan></text>
+<ellipse id="assessment-masses-0686" cx="164" cy="900.0" rx="10" ry="10" style="fill:#FEFAEE;stroke:#000000;stroke-width:1.5"/>
+<line id="assessment-masses-0687" x1="157.5" y1="900.0" x2="170.5" y2="900.0" stroke="#000000" stroke-width="1.4"/>
+<line id="assessment-masses-0688" x1="164" y1="893.5" x2="164" y2="906.5" stroke="#000000" stroke-width="1.4"/>
+<rect id="assessment-masses-0689" x="188" y="884" width="68" height="42" rx="0" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="assessment-masses-0690" x="184" y="879" width="68" height="42" rx="0" style="fill:#FFFFFF;stroke:#5D873E;stroke-width:2.3"/>
+<line id="assessment-masses-0691" x1="184" y1="889" x2="194" y2="879" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0692" x1="184" y1="899" x2="204" y2="879" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0693" x1="184" y1="909" x2="214" y2="879" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0694" x1="184" y1="919" x2="224" y2="879" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0695" x1="192" y1="921" x2="234" y2="879" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0696" x1="202" y1="921" x2="244" y2="879" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0697" x1="212" y1="921" x2="252" y2="881" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0698" x1="222" y1="921" x2="252" y2="891" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0699" x1="232" y1="921" x2="252" y2="901" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0700" x1="242" y1="921" x2="252" y2="911" stroke="#86B7F4" stroke-width="1.6"/>
+<rect id="assessment-masses-0701" x="83" y="944" width="66" height="42" rx="0" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="assessment-masses-0702" x="78" y="938" width="66" height="42" rx="0" style="fill:#FEFAEE;stroke:#5D873E;stroke-width:2.2"/>
+<text id="assessment-masses-0703" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="18" font-weight="400" fill="#000000"><tspan x="92.0" y="959.0">M</tspan></text>
+<text id="assessment-masses-0704" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="11" font-weight="400" fill="#000000"><tspan x="105.0" y="962.0">3</tspan></text>
+<text id="assessment-masses-0705" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="17" font-weight="400" fill="#000000"><tspan x="124.0" y="959.0">(A)</tspan></text>
+<ellipse id="assessment-masses-0706" cx="164" cy="959.0" rx="10" ry="10" style="fill:#FEFAEE;stroke:#000000;stroke-width:1.5"/>
+<line id="assessment-masses-0707" x1="157.5" y1="959.0" x2="170.5" y2="959.0" stroke="#000000" stroke-width="1.4"/>
+<line id="assessment-masses-0708" x1="164" y1="952.5" x2="164" y2="965.5" stroke="#000000" stroke-width="1.4"/>
+<rect id="assessment-masses-0709" x="188" y="943" width="68" height="42" rx="0" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="assessment-masses-0710" x="184" y="938" width="68" height="42" rx="0" style="fill:#FFFFFF;stroke:#5D873E;stroke-width:2.3"/>
+<line id="assessment-masses-0711" x1="184" y1="948" x2="194" y2="938" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0712" x1="184" y1="958" x2="204" y2="938" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0713" x1="184" y1="968" x2="214" y2="938" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0714" x1="184" y1="978" x2="224" y2="938" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0715" x1="192" y1="980" x2="234" y2="938" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0716" x1="202" y1="980" x2="244" y2="938" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0717" x1="212" y1="980" x2="252" y2="940" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0718" x1="222" y1="980" x2="252" y2="950" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0719" x1="232" y1="980" x2="252" y2="960" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0720" x1="242" y1="980" x2="252" y2="970" stroke="#86B7F4" stroke-width="1.6"/>
+<rect id="assessment-masses-0721" x="83" y="1032" width="66" height="42" rx="0" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="assessment-masses-0722" x="78" y="1026" width="66" height="42" rx="0" style="fill:#FEFAEE;stroke:#5D873E;stroke-width:2.2"/>
+<text id="assessment-masses-0723" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="18" font-weight="400" fill="#000000"><tspan x="92.0" y="1047.0">M</tspan></text>
+<text id="assessment-masses-0724" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="11" font-weight="400" fill="#000000"><tspan x="110.5" y="1050.0">n−1</tspan></text>
+<text id="assessment-masses-0725" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="16" font-weight="400" fill="#000000"><tspan x="130.5" y="1047.0">(A)</tspan></text>
+<ellipse id="assessment-masses-0726" cx="164" cy="1047.0" rx="10" ry="10" style="fill:#FEFAEE;stroke:#000000;stroke-width:1.5"/>
+<line id="assessment-masses-0727" x1="157.5" y1="1047.0" x2="170.5" y2="1047.0" stroke="#000000" stroke-width="1.4"/>
+<line id="assessment-masses-0728" x1="164" y1="1040.5" x2="164" y2="1053.5" stroke="#000000" stroke-width="1.4"/>
+<rect id="assessment-masses-0729" x="188" y="1031" width="68" height="42" rx="0" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="assessment-masses-0730" x="184" y="1026" width="68" height="42" rx="0" style="fill:#FFFFFF;stroke:#5D873E;stroke-width:2.3"/>
+<line id="assessment-masses-0731" x1="184" y1="1036" x2="194" y2="1026" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0732" x1="184" y1="1046" x2="204" y2="1026" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0733" x1="184" y1="1056" x2="214" y2="1026" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0734" x1="184" y1="1066" x2="224" y2="1026" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0735" x1="192" y1="1068" x2="234" y2="1026" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0736" x1="202" y1="1068" x2="244" y2="1026" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0737" x1="212" y1="1068" x2="252" y2="1028" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0738" x1="222" y1="1068" x2="252" y2="1038" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0739" x1="232" y1="1068" x2="252" y2="1048" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0740" x1="242" y1="1068" x2="252" y2="1058" stroke="#86B7F4" stroke-width="1.6"/>
+<rect id="assessment-masses-0741" x="83" y="1088" width="66" height="42" rx="0" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="assessment-masses-0742" x="78" y="1082" width="66" height="42" rx="0" style="fill:#FEFAEE;stroke:#5D873E;stroke-width:2.2"/>
+<text id="assessment-masses-0743" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="18" font-weight="400" fill="#000000"><tspan x="92.0" y="1103.0">M</tspan></text>
+<text id="assessment-masses-0744" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="11" font-weight="400" fill="#000000"><tspan x="105.0" y="1106.0">n</tspan></text>
+<text id="assessment-masses-0745" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="17" font-weight="400" fill="#000000"><tspan x="124.0" y="1103.0">(A)</tspan></text>
+<ellipse id="assessment-masses-0746" cx="164" cy="1103.0" rx="10" ry="10" style="fill:#FEFAEE;stroke:#000000;stroke-width:1.5"/>
+<line id="assessment-masses-0747" x1="157.5" y1="1103.0" x2="170.5" y2="1103.0" stroke="#000000" stroke-width="1.4"/>
+<line id="assessment-masses-0748" x1="164" y1="1096.5" x2="164" y2="1109.5" stroke="#000000" stroke-width="1.4"/>
+<rect id="assessment-masses-0749" x="188" y="1087" width="68" height="42" rx="0" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="assessment-masses-0750" x="184" y="1082" width="68" height="42" rx="0" style="fill:#FFFFFF;stroke:#5D873E;stroke-width:2.3"/>
+<line id="assessment-masses-0751" x1="184" y1="1092" x2="194" y2="1082" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0752" x1="184" y1="1102" x2="204" y2="1082" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0753" x1="184" y1="1112" x2="214" y2="1082" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0754" x1="184" y1="1122" x2="224" y2="1082" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0755" x1="192" y1="1124" x2="234" y2="1082" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0756" x1="202" y1="1124" x2="244" y2="1082" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0757" x1="212" y1="1124" x2="252" y2="1084" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0758" x1="222" y1="1124" x2="252" y2="1094" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0759" x1="232" y1="1124" x2="252" y2="1104" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assessment-masses-0760" x1="242" y1="1124" x2="252" y2="1114" stroke="#86B7F4" stroke-width="1.6"/>
+<text id="assessment-masses-0761" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="27" font-weight="700" fill="#000000"><tspan x="143.0" y="1000.5">⋮</tspan></text>
+<text id="assessment-masses-0762" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="27" font-weight="700" fill="#000000"><tspan x="182.0" y="1000.5">⋮</tspan></text>
+<ellipse id="assessment-masses-0763" cx="297" cy="951" rx="10" ry="10" style="fill:#FEFAEE;stroke:#000000;stroke-width:1.5"/>
+<line id="assessment-masses-0764" x1="290.5" y1="951" x2="303.5" y2="951" stroke="#000000" stroke-width="1.4"/>
+<line id="assessment-masses-0765" x1="297" y1="944.5" x2="297" y2="957.5" stroke="#000000" stroke-width="1.4"/>
+</g>
+<g id="reliability-vector">
+<rect id="reliability-vector-0766" x="340" y="809" width="48" height="327" rx="5" style="fill:#F9F4FA;stroke:#FF76D1;stroke-width:2;stroke-dasharray:;stroke-linecap:round"/>
+<ellipse id="reliability-vector-0767" cx="364" cy="827" rx="14" ry="14" style="fill:#FEFAEE;stroke:#D93EC0;stroke-width:2.2"/>
+<ellipse id="reliability-vector-0768" cx="364" cy="863" rx="14" ry="14" style="fill:#FEFAEE;stroke:#5D873E;stroke-width:2.2"/>
+<ellipse id="reliability-vector-0769" cx="364" cy="899" rx="14" ry="14" style="fill:#FEFAEE;stroke:#F3B700;stroke-width:2.2"/>
+<ellipse id="reliability-vector-0770" cx="364" cy="935" rx="14" ry="14" style="fill:#FEFAEE;stroke:#0070C0;stroke-width:2.2"/>
+<ellipse id="reliability-vector-0771" cx="364" cy="971" rx="14" ry="14" style="fill:#FEFAEE;stroke:#E3DE00;stroke-width:2.2"/>
+<ellipse id="reliability-vector-0772" cx="364" cy="1007" rx="14" ry="14" style="fill:#FEFAEE;stroke:#9AB8EA;stroke-width:2.2"/>
+<ellipse id="reliability-vector-0773" cx="364" cy="1076" rx="14" ry="14" style="fill:#FEFAEE;stroke:#F4A070;stroke-width:2.2"/>
+<ellipse id="reliability-vector-0774" cx="364" cy="1112" rx="14" ry="14" style="fill:#FEFAEE;stroke:#5D873E;stroke-width:2.2"/>
+<text id="reliability-vector-0775" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="25" font-weight="700" fill="#000000"><tspan x="363.5" y="1040.0">⋮</tspan></text>
+</g>
+<g id="assessment-flow">
+<polygon id="assessment-flow-0776" points="433,951 457,951 457,939 486,966 457,992 457,980 433,980" style="fill:#F998DD;stroke:#FF76D1;stroke-width:1.3"/>
+</g>
+<g id="assessment-grid">
+<rect id="assessment-grid-0777" x="514" y="809" width="231" height="327" rx="0" style="fill:#FFFFFF;stroke:#F7A9DD;stroke-width:2;stroke-dasharray:3 12;stroke-linecap:round"/>
+<line id="assessment-grid-0778" x1="514" y1="827" x2="532" y2="809" stroke="#F5E9BD" stroke-width="1.3"/>
+<line id="assessment-grid-0779" x1="514" y1="845" x2="550" y2="809" stroke="#F5E9BD" stroke-width="1.3"/>
+<line id="assessment-grid-0780" x1="514" y1="863" x2="568" y2="809" stroke="#F5E9BD" stroke-width="1.3"/>
+<line id="assessment-grid-0781" x1="514" y1="881" x2="586" y2="809" stroke="#F5E9BD" stroke-width="1.3"/>
+<line id="assessment-grid-0782" x1="514" y1="899" x2="604" y2="809" stroke="#F5E9BD" stroke-width="1.3"/>
+<line id="assessment-grid-0783" x1="514" y1="917" x2="622" y2="809" stroke="#F5E9BD" stroke-width="1.3"/>
+<line id="assessment-grid-0784" x1="514" y1="935" x2="640" y2="809" stroke="#F5E9BD" stroke-width="1.3"/>
+<line id="assessment-grid-0785" x1="514" y1="953" x2="658" y2="809" stroke="#F5E9BD" stroke-width="1.3"/>
+<line id="assessment-grid-0786" x1="514" y1="971" x2="676" y2="809" stroke="#F5E9BD" stroke-width="1.3"/>
+<line id="assessment-grid-0787" x1="514" y1="989" x2="694" y2="809" stroke="#F5E9BD" stroke-width="1.3"/>
+<line id="assessment-grid-0788" x1="514" y1="1007" x2="712" y2="809" stroke="#F5E9BD" stroke-width="1.3"/>
+<line id="assessment-grid-0789" x1="514" y1="1025" x2="730" y2="809" stroke="#F5E9BD" stroke-width="1.3"/>
+<line id="assessment-grid-0790" x1="514" y1="1043" x2="745" y2="812" stroke="#F5E9BD" stroke-width="1.3"/>
+<line id="assessment-grid-0791" x1="514" y1="1061" x2="745" y2="830" stroke="#F5E9BD" stroke-width="1.3"/>
+<line id="assessment-grid-0792" x1="514" y1="1079" x2="745" y2="848" stroke="#F5E9BD" stroke-width="1.3"/>
+<line id="assessment-grid-0793" x1="514" y1="1097" x2="745" y2="866" stroke="#F5E9BD" stroke-width="1.3"/>
+<line id="assessment-grid-0794" x1="514" y1="1115" x2="745" y2="884" stroke="#F5E9BD" stroke-width="1.3"/>
+<line id="assessment-grid-0795" x1="514" y1="1133" x2="745" y2="902" stroke="#F5E9BD" stroke-width="1.3"/>
+<line id="assessment-grid-0796" x1="529" y1="1136" x2="745" y2="920" stroke="#F5E9BD" stroke-width="1.3"/>
+<line id="assessment-grid-0797" x1="547" y1="1136" x2="745" y2="938" stroke="#F5E9BD" stroke-width="1.3"/>
+<line id="assessment-grid-0798" x1="565" y1="1136" x2="745" y2="956" stroke="#F5E9BD" stroke-width="1.3"/>
+<line id="assessment-grid-0799" x1="583" y1="1136" x2="745" y2="974" stroke="#F5E9BD" stroke-width="1.3"/>
+<line id="assessment-grid-0800" x1="601" y1="1136" x2="745" y2="992" stroke="#F5E9BD" stroke-width="1.3"/>
+<line id="assessment-grid-0801" x1="619" y1="1136" x2="745" y2="1010" stroke="#F5E9BD" stroke-width="1.3"/>
+<line id="assessment-grid-0802" x1="637" y1="1136" x2="745" y2="1028" stroke="#F5E9BD" stroke-width="1.3"/>
+<line id="assessment-grid-0803" x1="655" y1="1136" x2="745" y2="1046" stroke="#F5E9BD" stroke-width="1.3"/>
+<line id="assessment-grid-0804" x1="673" y1="1136" x2="745" y2="1064" stroke="#F5E9BD" stroke-width="1.3"/>
+<line id="assessment-grid-0805" x1="691" y1="1136" x2="745" y2="1082" stroke="#F5E9BD" stroke-width="1.3"/>
+<line id="assessment-grid-0806" x1="709" y1="1136" x2="745" y2="1100" stroke="#F5E9BD" stroke-width="1.3"/>
+<line id="assessment-grid-0807" x1="727" y1="1136" x2="745" y2="1118" stroke="#F5E9BD" stroke-width="1.3"/>
+<polyline id="assessment-grid-0808" points="538.0,851.1487071837378 539.5833333333334,849.8046574331715 541.1666666666666,848.0309089754937 542.75,845.7877126090525 544.3333333333334,843.074652955996 545.9166666666666,839.9453023368252 547.5,836.5167189641786 549.0833333333334,832.9699873391405 550.6666666666666,829.5391641026305 552.25,826.4882498713026 553.8333333333334,824.0787104224273 555.4166666666666,822.532839117935 557.0,822.0 558.5833333333334,822.532839117935 560.1666666666666,824.0787104224273 561.75,826.4882498713026 563.3333333333334,829.5391641026305 564.9166666666666,832.9699873391405 566.5,836.5167189641786 568.0833333333334,839.9453023368252 569.6666666666666,843.074652955996 571.25,845.7877126090525 572.8333333333334,848.0309089754937 574.4166666666666,849.8046574331715 576.0,851.1487071837378" fill="none" stroke="#98A9FF" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline id="assessment-grid-0809" points="606.0,851.1487071837378 607.5833333333334,849.8046574331715 609.1666666666666,848.0309089754937 610.75,845.7877126090525 612.3333333333334,843.074652955996 613.9166666666666,839.9453023368252 615.5,836.5167189641786 617.0833333333334,832.9699873391405 618.6666666666666,829.5391641026305 620.25,826.4882498713026 621.8333333333334,824.0787104224273 623.4166666666666,822.532839117935 625.0,822.0 626.5833333333334,822.532839117935 628.1666666666666,824.0787104224273 629.75,826.4882498713026 631.3333333333334,829.5391641026305 632.9166666666666,832.9699873391405 634.5,836.5167189641786 636.0833333333334,839.9453023368252 637.6666666666666,843.074652955996 639.25,845.7877126090525 640.8333333333334,848.0309089754937 642.4166666666666,849.8046574331715 644.0,851.1487071837378" fill="none" stroke="#F7A9DD" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline id="assessment-grid-0810" points="674.0,851.1487071837378 675.5833333333334,849.8046574331715 677.1666666666666,848.0309089754937 678.75,845.7877126090525 680.3333333333334,843.074652955996 681.9166666666666,839.9453023368252 683.5,836.5167189641786 685.0833333333334,832.9699873391405 686.6666666666666,829.5391641026305 688.25,826.4882498713026 689.8333333333334,824.0787104224273 691.4166666666666,822.532839117935 693.0,822.0 694.5833333333334,822.532839117935 696.1666666666666,824.0787104224273 697.75,826.4882498713026 699.3333333333334,829.5391641026305 700.9166666666666,832.9699873391405 702.5,836.5167189641786 704.0833333333334,839.9453023368252 705.6666666666666,843.074652955996 707.25,845.7877126090525 708.8333333333334,848.0309089754937 710.4166666666666,849.8046574331715 712.0,851.1487071837378" fill="none" stroke="#F3B700" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline id="assessment-grid-0811" points="538.0,901.1487071837378 539.5833333333334,899.8046574331715 541.1666666666666,898.0309089754937 542.75,895.7877126090525 544.3333333333334,893.074652955996 545.9166666666666,889.9453023368252 547.5,886.5167189641786 549.0833333333334,882.9699873391405 550.6666666666666,879.5391641026305 552.25,876.4882498713026 553.8333333333334,874.0787104224273 555.4166666666666,872.532839117935 557.0,872.0 558.5833333333334,872.532839117935 560.1666666666666,874.0787104224273 561.75,876.4882498713026 563.3333333333334,879.5391641026305 564.9166666666666,882.9699873391405 566.5,886.5167189641786 568.0833333333334,889.9453023368252 569.6666666666666,893.074652955996 571.25,895.7877126090525 572.8333333333334,898.0309089754937 574.4166666666666,899.8046574331715 576.0,901.1487071837378" fill="none" stroke="#98A9FF" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline id="assessment-grid-0812" points="606.0,901.1487071837378 607.5833333333334,899.8046574331715 609.1666666666666,898.0309089754937 610.75,895.7877126090525 612.3333333333334,893.074652955996 613.9166666666666,889.9453023368252 615.5,886.5167189641786 617.0833333333334,882.9699873391405 618.6666666666666,879.5391641026305 620.25,876.4882498713026 621.8333333333334,874.0787104224273 623.4166666666666,872.532839117935 625.0,872.0 626.5833333333334,872.532839117935 628.1666666666666,874.0787104224273 629.75,876.4882498713026 631.3333333333334,879.5391641026305 632.9166666666666,882.9699873391405 634.5,886.5167189641786 636.0833333333334,889.9453023368252 637.6666666666666,893.074652955996 639.25,895.7877126090525 640.8333333333334,898.0309089754937 642.4166666666666,899.8046574331715 644.0,901.1487071837378" fill="none" stroke="#F7A9DD" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline id="assessment-grid-0813" points="674.0,901.1487071837378 675.5833333333334,899.8046574331715 677.1666666666666,898.0309089754937 678.75,895.7877126090525 680.3333333333334,893.074652955996 681.9166666666666,889.9453023368252 683.5,886.5167189641786 685.0833333333334,882.9699873391405 686.6666666666666,879.5391641026305 688.25,876.4882498713026 689.8333333333334,874.0787104224273 691.4166666666666,872.532839117935 693.0,872.0 694.5833333333334,872.532839117935 696.1666666666666,874.0787104224273 697.75,876.4882498713026 699.3333333333334,879.5391641026305 700.9166666666666,882.9699873391405 702.5,886.5167189641786 704.0833333333334,889.9453023368252 705.6666666666666,893.074652955996 707.25,895.7877126090525 708.8333333333334,898.0309089754937 710.4166666666666,899.8046574331715 712.0,901.1487071837378" fill="none" stroke="#F3B700" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline id="assessment-grid-0814" points="538.0,951.1487071837378 539.5833333333334,949.8046574331715 541.1666666666666,948.0309089754937 542.75,945.7877126090525 544.3333333333334,943.074652955996 545.9166666666666,939.9453023368252 547.5,936.5167189641786 549.0833333333334,932.9699873391405 550.6666666666666,929.5391641026305 552.25,926.4882498713026 553.8333333333334,924.0787104224273 555.4166666666666,922.532839117935 557.0,922.0 558.5833333333334,922.532839117935 560.1666666666666,924.0787104224273 561.75,926.4882498713026 563.3333333333334,929.5391641026305 564.9166666666666,932.9699873391405 566.5,936.5167189641786 568.0833333333334,939.9453023368252 569.6666666666666,943.074652955996 571.25,945.7877126090525 572.8333333333334,948.0309089754937 574.4166666666666,949.8046574331715 576.0,951.1487071837378" fill="none" stroke="#98A9FF" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline id="assessment-grid-0815" points="606.0,951.1487071837378 607.5833333333334,949.8046574331715 609.1666666666666,948.0309089754937 610.75,945.7877126090525 612.3333333333334,943.074652955996 613.9166666666666,939.9453023368252 615.5,936.5167189641786 617.0833333333334,932.9699873391405 618.6666666666666,929.5391641026305 620.25,926.4882498713026 621.8333333333334,924.0787104224273 623.4166666666666,922.532839117935 625.0,922.0 626.5833333333334,922.532839117935 628.1666666666666,924.0787104224273 629.75,926.4882498713026 631.3333333333334,929.5391641026305 632.9166666666666,932.9699873391405 634.5,936.5167189641786 636.0833333333334,939.9453023368252 637.6666666666666,943.074652955996 639.25,945.7877126090525 640.8333333333334,948.0309089754937 642.4166666666666,949.8046574331715 644.0,951.1487071837378" fill="none" stroke="#F7A9DD" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline id="assessment-grid-0816" points="674.0,951.1487071837378 675.5833333333334,949.8046574331715 677.1666666666666,948.0309089754937 678.75,945.7877126090525 680.3333333333334,943.074652955996 681.9166666666666,939.9453023368252 683.5,936.5167189641786 685.0833333333334,932.9699873391405 686.6666666666666,929.5391641026305 688.25,926.4882498713026 689.8333333333334,924.0787104224273 691.4166666666666,922.532839117935 693.0,922.0 694.5833333333334,922.532839117935 696.1666666666666,924.0787104224273 697.75,926.4882498713026 699.3333333333334,929.5391641026305 700.9166666666666,932.9699873391405 702.5,936.5167189641786 704.0833333333334,939.9453023368252 705.6666666666666,943.074652955996 707.25,945.7877126090525 708.8333333333334,948.0309089754937 710.4166666666666,949.8046574331715 712.0,951.1487071837378" fill="none" stroke="#F3B700" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline id="assessment-grid-0817" points="538.0,1001.1487071837378 539.5833333333334,999.8046574331715 541.1666666666666,998.0309089754937 542.75,995.7877126090525 544.3333333333334,993.074652955996 545.9166666666666,989.9453023368252 547.5,986.5167189641786 549.0833333333334,982.9699873391405 550.6666666666666,979.5391641026305 552.25,976.4882498713026 553.8333333333334,974.0787104224273 555.4166666666666,972.532839117935 557.0,972.0 558.5833333333334,972.532839117935 560.1666666666666,974.0787104224273 561.75,976.4882498713026 563.3333333333334,979.5391641026305 564.9166666666666,982.9699873391405 566.5,986.5167189641786 568.0833333333334,989.9453023368252 569.6666666666666,993.074652955996 571.25,995.7877126090525 572.8333333333334,998.0309089754937 574.4166666666666,999.8046574331715 576.0,1001.1487071837378" fill="none" stroke="#98A9FF" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline id="assessment-grid-0818" points="606.0,1001.1487071837378 607.5833333333334,999.8046574331715 609.1666666666666,998.0309089754937 610.75,995.7877126090525 612.3333333333334,993.074652955996 613.9166666666666,989.9453023368252 615.5,986.5167189641786 617.0833333333334,982.9699873391405 618.6666666666666,979.5391641026305 620.25,976.4882498713026 621.8333333333334,974.0787104224273 623.4166666666666,972.532839117935 625.0,972.0 626.5833333333334,972.532839117935 628.1666666666666,974.0787104224273 629.75,976.4882498713026 631.3333333333334,979.5391641026305 632.9166666666666,982.9699873391405 634.5,986.5167189641786 636.0833333333334,989.9453023368252 637.6666666666666,993.074652955996 639.25,995.7877126090525 640.8333333333334,998.0309089754937 642.4166666666666,999.8046574331715 644.0,1001.1487071837378" fill="none" stroke="#F7A9DD" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline id="assessment-grid-0819" points="674.0,1001.1487071837378 675.5833333333334,999.8046574331715 677.1666666666666,998.0309089754937 678.75,995.7877126090525 680.3333333333334,993.074652955996 681.9166666666666,989.9453023368252 683.5,986.5167189641786 685.0833333333334,982.9699873391405 686.6666666666666,979.5391641026305 688.25,976.4882498713026 689.8333333333334,974.0787104224273 691.4166666666666,972.532839117935 693.0,972.0 694.5833333333334,972.532839117935 696.1666666666666,974.0787104224273 697.75,976.4882498713026 699.3333333333334,979.5391641026305 700.9166666666666,982.9699873391405 702.5,986.5167189641786 704.0833333333334,989.9453023368252 705.6666666666666,993.074652955996 707.25,995.7877126090525 708.8333333333334,998.0309089754937 710.4166666666666,999.8046574331715 712.0,1001.1487071837378" fill="none" stroke="#F3B700" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline id="assessment-grid-0820" points="538.0,1051.1487071837378 539.5833333333334,1049.8046574331715 541.1666666666666,1048.0309089754937 542.75,1045.7877126090525 544.3333333333334,1043.074652955996 545.9166666666666,1039.9453023368253 547.5,1036.5167189641786 549.0833333333334,1032.9699873391405 550.6666666666666,1029.5391641026306 552.25,1026.4882498713027 553.8333333333334,1024.0787104224273 555.4166666666666,1022.532839117935 557.0,1022.0 558.5833333333334,1022.532839117935 560.1666666666666,1024.0787104224273 561.75,1026.4882498713027 563.3333333333334,1029.5391641026306 564.9166666666666,1032.9699873391405 566.5,1036.5167189641786 568.0833333333334,1039.9453023368253 569.6666666666666,1043.074652955996 571.25,1045.7877126090525 572.8333333333334,1048.0309089754937 574.4166666666666,1049.8046574331715 576.0,1051.1487071837378" fill="none" stroke="#98A9FF" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline id="assessment-grid-0821" points="606.0,1051.1487071837378 607.5833333333334,1049.8046574331715 609.1666666666666,1048.0309089754937 610.75,1045.7877126090525 612.3333333333334,1043.074652955996 613.9166666666666,1039.9453023368253 615.5,1036.5167189641786 617.0833333333334,1032.9699873391405 618.6666666666666,1029.5391641026306 620.25,1026.4882498713027 621.8333333333334,1024.0787104224273 623.4166666666666,1022.532839117935 625.0,1022.0 626.5833333333334,1022.532839117935 628.1666666666666,1024.0787104224273 629.75,1026.4882498713027 631.3333333333334,1029.5391641026306 632.9166666666666,1032.9699873391405 634.5,1036.5167189641786 636.0833333333334,1039.9453023368253 637.6666666666666,1043.074652955996 639.25,1045.7877126090525 640.8333333333334,1048.0309089754937 642.4166666666666,1049.8046574331715 644.0,1051.1487071837378" fill="none" stroke="#F7A9DD" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline id="assessment-grid-0822" points="674.0,1051.1487071837378 675.5833333333334,1049.8046574331715 677.1666666666666,1048.0309089754937 678.75,1045.7877126090525 680.3333333333334,1043.074652955996 681.9166666666666,1039.9453023368253 683.5,1036.5167189641786 685.0833333333334,1032.9699873391405 686.6666666666666,1029.5391641026306 688.25,1026.4882498713027 689.8333333333334,1024.0787104224273 691.4166666666666,1022.532839117935 693.0,1022.0 694.5833333333334,1022.532839117935 696.1666666666666,1024.0787104224273 697.75,1026.4882498713027 699.3333333333334,1029.5391641026306 700.9166666666666,1032.9699873391405 702.5,1036.5167189641786 704.0833333333334,1039.9453023368253 705.6666666666666,1043.074652955996 707.25,1045.7877126090525 708.8333333333334,1048.0309089754937 710.4166666666666,1049.8046574331715 712.0,1051.1487071837378" fill="none" stroke="#F3B700" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline id="assessment-grid-0823" points="538.0,1101.1487071837378 539.5833333333334,1099.8046574331715 541.1666666666666,1098.0309089754937 542.75,1095.7877126090525 544.3333333333334,1093.074652955996 545.9166666666666,1089.9453023368253 547.5,1086.5167189641786 549.0833333333334,1082.9699873391405 550.6666666666666,1079.5391641026306 552.25,1076.4882498713027 553.8333333333334,1074.0787104224273 555.4166666666666,1072.532839117935 557.0,1072.0 558.5833333333334,1072.532839117935 560.1666666666666,1074.0787104224273 561.75,1076.4882498713027 563.3333333333334,1079.5391641026306 564.9166666666666,1082.9699873391405 566.5,1086.5167189641786 568.0833333333334,1089.9453023368253 569.6666666666666,1093.074652955996 571.25,1095.7877126090525 572.8333333333334,1098.0309089754937 574.4166666666666,1099.8046574331715 576.0,1101.1487071837378" fill="none" stroke="#98A9FF" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline id="assessment-grid-0824" points="606.0,1101.1487071837378 607.5833333333334,1099.8046574331715 609.1666666666666,1098.0309089754937 610.75,1095.7877126090525 612.3333333333334,1093.074652955996 613.9166666666666,1089.9453023368253 615.5,1086.5167189641786 617.0833333333334,1082.9699873391405 618.6666666666666,1079.5391641026306 620.25,1076.4882498713027 621.8333333333334,1074.0787104224273 623.4166666666666,1072.532839117935 625.0,1072.0 626.5833333333334,1072.532839117935 628.1666666666666,1074.0787104224273 629.75,1076.4882498713027 631.3333333333334,1079.5391641026306 632.9166666666666,1082.9699873391405 634.5,1086.5167189641786 636.0833333333334,1089.9453023368253 637.6666666666666,1093.074652955996 639.25,1095.7877126090525 640.8333333333334,1098.0309089754937 642.4166666666666,1099.8046574331715 644.0,1101.1487071837378" fill="none" stroke="#F7A9DD" stroke-width="1.6" stroke-linejoin="round"/>
+<polyline id="assessment-grid-0825" points="674.0,1101.1487071837378 675.5833333333334,1099.8046574331715 677.1666666666666,1098.0309089754937 678.75,1095.7877126090525 680.3333333333334,1093.074652955996 681.9166666666666,1089.9453023368253 683.5,1086.5167189641786 685.0833333333334,1082.9699873391405 686.6666666666666,1079.5391641026306 688.25,1076.4882498713027 689.8333333333334,1074.0787104224273 691.4166666666666,1072.532839117935 693.0,1072.0 694.5833333333334,1072.532839117935 696.1666666666666,1074.0787104224273 697.75,1076.4882498713027 699.3333333333334,1079.5391641026306 700.9166666666666,1082.9699873391405 702.5,1086.5167189641786 704.0833333333334,1089.9453023368253 705.6666666666666,1093.074652955996 707.25,1095.7877126090525 708.8333333333334,1098.0309089754937 710.4166666666666,1099.8046574331715 712.0,1101.1487071837378" fill="none" stroke="#F3B700" stroke-width="1.6" stroke-linejoin="round"/>
+</g>
+<g id="assignment-probabilities">
+<rect id="assignment-probabilities-0826" x="948" y="577" width="86" height="386" rx="0" style="fill:none;stroke:#000000;stroke-width:2.8;stroke-dasharray:3 12;stroke-linecap:round"/>
+<rect id="assignment-probabilities-0827" x="967" y="584" width="48" height="43" rx="0" style="fill:#FFFFFF;stroke:#C8D2DB;stroke-width:1"/>
+<polyline id="assignment-probabilities-0828" points="972.0,619.0596042832296 973.5833333333334,617.6735529779581 975.1666666666666,615.844374880978 976.75,613.5310786280854 978.3333333333334,610.7332358608709 979.9166666666666,607.506093034851 981.5,603.9703664318092 983.0833333333334,600.3127994434886 984.6666666666666,596.7747629808377 986.25,593.6285076797809 987.8333333333334,591.1436701231282 989.4166666666666,589.5494903403705 991.0,589.0 992.5833333333334,589.5494903403705 994.1666666666666,591.1436701231282 995.75,593.6285076797809 997.3333333333334,596.7747629808377 998.9166666666666,600.3127994434886 1000.5,603.9703664318092 1002.0833333333334,607.506093034851 1003.6666666666666,610.7332358608709 1005.25,613.5310786280854 1006.8333333333334,615.844374880978 1008.4166666666666,617.6735529779581 1010.0,619.0596042832296" fill="none" stroke="#F3B700" stroke-width="1.6" stroke-linejoin="round"/>
+<rect id="assignment-probabilities-0829" x="967" y="635" width="48" height="43" rx="0" style="fill:#FFFFFF;stroke:#C8D2DB;stroke-width:1"/>
+<polyline id="assignment-probabilities-0830" points="972.0,670.0596042832296 973.5833333333334,668.6735529779581 975.1666666666666,666.844374880978 976.75,664.5310786280854 978.3333333333334,661.7332358608709 979.9166666666666,658.506093034851 981.5,654.9703664318092 983.0833333333334,651.3127994434886 984.6666666666666,647.7747629808377 986.25,644.6285076797809 987.8333333333334,642.1436701231282 989.4166666666666,640.5494903403705 991.0,640.0 992.5833333333334,640.5494903403705 994.1666666666666,642.1436701231282 995.75,644.6285076797809 997.3333333333334,647.7747629808377 998.9166666666666,651.3127994434886 1000.5,654.9703664318092 1002.0833333333334,658.506093034851 1003.6666666666666,661.7332358608709 1005.25,664.5310786280854 1006.8333333333334,666.844374880978 1008.4166666666666,668.6735529779581 1010.0,670.0596042832296" fill="none" stroke="#F7A9DD" stroke-width="1.6" stroke-linejoin="round"/>
+<rect id="assignment-probabilities-0831" x="967" y="686" width="48" height="43" rx="0" style="fill:#FFFFFF;stroke:#C8D2DB;stroke-width:1"/>
+<polyline id="assignment-probabilities-0832" points="972.0,721.0596042832296 973.5833333333334,719.6735529779581 975.1666666666666,717.844374880978 976.75,715.5310786280854 978.3333333333334,712.7332358608709 979.9166666666666,709.506093034851 981.5,705.9703664318092 983.0833333333334,702.3127994434886 984.6666666666666,698.7747629808377 986.25,695.6285076797809 987.8333333333334,693.1436701231282 989.4166666666666,691.5494903403705 991.0,691.0 992.5833333333334,691.5494903403705 994.1666666666666,693.1436701231282 995.75,695.6285076797809 997.3333333333334,698.7747629808377 998.9166666666666,702.3127994434886 1000.5,705.9703664318092 1002.0833333333334,709.506093034851 1003.6666666666666,712.7332358608709 1005.25,715.5310786280854 1006.8333333333334,717.844374880978 1008.4166666666666,719.6735529779581 1010.0,721.0596042832296" fill="none" stroke="#98A9FF" stroke-width="1.6" stroke-linejoin="round"/>
+<rect id="assignment-probabilities-0833" x="967" y="737" width="48" height="43" rx="0" style="fill:#FFFFFF;stroke:#C8D2DB;stroke-width:1"/>
+<polyline id="assignment-probabilities-0834" points="972.0,772.0596042832296 973.5833333333334,770.6735529779581 975.1666666666666,768.844374880978 976.75,766.5310786280854 978.3333333333334,763.7332358608709 979.9166666666666,760.506093034851 981.5,756.9703664318092 983.0833333333334,753.3127994434886 984.6666666666666,749.7747629808377 986.25,746.6285076797809 987.8333333333334,744.1436701231282 989.4166666666666,742.5494903403705 991.0,742.0 992.5833333333334,742.5494903403705 994.1666666666666,744.1436701231282 995.75,746.6285076797809 997.3333333333334,749.7747629808377 998.9166666666666,753.3127994434886 1000.5,756.9703664318092 1002.0833333333334,760.506093034851 1003.6666666666666,763.7332358608709 1005.25,766.5310786280854 1006.8333333333334,768.844374880978 1008.4166666666666,770.6735529779581 1010.0,772.0596042832296" fill="none" stroke="#F3B700" stroke-width="1.6" stroke-linejoin="round"/>
+<rect id="assignment-probabilities-0835" x="967" y="788" width="48" height="43" rx="0" style="fill:#FFFFFF;stroke:#C8D2DB;stroke-width:1"/>
+<polyline id="assignment-probabilities-0836" points="972.0,823.0596042832296 973.5833333333334,821.6735529779581 975.1666666666666,819.844374880978 976.75,817.5310786280854 978.3333333333334,814.7332358608709 979.9166666666666,811.506093034851 981.5,807.9703664318092 983.0833333333334,804.3127994434886 984.6666666666666,800.7747629808377 986.25,797.6285076797809 987.8333333333334,795.1436701231282 989.4166666666666,793.5494903403705 991.0,793.0 992.5833333333334,793.5494903403705 994.1666666666666,795.1436701231282 995.75,797.6285076797809 997.3333333333334,800.7747629808377 998.9166666666666,804.3127994434886 1000.5,807.9703664318092 1002.0833333333334,811.506093034851 1003.6666666666666,814.7332358608709 1005.25,817.5310786280854 1006.8333333333334,819.844374880978 1008.4166666666666,821.6735529779581 1010.0,823.0596042832296" fill="none" stroke="#F7A9DD" stroke-width="1.6" stroke-linejoin="round"/>
+<rect id="assignment-probabilities-0837" x="967" y="839" width="48" height="43" rx="0" style="fill:#FFFFFF;stroke:#C8D2DB;stroke-width:1"/>
+<polyline id="assignment-probabilities-0838" points="972.0,874.0596042832296 973.5833333333334,872.6735529779581 975.1666666666666,870.844374880978 976.75,868.5310786280854 978.3333333333334,865.7332358608709 979.9166666666666,862.506093034851 981.5,858.9703664318092 983.0833333333334,855.3127994434886 984.6666666666666,851.7747629808377 986.25,848.6285076797809 987.8333333333334,846.1436701231282 989.4166666666666,844.5494903403705 991.0,844.0 992.5833333333334,844.5494903403705 994.1666666666666,846.1436701231282 995.75,848.6285076797809 997.3333333333334,851.7747629808377 998.9166666666666,855.3127994434886 1000.5,858.9703664318092 1002.0833333333334,862.506093034851 1003.6666666666666,865.7332358608709 1005.25,868.5310786280854 1006.8333333333334,870.844374880978 1008.4166666666666,872.6735529779581 1010.0,874.0596042832296" fill="none" stroke="#98A9FF" stroke-width="1.6" stroke-linejoin="round"/>
+<rect id="assignment-probabilities-0839" x="967" y="890" width="48" height="43" rx="0" style="fill:#FFFFFF;stroke:#C8D2DB;stroke-width:1"/>
+<polyline id="assignment-probabilities-0840" points="972.0,925.0596042832296 973.5833333333334,923.6735529779581 975.1666666666666,921.844374880978 976.75,919.5310786280854 978.3333333333334,916.7332358608709 979.9166666666666,913.506093034851 981.5,909.9703664318092 983.0833333333334,906.3127994434886 984.6666666666666,902.7747629808377 986.25,899.6285076797809 987.8333333333334,897.1436701231282 989.4166666666666,895.5494903403705 991.0,895.0 992.5833333333334,895.5494903403705 994.1666666666666,897.1436701231282 995.75,899.6285076797809 997.3333333333334,902.7747629808377 998.9166666666666,906.3127994434886 1000.5,909.9703664318092 1002.0833333333334,913.506093034851 1003.6666666666666,916.7332358608709 1005.25,919.5310786280854 1006.8333333333334,921.844374880978 1008.4166666666666,923.6735529779581 1010.0,925.0596042832296" fill="none" stroke="#F3B700" stroke-width="1.6" stroke-linejoin="round"/>
+<text id="assignment-probabilities-0841" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="25" font-weight="700" fill="#000000"><tspan x="989.0" y="936.0">⋮</tspan></text>
+</g>
+<g id="assignment-arrows">
+<polyline id="assignment-arrows-0842" points="1075,619 1090,596 1120,585 1150,594 1172,602" fill="none" stroke="#00A9E8" stroke-width="2.4" stroke-linejoin="round"/>
+<polygon id="assignment-arrows-0843" points="1172,602 1157.6502087809895,603.4216511424407 1161.9151622083114,591.693029217305" style="fill:#00A9E8;stroke:#00A9E8;stroke-width:1"/>
+<polyline id="assignment-arrows-0864" points="1075,670 1090,647 1120,636 1150,645 1172,660" fill="none" stroke="#00A9E8" stroke-width="2.4" stroke-linejoin="round"/>
+<polygon id="assignment-arrows-0865" points="1172,660 1157.7438227577388,657.8322798987795 1164.774266329265,647.5209626605413" style="fill:#00A9E8;stroke:#00A9E8;stroke-width:1"/>
+<polyline id="assignment-arrows-0886" points="1075,721 1090,698 1120,687 1150,696 1172,718" fill="none" stroke="#00A9E8" stroke-width="2.4" stroke-linejoin="round"/>
+<polygon id="assignment-arrows-0887" points="1172,718 1158.3952655299709,713.219958159179 1167.219958159179,704.3952655299709" style="fill:#00A9E8;stroke:#00A9E8;stroke-width:1"/>
+<polyline id="assignment-arrows-0908" points="1075,772 1090,749 1120,738 1150,747 1172,776" fill="none" stroke="#00A9E8" stroke-width="2.4" stroke-linejoin="round"/>
+<polygon id="assignment-arrows-0909" points="1172,776 1159.171622211704,769.414385122044 1169.1143292725658,761.8716418344936" style="fill:#00A9E8;stroke:#00A9E8;stroke-width:1"/>
+<polyline id="assignment-arrows-0930" points="1075,897 1090,874 1120,863 1150,872 1172,888" fill="none" stroke="#00A9E8" stroke-width="2.4" stroke-linejoin="round"/>
+<polygon id="assignment-arrows-0931" points="1172,888 1157.8162395105662,885.4002810962763 1165.156622297551,875.3072547641725" style="fill:#00A9E8;stroke:#00A9E8;stroke-width:1"/>
+<polyline id="assignment-arrows-0952" points="1075,948 1090,925 1120,914 1150,923 1172,945" fill="none" stroke="#00A9E8" stroke-width="2.4" stroke-linejoin="round"/>
+<polygon id="assignment-arrows-0953" points="1172,945 1158.3952655299709,940.219958159179 1167.219958159179,931.3952655299709" style="fill:#00A9E8;stroke:#00A9E8;stroke-width:1"/>
+</g>
+<g id="assignment-masses">
+<rect id="assignment-masses-0844" x="1197" y="586" width="66" height="42" rx="0" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="assignment-masses-0845" x="1192" y="580" width="66" height="42" rx="0" style="fill:#FEFAEE;stroke:#5D873E;stroke-width:2.2"/>
+<text id="assignment-masses-0846" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="18" font-weight="400" fill="#000000"><tspan x="1206.0" y="601.0">M</tspan></text>
+<text id="assignment-masses-0847" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="11" font-weight="400" fill="#000000"><tspan x="1219.0" y="604.0">1</tspan></text>
+<text id="assignment-masses-0848" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="17" font-weight="400" fill="#000000"><tspan x="1238.0" y="601.0">(A)</tspan></text>
+<ellipse id="assignment-masses-0849" cx="1278" cy="601.0" rx="10" ry="10" style="fill:#FEFAEE;stroke:#000000;stroke-width:1.5"/>
+<line id="assignment-masses-0850" x1="1271.5" y1="601.0" x2="1284.5" y2="601.0" stroke="#000000" stroke-width="1.4"/>
+<line id="assignment-masses-0851" x1="1278" y1="594.5" x2="1278" y2="607.5" stroke="#000000" stroke-width="1.4"/>
+<rect id="assignment-masses-0852" x="1302" y="585" width="68" height="42" rx="0" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="assignment-masses-0853" x="1298" y="580" width="68" height="42" rx="0" style="fill:#FFFFFF;stroke:#5D873E;stroke-width:2.3"/>
+<line id="assignment-masses-0854" x1="1298" y1="590" x2="1308" y2="580" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0855" x1="1298" y1="600" x2="1318" y2="580" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0856" x1="1298" y1="610" x2="1328" y2="580" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0857" x1="1298" y1="620" x2="1338" y2="580" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0858" x1="1306" y1="622" x2="1348" y2="580" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0859" x1="1316" y1="622" x2="1358" y2="580" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0860" x1="1326" y1="622" x2="1366" y2="582" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0861" x1="1336" y1="622" x2="1366" y2="592" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0862" x1="1346" y1="622" x2="1366" y2="602" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0863" x1="1356" y1="622" x2="1366" y2="612" stroke="#86B7F4" stroke-width="1.6"/>
+<rect id="assignment-masses-0866" x="1197" y="644" width="66" height="42" rx="0" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="assignment-masses-0867" x="1192" y="638" width="66" height="42" rx="0" style="fill:#FEFAEE;stroke:#5D873E;stroke-width:2.2"/>
+<text id="assignment-masses-0868" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="18" font-weight="400" fill="#000000"><tspan x="1206.0" y="659.0">M</tspan></text>
+<text id="assignment-masses-0869" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="11" font-weight="400" fill="#000000"><tspan x="1219.0" y="662.0">2</tspan></text>
+<text id="assignment-masses-0870" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="17" font-weight="400" fill="#000000"><tspan x="1238.0" y="659.0">(A)</tspan></text>
+<ellipse id="assignment-masses-0871" cx="1278" cy="659.0" rx="10" ry="10" style="fill:#FEFAEE;stroke:#000000;stroke-width:1.5"/>
+<line id="assignment-masses-0872" x1="1271.5" y1="659.0" x2="1284.5" y2="659.0" stroke="#000000" stroke-width="1.4"/>
+<line id="assignment-masses-0873" x1="1278" y1="652.5" x2="1278" y2="665.5" stroke="#000000" stroke-width="1.4"/>
+<rect id="assignment-masses-0874" x="1302" y="643" width="68" height="42" rx="0" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="assignment-masses-0875" x="1298" y="638" width="68" height="42" rx="0" style="fill:#FFFFFF;stroke:#5D873E;stroke-width:2.3"/>
+<line id="assignment-masses-0876" x1="1298" y1="648" x2="1308" y2="638" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0877" x1="1298" y1="658" x2="1318" y2="638" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0878" x1="1298" y1="668" x2="1328" y2="638" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0879" x1="1298" y1="678" x2="1338" y2="638" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0880" x1="1306" y1="680" x2="1348" y2="638" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0881" x1="1316" y1="680" x2="1358" y2="638" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0882" x1="1326" y1="680" x2="1366" y2="640" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0883" x1="1336" y1="680" x2="1366" y2="650" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0884" x1="1346" y1="680" x2="1366" y2="660" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0885" x1="1356" y1="680" x2="1366" y2="670" stroke="#86B7F4" stroke-width="1.6"/>
+<rect id="assignment-masses-0888" x="1197" y="702" width="66" height="42" rx="0" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="assignment-masses-0889" x="1192" y="696" width="66" height="42" rx="0" style="fill:#FEFAEE;stroke:#5D873E;stroke-width:2.2"/>
+<text id="assignment-masses-0890" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="18" font-weight="400" fill="#000000"><tspan x="1206.0" y="717.0">M</tspan></text>
+<text id="assignment-masses-0891" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="11" font-weight="400" fill="#000000"><tspan x="1219.0" y="720.0">3</tspan></text>
+<text id="assignment-masses-0892" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="17" font-weight="400" fill="#000000"><tspan x="1238.0" y="717.0">(A)</tspan></text>
+<ellipse id="assignment-masses-0893" cx="1278" cy="717.0" rx="10" ry="10" style="fill:#FEFAEE;stroke:#000000;stroke-width:1.5"/>
+<line id="assignment-masses-0894" x1="1271.5" y1="717.0" x2="1284.5" y2="717.0" stroke="#000000" stroke-width="1.4"/>
+<line id="assignment-masses-0895" x1="1278" y1="710.5" x2="1278" y2="723.5" stroke="#000000" stroke-width="1.4"/>
+<rect id="assignment-masses-0896" x="1302" y="701" width="68" height="42" rx="0" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="assignment-masses-0897" x="1298" y="696" width="68" height="42" rx="0" style="fill:#FFFFFF;stroke:#5D873E;stroke-width:2.3"/>
+<line id="assignment-masses-0898" x1="1298" y1="706" x2="1308" y2="696" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0899" x1="1298" y1="716" x2="1318" y2="696" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0900" x1="1298" y1="726" x2="1328" y2="696" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0901" x1="1298" y1="736" x2="1338" y2="696" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0902" x1="1306" y1="738" x2="1348" y2="696" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0903" x1="1316" y1="738" x2="1358" y2="696" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0904" x1="1326" y1="738" x2="1366" y2="698" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0905" x1="1336" y1="738" x2="1366" y2="708" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0906" x1="1346" y1="738" x2="1366" y2="718" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0907" x1="1356" y1="738" x2="1366" y2="728" stroke="#86B7F4" stroke-width="1.6"/>
+<rect id="assignment-masses-0910" x="1197" y="760" width="66" height="42" rx="0" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="assignment-masses-0911" x="1192" y="754" width="66" height="42" rx="0" style="fill:#FEFAEE;stroke:#5D873E;stroke-width:2.2"/>
+<text id="assignment-masses-0912" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="18" font-weight="400" fill="#000000"><tspan x="1206.0" y="775.0">M</tspan></text>
+<text id="assignment-masses-0913" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="11" font-weight="400" fill="#000000"><tspan x="1219.0" y="778.0">4</tspan></text>
+<text id="assignment-masses-0914" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="17" font-weight="400" fill="#000000"><tspan x="1238.0" y="775.0">(A)</tspan></text>
+<ellipse id="assignment-masses-0915" cx="1278" cy="775.0" rx="10" ry="10" style="fill:#FEFAEE;stroke:#000000;stroke-width:1.5"/>
+<line id="assignment-masses-0916" x1="1271.5" y1="775.0" x2="1284.5" y2="775.0" stroke="#000000" stroke-width="1.4"/>
+<line id="assignment-masses-0917" x1="1278" y1="768.5" x2="1278" y2="781.5" stroke="#000000" stroke-width="1.4"/>
+<rect id="assignment-masses-0918" x="1302" y="759" width="68" height="42" rx="0" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="assignment-masses-0919" x="1298" y="754" width="68" height="42" rx="0" style="fill:#FFFFFF;stroke:#5D873E;stroke-width:2.3"/>
+<line id="assignment-masses-0920" x1="1298" y1="764" x2="1308" y2="754" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0921" x1="1298" y1="774" x2="1318" y2="754" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0922" x1="1298" y1="784" x2="1328" y2="754" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0923" x1="1298" y1="794" x2="1338" y2="754" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0924" x1="1306" y1="796" x2="1348" y2="754" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0925" x1="1316" y1="796" x2="1358" y2="754" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0926" x1="1326" y1="796" x2="1366" y2="756" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0927" x1="1336" y1="796" x2="1366" y2="766" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0928" x1="1346" y1="796" x2="1366" y2="776" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0929" x1="1356" y1="796" x2="1366" y2="786" stroke="#86B7F4" stroke-width="1.6"/>
+<rect id="assignment-masses-0932" x="1197" y="872" width="66" height="42" rx="0" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="assignment-masses-0933" x="1192" y="866" width="66" height="42" rx="0" style="fill:#FEFAEE;stroke:#5D873E;stroke-width:2.2"/>
+<text id="assignment-masses-0934" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="18" font-weight="400" fill="#000000"><tspan x="1206.0" y="887.0">M</tspan></text>
+<text id="assignment-masses-0935" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="11" font-weight="400" fill="#000000"><tspan x="1224.5" y="890.0">n−1</tspan></text>
+<text id="assignment-masses-0936" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="16" font-weight="400" fill="#000000"><tspan x="1244.5" y="887.0">(A)</tspan></text>
+<ellipse id="assignment-masses-0937" cx="1278" cy="887.0" rx="10" ry="10" style="fill:#FEFAEE;stroke:#000000;stroke-width:1.5"/>
+<line id="assignment-masses-0938" x1="1271.5" y1="887.0" x2="1284.5" y2="887.0" stroke="#000000" stroke-width="1.4"/>
+<line id="assignment-masses-0939" x1="1278" y1="880.5" x2="1278" y2="893.5" stroke="#000000" stroke-width="1.4"/>
+<rect id="assignment-masses-0940" x="1302" y="871" width="68" height="42" rx="0" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="assignment-masses-0941" x="1298" y="866" width="68" height="42" rx="0" style="fill:#FFFFFF;stroke:#5D873E;stroke-width:2.3"/>
+<line id="assignment-masses-0942" x1="1298" y1="876" x2="1308" y2="866" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0943" x1="1298" y1="886" x2="1318" y2="866" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0944" x1="1298" y1="896" x2="1328" y2="866" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0945" x1="1298" y1="906" x2="1338" y2="866" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0946" x1="1306" y1="908" x2="1348" y2="866" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0947" x1="1316" y1="908" x2="1358" y2="866" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0948" x1="1326" y1="908" x2="1366" y2="868" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0949" x1="1336" y1="908" x2="1366" y2="878" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0950" x1="1346" y1="908" x2="1366" y2="888" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0951" x1="1356" y1="908" x2="1366" y2="898" stroke="#86B7F4" stroke-width="1.6"/>
+<rect id="assignment-masses-0954" x="1197" y="929" width="66" height="42" rx="0" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="assignment-masses-0955" x="1192" y="923" width="66" height="42" rx="0" style="fill:#FEFAEE;stroke:#5D873E;stroke-width:2.2"/>
+<text id="assignment-masses-0956" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="18" font-weight="400" fill="#000000"><tspan x="1206.0" y="944.0">M</tspan></text>
+<text id="assignment-masses-0957" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="11" font-weight="400" fill="#000000"><tspan x="1219.0" y="947.0">n</tspan></text>
+<text id="assignment-masses-0958" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="17" font-weight="400" fill="#000000"><tspan x="1238.0" y="944.0">(A)</tspan></text>
+<ellipse id="assignment-masses-0959" cx="1278" cy="944.0" rx="10" ry="10" style="fill:#FEFAEE;stroke:#000000;stroke-width:1.5"/>
+<line id="assignment-masses-0960" x1="1271.5" y1="944.0" x2="1284.5" y2="944.0" stroke="#000000" stroke-width="1.4"/>
+<line id="assignment-masses-0961" x1="1278" y1="937.5" x2="1278" y2="950.5" stroke="#000000" stroke-width="1.4"/>
+<rect id="assignment-masses-0962" x="1302" y="928" width="68" height="42" rx="0" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="assignment-masses-0963" x="1298" y="923" width="68" height="42" rx="0" style="fill:#FFFFFF;stroke:#5D873E;stroke-width:2.3"/>
+<line id="assignment-masses-0964" x1="1298" y1="933" x2="1308" y2="923" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0965" x1="1298" y1="943" x2="1318" y2="923" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0966" x1="1298" y1="953" x2="1328" y2="923" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0967" x1="1298" y1="963" x2="1338" y2="923" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0968" x1="1306" y1="965" x2="1348" y2="923" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0969" x1="1316" y1="965" x2="1358" y2="923" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0970" x1="1326" y1="965" x2="1366" y2="925" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0971" x1="1336" y1="965" x2="1366" y2="935" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0972" x1="1346" y1="965" x2="1366" y2="945" stroke="#86B7F4" stroke-width="1.6"/>
+<line id="assignment-masses-0973" x1="1356" y1="965" x2="1366" y2="955" stroke="#86B7F4" stroke-width="1.6"/>
+<text id="assignment-masses-0974" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="25" font-weight="700" fill="#000000"><tspan x="1224.0" y="829.0">⋮</tspan></text>
+<text id="assignment-masses-0975" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="25" font-weight="700" fill="#000000"><tspan x="1289.0" y="829.0">⋮</tspan></text>
+</g>
+<g id="fusion">
+<rect id="fusion-0976" x="1393" y="587" width="228" height="373" rx="0" style="fill:none;stroke:#F4A070;stroke-width:2.8;stroke-dasharray:3 12;stroke-linecap:round"/>
+<rect id="fusion-0977" x="1429" y="602" width="62" height="95" rx="7" style="fill:none;stroke:#F7A9DD;stroke-width:1.8;stroke-dasharray:14 10;stroke-linecap:round"/>
+<rect id="fusion-0978" x="1447" y="614" width="25" height="19" rx="2" style="fill:#FFDAD4;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="fusion-0979" points="1447,614 1452,611 1477,611 1472,614" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="fusion-0980" points="1472,614 1477,611 1477,630 1472,633" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="fusion-0981" x="1447" y="643" width="25" height="19" rx="2" style="fill:#FED966;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="fusion-0982" points="1447,643 1452,640 1477,640 1472,643" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="fusion-0983" points="1472,643 1477,640 1477,659 1472,662" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="fusion-0984" x="1447" y="672" width="25" height="19" rx="2" style="fill:#BAACFB;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="fusion-0985" points="1447,672 1452,669 1477,669 1472,672" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="fusion-0986" points="1472,672 1477,669 1477,688 1472,691" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<text id="fusion-0987" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="23" font-weight="700" fill="#000000"><tspan x="1459.5" y="664.0">⋮</tspan></text>
+<rect id="fusion-0988" x="1429" y="721" width="62" height="95" rx="7" style="fill:none;stroke:#F7A9DD;stroke-width:1.8;stroke-dasharray:14 10;stroke-linecap:round"/>
+<rect id="fusion-0989" x="1447" y="733" width="25" height="19" rx="2" style="fill:#FFDAD4;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="fusion-0990" points="1447,733 1452,730 1477,730 1472,733" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="fusion-0991" points="1472,733 1477,730 1477,749 1472,752" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="fusion-0992" x="1447" y="762" width="25" height="19" rx="2" style="fill:#FED966;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="fusion-0993" points="1447,762 1452,759 1477,759 1472,762" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="fusion-0994" points="1472,762 1477,759 1477,778 1472,781" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="fusion-0995" x="1447" y="791" width="25" height="19" rx="2" style="fill:#BAACFB;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="fusion-0996" points="1447,791 1452,788 1477,788 1472,791" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="fusion-0997" points="1472,791 1477,788 1477,807 1472,810" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<text id="fusion-0998" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="23" font-weight="700" fill="#000000"><tspan x="1459.5" y="783.0">⋮</tspan></text>
+<rect id="fusion-0999" x="1429" y="844" width="62" height="95" rx="7" style="fill:none;stroke:#F7A9DD;stroke-width:1.8;stroke-dasharray:14 10;stroke-linecap:round"/>
+<rect id="fusion-1000" x="1447" y="856" width="25" height="19" rx="2" style="fill:#FFDAD4;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="fusion-1001" points="1447,856 1452,853 1477,853 1472,856" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="fusion-1002" points="1472,856 1477,853 1477,872 1472,875" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="fusion-1003" x="1447" y="885" width="25" height="19" rx="2" style="fill:#FED966;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="fusion-1004" points="1447,885 1452,882 1477,882 1472,885" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="fusion-1005" points="1472,885 1477,882 1477,901 1472,904" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<rect id="fusion-1006" x="1447" y="914" width="25" height="19" rx="2" style="fill:#BAACFB;stroke:#1C2730;stroke-width:0.9"/>
+<polygon id="fusion-1007" points="1447,914 1452,911 1477,911 1472,914" style="fill:#F8F8F8;stroke:#1C2730;stroke-width:0.7"/>
+<polygon id="fusion-1008" points="1472,914 1477,911 1477,930 1472,933" style="fill:#D0D0D0;stroke:#1C2730;stroke-width:0.7"/>
+<text id="fusion-1009" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="23" font-weight="700" fill="#000000"><tspan x="1459.5" y="906.0">⋮</tspan></text>
+<text id="fusion-1010" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="25" font-weight="700" fill="#000000"><tspan x="1460.0" y="693.5">⋮</tspan></text>
+<text id="fusion-1011" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="25" font-weight="700" fill="#000000"><tspan x="1460.0" y="816.5">⋮</tspan></text>
+<rect id="fusion-1012" x="1528" y="754" width="68" height="44" rx="0" style="fill:#B9D0DF;stroke:none;stroke-width:1"/>
+<rect id="fusion-1013" x="1523" y="748" width="68" height="44" rx="0" style="fill:#FEFAEE;stroke:#5D873E;stroke-width:2.2"/>
+<text id="fusion-1014" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Sans" font-size="22" font-weight="400" fill="#000000"><tspan x="1557.0" y="770.0">M</tspan></text>
+</g>
+<g id="lower-captions">
+<text id="lower-captions-1015" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="28" font-weight="700" fill="#000000"><tspan x="1170.0" y="994.5">Reliability Assignment</tspan></text>
+<text id="lower-captions-1016" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="28" font-weight="700" fill="#000000"><tspan x="1520.5" y="994.5">Fusion</tspan></text>
+</g>
+<g id="applications">
+<rect id="applications-1017" x="873" y="1018" width="838" height="126" rx="0" style="fill:none;stroke:#000000;stroke-width:2.8;stroke-dasharray:3 12;stroke-linecap:round"/>
+<rect id="applications-1018" x="884" y="1040" width="216" height="91" rx="0" style="fill:#F1E8C9;stroke:#DED6BE;stroke-width:1"/>
+<text id="applications-1019" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="28" font-weight="700" fill="#000000"><tspan x="992.0" y="1070.8">Pattern</tspan><tspan x="992.0" y="1100.2">classification</tspan></text>
+<rect id="applications-1020" x="1128" y="1040" width="216" height="91" rx="0" style="fill:#F1E8C9;stroke:#DED6BE;stroke-width:1"/>
+<text id="applications-1021" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="28" font-weight="700" fill="#000000"><tspan x="1236.0" y="1070.8">Image</tspan><tspan x="1236.0" y="1100.2">classification</tspan></text>
+<rect id="applications-1022" x="1372" y="1040" width="321" height="91" rx="0" style="fill:#F1E8C9;stroke:#DED6BE;stroke-width:1"/>
+<text id="applications-1023" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="28" font-weight="700" fill="#000000"><tspan x="1532.5" y="1070.8">Low- light image</tspan><tspan x="1532.5" y="1100.2">enhancement</tspan></text>
+</g>
+</svg>

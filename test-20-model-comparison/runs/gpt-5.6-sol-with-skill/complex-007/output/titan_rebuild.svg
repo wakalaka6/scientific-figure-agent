@@ -1,0 +1,1720 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1917" height="902" viewBox="0 0 1917 902">
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,9 L8,4.5 z" fill="#000000"/></marker></defs>
+<g id="background-1" data-semantic="background">
+<rect id="background-1" x="0" y="0" width="1917" height="902" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+</g>
+<g id="panel-boundaries-2" data-semantic="panel-boundaries">
+<rect id="panel-boundaries-2" x="13" y="19" width="1892" height="283" fill="none" stroke="#000000" stroke-width="4" stroke-dasharray="17 13"/>
+<rect id="panel-boundaries-3" x="13" y="313" width="772" height="586" fill="none" stroke="#000000" stroke-width="3"/>
+<line id="panel-boundaries-4" x1="20" y1="586" x2="774" y2="586" stroke="#000000" stroke-width="3" fill="none" stroke-dasharray="2 6"/>
+<rect id="panel-boundaries-5" x="794" y="313" width="1111" height="586" fill="none" stroke="#000000" stroke-width="4" stroke-dasharray="20 10 3 10"/>
+</g>
+<g id="dataset-large-back-3" data-semantic="dataset-large-back">
+<rect id="dataset-large-back-shadow" x="52" y="52" width="401" height="194" fill="#FDD7FC" stroke="#000000" stroke-width="2.4"/>
+<rect id="dataset-large-back-body" x="41" y="39" width="401" height="194" fill="#FDD7FC" stroke="#000000" stroke-width="2.4"/>
+<text id="dataset-large-back-left-ellipsis" x="61.0" y="153.28" text-anchor="middle" style="font-family:Liberation Serif;font-size:24px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="61.0" dy="0">⋮</tspan>
+</text>
+<text id="dataset-large-back-mid-ellipsis" x="244.48" y="153.28" text-anchor="middle" style="font-family:Liberation Serif;font-size:24px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="244.48" dy="0">⋮</tspan>
+</text>
+<text id="dataset-large-back-right-ellipsis" x="386.0" y="153.28" text-anchor="middle" style="font-family:Liberation Serif;font-size:24px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="386.0" dy="0">⋮</tspan>
+</text>
+<text id="dataset-large-back-ket-0" x="50" y="69.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="50" dy="0">|0⟩</tspan>
+</text>
+<line id="dataset-large-back-wire-0" x1="86" y1="64" x2="420" y2="64" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="dataset-large-back-13" points="100.10,52.04 113.90,52.04 120.80,64.00 113.90,75.96 100.10,75.96 93.20,64.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-large-back-14" points="149.00,51.12 161.88,64.00 149.00,76.88 136.12,64.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="dataset-large-back-15" cx="191.0" cy="64.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-large-back-16" points="226.10,52.04 239.90,52.04 246.80,64.00 239.90,75.96 226.10,75.96 219.20,64.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-large-back-17" points="275.00,51.12 287.88,64.00 275.00,76.88 262.12,64.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="dataset-large-back-18" cx="317.0" cy="64.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="dataset-large-back-19" x="399" y="53" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="dataset-large-back-20" x1="404" y1="68.25" x2="417.0" y2="57.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="dataset-large-back-21" x1="412.25" y1="57.5" x2="417.0" y2="57.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-large-back-22" x1="417.0" y1="57.5" x2="416.0" y2="62.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-large-back-23" x1="403" y1="68.75" x2="420" y2="68.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="dataset-large-back-ket-1" x="50" y="100.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="50" dy="0">|0⟩</tspan>
+</text>
+<line id="dataset-large-back-wire-1" x1="86" y1="95" x2="420" y2="95" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="dataset-large-back-26" points="100.10,83.04 113.90,83.04 120.80,95.00 113.90,106.96 100.10,106.96 93.20,95.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-large-back-27" points="149.00,82.12 161.88,95.00 149.00,107.88 136.12,95.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="dataset-large-back-28" cx="191.0" cy="95.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-large-back-29" points="226.10,83.04 239.90,83.04 246.80,95.00 239.90,106.96 226.10,106.96 219.20,95.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-large-back-30" points="275.00,82.12 287.88,95.00 275.00,107.88 262.12,95.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="dataset-large-back-31" cx="317.0" cy="95.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="dataset-large-back-32" x="399" y="84" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="dataset-large-back-33" x1="404" y1="99.25" x2="417.0" y2="88.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="dataset-large-back-34" x1="412.25" y1="88.5" x2="417.0" y2="88.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-large-back-35" x1="417.0" y1="88.5" x2="416.0" y2="93.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-large-back-36" x1="403" y1="99.75" x2="420" y2="99.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="dataset-large-back-ket-2" x="50" y="131.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="50" dy="0">|0⟩</tspan>
+</text>
+<line id="dataset-large-back-wire-2" x1="86" y1="126" x2="420" y2="126" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="dataset-large-back-39" points="100.10,114.04 113.90,114.04 120.80,126.00 113.90,137.96 100.10,137.96 93.20,126.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-large-back-40" points="149.00,113.12 161.88,126.00 149.00,138.88 136.12,126.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="dataset-large-back-41" cx="191.0" cy="126.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-large-back-42" points="226.10,114.04 239.90,114.04 246.80,126.00 239.90,137.96 226.10,137.96 219.20,126.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-large-back-43" points="275.00,113.12 287.88,126.00 275.00,138.88 262.12,126.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="dataset-large-back-44" cx="317.0" cy="126.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="dataset-large-back-45" x="399" y="115" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="dataset-large-back-46" x1="404" y1="130.25" x2="417.0" y2="119.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="dataset-large-back-47" x1="412.25" y1="119.5" x2="417.0" y2="119.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-large-back-48" x1="417.0" y1="119.5" x2="416.0" y2="124.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-large-back-49" x1="403" y1="130.75" x2="420" y2="130.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="dataset-large-back-ket-3" x="50" y="181.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="50" dy="0">|0⟩</tspan>
+</text>
+<line id="dataset-large-back-wire-3" x1="86" y1="176" x2="420" y2="176" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="dataset-large-back-52" points="100.10,164.04 113.90,164.04 120.80,176.00 113.90,187.96 100.10,187.96 93.20,176.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-large-back-53" points="149.00,163.12 161.88,176.00 149.00,188.88 136.12,176.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="dataset-large-back-54" cx="191.0" cy="176.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-large-back-55" points="226.10,164.04 239.90,164.04 246.80,176.00 239.90,187.96 226.10,187.96 219.20,176.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-large-back-56" points="275.00,163.12 287.88,176.00 275.00,188.88 262.12,176.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="dataset-large-back-57" cx="317.0" cy="176.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="dataset-large-back-58" x="399" y="165" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="dataset-large-back-59" x1="404" y1="180.25" x2="417.0" y2="169.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="dataset-large-back-60" x1="412.25" y1="169.5" x2="417.0" y2="169.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-large-back-61" x1="417.0" y1="169.5" x2="416.0" y2="174.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-large-back-62" x1="403" y1="180.75" x2="420" y2="180.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="dataset-large-back-ket-4" x="50" y="212.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="50" dy="0">|0⟩</tspan>
+</text>
+<line id="dataset-large-back-wire-4" x1="86" y1="207" x2="420" y2="207" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="dataset-large-back-65" points="100.10,195.04 113.90,195.04 120.80,207.00 113.90,218.96 100.10,218.96 93.20,207.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-large-back-66" points="149.00,194.12 161.88,207.00 149.00,219.88 136.12,207.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="dataset-large-back-67" cx="191.0" cy="207.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-large-back-68" points="226.10,195.04 239.90,195.04 246.80,207.00 239.90,218.96 226.10,218.96 219.20,207.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-large-back-69" points="275.00,194.12 287.88,207.00 275.00,219.88 262.12,207.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="dataset-large-back-70" cx="317.0" cy="207.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="dataset-large-back-71" x="399" y="196" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="dataset-large-back-72" x1="404" y1="211.25" x2="417.0" y2="200.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="dataset-large-back-73" x1="412.25" y1="200.5" x2="417.0" y2="200.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-large-back-74" x1="417.0" y1="200.5" x2="416.0" y2="205.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-large-back-75" x1="403" y1="211.75" x2="420" y2="211.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<rect id="dataset-large-back-cnot-a" x="337" y="54" width="13" height="51" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<rect id="dataset-large-back-cnot-b" x="360" y="166" width="13" height="51" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+</g>
+<g id="dataset-large-front-4" data-semantic="dataset-large-front">
+<rect id="dataset-large-front-body" x="52" y="55" width="400" height="192" fill="#FDD7FC" stroke="#000000" stroke-width="2.4"/>
+<text id="dataset-large-front-left-ellipsis" x="72.0" y="168.32" text-anchor="middle" style="font-family:Liberation Serif;font-size:24px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="72.0" dy="0">⋮</tspan>
+</text>
+<text id="dataset-large-front-mid-ellipsis" x="255.0" y="168.32" text-anchor="middle" style="font-family:Liberation Serif;font-size:24px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="255.0" dy="0">⋮</tspan>
+</text>
+<text id="dataset-large-front-right-ellipsis" x="396.0" y="168.32" text-anchor="middle" style="font-family:Liberation Serif;font-size:24px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="396.0" dy="0">⋮</tspan>
+</text>
+<text id="dataset-large-front-ket-0" x="61" y="85.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="61" dy="0">|0⟩</tspan>
+</text>
+<line id="dataset-large-front-wire-0" x1="97" y1="80" x2="430" y2="80" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="dataset-large-front-84" points="111.10,68.04 124.90,68.04 131.80,80.00 124.90,91.96 111.10,91.96 104.20,80.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-large-front-85" points="159.80,67.12 172.68,80.00 159.80,92.88 146.92,80.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="dataset-large-front-86" cx="201.6" cy="80.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-large-front-87" points="236.50,68.04 250.30,68.04 257.20,80.00 250.30,91.96 236.50,91.96 229.60,80.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-large-front-88" points="285.20,67.12 298.08,80.00 285.20,92.88 272.32,80.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="dataset-large-front-89" cx="327.0" cy="80.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="dataset-large-front-90" x="409" y="69" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="dataset-large-front-91" x1="414" y1="84.25" x2="427.0" y2="73.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="dataset-large-front-92" x1="422.25" y1="73.5" x2="427.0" y2="73.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-large-front-93" x1="427.0" y1="73.5" x2="426.0" y2="78.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-large-front-94" x1="413" y1="84.75" x2="430" y2="84.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="dataset-large-front-ket-1" x="61" y="116.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="61" dy="0">|0⟩</tspan>
+</text>
+<line id="dataset-large-front-wire-1" x1="97" y1="111" x2="430" y2="111" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="dataset-large-front-97" points="111.10,99.04 124.90,99.04 131.80,111.00 124.90,122.96 111.10,122.96 104.20,111.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-large-front-98" points="159.80,98.12 172.68,111.00 159.80,123.88 146.92,111.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="dataset-large-front-99" cx="201.6" cy="111.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-large-front-100" points="236.50,99.04 250.30,99.04 257.20,111.00 250.30,122.96 236.50,122.96 229.60,111.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-large-front-101" points="285.20,98.12 298.08,111.00 285.20,123.88 272.32,111.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="dataset-large-front-102" cx="327.0" cy="111.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="dataset-large-front-103" x="409" y="100" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="dataset-large-front-104" x1="414" y1="115.25" x2="427.0" y2="104.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="dataset-large-front-105" x1="422.25" y1="104.5" x2="427.0" y2="104.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-large-front-106" x1="427.0" y1="104.5" x2="426.0" y2="109.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-large-front-107" x1="413" y1="115.75" x2="430" y2="115.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="dataset-large-front-ket-2" x="61" y="147.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="61" dy="0">|0⟩</tspan>
+</text>
+<line id="dataset-large-front-wire-2" x1="97" y1="142" x2="430" y2="142" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="dataset-large-front-110" points="111.10,130.04 124.90,130.04 131.80,142.00 124.90,153.96 111.10,153.96 104.20,142.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-large-front-111" points="159.80,129.12 172.68,142.00 159.80,154.88 146.92,142.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="dataset-large-front-112" cx="201.6" cy="142.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-large-front-113" points="236.50,130.04 250.30,130.04 257.20,142.00 250.30,153.96 236.50,153.96 229.60,142.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-large-front-114" points="285.20,129.12 298.08,142.00 285.20,154.88 272.32,142.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="dataset-large-front-115" cx="327.0" cy="142.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="dataset-large-front-116" x="409" y="131" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="dataset-large-front-117" x1="414" y1="146.25" x2="427.0" y2="135.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="dataset-large-front-118" x1="422.25" y1="135.5" x2="427.0" y2="135.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-large-front-119" x1="427.0" y1="135.5" x2="426.0" y2="140.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-large-front-120" x1="413" y1="146.75" x2="430" y2="146.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="dataset-large-front-ket-3" x="61" y="195.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="61" dy="0">|0⟩</tspan>
+</text>
+<line id="dataset-large-front-wire-3" x1="97" y1="190" x2="430" y2="190" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="dataset-large-front-123" points="111.10,178.04 124.90,178.04 131.80,190.00 124.90,201.96 111.10,201.96 104.20,190.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-large-front-124" points="159.80,177.12 172.68,190.00 159.80,202.88 146.92,190.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="dataset-large-front-125" cx="201.6" cy="190.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-large-front-126" points="236.50,178.04 250.30,178.04 257.20,190.00 250.30,201.96 236.50,201.96 229.60,190.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-large-front-127" points="285.20,177.12 298.08,190.00 285.20,202.88 272.32,190.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="dataset-large-front-128" cx="327.0" cy="190.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="dataset-large-front-129" x="409" y="179" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="dataset-large-front-130" x1="414" y1="194.25" x2="427.0" y2="183.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="dataset-large-front-131" x1="422.25" y1="183.5" x2="427.0" y2="183.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-large-front-132" x1="427.0" y1="183.5" x2="426.0" y2="188.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-large-front-133" x1="413" y1="194.75" x2="430" y2="194.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="dataset-large-front-ket-4" x="61" y="226.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="61" dy="0">|0⟩</tspan>
+</text>
+<line id="dataset-large-front-wire-4" x1="97" y1="221" x2="430" y2="221" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="dataset-large-front-136" points="111.10,209.04 124.90,209.04 131.80,221.00 124.90,232.96 111.10,232.96 104.20,221.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-large-front-137" points="159.80,208.12 172.68,221.00 159.80,233.88 146.92,221.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="dataset-large-front-138" cx="201.6" cy="221.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-large-front-139" points="236.50,209.04 250.30,209.04 257.20,221.00 250.30,232.96 236.50,232.96 229.60,221.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-large-front-140" points="285.20,208.12 298.08,221.00 285.20,233.88 272.32,221.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="dataset-large-front-141" cx="327.0" cy="221.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="dataset-large-front-142" x="409" y="210" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="dataset-large-front-143" x1="414" y1="225.25" x2="427.0" y2="214.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="dataset-large-front-144" x1="422.25" y1="214.5" x2="427.0" y2="214.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-large-front-145" x1="427.0" y1="214.5" x2="426.0" y2="219.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-large-front-146" x1="413" y1="225.75" x2="430" y2="225.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<rect id="dataset-large-front-cnot-a" x="347" y="70" width="13" height="51" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<rect id="dataset-large-front-cnot-b" x="370" y="180" width="13" height="51" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+</g>
+<g id="dataset-medium-back-5" data-semantic="dataset-medium-back">
+<rect id="dataset-medium-back-shadow" x="95" y="101" width="370" height="163" fill="#C9E5B4" stroke="#000000" stroke-width="2.4"/>
+<rect id="dataset-medium-back-body" x="84" y="88" width="370" height="163" fill="#C9E5B4" stroke="#000000" stroke-width="2.4"/>
+<text id="dataset-medium-back-ket-0" x="93" y="116.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="93" dy="0">|0⟩</tspan>
+</text>
+<line id="dataset-medium-back-wire-0" x1="129" y1="111" x2="432" y2="111" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="dataset-medium-back-153" points="143.10,99.04 156.90,99.04 163.80,111.00 156.90,122.96 143.10,122.96 136.20,111.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-medium-back-154" points="185.80,98.12 198.68,111.00 185.80,123.88 172.92,111.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="dataset-medium-back-155" cx="221.6" cy="111.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-medium-back-156" points="250.50,99.04 264.30,99.04 271.20,111.00 264.30,122.96 250.50,122.96 243.60,111.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-medium-back-157" points="293.20,98.12 306.08,111.00 293.20,123.88 280.32,111.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="dataset-medium-back-158" cx="329.0" cy="111.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="dataset-medium-back-159" x="411" y="100" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="dataset-medium-back-160" x1="416" y1="115.25" x2="429.0" y2="104.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="dataset-medium-back-161" x1="424.25" y1="104.5" x2="429.0" y2="104.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-medium-back-162" x1="429.0" y1="104.5" x2="428.0" y2="109.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-medium-back-163" x1="415" y1="115.75" x2="432" y2="115.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="dataset-medium-back-ket-1" x="93" y="147.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="93" dy="0">|0⟩</tspan>
+</text>
+<line id="dataset-medium-back-wire-1" x1="129" y1="142" x2="432" y2="142" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="dataset-medium-back-166" points="143.10,130.04 156.90,130.04 163.80,142.00 156.90,153.96 143.10,153.96 136.20,142.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-medium-back-167" points="185.80,129.12 198.68,142.00 185.80,154.88 172.92,142.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="dataset-medium-back-168" cx="221.6" cy="142.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-medium-back-169" points="250.50,130.04 264.30,130.04 271.20,142.00 264.30,153.96 250.50,153.96 243.60,142.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-medium-back-170" points="293.20,129.12 306.08,142.00 293.20,154.88 280.32,142.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="dataset-medium-back-171" cx="329.0" cy="142.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="dataset-medium-back-172" x="411" y="131" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="dataset-medium-back-173" x1="416" y1="146.25" x2="429.0" y2="135.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="dataset-medium-back-174" x1="424.25" y1="135.5" x2="429.0" y2="135.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-medium-back-175" x1="429.0" y1="135.5" x2="428.0" y2="140.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-medium-back-176" x1="415" y1="146.75" x2="432" y2="146.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="dataset-medium-back-ket-2" x="93" y="178.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="93" dy="0">|0⟩</tspan>
+</text>
+<line id="dataset-medium-back-wire-2" x1="129" y1="173" x2="432" y2="173" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="dataset-medium-back-179" points="143.10,161.04 156.90,161.04 163.80,173.00 156.90,184.96 143.10,184.96 136.20,173.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-medium-back-180" points="185.80,160.12 198.68,173.00 185.80,185.88 172.92,173.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="dataset-medium-back-181" cx="221.6" cy="173.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-medium-back-182" points="250.50,161.04 264.30,161.04 271.20,173.00 264.30,184.96 250.50,184.96 243.60,173.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-medium-back-183" points="293.20,160.12 306.08,173.00 293.20,185.88 280.32,173.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="dataset-medium-back-184" cx="329.0" cy="173.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="dataset-medium-back-185" x="411" y="162" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="dataset-medium-back-186" x1="416" y1="177.25" x2="429.0" y2="166.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="dataset-medium-back-187" x1="424.25" y1="166.5" x2="429.0" y2="166.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-medium-back-188" x1="429.0" y1="166.5" x2="428.0" y2="171.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-medium-back-189" x1="415" y1="177.75" x2="432" y2="177.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="dataset-medium-back-ket-3" x="93" y="233.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="93" dy="0">|0⟩</tspan>
+</text>
+<line id="dataset-medium-back-wire-3" x1="129" y1="228" x2="432" y2="228" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="dataset-medium-back-192" points="143.10,216.04 156.90,216.04 163.80,228.00 156.90,239.96 143.10,239.96 136.20,228.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-medium-back-193" points="185.80,215.12 198.68,228.00 185.80,240.88 172.92,228.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="dataset-medium-back-194" cx="221.6" cy="228.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-medium-back-195" points="250.50,216.04 264.30,216.04 271.20,228.00 264.30,239.96 250.50,239.96 243.60,228.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-medium-back-196" points="293.20,215.12 306.08,228.00 293.20,240.88 280.32,228.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="dataset-medium-back-197" cx="329.0" cy="228.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="dataset-medium-back-198" x="411" y="217" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="dataset-medium-back-199" x1="416" y1="232.25" x2="429.0" y2="221.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="dataset-medium-back-200" x1="424.25" y1="221.5" x2="429.0" y2="221.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-medium-back-201" x1="429.0" y1="221.5" x2="428.0" y2="226.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-medium-back-202" x1="415" y1="232.75" x2="432" y2="232.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<rect id="dataset-medium-back-cnot-a" x="349" y="101" width="13" height="51" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<rect id="dataset-medium-back-cnot-b" x="372" y="163" width="13" height="75" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+</g>
+<g id="dataset-medium-front-6" data-semantic="dataset-medium-front">
+<rect id="dataset-medium-front-body" x="95" y="103" width="358" height="149" fill="#C9E5B4" stroke="#000000" stroke-width="2.4"/>
+<text id="dataset-medium-front-ket-0" x="104" y="131.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="104" dy="0">|0⟩</tspan>
+</text>
+<line id="dataset-medium-front-wire-0" x1="140" y1="126" x2="431" y2="126" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="dataset-medium-front-208" points="154.10,114.04 167.90,114.04 174.80,126.00 167.90,137.96 154.10,137.96 147.20,126.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-medium-front-209" points="194.40,113.12 207.28,126.00 194.40,138.88 181.52,126.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="dataset-medium-front-210" cx="227.8" cy="126.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-medium-front-211" points="254.30,114.04 268.10,114.04 275.00,126.00 268.10,137.96 254.30,137.96 247.40,126.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-medium-front-212" points="294.60,113.12 307.48,126.00 294.60,138.88 281.72,126.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="dataset-medium-front-213" cx="328.0" cy="126.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="dataset-medium-front-214" x="410" y="115" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="dataset-medium-front-215" x1="415" y1="130.25" x2="428.0" y2="119.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="dataset-medium-front-216" x1="423.25" y1="119.5" x2="428.0" y2="119.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-medium-front-217" x1="428.0" y1="119.5" x2="427.0" y2="124.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-medium-front-218" x1="414" y1="130.75" x2="431" y2="130.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="dataset-medium-front-ket-1" x="104" y="162.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="104" dy="0">|0⟩</tspan>
+</text>
+<line id="dataset-medium-front-wire-1" x1="140" y1="157" x2="431" y2="157" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="dataset-medium-front-221" points="154.10,145.04 167.90,145.04 174.80,157.00 167.90,168.96 154.10,168.96 147.20,157.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-medium-front-222" points="194.40,144.12 207.28,157.00 194.40,169.88 181.52,157.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="dataset-medium-front-223" cx="227.8" cy="157.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-medium-front-224" points="254.30,145.04 268.10,145.04 275.00,157.00 268.10,168.96 254.30,168.96 247.40,157.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-medium-front-225" points="294.60,144.12 307.48,157.00 294.60,169.88 281.72,157.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="dataset-medium-front-226" cx="328.0" cy="157.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="dataset-medium-front-227" x="410" y="146" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="dataset-medium-front-228" x1="415" y1="161.25" x2="428.0" y2="150.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="dataset-medium-front-229" x1="423.25" y1="150.5" x2="428.0" y2="150.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-medium-front-230" x1="428.0" y1="150.5" x2="427.0" y2="155.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-medium-front-231" x1="414" y1="161.75" x2="431" y2="161.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="dataset-medium-front-ket-2" x="104" y="193.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="104" dy="0">|0⟩</tspan>
+</text>
+<line id="dataset-medium-front-wire-2" x1="140" y1="188" x2="431" y2="188" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="dataset-medium-front-234" points="154.10,176.04 167.90,176.04 174.80,188.00 167.90,199.96 154.10,199.96 147.20,188.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-medium-front-235" points="194.40,175.12 207.28,188.00 194.40,200.88 181.52,188.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="dataset-medium-front-236" cx="227.8" cy="188.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-medium-front-237" points="254.30,176.04 268.10,176.04 275.00,188.00 268.10,199.96 254.30,199.96 247.40,188.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-medium-front-238" points="294.60,175.12 307.48,188.00 294.60,200.88 281.72,188.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="dataset-medium-front-239" cx="328.0" cy="188.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="dataset-medium-front-240" x="410" y="177" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="dataset-medium-front-241" x1="415" y1="192.25" x2="428.0" y2="181.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="dataset-medium-front-242" x1="423.25" y1="181.5" x2="428.0" y2="181.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-medium-front-243" x1="428.0" y1="181.5" x2="427.0" y2="186.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-medium-front-244" x1="414" y1="192.75" x2="431" y2="192.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="dataset-medium-front-ket-3" x="104" y="234.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="104" dy="0">|0⟩</tspan>
+</text>
+<line id="dataset-medium-front-wire-3" x1="140" y1="229" x2="431" y2="229" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="dataset-medium-front-247" points="154.10,217.04 167.90,217.04 174.80,229.00 167.90,240.96 154.10,240.96 147.20,229.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-medium-front-248" points="194.40,216.12 207.28,229.00 194.40,241.88 181.52,229.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="dataset-medium-front-249" cx="227.8" cy="229.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-medium-front-250" points="254.30,217.04 268.10,217.04 275.00,229.00 268.10,240.96 254.30,240.96 247.40,229.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-medium-front-251" points="294.60,216.12 307.48,229.00 294.60,241.88 281.72,229.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="dataset-medium-front-252" cx="328.0" cy="229.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="dataset-medium-front-253" x="410" y="218" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="dataset-medium-front-254" x1="415" y1="233.25" x2="428.0" y2="222.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="dataset-medium-front-255" x1="423.25" y1="222.5" x2="428.0" y2="222.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-medium-front-256" x1="428.0" y1="222.5" x2="427.0" y2="227.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-medium-front-257" x1="414" y1="233.75" x2="431" y2="233.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<rect id="dataset-medium-front-cnot-a" x="348" y="116" width="13" height="51" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<rect id="dataset-medium-front-cnot-b" x="371" y="178" width="13" height="61" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+</g>
+<g id="dataset-small-7" data-semantic="dataset-small">
+<rect id="dataset-small-shadow" x="188" y="144" width="280" height="122" fill="#FFF1CA" stroke="#000000" stroke-width="2.4"/>
+<rect id="dataset-small-body" x="177" y="131" width="280" height="122" fill="#FFF1CA" stroke="#000000" stroke-width="2.4"/>
+<text id="dataset-small-ket-0" x="186" y="160.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="186" dy="0">|0⟩</tspan>
+</text>
+<line id="dataset-small-wire-0" x1="222" y1="155" x2="435" y2="155" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="dataset-small-264" points="236.10,143.04 249.90,143.04 256.80,155.00 249.90,166.96 236.10,166.96 229.20,155.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-small-265" points="287.50,142.12 300.38,155.00 287.50,167.88 274.62,155.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="dataset-small-266" cx="332.0" cy="155.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="dataset-small-267" x="414" y="144" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="dataset-small-268" x1="419" y1="159.25" x2="432.0" y2="148.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="dataset-small-269" x1="427.25" y1="148.5" x2="432.0" y2="148.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-small-270" x1="432.0" y1="148.5" x2="431.0" y2="153.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-small-271" x1="418" y1="159.75" x2="435" y2="159.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="dataset-small-ket-1" x="186" y="197.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="186" dy="0">|0⟩</tspan>
+</text>
+<line id="dataset-small-wire-1" x1="222" y1="192.0" x2="435" y2="192.0" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="dataset-small-274" points="236.10,180.04 249.90,180.04 256.80,192.00 249.90,203.96 236.10,203.96 229.20,192.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-small-275" points="287.50,179.12 300.38,192.00 287.50,204.88 274.62,192.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="dataset-small-276" cx="332.0" cy="192.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="dataset-small-277" x="414" y="181.0" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="dataset-small-278" x1="419" y1="196.25" x2="432.0" y2="185.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="dataset-small-279" x1="427.25" y1="185.5" x2="432.0" y2="185.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-small-280" x1="432.0" y1="185.5" x2="431.0" y2="190.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-small-281" x1="418" y1="196.75" x2="435" y2="196.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="dataset-small-ket-2" x="186" y="234.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="186" dy="0">|0⟩</tspan>
+</text>
+<line id="dataset-small-wire-2" x1="222" y1="229" x2="435" y2="229" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="dataset-small-284" points="236.10,217.04 249.90,217.04 256.80,229.00 249.90,240.96 236.10,240.96 229.20,229.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="dataset-small-285" points="287.50,216.12 300.38,229.00 287.50,241.88 274.62,229.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="dataset-small-286" cx="332.0" cy="229.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="dataset-small-287" x="414" y="218" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="dataset-small-288" x1="419" y1="233.25" x2="432.0" y2="222.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="dataset-small-289" x1="427.25" y1="222.5" x2="432.0" y2="222.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-small-290" x1="432.0" y1="222.5" x2="431.0" y2="227.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="dataset-small-291" x1="418" y1="233.75" x2="435" y2="233.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<rect id="dataset-small-cnot-a" x="352" y="145" width="13" height="57.0" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<rect id="dataset-small-cnot-b" x="375" y="182.0" width="13" height="57.0" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+</g>
+<g id="root-8" data-semantic="root">
+<text id="root-294" x="37" y="285.24" text-anchor="start" style="font-family:Liberation Serif;font-size:36px;font-weight:700;font-style:normal;fill:#000000">
+<tspan x="37" dy="0">(a) Dataset Construction</tspan>
+</text>
+</g>
+<g id="apfa-transform-9" data-semantic="apfa-transform">
+<text id="apfa-transform-295" x="499.0" y="119.18" text-anchor="middle" style="font-family:Liberation Serif;font-size:27px;font-weight:700;font-style:normal;fill:#000000">
+<tspan x="499.0" dy="0">APFA</tspan>
+</text>
+<line id="apfa-transform-296" x1="582" y1="106" x2="560" y2="93" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="apfa-transform-297" x1="582" y1="106" x2="572" y2="76" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="apfa-transform-298" x1="582" y1="106" x2="586" y2="88" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="apfa-transform-299" x1="582" y1="106" x2="602" y2="78" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="apfa-transform-300" x1="582" y1="106" x2="613" y2="97" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="apfa-transform-301" x1="582" y1="106" x2="608" y2="116" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="apfa-transform-302" x1="582" y1="106" x2="590" y2="128" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="apfa-transform-303" x1="582" y1="106" x2="570" y2="121" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="apfa-transform-304" x1="582" y1="106" x2="553" y2="109" stroke="#000000" stroke-width="1.6" fill="none"/>
+<ellipse id="apfa-transform-305" cx="582.0" cy="106.0" rx="15.0" ry="12.0" fill="#FFFFFF" stroke="#000000" stroke-width="2.2"/>
+<ellipse id="apfa-transform-306" cx="560.0" cy="93.0" rx="5.0" ry="5.0" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="apfa-transform-307" cx="572.0" cy="76.0" rx="5.0" ry="5.0" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="apfa-transform-308" cx="586.0" cy="88.0" rx="5.0" ry="5.0" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="apfa-transform-309" cx="602.0" cy="78.0" rx="5.0" ry="5.0" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="apfa-transform-310" cx="613.0" cy="97.0" rx="5.0" ry="5.0" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="apfa-transform-311" cx="608.0" cy="116.0" rx="5.0" ry="5.0" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="apfa-transform-312" cx="590.0" cy="128.0" rx="5.0" ry="5.0" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="apfa-transform-313" cx="570.0" cy="121.0" rx="5.0" ry="5.0" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="apfa-transform-314" cx="553.0" cy="109.0" rx="5.0" ry="5.0" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<line id="apfa-transform-315" x1="466" y1="177" x2="598" y2="177" stroke="#000000" stroke-width="5" fill="none" marker-end="url(#arrow)"/>
+</g>
+<g id="trajectory-large-10" data-semantic="trajectory-large">
+<rect id="trajectory-large-shadow" x="639" y="49" width="400" height="196" fill="#FDD7FC" stroke="#000000" stroke-width="2.4"/>
+<rect id="trajectory-large-body" x="628" y="36" width="400" height="196" fill="#FDD7FC" stroke="#000000" stroke-width="2.4"/>
+<text id="trajectory-large-left-ellipsis" x="648.0" y="151.23999999999998" text-anchor="middle" style="font-family:Liberation Serif;font-size:24px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="648.0" dy="0">⋮</tspan>
+</text>
+<text id="trajectory-large-mid-ellipsis" x="831.0" y="151.23999999999998" text-anchor="middle" style="font-family:Liberation Serif;font-size:24px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="831.0" dy="0">⋮</tspan>
+</text>
+<text id="trajectory-large-right-ellipsis" x="972.0" y="151.23999999999998" text-anchor="middle" style="font-family:Liberation Serif;font-size:24px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="972.0" dy="0">⋮</tspan>
+</text>
+<text id="trajectory-large-ket-0" x="637" y="66.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="637" dy="0">|0⟩</tspan>
+</text>
+<line id="trajectory-large-wire-0" x1="673" y1="61" x2="1006" y2="61" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="trajectory-large-323" points="687.10,49.04 700.90,49.04 707.80,61.00 700.90,72.96 687.10,72.96 680.20,61.00" fill="#163D64" stroke="#000000" stroke-width="2"/>
+<polygon id="trajectory-large-324" points="735.80,48.12 748.68,61.00 735.80,73.88 722.92,61.00" fill="#4F95DA" stroke="#000000" stroke-width="2"/>
+<ellipse id="trajectory-large-325" cx="777.6" cy="61.0" rx="12.88" ry="12.88" fill="#A6CAEC" stroke="#000000" stroke-width="2"/>
+<polygon id="trajectory-large-326" points="812.50,49.04 826.30,49.04 833.20,61.00 826.30,72.96 812.50,72.96 805.60,61.00" fill="#215F9A" stroke="#000000" stroke-width="2"/>
+<polygon id="trajectory-large-327" points="861.20,48.12 874.08,61.00 861.20,73.88 848.32,61.00" fill="#DCEAF7" stroke="#000000" stroke-width="2"/>
+<ellipse id="trajectory-large-328" cx="903.0" cy="61.0" rx="12.88" ry="12.88" fill="#163D64" stroke="#000000" stroke-width="2"/>
+<rect id="trajectory-large-329" x="985" y="50" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="trajectory-large-330" x1="990" y1="65.25" x2="1003.0" y2="54.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="trajectory-large-331" x1="998.25" y1="54.5" x2="1003.0" y2="54.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="trajectory-large-332" x1="1003.0" y1="54.5" x2="1002.0" y2="59.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="trajectory-large-333" x1="989" y1="65.75" x2="1006" y2="65.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="trajectory-large-ket-1" x="637" y="97.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="637" dy="0">|0⟩</tspan>
+</text>
+<line id="trajectory-large-wire-1" x1="673" y1="92" x2="1006" y2="92" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="trajectory-large-336" points="687.10,80.04 700.90,80.04 707.80,92.00 700.90,103.96 687.10,103.96 680.20,92.00" fill="#4F95DA" stroke="#000000" stroke-width="2"/>
+<polygon id="trajectory-large-337" points="735.80,79.12 748.68,92.00 735.80,104.88 722.92,92.00" fill="#A6CAEC" stroke="#000000" stroke-width="2"/>
+<ellipse id="trajectory-large-338" cx="777.6" cy="92.0" rx="12.88" ry="12.88" fill="#215F9A" stroke="#000000" stroke-width="2"/>
+<polygon id="trajectory-large-339" points="812.50,80.04 826.30,80.04 833.20,92.00 826.30,103.96 812.50,103.96 805.60,92.00" fill="#DCEAF7" stroke="#000000" stroke-width="2"/>
+<polygon id="trajectory-large-340" points="861.20,79.12 874.08,92.00 861.20,104.88 848.32,92.00" fill="#163D64" stroke="#000000" stroke-width="2"/>
+<ellipse id="trajectory-large-341" cx="903.0" cy="92.0" rx="12.88" ry="12.88" fill="#4F95DA" stroke="#000000" stroke-width="2"/>
+<rect id="trajectory-large-342" x="985" y="81" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="trajectory-large-343" x1="990" y1="96.25" x2="1003.0" y2="85.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="trajectory-large-344" x1="998.25" y1="85.5" x2="1003.0" y2="85.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="trajectory-large-345" x1="1003.0" y1="85.5" x2="1002.0" y2="90.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="trajectory-large-346" x1="989" y1="96.75" x2="1006" y2="96.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="trajectory-large-ket-2" x="637" y="128.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="637" dy="0">|0⟩</tspan>
+</text>
+<line id="trajectory-large-wire-2" x1="673" y1="123" x2="1006" y2="123" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="trajectory-large-349" points="687.10,111.04 700.90,111.04 707.80,123.00 700.90,134.96 687.10,134.96 680.20,123.00" fill="#A6CAEC" stroke="#000000" stroke-width="2"/>
+<polygon id="trajectory-large-350" points="735.80,110.12 748.68,123.00 735.80,135.88 722.92,123.00" fill="#215F9A" stroke="#000000" stroke-width="2"/>
+<ellipse id="trajectory-large-351" cx="777.6" cy="123.0" rx="12.88" ry="12.88" fill="#DCEAF7" stroke="#000000" stroke-width="2"/>
+<polygon id="trajectory-large-352" points="812.50,111.04 826.30,111.04 833.20,123.00 826.30,134.96 812.50,134.96 805.60,123.00" fill="#163D64" stroke="#000000" stroke-width="2"/>
+<polygon id="trajectory-large-353" points="861.20,110.12 874.08,123.00 861.20,135.88 848.32,123.00" fill="#4F95DA" stroke="#000000" stroke-width="2"/>
+<ellipse id="trajectory-large-354" cx="903.0" cy="123.0" rx="12.88" ry="12.88" fill="#A6CAEC" stroke="#000000" stroke-width="2"/>
+<rect id="trajectory-large-355" x="985" y="112" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="trajectory-large-356" x1="990" y1="127.25" x2="1003.0" y2="116.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="trajectory-large-357" x1="998.25" y1="116.5" x2="1003.0" y2="116.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="trajectory-large-358" x1="1003.0" y1="116.5" x2="1002.0" y2="121.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="trajectory-large-359" x1="989" y1="127.75" x2="1006" y2="127.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="trajectory-large-ket-3" x="637" y="180.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="637" dy="0">|0⟩</tspan>
+</text>
+<line id="trajectory-large-wire-3" x1="673" y1="175" x2="1006" y2="175" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="trajectory-large-362" points="687.10,163.04 700.90,163.04 707.80,175.00 700.90,186.96 687.10,186.96 680.20,175.00" fill="#215F9A" stroke="#000000" stroke-width="2"/>
+<polygon id="trajectory-large-363" points="735.80,162.12 748.68,175.00 735.80,187.88 722.92,175.00" fill="#DCEAF7" stroke="#000000" stroke-width="2"/>
+<ellipse id="trajectory-large-364" cx="777.6" cy="175.0" rx="12.88" ry="12.88" fill="#163D64" stroke="#000000" stroke-width="2"/>
+<polygon id="trajectory-large-365" points="812.50,163.04 826.30,163.04 833.20,175.00 826.30,186.96 812.50,186.96 805.60,175.00" fill="#4F95DA" stroke="#000000" stroke-width="2"/>
+<polygon id="trajectory-large-366" points="861.20,162.12 874.08,175.00 861.20,187.88 848.32,175.00" fill="#A6CAEC" stroke="#000000" stroke-width="2"/>
+<ellipse id="trajectory-large-367" cx="903.0" cy="175.0" rx="12.88" ry="12.88" fill="#215F9A" stroke="#000000" stroke-width="2"/>
+<rect id="trajectory-large-368" x="985" y="164" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="trajectory-large-369" x1="990" y1="179.25" x2="1003.0" y2="168.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="trajectory-large-370" x1="998.25" y1="168.5" x2="1003.0" y2="168.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="trajectory-large-371" x1="1003.0" y1="168.5" x2="1002.0" y2="173.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="trajectory-large-372" x1="989" y1="179.75" x2="1006" y2="179.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="trajectory-large-ket-4" x="637" y="211.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="637" dy="0">|0⟩</tspan>
+</text>
+<line id="trajectory-large-wire-4" x1="673" y1="206" x2="1006" y2="206" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="trajectory-large-375" points="687.10,194.04 700.90,194.04 707.80,206.00 700.90,217.96 687.10,217.96 680.20,206.00" fill="#DCEAF7" stroke="#000000" stroke-width="2"/>
+<polygon id="trajectory-large-376" points="735.80,193.12 748.68,206.00 735.80,218.88 722.92,206.00" fill="#163D64" stroke="#000000" stroke-width="2"/>
+<ellipse id="trajectory-large-377" cx="777.6" cy="206.0" rx="12.88" ry="12.88" fill="#4F95DA" stroke="#000000" stroke-width="2"/>
+<polygon id="trajectory-large-378" points="812.50,194.04 826.30,194.04 833.20,206.00 826.30,217.96 812.50,217.96 805.60,206.00" fill="#A6CAEC" stroke="#000000" stroke-width="2"/>
+<polygon id="trajectory-large-379" points="861.20,193.12 874.08,206.00 861.20,218.88 848.32,206.00" fill="#215F9A" stroke="#000000" stroke-width="2"/>
+<ellipse id="trajectory-large-380" cx="903.0" cy="206.0" rx="12.88" ry="12.88" fill="#DCEAF7" stroke="#000000" stroke-width="2"/>
+<rect id="trajectory-large-381" x="985" y="195" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="trajectory-large-382" x1="990" y1="210.25" x2="1003.0" y2="199.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="trajectory-large-383" x1="998.25" y1="199.5" x2="1003.0" y2="199.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="trajectory-large-384" x1="1003.0" y1="199.5" x2="1002.0" y2="204.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="trajectory-large-385" x1="989" y1="210.75" x2="1006" y2="210.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<rect id="trajectory-large-cnot-a" x="923" y="51" width="13" height="51" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<rect id="trajectory-large-cnot-b" x="946" y="165" width="13" height="51" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+</g>
+<g id="trajectory-medium-11" data-semantic="trajectory-medium">
+<rect id="trajectory-medium-shadow" x="837" y="104" width="360" height="159" fill="#C9E5B4" stroke="#000000" stroke-width="2.4"/>
+<rect id="trajectory-medium-body" x="826" y="91" width="360" height="159" fill="#C9E5B4" stroke="#000000" stroke-width="2.4"/>
+<text id="trajectory-medium-ket-0" x="835" y="119.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="835" dy="0">|0⟩</tspan>
+</text>
+<line id="trajectory-medium-wire-0" x1="871" y1="114" x2="1164" y2="114" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="trajectory-medium-392" points="885.10,102.04 898.90,102.04 905.80,114.00 898.90,125.96 885.10,125.96 878.20,114.00" fill="#4F95DA" stroke="#000000" stroke-width="2"/>
+<polygon id="trajectory-medium-393" points="925.80,101.12 938.68,114.00 925.80,126.88 912.92,114.00" fill="#A6CAEC" stroke="#000000" stroke-width="2"/>
+<ellipse id="trajectory-medium-394" cx="959.6" cy="114.0" rx="12.88" ry="12.88" fill="#215F9A" stroke="#000000" stroke-width="2"/>
+<polygon id="trajectory-medium-395" points="986.50,102.04 1000.30,102.04 1007.20,114.00 1000.30,125.96 986.50,125.96 979.60,114.00" fill="#DCEAF7" stroke="#000000" stroke-width="2"/>
+<polygon id="trajectory-medium-396" points="1027.20,101.12 1040.08,114.00 1027.20,126.88 1014.32,114.00" fill="#163D64" stroke="#000000" stroke-width="2"/>
+<ellipse id="trajectory-medium-397" cx="1061.0" cy="114.0" rx="12.88" ry="12.88" fill="#4F95DA" stroke="#000000" stroke-width="2"/>
+<rect id="trajectory-medium-398" x="1143" y="103" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="trajectory-medium-399" x1="1148" y1="118.25" x2="1161.0" y2="107.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="trajectory-medium-400" x1="1156.25" y1="107.5" x2="1161.0" y2="107.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="trajectory-medium-401" x1="1161.0" y1="107.5" x2="1160.0" y2="112.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="trajectory-medium-402" x1="1147" y1="118.75" x2="1164" y2="118.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="trajectory-medium-ket-1" x="835" y="150.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="835" dy="0">|0⟩</tspan>
+</text>
+<line id="trajectory-medium-wire-1" x1="871" y1="145" x2="1164" y2="145" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="trajectory-medium-405" points="885.10,133.04 898.90,133.04 905.80,145.00 898.90,156.96 885.10,156.96 878.20,145.00" fill="#A6CAEC" stroke="#000000" stroke-width="2"/>
+<polygon id="trajectory-medium-406" points="925.80,132.12 938.68,145.00 925.80,157.88 912.92,145.00" fill="#215F9A" stroke="#000000" stroke-width="2"/>
+<ellipse id="trajectory-medium-407" cx="959.6" cy="145.0" rx="12.88" ry="12.88" fill="#DCEAF7" stroke="#000000" stroke-width="2"/>
+<polygon id="trajectory-medium-408" points="986.50,133.04 1000.30,133.04 1007.20,145.00 1000.30,156.96 986.50,156.96 979.60,145.00" fill="#163D64" stroke="#000000" stroke-width="2"/>
+<polygon id="trajectory-medium-409" points="1027.20,132.12 1040.08,145.00 1027.20,157.88 1014.32,145.00" fill="#4F95DA" stroke="#000000" stroke-width="2"/>
+<ellipse id="trajectory-medium-410" cx="1061.0" cy="145.0" rx="12.88" ry="12.88" fill="#A6CAEC" stroke="#000000" stroke-width="2"/>
+<rect id="trajectory-medium-411" x="1143" y="134" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="trajectory-medium-412" x1="1148" y1="149.25" x2="1161.0" y2="138.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="trajectory-medium-413" x1="1156.25" y1="138.5" x2="1161.0" y2="138.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="trajectory-medium-414" x1="1161.0" y1="138.5" x2="1160.0" y2="143.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="trajectory-medium-415" x1="1147" y1="149.75" x2="1164" y2="149.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="trajectory-medium-ket-2" x="835" y="181.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="835" dy="0">|0⟩</tspan>
+</text>
+<line id="trajectory-medium-wire-2" x1="871" y1="176" x2="1164" y2="176" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="trajectory-medium-418" points="885.10,164.04 898.90,164.04 905.80,176.00 898.90,187.96 885.10,187.96 878.20,176.00" fill="#215F9A" stroke="#000000" stroke-width="2"/>
+<polygon id="trajectory-medium-419" points="925.80,163.12 938.68,176.00 925.80,188.88 912.92,176.00" fill="#DCEAF7" stroke="#000000" stroke-width="2"/>
+<ellipse id="trajectory-medium-420" cx="959.6" cy="176.0" rx="12.88" ry="12.88" fill="#163D64" stroke="#000000" stroke-width="2"/>
+<polygon id="trajectory-medium-421" points="986.50,164.04 1000.30,164.04 1007.20,176.00 1000.30,187.96 986.50,187.96 979.60,176.00" fill="#4F95DA" stroke="#000000" stroke-width="2"/>
+<polygon id="trajectory-medium-422" points="1027.20,163.12 1040.08,176.00 1027.20,188.88 1014.32,176.00" fill="#A6CAEC" stroke="#000000" stroke-width="2"/>
+<ellipse id="trajectory-medium-423" cx="1061.0" cy="176.0" rx="12.88" ry="12.88" fill="#215F9A" stroke="#000000" stroke-width="2"/>
+<rect id="trajectory-medium-424" x="1143" y="165" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="trajectory-medium-425" x1="1148" y1="180.25" x2="1161.0" y2="169.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="trajectory-medium-426" x1="1156.25" y1="169.5" x2="1161.0" y2="169.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="trajectory-medium-427" x1="1161.0" y1="169.5" x2="1160.0" y2="174.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="trajectory-medium-428" x1="1147" y1="180.75" x2="1164" y2="180.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="trajectory-medium-ket-3" x="835" y="232.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="835" dy="0">|0⟩</tspan>
+</text>
+<line id="trajectory-medium-wire-3" x1="871" y1="227" x2="1164" y2="227" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="trajectory-medium-431" points="885.10,215.04 898.90,215.04 905.80,227.00 898.90,238.96 885.10,238.96 878.20,227.00" fill="#DCEAF7" stroke="#000000" stroke-width="2"/>
+<polygon id="trajectory-medium-432" points="925.80,214.12 938.68,227.00 925.80,239.88 912.92,227.00" fill="#163D64" stroke="#000000" stroke-width="2"/>
+<ellipse id="trajectory-medium-433" cx="959.6" cy="227.0" rx="12.88" ry="12.88" fill="#4F95DA" stroke="#000000" stroke-width="2"/>
+<polygon id="trajectory-medium-434" points="986.50,215.04 1000.30,215.04 1007.20,227.00 1000.30,238.96 986.50,238.96 979.60,227.00" fill="#A6CAEC" stroke="#000000" stroke-width="2"/>
+<polygon id="trajectory-medium-435" points="1027.20,214.12 1040.08,227.00 1027.20,239.88 1014.32,227.00" fill="#215F9A" stroke="#000000" stroke-width="2"/>
+<ellipse id="trajectory-medium-436" cx="1061.0" cy="227.0" rx="12.88" ry="12.88" fill="#DCEAF7" stroke="#000000" stroke-width="2"/>
+<rect id="trajectory-medium-437" x="1143" y="216" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="trajectory-medium-438" x1="1148" y1="231.25" x2="1161.0" y2="220.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="trajectory-medium-439" x1="1156.25" y1="220.5" x2="1161.0" y2="220.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="trajectory-medium-440" x1="1161.0" y1="220.5" x2="1160.0" y2="225.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="trajectory-medium-441" x1="1147" y1="231.75" x2="1164" y2="231.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<rect id="trajectory-medium-cnot-a" x="1081" y="104" width="13" height="51" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<rect id="trajectory-medium-cnot-b" x="1104" y="166" width="13" height="71" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+</g>
+<g id="trajectory-small-12" data-semantic="trajectory-small">
+<rect id="trajectory-small-shadow" x="1018" y="153" width="282" height="119" fill="#FFF1CA" stroke="#000000" stroke-width="2.4"/>
+<rect id="trajectory-small-body" x="1007" y="140" width="282" height="119" fill="#FFF1CA" stroke="#000000" stroke-width="2.4"/>
+<text id="trajectory-small-ket-0" x="1016" y="169.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="1016" dy="0">|0⟩</tspan>
+</text>
+<line id="trajectory-small-wire-0" x1="1052" y1="164" x2="1267" y2="164" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="trajectory-small-448" points="1066.10,152.04 1079.90,152.04 1086.80,164.00 1079.90,175.96 1066.10,175.96 1059.20,164.00" fill="#A6CAEC" stroke="#000000" stroke-width="2"/>
+<polygon id="trajectory-small-449" points="1118.50,151.12 1131.38,164.00 1118.50,176.88 1105.62,164.00" fill="#215F9A" stroke="#000000" stroke-width="2"/>
+<ellipse id="trajectory-small-450" cx="1164.0" cy="164.0" rx="12.88" ry="12.88" fill="#DCEAF7" stroke="#000000" stroke-width="2"/>
+<rect id="trajectory-small-451" x="1246" y="153" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="trajectory-small-452" x1="1251" y1="168.25" x2="1264.0" y2="157.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="trajectory-small-453" x1="1259.25" y1="157.5" x2="1264.0" y2="157.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="trajectory-small-454" x1="1264.0" y1="157.5" x2="1263.0" y2="162.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="trajectory-small-455" x1="1250" y1="168.75" x2="1267" y2="168.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="trajectory-small-ket-1" x="1016" y="204.94" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="1016" dy="0">|0⟩</tspan>
+</text>
+<line id="trajectory-small-wire-1" x1="1052" y1="199.5" x2="1267" y2="199.5" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="trajectory-small-458" points="1066.10,187.54 1079.90,187.54 1086.80,199.50 1079.90,211.46 1066.10,211.46 1059.20,199.50" fill="#215F9A" stroke="#000000" stroke-width="2"/>
+<polygon id="trajectory-small-459" points="1118.50,186.62 1131.38,199.50 1118.50,212.38 1105.62,199.50" fill="#DCEAF7" stroke="#000000" stroke-width="2"/>
+<ellipse id="trajectory-small-460" cx="1164.0" cy="199.5" rx="12.88" ry="12.88" fill="#163D64" stroke="#000000" stroke-width="2"/>
+<rect id="trajectory-small-461" x="1246" y="188.5" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="trajectory-small-462" x1="1251" y1="203.75" x2="1264.0" y2="193.0" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="trajectory-small-463" x1="1259.25" y1="193.0" x2="1264.0" y2="193.0" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="trajectory-small-464" x1="1264.0" y1="193.0" x2="1263.0" y2="198.0" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="trajectory-small-465" x1="1250" y1="204.25" x2="1267" y2="204.25" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="trajectory-small-ket-2" x="1016" y="240.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="1016" dy="0">|0⟩</tspan>
+</text>
+<line id="trajectory-small-wire-2" x1="1052" y1="235" x2="1267" y2="235" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="trajectory-small-468" points="1066.10,223.04 1079.90,223.04 1086.80,235.00 1079.90,246.96 1066.10,246.96 1059.20,235.00" fill="#DCEAF7" stroke="#000000" stroke-width="2"/>
+<polygon id="trajectory-small-469" points="1118.50,222.12 1131.38,235.00 1118.50,247.88 1105.62,235.00" fill="#163D64" stroke="#000000" stroke-width="2"/>
+<ellipse id="trajectory-small-470" cx="1164.0" cy="235.0" rx="12.88" ry="12.88" fill="#4F95DA" stroke="#000000" stroke-width="2"/>
+<rect id="trajectory-small-471" x="1246" y="224" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="trajectory-small-472" x1="1251" y1="239.25" x2="1264.0" y2="228.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="trajectory-small-473" x1="1259.25" y1="228.5" x2="1264.0" y2="228.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="trajectory-small-474" x1="1264.0" y1="228.5" x2="1263.0" y2="233.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="trajectory-small-475" x1="1250" y1="239.75" x2="1267" y2="239.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<rect id="trajectory-small-cnot-a" x="1184" y="154" width="13" height="55.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<rect id="trajectory-small-cnot-b" x="1207" y="189.5" width="13" height="55.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+</g>
+<g id="root-13" data-semantic="root">
+<text id="root-478" x="955.0" y="285.86" text-anchor="middle" style="font-family:Liberation Serif;font-size:29px;font-weight:700;font-style:normal;fill:#000000">
+<tspan x="955.0" dy="0">Frozen Parameters Trajectory</tspan>
+</text>
+</g>
+<g id="intensity-selection-14" data-semantic="intensity-selection">
+<text id="intensity-selection-479" x="1324.0" y="43.8" text-anchor="middle" style="font-family:Liberation Serif;font-size:20px;font-weight:700;font-style:normal;fill:#000000">
+<tspan x="1324.0" dy="0">Intensity ↑</tspan>
+</text>
+<rect id="intensity-selection-480" x="1302" y="56" width="35" height="43" fill="#163D64" stroke="#000000" stroke-width="1.8"/>
+<rect id="intensity-selection-481" x="1302" y="99" width="35" height="43" fill="#215F9A" stroke="#000000" stroke-width="1.8"/>
+<rect id="intensity-selection-482" x="1302" y="142" width="35" height="43" fill="#4F95DA" stroke="#000000" stroke-width="1.8"/>
+<rect id="intensity-selection-483" x="1302" y="185" width="35" height="43" fill="#A6CAEC" stroke="#000000" stroke-width="1.8"/>
+<rect id="intensity-selection-484" x="1302" y="228" width="35" height="43" fill="#DCEAF7" stroke="#000000" stroke-width="1.8"/>
+<text id="intensity-selection-485" x="1424.0" y="92.11999999999999" text-anchor="middle" style="font-family:Liberation Serif;font-size:28px;font-weight:700;font-style:normal;fill:#000000">
+<tspan x="1424.0" dy="0">Frozen</tspan>
+<tspan x="1424.0" dy="29.400000000000002">Parameter</tspan>
+<tspan x="1424.0" dy="29.400000000000002">Selection</tspan>
+</text>
+<line id="intensity-selection-486" x1="1343" y1="176" x2="1464" y2="176" stroke="#000000" stroke-width="5" fill="none" marker-end="url(#arrow)"/>
+<text id="intensity-selection-487" x="1412.0" y="222.3" text-anchor="middle" style="font-family:Liberation Serif;font-size:20px;font-weight:700;font-style:italic;fill:#000000">
+<tspan x="1412.0" dy="0">Threshold: τ</tspan>
+</text>
+</g>
+<g id="label-large-15" data-semantic="label-large">
+<rect id="label-large-shadow" x="1496" y="59" width="400" height="194" fill="#FDD7FC" stroke="#000000" stroke-width="2.4"/>
+<rect id="label-large-body" x="1485" y="46" width="400" height="194" fill="#FDD7FC" stroke="#000000" stroke-width="2.4"/>
+<text id="label-large-left-ellipsis" x="1505.0" y="160.28" text-anchor="middle" style="font-family:Liberation Serif;font-size:24px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="1505.0" dy="0">⋮</tspan>
+</text>
+<text id="label-large-mid-ellipsis" x="1688.0" y="160.28" text-anchor="middle" style="font-family:Liberation Serif;font-size:24px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="1688.0" dy="0">⋮</tspan>
+</text>
+<text id="label-large-right-ellipsis" x="1829.0" y="160.28" text-anchor="middle" style="font-family:Liberation Serif;font-size:24px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="1829.0" dy="0">⋮</tspan>
+</text>
+<text id="label-large-ket-0" x="1494" y="76.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="1494" dy="0">|0⟩</tspan>
+</text>
+<line id="label-large-wire-0" x1="1530" y1="71" x2="1863" y2="71" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="label-large-495" points="1544.10,59.04 1557.90,59.04 1564.80,71.00 1557.90,82.96 1544.10,82.96 1537.20,71.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="label-large-496" points="1592.80,58.12 1605.68,71.00 1592.80,83.88 1579.92,71.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="label-large-497" cx="1634.6" cy="71.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="label-large-498" points="1669.50,59.04 1683.30,59.04 1690.20,71.00 1683.30,82.96 1669.50,82.96 1662.60,71.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="label-large-499" points="1718.20,58.12 1731.08,71.00 1718.20,83.88 1705.32,71.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<ellipse id="label-large-500" cx="1760.0" cy="71.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="label-large-501" x="1842" y="60" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="label-large-502" x1="1847" y1="75.25" x2="1860.0" y2="64.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="label-large-503" x1="1855.25" y1="64.5" x2="1860.0" y2="64.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="label-large-504" x1="1860.0" y1="64.5" x2="1859.0" y2="69.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="label-large-505" x1="1846" y1="75.75" x2="1863" y2="75.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="label-large-ket-1" x="1494" y="107.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="1494" dy="0">|0⟩</tspan>
+</text>
+<line id="label-large-wire-1" x1="1530" y1="102" x2="1863" y2="102" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="label-large-508" points="1544.10,90.04 1557.90,90.04 1564.80,102.00 1557.90,113.96 1544.10,113.96 1537.20,102.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="label-large-509" points="1592.80,89.12 1605.68,102.00 1592.80,114.88 1579.92,102.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<ellipse id="label-large-510" cx="1634.6" cy="102.0" rx="12.88" ry="12.88" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="label-large-511" points="1669.50,90.04 1683.30,90.04 1690.20,102.00 1683.30,113.96 1669.50,113.96 1662.60,102.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="label-large-512" points="1718.20,89.12 1731.08,102.00 1718.20,114.88 1705.32,102.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="label-large-513" cx="1760.0" cy="102.0" rx="12.88" ry="12.88" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<rect id="label-large-514" x="1842" y="91" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="label-large-515" x1="1847" y1="106.25" x2="1860.0" y2="95.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="label-large-516" x1="1855.25" y1="95.5" x2="1860.0" y2="95.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="label-large-517" x1="1860.0" y1="95.5" x2="1859.0" y2="100.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="label-large-518" x1="1846" y1="106.75" x2="1863" y2="106.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="label-large-ket-2" x="1494" y="138.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="1494" dy="0">|0⟩</tspan>
+</text>
+<line id="label-large-wire-2" x1="1530" y1="133" x2="1863" y2="133" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="label-large-521" points="1544.10,121.04 1557.90,121.04 1564.80,133.00 1557.90,144.96 1544.10,144.96 1537.20,133.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="label-large-522" points="1592.80,120.12 1605.68,133.00 1592.80,145.88 1579.92,133.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="label-large-523" cx="1634.6" cy="133.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="label-large-524" points="1669.50,121.04 1683.30,121.04 1690.20,133.00 1683.30,144.96 1669.50,144.96 1662.60,133.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="label-large-525" points="1718.20,120.12 1731.08,133.00 1718.20,145.88 1705.32,133.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<ellipse id="label-large-526" cx="1760.0" cy="133.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="label-large-527" x="1842" y="122" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="label-large-528" x1="1847" y1="137.25" x2="1860.0" y2="126.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="label-large-529" x1="1855.25" y1="126.5" x2="1860.0" y2="126.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="label-large-530" x1="1860.0" y1="126.5" x2="1859.0" y2="131.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="label-large-531" x1="1846" y1="137.75" x2="1863" y2="137.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="label-large-ket-3" x="1494" y="188.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="1494" dy="0">|0⟩</tspan>
+</text>
+<line id="label-large-wire-3" x1="1530" y1="183" x2="1863" y2="183" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="label-large-534" points="1544.10,171.04 1557.90,171.04 1564.80,183.00 1557.90,194.96 1544.10,194.96 1537.20,183.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="label-large-535" points="1592.80,170.12 1605.68,183.00 1592.80,195.88 1579.92,183.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<ellipse id="label-large-536" cx="1634.6" cy="183.0" rx="12.88" ry="12.88" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="label-large-537" points="1669.50,171.04 1683.30,171.04 1690.20,183.00 1683.30,194.96 1669.50,194.96 1662.60,183.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="label-large-538" points="1718.20,170.12 1731.08,183.00 1718.20,195.88 1705.32,183.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="label-large-539" cx="1760.0" cy="183.0" rx="12.88" ry="12.88" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<rect id="label-large-540" x="1842" y="172" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="label-large-541" x1="1847" y1="187.25" x2="1860.0" y2="176.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="label-large-542" x1="1855.25" y1="176.5" x2="1860.0" y2="176.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="label-large-543" x1="1860.0" y1="176.5" x2="1859.0" y2="181.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="label-large-544" x1="1846" y1="187.75" x2="1863" y2="187.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="label-large-ket-4" x="1494" y="219.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="1494" dy="0">|0⟩</tspan>
+</text>
+<line id="label-large-wire-4" x1="1530" y1="214" x2="1863" y2="214" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="label-large-547" points="1544.10,202.04 1557.90,202.04 1564.80,214.00 1557.90,225.96 1544.10,225.96 1537.20,214.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="label-large-548" points="1592.80,201.12 1605.68,214.00 1592.80,226.88 1579.92,214.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="label-large-549" cx="1634.6" cy="214.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="label-large-550" points="1669.50,202.04 1683.30,202.04 1690.20,214.00 1683.30,225.96 1669.50,225.96 1662.60,214.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="label-large-551" points="1718.20,201.12 1731.08,214.00 1718.20,226.88 1705.32,214.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<ellipse id="label-large-552" cx="1760.0" cy="214.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="label-large-553" x="1842" y="203" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="label-large-554" x1="1847" y1="218.25" x2="1860.0" y2="207.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="label-large-555" x1="1855.25" y1="207.5" x2="1860.0" y2="207.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="label-large-556" x1="1860.0" y1="207.5" x2="1859.0" y2="212.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="label-large-557" x1="1846" y1="218.75" x2="1863" y2="218.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<rect id="label-large-cnot-a" x="1780" y="61" width="13" height="51" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<rect id="label-large-cnot-b" x="1803" y="173" width="13" height="51" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+</g>
+<g id="label-medium-16" data-semantic="label-medium">
+<rect id="label-medium-shadow" x="1539" y="105" width="360" height="159" fill="#C9E5B4" stroke="#000000" stroke-width="2.4"/>
+<rect id="label-medium-body" x="1528" y="92" width="360" height="159" fill="#C9E5B4" stroke="#000000" stroke-width="2.4"/>
+<text id="label-medium-ket-0" x="1537" y="120.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="1537" dy="0">|0⟩</tspan>
+</text>
+<line id="label-medium-wire-0" x1="1573" y1="115" x2="1866" y2="115" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="label-medium-564" points="1587.10,103.04 1600.90,103.04 1607.80,115.00 1600.90,126.96 1587.10,126.96 1580.20,115.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="label-medium-565" points="1627.80,102.12 1640.68,115.00 1627.80,127.88 1614.92,115.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="label-medium-566" cx="1661.6" cy="115.0" rx="12.88" ry="12.88" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="label-medium-567" points="1688.50,103.04 1702.30,103.04 1709.20,115.00 1702.30,126.96 1688.50,126.96 1681.60,115.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="label-medium-568" points="1729.20,102.12 1742.08,115.00 1729.20,127.88 1716.32,115.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="label-medium-569" cx="1763.0" cy="115.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="label-medium-570" x="1845" y="104" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="label-medium-571" x1="1850" y1="119.25" x2="1863.0" y2="108.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="label-medium-572" x1="1858.25" y1="108.5" x2="1863.0" y2="108.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="label-medium-573" x1="1863.0" y1="108.5" x2="1862.0" y2="113.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="label-medium-574" x1="1849" y1="119.75" x2="1866" y2="119.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="label-medium-ket-1" x="1537" y="151.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="1537" dy="0">|0⟩</tspan>
+</text>
+<line id="label-medium-wire-1" x1="1573" y1="146" x2="1866" y2="146" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="label-medium-577" points="1587.10,134.04 1600.90,134.04 1607.80,146.00 1600.90,157.96 1587.10,157.96 1580.20,146.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="label-medium-578" points="1627.80,133.12 1640.68,146.00 1627.80,158.88 1614.92,146.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<ellipse id="label-medium-579" cx="1661.6" cy="146.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="label-medium-580" points="1688.50,134.04 1702.30,134.04 1709.20,146.00 1702.30,157.96 1688.50,157.96 1681.60,146.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="label-medium-581" points="1729.20,133.12 1742.08,146.00 1729.20,158.88 1716.32,146.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<ellipse id="label-medium-582" cx="1763.0" cy="146.0" rx="12.88" ry="12.88" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<rect id="label-medium-583" x="1845" y="135" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="label-medium-584" x1="1850" y1="150.25" x2="1863.0" y2="139.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="label-medium-585" x1="1858.25" y1="139.5" x2="1863.0" y2="139.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="label-medium-586" x1="1863.0" y1="139.5" x2="1862.0" y2="144.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="label-medium-587" x1="1849" y1="150.75" x2="1866" y2="150.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="label-medium-ket-2" x="1537" y="182.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="1537" dy="0">|0⟩</tspan>
+</text>
+<line id="label-medium-wire-2" x1="1573" y1="177" x2="1866" y2="177" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="label-medium-590" points="1587.10,165.04 1600.90,165.04 1607.80,177.00 1600.90,188.96 1587.10,188.96 1580.20,177.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="label-medium-591" points="1627.80,164.12 1640.68,177.00 1627.80,189.88 1614.92,177.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="label-medium-592" cx="1661.6" cy="177.0" rx="12.88" ry="12.88" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="label-medium-593" points="1688.50,165.04 1702.30,165.04 1709.20,177.00 1702.30,188.96 1688.50,188.96 1681.60,177.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="label-medium-594" points="1729.20,164.12 1742.08,177.00 1729.20,189.88 1716.32,177.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="label-medium-595" cx="1763.0" cy="177.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="label-medium-596" x="1845" y="166" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="label-medium-597" x1="1850" y1="181.25" x2="1863.0" y2="170.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="label-medium-598" x1="1858.25" y1="170.5" x2="1863.0" y2="170.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="label-medium-599" x1="1863.0" y1="170.5" x2="1862.0" y2="175.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="label-medium-600" x1="1849" y1="181.75" x2="1866" y2="181.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="label-medium-ket-3" x="1537" y="233.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="1537" dy="0">|0⟩</tspan>
+</text>
+<line id="label-medium-wire-3" x1="1573" y1="228" x2="1866" y2="228" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="label-medium-603" points="1587.10,216.04 1600.90,216.04 1607.80,228.00 1600.90,239.96 1587.10,239.96 1580.20,228.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="label-medium-604" points="1627.80,215.12 1640.68,228.00 1627.80,240.88 1614.92,228.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<ellipse id="label-medium-605" cx="1661.6" cy="228.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="label-medium-606" points="1688.50,216.04 1702.30,216.04 1709.20,228.00 1702.30,239.96 1688.50,239.96 1681.60,228.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="label-medium-607" points="1729.20,215.12 1742.08,228.00 1729.20,240.88 1716.32,228.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<ellipse id="label-medium-608" cx="1763.0" cy="228.0" rx="12.88" ry="12.88" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<rect id="label-medium-609" x="1845" y="217" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="label-medium-610" x1="1850" y1="232.25" x2="1863.0" y2="221.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="label-medium-611" x1="1858.25" y1="221.5" x2="1863.0" y2="221.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="label-medium-612" x1="1863.0" y1="221.5" x2="1862.0" y2="226.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="label-medium-613" x1="1849" y1="232.75" x2="1866" y2="232.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<rect id="label-medium-cnot-a" x="1783" y="105" width="13" height="51" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<rect id="label-medium-cnot-b" x="1806" y="167" width="13" height="71" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+</g>
+<g id="label-small-17" data-semantic="label-small">
+<rect id="label-small-shadow" x="1619" y="152" width="279" height="118" fill="#FFF1CA" stroke="#000000" stroke-width="2.4"/>
+<rect id="label-small-body" x="1608" y="139" width="279" height="118" fill="#FFF1CA" stroke="#000000" stroke-width="2.4"/>
+<text id="label-small-ket-0" x="1617" y="168.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="1617" dy="0">|0⟩</tspan>
+</text>
+<line id="label-small-wire-0" x1="1653" y1="163" x2="1865" y2="163" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="label-small-620" points="1667.10,151.04 1680.90,151.04 1687.80,163.00 1680.90,174.96 1667.10,174.96 1660.20,163.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="label-small-621" points="1718.00,150.12 1730.88,163.00 1718.00,175.88 1705.12,163.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<ellipse id="label-small-622" cx="1762.0" cy="163.0" rx="12.88" ry="12.88" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<rect id="label-small-623" x="1844" y="152" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="label-small-624" x1="1849" y1="167.25" x2="1862.0" y2="156.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="label-small-625" x1="1857.25" y1="156.5" x2="1862.0" y2="156.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="label-small-626" x1="1862.0" y1="156.5" x2="1861.0" y2="161.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="label-small-627" x1="1848" y1="167.75" x2="1865" y2="167.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="label-small-ket-1" x="1617" y="203.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="1617" dy="0">|0⟩</tspan>
+</text>
+<line id="label-small-wire-1" x1="1653" y1="198.0" x2="1865" y2="198.0" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="label-small-630" points="1667.10,186.04 1680.90,186.04 1687.80,198.00 1680.90,209.96 1667.10,209.96 1660.20,198.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="label-small-631" points="1718.00,185.12 1730.88,198.00 1718.00,210.88 1705.12,198.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="label-small-632" cx="1762.0" cy="198.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="label-small-633" x="1844" y="187.0" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="label-small-634" x1="1849" y1="202.25" x2="1862.0" y2="191.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="label-small-635" x1="1857.25" y1="191.5" x2="1862.0" y2="191.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="label-small-636" x1="1862.0" y1="191.5" x2="1861.0" y2="196.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="label-small-637" x1="1848" y1="202.75" x2="1865" y2="202.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="label-small-ket-2" x="1617" y="238.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="1617" dy="0">|0⟩</tspan>
+</text>
+<line id="label-small-wire-2" x1="1653" y1="233" x2="1865" y2="233" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="label-small-640" points="1667.10,221.04 1680.90,221.04 1687.80,233.00 1680.90,244.96 1667.10,244.96 1660.20,233.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="label-small-641" points="1718.00,220.12 1730.88,233.00 1718.00,245.88 1705.12,233.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<ellipse id="label-small-642" cx="1762.0" cy="233.0" rx="12.88" ry="12.88" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<rect id="label-small-643" x="1844" y="222" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="label-small-644" x1="1849" y1="237.25" x2="1862.0" y2="226.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="label-small-645" x1="1857.25" y1="226.5" x2="1862.0" y2="226.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="label-small-646" x1="1862.0" y1="226.5" x2="1861.0" y2="231.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="label-small-647" x1="1848" y1="237.75" x2="1865" y2="237.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<rect id="label-small-cnot-a" x="1782" y="153" width="13" height="55.0" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<rect id="label-small-cnot-b" x="1805" y="188.0" width="13" height="55.0" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+</g>
+<g id="root-18" data-semantic="root">
+<text id="root-650" x="1722.5" y="283.36" text-anchor="middle" style="font-family:Liberation Serif;font-size:29px;font-weight:700;font-style:normal;fill:#000000">
+<tspan x="1722.5" dy="0">Training Dataset: Label</tspan>
+</text>
+</g>
+<g id="training-large-19" data-semantic="training-large">
+<rect id="training-large-shadow" x="52" y="337" width="400" height="194" fill="#FDD7FC" stroke="#000000" stroke-width="2.4"/>
+<rect id="training-large-body" x="41" y="324" width="400" height="194" fill="#FDD7FC" stroke="#000000" stroke-width="2.4"/>
+<text id="training-large-left-ellipsis" x="61.0" y="438.28000000000003" text-anchor="middle" style="font-family:Liberation Serif;font-size:24px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="61.0" dy="0">⋮</tspan>
+</text>
+<text id="training-large-mid-ellipsis" x="244.0" y="438.28000000000003" text-anchor="middle" style="font-family:Liberation Serif;font-size:24px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="244.0" dy="0">⋮</tspan>
+</text>
+<text id="training-large-right-ellipsis" x="385.0" y="438.28000000000003" text-anchor="middle" style="font-family:Liberation Serif;font-size:24px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="385.0" dy="0">⋮</tspan>
+</text>
+<text id="training-large-ket-0" x="50" y="354.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="50" dy="0">|0⟩</tspan>
+</text>
+<line id="training-large-wire-0" x1="86" y1="349" x2="419" y2="349" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="training-large-658" points="100.10,337.04 113.90,337.04 120.80,349.00 113.90,360.96 100.10,360.96 93.20,349.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="training-large-659" points="148.80,336.12 161.68,349.00 148.80,361.88 135.92,349.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="training-large-660" cx="190.6" cy="349.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="training-large-661" points="225.50,337.04 239.30,337.04 246.20,349.00 239.30,360.96 225.50,360.96 218.60,349.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="training-large-662" points="274.20,336.12 287.08,349.00 274.20,361.88 261.32,349.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<ellipse id="training-large-663" cx="316.0" cy="349.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="training-large-664" x="398" y="338" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="training-large-665" x1="403" y1="353.25" x2="416.0" y2="342.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="training-large-666" x1="411.25" y1="342.5" x2="416.0" y2="342.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="training-large-667" x1="416.0" y1="342.5" x2="415.0" y2="347.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="training-large-668" x1="402" y1="353.75" x2="419" y2="353.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="training-large-ket-1" x="50" y="385.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="50" dy="0">|0⟩</tspan>
+</text>
+<line id="training-large-wire-1" x1="86" y1="380" x2="419" y2="380" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="training-large-671" points="100.10,368.04 113.90,368.04 120.80,380.00 113.90,391.96 100.10,391.96 93.20,380.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="training-large-672" points="148.80,367.12 161.68,380.00 148.80,392.88 135.92,380.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<ellipse id="training-large-673" cx="190.6" cy="380.0" rx="12.88" ry="12.88" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="training-large-674" points="225.50,368.04 239.30,368.04 246.20,380.00 239.30,391.96 225.50,391.96 218.60,380.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="training-large-675" points="274.20,367.12 287.08,380.00 274.20,392.88 261.32,380.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="training-large-676" cx="316.0" cy="380.0" rx="12.88" ry="12.88" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<rect id="training-large-677" x="398" y="369" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="training-large-678" x1="403" y1="384.25" x2="416.0" y2="373.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="training-large-679" x1="411.25" y1="373.5" x2="416.0" y2="373.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="training-large-680" x1="416.0" y1="373.5" x2="415.0" y2="378.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="training-large-681" x1="402" y1="384.75" x2="419" y2="384.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="training-large-ket-2" x="50" y="416.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="50" dy="0">|0⟩</tspan>
+</text>
+<line id="training-large-wire-2" x1="86" y1="411" x2="419" y2="411" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="training-large-684" points="100.10,399.04 113.90,399.04 120.80,411.00 113.90,422.96 100.10,422.96 93.20,411.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="training-large-685" points="148.80,398.12 161.68,411.00 148.80,423.88 135.92,411.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="training-large-686" cx="190.6" cy="411.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="training-large-687" points="225.50,399.04 239.30,399.04 246.20,411.00 239.30,422.96 225.50,422.96 218.60,411.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="training-large-688" points="274.20,398.12 287.08,411.00 274.20,423.88 261.32,411.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<ellipse id="training-large-689" cx="316.0" cy="411.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="training-large-690" x="398" y="400" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="training-large-691" x1="403" y1="415.25" x2="416.0" y2="404.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="training-large-692" x1="411.25" y1="404.5" x2="416.0" y2="404.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="training-large-693" x1="416.0" y1="404.5" x2="415.0" y2="409.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="training-large-694" x1="402" y1="415.75" x2="419" y2="415.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="training-large-ket-3" x="50" y="466.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="50" dy="0">|0⟩</tspan>
+</text>
+<line id="training-large-wire-3" x1="86" y1="461" x2="419" y2="461" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="training-large-697" points="100.10,449.04 113.90,449.04 120.80,461.00 113.90,472.96 100.10,472.96 93.20,461.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="training-large-698" points="148.80,448.12 161.68,461.00 148.80,473.88 135.92,461.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<ellipse id="training-large-699" cx="190.6" cy="461.0" rx="12.88" ry="12.88" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="training-large-700" points="225.50,449.04 239.30,449.04 246.20,461.00 239.30,472.96 225.50,472.96 218.60,461.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="training-large-701" points="274.20,448.12 287.08,461.00 274.20,473.88 261.32,461.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="training-large-702" cx="316.0" cy="461.0" rx="12.88" ry="12.88" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<rect id="training-large-703" x="398" y="450" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="training-large-704" x1="403" y1="465.25" x2="416.0" y2="454.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="training-large-705" x1="411.25" y1="454.5" x2="416.0" y2="454.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="training-large-706" x1="416.0" y1="454.5" x2="415.0" y2="459.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="training-large-707" x1="402" y1="465.75" x2="419" y2="465.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="training-large-ket-4" x="50" y="497.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="50" dy="0">|0⟩</tspan>
+</text>
+<line id="training-large-wire-4" x1="86" y1="492" x2="419" y2="492" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="training-large-710" points="100.10,480.04 113.90,480.04 120.80,492.00 113.90,503.96 100.10,503.96 93.20,492.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="training-large-711" points="148.80,479.12 161.68,492.00 148.80,504.88 135.92,492.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="training-large-712" cx="190.6" cy="492.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="training-large-713" points="225.50,480.04 239.30,480.04 246.20,492.00 239.30,503.96 225.50,503.96 218.60,492.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="training-large-714" points="274.20,479.12 287.08,492.00 274.20,504.88 261.32,492.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<ellipse id="training-large-715" cx="316.0" cy="492.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="training-large-716" x="398" y="481" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="training-large-717" x1="403" y1="496.25" x2="416.0" y2="485.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="training-large-718" x1="411.25" y1="485.5" x2="416.0" y2="485.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="training-large-719" x1="416.0" y1="485.5" x2="415.0" y2="490.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="training-large-720" x1="402" y1="496.75" x2="419" y2="496.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<rect id="training-large-cnot-a" x="336" y="339" width="13" height="51" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<rect id="training-large-cnot-b" x="359" y="451" width="13" height="51" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+</g>
+<g id="training-medium-20" data-semantic="training-medium">
+<rect id="training-medium-shadow" x="216" y="346" width="360" height="159" fill="#C9E5B4" stroke="#000000" stroke-width="2.4"/>
+<rect id="training-medium-body" x="205" y="333" width="360" height="159" fill="#C9E5B4" stroke="#000000" stroke-width="2.4"/>
+<text id="training-medium-ket-0" x="214" y="361.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="214" dy="0">|0⟩</tspan>
+</text>
+<line id="training-medium-wire-0" x1="250" y1="356" x2="543" y2="356" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="training-medium-727" points="264.10,344.04 277.90,344.04 284.80,356.00 277.90,367.96 264.10,367.96 257.20,356.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="training-medium-728" points="304.80,343.12 317.68,356.00 304.80,368.88 291.92,356.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="training-medium-729" cx="338.6" cy="356.0" rx="12.88" ry="12.88" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="training-medium-730" points="365.50,344.04 379.30,344.04 386.20,356.00 379.30,367.96 365.50,367.96 358.60,356.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="training-medium-731" points="406.20,343.12 419.08,356.00 406.20,368.88 393.32,356.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="training-medium-732" cx="440.0" cy="356.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="training-medium-733" x="522" y="345" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="training-medium-734" x1="527" y1="360.25" x2="540.0" y2="349.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="training-medium-735" x1="535.25" y1="349.5" x2="540.0" y2="349.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="training-medium-736" x1="540.0" y1="349.5" x2="539.0" y2="354.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="training-medium-737" x1="526" y1="360.75" x2="543" y2="360.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="training-medium-ket-1" x="214" y="392.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="214" dy="0">|0⟩</tspan>
+</text>
+<line id="training-medium-wire-1" x1="250" y1="387" x2="543" y2="387" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="training-medium-740" points="264.10,375.04 277.90,375.04 284.80,387.00 277.90,398.96 264.10,398.96 257.20,387.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="training-medium-741" points="304.80,374.12 317.68,387.00 304.80,399.88 291.92,387.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<ellipse id="training-medium-742" cx="338.6" cy="387.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="training-medium-743" points="365.50,375.04 379.30,375.04 386.20,387.00 379.30,398.96 365.50,398.96 358.60,387.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="training-medium-744" points="406.20,374.12 419.08,387.00 406.20,399.88 393.32,387.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<ellipse id="training-medium-745" cx="440.0" cy="387.0" rx="12.88" ry="12.88" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<rect id="training-medium-746" x="522" y="376" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="training-medium-747" x1="527" y1="391.25" x2="540.0" y2="380.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="training-medium-748" x1="535.25" y1="380.5" x2="540.0" y2="380.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="training-medium-749" x1="540.0" y1="380.5" x2="539.0" y2="385.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="training-medium-750" x1="526" y1="391.75" x2="543" y2="391.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="training-medium-ket-2" x="214" y="423.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="214" dy="0">|0⟩</tspan>
+</text>
+<line id="training-medium-wire-2" x1="250" y1="418" x2="543" y2="418" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="training-medium-753" points="264.10,406.04 277.90,406.04 284.80,418.00 277.90,429.96 264.10,429.96 257.20,418.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="training-medium-754" points="304.80,405.12 317.68,418.00 304.80,430.88 291.92,418.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="training-medium-755" cx="338.6" cy="418.0" rx="12.88" ry="12.88" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="training-medium-756" points="365.50,406.04 379.30,406.04 386.20,418.00 379.30,429.96 365.50,429.96 358.60,418.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="training-medium-757" points="406.20,405.12 419.08,418.00 406.20,430.88 393.32,418.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="training-medium-758" cx="440.0" cy="418.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="training-medium-759" x="522" y="407" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="training-medium-760" x1="527" y1="422.25" x2="540.0" y2="411.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="training-medium-761" x1="535.25" y1="411.5" x2="540.0" y2="411.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="training-medium-762" x1="540.0" y1="411.5" x2="539.0" y2="416.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="training-medium-763" x1="526" y1="422.75" x2="543" y2="422.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="training-medium-ket-3" x="214" y="474.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="214" dy="0">|0⟩</tspan>
+</text>
+<line id="training-medium-wire-3" x1="250" y1="469" x2="543" y2="469" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="training-medium-766" points="264.10,457.04 277.90,457.04 284.80,469.00 277.90,480.96 264.10,480.96 257.20,469.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="training-medium-767" points="304.80,456.12 317.68,469.00 304.80,481.88 291.92,469.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<ellipse id="training-medium-768" cx="338.6" cy="469.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="training-medium-769" points="365.50,457.04 379.30,457.04 386.20,469.00 379.30,480.96 365.50,480.96 358.60,469.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="training-medium-770" points="406.20,456.12 419.08,469.00 406.20,481.88 393.32,469.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<ellipse id="training-medium-771" cx="440.0" cy="469.0" rx="12.88" ry="12.88" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<rect id="training-medium-772" x="522" y="458" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="training-medium-773" x1="527" y1="473.25" x2="540.0" y2="462.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="training-medium-774" x1="535.25" y1="462.5" x2="540.0" y2="462.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="training-medium-775" x1="540.0" y1="462.5" x2="539.0" y2="467.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="training-medium-776" x1="526" y1="473.75" x2="543" y2="473.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<rect id="training-medium-cnot-a" x="460" y="346" width="13" height="51" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<rect id="training-medium-cnot-b" x="483" y="408" width="13" height="71" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+</g>
+<g id="training-small-21" data-semantic="training-small">
+<rect id="training-small-shadow" x="474" y="333" width="278" height="118" fill="#FFF1CA" stroke="#000000" stroke-width="2.4"/>
+<rect id="training-small-body" x="463" y="320" width="278" height="118" fill="#FFF1CA" stroke="#000000" stroke-width="2.4"/>
+<text id="training-small-ket-0" x="472" y="349.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="472" dy="0">|0⟩</tspan>
+</text>
+<line id="training-small-wire-0" x1="508" y1="344" x2="719" y2="344" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="training-small-783" points="522.10,332.04 535.90,332.04 542.80,344.00 535.90,355.96 522.10,355.96 515.20,344.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="training-small-784" points="572.50,331.12 585.38,344.00 572.50,356.88 559.62,344.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<ellipse id="training-small-785" cx="616.0" cy="344.0" rx="12.88" ry="12.88" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<rect id="training-small-786" x="698" y="333" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="training-small-787" x1="703" y1="348.25" x2="716.0" y2="337.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="training-small-788" x1="711.25" y1="337.5" x2="716.0" y2="337.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="training-small-789" x1="716.0" y1="337.5" x2="715.0" y2="342.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="training-small-790" x1="702" y1="348.75" x2="719" y2="348.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="training-small-ket-1" x="472" y="384.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="472" dy="0">|0⟩</tspan>
+</text>
+<line id="training-small-wire-1" x1="508" y1="379.0" x2="719" y2="379.0" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="training-small-793" points="522.10,367.04 535.90,367.04 542.80,379.00 535.90,390.96 522.10,390.96 515.20,379.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="training-small-794" points="572.50,366.12 585.38,379.00 572.50,391.88 559.62,379.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="training-small-795" cx="616.0" cy="379.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="training-small-796" x="698" y="368.0" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="training-small-797" x1="703" y1="383.25" x2="716.0" y2="372.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="training-small-798" x1="711.25" y1="372.5" x2="716.0" y2="372.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="training-small-799" x1="716.0" y1="372.5" x2="715.0" y2="377.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="training-small-800" x1="702" y1="383.75" x2="719" y2="383.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="training-small-ket-2" x="472" y="419.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="472" dy="0">|0⟩</tspan>
+</text>
+<line id="training-small-wire-2" x1="508" y1="414" x2="719" y2="414" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="training-small-803" points="522.10,402.04 535.90,402.04 542.80,414.00 535.90,425.96 522.10,425.96 515.20,414.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="training-small-804" points="572.50,401.12 585.38,414.00 572.50,426.88 559.62,414.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<ellipse id="training-small-805" cx="616.0" cy="414.0" rx="12.88" ry="12.88" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<rect id="training-small-806" x="698" y="403" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="training-small-807" x1="703" y1="418.25" x2="716.0" y2="407.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="training-small-808" x1="711.25" y1="407.5" x2="716.0" y2="407.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="training-small-809" x1="716.0" y1="407.5" x2="715.0" y2="412.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="training-small-810" x1="702" y1="418.75" x2="719" y2="418.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<rect id="training-small-cnot-a" x="636" y="334" width="13" height="55.0" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<rect id="training-small-cnot-b" x="659" y="369.0" width="13" height="55.0" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+</g>
+<g id="root-22" data-semantic="root">
+<text id="root-813" x="45" y="566.86" text-anchor="start" style="font-family:Liberation Serif;font-size:29px;font-weight:700;font-style:normal;fill:#000000">
+<tspan x="45" dy="0">Training Dataset: Label</tspan>
+</text>
+</g>
+<g id="loss-loop-23" data-semantic="loss-loop">
+<text id="loss-loop-814" x="668.0" y="494.36" text-anchor="middle" style="font-family:Liberation Serif;font-size:29px;font-weight:700;font-style:normal;fill:#000000">
+<tspan x="668.0" dy="0">Loss Function</tspan>
+</text>
+<rect id="loss-loop-815" x="498" y="509" width="220" height="62" fill="#F8C5CC" stroke="#E7475D" stroke-width="3"/>
+<text id="loss-loop-816" x="608.0" y="544.44" text-anchor="middle" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:italic;fill:#000000">
+<tspan x="608.0" dy="0">min_ω   1/N  ∑ᵢ₌₁ᴺ ‖Ĉᵢ−Cᵢ‖²_F</tspan>
+</text>
+<line id="loss-loop-817" x1="250" y1="528" x2="487" y2="540" stroke="#E7475D" stroke-width="2.5" fill="none" stroke-dasharray="17 13" marker-end="url(#arrow)"/>
+<line id="loss-loop-818" x1="718" y1="540" x2="740" y2="540" stroke="#E7475D" stroke-width="2.5" fill="none" stroke-dasharray="17 13" marker-end="url(#arrow)"/>
+<line id="loss-loop-819" x1="740" y1="540" x2="740" y2="622" stroke="#E7475D" stroke-width="2.5" fill="none" stroke-dasharray="17 13"/>
+<line id="loss-loop-820" x1="740" y1="622" x2="343" y2="622" stroke="#E7475D" stroke-width="2.5" fill="none" stroke-dasharray="17 13" marker-end="url(#arrow)"/>
+</g>
+<g id="model-weight-update-24" data-semantic="model-weight-update">
+<rect id="model-weight-update-821" x="128" y="594" width="216" height="31" fill="#BFD3F6" stroke="#4B79C8" stroke-width="2"/>
+<text id="model-weight-update-822" x="236.0" y="616.3" text-anchor="middle" style="font-family:Liberation Serif;font-size:20px;font-weight:700;font-style:normal;fill:#000000">
+<tspan x="236.0" dy="0">Model Weights Update</tspan>
+</text>
+<line id="model-weight-update-823" x1="128" y1="609" x2="86" y2="609" stroke="#000000" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<line id="model-weight-update-824" x1="86" y1="609" x2="65" y2="633" stroke="#000000" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+</g>
+<g id="model-inputs-25" data-semantic="model-inputs">
+<rect id="model-inputs-825" x="53" y="641" width="29" height="121" fill="#C17DEE" stroke="#000000" stroke-width="2.4"/>
+<polygon id="model-inputs-826" points="88.30,630.00 100.00,630.00 93.70,751.00 82.00,751.00" fill="#945DC0" stroke="#000000" stroke-width="2.2"/>
+<line id="model-inputs-827" x1="95" y1="699" x2="130" y2="699" stroke="#000000" stroke-width="3.5" fill="none" marker-end="url(#arrow)"/>
+<text id="model-inputs-828" x="78.0" y="783.26" text-anchor="middle" style="font-family:Liberation Serif;font-size:14px;font-weight:700;font-style:normal;fill:#000000">
+<tspan x="78.0" dy="0">(B, 3+K, H, W)</tspan>
+</text>
+<text id="model-inputs-829" x="83.0" y="816.8" text-anchor="middle" style="font-family:Liberation Serif;font-size:20px;font-weight:700;font-style:normal;fill:#000000">
+<tspan x="83.0" dy="0">Inputs</tspan>
+</text>
+</g>
+<g id="resnet-node-network-26" data-semantic="resnet-node-network">
+<line id="resnet-node-network-830" x1="150" y1="663" x2="180" y2="679" stroke="#000000" stroke-width="1.5" fill="none"/>
+<line id="resnet-node-network-831" x1="150" y1="663" x2="180" y2="717" stroke="#000000" stroke-width="1.5" fill="none"/>
+<line id="resnet-node-network-832" x1="150" y1="663" x2="180" y2="755" stroke="#000000" stroke-width="1.5" fill="none"/>
+<line id="resnet-node-network-833" x1="150" y1="691" x2="180" y2="679" stroke="#000000" stroke-width="1.5" fill="none"/>
+<line id="resnet-node-network-834" x1="150" y1="691" x2="180" y2="717" stroke="#000000" stroke-width="1.5" fill="none"/>
+<line id="resnet-node-network-835" x1="150" y1="691" x2="180" y2="755" stroke="#000000" stroke-width="1.5" fill="none"/>
+<line id="resnet-node-network-836" x1="150" y1="719" x2="180" y2="679" stroke="#000000" stroke-width="1.5" fill="none"/>
+<line id="resnet-node-network-837" x1="150" y1="719" x2="180" y2="717" stroke="#000000" stroke-width="1.5" fill="none"/>
+<line id="resnet-node-network-838" x1="150" y1="719" x2="180" y2="755" stroke="#000000" stroke-width="1.5" fill="none"/>
+<line id="resnet-node-network-839" x1="150" y1="747" x2="180" y2="679" stroke="#000000" stroke-width="1.5" fill="none"/>
+<line id="resnet-node-network-840" x1="150" y1="747" x2="180" y2="717" stroke="#000000" stroke-width="1.5" fill="none"/>
+<line id="resnet-node-network-841" x1="150" y1="747" x2="180" y2="755" stroke="#000000" stroke-width="1.5" fill="none"/>
+<line id="resnet-node-network-842" x1="180" y1="679" x2="208" y2="677" stroke="#000000" stroke-width="1.5" fill="none"/>
+<line id="resnet-node-network-843" x1="180" y1="679" x2="208" y2="723" stroke="#000000" stroke-width="1.5" fill="none"/>
+<line id="resnet-node-network-844" x1="180" y1="679" x2="208" y2="769" stroke="#000000" stroke-width="1.5" fill="none"/>
+<line id="resnet-node-network-845" x1="180" y1="717" x2="208" y2="677" stroke="#000000" stroke-width="1.5" fill="none"/>
+<line id="resnet-node-network-846" x1="180" y1="717" x2="208" y2="723" stroke="#000000" stroke-width="1.5" fill="none"/>
+<line id="resnet-node-network-847" x1="180" y1="717" x2="208" y2="769" stroke="#000000" stroke-width="1.5" fill="none"/>
+<line id="resnet-node-network-848" x1="180" y1="755" x2="208" y2="677" stroke="#000000" stroke-width="1.5" fill="none"/>
+<line id="resnet-node-network-849" x1="180" y1="755" x2="208" y2="723" stroke="#000000" stroke-width="1.5" fill="none"/>
+<line id="resnet-node-network-850" x1="180" y1="755" x2="208" y2="769" stroke="#000000" stroke-width="1.5" fill="none"/>
+<ellipse id="resnet-node-network-851" cx="150.0" cy="663.0" rx="8.0" ry="8.0" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<ellipse id="resnet-node-network-852" cx="150.0" cy="691.0" rx="8.0" ry="8.0" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<ellipse id="resnet-node-network-853" cx="150.0" cy="719.0" rx="8.0" ry="8.0" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<ellipse id="resnet-node-network-854" cx="150.0" cy="747.0" rx="8.0" ry="8.0" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<ellipse id="resnet-node-network-855" cx="180.0" cy="679.0" rx="8.0" ry="8.0" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<ellipse id="resnet-node-network-856" cx="180.0" cy="717.0" rx="8.0" ry="8.0" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<ellipse id="resnet-node-network-857" cx="180.0" cy="755.0" rx="8.0" ry="8.0" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<ellipse id="resnet-node-network-858" cx="208.0" cy="677.0" rx="8.0" ry="8.0" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<ellipse id="resnet-node-network-859" cx="208.0" cy="723.0" rx="8.0" ry="8.0" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<ellipse id="resnet-node-network-860" cx="208.0" cy="769.0" rx="8.0" ry="8.0" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+</g>
+<g id="root-27" data-semantic="root">
+<text id="root-861" x="180.5" y="780.66" text-anchor="middle" style="font-family:Liberation Serif;font-size:24px;font-weight:700;font-style:normal;fill:#000000">
+<tspan x="180.5" dy="0">ResNet-18</tspan>
+</text>
+<text id="root-862" x="230.0" y="653.42" text-anchor="middle" style="font-family:Liberation Serif;font-size:13px;font-weight:700;font-style:normal;fill:#000000">
+<tspan x="230.0" dy="0">(B, 512, H′, W′)</tspan>
+</text>
+<line id="root-863" x1="213" y1="703" x2="247" y2="681" stroke="#000000" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect id="root-864" x="250" y="672" width="22" height="22" fill="#71BB42" stroke="#000000" stroke-width="2"/>
+<text id="root-865" x="261.5" y="709.42" text-anchor="middle" style="font-family:Liberation Serif;font-size:13px;font-weight:700;font-style:normal;fill:#000000">
+<tspan x="261.5" dy="0">1×1 Conv</tspan>
+</text>
+<line id="root-866" x1="273" y1="683" x2="306" y2="683" stroke="#000000" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+</g>
+<g id="flatten-concat-28" data-semantic="flatten-concat">
+<rect id="flatten-concat-867" x="309" y="642" width="27" height="18" fill="#FDD7FC" stroke="#000000" stroke-width="1.2"/>
+<rect id="flatten-concat-868" x="309" y="660" width="27" height="18" fill="#C9E5B4" stroke="#000000" stroke-width="1.2"/>
+<rect id="flatten-concat-869" x="309" y="678" width="27" height="18" fill="#FDD7FC" stroke="#000000" stroke-width="1.2"/>
+<rect id="flatten-concat-870" x="309" y="696" width="27" height="18" fill="#C9E5B4" stroke="#000000" stroke-width="1.2"/>
+<rect id="flatten-concat-871" x="309" y="714" width="27" height="18" fill="#FDD7FC" stroke="#000000" stroke-width="1.2"/>
+<rect id="flatten-concat-872" x="309" y="732" width="27" height="18" fill="#C9E5B4" stroke="#000000" stroke-width="1.2"/>
+<rect id="flatten-concat-873" x="309" y="750" width="27" height="18" fill="#FDD7FC" stroke="#000000" stroke-width="1.2"/>
+<polygon id="flatten-concat-874" points="344.05,630.00 359.00,630.00 350.95,769.00 336.00,769.00" fill="#D1DCF2" stroke="#000000" stroke-width="2.2"/>
+<text id="flatten-concat-875" x="336.0" y="788.42" text-anchor="middle" style="font-family:Liberation Serif;font-size:13px;font-weight:700;font-style:normal;fill:#000000">
+<tspan x="336.0" dy="0">(B, 512, H′, W′)</tspan>
+</text>
+<text id="flatten-concat-876" x="333.0" y="819.14" text-anchor="middle" style="font-family:Liberation Serif;font-size:21px;font-weight:700;font-style:normal;fill:#000000">
+<tspan x="333.0" dy="0">Flatten &amp; Concat</tspan>
+</text>
+<line id="flatten-concat-877" x1="360" y1="704" x2="385" y2="704" stroke="#000000" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+</g>
+<g id="mhsa-module-29" data-semantic="mhsa-module">
+<rect id="mhsa-module-878" x="397" y="612" width="199" height="184" fill="#E7E7E7" stroke="#000000" stroke-width="2.2" rx="30" ry="30"/>
+<rect id="mhsa-module-879" x="390" y="620" width="199" height="184" fill="#E7E7E7" stroke="#000000" stroke-width="2.2" rx="30" ry="30"/>
+<rect id="mhsa-module-880" x="383" y="628" width="199" height="177" fill="#E7E7E7" stroke="#000000" stroke-width="2.2" rx="30" ry="30"/>
+<text id="mhsa-module-881" x="519.0" y="656.16" text-anchor="middle" style="font-family:Liberation Serif;font-size:24px;font-weight:700;font-style:normal;fill:#000000">
+<tspan x="519.0" dy="0">MHSA</tspan>
+</text>
+</g>
+<g id="mhsa-q-30" data-semantic="mhsa-q">
+<rect id="mhsa-q-882" x="402" y="660" width="11" height="11" fill="#C751A4" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-q-883" x="413" y="660" width="11" height="11" fill="#D66BB5" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-q-884" x="424" y="660" width="11" height="11" fill="#C751A4" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-q-885" x="402" y="671" width="11" height="11" fill="#D66BB5" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-q-886" x="413" y="671" width="11" height="11" fill="#C751A4" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-q-887" x="424" y="671" width="11" height="11" fill="#D66BB5" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-q-888" x="402" y="682" width="11" height="11" fill="#C751A4" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-q-889" x="413" y="682" width="11" height="11" fill="#D66BB5" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-q-890" x="424" y="682" width="11" height="11" fill="#C751A4" stroke="#000000" stroke-width="1.0"/>
+</g>
+<g id="mhsa-k-31" data-semantic="mhsa-k">
+<rect id="mhsa-k-891" x="402" y="710" width="11" height="11" fill="#B68069" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-k-892" x="413" y="710" width="11" height="11" fill="#C89B87" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-k-893" x="424" y="710" width="11" height="11" fill="#B68069" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-k-894" x="402" y="721" width="11" height="11" fill="#C89B87" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-k-895" x="413" y="721" width="11" height="11" fill="#B68069" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-k-896" x="424" y="721" width="11" height="11" fill="#C89B87" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-k-897" x="402" y="732" width="11" height="11" fill="#B68069" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-k-898" x="413" y="732" width="11" height="11" fill="#C89B87" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-k-899" x="424" y="732" width="11" height="11" fill="#B68069" stroke="#000000" stroke-width="1.0"/>
+</g>
+<g id="mhsa-v-32" data-semantic="mhsa-v">
+<rect id="mhsa-v-900" x="402" y="760" width="11" height="11" fill="#78A88A" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-v-901" x="413" y="760" width="11" height="11" fill="#93B9A0" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-v-902" x="424" y="760" width="11" height="11" fill="#78A88A" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-v-903" x="402" y="771" width="11" height="11" fill="#93B9A0" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-v-904" x="413" y="771" width="11" height="11" fill="#78A88A" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-v-905" x="424" y="771" width="11" height="11" fill="#93B9A0" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-v-906" x="402" y="782" width="11" height="11" fill="#78A88A" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-v-907" x="413" y="782" width="11" height="11" fill="#93B9A0" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-v-908" x="424" y="782" width="11" height="11" fill="#78A88A" stroke="#000000" stroke-width="1.0"/>
+</g>
+<g id="mhsa-q-small-33" data-semantic="mhsa-q-small">
+<rect id="mhsa-q-small-909" x="454" y="671" width="11" height="11" fill="#C9E5B4" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-q-small-910" x="465" y="671" width="11" height="11" fill="#DCEFD2" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-q-small-911" x="454" y="682" width="11" height="11" fill="#DCEFD2" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-q-small-912" x="465" y="682" width="11" height="11" fill="#C9E5B4" stroke="#000000" stroke-width="1.0"/>
+</g>
+<g id="mhsa-k-small-34" data-semantic="mhsa-k-small">
+<rect id="mhsa-k-small-913" x="454" y="721" width="11" height="11" fill="#E9D1BD" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-k-small-914" x="465" y="721" width="11" height="11" fill="#F4E3D7" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-k-small-915" x="454" y="732" width="11" height="11" fill="#F4E3D7" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-k-small-916" x="465" y="732" width="11" height="11" fill="#E9D1BD" stroke="#000000" stroke-width="1.0"/>
+</g>
+<g id="mhsa-v-small-35" data-semantic="mhsa-v-small">
+<rect id="mhsa-v-small-917" x="454" y="771" width="11" height="11" fill="#EDCED6" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-v-small-918" x="465" y="771" width="11" height="11" fill="#F6DDE4" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-v-small-919" x="454" y="782" width="11" height="11" fill="#F6DDE4" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-v-small-920" x="465" y="782" width="11" height="11" fill="#EDCED6" stroke="#000000" stroke-width="1.0"/>
+</g>
+<g id="mhsa-module-36" data-semantic="mhsa-module">
+<line id="mhsa-module-921" x1="436" y1="676" x2="452" y2="676" stroke="#000000" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<line id="mhsa-module-922" x1="476" y1="676" x2="497" y2="676" stroke="#000000" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<line id="mhsa-module-923" x1="436" y1="726" x2="452" y2="726" stroke="#000000" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<line id="mhsa-module-924" x1="476" y1="726" x2="497" y2="726" stroke="#000000" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<line id="mhsa-module-925" x1="436" y1="776" x2="452" y2="776" stroke="#000000" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<line id="mhsa-module-926" x1="476" y1="776" x2="497" y2="776" stroke="#000000" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+</g>
+<g id="mhsa-score-37" data-semantic="mhsa-score">
+<rect id="mhsa-score-927" x="498" y="712" width="11" height="11" fill="#F2BC00" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-score-928" x="509" y="712" width="11" height="11" fill="#FFD51C" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-score-929" x="520" y="712" width="11" height="11" fill="#F2BC00" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-score-930" x="498" y="723" width="11" height="11" fill="#FFD51C" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-score-931" x="509" y="723" width="11" height="11" fill="#F2BC00" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-score-932" x="520" y="723" width="11" height="11" fill="#FFD51C" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-score-933" x="498" y="734" width="11" height="11" fill="#F2BC00" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-score-934" x="509" y="734" width="11" height="11" fill="#FFD51C" stroke="#000000" stroke-width="1.0"/>
+<rect id="mhsa-score-935" x="520" y="734" width="11" height="11" fill="#F2BC00" stroke="#000000" stroke-width="1.0"/>
+</g>
+<g id="mhsa-module-38" data-semantic="mhsa-module">
+<rect id="mhsa-module-936" x="552" y="670" width="19" height="89" fill="#4E84D5" stroke="#000000" stroke-width="2" rx="3" ry="3"/>
+<text id="mhsa-module-937" x="561.5" y="718.76" text-anchor="middle" style="font-family:Liberation Sans;font-size:14px;font-weight:700;font-style:normal;fill:#FFFFFF" transform="rotate(270 561.5 714.0)">
+<tspan x="561.5" dy="0">Softmax</tspan>
+</text>
+<line id="mhsa-module-938" x1="531" y1="728" x2="550" y2="714" stroke="#000000" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<line id="mhsa-module-939" x1="572" y1="714" x2="600" y2="681" stroke="#000000" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<text id="mhsa-module-940" x="490.0" y="626.96" text-anchor="middle" style="font-family:Liberation Serif;font-size:19px;font-weight:700;font-style:normal;fill:#000000">
+<tspan x="490.0" dy="0">Head</tspan>
+</text>
+</g>
+<g id="root-39" data-semantic="root">
+<text id="root-941" x="666.0" y="624.1" text-anchor="middle" style="font-family:Liberation Sans;font-size:40px;font-weight:700;font-style:normal;fill:#000000">
+<tspan x="666.0" dy="0">TITAN</tspan>
+</text>
+<text id="root-942" x="622.5" y="746.42" text-anchor="middle" style="font-family:Liberation Serif;font-size:13px;font-weight:700;font-style:normal;fill:#000000" transform="rotate(270 622.5 742.0)">
+<tspan x="622.5" dy="0">(B, 512, H, W)</tspan>
+</text>
+<rect id="root-943" x="615" y="671" width="22" height="22" fill="#71BB42" stroke="#000000" stroke-width="2"/>
+<text id="root-944" x="627.5" y="660.42" text-anchor="middle" style="font-family:Liberation Serif;font-size:13px;font-weight:700;font-style:normal;fill:#000000">
+<tspan x="627.5" dy="0">1×1 Conv</tspan>
+</text>
+<line id="root-945" x1="638" y1="682" x2="666" y2="682" stroke="#000000" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<text id="root-946" x="683.5" y="747.42" text-anchor="middle" style="font-family:Liberation Serif;font-size:13px;font-weight:700;font-style:normal;fill:#000000" transform="rotate(270 683.5 743.0)">
+<tspan x="683.5" dy="0">(B, 512, H′, W′)</tspan>
+</text>
+</g>
+<g id="upsampling-grid-40" data-semantic="upsampling-grid">
+<rect id="upsampling-grid-947" x="669" y="655" width="14" height="14" fill="#15CFA8" stroke="#000000" stroke-width="1.0"/>
+<rect id="upsampling-grid-948" x="683" y="655" width="14" height="14" fill="#23DDB7" stroke="#000000" stroke-width="1.0"/>
+<rect id="upsampling-grid-949" x="697" y="655" width="14" height="14" fill="#15CFA8" stroke="#000000" stroke-width="1.0"/>
+<rect id="upsampling-grid-950" x="669" y="669" width="14" height="14" fill="#23DDB7" stroke="#000000" stroke-width="1.0"/>
+<rect id="upsampling-grid-951" x="683" y="669" width="14" height="14" fill="#15CFA8" stroke="#000000" stroke-width="1.0"/>
+<rect id="upsampling-grid-952" x="697" y="669" width="14" height="14" fill="#23DDB7" stroke="#000000" stroke-width="1.0"/>
+<rect id="upsampling-grid-953" x="669" y="683" width="14" height="14" fill="#15CFA8" stroke="#000000" stroke-width="1.0"/>
+<rect id="upsampling-grid-954" x="683" y="683" width="14" height="14" fill="#23DDB7" stroke="#000000" stroke-width="1.0"/>
+<rect id="upsampling-grid-955" x="697" y="683" width="14" height="14" fill="#15CFA8" stroke="#000000" stroke-width="1.0"/>
+</g>
+<g id="upsampling-output-41" data-semantic="upsampling-output">
+<text id="upsampling-output-956" x="697.0" y="645.1" text-anchor="middle" style="font-family:Liberation Serif;font-size:15px;font-weight:700;font-style:normal;fill:#000000">
+<tspan x="697.0" dy="0">Upsampling</tspan>
+</text>
+<line id="upsampling-output-957" x1="711" y1="697" x2="711" y2="751" stroke="#000000" stroke-width="3" fill="none"/>
+<line id="upsampling-output-958" x1="711" y1="751" x2="728" y2="751" stroke="#000000" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect id="upsampling-output-959" x="728" y="681" width="31" height="103" fill="#FFFFFF" stroke="#000000" stroke-width="2.2" rx="7" ry="7"/>
+<text id="upsampling-output-960" x="743.5" y="739.3" text-anchor="middle" style="font-family:Liberation Serif;font-size:20px;font-weight:700;font-style:normal;fill:#000000" transform="rotate(270 743.5 732.5)">
+<tspan x="743.5" dy="0">Outputs</tspan>
+</text>
+<text id="upsampling-output-961" x="713.0" y="801.42" text-anchor="middle" style="font-family:Liberation Serif;font-size:13px;font-weight:700;font-style:normal;fill:#000000">
+<tspan x="713.0" dy="0">(B, 512, H, W)</tspan>
+</text>
+</g>
+<g id="root-42" data-semantic="root">
+<text id="root-962" x="27" y="882.24" text-anchor="start" style="font-family:Liberation Serif;font-size:36px;font-weight:700;font-style:normal;fill:#000000">
+<tspan x="27" dy="0">(b) ResNet-18 Based Model Training</tspan>
+</text>
+</g>
+<g id="large-vqe-input-43" data-semantic="large-vqe-input">
+<rect id="large-vqe-input-shadow" x="815" y="342" width="410" height="207" fill="#FDD7FC" stroke="#000000" stroke-width="2.4"/>
+<rect id="large-vqe-input-body" x="804" y="329" width="410" height="207" fill="#FDD7FC" stroke="#000000" stroke-width="2.4"/>
+<text id="large-vqe-input-left-ellipsis" x="824.0" y="449.52000000000004" text-anchor="middle" style="font-family:Liberation Serif;font-size:24px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="824.0" dy="0">⋮</tspan>
+</text>
+<text id="large-vqe-input-mid-ellipsis" x="1011.8" y="449.52000000000004" text-anchor="middle" style="font-family:Liberation Serif;font-size:24px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="1011.8" dy="0">⋮</tspan>
+</text>
+<text id="large-vqe-input-right-ellipsis" x="1158.0" y="449.52000000000004" text-anchor="middle" style="font-family:Liberation Serif;font-size:24px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="1158.0" dy="0">⋮</tspan>
+</text>
+<text id="large-vqe-input-ket-0" x="813" y="359.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="813" dy="0">|0⟩</tspan>
+</text>
+<line id="large-vqe-input-wire-0" x1="849" y1="354" x2="1192" y2="354" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="large-vqe-input-970" points="863.10,342.04 876.90,342.04 883.80,354.00 876.90,365.96 863.10,365.96 856.20,354.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="large-vqe-input-971" points="913.80,341.12 926.68,354.00 913.80,366.88 900.92,354.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="large-vqe-input-972" cx="957.6" cy="354.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="large-vqe-input-973" points="994.50,342.04 1008.30,342.04 1015.20,354.00 1008.30,365.96 994.50,365.96 987.60,354.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="large-vqe-input-974" points="1045.20,341.12 1058.08,354.00 1045.20,366.88 1032.32,354.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="large-vqe-input-975" cx="1089.0" cy="354.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="large-vqe-input-976" x="1171" y="343" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="large-vqe-input-977" x1="1176" y1="358.25" x2="1189.0" y2="347.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="large-vqe-input-978" x1="1184.25" y1="347.5" x2="1189.0" y2="347.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="large-vqe-input-979" x1="1189.0" y1="347.5" x2="1188.0" y2="352.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="large-vqe-input-980" x1="1175" y1="358.75" x2="1192" y2="358.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="large-vqe-input-ket-1" x="813" y="390.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="813" dy="0">|0⟩</tspan>
+</text>
+<line id="large-vqe-input-wire-1" x1="849" y1="385" x2="1192" y2="385" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="large-vqe-input-983" points="863.10,373.04 876.90,373.04 883.80,385.00 876.90,396.96 863.10,396.96 856.20,385.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="large-vqe-input-984" points="913.80,372.12 926.68,385.00 913.80,397.88 900.92,385.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="large-vqe-input-985" cx="957.6" cy="385.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="large-vqe-input-986" points="994.50,373.04 1008.30,373.04 1015.20,385.00 1008.30,396.96 994.50,396.96 987.60,385.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="large-vqe-input-987" points="1045.20,372.12 1058.08,385.00 1045.20,397.88 1032.32,385.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="large-vqe-input-988" cx="1089.0" cy="385.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="large-vqe-input-989" x="1171" y="374" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="large-vqe-input-990" x1="1176" y1="389.25" x2="1189.0" y2="378.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="large-vqe-input-991" x1="1184.25" y1="378.5" x2="1189.0" y2="378.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="large-vqe-input-992" x1="1189.0" y1="378.5" x2="1188.0" y2="383.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="large-vqe-input-993" x1="1175" y1="389.75" x2="1192" y2="389.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="large-vqe-input-ket-2" x="813" y="421.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="813" dy="0">|0⟩</tspan>
+</text>
+<line id="large-vqe-input-wire-2" x1="849" y1="416" x2="1192" y2="416" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="large-vqe-input-996" points="863.10,404.04 876.90,404.04 883.80,416.00 876.90,427.96 863.10,427.96 856.20,416.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="large-vqe-input-997" points="913.80,403.12 926.68,416.00 913.80,428.88 900.92,416.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="large-vqe-input-998" cx="957.6" cy="416.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="large-vqe-input-999" points="994.50,404.04 1008.30,404.04 1015.20,416.00 1008.30,427.96 994.50,427.96 987.60,416.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="large-vqe-input-1000" points="1045.20,403.12 1058.08,416.00 1045.20,428.88 1032.32,416.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="large-vqe-input-1001" cx="1089.0" cy="416.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="large-vqe-input-1002" x="1171" y="405" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="large-vqe-input-1003" x1="1176" y1="420.25" x2="1189.0" y2="409.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="large-vqe-input-1004" x1="1184.25" y1="409.5" x2="1189.0" y2="409.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="large-vqe-input-1005" x1="1189.0" y1="409.5" x2="1188.0" y2="414.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="large-vqe-input-1006" x1="1175" y1="420.75" x2="1192" y2="420.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="large-vqe-input-ket-3" x="813" y="484.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="813" dy="0">|0⟩</tspan>
+</text>
+<line id="large-vqe-input-wire-3" x1="849" y1="479" x2="1192" y2="479" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="large-vqe-input-1009" points="863.10,467.04 876.90,467.04 883.80,479.00 876.90,490.96 863.10,490.96 856.20,479.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="large-vqe-input-1010" points="913.80,466.12 926.68,479.00 913.80,491.88 900.92,479.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="large-vqe-input-1011" cx="957.6" cy="479.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="large-vqe-input-1012" points="994.50,467.04 1008.30,467.04 1015.20,479.00 1008.30,490.96 994.50,490.96 987.60,479.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="large-vqe-input-1013" points="1045.20,466.12 1058.08,479.00 1045.20,491.88 1032.32,479.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="large-vqe-input-1014" cx="1089.0" cy="479.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="large-vqe-input-1015" x="1171" y="468" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="large-vqe-input-1016" x1="1176" y1="483.25" x2="1189.0" y2="472.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="large-vqe-input-1017" x1="1184.25" y1="472.5" x2="1189.0" y2="472.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="large-vqe-input-1018" x1="1189.0" y1="472.5" x2="1188.0" y2="477.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="large-vqe-input-1019" x1="1175" y1="483.75" x2="1192" y2="483.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="large-vqe-input-ket-4" x="813" y="515.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="813" dy="0">|0⟩</tspan>
+</text>
+<line id="large-vqe-input-wire-4" x1="849" y1="510" x2="1192" y2="510" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="large-vqe-input-1022" points="863.10,498.04 876.90,498.04 883.80,510.00 876.90,521.96 863.10,521.96 856.20,510.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="large-vqe-input-1023" points="913.80,497.12 926.68,510.00 913.80,522.88 900.92,510.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="large-vqe-input-1024" cx="957.6" cy="510.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="large-vqe-input-1025" points="994.50,498.04 1008.30,498.04 1015.20,510.00 1008.30,521.96 994.50,521.96 987.60,510.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="large-vqe-input-1026" points="1045.20,497.12 1058.08,510.00 1045.20,522.88 1032.32,510.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="large-vqe-input-1027" cx="1089.0" cy="510.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="large-vqe-input-1028" x="1171" y="499" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="large-vqe-input-1029" x1="1176" y1="514.25" x2="1189.0" y2="503.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="large-vqe-input-1030" x1="1184.25" y1="503.5" x2="1189.0" y2="503.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="large-vqe-input-1031" x1="1189.0" y1="503.5" x2="1188.0" y2="508.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="large-vqe-input-1032" x1="1175" y1="514.75" x2="1192" y2="514.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<rect id="large-vqe-input-cnot-a" x="1109" y="344" width="13" height="51" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<rect id="large-vqe-input-cnot-b" x="1132" y="469" width="13" height="51" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+</g>
+<g id="root-44" data-semantic="root">
+<text id="root-1035" x="815" y="572.18" text-anchor="start" style="font-family:Liberation Serif;font-size:27px;font-weight:700;font-style:normal;fill:#000000">
+<tspan x="815" dy="0">Large Size</tspan>
+</text>
+<text id="root-1036" x="1069.0" y="575.6" text-anchor="middle" style="font-family:Liberation Sans;font-size:40px;font-weight:700;font-style:normal;fill:#000000">
+<tspan x="1069.0" dy="0">TITAN</tspan>
+</text>
+<line id="root-1037" x1="972" y1="541" x2="972" y2="599" stroke="#000000" stroke-width="5" fill="none" marker-end="url(#arrow)"/>
+</g>
+<g id="large-vqe-output-45" data-semantic="large-vqe-output">
+<rect id="large-vqe-output-shadow" x="821" y="620" width="410" height="207" fill="#FDD7FC" stroke="#000000" stroke-width="2.4"/>
+<rect id="large-vqe-output-body" x="810" y="607" width="410" height="207" fill="#FDD7FC" stroke="#000000" stroke-width="2.4"/>
+<text id="large-vqe-output-left-ellipsis" x="830.0" y="727.52" text-anchor="middle" style="font-family:Liberation Serif;font-size:24px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="830.0" dy="0">⋮</tspan>
+</text>
+<text id="large-vqe-output-mid-ellipsis" x="1017.8" y="727.52" text-anchor="middle" style="font-family:Liberation Serif;font-size:24px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="1017.8" dy="0">⋮</tspan>
+</text>
+<text id="large-vqe-output-right-ellipsis" x="1164.0" y="727.52" text-anchor="middle" style="font-family:Liberation Serif;font-size:24px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="1164.0" dy="0">⋮</tspan>
+</text>
+<text id="large-vqe-output-ket-0" x="819" y="637.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="819" dy="0">|0⟩</tspan>
+</text>
+<line id="large-vqe-output-wire-0" x1="855" y1="632" x2="1198" y2="632" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="large-vqe-output-1045" points="869.10,620.04 882.90,620.04 889.80,632.00 882.90,643.96 869.10,643.96 862.20,632.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="large-vqe-output-1046" points="919.80,619.12 932.68,632.00 919.80,644.88 906.92,632.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="large-vqe-output-1047" cx="963.6" cy="632.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="large-vqe-output-1048" points="1000.50,620.04 1014.30,620.04 1021.20,632.00 1014.30,643.96 1000.50,643.96 993.60,632.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="large-vqe-output-1049" points="1051.20,619.12 1064.08,632.00 1051.20,644.88 1038.32,632.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<ellipse id="large-vqe-output-1050" cx="1095.0" cy="632.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="large-vqe-output-1051" x="1177" y="621" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="large-vqe-output-1052" x1="1182" y1="636.25" x2="1195.0" y2="625.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="large-vqe-output-1053" x1="1190.25" y1="625.5" x2="1195.0" y2="625.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="large-vqe-output-1054" x1="1195.0" y1="625.5" x2="1194.0" y2="630.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="large-vqe-output-1055" x1="1181" y1="636.75" x2="1198" y2="636.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="large-vqe-output-ket-1" x="819" y="668.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="819" dy="0">|0⟩</tspan>
+</text>
+<line id="large-vqe-output-wire-1" x1="855" y1="663" x2="1198" y2="663" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="large-vqe-output-1058" points="869.10,651.04 882.90,651.04 889.80,663.00 882.90,674.96 869.10,674.96 862.20,663.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="large-vqe-output-1059" points="919.80,650.12 932.68,663.00 919.80,675.88 906.92,663.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<ellipse id="large-vqe-output-1060" cx="963.6" cy="663.0" rx="12.88" ry="12.88" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="large-vqe-output-1061" points="1000.50,651.04 1014.30,651.04 1021.20,663.00 1014.30,674.96 1000.50,674.96 993.60,663.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="large-vqe-output-1062" points="1051.20,650.12 1064.08,663.00 1051.20,675.88 1038.32,663.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="large-vqe-output-1063" cx="1095.0" cy="663.0" rx="12.88" ry="12.88" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<rect id="large-vqe-output-1064" x="1177" y="652" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="large-vqe-output-1065" x1="1182" y1="667.25" x2="1195.0" y2="656.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="large-vqe-output-1066" x1="1190.25" y1="656.5" x2="1195.0" y2="656.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="large-vqe-output-1067" x1="1195.0" y1="656.5" x2="1194.0" y2="661.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="large-vqe-output-1068" x1="1181" y1="667.75" x2="1198" y2="667.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="large-vqe-output-ket-2" x="819" y="699.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="819" dy="0">|0⟩</tspan>
+</text>
+<line id="large-vqe-output-wire-2" x1="855" y1="694" x2="1198" y2="694" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="large-vqe-output-1071" points="869.10,682.04 882.90,682.04 889.80,694.00 882.90,705.96 869.10,705.96 862.20,694.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="large-vqe-output-1072" points="919.80,681.12 932.68,694.00 919.80,706.88 906.92,694.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="large-vqe-output-1073" cx="963.6" cy="694.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="large-vqe-output-1074" points="1000.50,682.04 1014.30,682.04 1021.20,694.00 1014.30,705.96 1000.50,705.96 993.60,694.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="large-vqe-output-1075" points="1051.20,681.12 1064.08,694.00 1051.20,706.88 1038.32,694.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<ellipse id="large-vqe-output-1076" cx="1095.0" cy="694.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="large-vqe-output-1077" x="1177" y="683" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="large-vqe-output-1078" x1="1182" y1="698.25" x2="1195.0" y2="687.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="large-vqe-output-1079" x1="1190.25" y1="687.5" x2="1195.0" y2="687.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="large-vqe-output-1080" x1="1195.0" y1="687.5" x2="1194.0" y2="692.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="large-vqe-output-1081" x1="1181" y1="698.75" x2="1198" y2="698.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="large-vqe-output-ket-3" x="819" y="762.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="819" dy="0">|0⟩</tspan>
+</text>
+<line id="large-vqe-output-wire-3" x1="855" y1="757" x2="1198" y2="757" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="large-vqe-output-1084" points="869.10,745.04 882.90,745.04 889.80,757.00 882.90,768.96 869.10,768.96 862.20,757.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="large-vqe-output-1085" points="919.80,744.12 932.68,757.00 919.80,769.88 906.92,757.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<ellipse id="large-vqe-output-1086" cx="963.6" cy="757.0" rx="12.88" ry="12.88" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="large-vqe-output-1087" points="1000.50,745.04 1014.30,745.04 1021.20,757.00 1014.30,768.96 1000.50,768.96 993.60,757.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="large-vqe-output-1088" points="1051.20,744.12 1064.08,757.00 1051.20,769.88 1038.32,757.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="large-vqe-output-1089" cx="1095.0" cy="757.0" rx="12.88" ry="12.88" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<rect id="large-vqe-output-1090" x="1177" y="746" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="large-vqe-output-1091" x1="1182" y1="761.25" x2="1195.0" y2="750.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="large-vqe-output-1092" x1="1190.25" y1="750.5" x2="1195.0" y2="750.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="large-vqe-output-1093" x1="1195.0" y1="750.5" x2="1194.0" y2="755.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="large-vqe-output-1094" x1="1181" y1="761.75" x2="1198" y2="761.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="large-vqe-output-ket-4" x="819" y="793.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="819" dy="0">|0⟩</tspan>
+</text>
+<line id="large-vqe-output-wire-4" x1="855" y1="788" x2="1198" y2="788" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="large-vqe-output-1097" points="869.10,776.04 882.90,776.04 889.80,788.00 882.90,799.96 869.10,799.96 862.20,788.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="large-vqe-output-1098" points="919.80,775.12 932.68,788.00 919.80,800.88 906.92,788.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="large-vqe-output-1099" cx="963.6" cy="788.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="large-vqe-output-1100" points="1000.50,776.04 1014.30,776.04 1021.20,788.00 1014.30,799.96 1000.50,799.96 993.60,788.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="large-vqe-output-1101" points="1051.20,775.12 1064.08,788.00 1051.20,800.88 1038.32,788.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<ellipse id="large-vqe-output-1102" cx="1095.0" cy="788.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="large-vqe-output-1103" x="1177" y="777" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="large-vqe-output-1104" x1="1182" y1="792.25" x2="1195.0" y2="781.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="large-vqe-output-1105" x1="1190.25" y1="781.5" x2="1195.0" y2="781.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="large-vqe-output-1106" x1="1195.0" y1="781.5" x2="1194.0" y2="786.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="large-vqe-output-1107" x1="1181" y1="792.75" x2="1198" y2="792.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<rect id="large-vqe-output-cnot-a" x="1115" y="622" width="13" height="51" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<rect id="large-vqe-output-cnot-b" x="1138" y="747" width="13" height="51" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+</g>
+<g id="medium-vqe-input-46" data-semantic="medium-vqe-input">
+<rect id="medium-vqe-input-shadow" x="1235" y="343" width="360" height="160" fill="#C9E5B4" stroke="#000000" stroke-width="2.4"/>
+<rect id="medium-vqe-input-body" x="1224" y="330" width="360" height="160" fill="#C9E5B4" stroke="#000000" stroke-width="2.4"/>
+<text id="medium-vqe-input-ket-0" x="1233" y="358.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="1233" dy="0">|0⟩</tspan>
+</text>
+<line id="medium-vqe-input-wire-0" x1="1269" y1="353" x2="1562" y2="353" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="medium-vqe-input-1114" points="1283.10,341.04 1296.90,341.04 1303.80,353.00 1296.90,364.96 1283.10,364.96 1276.20,353.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="medium-vqe-input-1115" points="1323.80,340.12 1336.68,353.00 1323.80,365.88 1310.92,353.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="medium-vqe-input-1116" cx="1357.6" cy="353.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="medium-vqe-input-1117" points="1384.50,341.04 1398.30,341.04 1405.20,353.00 1398.30,364.96 1384.50,364.96 1377.60,353.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="medium-vqe-input-1118" points="1425.20,340.12 1438.08,353.00 1425.20,365.88 1412.32,353.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="medium-vqe-input-1119" cx="1459.0" cy="353.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="medium-vqe-input-1120" x="1541" y="342" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="medium-vqe-input-1121" x1="1546" y1="357.25" x2="1559.0" y2="346.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="medium-vqe-input-1122" x1="1554.25" y1="346.5" x2="1559.0" y2="346.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="medium-vqe-input-1123" x1="1559.0" y1="346.5" x2="1558.0" y2="351.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="medium-vqe-input-1124" x1="1545" y1="357.75" x2="1562" y2="357.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="medium-vqe-input-ket-1" x="1233" y="389.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="1233" dy="0">|0⟩</tspan>
+</text>
+<line id="medium-vqe-input-wire-1" x1="1269" y1="384" x2="1562" y2="384" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="medium-vqe-input-1127" points="1283.10,372.04 1296.90,372.04 1303.80,384.00 1296.90,395.96 1283.10,395.96 1276.20,384.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="medium-vqe-input-1128" points="1323.80,371.12 1336.68,384.00 1323.80,396.88 1310.92,384.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="medium-vqe-input-1129" cx="1357.6" cy="384.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="medium-vqe-input-1130" points="1384.50,372.04 1398.30,372.04 1405.20,384.00 1398.30,395.96 1384.50,395.96 1377.60,384.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="medium-vqe-input-1131" points="1425.20,371.12 1438.08,384.00 1425.20,396.88 1412.32,384.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="medium-vqe-input-1132" cx="1459.0" cy="384.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="medium-vqe-input-1133" x="1541" y="373" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="medium-vqe-input-1134" x1="1546" y1="388.25" x2="1559.0" y2="377.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="medium-vqe-input-1135" x1="1554.25" y1="377.5" x2="1559.0" y2="377.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="medium-vqe-input-1136" x1="1559.0" y1="377.5" x2="1558.0" y2="382.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="medium-vqe-input-1137" x1="1545" y1="388.75" x2="1562" y2="388.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="medium-vqe-input-ket-2" x="1233" y="420.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="1233" dy="0">|0⟩</tspan>
+</text>
+<line id="medium-vqe-input-wire-2" x1="1269" y1="415" x2="1562" y2="415" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="medium-vqe-input-1140" points="1283.10,403.04 1296.90,403.04 1303.80,415.00 1296.90,426.96 1283.10,426.96 1276.20,415.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="medium-vqe-input-1141" points="1323.80,402.12 1336.68,415.00 1323.80,427.88 1310.92,415.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="medium-vqe-input-1142" cx="1357.6" cy="415.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="medium-vqe-input-1143" points="1384.50,403.04 1398.30,403.04 1405.20,415.00 1398.30,426.96 1384.50,426.96 1377.60,415.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="medium-vqe-input-1144" points="1425.20,402.12 1438.08,415.00 1425.20,427.88 1412.32,415.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="medium-vqe-input-1145" cx="1459.0" cy="415.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="medium-vqe-input-1146" x="1541" y="404" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="medium-vqe-input-1147" x1="1546" y1="419.25" x2="1559.0" y2="408.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="medium-vqe-input-1148" x1="1554.25" y1="408.5" x2="1559.0" y2="408.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="medium-vqe-input-1149" x1="1559.0" y1="408.5" x2="1558.0" y2="413.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="medium-vqe-input-1150" x1="1545" y1="419.75" x2="1562" y2="419.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="medium-vqe-input-ket-3" x="1233" y="472.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="1233" dy="0">|0⟩</tspan>
+</text>
+<line id="medium-vqe-input-wire-3" x1="1269" y1="467" x2="1562" y2="467" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="medium-vqe-input-1153" points="1283.10,455.04 1296.90,455.04 1303.80,467.00 1296.90,478.96 1283.10,478.96 1276.20,467.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="medium-vqe-input-1154" points="1323.80,454.12 1336.68,467.00 1323.80,479.88 1310.92,467.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="medium-vqe-input-1155" cx="1357.6" cy="467.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="medium-vqe-input-1156" points="1384.50,455.04 1398.30,455.04 1405.20,467.00 1398.30,478.96 1384.50,478.96 1377.60,467.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="medium-vqe-input-1157" points="1425.20,454.12 1438.08,467.00 1425.20,479.88 1412.32,467.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="medium-vqe-input-1158" cx="1459.0" cy="467.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="medium-vqe-input-1159" x="1541" y="456" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="medium-vqe-input-1160" x1="1546" y1="471.25" x2="1559.0" y2="460.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="medium-vqe-input-1161" x1="1554.25" y1="460.5" x2="1559.0" y2="460.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="medium-vqe-input-1162" x1="1559.0" y1="460.5" x2="1558.0" y2="465.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="medium-vqe-input-1163" x1="1545" y1="471.75" x2="1562" y2="471.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<rect id="medium-vqe-input-cnot-a" x="1479" y="343" width="13" height="51" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<rect id="medium-vqe-input-cnot-b" x="1502" y="405" width="13" height="72" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+</g>
+<g id="root-47" data-semantic="root">
+<text id="root-1166" x="1228" y="526.18" text-anchor="start" style="font-family:Liberation Serif;font-size:27px;font-weight:700;font-style:normal;fill:#000000">
+<tspan x="1228" dy="0">Middle Size</tspan>
+</text>
+<text id="root-1167" x="1490.0" y="529.6" text-anchor="middle" style="font-family:Liberation Sans;font-size:40px;font-weight:700;font-style:normal;fill:#000000">
+<tspan x="1490.0" dy="0">TITAN</tspan>
+</text>
+<line id="root-1168" x1="1381" y1="495" x2="1381" y2="550" stroke="#000000" stroke-width="5" fill="none" marker-end="url(#arrow)"/>
+</g>
+<g id="medium-vqe-output-48" data-semantic="medium-vqe-output">
+<rect id="medium-vqe-output-shadow" x="1241" y="571" width="360" height="160" fill="#C9E5B4" stroke="#000000" stroke-width="2.4"/>
+<rect id="medium-vqe-output-body" x="1230" y="558" width="360" height="160" fill="#C9E5B4" stroke="#000000" stroke-width="2.4"/>
+<text id="medium-vqe-output-ket-0" x="1239" y="586.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="1239" dy="0">|0⟩</tspan>
+</text>
+<line id="medium-vqe-output-wire-0" x1="1275" y1="581" x2="1568" y2="581" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="medium-vqe-output-1173" points="1289.10,569.04 1302.90,569.04 1309.80,581.00 1302.90,592.96 1289.10,592.96 1282.20,581.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="medium-vqe-output-1174" points="1329.80,568.12 1342.68,581.00 1329.80,593.88 1316.92,581.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="medium-vqe-output-1175" cx="1363.6" cy="581.0" rx="12.88" ry="12.88" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="medium-vqe-output-1176" points="1390.50,569.04 1404.30,569.04 1411.20,581.00 1404.30,592.96 1390.50,592.96 1383.60,581.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="medium-vqe-output-1177" points="1431.20,568.12 1444.08,581.00 1431.20,593.88 1418.32,581.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="medium-vqe-output-1178" cx="1465.0" cy="581.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="medium-vqe-output-1179" x="1547" y="570" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="medium-vqe-output-1180" x1="1552" y1="585.25" x2="1565.0" y2="574.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="medium-vqe-output-1181" x1="1560.25" y1="574.5" x2="1565.0" y2="574.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="medium-vqe-output-1182" x1="1565.0" y1="574.5" x2="1564.0" y2="579.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="medium-vqe-output-1183" x1="1551" y1="585.75" x2="1568" y2="585.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="medium-vqe-output-ket-1" x="1239" y="617.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="1239" dy="0">|0⟩</tspan>
+</text>
+<line id="medium-vqe-output-wire-1" x1="1275" y1="612" x2="1568" y2="612" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="medium-vqe-output-1186" points="1289.10,600.04 1302.90,600.04 1309.80,612.00 1302.90,623.96 1289.10,623.96 1282.20,612.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="medium-vqe-output-1187" points="1329.80,599.12 1342.68,612.00 1329.80,624.88 1316.92,612.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<ellipse id="medium-vqe-output-1188" cx="1363.6" cy="612.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="medium-vqe-output-1189" points="1390.50,600.04 1404.30,600.04 1411.20,612.00 1404.30,623.96 1390.50,623.96 1383.60,612.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="medium-vqe-output-1190" points="1431.20,599.12 1444.08,612.00 1431.20,624.88 1418.32,612.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<ellipse id="medium-vqe-output-1191" cx="1465.0" cy="612.0" rx="12.88" ry="12.88" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<rect id="medium-vqe-output-1192" x="1547" y="601" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="medium-vqe-output-1193" x1="1552" y1="616.25" x2="1565.0" y2="605.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="medium-vqe-output-1194" x1="1560.25" y1="605.5" x2="1565.0" y2="605.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="medium-vqe-output-1195" x1="1565.0" y1="605.5" x2="1564.0" y2="610.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="medium-vqe-output-1196" x1="1551" y1="616.75" x2="1568" y2="616.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="medium-vqe-output-ket-2" x="1239" y="648.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="1239" dy="0">|0⟩</tspan>
+</text>
+<line id="medium-vqe-output-wire-2" x1="1275" y1="643" x2="1568" y2="643" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="medium-vqe-output-1199" points="1289.10,631.04 1302.90,631.04 1309.80,643.00 1302.90,654.96 1289.10,654.96 1282.20,643.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="medium-vqe-output-1200" points="1329.80,630.12 1342.68,643.00 1329.80,655.88 1316.92,643.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="medium-vqe-output-1201" cx="1363.6" cy="643.0" rx="12.88" ry="12.88" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="medium-vqe-output-1202" points="1390.50,631.04 1404.30,631.04 1411.20,643.00 1404.30,654.96 1390.50,654.96 1383.60,643.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="medium-vqe-output-1203" points="1431.20,630.12 1444.08,643.00 1431.20,655.88 1418.32,643.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="medium-vqe-output-1204" cx="1465.0" cy="643.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="medium-vqe-output-1205" x="1547" y="632" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="medium-vqe-output-1206" x1="1552" y1="647.25" x2="1565.0" y2="636.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="medium-vqe-output-1207" x1="1560.25" y1="636.5" x2="1565.0" y2="636.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="medium-vqe-output-1208" x1="1565.0" y1="636.5" x2="1564.0" y2="641.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="medium-vqe-output-1209" x1="1551" y1="647.75" x2="1568" y2="647.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="medium-vqe-output-ket-3" x="1239" y="700.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="1239" dy="0">|0⟩</tspan>
+</text>
+<line id="medium-vqe-output-wire-3" x1="1275" y1="695" x2="1568" y2="695" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="medium-vqe-output-1212" points="1289.10,683.04 1302.90,683.04 1309.80,695.00 1302.90,706.96 1289.10,706.96 1282.20,695.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="medium-vqe-output-1213" points="1329.80,682.12 1342.68,695.00 1329.80,707.88 1316.92,695.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<ellipse id="medium-vqe-output-1214" cx="1363.6" cy="695.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="medium-vqe-output-1215" points="1390.50,683.04 1404.30,683.04 1411.20,695.00 1404.30,706.96 1390.50,706.96 1383.60,695.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="medium-vqe-output-1216" points="1431.20,682.12 1444.08,695.00 1431.20,707.88 1418.32,695.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<ellipse id="medium-vqe-output-1217" cx="1465.0" cy="695.0" rx="12.88" ry="12.88" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<rect id="medium-vqe-output-1218" x="1547" y="684" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="medium-vqe-output-1219" x1="1552" y1="699.25" x2="1565.0" y2="688.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="medium-vqe-output-1220" x1="1560.25" y1="688.5" x2="1565.0" y2="688.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="medium-vqe-output-1221" x1="1565.0" y1="688.5" x2="1564.0" y2="693.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="medium-vqe-output-1222" x1="1551" y1="699.75" x2="1568" y2="699.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<rect id="medium-vqe-output-cnot-a" x="1485" y="571" width="13" height="51" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<rect id="medium-vqe-output-cnot-b" x="1508" y="633" width="13" height="72" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+</g>
+<g id="small-vqe-input-49" data-semantic="small-vqe-input">
+<rect id="small-vqe-input-shadow" x="1609" y="347" width="278" height="121" fill="#FFF1CA" stroke="#000000" stroke-width="2.4"/>
+<rect id="small-vqe-input-body" x="1598" y="334" width="278" height="121" fill="#FFF1CA" stroke="#000000" stroke-width="2.4"/>
+<text id="small-vqe-input-ket-0" x="1607" y="363.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="1607" dy="0">|0⟩</tspan>
+</text>
+<line id="small-vqe-input-wire-0" x1="1643" y1="358" x2="1854" y2="358" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="small-vqe-input-1229" points="1657.10,346.04 1670.90,346.04 1677.80,358.00 1670.90,369.96 1657.10,369.96 1650.20,358.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="small-vqe-input-1230" points="1707.50,345.12 1720.38,358.00 1707.50,370.88 1694.62,358.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="small-vqe-input-1231" cx="1751.0" cy="358.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="small-vqe-input-1232" x="1833" y="347" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="small-vqe-input-1233" x1="1838" y1="362.25" x2="1851.0" y2="351.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="small-vqe-input-1234" x1="1846.25" y1="351.5" x2="1851.0" y2="351.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="small-vqe-input-1235" x1="1851.0" y1="351.5" x2="1850.0" y2="356.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="small-vqe-input-1236" x1="1837" y1="362.75" x2="1854" y2="362.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="small-vqe-input-ket-1" x="1607" y="399.94" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="1607" dy="0">|0⟩</tspan>
+</text>
+<line id="small-vqe-input-wire-1" x1="1643" y1="394.5" x2="1854" y2="394.5" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="small-vqe-input-1239" points="1657.10,382.54 1670.90,382.54 1677.80,394.50 1670.90,406.46 1657.10,406.46 1650.20,394.50" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="small-vqe-input-1240" points="1707.50,381.62 1720.38,394.50 1707.50,407.38 1694.62,394.50" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="small-vqe-input-1241" cx="1751.0" cy="394.5" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="small-vqe-input-1242" x="1833" y="383.5" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="small-vqe-input-1243" x1="1838" y1="398.75" x2="1851.0" y2="388.0" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="small-vqe-input-1244" x1="1846.25" y1="388.0" x2="1851.0" y2="388.0" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="small-vqe-input-1245" x1="1851.0" y1="388.0" x2="1850.0" y2="393.0" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="small-vqe-input-1246" x1="1837" y1="399.25" x2="1854" y2="399.25" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="small-vqe-input-ket-2" x="1607" y="436.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="1607" dy="0">|0⟩</tspan>
+</text>
+<line id="small-vqe-input-wire-2" x1="1643" y1="431" x2="1854" y2="431" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="small-vqe-input-1249" points="1657.10,419.04 1670.90,419.04 1677.80,431.00 1670.90,442.96 1657.10,442.96 1650.20,431.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="small-vqe-input-1250" points="1707.50,418.12 1720.38,431.00 1707.50,443.88 1694.62,431.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="small-vqe-input-1251" cx="1751.0" cy="431.0" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="small-vqe-input-1252" x="1833" y="420" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="small-vqe-input-1253" x1="1838" y1="435.25" x2="1851.0" y2="424.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="small-vqe-input-1254" x1="1846.25" y1="424.5" x2="1851.0" y2="424.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="small-vqe-input-1255" x1="1851.0" y1="424.5" x2="1850.0" y2="429.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="small-vqe-input-1256" x1="1837" y1="435.75" x2="1854" y2="435.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<rect id="small-vqe-input-cnot-a" x="1771" y="348" width="13" height="56.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<rect id="small-vqe-input-cnot-b" x="1794" y="384.5" width="13" height="56.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+</g>
+<g id="root-50" data-semantic="root">
+<text id="root-1259" x="1595" y="491.18" text-anchor="start" style="font-family:Liberation Serif;font-size:27px;font-weight:700;font-style:normal;fill:#000000">
+<tspan x="1595" dy="0">Small Size</tspan>
+</text>
+<text id="root-1260" x="1830.0" y="494.6" text-anchor="middle" style="font-family:Liberation Sans;font-size:40px;font-weight:700;font-style:normal;fill:#000000">
+<tspan x="1830.0" dy="0">TITAN</tspan>
+</text>
+<line id="root-1261" x1="1727" y1="460" x2="1727" y2="536" stroke="#000000" stroke-width="5" fill="none" marker-end="url(#arrow)"/>
+</g>
+<g id="small-vqe-output-51" data-semantic="small-vqe-output">
+<rect id="small-vqe-output-shadow" x="1615" y="557" width="278" height="121" fill="#FFF1CA" stroke="#000000" stroke-width="2.4"/>
+<rect id="small-vqe-output-body" x="1604" y="544" width="278" height="121" fill="#FFF1CA" stroke="#000000" stroke-width="2.4"/>
+<text id="small-vqe-output-ket-0" x="1613" y="573.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="1613" dy="0">|0⟩</tspan>
+</text>
+<line id="small-vqe-output-wire-0" x1="1649" y1="568" x2="1860" y2="568" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="small-vqe-output-1266" points="1663.10,556.04 1676.90,556.04 1683.80,568.00 1676.90,579.96 1663.10,579.96 1656.20,568.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="small-vqe-output-1267" points="1713.50,555.12 1726.38,568.00 1713.50,580.88 1700.62,568.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<ellipse id="small-vqe-output-1268" cx="1757.0" cy="568.0" rx="12.88" ry="12.88" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<rect id="small-vqe-output-1269" x="1839" y="557" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="small-vqe-output-1270" x1="1844" y1="572.25" x2="1857.0" y2="561.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="small-vqe-output-1271" x1="1852.25" y1="561.5" x2="1857.0" y2="561.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="small-vqe-output-1272" x1="1857.0" y1="561.5" x2="1856.0" y2="566.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="small-vqe-output-1273" x1="1843" y1="572.75" x2="1860" y2="572.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="small-vqe-output-ket-1" x="1613" y="609.94" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="1613" dy="0">|0⟩</tspan>
+</text>
+<line id="small-vqe-output-wire-1" x1="1649" y1="604.5" x2="1860" y2="604.5" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="small-vqe-output-1276" points="1663.10,592.54 1676.90,592.54 1683.80,604.50 1676.90,616.46 1663.10,616.46 1656.20,604.50" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<polygon id="small-vqe-output-1277" points="1713.50,591.62 1726.38,604.50 1713.50,617.38 1700.62,604.50" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<ellipse id="small-vqe-output-1278" cx="1757.0" cy="604.5" rx="12.88" ry="12.88" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<rect id="small-vqe-output-1279" x="1839" y="593.5" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="small-vqe-output-1280" x1="1844" y1="608.75" x2="1857.0" y2="598.0" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="small-vqe-output-1281" x1="1852.25" y1="598.0" x2="1857.0" y2="598.0" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="small-vqe-output-1282" x1="1857.0" y1="598.0" x2="1856.0" y2="603.0" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="small-vqe-output-1283" x1="1843" y1="609.25" x2="1860" y2="609.25" stroke="#000000" stroke-width="1.0" fill="none"/>
+<text id="small-vqe-output-ket-2" x="1613" y="646.44" text-anchor="start" style="font-family:Liberation Serif;font-size:16px;font-weight:400;font-style:normal;fill:#000000">
+<tspan x="1613" dy="0">|0⟩</tspan>
+</text>
+<line id="small-vqe-output-wire-2" x1="1649" y1="641" x2="1860" y2="641" stroke="#000000" stroke-width="1.5" fill="none"/>
+<polygon id="small-vqe-output-1286" points="1663.10,629.04 1676.90,629.04 1683.80,641.00 1676.90,652.96 1663.10,652.96 1656.20,641.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="small-vqe-output-1287" points="1713.50,628.12 1726.38,641.00 1713.50,653.88 1700.62,641.00" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<ellipse id="small-vqe-output-1288" cx="1757.0" cy="641.0" rx="12.88" ry="12.88" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<rect id="small-vqe-output-1289" x="1839" y="630" width="25" height="19.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<line id="small-vqe-output-1290" x1="1844" y1="645.25" x2="1857.0" y2="634.5" stroke="#000000" stroke-width="1.6" fill="none"/>
+<line id="small-vqe-output-1291" x1="1852.25" y1="634.5" x2="1857.0" y2="634.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="small-vqe-output-1292" x1="1857.0" y1="634.5" x2="1856.0" y2="639.5" stroke="#000000" stroke-width="1.3" fill="none"/>
+<line id="small-vqe-output-1293" x1="1843" y1="645.75" x2="1860" y2="645.75" stroke="#000000" stroke-width="1.0" fill="none"/>
+<rect id="small-vqe-output-cnot-a" x="1777" y="558" width="13" height="56.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+<rect id="small-vqe-output-cnot-b" x="1800" y="594.5" width="13" height="56.5" fill="#FFFFFF" stroke="#000000" stroke-width="1.8"/>
+</g>
+<g id="legend-52" data-semantic="legend">
+<rect id="legend-1296" x="1300" y="752" width="601" height="130" fill="#FFFFFF" stroke="#000000" stroke-width="2.5"/>
+<polygon id="legend-1297" points="1326.62,770.95 1339.38,770.95 1345.75,782.00 1339.38,793.05 1326.62,793.05 1320.25,782.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<text id="legend-1298" x="1356" y="788.46" text-anchor="start" style="font-family:Liberation Serif;font-size:19px;font-weight:700;font-style:normal;fill:#000000">
+<tspan x="1356" dy="0">Rotation X</tspan>
+</text>
+<polygon id="legend-1299" points="1333.00,806.10 1344.90,818.00 1333.00,829.90 1321.10,818.00" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<text id="legend-1300" x="1356" y="824.46" text-anchor="start" style="font-family:Liberation Serif;font-size:19px;font-weight:700;font-style:normal;fill:#000000">
+<tspan x="1356" dy="0">Rotation Y</tspan>
+</text>
+<ellipse id="legend-1301" cx="1333.0" cy="855.0" rx="11.9" ry="11.9" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<text id="legend-1302" x="1356" y="861.46" text-anchor="start" style="font-family:Liberation Serif;font-size:19px;font-weight:700;font-style:normal;fill:#000000">
+<tspan x="1356" dy="0">Rotation Z</tspan>
+</text>
+<rect id="legend-1303" x="1472" y="766" width="32" height="32" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<text id="legend-1304" x="1514" y="788.46" text-anchor="start" style="font-family:Liberation Serif;font-size:19px;font-weight:700;font-style:normal;fill:#000000">
+<tspan x="1514" dy="0">Active Params</tspan>
+</text>
+<rect id="legend-1305" x="1472" y="805" width="32" height="32" fill="#C9E5B4" stroke="#000000" stroke-width="2"/>
+<text id="legend-1306" x="1514" y="827.46" text-anchor="start" style="font-family:Liberation Serif;font-size:19px;font-weight:700;font-style:normal;fill:#5B9B43">
+<tspan x="1514" dy="0">Mid-size Ansatz</tspan>
+</text>
+<rect id="legend-1307" x="1472" y="844" width="32" height="32" fill="#FFF1CA" stroke="#000000" stroke-width="2"/>
+<text id="legend-1308" x="1514" y="866.46" text-anchor="start" style="font-family:Liberation Serif;font-size:19px;font-weight:700;font-style:normal;fill:#F07B28">
+<tspan x="1514" dy="0">Small-size Ansatz</tspan>
+</text>
+<rect id="legend-1309" x="1680" y="766" width="32" height="32" fill="#864DDC" stroke="#000000" stroke-width="2"/>
+<text id="legend-1310" x="1720" y="788.46" text-anchor="start" style="font-family:Liberation Serif;font-size:19px;font-weight:700;font-style:normal;fill:#000000">
+<tspan x="1720" dy="0">Frozen Params</tspan>
+</text>
+<rect id="legend-1311" x="1689" y="805" width="13" height="38" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<text id="legend-1312" x="1735" y="829.46" text-anchor="start" style="font-family:Liberation Serif;font-size:19px;font-weight:700;font-style:normal;fill:#000000">
+<tspan x="1735" dy="0">C-NOT</tspan>
+</text>
+<rect id="legend-1313" x="1680" y="844" width="32" height="32" fill="#FDD7FC" stroke="#000000" stroke-width="2"/>
+<text id="legend-1314" x="1720" y="866.46" text-anchor="start" style="font-family:Liberation Serif;font-size:19px;font-weight:700;font-style:normal;fill:#F073E8">
+<tspan x="1720" dy="0">Large-size Ansatz</tspan>
+</text>
+</g>
+<g id="root-53" data-semantic="root">
+<text id="root-1315" x="804" y="881.24" text-anchor="start" style="font-family:Liberation Serif;font-size:36px;font-weight:700;font-style:normal;fill:#000000">
+<tspan x="804" dy="0">(c) Applications in VQEs</tspan>
+</text>
+</g>
+</svg>

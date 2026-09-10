@@ -1,0 +1,1664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="1917" height="902" viewBox="0 0 1917 902">
+<title>TITAN: trajectory-informed adaptive parameter freezing — editable reconstruction</title>
+<desc>Three-panel diagram rebuilt with editable vector shapes and live text. No raster image elements.</desc>
+<rect id="obj0001" x="0" y="0" width="1917" height="902" rx="0" fill="white" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<g id="obj0002" aria-label="(a) Dataset Construction">
+<polygon id="obj0003" points="13,19 1907,19 1907,302 13,302" fill="none" stroke="black" stroke-width="5" stroke-dasharray="20 14" stroke-linejoin="miter"/>
+<polyline id="obj0004" points="42,135 32,135 32,710 49,710" fill="none" stroke="black" stroke-width="4" stroke-linejoin="miter"/>
+<polygon id="obj0005" points="32,702 49,710 32,718" fill="black" stroke="black" stroke-width="1" stroke-linejoin="miter"/>
+<g id="obj0006" aria-label="Initial large ansatz">
+<rect id="obj0007" x="51" y="53" width="399" height="192" rx="0" fill="#FDD7FC" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<rect id="obj0008" x="41" y="39" width="399" height="192" rx="0" fill="#FDD7FC" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<g id="obj0009" aria-label="Qubit input |0⟩">
+<text id="obj0010" x="53" y="65" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0011" points="66,53 69,59 66,65" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0012" points="83,60 428,60" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0013" points="90,60 97.5,46 112.5,46 120,60 112.5,74 97.5,74" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0014" points="129,60 144,46 159,60 144,74" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0015" cx="181" cy="60" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0016" points="202,60 209.5,46 224.5,46 232,60 224.5,74 209.5,74" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0017" points="262,60 277,46 292,60 277,74" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0018" cx="311" cy="60" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0019" aria-label="Measurement">
+<rect id="obj0020" x="400" y="48" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0021" d="M 403 65 C 406 53 419 51 424 65" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0022" points="411.34,67 419.71,51" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0023" points="414.71,53 419.71,51 419.71,57" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj0024" aria-label="Qubit input |0⟩">
+<text id="obj0025" x="53" y="99" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0026" points="66,87 69,93 66,99" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0027" points="83,94 428,94" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0028" points="90,94 97.5,80 112.5,80 120,94 112.5,108 97.5,108" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0029" points="129,94 144,80 159,94 144,108" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0030" cx="181" cy="94" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0031" points="202,94 209.5,80 224.5,80 232,94 224.5,108 209.5,108" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0032" points="262,94 277,80 292,94 277,108" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0033" cx="311" cy="94" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0034" aria-label="Measurement">
+<rect id="obj0035" x="400" y="82" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0036" d="M 403 99 C 406 87 419 85 424 99" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0037" points="411.34,101 419.71,85" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0038" points="414.71,87 419.71,85 419.71,91" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj0039" aria-label="Qubit input |0⟩">
+<text id="obj0040" x="53" y="132" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0041" points="66,120 69,126 66,132" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0042" points="83,127 428,127" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0043" points="90,127 97.5,113 112.5,113 120,127 112.5,141 97.5,141" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0044" points="129,127 144,113 159,127 144,141" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0045" cx="181" cy="127" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0046" points="202,127 209.5,113 224.5,113 232,127 224.5,141 209.5,141" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0047" points="262,127 277,113 292,127 277,141" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0048" cx="311" cy="127" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0049" aria-label="Measurement">
+<rect id="obj0050" x="400" y="115" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0051" d="M 403 132 C 406 120 419 118 424 132" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0052" points="411.34,134 419.71,118" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0053" points="414.71,120 419.71,118 419.71,124" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj0054" aria-label="Qubit input |0⟩">
+<text id="obj0055" x="53" y="182" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0056" points="66,170 69,176 66,182" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0057" points="83,177 428,177" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0058" points="90,177 97.5,163 112.5,163 120,177 112.5,191 97.5,191" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0059" points="129,177 144,163 159,177 144,191" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0060" cx="181" cy="177" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0061" points="202,177 209.5,163 224.5,163 232,177 224.5,191 209.5,191" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0062" points="262,177 277,163 292,177 277,191" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0063" cx="311" cy="177" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0064" aria-label="Measurement">
+<rect id="obj0065" x="400" y="165" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0066" d="M 403 182 C 406 170 419 168 424 182" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0067" points="411.34,184 419.71,168" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0068" points="414.71,170 419.71,168 419.71,174" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj0069" aria-label="Qubit input |0⟩">
+<text id="obj0070" x="53" y="215" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0071" points="66,203 69,209 66,215" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0072" points="83,210 428,210" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0073" points="90,210 97.5,196 112.5,196 120,210 112.5,224 97.5,224" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0074" points="129,210 144,196 159,210 144,224" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0075" cx="181" cy="210" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0076" points="202,210 209.5,196 224.5,196 232,210 224.5,224 209.5,224" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0077" points="262,210 277,196 292,210 277,224" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0078" cx="311" cy="210" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0079" aria-label="Measurement">
+<rect id="obj0080" x="400" y="198" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0081" d="M 403 215 C 406 203 419 201 424 215" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0082" points="411.34,217 419.71,201" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0083" points="414.71,203 419.71,201 419.71,207" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<ellipse id="obj0084" cx="61" cy="145" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj0085" cx="61" cy="151" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj0086" cx="61" cy="157" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj0087" cx="246" cy="145" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj0088" cx="246" cy="151" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj0089" cx="246" cy="157" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj0090" cx="414" cy="145" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj0091" cx="414" cy="151" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj0092" cx="414" cy="157" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<rect id="obj0093" x="336" y="53" width="13" height="44" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+<rect id="obj0094" x="357" y="88" width="13" height="47" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+<rect id="obj0095" x="375" y="172" width="13" height="46" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+</g>
+<g id="obj0096" aria-label="Initial middle ansatz">
+<rect id="obj0097" x="96" y="104" width="358" height="145" rx="0" fill="#C9E5B4" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<rect id="obj0098" x="86" y="90" width="358" height="145" rx="0" fill="#C9E5B4" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<g id="obj0099" aria-label="Qubit input |0⟩">
+<text id="obj0100" x="98" y="115" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0101" points="111,103 114,109 111,115" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0102" points="128,110 432,110" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0103" points="135,110 142.5,96 157.5,96 165,110 157.5,124 142.5,124" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0104" points="174,110 189,96 204,110 189,124" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0105" cx="226" cy="110" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0106" points="247,110 254.5,96 269.5,96 277,110 269.5,124 254.5,124" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0107" points="307,110 322,96 337,110 322,124" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0108" aria-label="Measurement">
+<rect id="obj0109" x="404" y="98" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0110" d="M 407 115 C 410 103 423 101 428 115" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0111" points="415.34,117 423.71,101" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0112" points="418.71,103 423.71,101 423.71,107" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj0113" aria-label="Qubit input |0⟩">
+<text id="obj0114" x="98" y="149" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0115" points="111,137 114,143 111,149" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0116" points="128,144 432,144" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0117" points="135,144 142.5,130 157.5,130 165,144 157.5,158 142.5,158" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0118" points="174,144 189,130 204,144 189,158" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0119" cx="226" cy="144" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0120" points="247,144 254.5,130 269.5,130 277,144 269.5,158 254.5,158" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0121" points="307,144 322,130 337,144 322,158" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0122" aria-label="Measurement">
+<rect id="obj0123" x="404" y="132" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0124" d="M 407 149 C 410 137 423 135 428 149" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0125" points="415.34,151 423.71,135" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0126" points="418.71,137 423.71,135 423.71,141" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj0127" aria-label="Qubit input |0⟩">
+<text id="obj0128" x="98" y="182" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0129" points="111,170 114,176 111,182" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0130" points="128,177 432,177" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0131" points="135,177 142.5,163 157.5,163 165,177 157.5,191 142.5,191" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0132" points="174,177 189,163 204,177 189,191" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0133" cx="226" cy="177" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0134" points="247,177 254.5,163 269.5,163 277,177 269.5,191 254.5,191" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0135" points="307,177 322,163 337,177 322,191" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0136" aria-label="Measurement">
+<rect id="obj0137" x="404" y="165" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0138" d="M 407 182 C 410 170 423 168 428 182" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0139" points="415.34,184 423.71,168" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0140" points="418.71,170 423.71,168 423.71,174" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj0141" aria-label="Qubit input |0⟩">
+<text id="obj0142" x="98" y="215" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0143" points="111,203 114,209 111,215" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0144" points="128,210 432,210" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0145" points="135,210 142.5,196 157.5,196 165,210 157.5,224 142.5,224" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0146" points="174,210 189,196 204,210 189,224" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0147" cx="226" cy="210" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0148" points="247,210 254.5,196 269.5,196 277,210 269.5,224 254.5,224" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0149" points="307,210 322,196 337,210 322,224" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0150" aria-label="Measurement">
+<rect id="obj0151" x="404" y="198" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0152" d="M 407 215 C 410 203 423 201 428 215" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0153" points="415.34,217 423.71,201" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0154" points="418.71,203 423.71,201 423.71,207" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<rect id="obj0155" x="346" y="102" width="13" height="47" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+<rect id="obj0156" x="367" y="138" width="13" height="47" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+<rect id="obj0157" x="385" y="171" width="13" height="48" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+</g>
+<g id="obj0158" aria-label="Initial small ansatz">
+<rect id="obj0159" x="188" y="145" width="269" height="107" rx="0" fill="#FFF1CA" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<rect id="obj0160" x="178" y="131" width="269" height="107" rx="0" fill="#FFF1CA" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<g id="obj0161" aria-label="Qubit input |0⟩">
+<text id="obj0162" x="190" y="157" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0163" points="203,145 206,151 203,157" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0164" points="220,152 435,152" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0165" points="227,152 234.5,138 249.5,138 257,152 249.5,166 234.5,166" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0166" points="266,152 281,138 296,152 281,166" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0167" cx="318" cy="152" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0168" aria-label="Measurement">
+<rect id="obj0169" x="407" y="140" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0170" d="M 410 157 C 413 145 426 143 431 157" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0171" points="418.34,159 426.71,143" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0172" points="421.71,145 426.71,143 426.71,149" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj0173" aria-label="Qubit input |0⟩">
+<text id="obj0174" x="190" y="190" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0175" points="203,178 206,184 203,190" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0176" points="220,185 435,185" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0177" points="227,185 234.5,171 249.5,171 257,185 249.5,199 234.5,199" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0178" points="266,185 281,171 296,185 281,199" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0179" cx="318" cy="185" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0180" aria-label="Measurement">
+<rect id="obj0181" x="407" y="173" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0182" d="M 410 190 C 413 178 426 176 431 190" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0183" points="418.34,192 426.71,176" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0184" points="421.71,178 426.71,176 426.71,182" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj0185" aria-label="Qubit input |0⟩">
+<text id="obj0186" x="190" y="224" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0187" points="203,212 206,218 203,224" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0188" points="220,219 435,219" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0189" points="227,219 234.5,205 249.5,205 257,219 249.5,233 234.5,233" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0190" points="266,219 281,205 296,219 281,233" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0191" cx="318" cy="219" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0192" aria-label="Measurement">
+<rect id="obj0193" x="407" y="207" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0194" d="M 410 224 C 413 212 426 210 431 224" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0195" points="418.34,226 426.71,210" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0196" points="421.71,212 426.71,210 426.71,216" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<rect id="obj0197" x="342" y="145" width="13" height="47" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+<rect id="obj0198" x="363" y="180" width="13" height="47" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+</g>
+<text id="obj0199" x="38" y="286" font-family="Times New Roman, Liberation Serif, serif" font-size="39" font-weight="bold" font-style="normal" fill="black" text-anchor="start">(a) Dataset Construction</text>
+<text id="obj0200" x="466" y="119" font-family="Times New Roman, Liberation Serif, serif" font-size="27" font-weight="bold" font-style="normal" fill="black" text-anchor="start">APFA</text>
+<g id="obj0201" aria-label="APFA network icon">
+<polyline id="obj0202" points="601,112 615,112" fill="none" stroke="black" stroke-width="3" stroke-linejoin="miter"/>
+<ellipse id="obj0203" cx="615" cy="112" rx="5" ry="5" fill="white" stroke="black" stroke-width="3" stroke-linejoin="miter"/>
+<polyline id="obj0204" points="595.728,123.314 604.92,133.92" fill="none" stroke="black" stroke-width="3" stroke-linejoin="miter"/>
+<ellipse id="obj0205" cx="604.92" cy="133.92" rx="5" ry="5" fill="white" stroke="black" stroke-width="3" stroke-linejoin="miter"/>
+<polyline id="obj0206" points="583,128 583,144" fill="none" stroke="black" stroke-width="3" stroke-linejoin="miter"/>
+<ellipse id="obj0207" cx="583" cy="144" rx="5" ry="5" fill="white" stroke="black" stroke-width="3" stroke-linejoin="miter"/>
+<polyline id="obj0208" points="570.272,123.314 561.08,133.92" fill="none" stroke="black" stroke-width="3" stroke-linejoin="miter"/>
+<ellipse id="obj0209" cx="561.08" cy="133.92" rx="5" ry="5" fill="white" stroke="black" stroke-width="3" stroke-linejoin="miter"/>
+<polyline id="obj0210" points="565,112 551,112" fill="none" stroke="black" stroke-width="3" stroke-linejoin="miter"/>
+<ellipse id="obj0211" cx="551" cy="112" rx="5" ry="5" fill="white" stroke="black" stroke-width="3" stroke-linejoin="miter"/>
+<polyline id="obj0212" points="570.272,100.686 561.08,90.08" fill="none" stroke="black" stroke-width="3" stroke-linejoin="miter"/>
+<ellipse id="obj0213" cx="561.08" cy="90.08" rx="5" ry="5" fill="white" stroke="black" stroke-width="3" stroke-linejoin="miter"/>
+<polyline id="obj0214" points="583,96 583,80" fill="none" stroke="black" stroke-width="3" stroke-linejoin="miter"/>
+<ellipse id="obj0215" cx="583" cy="80" rx="5" ry="5" fill="white" stroke="black" stroke-width="3" stroke-linejoin="miter"/>
+<polyline id="obj0216" points="595.728,100.686 604.92,90.08" fill="none" stroke="black" stroke-width="3" stroke-linejoin="miter"/>
+<ellipse id="obj0217" cx="604.92" cy="90.08" rx="5" ry="5" fill="white" stroke="black" stroke-width="3" stroke-linejoin="miter"/>
+<path id="obj0218" d="M 560 106 C 557 98 565 96 569 99 C 568 90 579 88 583 96 C 589 90 598 95 596 102 C 607 99 611 111 603 115 C 610 124 599 130 593 124 C 591 134 580 135 577 127 C 569 133 559 126 563 120 C 552 119 554 108 560 106 Z " fill="white" stroke="black" stroke-width="3" stroke-linejoin="miter"/>
+<polyline id="obj0219" points="562,113 604,113" fill="none" stroke="black" stroke-width="3" stroke-linejoin="miter"/>
+</g>
+<polygon id="obj0220" points="466,170 578,170 578,160 598,179.5 578,199 578,189 466,189" fill="white" stroke="black" stroke-width="4" stroke-linejoin="miter"/>
+<g id="obj0221" aria-label="Trajectory — large ansatz">
+<rect id="obj0222" x="639" y="50" width="399" height="192" rx="0" fill="#FDD7FC" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<rect id="obj0223" x="629" y="36" width="399" height="192" rx="0" fill="#FDD7FC" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<g id="obj0224" aria-label="Qubit input |0⟩">
+<text id="obj0225" x="641" y="62" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0226" points="654,50 657,56 654,62" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0227" points="671,57 1016,57" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0228" points="678,57 685.5,43 700.5,43 708,57 700.5,71 685.5,71" fill="#163D64" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0229" points="717,57 732,43 747,57 732,71" fill="#5298D5" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0230" cx="769" cy="57" rx="14" ry="14" fill="#DCEAF7" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0231" points="790,57 797.5,43 812.5,43 820,57 812.5,71 797.5,71" fill="#215F9A" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0232" points="850,57 865,43 880,57 865,71" fill="#A6CBEB" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0233" cx="899" cy="57" rx="14" ry="14" fill="#163D64" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0234" aria-label="Measurement">
+<rect id="obj0235" x="988" y="45" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0236" d="M 991 62 C 994 50 1007 48 1012 62" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0237" points="999.34,64 1007.71,48" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0238" points="1002.71,50 1007.71,48 1007.71,54" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj0239" aria-label="Qubit input |0⟩">
+<text id="obj0240" x="641" y="96" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0241" points="654,84 657,90 654,96" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0242" points="671,91 1016,91" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0243" points="678,91 685.5,77 700.5,77 708,91 700.5,105 685.5,105" fill="#A6CBEB" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0244" points="717,91 732,77 747,91 732,105" fill="#215F9A" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0245" cx="769" cy="91" rx="14" ry="14" fill="#163D64" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0246" points="790,91 797.5,77 812.5,77 820,91 812.5,105 797.5,105" fill="#5298D5" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0247" points="850,91 865,77 880,91 865,105" fill="#DCEAF7" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0248" cx="899" cy="91" rx="14" ry="14" fill="#5298D5" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0249" aria-label="Measurement">
+<rect id="obj0250" x="988" y="79" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0251" d="M 991 96 C 994 84 1007 82 1012 96" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0252" points="999.34,98 1007.71,82" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0253" points="1002.71,84 1007.71,82 1007.71,88" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj0254" aria-label="Qubit input |0⟩">
+<text id="obj0255" x="641" y="129" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0256" points="654,117 657,123 654,129" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0257" points="671,124 1016,124" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0258" points="678,124 685.5,110 700.5,110 708,124 700.5,138 685.5,138" fill="#DCEAF7" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0259" points="717,124 732,110 747,124 732,138" fill="#215F9A" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0260" cx="769" cy="124" rx="14" ry="14" fill="#A6CBEB" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0261" points="790,124 797.5,110 812.5,110 820,124 812.5,138 797.5,138" fill="#215F9A" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0262" points="850,124 865,110 880,124 865,138" fill="#A6CBEB" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0263" cx="899" cy="124" rx="14" ry="14" fill="#DCEAF7" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0264" aria-label="Measurement">
+<rect id="obj0265" x="988" y="112" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0266" d="M 991 129 C 994 117 1007 115 1012 129" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0267" points="999.34,131 1007.71,115" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0268" points="1002.71,117 1007.71,115 1007.71,121" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj0269" aria-label="Qubit input |0⟩">
+<text id="obj0270" x="641" y="179" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0271" points="654,167 657,173 654,179" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0272" points="671,174 1016,174" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0273" points="678,174 685.5,160 700.5,160 708,174 700.5,188 685.5,188" fill="#5298D5" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0274" points="717,174 732,160 747,174 732,188" fill="#A6CBEB" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0275" cx="769" cy="174" rx="14" ry="14" fill="#163D64" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0276" points="790,174 797.5,160 812.5,160 820,174 812.5,188 797.5,188" fill="#DCEAF7" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0277" points="850,174 865,160 880,174 865,188" fill="#5298D5" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0278" cx="899" cy="174" rx="14" ry="14" fill="#DCEAF7" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0279" aria-label="Measurement">
+<rect id="obj0280" x="988" y="162" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0281" d="M 991 179 C 994 167 1007 165 1012 179" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0282" points="999.34,181 1007.71,165" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0283" points="1002.71,167 1007.71,165 1007.71,171" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj0284" aria-label="Qubit input |0⟩">
+<text id="obj0285" x="641" y="212" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0286" points="654,200 657,206 654,212" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0287" points="671,207 1016,207" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0288" points="678,207 685.5,193 700.5,193 708,207 700.5,221 685.5,221" fill="#DCEAF7" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0289" points="717,207 732,193 747,207 732,221" fill="#163D64" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0290" cx="769" cy="207" rx="14" ry="14" fill="#A6CBEB" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0291" points="790,207 797.5,193 812.5,193 820,207 812.5,221 797.5,221" fill="#5298D5" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0292" points="850,207 865,193 880,207 865,221" fill="#DCEAF7" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0293" cx="899" cy="207" rx="14" ry="14" fill="#A6CBEB" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0294" aria-label="Measurement">
+<rect id="obj0295" x="988" y="195" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0296" d="M 991 212 C 994 200 1007 198 1012 212" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0297" points="999.34,214 1007.71,198" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0298" points="1002.71,200 1007.71,198 1007.71,204" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<ellipse id="obj0299" cx="649" cy="142" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj0300" cx="649" cy="148" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj0301" cx="649" cy="154" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj0302" cx="834" cy="142" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj0303" cx="834" cy="148" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj0304" cx="834" cy="154" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj0305" cx="1002" cy="142" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj0306" cx="1002" cy="148" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj0307" cx="1002" cy="154" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<rect id="obj0308" x="924" y="50" width="13" height="44" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+<rect id="obj0309" x="945" y="85" width="13" height="47" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+<rect id="obj0310" x="963" y="169" width="13" height="46" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+</g>
+<g id="obj0311" aria-label="Trajectory — middle ansatz">
+<rect id="obj0312" x="838" y="106" width="358" height="145" rx="0" fill="#C9E5B4" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<rect id="obj0313" x="828" y="92" width="358" height="145" rx="0" fill="#C9E5B4" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<g id="obj0314" aria-label="Qubit input |0⟩">
+<text id="obj0315" x="840" y="117" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0316" points="853,105 856,111 853,117" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0317" points="870,112 1174,112" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0318" points="877,112 884.5,98 899.5,98 907,112 899.5,126 884.5,126" fill="#163D64" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0319" points="916,112 931,98 946,112 931,126" fill="#A6CBEB" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0320" cx="968" cy="112" rx="14" ry="14" fill="#215F9A" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0321" points="989,112 996.5,98 1011.5,98 1019,112 1011.5,126 996.5,126" fill="#5298D5" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0322" points="1049,112 1064,98 1079,112 1064,126" fill="#A6CBEB" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0323" aria-label="Measurement">
+<rect id="obj0324" x="1146" y="100" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0325" d="M 1149 117 C 1152 105 1165 103 1170 117" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0326" points="1157.34,119 1165.71,103" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0327" points="1160.71,105 1165.71,103 1165.71,109" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj0328" aria-label="Qubit input |0⟩">
+<text id="obj0329" x="840" y="151" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0330" points="853,139 856,145 853,151" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0331" points="870,146 1174,146" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0332" points="877,146 884.5,132 899.5,132 907,146 899.5,160 884.5,160" fill="#215F9A" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0333" points="916,146 931,132 946,146 931,160" fill="#DCEAF7" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0334" cx="968" cy="146" rx="14" ry="14" fill="#A6CBEB" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0335" points="989,146 996.5,132 1011.5,132 1019,146 1011.5,160 996.5,160" fill="#163D64" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0336" points="1049,146 1064,132 1079,146 1064,160" fill="#A6CBEB" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0337" aria-label="Measurement">
+<rect id="obj0338" x="1146" y="134" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0339" d="M 1149 151 C 1152 139 1165 137 1170 151" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0340" points="1157.34,153 1165.71,137" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0341" points="1160.71,139 1165.71,137 1165.71,143" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj0342" aria-label="Qubit input |0⟩">
+<text id="obj0343" x="840" y="184" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0344" points="853,172 856,178 853,184" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0345" points="870,179 1174,179" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0346" points="877,179 884.5,165 899.5,165 907,179 899.5,193 884.5,193" fill="#DCEAF7" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0347" points="916,179 931,165 946,179 931,193" fill="#163D64" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0348" cx="968" cy="179" rx="14" ry="14" fill="#5298D5" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0349" points="989,179 996.5,165 1011.5,165 1019,179 1011.5,193 996.5,193" fill="#215F9A" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0350" points="1049,179 1064,165 1079,179 1064,193" fill="#DCEAF7" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0351" aria-label="Measurement">
+<rect id="obj0352" x="1146" y="167" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0353" d="M 1149 184 C 1152 172 1165 170 1170 184" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0354" points="1157.34,186 1165.71,170" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0355" points="1160.71,172 1165.71,170 1165.71,176" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj0356" aria-label="Qubit input |0⟩">
+<text id="obj0357" x="840" y="217" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0358" points="853,205 856,211 853,217" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0359" points="870,212 1174,212" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0360" points="877,212 884.5,198 899.5,198 907,212 899.5,226 884.5,226" fill="#5298D5" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0361" points="916,212 931,198 946,212 931,226" fill="#DCEAF7" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0362" cx="968" cy="212" rx="14" ry="14" fill="#215F9A" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0363" points="989,212 996.5,198 1011.5,198 1019,212 1011.5,226 996.5,226" fill="#A6CBEB" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0364" points="1049,212 1064,198 1079,212 1064,226" fill="#DCEAF7" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0365" aria-label="Measurement">
+<rect id="obj0366" x="1146" y="200" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0367" d="M 1149 217 C 1152 205 1165 203 1170 217" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0368" points="1157.34,219 1165.71,203" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0369" points="1160.71,205 1165.71,203 1165.71,209" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<rect id="obj0370" x="1088" y="104" width="13" height="47" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+<rect id="obj0371" x="1109" y="140" width="13" height="47" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+<rect id="obj0372" x="1127" y="173" width="13" height="48" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+</g>
+<g id="obj0373" aria-label="Trajectory — small ansatz">
+<rect id="obj0374" x="1021" y="154" width="269" height="107" rx="0" fill="#FFF1CA" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<rect id="obj0375" x="1011" y="140" width="269" height="107" rx="0" fill="#FFF1CA" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<g id="obj0376" aria-label="Qubit input |0⟩">
+<text id="obj0377" x="1023" y="166" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0378" points="1036,154 1039,160 1036,166" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0379" points="1053,161 1268,161" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0380" points="1060,161 1067.5,147 1082.5,147 1090,161 1082.5,175 1067.5,175" fill="#163D64" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0381" points="1099,161 1114,147 1129,161 1114,175" fill="#5298D5" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0382" cx="1151" cy="161" rx="14" ry="14" fill="#215F9A" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0383" aria-label="Measurement">
+<rect id="obj0384" x="1240" y="149" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0385" d="M 1243 166 C 1246 154 1259 152 1264 166" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0386" points="1251.34,168 1259.71,152" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0387" points="1254.71,154 1259.71,152 1259.71,158" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj0388" aria-label="Qubit input |0⟩">
+<text id="obj0389" x="1023" y="199" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0390" points="1036,187 1039,193 1036,199" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0391" points="1053,194 1268,194" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0392" points="1060,194 1067.5,180 1082.5,180 1090,194 1082.5,208 1067.5,208" fill="#DCEAF7" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0393" points="1099,194 1114,180 1129,194 1114,208" fill="#A6CBEB" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0394" cx="1151" cy="194" rx="14" ry="14" fill="#163D64" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0395" aria-label="Measurement">
+<rect id="obj0396" x="1240" y="182" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0397" d="M 1243 199 C 1246 187 1259 185 1264 199" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0398" points="1251.34,201 1259.71,185" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0399" points="1254.71,187 1259.71,185 1259.71,191" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj0400" aria-label="Qubit input |0⟩">
+<text id="obj0401" x="1023" y="233" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0402" points="1036,221 1039,227 1036,233" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0403" points="1053,228 1268,228" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0404" points="1060,228 1067.5,214 1082.5,214 1090,228 1082.5,242 1067.5,242" fill="#215F9A" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0405" points="1099,228 1114,214 1129,228 1114,242" fill="#DCEAF7" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0406" cx="1151" cy="228" rx="14" ry="14" fill="#5298D5" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0407" aria-label="Measurement">
+<rect id="obj0408" x="1240" y="216" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0409" d="M 1243 233 C 1246 221 1259 219 1264 233" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0410" points="1251.34,235 1259.71,219" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0411" points="1254.71,221 1259.71,219 1259.71,225" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<rect id="obj0412" x="1175" y="154" width="13" height="47" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+<rect id="obj0413" x="1196" y="189" width="13" height="47" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+</g>
+<text id="obj0414" x="740" y="289" font-family="Times New Roman, Liberation Serif, serif" font-size="29" font-weight="bold" font-style="normal" fill="black" text-anchor="start">Frozen Paramters Trajectoy</text>
+<g id="obj0415" aria-label="Intensity scale">
+<text id="obj0416" x="1277" y="49" font-family="Times New Roman, Liberation Serif, serif" font-size="22" font-weight="bold" font-style="normal" fill="black" text-anchor="start">Intensity ↑</text>
+<rect id="obj0417" x="1304" y="55" width="33" height="42.8" rx="0" fill="#163D64" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<rect id="obj0418" x="1304" y="97.8" width="33" height="42.8" rx="0" fill="#215F9A" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<rect id="obj0419" x="1304" y="140.6" width="33" height="42.8" rx="0" fill="#5298D5" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<rect id="obj0420" x="1304" y="183.4" width="33" height="42.8" rx="0" fill="#A6CBEB" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<rect id="obj0421" x="1304" y="226.2" width="33" height="42.8" rx="0" fill="#DCEAF7" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<rect id="obj0422" x="1304" y="55" width="33" height="214" rx="0" fill="none" stroke="black" stroke-width="2.6" stroke-linejoin="miter"/>
+</g>
+<text id="obj0423" x="1405" y="92" font-family="Times New Roman, Liberation Serif, serif" font-size="26" font-weight="bold" font-style="normal" fill="black" text-anchor="middle">Frozen</text>
+<text id="obj0424" x="1405" y="123" font-family="Times New Roman, Liberation Serif, serif" font-size="26" font-weight="bold" font-style="normal" fill="black" text-anchor="middle">Parameter</text>
+<text id="obj0425" x="1405" y="154" font-family="Times New Roman, Liberation Serif, serif" font-size="26" font-weight="bold" font-style="normal" fill="black" text-anchor="middle">Selection</text>
+<polygon id="obj0426" points="1344,170 1442,170 1442,160 1462,181 1442,202 1442,192 1344,192" fill="white" stroke="black" stroke-width="4" stroke-linejoin="miter"/>
+<text id="obj0427" x="1344" y="222" font-family="Times New Roman, Liberation Serif, serif" font-size="22" font-weight="bold" font-style="italic" fill="black" text-anchor="start">Threshold: τ</text>
+<g id="obj0428" aria-label="Label — large ansatz">
+<rect id="obj0429" x="1495" y="60" width="399" height="192" rx="0" fill="#FDD7FC" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<rect id="obj0430" x="1485" y="46" width="399" height="192" rx="0" fill="#FDD7FC" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<g id="obj0431" aria-label="Qubit input |0⟩">
+<text id="obj0432" x="1497" y="72" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0433" points="1510,60 1513,66 1510,72" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0434" points="1527,67 1872,67" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0435" points="1534,67 1541.5,53 1556.5,53 1564,67 1556.5,81 1541.5,81" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0436" points="1573,67 1588,53 1603,67 1588,81" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0437" cx="1625" cy="67" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0438" points="1646,67 1653.5,53 1668.5,53 1676,67 1668.5,81 1653.5,81" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0439" points="1706,67 1721,53 1736,67 1721,81" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0440" cx="1755" cy="67" rx="14" ry="14" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0441" aria-label="Measurement">
+<rect id="obj0442" x="1844" y="55" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0443" d="M 1847 72 C 1850 60 1863 58 1868 72" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0444" points="1855.34,74 1863.71,58" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0445" points="1858.71,60 1863.71,58 1863.71,64" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj0446" aria-label="Qubit input |0⟩">
+<text id="obj0447" x="1497" y="106" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0448" points="1510,94 1513,100 1510,106" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0449" points="1527,101 1872,101" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0450" points="1534,101 1541.5,87 1556.5,87 1564,101 1556.5,115 1541.5,115" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0451" points="1573,101 1588,87 1603,101 1588,115" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0452" cx="1625" cy="101" rx="14" ry="14" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0453" points="1646,101 1653.5,87 1668.5,87 1676,101 1668.5,115 1653.5,115" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0454" points="1706,101 1721,87 1736,101 1721,115" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0455" cx="1755" cy="101" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0456" aria-label="Measurement">
+<rect id="obj0457" x="1844" y="89" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0458" d="M 1847 106 C 1850 94 1863 92 1868 106" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0459" points="1855.34,108 1863.71,92" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0460" points="1858.71,94 1863.71,92 1863.71,98" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj0461" aria-label="Qubit input |0⟩">
+<text id="obj0462" x="1497" y="139" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0463" points="1510,127 1513,133 1510,139" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0464" points="1527,134 1872,134" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0465" points="1534,134 1541.5,120 1556.5,120 1564,134 1556.5,148 1541.5,148" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0466" points="1573,134 1588,120 1603,134 1588,148" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0467" cx="1625" cy="134" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0468" points="1646,134 1653.5,120 1668.5,120 1676,134 1668.5,148 1653.5,148" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0469" points="1706,134 1721,120 1736,134 1721,148" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0470" cx="1755" cy="134" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0471" aria-label="Measurement">
+<rect id="obj0472" x="1844" y="122" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0473" d="M 1847 139 C 1850 127 1863 125 1868 139" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0474" points="1855.34,141 1863.71,125" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0475" points="1858.71,127 1863.71,125 1863.71,131" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj0476" aria-label="Qubit input |0⟩">
+<text id="obj0477" x="1497" y="189" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0478" points="1510,177 1513,183 1510,189" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0479" points="1527,184 1872,184" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0480" points="1534,184 1541.5,170 1556.5,170 1564,184 1556.5,198 1541.5,198" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0481" points="1573,184 1588,170 1603,184 1588,198" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0482" cx="1625" cy="184" rx="14" ry="14" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0483" points="1646,184 1653.5,170 1668.5,170 1676,184 1668.5,198 1653.5,198" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0484" points="1706,184 1721,170 1736,184 1721,198" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0485" cx="1755" cy="184" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0486" aria-label="Measurement">
+<rect id="obj0487" x="1844" y="172" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0488" d="M 1847 189 C 1850 177 1863 175 1868 189" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0489" points="1855.34,191 1863.71,175" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0490" points="1858.71,177 1863.71,175 1863.71,181" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj0491" aria-label="Qubit input |0⟩">
+<text id="obj0492" x="1497" y="222" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0493" points="1510,210 1513,216 1510,222" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0494" points="1527,217 1872,217" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0495" points="1534,217 1541.5,203 1556.5,203 1564,217 1556.5,231 1541.5,231" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0496" points="1573,217 1588,203 1603,217 1588,231" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0497" cx="1625" cy="217" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0498" points="1646,217 1653.5,203 1668.5,203 1676,217 1668.5,231 1653.5,231" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0499" points="1706,217 1721,203 1736,217 1721,231" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0500" cx="1755" cy="217" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0501" aria-label="Measurement">
+<rect id="obj0502" x="1844" y="205" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0503" d="M 1847 222 C 1850 210 1863 208 1868 222" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0504" points="1855.34,224 1863.71,208" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0505" points="1858.71,210 1863.71,208 1863.71,214" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<ellipse id="obj0506" cx="1505" cy="152" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj0507" cx="1505" cy="158" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj0508" cx="1505" cy="164" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj0509" cx="1690" cy="152" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj0510" cx="1690" cy="158" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj0511" cx="1690" cy="164" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj0512" cx="1858" cy="152" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj0513" cx="1858" cy="158" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj0514" cx="1858" cy="164" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<rect id="obj0515" x="1780" y="60" width="13" height="44" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+<rect id="obj0516" x="1801" y="95" width="13" height="47" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+<rect id="obj0517" x="1819" y="179" width="13" height="46" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+</g>
+<g id="obj0518" aria-label="Label — middle ansatz">
+<rect id="obj0519" x="1539" y="109" width="358" height="145" rx="0" fill="#C9E5B4" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<rect id="obj0520" x="1529" y="95" width="358" height="145" rx="0" fill="#C9E5B4" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<g id="obj0521" aria-label="Qubit input |0⟩">
+<text id="obj0522" x="1541" y="120" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0523" points="1554,108 1557,114 1554,120" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0524" points="1571,115 1875,115" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0525" points="1578,115 1585.5,101 1600.5,101 1608,115 1600.5,129 1585.5,129" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0526" points="1617,115 1632,101 1647,115 1632,129" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0527" cx="1669" cy="115" rx="14" ry="14" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0528" points="1690,115 1697.5,101 1712.5,101 1720,115 1712.5,129 1697.5,129" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0529" points="1750,115 1765,101 1780,115 1765,129" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0530" aria-label="Measurement">
+<rect id="obj0531" x="1847" y="103" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0532" d="M 1850 120 C 1853 108 1866 106 1871 120" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0533" points="1858.34,122 1866.71,106" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0534" points="1861.71,108 1866.71,106 1866.71,112" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj0535" aria-label="Qubit input |0⟩">
+<text id="obj0536" x="1541" y="154" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0537" points="1554,142 1557,148 1554,154" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0538" points="1571,149 1875,149" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0539" points="1578,149 1585.5,135 1600.5,135 1608,149 1600.5,163 1585.5,163" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0540" points="1617,149 1632,135 1647,149 1632,163" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0541" cx="1669" cy="149" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0542" points="1690,149 1697.5,135 1712.5,135 1720,149 1712.5,163 1697.5,163" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0543" points="1750,149 1765,135 1780,149 1765,163" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0544" aria-label="Measurement">
+<rect id="obj0545" x="1847" y="137" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0546" d="M 1850 154 C 1853 142 1866 140 1871 154" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0547" points="1858.34,156 1866.71,140" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0548" points="1861.71,142 1866.71,140 1866.71,146" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj0549" aria-label="Qubit input |0⟩">
+<text id="obj0550" x="1541" y="187" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0551" points="1554,175 1557,181 1554,187" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0552" points="1571,182 1875,182" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0553" points="1578,182 1585.5,168 1600.5,168 1608,182 1600.5,196 1585.5,196" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0554" points="1617,182 1632,168 1647,182 1632,196" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0555" cx="1669" cy="182" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0556" points="1690,182 1697.5,168 1712.5,168 1720,182 1712.5,196 1697.5,196" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0557" points="1750,182 1765,168 1780,182 1765,196" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0558" aria-label="Measurement">
+<rect id="obj0559" x="1847" y="170" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0560" d="M 1850 187 C 1853 175 1866 173 1871 187" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0561" points="1858.34,189 1866.71,173" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0562" points="1861.71,175 1866.71,173 1866.71,179" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj0563" aria-label="Qubit input |0⟩">
+<text id="obj0564" x="1541" y="220" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0565" points="1554,208 1557,214 1554,220" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0566" points="1571,215 1875,215" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0567" points="1578,215 1585.5,201 1600.5,201 1608,215 1600.5,229 1585.5,229" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0568" points="1617,215 1632,201 1647,215 1632,229" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0569" cx="1669" cy="215" rx="14" ry="14" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0570" points="1690,215 1697.5,201 1712.5,201 1720,215 1712.5,229 1697.5,229" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0571" points="1750,215 1765,201 1780,215 1765,229" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0572" aria-label="Measurement">
+<rect id="obj0573" x="1847" y="203" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0574" d="M 1850 220 C 1853 208 1866 206 1871 220" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0575" points="1858.34,222 1866.71,206" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0576" points="1861.71,208 1866.71,206 1866.71,212" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<rect id="obj0577" x="1789" y="107" width="13" height="47" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+<rect id="obj0578" x="1810" y="143" width="13" height="47" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+<rect id="obj0579" x="1828" y="176" width="13" height="48" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+</g>
+<g id="obj0580" aria-label="Label — small ansatz">
+<rect id="obj0581" x="1632" y="152" width="269" height="107" rx="0" fill="#FFF1CA" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<rect id="obj0582" x="1622" y="138" width="269" height="107" rx="0" fill="#FFF1CA" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<g id="obj0583" aria-label="Qubit input |0⟩">
+<text id="obj0584" x="1634" y="164" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0585" points="1647,152 1650,158 1647,164" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0586" points="1664,159 1879,159" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0587" points="1671,159 1678.5,145 1693.5,145 1701,159 1693.5,173 1678.5,173" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0588" points="1710,159 1725,145 1740,159 1725,173" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0589" cx="1762" cy="159" rx="14" ry="14" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0590" aria-label="Measurement">
+<rect id="obj0591" x="1851" y="147" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0592" d="M 1854 164 C 1857 152 1870 150 1875 164" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0593" points="1862.34,166 1870.71,150" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0594" points="1865.71,152 1870.71,150 1870.71,156" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj0595" aria-label="Qubit input |0⟩">
+<text id="obj0596" x="1634" y="197" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0597" points="1647,185 1650,191 1647,197" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0598" points="1664,192 1879,192" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0599" points="1671,192 1678.5,178 1693.5,178 1701,192 1693.5,206 1678.5,206" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0600" points="1710,192 1725,178 1740,192 1725,206" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0601" cx="1762" cy="192" rx="14" ry="14" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0602" aria-label="Measurement">
+<rect id="obj0603" x="1851" y="180" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0604" d="M 1854 197 C 1857 185 1870 183 1875 197" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0605" points="1862.34,199 1870.71,183" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0606" points="1865.71,185 1870.71,183 1870.71,189" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj0607" aria-label="Qubit input |0⟩">
+<text id="obj0608" x="1634" y="231" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0609" points="1647,219 1650,225 1647,231" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0610" points="1664,226 1879,226" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0611" points="1671,226 1678.5,212 1693.5,212 1701,226 1693.5,240 1678.5,240" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0612" points="1710,226 1725,212 1740,226 1725,240" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0613" cx="1762" cy="226" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0614" aria-label="Measurement">
+<rect id="obj0615" x="1851" y="214" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0616" d="M 1854 231 C 1857 219 1870 217 1875 231" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0617" points="1862.34,233 1870.71,217" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0618" points="1865.71,219 1870.71,217 1870.71,223" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<rect id="obj0619" x="1786" y="152" width="13" height="47" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+<rect id="obj0620" x="1807" y="187" width="13" height="47" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+</g>
+<text id="obj0621" x="1557" y="290" font-family="Times New Roman, Liberation Serif, serif" font-size="29" font-weight="bold" font-style="normal" fill="black" text-anchor="start">Training Dataset: Label</text>
+</g>
+<g id="obj0622" aria-label="(b) ResNet-18 Based Model Training">
+<rect id="obj0623" x="13" y="312" width="765" height="586" rx="0" fill="none" stroke="black" stroke-width="5" stroke-linejoin="miter"/>
+<g id="obj0624" aria-label="Training label — large ansatz">
+<rect id="obj0625" x="51" y="339" width="399" height="192" rx="0" fill="#FDD7FC" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<rect id="obj0626" x="41" y="325" width="399" height="192" rx="0" fill="#FDD7FC" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<g id="obj0627" aria-label="Qubit input |0⟩">
+<text id="obj0628" x="53" y="351" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0629" points="66,339 69,345 66,351" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0630" points="83,346 428,346" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0631" points="90,346 97.5,332 112.5,332 120,346 112.5,360 97.5,360" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0632" points="129,346 144,332 159,346 144,360" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0633" cx="181" cy="346" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0634" points="202,346 209.5,332 224.5,332 232,346 224.5,360 209.5,360" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0635" points="262,346 277,332 292,346 277,360" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0636" cx="311" cy="346" rx="14" ry="14" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0637" aria-label="Measurement">
+<rect id="obj0638" x="400" y="334" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0639" d="M 403 351 C 406 339 419 337 424 351" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0640" points="411.34,353 419.71,337" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0641" points="414.71,339 419.71,337 419.71,343" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj0642" aria-label="Qubit input |0⟩">
+<text id="obj0643" x="53" y="385" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0644" points="66,373 69,379 66,385" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0645" points="83,380 428,380" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0646" points="90,380 97.5,366 112.5,366 120,380 112.5,394 97.5,394" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0647" points="129,380 144,366 159,380 144,394" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0648" cx="181" cy="380" rx="14" ry="14" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0649" points="202,380 209.5,366 224.5,366 232,380 224.5,394 209.5,394" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0650" points="262,380 277,366 292,380 277,394" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0651" cx="311" cy="380" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0652" aria-label="Measurement">
+<rect id="obj0653" x="400" y="368" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0654" d="M 403 385 C 406 373 419 371 424 385" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0655" points="411.34,387 419.71,371" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0656" points="414.71,373 419.71,371 419.71,377" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj0657" aria-label="Qubit input |0⟩">
+<text id="obj0658" x="53" y="418" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0659" points="66,406 69,412 66,418" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0660" points="83,413 428,413" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0661" points="90,413 97.5,399 112.5,399 120,413 112.5,427 97.5,427" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0662" points="129,413 144,399 159,413 144,427" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0663" cx="181" cy="413" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0664" points="202,413 209.5,399 224.5,399 232,413 224.5,427 209.5,427" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0665" points="262,413 277,399 292,413 277,427" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0666" cx="311" cy="413" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0667" aria-label="Measurement">
+<rect id="obj0668" x="400" y="401" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0669" d="M 403 418 C 406 406 419 404 424 418" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0670" points="411.34,420 419.71,404" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0671" points="414.71,406 419.71,404 419.71,410" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj0672" aria-label="Qubit input |0⟩">
+<text id="obj0673" x="53" y="468" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0674" points="66,456 69,462 66,468" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0675" points="83,463 428,463" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0676" points="90,463 97.5,449 112.5,449 120,463 112.5,477 97.5,477" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0677" points="129,463 144,449 159,463 144,477" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0678" cx="181" cy="463" rx="14" ry="14" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0679" points="202,463 209.5,449 224.5,449 232,463 224.5,477 209.5,477" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0680" points="262,463 277,449 292,463 277,477" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0681" cx="311" cy="463" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0682" aria-label="Measurement">
+<rect id="obj0683" x="400" y="451" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0684" d="M 403 468 C 406 456 419 454 424 468" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0685" points="411.34,470 419.71,454" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0686" points="414.71,456 419.71,454 419.71,460" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj0687" aria-label="Qubit input |0⟩">
+<text id="obj0688" x="53" y="501" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0689" points="66,489 69,495 66,501" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0690" points="83,496 428,496" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0691" points="90,496 97.5,482 112.5,482 120,496 112.5,510 97.5,510" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0692" points="129,496 144,482 159,496 144,510" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0693" cx="181" cy="496" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0694" points="202,496 209.5,482 224.5,482 232,496 224.5,510 209.5,510" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0695" points="262,496 277,482 292,496 277,510" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0696" cx="311" cy="496" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0697" aria-label="Measurement">
+<rect id="obj0698" x="400" y="484" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0699" d="M 403 501 C 406 489 419 487 424 501" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0700" points="411.34,503 419.71,487" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0701" points="414.71,489 419.71,487 419.71,493" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<ellipse id="obj0702" cx="61" cy="431" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj0703" cx="61" cy="437" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj0704" cx="61" cy="443" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj0705" cx="246" cy="431" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj0706" cx="246" cy="437" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj0707" cx="246" cy="443" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj0708" cx="414" cy="431" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj0709" cx="414" cy="437" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj0710" cx="414" cy="443" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<rect id="obj0711" x="336" y="339" width="13" height="44" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+<rect id="obj0712" x="357" y="374" width="13" height="47" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+<rect id="obj0713" x="375" y="458" width="13" height="46" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+</g>
+<g id="obj0714" aria-label="Training label — middle ansatz">
+<rect id="obj0715" x="215" y="347" width="358" height="145" rx="0" fill="#C9E5B4" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<rect id="obj0716" x="205" y="333" width="358" height="145" rx="0" fill="#C9E5B4" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<g id="obj0717" aria-label="Qubit input |0⟩">
+<text id="obj0718" x="217" y="358" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0719" points="230,346 233,352 230,358" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0720" points="247,353 551,353" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0721" points="254,353 261.5,339 276.5,339 284,353 276.5,367 261.5,367" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0722" points="293,353 308,339 323,353 308,367" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0723" cx="345" cy="353" rx="14" ry="14" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0724" points="366,353 373.5,339 388.5,339 396,353 388.5,367 373.5,367" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0725" points="426,353 441,339 456,353 441,367" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0726" aria-label="Measurement">
+<rect id="obj0727" x="523" y="341" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0728" d="M 526 358 C 529 346 542 344 547 358" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0729" points="534.34,360 542.71,344" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0730" points="537.71,346 542.71,344 542.71,350" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj0731" aria-label="Qubit input |0⟩">
+<text id="obj0732" x="217" y="392" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0733" points="230,380 233,386 230,392" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0734" points="247,387 551,387" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0735" points="254,387 261.5,373 276.5,373 284,387 276.5,401 261.5,401" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0736" points="293,387 308,373 323,387 308,401" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0737" cx="345" cy="387" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0738" points="366,387 373.5,373 388.5,373 396,387 388.5,401 373.5,401" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0739" points="426,387 441,373 456,387 441,401" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0740" aria-label="Measurement">
+<rect id="obj0741" x="523" y="375" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0742" d="M 526 392 C 529 380 542 378 547 392" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0743" points="534.34,394 542.71,378" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0744" points="537.71,380 542.71,378 542.71,384" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj0745" aria-label="Qubit input |0⟩">
+<text id="obj0746" x="217" y="425" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0747" points="230,413 233,419 230,425" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0748" points="247,420 551,420" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0749" points="254,420 261.5,406 276.5,406 284,420 276.5,434 261.5,434" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0750" points="293,420 308,406 323,420 308,434" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0751" cx="345" cy="420" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0752" points="366,420 373.5,406 388.5,406 396,420 388.5,434 373.5,434" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0753" points="426,420 441,406 456,420 441,434" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0754" aria-label="Measurement">
+<rect id="obj0755" x="523" y="408" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0756" d="M 526 425 C 529 413 542 411 547 425" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0757" points="534.34,427 542.71,411" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0758" points="537.71,413 542.71,411 542.71,417" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj0759" aria-label="Qubit input |0⟩">
+<text id="obj0760" x="217" y="458" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0761" points="230,446 233,452 230,458" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0762" points="247,453 551,453" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0763" points="254,453 261.5,439 276.5,439 284,453 276.5,467 261.5,467" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0764" points="293,453 308,439 323,453 308,467" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0765" cx="345" cy="453" rx="14" ry="14" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0766" points="366,453 373.5,439 388.5,439 396,453 388.5,467 373.5,467" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0767" points="426,453 441,439 456,453 441,467" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0768" aria-label="Measurement">
+<rect id="obj0769" x="523" y="441" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0770" d="M 526 458 C 529 446 542 444 547 458" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0771" points="534.34,460 542.71,444" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0772" points="537.71,446 542.71,444 542.71,450" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<rect id="obj0773" x="465" y="345" width="13" height="47" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+<rect id="obj0774" x="486" y="381" width="13" height="47" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+<rect id="obj0775" x="504" y="414" width="13" height="48" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+</g>
+<g id="obj0776" aria-label="Training label — small ansatz">
+<rect id="obj0777" x="473" y="331" width="269" height="107" rx="0" fill="#FFF1CA" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<rect id="obj0778" x="463" y="317" width="269" height="107" rx="0" fill="#FFF1CA" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<g id="obj0779" aria-label="Qubit input |0⟩">
+<text id="obj0780" x="475" y="343" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0781" points="488,331 491,337 488,343" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0782" points="505,338 720,338" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0783" points="512,338 519.5,324 534.5,324 542,338 534.5,352 519.5,352" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0784" points="551,338 566,324 581,338 566,352" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0785" cx="603" cy="338" rx="14" ry="14" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0786" aria-label="Measurement">
+<rect id="obj0787" x="692" y="326" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0788" d="M 695 343 C 698 331 711 329 716 343" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0789" points="703.34,345 711.71,329" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0790" points="706.71,331 711.71,329 711.71,335" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj0791" aria-label="Qubit input |0⟩">
+<text id="obj0792" x="475" y="376" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0793" points="488,364 491,370 488,376" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0794" points="505,371 720,371" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0795" points="512,371 519.5,357 534.5,357 542,371 534.5,385 519.5,385" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0796" points="551,371 566,357 581,371 566,385" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0797" cx="603" cy="371" rx="14" ry="14" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0798" aria-label="Measurement">
+<rect id="obj0799" x="692" y="359" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0800" d="M 695 376 C 698 364 711 362 716 376" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0801" points="703.34,378 711.71,362" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0802" points="706.71,364 711.71,362 711.71,368" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj0803" aria-label="Qubit input |0⟩">
+<text id="obj0804" x="475" y="410" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj0805" points="488,398 491,404 488,410" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0806" points="505,405 720,405" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0807" points="512,405 519.5,391 534.5,391 542,405 534.5,419 519.5,419" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj0808" points="551,405 566,391 581,405 566,419" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj0809" cx="603" cy="405" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj0810" aria-label="Measurement">
+<rect id="obj0811" x="692" y="393" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj0812" d="M 695 410 C 698 398 711 396 716 410" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0813" points="703.34,412 711.71,396" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj0814" points="706.71,398 711.71,396 711.71,402" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<rect id="obj0815" x="627" y="331" width="13" height="47" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+<rect id="obj0816" x="648" y="366" width="13" height="47" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+</g>
+<text id="obj0817" x="44" y="567" font-family="Times New Roman, Liberation Serif, serif" font-size="29" font-weight="bold" font-style="normal" fill="black" text-anchor="start">Training Dataset: Label</text>
+<text id="obj0818" x="580" y="490" font-family="Times New Roman, Liberation Serif, serif" font-size="29" font-weight="bold" font-style="normal" fill="black" text-anchor="start">Loss Function</text>
+<g id="obj0819" aria-label="Loss function — editable mathematical components">
+<rect id="obj0820" x="498" y="505" width="221" height="65" rx="0" fill="#F8C5CE" stroke="#EC5270" stroke-width="3.5" stroke-linejoin="miter"/>
+<text id="obj0821" x="503" y="543" font-family="Times New Roman, Liberation Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="black" text-anchor="start">min</text>
+<text id="obj0822" x="513" y="556" font-family="Times New Roman, Liberation Serif, serif" font-size="15" font-weight="normal" font-style="italic" fill="black" text-anchor="start">ω</text>
+<text id="obj0823" x="563" y="529" font-family="Times New Roman, Liberation Serif, serif" font-size="22" font-weight="normal" font-style="normal" fill="black" text-anchor="middle">1</text>
+<polyline id="obj0824" points="551,538 575,538" fill="none" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<text id="obj0825" x="563" y="557" font-family="Times New Roman, Liberation Serif, serif" font-size="23" font-weight="normal" font-style="italic" fill="black" text-anchor="middle">N</text>
+<text id="obj0826" x="580" y="549" font-family="Times New Roman, Liberation Serif, serif" font-size="39" font-weight="normal" font-style="normal" fill="black" text-anchor="start">∑</text>
+<text id="obj0827" x="594" y="520" font-family="Times New Roman, Liberation Serif, serif" font-size="15" font-weight="normal" font-style="italic" fill="black" text-anchor="middle">N</text>
+<text id="obj0828" x="593" y="566" font-family="Times New Roman, Liberation Serif, serif" font-size="13" font-weight="normal" font-style="italic" fill="black" text-anchor="middle">i=1</text>
+<polyline id="obj0829" points="616,525 616,547" fill="none" stroke="black" stroke-width="1.1" stroke-linejoin="miter"/>
+<polyline id="obj0830" points="620,525 620,547" fill="none" stroke="black" stroke-width="1.1" stroke-linejoin="miter"/>
+<polyline id="obj0831" points="694,525 694,547" fill="none" stroke="black" stroke-width="1.1" stroke-linejoin="miter"/>
+<polyline id="obj0832" points="698,525 698,547" fill="none" stroke="black" stroke-width="1.1" stroke-linejoin="miter"/>
+<text id="obj0833" x="623" y="544" font-family="Times New Roman, Liberation Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="black" text-anchor="start">C</text>
+<polyline id="obj0834" points="626,525 632,522 638,525" fill="none" stroke="black" stroke-width="1.2" stroke-linejoin="miter"/>
+<text id="obj0835" x="639" y="549" font-family="Times New Roman, Liberation Serif, serif" font-size="14" font-weight="normal" font-style="italic" fill="black" text-anchor="start">i</text>
+<text id="obj0836" x="650" y="544" font-family="Times New Roman, Liberation Serif, serif" font-size="21" font-weight="normal" font-style="normal" fill="black" text-anchor="start">−</text>
+<text id="obj0837" x="670" y="544" font-family="Times New Roman, Liberation Serif, serif" font-size="23" font-weight="normal" font-style="normal" fill="black" text-anchor="start">C</text>
+<text id="obj0838" x="686" y="549" font-family="Times New Roman, Liberation Serif, serif" font-size="14" font-weight="normal" font-style="italic" fill="black" text-anchor="start">i</text>
+<text id="obj0839" x="704" y="532" font-family="Times New Roman, Liberation Serif, serif" font-size="15" font-weight="normal" font-style="normal" fill="black" text-anchor="start">2</text>
+<text id="obj0840" x="703" y="550" font-family="Times New Roman, Liberation Serif, serif" font-size="15" font-weight="normal" font-style="italic" fill="black" text-anchor="start">F</text>
+</g>
+<polyline id="obj0841" points="250,533 250,541 485,541" fill="none" stroke="#E94361" stroke-width="2.7" stroke-dasharray="10 8" stroke-linejoin="miter"/>
+<polyline id="obj0842" points="468,541 485,541" fill="none" stroke="#E94361" stroke-width="2.7" stroke-linejoin="miter"/>
+<polyline id="obj0843" points="475,535.8 485,541 475,546.2" fill="none" stroke="#E94361" stroke-width="2.7" stroke-linejoin="miter"/>
+<polyline id="obj0844" points="481,555 412,555 412,608 347,608" fill="none" stroke="#E94361" stroke-width="2.7" stroke-dasharray="10 8" stroke-linejoin="miter"/>
+<polyline id="obj0845" points="363,608 347,608" fill="none" stroke="#E94361" stroke-width="2.7" stroke-linejoin="miter"/>
+<polyline id="obj0846" points="356,612.68 347,608 356,603.32" fill="none" stroke="#E94361" stroke-width="2.7" stroke-linejoin="miter"/>
+<polyline id="obj0847" points="741,715 741,537 720,537" fill="none" stroke="#E94361" stroke-width="2.7" stroke-dasharray="11 9" stroke-linejoin="miter"/>
+<polyline id="obj0848" points="738,537 720,537" fill="none" stroke="#E94361" stroke-width="2.7" stroke-linejoin="miter"/>
+<polyline id="obj0849" points="730,542.2 720,537 730,531.8" fill="none" stroke="#E94361" stroke-width="2.7" stroke-linejoin="miter"/>
+<polygon id="obj0850" points="23,587 766,587 766,845 23,845" fill="none" stroke="black" stroke-width="4" stroke-dasharray="4 4" stroke-linejoin="miter"/>
+<g id="obj0851" aria-label="Model weights update">
+<rect id="obj0852" x="130" y="595" width="215" height="27" rx="0" fill="#D9E2F4" stroke="#527ECB" stroke-width="3.6" stroke-linejoin="miter"/>
+<text id="obj0853" x="134" y="616" font-family="Times New Roman, Liberation Serif, serif" font-size="19" font-weight="bold" font-style="normal" fill="black" text-anchor="start">Model Weights Update</text>
+<polyline id="obj0854" points="115,603 86,620" fill="none" stroke="black" stroke-width="3.5" stroke-linejoin="miter"/>
+<polyline id="obj0855" points="101.759,619.2 86,620 94.396,606.639" fill="none" stroke="black" stroke-width="3.5" stroke-linejoin="miter"/>
+</g>
+<g id="obj0856" aria-label="Input tensor">
+<rect id="obj0857" x="54" y="644" width="25" height="133" rx="0" fill="#BD78E8" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<polygon id="obj0858" points="54,644 75,622 100,622 79,644" fill="#D393F2" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<polygon id="obj0859" points="79,644 100,622 100,755 79,777" fill="#9960B6" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<text id="obj0860" x="37" y="797" font-family="Times New Roman, Liberation Serif, serif" font-size="13" font-weight="bold" font-style="normal" fill="black" text-anchor="start">(B, 3+K, H, W)</text>
+<text id="obj0861" x="44" y="825" font-family="Times New Roman, Liberation Serif, serif" font-size="21" font-weight="bold" font-style="normal" fill="black" text-anchor="start">Inputs</text>
+</g>
+<polyline id="obj0862" points="114,714 143,714" fill="none" stroke="black" stroke-width="4" stroke-linejoin="miter"/>
+<polyline id="obj0863" points="130,707.24 143,714 130,720.76" fill="none" stroke="black" stroke-width="4" stroke-linejoin="miter"/>
+<g id="obj0864" aria-label="ResNet-18">
+<polyline id="obj0865" points="161,667 199,683" fill="none" stroke="black" stroke-width="2.6" stroke-linejoin="miter"/>
+<polyline id="obj0866" points="161,667 199,713" fill="none" stroke="black" stroke-width="2.6" stroke-linejoin="miter"/>
+<polyline id="obj0867" points="161,667 199,741" fill="none" stroke="black" stroke-width="2.6" stroke-linejoin="miter"/>
+<polyline id="obj0868" points="161,696 199,713" fill="none" stroke="black" stroke-width="2.6" stroke-linejoin="miter"/>
+<polyline id="obj0869" points="161,725 199,683" fill="none" stroke="black" stroke-width="2.6" stroke-linejoin="miter"/>
+<polyline id="obj0870" points="161,725 199,713" fill="none" stroke="black" stroke-width="2.6" stroke-linejoin="miter"/>
+<polyline id="obj0871" points="161,754 199,713" fill="none" stroke="black" stroke-width="2.6" stroke-linejoin="miter"/>
+<ellipse id="obj0872" cx="161" cy="667" rx="8.5" ry="8.5" fill="white" stroke="black" stroke-width="2.5" stroke-linejoin="miter"/>
+<ellipse id="obj0873" cx="161" cy="696" rx="8.5" ry="8.5" fill="white" stroke="black" stroke-width="2.5" stroke-linejoin="miter"/>
+<ellipse id="obj0874" cx="161" cy="725" rx="8.5" ry="8.5" fill="white" stroke="black" stroke-width="2.5" stroke-linejoin="miter"/>
+<ellipse id="obj0875" cx="161" cy="754" rx="8.5" ry="8.5" fill="white" stroke="black" stroke-width="2.5" stroke-linejoin="miter"/>
+<ellipse id="obj0876" cx="199" cy="683" rx="8.5" ry="8.5" fill="white" stroke="black" stroke-width="2.5" stroke-linejoin="miter"/>
+<ellipse id="obj0877" cx="199" cy="713" rx="8.5" ry="8.5" fill="white" stroke="black" stroke-width="2.5" stroke-linejoin="miter"/>
+<ellipse id="obj0878" cx="199" cy="741" rx="8.5" ry="8.5" fill="white" stroke="black" stroke-width="2.5" stroke-linejoin="miter"/>
+<text id="obj0879" x="130" y="782" font-family="Times New Roman, Liberation Serif, serif" font-size="25" font-weight="bold" font-style="normal" fill="black" text-anchor="start">ResNet-18</text>
+<text id="obj0880" x="185" y="659" font-family="Times New Roman, Liberation Serif, serif" font-size="13" font-weight="bold" font-style="normal" fill="black" text-anchor="start">(B, 512, H′, W′)</text>
+</g>
+<polyline id="obj0881" points="215,707 242,691" fill="none" stroke="black" stroke-width="3.7" stroke-linejoin="miter"/>
+<polyline id="obj0882" points="228.495,691.749 242,691 234.858,702.486" fill="none" stroke="black" stroke-width="3.7" stroke-linejoin="miter"/>
+<rect id="obj0883" x="250" y="677" width="23" height="20" rx="0" fill="#74B643" stroke="black" stroke-width="2.2" stroke-linejoin="miter"/>
+<text id="obj0884" x="238" y="714" font-family="Times New Roman, Liberation Serif, serif" font-size="14" font-weight="bold" font-style="normal" fill="black" text-anchor="start">1x1 Conv</text>
+<polyline id="obj0885" points="281,689 308,689" fill="none" stroke="black" stroke-width="3.8" stroke-linejoin="miter"/>
+<polyline id="obj0886" points="296,682.76 308,689 296,695.24" fill="none" stroke="black" stroke-width="3.8" stroke-linejoin="miter"/>
+<g id="obj0887" aria-label="Flatten &amp; Concat tensor">
+<polygon id="obj0888" points="310,651 330,631 357,631 336,651" fill="#F1F4F9" stroke="black" stroke-width="2.6" stroke-linejoin="miter"/>
+<polygon id="obj0889" points="336,651 357,631 357,762 336,784" fill="#A8B9D3" stroke="black" stroke-width="2.6" stroke-linejoin="miter"/>
+<rect id="obj0890" x="310" y="651" width="26" height="14.75" rx="0" fill="#FDD7FC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<rect id="obj0891" x="310" y="665.75" width="26" height="14.75" rx="0" fill="#C9E5B4" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<rect id="obj0892" x="310" y="680.5" width="26" height="14.75" rx="0" fill="#C9E5B4" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<rect id="obj0893" x="310" y="695.25" width="26" height="14.75" rx="0" fill="#FDD7FC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<rect id="obj0894" x="310" y="710" width="26" height="14.75" rx="0" fill="#FDD7FC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<rect id="obj0895" x="310" y="724.75" width="26" height="14.75" rx="0" fill="#C9E5B4" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<rect id="obj0896" x="310" y="739.5" width="26" height="14.75" rx="0" fill="#FDD7FC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<rect id="obj0897" x="310" y="754.25" width="26" height="14.75" rx="0" fill="#FDD7FC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<rect id="obj0898" x="310" y="769" width="26" height="14.75" rx="0" fill="#FFF1CA" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<text id="obj0899" x="274" y="802" font-family="Times New Roman, Liberation Serif, serif" font-size="13" font-weight="bold" font-style="normal" fill="black" text-anchor="start">(B, 512, H′ W′)</text>
+<text id="obj0900" x="251" y="829" font-family="Times New Roman, Liberation Serif, serif" font-size="21" font-weight="bold" font-style="normal" fill="black" text-anchor="start">Flatten &amp; Concat</text>
+</g>
+<g id="obj0901" aria-label="Multi-head self-attention module">
+<rect id="obj0902" x="404" y="612" width="191" height="176" rx="34" fill="#E7E7E7" stroke="black" stroke-width="2.8" stroke-linejoin="miter"/>
+<rect id="obj0903" x="392" y="620" width="194" height="177" rx="35" fill="#E7E7E7" stroke="black" stroke-width="2.8" stroke-linejoin="miter"/>
+<rect id="obj0904" x="380" y="630" width="197" height="175" rx="36" fill="#E7E7E7" stroke="black" stroke-width="2.8" stroke-linejoin="miter"/>
+<text id="obj0905" x="450" y="605" font-family="Times New Roman, Liberation Serif, serif" font-size="21" font-weight="bold" font-style="normal" fill="black" text-anchor="start">Head</text>
+<polyline id="obj0906" points="499,603 499,616 529,603 529,611" fill="none" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+<text id="obj0907" x="495" y="652" font-family="Times New Roman, Liberation Serif, serif" font-size="22" font-weight="bold" font-style="normal" fill="black" text-anchor="start">MHSA</text>
+<polyline id="obj0908" points="357,716 371,716 371,660 397,660" fill="none" stroke="black" stroke-width="2.5" stroke-linejoin="miter"/>
+<polyline id="obj0909" points="371,716 371,774 398,774" fill="none" stroke="black" stroke-width="2.5" stroke-linejoin="miter"/>
+<polyline id="obj0910" points="371,660 390,641" fill="none" stroke="black" stroke-width="2.5" stroke-linejoin="miter"/>
+<polyline id="obj0911" points="371,716 390,697" fill="none" stroke="black" stroke-width="2.5" stroke-linejoin="miter"/>
+<polyline id="obj0912" points="371,774 390,755" fill="none" stroke="black" stroke-width="2.5" stroke-linejoin="miter"/>
+<polyline id="obj0913" points="373,660 399,660" fill="none" stroke="black" stroke-width="2.6" stroke-linejoin="miter"/>
+<polygon id="obj0914" points="390,655.32 399,660 390,664.68" fill="black" stroke="black" stroke-width="0.8" stroke-linejoin="miter"/>
+<polyline id="obj0915" points="373,717 399,717" fill="none" stroke="black" stroke-width="2.6" stroke-linejoin="miter"/>
+<polygon id="obj0916" points="390,712.32 399,717 390,721.68" fill="black" stroke="black" stroke-width="0.8" stroke-linejoin="miter"/>
+<polyline id="obj0917" points="373,774 399,774" fill="none" stroke="black" stroke-width="2.6" stroke-linejoin="miter"/>
+<polygon id="obj0918" points="390,769.32 399,774 390,778.68" fill="black" stroke="black" stroke-width="0.8" stroke-linejoin="miter"/>
+<g id="obj0919" aria-label="Editable matrix">
+<rect id="obj0920" x="403" y="637" width="11" height="11.75" rx="0" fill="#BE65A6" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0921" x="414" y="637" width="11" height="11.75" rx="0" fill="#BE65A6" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0922" x="425" y="637" width="11" height="11.75" rx="0" fill="#BE65A6" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0923" x="403" y="648.75" width="11" height="11.75" rx="0" fill="#BE65A6" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0924" x="414" y="648.75" width="11" height="11.75" rx="0" fill="#BE65A6" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0925" x="425" y="648.75" width="11" height="11.75" rx="0" fill="#BE65A6" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0926" x="403" y="660.5" width="11" height="11.75" rx="0" fill="#BE65A6" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0927" x="414" y="660.5" width="11" height="11.75" rx="0" fill="#BE65A6" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0928" x="425" y="660.5" width="11" height="11.75" rx="0" fill="#BE65A6" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0929" x="403" y="672.25" width="11" height="11.75" rx="0" fill="#BE65A6" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0930" x="414" y="672.25" width="11" height="11.75" rx="0" fill="#BE65A6" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0931" x="425" y="672.25" width="11" height="11.75" rx="0" fill="#BE65A6" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+</g>
+<g id="obj0932" aria-label="Editable matrix">
+<rect id="obj0933" x="403" y="693" width="11" height="11.75" rx="0" fill="#B78D7B" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0934" x="414" y="693" width="11" height="11.75" rx="0" fill="#B78D7B" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0935" x="425" y="693" width="11" height="11.75" rx="0" fill="#B78D7B" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0936" x="403" y="704.75" width="11" height="11.75" rx="0" fill="#B78D7B" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0937" x="414" y="704.75" width="11" height="11.75" rx="0" fill="#B78D7B" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0938" x="425" y="704.75" width="11" height="11.75" rx="0" fill="#B78D7B" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0939" x="403" y="716.5" width="11" height="11.75" rx="0" fill="#B78D7B" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0940" x="414" y="716.5" width="11" height="11.75" rx="0" fill="#B78D7B" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0941" x="425" y="716.5" width="11" height="11.75" rx="0" fill="#B78D7B" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0942" x="403" y="728.25" width="11" height="11.75" rx="0" fill="#B78D7B" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0943" x="414" y="728.25" width="11" height="11.75" rx="0" fill="#B78D7B" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0944" x="425" y="728.25" width="11" height="11.75" rx="0" fill="#B78D7B" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+</g>
+<g id="obj0945" aria-label="Editable matrix">
+<rect id="obj0946" x="403" y="750" width="11" height="11.75" rx="0" fill="#8CB89A" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0947" x="414" y="750" width="11" height="11.75" rx="0" fill="#8CB89A" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0948" x="425" y="750" width="11" height="11.75" rx="0" fill="#8CB89A" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0949" x="403" y="761.75" width="11" height="11.75" rx="0" fill="#8CB89A" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0950" x="414" y="761.75" width="11" height="11.75" rx="0" fill="#8CB89A" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0951" x="425" y="761.75" width="11" height="11.75" rx="0" fill="#8CB89A" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0952" x="403" y="773.5" width="11" height="11.75" rx="0" fill="#8CB89A" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0953" x="414" y="773.5" width="11" height="11.75" rx="0" fill="#8CB89A" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0954" x="425" y="773.5" width="11" height="11.75" rx="0" fill="#8CB89A" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0955" x="403" y="785.25" width="11" height="11.75" rx="0" fill="#8CB89A" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0956" x="414" y="785.25" width="11" height="11.75" rx="0" fill="#8CB89A" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0957" x="425" y="785.25" width="11" height="11.75" rx="0" fill="#8CB89A" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0958" points="437,660 453,660" fill="none" stroke="black" stroke-width="2.2" stroke-linejoin="miter"/>
+<polygon id="obj0959" points="446,656.36 453,660 446,663.64" fill="black" stroke="black" stroke-width="0.8" stroke-linejoin="miter"/>
+<g id="obj0960" aria-label="Editable matrix">
+<rect id="obj0961" x="455" y="645" width="10.5" height="10.333" rx="0" fill="#E2EFD7" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0962" x="465.5" y="645" width="10.5" height="10.333" rx="0" fill="#E2EFD7" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0963" x="455" y="655.333" width="10.5" height="10.333" rx="0" fill="#E2EFD7" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0964" x="465.5" y="655.333" width="10.5" height="10.333" rx="0" fill="#E2EFD7" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0965" x="455" y="665.667" width="10.5" height="10.333" rx="0" fill="#E2EFD7" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0966" x="465.5" y="665.667" width="10.5" height="10.333" rx="0" fill="#E2EFD7" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0967" points="437,717 453,717" fill="none" stroke="black" stroke-width="2.2" stroke-linejoin="miter"/>
+<polygon id="obj0968" points="446,713.36 453,717 446,720.64" fill="black" stroke="black" stroke-width="0.8" stroke-linejoin="miter"/>
+<g id="obj0969" aria-label="Editable matrix">
+<rect id="obj0970" x="455" y="702" width="10.5" height="10.333" rx="0" fill="#FAE4D4" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0971" x="465.5" y="702" width="10.5" height="10.333" rx="0" fill="#FAE4D4" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0972" x="455" y="712.333" width="10.5" height="10.333" rx="0" fill="#FAE4D4" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0973" x="465.5" y="712.333" width="10.5" height="10.333" rx="0" fill="#FAE4D4" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0974" x="455" y="722.667" width="10.5" height="10.333" rx="0" fill="#FAE4D4" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0975" x="465.5" y="722.667" width="10.5" height="10.333" rx="0" fill="#FAE4D4" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0976" points="437,774 453,774" fill="none" stroke="black" stroke-width="2.2" stroke-linejoin="miter"/>
+<polygon id="obj0977" points="446,770.36 453,774 446,777.64" fill="black" stroke="black" stroke-width="0.8" stroke-linejoin="miter"/>
+<g id="obj0978" aria-label="Editable matrix">
+<rect id="obj0979" x="455" y="758" width="10.5" height="10.333" rx="0" fill="#F8DCE2" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0980" x="465.5" y="758" width="10.5" height="10.333" rx="0" fill="#F8DCE2" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0981" x="455" y="768.333" width="10.5" height="10.333" rx="0" fill="#F8DCE2" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0982" x="465.5" y="768.333" width="10.5" height="10.333" rx="0" fill="#F8DCE2" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0983" x="455" y="778.667" width="10.5" height="10.333" rx="0" fill="#F8DCE2" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0984" x="465.5" y="778.667" width="10.5" height="10.333" rx="0" fill="#F8DCE2" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0985" points="476,661 488,661 488,773 476,773" fill="none" stroke="black" stroke-width="2.2" stroke-linejoin="miter"/>
+<polyline id="obj0986" points="476,717 498,717" fill="none" stroke="black" stroke-width="2.4" stroke-linejoin="miter"/>
+<polygon id="obj0987" points="490,712.84 498,717 490,721.16" fill="black" stroke="black" stroke-width="0.8" stroke-linejoin="miter"/>
+<g id="obj0988" aria-label="Editable matrix">
+<rect id="obj0989" x="500" y="704" width="10.333" height="10.667" rx="0" fill="#F8CC00" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0990" x="510.333" y="704" width="10.333" height="10.667" rx="0" fill="#F8CC00" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0991" x="520.667" y="704" width="10.333" height="10.667" rx="0" fill="#F8CC00" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0992" x="500" y="714.667" width="10.333" height="10.667" rx="0" fill="#F8CC00" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0993" x="510.333" y="714.667" width="10.333" height="10.667" rx="0" fill="#F8CC00" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0994" x="520.667" y="714.667" width="10.333" height="10.667" rx="0" fill="#F8CC00" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0995" x="500" y="725.333" width="10.333" height="10.667" rx="0" fill="#F8CC00" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0996" x="510.333" y="725.333" width="10.333" height="10.667" rx="0" fill="#F8CC00" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+<rect id="obj0997" x="520.667" y="725.333" width="10.333" height="10.667" rx="0" fill="#F8CC00" stroke="black" stroke-width="1.3" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj0998" points="534,726 549,726" fill="none" stroke="black" stroke-width="2.3" stroke-linejoin="miter"/>
+<polygon id="obj0999" points="542,722.36 549,726 542,729.64" fill="black" stroke="black" stroke-width="0.8" stroke-linejoin="miter"/>
+<rect id="obj1000" x="552" y="679" width="20" height="91" rx="4" fill="#4D7ECF" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<text id="obj1001" x="569" y="761" font-family="Times New Roman, Liberation Serif, serif" font-size="19" font-weight="bold" font-style="normal" fill="white" text-anchor="start" transform="rotate(-90 569 761)">Softmax</text>
+</g>
+<g id="obj1002" aria-label="TITAN wordmark">
+<polygon id="obj1003" points="609,599 631.803,599 631.803,608 624.863,608 624.863,632 615.94,632 615.94,608 609,608" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<polygon id="obj1004" points="635.769,599 646.675,599 646.675,632 635.769,632" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<polygon id="obj1005" points="650.641,599 673.444,599 673.444,608 666.504,608 666.504,632 657.581,632 657.581,608 650.641,608" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<path id="obj1006" d="M 676.419 632 L 676.419 611 C 676.419 595 702.197 595 702.197 611 L 702.197 632 L 692.282 632 L 692.282 621 L 687.325 621 L 687.325 632 Z " fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<rect id="obj1007" x="687.325" y="609" width="4.957" height="7" rx="1.983" fill="white" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<path id="obj1008" d="M 707.154 632 L 707.154 610 C 707.154 595 725 595 725 610 L 725 632 L 718.06 632 L 718.06 611 C 718.06 606 714.094 606 714.094 611 L 714.094 632 Z " fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj1009" points="576,724 604,692" fill="none" stroke="black" stroke-width="3.4" stroke-linejoin="miter"/>
+<polygon id="obj1010" points="592.452,696.512 604,692 601.061,704.045" fill="black" stroke="black" stroke-width="0.8" stroke-linejoin="miter"/>
+<rect id="obj1011" x="614" y="679" width="23" height="20" rx="0" fill="#78B845" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<text id="obj1012" x="603" y="673" font-family="Times New Roman, Liberation Serif, serif" font-size="12" font-weight="bold" font-style="normal" fill="black" text-anchor="start">1x1 Conv</text>
+<text id="obj1013" x="614" y="798" font-family="Times New Roman, Liberation Serif, serif" font-size="13" font-weight="bold" font-style="normal" fill="black" text-anchor="start" transform="rotate(-90 614 798)">(B, 512, H′, W′)</text>
+<polyline id="obj1014" points="645,691 660,691" fill="none" stroke="black" stroke-width="2.9" stroke-linejoin="miter"/>
+<polyline id="obj1015" points="652,686.84 660,691 652,695.16" fill="none" stroke="black" stroke-width="2.9" stroke-linejoin="miter"/>
+<text id="obj1016" x="656" y="664" font-family="Times New Roman, Liberation Serif, serif" font-size="15" font-weight="bold" font-style="normal" fill="black" text-anchor="start">Upsampling</text>
+<g id="obj1017" aria-label="Editable matrix">
+<rect id="obj1018" x="669" y="671" width="14.667" height="14.333" rx="0" fill="#1FC997" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+<rect id="obj1019" x="683.667" y="671" width="14.667" height="14.333" rx="0" fill="#1FC997" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+<rect id="obj1020" x="698.333" y="671" width="14.667" height="14.333" rx="0" fill="#1FC997" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+<rect id="obj1021" x="669" y="685.333" width="14.667" height="14.333" rx="0" fill="#1FC997" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+<rect id="obj1022" x="683.667" y="685.333" width="14.667" height="14.333" rx="0" fill="#1FC997" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+<rect id="obj1023" x="698.333" y="685.333" width="14.667" height="14.333" rx="0" fill="#1FC997" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+<rect id="obj1024" x="669" y="699.667" width="14.667" height="14.333" rx="0" fill="#1FC997" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+<rect id="obj1025" x="683.667" y="699.667" width="14.667" height="14.333" rx="0" fill="#1FC997" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+<rect id="obj1026" x="698.333" y="699.667" width="14.667" height="14.333" rx="0" fill="#1FC997" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<text id="obj1027" x="657" y="798" font-family="Times New Roman, Liberation Serif, serif" font-size="13" font-weight="bold" font-style="normal" fill="black" text-anchor="start" transform="rotate(-90 657 798)">(B, 512, H′, W′)</text>
+<polyline id="obj1028" points="691,715 691,767 724,767" fill="none" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<polyline id="obj1029" points="709,767 724,767" fill="none" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<polyline id="obj1030" points="714,761.8 724,767 714,772.2" fill="none" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<rect id="obj1031" x="727" y="713" width="29" height="107" rx="7" fill="white" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<text id="obj1032" x="750" y="813" font-family="Times New Roman, Liberation Serif, serif" font-size="26" font-weight="bold" font-style="normal" fill="black" text-anchor="start" transform="rotate(-90 750 813)">Outputs</text>
+<text id="obj1033" x="677" y="836" font-family="Times New Roman, Liberation Serif, serif" font-size="13" font-weight="bold" font-style="normal" fill="black" text-anchor="start">(B, 512, H, W)</text>
+<text id="obj1034" x="26" y="881" font-family="Times New Roman, Liberation Serif, serif" font-size="38" font-weight="bold" font-style="normal" fill="black" text-anchor="start">(b) ResNet-18 Based Model Training</text>
+</g>
+<g id="obj1035" aria-label="(c) Applications in VQEs">
+<polygon id="obj1036" points="796,315 1910,315 1910,898 796,898" fill="none" stroke="black" stroke-width="5" stroke-dasharray="34 12 6 12" stroke-linejoin="miter"/>
+<g id="obj1037" aria-label="Large VQE — before freezing">
+<rect id="obj1038" x="814" y="345" width="399" height="192" rx="0" fill="#FDD7FC" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<rect id="obj1039" x="804" y="331" width="399" height="192" rx="0" fill="#FDD7FC" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<g id="obj1040" aria-label="Qubit input |0⟩">
+<text id="obj1041" x="816" y="357" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj1042" points="829,345 832,351 829,357" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj1043" points="846,352 1191,352" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1044" points="853,352 860.5,338 875.5,338 883,352 875.5,366 860.5,366" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1045" points="892,352 907,338 922,352 907,366" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj1046" cx="944" cy="352" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1047" points="965,352 972.5,338 987.5,338 995,352 987.5,366 972.5,366" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1048" points="1025,352 1040,338 1055,352 1040,366" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj1049" cx="1074" cy="352" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj1050" aria-label="Measurement">
+<rect id="obj1051" x="1163" y="340" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj1052" d="M 1166 357 C 1169 345 1182 343 1187 357" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1053" points="1174.34,359 1182.71,343" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1054" points="1177.71,345 1182.71,343 1182.71,349" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj1055" aria-label="Qubit input |0⟩">
+<text id="obj1056" x="816" y="391" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj1057" points="829,379 832,385 829,391" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj1058" points="846,386 1191,386" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1059" points="853,386 860.5,372 875.5,372 883,386 875.5,400 860.5,400" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1060" points="892,386 907,372 922,386 907,400" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj1061" cx="944" cy="386" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1062" points="965,386 972.5,372 987.5,372 995,386 987.5,400 972.5,400" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1063" points="1025,386 1040,372 1055,386 1040,400" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj1064" cx="1074" cy="386" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj1065" aria-label="Measurement">
+<rect id="obj1066" x="1163" y="374" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj1067" d="M 1166 391 C 1169 379 1182 377 1187 391" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1068" points="1174.34,393 1182.71,377" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1069" points="1177.71,379 1182.71,377 1182.71,383" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj1070" aria-label="Qubit input |0⟩">
+<text id="obj1071" x="816" y="424" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj1072" points="829,412 832,418 829,424" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj1073" points="846,419 1191,419" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1074" points="853,419 860.5,405 875.5,405 883,419 875.5,433 860.5,433" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1075" points="892,419 907,405 922,419 907,433" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj1076" cx="944" cy="419" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1077" points="965,419 972.5,405 987.5,405 995,419 987.5,433 972.5,433" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1078" points="1025,419 1040,405 1055,419 1040,433" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj1079" cx="1074" cy="419" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj1080" aria-label="Measurement">
+<rect id="obj1081" x="1163" y="407" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj1082" d="M 1166 424 C 1169 412 1182 410 1187 424" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1083" points="1174.34,426 1182.71,410" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1084" points="1177.71,412 1182.71,410 1182.71,416" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj1085" aria-label="Qubit input |0⟩">
+<text id="obj1086" x="816" y="474" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj1087" points="829,462 832,468 829,474" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj1088" points="846,469 1191,469" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1089" points="853,469 860.5,455 875.5,455 883,469 875.5,483 860.5,483" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1090" points="892,469 907,455 922,469 907,483" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj1091" cx="944" cy="469" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1092" points="965,469 972.5,455 987.5,455 995,469 987.5,483 972.5,483" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1093" points="1025,469 1040,455 1055,469 1040,483" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj1094" cx="1074" cy="469" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj1095" aria-label="Measurement">
+<rect id="obj1096" x="1163" y="457" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj1097" d="M 1166 474 C 1169 462 1182 460 1187 474" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1098" points="1174.34,476 1182.71,460" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1099" points="1177.71,462 1182.71,460 1182.71,466" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj1100" aria-label="Qubit input |0⟩">
+<text id="obj1101" x="816" y="507" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj1102" points="829,495 832,501 829,507" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj1103" points="846,502 1191,502" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1104" points="853,502 860.5,488 875.5,488 883,502 875.5,516 860.5,516" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1105" points="892,502 907,488 922,502 907,516" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj1106" cx="944" cy="502" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1107" points="965,502 972.5,488 987.5,488 995,502 987.5,516 972.5,516" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1108" points="1025,502 1040,488 1055,502 1040,516" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj1109" cx="1074" cy="502" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj1110" aria-label="Measurement">
+<rect id="obj1111" x="1163" y="490" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj1112" d="M 1166 507 C 1169 495 1182 493 1187 507" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1113" points="1174.34,509 1182.71,493" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1114" points="1177.71,495 1182.71,493 1182.71,499" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<ellipse id="obj1115" cx="824" cy="437" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj1116" cx="824" cy="443" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj1117" cx="824" cy="449" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj1118" cx="1009" cy="437" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj1119" cx="1009" cy="443" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj1120" cx="1009" cy="449" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj1121" cx="1177" cy="437" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj1122" cx="1177" cy="443" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj1123" cx="1177" cy="449" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<rect id="obj1124" x="1099" y="345" width="13" height="44" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+<rect id="obj1125" x="1120" y="380" width="13" height="47" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+<rect id="obj1126" x="1138" y="464" width="13" height="46" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+</g>
+<g id="obj1127" aria-label="Large VQE — after TITAN">
+<rect id="obj1128" x="814" y="622" width="399" height="192" rx="0" fill="#FDD7FC" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<rect id="obj1129" x="804" y="608" width="399" height="192" rx="0" fill="#FDD7FC" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<g id="obj1130" aria-label="Qubit input |0⟩">
+<text id="obj1131" x="816" y="634" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj1132" points="829,622 832,628 829,634" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj1133" points="846,629 1191,629" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1134" points="853,629 860.5,615 875.5,615 883,629 875.5,643 860.5,643" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1135" points="892,629 907,615 922,629 907,643" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj1136" cx="944" cy="629" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1137" points="965,629 972.5,615 987.5,615 995,629 987.5,643 972.5,643" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1138" points="1025,629 1040,615 1055,629 1040,643" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj1139" cx="1074" cy="629" rx="14" ry="14" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj1140" aria-label="Measurement">
+<rect id="obj1141" x="1163" y="617" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj1142" d="M 1166 634 C 1169 622 1182 620 1187 634" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1143" points="1174.34,636 1182.71,620" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1144" points="1177.71,622 1182.71,620 1182.71,626" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj1145" aria-label="Qubit input |0⟩">
+<text id="obj1146" x="816" y="668" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj1147" points="829,656 832,662 829,668" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj1148" points="846,663 1191,663" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1149" points="853,663 860.5,649 875.5,649 883,663 875.5,677 860.5,677" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1150" points="892,663 907,649 922,663 907,677" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj1151" cx="944" cy="663" rx="14" ry="14" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1152" points="965,663 972.5,649 987.5,649 995,663 987.5,677 972.5,677" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1153" points="1025,663 1040,649 1055,663 1040,677" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj1154" cx="1074" cy="663" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj1155" aria-label="Measurement">
+<rect id="obj1156" x="1163" y="651" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj1157" d="M 1166 668 C 1169 656 1182 654 1187 668" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1158" points="1174.34,670 1182.71,654" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1159" points="1177.71,656 1182.71,654 1182.71,660" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj1160" aria-label="Qubit input |0⟩">
+<text id="obj1161" x="816" y="701" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj1162" points="829,689 832,695 829,701" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj1163" points="846,696 1191,696" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1164" points="853,696 860.5,682 875.5,682 883,696 875.5,710 860.5,710" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1165" points="892,696 907,682 922,696 907,710" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj1166" cx="944" cy="696" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1167" points="965,696 972.5,682 987.5,682 995,696 987.5,710 972.5,710" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1168" points="1025,696 1040,682 1055,696 1040,710" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj1169" cx="1074" cy="696" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj1170" aria-label="Measurement">
+<rect id="obj1171" x="1163" y="684" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj1172" d="M 1166 701 C 1169 689 1182 687 1187 701" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1173" points="1174.34,703 1182.71,687" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1174" points="1177.71,689 1182.71,687 1182.71,693" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj1175" aria-label="Qubit input |0⟩">
+<text id="obj1176" x="816" y="751" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj1177" points="829,739 832,745 829,751" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj1178" points="846,746 1191,746" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1179" points="853,746 860.5,732 875.5,732 883,746 875.5,760 860.5,760" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1180" points="892,746 907,732 922,746 907,760" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj1181" cx="944" cy="746" rx="14" ry="14" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1182" points="965,746 972.5,732 987.5,732 995,746 987.5,760 972.5,760" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1183" points="1025,746 1040,732 1055,746 1040,760" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj1184" cx="1074" cy="746" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj1185" aria-label="Measurement">
+<rect id="obj1186" x="1163" y="734" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj1187" d="M 1166 751 C 1169 739 1182 737 1187 751" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1188" points="1174.34,753 1182.71,737" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1189" points="1177.71,739 1182.71,737 1182.71,743" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj1190" aria-label="Qubit input |0⟩">
+<text id="obj1191" x="816" y="784" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj1192" points="829,772 832,778 829,784" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj1193" points="846,779 1191,779" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1194" points="853,779 860.5,765 875.5,765 883,779 875.5,793 860.5,793" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1195" points="892,779 907,765 922,779 907,793" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj1196" cx="944" cy="779" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1197" points="965,779 972.5,765 987.5,765 995,779 987.5,793 972.5,793" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1198" points="1025,779 1040,765 1055,779 1040,793" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj1199" cx="1074" cy="779" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj1200" aria-label="Measurement">
+<rect id="obj1201" x="1163" y="767" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj1202" d="M 1166 784 C 1169 772 1182 770 1187 784" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1203" points="1174.34,786 1182.71,770" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1204" points="1177.71,772 1182.71,770 1182.71,776" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<ellipse id="obj1205" cx="824" cy="714" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj1206" cx="824" cy="720" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj1207" cx="824" cy="726" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj1208" cx="1009" cy="714" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj1209" cx="1009" cy="720" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj1210" cx="1009" cy="726" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj1211" cx="1177" cy="714" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj1212" cx="1177" cy="720" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<ellipse id="obj1213" cx="1177" cy="726" rx="0.85" ry="0.85" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<rect id="obj1214" x="1099" y="622" width="13" height="44" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+<rect id="obj1215" x="1120" y="657" width="13" height="47" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+<rect id="obj1216" x="1138" y="741" width="13" height="46" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+</g>
+<text id="obj1217" x="814" y="580" font-family="Times New Roman, Liberation Serif, serif" font-size="29" font-weight="bold" font-style="normal" fill="black" text-anchor="start">Large Size</text>
+<polyline id="obj1218" points="970,540 970,599" fill="none" stroke="black" stroke-width="4.8" stroke-linejoin="miter"/>
+<polygon id="obj1219" points="980.4,579 970,599 959.6,579" fill="black" stroke="black" stroke-width="0.8" stroke-linejoin="miter"/>
+<g id="obj1220" aria-label="TITAN wordmark">
+<polygon id="obj1221" points="997,556 1020,556 1020,565 1013,565 1013,589 1004,589 1004,565 997,565" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<polygon id="obj1222" points="1024,556 1035,556 1035,589 1024,589" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<polygon id="obj1223" points="1039,556 1062,556 1062,565 1055,565 1055,589 1046,589 1046,565 1039,565" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<path id="obj1224" d="M 1065 589 L 1065 568 C 1065 552 1091 552 1091 568 L 1091 589 L 1081 589 L 1081 578 L 1076 578 L 1076 589 Z " fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<rect id="obj1225" x="1076" y="566" width="5" height="7" rx="2" fill="white" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<path id="obj1226" d="M 1096 589 L 1096 567 C 1096 552 1114 552 1114 567 L 1114 589 L 1107 589 L 1107 568 C 1107 563 1103 563 1103 568 L 1103 589 Z " fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+</g>
+<g id="obj1227" aria-label="Middle VQE — before freezing">
+<rect id="obj1228" x="1235" y="345" width="358" height="145" rx="0" fill="#C9E5B4" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<rect id="obj1229" x="1225" y="331" width="358" height="145" rx="0" fill="#C9E5B4" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<g id="obj1230" aria-label="Qubit input |0⟩">
+<text id="obj1231" x="1237" y="356" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj1232" points="1250,344 1253,350 1250,356" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj1233" points="1267,351 1571,351" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1234" points="1274,351 1281.5,337 1296.5,337 1304,351 1296.5,365 1281.5,365" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1235" points="1313,351 1328,337 1343,351 1328,365" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj1236" cx="1365" cy="351" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1237" points="1386,351 1393.5,337 1408.5,337 1416,351 1408.5,365 1393.5,365" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1238" points="1446,351 1461,337 1476,351 1461,365" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj1239" aria-label="Measurement">
+<rect id="obj1240" x="1543" y="339" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj1241" d="M 1546 356 C 1549 344 1562 342 1567 356" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1242" points="1554.34,358 1562.71,342" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1243" points="1557.71,344 1562.71,342 1562.71,348" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj1244" aria-label="Qubit input |0⟩">
+<text id="obj1245" x="1237" y="390" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj1246" points="1250,378 1253,384 1250,390" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj1247" points="1267,385 1571,385" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1248" points="1274,385 1281.5,371 1296.5,371 1304,385 1296.5,399 1281.5,399" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1249" points="1313,385 1328,371 1343,385 1328,399" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj1250" cx="1365" cy="385" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1251" points="1386,385 1393.5,371 1408.5,371 1416,385 1408.5,399 1393.5,399" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1252" points="1446,385 1461,371 1476,385 1461,399" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj1253" aria-label="Measurement">
+<rect id="obj1254" x="1543" y="373" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj1255" d="M 1546 390 C 1549 378 1562 376 1567 390" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1256" points="1554.34,392 1562.71,376" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1257" points="1557.71,378 1562.71,376 1562.71,382" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj1258" aria-label="Qubit input |0⟩">
+<text id="obj1259" x="1237" y="423" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj1260" points="1250,411 1253,417 1250,423" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj1261" points="1267,418 1571,418" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1262" points="1274,418 1281.5,404 1296.5,404 1304,418 1296.5,432 1281.5,432" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1263" points="1313,418 1328,404 1343,418 1328,432" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj1264" cx="1365" cy="418" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1265" points="1386,418 1393.5,404 1408.5,404 1416,418 1408.5,432 1393.5,432" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1266" points="1446,418 1461,404 1476,418 1461,432" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj1267" aria-label="Measurement">
+<rect id="obj1268" x="1543" y="406" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj1269" d="M 1546 423 C 1549 411 1562 409 1567 423" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1270" points="1554.34,425 1562.71,409" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1271" points="1557.71,411 1562.71,409 1562.71,415" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj1272" aria-label="Qubit input |0⟩">
+<text id="obj1273" x="1237" y="456" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj1274" points="1250,444 1253,450 1250,456" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj1275" points="1267,451 1571,451" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1276" points="1274,451 1281.5,437 1296.5,437 1304,451 1296.5,465 1281.5,465" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1277" points="1313,451 1328,437 1343,451 1328,465" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj1278" cx="1365" cy="451" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1279" points="1386,451 1393.5,437 1408.5,437 1416,451 1408.5,465 1393.5,465" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1280" points="1446,451 1461,437 1476,451 1461,465" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj1281" aria-label="Measurement">
+<rect id="obj1282" x="1543" y="439" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj1283" d="M 1546 456 C 1549 444 1562 442 1567 456" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1284" points="1554.34,458 1562.71,442" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1285" points="1557.71,444 1562.71,442 1562.71,448" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<rect id="obj1286" x="1485" y="343" width="13" height="47" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+<rect id="obj1287" x="1506" y="379" width="13" height="47" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+<rect id="obj1288" x="1524" y="412" width="13" height="48" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+</g>
+<g id="obj1289" aria-label="Middle VQE — after TITAN">
+<rect id="obj1290" x="1244" y="572" width="358" height="145" rx="0" fill="#C9E5B4" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<rect id="obj1291" x="1234" y="558" width="358" height="145" rx="0" fill="#C9E5B4" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<g id="obj1292" aria-label="Qubit input |0⟩">
+<text id="obj1293" x="1246" y="583" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj1294" points="1259,571 1262,577 1259,583" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj1295" points="1276,578 1580,578" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1296" points="1283,578 1290.5,564 1305.5,564 1313,578 1305.5,592 1290.5,592" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1297" points="1322,578 1337,564 1352,578 1337,592" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj1298" cx="1374" cy="578" rx="14" ry="14" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1299" points="1395,578 1402.5,564 1417.5,564 1425,578 1417.5,592 1402.5,592" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1300" points="1455,578 1470,564 1485,578 1470,592" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj1301" aria-label="Measurement">
+<rect id="obj1302" x="1552" y="566" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj1303" d="M 1555 583 C 1558 571 1571 569 1576 583" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1304" points="1563.34,585 1571.71,569" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1305" points="1566.71,571 1571.71,569 1571.71,575" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj1306" aria-label="Qubit input |0⟩">
+<text id="obj1307" x="1246" y="617" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj1308" points="1259,605 1262,611 1259,617" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj1309" points="1276,612 1580,612" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1310" points="1283,612 1290.5,598 1305.5,598 1313,612 1305.5,626 1290.5,626" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1311" points="1322,612 1337,598 1352,612 1337,626" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj1312" cx="1374" cy="612" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1313" points="1395,612 1402.5,598 1417.5,598 1425,612 1417.5,626 1402.5,626" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1314" points="1455,612 1470,598 1485,612 1470,626" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj1315" aria-label="Measurement">
+<rect id="obj1316" x="1552" y="600" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj1317" d="M 1555 617 C 1558 605 1571 603 1576 617" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1318" points="1563.34,619 1571.71,603" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1319" points="1566.71,605 1571.71,603 1571.71,609" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj1320" aria-label="Qubit input |0⟩">
+<text id="obj1321" x="1246" y="650" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj1322" points="1259,638 1262,644 1259,650" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj1323" points="1276,645 1580,645" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1324" points="1283,645 1290.5,631 1305.5,631 1313,645 1305.5,659 1290.5,659" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1325" points="1322,645 1337,631 1352,645 1337,659" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj1326" cx="1374" cy="645" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1327" points="1395,645 1402.5,631 1417.5,631 1425,645 1417.5,659 1402.5,659" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1328" points="1455,645 1470,631 1485,645 1470,659" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj1329" aria-label="Measurement">
+<rect id="obj1330" x="1552" y="633" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj1331" d="M 1555 650 C 1558 638 1571 636 1576 650" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1332" points="1563.34,652 1571.71,636" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1333" points="1566.71,638 1571.71,636 1571.71,642" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj1334" aria-label="Qubit input |0⟩">
+<text id="obj1335" x="1246" y="683" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj1336" points="1259,671 1262,677 1259,683" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj1337" points="1276,678 1580,678" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1338" points="1283,678 1290.5,664 1305.5,664 1313,678 1305.5,692 1290.5,692" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1339" points="1322,678 1337,664 1352,678 1337,692" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj1340" cx="1374" cy="678" rx="14" ry="14" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1341" points="1395,678 1402.5,664 1417.5,664 1425,678 1417.5,692 1402.5,692" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1342" points="1455,678 1470,664 1485,678 1470,692" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj1343" aria-label="Measurement">
+<rect id="obj1344" x="1552" y="666" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj1345" d="M 1555 683 C 1558 671 1571 669 1576 683" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1346" points="1563.34,685 1571.71,669" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1347" points="1566.71,671 1571.71,669 1571.71,675" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<rect id="obj1348" x="1494" y="570" width="13" height="47" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+<rect id="obj1349" x="1515" y="606" width="13" height="47" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+<rect id="obj1350" x="1533" y="639" width="13" height="48" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+</g>
+<text id="obj1351" x="1228" y="526" font-family="Times New Roman, Liberation Serif, serif" font-size="29" font-weight="bold" font-style="normal" fill="black" text-anchor="start">Middle Size</text>
+<polyline id="obj1352" points="1381,485 1381,552" fill="none" stroke="black" stroke-width="4.8" stroke-linejoin="miter"/>
+<polygon id="obj1353" points="1391.4,532 1381,552 1370.6,532" fill="black" stroke="black" stroke-width="0.8" stroke-linejoin="miter"/>
+<g id="obj1354" aria-label="TITAN wordmark">
+<polygon id="obj1355" points="1403,505 1426,505 1426,514 1419,514 1419,538 1410,538 1410,514 1403,514" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<polygon id="obj1356" points="1430,505 1441,505 1441,538 1430,538" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<polygon id="obj1357" points="1445,505 1468,505 1468,514 1461,514 1461,538 1452,538 1452,514 1445,514" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<path id="obj1358" d="M 1471 538 L 1471 517 C 1471 501 1497 501 1497 517 L 1497 538 L 1487 538 L 1487 527 L 1482 527 L 1482 538 Z " fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<rect id="obj1359" x="1482" y="515" width="5" height="7" rx="2" fill="white" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<path id="obj1360" d="M 1502 538 L 1502 516 C 1502 501 1520 501 1520 516 L 1520 538 L 1513 538 L 1513 517 C 1513 512 1509 512 1509 517 L 1509 538 Z " fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+</g>
+<g id="obj1361" aria-label="Small VQE — before freezing">
+<rect id="obj1362" x="1608" y="349" width="269" height="107" rx="0" fill="#FFF1CA" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<rect id="obj1363" x="1598" y="335" width="269" height="107" rx="0" fill="#FFF1CA" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<g id="obj1364" aria-label="Qubit input |0⟩">
+<text id="obj1365" x="1610" y="361" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj1366" points="1623,349 1626,355 1623,361" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj1367" points="1640,356 1855,356" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1368" points="1647,356 1654.5,342 1669.5,342 1677,356 1669.5,370 1654.5,370" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1369" points="1686,356 1701,342 1716,356 1701,370" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj1370" cx="1738" cy="356" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj1371" aria-label="Measurement">
+<rect id="obj1372" x="1827" y="344" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj1373" d="M 1830 361 C 1833 349 1846 347 1851 361" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1374" points="1838.34,363 1846.71,347" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1375" points="1841.71,349 1846.71,347 1846.71,353" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj1376" aria-label="Qubit input |0⟩">
+<text id="obj1377" x="1610" y="394" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj1378" points="1623,382 1626,388 1623,394" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj1379" points="1640,389 1855,389" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1380" points="1647,389 1654.5,375 1669.5,375 1677,389 1669.5,403 1654.5,403" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1381" points="1686,389 1701,375 1716,389 1701,403" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj1382" cx="1738" cy="389" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj1383" aria-label="Measurement">
+<rect id="obj1384" x="1827" y="377" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj1385" d="M 1830 394 C 1833 382 1846 380 1851 394" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1386" points="1838.34,396 1846.71,380" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1387" points="1841.71,382 1846.71,380 1846.71,386" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj1388" aria-label="Qubit input |0⟩">
+<text id="obj1389" x="1610" y="428" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj1390" points="1623,416 1626,422 1623,428" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj1391" points="1640,423 1855,423" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1392" points="1647,423 1654.5,409 1669.5,409 1677,423 1669.5,437 1654.5,437" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1393" points="1686,423 1701,409 1716,423 1701,437" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj1394" cx="1738" cy="423" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj1395" aria-label="Measurement">
+<rect id="obj1396" x="1827" y="411" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj1397" d="M 1830 428 C 1833 416 1846 414 1851 428" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1398" points="1838.34,430 1846.71,414" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1399" points="1841.71,416 1846.71,414 1846.71,420" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<rect id="obj1400" x="1762" y="349" width="13" height="47" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+<rect id="obj1401" x="1783" y="384" width="13" height="47" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+</g>
+<g id="obj1402" aria-label="Small VQE — after TITAN">
+<rect id="obj1403" x="1632" y="559" width="269" height="107" rx="0" fill="#FFF1CA" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<rect id="obj1404" x="1622" y="545" width="269" height="107" rx="0" fill="#FFF1CA" stroke="black" stroke-width="2.7" stroke-linejoin="miter"/>
+<g id="obj1405" aria-label="Qubit input |0⟩">
+<text id="obj1406" x="1634" y="571" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj1407" points="1647,559 1650,565 1647,571" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj1408" points="1664,566 1879,566" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1409" points="1671,566 1678.5,552 1693.5,552 1701,566 1693.5,580 1678.5,580" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1410" points="1710,566 1725,552 1740,566 1725,580" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj1411" cx="1762" cy="566" rx="14" ry="14" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj1412" aria-label="Measurement">
+<rect id="obj1413" x="1851" y="554" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj1414" d="M 1854 571 C 1857 559 1870 557 1875 571" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1415" points="1862.34,573 1870.71,557" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1416" points="1865.71,559 1870.71,557 1870.71,563" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj1417" aria-label="Qubit input |0⟩">
+<text id="obj1418" x="1634" y="604" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj1419" points="1647,592 1650,598 1647,604" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj1420" points="1664,599 1879,599" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1421" points="1671,599 1678.5,585 1693.5,585 1701,599 1693.5,613 1678.5,613" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1422" points="1710,599 1725,585 1740,599 1725,613" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj1423" cx="1762" cy="599" rx="14" ry="14" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj1424" aria-label="Measurement">
+<rect id="obj1425" x="1851" y="587" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj1426" d="M 1854 604 C 1857 592 1870 590 1875 604" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1427" points="1862.34,606 1870.71,590" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1428" points="1865.71,592 1870.71,590 1870.71,596" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<g id="obj1429" aria-label="Qubit input |0⟩">
+<text id="obj1430" x="1634" y="638" font-family="Times New Roman, Liberation Serif, serif" font-size="16" font-weight="bold" font-style="normal" fill="black" text-anchor="start">|0</text>
+<polyline id="obj1431" points="1647,626 1650,632 1647,638" fill="none" stroke="black" stroke-width="1.25" stroke-linejoin="miter"/>
+</g>
+<polyline id="obj1432" points="1664,633 1879,633" fill="none" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1433" points="1671,633 1678.5,619 1693.5,619 1701,633 1693.5,647 1678.5,647" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1434" points="1710,633 1725,619 1740,633 1725,647" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj1435" cx="1762" cy="633" rx="14" ry="14" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<g id="obj1436" aria-label="Measurement">
+<rect id="obj1437" x="1851" y="621" width="27" height="22" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<path id="obj1438" d="M 1854 638 C 1857 626 1870 624 1875 638" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1439" points="1862.34,640 1870.71,624" fill="none" stroke="black" stroke-width="1.8" stroke-linejoin="miter"/>
+<polyline id="obj1440" points="1865.71,626 1870.71,624 1870.71,630" fill="none" stroke="black" stroke-width="1.6" stroke-linejoin="miter"/>
+</g>
+<rect id="obj1441" x="1786" y="559" width="13" height="47" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+<rect id="obj1442" x="1807" y="594" width="13" height="47" rx="0" fill="white" stroke="black" stroke-width="1.9" stroke-linejoin="miter"/>
+</g>
+<text id="obj1443" x="1592" y="510" font-family="Times New Roman, Liberation Serif, serif" font-size="29" font-weight="bold" font-style="normal" fill="black" text-anchor="start">Small Size</text>
+<polyline id="obj1444" points="1727,466 1727,534" fill="none" stroke="black" stroke-width="4.8" stroke-linejoin="miter"/>
+<polygon id="obj1445" points="1737.4,514 1727,534 1716.6,514" fill="black" stroke="black" stroke-width="0.8" stroke-linejoin="miter"/>
+<g id="obj1446" aria-label="TITAN wordmark">
+<polygon id="obj1447" points="1753,477 1776,477 1776,486 1769,486 1769,510 1760,510 1760,486 1753,486" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<polygon id="obj1448" points="1780,477 1791,477 1791,510 1780,510" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<polygon id="obj1449" points="1795,477 1818,477 1818,486 1811,486 1811,510 1802,510 1802,486 1795,486" fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<path id="obj1450" d="M 1821 510 L 1821 489 C 1821 473 1847 473 1847 489 L 1847 510 L 1837 510 L 1837 499 L 1832 499 L 1832 510 Z " fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<rect id="obj1451" x="1832" y="487" width="5" height="7" rx="2" fill="white" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+<path id="obj1452" d="M 1852 510 L 1852 488 C 1852 473 1870 473 1870 488 L 1870 510 L 1863 510 L 1863 489 C 1863 484 1859 484 1859 489 L 1859 510 Z " fill="black" stroke="none" stroke-width="0" stroke-linejoin="miter"/>
+</g>
+<text id="obj1453" x="805" y="876" font-family="Times New Roman, Liberation Serif, serif" font-size="38" font-weight="bold" font-style="normal" fill="black" text-anchor="start">(c) Applications in VQEs</text>
+<g id="obj1454" aria-label="Legend">
+<rect id="obj1455" x="1302" y="752" width="598" height="130" rx="0" fill="white" stroke="black" stroke-width="3.8" stroke-linejoin="miter"/>
+<polygon id="obj1456" points="1315,780 1323.5,766 1340.5,766 1349,780 1340.5,794 1323.5,794" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<polygon id="obj1457" points="1315,816 1332,802 1349,816 1332,830" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<ellipse id="obj1458" cx="1332" cy="853" rx="15" ry="15" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<text id="obj1459" x="1359" y="788" font-family="Times New Roman, Liberation Serif, serif" font-size="21" font-weight="bold" font-style="normal" fill="black" text-anchor="start">Rotation X</text>
+<text id="obj1460" x="1359" y="825" font-family="Times New Roman, Liberation Serif, serif" font-size="21" font-weight="bold" font-style="normal" fill="black" text-anchor="start">Rotation Y</text>
+<text id="obj1461" x="1359" y="863" font-family="Times New Roman, Liberation Serif, serif" font-size="21" font-weight="bold" font-style="normal" fill="black" text-anchor="start">Rotation Z</text>
+<rect id="obj1462" x="1472" y="762" width="33" height="31" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<rect id="obj1463" x="1472" y="804" width="33" height="29" rx="0" fill="#C9E5B4" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<rect id="obj1464" x="1472" y="844" width="33" height="29" rx="0" fill="#FFF1CA" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<text id="obj1465" x="1516" y="789" font-family="Times New Roman, Liberation Serif, serif" font-size="22" font-weight="bold" font-style="normal" fill="black" text-anchor="start">Active Params</text>
+<text id="obj1466" x="1516" y="828" font-family="Times New Roman, Liberation Serif, serif" font-size="21" font-weight="bold" font-style="normal" fill="#75A547" text-anchor="start">Mid-size Ansatz</text>
+<text id="obj1467" x="1516" y="865" font-family="Times New Roman, Liberation Serif, serif" font-size="21" font-weight="bold" font-style="normal" fill="#F58432" text-anchor="start">Small-size Ansatz</text>
+<rect id="obj1468" x="1679" y="762" width="33" height="32" rx="0" fill="#864DDC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<rect id="obj1469" x="1690" y="800" width="12" height="37" rx="0" fill="white" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<rect id="obj1470" x="1684" y="846" width="33" height="27" rx="0" fill="#FDD7FC" stroke="black" stroke-width="2" stroke-linejoin="miter"/>
+<text id="obj1471" x="1726" y="789" font-family="Times New Roman, Liberation Serif, serif" font-size="22" font-weight="bold" font-style="normal" fill="black" text-anchor="start">Frozen Params</text>
+<text id="obj1472" x="1737" y="828" font-family="Times New Roman, Liberation Serif, serif" font-size="23" font-weight="bold" font-style="normal" fill="black" text-anchor="start">C-NOT</text>
+<text id="obj1473" x="1725" y="865" font-family="Times New Roman, Liberation Serif, serif" font-size="21" font-weight="bold" font-style="normal" fill="#F580F0" text-anchor="start">Large-size Ansatz</text>
+</g>
+</g>
+</svg>

@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1908" height="1099" viewBox="0 0 1908 1099">
+<title>Logical Tree Generation and Instantiation via LLM</title>
+<desc>Editable reconstruction of a logical tree generation and multi-step LLM instantiation workflow.</desc>
+<rect id="upper_left_panel" x="0" y="16" width="1046" height="690" rx="0" fill="#F6FCFC" stroke="#73DDD3" stroke-width="4"/>
+<rect id="bottom_left_panel" x="0" y="716" width="1047" height="383" rx="0" fill="#F3F9EF" stroke="#269286" stroke-width="4"/>
+<rect id="right_panel" x="1061" y="16" width="847" height="1083" rx="0" fill="#FCF2E9" stroke="#C55A11" stroke-width="4"/>
+<text id="left_title" x="525.0" y="50.96" text-anchor="middle" font-family="DejaVu Sans" font-size="36" font-weight="700" font-style="italic" fill="#000000">
+<tspan x="525.0" dy="0">Logical Tree Generation</tspan>
+</text>
+<text id="right_title" x="1472.5" y="50.96" text-anchor="middle" font-family="DejaVu Sans" font-size="36" font-weight="700" font-style="italic" fill="#000000">
+<tspan x="1472.5" dy="0">Instantiation via LLM</tspan>
+</text>
+<text id="bottom_title" x="520.0" y="760.96" text-anchor="middle" font-family="DejaVu Sans" font-size="36" font-weight="700" font-style="italic" fill="#000000">
+<tspan x="520.0" dy="0">Synthetic Example Post-processing</tspan>
+</text>
+<rect id="logical_tree_inner" x="30" y="67" width="980" height="621" rx="16" fill="#F1F7F7" stroke="#8D9693" stroke-width="3"/>
+<rect id="logical_rules_outer" x="49" y="119" width="291" height="334" rx="0" fill="#F6FCFC" stroke="#269286" stroke-width="3"/>
+<polyline id="logical_rules_divider" points="49,185 340,185" fill="none" stroke="#269286" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text id="logical_rules_title" x="195.0" y="168.06" text-anchor="middle" font-family="DejaVu Sans" font-size="28" font-weight="700" font-style="normal" fill="#000000">
+<tspan x="195.0" dy="0">Logical Rules</tspan>
+</text>
+<rect id="syllogism_card" x="71" y="201" width="153" height="130" rx="0" fill="#FFFFFF" stroke="#73DDD3" stroke-width="4"/>
+<polyline id="syllogism_card_divider" points="71,240 224,240" fill="none" stroke="#73DDD3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text id="syllogism_card_title" x="147.5" y="228.92" text-anchor="middle" font-family="DejaVu Sans" font-size="22" font-weight="700" font-style="normal" fill="#000000">
+<tspan x="147.5" dy="0">Syllogism</tspan>
+</text>
+<text id="syllogism_ellipsis" x="83" y="296.36" text-anchor="start" font-family="DejaVu Sans" font-size="26" font-weight="700" font-style="normal" fill="#000000">
+<tspan x="83" dy="0">…</tspan>
+</text>
+<rect id="instantiation_card" x="119" y="257" width="146" height="126" rx="0" fill="#FFFFFF" stroke="#73DDD3" stroke-width="4"/>
+<polyline id="instantiation_card_divider" points="119,297 265,297" fill="none" stroke="#73DDD3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text id="instantiation_card_title" x="192.5" y="283.2" text-anchor="middle" font-family="DejaVu Sans" font-size="20" font-weight="700" font-style="normal" fill="#000000">
+<tspan x="192.5" dy="0">Instantiation</tspan>
+</text>
+<text id="instantiation_ellipsis" x="126" y="347.5" text-anchor="start" font-family="DejaVu Sans" font-size="25" font-weight="700" font-style="normal" fill="#000000">
+<tspan x="126" dy="0">…</tspan>
+</text>
+<rect id="modus_card" x="150" y="313" width="175" height="131" rx="0" fill="#FFFFFF" stroke="#73DDD3" stroke-width="4"/>
+<polyline id="modus_card_divider" points="150,352 325,352" fill="none" stroke="#73DDD3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text id="modus_card_title" x="238.0" y="339.06" text-anchor="middle" font-family="DejaVu Sans" font-size="21" font-weight="700" font-style="normal" fill="#000000">
+<tspan x="238.0" dy="0">Modus Ponens</tspan>
+</text>
+<text id="modus_numerator" x="238.0" y="383.2" text-anchor="middle" font-family="DejaVu Serif" font-size="20" font-weight="400" font-style="italic" fill="#000000">
+<tspan x="238.0" dy="0">F    F → G</tspan>
+</text>
+<polyline id="modus_fraction" points="174,394 297,394" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text id="modus_denominator" x="245.0" y="415.06" text-anchor="middle" font-family="DejaVu Serif" font-size="21" font-weight="400" font-style="italic" fill="#000000">
+<tspan x="245.0" dy="0">G</tspan>
+</text>
+<rect id="report_icon_back" x="316" y="247" width="42" height="55" rx="0" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polygon id="report_icon_fold" points="344,247 358,261 344,261" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polyline id="report_icon_line1" points="338,270 352,270" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="report_icon_line2" points="337,278 352,278" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="report_icon_line3" points="339,286 351,286" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse id="report_icon_lens_outer" cx="321.5" cy="281.5" rx="22.5" ry="22.5" fill="#FFFFFF" stroke="#000000" stroke-width="3"/>
+<ellipse id="report_icon_lens_inner" cx="321.5" cy="281.5" rx="15.5" ry="15.5" fill="#FFFFFF" stroke="#000000" stroke-width="2"/>
+<polyline id="report_icon_handle" points="334,294 350,310" fill="none" stroke="#000000" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="report_icon_glass_l1" points="312,275 330,275" fill="none" stroke="#000000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="report_icon_glass_l2" points="315,282 328,282" fill="none" stroke="#000000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="search_box" x="50" y="491" width="311" height="93" rx="0" fill="#D5F2F0" stroke="none" stroke-width="1"/>
+<text id="search_line1" x="205.5" y="530.08" text-anchor="middle" font-family="DejaVu Sans" font-size="28" font-weight="700" font-style="normal" fill="#000000">
+<tspan x="205.5" dy="0">Search for</tspan>
+</text>
+<text id="search_line2" x="205.0" y="569.08" text-anchor="middle" font-family="DejaVu Sans" font-size="28" font-weight="700" font-style="normal" fill="#000000">
+<tspan x="205.0" dy="0">Applicable Rules</tspan>
+</text>
+<polygon id="backward_arrow_shaft" points="382,666 396,666 396,104 404,104 389,88 374,104 382,104" fill="#73DDD3" stroke="none" stroke-width="1"/>
+<rect id="backward_arrow_dark_base" x="382" y="532" width="14" height="134" rx="0" fill="#269286" stroke="none" stroke-width="1"/>
+<text id="backward_label_1" x="379" y="561.06" text-anchor="start" font-family="DejaVu Sans" font-size="21" font-weight="700" font-style="normal" fill="#C00000">
+<tspan x="379" dy="0">Backward</tspan>
+</text>
+<text id="backward_label_2" x="379" y="588.06" text-anchor="start" font-family="DejaVu Sans" font-size="21" font-weight="700" font-style="normal" fill="#C00000">
+<tspan x="379" dy="0">Deduction</tspan>
+</text>
+<rect id="group_instantiation_top" x="475" y="107" width="204" height="152" rx="0" fill="none" stroke="#EFA7B0" stroke-width="4" stroke-dasharray="15 12"/>
+<rect id="group_instantiation_mid" x="441" y="259" width="238" height="68" rx="0" fill="none" stroke="#EFA7B0" stroke-width="4" stroke-dasharray="15 12"/>
+<rect id="group_left_rule" x="441" y="327" width="204" height="195" rx="0" fill="none" stroke="#EFA7B0" stroke-width="4" stroke-dasharray="15 12"/>
+<rect id="group_syllogism_outer" x="709" y="159" width="246" height="286" rx="0" fill="none" stroke="#EFA7B0" stroke-width="4" stroke-dasharray="15 12"/>
+<rect id="group_syllogism_inner" x="741" y="257" width="213" height="118" rx="0" fill="none" stroke="#EFA7B0" stroke-width="4" stroke-dasharray="15 12"/>
+<rect id="group_modus" x="641" y="366" width="243" height="246" rx="0" fill="none" stroke="#EFA7B0" stroke-width="4" stroke-dasharray="15 12"/>
+<rect id="group_q_top" x="641" y="444" width="100" height="79" rx="0" fill="none" stroke="#EFA7B0" stroke-width="4" stroke-dasharray="15 12"/>
+<text id="instantiation_step_label" x="479" y="100.22" text-anchor="start" font-family="DejaVu Sans" font-size="27" font-weight="700" font-style="normal" fill="#000000">
+<tspan x="479" dy="0">4. Instantiation</tspan>
+</text>
+<text id="syllogism_step_label" x="769" y="151.22" text-anchor="start" font-family="DejaVu Sans" font-size="27" font-weight="700" font-style="normal" fill="#000000">
+<tspan x="769" dy="0">2. Syllogism</tspan>
+</text>
+<text id="modus_step_label_1" x="889" y="529.22" text-anchor="start" font-family="DejaVu Sans" font-size="27" font-weight="700" font-style="normal" fill="#000000">
+<tspan x="889" dy="0">1. Modus</tspan>
+</text>
+<text id="modus_step_label_2" x="900" y="567.22" text-anchor="start" font-family="DejaVu Sans" font-size="27" font-weight="700" font-style="normal" fill="#000000">
+<tspan x="900" dy="0">Ponens</tspan>
+</text>
+<polyline id="edge_instantiation" points="565,170 615,276" fill="none" stroke="#A7A7A7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="edge_neg_to_p" points="615,307 687,467" fill="none" stroke="#A7A7A7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="edge_or_to_p" points="535,410 687,467" fill="none" stroke="#A7A7A7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="edge_p_to_q" points="687,515 766,556" fill="none" stroke="#A7A7A7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="edge_pt_to_pq" points="772,216 815,382" fill="none" stroke="#A7A7A7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="edge_tq_to_pq" points="878,311 815,382" fill="none" stroke="#A7A7A7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="edge_pq_to_q" points="815,423 766,556" fill="none" stroke="#A7A7A7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="leaf_forall" x="495" y="128" width="148" height="44" rx="0" fill="#F1F7F7" stroke="#F7B382" stroke-width="4"/>
+<text id="leaf_forall_text" x="569.0" y="156.48000000000002" text-anchor="middle" font-family="DejaVu Serif" font-size="24" font-weight="700" font-style="italic" fill="#000000">
+<tspan x="569.0" dy="0">∀x (¬R(x))</tspan>
+</text>
+<rect id="inode_not_ra" x="573" y="273" width="87" height="44" rx="0" fill="#F1F7F7" stroke="#A9D88E" stroke-width="4"/>
+<text id="inode_not_ra_text" x="616.5" y="301.47999999999996" text-anchor="middle" font-family="DejaVu Serif" font-size="24" font-weight="700" font-style="italic" fill="#000000">
+<tspan x="616.5" dy="0">¬R(a)</tspan>
+</text>
+<rect id="leaf_or" x="464" y="366" width="142" height="44" rx="0" fill="#F1F7F7" stroke="#F7B382" stroke-width="4"/>
+<text id="leaf_or_text" x="535.0" y="394.47999999999996" text-anchor="middle" font-family="DejaVu Serif" font-size="24" font-weight="700" font-style="italic" fill="#000000">
+<tspan x="535.0" dy="0">P ∨ (R(a))</tspan>
+</text>
+<rect id="inode_p" x="661" y="466" width="51" height="51" rx="0" fill="#F1F7F7" stroke="#A9D88E" stroke-width="4"/>
+<text id="inode_p_text" x="686.5" y="497.97999999999996" text-anchor="middle" font-family="DejaVu Serif" font-size="24" font-weight="700" font-style="italic" fill="#000000">
+<tspan x="686.5" dy="0">P</tspan>
+</text>
+<rect id="leaf_pt" x="721" y="175" width="99" height="43" rx="0" fill="#F1F7F7" stroke="#F7B382" stroke-width="4"/>
+<text id="leaf_pt_text" x="770.5" y="202.98000000000002" text-anchor="middle" font-family="DejaVu Serif" font-size="24" font-weight="700" font-style="italic" fill="#000000">
+<tspan x="770.5" dy="0">P → T</tspan>
+</text>
+<rect id="leaf_tq" x="835" y="269" width="92" height="44" rx="0" fill="#F1F7F7" stroke="#F7B382" stroke-width="4"/>
+<text id="leaf_tq_text" x="881.0" y="297.47999999999996" text-anchor="middle" font-family="DejaVu Serif" font-size="24" font-weight="700" font-style="italic" fill="#000000">
+<tspan x="881.0" dy="0">T → Q</tspan>
+</text>
+<rect id="inode_pq" x="757" y="383" width="113" height="43" rx="0" fill="#F1F7F7" stroke="#A9D88E" stroke-width="4"/>
+<text id="inode_pq_text" x="813.5" y="410.97999999999996" text-anchor="middle" font-family="DejaVu Serif" font-size="24" font-weight="700" font-style="italic" fill="#000000">
+<tspan x="813.5" dy="0">P → Q</tspan>
+</text>
+<rect id="root_q" x="738" y="555" width="52" height="49" rx="0" fill="#F1F7F7" stroke="#00A956" stroke-width="4"/>
+<text id="root_q_text" x="764.0" y="585.98" text-anchor="middle" font-family="DejaVu Serif" font-size="24" font-weight="700" font-style="italic" fill="#000000">
+<tspan x="764.0" dy="0">Q</tspan>
+</text>
+<rect id="legend_root_box" x="441" y="642" width="54" height="25" rx="0" fill="#FFFFFF" stroke="#00A956" stroke-width="4"/>
+<text id="legend_root_text" x="503" y="660.9399999999999" text-anchor="start" font-family="DejaVu Sans" font-size="22" font-weight="700" font-style="normal" fill="#000000">
+<tspan x="503" dy="0">root node</tspan>
+</text>
+<rect id="legend_inode_box" x="639" y="642" width="54" height="25" rx="0" fill="#FFFFFF" stroke="#A9D88E" stroke-width="4"/>
+<text id="legend_inode_text" x="702" y="660.9399999999999" text-anchor="start" font-family="DejaVu Sans" font-size="22" font-weight="700" font-style="normal" fill="#000000">
+<tspan x="702" dy="0">inode</tspan>
+</text>
+<rect id="legend_leaf_box" x="796" y="642" width="54" height="25" rx="0" fill="#FFFFFF" stroke="#F7B382" stroke-width="4"/>
+<text id="legend_leaf_text" x="860" y="660.9399999999999" text-anchor="start" font-family="DejaVu Sans" font-size="22" font-weight="700" font-style="normal" fill="#000000">
+<tspan x="860" dy="0">leaf node</tspan>
+</text>
+<polygon id="leaf_to_llm_arrow" points="1018,174.4 1060.88,174.4 1060.88,166 1085,181.0 1060.88,196 1060.88,187.6 1018,187.6" fill="#F7B382" stroke="#F7B382" stroke-width="1"/>
+<polygon id="inode_to_llm_arrow" points="1018,554.4 1060.88,554.4 1060.88,546 1085,561.0 1060.88,576 1060.88,567.6 1018,567.6" fill="#A9D88E" stroke="#A9D88E" stroke-width="1"/>
+<polygon id="reasoning_to_post_arrow" points="1081,858.96 1034.92,858.96 1034.92,850 1009,866.0 1034.92,882 1034.92,873.04 1081,873.04" fill="#285BAD" stroke="#285BAD" stroke-width="1"/>
+<rect id="leaf_node_list" x="1087" y="70" width="224" height="195" rx="17" fill="#FBE6D3" stroke="#F7B382" stroke-width="3"/>
+<text id="leaf_list_title" x="1108" y="108.08" text-anchor="start" font-family="DejaVu Sans" font-size="28" font-weight="700" font-style="normal" fill="#000000">
+<tspan x="1108" dy="0">Leaf Node List</tspan>
+</text>
+<text id="leaf_formula_0" x="1200.0" y="151.64" text-anchor="middle" font-family="DejaVu Serif" font-size="24" font-weight="700" font-style="italic" fill="#000000">
+<tspan x="1200.0" dy="0">∀x (¬R(x))</tspan>
+</text>
+<text id="leaf_formula_1" x="1200.0" y="180.64" text-anchor="middle" font-family="DejaVu Serif" font-size="24" font-weight="700" font-style="italic" fill="#000000">
+<tspan x="1200.0" dy="0">P → T</tspan>
+</text>
+<text id="leaf_formula_2" x="1200.0" y="208.64" text-anchor="middle" font-family="DejaVu Serif" font-size="24" font-weight="700" font-style="italic" fill="#000000">
+<tspan x="1200.0" dy="0">T → Q</tspan>
+</text>
+<text id="leaf_formula_3" x="1200.0" y="236.64" text-anchor="middle" font-family="DejaVu Serif" font-size="24" font-weight="700" font-style="italic" fill="#000000">
+<tspan x="1200.0" dy="0">P ∨ (R(a))</tspan>
+</text>
+<rect id="diversity_panel" x="1528" y="70" width="340" height="194" rx="17" fill="#DAE2F5" stroke="#8D9693" stroke-width="3"/>
+<text id="diversity_title" x="1547" y="111.94" text-anchor="start" font-family="DejaVu Sans" font-size="29" font-weight="700" font-style="normal" fill="#000000">
+<tspan x="1547" dy="0">Diversity</tspan>
+</text>
+<text id="diversity_line1" x="1547" y="144.5" text-anchor="start" font-family="DejaVu Sans" font-size="25" font-weight="400" font-style="normal" fill="#000000">
+<tspan x="1547" dy="0">randomly select scenarios</tspan>
+</text>
+<text id="diversity_line2" x="1547" y="176.5" text-anchor="start" font-family="DejaVu Sans" font-size="25" font-weight="400" font-style="normal" fill="#000000">
+<tspan x="1547" dy="0">topics   (num=3)</tspan>
+</text>
+<text id="diversity_bullet1" x="1548" y="210.5" text-anchor="start" font-family="DejaVu Sans" font-size="25" font-weight="700" font-style="normal" fill="#C00000">
+<tspan x="1548" dy="0">•</tspan>
+</text>
+<text id="diversity_public" x="1575" y="208.5" text-anchor="start" font-family="DejaVu Sans" font-size="25" font-weight="700" font-style="normal" fill="#C00000">
+<tspan x="1575" dy="0">Public Health</tspan>
+</text>
+<text id="diversity_bullet2" x="1548" y="243.5" text-anchor="start" font-family="DejaVu Sans" font-size="25" font-weight="700" font-style="normal" fill="#000000">
+<tspan x="1548" dy="0">•</tspan>
+</text>
+<text id="diversity_econ" x="1575" y="241.5" text-anchor="start" font-family="DejaVu Sans" font-size="25" font-weight="400" font-style="normal" fill="#000000">
+<tspan x="1575" dy="0">Economics</tspan>
+</text>
+<polygon id="leaf_list_to_robot" points="1309,151.68 1351.88,151.68 1351.88,143 1376,158.5 1351.88,174 1351.88,165.32 1309,165.32" fill="#FFFFFF" stroke="#285BAD" stroke-width="2"/>
+<polygon id="diversity_to_robot" points="1529,151.68 1488.04,151.68 1488.04,143 1465,158.5 1488.04,174 1488.04,165.32 1529,165.32" fill="#FFFFFF" stroke="#285BAD" stroke-width="2"/>
+<polyline id="robot_1_antenna" points="1415.0,130.6 1415.0,123.58" fill="none" stroke="#7FB5E6" stroke-width="1.56" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse id="robot_1_antenna_ball" cx="1415.0" cy="123.19000000000001" rx="2.73" ry="2.73" fill="#13E0DA" stroke="#153E79" stroke-width="0.78"/>
+<ellipse id="robot_1_left_ear" cx="1386.92" cy="154.39000000000001" rx="5.46" ry="11.31" fill="#7FB5E6" stroke="#B9B9B9" stroke-width="0.78"/>
+<ellipse id="robot_1_right_ear" cx="1443.08" cy="154.39000000000001" rx="5.46" ry="11.31" fill="#7FB5E6" stroke="#B9B9B9" stroke-width="0.78"/>
+<ellipse id="robot_1_body" cx="1415.0" cy="184.81" rx="21.060000000000002" ry="16.77" fill="#B8D9F4" stroke="#B9B9B9" stroke-width="0.78"/>
+<ellipse id="robot_1_left_arm" cx="1390.04" cy="187.15" rx="5.46" ry="12.870000000000001" fill="#B8D9F4" stroke="#B9B9B9" stroke-width="0.78"/>
+<ellipse id="robot_1_right_arm" cx="1439.96" cy="187.15" rx="5.46" ry="12.870000000000001" fill="#B8D9F4" stroke="#B9B9B9" stroke-width="0.78"/>
+<polygon id="robot_1_left_foot" points="1401.74,196.9 1411.88,196.9 1407.98,207.04 1397.06,205.48000000000002" fill="#B8D9F4" stroke="#B9B9B9" stroke-width="0.78"/>
+<polygon id="robot_1_right_foot" points="1418.12,196.9 1428.26,196.9 1432.94,205.48000000000002 1422.02,207.04" fill="#B8D9F4" stroke="#B9B9B9" stroke-width="0.78"/>
+<ellipse id="robot_1_chest" cx="1415.0" cy="185.98000000000002" rx="5.46" ry="5.46" fill="#153E79" stroke="none" stroke-width="1"/>
+<rect id="robot_1_head" x="1386.92" y="129.82" width="56.160000000000004" height="41.34" rx="10.92" fill="#B8D9F4" stroke="#B9B9B9" stroke-width="0.9359999999999999"/>
+<rect id="robot_1_screen" x="1392.38" y="136.06" width="45.24" height="27.3" rx="7.800000000000001" fill="#07517C" stroke="#153E79" stroke-width="0.78"/>
+<ellipse id="robot_1_left_eye" cx="1404.08" cy="146.20000000000002" rx="3.12" ry="3.12" fill="#13E0DA" stroke="none" stroke-width="1"/>
+<ellipse id="robot_1_right_eye" cx="1425.9199999999998" cy="146.20000000000002" rx="3.12" ry="3.12" fill="#13E0DA" stroke="none" stroke-width="1"/>
+<polyline id="robot_1_smile" points="1411.1,154.78 1418.9,154.78" fill="none" stroke="#13E0DA" stroke-width="1.56" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="robot_1_bubble_tail" points="1430.6,132.94 1436.84,140.74 1439.18,129.82" fill="#58C676" stroke="none" stroke-width="1"/>
+<rect id="robot_1_bubble" x="1428.26" y="114.22" width="33.54" height="24.18" rx="3.12" fill="#58C676" stroke="none" stroke-width="0"/>
+<polyline id="robot_1_bubble_l1" points="1434.5,121.24000000000001 1454.78,121.24000000000001" fill="none" stroke="#319B55" stroke-width="1.56" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="robot_1_bubble_l2" points="1434.5,126.7 1453.22,126.7" fill="none" stroke="#319B55" stroke-width="1.56" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="robot_1_bubble_l3" points="1434.5,132.16 1448.54,132.16" fill="none" stroke="#319B55" stroke-width="1.56" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="step1_down" points="1409.56,214 1421.44,214 1421.44,256.24 1429,256.24 1415.5,280 1402,256.24 1409.56,256.24" fill="#FFFFFF" stroke="#285BAD" stroke-width="2"/>
+<text id="step1_label" x="1437" y="239.07999999999998" text-anchor="start" font-family="DejaVu Sans" font-size="28" font-weight="700" font-style="normal" fill="#C00000">
+<tspan x="1437" dy="0">Step</tspan>
+</text>
+<ellipse id="step1_circle" cx="1466.5" cy="260.5" rx="13.5" ry="13.5" fill="#FCF2E9" stroke="#C00000" stroke-width="2"/>
+<text id="step1_number" x="1466.5" y="265.9" text-anchor="middle" font-family="DejaVu Sans" font-size="20" font-weight="700" font-style="normal" fill="#C00000">
+<tspan x="1466.5" dy="0">1</tspan>
+</text>
+<rect id="scenario_panel" x="1087" y="281" width="721" height="168" rx="15" fill="#F2F2F2" stroke="#CFCFCF" stroke-width="3"/>
+<text id="scenario_title" x="1118" y="323.08" text-anchor="start" font-family="DejaVu Sans" font-size="28" font-weight="700" font-style="normal" fill="#000000">
+<tspan x="1118" dy="0">Instantiated Realistic Reasoning Scenarios</tspan>
+</text>
+<text id="scenario_line_0" x="1118" y="357.92" text-anchor="start" font-family="DejaVu Sans" font-size="22" font-weight="400" font-style="normal" fill="#000000">
+<tspan x="1118" dy="0">&quot;P&quot;: &quot;The government initiated a nationwide vaccination campaign.&quot;,</tspan>
+</text>
+<text id="scenario_line_1" x="1118" y="384.92" text-anchor="start" font-family="DejaVu Sans" font-size="22" font-weight="400" font-style="normal" fill="#000000">
+<tspan x="1118" dy="0">&quot;Q&quot;: &quot;The spread of the disease was effectively contained.&quot;,</tspan>
+</text>
+<text id="scenario_line_2" x="1118" y="411.92" text-anchor="start" font-family="DejaVu Sans" font-size="22" font-weight="400" font-style="normal" fill="#000000">
+<tspan x="1118" dy="0">“R(x)”: “Region x has achieved full vaccination coverage.”,</tspan>
+</text>
+<text id="scenario_line_3" x="1118" y="438.92" text-anchor="start" font-family="DejaVu Sans" font-size="22" font-weight="400" font-style="normal" fill="#000000">
+<tspan x="1118" dy="0">&quot;T&quot;: &quot;Vaccination rates across regions increased significantly.&quot;</tspan>
+</text>
+<rect id="inode_sequence_panel" x="1087" y="462" width="483" height="197" rx="15" fill="#E2F1DA" stroke="#A9D88E" stroke-width="3"/>
+<text id="inode_title" x="1113" y="504.36" text-anchor="start" font-family="DejaVu Sans" font-size="26" font-weight="700" font-style="normal" fill="#000000">
+<tspan x="1113" dy="0">Inode Sequence based on depth</tspan>
+</text>
+<text id="inode_prefix_0" x="1113" y="545.06" text-anchor="start" font-family="DejaVu Sans" font-size="21" font-weight="700" font-style="normal" fill="#000000">
+<tspan x="1113" dy="0">Step1:</tspan>
+</text>
+<text id="inode_formula_0" x="1195" y="544.92" text-anchor="start" font-family="DejaVu Serif" font-size="22" font-weight="700" font-style="italic" fill="#000000">
+<tspan x="1195" dy="0">(P → T), (T → Q)  ⊢  (P → Q)</tspan>
+</text>
+<text id="inode_prefix_1" x="1113" y="576.06" text-anchor="start" font-family="DejaVu Sans" font-size="21" font-weight="700" font-style="normal" fill="#000000">
+<tspan x="1113" dy="0">Step2:</tspan>
+</text>
+<text id="inode_formula_1" x="1195" y="575.92" text-anchor="start" font-family="DejaVu Serif" font-size="22" font-weight="700" font-style="italic" fill="#000000">
+<tspan x="1195" dy="0">∀x (¬R(x))  ⊢  ¬R(a)</tspan>
+</text>
+<text id="inode_prefix_2" x="1113" y="607.06" text-anchor="start" font-family="DejaVu Sans" font-size="21" font-weight="700" font-style="normal" fill="#000000">
+<tspan x="1113" dy="0">Step3:</tspan>
+</text>
+<text id="inode_formula_2" x="1195" y="606.92" text-anchor="start" font-family="DejaVu Serif" font-size="22" font-weight="700" font-style="italic" fill="#000000">
+<tspan x="1195" dy="0">(¬R(a) ∨ P), (¬R(a))  ⊢  P</tspan>
+</text>
+<text id="inode_prefix_3" x="1113" y="638.06" text-anchor="start" font-family="DejaVu Sans" font-size="21" font-weight="700" font-style="normal" fill="#000000">
+<tspan x="1113" dy="0">Step4:</tspan>
+</text>
+<text id="inode_formula_3" x="1195" y="637.92" text-anchor="start" font-family="DejaVu Serif" font-size="22" font-weight="700" font-style="italic" fill="#000000">
+<tspan x="1195" dy="0">P, (P → Q)  ⊢  P</tspan>
+</text>
+<polygon id="scenario_to_robot2" points="1668.84,457 1681.16,457 1681.16,490.28 1689,490.28 1675.0,509 1661,490.28 1668.84,490.28" fill="#FFFFFF" stroke="#285BAD" stroke-width="2"/>
+<polygon id="inode_to_robot2" points="1568,534.68 1609.6,534.68 1609.6,526 1633,541.5 1609.6,557 1609.6,548.32 1568,548.32" fill="#FFFFFF" stroke="#285BAD" stroke-width="2"/>
+<polyline id="robot_2_antenna" points="1674.0,515.6 1674.0,508.58" fill="none" stroke="#7FB5E6" stroke-width="1.56" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse id="robot_2_antenna_ball" cx="1674.0" cy="508.19" rx="2.73" ry="2.73" fill="#13E0DA" stroke="#153E79" stroke-width="0.78"/>
+<ellipse id="robot_2_left_ear" cx="1645.92" cy="539.39" rx="5.46" ry="11.31" fill="#7FB5E6" stroke="#B9B9B9" stroke-width="0.78"/>
+<ellipse id="robot_2_right_ear" cx="1702.08" cy="539.39" rx="5.46" ry="11.31" fill="#7FB5E6" stroke="#B9B9B9" stroke-width="0.78"/>
+<ellipse id="robot_2_body" cx="1674.0" cy="569.81" rx="21.060000000000002" ry="16.77" fill="#B8D9F4" stroke="#B9B9B9" stroke-width="0.78"/>
+<ellipse id="robot_2_left_arm" cx="1649.04" cy="572.15" rx="5.46" ry="12.870000000000001" fill="#B8D9F4" stroke="#B9B9B9" stroke-width="0.78"/>
+<ellipse id="robot_2_right_arm" cx="1698.96" cy="572.15" rx="5.46" ry="12.870000000000001" fill="#B8D9F4" stroke="#B9B9B9" stroke-width="0.78"/>
+<polygon id="robot_2_left_foot" points="1660.74,581.9 1670.88,581.9 1666.98,592.04 1656.06,590.48" fill="#B8D9F4" stroke="#B9B9B9" stroke-width="0.78"/>
+<polygon id="robot_2_right_foot" points="1677.12,581.9 1687.26,581.9 1691.94,590.48 1681.02,592.04" fill="#B8D9F4" stroke="#B9B9B9" stroke-width="0.78"/>
+<ellipse id="robot_2_chest" cx="1674.0" cy="570.98" rx="5.46" ry="5.46" fill="#153E79" stroke="none" stroke-width="1"/>
+<rect id="robot_2_head" x="1645.92" y="514.82" width="56.160000000000004" height="41.34" rx="10.92" fill="#B8D9F4" stroke="#B9B9B9" stroke-width="0.9359999999999999"/>
+<rect id="robot_2_screen" x="1651.38" y="521.06" width="45.24" height="27.3" rx="7.800000000000001" fill="#07517C" stroke="#153E79" stroke-width="0.78"/>
+<ellipse id="robot_2_left_eye" cx="1663.08" cy="531.2" rx="3.12" ry="3.12" fill="#13E0DA" stroke="none" stroke-width="1"/>
+<ellipse id="robot_2_right_eye" cx="1684.9199999999998" cy="531.2" rx="3.12" ry="3.12" fill="#13E0DA" stroke="none" stroke-width="1"/>
+<polyline id="robot_2_smile" points="1670.1,539.78 1677.9,539.78" fill="none" stroke="#13E0DA" stroke-width="1.56" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="robot_2_bubble_tail" points="1689.6,517.94 1695.84,525.74 1698.18,514.82" fill="#58C676" stroke="none" stroke-width="1"/>
+<rect id="robot_2_bubble" x="1687.26" y="499.22" width="33.54" height="24.18" rx="3.12" fill="#58C676" stroke="none" stroke-width="0"/>
+<polyline id="robot_2_bubble_l1" points="1693.5,506.24 1713.78,506.24" fill="none" stroke="#319B55" stroke-width="1.56" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="robot_2_bubble_l2" points="1693.5,511.7 1712.22,511.7" fill="none" stroke="#319B55" stroke-width="1.56" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline id="robot_2_bubble_l3" points="1693.5,517.16 1707.54,517.16" fill="none" stroke="#319B55" stroke-width="1.56" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon id="step2_down" points="1668.84,613 1681.16,613 1681.16,655.88 1689,655.88 1675.0,680 1661,655.88 1668.84,655.88" fill="#FFFFFF" stroke="#285BAD" stroke-width="2"/>
+<text id="step2_label" x="1696" y="636.08" text-anchor="start" font-family="DejaVu Sans" font-size="28" font-weight="700" font-style="normal" fill="#C00000">
+<tspan x="1696" dy="0">Step</tspan>
+</text>
+<ellipse id="step2_circle" cx="1725.5" cy="659.5" rx="13.5" ry="13.5" fill="#FCF2E9" stroke="#C00000" stroke-width="2"/>
+<text id="step2_number" x="1725.5" y="664.9000000000001" text-anchor="middle" font-family="DejaVu Sans" font-size="20" font-weight="700" font-style="normal" fill="#C00000">
+<tspan x="1725.5" dy="0">2</tspan>
+</text>
+<rect id="reasoning_panel" x="1087" y="680" width="810" height="397" rx="15" fill="#F2F2F2" stroke="#B9B9B9" stroke-width="3"/>
+<text id="reasoning_title" x="1110" y="719.08" text-anchor="start" font-family="DejaVu Sans" font-size="28" font-weight="700" font-style="normal" fill="#000000">
+<tspan x="1110" dy="0">Natural Language Reasoning Processes</tspan>
+</text>
+<text id="reasoning_prefix_0" x="1110" y="755.92" text-anchor="start" font-family="DejaVu Sans" font-size="22" font-weight="700" font-style="normal" fill="#000000">
+<tspan x="1110" dy="0">Step 1:</tspan>
+</text>
+<text id="reasoning_body_0" x="1206" y="755.92" text-anchor="start" font-family="DejaVu Sans" font-size="22" font-weight="400" font-style="normal" fill="#000000">
+<tspan x="1206" dy="0">From rule (∀x ¬R(x)), we deduce that no region has achieved</tspan>
+</text>
+<text id="reasoning_body_1" x="1110" y="791.92" text-anchor="start" font-family="DejaVu Sans" font-size="22" font-weight="400" font-style="normal" fill="#000000">
+<tspan x="1110" dy="0">full vaccination coverage. Therefore, City Z has not achieved full</tspan>
+</text>
+<text id="reasoning_body_2" x="1110" y="827.92" text-anchor="start" font-family="DejaVu Sans" font-size="22" font-weight="400" font-style="normal" fill="#000000">
+<tspan x="1110" dy="0">vaccination coverage (~R(a)).</tspan>
+</text>
+<text id="reasoning_prefix_3" x="1110" y="856.92" text-anchor="start" font-family="DejaVu Sans" font-size="22" font-weight="700" font-style="normal" fill="#000000">
+<tspan x="1110" dy="0">Step 2:</tspan>
+</text>
+<text id="reasoning_body_3" x="1206" y="856.92" text-anchor="start" font-family="DejaVu Sans" font-size="22" font-weight="400" font-style="normal" fill="#000000">
+<tspan x="1206" dy="0">Using rule (P → T) and rule (T → Q), we deduce that if the</tspan>
+</text>
+<text id="reasoning_body_4" x="1110" y="892.92" text-anchor="start" font-family="DejaVu Sans" font-size="22" font-weight="400" font-style="normal" fill="#000000">
+<tspan x="1110" dy="0">government initiated a nationwide vaccination campaign (P), then</tspan>
+</text>
+<text id="reasoning_body_5" x="1110" y="928.92" text-anchor="start" font-family="DejaVu Sans" font-size="22" font-weight="400" font-style="normal" fill="#000000">
+<tspan x="1110" dy="0">the spread of the disease was effectively contained (Q).</tspan>
+</text>
+<text id="reasoning_prefix_6" x="1110" y="957.92" text-anchor="start" font-family="DejaVu Sans" font-size="22" font-weight="700" font-style="normal" fill="#000000">
+<tspan x="1110" dy="0">Step 3:</tspan>
+</text>
+<text id="reasoning_body_6" x="1206" y="957.92" text-anchor="start" font-family="DejaVu Sans" font-size="22" font-weight="400" font-style="normal" fill="#000000">
+<tspan x="1206" dy="0">From rule (P ∨ R(a)) and step1 (~R(a)), we deduce that the</tspan>
+</text>
+<text id="reasoning_body_7" x="1110" y="993.92" text-anchor="start" font-family="DejaVu Sans" font-size="22" font-weight="400" font-style="normal" fill="#000000">
+<tspan x="1110" dy="0">government initiated a nationwide vaccination campaign (P).</tspan>
+</text>
+<text id="reasoning_prefix_8" x="1110" y="1022.92" text-anchor="start" font-family="DejaVu Sans" font-size="22" font-weight="700" font-style="normal" fill="#000000">
+<tspan x="1110" dy="0">Step 4:</tspan>
+</text>
+<text id="reasoning_body_8" x="1206" y="1022.92" text-anchor="start" font-family="DejaVu Sans" font-size="22" font-weight="400" font-style="normal" fill="#000000">
+<tspan x="1206" dy="0">From step2 (P → Q) and step3 (P), we deduce that the spread</tspan>
+</text>
+<text id="reasoning_body_9" x="1110" y="1058.92" text-anchor="start" font-family="DejaVu Sans" font-size="22" font-weight="400" font-style="normal" fill="#000000">
+<tspan x="1110" dy="0">of the disease was effectively contained (Q).</tspan>
+</text>
+<text id="premises_label" x="28" y="800.8" text-anchor="start" font-family="DejaVu Sans" font-size="30" font-weight="700" font-style="normal" fill="#000000">
+<tspan x="28" dy="0">Premises:</tspan>
+</text>
+<text id="premise_0" x="28" y="833.64" text-anchor="start" font-family="DejaVu Sans" font-size="24" font-weight="700" font-style="normal" fill="#000000">
+<tspan x="28" dy="0">&quot;rule1&quot;: &quot;No region has achieved full vaccination coverage.&quot;  &quot;rule2&quot;: &quot;If the</tspan>
+</text>
+<text id="premise_1" x="28" y="872.64" text-anchor="start" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" fill="#000000">
+<tspan x="28" dy="0">government initiated a nationwide vaccination campaign, then vaccination rates across</tspan>
+</text>
+<text id="premise_2" x="28" y="915.64" text-anchor="start" font-family="DejaVu Sans" font-size="24" font-weight="400" font-style="normal" fill="#000000">
+<tspan x="28" dy="0">regions increased significantly.&quot;  &quot;rule3&quot;: …,&quot;rule4&quot;: …,</tspan>
+</text>
+<text id="conclusions_label" x="28" y="959.8" text-anchor="start" font-family="DejaVu Sans" font-size="30" font-weight="700" font-style="normal" fill="#000000">
+<tspan x="28" dy="0">conclusions:</tspan>
+</text>
+<text id="bottom_bullet_0" x="29" y="993.78" text-anchor="start" font-family="DejaVu Sans" font-size="23" font-weight="700" font-style="normal" fill="#000000">
+<tspan x="29" dy="0">•</tspan>
+</text>
+<text id="bottom_row_0" x="60" y="992.06" text-anchor="start" font-family="DejaVu Sans Condensed" font-size="21" font-weight="700" font-style="normal" fill="#000000">
+<tspan x="60" dy="0">&quot;The spread of the disease was effectively contained.&quot;</tspan>
+</text>
+<text id="bottom_bullet_1" x="29" y="1029.78" text-anchor="start" font-family="DejaVu Sans" font-size="23" font-weight="700" font-style="normal" fill="#000000">
+<tspan x="29" dy="0">•</tspan>
+</text>
+<text id="bottom_row_1" x="60" y="1027.2" text-anchor="start" font-family="DejaVu Sans Condensed" font-size="20" font-weight="700" font-style="normal" fill="#000000">
+<tspan x="60" dy="0">&quot;Country a is making great efforts to develop the new energy vehicle industry.&quot;</tspan>
+</text>
+<text id="bottom_bullet_2" x="29" y="1065.78" text-anchor="start" font-family="DejaVu Sans" font-size="23" font-weight="700" font-style="normal" fill="#000000">
+<tspan x="29" dy="0">•</tspan>
+</text>
+<text id="bottom_row_2" x="60" y="1064.06" text-anchor="start" font-family="DejaVu Sans Condensed" font-size="21" font-weight="700" font-style="normal" fill="#000000">
+<tspan x="60" dy="0">&quot; City Z has achieved full vaccination coverage.&quot;</tspan>
+</text>
+<rect id="true_chip" x="695" y="966" width="120" height="36" rx="0" fill="#ACD68E" stroke="none" stroke-width="1"/>
+<text id="true_chip_text" x="755.0" y="990.25" text-anchor="middle" font-family="DejaVu Sans" font-size="25" font-weight="700" font-style="normal" fill="#FFFFFF">
+<tspan x="755.0" dy="0">True</tspan>
+</text>
+<rect id="false_chip" x="622" y="1030" width="119" height="32" rx="0" fill="#F49AA8" stroke="none" stroke-width="1"/>
+<text id="false_chip_text" x="681.5" y="1052.48" text-anchor="middle" font-family="DejaVu Sans" font-size="24" font-weight="700" font-style="normal" fill="#FFFFFF">
+<tspan x="681.5" dy="0">False</tspan>
+</text>
+<rect id="uncertain_chip" x="874" y="1017" width="145" height="33" rx="0" fill="#A6A6A6" stroke="none" stroke-width="1"/>
+<text id="uncertain_chip_text" x="946.5" y="1039.21" text-anchor="middle" font-family="DejaVu Sans" font-size="23" font-weight="700" font-style="normal" fill="#FFFFFF">
+<tspan x="946.5" dy="0">Uncertain</tspan>
+</text>
+</svg>

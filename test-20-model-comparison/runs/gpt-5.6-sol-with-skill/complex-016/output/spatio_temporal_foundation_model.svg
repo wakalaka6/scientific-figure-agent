@@ -1,0 +1,1101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1033" viewBox="0 0 1920 1033">
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#111111"/></marker></defs>
+<g id="background">
+<rect id="background-0001" x="0.00" y="0.00" width="1920.00" height="1033.00" rx="0.00" fill="#ffffff" stroke="none" stroke-width="1.20" opacity="1.000"/>
+<rect id="background-0002" x="10.00" y="15.00" width="922.00" height="280.00" rx="0.00" fill="#edf4fa" stroke="none" stroke-width="1.20" opacity="1.000"/>
+<rect id="background-0003" x="10.00" y="313.00" width="922.00" height="278.00" rx="0.00" fill="#fff8e5" stroke="none" stroke-width="1.20" opacity="1.000"/>
+<rect id="background-0004" x="10.00" y="609.00" width="922.00" height="373.00" rx="0.00" fill="#f0f8eb" stroke="none" stroke-width="1.20" opacity="1.000"/>
+<rect id="background-0005" x="951.00" y="15.00" width="960.00" height="280.00" rx="0.00" fill="#fbf0ea" stroke="none" stroke-width="1.20" opacity="1.000"/>
+<rect id="background-0006" x="951.00" y="313.00" width="960.00" height="278.00" rx="0.00" fill="#f1f5fe" stroke="none" stroke-width="1.20" opacity="1.000"/>
+<rect id="background-0007" x="951.00" y="609.00" width="960.00" height="169.00" rx="0.00" fill="#f1f7f5" stroke="none" stroke-width="1.20" opacity="1.000"/>
+<rect id="background-0008" x="951.00" y="794.00" width="960.00" height="188.00" rx="0.00" fill="#ffefef" stroke="none" stroke-width="1.20" opacity="1.000"/>
+</g>
+<g id="mfa">
+<text id="mfa-0009" x="470.00" y="35.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="26.00px" font-weight="700" font-style="normal" fill="#111111">Multi-Frequency Augmentation</text>
+<text id="mfa-0010" x="27.00" y="64.00" text-anchor="start" dominant-baseline="middle" font-family="Liberation Serif" font-size="18.00px" font-weight="400" font-style="normal" fill="#111111">▲ Value</text>
+<line id="mfa-0011" x1="34.00" y1="78.00" x2="34.00" y2="132.00" stroke="#111111" stroke-width="1.10"/>
+<line id="mfa-0012" x1="34.00" y1="132.00" x2="445.00" y2="132.00" stroke="#111111" stroke-width="1.10" marker-end="url(#arrow)"/>
+<polyline id="mfa-0013" points="40.00,85.73 47.07,86.35 54.15,94.98 61.22,96.54 68.30,95.69 75.37,92.29 82.44,84.50 89.52,88.84 96.59,102.41 103.67,98.58 110.74,84.53 117.81,86.19 124.89,95.40 131.96,96.99 139.04,95.67 146.11,91.05 153.19,84.89 160.26,90.74 167.33,100.93 174.41,96.76 181.48,87.29 188.56,87.00 195.63,91.84 202.70,97.84 209.78,99.06 216.85,88.57 223.93,82.66 231.00,94.16 238.07,101.48 245.15,93.42 252.22,88.24 259.30,89.40 266.37,90.15 273.44,96.67 280.52,100.59 287.59,88.87 294.67,81.85 301.74,93.95 308.81,101.61 315.89,94.24 322.96,88.15 330.04,87.77 337.11,91.02 344.19,98.64 351.26,98.46 358.33,87.45 365.41,85.12 372.48,93.97 379.56,98.00 386.63,95.95 393.70,91.06 400.78,84.70 407.85,89.60 414.93,102.16 422.00,98.19" fill="none" stroke="#ed7d31" stroke-width="1.30" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline id="mfa-0014" points="40.00,109.37 47.07,116.81 54.15,117.94 61.22,115.64 68.30,109.53 75.37,109.21 82.44,119.22 89.52,118.89 96.59,110.01 103.67,110.58 110.74,114.53 117.81,117.00 124.89,116.81 131.96,109.81 139.04,110.38 146.11,118.97 153.19,116.36 160.26,110.52 167.33,112.27 174.41,114.49 181.48,117.39 188.56,115.56 195.63,108.14 202.70,112.33 209.78,120.25 216.85,115.48 223.93,110.30 231.00,110.94 238.07,114.27 245.15,119.97 252.22,115.57 259.30,106.54 266.37,112.17 273.44,119.58 280.52,116.49 287.59,112.36 294.67,109.42 301.74,112.74 308.81,120.55 315.89,115.65 322.96,107.94 330.04,112.89 337.11,117.09 344.19,115.98 351.26,113.78 358.33,109.68 365.41,113.67 372.48,119.88 379.56,113.29 386.63,108.98 393.70,114.56 400.78,116.81 407.85,116.12 414.93,112.40 422.00,108.46" fill="none" stroke="#44546a" stroke-width="1.30" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="mfa-0015" x="199.50" y="93.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="16.00px" font-weight="400" font-style="normal" fill="#ed7d31">Region 1</text>
+<text id="mfa-0016" x="334.50" y="115.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="16.00px" font-weight="400" font-style="normal" fill="#111111">Region n</text>
+<text id="mfa-0017" x="390.00" y="142.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="18.00px" font-weight="400" font-style="normal" fill="#111111">Time</text>
+<line id="mfa-0018" x1="447.00" y1="108.00" x2="488.00" y2="108.00" stroke="#70ad47" stroke-width="6.00" marker-end="url(#arrow)"/>
+<text id="mfa-0019" x="468.00" y="88.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="18.00px" font-weight="400" font-style="italic" fill="#70ad47">FFT</text>
+<line id="mfa-0020" x1="512.00" y1="132.00" x2="925.00" y2="132.00" stroke="#111111" stroke-width="1.10" marker-end="url(#arrow)"/>
+<line id="mfa-0021" x1="512.00" y1="132.00" x2="512.00" y2="61.00" stroke="#111111" stroke-width="1.10" marker-end="url(#arrow)"/>
+<text id="mfa-0022" x="520.00" y="68.00" text-anchor="start" dominant-baseline="middle" font-family="Liberation Serif" font-size="18.00px" font-weight="400" font-style="normal" fill="#111111">Amplitude</text>
+<text id="mfa-0023" x="850.00" y="143.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="18.00px" font-weight="400" font-style="normal" fill="#111111">Frequency</text>
+<polyline id="mfa-0024" points="520.00,86.96 527.06,102.26 534.12,112.14 541.18,119.31 548.24,114.42 555.29,114.26 562.35,105.58 569.41,99.46 576.47,92.02 583.53,102.52 590.59,115.00 597.65,125.34 604.71,115.00 611.76,103.33 618.82,94.03 625.88,100.74 632.94,105.80 640.00,112.67 647.06,112.25 654.12,115.54 661.18,110.42 668.24,104.71 675.29,95.48 682.35,99.92 689.41,108.46 696.47,119.17 703.53,115.43 710.59,108.78 717.65,100.35 724.71,102.26 731.76,103.42 738.82,108.13 745.88,109.17 752.94,114.15 760.00,112.41 767.06,108.64 774.12,99.81 781.18,100.20 788.24,104.79 795.29,113.78 802.35,113.66 809.41,110.98 816.47,104.83 823.53,104.71 830.59,103.53 837.65,105.83 844.71,106.63 851.76,111.73 858.82,112.33 865.88,110.78 872.94,103.64 880.00,101.96" fill="none" stroke="#6c63ff" stroke-width="1.30" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline id="mfa-0025" points="522.00,100.52 524.50,92.74 527.00,92.26 529.50,94.02 532.00,95.43 534.50,100.55 537.00,107.58 539.50,109.94 542.00,108.91 544.50,109.65 547.00,110.07 549.50,107.19 552.00,104.90 554.50,105.32 557.00,104.02 559.50,100.04 562.00,98.09 564.50,98.62 567.00,98.41 569.50,99.11 572.00,103.56 574.50,108.44 577.00,110.09 579.50,110.41 582.00,110.58 584.50,107.95 587.00,103.06 589.50,100.18 592.00,99.72" fill="none" stroke="#c00000" stroke-width="1.30" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="mfa-0026" x="607.00" y="92.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="16.00px" font-weight="400" font-style="normal" fill="#c00000">Frequency 1</text>
+<text id="mfa-0027" x="715.00" y="97.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="16.00px" font-weight="400" font-style="normal" fill="#c00000">Frequency 2</text>
+<text id="mfa-0028" x="33.00" y="147.50" text-anchor="start" dominant-baseline="middle" font-family="Liberation Serif" font-size="18.00px" font-weight="400" font-style="normal" fill="#c00000">Random Threshold</text>
+<rect id="mfa-0029" x="34.00" y="162.00" width="392.00" height="39.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="1.00" opacity="1.000"/>
+<polyline id="mfa-0030" points="40.00,170.01 47.11,173.90 54.23,180.64 61.34,186.14 68.45,186.48 75.57,184.79 82.68,183.31 89.79,178.99 96.91,175.42 104.02,172.74 111.13,179.39 118.25,185.95 125.36,191.47 132.47,184.87 139.58,178.91 146.70,172.56 153.81,176.94 160.92,179.18 168.04,184.43 175.15,183.40 182.26,186.19 189.38,183.20 196.49,181.21 203.60,174.36 210.72,174.92 217.83,178.39 224.94,186.59 232.06,187.84 239.17,184.89 246.28,178.51 253.40,176.46 260.51,177.33 267.62,179.60 274.74,181.55 281.85,183.17 288.96,185.53 296.08,184.24 303.19,180.97 310.30,175.27 317.42,175.82 324.53,179.03 331.64,185.65 338.75,185.61 345.87,184.19 352.98,179.09 360.09,179.01 367.21,177.66 374.32,179.74 381.43,179.60 388.55,183.48 395.66,184.51 402.77,185.05 409.89,179.98 417.00,177.02" fill="none" stroke="#6c63ff" stroke-width="1.30" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="mfa-0031" x="120.00" y="162.00" width="48.00" height="39.00" rx="0.00" fill="#bdbdbd" stroke="none" stroke-width="1.20" opacity="0.780"/>
+<rect id="mfa-0032" x="168.00" y="162.00" width="200.00" height="39.00" rx="0.00" fill="#d0d0d0" stroke="none" stroke-width="1.20" opacity="0.700"/>
+<line id="mfa-0033" x1="121.00" y1="198.00" x2="156.00" y2="163.00" stroke="#ffffff" stroke-width="1.00"/>
+<line id="mfa-0034" x1="132.00" y1="198.00" x2="167.00" y2="163.00" stroke="#ffffff" stroke-width="1.00"/>
+<line id="mfa-0035" x1="143.00" y1="198.00" x2="178.00" y2="163.00" stroke="#ffffff" stroke-width="1.00"/>
+<line id="mfa-0036" x1="154.00" y1="198.00" x2="189.00" y2="163.00" stroke="#ffffff" stroke-width="1.00"/>
+<line id="mfa-0037" x1="165.00" y1="198.00" x2="200.00" y2="163.00" stroke="#ffffff" stroke-width="1.00"/>
+<line id="mfa-0038" x1="176.00" y1="198.00" x2="211.00" y2="163.00" stroke="#ffffff" stroke-width="1.00"/>
+<line id="mfa-0039" x1="187.00" y1="198.00" x2="222.00" y2="163.00" stroke="#ffffff" stroke-width="1.00"/>
+<line id="mfa-0040" x1="198.00" y1="198.00" x2="233.00" y2="163.00" stroke="#ffffff" stroke-width="1.00"/>
+<line id="mfa-0041" x1="209.00" y1="198.00" x2="244.00" y2="163.00" stroke="#ffffff" stroke-width="1.00"/>
+<line id="mfa-0042" x1="220.00" y1="198.00" x2="255.00" y2="163.00" stroke="#ffffff" stroke-width="1.00"/>
+<line id="mfa-0043" x1="231.00" y1="198.00" x2="266.00" y2="163.00" stroke="#ffffff" stroke-width="1.00"/>
+<line id="mfa-0044" x1="242.00" y1="198.00" x2="277.00" y2="163.00" stroke="#ffffff" stroke-width="1.00"/>
+<line id="mfa-0045" x1="253.00" y1="198.00" x2="288.00" y2="163.00" stroke="#ffffff" stroke-width="1.00"/>
+<line id="mfa-0046" x1="264.00" y1="198.00" x2="299.00" y2="163.00" stroke="#ffffff" stroke-width="1.00"/>
+<line id="mfa-0047" x1="275.00" y1="198.00" x2="310.00" y2="163.00" stroke="#ffffff" stroke-width="1.00"/>
+<line id="mfa-0048" x1="286.00" y1="198.00" x2="321.00" y2="163.00" stroke="#ffffff" stroke-width="1.00"/>
+<line id="mfa-0049" x1="297.00" y1="198.00" x2="332.00" y2="163.00" stroke="#ffffff" stroke-width="1.00"/>
+<line id="mfa-0050" x1="308.00" y1="198.00" x2="343.00" y2="163.00" stroke="#ffffff" stroke-width="1.00"/>
+<line id="mfa-0051" x1="319.00" y1="198.00" x2="354.00" y2="163.00" stroke="#ffffff" stroke-width="1.00"/>
+<line id="mfa-0052" x1="330.00" y1="198.00" x2="365.00" y2="163.00" stroke="#ffffff" stroke-width="1.00"/>
+<line id="mfa-0053" x1="341.00" y1="198.00" x2="368.00" y2="163.00" stroke="#ffffff" stroke-width="1.00"/>
+<line id="mfa-0054" x1="352.00" y1="198.00" x2="368.00" y2="163.00" stroke="#ffffff" stroke-width="1.00"/>
+<line id="mfa-0055" x1="363.00" y1="198.00" x2="368.00" y2="163.00" stroke="#ffffff" stroke-width="1.00"/>
+<text id="mfa-0056" x="267.00" y="180.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="18.00px" font-weight="400" font-style="normal" fill="#111111">Truncate</text>
+<rect id="mfa-0057" x="514.00" y="162.00" width="385.00" height="39.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="1.00" opacity="1.000"/>
+<polyline id="mfa-0058" points="520.00,169.90 527.12,173.85 534.23,180.26 541.35,185.83 548.46,185.39 555.58,184.38 562.69,181.98 569.81,178.48 576.92,174.01 584.04,173.56 591.15,179.81 598.27,187.30 605.38,189.54 612.50,182.99 619.62,176.12 626.73,173.09 633.85,177.28 640.96,180.52 648.08,183.79 655.19,183.56 662.31,185.06 669.42,181.74 676.54,178.30 683.65,173.02 690.77,176.22 697.88,181.27 705.00,188.05 712.12,185.42 719.23,181.58 726.35,175.67 733.46,177.12 740.58,177.49 747.69,181.11 754.81,181.22 761.92,184.93 769.04,183.75 776.15,182.33 783.27,175.76 790.38,175.34 797.50,177.08 804.62,184.12 811.73,185.02 818.85,184.30 825.96,179.18 833.08,178.63 840.19,177.29 847.31,179.13 854.42,179.06 861.54,182.61 868.65,183.87 875.77,184.45 882.88,179.63 890.00,176.67" fill="none" stroke="#6c63ff" stroke-width="1.30" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="mfa-0059" x="531.00" y="162.00" width="167.00" height="39.00" rx="0.00" fill="#d0d0d0" stroke="none" stroke-width="1.20" opacity="0.750"/>
+<line id="mfa-0060" x1="532.00" y1="198.00" x2="567.00" y2="163.00" stroke="#ffffff" stroke-width="1.00"/>
+<line id="mfa-0061" x1="543.00" y1="198.00" x2="578.00" y2="163.00" stroke="#ffffff" stroke-width="1.00"/>
+<line id="mfa-0062" x1="554.00" y1="198.00" x2="589.00" y2="163.00" stroke="#ffffff" stroke-width="1.00"/>
+<line id="mfa-0063" x1="565.00" y1="198.00" x2="600.00" y2="163.00" stroke="#ffffff" stroke-width="1.00"/>
+<line id="mfa-0064" x1="576.00" y1="198.00" x2="611.00" y2="163.00" stroke="#ffffff" stroke-width="1.00"/>
+<line id="mfa-0065" x1="587.00" y1="198.00" x2="622.00" y2="163.00" stroke="#ffffff" stroke-width="1.00"/>
+<line id="mfa-0066" x1="598.00" y1="198.00" x2="633.00" y2="163.00" stroke="#ffffff" stroke-width="1.00"/>
+<line id="mfa-0067" x1="609.00" y1="198.00" x2="644.00" y2="163.00" stroke="#ffffff" stroke-width="1.00"/>
+<line id="mfa-0068" x1="620.00" y1="198.00" x2="655.00" y2="163.00" stroke="#ffffff" stroke-width="1.00"/>
+<line id="mfa-0069" x1="631.00" y1="198.00" x2="666.00" y2="163.00" stroke="#ffffff" stroke-width="1.00"/>
+<line id="mfa-0070" x1="642.00" y1="198.00" x2="677.00" y2="163.00" stroke="#ffffff" stroke-width="1.00"/>
+<line id="mfa-0071" x1="653.00" y1="198.00" x2="688.00" y2="163.00" stroke="#ffffff" stroke-width="1.00"/>
+<line id="mfa-0072" x1="664.00" y1="198.00" x2="699.00" y2="163.00" stroke="#ffffff" stroke-width="1.00"/>
+<line id="mfa-0073" x1="675.00" y1="198.00" x2="699.00" y2="163.00" stroke="#ffffff" stroke-width="1.00"/>
+<line id="mfa-0074" x1="686.00" y1="198.00" x2="699.00" y2="163.00" stroke="#ffffff" stroke-width="1.00"/>
+<line id="mfa-0075" x1="697.00" y1="198.00" x2="699.00" y2="163.00" stroke="#ffffff" stroke-width="1.00"/>
+<text id="mfa-0076" x="618.50" y="180.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="18.00px" font-weight="400" font-style="normal" fill="#111111">Truncate</text>
+<line id="mfa-0077" x1="220.00" y1="202.00" x2="220.00" y2="231.00" stroke="#ed7d31" stroke-width="3.30" marker-end="url(#arrow)"/>
+<line id="mfa-0078" x1="700.00" y1="202.00" x2="700.00" y2="231.00" stroke="#ed7d31" stroke-width="3.30" marker-end="url(#arrow)"/>
+<text id="mfa-0079" x="181.00" y="212.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="17.00px" font-weight="400" font-style="italic" fill="#ed7d31">iFFT</text>
+<text id="mfa-0080" x="756.00" y="212.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="17.00px" font-weight="400" font-style="italic" fill="#ed7d31">iFFT</text>
+<text id="mfa-0081" x="456.50" y="217.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="18.00px" font-weight="400" font-style="normal" fill="#111111">Hybrid Frequency Input x_aug with Raw Input x_e</text>
+<rect id="mfa-0082" x="33.00" y="236.00" width="868.00" height="51.00" rx="0.00" fill="#d7d7d7" stroke="none" stroke-width="1.20" opacity="1.000"/>
+<rect id="mfa-0083" x="43.00" y="242.00" width="201.00" height="39.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="1.00" opacity="1.000"/>
+<polyline id="mfa-0084" points="48.00,258.41 54.82,252.28 61.64,267.87 68.46,266.58 75.29,260.13 82.11,253.35 88.93,270.57 95.75,268.66 102.57,252.38 109.39,263.15 116.21,268.58 123.04,266.75 129.86,253.26 136.68,262.87 143.50,274.54 150.32,256.79 157.14,257.83 163.96,265.13 170.79,270.39 177.61,257.31 184.43,253.62 191.25,272.95 198.07,262.67 204.89,255.07 211.71,258.63 218.54,268.65 225.36,263.86 232.18,248.12 239.00,265.36" fill="none" stroke="#44546a" stroke-width="1.00" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="mfa-0085" x="253.00" y="242.00" width="202.00" height="39.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="1.00" opacity="1.000"/>
+<polyline id="mfa-0086" points="258.00,249.18 264.86,262.08 271.71,267.32 278.57,263.19 285.43,252.88 292.29,261.56 299.14,273.93 306.00,255.19 312.86,257.36 319.71,266.78 326.57,268.94 333.43,258.19 340.29,254.69 347.14,274.55 354.00,263.80 360.86,255.46 367.71,262.48 374.57,269.82 381.43,265.55 388.29,250.54 395.14,267.90 402.00,269.92 408.86,256.87 415.71,257.29 422.57,264.77 429.43,270.91 436.29,251.57 443.14,257.75 450.00,270.56" fill="none" stroke="#44546a" stroke-width="1.00" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="mfa-0087" x="464.00" y="242.00" width="201.00" height="39.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="1.00" opacity="1.000"/>
+<polyline id="mfa-0088" points="469.00,253.86 475.82,266.25 482.64,265.21 489.46,257.09 496.29,252.54 503.11,272.06 509.93,263.52 516.75,252.38 523.57,262.86 530.39,268.01 537.21,265.04 544.04,251.04 550.86,266.53 557.68,271.92 564.50,256.03 571.32,259.09 578.14,265.99 584.96,271.49 591.79,254.69 598.61,257.95 605.43,273.99 612.25,261.85 619.07,257.08 625.89,260.01 632.71,272.21 639.54,261.62 646.36,250.74 653.18,268.90 660.00,266.20" fill="none" stroke="#44546a" stroke-width="1.00" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="mfa-0089" x="674.00" y="242.00" width="216.00" height="39.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="1.00" opacity="1.000"/>
+<polyline id="mfa-0090" points="679.00,261.89 686.10,265.97 693.21,263.28 700.31,251.86 707.41,260.76 714.52,274.55 721.62,257.75 728.72,256.55 735.83,265.35 742.93,269.89 750.03,262.28 757.14,250.67 764.24,268.52 771.34,268.32 778.45,253.74 785.55,256.14 792.66,262.54 799.76,268.80 806.86,252.69 813.97,253.08 821.07,271.20 828.17,262.87 835.28,256.56 842.38,257.67 849.48,269.76 856.59,269.27 863.69,251.01 870.79,263.32 877.90,270.79 885.00,262.10" fill="none" stroke="#44546a" stroke-width="1.00" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g id="prompting">
+<text id="prompting-0091" x="480.00" y="336.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="26.00px" font-weight="700" font-style="normal" fill="#111111">Multi-Domain Prompting</text>
+<text id="prompting-0092" x="168.00" y="366.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="16.00px" font-weight="400" font-style="italic" fill="#8d8d8d">Norm &amp; Patchify</text>
+<rect id="prompting-0093" x="42.00" y="381.00" width="255.00" height="51.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="1.00" opacity="1.000" stroke-dasharray="4 3"/>
+<rect id="prompting-0094" x="47.00" y="388.00" width="28.00" height="35.00" rx="0.00" fill="#ffffff" stroke="#cccccc" stroke-width="1.00" opacity="1.000"/>
+<polyline id="prompting-0095" points="52.00,405.50 52.64,396.21 53.29,410.34 53.93,410.60 54.57,405.37 55.21,398.27 55.86,411.39 56.50,414.04 57.14,397.81 57.79,405.64 58.43,411.64 59.07,410.82 59.71,399.48 60.36,404.17 61.00,417.63 61.64,402.84 62.29,401.21 62.93,408.05 63.57,413.03 64.21,403.87 64.86,396.86 65.50,414.41 66.14,408.30 66.79,399.53 67.43,402.39 68.07,410.45 68.71,409.50 69.36,393.75 70.00,406.63" fill="none" stroke="#111111" stroke-width="1.00" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="prompting-0096" x="82.00" y="388.00" width="28.00" height="35.00" rx="0.00" fill="#ffffff" stroke="#cccccc" stroke-width="1.00" opacity="1.000"/>
+<polyline id="prompting-0097" points="87.00,399.10 87.64,399.82 88.29,411.56 88.93,409.10 89.57,402.42 90.21,399.34 90.86,415.90 91.50,407.98 92.14,397.96 92.79,408.46 93.43,411.87 94.07,408.50 94.71,397.20 95.36,410.58 96.00,414.91 96.64,399.96 97.29,403.78 97.93,409.76 98.57,413.12 99.21,398.97 99.86,402.00 100.50,416.14 101.14,404.23 101.79,400.47 102.43,404.10 103.07,413.43 103.71,404.19 104.36,394.97 105.00,411.57" fill="none" stroke="#111111" stroke-width="1.00" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="prompting-0098" x="117.00" y="388.00" width="28.00" height="35.00" rx="0.00" fill="#ffffff" stroke="#cccccc" stroke-width="1.00" opacity="1.000"/>
+<polyline id="prompting-0099" points="122.00,395.20 122.64,404.39 123.29,411.05 123.93,407.69 124.57,399.07 125.21,403.35 125.86,417.10 126.50,401.87 127.14,400.54 127.79,409.85 128.43,412.10 129.07,404.48 129.71,398.14 130.36,415.77 131.00,409.74 131.64,399.72 132.29,405.74 132.93,411.92 133.57,410.73 134.21,396.06 134.86,408.65 135.50,414.32 136.14,401.85 136.79,401.46 137.43,406.91 138.07,414.31 138.71,398.54 139.36,399.73 140.00,413.54" fill="none" stroke="#111111" stroke-width="1.00" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="prompting-0100" x="152.00" y="388.00" width="28.00" height="35.00" rx="0.00" fill="#ffffff" stroke="#cccccc" stroke-width="1.00" opacity="1.000"/>
+<polyline id="prompting-0101" points="157.00,395.02 157.64,407.93 158.29,409.92 158.93,405.62 159.57,396.78 160.21,409.06 160.86,414.26 161.50,397.99 162.14,403.81 162.79,410.47 163.43,411.58 164.07,399.84 164.71,402.48 165.36,417.58 166.00,404.50 166.64,401.21 167.29,407.24 167.93,413.94 168.57,405.99 169.21,396.79 169.86,414.13 170.50,410.42 171.14,401.25 171.79,402.34 172.43,410.75 173.07,411.97 173.71,395.10 174.36,406.00 175.00,412.62" fill="none" stroke="#111111" stroke-width="1.00" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="prompting-0102" x="187.00" y="388.00" width="28.00" height="35.00" rx="0.00" fill="#ffffff" stroke="#cccccc" stroke-width="1.00" opacity="1.000"/>
+<polyline id="prompting-0103" points="192.00,397.98 192.64,409.56 193.29,408.94 193.93,402.38 194.57,397.15 195.21,414.08 195.86,408.56 196.50,397.28 197.14,406.33 197.79,411.07 198.43,409.32 199.07,396.61 199.71,408.68 200.36,415.47 201.00,401.08 201.64,403.05 202.29,409.01 202.93,414.47 203.57,400.50 204.21,401.19 204.86,416.45 205.50,406.46 206.14,401.54 206.79,403.76 207.43,414.38 208.07,406.82 208.71,395.48 209.36,411.25 210.00,410.16" fill="none" stroke="#111111" stroke-width="1.00" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="prompting-0104" x="222.00" y="388.00" width="28.00" height="35.00" rx="0.00" fill="#ffffff" stroke="#cccccc" stroke-width="1.00" opacity="1.000"/>
+<polyline id="prompting-0105" points="227.00,402.22 227.64,409.66 228.29,407.92 228.93,398.52 229.57,400.76 230.21,416.08 230.86,402.38 231.50,399.07 232.14,407.74 232.79,411.75 233.43,405.05 234.07,396.58 234.71,414.14 235.36,410.67 236.00,400.07 236.64,404.47 237.29,411.42 237.93,412.34 238.57,396.64 239.21,407.49 239.86,415.27 240.50,403.83 241.14,401.84 241.79,406.52 242.43,415.95 243.07,400.84 243.71,399.55 244.36,413.82 245.00,407.71" fill="none" stroke="#111111" stroke-width="1.00" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="prompting-0106" x="257.00" y="388.00" width="28.00" height="35.00" rx="0.00" fill="#ffffff" stroke="#cccccc" stroke-width="1.00" opacity="1.000"/>
+<polyline id="prompting-0107" points="262.00,405.84 262.64,409.23 263.29,406.06 263.93,395.58 264.57,406.54 265.21,414.08 265.86,398.07 266.50,401.77 267.14,408.62 267.79,411.66 268.43,399.84 269.07,400.21 269.71,416.56 270.36,405.41 271.00,400.72 271.64,405.65 272.29,413.85 272.93,407.50 273.57,396.31 274.21,413.08 274.86,411.82 275.50,402.70 276.14,402.07 276.79,410.56 277.43,414.14 278.07,396.64 278.71,405.44 279.36,413.59 280.00,406.03" fill="none" stroke="#111111" stroke-width="1.00" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="prompting-0108" x1="298.00" y1="407.00" x2="359.00" y2="407.00" stroke="#111111" stroke-width="1.20" marker-end="url(#arrow)"/>
+<text id="prompting-0109" x="440.50" y="365.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="16.00px" font-weight="400" font-style="italic" fill="#8d8d8d">Projection</text>
+<rect id="prompting-0110" x="360.00" y="382.00" width="148.00" height="45.00" rx="8.00" fill="#f7caad" stroke="none" stroke-width="1.20" opacity="1.000"/>
+<text id="prompting-0111" x="432.00" y="404.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="19.00px" font-weight="400" font-style="normal" fill="#111111">Linear</text>
+<ellipse id="prompting-0112" cx="485.20" cy="402.00" rx="8.20" ry="7.00" fill="#ed7d31" stroke="none" stroke-width="1.20"/>
+<ellipse id="prompting-0113" cx="485.40" cy="402.90" rx="3.40" ry="4.30" fill="#ffc000" stroke="none" stroke-width="1.20"/>
+<line id="prompting-0114" x1="485.40" y1="389.00" x2="480.00" y2="399.40" stroke="#ed7d31" stroke-width="3.10"/>
+<line id="prompting-0115" x1="509.00" y1="407.00" x2="579.00" y2="407.00" stroke="#111111" stroke-width="1.20" marker-end="url(#arrow)"/>
+<rect id="prompting-0116" x="579.00" y="363.00" width="322.00" height="77.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="1.00" opacity="1.000" stroke-dasharray="4 3"/>
+<rect id="prompting-0117" x="590.00" y="372.00" width="20.00" height="58.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="prompting-0118" x="594.00" y="378.00" width="12.00" height="10.00" rx="0.00" fill="#ffc000" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="prompting-0119" x="594.00" y="396.00" width="12.00" height="10.00" rx="0.00" fill="#4472c4" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="prompting-0120" x="594.00" y="414.00" width="12.00" height="10.00" rx="0.00" fill="#70ad47" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="prompting-0121" x="627.00" y="372.00" width="20.00" height="58.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="prompting-0122" x="631.00" y="378.00" width="12.00" height="10.00" rx="0.00" fill="#ffc000" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="prompting-0123" x="631.00" y="396.00" width="12.00" height="10.00" rx="0.00" fill="#4472c4" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="prompting-0124" x="631.00" y="414.00" width="12.00" height="10.00" rx="0.00" fill="#70ad47" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="prompting-0125" x="664.00" y="372.00" width="20.00" height="58.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="prompting-0126" x="668.00" y="378.00" width="12.00" height="10.00" rx="0.00" fill="#ffc000" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="prompting-0127" x="668.00" y="396.00" width="12.00" height="10.00" rx="0.00" fill="#4472c4" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="prompting-0128" x="668.00" y="414.00" width="12.00" height="10.00" rx="0.00" fill="#70ad47" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="prompting-0129" x="701.00" y="372.00" width="20.00" height="58.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="prompting-0130" x="705.00" y="378.00" width="12.00" height="10.00" rx="0.00" fill="#ffc000" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="prompting-0131" x="705.00" y="396.00" width="12.00" height="10.00" rx="0.00" fill="#4472c4" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="prompting-0132" x="705.00" y="414.00" width="12.00" height="10.00" rx="0.00" fill="#70ad47" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="prompting-0133" x="738.00" y="372.00" width="20.00" height="58.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="prompting-0134" x="742.00" y="378.00" width="12.00" height="10.00" rx="0.00" fill="#ffc000" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="prompting-0135" x="742.00" y="396.00" width="12.00" height="10.00" rx="0.00" fill="#4472c4" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="prompting-0136" x="742.00" y="414.00" width="12.00" height="10.00" rx="0.00" fill="#70ad47" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="prompting-0137" x="775.00" y="372.00" width="20.00" height="58.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="prompting-0138" x="779.00" y="378.00" width="12.00" height="10.00" rx="0.00" fill="#ffc000" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="prompting-0139" x="779.00" y="396.00" width="12.00" height="10.00" rx="0.00" fill="#4472c4" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="prompting-0140" x="779.00" y="414.00" width="12.00" height="10.00" rx="0.00" fill="#70ad47" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="prompting-0141" x="812.00" y="372.00" width="20.00" height="58.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="prompting-0142" x="816.00" y="378.00" width="12.00" height="10.00" rx="0.00" fill="#ffc000" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="prompting-0143" x="816.00" y="396.00" width="12.00" height="10.00" rx="0.00" fill="#4472c4" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="prompting-0144" x="816.00" y="414.00" width="12.00" height="10.00" rx="0.00" fill="#70ad47" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="prompting-0145" x="849.00" y="372.00" width="20.00" height="58.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="prompting-0146" x="853.00" y="378.00" width="12.00" height="10.00" rx="0.00" fill="#ffc000" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="prompting-0147" x="853.00" y="396.00" width="12.00" height="10.00" rx="0.00" fill="#4472c4" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="prompting-0148" x="853.00" y="414.00" width="12.00" height="10.00" rx="0.00" fill="#70ad47" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<text id="prompting-0149" x="629.50" y="401.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="20.00px" font-weight="400" font-style="normal" fill="#111111">…</text>
+<text id="prompting-0150" x="520.50" y="450.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="18.00px" font-weight="400" font-style="normal" fill="#ed7d31">Discrete Prompt Tokens</text>
+<ellipse id="prompting-0151" cx="647.50" cy="453.50" rx="10.50" ry="10.50" fill="#ffffff" stroke="#111111" stroke-width="1.00"/>
+<text id="prompting-0152" x="647.50" y="453.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="20.00px" font-weight="400" font-style="normal" fill="#111111">+</text>
+<text id="prompting-0153" x="770.50" y="450.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="18.00px" font-weight="400" font-style="normal" fill="#4472c4">Continuous Input Tokens  x_e</text>
+<text id="prompting-0154" x="246.50" y="458.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="16.00px" font-weight="400" font-style="italic" fill="#8d8d8d">Top-k Similarity &amp; Softmax Calculation</text>
+<rect id="prompting-0155" x="32.00" y="476.00" width="46.00" height="104.00" rx="7.00" fill="#f7caad" stroke="none" stroke-width="1.20" opacity="1.000"/>
+<text id="prompting-0156" x="55.00" y="519.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="18.00px" font-weight="400" font-style="normal" fill="#111111" transform="rotate(270 55.00 519.50)">Projection</text>
+<ellipse id="prompting-0157" cx="64.38" cy="561.70" rx="7.38" ry="6.30" fill="#ed7d31" stroke="none" stroke-width="1.20"/>
+<ellipse id="prompting-0158" cx="64.56" cy="562.51" rx="3.06" ry="3.87" fill="#ffc000" stroke="none" stroke-width="1.20"/>
+<line id="prompting-0159" x1="64.56" y1="550.00" x2="59.70" y2="559.36" stroke="#ed7d31" stroke-width="3.10"/>
+<line id="prompting-0160" x1="78.00" y1="507.00" x2="113.00" y2="507.00" stroke="#111111" stroke-width="1.20" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+<rect id="prompting-0161" x="115.00" y="483.00" width="22.00" height="46.00" rx="0.00" fill="#666666" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="prompting-0162" x="127.00" y="487.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="16.00px" font-weight="400" font-style="italic" fill="#111111">x_e</text>
+<ellipse id="prompting-0163" cx="154.00" cy="504.00" rx="11.00" ry="11.00" fill="#ffffff" stroke="#111111" stroke-width="1.00"/>
+<text id="prompting-0164" x="154.00" y="503.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="18.00px" font-weight="400" font-style="normal" fill="#111111">•</text>
+<rect id="prompting-0165" x="174.00" y="483.00" width="21.00" height="43.00" rx="0.00" fill="#e58b8b" stroke="#111111" stroke-width="0.80" opacity="1.000"/>
+<text id="prompting-0166" x="184.50" y="485.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="italic" fill="#111111">p1</text>
+<rect id="prompting-0167" x="206.00" y="483.00" width="21.00" height="43.00" rx="0.00" fill="#f29b9b" stroke="#111111" stroke-width="0.80" opacity="1.000"/>
+<text id="prompting-0168" x="216.50" y="485.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="italic" fill="#111111">p2</text>
+<rect id="prompting-0169" x="238.00" y="483.00" width="21.00" height="43.00" rx="0.00" fill="#dd7f7f" stroke="#111111" stroke-width="0.80" opacity="1.000"/>
+<text id="prompting-0170" x="248.50" y="485.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="italic" fill="#111111">p3</text>
+<rect id="prompting-0171" x="270.00" y="483.00" width="21.00" height="43.00" rx="0.00" fill="#e98b8b" stroke="#111111" stroke-width="0.80" opacity="1.000"/>
+<text id="prompting-0172" x="280.50" y="485.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="italic" fill="#111111">p4</text>
+<rect id="prompting-0173" x="302.00" y="483.00" width="21.00" height="43.00" rx="0.00" fill="#e47676" stroke="#111111" stroke-width="0.80" opacity="1.000"/>
+<text id="prompting-0174" x="312.50" y="485.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="italic" fill="#111111">p5</text>
+<rect id="prompting-0175" x="334.00" y="483.00" width="21.00" height="43.00" rx="0.00" fill="#f09a9a" stroke="#111111" stroke-width="0.80" opacity="1.000"/>
+<text id="prompting-0176" x="344.50" y="485.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="italic" fill="#111111">p6</text>
+<rect id="prompting-0177" x="366.00" y="483.00" width="21.00" height="43.00" rx="0.00" fill="#df6e6e" stroke="#111111" stroke-width="0.80" opacity="1.000"/>
+<text id="prompting-0178" x="376.50" y="485.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="italic" fill="#111111">p7</text>
+<rect id="prompting-0179" x="398.00" y="483.00" width="21.00" height="43.00" rx="0.00" fill="#e88787" stroke="#111111" stroke-width="0.80" opacity="1.000"/>
+<text id="prompting-0180" x="408.50" y="485.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="italic" fill="#111111">p8</text>
+<rect id="prompting-0181" x="171.00" y="473.00" width="58.00" height="62.00" rx="0.00" fill="none" stroke="#c00000" stroke-width="1.00" opacity="1.000" stroke-dasharray="4 3"/>
+<text id="prompting-0182" x="200.00" y="544.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="16.00px" font-weight="400" font-style="italic" fill="#111111">α1</text>
+<rect id="prompting-0183" x="234.00" y="473.00" width="92.00" height="62.00" rx="0.00" fill="none" stroke="#c00000" stroke-width="1.00" opacity="1.000" stroke-dasharray="4 3"/>
+<text id="prompting-0184" x="280.00" y="544.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="16.00px" font-weight="400" font-style="italic" fill="#111111">α2</text>
+<rect id="prompting-0185" x="332.00" y="473.00" width="86.00" height="62.00" rx="0.00" fill="none" stroke="#c00000" stroke-width="1.00" opacity="1.000" stroke-dasharray="4 3"/>
+<text id="prompting-0186" x="375.00" y="544.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="16.00px" font-weight="400" font-style="italic" fill="#111111">α3</text>
+<line id="prompting-0187" x1="421.00" y1="506.00" x2="482.00" y2="506.00" stroke="#111111" stroke-width="1.20" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+<ellipse id="prompting-0188" cx="420.97" cy="533.05" rx="6.97" ry="5.95" fill="#ed7d31" stroke="none" stroke-width="1.20"/>
+<ellipse id="prompting-0189" cx="421.14" cy="533.81" rx="2.89" ry="3.65" fill="#ffc000" stroke="none" stroke-width="1.20"/>
+<line id="prompting-0190" x1="421.14" y1="522.00" x2="416.55" y2="530.84" stroke="#ed7d31" stroke-width="3.10"/>
+<text id="prompting-0191" x="426.50" y="552.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="16.00px" font-weight="400" font-style="italic" fill="#111111">Patchify</text>
+<rect id="prompting-0192" x="482.00" y="475.00" width="99.00" height="76.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="1.00" opacity="1.000" stroke-dasharray="4 3"/>
+<rect id="prompting-0193" x="491.00" y="483.00" width="20.00" height="58.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="prompting-0194" x="495.00" y="489.00" width="12.00" height="10.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="prompting-0195" x="495.00" y="507.00" width="12.00" height="10.00" rx="0.00" fill="#44546a" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="prompting-0196" x="495.00" y="525.00" width="12.00" height="10.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="prompting-0197" x="522.00" y="483.00" width="20.00" height="58.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="prompting-0198" x="526.00" y="489.00" width="12.00" height="10.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="prompting-0199" x="526.00" y="507.00" width="12.00" height="10.00" rx="0.00" fill="#44546a" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="prompting-0200" x="526.00" y="525.00" width="12.00" height="10.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="prompting-0201" x="553.00" y="483.00" width="20.00" height="58.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="prompting-0202" x="557.00" y="489.00" width="12.00" height="10.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="prompting-0203" x="557.00" y="507.00" width="12.00" height="10.00" rx="0.00" fill="#44546a" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="prompting-0204" x="557.00" y="525.00" width="12.00" height="10.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<text id="prompting-0205" x="529.50" y="563.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="17.00px" font-weight="400" font-style="italic" fill="#c00000">x_p</text>
+<line id="prompting-0206" x1="647.00" y1="464.00" x2="647.00" y2="502.00" stroke="#111111" stroke-width="1.20" marker-end="url(#arrow)"/>
+<text id="prompting-0207" x="616.50" y="486.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="16.00px" font-weight="400" font-style="italic" fill="#8d8d8d">Concat</text>
+<text id="prompting-0208" x="823.00" y="481.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="19.00px" font-weight="400" font-style="normal" fill="#c00000">Contextual Input</text>
+<rect id="prompting-0209" x="600.00" y="500.00" width="301.00" height="55.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="1.00" opacity="1.000" stroke-dasharray="4 3"/>
+<rect id="prompting-0210" x="606.00" y="508.00" width="27.00" height="37.00" rx="7.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="prompting-0211" x="619.50" y="526.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#111111">*1</text>
+<rect id="prompting-0212" x="641.00" y="508.00" width="27.00" height="37.00" rx="7.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="prompting-0213" x="654.50" y="526.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#111111">…</text>
+<rect id="prompting-0214" x="676.00" y="508.00" width="27.00" height="37.00" rx="7.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="prompting-0215" x="689.50" y="526.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#111111">*N</text>
+<rect id="prompting-0216" x="711.00" y="508.00" width="27.00" height="37.00" rx="7.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="prompting-0217" x="724.50" y="526.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#111111">*0</text>
+<rect id="prompting-0218" x="746.00" y="508.00" width="27.00" height="37.00" rx="7.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="prompting-0219" x="759.50" y="526.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#111111">*1</text>
+<rect id="prompting-0220" x="781.00" y="508.00" width="27.00" height="37.00" rx="7.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="prompting-0221" x="794.50" y="526.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#111111">*2</text>
+<rect id="prompting-0222" x="816.00" y="508.00" width="27.00" height="37.00" rx="7.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="prompting-0223" x="829.50" y="526.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#111111">…</text>
+<rect id="prompting-0224" x="851.00" y="508.00" width="27.00" height="37.00" rx="7.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="prompting-0225" x="864.50" y="526.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#111111">*L</text>
+<text id="prompting-0226" x="839.00" y="565.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="17.00px" font-weight="400" font-style="italic" fill="#c00000">x_ctx</text>
+<line id="prompting-0227" x1="760.00" y1="555.00" x2="760.00" y2="656.00" stroke="#8d8d8d" stroke-width="1.20" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+</g>
+<g id="pretraining">
+<text id="pretraining-0228" x="465.00" y="633.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="26.00px" font-weight="700" font-style="normal" fill="#111111">Multi-Task Pretraining</text>
+<text id="pretraining-0229" x="28.00" y="691.50" text-anchor="start" dominant-baseline="middle" font-family="Liberation Serif" font-size="18.00px" font-weight="400" font-style="normal" fill="#111111">Encoder</text>
+<text id="pretraining-0230" x="28.00" y="774.50" text-anchor="start" dominant-baseline="middle" font-family="Liberation Serif" font-size="18.00px" font-weight="400" font-style="normal" fill="#111111">Decoder</text>
+<rect id="pretraining-0231" x="113.00" y="659.00" width="739.00" height="32.00" rx="6.00" fill="#e2f0d9" stroke="#111111" stroke-width="1.10" opacity="1.000"/>
+<ellipse id="pretraining-0232" cx="130.38" cy="675.70" rx="7.38" ry="6.30" fill="#ed7d31" stroke="none" stroke-width="1.20"/>
+<ellipse id="pretraining-0233" cx="130.56" cy="676.51" rx="3.06" ry="3.87" fill="#ffc000" stroke="none" stroke-width="1.20"/>
+<line id="pretraining-0234" x1="130.56" y1="664.00" x2="125.70" y2="673.36" stroke="#ed7d31" stroke-width="3.10"/>
+<text id="pretraining-0235" x="543.00" y="675.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="18.00px" font-weight="400" font-style="normal" fill="#111111">Multi-Head Attention</text>
+<rect id="pretraining-0236" x="113.00" y="699.00" width="739.00" height="32.00" rx="6.00" fill="#eaedf2" stroke="#111111" stroke-width="1.10" opacity="1.000"/>
+<ellipse id="pretraining-0237" cx="130.38" cy="715.70" rx="7.38" ry="6.30" fill="#ed7d31" stroke="none" stroke-width="1.20"/>
+<ellipse id="pretraining-0238" cx="130.56" cy="716.51" rx="3.06" ry="3.87" fill="#ffc000" stroke="none" stroke-width="1.20"/>
+<line id="pretraining-0239" x1="130.56" y1="704.00" x2="125.70" y2="713.36" stroke="#ed7d31" stroke-width="3.10"/>
+<text id="pretraining-0240" x="543.00" y="715.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="18.00px" font-weight="400" font-style="normal" fill="#111111">Feed Forward Network</text>
+<rect id="pretraining-0241" x="113.00" y="746.00" width="739.00" height="32.00" rx="6.00" fill="#e2f0d9" stroke="#111111" stroke-width="1.10" opacity="1.000"/>
+<ellipse id="pretraining-0242" cx="130.38" cy="762.70" rx="7.38" ry="6.30" fill="#ed7d31" stroke="none" stroke-width="1.20"/>
+<ellipse id="pretraining-0243" cx="130.56" cy="763.51" rx="3.06" ry="3.87" fill="#ffc000" stroke="none" stroke-width="1.20"/>
+<line id="pretraining-0244" x1="130.56" y1="751.00" x2="125.70" y2="760.36" stroke="#ed7d31" stroke-width="3.10"/>
+<text id="pretraining-0245" x="543.00" y="762.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="18.00px" font-weight="400" font-style="normal" fill="#111111">Multi-Head Attention</text>
+<rect id="pretraining-0246" x="113.00" y="786.00" width="739.00" height="32.00" rx="6.00" fill="#eaedf2" stroke="#111111" stroke-width="1.10" opacity="1.000"/>
+<ellipse id="pretraining-0247" cx="130.38" cy="802.70" rx="7.38" ry="6.30" fill="#ed7d31" stroke="none" stroke-width="1.20"/>
+<ellipse id="pretraining-0248" cx="130.56" cy="803.51" rx="3.06" ry="3.87" fill="#ffc000" stroke="none" stroke-width="1.20"/>
+<line id="pretraining-0249" x1="130.56" y1="791.00" x2="125.70" y2="800.36" stroke="#ed7d31" stroke-width="3.10"/>
+<text id="pretraining-0250" x="543.00" y="802.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="18.00px" font-weight="400" font-style="normal" fill="#111111">Feed Forward Network</text>
+<line id="pretraining-0251" x1="483.00" y1="731.00" x2="483.00" y2="745.00" stroke="#111111" stroke-width="1.20" marker-end="url(#arrow)"/>
+<line id="pretraining-0252" x1="862.00" y1="660.00" x2="862.00" y2="733.00" stroke="#111111" stroke-width="1.20"/>
+<line id="pretraining-0253" x1="855.00" y1="660.00" x2="862.00" y2="660.00" stroke="#111111" stroke-width="1.20"/>
+<line id="pretraining-0254" x1="855.00" y1="733.00" x2="862.00" y2="733.00" stroke="#111111" stroke-width="1.20"/>
+<text id="pretraining-0255" x="898.00" y="698.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="17.00px" font-weight="400" font-style="normal" fill="#111111">x N</text>
+<line id="pretraining-0256" x1="862.00" y1="747.00" x2="862.00" y2="820.00" stroke="#111111" stroke-width="1.20"/>
+<line id="pretraining-0257" x1="855.00" y1="747.00" x2="862.00" y2="747.00" stroke="#111111" stroke-width="1.20"/>
+<line id="pretraining-0258" x1="855.00" y1="820.00" x2="862.00" y2="820.00" stroke="#111111" stroke-width="1.20"/>
+<text id="pretraining-0259" x="898.00" y="785.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="17.00px" font-weight="400" font-style="normal" fill="#111111">x N</text>
+<line id="pretraining-0260" x1="485.00" y1="819.00" x2="264.00" y2="842.00" stroke="#111111" stroke-width="1.20" marker-end="url(#arrow)"/>
+<line id="pretraining-0261" x1="485.00" y1="819.00" x2="716.00" y2="842.00" stroke="#111111" stroke-width="1.20" marker-end="url(#arrow)"/>
+<text id="pretraining-0262" x="23.00" y="858.50" text-anchor="start" dominant-baseline="middle" font-family="Liberation Serif" font-size="16.00px" font-weight="400" font-style="normal" fill="#c00000">self-supervised</text>
+<text id="pretraining-0263" x="847.00" y="858.50" text-anchor="start" dominant-baseline="middle" font-family="Liberation Serif" font-size="16.00px" font-weight="400" font-style="normal" fill="#c00000">supervised</text>
+<rect id="pretraining-0264" x="136.00" y="840.00" width="261.00" height="43.00" rx="8.00" fill="#c5e0b5" stroke="#70ad47" stroke-width="1.00" opacity="1.000"/>
+<ellipse id="pretraining-0265" cx="151.97" cy="861.05" rx="6.97" ry="5.95" fill="#ed7d31" stroke="none" stroke-width="1.20"/>
+<ellipse id="pretraining-0266" cx="152.14" cy="861.81" rx="2.89" ry="3.65" fill="#ffc000" stroke="none" stroke-width="1.20"/>
+<line id="pretraining-0267" x1="152.14" y1="850.00" x2="147.55" y2="858.84" stroke="#ed7d31" stroke-width="3.10"/>
+<text id="pretraining-0268" x="269.50" y="861.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="18.00px" font-weight="400" font-style="normal" fill="#111111">Recover Head</text>
+<text id="pretraining-0269" x="431.50" y="863.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="17.00px" font-weight="400" font-style="italic" fill="#c00000">x_aug</text>
+<rect id="pretraining-0270" x="583.00" y="840.00" width="261.00" height="43.00" rx="8.00" fill="#c5e0b5" stroke="#70ad47" stroke-width="1.00" opacity="1.000"/>
+<text id="pretraining-0271" x="717.50" y="861.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="18.00px" font-weight="400" font-style="normal" fill="#111111">Prediction Head</text>
+<ellipse id="pretraining-0272" cx="815.97" cy="861.05" rx="6.97" ry="5.95" fill="#ed7d31" stroke="none" stroke-width="1.20"/>
+<ellipse id="pretraining-0273" cx="816.14" cy="861.81" rx="2.89" ry="3.65" fill="#ffc000" stroke="none" stroke-width="1.20"/>
+<line id="pretraining-0274" x1="816.14" y1="850.00" x2="811.55" y2="858.84" stroke="#ed7d31" stroke-width="3.10"/>
+<text id="pretraining-0275" x="564.00" y="863.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="17.00px" font-weight="400" font-style="italic" fill="#c00000">x_ctx</text>
+<polygon id="pretraining-0276" points="136.00,884.00 264.00,900.00 397.00,884.00" fill="#c1ccc8" stroke="none" stroke-width="1.20" stroke-linejoin="round" stroke-linecap="round"/>
+<polygon id="pretraining-0277" points="583.00,884.00 713.00,900.00 844.00,884.00" fill="#c1ccc8" stroke="none" stroke-width="1.20" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="pretraining-0278" x="34.00" y="902.00" width="219.00" height="68.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="1.00" opacity="1.000"/>
+<polyline id="pretraining-0279" points="39.00,930.19 46.21,918.47 53.41,948.09 60.62,948.04 67.83,937.50 75.03,921.50 82.24,945.68 89.45,957.42 96.66,920.62 103.86,928.48 111.07,944.14 118.28,944.62 125.48,925.45 132.69,915.96 139.90,952.55 147.10,939.68 154.31,917.68 161.52,932.20 168.72,945.24 175.93,948.41 183.14,918.73 190.34,933.56 197.55,960.49 204.76,934.74 211.97,927.41 219.17,934.73 226.38,953.18 233.59,938.95 240.79,911.64 248.00,943.26" fill="none" stroke="#44546a" stroke-width="1.00" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline id="pretraining-0280" points="38.00,911.00 45.00,908.43 52.00,912.83 59.00,911.67 66.00,908.73 73.00,913.48 80.00,909.99 87.00,909.48 94.00,912.96 101.00,911.93 108.00,907.54 115.00,913.80 122.00,910.34 129.00,910.15 136.00,912.16 143.00,911.51 150.00,907.71 157.00,914.60 164.00,910.34 171.00,909.36 178.00,911.98 185.00,911.93 192.00,908.51 199.00,913.92 206.00,909.99 213.00,909.04 220.00,913.17 227.00,911.67 234.00,908.39 241.00,912.87 248.00,911.00" fill="none" stroke="#44546a" stroke-width="0.90" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline id="pretraining-0281" points="38.00,923.32 45.00,925.60 52.00,927.50 59.00,925.75 66.00,924.40 73.00,929.16 80.00,923.02 87.00,926.22 94.00,928.10 101.00,925.19 108.00,923.91 115.00,929.02 122.00,924.09 129.00,926.02 136.00,927.85 143.00,924.27 150.00,924.89 157.00,929.15 164.00,924.44 171.00,924.70 178.00,928.34 185.00,924.37 192.00,925.89 199.00,928.01 206.00,924.41 213.00,924.41 220.00,929.62 227.00,923.88 234.00,925.64 241.00,927.26 248.00,925.38" fill="none" stroke="#44546a" stroke-width="0.90" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline id="pretraining-0282" points="38.00,937.56 45.00,942.05 52.00,942.19 59.00,939.36 66.00,941.69 73.00,942.46 80.00,938.05 87.00,942.20 94.00,943.13 101.00,938.19 108.00,941.70 115.00,942.19 122.00,939.36 129.00,941.59 136.00,942.95 143.00,937.38 150.00,942.82 157.00,942.27 164.00,939.38 171.00,940.52 178.00,943.37 185.00,937.86 192.00,943.22 199.00,941.47 206.00,938.98 213.00,940.97 220.00,944.00 227.00,937.79 234.00,942.31 241.00,941.57 248.00,939.39" fill="none" stroke="#44546a" stroke-width="0.90" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline id="pretraining-0283" points="38.00,953.85 45.00,957.36 52.00,956.75 59.00,953.58 66.00,958.96 73.00,954.74 80.00,954.45 87.00,957.71 94.00,957.26 101.00,952.60 108.00,958.76 115.00,955.06 122.00,955.21 129.00,957.42 136.00,956.51 143.00,952.59 150.00,959.34 157.00,955.62 164.00,954.41 171.00,957.12 178.00,956.46 185.00,953.73 192.00,958.89 199.00,955.38 206.00,953.58 213.00,958.28 220.00,956.44 227.00,953.94 234.00,957.58 241.00,956.07 248.00,953.73" fill="none" stroke="#44546a" stroke-width="0.90" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="pretraining-0284" x="265.00" y="902.00" width="202.00" height="68.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="1.00" opacity="1.000"/>
+<polyline id="pretraining-0285" points="270.00,923.47 276.86,945.04 283.71,942.57 290.57,926.05 297.43,920.46 304.29,957.03 311.14,937.06 318.00,919.49 324.86,939.23 331.71,948.54 338.57,940.96 345.43,916.00 352.29,947.98 359.14,953.65 366.00,925.10 372.86,932.11 379.71,945.41 386.57,954.12 393.43,921.30 400.29,931.99 407.14,959.22 414.00,935.39 420.86,927.84 427.71,934.25 434.57,957.06 441.43,933.61 448.29,917.28 455.14,951.27 462.00,943.73" fill="none" stroke="#44546a" stroke-width="1.00" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="pretraining-0286" x="531.00" y="902.00" width="372.00" height="68.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="1.00" opacity="1.000"/>
+<polyline id="pretraining-0287" points="536.00,913.04 543.10,929.76 550.20,940.79 557.29,951.09 564.39,942.50 571.49,944.24 578.59,929.14 585.69,922.48 592.78,917.63 599.88,939.63 606.98,956.64 614.08,954.79 621.18,933.65 628.27,916.51 635.37,923.88 642.47,932.42 649.57,945.54 656.67,943.35 663.76,950.80 670.86,937.48 677.96,926.57 685.06,912.20 692.16,929.37 699.25,949.75 706.35,958.91 713.45,943.23 720.55,924.13 727.65,922.84 734.75,925.99 741.84,937.65 748.94,939.56 756.04,953.60 763.14,946.09 770.24,934.87 777.33,911.85 784.43,920.61 791.53,939.50 798.63,957.61 805.73,949.94 812.82,933.55 819.92,926.49 827.02,923.57 834.12,930.09 841.22,932.33 848.31,951.44 855.41,952.23 862.51,945.25 869.61,916.85 876.71,915.81 883.80,928.57 890.90,951.60 898.00,952.00" fill="none" stroke="#44546a" stroke-width="1.00" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline id="pretraining-0288" points="537.00,928.73 543.43,936.93 549.86,940.17 556.29,926.49 562.71,945.28 569.14,928.84 575.57,936.49 582.00,940.36 588.43,927.06 594.86,943.83 601.29,930.79 607.71,934.79 614.14,940.98 620.57,928.03 627.00,941.33 633.43,934.15 639.86,931.63 646.29,942.86 652.71,928.07 659.14,939.39 665.57,937.29 672.00,928.37 678.43,945.19 684.86,927.29 691.29,938.64 697.71,938.98 704.14,926.61 710.57,946.31 717.00,927.10" fill="none" stroke="#70ad47" stroke-width="2.50" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<g id="stmf">
+<text id="stmf-0289" x="1435.00" y="35.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="26.00px" font-weight="700" font-style="normal" fill="#111111">Spatio-Temporal Metadata Fusion (STMF)</text>
+<rect id="stmf-0290" x="980.00" y="64.00" width="343.00" height="47.00" rx="0.00" fill="#ffffff" stroke="#cfcfcf" stroke-width="1.00" opacity="1.000"/>
+<polyline id="stmf-0291" points="985.00,81.82 992.09,74.03 999.17,79.22 1006.26,95.24 1013.34,94.41 1020.43,93.76 1027.51,89.02 1034.60,80.59 1041.68,77.66 1048.77,80.31 1055.85,99.50 1062.94,101.33 1070.02,88.71 1077.11,76.64 1084.19,75.79 1091.28,89.61 1098.36,91.44 1105.45,95.56 1112.53,93.87 1119.62,85.25 1126.70,77.24 1133.79,74.51 1140.87,93.93 1147.96,101.80 1155.04,94.92 1162.13,81.60 1169.21,75.42 1176.30,84.95 1183.38,86.64 1190.47,94.38 1197.55,97.17 1204.64,91.26 1211.72,79.99 1218.81,70.77 1225.89,87.19 1232.98,99.01 1240.06,98.96 1247.15,87.45 1254.23,78.01 1261.32,82.57 1268.40,81.56 1275.49,90.55 1282.57,97.75 1289.66,96.99 1296.74,85.33 1303.83,70.11 1310.91,80.98 1318.00,93.72" fill="none" stroke="#70ad47" stroke-width="1.00" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="stmf-0292" x="1137.50" y="83.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="17.00px" font-weight="400" font-style="normal" fill="#111111">Region 1</text>
+<rect id="stmf-0293" x="1013.00" y="91.00" width="346.00" height="48.00" rx="0.00" fill="#ffffff" stroke="#cfcfcf" stroke-width="1.00" opacity="1.000"/>
+<polyline id="stmf-0294" points="1018.00,99.28 1025.00,110.38 1032.00,118.12 1039.00,125.26 1046.00,119.53 1053.00,118.38 1060.00,110.08 1067.00,101.78 1074.00,109.29 1081.00,121.38 1088.00,132.87 1095.00,118.14 1102.00,105.84 1109.00,103.42 1116.00,111.41 1123.00,120.63 1130.00,119.79 1137.00,124.97 1144.00,116.16 1151.00,106.95 1158.00,100.63 1165.00,111.70 1172.00,129.62 1179.00,126.08 1186.00,116.39 1193.00,103.25 1200.00,108.15 1207.00,112.33 1214.00,116.77 1221.00,124.88 1228.00,123.14 1235.00,116.85 1242.00,99.41 1249.00,103.76 1256.00,118.33 1263.00,128.65 1270.00,124.56 1277.00,109.89 1284.00,109.45 1291.00,106.36 1298.00,112.10 1305.00,117.79 1312.00,126.68 1319.00,125.88 1326.00,107.22 1333.00,101.14 1340.00,105.76 1347.00,124.35 1354.00,126.25" fill="none" stroke="#ed7d31" stroke-width="1.00" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="stmf-0295" x="1170.50" y="110.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="17.00px" font-weight="400" font-style="normal" fill="#111111">Region 2</text>
+<rect id="stmf-0296" x="1048.00" y="118.00" width="345.00" height="45.00" rx="0.00" fill="#ffffff" stroke="#cfcfcf" stroke-width="1.00" opacity="1.000"/>
+<polyline id="stmf-0297" points="1053.00,133.78 1060.13,147.13 1067.26,145.84 1074.38,147.52 1081.51,142.55 1088.64,133.75 1095.77,129.84 1102.89,134.20 1110.02,153.13 1117.15,152.76 1124.28,141.10 1131.40,130.30 1138.53,130.69 1145.66,141.95 1152.79,142.91 1159.91,148.98 1167.04,147.27 1174.17,138.43 1181.30,129.35 1188.43,128.51 1195.55,147.88 1202.68,153.41 1209.81,146.90 1216.94,134.80 1224.06,130.46 1231.19,137.73 1238.32,138.30 1245.45,147.57 1252.57,150.45 1259.70,144.40 1266.83,131.92 1273.96,124.77 1281.09,141.48 1288.21,150.98 1295.34,150.67 1302.47,140.12 1309.60,133.01 1316.72,135.71 1323.85,133.47 1330.98,143.65 1338.11,150.99 1345.23,150.09 1352.36,136.99 1359.49,123.97 1366.62,135.56 1373.74,146.19 1380.87,151.58 1388.00,144.69" fill="none" stroke="#5b9bd5" stroke-width="1.00" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="stmf-0298" x="1205.50" y="137.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="17.00px" font-weight="400" font-style="normal" fill="#111111">Region 3</text>
+<polyline id="stmf-0299" points="1000.00,72.00 976.00,87.00 972.00,101.00 989.00,108.00" fill="none" stroke="#a9a9a9" stroke-width="6.00" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline id="stmf-0300" points="1000.00,106.00 976.00,121.00 972.00,135.00 989.00,142.00" fill="none" stroke="#a9a9a9" stroke-width="6.00" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="stmf-0301" x="1438.50" y="97.16" text-anchor="middle" font-family="Liberation Serif" font-size="17.00px" font-weight="400" font-style="italic" fill="#111111">
+<tspan x="1438.50" dy="0">Norm &amp;</tspan>
+<tspan x="1438.50" dy="17.85">Patchify</tspan>
+</text>
+<line id="stmf-0302" x1="1369.00" y1="111.00" x2="1487.00" y2="111.00" stroke="#111111" stroke-width="1.20" marker-end="url(#arrow)"/>
+<rect id="stmf-0303" x="1495.00" y="66.00" width="28.00" height="23.00" rx="0.00" fill="#ffffff" stroke="none" stroke-width="1.20" opacity="1.000"/>
+<polyline id="stmf-0304" points="1498.00,77.50 1498.79,74.57 1499.57,72.69 1500.36,72.08 1501.14,72.10 1501.93,72.04 1502.71,71.93 1503.50,72.48 1504.29,74.19 1505.07,76.73 1505.86,79.03 1506.64,80.23 1507.43,80.38 1508.21,80.30 1509.00,80.67 1509.79,81.38 1510.57,81.64 1511.36,80.94 1512.14,79.60 1512.93,78.54 1513.71,78.35 1514.50,78.69 1515.29,78.62 1516.07,77.54 1516.86,75.80 1517.64,74.32 1518.43,73.72 1519.21,73.74 1520.00,73.63" fill="none" stroke="#a9d18e" stroke-width="1.10" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="stmf-0305" x="1534.00" y="66.00" width="28.00" height="23.00" rx="0.00" fill="#ffffff" stroke="none" stroke-width="1.20" opacity="1.000"/>
+<polyline id="stmf-0306" points="1537.00,72.75 1537.79,70.96 1538.57,70.74 1539.36,71.83 1540.14,73.28 1540.93,74.34 1541.71,75.09 1542.50,76.21 1543.29,78.05 1544.07,80.12 1544.86,81.45 1545.64,81.50 1546.43,80.72 1547.21,80.08 1548.00,80.18 1548.79,80.67 1549.57,80.70 1550.36,79.82 1551.14,78.49 1551.93,77.56 1552.71,77.38 1553.50,77.42 1554.29,76.79 1555.07,75.19 1555.86,73.30 1556.64,72.16 1557.43,72.24 1558.21,73.09 1559.00,73.91" fill="none" stroke="#a9d18e" stroke-width="1.10" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="stmf-0307" x="1573.00" y="66.00" width="28.00" height="23.00" rx="0.00" fill="#ffffff" stroke="none" stroke-width="1.20" opacity="1.000"/>
+<polyline id="stmf-0308" points="1576.00,70.99 1576.79,71.00 1577.57,72.48 1578.36,74.77 1579.14,76.77 1579.93,77.84 1580.71,78.34 1581.50,79.03 1582.29,80.24 1583.07,81.43 1583.86,81.78 1584.64,81.05 1585.43,79.92 1586.21,79.34 1587.00,79.60 1587.79,80.08 1588.57,79.85 1589.36,78.64 1590.14,77.05 1590.93,75.93 1591.71,75.50 1592.50,75.19 1593.29,74.27 1594.07,72.79 1594.86,71.61 1595.64,71.69 1596.43,73.18 1597.21,75.29 1598.00,77.12" fill="none" stroke="#a9d18e" stroke-width="1.10" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="stmf-0309" x="1612.00" y="66.00" width="28.00" height="23.00" rx="0.00" fill="#ffffff" stroke="none" stroke-width="1.20" opacity="1.000"/>
+<polyline id="stmf-0310" points="1615.00,72.75 1615.79,73.98 1616.57,76.17 1617.36,78.47 1618.14,79.87 1618.93,80.10 1619.71,79.83 1620.50,79.95 1621.29,80.65 1622.07,81.32 1622.86,81.20 1623.64,80.24 1624.43,79.17 1625.21,78.79 1626.00,79.06 1626.79,79.18 1627.57,78.31 1628.36,76.49 1629.14,74.56 1629.93,73.42 1630.71,73.17 1631.50,73.17 1632.29,72.85 1633.07,72.40 1633.86,72.69 1634.64,74.36 1635.43,77.11 1636.21,79.86 1637.00,81.68" fill="none" stroke="#a9d18e" stroke-width="1.10" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="stmf-0311" x="1651.00" y="66.00" width="28.00" height="23.00" rx="0.00" fill="#ffffff" stroke="none" stroke-width="1.20" opacity="1.000"/>
+<polyline id="stmf-0312" points="1654.00,76.03 1654.79,77.37 1655.57,79.22 1656.36,80.72 1657.14,81.12 1657.93,80.53 1658.71,79.83 1659.50,79.83 1660.29,80.50 1661.07,81.01 1661.86,80.64 1662.64,79.47 1663.43,78.30 1664.21,77.74 1665.00,77.60 1665.79,77.05 1666.57,75.55 1667.36,73.47 1668.14,71.88 1668.93,71.55 1669.71,72.36 1670.50,73.49 1671.29,74.36 1672.07,75.20 1672.86,76.71 1673.64,79.20 1674.43,82.00 1675.21,83.97 1676.00,84.42" fill="none" stroke="#a9d18e" stroke-width="1.10" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="stmf-0313" x="1690.00" y="66.00" width="28.00" height="23.00" rx="0.00" fill="#ffffff" stroke="none" stroke-width="1.20" opacity="1.000"/>
+<polyline id="stmf-0314" points="1693.00,78.44 1693.79,79.31 1694.57,80.54 1695.36,81.31 1696.14,81.08 1696.93,80.19 1697.71,79.56 1698.50,79.75 1699.29,80.41 1700.07,80.57 1700.86,79.62 1701.64,77.89 1702.43,76.30 1703.21,75.41 1704.00,74.94 1704.79,74.16 1705.57,72.79 1706.36,71.46 1707.14,71.19 1707.93,72.46 1708.71,74.73 1709.50,76.97 1710.29,78.57 1711.07,79.81 1711.86,81.30 1712.64,83.15 1713.43,84.62 1714.21,84.74 1715.00,83.25" fill="none" stroke="#a9d18e" stroke-width="1.10" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="stmf-0315" x="1495.00" y="96.00" width="28.00" height="23.00" rx="0.00" fill="#ffffff" stroke="none" stroke-width="1.20" opacity="1.000"/>
+<polyline id="stmf-0316" points="1498.00,101.32 1498.79,100.51 1499.57,101.28 1500.36,103.15 1501.14,105.05 1501.93,106.26 1502.71,106.99 1503.50,107.96 1504.29,109.50 1505.07,111.08 1505.86,111.83 1506.64,111.38 1507.43,110.33 1508.21,109.67 1509.00,109.84 1509.79,110.34 1510.57,110.26 1511.36,109.25 1512.14,107.82 1512.93,106.81 1513.71,106.50 1514.50,106.31 1515.29,105.44 1516.07,103.78 1516.86,102.15 1517.64,101.57 1518.43,102.35 1519.21,103.89 1520.00,105.31" fill="none" stroke="#f4a77d" stroke-width="1.10" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="stmf-0317" x="1534.00" y="96.00" width="28.00" height="23.00" rx="0.00" fill="#ffffff" stroke="none" stroke-width="1.20" opacity="1.000"/>
+<polyline id="stmf-0318" points="1537.00,101.59 1537.79,102.39 1538.57,104.40 1539.36,106.84 1540.14,108.63 1540.93,109.31 1541.71,109.39 1542.50,109.73 1543.29,110.61 1544.07,111.46 1544.86,111.49 1545.64,110.59 1546.43,109.49 1547.21,109.04 1548.00,109.36 1548.79,109.70 1549.57,109.18 1550.36,107.64 1551.14,105.83 1551.93,104.62 1552.71,104.20 1553.50,103.94 1554.29,103.22 1555.07,102.20 1555.86,101.77 1556.64,102.73 1557.43,104.99 1558.21,107.60 1559.00,109.60" fill="none" stroke="#f4a77d" stroke-width="1.10" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="stmf-0319" x="1573.00" y="96.00" width="28.00" height="23.00" rx="0.00" fill="#ffffff" stroke="none" stroke-width="1.20" opacity="1.000"/>
+<polyline id="stmf-0320" points="1576.00,104.50 1576.79,105.92 1577.57,108.01 1578.36,109.92 1579.14,110.78 1579.93,110.51 1580.71,109.94 1581.50,109.92 1582.29,110.57 1583.07,111.14 1583.86,110.90 1584.64,109.86 1585.43,108.78 1586.21,108.36 1587.00,108.45 1587.79,108.20 1588.57,106.94 1589.36,104.88 1590.14,103.01 1590.93,102.18 1591.71,102.40 1592.50,102.94 1593.29,103.25 1594.07,103.53 1594.86,104.59 1595.64,106.86 1596.43,109.83 1597.21,112.35 1598.00,113.57" fill="none" stroke="#f4a77d" stroke-width="1.10" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="stmf-0321" x="1612.00" y="96.00" width="28.00" height="23.00" rx="0.00" fill="#ffffff" stroke="none" stroke-width="1.20" opacity="1.000"/>
+<polyline id="stmf-0322" points="1615.00,107.53 1615.79,108.63 1616.57,110.12 1617.36,111.18 1618.14,111.18 1618.93,110.36 1619.71,109.66 1620.50,109.77 1621.29,110.47 1622.07,110.85 1622.86,110.22 1623.64,108.79 1624.43,107.40 1625.21,106.64 1626.00,106.26 1626.79,105.48 1627.57,103.92 1628.36,102.11 1629.14,101.12 1629.93,101.61 1630.71,103.22 1631.50,105.03 1632.29,106.43 1633.07,107.65 1633.86,109.34 1634.64,111.65 1635.43,113.87 1636.21,114.91 1637.00,114.29" fill="none" stroke="#f4a77d" stroke-width="1.10" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="stmf-0323" x="1651.00" y="96.00" width="28.00" height="23.00" rx="0.00" fill="#ffffff" stroke="none" stroke-width="1.20" opacity="1.000"/>
+<polyline id="stmf-0324" points="1654.00,109.06 1654.79,109.74 1655.57,110.77 1656.36,111.33 1657.14,110.95 1657.93,110.04 1658.71,109.47 1659.50,109.68 1660.29,110.14 1661.07,109.90 1661.86,108.49 1662.64,106.43 1663.43,104.70 1664.21,103.83 1665.00,103.50 1665.79,103.00 1666.57,102.13 1667.36,101.57 1668.14,102.24 1668.93,104.36 1669.71,107.19 1670.50,109.59 1671.29,111.05 1672.07,111.91 1672.86,112.84 1673.64,113.89 1674.43,114.36 1675.21,113.47 1676.00,111.20" fill="none" stroke="#f4a77d" stroke-width="1.10" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="stmf-0325" x="1690.00" y="96.00" width="28.00" height="23.00" rx="0.00" fill="#ffffff" stroke="none" stroke-width="1.20" opacity="1.000"/>
+<polyline id="stmf-0326" points="1693.00,109.46 1693.79,110.11 1694.57,111.05 1695.36,111.38 1696.14,110.73 1696.93,109.63 1697.71,108.89 1698.50,108.72 1699.29,108.50 1700.07,107.39 1700.86,105.31 1701.64,103.08 1702.43,101.76 1703.21,101.72 1704.00,102.40 1704.79,103.05 1705.57,103.54 1706.36,104.47 1707.14,106.47 1707.93,109.37 1708.71,112.13 1709.50,113.71 1710.29,113.86 1711.07,113.25 1711.86,112.68 1712.64,112.21 1713.43,111.24 1714.21,109.25 1715.00,106.56" fill="none" stroke="#f4a77d" stroke-width="1.10" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="stmf-0327" x="1495.00" y="126.00" width="28.00" height="23.00" rx="0.00" fill="#ffffff" stroke="none" stroke-width="1.20" opacity="1.000"/>
+<polyline id="stmf-0328" points="1498.00,132.99 1498.79,134.26 1499.57,136.45 1500.36,138.71 1501.14,140.04 1501.93,140.19 1502.71,139.87 1503.50,139.96 1504.29,140.64 1505.07,141.29 1505.86,141.15 1506.64,140.18 1507.43,139.12 1508.21,138.74 1509.00,139.00 1509.79,139.06 1510.57,138.14 1511.36,136.27 1512.14,134.33 1512.93,133.22 1513.71,133.02 1514.50,133.09 1515.29,132.84 1516.07,132.50 1516.86,132.91 1517.64,134.68 1518.43,137.49 1519.21,140.24 1520.00,141.99" fill="none" stroke="#8fb7e8" stroke-width="1.10" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="stmf-0329" x="1534.00" y="126.00" width="28.00" height="23.00" rx="0.00" fill="#ffffff" stroke="none" stroke-width="1.20" opacity="1.000"/>
+<polyline id="stmf-0330" points="1537.00,136.27 1537.79,137.58 1538.57,139.38 1539.36,140.81 1540.14,141.15 1540.93,140.51 1541.71,139.80 1542.50,139.82 1543.29,140.49 1544.07,141.00 1544.86,140.59 1545.64,139.40 1546.43,138.19 1547.21,137.61 1548.00,137.43 1548.79,136.84 1549.57,135.31 1550.36,133.25 1551.14,131.72 1551.93,131.50 1552.71,132.42 1553.50,133.65 1554.29,134.61 1555.07,135.53 1555.86,137.09 1556.64,139.58 1557.43,142.32 1558.21,144.18 1559.00,144.48" fill="none" stroke="#8fb7e8" stroke-width="1.10" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="stmf-0331" x="1573.00" y="126.00" width="28.00" height="23.00" rx="0.00" fill="#ffffff" stroke="none" stroke-width="1.20" opacity="1.000"/>
+<polyline id="stmf-0332" points="1576.00,138.56 1576.79,139.39 1577.57,140.58 1578.36,141.32 1579.14,141.06 1579.93,140.16 1580.71,139.54 1581.50,139.75 1582.29,140.39 1583.07,140.50 1583.86,139.49 1584.64,137.71 1585.43,136.09 1586.21,135.19 1587.00,134.72 1587.79,133.96 1588.57,132.64 1589.36,131.41 1590.14,131.28 1590.93,132.68 1591.71,135.05 1592.50,137.33 1593.29,138.94 1594.07,140.15 1594.86,141.58 1595.64,143.33 1596.43,144.66 1597.21,144.62 1598.00,143.01" fill="none" stroke="#8fb7e8" stroke-width="1.10" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="stmf-0333" x="1612.00" y="126.00" width="28.00" height="23.00" rx="0.00" fill="#ffffff" stroke="none" stroke-width="1.20" opacity="1.000"/>
+<polyline id="stmf-0334" points="1615.00,139.34 1615.79,139.95 1616.57,140.91 1617.36,141.35 1618.14,140.85 1618.93,139.89 1619.71,139.29 1620.50,139.35 1621.29,139.47 1622.07,138.75 1622.86,136.91 1623.64,134.65 1624.43,133.00 1625.21,132.44 1626.00,132.55 1626.79,132.60 1627.57,132.45 1628.36,132.74 1629.14,134.24 1629.93,136.96 1630.71,139.95 1631.50,142.09 1632.29,142.98 1633.07,143.13 1633.86,143.25 1634.64,143.43 1635.43,143.01 1636.21,141.36 1637.00,138.68" fill="none" stroke="#8fb7e8" stroke-width="1.10" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="stmf-0335" x="1651.00" y="126.00" width="28.00" height="23.00" rx="0.00" fill="#ffffff" stroke="none" stroke-width="1.20" opacity="1.000"/>
+<polyline id="stmf-0336" points="1654.00,139.61 1654.79,140.35 1655.57,141.23 1656.36,141.34 1657.14,140.39 1657.93,139.01 1658.71,138.01 1659.50,137.52 1660.29,136.94 1661.07,135.55 1661.86,133.45 1662.64,131.58 1663.43,130.94 1664.21,131.71 1665.00,133.19 1665.79,134.53 1666.57,135.62 1667.36,137.01 1668.14,139.22 1668.93,141.90 1669.71,144.01 1670.50,144.64 1671.29,143.79 1672.07,142.33 1672.86,141.10 1673.64,140.16 1674.43,138.89 1675.21,136.88 1676.00,134.52" fill="none" stroke="#8fb7e8" stroke-width="1.10" stroke-linejoin="round" stroke-linecap="round"/>
+<rect id="stmf-0337" x="1690.00" y="126.00" width="28.00" height="23.00" rx="0.00" fill="#ffffff" stroke="none" stroke-width="1.20" opacity="1.000"/>
+<polyline id="stmf-0338" points="1693.00,140.00 1693.79,140.67 1694.57,141.07 1695.36,140.35 1696.14,138.56 1696.93,136.53 1697.71,135.11 1698.50,134.39 1699.29,133.73 1700.07,132.62 1700.86,131.38 1701.64,130.97 1702.43,132.09 1703.21,134.48 1704.00,137.10 1704.79,139.06 1705.57,140.32 1706.36,141.48 1707.14,142.93 1707.93,144.25 1708.71,144.53 1709.50,143.25 1710.29,140.88 1711.07,138.54 1711.86,137.03 1712.64,136.19 1713.43,135.33 1714.21,134.04 1715.00,132.76" fill="none" stroke="#8fb7e8" stroke-width="1.10" stroke-linejoin="round" stroke-linecap="round"/>
+<line id="stmf-0339" x1="1735.00" y1="114.00" x2="1791.00" y2="114.00" stroke="#111111" stroke-width="1.20" marker-end="url(#arrow)"/>
+<rect id="stmf-0340" x="1792.00" y="70.00" width="44.00" height="85.00" rx="7.00" fill="#f7caad" stroke="none" stroke-width="1.20" opacity="1.000"/>
+<text id="stmf-0341" x="1813.50" y="109.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="17.00px" font-weight="400" font-style="normal" fill="#111111" transform="rotate(270 1813.50 109.00)">Linear</text>
+<line id="stmf-0342" x1="1806.00" y1="148.00" x2="1826.00" y2="148.00" stroke="#5b9bd5" stroke-width="1.50"/>
+<line id="stmf-0343" x1="1806.00" y1="148.00" x2="1809.19" y2="146.83" stroke="#5b9bd5" stroke-width="1.10"/>
+<line id="stmf-0344" x1="1806.00" y1="148.00" x2="1809.19" y2="149.17" stroke="#5b9bd5" stroke-width="1.10"/>
+<line id="stmf-0345" x1="1826.00" y1="148.00" x2="1822.81" y2="149.17" stroke="#5b9bd5" stroke-width="1.10"/>
+<line id="stmf-0346" x1="1826.00" y1="148.00" x2="1822.81" y2="146.83" stroke="#5b9bd5" stroke-width="1.10"/>
+<line id="stmf-0347" x1="1811.00" y1="139.34" x2="1821.00" y2="156.66" stroke="#5b9bd5" stroke-width="1.50"/>
+<line id="stmf-0348" x1="1811.00" y1="139.34" x2="1813.61" y2="141.52" stroke="#5b9bd5" stroke-width="1.10"/>
+<line id="stmf-0349" x1="1811.00" y1="139.34" x2="1811.59" y2="142.69" stroke="#5b9bd5" stroke-width="1.10"/>
+<line id="stmf-0350" x1="1821.00" y1="156.66" x2="1818.39" y2="154.48" stroke="#5b9bd5" stroke-width="1.10"/>
+<line id="stmf-0351" x1="1821.00" y1="156.66" x2="1820.41" y2="153.31" stroke="#5b9bd5" stroke-width="1.10"/>
+<line id="stmf-0352" x1="1821.00" y1="139.34" x2="1811.00" y2="156.66" stroke="#5b9bd5" stroke-width="1.50"/>
+<line id="stmf-0353" x1="1821.00" y1="139.34" x2="1820.41" y2="142.69" stroke="#5b9bd5" stroke-width="1.10"/>
+<line id="stmf-0354" x1="1821.00" y1="139.34" x2="1818.39" y2="141.52" stroke="#5b9bd5" stroke-width="1.10"/>
+<line id="stmf-0355" x1="1811.00" y1="156.66" x2="1811.59" y2="153.31" stroke="#5b9bd5" stroke-width="1.10"/>
+<line id="stmf-0356" x1="1811.00" y1="156.66" x2="1813.61" y2="154.48" stroke="#5b9bd5" stroke-width="1.10"/>
+<text id="stmf-0357" x="1863.50" y="99.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="17.00px" font-weight="400" font-style="italic" fill="#111111">H_t</text>
+<text id="stmf-0358" x="986.00" y="184.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="18.00px" font-weight="400" font-style="normal" fill="#111111">◷</text>
+<text id="stmf-0359" x="1018.00" y="184.50" text-anchor="start" dominant-baseline="middle" font-family="Liberation Serif" font-size="16.00px" font-weight="400" font-style="normal" fill="#111111">min-of-hour</text>
+<text id="stmf-0360" x="986.00" y="205.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="18.00px" font-weight="400" font-style="normal" fill="#111111">☼</text>
+<text id="stmf-0361" x="1018.00" y="205.50" text-anchor="start" dominant-baseline="middle" font-family="Liberation Serif" font-size="16.00px" font-weight="400" font-style="normal" fill="#111111">hour-of-day</text>
+<text id="stmf-0362" x="986.00" y="226.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="18.00px" font-weight="400" font-style="normal" fill="#111111">▣</text>
+<text id="stmf-0363" x="1018.00" y="226.50" text-anchor="start" dominant-baseline="middle" font-family="Liberation Serif" font-size="16.00px" font-weight="400" font-style="normal" fill="#111111">day-of-week</text>
+<text id="stmf-0364" x="986.00" y="247.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="18.00px" font-weight="400" font-style="normal" fill="#111111">⌖</text>
+<text id="stmf-0365" x="1018.00" y="247.50" text-anchor="start" dominant-baseline="middle" font-family="Liberation Serif" font-size="16.00px" font-weight="400" font-style="normal" fill="#111111">day-of-month</text>
+<text id="stmf-0366" x="1018.00" y="268.50" text-anchor="start" dominant-baseline="middle" font-family="Liberation Serif" font-size="16.00px" font-weight="400" font-style="normal" fill="#111111">coordinate</text>
+<text id="stmf-0367" x="1011.00" y="226.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="38.00px" font-weight="400" font-style="normal" fill="#111111">}</text>
+<rect id="stmf-0368" x="1129.00" y="181.00" width="18.00" height="18.00" rx="0.00" fill="#44546a" stroke="#111111" stroke-width="0.40" opacity="1.000"/>
+<rect id="stmf-0369" x="1149.00" y="181.00" width="18.00" height="18.00" rx="0.00" fill="#c6d3df" stroke="#111111" stroke-width="0.40" opacity="1.000"/>
+<rect id="stmf-0370" x="1169.00" y="181.00" width="18.00" height="18.00" rx="0.00" fill="#44546a" stroke="#111111" stroke-width="0.40" opacity="1.000"/>
+<rect id="stmf-0371" x="1189.00" y="181.00" width="18.00" height="18.00" rx="0.00" fill="#c6d3df" stroke="#111111" stroke-width="0.40" opacity="1.000"/>
+<rect id="stmf-0372" x="1209.00" y="181.00" width="18.00" height="18.00" rx="0.00" fill="#44546a" stroke="#111111" stroke-width="0.40" opacity="1.000"/>
+<rect id="stmf-0373" x="1129.00" y="201.00" width="18.00" height="18.00" rx="0.00" fill="#c6d3df" stroke="#111111" stroke-width="0.40" opacity="1.000"/>
+<rect id="stmf-0374" x="1149.00" y="201.00" width="18.00" height="18.00" rx="0.00" fill="#44546a" stroke="#111111" stroke-width="0.40" opacity="1.000"/>
+<rect id="stmf-0375" x="1169.00" y="201.00" width="18.00" height="18.00" rx="0.00" fill="#c6d3df" stroke="#111111" stroke-width="0.40" opacity="1.000"/>
+<rect id="stmf-0376" x="1189.00" y="201.00" width="18.00" height="18.00" rx="0.00" fill="#44546a" stroke="#111111" stroke-width="0.40" opacity="1.000"/>
+<rect id="stmf-0377" x="1209.00" y="201.00" width="18.00" height="18.00" rx="0.00" fill="#c6d3df" stroke="#111111" stroke-width="0.40" opacity="1.000"/>
+<rect id="stmf-0378" x="1129.00" y="221.00" width="18.00" height="18.00" rx="0.00" fill="#44546a" stroke="#111111" stroke-width="0.40" opacity="1.000"/>
+<rect id="stmf-0379" x="1149.00" y="221.00" width="18.00" height="18.00" rx="0.00" fill="#c6d3df" stroke="#111111" stroke-width="0.40" opacity="1.000"/>
+<rect id="stmf-0380" x="1169.00" y="221.00" width="18.00" height="18.00" rx="0.00" fill="#44546a" stroke="#111111" stroke-width="0.40" opacity="1.000"/>
+<rect id="stmf-0381" x="1189.00" y="221.00" width="18.00" height="18.00" rx="0.00" fill="#c6d3df" stroke="#111111" stroke-width="0.40" opacity="1.000"/>
+<rect id="stmf-0382" x="1209.00" y="221.00" width="18.00" height="18.00" rx="0.00" fill="#44546a" stroke="#111111" stroke-width="0.40" opacity="1.000"/>
+<rect id="stmf-0383" x="1129.00" y="241.00" width="18.00" height="18.00" rx="0.00" fill="#c6d3df" stroke="#111111" stroke-width="0.40" opacity="1.000"/>
+<rect id="stmf-0384" x="1149.00" y="241.00" width="18.00" height="18.00" rx="0.00" fill="#44546a" stroke="#111111" stroke-width="0.40" opacity="1.000"/>
+<rect id="stmf-0385" x="1169.00" y="241.00" width="18.00" height="18.00" rx="0.00" fill="#c6d3df" stroke="#111111" stroke-width="0.40" opacity="1.000"/>
+<rect id="stmf-0386" x="1189.00" y="241.00" width="18.00" height="18.00" rx="0.00" fill="#44546a" stroke="#111111" stroke-width="0.40" opacity="1.000"/>
+<rect id="stmf-0387" x="1209.00" y="241.00" width="18.00" height="18.00" rx="0.00" fill="#c6d3df" stroke="#111111" stroke-width="0.40" opacity="1.000"/>
+<rect id="stmf-0388" x="1129.00" y="261.00" width="18.00" height="18.00" rx="0.00" fill="#44546a" stroke="#111111" stroke-width="0.40" opacity="1.000"/>
+<rect id="stmf-0389" x="1149.00" y="261.00" width="18.00" height="18.00" rx="0.00" fill="#c6d3df" stroke="#111111" stroke-width="0.40" opacity="1.000"/>
+<rect id="stmf-0390" x="1169.00" y="261.00" width="18.00" height="18.00" rx="0.00" fill="#44546a" stroke="#111111" stroke-width="0.40" opacity="1.000"/>
+<rect id="stmf-0391" x="1189.00" y="261.00" width="18.00" height="18.00" rx="0.00" fill="#c6d3df" stroke="#111111" stroke-width="0.40" opacity="1.000"/>
+<rect id="stmf-0392" x="1209.00" y="261.00" width="18.00" height="18.00" rx="0.00" fill="#44546a" stroke="#111111" stroke-width="0.40" opacity="1.000"/>
+<text id="stmf-0393" x="1247.50" y="210.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="17.00px" font-weight="400" font-style="italic" fill="#111111">E_c</text>
+<text id="stmf-0394" x="1247.50" y="262.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="17.00px" font-weight="400" font-style="italic" fill="#111111">E_n</text>
+<rect id="stmf-0395" x="1264.00" y="187.00" width="104.00" height="38.00" rx="7.00" fill="#f7caad" stroke="none" stroke-width="1.20" opacity="1.000"/>
+<text id="stmf-0396" x="1310.50" y="205.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="18.00px" font-weight="400" font-style="normal" fill="#111111">Linear</text>
+<ellipse id="stmf-0397" cx="1346.97" cy="208.05" rx="6.97" ry="5.95" fill="#ed7d31" stroke="none" stroke-width="1.20"/>
+<ellipse id="stmf-0398" cx="1347.14" cy="208.81" rx="2.89" ry="3.65" fill="#ffc000" stroke="none" stroke-width="1.20"/>
+<line id="stmf-0399" x1="1347.14" y1="197.00" x2="1342.55" y2="205.84" stroke="#ed7d31" stroke-width="3.10"/>
+<rect id="stmf-0400" x="1264.00" y="240.00" width="104.00" height="38.00" rx="7.00" fill="#f7caad" stroke="none" stroke-width="1.20" opacity="1.000"/>
+<text id="stmf-0401" x="1310.50" y="258.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="18.00px" font-weight="400" font-style="normal" fill="#111111">Linear</text>
+<ellipse id="stmf-0402" cx="1346.97" cy="261.05" rx="6.97" ry="5.95" fill="#ed7d31" stroke="none" stroke-width="1.20"/>
+<ellipse id="stmf-0403" cx="1347.14" cy="261.81" rx="2.89" ry="3.65" fill="#ffc000" stroke="none" stroke-width="1.20"/>
+<line id="stmf-0404" x1="1347.14" y1="250.00" x2="1342.55" y2="258.84" stroke="#ed7d31" stroke-width="3.10"/>
+<rect id="stmf-0405" x="1382.00" y="174.00" width="43.00" height="111.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="1.00" opacity="1.000"/>
+<text id="stmf-0406" x="1403.50" y="230.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="16.00px" font-weight="400" font-style="normal" fill="#111111" transform="rotate(270 1403.50 230.00)">Concat</text>
+<line id="stmf-0407" x1="1368.00" y1="206.00" x2="1382.00" y2="206.00" stroke="#111111" stroke-width="1.20" marker-end="url(#arrow)"/>
+<line id="stmf-0408" x1="1368.00" y1="259.00" x2="1382.00" y2="259.00" stroke="#111111" stroke-width="1.20" marker-end="url(#arrow)"/>
+<line id="stmf-0409" x1="1425.00" y1="231.00" x2="1450.00" y2="231.00" stroke="#111111" stroke-width="1.20" marker-end="url(#arrow)"/>
+<text id="stmf-0410" x="1436.00" y="210.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="17.00px" font-weight="400" font-style="italic" fill="#111111">H_st</text>
+<rect id="stmf-0411" x="1455.00" y="176.00" width="18.00" height="45.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="stmf-0412" x="1459.00" y="182.00" width="10.00" height="10.00" rx="0.00" fill="#8064a2" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0413" x="1459.00" y="193.50" width="10.00" height="10.00" rx="0.00" fill="#e7a4a4" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0414" x="1459.00" y="205.00" width="10.00" height="10.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<text id="stmf-0415" x="1464.00" y="228.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="17.00px" font-weight="400" font-style="normal" fill="#111111">+</text>
+<rect id="stmf-0416" x="1455.00" y="236.00" width="18.00" height="45.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="stmf-0417" x="1459.00" y="242.00" width="10.00" height="10.00" rx="0.00" fill="#ffc000" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0418" x="1459.00" y="253.50" width="10.00" height="10.00" rx="0.00" fill="#4472c4" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0419" x="1459.00" y="265.00" width="10.00" height="10.00" rx="0.00" fill="#70ad47" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0420" x="1490.00" y="176.00" width="18.00" height="45.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="stmf-0421" x="1494.00" y="182.00" width="10.00" height="10.00" rx="0.00" fill="#8064a2" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0422" x="1494.00" y="193.50" width="10.00" height="10.00" rx="0.00" fill="#e7a4a4" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0423" x="1494.00" y="205.00" width="10.00" height="10.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<text id="stmf-0424" x="1499.00" y="228.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="17.00px" font-weight="400" font-style="normal" fill="#111111">+</text>
+<rect id="stmf-0425" x="1490.00" y="236.00" width="18.00" height="45.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="stmf-0426" x="1494.00" y="242.00" width="10.00" height="10.00" rx="0.00" fill="#ffc000" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0427" x="1494.00" y="253.50" width="10.00" height="10.00" rx="0.00" fill="#4472c4" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0428" x="1494.00" y="265.00" width="10.00" height="10.00" rx="0.00" fill="#70ad47" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0429" x="1525.00" y="176.00" width="18.00" height="45.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="stmf-0430" x="1529.00" y="182.00" width="10.00" height="10.00" rx="0.00" fill="#8064a2" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0431" x="1529.00" y="193.50" width="10.00" height="10.00" rx="0.00" fill="#e7a4a4" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0432" x="1529.00" y="205.00" width="10.00" height="10.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<text id="stmf-0433" x="1534.00" y="228.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="17.00px" font-weight="400" font-style="normal" fill="#111111">+</text>
+<rect id="stmf-0434" x="1525.00" y="236.00" width="18.00" height="45.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="stmf-0435" x="1529.00" y="242.00" width="10.00" height="10.00" rx="0.00" fill="#ffc000" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0436" x="1529.00" y="253.50" width="10.00" height="10.00" rx="0.00" fill="#4472c4" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0437" x="1529.00" y="265.00" width="10.00" height="10.00" rx="0.00" fill="#70ad47" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0438" x="1560.00" y="176.00" width="18.00" height="45.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="stmf-0439" x="1564.00" y="182.00" width="10.00" height="10.00" rx="0.00" fill="#8064a2" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0440" x="1564.00" y="193.50" width="10.00" height="10.00" rx="0.00" fill="#e7a4a4" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0441" x="1564.00" y="205.00" width="10.00" height="10.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<text id="stmf-0442" x="1569.00" y="228.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="17.00px" font-weight="400" font-style="normal" fill="#111111">+</text>
+<rect id="stmf-0443" x="1560.00" y="236.00" width="18.00" height="45.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="stmf-0444" x="1564.00" y="242.00" width="10.00" height="10.00" rx="0.00" fill="#ffc000" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0445" x="1564.00" y="253.50" width="10.00" height="10.00" rx="0.00" fill="#4472c4" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0446" x="1564.00" y="265.00" width="10.00" height="10.00" rx="0.00" fill="#70ad47" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0447" x="1595.00" y="176.00" width="18.00" height="45.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="stmf-0448" x="1599.00" y="182.00" width="10.00" height="10.00" rx="0.00" fill="#8064a2" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0449" x="1599.00" y="193.50" width="10.00" height="10.00" rx="0.00" fill="#e7a4a4" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0450" x="1599.00" y="205.00" width="10.00" height="10.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<text id="stmf-0451" x="1604.00" y="228.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="17.00px" font-weight="400" font-style="normal" fill="#111111">+</text>
+<rect id="stmf-0452" x="1595.00" y="236.00" width="18.00" height="45.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="stmf-0453" x="1599.00" y="242.00" width="10.00" height="10.00" rx="0.00" fill="#ffc000" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0454" x="1599.00" y="253.50" width="10.00" height="10.00" rx="0.00" fill="#4472c4" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0455" x="1599.00" y="265.00" width="10.00" height="10.00" rx="0.00" fill="#70ad47" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0456" x="1630.00" y="176.00" width="18.00" height="45.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="stmf-0457" x="1634.00" y="182.00" width="10.00" height="10.00" rx="0.00" fill="#8064a2" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0458" x="1634.00" y="193.50" width="10.00" height="10.00" rx="0.00" fill="#e7a4a4" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0459" x="1634.00" y="205.00" width="10.00" height="10.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<text id="stmf-0460" x="1639.00" y="228.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="17.00px" font-weight="400" font-style="normal" fill="#111111">+</text>
+<rect id="stmf-0461" x="1630.00" y="236.00" width="18.00" height="45.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="stmf-0462" x="1634.00" y="242.00" width="10.00" height="10.00" rx="0.00" fill="#ffc000" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0463" x="1634.00" y="253.50" width="10.00" height="10.00" rx="0.00" fill="#4472c4" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0464" x="1634.00" y="265.00" width="10.00" height="10.00" rx="0.00" fill="#70ad47" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0465" x="1665.00" y="176.00" width="18.00" height="45.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="stmf-0466" x="1669.00" y="182.00" width="10.00" height="10.00" rx="0.00" fill="#8064a2" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0467" x="1669.00" y="193.50" width="10.00" height="10.00" rx="0.00" fill="#e7a4a4" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0468" x="1669.00" y="205.00" width="10.00" height="10.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<text id="stmf-0469" x="1674.00" y="228.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="17.00px" font-weight="400" font-style="normal" fill="#111111">+</text>
+<rect id="stmf-0470" x="1665.00" y="236.00" width="18.00" height="45.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="stmf-0471" x="1669.00" y="242.00" width="10.00" height="10.00" rx="0.00" fill="#ffc000" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0472" x="1669.00" y="253.50" width="10.00" height="10.00" rx="0.00" fill="#4472c4" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0473" x="1669.00" y="265.00" width="10.00" height="10.00" rx="0.00" fill="#70ad47" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0474" x="1700.00" y="176.00" width="18.00" height="45.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="stmf-0475" x="1704.00" y="182.00" width="10.00" height="10.00" rx="0.00" fill="#8064a2" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0476" x="1704.00" y="193.50" width="10.00" height="10.00" rx="0.00" fill="#e7a4a4" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0477" x="1704.00" y="205.00" width="10.00" height="10.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<text id="stmf-0478" x="1709.00" y="228.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="17.00px" font-weight="400" font-style="normal" fill="#111111">+</text>
+<rect id="stmf-0479" x="1700.00" y="236.00" width="18.00" height="45.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="stmf-0480" x="1704.00" y="242.00" width="10.00" height="10.00" rx="0.00" fill="#ffc000" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0481" x="1704.00" y="253.50" width="10.00" height="10.00" rx="0.00" fill="#4472c4" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0482" x="1704.00" y="265.00" width="10.00" height="10.00" rx="0.00" fill="#70ad47" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0483" x="1735.00" y="176.00" width="18.00" height="45.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="stmf-0484" x="1739.00" y="182.00" width="10.00" height="10.00" rx="0.00" fill="#8064a2" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0485" x="1739.00" y="193.50" width="10.00" height="10.00" rx="0.00" fill="#e7a4a4" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0486" x="1739.00" y="205.00" width="10.00" height="10.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<text id="stmf-0487" x="1744.00" y="228.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="17.00px" font-weight="400" font-style="normal" fill="#111111">+</text>
+<rect id="stmf-0488" x="1735.00" y="236.00" width="18.00" height="45.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="stmf-0489" x="1739.00" y="242.00" width="10.00" height="10.00" rx="0.00" fill="#ffc000" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0490" x="1739.00" y="253.50" width="10.00" height="10.00" rx="0.00" fill="#4472c4" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0491" x="1739.00" y="265.00" width="10.00" height="10.00" rx="0.00" fill="#70ad47" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0492" x="1770.00" y="176.00" width="18.00" height="45.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="stmf-0493" x="1774.00" y="182.00" width="10.00" height="10.00" rx="0.00" fill="#8064a2" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0494" x="1774.00" y="193.50" width="10.00" height="10.00" rx="0.00" fill="#e7a4a4" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0495" x="1774.00" y="205.00" width="10.00" height="10.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<text id="stmf-0496" x="1779.00" y="228.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="17.00px" font-weight="400" font-style="normal" fill="#111111">+</text>
+<rect id="stmf-0497" x="1770.00" y="236.00" width="18.00" height="45.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="stmf-0498" x="1774.00" y="242.00" width="10.00" height="10.00" rx="0.00" fill="#ffc000" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0499" x="1774.00" y="253.50" width="10.00" height="10.00" rx="0.00" fill="#4472c4" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="stmf-0500" x="1774.00" y="265.00" width="10.00" height="10.00" rx="0.00" fill="#70ad47" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<text id="stmf-0501" x="1690.00" y="298.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="18.00px" font-weight="400" font-style="italic" fill="#111111">H_fused</text>
+<line id="stmf-0502" x1="1898.00" y1="114.00" x2="1898.00" y2="266.00" stroke="#111111" stroke-width="1.20"/>
+<line id="stmf-0503" x1="1836.00" y1="114.00" x2="1898.00" y2="114.00" stroke="#111111" stroke-width="1.20"/>
+<line id="stmf-0504" x1="1898.00" y1="266.00" x2="1804.00" y2="266.00" stroke="#111111" stroke-width="1.20" marker-end="url(#arrow)"/>
+<line id="stmf-0505" x1="1688.00" y1="290.00" x2="1688.00" y2="359.00" stroke="#8d8d8d" stroke-width="1.20" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+</g>
+<g id="stf">
+<text id="stf-0506" x="1440.00" y="335.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="26.00px" font-weight="700" font-style="normal" fill="#111111">Spatio-Temporal Filtering (STF)</text>
+<rect id="stf-0507" x="966.00" y="358.00" width="419.00" height="116.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="1.00" opacity="1.000" stroke-dasharray="4 3"/>
+<line id="stf-0508" x1="998.00" y1="374.00" x2="1034.00" y2="378.00" stroke="#111111" stroke-width="0.90"/>
+<line id="stf-0509" x1="998.00" y1="374.00" x2="981.00" y2="397.00" stroke="#111111" stroke-width="0.90"/>
+<line id="stf-0510" x1="998.00" y1="374.00" x2="1021.00" y2="402.00" stroke="#111111" stroke-width="0.90"/>
+<line id="stf-0511" x1="1034.00" y1="378.00" x2="1021.00" y2="402.00" stroke="#111111" stroke-width="0.90"/>
+<line id="stf-0512" x1="981.00" y1="397.00" x2="1021.00" y2="402.00" stroke="#111111" stroke-width="0.90"/>
+<line id="stf-0513" x1="981.00" y1="397.00" x2="1000.00" y2="430.00" stroke="#111111" stroke-width="0.90"/>
+<line id="stf-0514" x1="1021.00" y1="402.00" x2="1000.00" y2="430.00" stroke="#111111" stroke-width="0.90"/>
+<line id="stf-0515" x1="1021.00" y1="402.00" x2="1035.00" y2="437.00" stroke="#111111" stroke-width="0.90"/>
+<line id="stf-0516" x1="1000.00" y1="430.00" x2="1035.00" y2="437.00" stroke="#111111" stroke-width="0.90"/>
+<ellipse id="stf-0517" cx="998.00" cy="374.00" rx="6.00" ry="6.00" fill="#5b9bd5" stroke="#111111" stroke-width="0.70"/>
+<ellipse id="stf-0518" cx="1034.00" cy="378.00" rx="6.00" ry="6.00" fill="#5b9bd5" stroke="#111111" stroke-width="0.70"/>
+<ellipse id="stf-0519" cx="981.00" cy="397.00" rx="6.00" ry="6.00" fill="#5b9bd5" stroke="#111111" stroke-width="0.70"/>
+<ellipse id="stf-0520" cx="1021.00" cy="402.00" rx="6.00" ry="6.00" fill="#5b9bd5" stroke="#111111" stroke-width="0.70"/>
+<ellipse id="stf-0521" cx="1000.00" cy="430.00" rx="6.00" ry="6.00" fill="#5b9bd5" stroke="#111111" stroke-width="0.70"/>
+<ellipse id="stf-0522" cx="1035.00" cy="437.00" rx="6.00" ry="6.00" fill="#5b9bd5" stroke="#111111" stroke-width="0.70"/>
+<text id="stf-0523" x="1033.00" y="453.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="16.00px" font-weight="400" font-style="normal" fill="#111111">Adjacency Matrix</text>
+<rect id="stf-0524" x="1050.00" y="365.00" width="14.00" height="14.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.45" opacity="1.000"/>
+<text id="stf-0525" x="1057.00" y="371.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="12.00px" font-weight="400" font-style="normal" fill="#111111">1</text>
+<rect id="stf-0526" x="1064.00" y="365.00" width="14.00" height="14.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.45" opacity="1.000"/>
+<text id="stf-0527" x="1071.00" y="371.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="12.00px" font-weight="400" font-style="normal" fill="#111111">0</text>
+<rect id="stf-0528" x="1078.00" y="365.00" width="14.00" height="14.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.45" opacity="1.000"/>
+<text id="stf-0529" x="1085.00" y="371.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="12.00px" font-weight="400" font-style="normal" fill="#111111">0</text>
+<rect id="stf-0530" x="1092.00" y="365.00" width="14.00" height="14.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.45" opacity="1.000"/>
+<text id="stf-0531" x="1099.00" y="371.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="12.00px" font-weight="400" font-style="normal" fill="#111111">1</text>
+<rect id="stf-0532" x="1106.00" y="365.00" width="14.00" height="14.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.45" opacity="1.000"/>
+<text id="stf-0533" x="1113.00" y="371.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="12.00px" font-weight="400" font-style="normal" fill="#111111">0</text>
+<rect id="stf-0534" x="1120.00" y="365.00" width="14.00" height="14.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.45" opacity="1.000"/>
+<text id="stf-0535" x="1127.00" y="371.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="12.00px" font-weight="400" font-style="normal" fill="#111111">0</text>
+<rect id="stf-0536" x="1050.00" y="379.00" width="14.00" height="14.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.45" opacity="1.000"/>
+<text id="stf-0537" x="1057.00" y="385.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="12.00px" font-weight="400" font-style="normal" fill="#111111">0</text>
+<rect id="stf-0538" x="1064.00" y="379.00" width="14.00" height="14.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.45" opacity="1.000"/>
+<text id="stf-0539" x="1071.00" y="385.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="12.00px" font-weight="400" font-style="normal" fill="#111111">1</text>
+<rect id="stf-0540" x="1078.00" y="379.00" width="14.00" height="14.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.45" opacity="1.000"/>
+<text id="stf-0541" x="1085.00" y="385.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="12.00px" font-weight="400" font-style="normal" fill="#111111">0</text>
+<rect id="stf-0542" x="1092.00" y="379.00" width="14.00" height="14.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.45" opacity="1.000"/>
+<text id="stf-0543" x="1099.00" y="385.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="12.00px" font-weight="400" font-style="normal" fill="#111111">1</text>
+<rect id="stf-0544" x="1106.00" y="379.00" width="14.00" height="14.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.45" opacity="1.000"/>
+<text id="stf-0545" x="1113.00" y="385.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="12.00px" font-weight="400" font-style="normal" fill="#111111">1</text>
+<rect id="stf-0546" x="1120.00" y="379.00" width="14.00" height="14.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.45" opacity="1.000"/>
+<text id="stf-0547" x="1127.00" y="385.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="12.00px" font-weight="400" font-style="normal" fill="#111111">0</text>
+<rect id="stf-0548" x="1050.00" y="393.00" width="14.00" height="14.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.45" opacity="1.000"/>
+<text id="stf-0549" x="1057.00" y="399.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="12.00px" font-weight="400" font-style="normal" fill="#111111">0</text>
+<rect id="stf-0550" x="1064.00" y="393.00" width="14.00" height="14.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.45" opacity="1.000"/>
+<text id="stf-0551" x="1071.00" y="399.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="12.00px" font-weight="400" font-style="normal" fill="#111111">0</text>
+<rect id="stf-0552" x="1078.00" y="393.00" width="14.00" height="14.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.45" opacity="1.000"/>
+<text id="stf-0553" x="1085.00" y="399.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="12.00px" font-weight="400" font-style="normal" fill="#111111">1</text>
+<rect id="stf-0554" x="1092.00" y="393.00" width="14.00" height="14.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.45" opacity="1.000"/>
+<text id="stf-0555" x="1099.00" y="399.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="12.00px" font-weight="400" font-style="normal" fill="#111111">0</text>
+<rect id="stf-0556" x="1106.00" y="393.00" width="14.00" height="14.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.45" opacity="1.000"/>
+<text id="stf-0557" x="1113.00" y="399.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="12.00px" font-weight="400" font-style="normal" fill="#111111">1</text>
+<rect id="stf-0558" x="1120.00" y="393.00" width="14.00" height="14.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.45" opacity="1.000"/>
+<text id="stf-0559" x="1127.00" y="399.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="12.00px" font-weight="400" font-style="normal" fill="#111111">1</text>
+<rect id="stf-0560" x="1050.00" y="407.00" width="14.00" height="14.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.45" opacity="1.000"/>
+<text id="stf-0561" x="1057.00" y="413.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="12.00px" font-weight="400" font-style="normal" fill="#111111">0</text>
+<rect id="stf-0562" x="1064.00" y="407.00" width="14.00" height="14.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.45" opacity="1.000"/>
+<text id="stf-0563" x="1071.00" y="413.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="12.00px" font-weight="400" font-style="normal" fill="#111111">1</text>
+<rect id="stf-0564" x="1078.00" y="407.00" width="14.00" height="14.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.45" opacity="1.000"/>
+<text id="stf-0565" x="1085.00" y="413.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="12.00px" font-weight="400" font-style="normal" fill="#111111">0</text>
+<rect id="stf-0566" x="1092.00" y="407.00" width="14.00" height="14.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.45" opacity="1.000"/>
+<text id="stf-0567" x="1099.00" y="413.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="12.00px" font-weight="400" font-style="normal" fill="#111111">1</text>
+<rect id="stf-0568" x="1106.00" y="407.00" width="14.00" height="14.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.45" opacity="1.000"/>
+<text id="stf-0569" x="1113.00" y="413.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="12.00px" font-weight="400" font-style="normal" fill="#111111">1</text>
+<rect id="stf-0570" x="1120.00" y="407.00" width="14.00" height="14.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.45" opacity="1.000"/>
+<text id="stf-0571" x="1127.00" y="413.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="12.00px" font-weight="400" font-style="normal" fill="#111111">1</text>
+<rect id="stf-0572" x="1050.00" y="421.00" width="14.00" height="14.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.45" opacity="1.000"/>
+<text id="stf-0573" x="1057.00" y="427.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="12.00px" font-weight="400" font-style="normal" fill="#111111">1</text>
+<rect id="stf-0574" x="1064.00" y="421.00" width="14.00" height="14.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.45" opacity="1.000"/>
+<text id="stf-0575" x="1071.00" y="427.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="12.00px" font-weight="400" font-style="normal" fill="#111111">0</text>
+<rect id="stf-0576" x="1078.00" y="421.00" width="14.00" height="14.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.45" opacity="1.000"/>
+<text id="stf-0577" x="1085.00" y="427.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="12.00px" font-weight="400" font-style="normal" fill="#111111">1</text>
+<rect id="stf-0578" x="1092.00" y="421.00" width="14.00" height="14.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.45" opacity="1.000"/>
+<text id="stf-0579" x="1099.00" y="427.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="12.00px" font-weight="400" font-style="normal" fill="#111111">0</text>
+<rect id="stf-0580" x="1106.00" y="421.00" width="14.00" height="14.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.45" opacity="1.000"/>
+<text id="stf-0581" x="1113.00" y="427.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="12.00px" font-weight="400" font-style="normal" fill="#111111">1</text>
+<rect id="stf-0582" x="1120.00" y="421.00" width="14.00" height="14.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.45" opacity="1.000"/>
+<text id="stf-0583" x="1127.00" y="427.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="12.00px" font-weight="400" font-style="normal" fill="#111111">0</text>
+<text id="stf-0584" x="1153.50" y="403.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="20.00px" font-weight="400" font-style="normal" fill="#111111">×</text>
+<rect id="stf-0585" x="1167.00" y="365.00" width="14.00" height="14.00" rx="0.00" fill="#a56cc1" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0586" x="1181.00" y="365.00" width="14.00" height="14.00" rx="0.00" fill="#a56cc1" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0587" x="1195.00" y="365.00" width="14.00" height="14.00" rx="0.00" fill="#a56cc1" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0588" x="1209.00" y="365.00" width="14.00" height="14.00" rx="0.00" fill="#a56cc1" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0589" x="1223.00" y="365.00" width="14.00" height="14.00" rx="0.00" fill="#a56cc1" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0590" x="1237.00" y="365.00" width="14.00" height="14.00" rx="0.00" fill="#a56cc1" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0591" x="1167.00" y="379.00" width="14.00" height="14.00" rx="0.00" fill="#a56cc1" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0592" x="1181.00" y="379.00" width="14.00" height="14.00" rx="0.00" fill="#a56cc1" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0593" x="1195.00" y="379.00" width="14.00" height="14.00" rx="0.00" fill="#a56cc1" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0594" x="1209.00" y="379.00" width="14.00" height="14.00" rx="0.00" fill="#a56cc1" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0595" x="1223.00" y="379.00" width="14.00" height="14.00" rx="0.00" fill="#a56cc1" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0596" x="1237.00" y="379.00" width="14.00" height="14.00" rx="0.00" fill="#a56cc1" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0597" x="1167.00" y="393.00" width="14.00" height="14.00" rx="0.00" fill="#a56cc1" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0598" x="1181.00" y="393.00" width="14.00" height="14.00" rx="0.00" fill="#a56cc1" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0599" x="1195.00" y="393.00" width="14.00" height="14.00" rx="0.00" fill="#a56cc1" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0600" x="1209.00" y="393.00" width="14.00" height="14.00" rx="0.00" fill="#a56cc1" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0601" x="1223.00" y="393.00" width="14.00" height="14.00" rx="0.00" fill="#a56cc1" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0602" x="1237.00" y="393.00" width="14.00" height="14.00" rx="0.00" fill="#a56cc1" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0603" x="1167.00" y="407.00" width="14.00" height="14.00" rx="0.00" fill="#a56cc1" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0604" x="1181.00" y="407.00" width="14.00" height="14.00" rx="0.00" fill="#a56cc1" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0605" x="1195.00" y="407.00" width="14.00" height="14.00" rx="0.00" fill="#a56cc1" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0606" x="1209.00" y="407.00" width="14.00" height="14.00" rx="0.00" fill="#a56cc1" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0607" x="1223.00" y="407.00" width="14.00" height="14.00" rx="0.00" fill="#a56cc1" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0608" x="1237.00" y="407.00" width="14.00" height="14.00" rx="0.00" fill="#a56cc1" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0609" x="1167.00" y="421.00" width="14.00" height="14.00" rx="0.00" fill="#a56cc1" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0610" x="1181.00" y="421.00" width="14.00" height="14.00" rx="0.00" fill="#a56cc1" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0611" x="1195.00" y="421.00" width="14.00" height="14.00" rx="0.00" fill="#a56cc1" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0612" x="1209.00" y="421.00" width="14.00" height="14.00" rx="0.00" fill="#a56cc1" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0613" x="1223.00" y="421.00" width="14.00" height="14.00" rx="0.00" fill="#a56cc1" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0614" x="1237.00" y="421.00" width="14.00" height="14.00" rx="0.00" fill="#a56cc1" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<ellipse id="stf-0615" cx="1246.38" cy="435.70" rx="7.38" ry="6.30" fill="#ed7d31" stroke="none" stroke-width="1.20"/>
+<ellipse id="stf-0616" cx="1246.56" cy="436.51" rx="3.06" ry="3.87" fill="#ffc000" stroke="none" stroke-width="1.20"/>
+<line id="stf-0617" x1="1246.56" y1="424.00" x2="1241.70" y2="433.36" stroke="#ed7d31" stroke-width="3.10"/>
+<text id="stf-0618" x="1271.50" y="406.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="18.00px" font-weight="400" font-style="italic" fill="#111111">S_s</text>
+<text id="stf-0619" x="1158.00" y="454.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="16.00px" font-weight="400" font-style="normal" fill="#111111">Spatial Affinity</text>
+<rect id="stf-0620" x="1287.00" y="366.00" width="82.00" height="65.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.80" opacity="1.000"/>
+<text id="stf-0621" x="1293.50" y="399.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="30.00px" font-weight="400" font-style="normal" fill="#111111">[</text>
+<rect id="stf-0622" x="1301.00" y="375.00" width="16.00" height="16.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="stf-0623" x="1309.00" y="383.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#111111"></text>
+<rect id="stf-0624" x="1322.00" y="375.00" width="16.00" height="16.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="stf-0625" x="1330.00" y="383.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#111111"></text>
+<rect id="stf-0626" x="1343.00" y="375.00" width="16.00" height="16.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="stf-0627" x="1351.00" y="383.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#111111">…</text>
+<text id="stf-0628" x="1330.50" y="411.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="italic" fill="#111111">E_n ⊗ H_st</text>
+<rect id="stf-0629" x="1301.00" y="422.00" width="16.00" height="16.00" rx="0.00" fill="#ffc000" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="stf-0630" x="1322.00" y="422.00" width="16.00" height="16.00" rx="0.00" fill="#4472c4" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="stf-0631" x="1343.00" y="422.00" width="16.00" height="16.00" rx="0.00" fill="#70ad47" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="stf-0632" x="1394.00" y="358.00" width="237.00" height="116.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="1.00" opacity="1.000" stroke-dasharray="4 3"/>
+<rect id="stf-0633" x="1410.00" y="365.00" width="14.00" height="14.00" rx="0.00" fill="#e88b8b" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0634" x="1424.00" y="365.00" width="14.00" height="14.00" rx="0.00" fill="#e88b8b" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0635" x="1438.00" y="365.00" width="14.00" height="14.00" rx="0.00" fill="#e88b8b" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0636" x="1452.00" y="365.00" width="14.00" height="14.00" rx="0.00" fill="#e88b8b" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0637" x="1466.00" y="365.00" width="14.00" height="14.00" rx="0.00" fill="#e88b8b" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0638" x="1480.00" y="365.00" width="14.00" height="14.00" rx="0.00" fill="#e88b8b" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0639" x="1410.00" y="379.00" width="14.00" height="14.00" rx="0.00" fill="#e88b8b" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0640" x="1424.00" y="379.00" width="14.00" height="14.00" rx="0.00" fill="#e88b8b" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0641" x="1438.00" y="379.00" width="14.00" height="14.00" rx="0.00" fill="#e88b8b" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0642" x="1452.00" y="379.00" width="14.00" height="14.00" rx="0.00" fill="#e88b8b" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0643" x="1466.00" y="379.00" width="14.00" height="14.00" rx="0.00" fill="#e88b8b" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0644" x="1480.00" y="379.00" width="14.00" height="14.00" rx="0.00" fill="#e88b8b" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0645" x="1410.00" y="393.00" width="14.00" height="14.00" rx="0.00" fill="#e88b8b" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0646" x="1424.00" y="393.00" width="14.00" height="14.00" rx="0.00" fill="#e88b8b" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0647" x="1438.00" y="393.00" width="14.00" height="14.00" rx="0.00" fill="#e88b8b" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0648" x="1452.00" y="393.00" width="14.00" height="14.00" rx="0.00" fill="#e88b8b" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0649" x="1466.00" y="393.00" width="14.00" height="14.00" rx="0.00" fill="#e88b8b" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0650" x="1480.00" y="393.00" width="14.00" height="14.00" rx="0.00" fill="#e88b8b" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0651" x="1410.00" y="407.00" width="14.00" height="14.00" rx="0.00" fill="#e88b8b" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0652" x="1424.00" y="407.00" width="14.00" height="14.00" rx="0.00" fill="#e88b8b" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0653" x="1438.00" y="407.00" width="14.00" height="14.00" rx="0.00" fill="#e88b8b" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0654" x="1452.00" y="407.00" width="14.00" height="14.00" rx="0.00" fill="#e88b8b" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0655" x="1466.00" y="407.00" width="14.00" height="14.00" rx="0.00" fill="#e88b8b" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0656" x="1480.00" y="407.00" width="14.00" height="14.00" rx="0.00" fill="#e88b8b" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0657" x="1410.00" y="421.00" width="14.00" height="14.00" rx="0.00" fill="#e88b8b" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0658" x="1424.00" y="421.00" width="14.00" height="14.00" rx="0.00" fill="#e88b8b" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0659" x="1438.00" y="421.00" width="14.00" height="14.00" rx="0.00" fill="#e88b8b" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0660" x="1452.00" y="421.00" width="14.00" height="14.00" rx="0.00" fill="#e88b8b" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0661" x="1466.00" y="421.00" width="14.00" height="14.00" rx="0.00" fill="#e88b8b" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0662" x="1480.00" y="421.00" width="14.00" height="14.00" rx="0.00" fill="#e88b8b" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<ellipse id="stf-0663" cx="1491.38" cy="435.70" rx="7.38" ry="6.30" fill="#ed7d31" stroke="none" stroke-width="1.20"/>
+<ellipse id="stf-0664" cx="1491.56" cy="436.51" rx="3.06" ry="3.87" fill="#ffc000" stroke="none" stroke-width="1.20"/>
+<line id="stf-0665" x1="1491.56" y1="424.00" x2="1486.70" y2="433.36" stroke="#ed7d31" stroke-width="3.10"/>
+<text id="stf-0666" x="1515.50" y="406.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="18.00px" font-weight="400" font-style="italic" fill="#111111">S_t</text>
+<text id="stf-0667" x="1471.00" y="454.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="16.00px" font-weight="400" font-style="normal" fill="#111111">Temporal Affinity</text>
+<rect id="stf-0668" x="1534.00" y="366.00" width="82.00" height="65.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.80" opacity="1.000"/>
+<rect id="stf-0669" x="1547.00" y="375.00" width="16.00" height="16.00" rx="0.00" fill="#8064a2" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="stf-0670" x="1555.00" y="383.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#111111"></text>
+<rect id="stf-0671" x="1568.00" y="375.00" width="16.00" height="16.00" rx="0.00" fill="#e7a4a4" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="stf-0672" x="1576.00" y="383.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#111111">…</text>
+<rect id="stf-0673" x="1589.00" y="375.00" width="16.00" height="16.00" rx="0.00" fill="#8064a2" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="stf-0674" x="1597.00" y="383.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#111111"></text>
+<text id="stf-0675" x="1577.00" y="411.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="italic" fill="#111111">E_n ⊗ H_st</text>
+<rect id="stf-0676" x="1547.00" y="422.00" width="16.00" height="16.00" rx="0.00" fill="#ffc000" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="stf-0677" x="1568.00" y="422.00" width="16.00" height="16.00" rx="0.00" fill="#4472c4" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="stf-0678" x="1589.00" y="422.00" width="16.00" height="16.00" rx="0.00" fill="#70ad47" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="stf-0679" x="1640.00" y="358.00" width="264.00" height="116.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="1.00" opacity="1.000" stroke-dasharray="4 3"/>
+<rect id="stf-0680" x="1654.00" y="365.00" width="14.00" height="14.00" rx="0.00" fill="#9fbce5" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0681" x="1668.00" y="365.00" width="14.00" height="14.00" rx="0.00" fill="#9fbce5" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0682" x="1682.00" y="365.00" width="14.00" height="14.00" rx="0.00" fill="#9fbce5" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0683" x="1696.00" y="365.00" width="14.00" height="14.00" rx="0.00" fill="#9fbce5" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0684" x="1710.00" y="365.00" width="14.00" height="14.00" rx="0.00" fill="#9fbce5" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0685" x="1724.00" y="365.00" width="14.00" height="14.00" rx="0.00" fill="#9fbce5" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0686" x="1654.00" y="379.00" width="14.00" height="14.00" rx="0.00" fill="#9fbce5" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0687" x="1668.00" y="379.00" width="14.00" height="14.00" rx="0.00" fill="#9fbce5" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0688" x="1682.00" y="379.00" width="14.00" height="14.00" rx="0.00" fill="#9fbce5" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0689" x="1696.00" y="379.00" width="14.00" height="14.00" rx="0.00" fill="#9fbce5" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0690" x="1710.00" y="379.00" width="14.00" height="14.00" rx="0.00" fill="#9fbce5" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0691" x="1724.00" y="379.00" width="14.00" height="14.00" rx="0.00" fill="#9fbce5" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0692" x="1654.00" y="393.00" width="14.00" height="14.00" rx="0.00" fill="#9fbce5" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0693" x="1668.00" y="393.00" width="14.00" height="14.00" rx="0.00" fill="#9fbce5" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0694" x="1682.00" y="393.00" width="14.00" height="14.00" rx="0.00" fill="#9fbce5" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0695" x="1696.00" y="393.00" width="14.00" height="14.00" rx="0.00" fill="#9fbce5" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0696" x="1710.00" y="393.00" width="14.00" height="14.00" rx="0.00" fill="#9fbce5" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0697" x="1724.00" y="393.00" width="14.00" height="14.00" rx="0.00" fill="#9fbce5" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0698" x="1654.00" y="407.00" width="14.00" height="14.00" rx="0.00" fill="#9fbce5" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0699" x="1668.00" y="407.00" width="14.00" height="14.00" rx="0.00" fill="#9fbce5" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0700" x="1682.00" y="407.00" width="14.00" height="14.00" rx="0.00" fill="#9fbce5" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0701" x="1696.00" y="407.00" width="14.00" height="14.00" rx="0.00" fill="#9fbce5" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0702" x="1710.00" y="407.00" width="14.00" height="14.00" rx="0.00" fill="#9fbce5" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0703" x="1724.00" y="407.00" width="14.00" height="14.00" rx="0.00" fill="#9fbce5" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0704" x="1654.00" y="421.00" width="14.00" height="14.00" rx="0.00" fill="#9fbce5" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0705" x="1668.00" y="421.00" width="14.00" height="14.00" rx="0.00" fill="#9fbce5" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0706" x="1682.00" y="421.00" width="14.00" height="14.00" rx="0.00" fill="#9fbce5" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0707" x="1696.00" y="421.00" width="14.00" height="14.00" rx="0.00" fill="#9fbce5" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0708" x="1710.00" y="421.00" width="14.00" height="14.00" rx="0.00" fill="#9fbce5" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0709" x="1724.00" y="421.00" width="14.00" height="14.00" rx="0.00" fill="#9fbce5" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<ellipse id="stf-0710" cx="1735.38" cy="435.70" rx="7.38" ry="6.30" fill="#ed7d31" stroke="none" stroke-width="1.20"/>
+<ellipse id="stf-0711" cx="1735.56" cy="436.51" rx="3.06" ry="3.87" fill="#ffc000" stroke="none" stroke-width="1.20"/>
+<line id="stf-0712" x1="1735.56" y1="424.00" x2="1730.70" y2="433.36" stroke="#ed7d31" stroke-width="3.10"/>
+<text id="stf-0713" x="1760.50" y="406.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="18.00px" font-weight="400" font-style="italic" fill="#111111">S_d</text>
+<text id="stf-0714" x="1717.50" y="454.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="16.00px" font-weight="400" font-style="normal" fill="#111111">Time-Lagged Affinity</text>
+<rect id="stf-0715" x="1790.00" y="368.00" width="20.00" height="18.00" rx="0.00" fill="#ffc000" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="stf-0716" x="1800.00" y="377.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#111111"></text>
+<rect id="stf-0717" x="1815.00" y="368.00" width="20.00" height="18.00" rx="0.00" fill="#4472c4" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="stf-0718" x="1825.00" y="377.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#111111">…</text>
+<rect id="stf-0719" x="1840.00" y="368.00" width="20.00" height="18.00" rx="0.00" fill="#70ad47" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="stf-0720" x="1850.00" y="377.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#111111"></text>
+<rect id="stf-0721" x="1797.00" y="375.00" width="20.00" height="18.00" rx="0.00" fill="#ffc000" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="stf-0722" x="1807.00" y="384.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#111111"></text>
+<rect id="stf-0723" x="1822.00" y="375.00" width="20.00" height="18.00" rx="0.00" fill="#4472c4" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="stf-0724" x="1832.00" y="384.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#111111">…</text>
+<rect id="stf-0725" x="1847.00" y="375.00" width="20.00" height="18.00" rx="0.00" fill="#70ad47" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="stf-0726" x="1857.00" y="384.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#111111"></text>
+<rect id="stf-0727" x="1804.00" y="382.00" width="20.00" height="18.00" rx="0.00" fill="#ffc000" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="stf-0728" x="1814.00" y="391.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#111111"></text>
+<rect id="stf-0729" x="1829.00" y="382.00" width="20.00" height="18.00" rx="0.00" fill="#4472c4" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="stf-0730" x="1839.00" y="391.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#111111">…</text>
+<rect id="stf-0731" x="1854.00" y="382.00" width="20.00" height="18.00" rx="0.00" fill="#70ad47" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="stf-0732" x="1864.00" y="391.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#111111"></text>
+<text id="stf-0733" x="1830.00" y="417.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="16.00px" font-weight="400" font-style="italic" fill="#111111">H_st⁻ᵟ ⊗ H_st</text>
+<rect id="stf-0734" x="1802.00" y="433.00" width="19.00" height="17.00" rx="0.00" fill="#ffc000" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="stf-0735" x="1811.50" y="441.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#111111"></text>
+<rect id="stf-0736" x="1826.00" y="433.00" width="19.00" height="17.00" rx="0.00" fill="#4472c4" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="stf-0737" x="1835.50" y="441.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#111111">…</text>
+<rect id="stf-0738" x="1850.00" y="433.00" width="19.00" height="17.00" rx="0.00" fill="#70ad47" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="stf-0739" x="1859.50" y="441.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#111111"></text>
+<rect id="stf-0740" x="966.00" y="479.00" width="280.00" height="103.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="1.00" opacity="1.000" stroke-dasharray="4 3"/>
+<text id="stf-0741" x="1078.00" y="507.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="20.00px" font-weight="400" font-style="italic" fill="#111111">N│ ×  ⊙ R│ ×</text>
+<rect id="stf-0742" x="1002.00" y="490.00" width="6.00" height="31.00" rx="0.00" fill="#8064a2" stroke="none" stroke-width="1.20" opacity="1.000"/>
+<rect id="stf-0743" x="1102.00" y="490.00" width="6.00" height="31.00" rx="0.00" fill="#8064a2" stroke="none" stroke-width="1.20" opacity="1.000"/>
+<line id="stf-0744" x1="1024.00" y1="524.00" x2="1052.00" y2="524.00" stroke="#111111" stroke-width="2.00"/>
+<text id="stf-0745" x="1038.00" y="534.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="italic" fill="#111111">R</text>
+<line id="stf-0746" x1="1127.00" y1="524.00" x2="1155.00" y2="524.00" stroke="#111111" stroke-width="2.00"/>
+<text id="stf-0747" x="1141.00" y="534.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="italic" fill="#111111">N</text>
+<text id="stf-0748" x="1184.50" y="500.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#8d8d8d">top-k</text>
+<line id="stf-0749" x1="1164.00" y1="514.00" x2="1210.00" y2="514.00" stroke="#d4d4d4" stroke-width="4.00" marker-end="url(#arrow)"/>
+<text id="stf-0750" x="1061.00" y="560.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="16.00px" font-weight="400" font-style="normal" fill="#8d8d8d">dynamic filter</text>
+<rect id="stf-0751" x="984.00" y="550.00" width="11.00" height="12.00" rx="0.00" fill="#8064a2" stroke="#111111" stroke-width="0.50" opacity="1.000"/>
+<rect id="stf-0752" x="997.00" y="550.00" width="11.00" height="12.00" rx="0.00" fill="#e7a4a4" stroke="#111111" stroke-width="0.50" opacity="1.000"/>
+<rect id="stf-0753" x="1010.00" y="550.00" width="11.00" height="12.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.50" opacity="1.000"/>
+<text id="stf-0754" x="1221.00" y="559.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="17.00px" font-weight="400" font-style="italic" fill="#111111">α_s M_s</text>
+<rect id="stf-0755" x="1171.00" y="486.00" width="13.00" height="13.00" rx="0.00" fill="#8064a2" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0756" x="1184.00" y="486.00" width="13.00" height="13.00" rx="0.00" fill="#8064a2" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0757" x="1197.00" y="486.00" width="13.00" height="13.00" rx="0.00" fill="#8064a2" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0758" x="1210.00" y="486.00" width="13.00" height="13.00" rx="0.00" fill="#8064a2" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0759" x="1223.00" y="486.00" width="13.00" height="13.00" rx="0.00" fill="#8064a2" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0760" x="1171.00" y="499.00" width="13.00" height="13.00" rx="0.00" fill="#8064a2" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0761" x="1184.00" y="499.00" width="13.00" height="13.00" rx="0.00" fill="#8064a2" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0762" x="1197.00" y="499.00" width="13.00" height="13.00" rx="0.00" fill="#8064a2" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0763" x="1210.00" y="499.00" width="13.00" height="13.00" rx="0.00" fill="#8064a2" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0764" x="1223.00" y="499.00" width="13.00" height="13.00" rx="0.00" fill="#8064a2" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0765" x="1171.00" y="512.00" width="13.00" height="13.00" rx="0.00" fill="#8064a2" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0766" x="1184.00" y="512.00" width="13.00" height="13.00" rx="0.00" fill="#8064a2" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0767" x="1197.00" y="512.00" width="13.00" height="13.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0768" x="1210.00" y="512.00" width="13.00" height="13.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0769" x="1223.00" y="512.00" width="13.00" height="13.00" rx="0.00" fill="#8064a2" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0770" x="1171.00" y="525.00" width="13.00" height="13.00" rx="0.00" fill="#8064a2" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0771" x="1184.00" y="525.00" width="13.00" height="13.00" rx="0.00" fill="#8064a2" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0772" x="1197.00" y="525.00" width="13.00" height="13.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0773" x="1210.00" y="525.00" width="13.00" height="13.00" rx="0.00" fill="#8064a2" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0774" x="1223.00" y="525.00" width="13.00" height="13.00" rx="0.00" fill="#8064a2" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0775" x="1171.00" y="538.00" width="13.00" height="13.00" rx="0.00" fill="#8064a2" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0776" x="1184.00" y="538.00" width="13.00" height="13.00" rx="0.00" fill="#8064a2" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0777" x="1197.00" y="538.00" width="13.00" height="13.00" rx="0.00" fill="#8064a2" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0778" x="1210.00" y="538.00" width="13.00" height="13.00" rx="0.00" fill="#8064a2" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0779" x="1223.00" y="538.00" width="13.00" height="13.00" rx="0.00" fill="#8064a2" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<ellipse id="stf-0780" cx="1227.56" cy="553.40" rx="6.56" ry="5.60" fill="#ed7d31" stroke="none" stroke-width="1.20"/>
+<ellipse id="stf-0781" cx="1227.72" cy="554.12" rx="2.72" ry="3.44" fill="#ffc000" stroke="none" stroke-width="1.20"/>
+<line id="stf-0782" x1="1227.72" y1="543.00" x2="1223.40" y2="551.32" stroke="#ed7d31" stroke-width="3.10"/>
+<rect id="stf-0783" x="1328.00" y="479.00" width="247.00" height="103.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="1.00" opacity="1.000" stroke-dasharray="4 3"/>
+<text id="stf-0784" x="1440.00" y="507.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="20.00px" font-weight="400" font-style="italic" fill="#111111">N│ ×  ⊙ R│ ×</text>
+<rect id="stf-0785" x="1364.00" y="490.00" width="6.00" height="31.00" rx="0.00" fill="#e57373" stroke="none" stroke-width="1.20" opacity="1.000"/>
+<rect id="stf-0786" x="1464.00" y="490.00" width="6.00" height="31.00" rx="0.00" fill="#e57373" stroke="none" stroke-width="1.20" opacity="1.000"/>
+<line id="stf-0787" x1="1386.00" y1="524.00" x2="1414.00" y2="524.00" stroke="#111111" stroke-width="2.00"/>
+<text id="stf-0788" x="1400.00" y="534.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="italic" fill="#111111">R</text>
+<line id="stf-0789" x1="1489.00" y1="524.00" x2="1517.00" y2="524.00" stroke="#111111" stroke-width="2.00"/>
+<text id="stf-0790" x="1503.00" y="534.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="italic" fill="#111111">N</text>
+<text id="stf-0791" x="1546.50" y="500.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#8d8d8d">top-k</text>
+<line id="stf-0792" x1="1526.00" y1="514.00" x2="1572.00" y2="514.00" stroke="#d4d4d4" stroke-width="4.00" marker-end="url(#arrow)"/>
+<text id="stf-0793" x="1423.00" y="560.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="16.00px" font-weight="400" font-style="normal" fill="#8d8d8d">dynamic filter</text>
+<rect id="stf-0794" x="1346.00" y="550.00" width="11.00" height="12.00" rx="0.00" fill="#8064a2" stroke="#111111" stroke-width="0.50" opacity="1.000"/>
+<rect id="stf-0795" x="1359.00" y="550.00" width="11.00" height="12.00" rx="0.00" fill="#e7a4a4" stroke="#111111" stroke-width="0.50" opacity="1.000"/>
+<rect id="stf-0796" x="1372.00" y="550.00" width="11.00" height="12.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.50" opacity="1.000"/>
+<text id="stf-0797" x="1583.00" y="559.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="17.00px" font-weight="400" font-style="italic" fill="#111111">α_t M_t</text>
+<rect id="stf-0798" x="1522.00" y="486.00" width="13.00" height="13.00" rx="0.00" fill="#e57373" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0799" x="1535.00" y="486.00" width="13.00" height="13.00" rx="0.00" fill="#e57373" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0800" x="1548.00" y="486.00" width="13.00" height="13.00" rx="0.00" fill="#e57373" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0801" x="1561.00" y="486.00" width="13.00" height="13.00" rx="0.00" fill="#e57373" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0802" x="1574.00" y="486.00" width="13.00" height="13.00" rx="0.00" fill="#e57373" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0803" x="1522.00" y="499.00" width="13.00" height="13.00" rx="0.00" fill="#e57373" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0804" x="1535.00" y="499.00" width="13.00" height="13.00" rx="0.00" fill="#e57373" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0805" x="1548.00" y="499.00" width="13.00" height="13.00" rx="0.00" fill="#e57373" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0806" x="1561.00" y="499.00" width="13.00" height="13.00" rx="0.00" fill="#e57373" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0807" x="1574.00" y="499.00" width="13.00" height="13.00" rx="0.00" fill="#e57373" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0808" x="1522.00" y="512.00" width="13.00" height="13.00" rx="0.00" fill="#e57373" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0809" x="1535.00" y="512.00" width="13.00" height="13.00" rx="0.00" fill="#e57373" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0810" x="1548.00" y="512.00" width="13.00" height="13.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0811" x="1561.00" y="512.00" width="13.00" height="13.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0812" x="1574.00" y="512.00" width="13.00" height="13.00" rx="0.00" fill="#e57373" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0813" x="1522.00" y="525.00" width="13.00" height="13.00" rx="0.00" fill="#e57373" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0814" x="1535.00" y="525.00" width="13.00" height="13.00" rx="0.00" fill="#e57373" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0815" x="1548.00" y="525.00" width="13.00" height="13.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0816" x="1561.00" y="525.00" width="13.00" height="13.00" rx="0.00" fill="#e57373" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0817" x="1574.00" y="525.00" width="13.00" height="13.00" rx="0.00" fill="#e57373" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0818" x="1522.00" y="538.00" width="13.00" height="13.00" rx="0.00" fill="#e57373" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0819" x="1535.00" y="538.00" width="13.00" height="13.00" rx="0.00" fill="#e57373" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0820" x="1548.00" y="538.00" width="13.00" height="13.00" rx="0.00" fill="#e57373" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0821" x="1561.00" y="538.00" width="13.00" height="13.00" rx="0.00" fill="#e57373" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0822" x="1574.00" y="538.00" width="13.00" height="13.00" rx="0.00" fill="#e57373" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<ellipse id="stf-0823" cx="1565.56" cy="553.40" rx="6.56" ry="5.60" fill="#ed7d31" stroke="none" stroke-width="1.20"/>
+<ellipse id="stf-0824" cx="1565.72" cy="554.12" rx="2.72" ry="3.44" fill="#ffc000" stroke="none" stroke-width="1.20"/>
+<line id="stf-0825" x1="1565.72" y1="543.00" x2="1561.40" y2="551.32" stroke="#ed7d31" stroke-width="3.10"/>
+<rect id="stf-0826" x="1660.00" y="479.00" width="244.00" height="103.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="1.00" opacity="1.000" stroke-dasharray="4 3"/>
+<text id="stf-0827" x="1772.00" y="507.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="20.00px" font-weight="400" font-style="italic" fill="#111111">N│ ×  ⊙ R│ ×</text>
+<rect id="stf-0828" x="1696.00" y="490.00" width="6.00" height="31.00" rx="0.00" fill="#9dc3e6" stroke="none" stroke-width="1.20" opacity="1.000"/>
+<rect id="stf-0829" x="1796.00" y="490.00" width="6.00" height="31.00" rx="0.00" fill="#9dc3e6" stroke="none" stroke-width="1.20" opacity="1.000"/>
+<line id="stf-0830" x1="1718.00" y1="524.00" x2="1746.00" y2="524.00" stroke="#111111" stroke-width="2.00"/>
+<text id="stf-0831" x="1732.00" y="534.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="italic" fill="#111111">R</text>
+<line id="stf-0832" x1="1821.00" y1="524.00" x2="1849.00" y2="524.00" stroke="#111111" stroke-width="2.00"/>
+<text id="stf-0833" x="1835.00" y="534.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="italic" fill="#111111">N</text>
+<text id="stf-0834" x="1878.50" y="500.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#8d8d8d">top-k</text>
+<line id="stf-0835" x1="1858.00" y1="514.00" x2="1904.00" y2="514.00" stroke="#d4d4d4" stroke-width="4.00" marker-end="url(#arrow)"/>
+<text id="stf-0836" x="1755.00" y="560.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="16.00px" font-weight="400" font-style="normal" fill="#8d8d8d">dynamic filter</text>
+<rect id="stf-0837" x="1678.00" y="550.00" width="11.00" height="12.00" rx="0.00" fill="#8064a2" stroke="#111111" stroke-width="0.50" opacity="1.000"/>
+<rect id="stf-0838" x="1691.00" y="550.00" width="11.00" height="12.00" rx="0.00" fill="#e7a4a4" stroke="#111111" stroke-width="0.50" opacity="1.000"/>
+<rect id="stf-0839" x="1704.00" y="550.00" width="11.00" height="12.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.50" opacity="1.000"/>
+<text id="stf-0840" x="1915.00" y="559.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="17.00px" font-weight="400" font-style="italic" fill="#111111">α_d M_d</text>
+<rect id="stf-0841" x="1854.00" y="486.00" width="13.00" height="13.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0842" x="1867.00" y="486.00" width="13.00" height="13.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0843" x="1880.00" y="486.00" width="13.00" height="13.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0844" x="1893.00" y="486.00" width="13.00" height="13.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0845" x="1906.00" y="486.00" width="13.00" height="13.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0846" x="1854.00" y="499.00" width="13.00" height="13.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0847" x="1867.00" y="499.00" width="13.00" height="13.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0848" x="1880.00" y="499.00" width="13.00" height="13.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0849" x="1893.00" y="499.00" width="13.00" height="13.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0850" x="1906.00" y="499.00" width="13.00" height="13.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0851" x="1854.00" y="512.00" width="13.00" height="13.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0852" x="1867.00" y="512.00" width="13.00" height="13.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0853" x="1880.00" y="512.00" width="13.00" height="13.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0854" x="1893.00" y="512.00" width="13.00" height="13.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0855" x="1906.00" y="512.00" width="13.00" height="13.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0856" x="1854.00" y="525.00" width="13.00" height="13.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0857" x="1867.00" y="525.00" width="13.00" height="13.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0858" x="1880.00" y="525.00" width="13.00" height="13.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0859" x="1893.00" y="525.00" width="13.00" height="13.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0860" x="1906.00" y="525.00" width="13.00" height="13.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0861" x="1854.00" y="538.00" width="13.00" height="13.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0862" x="1867.00" y="538.00" width="13.00" height="13.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0863" x="1880.00" y="538.00" width="13.00" height="13.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0864" x="1893.00" y="538.00" width="13.00" height="13.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="stf-0865" x="1906.00" y="538.00" width="13.00" height="13.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<ellipse id="stf-0866" cx="1897.56" cy="553.40" rx="6.56" ry="5.60" fill="#ed7d31" stroke="none" stroke-width="1.20"/>
+<ellipse id="stf-0867" cx="1897.72" cy="554.12" rx="2.72" ry="3.44" fill="#ffc000" stroke="none" stroke-width="1.20"/>
+<line id="stf-0868" x1="1897.72" y1="543.00" x2="1893.40" y2="551.32" stroke="#ed7d31" stroke-width="3.10"/>
+<ellipse id="stf-0869" cx="1287.00" cy="530.00" rx="10.00" ry="10.00" fill="#ffffff" stroke="#111111" stroke-width="0.80"/>
+<text id="stf-0870" x="1287.00" y="530.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="17.00px" font-weight="400" font-style="normal" fill="#111111">+</text>
+<ellipse id="stf-0871" cx="1620.00" cy="530.00" rx="10.00" ry="10.00" fill="#ffffff" stroke="#111111" stroke-width="0.80"/>
+<text id="stf-0872" x="1620.00" y="530.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="17.00px" font-weight="400" font-style="normal" fill="#111111">+</text>
+<line id="stf-0873" x1="1105.00" y1="582.00" x2="1105.00" y2="661.00" stroke="#8d8d8d" stroke-width="1.20" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+</g>
+<g id="hda">
+<text id="hda-0874" x="1441.00" y="631.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="25.00px" font-weight="700" font-style="normal" fill="#111111">Hierarchical Domain Alignment (HDA)</text>
+<text id="hda-0875" x="1109.50" y="619.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="italic" fill="#8d8d8d">w/ Position Embedding</text>
+<rect id="hda-0876" x="979.00" y="663.00" width="44.00" height="101.00" rx="7.00" fill="#d2d2d2" stroke="none" stroke-width="1.20" opacity="1.000"/>
+<text id="hda-0877" x="1001.00" y="713.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="17.00px" font-weight="400" font-style="normal" fill="#111111" transform="rotate(270 1001.00 713.00)">Projection</text>
+<line id="hda-0878" x1="1023.00" y1="711.00" x2="1048.00" y2="711.00" stroke="#111111" stroke-width="1.20" marker-end="url(#arrow)"/>
+<rect id="hda-0879" x="1049.00" y="690.00" width="20.00" height="42.00" rx="0.00" fill="#d0d4d4" stroke="#111111" stroke-width="0.80" opacity="1.000"/>
+<text id="hda-0880" x="1059.50" y="693.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="italic" fill="#111111">x_e</text>
+<ellipse id="hda-0881" cx="1088.00" cy="710.00" rx="10.00" ry="10.00" fill="#ffffff" stroke="#111111" stroke-width="0.90"/>
+<text id="hda-0882" x="1088.00" y="709.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="17.00px" font-weight="400" font-style="normal" fill="#111111">•</text>
+<text id="hda-0883" x="1236.00" y="661.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="18.00px" font-weight="400" font-style="normal" fill="#4472c4">Layer level Alignment</text>
+<rect id="hda-0884" x="1118.00" y="681.00" width="21.00" height="45.00" rx="0.00" fill="#aebbd3" stroke="#111111" stroke-width="0.70" opacity="1.000"/>
+<text id="hda-0885" x="1128.50" y="683.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="14.00px" font-weight="400" font-style="italic" fill="#111111">e1</text>
+<rect id="hda-0886" x="1150.00" y="681.00" width="21.00" height="45.00" rx="0.00" fill="#aebbd3" stroke="#111111" stroke-width="0.70" opacity="1.000"/>
+<text id="hda-0887" x="1160.50" y="683.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="14.00px" font-weight="400" font-style="italic" fill="#111111">e2</text>
+<rect id="hda-0888" x="1182.00" y="681.00" width="21.00" height="45.00" rx="0.00" fill="#aebbd3" stroke="#111111" stroke-width="0.70" opacity="1.000"/>
+<text id="hda-0889" x="1192.50" y="683.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="14.00px" font-weight="400" font-style="italic" fill="#111111">e3</text>
+<rect id="hda-0890" x="1214.00" y="681.00" width="21.00" height="45.00" rx="0.00" fill="#aebbd3" stroke="#111111" stroke-width="0.70" opacity="1.000"/>
+<text id="hda-0891" x="1224.50" y="683.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="14.00px" font-weight="400" font-style="italic" fill="#111111">e4</text>
+<rect id="hda-0892" x="1246.00" y="681.00" width="21.00" height="45.00" rx="0.00" fill="#aebbd3" stroke="#111111" stroke-width="0.70" opacity="1.000"/>
+<text id="hda-0893" x="1256.50" y="683.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="14.00px" font-weight="400" font-style="italic" fill="#111111">e5</text>
+<rect id="hda-0894" x="1278.00" y="681.00" width="21.00" height="45.00" rx="0.00" fill="#aebbd3" stroke="#111111" stroke-width="0.70" opacity="1.000"/>
+<text id="hda-0895" x="1288.50" y="683.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="14.00px" font-weight="400" font-style="italic" fill="#111111">e6</text>
+<rect id="hda-0896" x="1310.00" y="681.00" width="21.00" height="45.00" rx="0.00" fill="#aebbd3" stroke="#111111" stroke-width="0.70" opacity="1.000"/>
+<text id="hda-0897" x="1320.50" y="683.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="14.00px" font-weight="400" font-style="italic" fill="#111111">e7</text>
+<rect id="hda-0898" x="1342.00" y="681.00" width="21.00" height="45.00" rx="0.00" fill="#aebbd3" stroke="#111111" stroke-width="0.70" opacity="1.000"/>
+<text id="hda-0899" x="1352.50" y="683.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="14.00px" font-weight="400" font-style="italic" fill="#111111">e8</text>
+<rect id="hda-0900" x="1148.00" y="672.00" width="28.00" height="63.00" rx="0.00" fill="none" stroke="#c00000" stroke-width="1.00" opacity="1.000" stroke-dasharray="4 3"/>
+<text id="hda-0901" x="1162.50" y="744.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="16.00px" font-weight="400" font-style="italic" fill="#111111">α1</text>
+<rect id="hda-0902" x="1212.00" y="672.00" width="28.00" height="63.00" rx="0.00" fill="none" stroke="#c00000" stroke-width="1.00" opacity="1.000" stroke-dasharray="4 3"/>
+<text id="hda-0903" x="1226.50" y="744.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="16.00px" font-weight="400" font-style="italic" fill="#111111">α2</text>
+<rect id="hda-0904" x="1276.00" y="672.00" width="28.00" height="63.00" rx="0.00" fill="none" stroke="#c00000" stroke-width="1.00" opacity="1.000" stroke-dasharray="4 3"/>
+<text id="hda-0905" x="1290.50" y="744.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="16.00px" font-weight="400" font-style="italic" fill="#111111">α3</text>
+<polyline id="hda-0906" points="1108.00,725.00 1108.00,750.00 1320.00,750.00 1320.00,725.00" fill="none" stroke="#111111" stroke-width="1.30" stroke-linejoin="round" stroke-linecap="round"/>
+<text id="hda-0907" x="1357.50" y="742.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="17.00px" font-weight="400" font-style="italic" fill="#111111">Mean</text>
+<line id="hda-0908" x1="1360.00" y1="726.00" x2="1380.00" y2="726.00" stroke="#5b9bd5" stroke-width="1.50"/>
+<line id="hda-0909" x1="1360.00" y1="726.00" x2="1363.19" y2="724.83" stroke="#5b9bd5" stroke-width="1.10"/>
+<line id="hda-0910" x1="1360.00" y1="726.00" x2="1363.19" y2="727.17" stroke="#5b9bd5" stroke-width="1.10"/>
+<line id="hda-0911" x1="1380.00" y1="726.00" x2="1376.81" y2="727.17" stroke="#5b9bd5" stroke-width="1.10"/>
+<line id="hda-0912" x1="1380.00" y1="726.00" x2="1376.81" y2="724.83" stroke="#5b9bd5" stroke-width="1.10"/>
+<line id="hda-0913" x1="1365.00" y1="717.34" x2="1375.00" y2="734.66" stroke="#5b9bd5" stroke-width="1.50"/>
+<line id="hda-0914" x1="1365.00" y1="717.34" x2="1367.61" y2="719.52" stroke="#5b9bd5" stroke-width="1.10"/>
+<line id="hda-0915" x1="1365.00" y1="717.34" x2="1365.59" y2="720.69" stroke="#5b9bd5" stroke-width="1.10"/>
+<line id="hda-0916" x1="1375.00" y1="734.66" x2="1372.39" y2="732.48" stroke="#5b9bd5" stroke-width="1.10"/>
+<line id="hda-0917" x1="1375.00" y1="734.66" x2="1374.41" y2="731.31" stroke="#5b9bd5" stroke-width="1.10"/>
+<line id="hda-0918" x1="1375.00" y1="717.34" x2="1365.00" y2="734.66" stroke="#5b9bd5" stroke-width="1.50"/>
+<line id="hda-0919" x1="1375.00" y1="717.34" x2="1374.41" y2="720.69" stroke="#5b9bd5" stroke-width="1.10"/>
+<line id="hda-0920" x1="1375.00" y1="717.34" x2="1372.39" y2="719.52" stroke="#5b9bd5" stroke-width="1.10"/>
+<line id="hda-0921" x1="1365.00" y1="734.66" x2="1365.59" y2="731.31" stroke="#5b9bd5" stroke-width="1.10"/>
+<line id="hda-0922" x1="1365.00" y1="734.66" x2="1367.61" y2="732.48" stroke="#5b9bd5" stroke-width="1.10"/>
+<line id="hda-0923" x1="1390.00" y1="710.00" x2="1412.00" y2="710.00" stroke="#111111" stroke-width="1.20" marker-end="url(#arrow)"/>
+<text id="hda-0924" x="1534.00" y="661.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="18.00px" font-weight="400" font-style="normal" fill="#ed7d31">Token level Alignment</text>
+<rect id="hda-0925" x="1414.00" y="689.00" width="21.00" height="42.00" rx="0.00" fill="#ffc000" stroke="#111111" stroke-width="0.70" opacity="1.000"/>
+<text id="hda-0926" x="1424.50" y="691.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="italic" fill="#111111">e_g</text>
+<ellipse id="hda-0927" cx="1455.00" cy="710.00" rx="10.00" ry="10.00" fill="#ffffff" stroke="#111111" stroke-width="0.90"/>
+<text id="hda-0928" x="1455.00" y="710.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="17.00px" font-weight="400" font-style="normal" fill="#111111">•</text>
+<text id="hda-0929" x="1479.00" y="736.68" text-anchor="middle" font-family="Liberation Serif" font-size="16.00px" font-weight="400" font-style="italic" fill="#111111">
+<tspan x="1479.00" dy="0">V</tspan>
+<tspan x="1479.00" dy="16.80">u</tspan>
+</text>
+<rect id="hda-0930" x="1490.00" y="748.00" width="29.00" height="7.00" rx="0.00" fill="#ffc000" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="hda-0931" x="1504.00" y="687.00" width="15.00" height="15.00" rx="0.00" fill="#ffd966" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="hda-0932" x="1519.00" y="687.00" width="15.00" height="15.00" rx="0.00" fill="#ffe699" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="hda-0933" x="1534.00" y="687.00" width="15.00" height="15.00" rx="0.00" fill="#ffd966" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="hda-0934" x="1504.00" y="702.00" width="15.00" height="15.00" rx="0.00" fill="#ffd966" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="hda-0935" x="1519.00" y="702.00" width="15.00" height="15.00" rx="0.00" fill="#ffd966" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="hda-0936" x="1534.00" y="702.00" width="15.00" height="15.00" rx="0.00" fill="#ffd966" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="hda-0937" x="1504.00" y="717.00" width="15.00" height="15.00" rx="0.00" fill="#ffd966" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="hda-0938" x="1519.00" y="717.00" width="15.00" height="15.00" rx="0.00" fill="#ffd966" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<rect id="hda-0939" x="1534.00" y="717.00" width="15.00" height="15.00" rx="0.00" fill="#f4b183" stroke="#111111" stroke-width="0.55" opacity="1.000"/>
+<ellipse id="hda-0940" cx="1552.56" cy="726.40" rx="6.56" ry="5.60" fill="#ed7d31" stroke="none" stroke-width="1.20"/>
+<ellipse id="hda-0941" cx="1552.72" cy="727.12" rx="2.72" ry="3.44" fill="#ffc000" stroke="none" stroke-width="1.20"/>
+<line id="hda-0942" x1="1552.72" y1="716.00" x2="1548.40" y2="724.32" stroke="#ed7d31" stroke-width="3.10"/>
+<polyline id="hda-0943" points="1468.00,710.00 1475.00,744.00 1521.00,744.00 1548.00,710.00" fill="none" stroke="#d4d4d4" stroke-width="1.20" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="5 4"/>
+<line id="hda-0944" x1="1554.00" y1="710.00" x2="1592.00" y2="710.00" stroke="#111111" stroke-width="1.20" marker-end="url(#arrow)"/>
+<rect id="hda-0945" x="1594.00" y="678.00" width="137.00" height="66.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="1.00" opacity="1.000" stroke-dasharray="4 3"/>
+<rect id="hda-0946" x="1609.00" y="685.00" width="21.00" height="50.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="hda-0947" x="1613.00" y="691.00" width="13.00" height="10.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="hda-0948" x="1613.00" y="705.00" width="13.00" height="10.00" rx="0.00" fill="#44546a" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="hda-0949" x="1613.00" y="719.00" width="13.00" height="10.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="hda-0950" x="1642.00" y="685.00" width="21.00" height="50.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="hda-0951" x="1646.00" y="691.00" width="13.00" height="10.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="hda-0952" x="1646.00" y="705.00" width="13.00" height="10.00" rx="0.00" fill="#44546a" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="hda-0953" x="1646.00" y="719.00" width="13.00" height="10.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="hda-0954" x="1675.00" y="685.00" width="21.00" height="50.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="hda-0955" x="1679.00" y="691.00" width="13.00" height="10.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="hda-0956" x="1679.00" y="705.00" width="13.00" height="10.00" rx="0.00" fill="#44546a" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="hda-0957" x="1679.00" y="719.00" width="13.00" height="10.00" rx="0.00" fill="#ffc000" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<line id="hda-0958" x1="1732.00" y1="711.00" x2="1760.00" y2="711.00" stroke="#111111" stroke-width="1.20" marker-end="url(#arrow)"/>
+<rect id="hda-0959" x="1715.00" y="635.00" width="175.00" height="39.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="1.00" opacity="1.000" stroke-dasharray="4 3"/>
+<rect id="hda-0960" x="1721.00" y="640.00" width="20.00" height="28.00" rx="7.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="hda-0961" x="1731.00" y="654.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#111111">*0</text>
+<rect id="hda-0962" x="1745.00" y="640.00" width="20.00" height="28.00" rx="7.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="hda-0963" x="1755.00" y="654.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#111111"></text>
+<rect id="hda-0964" x="1769.00" y="640.00" width="20.00" height="28.00" rx="7.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="hda-0965" x="1779.00" y="654.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#111111">*1</text>
+<rect id="hda-0966" x="1793.00" y="640.00" width="20.00" height="28.00" rx="7.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="hda-0967" x="1803.00" y="654.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#111111"></text>
+<rect id="hda-0968" x="1817.00" y="640.00" width="20.00" height="28.00" rx="7.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="hda-0969" x="1827.00" y="654.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#111111">*2</text>
+<rect id="hda-0970" x="1841.00" y="640.00" width="20.00" height="28.00" rx="7.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="hda-0971" x="1851.00" y="654.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#111111">…</text>
+<rect id="hda-0972" x="1865.00" y="640.00" width="20.00" height="28.00" rx="7.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="hda-0973" x="1875.00" y="654.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#111111">*L</text>
+<text id="hda-0974" x="1796.50" y="688.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="17.00px" font-weight="400" font-style="normal" fill="#111111">Spatio-Temporal Tokens</text>
+<rect id="hda-0975" x="1715.00" y="708.00" width="175.00" height="39.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="1.00" opacity="1.000" stroke-dasharray="4 3"/>
+<rect id="hda-0976" x="1721.00" y="713.00" width="20.00" height="28.00" rx="7.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="hda-0977" x="1731.00" y="727.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#111111">*0</text>
+<rect id="hda-0978" x="1745.00" y="713.00" width="20.00" height="28.00" rx="7.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="hda-0979" x="1755.00" y="727.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#111111"></text>
+<rect id="hda-0980" x="1769.00" y="713.00" width="20.00" height="28.00" rx="7.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="hda-0981" x="1779.00" y="727.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#111111">*1</text>
+<rect id="hda-0982" x="1793.00" y="713.00" width="20.00" height="28.00" rx="7.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="hda-0983" x="1803.00" y="727.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#111111"></text>
+<rect id="hda-0984" x="1817.00" y="713.00" width="20.00" height="28.00" rx="7.00" fill="#ffe699" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="hda-0985" x="1827.00" y="727.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#111111">*2</text>
+<rect id="hda-0986" x="1841.00" y="713.00" width="20.00" height="28.00" rx="7.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="hda-0987" x="1851.00" y="727.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#111111">…</text>
+<rect id="hda-0988" x="1865.00" y="713.00" width="20.00" height="28.00" rx="7.00" fill="#ffe699" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="hda-0989" x="1875.00" y="727.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#111111">*L</text>
+<text id="hda-0990" x="1797.00" y="761.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="17.00px" font-weight="400" font-style="normal" fill="#111111">Domain Prompt Tokens</text>
+<line id="hda-0991" x1="1804.00" y1="747.00" x2="1804.00" y2="844.00" stroke="#8d8d8d" stroke-width="1.20" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+</g>
+<g id="cmr">
+<text id="cmr-0992" x="1463.00" y="817.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="25.00px" font-weight="700" font-style="normal" fill="#111111">Continual Memory Replay (CMR)</text>
+<rect id="cmr-0993" x="981.00" y="842.00" width="95.00" height="52.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="1.00" opacity="1.000" stroke-dasharray="4 3"/>
+<rect id="cmr-0994" x="993.00" y="850.00" width="19.00" height="37.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="cmr-0995" x="997.00" y="856.00" width="11.00" height="10.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="cmr-0996" x="997.00" y="863.50" width="11.00" height="10.00" rx="0.00" fill="#4472c4" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="cmr-0997" x="997.00" y="871.00" width="11.00" height="10.00" rx="0.00" fill="#44546a" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="cmr-0998" x="1022.00" y="850.00" width="19.00" height="37.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="cmr-0999" x="1026.00" y="856.00" width="11.00" height="10.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="cmr-1000" x="1026.00" y="863.50" width="11.00" height="10.00" rx="0.00" fill="#4472c4" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="cmr-1001" x="1026.00" y="871.00" width="11.00" height="10.00" rx="0.00" fill="#44546a" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="cmr-1002" x="1051.00" y="850.00" width="19.00" height="37.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="cmr-1003" x="1055.00" y="856.00" width="11.00" height="10.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="cmr-1004" x="1055.00" y="863.50" width="11.00" height="10.00" rx="0.00" fill="#4472c4" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="cmr-1005" x="1055.00" y="871.00" width="11.00" height="10.00" rx="0.00" fill="#44546a" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="cmr-1006" x="1097.00" y="849.00" width="454.00" height="46.00" rx="0.00" fill="#ffffff" stroke="#cfcfcf" stroke-width="0.80" opacity="1.000"/>
+<text id="cmr-1007" x="1157.50" y="870.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="18.00px" font-weight="400" font-style="normal" fill="#4472c4">Mem Buffer</text>
+<text id="cmr-1008" x="1353.00" y="870.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="18.00px" font-weight="400" font-style="normal" fill="#70ad47">Current Stream</text>
+<polyline id="cmr-1009" points="1167.00,857.99 1174.02,864.86 1181.04,872.58 1188.06,880.70 1195.08,875.81 1202.09,875.77 1209.11,868.73 1216.13,861.67 1223.15,863.40 1230.17,873.13 1237.19,886.93 1244.21,878.32 1251.23,867.55 1258.25,859.22 1265.26,866.43 1272.28,874.07 1279.30,875.72 1286.32,879.91 1293.34,874.74 1300.36,869.60 1307.38,857.90 1314.40,864.29 1321.42,877.97 1328.43,884.50 1335.45,878.07 1342.47,863.38 1349.49,864.50 1356.51,865.53 1363.53,872.89 1370.55,875.68 1377.57,880.45 1384.58,878.00 1391.60,863.54 1398.62,859.55 1405.64,864.52 1412.66,882.12 1419.68,882.20 1426.70,874.50 1433.72,866.38 1440.74,863.79 1447.75,867.82 1454.77,868.06 1461.79,879.45 1468.81,881.45 1475.83,876.64 1482.85,861.53 1489.87,857.77 1496.89,870.96 1503.91,879.51 1510.92,882.32 1517.94,871.43 1524.96,869.43 1531.98,864.63 1539.00,864.14" fill="none" stroke="#5b9bd5" stroke-width="1.20" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline id="cmr-1010" points="994.00,842.00 1018.00,832.00 1175.00,841.00" fill="none" stroke="#111111" stroke-width="1.20" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="5 4"/>
+<rect id="cmr-1011" x="1570.00" y="842.00" width="180.00" height="52.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="1.00" opacity="1.000" stroke-dasharray="4 3"/>
+<rect id="cmr-1012" x="1582.00" y="850.00" width="18.00" height="37.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="cmr-1013" x="1586.00" y="856.00" width="10.00" height="10.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="cmr-1014" x="1586.00" y="863.50" width="10.00" height="10.00" rx="0.00" fill="#4472c4" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="cmr-1015" x="1586.00" y="871.00" width="10.00" height="10.00" rx="0.00" fill="#44546a" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="cmr-1016" x="1609.00" y="850.00" width="18.00" height="37.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="cmr-1017" x="1613.00" y="856.00" width="10.00" height="10.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="cmr-1018" x="1613.00" y="863.50" width="10.00" height="10.00" rx="0.00" fill="#4472c4" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="cmr-1019" x="1613.00" y="871.00" width="10.00" height="10.00" rx="0.00" fill="#44546a" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="cmr-1020" x="1636.00" y="850.00" width="18.00" height="37.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="cmr-1021" x="1640.00" y="856.00" width="10.00" height="10.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="cmr-1022" x="1640.00" y="863.50" width="10.00" height="10.00" rx="0.00" fill="#4472c4" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="cmr-1023" x="1640.00" y="871.00" width="10.00" height="10.00" rx="0.00" fill="#44546a" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="cmr-1024" x="1663.00" y="850.00" width="18.00" height="37.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="cmr-1025" x="1667.00" y="856.00" width="10.00" height="10.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="cmr-1026" x="1667.00" y="863.50" width="10.00" height="10.00" rx="0.00" fill="#4472c4" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="cmr-1027" x="1667.00" y="871.00" width="10.00" height="10.00" rx="0.00" fill="#70ad47" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="cmr-1028" x="1690.00" y="850.00" width="18.00" height="37.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="cmr-1029" x="1694.00" y="856.00" width="10.00" height="10.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="cmr-1030" x="1694.00" y="863.50" width="10.00" height="10.00" rx="0.00" fill="#4472c4" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="cmr-1031" x="1694.00" y="871.00" width="10.00" height="10.00" rx="0.00" fill="#70ad47" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="cmr-1032" x="1717.00" y="850.00" width="18.00" height="37.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="cmr-1033" x="1721.00" y="856.00" width="10.00" height="10.00" rx="0.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="cmr-1034" x="1721.00" y="863.50" width="10.00" height="10.00" rx="0.00" fill="#4472c4" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<rect id="cmr-1035" x="1721.00" y="871.00" width="10.00" height="10.00" rx="0.00" fill="#70ad47" stroke="#111111" stroke-width="0.60" opacity="1.000"/>
+<text id="cmr-1036" x="1704.00" y="828.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="15.00px" font-weight="400" font-style="normal" fill="#8d8d8d">data mining</text>
+<polyline id="cmr-1037" points="1390.00,891.00 1435.00,907.00 1660.00,897.00" fill="none" stroke="#111111" stroke-width="1.20" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+<line id="cmr-1038" x1="1751.00" y1="866.00" x2="1797.00" y2="866.00" stroke="#111111" stroke-width="1.20" marker-end="url(#arrow)"/>
+<rect id="cmr-1039" x="1799.00" y="842.00" width="91.00" height="49.00" rx="0.00" fill="#ffffff" stroke="#111111" stroke-width="1.00" opacity="1.000" stroke-dasharray="4 3"/>
+<rect id="cmr-1040" x="1805.00" y="849.00" width="12.00" height="31.00" rx="7.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="cmr-1041" x="1818.00" y="849.00" width="12.00" height="31.00" rx="7.00" fill="#d9e2f3" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="cmr-1042" x="1831.00" y="849.00" width="12.00" height="31.00" rx="7.00" fill="#ffe699" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="cmr-1043" x="1844.00" y="849.00" width="12.00" height="31.00" rx="7.00" fill="#fff2cc" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="cmr-1044" x="1857.00" y="849.00" width="12.00" height="31.00" rx="7.00" fill="#a9d18e" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="cmr-1045" x="1870.00" y="849.00" width="12.00" height="31.00" rx="7.00" fill="#d5e8d4" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<rect id="cmr-1046" x="1883.00" y="849.00" width="12.00" height="31.00" rx="7.00" fill="#9dc3e6" stroke="#111111" stroke-width="0.90" opacity="1.000"/>
+<text id="cmr-1047" x="1846.00" y="906.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="17.00px" font-weight="400" font-style="normal" fill="#111111">Combined Tokens</text>
+<line id="cmr-1048" x1="1897.00" y1="866.00" x2="1897.00" y2="943.00" stroke="#111111" stroke-width="1.20"/>
+<line id="cmr-1049" x1="1897.00" y1="943.00" x2="1888.00" y2="943.00" stroke="#111111" stroke-width="1.20" marker-end="url(#arrow)"/>
+<rect id="cmr-1050" x="1661.00" y="920.00" width="229.00" height="45.00" rx="8.00" fill="#e2f0d9" stroke="#111111" stroke-width="1.00" opacity="1.000"/>
+<text id="cmr-1051" x="1768.50" y="942.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="18.00px" font-weight="400" font-style="normal" fill="#111111">Transformer Encoder</text>
+<ellipse id="cmr-1052" cx="1868.56" cy="942.40" rx="6.56" ry="5.60" fill="#ed7d31" stroke="none" stroke-width="1.20"/>
+<ellipse id="cmr-1053" cx="1868.72" cy="943.12" rx="2.72" ry="3.44" fill="#ffc000" stroke="none" stroke-width="1.20"/>
+<line id="cmr-1054" x1="1868.72" y1="932.00" x2="1864.40" y2="940.32" stroke="#ed7d31" stroke-width="3.10"/>
+<rect id="cmr-1055" x="1357.00" y="920.00" width="247.00" height="45.00" rx="8.00" fill="#e2f0d9" stroke="#111111" stroke-width="1.00" opacity="1.000"/>
+<text id="cmr-1056" x="1473.50" y="942.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="18.00px" font-weight="400" font-style="normal" fill="#111111">Transformer Decoder</text>
+<ellipse id="cmr-1057" cx="1582.56" cy="942.40" rx="6.56" ry="5.60" fill="#ed7d31" stroke="none" stroke-width="1.20"/>
+<ellipse id="cmr-1058" cx="1582.72" cy="943.12" rx="2.72" ry="3.44" fill="#ffc000" stroke="none" stroke-width="1.20"/>
+<line id="cmr-1059" x1="1582.72" y1="932.00" x2="1578.40" y2="940.32" stroke="#ed7d31" stroke-width="3.10"/>
+<rect id="cmr-1060" x="1085.00" y="920.00" width="214.00" height="45.00" rx="8.00" fill="#e2f0d9" stroke="#70ad47" stroke-width="1.00" opacity="1.000"/>
+<text id="cmr-1061" x="1185.00" y="942.50" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="18.00px" font-weight="400" font-style="normal" fill="#111111">Prediction Head</text>
+<ellipse id="cmr-1062" cx="1277.56" cy="942.40" rx="6.56" ry="5.60" fill="#ed7d31" stroke="none" stroke-width="1.20"/>
+<ellipse id="cmr-1063" cx="1277.72" cy="943.12" rx="2.72" ry="3.44" fill="#ffc000" stroke="none" stroke-width="1.20"/>
+<line id="cmr-1064" x1="1277.72" y1="932.00" x2="1273.40" y2="940.32" stroke="#ed7d31" stroke-width="3.10"/>
+<line id="cmr-1065" x1="1661.00" y1="943.00" x2="1604.00" y2="943.00" stroke="#111111" stroke-width="1.20" marker-end="url(#arrow)"/>
+<line id="cmr-1066" x1="1357.00" y1="943.00" x2="1299.00" y2="943.00" stroke="#111111" stroke-width="1.20" marker-end="url(#arrow)"/>
+<line id="cmr-1067" x1="1085.00" y1="943.00" x2="1037.00" y2="943.00" stroke="#111111" stroke-width="1.20" marker-end="url(#arrow)"/>
+<text id="cmr-1068" x="973.00" y="932.16" text-anchor="start" font-family="Liberation Serif" font-size="17.00px" font-weight="400" font-style="normal" fill="#111111">
+<tspan x="973.00" dy="0">Future</tspan>
+<tspan x="973.00" dy="17.85">Value</tspan>
+</text>
+</g>
+<g id="stage-labels">
+<text id="stage-labels-1069" x="470.00" y="1012.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="25.00px" font-weight="700" font-style="normal" fill="#111111">Stage 1: Universal Temporal Pretraining (UTP)</text>
+<text id="stage-labels-1070" x="1450.00" y="1012.00" text-anchor="middle" dominant-baseline="middle" font-family="Liberation Serif" font-size="25.00px" font-weight="700" font-style="normal" fill="#111111">Stage 2: Spatio-Temporal Adaptation (STA)</text>
+</g>
+</svg>
