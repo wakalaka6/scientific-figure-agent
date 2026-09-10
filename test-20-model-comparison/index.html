@@ -211,14 +211,15 @@ input:focus, select:focus { border-color: #666; }
 }
 
 .comparison-scroll {
-  overflow-x: auto;
-  overflow-y: hidden;
+  overflow: visible;
 }
 
 .comparison-grid {
   display: grid;
-  grid-template-columns: repeat(5, minmax(270px, 1fr));
-  min-width: 1350px;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-rows: minmax(0, 1fr);
+  width: 100%;
+  min-width: 0;
 }
 
 .reference-row {
@@ -514,14 +515,15 @@ input:focus, select:focus { border-color: #666; }
   .dimensions { display: none; }
 
   .comparison-scroll {
-    overflow-x: auto;
-    overflow-y: hidden;
+    overflow: visible;
   }
 
   .comparison-grid {
     display: grid;
-    grid-template-columns: repeat(5, minmax(270px, 1fr));
-    min-width: 1350px;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-rows: minmax(0, 1fr);
+    width: 100%;
+    min-width: 0;
     gap: 0.55rem;
     padding: 0 0.9rem;
   }
