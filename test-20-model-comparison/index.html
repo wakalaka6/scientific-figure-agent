@@ -216,8 +216,8 @@ input:focus, select:focus { border-color: #666; }
 
 .comparison-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(270px, 1fr));
-  min-width: 1120px;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  min-width: 0;
 }
 
 .reference-row {
@@ -912,9 +912,8 @@ function render() {
           <h2 title="${escapeHtml(item.title)}">${escapeHtml(item.title)}</h2>
           <span class="dimensions">${item.size[0]} × ${item.size[1]}</span>
         </header>
-        <div class="reference-row">${referenceCard(item)}</div>
         <div class="comparison-scroll">
-          <div class="comparison-grid">${cards}</div>
+          <div class="comparison-grid">${referenceCard(item)}${cards}</div>
         </div>
       </article>`;
   }).join("") : `<p class="no-results">没有符合当前筛选条件的样本。</p>`;
