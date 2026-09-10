@@ -211,13 +211,14 @@ input:focus, select:focus { border-color: #666; }
 }
 
 .comparison-scroll {
-  overflow: visible;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 
 .comparison-grid {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  min-width: 0;
+  grid-template-columns: repeat(5, minmax(270px, 1fr));
+  min-width: 1350px;
 }
 
 .reference-row {
@@ -394,7 +395,7 @@ input:focus, select:focus { border-color: #666; }
 
 .lightbox-stage img { max-width: 100%; max-height: 100%; background: #fff; }
 
-@media (max-width: 820px) {
+@media (max-width: 520px) {
   body { overflow-x: hidden; }
 
   .topbar {
@@ -492,8 +493,6 @@ input:focus, select:focus { border-color: #666; }
 
   .sample {
     padding: 0.25rem 0 0.7rem;
-    content-visibility: auto;
-    contain-intrinsic-size: auto 340px;
   }
 
   .sample-header {
@@ -515,14 +514,14 @@ input:focus, select:focus { border-color: #666; }
   .dimensions { display: none; }
 
   .comparison-scroll {
-    overflow: visible;
+    overflow-x: auto;
+    overflow-y: hidden;
   }
 
   .comparison-grid {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    width: 100%;
-    min-width: 0;
+    grid-template-columns: repeat(5, minmax(270px, 1fr));
+    min-width: 1350px;
     gap: 0.55rem;
     padding: 0 0.9rem;
   }
