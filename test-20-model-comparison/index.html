@@ -8,6 +8,7 @@
     <style>
 :root {
   color-scheme: light;
+  --comparison-columns: 5;
   --page: #f4f5f6;
   --paper: #ffffff;
   --ink: #181a1d;
@@ -87,6 +88,28 @@ main {
   gap: 0.9rem;
   padding: 0.8rem 1rem;
   border-bottom: 1px solid var(--line-soft);
+}
+
+.view-switcher {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.8rem 1rem 0;
+}
+
+.view-switcher a {
+  padding: 0.48rem 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 0.25rem;
+  color: var(--muted);
+  font-size: 0.82rem;
+  text-decoration: none;
+}
+
+.view-switcher a[aria-current="page"] {
+  border-color: var(--green);
+  background: #f2f7f0;
+  color: var(--green);
+  font-weight: 700;
 }
 
 .search-field, .select-field {
@@ -216,7 +239,7 @@ input:focus, select:focus { border-color: #666; }
 
 .comparison-grid {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(var(--comparison-columns), minmax(0, 1fr));
   grid-template-rows: minmax(0, 1fr);
   width: 100%;
   min-width: 0;
@@ -520,7 +543,7 @@ input:focus, select:focus { border-color: #666; }
 
   .comparison-grid {
     display: grid;
-    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-columns: repeat(var(--comparison-columns), minmax(0, 1fr));
     grid-template-rows: minmax(0, 1fr);
     width: 100%;
     min-width: 0;
@@ -624,12 +647,16 @@ input:focus, select:focus { border-color: #666; }
     <header class="topbar">
       <div>
         <p class="eyebrow">TEST 20 BENCHMARK</p>
-        <h1>Image to SVG Generation</h1>
+        <h1 id="page-title">Image to SVG Generation</h1>
       </div>
       <div class="summary" id="summary" aria-live="polite"></div>
     </header>
 
     <main>
+      <nav class="view-switcher" aria-label="选择对比页面">
+        <a data-view="gpt6-skill" href="?view=gpt6-skill">GPT-6 vs GPT-5.6 + GPT-6 Skill</a>
+        <a data-view="skill-ablation" href="?view=skill-ablation">GPT-5.6 Skill vs No Skill</a>
+      </nav>
       <section class="controls" aria-label="结果筛选">
         <label class="search-field">
           <span>查找</span>
@@ -640,18 +667,18 @@ input:focus, select:focus { border-color: #666; }
           <select id="filter">
             <option value="all">全部样本</option>
             <option value="available">已有任一结果</option>
-            <option value="complete">三组模型均有结果</option>
+            <option value="complete">所选模型均有结果</option>
             <option value="active">生成中或失败</option>
           </select>
         </label>
         <div class="model-totals" id="model-totals"></div>
       </section>
 
-      <section class="metrics-overview" aria-label="三组定量结果">
+      <section class="metrics-overview" aria-label="所选模型定量结果">
         <div id="metrics-overview"></div>
       </section>
 
-      <p class="mobile-guide">参考图与 3 组结果按两列排列，点图可放大。</p>
+      <p class="mobile-guide">参考图与两组结果固定三列同排，点图可放大。</p>
 
       <p class="loading" id="loading">正在读取结果…</p>
       <section class="samples" id="samples" aria-live="polite"></section>
@@ -702,7 +729,28 @@ const lightboxImage = document.getElementById("lightbox-image");
 const lightboxTitle = document.getElementById("lightbox-title");
 const lightboxMeta = document.getElementById("lightbox-meta");
 const lightboxOpen = document.getElementById("lightbox-open");
+const pageTitle = document.getElementById("page-title");
 let imageObserver = null;
+
+const viewConfigs = {
+  "gpt6-skill": {
+    title: "GPT-6 vs GPT-5.6 + GPT-6 Skill",
+    models: ["gpt-6-astra", "gpt-5.6-sol-with-skill"],
+  },
+  "skill-ablation": {
+    title: "GPT-5.6 · Skill vs No Skill",
+    models: ["gpt-5.6-sol-with-skill", "gpt-5.6-sol"],
+  },
+};
+
+const activeViewKey = viewConfigs[new URLSearchParams(location.search).get("view")]
+  ? new URLSearchParams(location.search).get("view")
+  : "gpt6-skill";
+const activeView = viewConfigs[activeViewKey];
+document.documentElement.style.setProperty("--comparison-columns", activeView.models.length + 1);
+document.title = `${activeView.title} · Test 20`;
+pageTitle.textContent = activeView.title;
+document.querySelector(`[data-view="${activeViewKey}"]`)?.setAttribute("aria-current", "page");
 
 function escapeHtml(value) {
   return String(value)
@@ -890,20 +938,26 @@ function visible(item) {
 function render() {
   if (!appState.data) return;
   const { models, items, summary: stats, generated_at: generatedAt } = appState.data;
-  const available = Object.values(stats.available_by_model).reduce((sum, value) => sum + value, 0);
+  const activeModels = models.filter((model) => activeView.models.includes(model.id));
+  const activeItems = items.map((item) => ({
+    ...item,
+    results: item.results.filter((result) => activeView.models.includes(result.model)),
+  }));
+  const available = activeModels.reduce((sum, model) => sum + (stats.available_by_model[model.id] || 0), 0);
+  const totalRuns = stats.cases * activeModels.length;
   summary.innerHTML = `
     <span><strong>${stats.cases}</strong>参考图</span>
-    <span><strong>${available}/${stats.total_runs}</strong>已有 SVG</span>
+    <span><strong>${available}/${totalRuns}</strong>已有 SVG</span>
     <span><strong>${generatedAt.slice(11, 19)}</strong>最后扫描</span>`;
-  totals.innerHTML = models.map((model) => `
+  totals.innerHTML = activeModels.map((model) => `
     <span class="model-total"><strong>${escapeHtml(model.label)}</strong> ${stats.available_by_model[model.id]}/${stats.cases}</span>
   `).join("");
-  renderMetrics(models, stats);
+  renderMetrics(activeModels, stats);
 
-  const shown = items.filter(visible);
+  const shown = activeItems.filter(visible);
   samples.innerHTML = shown.length ? shown.map((item) => {
     const cards = item.results.map((result) => {
-      const model = models.find((entry) => entry.id === result.model);
+      const model = activeModels.find((entry) => entry.id === result.model);
       return resultCard(item, result, model?.label || result.model);
     }).join("");
     return `
