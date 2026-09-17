@@ -193,6 +193,48 @@
 
       .visual-card:last-child { border-right: 0; }
 
+      .evaluation {
+        display: grid;
+        grid-template-columns: auto minmax(0, 1fr);
+        gap: 0.7rem 1.2rem;
+        align-items: start;
+        margin: 0.15rem 0.75rem 0.9rem;
+        padding: 0.78rem 0.9rem;
+        border: 1px solid #dce3e8;
+        border-left: 3px solid var(--generated);
+        background: #f7f9fa;
+      }
+
+      .evaluation-scores {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.45rem;
+      }
+
+      .evaluation-score {
+        display: inline-flex;
+        align-items: baseline;
+        gap: 0.4rem;
+        min-width: 8.3rem;
+        padding: 0.38rem 0.55rem;
+        border: 1px solid #d7dde1;
+        background: #fff;
+        color: var(--muted);
+        font-size: 0.78rem;
+      }
+
+      .evaluation-score strong {
+        color: var(--generated);
+        font-size: 0.92rem;
+      }
+
+      .evaluation p {
+        margin: 0;
+        color: #4f555c;
+        font-size: 0.83rem;
+        line-height: 1.55;
+      }
+
       .card-label {
         padding: 0.18rem 0 0.48rem;
         font-size: 0.86rem;
@@ -476,6 +518,19 @@
         .card-label { text-align: left; }
         .canvas { height: clamp(270px, 88vw, 520px); }
 
+        .evaluation {
+          grid-template-columns: 1fr;
+          margin: 0.7rem 0.9rem 0;
+          padding: 0.75rem;
+        }
+
+        .evaluation-scores {
+          display: grid;
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .evaluation-score { min-width: 0; }
+
         .lightbox {
           width: 100vw;
           height: 100dvh;
@@ -609,6 +664,18 @@
         </article>`;
       }
 
+      function evaluation(item) {
+        const result = item.evaluation;
+        if (!result) return "";
+        return `<section class="evaluation" aria-label="${escapeHtml(item.id)} 偏好遵循评价">
+          <div class="evaluation-scores">
+            <span class="evaluation-score">内容组织 <strong>${escapeHtml(result.content)}</strong></span>
+            <span class="evaluation-score">视觉风格 <strong>${escapeHtml(result.style)}</strong></span>
+          </div>
+          <p>${escapeHtml(result.note)}</p>
+        </section>`;
+      }
+
       function render() {
         const cases = appState.data.cases;
         const visible = cases.filter((item) => `${item.id} ${item.title}`.toLowerCase().includes(appState.query));
@@ -630,6 +697,7 @@
                 ${singleCard(item, "generated")}
               </div>
             </div>
+            ${evaluation(item)}
           </article>`).join("") : `<p class="no-results">没有符合当前搜索的 case。</p>`;
       }
 

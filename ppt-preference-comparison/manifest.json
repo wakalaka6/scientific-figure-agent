@@ -19,7 +19,12 @@
         }
       ],
       "ground_truth": "assets/case_001/ground_truth.jpg",
-      "generated": "assets/case_001/generated.jpg"
+      "generated": "assets/case_001/generated.jpg",
+      "evaluation": {
+        "content": "高",
+        "style": "高",
+        "note": "保持了目录、概念解释、实例、逻辑与物理描述、总结的教学推进方式。视觉上延续白底、DDI 标识和固定页脚，但图表更规整，整体比原作更精致、文字更少。"
+      }
     },
     {
       "id": "case_002",
@@ -40,7 +45,12 @@
         }
       ],
       "ground_truth": "assets/case_002/ground_truth.jpg",
-      "generated": "assets/case_002/generated.jpg"
+      "generated": "assets/case_002/generated.jpg",
+      "evaluation": {
+        "content": "中",
+        "style": "中",
+        "note": "保留了个人经历驱动的故事线，但被整理成较标准的线性职业叙事，削弱了原作的联想式表达。深灰底和照片语言基本正确，但紫红主色、密集拼贴和非正式感丢失较多。"
+      }
     },
     {
       "id": "case_003",
@@ -61,7 +71,12 @@
         }
       ],
       "ground_truth": "assets/case_003/ground_truth.jpg",
-      "generated": "assets/case_003/generated.jpg"
+      "generated": "assets/case_003/generated.jpg",
+      "evaluation": {
+        "content": "高",
+        "style": "高",
+        "note": "较好复现了从术语、结果到开放科学、劳工和制度问题的论证路径，并保留截图作为证据。黑底、大字和黄色强调准确，但生成版更加统一，弱化了原作多色强调和巨大章节编号的个性。"
+      }
     },
     {
       "id": "case_004",
@@ -82,7 +97,12 @@
         }
       ],
       "ground_truth": "assets/case_004/ground_truth.jpg",
-      "generated": "assets/case_004/generated.jpg"
+      "generated": "assets/case_004/generated.jpg",
+      "evaluation": {
+        "content": "高",
+        "style": "中高",
+        "note": "完整保留了研究问题、区域背景、观测变化、模型数据、校准验证和结果解释的科研论证链。地图章节页和图表语言接近，但生成结果更现代规整，缺少原作通过重复页面逐步讲解的节奏。"
+      }
     },
     {
       "id": "case_005",
@@ -103,7 +123,12 @@
         }
       ],
       "ground_truth": "assets/case_005/ground_truth.jpg",
-      "generated": "assets/case_005/generated.jpg"
+      "generated": "assets/case_005/generated.jpg",
+      "evaluation": {
+        "content": "高",
+        "style": "很高",
+        "note": "保留了目标、活动、能力范围、案例、教学应用和反思的参与式 workshop 结构。机构模板、顶部标识、绿色标题、照片和页脚高度一致，仅比原作更精炼、图示化。"
+      }
     },
     {
       "id": "case_006",
@@ -124,7 +149,12 @@
         }
       ],
       "ground_truth": "assets/case_006/ground_truth.jpg",
-      "generated": "assets/case_006/generated.jpg"
+      "generated": "assets/case_006/generated.jpg",
+      "evaluation": {
+        "content": "高",
+        "style": "很高",
+        "note": "从基本规则逐步推进到有限动词、配价、语序、信息结构和复杂句，符合用户的讲解习惯。母版、标识、字体、横线和蓝红强调都很接近，生成版只是更干净、密度更低。"
+      }
     },
     {
       "id": "case_007",
@@ -145,7 +175,12 @@
         }
       ],
       "ground_truth": "assets/case_007/ground_truth.jpg",
-      "generated": "assets/case_007/generated.jpg"
+      "generated": "assets/case_007/generated.jpg",
+      "evaluation": {
+        "content": "高",
+        "style": "很高",
+        "note": "准确延续了从使用动机、标签规则到手动操作、批量操作、导入和 AutoTag 的任务流程。绿色训练模板、步骤编号、UI 截图和橙色箭头均高度一致，是风格复现最成功的 case 之一。"
+      }
     },
     {
       "id": "case_008",
@@ -166,7 +201,12 @@
         }
       ],
       "ground_truth": "assets/case_008/ground_truth.jpg",
-      "generated": "assets/case_008/generated.jpg"
+      "generated": "assets/case_008/generated.jpg",
+      "evaluation": {
+        "content": "高",
+        "style": "中高",
+        "note": "概念顺序基本保持一致，从统计学、变量和测量尺度推进到总体样本、分析类型与练习作业。白底、绿色标题和教学表格符合偏好，但封面缺少原作明显的蓝色几何母版。"
+      }
     },
     {
       "id": "case_009",
@@ -187,7 +227,12 @@
         }
       ],
       "ground_truth": "assets/case_009/ground_truth.jpg",
-      "generated": "assets/case_009/generated.jpg"
+      "generated": "assets/case_009/generated.jpg",
+      "evaluation": {
+        "content": "高",
+        "style": "很高",
+        "note": "保持了从管理动机和现实调查到生命周期、DMP、FAIR、仓储与资源的完整组织逻辑。绿色机构模板、标识、图片和图表处理都非常接近，主要差别是生成版更规整、文字略少。"
+      }
     }
   ]
 }
