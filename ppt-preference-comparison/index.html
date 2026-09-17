@@ -1,0 +1,673 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="同一用户历史演示文稿、隐藏 GT 与 GPT-6 Astra/Codex 生成结果的三栏对比。" />
+    <title>PPT Preference Transfer · Reference / GT / Generated</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --page: #f3f4f5;
+        --paper: #ffffff;
+        --ink: #17191c;
+        --muted: #6d7279;
+        --line: #d9dce0;
+        --line-soft: #ebedf0;
+        --reference: #356b42;
+        --ground-truth: #a46412;
+        --generated: #285f8f;
+      }
+
+      * { box-sizing: border-box; }
+
+      html { scroll-behavior: smooth; }
+
+      body {
+        margin: 0;
+        min-width: 320px;
+        overflow-wrap: anywhere;
+        background: var(--page);
+        color: var(--ink);
+        font: 16px/1.45 Arial, Helvetica, sans-serif;
+      }
+
+      button, input { font: inherit; }
+
+      .topbar {
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        gap: 2rem;
+        max-width: 1880px;
+        margin: 0 auto;
+        padding: 1.8rem 1.5rem 1.15rem;
+      }
+
+      .eyebrow {
+        margin: 0 0 0.32rem;
+        color: var(--muted);
+        font-size: 0.75rem;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: clamp(2rem, 3.1vw, 3.2rem);
+        line-height: 1;
+        letter-spacing: -0.035em;
+      }
+
+      .summary {
+        display: flex;
+        gap: 1.4rem;
+        color: var(--muted);
+        font-size: 0.82rem;
+        text-align: right;
+      }
+
+      .summary strong {
+        display: block;
+        color: var(--ink);
+        font-size: 1.05rem;
+      }
+
+      main {
+        max-width: 1880px;
+        margin: 0 auto 3rem;
+        background: var(--paper);
+        border: 1px solid var(--line-soft);
+        box-shadow: 0 2px 12px rgba(22, 28, 34, 0.08);
+      }
+
+      .controls {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 0.8rem 1rem;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .search-field {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: var(--muted);
+        font-size: 0.82rem;
+      }
+
+      input {
+        width: min(26rem, 42vw);
+        min-height: 2.2rem;
+        padding: 0.4rem 0.65rem;
+        border: 1px solid var(--line);
+        border-radius: 0.2rem;
+        background: #fff;
+        color: var(--ink);
+        outline: none;
+      }
+
+      input:focus { border-color: #666; }
+
+      .legend {
+        display: flex;
+        gap: 1rem;
+        margin-left: auto;
+        color: var(--muted);
+        font-size: 0.78rem;
+      }
+
+      .legend span {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.35rem;
+      }
+
+      .legend i {
+        width: 0.5rem;
+        height: 0.5rem;
+        border-radius: 50%;
+        background: currentColor;
+      }
+
+      .legend .reference { color: var(--reference); }
+      .legend .ground-truth { color: var(--ground-truth); }
+      .legend .generated { color: var(--generated); }
+
+      .mobile-guide { display: none; }
+      .samples { padding: 0 1rem; }
+
+      .sample { border-bottom: 1px solid var(--line); }
+      .sample:last-child { border-bottom: 0; }
+
+      .sample-header {
+        display: flex;
+        align-items: baseline;
+        gap: 0.7rem;
+        padding: 0.72rem 0.35rem 0.42rem;
+      }
+
+      .sample-id {
+        flex: none;
+        color: var(--reference);
+        font: 700 0.75rem/1 ui-monospace, SFMono-Regular, Menlo, monospace;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+
+      .sample h2 {
+        margin: 0;
+        overflow: hidden;
+        font-size: 0.92rem;
+        font-weight: 600;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .slides {
+        flex: none;
+        margin-left: auto;
+        color: var(--muted);
+        font-size: 0.75rem;
+      }
+
+      .comparison-scroll {
+        overflow-x: auto;
+        overscroll-behavior-inline: contain;
+      }
+
+      .comparison-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(340px, 1fr));
+        min-width: 1080px;
+      }
+
+      .visual-card {
+        min-width: 0;
+        padding: 0.45rem 0.75rem 0.8rem;
+        border-right: 1px dashed #b8bbc0;
+      }
+
+      .visual-card:last-child { border-right: 0; }
+
+      .card-label {
+        padding: 0.18rem 0 0.48rem;
+        font-size: 0.86rem;
+        font-weight: 700;
+        text-align: center;
+      }
+
+      .reference-card .card-label { color: var(--reference); }
+      .ground-truth-card .card-label { color: var(--ground-truth); }
+      .generated-card .card-label { color: var(--generated); }
+
+      .canvas {
+        display: grid;
+        place-items: center;
+        position: relative;
+        height: clamp(260px, 24vw, 440px);
+        overflow: hidden;
+        background:
+          linear-gradient(45deg, #f4f4f4 25%, transparent 25%) 0 0 / 16px 16px,
+          linear-gradient(-45deg, #f4f4f4 25%, transparent 25%) 0 8px / 16px 16px,
+          #fff;
+      }
+
+      .canvas > img {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        background: #fff;
+        cursor: zoom-in;
+      }
+
+      .reference-set {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        width: 100%;
+        height: 100%;
+        gap: 0.42rem;
+        padding: 0.42rem;
+      }
+
+      .reference-thumb {
+        display: grid;
+        grid-template-rows: minmax(0, 1fr) auto;
+        min-width: 0;
+        margin: 0;
+        overflow: hidden;
+        background: #fff;
+        box-shadow: 0 0 0 1px #e0e2e4;
+      }
+
+      .reference-thumb img {
+        align-self: center;
+        justify-self: center;
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        cursor: zoom-in;
+      }
+
+      .reference-thumb figcaption {
+        overflow: hidden;
+        padding: 0.28rem 0.34rem;
+        border-top: 1px solid var(--line-soft);
+        color: var(--muted);
+        font-size: 0.62rem;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .card-footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0.7rem;
+        min-height: 1.9rem;
+        padding-top: 0.45rem;
+        color: var(--muted);
+        font-size: 0.72rem;
+      }
+
+      .state {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.35rem;
+      }
+
+      .state::before {
+        width: 0.42rem;
+        height: 0.42rem;
+        border-radius: 50%;
+        background: currentColor;
+        content: "";
+      }
+
+      .reference-card .state { color: var(--reference); }
+      .ground-truth-card .state { color: var(--ground-truth); }
+      .generated-card .state { color: var(--generated); }
+
+      .loading, .no-results {
+        margin: 3rem;
+        color: var(--muted);
+        text-align: center;
+      }
+
+      .lightbox {
+        width: calc(100vw - 2rem);
+        height: calc(100vh - 2rem);
+        max-width: none;
+        max-height: none;
+        padding: 0;
+        border: 1px solid #aaa;
+        background: #fff;
+        color: var(--ink);
+      }
+
+      .lightbox::backdrop { background: rgba(0, 0, 0, 0.76); }
+
+      .lightbox-bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        min-height: 3.6rem;
+        padding: 0.6rem 0.9rem;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .lightbox-bar strong,
+      .lightbox-bar span { display: block; }
+
+      .lightbox-bar span {
+        color: var(--muted);
+        font-size: 0.78rem;
+      }
+
+      .lightbox-actions {
+        display: flex;
+        align-items: center;
+        gap: 0.6rem;
+      }
+
+      .lightbox-actions a,
+      .lightbox-actions button {
+        padding: 0.42rem 0.68rem;
+        border: 1px solid #aaa;
+        background: #fff;
+        color: var(--ink);
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      .lightbox-stage {
+        display: grid;
+        place-items: start center;
+        height: calc(100% - 3.6rem);
+        overflow: auto;
+        padding: 1rem;
+        background: #eceeef;
+      }
+
+      .lightbox-stage img {
+        display: block;
+        max-width: 100%;
+        background: #fff;
+      }
+
+      @media (max-width: 820px) {
+        .topbar {
+          align-items: flex-start;
+          flex-direction: column;
+          gap: 0.9rem;
+          padding: 1.1rem 0.9rem 0.85rem;
+        }
+
+        h1 {
+          max-width: 22rem;
+          font-size: clamp(1.85rem, 9vw, 2.55rem);
+          line-height: 0.98;
+        }
+
+        .summary {
+          display: grid;
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+          width: 100%;
+          gap: 0.45rem;
+          text-align: left;
+        }
+
+        .summary span {
+          min-width: 0;
+          padding: 0.5rem 0.55rem;
+          border: 1px solid var(--line-soft);
+          border-radius: 0.45rem;
+          background: rgba(255, 255, 255, 0.65);
+        }
+
+        main {
+          width: 100%;
+          margin-bottom: 0;
+          border-right: 0;
+          border-left: 0;
+          box-shadow: none;
+        }
+
+        .controls {
+          align-items: stretch;
+          flex-direction: column;
+          padding: 0.8rem 0.9rem;
+        }
+
+        .search-field {
+          display: grid;
+          gap: 0.25rem;
+        }
+
+        input {
+          width: 100%;
+          min-height: 2.75rem;
+          font-size: 1rem;
+        }
+
+        .legend {
+          width: 100%;
+          margin-left: 0;
+          justify-content: space-between;
+        }
+
+        .mobile-guide {
+          display: block;
+          margin: 0;
+          padding: 0.65rem 0.9rem;
+          border-bottom: 1px solid var(--line-soft);
+          background: #f7faf7;
+          color: #526056;
+          font-size: 0.78rem;
+        }
+
+        .samples { padding: 0; }
+
+        .sample {
+          padding-bottom: 0.8rem;
+          content-visibility: auto;
+          contain-intrinsic-size: auto 980px;
+        }
+
+        .sample-header {
+          align-items: flex-start;
+          flex-wrap: wrap;
+          padding: 0.75rem 0.9rem 0.55rem;
+        }
+
+        .sample h2 {
+          display: -webkit-box;
+          flex-basis: calc(100% - 5.5rem);
+          overflow: hidden;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+          line-height: 1.35;
+          white-space: normal;
+        }
+
+        .slides { display: none; }
+        .comparison-scroll { overflow: visible; }
+
+        .comparison-grid {
+          grid-template-columns: 1fr;
+          width: 100%;
+          min-width: 0;
+          gap: 0.65rem;
+          padding: 0 0.9rem;
+        }
+
+        .visual-card {
+          padding: 0.55rem 0.65rem 0.7rem;
+          border: 1px solid var(--line);
+          border-radius: 0.5rem;
+          background: #fff;
+        }
+
+        .visual-card:last-child { border-right: 1px solid var(--line); }
+        .card-label { text-align: left; }
+        .canvas { height: clamp(270px, 88vw, 520px); }
+
+        .lightbox {
+          width: 100vw;
+          height: 100dvh;
+          margin: 0;
+          border: 0;
+        }
+
+        .lightbox-bar {
+          min-height: 4.25rem;
+          padding: 0.55rem 0.65rem;
+        }
+
+        .lightbox-bar > div:first-child {
+          min-width: 0;
+          overflow: hidden;
+        }
+
+        .lightbox-bar strong,
+        .lightbox-bar span {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+
+        .lightbox-actions a { display: none; }
+
+        .lightbox-actions button {
+          min-width: 3.25rem;
+          min-height: 2.75rem;
+        }
+
+        .lightbox-stage {
+          height: calc(100% - 4.25rem);
+          padding: 0.5rem;
+          touch-action: pinch-zoom;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">PPT preference benchmark</p>
+        <h1>Reference · Ground Truth · Generated</h1>
+      </div>
+      <div class="summary" id="summary" aria-live="polite"></div>
+    </header>
+
+    <main>
+      <section class="controls" aria-label="结果筛选">
+        <label class="search-field">
+          <span>查找</span>
+          <input id="search" type="search" placeholder="Case 或演示文稿标题" autocomplete="off" />
+        </label>
+        <div class="legend" aria-label="列说明">
+          <span class="reference"><i></i>3 References</span>
+          <span class="ground-truth"><i></i>Ground Truth</span>
+          <span class="generated"><i></i>GPT-6 Astra / Codex</span>
+        </div>
+      </section>
+
+      <p class="mobile-guide">每个 case 依次显示 3 份 reference、GT 和生成结果；点击图片可查看完整总览。</p>
+      <p class="loading" id="loading">正在读取结果…</p>
+      <section class="samples" id="samples" aria-live="polite"></section>
+    </main>
+
+    <dialog class="lightbox" id="lightbox">
+      <div class="lightbox-bar">
+        <div>
+          <strong id="lightbox-title"></strong>
+          <span id="lightbox-meta"></span>
+        </div>
+        <div class="lightbox-actions">
+          <a id="lightbox-open" target="_blank" rel="noreferrer">打开原图</a>
+          <button id="lightbox-close" type="button" aria-label="关闭大图">关闭</button>
+        </div>
+      </div>
+      <div class="lightbox-stage">
+        <img id="lightbox-image" alt="" />
+      </div>
+    </dialog>
+
+    <script>
+      const appState = { data: null, query: "" };
+      const samples = document.getElementById("samples");
+      const summary = document.getElementById("summary");
+      const loading = document.getElementById("loading");
+      const search = document.getElementById("search");
+      const lightbox = document.getElementById("lightbox");
+      const lightboxImage = document.getElementById("lightbox-image");
+      const lightboxTitle = document.getElementById("lightbox-title");
+      const lightboxMeta = document.getElementById("lightbox-meta");
+      const lightboxOpen = document.getElementById("lightbox-open");
+
+      function escapeHtml(value) {
+        return String(value)
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;")
+          .replaceAll("'", "&#039;");
+      }
+
+      function image(source, alt, title, meta) {
+        return `<img loading="lazy" decoding="async" src="${escapeHtml(source)}" alt="${escapeHtml(alt)}" data-lightbox data-title="${escapeHtml(title)}" data-meta="${escapeHtml(meta)}" />`;
+      }
+
+      function referenceCard(item) {
+        const references = item.references.map((reference, index) => `
+          <figure class="reference-thumb">
+            ${image(reference.image, `${item.id} reference ${index + 1}`, item.title, `Reference ${index + 1} · ${reference.label}`)}
+            <figcaption title="${escapeHtml(reference.label)}">${index + 1}. ${escapeHtml(reference.label)}</figcaption>
+          </figure>`).join("");
+        return `<article class="visual-card reference-card">
+          <div class="card-label">References · 3 decks</div>
+          <div class="canvas"><div class="reference-set">${references}</div></div>
+          <div class="card-footer"><span class="state">同一用户 · 不同主题</span><span>3 份</span></div>
+        </article>`;
+      }
+
+      function singleCard(item, kind) {
+        const groundTruth = kind === "ground_truth";
+        const label = groundTruth ? "Ground Truth" : "GPT-6 Astra / Codex";
+        const cardClass = groundTruth ? "ground-truth-card" : "generated-card";
+        const source = item[kind];
+        const state = groundTruth ? `${item.slides} 页 GT` : `${item.slides} 页生成结果`;
+        return `<article class="visual-card ${cardClass}">
+          <div class="card-label">${label}</div>
+          <div class="canvas">${image(source, `${item.id} ${label}`, item.title, `${label} · ${item.slides} slides`)}</div>
+          <div class="card-footer"><span class="state">${state}</span><span>总览图</span></div>
+        </article>`;
+      }
+
+      function render() {
+        const cases = appState.data.cases;
+        const visible = cases.filter((item) => `${item.id} ${item.title}`.toLowerCase().includes(appState.query));
+        summary.innerHTML = `
+          <span><strong>${cases.length}</strong>cases</span>
+          <span><strong>${cases.length * 3}</strong>references</span>
+          <span><strong>GPT-6</strong>Astra / Codex</span>`;
+        samples.innerHTML = visible.length ? visible.map((item) => `
+          <article class="sample">
+            <header class="sample-header">
+              <span class="sample-id">${escapeHtml(item.id)}</span>
+              <h2 title="${escapeHtml(item.title)}">${escapeHtml(item.title)}</h2>
+              <span class="slides">${item.slides} slides</span>
+            </header>
+            <div class="comparison-scroll">
+              <div class="comparison-grid">
+                ${referenceCard(item)}
+                ${singleCard(item, "ground_truth")}
+                ${singleCard(item, "generated")}
+              </div>
+            </div>
+          </article>`).join("") : `<p class="no-results">没有符合当前搜索的 case。</p>`;
+      }
+
+      search.addEventListener("input", () => {
+        appState.query = search.value.trim().toLowerCase();
+        render();
+      });
+
+      samples.addEventListener("click", (event) => {
+        const selected = event.target.closest("[data-lightbox]");
+        if (!selected) return;
+        lightboxImage.src = selected.src;
+        lightboxImage.alt = selected.alt;
+        lightboxTitle.textContent = selected.dataset.title;
+        lightboxMeta.textContent = selected.dataset.meta;
+        lightboxOpen.href = selected.src;
+        lightbox.showModal();
+      });
+
+      document.getElementById("lightbox-close").addEventListener("click", () => lightbox.close());
+      lightbox.addEventListener("click", (event) => {
+        if (event.target === lightbox) lightbox.close();
+      });
+      lightbox.addEventListener("close", () => lightboxImage.removeAttribute("src"));
+
+      fetch("manifest.json")
+        .then((response) => {
+          if (!response.ok) throw new Error(`HTTP ${response.status}`);
+          return response.json();
+        })
+        .then((data) => {
+          appState.data = data;
+          loading.hidden = true;
+          render();
+        })
+        .catch((error) => {
+          loading.textContent = `读取失败：${error.message}`;
+        });
+    </script>
+  </body>
+</html>

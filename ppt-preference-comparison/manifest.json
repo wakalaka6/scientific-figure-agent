@@ -1,0 +1,193 @@
+{
+  "cases": [
+    {
+      "id": "case_001",
+      "title": "DDI Studies: Data Sets and Data Files",
+      "slides": 12,
+      "references": [
+        {
+          "label": "DDITL 05 1 0 Variables VariableCascade",
+          "image": "assets/case_001/reference_1.jpg"
+        },
+        {
+          "label": "DDITL 01 1 0 What Is Metadata",
+          "image": "assets/case_001/reference_2.jpg"
+        },
+        {
+          "label": "DDITL 09 1 0 Identification Versioning",
+          "image": "assets/case_001/reference_3.jpg"
+        }
+      ],
+      "ground_truth": "assets/case_001/ground_truth.jpg",
+      "generated": "assets/case_001/generated.jpg"
+    },
+    {
+      "id": "case_002",
+      "title": "Curate Your Story",
+      "slides": 31,
+      "references": [
+        {
+          "label": "Whitaker TPSVision TPSSeminar May2020",
+          "image": "assets/case_002/reference_1.jpg"
+        },
+        {
+          "label": "Whitaker OpenInnovationAutistica November2019",
+          "image": "assets/case_002/reference_2.jpg"
+        },
+        {
+          "label": "Whitaker TuringWay NeurIPSPreregistration November2020",
+          "image": "assets/case_002/reference_3.jpg"
+        }
+      ],
+      "ground_truth": "assets/case_002/ground_truth.jpg",
+      "generated": "assets/case_002/generated.jpg"
+    },
+    {
+      "id": "case_003",
+      "title": "AI Is Not the Problem",
+      "slides": 45,
+      "references": [
+        {
+          "label": "08-Hsing-Open Science hardware",
+          "image": "assets/case_003/reference_1.jpg"
+        },
+        {
+          "label": "Hsing FOSDEM 2024-02-10",
+          "image": "assets/case_003/reference_2.jpg"
+        },
+        {
+          "label": "Hsing Hidden REF lightning talk 2023-09-21",
+          "image": "assets/case_003/reference_3.jpg"
+        }
+      ],
+      "ground_truth": "assets/case_003/ground_truth.jpg",
+      "generated": "assets/case_003/generated.jpg"
+    },
+    {
+      "id": "case_004",
+      "title": "Applied Modeling of Hydrological Systems in Central Asia",
+      "slides": 21,
+      "references": [
+        {
+          "label": "6 Model Calibration Validation 2022",
+          "image": "assets/case_004/reference_1.jpg"
+        },
+        {
+          "label": "2 Types of HydroModels Catchment Scale Processes 2022",
+          "image": "assets/case_004/reference_2.jpg"
+        },
+        {
+          "label": "4 Input Requirements Discharge Climate Data Modeling Process Perceptual Modell 2022",
+          "image": "assets/case_004/reference_3.jpg"
+        }
+      ],
+      "ground_truth": "assets/case_004/ground_truth.jpg",
+      "generated": "assets/case_004/generated.jpg"
+    },
+    {
+      "id": "case_005",
+      "title": "Importance and Scope of Critical Thinking",
+      "slides": 7,
+      "references": [
+        {
+          "label": "2021-03 Session Teaching learning methods part 1",
+          "image": "assets/case_005/reference_1.jpg"
+        },
+        {
+          "label": "2021-03 Session CT models",
+          "image": "assets/case_005/reference_2.jpg"
+        },
+        {
+          "label": "2021-03 Session CT integration",
+          "image": "assets/case_005/reference_3.jpg"
+        }
+      ],
+      "ground_truth": "assets/case_005/ground_truth.jpg",
+      "generated": "assets/case_005/generated.jpg"
+    },
+    {
+      "id": "case_006",
+      "title": "Turkic Syntax I: Simple Sentences",
+      "slides": 8,
+      "references": [
+        {
+          "label": "LACIM PPP 1 HISTORY I. The origins of Turkic",
+          "image": "assets/case_006/reference_1.jpg"
+        },
+        {
+          "label": "LACIM PPP 3 PHONOLOGY",
+          "image": "assets/case_006/reference_2.jpg"
+        },
+        {
+          "label": "LACIM PPP 4 MORPHOLOGY",
+          "image": "assets/case_006/reference_3.jpg"
+        }
+      ],
+      "ground_truth": "assets/case_006/ground_truth.jpg",
+      "generated": "assets/case_006/generated.jpg"
+    },
+    {
+      "id": "case_007",
+      "title": "OMERO Tags",
+      "slides": 25,
+      "references": [
+        {
+          "label": "202310 GENERAL OMERO Material 08 OMERO-Fiji",
+          "image": "assets/case_007/reference_1.jpg"
+        },
+        {
+          "label": "202310 GENERAL OMERO Material 09 More",
+          "image": "assets/case_007/reference_2.jpg"
+        },
+        {
+          "label": "202310 GENERAL OMERO Material 07-3 Metadata Ontologies",
+          "image": "assets/case_007/reference_3.jpg"
+        }
+      ],
+      "ground_truth": "assets/case_007/ground_truth.jpg",
+      "generated": "assets/case_007/generated.jpg"
+    },
+    {
+      "id": "case_008",
+      "title": "Introduction to Statistics",
+      "slides": 16,
+      "references": [
+        {
+          "label": "02 Descriptive statistics2024",
+          "image": "assets/case_008/reference_1.jpg"
+        },
+        {
+          "label": "03 Inferential statistics2024",
+          "image": "assets/case_008/reference_2.jpg"
+        },
+        {
+          "label": "05 Multivariate statistics2024",
+          "image": "assets/case_008/reference_3.jpg"
+        }
+      ],
+      "ground_truth": "assets/case_008/ground_truth.jpg",
+      "generated": "assets/case_008/generated.jpg"
+    },
+    {
+      "id": "case_009",
+      "title": "Research Data Management",
+      "slides": 27,
+      "references": [
+        {
+          "label": "cessda roadshow 28.10.2021 fin",
+          "image": "assets/case_009/reference_1.jpg"
+        },
+        {
+          "label": "SD22 Slavec etal",
+          "image": "assets/case_009/reference_2.jpg"
+        },
+        {
+          "label": "Slavec 190923 v3",
+          "image": "assets/case_009/reference_3.jpg"
+        }
+      ],
+      "ground_truth": "assets/case_009/ground_truth.jpg",
+      "generated": "assets/case_009/generated.jpg"
+    }
+  ]
+}
