@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Batch 003 banner generation comparison: Plan only versus Plan plus rubric." />
+    <title>Banner Plan vs Rubric</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --page: #f2f4f6;
+        --paper: #fff;
+        --ink: #17191d;
+        --muted: #666d76;
+        --line: #d7dbe0;
+        --line-soft: #e8eaed;
+        --logo: #675a45;
+        --plan: #285fa8;
+        --criteria: #168064;
+        --soft: #f5f6f7;
+      }
+
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      body {
+        margin: 0;
+        min-width: 320px;
+        background: var(--page);
+        color: var(--ink);
+        font: 15px/1.55 Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+      }
+      button, input { font: inherit; }
+      button { color: inherit; }
+
+      .hero {
+        max-width: 1740px;
+        margin: 0 auto;
+        padding: 34px 28px 22px;
+      }
+      .hero-row {
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        gap: 34px;
+      }
+      .eyebrow {
+        margin: 0 0 7px;
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: .14em;
+        text-transform: uppercase;
+      }
+      h1 {
+        margin: 0;
+        font: 700 clamp(32px, 4vw, 58px)/.98 Georgia, "Times New Roman", serif;
+        letter-spacing: -.04em;
+      }
+      .lede { max-width: 830px; margin: 15px 0 0; color: #4e555e; font-size: 16px; }
+      .kpis {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(105px, 1fr));
+        min-width: 420px;
+        border-top: 1px solid var(--line);
+        border-bottom: 1px solid var(--line);
+      }
+      .kpi { padding: 13px 16px 11px; border-right: 1px solid var(--line); }
+      .kpi:last-child { border-right: 0; }
+      .kpi strong { display: block; font-size: 24px; line-height: 1.05; }
+      .kpi span { color: var(--muted); font-size: 11px; letter-spacing: .06em; text-transform: uppercase; }
+
+      .workspace {
+        max-width: 1740px;
+        margin: 0 auto 48px;
+        background: var(--paper);
+        border: 1px solid var(--line-soft);
+        box-shadow: 0 3px 16px rgba(21,29,38,.08);
+      }
+      .toolbar {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding: 10px 14px;
+        border-bottom: 1px solid var(--line);
+        background: rgba(255,255,255,.96);
+        backdrop-filter: blur(10px);
+      }
+      .search {
+        width: min(440px, 55vw);
+        height: 36px;
+        padding: 0 11px;
+        border: 1px solid #bfc4ca;
+        border-radius: 3px;
+        outline: none;
+      }
+      .search:focus { border-color: #4e5660; box-shadow: 0 0 0 2px rgba(39,94,168,.13); }
+      .toolbar-meta { margin-left: auto; color: var(--muted); font-size: 12px; }
+      .columns-legend {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        border-bottom: 1px solid var(--line);
+      }
+      .columns-legend span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 7px;
+        padding: 9px;
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: .04em;
+        text-transform: uppercase;
+      }
+      .columns-legend i { width: 8px; height: 8px; border-radius: 50%; background: currentColor; }
+      .columns-legend .logo { color: var(--logo); }
+      .columns-legend .plan { color: var(--plan); }
+      .columns-legend .criteria { color: var(--criteria); }
+
+      .loading, .empty { margin: 56px; color: var(--muted); text-align: center; }
+      .cases { padding: 0 16px; }
+      .case { padding: 27px 0 34px; border-bottom: 5px solid #25282d; }
+      .case:last-child { border-bottom: 0; }
+      .case-header {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 16px;
+        padding: 0 4px 13px;
+      }
+      .case-heading { display: flex; align-items: baseline; gap: 12px; min-width: 0; }
+      .case-id {
+        flex: none;
+        color: var(--plan);
+        font: 700 12px/1 ui-monospace, SFMono-Regular, Menlo, monospace;
+        letter-spacing: .08em;
+        text-transform: uppercase;
+      }
+      .case h2 { margin: 0; font-size: 21px; line-height: 1.25; }
+      .case-meta { color: var(--muted); font-size: 12px; white-space: nowrap; }
+      .prompt {
+        display: grid;
+        grid-template-columns: 90px minmax(0,1fr);
+        gap: 14px;
+        margin: 0 4px 18px;
+        padding: 12px 14px;
+        border-left: 4px solid #25282d;
+        background: var(--soft);
+      }
+      .prompt-label { font-size: 12px; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; }
+      .prompt p { margin: 0; }
+      .comparison-scroll { overflow-x: auto; overscroll-behavior-inline: contain; }
+      .comparison-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(330px,1fr));
+        min-width: 1020px;
+        border-top: 1px solid var(--line-soft);
+        border-bottom: 1px solid var(--line-soft);
+      }
+      figure { min-width: 0; margin: 0; padding: 11px; border-right: 1px dashed #b9bec4; }
+      figure:last-child { border-right: 0; }
+      figcaption {
+        display: flex;
+        justify-content: space-between;
+        gap: 8px;
+        padding: 0 2px 7px;
+        font-size: 12px;
+        font-weight: 700;
+      }
+      .logo-figure figcaption { color: var(--logo); }
+      .plan-figure figcaption { color: var(--plan); }
+      .criteria-figure figcaption { color: var(--criteria); }
+      figcaption small { color: var(--muted); font-size: 11px; font-weight: 400; }
+      .visual-frame {
+        display: grid;
+        place-items: center;
+        width: 100%;
+        aspect-ratio: 1;
+        border: 1px solid #e2e4e7;
+        background-color: #fff;
+        background-image: linear-gradient(45deg,#f2f2f2 25%,transparent 25%),linear-gradient(-45deg,#f2f2f2 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#f2f2f2 75%),linear-gradient(-45deg,transparent 75%,#f2f2f2 75%);
+        background-size: 24px 24px;
+        background-position: 0 0,0 12px,12px -12px,-12px 0;
+        overflow: hidden;
+      }
+      .visual {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        cursor: zoom-in;
+      }
+      .logo-figure .visual { width: 78%; height: 78%; }
+      .criteria-box { margin: 17px 4px 0; border-top: 1px solid var(--line); }
+      .criteria-box summary { padding: 12px 0 5px; color: var(--criteria); font-weight: 700; cursor: pointer; }
+      .criteria-list { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 8px 20px; margin: 8px 0 0; padding: 0; list-style: none; }
+      .criterion { padding: 9px 10px; background: var(--soft); }
+      .criterion strong { display: block; margin-bottom: 2px; font-size: 12px; }
+      .criterion span { color: #555c65; font-size: 12px; }
+
+      .lightbox {
+        width: calc(100vw - 28px);
+        height: calc(100vh - 28px);
+        max-width: none;
+        max-height: none;
+        padding: 0;
+        border: 1px solid #7a8087;
+        background: #fff;
+      }
+      .lightbox::backdrop { background: rgba(0,0,0,.8); }
+      .lightbox-bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        min-height: 52px;
+        padding: 8px 12px;
+        border-bottom: 1px solid var(--line);
+      }
+      .lightbox-title { font-weight: 700; }
+      .lightbox-meta { color: var(--muted); font-size: 12px; }
+      .lightbox-actions { display: flex; gap: 7px; }
+      .lightbox-actions a, .lightbox-actions button {
+        padding: 6px 10px;
+        border: 1px solid #92989f;
+        background: #fff;
+        color: var(--ink);
+        text-decoration: none;
+        cursor: pointer;
+      }
+      .lightbox-stage {
+        display: grid;
+        place-items: start center;
+        height: calc(100% - 53px);
+        overflow: auto;
+        padding: 18px;
+        background: #e8eaed;
+      }
+      .lightbox-stage img { display: block; max-width: 100%; max-height: none; background: #fff; }
+
+      @media (max-width: 980px) {
+        .hero { padding: 24px 16px 18px; }
+        .hero-row { align-items: stretch; flex-direction: column; }
+        .kpis { min-width: 0; }
+        .toolbar { flex-wrap: wrap; }
+        .search { flex: 1 1 100%; width: 100%; }
+        .toolbar-meta { width: 100%; margin-left: 0; }
+      }
+      @media (max-width: 700px) {
+        .kpis { grid-template-columns: repeat(3,1fr); }
+        .workspace { margin-bottom: 0; border-right: 0; border-left: 0; box-shadow: none; }
+        .cases { padding: 0; }
+        .case { padding: 22px 12px 28px; }
+        .case-header { align-items: flex-start; flex-direction: column; }
+        .case-heading { align-items: flex-start; flex-direction: column; gap: 7px; }
+        .prompt { grid-template-columns: 1fr; gap: 6px; }
+        .columns-legend { display: none; }
+        .comparison-scroll { overflow: visible; }
+        .comparison-grid { grid-template-columns: 1fr; min-width: 0; gap: 10px; border: 0; }
+        figure { border: 1px solid var(--line); }
+        figure:last-child { border-right: 1px solid var(--line); }
+        .criteria-list { grid-template-columns: 1fr; }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero-row">
+        <div>
+          <p class="eyebrow" id="eyebrow">Batch 003 · Editable PowerPoint Banner A/B</p>
+          <h1 id="page-title">Banner Plan vs Rubric</h1>
+          <p class="lede" id="page-description"></p>
+        </div>
+        <section class="kpis" id="kpis" aria-label="汇总"></section>
+      </div>
+    </header>
+
+    <main class="workspace">
+      <section class="toolbar" aria-label="结果筛选">
+        <input class="search" id="search" type="search" placeholder="搜索品牌或 prompt" autocomplete="off" />
+        <span class="toolbar-meta" id="result-count" aria-live="polite"></span>
+      </section>
+      <section class="columns-legend" aria-label="三列说明">
+        <span class="logo"><i></i>Source logo</span>
+        <span class="plan"><i></i>Plan only</span>
+        <span class="criteria"><i></i>Plan + Rubric</span>
+      </section>
+      <p class="loading" id="loading">正在读取 Batch 003…</p>
+      <section class="cases" id="cases" aria-live="polite"></section>
+    </main>
+
+    <dialog class="lightbox" id="lightbox">
+      <div class="lightbox-bar">
+        <div>
+          <div class="lightbox-title" id="lightbox-title"></div>
+          <div class="lightbox-meta" id="lightbox-meta"></div>
+        </div>
+        <div class="lightbox-actions">
+          <a id="lightbox-open" target="_blank" rel="noreferrer">打开原图</a>
+          <button id="lightbox-close" type="button">关闭</button>
+        </div>
+      </div>
+      <div class="lightbox-stage"><img id="lightbox-image" alt="" /></div>
+    </dialog>
+
+    <script>
+      const state = { data: null, query: "" };
+      const casesNode = document.getElementById("cases");
+      const loading = document.getElementById("loading");
+      const search = document.getElementById("search");
+      const countNode = document.getElementById("result-count");
+      const lightbox = document.getElementById("lightbox");
+      const lightboxImage = document.getElementById("lightbox-image");
+      const lightboxTitle = document.getElementById("lightbox-title");
+      const lightboxMeta = document.getElementById("lightbox-meta");
+      const lightboxOpen = document.getElementById("lightbox-open");
+
+      function escapeHtml(value) {
+        return String(value).replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;").replaceAll("'","&#039;");
+      }
+      function renderKpis(summary) {
+        document.getElementById("kpis").innerHTML = [
+          [summary.cases,"Cases"], [summary.banners,"Banners"], [summary.criteria,"Rubric items"]
+        ].map(([value,label]) => `<div class="kpi"><strong>${escapeHtml(value)}</strong><span>${escapeHtml(label)}</span></div>`).join("");
+      }
+      function visual(item,key,label,className,note) {
+        const source = item.images[key];
+        return `<figure class="${className}">
+          <figcaption><span>${label}</span><small>${escapeHtml(note)}</small></figcaption>
+          <div class="visual-frame"><img class="visual" loading="lazy" decoding="async" src="${escapeHtml(source)}" alt="${escapeHtml(item.brand)} ${escapeHtml(label)}" data-lightbox data-title="${escapeHtml(item.id)} · ${escapeHtml(item.brand)}" data-meta="${escapeHtml(label)}" /></div>
+        </figure>`;
+      }
+      function criteriaBlock(item) {
+        const rows = item.criteria.map((criterion) => `<li class="criterion"><strong>${escapeHtml(criterion.id)} · ${escapeHtml(criterion.check)}</strong><span>${escapeHtml(criterion.pass)}</span></li>`).join("");
+        return `<details class="criteria-box"><summary>查看 ${item.criteria_count} 条 rubric</summary><ul class="criteria-list">${rows}</ul></details>`;
+      }
+      function caseCard(item) {
+        return `<article class="case" id="${escapeHtml(item.id)}">
+          <header class="case-header">
+            <div class="case-heading"><span class="case-id">${escapeHtml(item.id)}</span><h2>${escapeHtml(item.brand)}</h2></div>
+            <span class="case-meta">${item.criteria_count} rubric items${item.has_review ? " · review available" : ""}</span>
+          </header>
+          <section class="prompt"><span class="prompt-label">Brief</span><p>${escapeHtml(item.prompt)}</p></section>
+          <div class="comparison-scroll"><div class="comparison-grid">
+            ${visual(item,"logo","Source logo","logo-figure","input")}
+            ${visual(item,"plan_only","Plan only","plan-figure","without rubric")}
+            ${visual(item,"plan_plus_criteria","Plan + Rubric","criteria-figure",`${item.criteria_count} rubric items`)}
+          </div></div>
+          ${criteriaBlock(item)}
+        </article>`;
+      }
+      function render() {
+        const query = state.query.toLowerCase();
+        const visible = state.data.cases.filter((item) => `${item.id} ${item.brand} ${item.prompt}`.toLowerCase().includes(query));
+        countNode.textContent = `显示 ${visible.length} / ${state.data.cases.length} cases`;
+        casesNode.innerHTML = visible.length ? visible.map(caseCard).join("") : `<p class="empty">没有符合条件的 case。</p>`;
+      }
+      search.addEventListener("input", () => { state.query = search.value.trim(); render(); });
+      casesNode.addEventListener("click", (event) => {
+        const selected = event.target.closest("[data-lightbox]");
+        if (!selected) return;
+        lightboxImage.src = selected.src;
+        lightboxImage.alt = selected.alt;
+        lightboxTitle.textContent = selected.dataset.title;
+        lightboxMeta.textContent = selected.dataset.meta;
+        lightboxOpen.href = selected.src;
+        lightbox.showModal();
+      });
+      document.getElementById("lightbox-close").addEventListener("click", () => lightbox.close());
+      lightbox.addEventListener("click", (event) => { if (event.target === lightbox) lightbox.close(); });
+      lightbox.addEventListener("close", () => lightboxImage.removeAttribute("src"));
+
+      fetch("manifest.json")
+        .then((response) => { if (!response.ok) throw new Error(`HTTP ${response.status}`); return response.json(); })
+        .then((data) => {
+          state.data = data;
+          document.title = data.title;
+          document.getElementById("eyebrow").textContent = data.eyebrow;
+          document.getElementById("page-title").textContent = data.title;
+          document.getElementById("page-description").textContent = data.description;
+          loading.hidden = true;
+          renderKpis(data.summary);
+          render();
+        })
+        .catch((error) => { loading.textContent = `读取失败：${error.message}`; });
+    </script>
+  </body>
+</html>

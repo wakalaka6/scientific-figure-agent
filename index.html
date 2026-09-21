@@ -6,8 +6,8 @@
 <title>Diagram Gallery</title>
 <style>
 body { margin: 0; font-family: Arial, sans-serif; background: #f6f7f9; color: #111; }
-.tabs { height: 44px; display: flex; gap: 8px; align-items: center; padding: 0 12px; background: #fff; border-bottom: 1px solid #ddd; }
-button { height: 30px; padding: 0 14px; border: 1px solid #aaa; background: #fff; cursor: pointer; font-size: 14px; }
+.tabs { height: 44px; display: flex; gap: 8px; align-items: center; overflow-x: auto; padding: 0 12px; background: #fff; border-bottom: 1px solid #ddd; white-space: nowrap; }
+button { flex: none; height: 30px; padding: 0 14px; border: 1px solid #aaa; background: #fff; cursor: pointer; font-size: 14px; }
 button.active { background: #111; color: #fff; }
 #guide { padding: 24px; }
 .guide-title { font-size: 32px; font-weight: 700; margin: 20px 0 28px; }
@@ -26,6 +26,7 @@ iframe { width: 100vw; height: calc(100vh - 45px); border: 0; display: none; }
   <button onclick="showPage('hard-all-model-comparison/index.html', this)">Hard All Models</button>
   <button onclick="showPage('test-20-model-comparison/index.html', this)">Test 20 Models</button>
   <button onclick="showPage('ppt-preference-comparison/index.html', this)">PPT Preference</button>
+  <button onclick="showPage('banner-plan-criteria-comparison/index.html', this)">Banner A/B</button>
 </div>
 <main id="guide">
   <div class="guide-title">Guide</div>
@@ -45,6 +46,10 @@ iframe { width: 100vw; height: calc(100vh - 45px); border: 0; display: none; }
     <section class="card">
       <h2>PPT Preference</h2>
       <p>Compare three same-user reference decks, the held-out ground truth, and the GPT-6 Astra / Codex generated presentation.</p>
+    </section>
+    <section class="card">
+      <h2>Banner A/B</h2>
+      <p>Compare editable PowerPoint banners generated from the same brand brief with Plan only versus Plan plus an explicit rubric.</p>
     </section>
   </div>
 </main>

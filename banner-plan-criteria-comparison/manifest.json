@@ -1,0 +1,598 @@
+{
+  "title": "Banner Plan vs Rubric",
+  "eyebrow": "Batch 003 · Editable PowerPoint Banner A/B",
+  "description": "同一品牌 brief 与 logo 下，对比 Plan only 和 Plan + Rubric 两种生成流程。点击图片可查看大图，并可展开每个 case 的 rubric。",
+  "summary": {
+    "cases": 10,
+    "banners": 20,
+    "criteria": 87,
+    "reviewed_cases": 3
+  },
+  "cases": [
+    {
+      "id": "case_001",
+      "source_id": "001_ethicai",
+      "brand": "Ethic AI",
+      "prompt": "Ethic AI. Ethic AI offers advanced artificial intelligence solutions designed to ensure ethical decision-making in various industries. Highlight the unique selling point of promoting ethical and responsible AI technology.",
+      "criteria": [
+        {
+          "id": "C1",
+          "check": "Background and visual style",
+          "pass": "The square banner has a plain white background, flat crisp artwork, and no shadows, gradients, photographs, or decoration behind the copy."
+        },
+        {
+          "id": "C2",
+          "check": "Upper two-column composition",
+          "pass": "The brand block is approximately within x=8–28%, y=16–49%; the left-aligned message block is approximately within x=33–93%, y=18–51%; the upper composition including CTA ends by approximately 64% of slide height."
+        },
+        {
+          "id": "C3",
+          "check": "Supplied logo preservation and arrangement",
+          "pass": "Two cropped portions of the supplied logo place the original shield above the stacked ETHIC AI wordmark; both are approximately 19% of slide width and preserve the original artwork, colors, and aspect ratios."
+        },
+        {
+          "id": "C4",
+          "check": "Headline content and typography",
+          "pass": "The exact headline 'Ethical Decisions, Powered by AI' appears over two lines in approximately 48–54 pt bold blue sans-serif text."
+        },
+        {
+          "id": "C5",
+          "check": "Description content and typography",
+          "pass": "The exact description 'Advancing responsible, transparent intelligence for every industry.' appears directly below the headline over three compact lines in approximately 27–30 pt regular near-black sans-serif text."
+        },
+        {
+          "id": "C6",
+          "check": "CTA appearance and placement",
+          "pass": "A flat blue rounded rectangle approximately spans x=33–67%, y=54–63%, directly below the description, with the exact text 'See Ethic AI' in approximately 25–28 pt white type and generous horizontal padding."
+        },
+        {
+          "id": "C7",
+          "check": "Feature row positioning",
+          "pass": "Three evenly spaced feature items occupy the lower third, centered near x=22%, 50%, and 78%, with generous white margins."
+        },
+        {
+          "id": "C8",
+          "check": "Feature badges and icons",
+          "pass": "Each feature has a pale-blue circular badge containing a thin blue outline icon: a circled check mark, an eye, and a gear, respectively."
+        },
+        {
+          "id": "C9",
+          "check": "Feature labels",
+          "pass": "The near-black labels 'Ethical Compliance', 'Total Transparency', and 'Industry Ready' each appear over two lines, centered beneath their corresponding badges."
+        },
+        {
+          "id": "C10",
+          "check": "Color scheme and contrast",
+          "pass": "Outside the preserved logo, the design uses white #FFFFFF, bright blue #3478F6 for headline/CTA/icon strokes, pale blue #E5EEFF for badges, and near-black #111111 for body/feature text; CTA text is white on blue."
+        }
+      ],
+      "criteria_count": 10,
+      "has_review": false,
+      "images": {
+        "logo": "assets/case_001/logo.webp",
+        "plan_only": "assets/case_001/plan_only.webp",
+        "plan_plus_criteria": "assets/case_001/plan_plus_criteria.webp"
+      }
+    },
+    {
+      "id": "case_002",
+      "source_id": "002_svwgroup",
+      "brand": "SVW Group",
+      "prompt": "SVW Group. SVW Group offers innovative and sustainable construction solutions, emphasizing eco-friendly materials and cutting-edge technology to build a greener future.",
+      "criteria": [
+        {
+          "id": "C1",
+          "check": "Background treatment",
+          "pass": "The banner has a warm ivory (#F7F2DE) background with a subtle paper-like texture."
+        },
+        {
+          "id": "C2",
+          "check": "Headline content and placement",
+          "pass": "Reimagining Urban Spaces Sustainably appears as a left-aligned, near-black-green, extra-bold condensed headline over two large lines within approximately x=6%-94%, y=4%-23%, using approximately 52-60 pt type."
+        },
+        {
+          "id": "C3",
+          "check": "Description content and placement",
+          "pass": "Innovative Construction for Tomorrow’s Cities appears below the headline around x=6%-92%, y=27%-32%, in approximately 25-30 pt condensed sans-serif."
+        },
+        {
+          "id": "C4",
+          "check": "CTA treatment",
+          "pass": "Build Greener appears in approximately 28-32 pt bold condensed ivory or white text with a subtle dark shadow or outline on a dark-to-medium-green rounded button around x=6%-41%, y=35%-44%."
+        },
+        {
+          "id": "C5",
+          "check": "Supporting phrase placement",
+          "pass": "Smart, Sustainable Growth Solutions appears over two lines on the left around x=6%-36%, y=46%-55%."
+        },
+        {
+          "id": "C6",
+          "check": "Supplied logo prominence",
+          "pass": "The supplied SVW Group logo is displayed prominently near the center around x=37%-65%, y=33%-63%, at approximately 28%-30% slide width, with its triangular mark integrated with the skyline and its wordmark readable."
+        },
+        {
+          "id": "C7",
+          "check": "City illustration",
+          "pass": "A dense, stylized green skyline rises across the lower half with varied geometric buildings, windows, tree silhouettes, and layered triangular forms echoing the logo, with taller buildings on the right."
+        },
+        {
+          "id": "C8",
+          "check": "Footer band",
+          "pass": "A solid very-dark-green band spans the bottom from approximately y=84%-100%, repeating Smart, Sustainable Growth Solutions centered in ivory."
+        },
+        {
+          "id": "C9",
+          "check": "Palette and contrast",
+          "pass": "The illustration uses forest (#174B30), medium (#3F7445), and lime (#8BCB35) greens; primary text is near-black green (#001B19) on ivory, and footer text is ivory on dark green."
+        },
+        {
+          "id": "C10",
+          "check": "Overall composition and style",
+          "pass": "The finished banner reads as a bold editorial sustainability poster with dominant typography above, CTA and support on the middle left, central logo, and layered flat-vector architecture below."
+        }
+      ],
+      "criteria_count": 10,
+      "has_review": false,
+      "images": {
+        "logo": "assets/case_002/logo.webp",
+        "plan_only": "assets/case_002/plan_only.webp",
+        "plan_plus_criteria": "assets/case_002/plan_plus_criteria.webp"
+      }
+    },
+    {
+      "id": "case_003",
+      "source_id": "003_harvest",
+      "brand": "Harvest Prime Farms",
+      "prompt": "Harvest Prime Farms. Fresh, organic produce directly from our farm to your table, ensuring the highest quality and taste for your meals.",
+      "criteria": [
+        {
+          "id": "C1",
+          "check": "Canvas and composition",
+          "pass": "A single square 10 × 10 inch slide centers a parchment label with produce framing its edges and a dense lower foreground."
+        },
+        {
+          "id": "C2",
+          "check": "Rustic background and paper panel",
+          "pass": "Warm medium-brown wood grain surrounds a light kraft-paper panel at approximately x=10–90%, y=5–65%, with a thin cream border, slight texture, and softly rounded corners."
+        },
+        {
+          "id": "C3",
+          "check": "Produce arrangement",
+          "pass": "Red radishes and leafy greens appear at the upper corners; a woven lettuce basket appears on the right; carrots, radishes, tomatoes, and broad green leaves fill the lower foreground and overlap panel edges."
+        },
+        {
+          "id": "C4",
+          "check": "Headline copy, typography, and placement",
+          "pass": "The exact headline “Fresh, Organic, Local—From Our Fields to Your Table” is centered over three lines in bold traditional serif type of approximately 38–44 pt, within approximately x=14–88%, y=7–27%."
+        },
+        {
+          "id": "C5",
+          "check": "Supplied logo and visual hierarchy",
+          "pass": "The supplied Harvest Prime Farms logo is centered below the headline and above the description divider; the principal branding occupies approximately x=23–78%, y=30–49%, with logo width approximately 52–55% of the slide."
+        },
+        {
+          "id": "C6",
+          "check": "Description copy and typography",
+          "pass": "The exact description “Taste the difference with hand-picked, farm-fresh produce delivered straight to you.” appears centered on two lines in approximately 22–26 pt semibold serif type, within approximately x=14–87%, y=53–62%."
+        },
+        {
+          "id": "C7",
+          "check": "CTA design and placement",
+          "pass": "“Shop Now” appears in approximately 30–34 pt bold cream serif type on a dark-brown (#4A2200) rounded rectangle with a thin light outline, centered at approximately x=34–66%, y=86–96% over the produce."
+        },
+        {
+          "id": "C8",
+          "check": "Palette and readability",
+          "pass": "Paper-panel copy is dark chocolate (#351300) with strong contrast, and natural red, orange, and vivid green produce supports the warm earthy palette."
+        },
+        {
+          "id": "C9",
+          "check": "Style and mood",
+          "pass": "Centered serif typography, detailed realistic or richly illustrated produce, and tactile wood-and-paper textures convey a premium traditional farm-market poster that feels fresh, abundant, wholesome, and inviting."
+        }
+      ],
+      "criteria_count": 9,
+      "has_review": true,
+      "images": {
+        "logo": "assets/case_003/logo.webp",
+        "plan_only": "assets/case_003/plan_only.webp",
+        "plan_plus_criteria": "assets/case_003/plan_plus_criteria.webp"
+      }
+    },
+    {
+      "id": "case_004",
+      "source_id": "004_automate",
+      "brand": "AutoMate",
+      "prompt": "AutoMate. AutoMate offers advanced automation software solutions designed to streamline business processes and improve efficiency. Highlight the ease of use and time-saving benefits in the ad image design.",
+      "criteria": [
+        {
+          "id": "C1",
+          "check": "Background and overall composition",
+          "pass": "A clean white square banner has a centered vertical sequence of logo, headline, description, three icons, and CTA, with generous white space and no photograph, large backdrop, panels, or shadows."
+        },
+        {
+          "id": "C2",
+          "check": "Supplied AutoMate logo",
+          "pass": "The complete supplied logo retains its arrow, wordmark, and proportions, is centered near x=24%-77% and y=6%-18%, and measures approximately 52%-55% of slide width."
+        },
+        {
+          "id": "C3",
+          "check": "Headline content and typography",
+          "pass": "The exact text 'Work Smart. Save Time.' appears on one centered line within x=8%-92% and y=25%-33%, in near-black bold sans-serif at approximately 45-50 pt."
+        },
+        {
+          "id": "C4",
+          "check": "Description content and typography",
+          "pass": "The exact description 'Streamline your workflow with effortless automation — enjoy more freedom, less stress, and greater productivity every day.' is centered across three comfortably spaced lines within x=9%-91% and y=36%-52%, in near-black regular sans-serif at approximately 25-29 pt."
+        },
+        {
+          "id": "C5",
+          "check": "Productivity icon row",
+          "pass": "Three simple outlined icons occupy y=58%-72%, centered near x=31%, 50%, and 70%: a clock with green and orange hands, a dark gear, and two rising trend arrows in black and orange."
+        },
+        {
+          "id": "C6",
+          "check": "CTA appearance and placement",
+          "pass": "A large lime-green (#67CB19) rounded rectangle is centered near x=25%-76% and y=78%-91%, containing the exact label 'Get Started' in bold white sans-serif at approximately 34-40 pt."
+        },
+        {
+          "id": "C7",
+          "check": "Palette and visual style",
+          "pass": "The banner uses white (#FFFFFF), near-black (#11151B) text and dark icon outlines, lime-green (#67CB19) CTA and clock hand, and orange (#F07C00) only as small icon accents, while preserving the supplied logo colors; the overall appearance is minimal, clear, modern, and evenly spaced."
+        }
+      ],
+      "criteria_count": 7,
+      "has_review": false,
+      "images": {
+        "logo": "assets/case_004/logo.webp",
+        "plan_only": "assets/case_004/plan_only.webp",
+        "plan_plus_criteria": "assets/case_004/plan_plus_criteria.webp"
+      }
+    },
+    {
+      "id": "case_005",
+      "source_id": "005_cabool",
+      "brand": "Cabool Dental",
+      "prompt": "Cabool Dental. Cabool Dental offers comprehensive dental care services including cleanings, fillings, and cosmetic dentistry. Highlight the appeal of a free initial consultation or a special discount on teeth whitening services.",
+      "criteria": [
+        {
+          "id": "C1",
+          "check": "Square banner format",
+          "pass": "The PowerPoint contains one 10 × 10 inch slide."
+        },
+        {
+          "id": "C2",
+          "check": "Supplied logo placement and scale",
+          "pass": "The exact full supplied logo is centered in the x=17–84%, y=5–18% region at approximately 66–68% slide width."
+        },
+        {
+          "id": "C3",
+          "check": "Headline content, type, and placement",
+          "pass": "Brighten Your Smile! appears on two centered lines within x=11–89%, y=21–45%, in deep navy, extra-bold rounded sans-serif at approximately 58–68 pt."
+        },
+        {
+          "id": "C4",
+          "check": "Description content, type, and placement",
+          "pass": "Gentle, family-friendly care for every grin. appears over two centered lines within x=10–62%, y=48–58%, in regular navy sans-serif at approximately 27–32 pt."
+        },
+        {
+          "id": "C5",
+          "check": "Promotional offer and speech bubble",
+          "pass": "A pale-yellow rounded speech bubble occupies roughly x=11–58%, y=62–86%, with the navy offer Free first consultation or save big on teeth whitening! arranged over four lines in x=12–55%, y=63–84%."
+        },
+        {
+          "id": "C6",
+          "check": "CTA appearance and placement",
+          "pass": "A glossy turquoise rounded pill lies centered within x=30–70%, y=87–98% and displays Book Now in bold rounded white type at approximately 34–40 pt."
+        },
+        {
+          "id": "C7",
+          "check": "Background and decorative treatment",
+          "pass": "The whole slide has an aqua (#4DE0E8) to mint (#A9F2D2) gradient, broad translucent wavy ribbons, small bubbles, and white or pale-yellow sparkles."
+        },
+        {
+          "id": "C8",
+          "check": "Dental illustration",
+          "pass": "A large friendly white cartoon tooth with a cyan outline and smiling face occupies roughly x=60–94%, y=50–84%, with a small family outline icon beside it."
+        },
+        {
+          "id": "C9",
+          "check": "Overall style and composition",
+          "pass": "The banner is bright, playful, clean, and family-friendly, with centered upper branding and headline, balanced lower offer and tooth, and a bottom-centered CTA using the specified navy, cyan, aqua, mint, white, and pale-yellow palette."
+        }
+      ],
+      "criteria_count": 9,
+      "has_review": false,
+      "images": {
+        "logo": "assets/case_005/logo.webp",
+        "plan_only": "assets/case_005/plan_only.webp",
+        "plan_plus_criteria": "assets/case_005/plan_plus_criteria.webp"
+      }
+    },
+    {
+      "id": "case_006",
+      "source_id": "006_togalim",
+      "brand": "Togalimi Luxury Real Estate",
+      "prompt": "Togalimi Luxury Real Estate. Togalimi offers premium real estate properties in exclusive locations, with a focus on luxury living and high-end amenities. Attractive point: Experience unparalleled elegance and sophistication in your new home.",
+      "criteria": [
+        {
+          "id": "C1",
+          "check": "Square banner format",
+          "pass": "One slide measures 10 by 10 inches."
+        },
+        {
+          "id": "C2",
+          "check": "Restrained background",
+          "pass": "Near-black #030504 background has a very subtle warm radial glow behind the logo and message, with no property photography or additional decoration."
+        },
+        {
+          "id": "C3",
+          "check": "Supplied logo fidelity and placement",
+          "pass": "Full supplied logo is preserved without cropping, distortion, or recoloring, large and centered within the approximate x=9–87%, y=6–42% placement area."
+        },
+        {
+          "id": "C4",
+          "check": "Headline typography and placement",
+          "pass": "Exact headline 'Luxury Homes for the Discerning Few' appears over two centered lines in warm cream #F5EBD0, elegant 39–45 pt serif type, within x=27–94%, y=46–60%."
+        },
+        {
+          "id": "C5",
+          "check": "Supporting line typography and placement",
+          "pass": "Exact description 'Where Elegance Meets Exclusivity' appears on one centered line in warm cream #F5EBD0, 24–28 pt serif type, within x=31–91%, y=63–68%."
+        },
+        {
+          "id": "C6",
+          "check": "CTA design and placement",
+          "pass": "A wide metallic-gold rectangle with slightly rounded corners and a thin brighter-gold border occupies x=51–88%, y=72–81%; 'View Collection' is centered in bold black 25–30 pt sans-serif type."
+        },
+        {
+          "id": "C7",
+          "check": "Visual hierarchy and negative space",
+          "pass": "Logo precedes headline, description, and right-shifted CTA; the bottom 18% remains empty near-black negative space, preserving the quiet premium composition."
+        }
+      ],
+      "criteria_count": 7,
+      "has_review": false,
+      "images": {
+        "logo": "assets/case_006/logo.webp",
+        "plan_only": "assets/case_006/plan_only.webp",
+        "plan_plus_criteria": "assets/case_006/plan_plus_criteria.webp"
+      }
+    },
+    {
+      "id": "case_007",
+      "source_id": "007_ethniplate",
+      "brand": "EthniPlate",
+      "prompt": "EthniPlate. EthniPlate offers a diverse range of ethnic cuisine delivered to your doorstep, featuring authentic flavors from around the world. Enjoy a 20% discount on your first order and experience the taste of global cultures.",
+      "criteria": [
+        {
+          "id": "C1",
+          "check": "Dense full-bleed overhead global-food photography",
+          "pass": "Food fills the square canvas edge to edge, with many dark round bowls and plates and a varied spread including curries, chickpeas, noodles, sauces, flatbreads, croquettes, and herbs."
+        },
+        {
+          "id": "C2",
+          "check": "Warm appetizing visual palette",
+          "pass": "The image uses warm orange/brown food tones, natural reds, greens and golds, with burnt-orange or dark-red overlays and cream copy."
+        },
+        {
+          "id": "C3",
+          "check": "Supplied logo and upper-left banner",
+          "pass": "The complete supplied logo is undistorted, approximately 43–45% of slide width, inside a translucent dark-orange banner spanning x=0–49%, y=5–18%."
+        },
+        {
+          "id": "C4",
+          "check": "Headline content and styling",
+          "pass": "The headline reads 'Explore Global Flavors' in three centered lines of 50–58 pt extra-bold sans-serif cream text within a translucent orange-red card at x=52–97%, y=39–70%."
+        },
+        {
+          "id": "C5",
+          "check": "Description content and placement",
+          "pass": "The description reads 'Authentic dishes delivered from every corner of world. First order? Enjoy 20%!' in two centered lines of 21–25 pt bold cream sans-serif within x=24–94%, y=71–82%."
+        },
+        {
+          "id": "C6",
+          "check": "Lower translucent information panel",
+          "pass": "A wide translucent warm-orange panel spans approximately x=21–97%, y=69–93%, containing the description and CTA and overlapping the headline card."
+        },
+        {
+          "id": "C7",
+          "check": "CTA appearance and placement",
+          "pass": "A rounded rectangle at x=50–92%, y=84–92% is darker than the lower panel, has a visible border, and displays 'Taste the World' in 30–35 pt bold cream sans-serif."
+        },
+        {
+          "id": "C8",
+          "check": "Overlay readability and food visibility",
+          "pass": "All copy is legible and unclipped against the panels, while the food remains visible through the translucent overlays."
+        }
+      ],
+      "criteria_count": 8,
+      "has_review": true,
+      "images": {
+        "logo": "assets/case_007/logo.webp",
+        "plan_only": "assets/case_007/plan_only.webp",
+        "plan_plus_criteria": "assets/case_007/plan_plus_criteria.webp"
+      }
+    },
+    {
+      "id": "case_008",
+      "source_id": "008_bavarianbrew",
+      "brand": "BavarianBrew",
+      "prompt": "BavarianBrew. Experience the rich and authentic taste of Bavarian beer, crafted with traditional methods and premium ingredients. Enjoy a special discount on your first purchase!",
+      "criteria": [
+        {
+          "id": "C1",
+          "check": "Background and overall visual style",
+          "pass": "The banner uses dark reddish-brown wood texture and a warm, vintage Bavarian tavern aesthetic with cream, gold, amber and brown accents."
+        },
+        {
+          "id": "C2",
+          "check": "Logo plaque and supplied logo",
+          "pass": "A beveled octagonal wood plaque occupies approximately x=4–47%, y=13–74%; the supplied blue-and-gold logo is large within it, with its mug above a two-line wordmark and an overall width approximately 39–41% of the slide."
+        },
+        {
+          "id": "C3",
+          "check": "Headline content and typography",
+          "pass": "The exact headline ‘Taste the Tradition of Bavaria’ is centered over three lines within approximately x=53–95%, y=13–40%, in 42–48 pt bold traditional serif pale-gold type with a subtle dark outline."
+        },
+        {
+          "id": "C4",
+          "check": "Offer content and typography",
+          "pass": "The exact offer ‘Get 20% Off Your First Order!’ is centered over two lines within approximately x=53–95%, y=44–58%, in 34–40 pt bold pale-gold serif type."
+        },
+        {
+          "id": "C5",
+          "check": "CTA content and treatment",
+          "pass": "‘Get Your Discount’ appears in 27–32 pt bold cream serif type inside a dark-brown rounded rectangle with a bright double gold border at approximately x=52–95%, y=62–74%."
+        },
+        {
+          "id": "C6",
+          "check": "Upper-left lighting",
+          "pass": "Exactly five small glowing amber bulbs are strung across the upper-left edge."
+        },
+        {
+          "id": "C7",
+          "check": "Botanical ornamentation",
+          "pass": "Embossed dark hop leaves and vines decorate the border and corners without covering the headline, offer or CTA."
+        },
+        {
+          "id": "C8",
+          "check": "Lower beer-mug motif",
+          "pass": "A simple engraved beer-mug decoration sits near the lower center, approximately x=41–60%, y=76–96%."
+        },
+        {
+          "id": "C9",
+          "check": "Visual balance and legibility",
+          "pass": "The large left plaque balances the right text stack; pale-gold copy and the cream CTA remain clearly readable against the wood and decorative details."
+        }
+      ],
+      "criteria_count": 9,
+      "has_review": false,
+      "images": {
+        "logo": "assets/case_008/logo.webp",
+        "plan_only": "assets/case_008/plan_only.webp",
+        "plan_plus_criteria": "assets/case_008/plan_plus_criteria.webp"
+      }
+    },
+    {
+      "id": "case_009",
+      "source_id": "009_essence&earth",
+      "brand": "Essence & Earth",
+      "prompt": "Essence & Earth. Promoting eco-friendly and organic skincare products that nourish your skin naturally. Highlight the appeal of sustainable and cruelty-free ingredients for a healthier lifestyle.",
+      "criteria": [
+        {
+          "id": "C1",
+          "check": "Background palette and botanical treatment",
+          "pass": "The banner has a very pale mint (#EEF8F0) background with soft overlapping translucent sage botanical curves."
+        },
+        {
+          "id": "C2",
+          "check": "Supplied logo placement and integrity",
+          "pass": "The complete supplied logo retains its original green colors and horizontal proportions, is approximately 52% of slide width, and sits within the upper-left area around x=5–57%, y=5–20%."
+        },
+        {
+          "id": "C3",
+          "check": "Headline copy and typography",
+          "pass": "The exact headline “See the Goodness in Every Drop” appears in three left-aligned lines in black medium-weight sans-serif at approximately 48–56 pt, within x=8–61%, y=27–53%."
+        },
+        {
+          "id": "C4",
+          "check": "Description copy and typography",
+          "pass": "The exact description “Pure, sustainable ingredients—nourishing your skin, respecting the earth.” appears in four compact left-aligned black semibold sans-serif lines at approximately 27–31 pt, within x=8–58%, y=58–78%."
+        },
+        {
+          "id": "C5",
+          "check": "CTA treatment and placement",
+          "pass": "“Shop Clean Beauty” appears in black regular sans-serif at approximately 27–31 pt on a subtle but visible pale green translucent rounded rectangle within x=8–55%, y=81–92%."
+        },
+        {
+          "id": "C6",
+          "check": "Dropper appearance",
+          "pass": "A large photorealistic glass skincare dropper has a silver collar, black rubber top, pale-green serum with tiny bubbles, and one suspended droplet."
+        },
+        {
+          "id": "C7",
+          "check": "Dropper composition",
+          "pass": "The dropper enters diagonally from the top-right, points downward toward the center, and dominates approximately x=58–100%, y=0–74% without obscuring the left-column copy."
+        },
+        {
+          "id": "C8",
+          "check": "Leaf accent",
+          "pass": "A simple pair of leaf-green leaves balances the lower-right around x=80–94%, y=69–89%."
+        },
+        {
+          "id": "C9",
+          "check": "Overall composition and mood",
+          "pass": "The copy shares a single left edge and remains legible against the light background; spacious minimal typography and the oversized product image convey a calm premium eco-skincare advertisement."
+        }
+      ],
+      "criteria_count": 9,
+      "has_review": true,
+      "images": {
+        "logo": "assets/case_009/logo.webp",
+        "plan_only": "assets/case_009/plan_only.webp",
+        "plan_plus_criteria": "assets/case_009/plan_plus_criteria.webp"
+      }
+    },
+    {
+      "id": "case_010",
+      "source_id": "010_megaplexar",
+      "brand": "Megaplex AR",
+      "prompt": "Megaplex AR. Experience cutting-edge augmented reality technology that transforms your world into an interactive playground, with exclusive discounts for first-time users.",
+      "criteria": [
+        {
+          "id": "C1",
+          "check": "Square PowerPoint format",
+          "pass": "The presentation contains one slide measuring 10 × 10 inches."
+        },
+        {
+          "id": "C2",
+          "check": "Background and palette",
+          "pass": "A full-bleed navy-to-black background uses faint repeating AR labels, rectangles, and interface marks, with purple, cyan, turquoise, neon green, and white accents."
+        },
+        {
+          "id": "C3",
+          "check": "Supplied logo and placement",
+          "pass": "The supplied logo is cropped to its purple screen icon and AR letters, approximately 33% wide in the upper-left x=5–38%, y=4–19%; MEGAPLEX is excluded from the headline area."
+        },
+        {
+          "id": "C4",
+          "check": "Headline copy and treatment",
+          "pass": "The exact headline “Turn Your World Into a Playground!” is white, bold rounded sans-serif at approximately 50–58 pt, left-aligned over three lines within x=6–58%, y=22–47%."
+        },
+        {
+          "id": "C5",
+          "check": "Description copy and treatment",
+          "pass": "The exact description “Dive into interactive AR experiences—spark family fun, ignite creativity, and explore new realities with Megaplex AR” appears in white regular rounded sans-serif at approximately 25–29 pt over three lines within x=6–86%, y=50–64%."
+        },
+        {
+          "id": "C6",
+          "check": "CTA copy and treatment",
+          "pass": "“First-Time Offers Await” appears in large white bold rounded text at approximately 28–34 pt inside a turquoise rounded pill with a thin bright cyan border at x=32–93%, y=74–85%."
+        },
+        {
+          "id": "C7",
+          "check": "Neon AR artwork",
+          "pass": "The upper-right contains a large triangular wireframe AR object, cubes, and sliders; dimensional cyan and green shapes, spheres, diamonds, sparkles, and controls have soft glows."
+        },
+        {
+          "id": "C8",
+          "check": "Touch interaction",
+          "pass": "A luminous green-blue hand occupies approximately x=70–98%, y=50–74% and presses a circular target near x=72%, y=48%."
+        },
+        {
+          "id": "C9",
+          "check": "Composition and mood",
+          "pass": "The banner reads as a playful, energetic, family-friendly neon AR poster; small controls around the edges and bottom do not obstruct the headline, description, or CTA."
+        }
+      ],
+      "criteria_count": 9,
+      "has_review": false,
+      "images": {
+        "logo": "assets/case_010/logo.webp",
+        "plan_only": "assets/case_010/plan_only.webp",
+        "plan_plus_criteria": "assets/case_010/plan_plus_criteria.webp"
+      }
+    }
+  ]
+}
