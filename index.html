@@ -27,7 +27,7 @@ iframe { width: 100vw; height: calc(100vh - 45px); border: 0; display: none; }
   <button onclick="showPage('test-20-model-comparison/index.html', this)">Test 20 Models</button>
   <button onclick="showPage('ppt-preference-comparison/index.html', this)">PPT Preference</button>
   <button onclick="showPage('ppt-cross-page-benchmark/index.html', this)">Figure→Text</button>
-  <button onclick="showPage('ppt-text-figure-benchmark/index.html', this)">Text→Figure</button>
+  <button onclick="showPage('ppt-text-figure-benchmark/index.html', this)">Text→Figure + Text</button>
   <button onclick="showPage('banner-plan-criteria-comparison/index.html', this)">Banner A/B</button>
 </div>
 <main id="guide">
@@ -51,11 +51,11 @@ iframe { width: 100vw; height: calc(100vh - 45px); border: 0; display: none; }
     </section>
     <section class="card">
       <h2>Figure→Text</h2>
-      <p>Inspect whether GPT-6 keeps cross-slide textual references consistent after facts change inside a figure or chart.</p>
+      <p><strong>Task 1：</strong>用户修改 Figure / Chart，模型自动更新其他页面中引用该事实的 Text。</p>
     </section>
     <section class="card">
-      <h2>Text→Figure</h2>
-      <p>Inspect whether GPT-6 updates related figures, charts, and cross-slide text after a fact is changed in prose.</p>
+      <h2>Text→Figure + Text</h2>
+      <p><strong>Task 2：</strong>用户修改 Text，模型自动更新相关 Figure / Chart，以及其他页面中的关联 Text。</p>
     </section>
     <section class="card">
       <h2>Banner A/B</h2>

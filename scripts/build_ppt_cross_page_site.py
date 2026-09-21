@@ -53,16 +53,16 @@ TEXT_TO_FIGURE_PROMPT_ZH = {
 
 PROFILES = {
     "figure-to-text": {
-        "eyebrow": "Figure → Cross-slide Text Benchmark",
-        "title": "PPT Cross-page Consistency",
-        "description": "修改一页中的 Figure / Chart 事实后，测试模型能否识别并同步更新其他页面中的文字引用。每个目标页按 Source、Ground Truth、Predict 三列展示。",
-        "manifest_description": "Figure / Table 事实变化后，检查模型是否同步更新其他页面中的文字引用。",
+        "eyebrow": "Task 1 · Figure → Text",
+        "title": "修改 Figure，模型自动同步 Text",
+        "description": "用户修改一页中的 Figure / Chart；模型需要识别该视觉对象表达的事实，并自动更新其他页面中引用该事实的文字。每个目标页按 Source、Ground Truth、Predict 三列展示。",
+        "manifest_description": "用户修改 Figure / Chart，模型自动同步其他页面中的关联 Text。",
     },
     "text-to-figure": {
-        "eyebrow": "Text → Figure & Cross-slide Text Benchmark",
-        "title": "PPT Text–Figure Consistency",
-        "description": "修改一页中的文字事实后，测试模型能否反向定位并同步更新相关 Figure / Chart，以及其他页面中的文字引用。每个目标页按 Source、Ground Truth、Predict 三列展示。",
-        "manifest_description": "文字事实变化后，检查模型是否同步更新相关 Figure / Chart 和其他跨页文字引用。",
+        "eyebrow": "Task 2 · Text → Figure + Text",
+        "title": "修改 Text，模型自动同步 Figure 和 Text",
+        "description": "用户修改一页中的文字事实；模型需要自动更新相关 Figure / Chart，并同步其他页面中引用该事实的文字。每个目标页按 Source、Ground Truth、Predict 三列展示。",
+        "manifest_description": "用户修改 Text，模型自动同步相关 Figure / Chart 和其他页面中的关联 Text。",
     },
 }
 

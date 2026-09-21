@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="PPT 跨页图文联动测试：Source、Ground Truth 与 GPT-6 Predict 三列对比。" />
-    <title>PPT Cross-page Consistency</title>
+    <title>修改 Text，模型自动同步 Figure 和 Text</title>
     <style>
       :root {
         color-scheme: light;
@@ -401,9 +401,9 @@
     <header class="hero">
       <div class="hero-row">
         <div>
-          <p class="eyebrow" id="eyebrow">Figure → Cross-slide Text Benchmark</p>
-          <h1 id="page-title">PPT Cross-page Consistency</h1>
-          <p class="lede" id="page-description">修改一页中的 Figure / Chart 事实后，测试模型能否识别并同步更新其他页面中的文字引用。每个目标页按 Source、Ground Truth、Predict 三列展示。</p>
+          <p class="eyebrow" id="eyebrow">Task 2 · Text → Figure + Text</p>
+          <h1 id="page-title">修改 Text，模型自动同步 Figure 和 Text</h1>
+          <p class="lede" id="page-description">用户修改一页中的文字事实；模型需要自动更新相关 Figure / Chart，并同步其他页面中引用该事实的文字。每个目标页按 Source、Ground Truth、Predict 三列展示。</p>
         </div>
         <section class="kpis" id="kpis" aria-label="汇总指标"></section>
       </div>
