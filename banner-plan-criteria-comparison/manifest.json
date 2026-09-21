@@ -69,7 +69,7 @@
       "criteria_count": 10,
       "has_review": false,
       "images": {
-        "logo": "assets/case_001/logo.webp",
+        "ground_truth": "assets/case_001/ground_truth.webp",
         "plan_only": "assets/case_001/plan_only.webp",
         "plan_plus_criteria": "assets/case_001/plan_plus_criteria.webp"
       }
@@ -134,7 +134,7 @@
       "criteria_count": 10,
       "has_review": false,
       "images": {
-        "logo": "assets/case_002/logo.webp",
+        "ground_truth": "assets/case_002/ground_truth.webp",
         "plan_only": "assets/case_002/plan_only.webp",
         "plan_plus_criteria": "assets/case_002/plan_plus_criteria.webp"
       }
@@ -194,7 +194,7 @@
       "criteria_count": 9,
       "has_review": true,
       "images": {
-        "logo": "assets/case_003/logo.webp",
+        "ground_truth": "assets/case_003/ground_truth.webp",
         "plan_only": "assets/case_003/plan_only.webp",
         "plan_plus_criteria": "assets/case_003/plan_plus_criteria.webp"
       }
@@ -244,7 +244,7 @@
       "criteria_count": 7,
       "has_review": false,
       "images": {
-        "logo": "assets/case_004/logo.webp",
+        "ground_truth": "assets/case_004/ground_truth.webp",
         "plan_only": "assets/case_004/plan_only.webp",
         "plan_plus_criteria": "assets/case_004/plan_plus_criteria.webp"
       }
@@ -304,7 +304,7 @@
       "criteria_count": 9,
       "has_review": false,
       "images": {
-        "logo": "assets/case_005/logo.webp",
+        "ground_truth": "assets/case_005/ground_truth.webp",
         "plan_only": "assets/case_005/plan_only.webp",
         "plan_plus_criteria": "assets/case_005/plan_plus_criteria.webp"
       }
@@ -354,7 +354,7 @@
       "criteria_count": 7,
       "has_review": false,
       "images": {
-        "logo": "assets/case_006/logo.webp",
+        "ground_truth": "assets/case_006/ground_truth.webp",
         "plan_only": "assets/case_006/plan_only.webp",
         "plan_plus_criteria": "assets/case_006/plan_plus_criteria.webp"
       }
@@ -409,7 +409,7 @@
       "criteria_count": 8,
       "has_review": true,
       "images": {
-        "logo": "assets/case_007/logo.webp",
+        "ground_truth": "assets/case_007/ground_truth.webp",
         "plan_only": "assets/case_007/plan_only.webp",
         "plan_plus_criteria": "assets/case_007/plan_plus_criteria.webp"
       }
@@ -469,7 +469,7 @@
       "criteria_count": 9,
       "has_review": false,
       "images": {
-        "logo": "assets/case_008/logo.webp",
+        "ground_truth": "assets/case_008/ground_truth.webp",
         "plan_only": "assets/case_008/plan_only.webp",
         "plan_plus_criteria": "assets/case_008/plan_plus_criteria.webp"
       }
@@ -529,7 +529,7 @@
       "criteria_count": 9,
       "has_review": true,
       "images": {
-        "logo": "assets/case_009/logo.webp",
+        "ground_truth": "assets/case_009/ground_truth.webp",
         "plan_only": "assets/case_009/plan_only.webp",
         "plan_plus_criteria": "assets/case_009/plan_plus_criteria.webp"
       }
@@ -589,7 +589,7 @@
       "criteria_count": 9,
       "has_review": false,
       "images": {
-        "logo": "assets/case_010/logo.webp",
+        "ground_truth": "assets/case_010/ground_truth.webp",
         "plan_only": "assets/case_010/plan_only.webp",
         "plan_plus_criteria": "assets/case_010/plan_plus_criteria.webp"
       }

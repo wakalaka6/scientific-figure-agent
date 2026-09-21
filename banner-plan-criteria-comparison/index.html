@@ -14,7 +14,7 @@
         --muted: #666d76;
         --line: #d7dbe0;
         --line-soft: #e8eaed;
-        --logo: #675a45;
+        --gt: #bc402f;
         --plan: #285fa8;
         --criteria: #168064;
         --soft: #f5f6f7;
@@ -116,7 +116,7 @@
         text-transform: uppercase;
       }
       .columns-legend i { width: 8px; height: 8px; border-radius: 50%; background: currentColor; }
-      .columns-legend .logo { color: var(--logo); }
+      .columns-legend .gt { color: var(--gt); }
       .columns-legend .plan { color: var(--plan); }
       .columns-legend .criteria { color: var(--criteria); }
 
@@ -170,7 +170,7 @@
         font-size: 12px;
         font-weight: 700;
       }
-      .logo-figure figcaption { color: var(--logo); }
+      .gt-figure figcaption { color: var(--gt); }
       .plan-figure figcaption { color: var(--plan); }
       .criteria-figure figcaption { color: var(--criteria); }
       figcaption small { color: var(--muted); font-size: 11px; font-weight: 400; }
@@ -193,7 +193,6 @@
         object-fit: contain;
         cursor: zoom-in;
       }
-      .logo-figure .visual { width: 78%; height: 78%; }
       .criteria-box { margin: 17px 4px 0; border-top: 1px solid var(--line); }
       .criteria-box summary { padding: 12px 0 5px; color: var(--criteria); font-weight: 700; cursor: pointer; }
       .criteria-list { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 8px 20px; margin: 8px 0 0; padding: 0; list-style: none; }
@@ -284,7 +283,7 @@
         <span class="toolbar-meta" id="result-count" aria-live="polite"></span>
       </section>
       <section class="columns-legend" aria-label="三列说明">
-        <span class="logo"><i></i>Source logo</span>
+        <span class="gt"><i></i>Ground Truth</span>
         <span class="plan"><i></i>Plan only</span>
         <span class="criteria"><i></i>Plan + Rubric</span>
       </section>
@@ -345,7 +344,7 @@
           </header>
           <section class="prompt"><span class="prompt-label">Brief</span><p>${escapeHtml(item.prompt)}</p></section>
           <div class="comparison-scroll"><div class="comparison-grid">
-            ${visual(item,"logo","Source logo","logo-figure","input")}
+            ${visual(item,"ground_truth","Ground Truth","gt-figure","reference")}
             ${visual(item,"plan_only","Plan only","plan-figure","without rubric")}
             ${visual(item,"plan_plus_criteria","Plan + Rubric","criteria-figure",`${item.criteria_count} rubric items`)}
           </div></div>

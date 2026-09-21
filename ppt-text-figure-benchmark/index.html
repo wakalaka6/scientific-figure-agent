@@ -1,0 +1,589 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="PPT 跨页图文联动测试：Source、Ground Truth 与 GPT-6 Predict 三列对比。" />
+    <title>PPT Cross-page Consistency</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --page: #f2f4f6;
+        --paper: #ffffff;
+        --ink: #17191d;
+        --muted: #646b74;
+        --line: #d8dce1;
+        --line-soft: #e9ebee;
+        --source: #275ea8;
+        --gt: #bc402f;
+        --predict: #168064;
+        --warning: #aa5b13;
+        --soft-blue: #f1f5fb;
+        --soft-red: #fcf3f1;
+        --soft-green: #eff8f5;
+      }
+
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+
+      body {
+        margin: 0;
+        min-width: 320px;
+        background: var(--page);
+        color: var(--ink);
+        font: 15px/1.55 Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+      }
+
+      button, input { font: inherit; }
+      button { color: inherit; }
+
+      .hero {
+        max-width: 1880px;
+        margin: 0 auto;
+        padding: 34px 28px 22px;
+      }
+
+      .hero-row {
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        gap: 32px;
+      }
+
+      .eyebrow {
+        margin: 0 0 7px;
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        margin: 0;
+        font: 700 clamp(32px, 4vw, 58px)/0.98 Georgia, "Times New Roman", serif;
+        letter-spacing: -0.04em;
+      }
+
+      .lede {
+        max-width: 830px;
+        margin: 15px 0 0;
+        color: #4e555e;
+        font-size: 16px;
+      }
+
+      .kpis {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(96px, 1fr));
+        min-width: 500px;
+        border-top: 1px solid var(--line);
+        border-bottom: 1px solid var(--line);
+      }
+
+      .kpi {
+        padding: 13px 16px 11px;
+        border-right: 1px solid var(--line);
+      }
+
+      .kpi:last-child { border-right: 0; }
+      .kpi strong { display: block; font-size: 24px; line-height: 1.05; }
+      .kpi span { color: var(--muted); font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; }
+
+      .workspace {
+        max-width: 1880px;
+        margin: 0 auto 48px;
+        background: var(--paper);
+        border: 1px solid var(--line-soft);
+        box-shadow: 0 3px 16px rgba(21, 29, 38, 0.08);
+      }
+
+      .toolbar {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding: 10px 14px;
+        border-bottom: 1px solid var(--line);
+        background: rgba(255, 255, 255, 0.96);
+        backdrop-filter: blur(10px);
+      }
+
+      .search {
+        width: min(390px, 42vw);
+        height: 36px;
+        padding: 0 11px;
+        border: 1px solid #bfc4ca;
+        border-radius: 3px;
+        outline: none;
+      }
+
+      .search:focus { border-color: #4e5660; box-shadow: 0 0 0 2px rgba(39, 94, 168, 0.13); }
+
+      .filters { display: flex; gap: 6px; }
+
+      .filter {
+        height: 34px;
+        padding: 0 12px;
+        border: 1px solid #aeb4bb;
+        border-radius: 3px;
+        background: #fff;
+        cursor: pointer;
+      }
+
+      .filter[aria-pressed="true"] { border-color: #17191d; background: #17191d; color: #fff; }
+
+      .toolbar-meta {
+        margin-left: auto;
+        color: var(--muted);
+        font-size: 12px;
+      }
+
+      .download {
+        padding: 7px 11px;
+        border: 1px solid #8f959c;
+        border-radius: 3px;
+        color: var(--ink);
+        text-decoration: none;
+        white-space: nowrap;
+      }
+
+      .columns-legend {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        border-bottom: 1px solid var(--line);
+      }
+
+      .columns-legend span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 7px;
+        padding: 9px;
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+
+      .columns-legend i { width: 8px; height: 8px; border-radius: 50%; background: currentColor; }
+      .columns-legend .source { color: var(--source); }
+      .columns-legend .gt { color: var(--gt); }
+      .columns-legend .predict { color: var(--predict); }
+
+      .loading, .empty { margin: 56px; color: var(--muted); text-align: center; }
+      .cases { padding: 0 16px; }
+
+      .case {
+        padding: 26px 0 34px;
+        border-bottom: 5px solid #25282d;
+        scroll-margin-top: 64px;
+      }
+
+      .case:last-child { border-bottom: 0; }
+
+      .case-header {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        gap: 16px;
+        align-items: start;
+        padding: 0 4px 13px;
+      }
+
+      .case-heading { display: flex; gap: 12px; align-items: baseline; min-width: 0; }
+
+      .case-id {
+        flex: none;
+        color: var(--source);
+        font: 700 12px/1 ui-monospace, SFMono-Regular, Menlo, monospace;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .case h2 { margin: 0; font-size: 20px; line-height: 1.25; }
+      .fact-en { margin: 5px 0 0 79px; color: var(--muted); font-size: 12px; }
+
+      .case-score {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: var(--muted);
+        font-size: 12px;
+        white-space: nowrap;
+      }
+
+      .status {
+        display: inline-flex;
+        align-items: center;
+        min-height: 25px;
+        padding: 2px 8px;
+        border: 1px solid currentColor;
+        border-radius: 999px;
+        font-weight: 700;
+      }
+
+      .status.exact { color: var(--predict); }
+      .status.paraphrased { color: var(--predict); }
+
+      .prompt {
+        display: grid;
+        grid-template-columns: 116px minmax(0, 1fr) auto;
+        gap: 14px;
+        align-items: start;
+        margin: 0 4px 18px;
+        padding: 13px 15px;
+        border-left: 4px solid #25282d;
+        background: #f5f6f7;
+      }
+
+      .prompt-label { font-size: 12px; font-weight: 700; letter-spacing: 0.07em; text-transform: uppercase; }
+      .prompt p { margin: 0; line-height: 1.65; }
+      .prompt details { color: var(--muted); font-size: 12px; }
+      .prompt summary { cursor: pointer; white-space: nowrap; }
+      .prompt details p { max-width: 900px; margin-top: 8px; color: #515861; }
+
+      .metrics {
+        display: flex;
+        gap: 18px;
+        margin: 0 4px 18px;
+        color: var(--muted);
+        font-size: 12px;
+      }
+
+      .metrics strong { color: var(--ink); font-size: 14px; }
+
+      .slide-block { margin-top: 20px; border-top: 1px solid var(--line); }
+
+      .slide-header {
+        display: flex;
+        align-items: flex-start;
+        gap: 14px;
+        padding: 11px 5px 8px;
+      }
+
+      .slide-number {
+        flex: none;
+        font: 700 13px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace;
+      }
+
+      .change-list { display: flex; flex-wrap: wrap; gap: 6px 14px; color: var(--muted); font-size: 12px; }
+      .change-list span::before { margin-right: 6px; color: #8a9097; content: "•"; }
+
+      .slide-verdict {
+        margin-left: auto;
+        color: var(--predict);
+        font-size: 11px;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+
+      .slide-verdict.non_exact { color: var(--predict); }
+
+      .comparison-scroll { overflow-x: auto; overscroll-behavior-inline: contain; }
+
+      .comparison-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(350px, 1fr));
+        min-width: 1080px;
+        border-top: 1px solid var(--line-soft);
+        border-bottom: 1px solid var(--line-soft);
+      }
+
+      figure { min-width: 0; margin: 0; padding: 10px; border-right: 1px dashed #b9bec4; }
+      figure:last-child { border-right: 0; }
+
+      figcaption {
+        display: flex;
+        justify-content: space-between;
+        gap: 8px;
+        padding: 0 2px 7px;
+        font-size: 12px;
+        font-weight: 700;
+      }
+
+      .source-figure figcaption { color: var(--source); }
+      .gt-figure figcaption { color: var(--gt); }
+      .predict-figure figcaption { color: var(--predict); }
+      figcaption small { color: var(--muted); font-size: 11px; font-weight: 400; }
+
+      .slide-image {
+        display: block;
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        object-fit: contain;
+        border: 1px solid #e2e4e7;
+        background: #fff;
+        cursor: zoom-in;
+      }
+
+      .lightbox {
+        width: calc(100vw - 28px);
+        height: calc(100vh - 28px);
+        max-width: none;
+        max-height: none;
+        padding: 0;
+        border: 1px solid #7a8087;
+        background: #fff;
+      }
+
+      .lightbox::backdrop { background: rgba(0, 0, 0, 0.78); }
+
+      .lightbox-bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        min-height: 52px;
+        padding: 8px 12px;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .lightbox-title { font-weight: 700; }
+      .lightbox-meta { color: var(--muted); font-size: 12px; }
+      .lightbox-actions { display: flex; gap: 7px; }
+      .lightbox-actions a, .lightbox-actions button {
+        padding: 6px 10px;
+        border: 1px solid #92989f;
+        background: #fff;
+        color: var(--ink);
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      .lightbox-stage {
+        display: grid;
+        place-items: start center;
+        height: calc(100% - 53px);
+        overflow: auto;
+        padding: 18px;
+        background: #e8eaed;
+      }
+
+      .lightbox-stage img { display: block; max-width: 100%; background: #fff; }
+
+      @media (max-width: 980px) {
+        .hero { padding: 24px 16px 18px; }
+        .hero-row { align-items: stretch; flex-direction: column; }
+        .kpis { min-width: 0; }
+        .toolbar { align-items: stretch; flex-wrap: wrap; }
+        .search { flex: 1 1 100%; width: 100%; }
+        .toolbar-meta { order: 4; width: 100%; margin-left: 0; }
+        .prompt { grid-template-columns: 1fr; gap: 6px; }
+        .prompt details { justify-self: start; }
+      }
+
+      @media (max-width: 700px) {
+        .kpis { grid-template-columns: repeat(2, 1fr); }
+        .kpi:nth-child(2) { border-right: 0; }
+        .kpi:nth-child(-n + 2) { border-bottom: 1px solid var(--line); }
+        .workspace { margin-bottom: 0; border-right: 0; border-left: 0; box-shadow: none; }
+        .cases { padding: 0; }
+        .case { padding: 22px 12px 28px; }
+        .case-header { grid-template-columns: 1fr; }
+        .case-heading { align-items: flex-start; flex-direction: column; gap: 7px; }
+        .fact-en { margin-left: 0; }
+        .case-score { flex-wrap: wrap; }
+        .metrics { flex-wrap: wrap; gap: 8px 16px; }
+        .columns-legend { display: none; }
+        .comparison-scroll { overflow: visible; }
+        .comparison-grid { grid-template-columns: 1fr; min-width: 0; gap: 10px; border: 0; }
+        figure { border: 1px solid var(--line); }
+        figure:last-child { border-right: 1px solid var(--line); }
+        .slide-header { flex-wrap: wrap; }
+        .slide-verdict { flex-basis: 100%; margin-left: 0; }
+        .download { margin-left: auto; }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero-row">
+        <div>
+          <p class="eyebrow" id="eyebrow">Figure → Cross-slide Text Benchmark</p>
+          <h1 id="page-title">PPT Cross-page Consistency</h1>
+          <p class="lede" id="page-description">修改一页中的 Figure / Chart 事实后，测试模型能否识别并同步更新其他页面中的文字引用。每个目标页按 Source、Ground Truth、Predict 三列展示。</p>
+        </div>
+        <section class="kpis" id="kpis" aria-label="汇总指标"></section>
+      </div>
+    </header>
+
+    <main class="workspace">
+      <section class="toolbar" aria-label="结果筛选">
+        <input class="search" id="search" type="search" placeholder="搜索 Case、事实或指令" autocomplete="off" />
+        <div class="filters" role="group" aria-label="内容准确性筛选">
+          <button class="filter" type="button" data-filter="all" aria-pressed="true">全部</button>
+          <button class="filter" type="button" data-filter="exact" aria-pressed="false">逐字匹配</button>
+          <button class="filter" type="button" data-filter="paraphrased" aria-pressed="false">语义一致但改写</button>
+        </div>
+        <span class="toolbar-meta" id="result-count" aria-live="polite"></span>
+        <a class="download" href="all_cases.pdf" target="_blank" rel="noreferrer">下载对比 PDF</a>
+      </section>
+
+      <section class="columns-legend" aria-label="三列说明">
+        <span class="source"><i></i>Source · 原始页面</span>
+        <span class="gt"><i></i>Ground Truth · 标准答案</span>
+        <span class="predict"><i></i>Predict · GPT-6 Astra / Codex</span>
+      </section>
+
+      <p class="loading" id="loading">正在读取 10 个测试 case…</p>
+      <section class="cases" id="cases" aria-live="polite"></section>
+    </main>
+
+    <dialog class="lightbox" id="lightbox">
+      <div class="lightbox-bar">
+        <div>
+          <div class="lightbox-title" id="lightbox-title"></div>
+          <div class="lightbox-meta" id="lightbox-meta"></div>
+        </div>
+        <div class="lightbox-actions">
+          <a id="lightbox-open" target="_blank" rel="noreferrer">打开原图</a>
+          <button id="lightbox-close" type="button">关闭</button>
+        </div>
+      </div>
+      <div class="lightbox-stage"><img id="lightbox-image" alt="" /></div>
+    </dialog>
+
+    <script>
+      const state = { data: null, query: "", filter: "all" };
+      const casesNode = document.getElementById("cases");
+      const loading = document.getElementById("loading");
+      const search = document.getElementById("search");
+      const countNode = document.getElementById("result-count");
+      const lightbox = document.getElementById("lightbox");
+      const lightboxImage = document.getElementById("lightbox-image");
+      const lightboxTitle = document.getElementById("lightbox-title");
+      const lightboxMeta = document.getElementById("lightbox-meta");
+      const lightboxOpen = document.getElementById("lightbox-open");
+
+      function escapeHtml(value) {
+        return String(value)
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;")
+          .replaceAll("'", "&#039;");
+      }
+
+      function percent(value) { return `${Math.round(Number(value) * 100)}%`; }
+
+      function renderKpis(summary) {
+        document.getElementById("kpis").innerHTML = [
+          [summary.cases, "Cases"],
+          [summary.target_slides, "Target slides"],
+          [percent(summary.recall), "Element recall"],
+          [percent(summary.semantic_accuracy), "Semantic correct"],
+        ].map(([value, label]) => `<div class="kpi"><strong>${escapeHtml(value)}</strong><span>${escapeHtml(label)}</span></div>`).join("");
+      }
+
+      function visual(item, slide, key, label, className) {
+        const source = slide.images[key];
+        return `<figure class="${className}">
+          <figcaption><span>${label}</span><small>Slide ${slide.slide}</small></figcaption>
+          <img class="slide-image" loading="lazy" decoding="async" src="${escapeHtml(source)}" alt="${escapeHtml(item.id)} ${label} slide ${slide.slide}" data-lightbox data-title="${escapeHtml(item.id)} · ${label}" data-meta="Slide ${slide.slide}" />
+        </figure>`;
+      }
+
+      function slideBlock(item, slide) {
+        const verdict = slide.exact_status === "exact" ? "语义正确 · 逐字匹配" : "语义正确 · 表述不同";
+        const changes = slide.changes.map((change) => `<span>${escapeHtml(change)}</span>`).join("");
+        return `<section class="slide-block">
+          <header class="slide-header">
+            <span class="slide-number">SLIDE ${slide.slide}</span>
+            <div class="change-list">${changes}</div>
+            <span class="slide-verdict ${slide.exact_status}">${verdict}</span>
+          </header>
+          <div class="comparison-scroll">
+            <div class="comparison-grid">
+              ${visual(item, slide, "source", "Source", "source-figure")}
+              ${visual(item, slide, "ground_truth", "Ground Truth", "gt-figure")}
+              ${visual(item, slide, "predict", "Predict", "predict-figure")}
+            </div>
+          </div>
+        </section>`;
+      }
+
+      function caseCard(item) {
+        const statusLabel = item.status === "exact" ? "语义正确 · 逐字匹配" : "语义正确 · 有改写";
+        const origin = item.dependency_origin === "pre_existing" ? "真实原生关联" : "基于原内容补充关联";
+        return `<article class="case" id="${escapeHtml(item.id)}">
+          <header class="case-header">
+            <div>
+              <div class="case-heading"><span class="case-id">${escapeHtml(item.id)}</span><h2>${escapeHtml(item.title)}</h2></div>
+              <p class="fact-en">${escapeHtml(item.fact_en)}</p>
+            </div>
+            <div class="case-score">
+              <span>${escapeHtml(origin)}</span>
+              <span class="status ${item.status}">${statusLabel}</span>
+            </div>
+          </header>
+          <section class="prompt">
+            <span class="prompt-label">编辑指令</span>
+            <p>${escapeHtml(item.prompt_zh)}</p>
+            <details><summary>查看英文原文</summary><p>${escapeHtml(item.prompt_en)}</p></details>
+          </section>
+          <div class="metrics">
+            <span>Recall <strong>${percent(item.metrics.recall)}</strong></span>
+            <span>Precision <strong>${percent(item.metrics.precision)}</strong></span>
+            <span>Semantic <strong>${percent(item.metrics.semantic_accuracy)}</strong></span>
+            <span>Exact GT <strong>${item.metrics.content_correct_elements}/${item.metrics.expected_elements}</strong></span>
+            <span>目标页 <strong>${item.target_slides.join(", ")}</strong></span>
+            <span>整份 PPT <strong>${item.slide_count} 页</strong></span>
+          </div>
+          ${item.slides.map((slide) => slideBlock(item, slide)).join("")}
+        </article>`;
+      }
+
+      function render() {
+        const query = state.query.toLowerCase();
+        const visible = state.data.cases.filter((item) => {
+          const matchesQuery = `${item.id} ${item.title} ${item.fact_en} ${item.prompt_zh} ${item.prompt_en}`.toLowerCase().includes(query);
+          const matchesFilter = state.filter === "all" || item.status === state.filter;
+          return matchesQuery && matchesFilter;
+        });
+        countNode.textContent = `显示 ${visible.length} / ${state.data.cases.length} cases`;
+        casesNode.innerHTML = visible.length ? visible.map(caseCard).join("") : `<p class="empty">没有符合条件的 case。</p>`;
+      }
+
+      search.addEventListener("input", () => { state.query = search.value.trim(); render(); });
+
+      document.querySelector(".filters").addEventListener("click", (event) => {
+        const button = event.target.closest("[data-filter]");
+        if (!button) return;
+        document.querySelectorAll("[data-filter]").forEach((item) => item.setAttribute("aria-pressed", String(item === button)));
+        state.filter = button.dataset.filter;
+        render();
+      });
+
+      casesNode.addEventListener("click", (event) => {
+        const selected = event.target.closest("[data-lightbox]");
+        if (!selected) return;
+        lightboxImage.src = selected.src;
+        lightboxImage.alt = selected.alt;
+        lightboxTitle.textContent = selected.dataset.title;
+        lightboxMeta.textContent = selected.dataset.meta;
+        lightboxOpen.href = selected.src;
+        lightbox.showModal();
+      });
+
+      document.getElementById("lightbox-close").addEventListener("click", () => lightbox.close());
+      lightbox.addEventListener("click", (event) => { if (event.target === lightbox) lightbox.close(); });
+      lightbox.addEventListener("close", () => lightboxImage.removeAttribute("src"));
+
+      fetch("manifest.json")
+        .then((response) => { if (!response.ok) throw new Error(`HTTP ${response.status}`); return response.json(); })
+        .then((data) => {
+          state.data = data;
+          document.title = data.title;
+          document.getElementById("eyebrow").textContent = data.eyebrow;
+          document.getElementById("page-title").textContent = data.title;
+          document.getElementById("page-description").textContent = data.description;
+          loading.hidden = true;
+          renderKpis(data.summary);
+          render();
+        })
+        .catch((error) => { loading.textContent = `读取失败：${error.message}`; });
+    </script>
+  </body>
+</html>

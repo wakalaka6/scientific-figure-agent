@@ -12,6 +12,7 @@ from PIL import Image
 SITE_ROOT = Path(__file__).resolve().parents[1]
 SOURCE_ROOT = Path("/home/wangfeifei/projects/a_mpqc/codex_ab_results/batch_003")
 PROMPT_ROOT = Path("/home/wangfeifei/projects/a_mpqc/banner_logos_and_prompts")
+GROUND_TRUTH_ROOT = Path("/home/wangfeifei/projects/a_mpqc/banner_ground_truth")
 OUTPUT_ROOT = SITE_ROOT / "banner-plan-criteria-comparison"
 
 BRANDS = {
@@ -50,11 +51,11 @@ def build() -> None:
         case_id = f"case_{index:03d}"
         asset_dir = OUTPUT_ROOT / "assets" / case_id
         paths = {
-            "logo": asset_dir / "logo.webp",
+            "ground_truth": asset_dir / "ground_truth.webp",
             "plan_only": asset_dir / "plan_only.webp",
             "plan_plus_criteria": asset_dir / "plan_plus_criteria.webp",
         }
-        save_webp(plan_only / "logo.png", paths["logo"], quality=92)
+        save_webp(GROUND_TRUTH_ROOT / f"{index:03d}.png", paths["ground_truth"], quality=90)
         save_webp(plan_only / "banner.png", paths["plan_only"], quality=90)
         save_webp(plan_criteria / "banner.png", paths["plan_plus_criteria"], quality=90)
 

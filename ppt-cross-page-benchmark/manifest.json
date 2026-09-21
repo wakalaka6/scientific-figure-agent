@@ -1,0 +1,617 @@
+{
+  "title": "PPT Cross-page Consistency",
+  "description": "Figure / Table 事实变化后，检查模型是否同步更新其他页面中的文字引用。",
+  "model": "GPT-6 Astra / Codex",
+  "summary": {
+    "cases": 10,
+    "target_slides": 22,
+    "expected_elements": 25,
+    "recall": 1.0,
+    "precision": 1.0,
+    "content_accuracy": 0.8,
+    "semantic_accuracy": 1.0
+  },
+  "cases": [
+    {
+      "id": "case_001",
+      "title": "化粪池使用年限分布",
+      "fact_en": "Septic-tank service-life distribution",
+      "prompt_zh": "在第10页的使用年限饼图中，将“少于三年”占比从17.06%提高至35.00%，并将“不清楚使用年限”占比从22.66%降至4.72%，使总和仍为100%；同步更新整份文稿中对这两组数据的文字讨论，不得修改无关结论。",
+      "prompt_en": "In the service-life pie chart on slide 10, increase the share of septic tanks less than three years old from 17.06% to 35.00%, and reduce the 'service life unknown' share from 22.66% to 4.72% so the pie still totals 100%. Keep every textual discussion of those two groups consistent throughout the deck. Do not alter unrelated findings.",
+      "target_slides": [
+        2,
+        10,
+        12
+      ],
+      "slide_count": 14,
+      "dependency_origin": "pre_existing",
+      "metrics": {
+        "recall": 1.0,
+        "precision": 1.0,
+        "content_accuracy": 0.5,
+        "semantic_accuracy": 1.0,
+        "expected_elements": 4,
+        "content_correct_elements": 2
+      },
+      "status": "paraphrased",
+      "semantic_status": "correct",
+      "slides": [
+        {
+          "slide": 2,
+          "images": {
+            "source": "assets/case_001/slide_002_source.webp",
+            "ground_truth": "assets/case_001/slide_002_ground_truth.webp",
+            "predict": "assets/case_001/slide_002_predict.webp"
+          },
+          "changes": [
+            "文本 · 17.06% → 35.00%；22.66% → 4.72%"
+          ],
+          "exact_status": "non_exact",
+          "semantic_status": "correct",
+          "non_exact_elements": 1,
+          "semantic_notes": [
+            "The model rewrote the paragraph but preserved the updated 35.00% and 4.72% facts and their meanings."
+          ]
+        },
+        {
+          "slide": 10,
+          "images": {
+            "source": "assets/case_001/slide_010_source.webp",
+            "ground_truth": "assets/case_001/slide_010_ground_truth.webp",
+            "predict": "assets/case_001/slide_010_predict.webp"
+          },
+          "changes": [
+            "图表 · Less than three years: 17.06% → 35.00%",
+            "图表 · Service life unknown: 22.66% → 4.72%",
+            "文本 · 17.06% → 35.00%；22.66% → 4.72%"
+          ],
+          "exact_status": "non_exact",
+          "semantic_status": "correct",
+          "non_exact_elements": 1,
+          "semantic_notes": [
+            "The model reordered the prose to reflect the new largest group; the factual content remains consistent with the chart."
+          ]
+        },
+        {
+          "slide": 12,
+          "images": {
+            "source": "assets/case_001/slide_012_source.webp",
+            "ground_truth": "assets/case_001/slide_012_ground_truth.webp",
+            "predict": "assets/case_001/slide_012_predict.webp"
+          },
+          "changes": [
+            "文本 · 17.06% → 35.00%；22.66% → 4.72%"
+          ],
+          "exact_status": "exact",
+          "semantic_status": "correct",
+          "non_exact_elements": 0,
+          "semantic_notes": []
+        }
+      ]
+    },
+    {
+      "id": "case_002",
+      "title": "项目基准情景 IRR",
+      "fact_en": "Base-case project IRR",
+      "prompt_zh": "在第7页左侧标题为“LNG price = USD 15.77/MMBtu”的敏感性图中，将“Base case 100%”的IRR从19.72%改为30.00%；同步更新文稿其他页面中对同一基准IRR的文字引用，右侧图表及其他情景数值保持不变。",
+      "prompt_en": "On slide 7, in the left-hand sensitivity chart titled \"LNG price = USD 15.77/MMBtu\", change the IRR value for \"Base case 100%\" from 19.72% to 30.00%. Update every textual statement elsewhere in the deck that refers to this same base-case IRR. Leave the right-hand chart and all other scenario values unchanged.",
+      "target_slides": [
+        6,
+        7
+      ],
+      "slide_count": 9,
+      "dependency_origin": "pre_existing",
+      "metrics": {
+        "recall": 1.0,
+        "precision": 1.0,
+        "content_accuracy": 1.0,
+        "semantic_accuracy": 1.0,
+        "expected_elements": 2,
+        "content_correct_elements": 2
+      },
+      "status": "exact",
+      "semantic_status": "correct",
+      "slides": [
+        {
+          "slide": 6,
+          "images": {
+            "source": "assets/case_002/slide_006_source.webp",
+            "ground_truth": "assets/case_002/slide_006_ground_truth.webp",
+            "predict": "assets/case_002/slide_006_predict.webp"
+          },
+          "changes": [
+            "文本 · 19.72% → 30.00%"
+          ],
+          "exact_status": "exact",
+          "semantic_status": "correct",
+          "non_exact_elements": 0,
+          "semantic_notes": []
+        },
+        {
+          "slide": 7,
+          "images": {
+            "source": "assets/case_002/slide_007_source.webp",
+            "ground_truth": "assets/case_002/slide_007_ground_truth.webp",
+            "predict": "assets/case_002/slide_007_predict.webp"
+          },
+          "changes": [
+            "图表 · Base case 100%: 19.72% → 30.00%"
+          ],
+          "exact_status": "exact",
+          "semantic_status": "correct",
+          "non_exact_elements": 0,
+          "semantic_notes": []
+        }
+      ]
+    },
+    {
+      "id": "case_003",
+      "title": "问卷评分分布",
+      "fact_en": "Questionnaire rating distribution",
+      "prompt_zh": "在第11页的问卷饼图中，将“good enough”占比从12.50%提高至30.00%，并将“good”占比从42.09%降至24.59%，使分布总和仍为100%；同步更新所有相关文字总结，其他类别保持不变。",
+      "prompt_en": "In the questionnaire pie chart on slide 11, increase the 'good enough' share from 12.50% to 30.00% and reduce the 'good' share from 42.09% to 24.59% so the distribution remains at 100%. Synchronize every prose summary of these ratings and preserve all other categories.",
+      "target_slides": [
+        11,
+        12
+      ],
+      "slide_count": 15,
+      "dependency_origin": "pre_existing",
+      "metrics": {
+        "recall": 1.0,
+        "precision": 1.0,
+        "content_accuracy": 0.5,
+        "semantic_accuracy": 1.0,
+        "expected_elements": 2,
+        "content_correct_elements": 1
+      },
+      "status": "paraphrased",
+      "semantic_status": "correct",
+      "slides": [
+        {
+          "slide": 11,
+          "images": {
+            "source": "assets/case_003/slide_011_source.webp",
+            "ground_truth": "assets/case_003/slide_011_ground_truth.webp",
+            "predict": "assets/case_003/slide_011_predict.webp"
+          },
+          "changes": [
+            "图表 · Good enough: 12.50% → 30.00%",
+            "图表 · Good: 42.09% → 24.59%"
+          ],
+          "exact_status": "exact",
+          "semantic_status": "correct",
+          "non_exact_elements": 0,
+          "semantic_notes": []
+        },
+        {
+          "slide": 12,
+          "images": {
+            "source": "assets/case_003/slide_012_source.webp",
+            "ground_truth": "assets/case_003/slide_012_ground_truth.webp",
+            "predict": "assets/case_003/slide_012_predict.webp"
+          },
+          "changes": [
+            "文本 · 12.50% → 30.00%；42.09% → 24.59%"
+          ],
+          "exact_status": "non_exact",
+          "semantic_status": "correct",
+          "non_exact_elements": 1,
+          "semantic_notes": [
+            "The summary was paraphrased while retaining the correct 24.59% and 30.00% category facts."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "case_004",
+      "title": "太阳能项目基准 IRR",
+      "fact_en": "Solar-project base-case IRR",
+      "prompt_zh": "在第5页右侧NPV/IRR图中，将27.5 GW基准产量点的IRR从20.3%改为30.0%；在第6页右侧NPV/IRR图中，将USD 0.045/kWh基准售价点作相同修改；同步更新引用该基准IRR的结论，19%的减产情景IRR及其他数值保持不变。",
+      "prompt_en": "On slide 5, in the right-hand NPV/IRR chart, change the IRR at the 27.5 GW base-case production point from 20.3% to 30.0%. On slide 6, in the right-hand NPV/IRR chart, make the same change at the USD 0.045/kWh base-case sales-price point. Update the conclusion that cites this base-case IRR. Leave the reduced-production IRR of 19% and all other scenario values unchanged.",
+      "target_slides": [
+        5,
+        6,
+        7
+      ],
+      "slide_count": 8,
+      "dependency_origin": "pre_existing",
+      "metrics": {
+        "recall": 1.0,
+        "precision": 1.0,
+        "content_accuracy": 1.0,
+        "semantic_accuracy": 1.0,
+        "expected_elements": 3,
+        "content_correct_elements": 3
+      },
+      "status": "exact",
+      "semantic_status": "correct",
+      "slides": [
+        {
+          "slide": 5,
+          "images": {
+            "source": "assets/case_004/slide_005_source.webp",
+            "ground_truth": "assets/case_004/slide_005_ground_truth.webp",
+            "predict": "assets/case_004/slide_005_predict.webp"
+          },
+          "changes": [
+            "图表 · Annual production 27.5 GW (base case): 20.3% → 30.0%"
+          ],
+          "exact_status": "exact",
+          "semantic_status": "correct",
+          "non_exact_elements": 0,
+          "semantic_notes": []
+        },
+        {
+          "slide": 6,
+          "images": {
+            "source": "assets/case_004/slide_006_source.webp",
+            "ground_truth": "assets/case_004/slide_006_ground_truth.webp",
+            "predict": "assets/case_004/slide_006_predict.webp"
+          },
+          "changes": [
+            "图表 · Electricity sales price USD 0.045/kWh (base case): 20.3% → 30.0%"
+          ],
+          "exact_status": "exact",
+          "semantic_status": "correct",
+          "non_exact_elements": 0,
+          "semantic_notes": []
+        },
+        {
+          "slide": 7,
+          "images": {
+            "source": "assets/case_004/slide_007_source.webp",
+            "ground_truth": "assets/case_004/slide_007_ground_truth.webp",
+            "predict": "assets/case_004/slide_007_predict.webp"
+          },
+          "changes": [
+            "文本 · 20.3% → 30.0%"
+          ],
+          "exact_status": "exact",
+          "semantic_status": "correct",
+          "non_exact_elements": 0,
+          "semantic_notes": []
+        }
+      ]
+    },
+    {
+      "id": "case_005",
+      "title": "5 km 缓冲情景下的电网占比",
+      "fact_en": "Grid share under the 5 km buffer scenario",
+      "prompt_zh": "在第5页5 km缓冲区投资占比饼图中，将电网/微电网/独立光伏从89%/4%/7%改为70%/15%/15%；同步更新结论中对5 km电网占比的描述，但不要修改10 km情景的94%。",
+      "prompt_en": "In the 5 km buffer investment-share pie chart on slide 5, change Grid / Mini-grid / Stand-alone PV from 89% / 4% / 7% to 70% / 15% / 15%. Update the conclusion's statement about the 5 km grid share, but do not change the separate 10 km result of 94%.",
+      "target_slides": [
+        5,
+        8
+      ],
+      "slide_count": 9,
+      "dependency_origin": "pre_existing",
+      "metrics": {
+        "recall": 1.0,
+        "precision": 1.0,
+        "content_accuracy": 1.0,
+        "semantic_accuracy": 1.0,
+        "expected_elements": 2,
+        "content_correct_elements": 2
+      },
+      "status": "exact",
+      "semantic_status": "correct",
+      "slides": [
+        {
+          "slide": 5,
+          "images": {
+            "source": "assets/case_005/slide_005_source.webp",
+            "ground_truth": "assets/case_005/slide_005_ground_truth.webp",
+            "predict": "assets/case_005/slide_005_predict.webp"
+          },
+          "changes": [
+            "图表 · Grid: 89% → 70%",
+            "图表 · Mini-grid: 4% → 15%",
+            "图表 · Stand-alone PV: 7% → 15%"
+          ],
+          "exact_status": "exact",
+          "semantic_status": "correct",
+          "non_exact_elements": 0,
+          "semantic_notes": []
+        },
+        {
+          "slide": 8,
+          "images": {
+            "source": "assets/case_005/slide_008_source.webp",
+            "ground_truth": "assets/case_005/slide_008_ground_truth.webp",
+            "predict": "assets/case_005/slide_008_predict.webp"
+          },
+          "changes": [
+            "文本 · 89% → 70%"
+          ],
+          "exact_status": "exact",
+          "semantic_status": "correct",
+          "non_exact_elements": 0,
+          "semantic_notes": []
+        }
+      ]
+    },
+    {
+      "id": "case_006",
+      "title": "2030 年可再生能源占比预测",
+      "fact_en": "Projected renewable-energy share in 2030",
+      "prompt_zh": "在第7页右上角标题为“Goal 25% by 2030”的图表中，将“Porcentage RES.”系列的2030年数值从34.2%改为40.0%；同步更新结论中引用该预测值的文字，“Goal.”系列仍为25%，其他年份保持不变。",
+      "prompt_en": "On slide 7, in the upper-right chart titled 'Goal 25% by 2030', change the 2030 value in the 'Porcentage RES.' series from 34.2% to 40.0%. Update the conclusion wherever it cites that projected 2030 value. Keep the 'Goal.' series at 25% and leave every other year unchanged.",
+      "target_slides": [
+        7,
+        9
+      ],
+      "slide_count": 11,
+      "dependency_origin": "authored_in_place",
+      "metrics": {
+        "recall": 1.0,
+        "precision": 1.0,
+        "content_accuracy": 1.0,
+        "semantic_accuracy": 1.0,
+        "expected_elements": 2,
+        "content_correct_elements": 2
+      },
+      "status": "exact",
+      "semantic_status": "correct",
+      "slides": [
+        {
+          "slide": 7,
+          "images": {
+            "source": "assets/case_006/slide_007_source.webp",
+            "ground_truth": "assets/case_006/slide_007_ground_truth.webp",
+            "predict": "assets/case_006/slide_007_predict.webp"
+          },
+          "changes": [
+            "图表 · 2030: 34.2% → 40.0%"
+          ],
+          "exact_status": "exact",
+          "semantic_status": "correct",
+          "non_exact_elements": 0,
+          "semantic_notes": []
+        },
+        {
+          "slide": 9,
+          "images": {
+            "source": "assets/case_006/slide_009_source.webp",
+            "ground_truth": "assets/case_006/slide_009_ground_truth.webp",
+            "predict": "assets/case_006/slide_009_predict.webp"
+          },
+          "changes": [
+            "文本 · 34.2% → 40.0%"
+          ],
+          "exact_status": "exact",
+          "semantic_status": "correct",
+          "non_exact_elements": 0,
+          "semantic_notes": []
+        }
+      ]
+    },
+    {
+      "id": "case_007",
+      "title": "尚无可行替代方案的 PFAS 工业应用",
+      "fact_en": "Industrial PFAS applications with no viable substitution",
+      "prompt_zh": "在第15页适用性图表中，将“尚无法替代”的工业应用数量从25改为50；同步更新必要用途讨论中的相关表述，其他用途类别保持不变。",
+      "prompt_en": "In the suitability chart on slide 15, change the number of industrial applications for which substitution is not yet possible from 25 to 50. Update the related statement in the essential-use discussion and leave every other use category unchanged.",
+      "target_slides": [
+        15,
+        16
+      ],
+      "slide_count": 28,
+      "dependency_origin": "authored_in_place",
+      "metrics": {
+        "recall": 1.0,
+        "precision": 1.0,
+        "content_accuracy": 1.0,
+        "semantic_accuracy": 1.0,
+        "expected_elements": 2,
+        "content_correct_elements": 2
+      },
+      "status": "exact",
+      "semantic_status": "correct",
+      "slides": [
+        {
+          "slide": 15,
+          "images": {
+            "source": "assets/case_007/slide_015_source.webp",
+            "ground_truth": "assets/case_007/slide_015_ground_truth.webp",
+            "predict": "assets/case_007/slide_015_predict.webp"
+          },
+          "changes": [
+            "图表 · Industrial / substitution not possible yet: 25 → 50"
+          ],
+          "exact_status": "exact",
+          "semantic_status": "correct",
+          "non_exact_elements": 0,
+          "semantic_notes": []
+        },
+        {
+          "slide": 16,
+          "images": {
+            "source": "assets/case_007/slide_016_source.webp",
+            "ground_truth": "assets/case_007/slide_016_ground_truth.webp",
+            "predict": "assets/case_007/slide_016_predict.webp"
+          },
+          "changes": [
+            "文本 · 25 industrial applications → 50 industrial applications"
+          ],
+          "exact_status": "exact",
+          "semantic_status": "correct",
+          "non_exact_elements": 0,
+          "semantic_notes": []
+        }
+      ]
+    },
+    {
+      "id": "case_008",
+      "title": "芬兰高校出版物语言分布",
+      "fact_en": "Language distribution of Finnish university publications",
+      "prompt_zh": "在第6页出版语言图表中，将英语占比从64%改为45%、芬兰语占比从25%改为44%；同步更新所有相关文字引用，包括后面的政策讨论，其他小语种类别保持不变。",
+      "prompt_en": "In the publication-language chart on slide 6, change English from 64% to 45% and Finnish from 25% to 44%. Update every textual reference to this language split, including the later policy discussion, without changing the smaller language categories.",
+      "target_slides": [
+        6,
+        20
+      ],
+      "slide_count": 23,
+      "dependency_origin": "authored_in_place",
+      "metrics": {
+        "recall": 1.0,
+        "precision": 1.0,
+        "content_accuracy": 0.3333333333333333,
+        "semantic_accuracy": 1.0,
+        "expected_elements": 3,
+        "content_correct_elements": 1
+      },
+      "status": "paraphrased",
+      "semantic_status": "correct",
+      "slides": [
+        {
+          "slide": 6,
+          "images": {
+            "source": "assets/case_008/slide_006_source.webp",
+            "ground_truth": "assets/case_008/slide_006_ground_truth.webp",
+            "predict": "assets/case_008/slide_006_predict.webp"
+          },
+          "changes": [
+            "图表 · English: 64% → 45%",
+            "图表 · Finnish: 25% → 44%",
+            "文本 · 64 % → 45 %；25 % → 44 %"
+          ],
+          "exact_status": "non_exact",
+          "semantic_status": "correct",
+          "non_exact_elements": 1,
+          "semantic_notes": [
+            "The predicted chart stores Finnish as 0.44 instead of the GT's mass-preserving 0.4355095409; both render the requested 44% label."
+          ]
+        },
+        {
+          "slide": 20,
+          "images": {
+            "source": "assets/case_008/slide_020_source.webp",
+            "ground_truth": "assets/case_008/slide_020_ground_truth.webp",
+            "predict": "assets/case_008/slide_020_predict.webp"
+          },
+          "changes": [
+            "文本 · 64% → 45%；25% → 44%"
+          ],
+          "exact_status": "non_exact",
+          "semantic_status": "correct",
+          "non_exact_elements": 1,
+          "semantic_notes": [
+            "The policy discussion was paraphrased while preserving the requested 45% English and 44% Finnish facts."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "case_009",
+      "title": "新德里选择瑜伽的受访者数量",
+      "fact_en": "New Delhi respondents selecting yoga",
+      "prompt_zh": "在第5页跨城市CAM使用情况图表中，将新德里选择瑜伽的受访者数量从78改为40；同步更新结论中的文字引用，其他城市和实践项目保持不变。",
+      "prompt_en": "In the cross-city CAM usage chart on slide 5, change the New Delhi value for Yoga from 78 respondents to 40 respondents. Update the conclusion's textual citation of that chart result and leave the other cities and practices unchanged.",
+      "target_slides": [
+        5,
+        9
+      ],
+      "slide_count": 15,
+      "dependency_origin": "authored_in_place",
+      "metrics": {
+        "recall": 1.0,
+        "precision": 1.0,
+        "content_accuracy": 1.0,
+        "semantic_accuracy": 1.0,
+        "expected_elements": 2,
+        "content_correct_elements": 2
+      },
+      "status": "exact",
+      "semantic_status": "correct",
+      "slides": [
+        {
+          "slide": 5,
+          "images": {
+            "source": "assets/case_009/slide_005_source.webp",
+            "ground_truth": "assets/case_009/slide_005_ground_truth.webp",
+            "predict": "assets/case_009/slide_005_predict.webp"
+          },
+          "changes": [
+            "图表 · New Delhi / Yoga: 78 → 40"
+          ],
+          "exact_status": "exact",
+          "semantic_status": "correct",
+          "non_exact_elements": 0,
+          "semantic_notes": []
+        },
+        {
+          "slide": 9,
+          "images": {
+            "source": "assets/case_009/slide_009_source.webp",
+            "ground_truth": "assets/case_009/slide_009_ground_truth.webp",
+            "predict": "assets/case_009/slide_009_predict.webp"
+          },
+          "changes": [
+            "文本 · 78 New Delhi respondents → 40 New Delhi respondents"
+          ],
+          "exact_status": "exact",
+          "semantic_status": "correct",
+          "non_exact_elements": 0,
+          "semantic_notes": []
+        }
+      ]
+    },
+    {
+      "id": "case_010",
+      "title": "DPT 3 / Polio 4 与麻疹免疫人数",
+      "fact_en": "Infants due for DPT 3 / Polio 4 and measles immunization",
+      "prompt_zh": "在第12页免疫阶段图表中，将12名受访者从麻疹重新分配到DPT 3/Polio 4：DPT 3/Polio 4从24改为36，麻疹从12改为0；同步更新所有相关文字报告，总样本量和其他阶段保持不变。",
+      "prompt_en": "In the immunization-stage chart on slide 12, reallocate 12 respondents from Measles to DPT 3 / Polio 4: change DPT 3 / Polio 4 from 24 to 36 and Measles from 12 to 0. Update all textual reporting of those chart counts while keeping the total sample and other stages unchanged.",
+      "target_slides": [
+        2,
+        12
+      ],
+      "slide_count": 19,
+      "dependency_origin": "authored_in_place",
+      "metrics": {
+        "recall": 1.0,
+        "precision": 1.0,
+        "content_accuracy": 1.0,
+        "semantic_accuracy": 1.0,
+        "expected_elements": 3,
+        "content_correct_elements": 3
+      },
+      "status": "exact",
+      "semantic_status": "correct",
+      "slides": [
+        {
+          "slide": 2,
+          "images": {
+            "source": "assets/case_010/slide_002_source.webp",
+            "ground_truth": "assets/case_010/slide_002_ground_truth.webp",
+            "predict": "assets/case_010/slide_002_predict.webp"
+          },
+          "changes": [
+            "文本 · 24 infants → 36 infants；12 infants → 0 infants"
+          ],
+          "exact_status": "exact",
+          "semantic_status": "correct",
+          "non_exact_elements": 0,
+          "semantic_notes": []
+        },
+        {
+          "slide": 12,
+          "images": {
+            "source": "assets/case_010/slide_012_source.webp",
+            "ground_truth": "assets/case_010/slide_012_ground_truth.webp",
+            "predict": "assets/case_010/slide_012_predict.webp"
+          },
+          "changes": [
+            "图表 · DPT 3 / Polio 4: 24 → 36",
+            "图表 · Measles: 12 → 0",
+            "文本 · 24 respondents → 36 respondents；34% → 51%"
+          ],
+          "exact_status": "exact",
+          "semantic_status": "correct",
+          "non_exact_elements": 0,
+          "semantic_notes": []
+        }
+      ]
+    }
+  ]
+}
