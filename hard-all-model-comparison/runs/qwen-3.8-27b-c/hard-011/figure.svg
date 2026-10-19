@@ -1,0 +1,342 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1872" height="921" viewBox="0 0 1872 921">
+<defs>
+<marker id="mPurple" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="24" markerHeight="24" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8A7CA8"/></marker>
+<marker id="mOrange" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="20" markerHeight="20" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E08A3C"/></marker>
+<marker id="mGreen" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="24" markerHeight="24" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#5FA054"/></marker>
+<marker id="mBlue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2E5478"/></marker>
+<marker id="mDark" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+<pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#F7ECD9"/><line x1="0" y1="0" x2="0" y2="6" stroke="#DCC194" stroke-width="2"/></pattern>
+</defs>
+<rect x="0" y="0" width="1872" height="921" fill="#FFFFFF"/>
+<rect x="578" y="14" width="1287" height="531" fill="#FFFFFF" stroke="#5F5380" stroke-width="2.5" rx="10"/>
+<rect x="578" y="78" width="457" height="467" fill="#D8CFE2"/>
+<rect x="1035" y="78" width="435" height="467" fill="#F7E3C8"/>
+<rect x="1470" y="78" width="395" height="467" fill="#A8D18F"/>
+<path d="M578,78 V26 Q578,14 590,14 H1853 Q1865,14 1865,26 V78 Z" fill="#8A7CA8" stroke="#5F5380" stroke-width="2.5"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#FFFFFF" text-anchor="middle" font-weight="bold" x="1221" y="57"><tspan font-size="34">KV-cache Communication Module</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="middle" font-weight="bold" x="806" y="110"><tspan font-size="26">Anchor Matching</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="middle" font-weight="bold" x="1252" y="110"><tspan font-size="26">Offset Approximation</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="middle" font-weight="bold" x="1667" y="110"><tspan font-size="26">Anchor Prediction</tspan></text>
+<rect x="615" y="135" width="175" height="140" fill="#FFFFFF" stroke="#8A7CA8" stroke-width="2" rx="4"/>
+<path d="M615 153 Q615 135 633 135 H772 Q790 135 790 153 V169 H615 Z" fill="#C9BCD6" stroke="#8A7CA8" stroke-width="2"/>
+<text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#2B2B2B" x="702.5" y="158" text-anchor="middle"><tspan font-size="17" font-style="italic">φ</tspan><tspan font-size="11" dy="3">(1, 1)</tspan><tspan font-size="17" dy="-3"> Pool</tspan></text>
+<rect x="615" y="169" width="175" height="106" fill="#FFFFFF" stroke="#8A7CA8" stroke-width="2"/>
+<circle cx="645" cy="193" r="6.5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="687" cy="187" r="6.5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="733" cy="199" r="6.5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="765" cy="191" r="6.5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="653" cy="231" r="6.5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="757" cy="237" r="6.5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="711" cy="261" r="6.5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="649" cy="261" r="6.5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="735" cy="249" r="6.5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="712" cy="213" r="26" fill="#CFE0F5" stroke="#93B2D8" stroke-width="1.5"/>
+<circle cx="702" cy="224" r="5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="723" cy="222" r="5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<polygon points="712.0,201.0 715.2,208.6 723.4,209.3 717.1,214.7 719.1,222.7 712.0,218.4 704.9,222.7 706.9,214.7 700.6,209.3 708.8,208.6" fill="#E8842C" stroke="#B55A12" stroke-width="1.5"/>
+<rect x="795" y="135" width="175" height="140" fill="#FFFFFF" stroke="#8A7CA8" stroke-width="2" rx="4"/>
+<path d="M795 153 Q795 135 813 135 H952 Q970 135 970 153 V169 H795 Z" fill="#C9BCD6" stroke="#8A7CA8" stroke-width="2"/>
+<text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#2B2B2B" x="882.5" y="158" text-anchor="middle"><tspan font-size="17" font-style="italic">φ</tspan><tspan font-size="11" dy="3">(1, 2)</tspan><tspan font-size="17" dy="-3"> Pool</tspan></text>
+<rect x="795" y="169" width="175" height="106" fill="#FFFFFF" stroke="#8A7CA8" stroke-width="2"/>
+<circle cx="825" cy="193" r="6.5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="867" cy="187" r="6.5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="913" cy="199" r="6.5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="945" cy="191" r="6.5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="833" cy="231" r="6.5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="937" cy="237" r="6.5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="891" cy="261" r="6.5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="829" cy="261" r="6.5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="915" cy="249" r="6.5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="880" cy="208" r="26" fill="#CFE0F5" stroke="#93B2D8" stroke-width="1.5"/>
+<circle cx="870" cy="219" r="5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="891" cy="217" r="5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<polygon points="880.0,196.0 883.2,203.6 891.4,204.3 885.1,209.7 887.1,217.7 880.0,213.4 872.9,217.7 874.9,209.7 868.6,204.3 876.8,203.6" fill="#6DBE45" stroke="#3F8A24" stroke-width="1.5"/>
+<rect x="615" y="310" width="175" height="140" fill="#FFFFFF" stroke="#8A7CA8" stroke-width="2" rx="4"/>
+<path d="M615 328 Q615 310 633 310 H772 Q790 310 790 328 V344 H615 Z" fill="#C9BCD6" stroke="#8A7CA8" stroke-width="2"/>
+<text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#2B2B2B" x="702.5" y="333" text-anchor="middle"><tspan font-size="17" font-style="italic">φ</tspan><tspan font-size="11" dy="3">(1, 3)</tspan><tspan font-size="17" dy="-3"> Pool</tspan></text>
+<rect x="615" y="344" width="175" height="106" fill="#FFFFFF" stroke="#8A7CA8" stroke-width="2"/>
+<circle cx="645" cy="368" r="6.5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="687" cy="362" r="6.5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="733" cy="374" r="6.5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="765" cy="366" r="6.5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="653" cy="406" r="6.5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="757" cy="412" r="6.5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="711" cy="436" r="6.5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="649" cy="436" r="6.5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="735" cy="424" r="6.5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="683" cy="381" r="26" fill="#CFE0F5" stroke="#93B2D8" stroke-width="1.5"/>
+<circle cx="673" cy="392" r="5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="694" cy="390" r="5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<polygon points="683.0,369.0 686.2,376.6 694.4,377.3 688.1,382.7 690.1,390.7 683.0,386.4 675.9,390.7 677.9,382.7 671.6,377.3 679.8,376.6" fill="#E8842C" stroke="#B55A12" stroke-width="1.5"/>
+<rect x="795" y="310" width="175" height="140" fill="#FFFFFF" stroke="#8A7CA8" stroke-width="2" rx="4"/>
+<path d="M795 328 Q795 310 813 310 H952 Q970 310 970 328 V344 H795 Z" fill="#C9BCD6" stroke="#8A7CA8" stroke-width="2"/>
+<text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#2B2B2B" x="882.5" y="333" text-anchor="middle"><tspan font-size="17" font-style="italic">φ</tspan><tspan font-size="11" dy="3">(2, 1)</tspan><tspan font-size="17" dy="-3"> Pool</tspan></text>
+<rect x="795" y="344" width="175" height="106" fill="#FFFFFF" stroke="#8A7CA8" stroke-width="2"/>
+<circle cx="825" cy="368" r="6.5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="867" cy="362" r="6.5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="913" cy="374" r="6.5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="945" cy="366" r="6.5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="833" cy="406" r="6.5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="937" cy="412" r="6.5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="891" cy="436" r="6.5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="829" cy="436" r="6.5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="915" cy="424" r="6.5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="878" cy="352" r="26" fill="#CFE0F5" stroke="#93B2D8" stroke-width="1.5"/>
+<circle cx="868" cy="363" r="5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="889" cy="361" r="5" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<polygon points="878.0,340.0 881.2,347.6 889.4,348.3 883.1,353.7 885.1,361.7 878.0,357.4 870.9,361.7 872.9,353.7 866.6,348.3 874.8,347.6" fill="#6DBE45" stroke="#3F8A24" stroke-width="1.5"/>
+<circle cx="1132" cy="224" r="54" fill="#E0E4F2" stroke="#8A7CA8" stroke-width="2"/>
+<polygon points="1132.0,184.0 1136.0,193.5 1146.3,194.4 1138.4,201.1 1140.8,211.1 1132.0,205.8 1123.2,211.1 1125.6,201.1 1117.7,194.4 1128.0,193.5" fill="#E8842C" stroke="#B55A12" stroke-width="1.5"/>
+<circle cx="1104" cy="242" r="9" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="1160" cy="242" r="9" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="middle" x="1104" y="270"><tspan font-size="13">(1)</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="middle" x="1160" y="270"><tspan font-size="13">(2)</tspan></text>
+<line x1="1108" y1="233" x2="1124" y2="212" stroke="#333" stroke-width="2.5" marker-end="url(#mDark)"/>
+<line x1="1156" y1="233" x2="1140" y2="212" stroke="#333" stroke-width="2.5" marker-end="url(#mDark)"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="middle" font-weight="bold" font-style="italic" x="1088" y="216"><tspan font-size="16">w</tspan><tspan font-size="11" y="221">1</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="middle" font-weight="bold" font-style="italic" x="1176" y="216"><tspan font-size="16">w</tspan><tspan font-size="11" y="221">2</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="start" font-weight="bold" x="1230" y="170"><tspan font-size="20">Each </tspan><tspan font-size="22" y="None">φ</tspan><tspan font-size="13" y="176">(1, 1)</tspan><tspan font-size="20" y="170"> Anchor</tspan></text>
+<path d="M1254 182 C 1240 184, 1242 210, 1242 224 C 1242 230, 1236 232, 1230 233 C 1236 234, 1242 236, 1242 242 C 1242 258, 1240 284, 1254 286" fill="none" stroke="#333" stroke-width="2.5"/>
+<circle cx="1216" cy="233" r="9" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<rect x="1272" y="178" width="80" height="30" fill="#D9C9A3" stroke="#A89060" stroke-width="1.8" rx="4"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#4A3A1E" text-anchor="middle" font-weight="bold" font-style="italic" x="1300" y="199"><tspan font-size="18">h</tspan><tspan font-size="9" y="201">φ(1,1)</tspan></text>
+<rect x="1272" y="216" width="130" height="32" fill="#D9C9A3" stroke="#A89060" stroke-width="1.8" rx="4"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#4A3A1E" text-anchor="middle" font-weight="bold" x="1320" y="238"><tspan font-size="17">(Δk, Δv)</tspan><tspan font-size="9" y="226">φ(1,1)</tspan><tspan font-size="11" y="244">(1)</tspan></text>
+<rect x="1272" y="254" width="130" height="32" fill="#D9C9A3" stroke="#A89060" stroke-width="1.8" rx="4"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#4A3A1E" text-anchor="middle" font-weight="bold" x="1320" y="276"><tspan font-size="17">(Δk, Δv)</tspan><tspan font-size="9" y="264">P(1,1)</tspan><tspan font-size="11" y="282">(2)</tspan></text>
+<rect x="1050" y="302" width="84" height="206" fill="none" stroke="#C7702E" stroke-width="2" stroke-dasharray="7 5"/>
+<rect x="1058" y="314" width="70" height="30" fill="#F0A55C" stroke="#C7702E" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#4A2A08" x="1067.0" y="332.9"><tspan font-size="19" font-style="italic">φ</tspan><tspan font-size="12" dy="4.6">(1, 1)</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="middle" x="1146" y="336"><tspan font-size="22">=</tspan></text>
+<rect x="1162" y="314" width="60" height="30" fill="url(#hatch)" stroke="#C7702E" stroke-width="1.8" rx="3"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#4A3A1E" text-anchor="middle" font-weight="bold" font-style="italic" x="1184" y="335"><tspan font-size="17">φ</tspan><tspan font-size="9" y="337">(1,1)</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="start" font-weight="bold" x="1226" y="336"><tspan font-size="17">+ w</tspan><tspan font-size="11" y="341">1</tspan></text>
+<rect x="1262" y="311" width="136" height="35" fill="#D9C9A3" stroke="#A89060" stroke-width="1.8" rx="4"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#4A3A1E" text-anchor="middle" font-weight="bold" x="1318.0" y="334.5"><tspan font-size="17">(Δk, Δv)</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#4A3A1E" x="1358" y="324" font-size="11">φ<tspan font-size="8" dy="2">(1,1)</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#4A3A1E" x="1371" y="340" font-size="11" text-anchor="middle">(1)</text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="start" font-weight="bold" x="1226" y="379"><tspan font-size="17">+ w</tspan><tspan font-size="11" y="384">2</tspan></text>
+<rect x="1262" y="354" width="136" height="35" fill="#D9C9A3" stroke="#A89060" stroke-width="1.8" rx="4"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#4A3A1E" text-anchor="middle" font-weight="bold" x="1318.0" y="377.5"><tspan font-size="17">(Δk, Δv)</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#4A3A1E" x="1358" y="367" font-size="11">φ<tspan font-size="8" dy="2">(1,1)</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#4A3A1E" x="1371" y="383" font-size="11" text-anchor="middle">(2)</text>
+<rect x="1058" y="398" width="70" height="30" fill="#3D5A80" stroke="#22354D" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#FFFFFF" x="1066.0" y="416.9"><tspan font-size="19">P</tspan><tspan font-size="12" dy="4.6">(1, 1)</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="middle" x="1146" y="420"><tspan font-size="22">=</tspan></text>
+<rect x="1162" y="398" width="60" height="30" fill="#3D5A80" stroke="#22354D" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#FFFFFF" x="1172.2" y="416.9"><tspan font-size="16">P</tspan><tspan font-size="10" dy="3.8">(1,1)</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="start" font-weight="bold" x="1226" y="420"><tspan font-size="17">+ w</tspan><tspan font-size="11" y="425">1</tspan></text>
+<rect x="1262" y="395" width="136" height="35" fill="#D9C9A3" stroke="#A89060" stroke-width="1.8" rx="4"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#4A3A1E" text-anchor="middle" font-weight="bold" x="1318.0" y="418.5"><tspan font-size="17">(Δk, Δv)</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#4A3A1E" x="1358" y="408" font-size="11">P<tspan font-size="8" dy="2">(1,1)</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#4A3A1E" x="1371" y="424" font-size="11" text-anchor="middle">(1)</text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="start" font-weight="bold" x="1226" y="463"><tspan font-size="17">+ w</tspan><tspan font-size="11" y="468">2</tspan></text>
+<rect x="1262" y="438" width="136" height="35" fill="#D9C9A3" stroke="#A89060" stroke-width="1.8" rx="4"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#4A3A1E" text-anchor="middle" font-weight="bold" x="1318.0" y="461.5"><tspan font-size="17">(Δk, Δv)</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#4A3A1E" x="1358" y="451" font-size="11">P<tspan font-size="8" dy="2">(1,1)</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#4A3A1E" x="1371" y="467" font-size="11" text-anchor="middle">(2)</text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="middle" font-weight="bold" x="1092" y="500"><tspan font-size="22">...</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="middle" font-weight="bold" x="998" y="306"><tspan font-size="20">...</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="middle" font-weight="bold" x="1037" y="246"><tspan font-size="18">Hit</tspan></text>
+<line x1="978" y1="264" x2="1068" y2="264" stroke="#E08A3C" stroke-width="8" marker-end="url(#mOrange)"/>
+<rect x="1490" y="128" width="182" height="175" fill="#FFFFFF" stroke="#8A7CA8" stroke-width="2" rx="4"/>
+<path d="M1490 146 Q1490 128 1508 128 H1654 Q1672 128 1672 146 V162 H1490 Z" fill="#F2EFF4" stroke="#8A7CA8" stroke-width="2"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="middle" font-weight="bold" x="1581" y="151"><tspan font-size="17">h</tspan><tspan font-size="11" y="155">φ</tspan><tspan font-size="16" y="151"> Unmatched</tspan></text>
+<circle cx="1512" cy="188" r="7" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="1550" cy="180" r="7" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="1598" cy="186" r="7" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="1640" cy="192" r="7" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="1518" cy="248" r="7" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="1646" cy="244" r="7" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="1608" cy="280" r="7" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="1530" cy="282" r="7" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="1581" cy="232" r="27" fill="#CFE0F5" stroke="#93B2D8" stroke-width="1.5"/>
+<polygon points="1581.0,220.0 1584.2,227.6 1592.4,228.3 1586.1,233.7 1588.1,241.7 1581.0,237.4 1573.9,241.7 1575.9,233.7 1569.6,228.3 1577.8,227.6" fill="#E8842C" stroke="#B55A12" stroke-width="1.5"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="middle" font-weight="bold" font-style="italic" x="1581" y="326"><tspan font-size="18">OR</tspan></text>
+<rect x="1490" y="336" width="182" height="176" fill="#FFFFFF" stroke="#8A7CA8" stroke-width="2" rx="4"/>
+<path d="M1490 354 Q1490 336 1508 336 H1654 Q1672 336 1672 354 V370 H1490 Z" fill="#F2EFF4" stroke="#8A7CA8" stroke-width="2"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="middle" font-weight="bold" x="1581" y="359"><tspan font-size="15">Length Uncover</tspan></text>
+<rect x="1508" y="386" width="78" height="12" fill="#CDB389" rx="6"/>
+<rect x="1508" y="410" width="94" height="12" fill="#CDB389" rx="6"/>
+<rect x="1508" y="434" width="94" height="12" fill="#CDB389" rx="6"/>
+<rect x="1508" y="462" width="94" height="12" fill="#F0A55C" rx="6"/>
+<circle cx="1581" cy="512" r="12" fill="#E14B2A" stroke="#A83218" stroke-width="1.5"/>
+<line x1="1574.4" y1="512" x2="1587.6" y2="512" stroke="white" stroke-width="3.5"/>
+<line x1="1581" y1="505.4" x2="1581" y2="518.6" stroke="white" stroke-width="3.5"/>
+<rect x="1680" y="128" width="182" height="175" fill="#FFFFFF" stroke="#8A7CA8" stroke-width="2" rx="4"/>
+<path d="M1680 146 Q1680 128 1698 128 H1844 Q1862 128 1862 146 V162 H1680 Z" fill="#F2EFF4" stroke="#8A7CA8" stroke-width="2"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="middle" font-weight="bold" x="1771" y="151"><tspan font-size="17">h</tspan><tspan font-size="11" y="155">φ</tspan><tspan font-size="16" y="151"> Matched</tspan></text>
+<circle cx="1702" cy="188" r="7" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="1740" cy="180" r="7" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="1788" cy="186" r="7" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="1830" cy="192" r="7" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="1708" cy="248" r="7" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="1836" cy="244" r="7" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="1798" cy="280" r="7" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="1720" cy="282" r="7" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<circle cx="1771" cy="232" r="27" fill="#CFE0F5" stroke="#93B2D8" stroke-width="1.5"/>
+<polygon points="1771.0,220.0 1774.2,227.6 1782.4,228.3 1776.1,233.7 1778.1,241.7 1771.0,237.4 1763.9,241.7 1765.9,233.7 1759.6,228.3 1767.8,227.6" fill="#E8842C" stroke="#B55A12" stroke-width="1.5"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="middle" font-weight="bold" font-style="italic" x="1771" y="326"><tspan font-size="18">AND</tspan></text>
+<rect x="1680" y="336" width="182" height="176" fill="#FFFFFF" stroke="#8A7CA8" stroke-width="2" rx="4"/>
+<path d="M1680 354 Q1680 336 1698 336 H1844 Q1862 336 1862 354 V370 H1680 Z" fill="#F2EFF4" stroke="#8A7CA8" stroke-width="2"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="middle" font-weight="bold" x="1771" y="359"><tspan font-size="15">Length Covered</tspan></text>
+<rect x="1698" y="386" width="94" height="12" fill="#CDB389" rx="6"/>
+<rect x="1698" y="410" width="76" height="12" fill="#CDB389" rx="6"/>
+<rect x="1698" y="434" width="94" height="12" fill="#CDB389" rx="6"/>
+<rect x="1698" y="462" width="76" height="12" fill="#F0A55C" rx="6"/>
+<circle cx="1771" cy="512" r="12" fill="#3FA33F" stroke="#2C7A2C" stroke-width="1.5"/>
+<path d="M1765.6,512.6 L1769.8,516.8 L1777.0,507.8" fill="none" stroke="white" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="18" y="14" width="469" height="488" fill="#FFFFFF" stroke="#4A76A5" stroke-width="2.5" rx="10"/>
+<path d="M18,78 V26 Q18,14 30,14 H475 Q487,14 487,26 V78 Z" fill="#7FA8D0" stroke="#4A76A5" stroke-width="2.5"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#1F3B63" text-anchor="middle" font-weight="bold" x="252" y="57"><tspan font-size="30">Agent 1</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#1F4E79" text-anchor="start" font-weight="bold" x="32" y="106"><tspan font-size="19">Prefix KV</tspan></text>
+<rect x="32" y="118" width="84" height="30" fill="#5B84B1" stroke="#2E5478" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#FFFFFF" x="47.0" y="136.9"><tspan font-size="19">P</tspan><tspan font-size="12" dy="4.6">(1, 0)</tspan></text>
+<rect x="124" y="118" width="84" height="30" fill="#5B84B1" stroke="#2E5478" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#FFFFFF" x="139.0" y="136.9"><tspan font-size="19">P</tspan><tspan font-size="12" dy="4.6">(1, 1)</tspan></text>
+<rect x="216" y="118" width="84" height="30" fill="#5B84B1" stroke="#2E5478" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#FFFFFF" x="231.0" y="136.9"><tspan font-size="19">P</tspan><tspan font-size="12" dy="4.6">(1, 2)</tspan></text>
+<rect x="308" y="118" width="84" height="30" fill="#5B84B1" stroke="#2E5478" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#FFFFFF" x="323.0" y="136.9"><tspan font-size="19">P</tspan><tspan font-size="12" dy="4.6">(1, 3)</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#1F4E79" text-anchor="start" font-weight="bold" x="32" y="179"><tspan font-size="19">Placeholder KV</tspan></text>
+<rect x="32" y="190" width="84" height="30" fill="#E3D3B3" stroke="#B39B6B" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#6B5426" x="47.9" y="208.9"><tspan font-size="19" font-style="italic">φ</tspan><tspan font-size="12" dy="4.6">(1, 1)</tspan></text>
+<rect x="124" y="190" width="84" height="30" fill="#E3D3B3" stroke="#B39B6B" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#6B5426" x="139.9" y="208.9"><tspan font-size="19" font-style="italic">φ</tspan><tspan font-size="12" dy="4.6">(1, 2)</tspan></text>
+<rect x="216" y="190" width="84" height="30" fill="#E3D3B3" stroke="#B39B6B" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#6B5426" x="231.9" y="208.9"><tspan font-size="19" font-style="italic">φ</tspan><tspan font-size="12" dy="4.6">(1, 3)</tspan></text>
+<rect x="18" y="222" width="469" height="46" fill="#D8CFE2"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="middle" font-weight="bold" x="245" y="252"><tspan font-size="21">All placeholders</tspan></text>
+<circle cx="357" cy="245" r="12" fill="#3FA33F" stroke="#2C7A2C" stroke-width="1.5"/>
+<path d="M351.6,245.6 L355.8,249.8 L363.0,240.8" fill="none" stroke="white" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="start" font-weight="bold" x="372" y="252"><tspan font-size="21">?</tspan></text>
+<rect x="18" y="268" width="469" height="36" fill="#EDF1F7"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="middle" font-weight="bold" x="101" y="292"><tspan font-size="20">No</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="middle" font-weight="bold" x="336" y="292"><tspan font-size="20">Yes</tspan></text>
+<line x1="185" y1="268" x2="185" y2="502" stroke="#9AA7B8" stroke-width="1.5"/>
+<rect x="18" y="304" width="167" height="198" fill="#B7D3EC"/>
+<rect x="185" y="304" width="302" height="198" fill="#FBEEDC" stroke="#E08A3C" stroke-width="2"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#1F3B63" text-anchor="middle" font-weight="bold" x="101" y="355"><tspan font-size="19">Dense</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#1F3B63" text-anchor="middle" font-weight="bold" x="101" y="380"><tspan font-size="19">Prefilling</tspan></text>
+<circle cx="101" cy="404" r="12" fill="#E14B2A" stroke="#A83218" stroke-width="1.5"/>
+<line x1="94.4" y1="404" x2="107.6" y2="404" stroke="white" stroke-width="3.5"/>
+<line x1="101" y1="397.4" x2="101" y2="410.6" stroke="white" stroke-width="3.5"/>
+<line x1="30" y1="428" x2="173" y2="428" stroke="#7A9CC6" stroke-width="2" stroke-dasharray="7 5"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#1F3B63" text-anchor="middle" font-weight="bold" x="101" y="458"><tspan font-size="19">Decoding</tspan></text>
+<circle cx="101" cy="486" r="12" fill="#E14B2A" stroke="#A83218" stroke-width="1.5"/>
+<line x1="94.4" y1="486" x2="107.6" y2="486" stroke="white" stroke-width="3.5"/>
+<line x1="101" y1="479.4" x2="101" y2="492.6" stroke="white" stroke-width="3.5"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#2E5E8C" text-anchor="middle" font-weight="bold" x="336" y="328"><tspan font-size="19">Cache Update</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="start" font-weight="bold" x="205" y="362"><tspan font-size="16">PH</tspan></text>
+<rect x="232" y="344" width="60" height="27" fill="#E3D3B3" stroke="#B39B6B" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#6B5426" x="240.2" y="361.0"><tspan font-size="16" font-style="italic">φ</tspan><tspan font-size="10" dy="3.8">(1, 1)</tspan></text>
+<rect x="298" y="344" width="60" height="27" fill="#E4F2DC" stroke="#4C9A4C" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#2F5D2F" x="306.2" y="361.0"><tspan font-size="16" font-style="italic">φ</tspan><tspan font-size="10" dy="3.8">(1, 2)</tspan></text>
+<rect x="364" y="344" width="60" height="27" fill="#E4F2DC" stroke="#4C9A4C" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#2F5D2F" x="372.2" y="361.0"><tspan font-size="16" font-style="italic">φ</tspan><tspan font-size="10" dy="3.8">(1, 3)</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="start" font-weight="bold" x="205" y="400"><tspan font-size="16">PF</tspan></text>
+<rect x="232" y="382" width="60" height="27" fill="#5B84B1" stroke="#2E5478" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#FFFFFF" x="239.4" y="399.0"><tspan font-size="16">P</tspan><tspan font-size="10" dy="3.8">(1, 1)</tspan></text>
+<rect x="298" y="382" width="60" height="27" fill="#5B84B1" stroke="#2E5478" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#FFFFFF" x="305.4" y="399.0"><tspan font-size="16">P</tspan><tspan font-size="10" dy="3.8">(1, 2)</tspan></text>
+<rect x="364" y="382" width="60" height="27" fill="#5B84B1" stroke="#2E5478" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#FFFFFF" x="371.4" y="399.0"><tspan font-size="16">P</tspan><tspan font-size="10" dy="3.8">(1, 3)</tspan></text>
+<line x1="197" y1="426" x2="475" y2="426" stroke="#E08A3C" stroke-width="2" stroke-dasharray="7 5"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#2E5E8C" text-anchor="middle" font-weight="bold" x="336" y="452"><tspan font-size="19">Response Cache</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="start" font-weight="bold" x="238" y="489"><tspan font-size="16">[PH, PF]</tspan></text>
+<line x1="300" y1="484" x2="340" y2="484" stroke="#5FA054" stroke-width="4" marker-end="url(#mGreen)"/>
+<rect x="348" y="470" width="100" height="26" fill="#9BCB87" stroke="#4C9A4C" stroke-width="1.8" rx="4"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#FFFFFF" text-anchor="middle" font-weight="bold" x="398" y="488"><tspan font-size="15">Response</tspan></text>
+<rect x="18" y="580" width="469" height="300" fill="#FFFFFF" stroke="#4A76A5" stroke-width="2.5" rx="10"/>
+<path d="M18,642 V592 Q18,580 30,580 H475 Q487,580 487,592 V642 Z" fill="#7FA8D0" stroke="#4A76A5" stroke-width="2.5"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#1F3B63" text-anchor="middle" font-weight="bold" x="252" y="621"><tspan font-size="28">Agent 2</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#1F4E79" text-anchor="start" font-weight="bold" x="32" y="672"><tspan font-size="19">Prefix KV</tspan></text>
+<rect x="32" y="684" width="82" height="30" fill="#5B84B1" stroke="#2E5478" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#FFFFFF" x="46.0" y="702.9"><tspan font-size="19">P</tspan><tspan font-size="12" dy="4.6">(2, 0)</tspan></text>
+<rect x="120" y="684" width="82" height="30" fill="#5B84B1" stroke="#2E5478" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#FFFFFF" x="134.0" y="702.9"><tspan font-size="19">P</tspan><tspan font-size="12" dy="4.6">(2, 1)</tspan></text>
+<rect x="208" y="684" width="82" height="30" fill="#5B84B1" stroke="#2E5478" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#FFFFFF" x="222.0" y="702.9"><tspan font-size="19">P</tspan><tspan font-size="12" dy="4.6">(2, 2)</tspan></text>
+<rect x="296" y="684" width="82" height="30" fill="#5B84B1" stroke="#2E5478" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#FFFFFF" x="310.0" y="702.9"><tspan font-size="19">P</tspan><tspan font-size="12" dy="4.6">(2, 3)</tspan></text>
+<rect x="384" y="684" width="82" height="30" fill="#5B84B1" stroke="#2E5478" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#FFFFFF" x="398.0" y="702.9"><tspan font-size="19">P</tspan><tspan font-size="12" dy="4.6">(2, 4)</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#1F4E79" text-anchor="start" font-weight="bold" x="32" y="744"><tspan font-size="19">Placeholder KV</tspan></text>
+<rect x="32" y="756" width="82" height="30" fill="#E3D3B3" stroke="#B39B6B" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#6B5426" x="46.9" y="774.9"><tspan font-size="19" font-style="italic">φ</tspan><tspan font-size="12" dy="4.6">(2, 1)</tspan></text>
+<rect x="120" y="756" width="82" height="30" fill="#E3D3B3" stroke="#B39B6B" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#6B5426" x="134.9" y="774.9"><tspan font-size="19" font-style="italic">φ</tspan><tspan font-size="12" dy="4.6">(2, 2)</tspan></text>
+<rect x="208" y="756" width="82" height="30" fill="#E3D3B3" stroke="#B39B6B" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#6B5426" x="222.9" y="774.9"><tspan font-size="19" font-style="italic">φ</tspan><tspan font-size="12" dy="4.6">(2, 3)</tspan></text>
+<rect x="296" y="756" width="82" height="30" fill="#E3D3B3" stroke="#B39B6B" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#6B5426" x="310.9" y="774.9"><tspan font-size="19" font-style="italic">φ</tspan><tspan font-size="12" dy="4.6">(2, 4)</tspan></text>
+<rect x="18" y="796" width="469" height="42" fill="#D8CFE2"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="middle" font-weight="bold" x="245" y="823"><tspan font-size="20">All placeholders</tspan></text>
+<circle cx="357" cy="817" r="11" fill="#3FA33F" stroke="#2C7A2C" stroke-width="1.5"/>
+<path d="M352.1,817.5 L355.9,821.4 L362.5,813.1" fill="none" stroke="white" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="start" font-weight="bold" x="371" y="823"><tspan font-size="20">?</tspan></text>
+<rect x="18" y="838" width="234" height="42" fill="#B7D3EC"/>
+<rect x="252" y="838" width="235" height="42" fill="#FBEEDC" stroke="#E08A3C" stroke-width="2"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#1F3B63" text-anchor="middle" font-weight="bold" x="118" y="865"><tspan font-size="18">(N) Dense</tspan></text>
+<circle cx="192" cy="859" r="10" fill="#E14B2A" stroke="#A83218" stroke-width="1.5"/>
+<line x1="186.5" y1="859" x2="197.5" y2="859" stroke="white" stroke-width="3.5"/>
+<line x1="192" y1="853.5" x2="192" y2="864.5" stroke="white" stroke-width="3.5"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#C05A1A" text-anchor="middle" font-weight="bold" x="370" y="865"><tspan font-size="18">(Y) Sharing</tspan></text>
+<rect x="578" y="580" width="467" height="300" fill="#FFFFFF" stroke="#4A76A5" stroke-width="2.5" rx="10"/>
+<path d="M578,642 V592 Q578,580 590,580 H1033 Q1045,580 1045,592 V642 Z" fill="#7FA8D0" stroke="#4A76A5" stroke-width="2.5"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#1F3B63" text-anchor="middle" font-weight="bold" x="811" y="621"><tspan font-size="28">Agent 3</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#1F4E79" text-anchor="start" font-weight="bold" x="592" y="672"><tspan font-size="19">Prefix KV</tspan></text>
+<rect x="592" y="684" width="82" height="30" fill="#5B84B1" stroke="#2E5478" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#FFFFFF" x="606.0" y="702.9"><tspan font-size="19">P</tspan><tspan font-size="12" dy="4.6">(3, 0)</tspan></text>
+<rect x="680" y="684" width="82" height="30" fill="#5B84B1" stroke="#2E5478" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#FFFFFF" x="694.0" y="702.9"><tspan font-size="19">P</tspan><tspan font-size="12" dy="4.6">(3, 1)</tspan></text>
+<rect x="768" y="684" width="82" height="30" fill="#5B84B1" stroke="#2E5478" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#FFFFFF" x="782.0" y="702.9"><tspan font-size="19">P</tspan><tspan font-size="12" dy="4.6">(3, 2)</tspan></text>
+<rect x="856" y="684" width="82" height="30" fill="#5B84B1" stroke="#2E5478" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#FFFFFF" x="870.0" y="702.9"><tspan font-size="19">P</tspan><tspan font-size="12" dy="4.6">(3, 3)</tspan></text>
+<rect x="944" y="684" width="82" height="30" fill="#5B84B1" stroke="#2E5478" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#FFFFFF" x="958.0" y="702.9"><tspan font-size="19">P</tspan><tspan font-size="12" dy="4.6">(3, 4)</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#1F4E79" text-anchor="start" font-weight="bold" x="592" y="744"><tspan font-size="19">Placeholder KV</tspan></text>
+<rect x="592" y="756" width="82" height="30" fill="#E3D3B3" stroke="#B39B6B" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#6B5426" x="607.0" y="774.9"><tspan font-size="19" font-style="italic">φ</tspan><tspan font-size="12" dy="4.6">(3, 1)</tspan></text>
+<rect x="680" y="756" width="82" height="30" fill="#E3D3B3" stroke="#B39B6B" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#6B5426" x="695.0" y="774.9"><tspan font-size="19" font-style="italic">φ</tspan><tspan font-size="12" dy="4.6">(3, 2)</tspan></text>
+<rect x="768" y="756" width="82" height="30" fill="#E3D3B3" stroke="#B39B6B" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#6B5426" x="783.0" y="774.9"><tspan font-size="19" font-style="italic">φ</tspan><tspan font-size="12" dy="4.6">(3, 3)</tspan></text>
+<rect x="856" y="756" width="82" height="30" fill="#E3D3B3" stroke="#B39B6B" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#6B5426" x="871.0" y="774.9"><tspan font-size="19" font-style="italic">φ</tspan><tspan font-size="12" dy="4.6">(3, 4)</tspan></text>
+<rect x="578" y="796" width="467" height="42" fill="#D8CFE2"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="middle" font-weight="bold" x="804" y="823"><tspan font-size="20">All placeholders</tspan></text>
+<circle cx="920" cy="817" r="11" fill="#3FA33F" stroke="#2C7A2C" stroke-width="1.5"/>
+<path d="M915.0,817.5 L918.9,821.4 L925.5,813.1" fill="none" stroke="white" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="start" font-weight="bold" x="934" y="823"><tspan font-size="20">?</tspan></text>
+<rect x="578" y="838" width="233" height="42" fill="#FBEEDC" stroke="#E08A3C" stroke-width="2"/>
+<rect x="811" y="838" width="234" height="42" fill="#B7D3EC"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#C05A1A" text-anchor="middle" font-weight="bold" x="694" y="865"><tspan font-size="18">(Y) Sharing</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#1F3B63" text-anchor="middle" font-weight="bold" x="886" y="865"><tspan font-size="18">(N) Dense</tspan></text>
+<circle cx="952" cy="859" r="10" fill="#E14B2A" stroke="#A83218" stroke-width="1.5"/>
+<line x1="946.5" y1="859" x2="957.5" y2="859" stroke="white" stroke-width="3.5"/>
+<line x1="952" y1="853.5" x2="952" y2="864.5" stroke="white" stroke-width="3.5"/>
+<rect x="0" y="548" width="548" height="34" fill="#CBDDF2" stroke="#4A76A5" stroke-width="2"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#1F3B63" text-anchor="start" font-weight="bold" x="10" y="572"><tspan font-size="20">Anchor Prediction of Response KV</tspan></text>
+<rect x="396" y="502" width="13" height="46" fill="#5FA054"/>
+<line x1="409" y1="536" x2="574" y2="536" stroke="#5FA054" stroke-width="9" marker-end="url(#mGreen)"/>
+<line x1="487" y1="270" x2="574" y2="270" stroke="#8A7CA8" stroke-width="9" marker-end="url(#mPurple)"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="middle" font-weight="bold" x="533" y="254"><tspan font-size="19">Query</tspan></text>
+<line x1="578" y1="348" x2="494" y2="348" stroke="#E08A3C" stroke-width="8" marker-end="url(#mOrange)"/>
+<line x1="532" y1="348" x2="532" y2="858" stroke="#E08A3C" stroke-width="7"/>
+<line x1="532" y1="858" x2="574" y2="858" stroke="#E08A3C" stroke-width="7" marker-end="url(#mOrange)"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="middle" font-weight="bold" x="556" y="895"><tspan font-size="19">Reuse</tspan></text>
+<rect x="1090" y="573" width="515" height="190" fill="#CBDDF2" stroke="#5F7FA6" stroke-width="2" stroke-dasharray="8 5"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#1F3B63" text-anchor="start" font-style="italic" x="1104" y="604"><tspan font-size="17">You are a math expert. You will be given a math</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#1F3B63" text-anchor="start" font-style="italic" x="1104" y="634"><tspan font-size="17">problem ...Q:</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#1F3B63" text-anchor="start" font-style="italic" x="1104" y="662"><tspan font-size="17">Answers from other agents are:</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#1F3B63" text-anchor="start" font-style="italic" x="1104" y="692"><tspan font-size="17">Agent 2 as a mathematical analyst:</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#1F3B63" text-anchor="start" font-style="italic" x="1104" y="722"><tspan font-size="17">The execution result is:</tspan></text>
+<rect x="1222" y="616" width="66" height="26" fill="#E3D3B3" stroke="#B39B6B" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#6B5426" x="1232.9" y="632.4"><tspan font-size="17" font-style="italic">φ</tspan><tspan font-size="10" dy="3.8">(1, 1)</tspan></text>
+<rect x="1336" y="616" width="56" height="26" fill="#5B84B1" stroke="#2E5478" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#FFFFFF" x="1341.1" y="632.4"><tspan font-size="17">P</tspan><tspan font-size="10" dy="3.8">(0, 0)</tspan></text>
+<rect x="1470" y="626" width="66" height="26" fill="#5B84B1" stroke="#2E5478" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#FFFFFF" x="1480.1" y="642.4"><tspan font-size="17">P</tspan><tspan font-size="10" dy="3.8">(1, 1)</tspan></text>
+<rect x="1440" y="672" width="62" height="26" fill="#E3D3B3" stroke="#B39B6B" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#6B5426" x="1448.9" y="688.4"><tspan font-size="17" font-style="italic">φ</tspan><tspan font-size="10" dy="3.8">(1, 2)</tspan></text>
+<rect x="1298" y="704" width="66" height="26" fill="#E3D3B3" stroke="#B39B6B" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#6B5426" x="1308.9" y="720.4"><tspan font-size="17" font-style="italic">φ</tspan><tspan font-size="10" dy="3.8">(1, 3)</tspan></text>
+<rect x="1172" y="742" width="62" height="26" fill="#5B84B1" stroke="#2E5478" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#FFFFFF" x="1180.1" y="758.4"><tspan font-size="17">P</tspan><tspan font-size="10" dy="3.8">(1, 2)</tspan></text>
+<rect x="1352" y="742" width="66" height="26" fill="#5B84B1" stroke="#2E5478" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#FFFFFF" x="1362.1" y="758.4"><tspan font-size="17">P</tspan><tspan font-size="10" dy="3.8">(1, 3)</tspan></text>
+<line x1="1394" y1="632" x2="1466" y2="638" stroke="#2E5478" stroke-width="3" marker-end="url(#mBlue)"/>
+<line x1="1472" y1="670" x2="1490" y2="658" stroke="#2E5478" stroke-width="2.5" marker-end="url(#mBlue)"/>
+<line x1="1302" y1="730" x2="1240" y2="746" stroke="#2E5478" stroke-width="2.5" marker-end="url(#mBlue)"/>
+<line x1="1360" y1="730" x2="1376" y2="740" stroke="#2E5478" stroke-width="2.5" marker-end="url(#mBlue)"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#1F3B63" text-anchor="start" font-weight="bold" x="1512" y="752"><tspan font-size="22">Example</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="middle" font-weight="bold" x="1741" y="622"><tspan font-size="30">Legend</tspan></text>
+<polygon points="1624.0,653.0 1626.9,660.0 1634.5,660.6 1628.7,665.5 1630.5,672.9 1624.0,669.0 1617.5,672.9 1619.3,665.5 1613.5,660.6 1621.1,660.0" fill="#E8842C" stroke="#B55A12" stroke-width="1.5"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="start" x="1650" y="660"><tspan font-size="15">Queried (external input)</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="start" x="1650" y="680"><tspan font-size="15">Placeholder</tspan></text>
+<polygon points="1624.0,693.0 1626.9,700.0 1634.5,700.6 1628.7,705.5 1630.5,712.9 1624.0,709.0 1617.5,712.9 1619.3,705.5 1613.5,700.6 1621.1,700.0" fill="#6DBE45" stroke="#3F8A24" stroke-width="1.5"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="start" x="1650" y="700"><tspan font-size="15">Queried (response)</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="start" x="1650" y="720"><tspan font-size="15">Placeholder</tspan></text>
+<circle cx="1624" cy="750" r="8" fill="#C9B18A" stroke="#A58C60" stroke-width="1"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="start" x="1650" y="746"><tspan font-size="15">KV Anchor of the</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="start" x="1650" y="766"><tspan font-size="15">Placeholder</tspan></text>
+<circle cx="1624" cy="792" r="11" fill="#CFE0F5" stroke="#93B2D8" stroke-width="1.5"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="start" x="1650" y="797"><tspan font-size="15">Anchor Hit Range</tspan></text>
+<circle cx="1624" cy="832" r="11" fill="#E14B2A" stroke="#A83218" stroke-width="1.5"/>
+<line x1="1618.0" y1="832" x2="1630.0" y2="832" stroke="white" stroke-width="3.5"/>
+<line x1="1624" y1="826.0" x2="1624" y2="838.0" stroke="white" stroke-width="3.5"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="start" x="1650" y="837"><tspan font-size="15">Add as a New Anchor</tspan></text>
+<circle cx="1624" cy="870" r="11" fill="#3FA33F" stroke="#2C7A2C" stroke-width="1.5"/>
+<path d="M1619.0,870.5 L1622.9,874.4 L1629.5,866.1" fill="none" stroke="white" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="start" x="1650" y="875"><tspan font-size="15">Sharable placeholder</tspan></text>
+<rect x="1108" y="770" width="78" height="30" fill="#F0A55C" stroke="#C7702E" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#4A2A08" x="1121.0" y="788.9"><tspan font-size="19" font-style="italic">φ</tspan><tspan font-size="12" dy="4.6">(m, i)</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="start" x="1200" y="784"><tspan font-size="15">Estimated KV of the i-th (external input)</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="start" x="1200" y="804"><tspan font-size="15">Placeholder of Agent m</tspan></text>
+<rect x="1108" y="820" width="78" height="30" fill="#9BCB87" stroke="#4C9A4C" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#2F5D2F" x="1121.0" y="838.9"><tspan font-size="19" font-style="italic">φ</tspan><tspan font-size="12" dy="4.6">(m, i)</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="start" x="1200" y="834"><tspan font-size="15">Estimated KV of the i-th (response)</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="start" x="1200" y="854"><tspan font-size="15">Placeholder of Agent m</tspan></text>
+<rect x="1108" y="870" width="78" height="30" fill="#3D5A80" stroke="#22354D" stroke-width="1.8" rx="3"/><text font-family="Arial, Helvetica, sans-serif" font-weight="bold" fill="#FFFFFF" x="1120.0" y="888.9"><tspan font-size="19">P</tspan><tspan font-size="12" dy="4.6">(m, i)</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="start" x="1200" y="884"><tspan font-size="15">Estimated KV of the i-th Prefix</tspan></text>
+<text font-family="Arial, Helvetica, sans-serif" fill="#222" text-anchor="start" x="1200" y="904"><tspan font-size="15">Segment of Agent m</tspan></text>
+</svg>
