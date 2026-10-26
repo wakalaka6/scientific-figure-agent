@@ -1,0 +1,217 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1890" height="872" viewBox="0 0 1890 872">
+<title>MLLM-based Tag Extraction, Collaborative Logic Reasoning and Tag Logic Integration</title>
+<desc>Editable vector reconstruction of the reference architecture diagram.</desc>
+<defs>
+<marker id="gray" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1 L10 6 L2 11" fill="none" stroke="#595959" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<marker id="green" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1 L10 6 L2 11" fill="none" stroke="#a5d48b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<marker id="orange" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1 L10 6 L2 11" fill="none" stroke="#ffac7c" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<marker id="pink" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1 L10 6 L2 11" fill="none" stroke="#ffb5b5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<marker id="blue" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1 L10 6 L2 11" fill="none" stroke="#99c5e9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<marker id="black" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 L3 5 Z" fill="black"/></marker>
+<symbol id="robot" viewBox="0 0 86 104">
+ <g fill="#000" stroke="#000" stroke-linejoin="round">
+ <path d="M42 15V7" stroke-width="5"/><circle cx="42" cy="6" r="5"/>
+ <rect x="26" y="16" width="32" height="26" rx="5" stroke="none"/>
+ <path d="M22 48H61V79H22Z" stroke="none"/>
+ <path d="M20 55H10V38M61 55H72V70" fill="none" stroke-width="5"/>
+ <path d="M6 29Q0 40 10 40Q20 40 14 29M67 79Q65 68 73 69Q82 69 79 80" fill="none" stroke-width="4.5"/>
+ <rect x="18" y="84" width="52" height="18" rx="9" stroke="none"/>
+ </g>
+ <g fill="white"><circle cx="36" cy="29" r="3.5"/><circle cx="48" cy="29" r="3.5"/><circle cx="29" cy="93" r="4"/><circle cx="44" cy="93" r="4"/><circle cx="59" cy="93" r="4"/></g>
+ <g fill="black"><circle cx="36" cy="29" r="1.5"/><circle cx="48" cy="29" r="1.5"/></g>
+ <path d="M28 64H33L37 56L40 72L45 59L49 66H57" fill="none" stroke="white" stroke-width="2.2"/>
+</symbol>
+<symbol id="person" viewBox="0 0 55 55"><circle cx="27" cy="15" r="12"/><path d="M5 49V37Q9 27 27 28Q44 28 50 37V49Z"/><path d="M15 15Q24 15 29 9Q34 12 39 14" fill="none" stroke="white" stroke-width="1.2"/></symbol>
+<symbol id="camera" viewBox="0 0 60 50"><path d="M5 11H20L24 5H38L42 11H56V44H5Z"/><path d="M10 16H18" stroke="white" stroke-width="3"/><circle cx="31" cy="28" r="11" fill="none" stroke="white" stroke-width="3"/><circle cx="31" cy="28" r="7" fill="none" stroke="white" stroke-width="1.5"/></symbol>
+<symbol id="movie" viewBox="0 0 65 50"><rect x="9" y="21" width="41" height="25" rx="2"/><path d="M49 30L63 22V46L49 38Z"/><circle cx="20" cy="16" r="13"/><circle cx="43" cy="13" r="12"/><g fill="white"><circle cx="20" cy="16" r="9"/><circle cx="43" cy="13" r="8"/></g><g><circle cx="20" cy="16" r="2"/><circle cx="20" cy="10" r="2"/><circle cx="20" cy="22" r="2"/><circle cx="14" cy="16" r="2"/><circle cx="26" cy="16" r="2"/><circle cx="43" cy="13" r="2"/><circle cx="43" cy="8" r="1.8"/><circle cx="43" cy="18" r="1.8"/><circle cx="38" cy="13" r="1.8"/><circle cx="48" cy="13" r="1.8"/></g><path d="M13 32H20V25" fill="none" stroke="white" stroke-width="3"/></symbol>
+<symbol id="game" viewBox="0 0 66 48"><path d="M18 5Q23 5 29 8H38Q44 4 49 6Q58 9 63 33Q66 49 55 44L43 34H25L13 44Q1 48 4 34Q9 9 18 5Z"/><path d="M20 16V28M14 22H26" stroke="white" stroke-width="3" stroke-linecap="round"/><g fill="white"><circle cx="47" cy="18" r="2.4"/><circle cx="52" cy="23" r="2.4"/><circle cx="42" cy="23" r="2.4"/><circle cx="47" cy="28" r="2.4"/></g></symbol>
+<symbol id="watch" viewBox="0 0 40 50"><path d="M15 2H27L30 12H12ZM12 37H30L27 48H15Z"/><circle cx="21" cy="25" r="15" fill="white" stroke="black" stroke-width="3"/><path d="M21 14V25L28 29" fill="none" stroke="black" stroke-width="2.5"/><path d="M5 11L1 19" stroke="black" stroke-width="2"/></symbol>
+</defs>
+<g font-family="Times New Roman, Liberation Serif, serif">
+<rect width="1890" height="872" fill="white"/>
+<rect x="10" y="20" width="634" height="781" rx="27" fill="white" stroke="#606060" stroke-width="4" stroke-dasharray="4 4"/>
+<rect x="675" y="20" width="579" height="781" rx="27" fill="white" stroke="#606060" stroke-width="4" stroke-dasharray="4 4"/>
+<rect x="1284" y="20" width="605" height="781" rx="27" fill="white" stroke="#606060" stroke-width="4" stroke-dasharray="4 4"/>
+<text x="109" y="58" font-size="29" font-weight="bold" text-anchor="middle" font-style="italic" fill="black" >Item<tspan baseline-shift="-22%" font-size="70%">i</tspan></text>
+<path d="M109 63V87" fill="none" stroke="#595959" stroke-width="3" marker-end="url(#gray)" />
+<rect x="23" y="94" width="170" height="80" rx="14" fill="#ebebeb" stroke="#595959" stroke-width="3.4" />
+<text x="108" y="128" font-size="28" font-weight="normal" text-anchor="middle" fill="black" >Raw</text>
+<text x="108" y="160" font-size="28" font-weight="normal" text-anchor="middle" fill="black" >Information</text>
+<path d="M194 134H235" fill="none" stroke="#595959" stroke-width="3.4" marker-end="url(#gray)" />
+<use href="#robot" x="232" y="67" width="79" height="98"/>
+<text x="273" y="198" font-size="29" font-weight="bold" text-anchor="middle" fill="black" >MLLM</text>
+<path d="M316 134H352" fill="none" stroke="#595959" stroke-width="3" marker-end="url(#gray)" />
+<path d="M331 133V40H566V58" fill="none" stroke="#595959" stroke-width="3" marker-end="url(#gray)" />
+<rect x="355" y="52" width="123" height="189" rx="0" fill="none" stroke="#595959" stroke-width="3" stroke-dasharray="3 3"/>
+<rect x="370" y="60" width="92" height="50" rx="10" fill="#d1dae5" stroke="#595959" stroke-width="3.2" stroke-dasharray="14 8"/>
+<text x="416" y="94" font-size="24" font-weight="bold" text-anchor="middle" fill="black" >ASR</text>
+<rect x="370" y="118" width="92" height="50" rx="10" fill="#e7e4f0" stroke="#595959" stroke-width="3.2" stroke-dasharray="14 8"/>
+<text x="416" y="152" font-size="24" font-weight="bold" text-anchor="middle" fill="black" >OCR</text>
+<rect x="370" y="178" width="92" height="50" rx="10" fill="#fff2cf" stroke="#595959" stroke-width="3.2" stroke-dasharray="14 8"/>
+<text x="416" y="212" font-size="24" font-weight="bold" text-anchor="middle" fill="black" >Text</text>
+<rect x="516" y="60" width="118" height="170" rx="20" fill="#f9ecf6" stroke="#595959" stroke-width="3.2" stroke-dasharray="14 8"/>
+<text x="575" y="139" font-size="25" font-weight="bold" text-anchor="middle" fill="black" >MLLM</text>
+<text x="575" y="169" font-size="25" font-weight="bold" text-anchor="middle" fill="black" >Emb <tspan font-style="italic">E<tspan baseline-shift="-22%" font-size="70%">i</tspan></tspan></text>
+<path d="M479 144H500V276H160V333" fill="none" stroke="#595959" stroke-width="3" marker-end="url(#gray)" stroke-dasharray="3 3" />
+<path d="M500 276V333" fill="none" stroke="#595959" stroke-width="3" marker-end="url(#gray)" stroke-dasharray="3 3" />
+<path d="M574 231V303H322V432" fill="none" stroke="#ffb5b5" stroke-width="3.5" marker-end="url(#pink)" />
+<rect x="23" y="338" width="277" height="89" rx="15" fill="#e2efd7" stroke="#56842f" stroke-width="3.2" />
+<text x="162" y="376" font-size="29" font-weight="bold" text-anchor="middle" fill="black" >ItemTag Extraction</text>
+<text x="186" y="409" font-size="29" font-weight="bold" text-anchor="middle" fill="black" >Prompt <tspan font-style="italic" font-weight="normal">X<tspan baseline-shift="super" font-size="70%">C</tspan><tspan dx="-13" baseline-shift="-22%" font-size="70%">i</tspan></tspan></text>
+<rect x="359" y="339" width="270" height="90" rx="16" fill="#f9e6d6" stroke="#c49300" stroke-width="3.2" />
+<text x="494" y="378" font-size="29" font-weight="bold" text-anchor="middle" fill="black" >UserTag Extraction</text>
+<text x="505" y="411" font-size="29" font-weight="bold" text-anchor="middle" fill="black" >Prompt <tspan font-style="italic" font-weight="normal">X<tspan baseline-shift="super" font-size="70%"><tspan font-family="Noto Sans Math" font-style="normal" font-weight="normal">𝒯</tspan></tspan><tspan dx="-14" baseline-shift="-22%" font-size="70%">i</tspan></tspan></text>
+<path d="M154 429V475H265" fill="none" stroke="#a5d48b" stroke-width="3.3" marker-end="url(#green)" />
+<path d="M489 430V472H375" fill="none" stroke="#ffac7c" stroke-width="3.3" marker-end="url(#orange)" />
+<path d="M260 491H151V539" fill="none" stroke="#a5d48b" stroke-width="3.3" marker-end="url(#green)" />
+<path d="M372 493H491V547" fill="none" stroke="#ffac7c" stroke-width="3.3" marker-end="url(#orange)" />
+<use href="#robot" x="282" y="444" width="80" height="99"/>
+<text x="322" y="575" font-size="29" font-weight="bold" text-anchor="middle" fill="black" >MLLM</text>
+<rect x="69" y="544" width="175" height="54" rx="9" fill="#e2efd7" stroke="#bfdfac" stroke-width="1.8" fill-opacity="0.88"/>
+<text x="156.5" y="579" font-size="24" font-weight="normal" text-anchor="middle" fill="black" >Live Music</text>
+<rect x="53" y="580" width="175" height="56" rx="9" fill="#c9dfb7" stroke="#a5d48b" stroke-width="1.8" fill-opacity="0.80"/>
+<rect x="41" y="606" width="167" height="57" rx="9" fill="#adcF94" stroke="#7da361" stroke-width="1.8" fill-opacity="0.88"/>
+<text x="125" y="629" font-size="24" font-weight="normal" text-anchor="middle" fill="black" >Instrument</text>
+<text x="125" y="658" font-size="24" font-weight="normal" text-anchor="middle" fill="black" >Shows</text>
+<text x="134" y="697" font-size="29" font-weight="bold" text-anchor="middle" fill="black" >ItemTag Set <tspan font-style="italic">C<tspan baseline-shift="super" font-size="70%">*</tspan></tspan></text>
+<rect x="413" y="553" width="176" height="58" rx="10" fill="#fcf0e7" stroke="#bf8e00" stroke-width="1.7" fill-opacity="0.8"/>
+<text x="501" y="576" font-size="24" font-weight="normal" text-anchor="middle" fill="black" >Folk Music</text>
+<text x="501" y="606" font-size="24" font-weight="normal" text-anchor="middle" fill="#c9a66f" opacity="0.23">Lover</text>
+<rect x="396" y="581" width="170" height="58" rx="11" fill="#f8e3cf" stroke="#bf8e00" stroke-width="1.8" fill-opacity="0.82"/>
+<rect x="384" y="605" width="168" height="57" rx="11" fill="#f7cbae" stroke="#bf8e00" stroke-width="1.8" fill-opacity="0.84"/>
+<text x="468" y="628" font-size="24" font-weight="normal" text-anchor="middle" fill="black" >Music</text>
+<text x="468" y="657" font-size="24" font-weight="normal" text-anchor="middle" fill="black" >Enthusiast</text>
+<text x="485" y="697" font-size="29" font-weight="bold" text-anchor="middle" fill="black" >UserTag Set <tspan font-style="italic" font-weight="normal"><tspan font-family="Noto Sans Math" font-style="normal" font-weight="normal">𝒯</tspan><tspan baseline-shift="super" font-size="70%">*</tspan></tspan></text>
+<path d="M115 709V766H862V732" fill="none" stroke="#a5d48b" stroke-width="3.3" marker-end="url(#green)" />
+<path d="M486 709V784H1087V733" fill="none" stroke="#ffac7c" stroke-width="3.3" marker-end="url(#orange)" />
+<rect x="738" y="36" width="479" height="378" rx="34" fill="#edf4f9" stroke="#595959" stroke-width="1.8" stroke-dasharray="8 6 2 6"/>
+<text x="756" y="72" font-size="29" font-weight="bold" text-anchor="start" font-style="italic" fill="black" >Logic Graph</text>
+<path d="M910 105H839V319H873" fill="none" stroke="#ffac7c" stroke-width="3.5" marker-end="url(#orange)" />
+<path d="M894 130H857V283H894" fill="none" stroke="#ffac7c" stroke-width="3.5" marker-end="url(#orange)" />
+<path d="M875 155H827V346H860" fill="none" stroke="#ffac7c" stroke-width="3.5" marker-end="url(#orange)" />
+<path d="M1068 282H1112V155H1044" fill="none" stroke="#a5d48b" stroke-width="3.5" marker-end="url(#green)" />
+<path d="M1047 319H1121V104H1088" fill="none" stroke="#a5d48b" stroke-width="3.5" marker-end="url(#green)" />
+<path d="M1029 346H1097V130H1066" fill="none" stroke="#a5d48b" stroke-width="3.5" marker-end="url(#green)" />
+<rect x="909" y="76" width="176" height="58" rx="10" fill="#fbe8d6" stroke="#c19000" stroke-width="1.8" fill-opacity="0.87"/>
+<text x="997" y="99" font-size="24" font-weight="normal" text-anchor="middle" fill="black" >Folk Music</text>
+<text x="998" y="128" font-size="24" font-weight="normal" text-anchor="middle" fill="#d4bc9e" opacity="0.25">Lover</text>
+<rect x="893" y="102" width="169" height="59" rx="11" fill="#f9e5d0" stroke="#c19000" stroke-width="1.8" fill-opacity="0.80"/>
+<rect x="874" y="126" width="167" height="59" rx="11" fill="#f7c9a9" stroke="#c19000" stroke-width="1.8" fill-opacity="0.85"/>
+<text x="958" y="149" font-size="24" font-weight="normal" text-anchor="middle" fill="black" >Music</text>
+<text x="958" y="178" font-size="24" font-weight="normal" text-anchor="middle" fill="black" >Enthusiast</text>
+<text x="975" y="213" font-size="29" font-weight="bold" text-anchor="middle" fill="black" >UserTag Set <tspan font-style="italic">C<tspan baseline-shift="super" font-size="70%">*</tspan></tspan></text>
+<rect x="897" y="256" width="173" height="53" rx="9" fill="#e2efd7" stroke="#bfdfac" stroke-width="1.8" fill-opacity="0.9"/>
+<text x="984" y="291" font-size="24" font-weight="normal" text-anchor="middle" fill="black" >Live Music</text>
+<rect x="875" y="292" width="175" height="56" rx="9" fill="#c9dfb7" stroke="#a5d48b" stroke-width="1.8" fill-opacity="0.8"/>
+<rect x="863" y="318" width="166" height="57" rx="9" fill="#aecf95" stroke="#7da361" stroke-width="1.8" fill-opacity="0.9"/>
+<text x="946" y="341" font-size="24" font-weight="normal" text-anchor="middle" fill="black" >Instrument</text>
+<text x="946" y="370" font-size="24" font-weight="normal" text-anchor="middle" fill="black" >Shows</text>
+<text x="967" y="406" font-size="29" font-weight="bold" text-anchor="middle" fill="black" >ItemTag Set <tspan font-style="italic" font-weight="normal"><tspan font-family="Noto Sans Math" font-style="normal" font-weight="normal">𝒯</tspan><tspan baseline-shift="super" font-size="70%">*</tspan></tspan></text>
+<text x="787" y="223" font-size="28" font-weight="normal" text-anchor="middle" font-style="italic" fill="#d65b00" >G<tspan baseline-shift="super" font-size="70%">U2I*</tspan></text>
+<text x="1168" y="233" font-size="28" font-weight="normal" text-anchor="middle" font-style="italic" fill="#3a5e26" >G<tspan baseline-shift="super" font-size="70%">I2U*</tspan></text>
+<path d="M974 451V421" fill="none" stroke="#595959" stroke-width="3.5" marker-end="url(#gray)" />
+<use href="#robot" x="935" y="463" width="80" height="99"/>
+<text x="975" y="589" font-size="29" font-weight="bold" text-anchor="middle" fill="black" >LLM</text>
+<path d="M863 651V514H914" fill="none" stroke="#a5d48b" stroke-width="3.3" marker-end="url(#green)" />
+<path d="M1089 651V514H1036" fill="none" stroke="#ffac7c" stroke-width="3.3" marker-end="url(#orange)" />
+<rect x="750" y="654" width="228" height="74" rx="13" fill="#e2efd7" stroke="#71ad3b" stroke-width="3.2" />
+<text x="864" y="685" font-size="29" font-weight="bold" text-anchor="middle" fill="black" >I2U Logic</text>
+<text x="864" y="717" font-size="29" font-weight="bold" text-anchor="middle" fill="black" >Prompt <tspan font-style="italic">X<tspan baseline-shift="-22%" font-size="70%">c</tspan></tspan></text>
+<rect x="985" y="653" width="219" height="74" rx="13" fill="#f9e8da" stroke="#c49300" stroke-width="3.2" />
+<text x="1095" y="684" font-size="29" font-weight="bold" text-anchor="middle" fill="black" >U2I Logic</text>
+<text x="1095" y="717" font-size="29" font-weight="bold" text-anchor="middle" fill="black" >Prompt <tspan font-style="italic">X<tspan baseline-shift="-22%" font-size="70%">t</tspan></tspan></text>
+<path d="M1217 224H1262V542H1306" fill="none" stroke="#99c5e9" stroke-width="3.3" marker-end="url(#blue)" />
+<use href="#person" x="1326" y="164" width="55" height="55"/>
+<text x="1354" y="243" font-size="28" font-weight="normal" text-anchor="middle" fill="black" >user</text>
+<path d="M1414 95Q1402 95 1402 99V197L1391 199L1402 201V299Q1402 302 1414 302" fill="none" stroke="#595959" stroke-width="3.3" />
+<use href="#camera" x="1434" y="67" width="60" height="49"/>
+<text x="1471" y="135" font-size="25" font-weight="normal" text-anchor="middle" font-style="italic" fill="black" >i<tspan baseline-shift="-22%" font-size="70%">1</tspan></text>
+<use href="#movie" x="1434" y="146" width="66" height="47"/>
+<text x="1471" y="216" font-size="25" font-weight="normal" text-anchor="middle" font-style="italic" fill="black" >i<tspan baseline-shift="-22%" font-size="70%">2</tspan></text>
+<text x="1473" y="251" font-size="36" font-weight="normal" text-anchor="middle" fill="black" >...</text>
+<use href="#game" x="1434" y="269" width="65" height="46"/>
+<text x="1472" y="333" font-size="25" font-weight="normal" text-anchor="middle" font-style="italic" fill="black" >i<tspan baseline-shift="-22%" font-size="70%">n</tspan></text>
+<rect x="1533" y="56" width="290" height="40" rx="7" fill="#fbeadd" stroke="#c59600" stroke-width="1.8" />
+<text x="1678" y="83" font-size="25" font-weight="bold" text-anchor="middle" font-style="italic" fill="#d65b00" ><tspan font-family="Noto Sans Math" font-style="normal" font-weight="normal">𝒯</tspan><tspan baseline-shift="-22%" font-size="80%">1</tspan> = {t<tspan baseline-shift="-22%" font-size="80%">1,1</tspan>, ···, t<tspan baseline-shift="-22%" font-size="80%">1,k</tspan>}</text>
+<rect x="1524" y="89" width="290" height="40" rx="7" fill="#d7e6c7" stroke="#598736" stroke-width="1.8" fill-opacity="0.82"/>
+<text x="1669" y="116" font-size="25" font-weight="bold" text-anchor="middle" font-style="italic" fill="#385d26" >C<tspan baseline-shift="-22%" font-size="80%">1</tspan> = {c<tspan baseline-shift="-22%" font-size="80%">1,1</tspan>, ···, c<tspan baseline-shift="-22%" font-size="80%">1,l</tspan>}</text>
+<rect x="1536" y="140" width="290" height="40" rx="7" fill="#fbeadd" stroke="#c59600" stroke-width="1.8" />
+<text x="1678" y="167" font-size="25" font-weight="bold" text-anchor="middle" font-style="italic" fill="#d65b00" ><tspan font-family="Noto Sans Math" font-style="normal" font-weight="normal">𝒯</tspan><tspan baseline-shift="-22%" font-size="80%">2</tspan> = {t<tspan baseline-shift="-22%" font-size="80%">2,1</tspan>, ···, t<tspan baseline-shift="-22%" font-size="80%">2,k</tspan>}</text>
+<rect x="1527" y="173" width="290" height="40" rx="7" fill="#d7e6c7" stroke="#598736" stroke-width="1.8" fill-opacity="0.82"/>
+<text x="1669" y="200" font-size="25" font-weight="bold" text-anchor="middle" font-style="italic" fill="#385d26" >C<tspan baseline-shift="-22%" font-size="80%">2</tspan> = {c<tspan baseline-shift="-22%" font-size="80%">2,1</tspan>, ···, c<tspan baseline-shift="-22%" font-size="80%">2,l</tspan>}</text>
+<rect x="1536" y="266" width="290" height="40" rx="7" fill="#fbeadd" stroke="#c59600" stroke-width="1.8" />
+<text x="1678" y="293" font-size="25" font-weight="bold" text-anchor="middle" font-style="italic" fill="#d65b00" ><tspan font-family="Noto Sans Math" font-style="normal" font-weight="normal">𝒯</tspan><tspan baseline-shift="-22%" font-size="80%">n</tspan> = {t<tspan baseline-shift="-22%" font-size="80%">n,1</tspan>, ···, t<tspan baseline-shift="-22%" font-size="80%">n,k</tspan>}</text>
+<rect x="1527" y="299" width="290" height="40" rx="7" fill="#d7e6c7" stroke="#598736" stroke-width="1.8" fill-opacity="0.82"/>
+<text x="1669" y="326" font-size="25" font-weight="bold" text-anchor="middle" font-style="italic" fill="#385d26" >C<tspan baseline-shift="-22%" font-size="80%">n</tspan> = {c<tspan baseline-shift="-22%" font-size="80%">n,1</tspan>, ···, c<tspan baseline-shift="-22%" font-size="80%">n,l</tspan>}</text>
+<text x="1659" y="251" font-size="36" font-weight="normal" text-anchor="middle" fill="black" >...</text>
+<path d="M1670 362V430" fill="none" stroke="black" stroke-width="2.8" marker-end="url(#black)" />
+<text x="1612" y="393" font-size="22" font-weight="normal" text-anchor="start" fill="black" >Input</text>
+<text x="1377" y="452" font-size="23" font-weight="normal" text-anchor="middle" font-style="italic" fill="black" >Logic Graph</text>
+<rect x="1309" y="459" width="137" height="168" rx="23" fill="#eef4f6" stroke="#595959" stroke-width="3" />
+<path d="M1354 488H1400" fill="none" stroke="#ffac7c" stroke-width="3" marker-end="url(#orange)" />
+<path d="M1352 525L1402 493" fill="none" stroke="#ffac7c" stroke-width="3" marker-end="url(#orange)" />
+<path d="M1351 571L1403 532" fill="none" stroke="#ffac7c" stroke-width="3" marker-end="url(#orange)" />
+<path d="M1404 488L1348 558" fill="none" stroke="#a5d48b" stroke-width="3" marker-end="url(#green)" />
+<path d="M1404 524L1351 498" fill="none" stroke="#a5d48b" stroke-width="3" marker-end="url(#green)" />
+<path d="M1404 566L1351 533" fill="none" stroke="#a5d48b" stroke-width="3" marker-end="url(#green)" />
+<circle cx="1340" cy="488" r="14" fill="#f8d4bc" stroke="#142f53" stroke-width="1.8"/>
+<circle cx="1340" cy="529" r="14" fill="#f8d4bc" stroke="#142f53" stroke-width="1.8"/>
+<circle cx="1340" cy="572" r="14" fill="#f8d4bc" stroke="#142f53" stroke-width="1.8"/>
+<circle cx="1417" cy="488" r="14" fill="#d2e4c4" stroke="#142f53" stroke-width="1.8"/>
+<circle cx="1417" cy="529" r="14" fill="#d2e4c4" stroke="#142f53" stroke-width="1.8"/>
+<circle cx="1417" cy="572" r="14" fill="#d2e4c4" stroke="#142f53" stroke-width="1.8"/>
+<text x="1347" y="615" font-size="24" font-weight="normal" text-anchor="middle" font-style="italic" fill="black" >C<tspan baseline-shift="super" font-size="70%">*</tspan></text>
+<text x="1422" y="615" font-size="24" font-weight="normal" text-anchor="middle" font-style="italic" fill="black" ><tspan font-family="Noto Sans Math" font-style="normal" font-weight="normal">𝒯</tspan><tspan baseline-shift="super" font-size="70%">*</tspan></text>
+<path d="M1447 502H1516" fill="none" stroke="black" stroke-width="2.7" marker-end="url(#black)" />
+<path d="M1447 574H1516" fill="none" stroke="black" stroke-width="2.7" marker-end="url(#black)" />
+<text x="1485" y="492" font-size="24" font-weight="normal" text-anchor="middle" font-style="italic" fill="#3a5e26" >G<tspan baseline-shift="super" font-size="70%">I2U*</tspan></text>
+<text x="1486" y="563" font-size="24" font-weight="normal" text-anchor="middle" font-style="italic" fill="#d65b00" >G<tspan baseline-shift="super" font-size="70%">U2I*</tspan></text>
+<rect x="1517" y="434" width="299" height="180" rx="0" fill="white" stroke="#595959" stroke-width="3.4" />
+<text x="1565" y="493" font-size="25" font-weight="bold" text-anchor="middle" fill="black" >RecSys</text>
+<path d="M1540 523L1557 534" fill="none" stroke="black" stroke-width="3.5" />
+<path d="M1540 523L1557 558" fill="none" stroke="black" stroke-width="3.5" />
+<path d="M1540 548L1557 534" fill="none" stroke="black" stroke-width="3.5" />
+<path d="M1540 548L1557 558" fill="none" stroke="black" stroke-width="3.5" />
+<path d="M1540 571L1557 534" fill="none" stroke="black" stroke-width="3.5" />
+<path d="M1540 571L1557 558" fill="none" stroke="black" stroke-width="3.5" />
+<path d="M1557 534L1574 541" fill="none" stroke="black" stroke-width="3.5" />
+<path d="M1557 534L1574 559" fill="none" stroke="black" stroke-width="3.5" />
+<path d="M1557 558L1574 541" fill="none" stroke="black" stroke-width="3.5" />
+<path d="M1557 558L1574 559" fill="none" stroke="black" stroke-width="3.5" />
+<path d="M1574 541L1587 547" fill="none" stroke="black" stroke-width="3.5" />
+<path d="M1574 559L1587 547" fill="none" stroke="black" stroke-width="3.5" />
+<circle cx="1540" cy="523" r="5" fill="white" stroke="black" stroke-width="3.2"/>
+<circle cx="1540" cy="548" r="5" fill="white" stroke="black" stroke-width="3.2"/>
+<circle cx="1540" cy="571" r="5" fill="white" stroke="black" stroke-width="3.2"/>
+<circle cx="1557" cy="534" r="5" fill="white" stroke="black" stroke-width="3.2"/>
+<circle cx="1557" cy="558" r="5" fill="white" stroke="black" stroke-width="3.2"/>
+<circle cx="1574" cy="541" r="5" fill="white" stroke="black" stroke-width="3.2"/>
+<circle cx="1574" cy="559" r="5" fill="white" stroke="black" stroke-width="3.2"/>
+<circle cx="1587" cy="547" r="5" fill="white" stroke="black" stroke-width="3.2"/>
+<rect x="1601" y="458" width="207" height="70" rx="12" fill="#d5fbf7" stroke="#d8d8d8" stroke-width="2" />
+<text x="1704" y="489" font-size="23" font-weight="normal" text-anchor="middle" fill="black" >Tag-based</text>
+<text x="1704" y="510" font-size="21" font-weight="normal" text-anchor="middle" fill="black" >Item/User Encoder</text>
+<rect x="1598" y="532" width="210" height="68" rx="12" fill="#fff4d1" stroke="#d8d8d8" stroke-width="2" />
+<text x="1703" y="562" font-size="23" font-weight="normal" text-anchor="middle" fill="black" >Tag-logic</text>
+<text x="1703" y="588" font-size="21" font-weight="normal" text-anchor="middle" fill="black" >Inference Extension</text>
+<text x="1842" y="410" font-size="20" font-weight="normal" text-anchor="middle" fill="black" >Candidate</text>
+<text x="1842" y="434" font-size="20" font-weight="normal" text-anchor="middle" fill="black" >item</text>
+<use href="#watch" x="1825" y="443" width="33" height="41"/>
+<text x="1873" y="470" font-size="26" font-weight="bold" text-anchor="middle" font-style="italic" fill="black" >v<tspan baseline-shift="-22%" font-size="70%">i</tspan></text>
+<path d="M1867 483V558H1819" fill="none" stroke="black" stroke-width="2.7" marker-end="url(#black)" />
+<path d="M1674 615V668" fill="none" stroke="black" stroke-width="2.7" marker-end="url(#black)" />
+<path d="M1778 615V669" fill="none" stroke="black" stroke-width="2.7" marker-end="url(#black)" />
+<text x="1684" y="698" font-size="27" font-weight="normal" text-anchor="middle" font-style="italic" fill="black" >ŷ<tspan baseline-shift="-22%" font-size="70%">raw</tspan></text>
+<text x="1786" y="698" font-size="27" font-weight="normal" text-anchor="middle" font-style="italic" fill="black" >ŷ<tspan baseline-shift="-22%" font-size="70%">tag</tspan></text>
+<path d="M1675 712L1714 736" fill="none" stroke="black" stroke-width="2.7" marker-end="url(#black)" />
+<path d="M1782 714L1743 738" fill="none" stroke="black" stroke-width="2.7" marker-end="url(#black)" />
+<text x="1730" y="760" font-size="28" font-weight="normal" text-anchor="middle" font-style="italic" fill="black" >ŷ</text>
+<rect x="1311" y="673" width="330" height="90" rx="15" fill="#d1effc" stroke="#d8d8d8" stroke-width="2" />
+<text x="1476" y="711" font-size="23" font-weight="normal" text-anchor="middle" fill="black" ><tspan font-style="italic">ℒ = λ</tspan>(ℒ<tspan baseline-shift="-22%" font-size="70%">ut</tspan> + ℒ<tspan baseline-shift="-22%" font-size="70%">it</tspan>) + (1 − <tspan font-style="italic">λ</tspan>)ℒ<tspan baseline-shift="-22%" font-size="70%">ui</tspan></text>
+<text x="1476" y="750" font-size="22" font-weight="normal" text-anchor="middle" fill="black" >Tag-based Learning Augmentation</text>
+<path d="M1550 672V614" fill="none" stroke="black" stroke-width="2.5" marker-end="url(#black)" stroke-dasharray="7 4" />
+<text x="1482" y="655" font-size="18" font-weight="normal" text-anchor="middle" fill="black" >Backpropagation</text>
+<text x="323" y="861" font-size="32" font-weight="bold" text-anchor="middle" fill="black" >(1) MLLM-based Tag Extraction</text>
+<text x="977" y="861" font-size="32" font-weight="bold" text-anchor="middle" fill="black" >(2) LLM-based Collaborative Logic Reasoning</text>
+<text x="1572" y="863" font-size="32" font-weight="bold" text-anchor="middle" fill="black" >(3) Tag Logic Integration</text>
+</g></svg>

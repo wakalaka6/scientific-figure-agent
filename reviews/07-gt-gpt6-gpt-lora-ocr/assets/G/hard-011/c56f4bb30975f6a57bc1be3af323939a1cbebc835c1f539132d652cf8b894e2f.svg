@@ -1,0 +1,430 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1872" height="921" viewBox="0 0 1872 921">
+<title>KV-cache Communication Module</title>
+<desc>Editable vector reconstruction of a three-agent KV-cache communication architecture, with anchor matching, offset approximation, anchor prediction and legend.</desc>
+<defs>
+ <filter id="smallShadow" filterUnits="userSpaceOnUse" x="-100" y="-100" width="2100" height="1200"><feDropShadow dx="4" dy="1.5" stdDeviation="2.2" flood-color="#000" flood-opacity=".43"/></filter>
+ <filter id="softShadow" filterUnits="userSpaceOnUse" x="-100" y="-100" width="2100" height="1200"><feDropShadow dx="4" dy="2" stdDeviation="2" flood-color="#000" flood-opacity=".38"/></filter>
+ <pattern id="hatchOrange" width="7" height="7" patternUnits="userSpaceOnUse"><rect width="7" height="7" fill="white"/><path d="M-2 7L7-2M1 9L9 1" fill="none" stroke="#f5b78d" stroke-width=".8"/><path d="M0 3L2 1M4 6L6 4" stroke="#e9a976" stroke-width=".5"/></pattern>
+ <pattern id="hatchGreen" width="7" height="7" patternUnits="userSpaceOnUse"><rect width="7" height="7" fill="white"/><path d="M-2 7L7-2M1 9L9 1" fill="none" stroke="#accb8f" stroke-width=".8"/><path d="M0 3L2 1M4 6L6 4" stroke="#85aa68" stroke-width=".5"/></pattern>
+ <marker id="arrowPurple" markerWidth="3.4" markerHeight="3.4" refX="2.8" refY="1.7" orient="auto"><path d="M0 0L3.2 1.7L0 3.4Z" fill="#82758f"/></marker>
+ <marker id="arrowOrange" markerWidth="3.4" markerHeight="3.4" refX="2.8" refY="1.7" orient="auto"><path d="M0 0L3.2 1.7L0 3.4Z" fill="#f5b080"/></marker>
+ <marker id="arrowGreen" markerWidth="3.4" markerHeight="3.4" refX="2.8" refY="1.7" orient="auto"><path d="M0 0L3.2 1.7L0 3.4Z" fill="#548638"/></marker>
+ <marker id="arrowNavy" markerWidth="6" markerHeight="6" refX="5.3" refY="3" orient="auto"><path d="M0 0L6 3L0 6Z" fill="#203d68"/></marker>
+ <marker id="arrowBlack" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="black"/></marker>
+</defs>
+<rect x="0" y="0" width="1872" height="921" rx="0" fill="white" stroke-width="1"/>
+<g id="communication-paths">
+<path d="M400 485V539H0V921" fill="none" stroke="#548638" stroke-width="8" filter="url(#softShadow)"/>
+<path d="M0 539H576" fill="none" stroke="#548638" stroke-width="8" marker-end="url(#arrowGreen)" filter="url(#softShadow)"/>
+<path d="M335 895V921M722 895V921" fill="none" stroke="#548638" stroke-width="8"/>
+<path d="M482 817H512V287H574" fill="none" stroke="#82758f" stroke-width="8" marker-end="url(#arrowPurple)" stroke-linejoin="round" filter="url(#softShadow)"/>
+<path d="M534 870V352H465" fill="none" stroke="#f5b080" stroke-width="7" marker-end="url(#arrowOrange)" filter="url(#softShadow)"/>
+<path d="M533 870H489" fill="none" stroke="#f5b080" stroke-width="7" marker-end="url(#arrowOrange)" filter="url(#softShadow)"/>
+<path d="M534 870H574" fill="none" stroke="#f5b080" stroke-width="7" marker-end="url(#arrowOrange)" filter="url(#softShadow)"/>
+<text x="531" y="901" fill="black" font-size="29" font-family="Arial, Helvetica, sans-serif" font-weight="bold" text-anchor="middle">Reuse</text>
+</g>
+<g id="agent-1">
+<rect x="19" y="14" width="466" height="490" rx="28" fill="#dfebf6" stroke="#477daa" stroke-width="2"/>
+<path d="M19 79V42Q19 14 47 14H457Q485 14 485 42V79Z" fill="#9cc2e2" stroke="#477daa" stroke-width="2"/>
+<rect x="19" y="79" width="466" height="425" rx="0" fill="#dfebf6" stroke="#477daa" stroke-width="2"/>
+<text x="252" y="57" fill="#203d68" font-size="36" font-family="Arial, Helvetica, sans-serif" font-weight="bold" text-anchor="middle">Agent 1</text>
+<text x="42" y="110" fill="#203d68" font-size="26" font-family="Arial, Helvetica, sans-serif" font-weight="bold">Prefix KV</text>
+<rect x="35" y="120" width="74" height="34" rx="0" fill="#8faada" stroke="#ecf1fa" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="43.9" y="141.76" fill="black" font-size="29" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="Times New Roman, Liberation Serif, serif" font-style="normal" font-weight="bold">p</tspan><tspan baseline-shift="-3px" font-size="17">(1, 0)</tspan></text>
+<rect x="119" y="120" width="74" height="34" rx="0" fill="#8faada" stroke="#ecf1fa" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="127.9" y="141.76" fill="black" font-size="29" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="Times New Roman, Liberation Serif, serif" font-style="normal" font-weight="bold">p</tspan><tspan baseline-shift="-3px" font-size="17">(1, 1)</tspan></text>
+<rect x="203" y="120" width="74" height="34" rx="0" fill="#8faada" stroke="#ecf1fa" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="211.9" y="141.76" fill="black" font-size="29" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="Times New Roman, Liberation Serif, serif" font-style="normal" font-weight="bold">p</tspan><tspan baseline-shift="-3px" font-size="17">(1, 2)</tspan></text>
+<rect x="288" y="120" width="74" height="34" rx="0" fill="#8faada" stroke="#ecf1fa" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="296.9" y="141.76" fill="black" font-size="29" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="Times New Roman, Liberation Serif, serif" font-style="normal" font-weight="bold">p</tspan><tspan baseline-shift="-3px" font-size="17">(1, 3)</tspan></text>
+<text x="42" y="183" fill="#203d68" font-size="26" font-family="Arial, Helvetica, sans-serif" font-weight="bold">Placeholder KV</text>
+<rect x="38" y="189" width="65" height="29" rx="1" fill="url(#hatchOrange)" stroke="#ecf1fa" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="42.66" y="211.04" fill="black" font-size="26" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="DejaVu Serif, serif" font-style="italic" font-weight="normal">ϕ</tspan><tspan baseline-shift="-3px" font-size="16">(1, 1)</tspan></text>
+<rect x="109" y="189" width="65" height="29" rx="1" fill="url(#hatchGreen)" stroke="#ecf1fa" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="113.66" y="211.04" fill="black" font-size="26" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="DejaVu Serif, serif" font-style="italic" font-weight="normal">ϕ</tspan><tspan baseline-shift="-3px" font-size="16">(1, 2)</tspan></text>
+<rect x="180" y="189" width="65" height="29" rx="1" fill="url(#hatchOrange)" stroke="#ecf1fa" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="184.66" y="211.04" fill="black" font-size="26" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="DejaVu Serif, serif" font-style="italic" font-weight="normal">ϕ</tspan><tspan baseline-shift="-3px" font-size="16">(1, 3)</tspan></text>
+<rect x="19" y="223" width="466" height="46" rx="0" fill="#d8d1dd" stroke="#82758f" stroke-width="2"/>
+<text x="108" y="255" fill="black" font-size="29" font-family="Arial, Helvetica, sans-serif" font-weight="bold">All placeholders</text>
+<circle cx="358" cy="245" r="16" fill="#548638" stroke-width="1"/>
+<path d="M348.88,244.84 l5.92,6.08 l12.32,-13.28" fill="none" stroke="white" stroke-width="2.5"/>
+<text x="377" y="255" fill="black" font-size="29" font-family="Arial, Helvetica, sans-serif" font-weight="bold">?</text>
+<rect x="19" y="269" width="175" height="35" rx="0" fill="#dfebf6" stroke="#477daa" stroke-width="2"/>
+<rect x="194" y="269" width="291" height="35" rx="0" fill="#d8d1dd" stroke="#82758f" stroke-width="2"/>
+<text x="106" y="295" fill="black" font-size="30" font-family="Arial, Helvetica, sans-serif" font-weight="bold" text-anchor="middle">No</text>
+<text x="339" y="295" fill="black" font-size="30" font-family="Arial, Helvetica, sans-serif" font-weight="bold" text-anchor="middle">Yes</text>
+<rect x="19" y="304" width="175" height="200" rx="0" fill="#dfebf6" stroke="#477daa" stroke-width="2"/>
+<rect x="194" y="304" width="291" height="200" rx="0" fill="#fbe6d5" stroke="#c65b05" stroke-width="2"/>
+<text x="106" y="347" fill="#203d68" font-size="27" font-family="Arial, Helvetica, sans-serif" font-weight="bold" text-anchor="middle">Dense</text>
+<text x="106" y="378" fill="#203d68" font-size="27" font-family="Arial, Helvetica, sans-serif" font-weight="bold" text-anchor="middle">Prefilling</text>
+<circle cx="106" cy="398" r="16" fill="#c65b05" stroke-width="1"/>
+<line x1="98.8" y1="398" x2="113.2" y2="398" stroke="white" stroke-width="2.5"/>
+<line x1="106" y1="390.8" x2="106" y2="405.2" stroke="white" stroke-width="2.5"/>
+<line x1="20" y1="419" x2="484" y2="419" stroke="#487fa9" stroke-width="1.7" stroke-dasharray="17 9"/>
+<line x1="194" y1="418" x2="484" y2="418" stroke="#d47728" stroke-width="1.7" stroke-dasharray="17 9"/>
+<text x="106" y="457" fill="#203d68" font-size="27" font-family="Arial, Helvetica, sans-serif" font-weight="bold" text-anchor="middle">Decoding</text>
+<circle cx="106" cy="479" r="16" fill="#c65b05" stroke-width="1"/>
+<line x1="98.8" y1="479" x2="113.2" y2="479" stroke="white" stroke-width="2.5"/>
+<line x1="106" y1="471.8" x2="106" y2="486.2" stroke="white" stroke-width="2.5"/>
+<text x="202" y="329" fill="#203d68" font-size="26" font-family="Arial, Helvetica, sans-serif" font-weight="bold">Cache Update</text>
+<text x="214" y="361" fill="#203d68" font-size="24" font-family="Arial, Helvetica, sans-serif" font-weight="bold">PH</text>
+<text x="214" y="394" fill="#203d68" font-size="24" font-family="Arial, Helvetica, sans-serif" font-weight="bold">PF</text>
+<rect x="255" y="337" width="65" height="29" rx="3" fill="#f5b080" stroke="#937651" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="260.0" y="359.04" fill="black" font-size="25" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="DejaVu Serif, serif" font-style="italic" font-weight="normal">ϕ</tspan><tspan baseline-shift="-3px" font-size="16">(1, 1)</tspan></text>
+<rect x="255" y="374" width="65" height="29" rx="0" fill="#203d68" stroke="#ecf1fa" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="262.475" y="392.56" fill="white" font-size="26" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="Times New Roman, Liberation Serif, serif" font-style="normal" font-weight="bold">p</tspan><tspan baseline-shift="-3px" font-size="15">(1, 1)</tspan></text>
+<rect x="327" y="337" width="65" height="29" rx="3" fill="#a8cf89" stroke="#937651" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="332.0" y="359.04" fill="black" font-size="25" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="DejaVu Serif, serif" font-style="italic" font-weight="normal">ϕ</tspan><tspan baseline-shift="-3px" font-size="16">(1, 2)</tspan></text>
+<rect x="327" y="374" width="65" height="29" rx="0" fill="#203d68" stroke="#ecf1fa" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="334.475" y="392.56" fill="white" font-size="26" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="Times New Roman, Liberation Serif, serif" font-style="normal" font-weight="bold">p</tspan><tspan baseline-shift="-3px" font-size="15">(1, 2)</tspan></text>
+<rect x="398" y="337" width="65" height="29" rx="3" fill="#f5b080" stroke="#937651" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="403.0" y="359.04" fill="black" font-size="25" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="DejaVu Serif, serif" font-style="italic" font-weight="normal">ϕ</tspan><tspan baseline-shift="-3px" font-size="16">(1, 3)</tspan></text>
+<rect x="398" y="374" width="65" height="29" rx="0" fill="#203d68" stroke="#ecf1fa" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="405.475" y="392.56" fill="white" font-size="26" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="Times New Roman, Liberation Serif, serif" font-style="normal" font-weight="bold">p</tspan><tspan baseline-shift="-3px" font-size="15">(1, 3)</tspan></text>
+<text x="206" y="451" fill="#203d68" font-size="26" font-family="Arial, Helvetica, sans-serif" font-weight="bold">Response Cache</text>
+<text x="206" y="485" fill="#203d68" font-size="23" font-family="Arial, Helvetica, sans-serif" font-weight="bold">[PH, PF]</text>
+<path d="M300 480H333" fill="none" stroke="#548638" stroke-width="4" marker-end="url(#arrowGreen)"/>
+<rect x="338" y="467" width="125" height="24" rx="8" fill="#a8cf89" stroke="#547443" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="400" y="485" fill="black" font-size="22" font-family="Arial, Helvetica, sans-serif" text-anchor="middle">Response</text>
+</g>
+<path d="M533 352H468" fill="none" stroke="#f5b080" stroke-width="7" marker-end="url(#arrowOrange)" filter="url(#softShadow)"/>
+<path d="M487 287H574" fill="none" stroke="#82758f" stroke-width="8" marker-end="url(#arrowPurple)" filter="url(#softShadow)"/>
+<text x="529" y="271" fill="black" font-size="30" font-family="Arial, Helvetica, sans-serif" font-weight="bold" text-anchor="middle">Query</text>
+<text x="10" y="567" fill="black" font-size="28.5" font-family="Arial, Helvetica, sans-serif" font-weight="bold">Anchor Prediction of Response KV</text>
+<g id="agent-2">
+<rect x="19" y="577" width="466" height="324" rx="28" fill="#dfebf6" stroke="#477daa" stroke-width="2"/>
+<path d="M19 642V605Q19 577 47 577H457Q485 577 485 605V642Z" fill="#9cc2e2" stroke="#477daa" stroke-width="2"/>
+<rect x="19" y="642" width="466" height="152" rx="0" fill="#dfebf6" stroke="#477daa" stroke-width="2"/>
+<text x="252.0" y="620" fill="#203d68" font-size="36" font-family="Arial, Helvetica, sans-serif" font-weight="bold" text-anchor="middle">Agent 2</text>
+<text x="42" y="673" fill="#203d68" font-size="26" font-family="Arial, Helvetica, sans-serif" font-weight="bold">Prefix KV</text>
+<rect x="35.0" y="684" width="74" height="33" rx="0" fill="#8faada" stroke="#ecf1fa" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="43.9" y="705.12" fill="black" font-size="29" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="Times New Roman, Liberation Serif, serif" font-style="normal" font-weight="bold">p</tspan><tspan baseline-shift="-3px" font-size="17">(2, 0)</tspan></text>
+<rect x="119.4" y="684" width="74" height="33" rx="0" fill="#8faada" stroke="#ecf1fa" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="128.3" y="705.12" fill="black" font-size="29" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="Times New Roman, Liberation Serif, serif" font-style="normal" font-weight="bold">p</tspan><tspan baseline-shift="-3px" font-size="17">(2, 1)</tspan></text>
+<rect x="203.8" y="684" width="74" height="33" rx="0" fill="#8faada" stroke="#ecf1fa" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="212.70000000000002" y="705.12" fill="black" font-size="29" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="Times New Roman, Liberation Serif, serif" font-style="normal" font-weight="bold">p</tspan><tspan baseline-shift="-3px" font-size="17">(2, 2)</tspan></text>
+<rect x="288.20000000000005" y="684" width="74" height="33" rx="0" fill="#8faada" stroke="#ecf1fa" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="297.1" y="705.12" fill="black" font-size="29" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="Times New Roman, Liberation Serif, serif" font-style="normal" font-weight="bold">p</tspan><tspan baseline-shift="-3px" font-size="17">(2, 3)</tspan></text>
+<rect x="372.6" y="684" width="74" height="33" rx="0" fill="#8faada" stroke="#ecf1fa" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="381.5" y="705.12" fill="black" font-size="29" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="Times New Roman, Liberation Serif, serif" font-style="normal" font-weight="bold">p</tspan><tspan baseline-shift="-3px" font-size="17">(2, 4)</tspan></text>
+<text x="42" y="746" fill="#203d68" font-size="26" font-family="Arial, Helvetica, sans-serif" font-weight="bold">Placeholder KV</text>
+<rect x="37.0" y="752" width="65" height="29" rx="1" fill="url(#hatchOrange)" stroke="#ecf1fa" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="41.66" y="774.04" fill="black" font-size="26" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="DejaVu Serif, serif" font-style="italic" font-weight="normal">ϕ</tspan><tspan baseline-shift="-3px" font-size="16">(2, 1)</tspan></text>
+<rect x="108.4" y="752" width="65" height="29" rx="1" fill="url(#hatchGreen)" stroke="#ecf1fa" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="113.06" y="774.04" fill="black" font-size="26" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="DejaVu Serif, serif" font-style="italic" font-weight="normal">ϕ</tspan><tspan baseline-shift="-3px" font-size="16">(2, 2)</tspan></text>
+<rect x="179.8" y="752" width="65" height="29" rx="1" fill="url(#hatchOrange)" stroke="#ecf1fa" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="184.46" y="774.04" fill="black" font-size="26" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="DejaVu Serif, serif" font-style="italic" font-weight="normal">ϕ</tspan><tspan baseline-shift="-3px" font-size="16">(2, 3)</tspan></text>
+<rect x="251.20000000000002" y="752" width="65" height="29" rx="1" fill="url(#hatchGreen)" stroke="#ecf1fa" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="255.86" y="774.04" fill="black" font-size="26" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="DejaVu Serif, serif" font-style="italic" font-weight="normal">ϕ</tspan><tspan baseline-shift="-3px" font-size="16">(2, 4)</tspan></text>
+<rect x="19" y="794" width="466" height="46" rx="0" fill="#d8d1dd" stroke="#82758f" stroke-width="2"/>
+<text x="108" y="826" fill="black" font-size="29" font-family="Arial, Helvetica, sans-serif" font-weight="bold">All placeholders</text>
+<circle cx="358" cy="817" r="16" fill="#548638" stroke-width="1"/>
+<path d="M348.88,816.84 l5.92,6.08 l12.32,-13.28" fill="none" stroke="white" stroke-width="2.5"/>
+<text x="377" y="826" fill="black" font-size="29" font-family="Arial, Helvetica, sans-serif" font-weight="bold">?</text>
+<rect x="19" y="840" width="175" height="61" rx="0" fill="#dfebf6" stroke="#477daa" stroke-width="2"/>
+<rect x="194" y="840" width="291" height="61" rx="0" fill="#fbe6d5" stroke="#c65b05" stroke-width="2"/>
+<text x="24" y="878" fill="#203d68" font-size="26" font-family="Arial, Helvetica, sans-serif" font-weight="bold">(N) Dense</text>
+<circle cx="169" cy="874" r="16" fill="#c65b05" stroke-width="1"/>
+<line x1="161.8" y1="874" x2="176.2" y2="874" stroke="white" stroke-width="2.5"/>
+<line x1="169" y1="866.8" x2="169" y2="881.2" stroke="white" stroke-width="2.5"/>
+<text x="337" y="878" fill="#203d68" font-size="26" font-family="Arial, Helvetica, sans-serif" font-weight="bold" text-anchor="middle">(Y) Sharing</text>
+</g>
+<g id="agent-3">
+<rect x="577" y="577" width="466" height="324" rx="28" fill="#dfebf6" stroke="#477daa" stroke-width="2"/>
+<path d="M577 642V605Q577 577 605 577H1015Q1043 577 1043 605V642Z" fill="#9cc2e2" stroke="#477daa" stroke-width="2"/>
+<rect x="577" y="642" width="466" height="152" rx="0" fill="#dfebf6" stroke="#477daa" stroke-width="2"/>
+<text x="810.0" y="620" fill="#203d68" font-size="36" font-family="Arial, Helvetica, sans-serif" font-weight="bold" text-anchor="middle">Agent 3</text>
+<text x="600" y="673" fill="#203d68" font-size="26" font-family="Arial, Helvetica, sans-serif" font-weight="bold">Prefix KV</text>
+<rect x="593.0" y="684" width="74" height="33" rx="0" fill="#8faada" stroke="#ecf1fa" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="601.9" y="705.12" fill="black" font-size="29" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="Times New Roman, Liberation Serif, serif" font-style="normal" font-weight="bold">p</tspan><tspan baseline-shift="-3px" font-size="17">(3, 0)</tspan></text>
+<rect x="677.4" y="684" width="74" height="33" rx="0" fill="#8faada" stroke="#ecf1fa" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="686.3" y="705.12" fill="black" font-size="29" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="Times New Roman, Liberation Serif, serif" font-style="normal" font-weight="bold">p</tspan><tspan baseline-shift="-3px" font-size="17">(3, 1)</tspan></text>
+<rect x="761.8" y="684" width="74" height="33" rx="0" fill="#8faada" stroke="#ecf1fa" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="770.6999999999999" y="705.12" fill="black" font-size="29" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="Times New Roman, Liberation Serif, serif" font-style="normal" font-weight="bold">p</tspan><tspan baseline-shift="-3px" font-size="17">(3, 2)</tspan></text>
+<rect x="846.2" y="684" width="74" height="33" rx="0" fill="#8faada" stroke="#ecf1fa" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="855.1" y="705.12" fill="black" font-size="29" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="Times New Roman, Liberation Serif, serif" font-style="normal" font-weight="bold">p</tspan><tspan baseline-shift="-3px" font-size="17">(3, 3)</tspan></text>
+<rect x="930.6" y="684" width="74" height="33" rx="0" fill="#8faada" stroke="#ecf1fa" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="939.5" y="705.12" fill="black" font-size="29" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="Times New Roman, Liberation Serif, serif" font-style="normal" font-weight="bold">p</tspan><tspan baseline-shift="-3px" font-size="17">(3, 4)</tspan></text>
+<text x="600" y="746" fill="#203d68" font-size="26" font-family="Arial, Helvetica, sans-serif" font-weight="bold">Placeholder KV</text>
+<rect x="595.0" y="752" width="65" height="29" rx="1" fill="url(#hatchOrange)" stroke="#ecf1fa" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="599.66" y="774.04" fill="black" font-size="26" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="DejaVu Serif, serif" font-style="italic" font-weight="normal">ϕ</tspan><tspan baseline-shift="-3px" font-size="16">(3, 1)</tspan></text>
+<rect x="666.4" y="752" width="65" height="29" rx="1" fill="url(#hatchGreen)" stroke="#ecf1fa" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="671.06" y="774.04" fill="black" font-size="26" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="DejaVu Serif, serif" font-style="italic" font-weight="normal">ϕ</tspan><tspan baseline-shift="-3px" font-size="16">(3, 2)</tspan></text>
+<rect x="737.8" y="752" width="65" height="29" rx="1" fill="url(#hatchOrange)" stroke="#ecf1fa" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="742.4599999999999" y="774.04" fill="black" font-size="26" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="DejaVu Serif, serif" font-style="italic" font-weight="normal">ϕ</tspan><tspan baseline-shift="-3px" font-size="16">(3, 3)</tspan></text>
+<rect x="809.2" y="752" width="65" height="29" rx="1" fill="url(#hatchGreen)" stroke="#ecf1fa" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="813.86" y="774.04" fill="black" font-size="26" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="DejaVu Serif, serif" font-style="italic" font-weight="normal">ϕ</tspan><tspan baseline-shift="-3px" font-size="16">(3, 4)</tspan></text>
+<rect x="577" y="794" width="466" height="46" rx="0" fill="#d8d1dd" stroke="#82758f" stroke-width="2"/>
+<text x="666" y="826" fill="black" font-size="29" font-family="Arial, Helvetica, sans-serif" font-weight="bold">All placeholders</text>
+<circle cx="916" cy="817" r="16" fill="#548638" stroke-width="1"/>
+<path d="M906.88,816.84 l5.92,6.08 l12.32,-13.28" fill="none" stroke="white" stroke-width="2.5"/>
+<text x="935" y="826" fill="black" font-size="29" font-family="Arial, Helvetica, sans-serif" font-weight="bold">?</text>
+<rect x="577" y="840" width="291" height="61" rx="0" fill="#fbe6d5" stroke="#c65b05" stroke-width="2"/>
+<rect x="868" y="840" width="175" height="61" rx="0" fill="#dfebf6" stroke="#477daa" stroke-width="2"/>
+<text x="722" y="878" fill="#203d68" font-size="26" font-family="Arial, Helvetica, sans-serif" font-weight="bold" text-anchor="middle">(Y) Sharing</text>
+<text x="874" y="878" fill="#203d68" font-size="26" font-family="Arial, Helvetica, sans-serif" font-weight="bold">(N) Dense</text>
+<circle cx="1019" cy="874" r="16" fill="#c65b05" stroke-width="1"/>
+<line x1="1011.8" y1="874" x2="1026.2" y2="874" stroke="white" stroke-width="2.5"/>
+<line x1="1019" y1="866.8" x2="1019" y2="881.2" stroke="white" stroke-width="2.5"/>
+</g>
+<path d="M534 870H489" fill="none" stroke="#f5b080" stroke-width="7" marker-end="url(#arrowOrange)" filter="url(#softShadow)"/>
+<path d="M534 870H574" fill="none" stroke="#f5b080" stroke-width="7" marker-end="url(#arrowOrange)" filter="url(#softShadow)"/>
+<path d="M534 507H578" fill="none" stroke="#f5b080" stroke-width="7" filter="url(#softShadow)"/>
+<g id="kv-cache-module">
+<path d="M577 48Q577 15 610 15H1838Q1871 15 1871 48V538Q1871 555 1854 555H594Q577 555 577 538Z" fill="#a8cf89" stroke="#56843d" stroke-width="2"/>
+<path d="M577 80V48Q577 15 610 15H1838Q1871 15 1871 48V80Z" fill="#82758f" stroke="#477daa" stroke-width="2"/>
+<rect x="578" y="81" width="457" height="410" rx="0" fill="#d8d1dd" stroke-width="1"/>
+<rect x="1035" y="81" width="434" height="442" rx="0" fill="#fbe6d5" stroke-width="1"/>
+<rect x="578" y="491" width="457" height="32" rx="0" fill="#fbe6d5" stroke-width="1"/>
+<text x="1224" y="63" fill="white" font-size="52" font-family="Arial, Helvetica, sans-serif" font-weight="bold" text-anchor="middle">KV-cache Communication Module</text>
+<text x="795" y="112" fill="black" font-size="34" font-family="Arial, Helvetica, sans-serif" font-weight="bold" text-anchor="middle">Anchor Matching</text>
+<text x="1253" y="113" fill="black" font-size="34" font-family="Arial, Helvetica, sans-serif" font-weight="bold" text-anchor="middle">Offset Approximation</text>
+<text x="1668" y="115" fill="black" font-size="34" font-family="Arial, Helvetica, sans-serif" font-weight="bold" text-anchor="middle">Anchor Prediction</text>
+<g id="pool-(1-1)">
+<rect x="609" y="137" width="167" height="160" rx="0" fill="white" stroke="#82758f" stroke-width="3" filter="url(#smallShadow)"/>
+<rect x="609" y="137" width="167" height="35" rx="0" fill="#b8aec4" stroke="#82758f" stroke-width="3"/>
+<text x="630" y="161" fill="black" font-size="28" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="DejaVu Serif, serif" font-style="italic" font-weight="normal">ϕ</tspan><tspan baseline-shift="-3px" font-size="16">(1, 1)</tspan></text>
+<text x="699" y="162" fill="black" font-size="24" font-family="Arial, Helvetica, sans-serif" font-weight="bold">Pool</text>
+<circle cx="630" cy="193" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="679" cy="224" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="733" cy="211" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="638" cy="254" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="724" cy="257" r="27" fill="#dbe1f3" stroke="#d4d7e4" stroke-width="0.8" filter="url(#smallShadow)"/>
+<circle cx="713" cy="271" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="739" cy="271" r="6.5" fill="#bfa988" stroke-width="1"/>
+<polygon points="726.00,246.00 728.52,253.53 736.46,253.60 730.08,258.33 732.47,265.90 726.00,261.29 719.53,265.90 721.92,258.33 715.54,253.60 723.48,253.53" fill="#f5b080" stroke="#9c470e" stroke-width=".9"/>
+</g>
+<g id="pool-(1-2)">
+<rect x="796" y="137" width="167" height="160" rx="0" fill="white" stroke="#82758f" stroke-width="3" filter="url(#smallShadow)"/>
+<rect x="796" y="137" width="167" height="35" rx="0" fill="#b8aec4" stroke="#82758f" stroke-width="3"/>
+<text x="817" y="161" fill="black" font-size="28" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="DejaVu Serif, serif" font-style="italic" font-weight="normal">ϕ</tspan><tspan baseline-shift="-3px" font-size="16">(1, 2)</tspan></text>
+<text x="886" y="162" fill="black" font-size="24" font-family="Arial, Helvetica, sans-serif" font-weight="bold">Pool</text>
+<circle cx="836" cy="197" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="897" cy="186" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="868" cy="225" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="895" cy="214" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="926" cy="214" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="913" cy="249" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="895" cy="280" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="841" cy="263" r="27" fill="#dbe1f3" stroke="#d4d7e4" stroke-width="0.8" filter="url(#smallShadow)"/>
+<circle cx="861" cy="257" r="6.5" fill="#bfa988" stroke-width="1"/>
+<polygon points="842.00,252.00 844.52,259.53 852.46,259.60 846.08,264.33 848.47,271.90 842.00,267.29 835.53,271.90 837.92,264.33 831.54,259.60 839.48,259.53" fill="#a8cf89" stroke="#477324" stroke-width=".9"/>
+</g>
+<g id="pool-(1-3)">
+<rect x="609" y="310" width="167" height="160" rx="0" fill="white" stroke="#82758f" stroke-width="3" filter="url(#smallShadow)"/>
+<rect x="609" y="310" width="167" height="35" rx="0" fill="#b8aec4" stroke="#82758f" stroke-width="3"/>
+<text x="630" y="334" fill="black" font-size="28" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="DejaVu Serif, serif" font-style="italic" font-weight="normal">ϕ</tspan><tspan baseline-shift="-3px" font-size="16">(1, 3)</tspan></text>
+<text x="699" y="335" fill="black" font-size="24" font-family="Arial, Helvetica, sans-serif" font-weight="bold">Pool</text>
+<circle cx="711" cy="360" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="757" cy="378" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="727" cy="395" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="643" cy="419" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="692" cy="423" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="678" cy="453" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="752" cy="453" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="658" cy="378" r="27" fill="#dbe1f3" stroke="#d4d7e4" stroke-width="0.8" filter="url(#smallShadow)"/>
+<circle cx="642" cy="369" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="659" cy="360" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="658" cy="387" r="6.5" fill="#bfa988" stroke-width="1"/>
+<polygon points="659.00,367.00 661.52,374.53 669.46,374.60 663.08,379.33 665.47,386.90 659.00,382.29 652.53,386.90 654.92,379.33 648.54,374.60 656.48,374.53" fill="#f5b080" stroke="#9c470e" stroke-width=".9"/>
+</g>
+<g id="pool-(2-1)">
+<rect x="796" y="310" width="167" height="160" rx="0" fill="white" stroke="#82758f" stroke-width="3" filter="url(#smallShadow)"/>
+<rect x="796" y="310" width="167" height="35" rx="0" fill="#b8aec4" stroke="#82758f" stroke-width="3"/>
+<text x="817" y="334" fill="black" font-size="28" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="DejaVu Serif, serif" font-style="italic" font-weight="normal">ϕ</tspan><tspan baseline-shift="-3px" font-size="16">(2, 1)</tspan></text>
+<text x="886" y="335" fill="black" font-size="24" font-family="Arial, Helvetica, sans-serif" font-weight="bold">Pool</text>
+<circle cx="832" cy="369" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="893" cy="358" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="921" cy="387" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="826" cy="431" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="850" cy="446" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="905" cy="431" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="891" cy="452" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="934" cy="431" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="853" cy="391" r="27" fill="#dbe1f3" stroke="#d4d7e4" stroke-width="0.8" filter="url(#smallShadow)"/>
+<circle cx="875" cy="385" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="870" cy="398" r="6.5" fill="#bfa988" stroke-width="1"/>
+<polygon points="855.00,380.00 857.52,387.53 865.46,387.60 859.08,392.33 861.47,399.90 855.00,395.29 848.53,399.90 850.92,392.33 844.54,387.60 852.48,387.53" fill="#a8cf89" stroke="#477324" stroke-width=".9"/>
+</g>
+<text x="1022" y="266" fill="black" font-size="30" font-family="Arial, Helvetica, sans-serif" font-weight="bold" text-anchor="middle">Hit</text>
+<path d="M982 282H1073" fill="none" stroke="#82758f" stroke-width="8" marker-end="url(#arrowPurple)" stroke-linecap="round" filter="url(#softShadow)"/>
+<circle cx="982" cy="305" r="4.5" fill="#82758f" stroke-width="1"/>
+<circle cx="995" cy="305" r="4.5" fill="#82758f" stroke-width="1"/>
+<circle cx="1008" cy="305" r="4.5" fill="#82758f" stroke-width="1"/>
+<circle cx="1139" cy="220" r="64" fill="#dbe1f3" stroke="#d1d3e1" stroke-width="1" filter="url(#smallShadow)"/>
+<circle cx="1106" cy="245" r="11" fill="#bfa988" stroke-width="1"/>
+<circle cx="1163" cy="245" r="11" fill="#bfa988" stroke-width="1"/>
+<polygon points="1134.00,193.00 1138.36,206.01 1152.07,206.13 1141.05,214.29 1145.17,227.37 1134.00,219.41 1122.83,227.37 1126.95,214.29 1115.93,206.13 1129.64,206.01" fill="#f5b080" stroke="#9c470e" stroke-width=".9" filter="url(#smallShadow)"/>
+<path d="M1127 219L1106 243" fill="none" stroke="black" stroke-width="1.5" marker-end="url(#arrowBlack)"/>
+<path d="M1141 219L1162 243" fill="none" stroke="black" stroke-width="1.5" marker-end="url(#arrowBlack)"/>
+<text x="1090" y="227" fill="black" font-size="31" font-family="Times New Roman, Liberation Serif, serif"><tspan font-style="italic" font-weight="bold">w</tspan><tspan baseline-shift="-3px" font-size="19">1</tspan></text>
+<text x="1159" y="231" fill="black" font-size="31" font-family="Times New Roman, Liberation Serif, serif"><tspan font-style="italic" font-weight="bold">w</tspan><tspan baseline-shift="-3px" font-size="19">2</tspan></text>
+<text x="1104" y="269" fill="black" font-size="18" font-family="Arial, Helvetica, sans-serif">(1)</text>
+<text x="1148" y="269" fill="black" font-size="18" font-family="Arial, Helvetica, sans-serif">(2)</text>
+<rect x="1224" y="141" width="232" height="157" rx="0" fill="white" stroke="#a69caf" stroke-width="1.5" filter="url(#smallShadow)" stroke-dasharray="11 7"/>
+<text x="1237" y="167" fill="black" font-size="24" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="Arial" font-weight="bold">Each </tspan><tspan font-style="italic">ϕ</tspan><tspan baseline-shift="-3px" font-size="16">(1, 1)</tspan><tspan font-family="Arial" font-weight="bold"> Anchor</tspan></text>
+<circle cx="1241" cy="233" r="11" fill="#bfa988" stroke-width="1"/>
+<text x="1245" y="258" fill="black" font-size="92" font-family="Times New Roman, Liberation Serif, serif">{</text>
+<rect x="1283" y="177" width="76" height="31" rx="4" fill="#b7ab8d" stroke="#817761" stroke-width="1.5" filter="url(#smallShadow)"/>
+<text x="1293" y="198" fill="black" font-size="29" font-family="Times New Roman, Liberation Serif, serif"><tspan font-weight="bold">h</tspan><tspan baseline-shift="-3px" font-size="14">ϕ₍₁, ₁₎</tspan></text>
+<rect x="1283" y="215" width="165" height="33" rx="14" fill="#baae91" stroke="#817761" stroke-width="1.5" filter="url(#smallShadow)"/>
+<text x="1290" y="240.08" fill="black" font-size="29" font-family="Times New Roman, Liberation Serif, serif" textLength="106" lengthAdjust="spacingAndGlyphs">(Δ<tspan font-weight="bold">k</tspan>, Δ<tspan font-weight="bold">v</tspan>)</text>
+<text x="1401" y="228" fill="black" font-size="15" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="DejaVu Serif, serif" font-style="italic" font-weight="normal">ϕ</tspan><tspan baseline-shift="-3px" font-size="9">(1, 1)</tspan></text>
+<rect x="1283" y="254" width="165" height="33" rx="14" fill="#baae91" stroke="#817761" stroke-width="1.5" filter="url(#smallShadow)"/>
+<text x="1290" y="279.08" fill="black" font-size="29" font-family="Times New Roman, Liberation Serif, serif" textLength="106" lengthAdjust="spacingAndGlyphs">(Δ<tspan font-weight="bold">k</tspan>, Δ<tspan font-weight="bold">v</tspan>)</text>
+<text x="1401" y="267" fill="black" font-size="15" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="Times New Roman, Liberation Serif, serif" font-style="normal" font-weight="bold">p</tspan><tspan baseline-shift="-3px" font-size="9">(1, 1)</tspan></text>
+<path d="M1093 490V508H584" fill="none" stroke="#91470e" stroke-width="3" stroke-dasharray="22 16" stroke-linecap="round" filter="url(#smallShadow)"/>
+<path d="M1050 300H1135V490H1050Z" fill="none" stroke="#94470d" stroke-width="3" stroke-dasharray="21 12" filter="url(#smallShadow)"/>
+<rect x="1055" y="306" width="73" height="37" rx="3" fill="#f5b080" stroke="#995419" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="1058.925" y="334.12" fill="black" font-size="30" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="DejaVu Serif, serif" font-style="italic" font-weight="normal">ϕ</tspan><tspan baseline-shift="-3px" font-size="19">(1, 1)</tspan></text>
+<text x="1138" y="335" fill="black" font-size="30" font-family="Times New Roman, Liberation Serif, serif">=</text>
+<rect x="1159" y="306" width="72" height="36" rx="1" fill="url(#hatchOrange)" stroke="#ecf1fa" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="1163.89" y="333.36" fill="black" font-size="29" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="DejaVu Serif, serif" font-style="italic" font-weight="normal">ϕ</tspan><tspan baseline-shift="-3px" font-size="18">(1, 1)</tspan></text>
+<text x="1240" y="333" fill="black" font-size="29" font-family="Times New Roman, Liberation Serif, serif">+<tspan font-style="italic" font-weight="bold">w</tspan><tspan baseline-shift="-3px" font-size="17">1</tspan></text>
+<rect x="1287" y="305" width="166" height="38" rx="14" fill="#baae91" stroke="#817761" stroke-width="1.5" filter="url(#smallShadow)"/>
+<text x="1294" y="333.88" fill="black" font-size="33" font-family="Times New Roman, Liberation Serif, serif" textLength="107" lengthAdjust="spacingAndGlyphs">(Δ<tspan font-weight="bold">k</tspan>, Δ<tspan font-weight="bold">v</tspan>)</text>
+<text x="1406" y="318" fill="black" font-size="15" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="DejaVu Serif, serif" font-style="italic" font-weight="normal">ϕ</tspan><tspan baseline-shift="-3px" font-size="9">(1, 1)</tspan></text>
+<text x="1406" y="337" fill="black" font-size="18" font-family="Times New Roman, Liberation Serif, serif">(1)</text>
+<text x="1139" y="377" fill="black" font-size="30" font-family="Times New Roman, Liberation Serif, serif">+<tspan font-style="italic" font-weight="bold">w</tspan><tspan baseline-shift="-3px" font-size="17">2</tspan></text>
+<rect x="1189" y="350" width="165" height="38" rx="14" fill="#baae91" stroke="#817761" stroke-width="1.5" filter="url(#smallShadow)"/>
+<text x="1196" y="378.88" fill="black" font-size="33" font-family="Times New Roman, Liberation Serif, serif" textLength="106" lengthAdjust="spacingAndGlyphs">(Δ<tspan font-weight="bold">k</tspan>, Δ<tspan font-weight="bold">v</tspan>)</text>
+<text x="1307" y="363" fill="black" font-size="15" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="DejaVu Serif, serif" font-style="italic" font-weight="normal">ϕ</tspan><tspan baseline-shift="-3px" font-size="9">(1, 1)</tspan></text>
+<text x="1307" y="382" fill="black" font-size="18" font-family="Times New Roman, Liberation Serif, serif">(2)</text>
+<rect x="1055" y="400" width="73" height="33" rx="0" fill="#203d68" stroke="#ecf1fa" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="1061.725" y="421.12" fill="white" font-size="31" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="Times New Roman, Liberation Serif, serif" font-style="normal" font-weight="bold">p</tspan><tspan baseline-shift="-3px" font-size="18">(1, 1)</tspan></text>
+<text x="1138" y="430" fill="black" font-size="30" font-family="Times New Roman, Liberation Serif, serif">=</text>
+<rect x="1163" y="401" width="72" height="32" rx="0" fill="#8faada" stroke="#ecf1fa" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="1170.625" y="421.48" fill="black" font-size="30" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="Times New Roman, Liberation Serif, serif" font-style="normal" font-weight="bold">p</tspan><tspan baseline-shift="-3px" font-size="17">(1, 1)</tspan></text>
+<text x="1243" y="427" fill="black" font-size="29" font-family="Times New Roman, Liberation Serif, serif">+<tspan font-style="italic" font-weight="bold">w</tspan><tspan baseline-shift="-3px" font-size="17">1</tspan></text>
+<rect x="1290" y="395" width="164" height="39" rx="14" fill="#baae91" stroke="#817761" stroke-width="1.5" filter="url(#smallShadow)"/>
+<text x="1297" y="424.64" fill="black" font-size="33" font-family="Times New Roman, Liberation Serif, serif" textLength="105" lengthAdjust="spacingAndGlyphs">(Δ<tspan font-weight="bold">k</tspan>, Δ<tspan font-weight="bold">v</tspan>)</text>
+<text x="1407" y="408" fill="black" font-size="15" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="Times New Roman, Liberation Serif, serif" font-style="normal" font-weight="bold">p</tspan><tspan baseline-shift="-3px" font-size="9">(1, 1)</tspan></text>
+<text x="1407" y="428" fill="black" font-size="18" font-family="Times New Roman, Liberation Serif, serif">(1)</text>
+<text x="1138" y="468" fill="black" font-size="30" font-family="Times New Roman, Liberation Serif, serif">+<tspan font-style="italic" font-weight="bold">w</tspan><tspan baseline-shift="-3px" font-size="17">2</tspan></text>
+<rect x="1187" y="440" width="167" height="39" rx="14" fill="#baae91" stroke="#817761" stroke-width="1.5" filter="url(#smallShadow)"/>
+<text x="1194" y="469.64" fill="black" font-size="33" font-family="Times New Roman, Liberation Serif, serif" textLength="108" lengthAdjust="spacingAndGlyphs">(Δ<tspan font-weight="bold">k</tspan>, Δ<tspan font-weight="bold">v</tspan>)</text>
+<text x="1307" y="453" fill="black" font-size="15" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="Times New Roman, Liberation Serif, serif" font-style="normal" font-weight="bold">p</tspan><tspan baseline-shift="-3px" font-size="9">(1, 1)</tspan></text>
+<text x="1307" y="473" fill="black" font-size="18" font-family="Times New Roman, Liberation Serif, serif">(2)</text>
+<circle cx="1080" cy="475" r="4.5" fill="#914008" stroke-width="1"/>
+<circle cx="1093" cy="475" r="4.5" fill="#914008" stroke-width="1"/>
+<circle cx="1106" cy="475" r="4.5" fill="#914008" stroke-width="1"/>
+<g id="unmatched-prediction">
+<rect x="1484" y="131" width="186" height="403" rx="18" fill="white" stroke="#c75e09" stroke-width="3"/>
+<rect x="1493" y="141" width="167" height="154" rx="0" fill="white" stroke="#82758f" stroke-width="3" filter="url(#smallShadow)"/>
+<rect x="1493" y="141" width="167" height="35" rx="0" fill="#b8aec4" stroke="#82758f" stroke-width="3"/>
+<text x="1506" y="166" fill="black" font-size="29" font-family="Times New Roman, Liberation Serif, serif"><tspan font-weight="bold">h</tspan><tspan baseline-shift="-3px" font-size="16">ϕ</tspan></text>
+<text x="1542" y="165" fill="black" font-size="20" font-family="Arial, Helvetica, sans-serif" font-weight="bold">Unmatched</text>
+<circle cx="1515" cy="189" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="1563" cy="221" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="1617" cy="202" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="1523" cy="251" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="1597" cy="268" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="1623" cy="268" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="1610" cy="235" r="27" fill="#dbe1f3" stroke="#d4d7e4" stroke-width="0.7"/>
+<polygon points="1610.00,224.00 1612.52,231.53 1620.46,231.60 1614.08,236.33 1616.47,243.90 1610.00,239.29 1603.53,243.90 1605.92,236.33 1599.54,231.60 1607.48,231.53" fill="#f5b080" stroke="#9c470e" stroke-width=".9"/>
+<text x="1577" y="323" fill="black" font-size="26" font-family="Times New Roman, Liberation Serif, serif" font-weight="bold" text-anchor="middle" font-style="italic">OR</text>
+<rect x="1493" y="335" width="167" height="154" rx="0" fill="white" stroke="#82758f" stroke-width="3" filter="url(#smallShadow)"/>
+<rect x="1493" y="335" width="167" height="30" rx="0" fill="#b8aec4" stroke="#82758f" stroke-width="3"/>
+<text x="1577" y="356" fill="black" font-size="20" font-family="Arial, Helvetica, sans-serif" font-weight="bold" text-anchor="middle">Length Uncover</text>
+<rect x="1507" y="375.0" width="81" height="13" rx="5" fill="#b9ac8e" stroke="#80735b" stroke-width="1" filter="url(#smallShadow)"/>
+<rect x="1507" y="397.5" width="55" height="13" rx="5" fill="#b9ac8e" stroke="#80735b" stroke-width="1" filter="url(#smallShadow)"/>
+<rect x="1507" y="420.0" width="99" height="13" rx="5" fill="#b9ac8e" stroke="#80735b" stroke-width="1" filter="url(#smallShadow)"/>
+<rect x="1507" y="442.5" width="127" height="13" rx="5" fill="#f5b080" stroke="#d06c28" stroke-width="1" filter="url(#smallShadow)"/>
+<circle cx="1577" cy="512" r="16" fill="#c65b05" stroke-width="1"/>
+<line x1="1569.8" y1="512" x2="1584.2" y2="512" stroke="white" stroke-width="2.5"/>
+<line x1="1577" y1="504.8" x2="1577" y2="519.2" stroke="white" stroke-width="2.5"/>
+</g>
+<g id="matched-prediction">
+<rect x="1673" y="131" width="186" height="403" rx="18" fill="white" stroke="#57843c" stroke-width="3"/>
+<rect x="1682" y="141" width="167" height="154" rx="0" fill="white" stroke="#82758f" stroke-width="3" filter="url(#smallShadow)"/>
+<rect x="1682" y="141" width="167" height="35" rx="0" fill="#b8aec4" stroke="#82758f" stroke-width="3"/>
+<text x="1695" y="166" fill="black" font-size="29" font-family="Times New Roman, Liberation Serif, serif"><tspan font-weight="bold">h</tspan><tspan baseline-shift="-3px" font-size="16">ϕ</tspan></text>
+<text x="1731" y="165" fill="black" font-size="20" font-family="Arial, Helvetica, sans-serif" font-weight="bold">Matched</text>
+<circle cx="1722" cy="194" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="1783" cy="183" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="1781" cy="212" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="1811" cy="212" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="1811" cy="246" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="1725" cy="268" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="1747" cy="256" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="1781" cy="277" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="1779" cy="233" r="27" fill="#dbe1f3" stroke="#d4d7e4" stroke-width="0.7"/>
+<circle cx="1781" cy="212" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="1755" cy="222" r="6.5" fill="#bfa988" stroke-width="1"/>
+<circle cx="1800" cy="245" r="6.5" fill="#bfa988" stroke-width="1"/>
+<polygon points="1778.00,222.00 1780.52,229.53 1788.46,229.60 1782.08,234.33 1784.47,241.90 1778.00,237.29 1771.53,241.90 1773.92,234.33 1767.54,229.60 1775.48,229.53" fill="#f5b080" stroke="#9c470e" stroke-width=".9"/>
+<text x="1766" y="323" fill="black" font-size="26" font-family="Times New Roman, Liberation Serif, serif" font-weight="bold" text-anchor="middle" font-style="italic">AND</text>
+<rect x="1682" y="335" width="167" height="154" rx="0" fill="white" stroke="#82758f" stroke-width="3" filter="url(#smallShadow)"/>
+<rect x="1682" y="335" width="167" height="30" rx="0" fill="#b8aec4" stroke="#82758f" stroke-width="3"/>
+<text x="1766" y="356" fill="black" font-size="20" font-family="Arial, Helvetica, sans-serif" font-weight="bold" text-anchor="middle">Length Covered</text>
+<rect x="1696" y="375.0" width="81" height="13" rx="5" fill="#b9ac8e" stroke="#80735b" stroke-width="1" filter="url(#smallShadow)"/>
+<rect x="1696" y="397.5" width="55" height="13" rx="5" fill="#b9ac8e" stroke="#80735b" stroke-width="1" filter="url(#smallShadow)"/>
+<rect x="1696" y="420.0" width="99" height="13" rx="5" fill="#b9ac8e" stroke="#80735b" stroke-width="1" filter="url(#smallShadow)"/>
+<rect x="1696" y="442.5" width="63" height="13" rx="5" fill="#f5b080" stroke="#d06c28" stroke-width="1" filter="url(#smallShadow)"/>
+<circle cx="1766" cy="512" r="16" fill="#548638" stroke-width="1"/>
+<path d="M1756.88,511.84 l5.92,6.08 l12.32,-13.28" fill="none" stroke="white" stroke-width="2.5"/>
+</g>
+</g>
+<g id="legend">
+<rect x="1075" y="578" width="797" height="342" rx="0" fill="white" stroke="black" stroke-width="3" stroke-dasharray="25 14"/>
+<rect x="1096" y="580" width="477" height="175" rx="0" fill="#dfebf6" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="1730" y="620" fill="black" font-size="48" font-family="Arial, Helvetica, sans-serif" font-weight="bold" text-anchor="middle">Legend</text>
+<path d="M1102 585H1564V608H1231V634H1102Z" fill="none" stroke="#203d68" stroke-width="3" stroke-dasharray="13 7"/>
+<text x="1105" y="603" fill="#203d68" font-size="21" font-family="Arial, Helvetica, sans-serif" font-style="italic">You are a math expert. You will be given a math</text>
+<text x="1105" y="628" fill="#203d68" font-size="21" font-family="Arial, Helvetica, sans-serif" font-style="italic">problem  ...Q:</text>
+<rect x="1230" y="608" width="67" height="25" rx="1" fill="url(#hatchOrange)" stroke="#ecf1fa" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="1236.0" y="627.0" fill="black" font-size="25" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="DejaVu Serif, serif" font-style="italic" font-weight="normal">ϕ</tspan><tspan baseline-shift="-3px" font-size="16">(1, 1)</tspan></text>
+<rect x="1333" y="604" width="82" height="24" rx="0" fill="#8faada" stroke="#ecf1fa" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="1350.375" y="619.36" fill="black" font-size="25" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="Times New Roman, Liberation Serif, serif" font-style="normal" font-weight="bold">p</tspan><tspan baseline-shift="-3px" font-size="14">(1, 0)</tspan></text>
+<path d="M1102 634H1420V679H1102Z" fill="none" stroke="#203d68" stroke-width="3" stroke-dasharray="13 7"/>
+<text x="1105" y="651" fill="#203d68" font-size="21" font-family="Arial, Helvetica, sans-serif" font-style="italic">Answers from other agents are:</text>
+<text x="1105" y="675" fill="#203d68" font-size="21" font-family="Arial, Helvetica, sans-serif" font-style="italic">Agent 2 as a mathematical analyst:</text>
+<rect x="1423" y="657" width="66" height="25" rx="1" fill="url(#hatchGreen)" stroke="#ecf1fa" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="1428.5" y="676.0" fill="black" font-size="25" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="DejaVu Serif, serif" font-style="italic" font-weight="normal">ϕ</tspan><tspan baseline-shift="-3px" font-size="16">(1, 2)</tspan></text>
+<text x="1492" y="678" fill="#203d68" font-size="22" font-family="Arial, Helvetica, sans-serif" font-style="italic">,</text>
+<path d="M1420 646H1437" fill="none" stroke="#203d68" stroke-width="2.5" marker-end="url(#arrowNavy)"/>
+<rect x="1439" y="630" width="81" height="25" rx="0" fill="#8faada" stroke="#ecf1fa" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="1455.875" y="646.0" fill="black" font-size="25" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="Times New Roman, Liberation Serif, serif" font-style="normal" font-weight="bold">p</tspan><tspan baseline-shift="-3px" font-size="14">(1, 1)</tspan></text>
+<path d="M1102 679H1301V704H1102Z" fill="none" stroke="#203d68" stroke-width="3" stroke-dasharray="13 7"/>
+<text x="1105" y="700" fill="#203d68" font-size="21" font-family="Arial, Helvetica, sans-serif" font-style="italic">the execution result is</text>
+<rect x="1301" y="681" width="66" height="25" rx="1" fill="url(#hatchOrange)" stroke="#ecf1fa" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="1306.5" y="700.0" fill="black" font-size="25" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="DejaVu Serif, serif" font-style="italic" font-weight="normal">ϕ</tspan><tspan baseline-shift="-3px" font-size="16">(1, 3)</tspan></text>
+<path d="M1370 682H1381V700H1375V719" fill="none" stroke="#203d68" stroke-width="2.5" stroke-dasharray="12 5" marker-end="url(#arrowNavy)"/>
+<path d="M1199 704V718" fill="none" stroke="#203d68" stroke-width="2.5" marker-end="url(#arrowNavy)"/>
+<rect x="1158" y="723" width="83" height="24" rx="0" fill="#8faada" stroke="#ecf1fa" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="1175.875" y="738.36" fill="black" font-size="25" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="Times New Roman, Liberation Serif, serif" font-style="normal" font-weight="bold">p</tspan><tspan baseline-shift="-3px" font-size="14">(1, 2)</tspan></text>
+<rect x="1334" y="723" width="81" height="24" rx="0" fill="#8faada" stroke="#ecf1fa" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="1350.875" y="738.36" fill="black" font-size="25" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="Times New Roman, Liberation Serif, serif" font-style="normal" font-weight="bold">p</tspan><tspan baseline-shift="-3px" font-size="14">(1, 3)</tspan></text>
+<text x="1449" y="744" fill="black" font-size="29" font-family="Arial, Helvetica, sans-serif" font-weight="bold">Example</text>
+<rect x="1110" y="765" width="80" height="35" rx="5" fill="#f5b080" stroke="#9a541c" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="1118.89" y="791.6" fill="black" font-size="29" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="DejaVu Serif, serif" font-style="italic" font-weight="normal">ϕ</tspan><tspan baseline-shift="-3px" font-size="18">(m, i)</tspan></text>
+<text x="1200" y="781" fill="black" font-size="20" font-family="Arial, Helvetica, sans-serif">Estimated KV of the <tspan font-family="Times New Roman" font-style="italic">i</tspan>-th (external input)</text>
+<text x="1200" y="801" fill="black" font-size="20" font-family="Arial, Helvetica, sans-serif">Placeholder of Agent <tspan font-family="Times New Roman" font-style="italic" font-weight="bold">m</tspan></text>
+<rect x="1110" y="820" width="80" height="35" rx="5" fill="#a8cf89" stroke="#567b3d" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="1118.89" y="846.6" fill="black" font-size="29" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="DejaVu Serif, serif" font-style="italic" font-weight="normal">ϕ</tspan><tspan baseline-shift="-3px" font-size="18">(m, i)</tspan></text>
+<text x="1200" y="836" fill="black" font-size="20" font-family="Arial, Helvetica, sans-serif">Estimated KV of the <tspan font-family="Times New Roman" font-style="italic">i</tspan>-th (response)</text>
+<text x="1200" y="855" fill="black" font-size="20" font-family="Arial, Helvetica, sans-serif">Placeholder of Agent <tspan font-family="Times New Roman" font-style="italic" font-weight="bold">m</tspan></text>
+<rect x="1110" y="874" width="81" height="39" rx="0" fill="#203d68" stroke="#ecf1fa" stroke-width="1" filter="url(#smallShadow)"/>
+<text x="1117.65" y="898.96" fill="white" font-size="34" font-family="Times New Roman, Liberation Serif, serif"><tspan font-family="Times New Roman, Liberation Serif, serif" font-style="normal" font-weight="bold">p</tspan><tspan baseline-shift="-3px" font-size="20">(m, i)</tspan></text>
+<text x="1200" y="890" fill="black" font-size="20" font-family="Arial, Helvetica, sans-serif">Estimated KV of the <tspan font-family="Times New Roman" font-style="italic">i</tspan>-th Prefix</text>
+<text x="1200" y="910" fill="black" font-size="20" font-family="Arial, Helvetica, sans-serif">Segment of Agent <tspan font-family="Times New Roman" font-style="italic" font-weight="bold">m</tspan></text>
+<polygon points="1609.00,651.00 1611.29,657.84 1618.51,657.91 1612.71,662.21 1614.88,669.09 1609.00,664.90 1603.12,669.09 1605.29,662.21 1599.49,657.91 1606.71,657.84" fill="#f5b080" stroke="#9c470e" stroke-width=".9" filter="url(#smallShadow)"/>
+<text x="1635" y="656" fill="black" font-size="20" font-family="Arial, Helvetica, sans-serif">Queried (external input)</text>
+<text x="1635" y="676" fill="black" font-size="20" font-family="Arial, Helvetica, sans-serif">Placeholder</text>
+<polygon points="1609.00,699.00 1611.29,705.84 1618.51,705.91 1612.71,710.21 1614.88,717.09 1609.00,712.90 1603.12,717.09 1605.29,710.21 1599.49,705.91 1606.71,705.84" fill="#a8cf89" stroke="#477324" stroke-width=".9" filter="url(#smallShadow)"/>
+<text x="1635" y="707" fill="black" font-size="20" font-family="Arial, Helvetica, sans-serif">Queried (response)</text>
+<text x="1635" y="726" fill="black" font-size="20" font-family="Arial, Helvetica, sans-serif">Placeholder</text>
+<circle cx="1609" cy="757" r="10.5" fill="#bfa988" stroke-width="1"/>
+<text x="1635" y="757" fill="black" font-size="20" font-family="Arial, Helvetica, sans-serif">KV Anchor of the</text>
+<text x="1635" y="777" fill="black" font-size="20" font-family="Arial, Helvetica, sans-serif">Placeholder</text>
+<circle cx="1609" cy="808" r="16" fill="#dbe1f3" stroke="#d4d7e4" stroke-width="0.8" filter="url(#smallShadow)"/>
+<text x="1635" y="814" fill="black" font-size="20" font-family="Arial, Helvetica, sans-serif">Anchor Hit Range</text>
+<circle cx="1609" cy="852" r="16" fill="#c65b05" stroke-width="1"/>
+<line x1="1601.8" y1="852" x2="1616.2" y2="852" stroke="white" stroke-width="2.5"/>
+<line x1="1609" y1="844.8" x2="1609" y2="859.2" stroke="white" stroke-width="2.5"/>
+<text x="1635" y="858" fill="black" font-size="20" font-family="Arial, Helvetica, sans-serif">Add as a New Anchor</text>
+<circle cx="1609" cy="891" r="16" fill="#548638" stroke-width="1"/>
+<path d="M1599.88,890.84 l5.92,6.08 l12.32,-13.28" fill="none" stroke="white" stroke-width="2.5"/>
+<text x="1635" y="895" fill="black" font-size="20" font-family="Arial, Helvetica, sans-serif">Sharable placeholder</text>
+</g>
+</svg>
