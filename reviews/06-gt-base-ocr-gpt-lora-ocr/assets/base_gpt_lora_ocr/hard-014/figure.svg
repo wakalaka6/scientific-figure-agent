@@ -1,0 +1,332 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1878" height="1037" viewBox="0 0 1878 1037">
+<defs>
+<radialGradient id="darkplane"><stop offset="0" stop-color="#bcbcbc"/><stop offset="0.16" stop-color="#707070"/><stop offset="0.5" stop-color="#2b2b2b"/><stop offset="1" stop-color="#050505"/></radialGradient>
+<linearGradient id="redplane" x1="0" y1="0" x2="1" y2="0.9"><stop offset="0" stop-color="#4d0000"/><stop offset="0.35" stop-color="#220000"/><stop offset="0.5" stop-color="#990000"/><stop offset="0.66" stop-color="#330000"/><stop offset="1" stop-color="#080000"/></linearGradient>
+<radialGradient id="redglow" cx="0.5" cy="0.45" r="0.7"><stop offset="0" stop-color="#d21800" stop-opacity="0.55"/><stop offset="0.5" stop-color="#700800" stop-opacity="0.2"/><stop offset="1" stop-color="#000000" stop-opacity="0"/></radialGradient>
+<linearGradient id="graynoise" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#808080"/><stop offset="0.25" stop-color="#d8d8d8"/><stop offset="0.5" stop-color="#6f6f6f"/><stop offset="0.75" stop-color="#b8b8b8"/><stop offset="1" stop-color="#454545"/></linearGradient>
+<linearGradient id="graynoise2" x1="0.2" y1="0" x2="0.9" y2="1"><stop offset="0" stop-color="#585858"/><stop offset="0.3" stop-color="#c8c8c8"/><stop offset="0.55" stop-color="#7a7a7a"/><stop offset="0.8" stop-color="#e8e8e8"/><stop offset="1" stop-color="#555555"/></linearGradient>
+<linearGradient id="graynoise3" x1="0" y1="0.2" x2="0.9" y2="0.9"><stop offset="0" stop-color="#a8a8a8"/><stop offset="0.35" stop-color="#606060"/><stop offset="0.6" stop-color="#d0d0d0"/><stop offset="0.85" stop-color="#888888"/><stop offset="1" stop-color="#383838"/></linearGradient>
+</defs>
+<rect x="0" y="0" width="1878" height="1037" rx="0" fill="white" stroke="#0d2233" stroke-width="2.2" />
+<rect x="10" y="17" width="1607" height="355" rx="15" fill="#f5fafd" stroke="#76b8dd" stroke-width="2.2" />
+<rect x="10" y="397" width="641" height="639" rx="15" fill="#eff2e6" stroke="#a8d096" stroke-width="2.2" />
+<rect x="681" y="683" width="1196" height="353" rx="15" fill="#faf0e7" stroke="#d0bda6" stroke-width="2.2" />
+<rect x="1627" y="17" width="251" height="648" rx="12" fill="white" stroke="#c4c4c4" stroke-width="1.5" />
+<path d="M681,400 H1616 V669 H681 Z" fill="none" stroke="black" stroke-width="4.5" stroke-dasharray="14 8"/>
+<text x="13" y="58" font-family="Times New Roman, Times, serif" font-size="30" text-anchor="middle" fill="black" font-weight="bold">(a)</text>
+<rect x="30" y="101" width="255" height="186" rx="30" fill="none" stroke="#6d6d6d" stroke-width="1.8" stroke-dasharray="12 8"/>
+<path d="M60,140 L117,119 L117,249 L60,270 Z" fill="url(#darkplane)" stroke="black" stroke-width="2" />
+<path d="M117,119 L158,103 L158,220 L117,239 Z" fill="#606060" stroke="black" stroke-width="2" />
+<path d="M133,154 L190,133 L190,261 L133,283 Z" fill="url(#darkplane)" stroke="black" stroke-width="2" />
+<path d="M60,187 L30,187" fill="none" stroke="black" stroke-width="3" />
+<path d="M60,187 L60,297" fill="none" stroke="black" stroke-width="3" />
+<text x="86" y="355" font-family="Times New Roman, Times, serif" font-size="24" text-anchor="middle" fill="black" >y</text>
+<path d="M235,285 L235,247" fill="none" stroke="black" stroke-width="3" />
+<path d="M162,253 L235,253" fill="none" stroke="black" stroke-width="3" />
+<path d="M235,253 L235,311" fill="none" stroke="black" stroke-width="3" />
+<circle cx="235" cy="325" r="13" fill="white" stroke="black" stroke-width="3.2"/>
+<circle cx="235" cy="325" r="4.5" fill="black" stroke="none"/>
+<text x="257" y="352" font-family="Times New Roman, Times, serif" font-size="20" text-anchor="middle" fill="black" >H</text>
+<path d="M235,338 L235,372" fill="none" stroke="black" stroke-width="True" />
+<path d="M285,193 L356,193" fill="none" stroke="black" stroke-width="True" />
+<rect x="348" y="102" width="41" height="181" rx="6" fill="white" stroke="#0d2233" stroke-width="2.2" />
+<text x="368.5" y="192" font-family="Times New Roman, Times, serif" font-size="25" text-anchor="middle" fill="black" transform="rotate(90 368.5 192)">Initialization</text>
+<path d="M389,243 L501,243" fill="none" stroke="black" stroke-width="3" />
+<rect x="421" y="101" width="250" height="189" rx="26" fill="#f6fafd" stroke="#eef4f8" stroke-width="2"/>
+<rect x="765" y="102" width="249" height="188" rx="26" fill="#f6fafd" stroke="#eef4f8" stroke-width="2"/>
+<rect x="1156" y="101" width="249" height="189" rx="26" fill="#f6fafd" stroke="#eef4f8" stroke-width="2"/>
+<path d="M534,26 L534,115" fill="none" stroke="black" stroke-width="True" />
+<text x="542" y="67" font-family="Times New Roman, Times, serif" font-size="24" text-anchor="middle" fill="black" >y</text>
+<rect x="471" y="115" width="104" height="59" rx="9" fill="#c9e9f6" stroke="#0d2233" stroke-width="2.2" />
+<text x="522.5" y="152" font-family="Times New Roman, Times, serif" font-size="29" text-anchor="middle" fill="black" font-weight="bold">ε(·)</text>
+<path d="M471,174 L471,221" fill="none" stroke="black" stroke-width="True" />
+<text x="510" y="205" font-family="Times New Roman, Times, serif" font-size="23" text-anchor="middle" fill="black" ><tspan>Σ</tspan><tspan baseline-shift="super" font-size="14">(1)</tspan></text>
+<rect x="473" y="218" width="103" height="59" rx="9" fill="#f8f4d9" stroke="#0d2233" stroke-width="2.2" />
+<text x="524.5" y="258" font-family="Times New Roman, Times, serif" font-size="29" text-anchor="middle" fill="black" font-weight="bold">proj(·)</text>
+<path d="M606,144.5 L606,126" fill="none" stroke="black" stroke-width="3" />
+<path d="M606,126 L575,True" fill="none" stroke="black" stroke-width="3" />
+<path d="M575,144.5 L606,144.5" fill="none" stroke="black" stroke-width="3" />
+<path d="M606,144.5 L606,216" fill="none" stroke="black" stroke-width="True" />
+<text x="642" y="171" font-family="Times New Roman, Times, serif" font-size="24" text-anchor="middle" fill="black" ><tspan>w</tspan><tspan baseline-shift="super" font-size="14">(1)</tspan></text>
+<rect x="606" y="217" width="103" height="59" rx="9" fill="#e6f0e1" stroke="#0d2233" stroke-width="2.2" />
+<text x="657.5" y="257" font-family="Times New Roman, Times, serif" font-size="29" text-anchor="middle" fill="black" font-weight="bold">prox<tspan>R</tspan><tspan baseline-shift="sub" font-size="14">(·)</tspan></text>
+<path d="M576,247.5 L606,247.5" fill="none" stroke="black" stroke-width="3" />
+<path d="M709,247.5 L709,247.5" fill="none" stroke="black" stroke-width="True" />
+<text x="728" y="283" font-family="Times New Roman, Times, serif" font-size="24" text-anchor="middle" fill="black" ><tspan>z</tspan><tspan baseline-shift="super" font-size="14">(1)</tspan></text>
+<path d="M534,290 L534,372" fill="none" stroke="black" stroke-width="True" />
+<text x="542" y="353" font-family="Times New Roman, Times, serif" font-size="24" text-anchor="middle" fill="black" >(y, H)</text>
+<path d="M878,26 L878,115" fill="none" stroke="black" stroke-width="True" />
+<text x="886" y="67" font-family="Times New Roman, Times, serif" font-size="24" text-anchor="middle" fill="black" >y</text>
+<rect x="816" y="115" width="103" height="59" rx="9" fill="#c9e9f6" stroke="#0d2233" stroke-width="2.2" />
+<text x="867.5" y="152" font-family="Times New Roman, Times, serif" font-size="29" text-anchor="middle" fill="black" font-weight="bold">ε(·)</text>
+<path d="M816,174 L816,221" fill="none" stroke="black" stroke-width="True" />
+<text x="855" y="205" font-family="Times New Roman, Times, serif" font-size="23" text-anchor="middle" fill="black" ><tspan>Σ</tspan><tspan baseline-shift="super" font-size="14">(2)</tspan></text>
+<rect x="817" y="218" width="104" height="59" rx="9" fill="#f8f4d9" stroke="#0d2233" stroke-width="2.2" />
+<text x="869.0" y="258" font-family="Times New Roman, Times, serif" font-size="29" text-anchor="middle" fill="black" font-weight="bold">proj(·)</text>
+<path d="M951,144.5 L951,126" fill="none" stroke="black" stroke-width="3" />
+<path d="M951,126 L919,True" fill="none" stroke="black" stroke-width="3" />
+<path d="M919,144.5 L951,144.5" fill="none" stroke="black" stroke-width="3" />
+<path d="M951,144.5 L951,216" fill="none" stroke="black" stroke-width="True" />
+<text x="987" y="171" font-family="Times New Roman, Times, serif" font-size="24" text-anchor="middle" fill="black" ><tspan>w</tspan><tspan baseline-shift="super" font-size="14">(2)</tspan></text>
+<rect x="951" y="217" width="103" height="59" rx="9" fill="#e6f0e1" stroke="#0d2233" stroke-width="2.2" />
+<text x="1002.5" y="257" font-family="Times New Roman, Times, serif" font-size="29" text-anchor="middle" fill="black" font-weight="bold">prox<tspan>R</tspan><tspan baseline-shift="sub" font-size="14">(·)</tspan></text>
+<path d="M921,247.5 L951,247.5" fill="none" stroke="black" stroke-width="3" />
+<path d="M576,244 L571,244" fill="none" stroke="black" stroke-width="True" />
+<path d="M1054,247.5 L1100,247.5" fill="none" stroke="black" stroke-width="True" />
+<text x="1118" y="283" font-family="Times New Roman, Times, serif" font-size="24" text-anchor="middle" fill="black" ><tspan>z</tspan><tspan baseline-shift="super" font-size="14">(2)</tspan></text>
+<path d="M878,290 L878,372" fill="none" stroke="black" stroke-width="True" />
+<text x="886" y="353" font-family="Times New Roman, Times, serif" font-size="24" text-anchor="middle" fill="black" >(y, H)</text>
+<path d="M1250,26 L1250,115" fill="none" stroke="black" stroke-width="True" />
+<text x="1258" y="67" font-family="Times New Roman, Times, serif" font-size="24" text-anchor="middle" fill="black" >y</text>
+<rect x="1193" y="115" width="103" height="59" rx="9" fill="#c9e9f6" stroke="#0d2233" stroke-width="2.2" />
+<text x="1244.5" y="152" font-family="Times New Roman, Times, serif" font-size="29" text-anchor="middle" fill="black" font-weight="bold">ε(·)</text>
+<path d="M1193,174 L1193,221" fill="none" stroke="black" stroke-width="True" />
+<text x="1232" y="205" font-family="Times New Roman, Times, serif" font-size="23" text-anchor="middle" fill="black" ><tspan>Σ</tspan><tspan baseline-shift="super" font-size="14">(K)</tspan></text>
+<rect x="1197" y="218" width="105" height="59" rx="9" fill="#f8f4d9" stroke="#0d2233" stroke-width="2.2" />
+<text x="1249.5" y="258" font-family="Times New Roman, Times, serif" font-size="29" text-anchor="middle" fill="black" font-weight="bold">proj(·)</text>
+<path d="M1328,144.5 L1328,126" fill="none" stroke="black" stroke-width="3" />
+<path d="M1328,126 L1296,True" fill="none" stroke="black" stroke-width="3" />
+<path d="M1296,144.5 L1328,144.5" fill="none" stroke="black" stroke-width="3" />
+<path d="M1328,144.5 L1328,216" fill="none" stroke="black" stroke-width="True" />
+<text x="1364" y="171" font-family="Times New Roman, Times, serif" font-size="24" text-anchor="middle" fill="black" ><tspan>w</tspan><tspan baseline-shift="super" font-size="14">(K)</tspan></text>
+<rect x="1328" y="217" width="104" height="59" rx="9" fill="#e6f0e1" stroke="#0d2233" stroke-width="2.2" />
+<text x="1380.0" y="257" font-family="Times New Roman, Times, serif" font-size="29" text-anchor="middle" fill="black" font-weight="bold">prox<tspan>R</tspan><tspan baseline-shift="sub" font-size="14">(·)</tspan></text>
+<path d="M1302,247.5 L1328,247.5" fill="none" stroke="black" stroke-width="3" />
+<path d="M926,244 L921,244" fill="none" stroke="black" stroke-width="True" />
+<path d="M1432,247.5 L1481,247.5" fill="none" stroke="black" stroke-width="True" />
+<text x="1499" y="283" font-family="Times New Roman, Times, serif" font-size="24" text-anchor="middle" fill="black" ><tspan>z</tspan><tspan baseline-shift="super" font-size="14">(K)</tspan></text>
+<path d="M1250,290 L1250,372" fill="none" stroke="black" stroke-width="True" />
+<text x="1258" y="353" font-family="Times New Roman, Times, serif" font-size="24" text-anchor="middle" fill="black" >(y, H)</text>
+<path d="M1481,247.5 H1505" fill="none" stroke="black" stroke-width="3" stroke-dasharray="1.5 6" stroke-linecap="round"/>
+<path d="M1506,247.5 L1511,247.5" fill="none" stroke="black" stroke-width="True" />
+<path d="M1512.0,160.0 L1512.0,292.0 L1515.45,290.4 L1515.45,158.4 Z" fill="#111111" stroke="black" stroke-width="2" />
+<path d="M1515.45,158.551 L1515.45,290.551 L1518.9,288.95099999999996 L1518.9,156.951 Z" fill="#99cc00" stroke="black" stroke-width="2" />
+<path d="M1518.9,157.10199999999998 L1518.9,289.102 L1522.3500000000001,287.50199999999995 L1522.3500000000001,155.50199999999998 Z" fill="#22aa22" stroke="black" stroke-width="2" />
+<path d="M1522.35,155.65300000000005 L1522.35,287.653 L1525.8,286.053 L1525.8,154.05300000000005 Z" fill="#ff8800" stroke="black" stroke-width="2" />
+<path d="M1525.8,154.204 L1525.8,286.204 L1529.25,284.604 L1529.25,152.604 Z" fill="#ee1111" stroke="black" stroke-width="2" />
+<path d="M1529.25,152.755 L1529.25,284.755 L1532.7,283.155 L1532.7,151.155 Z" fill="#cc0000" stroke="black" stroke-width="2" />
+<path d="M1532.7,151.30599999999998 L1532.7,283.306 L1536.15,281.70599999999996 L1536.15,149.706 Z" fill="#880000" stroke="black" stroke-width="2" />
+<path d="M1536,151 L1596,126 L1596,270 L1536,294 Z" fill="#550000" stroke="black" stroke-width="2" />
+<path d="M1536,151 L1596,126 L1596,270 L1536,294 Z" fill="url(#redplane)" stroke="black" stroke-width="2" />
+<path d="M1536,151 L1596,126 L1596,270 L1536,294 Z" fill="url(#redglow)" stroke="black" stroke-width="2" />
+<path d="M1536,294 L1596,270 L1596,278 L1536,302 Z" fill="#055555" stroke="black" stroke-width="2" />
+<path d="M1543,291.5 L1596,271 L1596,276 L1543,296.5 Z" fill="#22aa22" stroke="black" stroke-width="2" />
+<path d="M1550,289 L1596,271.3 L1596,275 L1550,293 Z" fill="#cc0000" stroke="black" stroke-width="2" />
+<circle cx="1653" cy="77" r="14" fill="white" stroke="black" stroke-width="3.2"/>
+<circle cx="1653" cy="77" r="4.5" fill="black" stroke="none"/>
+<text x="1675" y="85" font-family="Times New Roman, Times, serif" font-size="25" text-anchor="start" fill="black" >Concatenate</text>
+<circle cx="1653" cy="150" r="14" fill="white" stroke="black" stroke-width="3.2"/>
+<path d="M1643,140 L1663,160" fill="none" stroke="black" stroke-width="3" />
+<path d="M1643,160 L1663,140" fill="none" stroke="black" stroke-width="3" />
+<text x="1675" y="158" font-family="Times New Roman, Times, serif" font-size="25" text-anchor="start" fill="black" >Element-wise</text>
+<text x="1675" y="186" font-family="Times New Roman, Times, serif" font-size="25" text-anchor="start" fill="black" >multiplication</text>
+<circle cx="1653" cy="232" r="14" fill="white" stroke="black" stroke-width="3.2"/>
+<path d="M1643,222 L1663,242" fill="none" stroke="black" stroke-width="3" />
+<path d="M1643,242 L1663,222" fill="none" stroke="black" stroke-width="3" />
+<text x="1653" y="236" font-family="Times New Roman, Times, serif" font-size="17" text-anchor="middle" fill="black" >×</text>
+<text x="1675" y="240" font-family="Times New Roman, Times, serif" font-size="25" text-anchor="start" fill="black" >Matrix</text>
+<text x="1675" y="268" font-family="Times New Roman, Times, serif" font-size="25" text-anchor="start" fill="black" >multiplication</text>
+<circle cx="1653" cy="312" r="14" fill="white" stroke="black" stroke-width="3.2"/>
+<text x="1653" y="319" font-family="Times New Roman, Times, serif" font-size="22" text-anchor="middle" fill="black" >Σ</text>
+<text x="1675" y="320" font-family="Times New Roman, Times, serif" font-size="25" text-anchor="start" fill="black" >Weighted-Sum</text>
+<rect x="1637" y="363" width="87" height="38" rx="7" fill="white" stroke="#0d2233" stroke-width="2.2" />
+<text x="1680" y="391" font-family="Times New Roman, Times, serif" font-size="25" text-anchor="middle" fill="black" font-weight="bold">Down</text>
+<text x="1731" y="381" font-family="Times New Roman, Times, serif" font-size="25" text-anchor="start" fill="black" >Down-</text>
+<text x="1731" y="413" font-family="Times New Roman, Times, serif" font-size="25" text-anchor="start" fill="black" >sample</text>
+<rect x="1637" y="442" width="87" height="38" rx="7" fill="white" stroke="#0d2233" stroke-width="2.2" />
+<text x="1680" y="470" font-family="Times New Roman, Times, serif" font-size="25" text-anchor="middle" fill="black" font-weight="bold">Up</text>
+<text x="1731" y="464" font-family="Times New Roman, Times, serif" font-size="25" text-anchor="start" fill="black" >Up-</text>
+<text x="1731" y="496" font-family="Times New Roman, Times, serif" font-size="25" text-anchor="start" fill="black" >sample</text>
+<rect x="1637" y="520" width="87" height="38" rx="7" fill="white" stroke="#0d2233" stroke-width="2.2" />
+<text x="1680" y="548" font-family="Times New Roman, Times, serif" font-size="25" text-anchor="middle" fill="black" font-weight="bold">LN</text>
+<text x="1731" y="548" font-family="Times New Roman, Times, serif" font-size="25" text-anchor="start" fill="black" >LayerNorm</text>
+<rect x="1637" y="598" width="87" height="38" rx="7" fill="white" stroke="#0d2233" stroke-width="2.2" />
+<text x="1680" y="626" font-family="Times New Roman, Times, serif" font-size="25" text-anchor="middle" fill="black" font-weight="bold">1×1</text>
+<text x="1729" y="622" font-family="Times New Roman, Times, serif" font-size="25" text-anchor="start" fill="black" >Convolution</text>
+<text x="1729" y="652" font-family="Times New Roman, Times, serif" font-size="25" text-anchor="start" fill="black" >1 × 1</text>
+<text x="14" y="447" font-family="Times New Roman, Times, serif" font-size="30" text-anchor="middle" fill="black" font-weight="bold">(c)</text>
+<path d="M117,421 L117,474" fill="none" stroke="black" stroke-width="True" />
+<path d="M554,495 L554,411" fill="none" stroke="black" stroke-width="True" />
+<circle cx="554" cy="458" r="13" fill="white" stroke="black" stroke-width="3.2"/>
+<circle cx="554" cy="458" r="4.5" fill="black" stroke="none"/>
+<text x="118" y="479" font-family="Times New Roman, Times, serif" font-size="15" text-anchor="start" fill="#686868" font-style="italic" >CxHxW</text>
+<rect x="18" y="495" width="183" height="51" rx="9" fill="#fff8ec" stroke="#0d2233" stroke-width="2.2" />
+<text x="109.5" y="530.3" font-family="Times New Roman, Times, serif" font-size="28" text-anchor="middle" fill="black" font-weight="bold">Conv3x3</text>
+<rect x="457" y="495" width="183" height="51" rx="9" fill="#fff8ec" stroke="#0d2233" stroke-width="2.2" />
+<text x="548.5" y="530.3" font-family="Times New Roman, Times, serif" font-size="28" text-anchor="middle" fill="black" font-weight="bold">Conv3x3</text>
+<path d="M110,546 L110,578" fill="none" stroke="black" stroke-width="True" />
+<text x="111" y="561" font-family="Times New Roman, Times, serif" font-size="15" text-anchor="start" fill="#686868" font-style="italic" >CxHxW</text>
+<rect x="18" y="585" width="183" height="51" rx="9" fill="#d6dfeb" stroke="#0d2233" stroke-width="2.2" />
+<text x="109.5" y="620.3" font-family="Times New Roman, Times, serif" font-size="28" text-anchor="middle" fill="black" font-weight="bold">Spa-LWSA</text>
+<rect x="457" y="585" width="183" height="51" rx="9" fill="#f9e5d6" stroke="#0d2233" stroke-width="2.2" />
+<text x="548.5" y="620.3" font-family="Times New Roman, Times, serif" font-size="28" text-anchor="middle" fill="black" font-weight="bold">Spec-TKSA</text>
+<path d="M110,636 L110,669" fill="none" stroke="black" stroke-width="True" />
+<text x="111" y="652" font-family="Times New Roman, Times, serif" font-size="15" text-anchor="start" fill="#686868" font-style="italic" >CxHxW</text>
+<path d="M201,610.5 L250,610.5" fill="none" stroke="black" stroke-width="3" />
+<circle cx="266" cy="610" r="14" fill="white" stroke="black" stroke-width="3.2"/>
+<circle cx="266" cy="610" r="4.5" fill="black" stroke="none"/>
+<path d="M280,610.5 L325,610.5" fill="none" stroke="black" stroke-width="True" />
+<rect x="325" y="598" width="87" height="35" rx="9" fill="#fff8ec" stroke="#0d2233" stroke-width="2.2" />
+<text x="368.5" y="623.55" font-family="Times New Roman, Times, serif" font-size="23" text-anchor="middle" fill="black" font-weight="bold">Fusion</text>
+<path d="M412,610.5 L456,610.5" fill="none" stroke="black" stroke-width="True" />
+<text x="361" y="588" font-family="Times New Roman, Times, serif" font-size="15" text-anchor="middle" fill="#686868" font-style="italic" >CxHxW</text>
+<path d="M201,583 L201,560" fill="none" stroke="black" stroke-width="3" />
+<path d="M201,560 L495,560" fill="none" stroke="black" stroke-width="3" />
+<path d="M495,560 L495,584" fill="none" stroke="black" stroke-width="True" />
+<text x="382" y="574" font-family="Times New Roman, Times, serif" font-size="15" text-anchor="middle" fill="#686868" font-style="italic" >CxHxW</text>
+<rect x="18" y="676" width="183" height="52" rx="9" fill="#e5e5e5" stroke="#0d2233" stroke-width="2.2" />
+<text x="109.5" y="711.8" font-family="Times New Roman, Times, serif" font-size="28" text-anchor="middle" fill="black" font-weight="bold">Down</text>
+<rect x="457" y="675" width="183" height="53" rx="9" fill="#e5e5e5" stroke="#0d2233" stroke-width="2.2" />
+<text x="548.5" y="711.3" font-family="Times New Roman, Times, serif" font-size="28" text-anchor="middle" fill="black" font-weight="bold">Up</text>
+<path d="M110,728 L110,762" fill="none" stroke="black" stroke-width="True" />
+<text x="111" y="735" font-family="Times New Roman, Times, serif" font-size="14" text-anchor="start" fill="#686868" font-style="italic" >2Cx×<tspan>H</tspan><tspan baseline-shift="super" font-size="14">2</tspan>×<tspan>W</tspan><tspan baseline-shift="super" font-size="14">2</tspan></text>
+<path d="M548,728 L548,709" fill="none" stroke="black" stroke-width="True" />
+<path d="M201,701.5 L201,624" fill="none" stroke="black" stroke-width="3" />
+<path d="M201,624 L252,624" fill="none" stroke="black" stroke-width="True" />
+<text x="362" y="695" font-family="Times New Roman, Times, serif" font-size="15" text-anchor="middle" fill="#686868" font-style="italic" >CxHxW</text>
+<rect x="18" y="769" width="183" height="51" rx="9" fill="#d6dfeb" stroke="#0d2233" stroke-width="2.2" />
+<text x="109.5" y="804.3" font-family="Times New Roman, Times, serif" font-size="28" text-anchor="middle" fill="black" font-weight="bold">Spa-LWSA</text>
+<rect x="457" y="768" width="183" height="52" rx="9" fill="#f9e5d6" stroke="#0d2233" stroke-width="2.2" />
+<text x="548.5" y="803.8" font-family="Times New Roman, Times, serif" font-size="28" text-anchor="middle" fill="black" font-weight="bold">Spec-TKSA</text>
+<path d="M110,820 L110,854" fill="none" stroke="black" stroke-width="True" />
+<text x="111" y="830" font-family="Times New Roman, Times, serif" font-size="14" text-anchor="start" fill="#686868" font-style="italic" >2Cx×<tspan>H</tspan><tspan baseline-shift="super" font-size="14">4</tspan>×<tspan>W</tspan><tspan baseline-shift="super" font-size="14">4</tspan></text>
+<path d="M548,820 L548,800" fill="none" stroke="black" stroke-width="True" />
+<path d="M201,794.5 L201,713" fill="none" stroke="black" stroke-width="3" />
+<path d="M201,713 L495,713" fill="none" stroke="black" stroke-width="3" />
+<path d="M495,713 L495,767" fill="none" stroke="black" stroke-width="True" />
+<text x="297" y="685" font-family="Times New Roman, Times, serif" font-size="14" text-anchor="middle" fill="#686868" font-style="italic" >2Cx×<tspan>H</tspan><tspan baseline-shift="super" font-size="14">2</tspan>×<tspan>W</tspan><tspan baseline-shift="super" font-size="14">2</tspan></text>
+<rect x="18" y="860" width="183" height="52" rx="9" fill="#e5e5e5" stroke="#0d2233" stroke-width="2.2" />
+<text x="109.5" y="895.8" font-family="Times New Roman, Times, serif" font-size="28" text-anchor="middle" fill="black" font-weight="bold">Down</text>
+<rect x="457" y="858" width="183" height="53" rx="9" fill="#e5e5e5" stroke="#0d2233" stroke-width="2.2" />
+<text x="548.5" y="894.3" font-family="Times New Roman, Times, serif" font-size="28" text-anchor="middle" fill="black" font-weight="bold">Up</text>
+<path d="M110,912 L110,991" fill="none" stroke="black" stroke-width="3" />
+<path d="M110,991 L258,991" fill="none" stroke="black" stroke-width="True" />
+<path d="M548,911 L548,944" fill="none" stroke="black" stroke-width="True" />
+<path d="M201,885.5 L201,804" fill="none" stroke="black" stroke-width="3" />
+<path d="M201,804 L495,804" fill="none" stroke="black" stroke-width="3" />
+<path d="M495,804 L495,819" fill="none" stroke="black" stroke-width="True" />
+<text x="372" y="809" font-family="Times New Roman, Times, serif" font-size="14" text-anchor="middle" fill="#686868" font-style="italic" >2Cx×<tspan>H</tspan><tspan baseline-shift="super" font-size="14">4</tspan>×<tspan>W</tspan><tspan baseline-shift="super" font-size="14">4</tspan></text>
+<rect x="258" y="965" width="173" height="51" rx="9" fill="#d6dfeb" stroke="#0d2233" stroke-width="2.2" />
+<text x="344.5" y="1000.3" font-family="Times New Roman, Times, serif" font-size="28" text-anchor="middle" fill="black" font-weight="bold">Spa-LWSA</text>
+<text x="683" y="436" font-family="Times New Roman, Times, serif" font-size="30" text-anchor="middle" fill="black" font-weight="bold">(b)</text>
+<text x="727" y="451" font-family="Times New Roman, Times, serif" font-size="20" text-anchor="middle" fill="black" >C</text>
+<text x="914" y="448" font-family="Times New Roman, Times, serif" font-size="20" text-anchor="middle" fill="black" >M′</text>
+<text x="1068" y="446" font-family="Times New Roman, Times, serif" font-size="20" text-anchor="middle" fill="black" >X′</text>
+<text x="1314" y="446" font-family="Times New Roman, Times, serif" font-size="20" text-anchor="middle" fill="black" >X″</text>
+<text x="1531" y="447" font-family="Times New Roman, Times, serif" font-size="20" text-anchor="middle" fill="black" >Y</text>
+<path d="M824,540 L880,540" fill="none" stroke="#b0b0b0" stroke-width="3.6" />
+<path d="M871.0,540.0 L880,540 L871.0,545.0 Z" fill="black" stroke="none" stroke-width="2" />
+<path d="M1003,552 L1059,552" fill="none" stroke="#b0b0b0" stroke-width="3.6" />
+<path d="M1050.0,552.0 L1059,552 L1050.0,557.0 Z" fill="black" stroke="none" stroke-width="2" />
+<path d="M1162,552 L1218,552" fill="none" stroke="#b0b0b0" stroke-width="3.6" />
+<path d="M1209.0,552.0 L1218,552 L1209.0,557.0 Z" fill="black" stroke="none" stroke-width="2" />
+<text x="1192" y="528" font-family="Times New Roman, Times, serif" font-size="22" text-anchor="middle" fill="black" >Dispersion</text>
+<path d="M1441,563 L1498,563" fill="none" stroke="#b0b0b0" stroke-width="3.6" />
+<path d="M1489.0,563.0 L1498,563 L1489.0,568.0 Z" fill="black" stroke="none" stroke-width="2" />
+<text x="1459" y="539" font-family="Times New Roman, Times, serif" font-size="22" text-anchor="middle" fill="black" >Imaging</text>
+<path d="M701.0,481.0 L701.0,593.0 L704.5,591.4 L704.5,479.4 Z" fill="#3a0000" stroke="black" stroke-width="2" />
+<path d="M704.5,479.32 L704.5,591.32 L708.0,589.72 L708.0,477.71999999999997 Z" fill="#660000" stroke="black" stroke-width="2" />
+<path d="M708.0,477.64 L708.0,589.64 L711.5,588.04 L711.5,476.03999999999996 Z" fill="#880000" stroke="black" stroke-width="2" />
+<path d="M711.5,475.96 L711.5,587.96 L715.0,586.36 L715.0,474.35999999999996 Z" fill="#aa2200" stroke="black" stroke-width="2" />
+<path d="M715.0,474.28 L715.0,586.28 L718.5,584.68 L718.5,472.67999999999995 Z" fill="#778800" stroke="black" stroke-width="2" />
+<path d="M718.5,472.6 L718.5,584.6 L722.0,583.0 L722.0,471.0 Z" fill="#22aa22" stroke="black" stroke-width="2" />
+<path d="M722.0,470.92 L722.0,582.92 L725.5,581.3199999999999 L725.5,469.32 Z" fill="#2244cc" stroke="black" stroke-width="2" />
+<path d="M725.5,469.24 L725.5,581.24 L729.0,579.64 L729.0,467.64 Z" fill="#555555" stroke="black" stroke-width="2" />
+<path d="M701,481 L759,560 L759,671 L701,593 Z" fill="url(#redplane)" stroke="black" stroke-width="2" />
+<path d="M701,481 L759,560 L759,671 L701,593 Z" fill="url(#redglow)" stroke="black" stroke-width="2" />
+<path d="M887,462 L944,540 L944,651 L887,573 Z" fill="#0a0a0a" stroke="black" stroke-width="2" />
+<path d="M887,462 L894,458 L894,569 L887,573 Z" fill="#000000" stroke="black" stroke-width="2" />
+<path d="M988.0,481.0 L988.0,593.0 L991.5,591.4 L991.5,479.4 Z" fill="#333" stroke="black" stroke-width="2" />
+<path d="M991.5,479.32 L991.5,591.32 L995.0,589.72 L995.0,477.71999999999997 Z" fill="#225522" stroke="black" stroke-width="2" />
+<path d="M995.0,477.64 L995.0,589.64 L998.5,588.04 L998.5,476.03999999999996 Z" fill="#223" stroke="black" stroke-width="2" />
+<path d="M998.5,475.96 L998.5,587.96 L1002.0,586.36 L1002.0,474.35999999999996 Z" fill="#444" stroke="black" stroke-width="2" />
+<path d="M1002.0,474.28 L1002.0,586.28 L1005.5,584.68 L1005.5,472.67999999999995 Z" fill="#225522" stroke="black" stroke-width="2" />
+<path d="M1005.5,472.6 L1005.5,584.6 L1009.0,583.0 L1009.0,471.0 Z" fill="#333" stroke="black" stroke-width="2" />
+<path d="M1009.0,470.92 L1009.0,582.92 L1012.5,581.3199999999999 L1012.5,469.32 Z" fill="#224444" stroke="black" stroke-width="2" />
+<path d="M988,481 L1045,560 L1045,671 L988,593 Z" fill="url(#redplane)" stroke="black" stroke-width="2" />
+<path d="M988,481 L1045,560 L1045,671 L988,593 Z" fill="url(#redglow)" stroke="black" stroke-width="2" />
+<path d="M1274,534 L1287,527 L1287,638 L1274,645 Z" fill="#04121e" stroke="black" stroke-width="2" />
+<path d="M1289,516 L1302,509 L1302,620 L1289,627 Z" fill="#08222e" stroke="black" stroke-width="2" />
+<path d="M1304,498 L1317,491 L1317,602 L1304,609 Z" fill="#0a3322" stroke="black" stroke-width="2" />
+<path d="M1319,480 L1332,473 L1332,584 L1319,591 Z" fill="#0d4419" stroke="black" stroke-width="2" />
+<path d="M1334,462 L1347,455 L1347,566 L1334,573 Z" fill="#5c3a00" stroke="black" stroke-width="2" />
+<path d="M1349,445 L1362,438 L1362,548 L1349,555 Z" fill="#442200" stroke="black" stroke-width="2" />
+<path d="M1364,423 L1421,502 L1421,613 L1364,535 Z" fill="#260000" stroke="black" stroke-width="2" />
+<path d="M1364,423 L1421,502 L1421,613 L1364,535 Z" fill="url(#redglow)" stroke="black" stroke-width="2" />
+<path d="M1525,440 L1581,519 L1581,628 L1525,551 Z" fill="url(#graynoise2)" stroke="black" stroke-width="2" />
+<text x="729" y="649" font-family="Times New Roman, Times, serif" font-size="20" text-anchor="middle" fill="black" transform="rotate(-44 729 649)">Chromaticity</text>
+<text x="926" y="644" font-family="Times New Roman, Times, serif" font-size="20" text-anchor="middle" fill="black" transform="rotate(-44 926 644)">Mask</text>
+<text x="1115" y="649" font-family="Times New Roman, Times, serif" font-size="20" text-anchor="middle" fill="black" transform="rotate(-44 1115 649)">Modulated HSI</text>
+<text x="1381" y="644" font-family="Times New Roman, Times, serif" font-size="20" text-anchor="middle" fill="black" transform="rotate(-44 1381 644)">Dispersed HSI</text>
+<text x="1589" y="649" font-family="Times New Roman, Times, serif" font-size="20" text-anchor="middle" fill="black" transform="rotate(-44 1589 649)">Measurement</text>
+<text x="683" y="731" font-family="Times New Roman, Times, serif" font-size="30" text-anchor="middle" fill="black" font-weight="bold">(d)</text>
+<path d="M721,712 L721,873" fill="none" stroke="black" stroke-width="3" />
+<path d="M711,873 L762,873" fill="none" stroke="black" stroke-width="True" />
+<text x="699" y="907" font-family="Times New Roman, Times, serif" font-size="18" text-anchor="start" fill="#686868" font-style="italic" >CxH×W</text>
+<rect x="770" y="837" width="48" height="73" rx="7" fill="white" stroke="#0d2233" stroke-width="2.6" />
+<text x="794" y="874" font-family="Times New Roman, Times, serif" font-size="28" text-anchor="middle" fill="black" transform="rotate(-90 794 874)">LN</text>
+<path d="M818,873.5 L851,873.5" fill="none" stroke="black" stroke-width="3" />
+<path d="M851,873.5 L876,873.5" fill="none" stroke="black" stroke-width="True" />
+<path d="M851,873.5 L851,746" fill="none" stroke="black" stroke-width="3" />
+<path d="M851,746 L875,746" fill="none" stroke="black" stroke-width="True" />
+<path d="M851,873.5 L851,1001" fill="none" stroke="black" stroke-width="3" />
+<path d="M851,1001 L875,1001" fill="none" stroke="black" stroke-width="True" />
+<rect x="876" y="744" width="48" height="64" rx="7" fill="#fff8ec" stroke="#0d2233" stroke-width="2.6" />
+<text x="900" y="776" font-family="Times New Roman, Times, serif" font-size="27" text-anchor="middle" fill="black" transform="rotate(-90 900 776)">1×1</text>
+<rect x="876" y="854" width="48" height="64" rx="7" fill="#fff8ec" stroke="#0d2233" stroke-width="2.6" />
+<text x="900" y="886" font-family="Times New Roman, Times, serif" font-size="27" text-anchor="middle" fill="black" transform="rotate(-90 900 886)">1×1</text>
+<rect x="876" y="952" width="48" height="64" rx="7" fill="#fff8ec" stroke="#0d2233" stroke-width="2.6" />
+<text x="900" y="984" font-family="Times New Roman, Times, serif" font-size="27" text-anchor="middle" fill="black" transform="rotate(-90 900 984)">1×1</text>
+<text x="992" y="733" font-family="Times New Roman, Times, serif" font-size="18" text-anchor="middle" fill="#686868" font-style="italic" >CxHW</text>
+<path d="M924,776 L1016,776" fill="none" stroke="black" stroke-width="3" />
+<path d="M1016,776 L1016,817" fill="none" stroke="black" stroke-width="True" />
+<text x="955" y="765" font-family="Times New Roman, Times, serif" font-size="29" text-anchor="middle" fill="black" >Q</text>
+<path d="M924,886 L1016,886" fill="none" stroke="black" stroke-width="3" />
+<path d="M1016,886 L1016,852" fill="none" stroke="black" stroke-width="True" />
+<text x="954" y="877" font-family="Times New Roman, Times, serif" font-size="29" text-anchor="middle" fill="black" >K</text>
+<circle cx="1015" cy="835" r="14" fill="white" stroke="black" stroke-width="3.2"/>
+<path d="M1005,825 L1025,845" fill="none" stroke="black" stroke-width="3" />
+<path d="M1005,845 L1025,825" fill="none" stroke="black" stroke-width="3" />
+<path d="M1030,835 L1063,835" fill="none" stroke="black" stroke-width="True" />
+<text x="980" y="910" font-family="Times New Roman, Times, serif" font-size="18" text-anchor="middle" fill="#686868" font-style="italic" >CxHW</text>
+<text x="1102" y="779" font-family="Times New Roman, Times, serif" font-size="20" text-anchor="middle" fill="black" font-style="italic">C×C</text>
+<rect x="1049" y="780" width="105" height="111" rx="0" fill="url(#graynoise)" stroke="#999999" stroke-width="1" />
+<path d="M1155,835 L1181,835" fill="none" stroke="black" stroke-width="True" />
+<rect x="1182" y="783" width="48" height="104" rx="7" fill="white" stroke="#0d2233" stroke-width="2.6" />
+<text x="1206" y="835" font-family="Times New Roman, Times, serif" font-size="26" text-anchor="middle" fill="black" transform="rotate(-90 1206 835)">Mask</text>
+<path d="M1231,835 L1256,835" fill="none" stroke="black" stroke-width="True" />
+<rect x="1265" y="748" width="106" height="111" rx="0" fill="white" stroke="#a9a9a9" stroke-width="1" />
+<rect x="1278" y="761" width="106" height="111" rx="0" fill="url(#graynoise3)" stroke="#a9a9a9" stroke-width="1" />
+<rect x="1291" y="774" width="106" height="111" rx="0" fill="url(#graynoise)" stroke="#a9a9a9" stroke-width="1" />
+<path d="M1364,786 L1398,786" fill="none" stroke="black" stroke-width="True" />
+<path d="M1392,805 L1416,805" fill="none" stroke="black" stroke-width="True" />
+<path d="M1398,852 L1422,852" fill="none" stroke="black" stroke-width="True" />
+<rect x="1443" y="753" width="48" height="163" rx="7" fill="white" stroke="#0d2233" stroke-width="2.6" />
+<text x="1467" y="835" font-family="Times New Roman, Times, serif" font-size="25" text-anchor="middle" fill="black" transform="rotate(-90 1467 835)">Softmax</text>
+<path d="M1491,835 L1554,835" fill="none" stroke="black" stroke-width="3" />
+<path d="M1554,835 L1554,972" fill="none" stroke="black" stroke-width="True" />
+<circle cx="1554" cy="987" r="14" fill="white" stroke="black" stroke-width="3.2"/>
+<path d="M1544,977 L1564,997" fill="none" stroke="black" stroke-width="3" />
+<path d="M1544,997 L1564,977" fill="none" stroke="black" stroke-width="3" />
+<path d="M1569,987 L1616,987" fill="none" stroke="black" stroke-width="True" />
+<circle cx="1644" cy="987" r="14" fill="white" stroke="black" stroke-width="3.2"/>
+<text x="1644" y="994" font-family="Times New Roman, Times, serif" font-size="22" text-anchor="middle" fill="black" >Σ</text>
+<path d="M1659,987 L1710,987" fill="none" stroke="black" stroke-width="True" />
+<rect x="1713" y="950" width="48" height="73" rx="7" fill="white" stroke="#0d2233" stroke-width="2.6" />
+<text x="1737" y="987" font-family="Times New Roman, Times, serif" font-size="27" text-anchor="middle" fill="black" transform="rotate(-90 1737 987)">1×1</text>
+<path d="M1761,987 L1806,987" fill="none" stroke="black" stroke-width="True" />
+<circle cx="1808" cy="987" r="14" fill="white" stroke="black" stroke-width="3.2"/>
+<path d="M1794,987 L1822,987" fill="none" stroke="black" stroke-width="3" />
+<path d="M1808,973 L1808,1001" fill="none" stroke="black" stroke-width="3" />
+<path d="M1823,987 L1854,987" fill="none" stroke="black" stroke-width="True" />
+<text x="1808" y="1023" font-family="Times New Roman, Times, serif" font-size="18" text-anchor="middle" fill="#686868" font-style="italic" >CxH×W</text>
+<path d="M1761,986 L1800,986" fill="none" stroke="black" stroke-width="3" />
+<path d="M1800,986 L1800,712" fill="none" stroke="black" stroke-width="3" />
+<path d="M1800,712 L721,712" fill="none" stroke="black" stroke-width="3" />
+<path d="M1800,987 L1800,965" fill="none" stroke="black" stroke-width="True" />
+<path d="M1737,950 L1737,929" fill="none" stroke="black" stroke-width="3" />
+<path d="M1737,929 L931,929" fill="none" stroke="black" stroke-width="3" />
+<path d="M931,929 L931,1001" fill="none" stroke="black" stroke-width="3" />
+<path d="M931,1001 L923,1001" fill="none" stroke="black" stroke-width="True" />
+<text x="963" y="970" font-family="Times New Roman, Times, serif" font-size="18" text-anchor="middle" fill="#686868" font-style="italic" >CxHW</text>
+</svg>

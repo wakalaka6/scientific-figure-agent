@@ -1,0 +1,226 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1890" height="1210" viewBox="0 0 1890 1210">
+<defs>
+<linearGradient id="pg" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#fdf8dc"/><stop offset="1" stop-color="#f5da92"/>
+</linearGradient>
+<filter id="ds" x="-30%" y="-30%" width="160%" height="160%">
+<feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.22"/>
+</filter>
+<clipPath id="clipTrain"><rect x="5" y="5" width="1880" height="848" rx="18"/></clipPath>
+</defs>
+<rect width="1890" height="1210" fill="#ffffff"/>
+<g clip-path="url(#clipTrain)">
+<rect x="5" y="5" width="438" height="848" fill="#fbfcfe"/>
+<rect x="443" y="5" width="603" height="848" fill="#e9f1fb"/>
+<rect x="1046" y="5" width="839" height="848" fill="#fdf2de"/>
+<line x1="443" y1="6" x2="443" y2="852" stroke="#d8e2ee" stroke-width="1.5"/>
+<line x1="1046" y1="6" x2="1046" y2="852" stroke="#ead9b6" stroke-width="1.5"/>
+</g>
+<rect x="12" y="16" width="335" height="62" rx="12" fill="#d5d8d8" opacity="0.8"/>
+<text x="85" y="62" font-family="Georgia, 'Times New Roman', serif" font-size="38" fill="#111" text-anchor="start" font-weight="bold" font-style="italic">Training</text>
+<text x="701" y="62" font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="#5b8fc7" text-anchor="middle" font-weight="bold" font-style="italic">Subject-Invariant Feature Extraction</text>
+<text x="1391" y="62" font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="#f09d3c" text-anchor="middle" font-weight="bold" font-style="italic">Semantic-Specific Feature Extraction</text>
+<circle cx="128" cy="256" r="23" fill="#f6cfa8" stroke="#333" stroke-width="2.5"/><path d="M 105 256 A 23 23 0 0 1 151 256 Q 128 266 105 256 Z" fill="#8a5a2a" stroke="#333" stroke-width="2"/>
+<circle cx="168" cy="252" r="23" fill="#f6cfa8" stroke="#333" stroke-width="2.5"/><path d="M 145 252 A 23 23 0 0 1 191 252 Q 168 262 145 252 Z" fill="#f5c542" stroke="#333" stroke-width="2"/>
+<circle cx="208" cy="256" r="23" fill="#f6cfa8" stroke="#333" stroke-width="2.5"/><path d="M 185 256 A 23 23 0 0 1 231 256 Q 208 266 185 256 Z" fill="#4a7a9a" stroke="#333" stroke-width="2"/>
+<text x="100" y="182" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#111" text-anchor="middle" font-weight="bold" font-style="normal">?</text>
+<text x="168" y="158" font-family="Georgia, 'Times New Roman', serif" font-size="46" font-style="italic" text-anchor="middle" fill="#ef8fb5" stroke="#c05070" stroke-width="1.5" paint-order="stroke">?</text>
+<text x="234" y="182" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#111" text-anchor="middle" font-weight="bold" font-style="normal">?</text>
+<text x="168" y="326" font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="#111" text-anchor="middle" font-weight="bold" font-style="italic">Subject</text>
+<text x="224" y="148" font-family="Georgia, 'Times New Roman', serif" fill="#7ba7d0" text-anchor="middle"><tspan font-size="40" font-style="italic">L</tspan><tspan font-size="23" font-style="italic" dy="-16.8">E</tspan><tspan font-size="23" font-style="italic" dy="31.2">cls</tspan></text>
+<polygon points="256.9,196.1 301.1,160.3 305.7,165.9 316.0,138.0 286.5,142.3 246.9,183.7 242.3,178.1 232.0,206.0 261.5,201.7" fill="#a8cbe4" stroke="#1e3a5f" stroke-width="2" stroke-linejoin="round"/>
+<g filter="url(#ds)"><rect x="345" y="117" width="98" height="72" rx="10" fill="#d3e6f2" stroke="#1e3a5f" stroke-width="3"/></g>
+<text x="394" y="163" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#111" text-anchor="middle" font-weight="bold" font-style="normal">CLS</text>
+<polygon points="508.0,147.5 466.4,147.5 466.4,143.4 452.0,152.0 466.4,160.6 508.0,156.5" fill="#c9c9c9" stroke="#c9c9c9" stroke-width="1" stroke-linejoin="round"/>
+<g filter="url(#ds)"><rect x="342" y="300" width="110" height="54" rx="10" fill="#f2d5d5" stroke="#1e3a5f" stroke-width="3"/></g>
+<text x="397" y="337" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#a03030" text-anchor="middle" font-weight="bold" font-style="normal">GRL</text>
+<rect x="342" y="352" width="110" height="54" rx="10" fill="#e8eef2" stroke="#1e3a5f" stroke-width="3"/>
+<text x="397" y="392" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#333" text-anchor="middle" font-weight="bold" font-style="normal">DIS</text>
+<polygon points="508.0,383.5 472.4,383.5 472.4,379.4 458.0,388.0 472.4,396.6 508.0,392.5" fill="#c9c9c9" stroke="#c9c9c9" stroke-width="1" stroke-linejoin="round"/>
+<text x="228" y="418" font-family="Georgia, 'Times New Roman', serif" fill="#7ba7d0" text-anchor="middle"><tspan font-size="38" font-style="italic">L</tspan><tspan font-size="22" font-style="italic" dy="-16.0">E</tspan><tspan font-size="22" font-style="italic" dy="29.6">dis</tspan></text>
+<polygon points="252.1,341.4 297.2,364.0 294.2,370.0 322.0,368.0 306.9,344.5 258.8,328.0 261.8,322.0 234.0,324.0 249.1,347.5" fill="#a8cbe4" stroke="#1e3a5f" stroke-width="2" stroke-linejoin="round"/>
+<line x1="252" y1="364" x2="306" y2="330" stroke="#222" stroke-width="5"/>
+<g filter="url(#ds)"><rect x="102" y="478" width="138" height="120" rx="8" fill="#dceef8" stroke="#4a4a4a" stroke-width="3"/></g><line x1="117" y1="492" x2="117" y2="584" stroke="#666" stroke-width="2"/><line x1="112" y1="510.4" x2="122" y2="510.4" stroke="#666" stroke-width="2"/><line x1="112" y1="528.8" x2="122" y2="528.8" stroke="#666" stroke-width="2"/><line x1="112" y1="547.2" x2="122" y2="547.2" stroke="#666" stroke-width="2"/><line x1="112" y1="565.6" x2="122" y2="565.6" stroke="#666" stroke-width="2"/><g>
+<ellipse cx="167.0" cy="538.0" rx="17.0" ry="24.0" fill="#f2a8a8" stroke="#c25a5a" stroke-width="2.5"/>
+<ellipse cx="187.0" cy="538.0" rx="17.0" ry="24.0" fill="#f2a8a8" stroke="#c25a5a" stroke-width="2.5"/>
+<line x1="177.0" y1="514.0" x2="177.0" y2="562.0" stroke="#c25a5a" stroke-width="2.5"/>
+<path d="M 172.0 524.0 q -8.0 5.0 -3.0 11.0 q 5.0 5.0 -4.0 12.0" fill="none" stroke="#c25a5a" stroke-width="2"/>
+<path d="M 182.0 524.0 q 8.0 5.0 3.0 11.0 q -5.0 5.0 4.0 12.0" fill="none" stroke="#c25a5a" stroke-width="2"/>
+</g><line x1="214" y1="582" x2="232" y2="582" stroke="#666" stroke-width="2"/><polyline points="242.0,513.0 252.8,513.0 258.2,493.2 265.4,525.6 270.8,500.4 278.0,505.8 292.4,505.8" fill="none" stroke="#333" stroke-width="2.0"/><polygon points="157.0,598 185.0,598 193.0,618 149.0,618" fill="#8a8a8a" stroke="#555" stroke-width="2"/><rect x="139.0" y="618" width="64" height="9" rx="3" fill="#777"/><text x="171.0" y="468" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#666" text-anchor="middle" font-weight="bold" font-style="normal">fMRI</text>
+<polygon points="246.0,594.0 285.2,594.0 285.2,602.1 314.0,585.0 285.2,567.9 246.0,576.0" fill="#a8cbe4" stroke="#1e3a5f" stroke-width="2" stroke-linejoin="round"/>
+<g filter="url(#ds)"><polygon points="312,494 440,556 440,622 312,686" fill="#dceef8" stroke="#1e3a5f" stroke-width="3"/></g>
+<text x="386" y="598" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#111" text-anchor="middle" font-weight="bold" font-style="normal">ViT</text>
+<polygon points="440.0,524.1 555.2,580.4 551.6,587.7 585.0,585.0 566.6,557.0 448.0,507.9" fill="#a8cbe4" stroke="#1e3a5f" stroke-width="2" stroke-linejoin="round"/>
+<path d="M 112 700 Q 112 668 137 668 Q 162 668 162 700 Z" fill="#666" stroke="#333" stroke-width="2.5"/><circle cx="137" cy="646" r="19" fill="#f6cfa8" stroke="#333" stroke-width="2.5"/><path d="M 118 646 A 19 19 0 0 1 156 646 Q 137 656 118 646 Z" fill="#9a9a9a" stroke="#333" stroke-width="2"/><circle cx="130" cy="644" r="2.6" fill="#333"/><circle cx="144" cy="644" r="2.6" fill="#333"/><path d="M 129 655 Q 137 662 145 655" fill="none" stroke="#333" stroke-width="2"/>
+<path d="M 168 700 Q 168 668 193 668 Q 218 668 218 700 Z" fill="#e8a0b0" stroke="#333" stroke-width="2.5"/><circle cx="193" cy="646" r="19" fill="#f6cfa8" stroke="#333" stroke-width="2.5"/><path d="M 174 646 A 19 19 0 0 1 212 646 Q 193 656 174 646 Z" fill="#f5c542" stroke="#333" stroke-width="2"/><circle cx="186" cy="644" r="2.6" fill="#333"/><circle cx="200" cy="644" r="2.6" fill="#333"/><path d="M 185 655 Q 193 662 201 655" fill="none" stroke="#333" stroke-width="2"/>
+<path d="M 92 766 Q 92 734 117 734 Q 142 734 142 766 Z" fill="#f5c542" stroke="#333" stroke-width="2.5"/><circle cx="117" cy="712" r="19" fill="#f6cfa8" stroke="#333" stroke-width="2.5"/><path d="M 98 712 A 19 19 0 0 1 136 712 Q 117 722 98 712 Z" fill="#8a5a2a" stroke="#333" stroke-width="2"/><circle cx="110" cy="710" r="2.6" fill="#333"/><circle cx="124" cy="710" r="2.6" fill="#333"/><path d="M 109 721 Q 117 728 125 721" fill="none" stroke="#333" stroke-width="2"/>
+<path d="M 145 770 Q 145 738 170 738 Q 195 738 195 770 Z" fill="#f08080" stroke="#333" stroke-width="2.5"/><circle cx="170" cy="716" r="19" fill="#f6cfa8" stroke="#333" stroke-width="2.5"/><path d="M 151 716 A 19 19 0 0 1 189 716 Q 170 726 151 716 Z" fill="#777" stroke="#333" stroke-width="2"/><circle cx="163" cy="714" r="2.6" fill="#333"/><circle cx="177" cy="714" r="2.6" fill="#333"/><path d="M 162 725 Q 170 732 178 725" fill="none" stroke="#333" stroke-width="2"/>
+<path d="M 199 766 Q 199 734 224 734 Q 249 734 249 766 Z" fill="#5a9ad8" stroke="#333" stroke-width="2.5"/><circle cx="224" cy="712" r="19" fill="#f6cfa8" stroke="#333" stroke-width="2.5"/><path d="M 205 712 A 19 19 0 0 1 243 712 Q 224 722 205 712 Z" fill="#b08050" stroke="#333" stroke-width="2"/><circle cx="217" cy="710" r="2.6" fill="#333"/><circle cx="231" cy="710" r="2.6" fill="#333"/><path d="M 216 721 Q 224 728 232 721" fill="none" stroke="#333" stroke-width="2"/>
+<text x="172" y="800" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#111" text-anchor="middle" font-weight="bold" font-style="normal">Train Subjects</text>
+<rect x="516.0" y="97" width="30.2" height="90" fill="#ffffff" stroke="#1e3a5f" stroke-width="3.5"/><rect x="537.2" y="101" width="7" height="82" fill="#4a6f96"/><rect x="549.2" y="97" width="30.2" height="90" fill="#ffffff" stroke="#1e3a5f" stroke-width="3.5"/><rect x="570.5" y="101" width="7" height="82" fill="#4a6f96"/><rect x="582.5" y="97" width="30.2" height="90" fill="#ffffff" stroke="#1e3a5f" stroke-width="3.5"/><rect x="603.8" y="101" width="7" height="82" fill="#4a6f96"/><rect x="615.8" y="97" width="30.2" height="90" fill="#ffffff" stroke="#1e3a5f" stroke-width="3.5"/><rect x="637.0" y="101" width="7" height="82" fill="#4a6f96"/>
+<text x="662" y="216" font-family="Georgia, 'Times New Roman', serif" fill="#111" text-anchor="middle"><tspan font-size="34" font-style="italic">E</tspan><tspan font-size="20" font-style="italic" dy="12.2">s</tspan></text>
+<polygon points="658.0,158.0 900.0,158.0 900.0,168.8 934.0,146.0 900.0,123.2 658.0,134.0" fill="#a8cbe4" stroke="#1e3a5f" stroke-width="2.5" stroke-linejoin="round"/>
+<g filter="url(#ds)"><rect x="942" y="100" width="180" height="92" rx="15" fill="url(#pg)" stroke="#1e3a5f" stroke-width="4"/></g><text x="1032.0" y="134.0" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#111" text-anchor="middle" font-weight="bold" font-style="normal">Vision</text><text x="1032.0" y="168.0" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#111" text-anchor="middle" font-weight="bold" font-style="normal">Projector</text>
+<text x="1032" y="240" font-family="Georgia, 'Times New Roman', serif" fill="#111" text-anchor="middle"><tspan font-size="38" font-style="italic">P</tspan><tspan font-size="22" font-style="italic" dy="13.7">i</tspan><tspan font-size="36" font-style="normal" dy="-13.7">(</tspan><tspan font-size="36" font-style="normal">·</tspan><tspan font-size="36" font-style="normal">)</tspan></text>
+<polygon points="1122.0,159.0 1387.6,159.0 1387.6,165.3 1410.0,152.0 1387.6,138.7 1122.0,145.0" fill="#f2e3b0" stroke="#6b5a20" stroke-width="2" stroke-linejoin="round"/>
+<rect x="1238" y="166" width="94" height="42" rx="8" fill="#f2d5d5" stroke="#1e3a5f" stroke-width="3"/>
+<text x="1285" y="195" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#a03030" text-anchor="middle" font-weight="bold" font-style="normal">GRL</text>
+<rect x="1418.0" y="99" width="30.2" height="92" fill="#ffffff" stroke="#1e3a5f" stroke-width="3.5"/><rect x="1439.2" y="103" width="7" height="84" fill="#4a6f96"/><rect x="1451.2" y="99" width="30.2" height="92" fill="#ffffff" stroke="#1e3a5f" stroke-width="3.5"/><rect x="1472.5" y="103" width="7" height="84" fill="#4a6f96"/><rect x="1484.5" y="99" width="30.2" height="92" fill="#ffffff" stroke="#1e3a5f" stroke-width="3.5"/><rect x="1505.8" y="103" width="7" height="84" fill="#4a6f96"/><rect x="1517.8" y="99" width="30.2" height="92" fill="#ffffff" stroke="#1e3a5f" stroke-width="3.5"/><rect x="1539.0" y="103" width="7" height="84" fill="#4a6f96"/>
+<text x="1378" y="212" font-family="Georgia, 'Times New Roman', serif" fill="#111" text-anchor="middle"><tspan font-size="32" font-style="italic">F</tspan><tspan font-size="19" font-style="italic" dy="11.5">i</tspan></text>
+<circle cx="578" cy="265" r="17" fill="#fff" stroke="#1e3a5f" stroke-width="4"/>
+<line x1="561" y1="265" x2="595" y2="265" stroke="#1e3a5f" stroke-width="4.5"/>
+<text x="630" y="274" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#111" text-anchor="start" font-weight="bold" font-style="italic">Difference</text>
+<polygon points="573.5,189.0 573.5,231.6 569.5,231.6 578.0,246.0 586.5,231.6 582.5,189.0" fill="#c9c9c9" stroke="#c9c9c9" stroke-width="1" stroke-linejoin="round"/>
+<line x1="578" y1="282" x2="578" y2="316" stroke="#c9c9c9" stroke-width="8"/>
+<path d="M 596 268 C 668 300, 670 470, 640 552" fill="none" stroke="#d8d8d8" stroke-width="5"/>
+<rect x="516.0" y="317" width="30.2" height="94" fill="#dce8f4" stroke="#1e3a5f" stroke-width="3.5"/><rect x="537.2" y="321" width="7" height="86" fill="#7a9ab8"/><rect x="549.2" y="317" width="30.2" height="94" fill="#dce8f4" stroke="#1e3a5f" stroke-width="3.5"/><rect x="570.5" y="321" width="7" height="86" fill="#7a9ab8"/><rect x="582.5" y="317" width="30.2" height="94" fill="#dce8f4" stroke="#1e3a5f" stroke-width="3.5"/><rect x="603.8" y="321" width="7" height="86" fill="#7a9ab8"/><rect x="615.8" y="317" width="30.2" height="94" fill="#dce8f4" stroke="#1e3a5f" stroke-width="3.5"/><rect x="637.0" y="321" width="7" height="86" fill="#7a9ab8"/>
+<text x="662" y="434" font-family="Georgia, 'Times New Roman', serif" fill="#111" text-anchor="middle"><tspan font-size="34" font-style="italic">E</tspan><tspan font-size="20" font-style="italic" dy="12.2">i</tspan></text>
+<polygon points="658.0,376.0 900.0,376.0 900.0,386.8 934.0,364.0 900.0,341.2 658.0,352.0" fill="#a8cbe4" stroke="#1e3a5f" stroke-width="2.5" stroke-linejoin="round"/>
+<g filter="url(#ds)"><rect x="942" y="318" width="180" height="92" rx="15" fill="url(#pg)" stroke="#1e3a5f" stroke-width="4"/></g><text x="1032.0" y="352.0" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#111" text-anchor="middle" font-weight="bold" font-style="normal">Vision</text><text x="1032.0" y="386.0" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#111" text-anchor="middle" font-weight="bold" font-style="normal">Projector</text>
+<text x="1032" y="458" font-family="Georgia, 'Times New Roman', serif" fill="#111" text-anchor="middle"><tspan font-size="38" font-style="italic">P</tspan><tspan font-size="22" font-style="italic" dy="13.7">s</tspan><tspan font-size="36" font-style="normal" dy="-13.7">(</tspan><tspan font-size="36" font-style="normal">·</tspan><tspan font-size="36" font-style="normal">)</tspan></text>
+<polygon points="1122.0,377.0 1387.6,377.0 1387.6,383.3 1410.0,370.0 1387.6,356.7 1122.0,363.0" fill="#f2e3b0" stroke="#6b5a20" stroke-width="2" stroke-linejoin="round"/>
+<rect x="1418.0" y="318" width="30.2" height="94" fill="#f3d97e" stroke="#1e3a5f" stroke-width="3.5"/><rect x="1439.2" y="322" width="7" height="86" fill="#c8a030"/><rect x="1451.2" y="318" width="30.2" height="94" fill="#f3d97e" stroke="#1e3a5f" stroke-width="3.5"/><rect x="1472.5" y="322" width="7" height="86" fill="#c8a030"/><rect x="1484.5" y="318" width="30.2" height="94" fill="#f3d97e" stroke="#1e3a5f" stroke-width="3.5"/><rect x="1505.8" y="322" width="7" height="86" fill="#c8a030"/><rect x="1517.8" y="318" width="30.2" height="94" fill="#f3d97e" stroke="#1e3a5f" stroke-width="3.5"/><rect x="1539.0" y="322" width="7" height="86" fill="#c8a030"/>
+<text x="1378" y="432" font-family="Georgia, 'Times New Roman', serif" fill="#111" text-anchor="middle"><tspan font-size="32" font-style="italic">F</tspan><tspan font-size="19" font-style="italic" dy="11.5">s</tspan></text>
+<rect x="520.0" y="538" width="30.2" height="92" fill="#8fa9c6" stroke="#1e3a5f" stroke-width="3.5"/><rect x="541.2" y="542" width="7" height="84" fill="#4a6a8e"/><rect x="553.2" y="538" width="30.2" height="92" fill="#8fa9c6" stroke="#1e3a5f" stroke-width="3.5"/><rect x="574.5" y="542" width="7" height="84" fill="#4a6a8e"/><rect x="586.5" y="538" width="30.2" height="92" fill="#8fa9c6" stroke="#1e3a5f" stroke-width="3.5"/><rect x="607.8" y="542" width="7" height="84" fill="#4a6a8e"/><rect x="619.8" y="538" width="30.2" height="92" fill="#8fa9c6" stroke="#1e3a5f" stroke-width="3.5"/><rect x="641.0" y="542" width="7" height="84" fill="#4a6a8e"/>
+<text x="606" y="670" font-family="Georgia, 'Times New Roman', serif" fill="#111" text-anchor="middle"><tspan font-size="36" font-style="italic">E</tspan></text>
+<polygon points="590.0,530.0 590.0,452.0 600.8,452.0 578.0,418.0 555.2,452.0 566.0,530.0" fill="#a8cbe4" stroke="#1e3a5f" stroke-width="2.5" stroke-linejoin="round"/>
+<text x="490" y="496" font-family="Georgia, 'Times New Roman', serif" fill="#111" text-anchor="middle"><tspan font-size="34" font-style="italic">F</tspan><tspan font-size="20" font-style="italic" dy="12.2">i</tspan><tspan font-size="32" font-style="normal" dy="-12.2">(</tspan><tspan font-size="32" font-style="normal">·</tspan><tspan font-size="32" font-style="normal">)</tspan></text>
+<polygon points="658.0,598.0 900.0,598.0 900.0,608.8 934.0,586.0 900.0,563.2 658.0,574.0" fill="#a8cbe4" stroke="#1e3a5f" stroke-width="2.5" stroke-linejoin="round"/>
+<g filter="url(#ds)"><rect x="942" y="540" width="180" height="92" rx="15" fill="url(#pg)" stroke="#1e3a5f" stroke-width="4"/></g><text x="1032.0" y="574.0" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#111" text-anchor="middle" font-weight="bold" font-style="normal">Vision</text><text x="1032.0" y="608.0" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#111" text-anchor="middle" font-weight="bold" font-style="normal">Projector</text>
+<text x="1032" y="680" font-family="Georgia, 'Times New Roman', serif" fill="#111" text-anchor="middle"><tspan font-size="38" font-style="italic">P</tspan><tspan font-size="36" font-style="normal">(</tspan><tspan font-size="36" font-style="normal">·</tspan><tspan font-size="36" font-style="normal">)</tspan></text>
+<path d="M 583 632 L 583 731 Q 583 745 597 745 L 636 745" fill="none" stroke="#1e3a5f" stroke-width="19" stroke-linecap="round"/>
+<path d="M 583 632 L 583 731 Q 583 745 597 745 L 636 745" fill="none" stroke="#8aa8c8" stroke-width="13" stroke-linecap="round"/>
+<polygon points="634,734 662,745 634,756" fill="#8aa8c8" stroke="#1e3a5f" stroke-width="2.5" stroke-linejoin="round"/>
+<g filter="url(#ds)"><polygon points="640,700 788,688 788,792 640,780" fill="#dceef8" stroke="#1e3a5f" stroke-width="3"/></g>
+<text x="714" y="750" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#111" text-anchor="middle" font-weight="bold" font-style="normal">Decoder</text>
+<polygon points="819.4,749.0 837.6,749.0 837.6,755.3 860.0,742.0 837.6,728.7 819.4,735.0 819.4,728.7 797.0,742.0 819.4,755.3" fill="#a8cbe4" stroke="#1e3a5f" stroke-width="2" stroke-linejoin="round"/>
+<text x="822" y="784" font-family="Georgia, 'Times New Roman', serif" fill="#4a8fc7" text-anchor="middle"><tspan font-size="32" font-style="italic">L</tspan><tspan font-size="19" font-style="italic" dy="11.5">rec</tspan></text>
+<g filter="url(#ds)"><rect x="868" y="682" width="128" height="96" rx="8" fill="#dceef8" stroke="#4a4a4a" stroke-width="3"/></g><line x1="883" y1="696" x2="883" y2="764" stroke="#666" stroke-width="2"/><line x1="878" y1="709.6" x2="888" y2="709.6" stroke="#666" stroke-width="2"/><line x1="878" y1="723.2" x2="888" y2="723.2" stroke="#666" stroke-width="2"/><line x1="878" y1="736.8" x2="888" y2="736.8" stroke="#666" stroke-width="2"/><line x1="878" y1="750.4" x2="888" y2="750.4" stroke="#666" stroke-width="2"/><g>
+<ellipse cx="930.5" cy="730.0" rx="12.8" ry="18.0" fill="#f2a8a8" stroke="#c25a5a" stroke-width="2.5"/>
+<ellipse cx="945.5" cy="730.0" rx="12.8" ry="18.0" fill="#f2a8a8" stroke="#c25a5a" stroke-width="2.5"/>
+<line x1="938.0" y1="712.0" x2="938.0" y2="748.0" stroke="#c25a5a" stroke-width="2.5"/>
+<path d="M 934.2 719.5 q -6.0 3.8 -2.2 8.2 q 3.8 3.8 -3.0 9.0" fill="none" stroke="#c25a5a" stroke-width="2"/>
+<path d="M 941.8 719.5 q 6.0 3.8 2.2 8.2 q -3.8 3.8 3.0 9.0" fill="none" stroke="#c25a5a" stroke-width="2"/>
+</g><line x1="970" y1="762" x2="988" y2="762" stroke="#666" stroke-width="2"/><polyline points="998.0,714.8 1006.1,714.8 1010.1,699.9 1015.5,724.2 1019.6,705.3 1025.0,709.4 1035.8,709.4" fill="none" stroke="#333" stroke-width="1.5"/><polygon points="918.0,778 946.0,778 954.0,798 910.0,798" fill="#8a8a8a" stroke="#555" stroke-width="2"/><rect x="900.0" y="798" width="64" height="9" rx="3" fill="#777"/><text x="932.0" y="820" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#666" text-anchor="middle" font-weight="bold" font-style="normal">fMRI</text>
+<text x="1146" y="690" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#111" text-anchor="start" font-weight="normal" font-style="normal">Visual stimuli</text>
+<text x="1162" y="742" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#111" text-anchor="start" font-weight="normal" font-style="normal">Image labels</text>
+<text x="1172" y="788" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#111" text-anchor="start" font-weight="normal" font-style="normal">Image captions</text>
+<circle cx="1348" cy="678" r="10" fill="#7dbb6a" stroke="#333" stroke-width="2.5"/>
+<circle cx="1370" cy="735" r="10" fill="#7dbb6a" stroke="#333" stroke-width="2.5"/>
+<circle cx="1422" cy="678" r="10" fill="#f5c542" stroke="#333" stroke-width="2.5"/>
+<circle cx="1427" cy="765" r="10" fill="#e8762c" stroke="#333" stroke-width="2.5"/>
+<polygon points="1360.0,680.0 1401.6,680.0 1401.6,681.8 1408.0,678.0 1401.6,674.2 1360.0,676.0" fill="#bbb" stroke="#bbb" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="1383.6,729.2 1407.8,696.3 1409.3,697.4 1410.0,690.0 1403.1,692.9 1380.4,726.8" fill="#bbb" stroke="#bbb" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="1383.2,745.8 1407.4,757.1 1406.6,758.7 1414.0,758.0 1409.8,751.9 1384.8,742.2" fill="#bbb" stroke="#bbb" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="1358.4,687.2 1410.4,752.3 1409.0,753.4 1416.0,756.0 1415.0,748.6 1361.6,684.8" fill="#bbb" stroke="#bbb" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="1122.0,597.0 1387.6,597.0 1387.6,603.3 1410.0,590.0 1387.6,576.7 1122.0,583.0" fill="#f2e3b0" stroke="#6b5a20" stroke-width="2" stroke-linejoin="round"/>
+<rect x="1418.0" y="538" width="30.2" height="94" fill="#f3d97e" stroke="#1e3a5f" stroke-width="3.5"/><rect x="1439.2" y="542" width="7" height="86" fill="#c8a030"/><rect x="1451.2" y="538" width="30.2" height="94" fill="#f3d97e" stroke="#1e3a5f" stroke-width="3.5"/><rect x="1472.5" y="542" width="7" height="86" fill="#c8a030"/><rect x="1484.5" y="538" width="30.2" height="94" fill="#f3d97e" stroke="#1e3a5f" stroke-width="3.5"/><rect x="1505.8" y="542" width="7" height="86" fill="#c8a030"/><rect x="1517.8" y="538" width="30.2" height="94" fill="#f3d97e" stroke="#1e3a5f" stroke-width="3.5"/><rect x="1539.0" y="542" width="7" height="86" fill="#c8a030"/>
+<text x="1484" y="670" font-family="Georgia, 'Times New Roman', serif" fill="#111" text-anchor="middle"><tspan font-size="36" font-style="italic">F</tspan></text>
+<polygon points="1473.5,207.4 1473.5,231.6 1469.5,231.6 1478.0,246.0 1486.5,231.6 1482.5,207.4 1486.5,207.4 1478.0,193.0 1469.5,207.4" fill="#c9c9c9" stroke="#c9c9c9" stroke-width="1" stroke-linejoin="round"/>
+<circle cx="1478" cy="265" r="17" fill="#fff" stroke="#1e3a5f" stroke-width="4"/>
+<line x1="1461" y1="265" x2="1495" y2="265" stroke="#1e3a5f" stroke-width="4.5"/>
+<line x1="1478" y1="282" x2="1478" y2="316" stroke="#c9c9c9" stroke-width="8"/>
+<path d="M 1496 268 C 1562 300, 1566 480, 1537 570" fill="none" stroke="#d8d8d8" stroke-width="5"/>
+<text x="1647" y="142" font-family="Georgia, 'Times New Roman', serif" fill="#b0a020" text-anchor="middle"><tspan font-size="40" font-style="italic">L</tspan><tspan font-size="23" font-style="italic" dy="-16.8">F</tspan><tspan font-size="23" font-style="italic" dy="31.2">inv</tspan></text>
+<polygon points="1613.2,186.6 1655.1,227.4 1650.7,231.9 1676.0,238.0 1669.2,212.8 1622.9,176.6 1627.3,172.1 1602.0,166.0 1608.8,191.2" fill="#cddc8a" stroke="#4a5a1a" stroke-width="2" stroke-linejoin="round"/>
+<line x1="1614" y1="228" x2="1666" y2="184" stroke="#222" stroke-width="5"/>
+<text x="1648" y="402" font-family="Georgia, 'Times New Roman', serif" fill="#b0a020" text-anchor="middle"><tspan font-size="38" font-style="italic">L</tspan><tspan font-size="22" font-style="italic" dy="-16.0">F</tspan><tspan font-size="22" font-style="italic" dy="29.6">spe</tspan></text>
+<polygon points="1635.0,355.4 1668.8,322.6 1673.2,327.1 1680.0,302.0 1654.7,308.0 1625.2,345.4 1620.8,340.9 1614.0,366.0 1639.3,360.0" fill="#cddc8a" stroke="#4a5a1a" stroke-width="2" stroke-linejoin="round"/>
+<g>
+<ellipse cx="1694" cy="258" rx="8" ry="14" fill="#b07838" stroke="#4a2a10" stroke-width="2"/>
+<ellipse cx="1730" cy="258" rx="8" ry="14" fill="#b07838" stroke="#4a2a10" stroke-width="2"/>
+<circle cx="1712" cy="256" r="19" fill="#d8a06a" stroke="#4a2a10" stroke-width="2.5"/>
+<circle cx="1705" cy="250" r="2.6" fill="#333"/><circle cx="1719" cy="250" r="2.6" fill="#333"/>
+<ellipse cx="1712" cy="263" rx="8" ry="6" fill="#f0d0a0"/><circle cx="1712" cy="260" r="3" fill="#4a2a10"/>
+<rect x="1700" y="276" width="24" height="7" rx="3" fill="#c03030" stroke="#4a2a10" stroke-width="1.5"/>
+<path d="M 1743 258 Q 1740 212 1765 210 Q 1790 212 1787 258 L 1781 258 Q 1782 222 1765 220 Q 1748 222 1749 258 Z" fill="#7a4a2a" stroke="#3a2010" stroke-width="2"/>
+<circle cx="1765" cy="247" r="14" fill="#f6d0b0" stroke="#3a2010" stroke-width="2"/>
+<circle cx="1760" cy="244" r="2.2" fill="#333"/><circle cx="1770" cy="244" r="2.2" fill="#333"/>
+<path d="M 1745 268 L 1745 300 L 1785 300 L 1785 268 Q 1765 258 1745 268 Z" fill="#e8823c" stroke="#7a3a10" stroke-width="2"/>
+<polygon points="1806,240 1810,220 1822,236" fill="#f0f0f0" stroke="#444" stroke-width="2"/>
+<polygon points="1838,240 1834,220 1822,236" fill="#f0f0f0" stroke="#444" stroke-width="2"/>
+<circle cx="1822" cy="256" r="17" fill="#f0f0f0" stroke="#444" stroke-width="2.5"/>
+<circle cx="1815" cy="252" r="2.4" fill="#333"/><circle cx="1829" cy="252" r="2.4" fill="#333"/>
+<circle cx="1822" cy="259" r="2" fill="#e08080"/>
+</g>
+<text x="1765" y="186" font-family="Georgia, 'Times New Roman', serif" font-size="46" font-style="italic" text-anchor="middle" fill="#ef8fb5" stroke="#c05070" stroke-width="1.5" paint-order="stroke">?</text>
+<text x="1700" y="212" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#111" text-anchor="middle" font-weight="bold" font-style="normal">?</text>
+<text x="1828" y="212" font-family="Georgia, 'Times New Roman', serif" font-size="24" fill="#111" text-anchor="middle" font-weight="bold" font-style="normal">?</text>
+<text x="1766" y="322" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#111" text-anchor="middle" font-weight="bold" font-style="normal">Semantic</text>
+<path d="M 1478 414 L 1478 478 Q 1478 492 1492 492 L 1596 492" fill="none" stroke="#b06030" stroke-width="19" stroke-linecap="round"/>
+<path d="M 1478 414 L 1478 478 Q 1478 492 1492 492 L 1596 492" fill="none" stroke="#e8935a" stroke-width="13" stroke-linecap="round"/>
+<polygon points="1594,481 1622,492 1594,503" fill="#e8935a" stroke="#b06030" stroke-width="2.5" stroke-linejoin="round"/>
+<g filter="url(#ds)"><rect x="1612" y="458" width="222" height="70" rx="14" fill="#ffffff" stroke="#1e3a5f" stroke-width="3.5"/></g>
+<circle cx="1656" cy="493" r="16" fill="#f5c542" stroke="#6b4a1a" stroke-width="2.5"/>
+<circle cx="1722" cy="493" r="16" fill="#f2b078" stroke="#6b4a1a" stroke-width="2.5"/>
+<circle cx="1792" cy="493" r="16" fill="#e86a28" stroke="#6b4a1a" stroke-width="2.5"/>
+<polygon points="1676.0,495.5 1694.0,495.5 1694.0,497.8 1702.0,493.0 1694.0,488.2 1676.0,490.5" fill="#f0a050" stroke="#f0a050" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="1742.0,495.5 1764.0,495.5 1764.0,497.8 1772.0,493.0 1764.0,488.2 1742.0,490.5" fill="#f0a050" stroke="#f0a050" stroke-width="1" stroke-linejoin="round"/>
+<text x="1702" y="592" font-family="Georgia, 'Times New Roman', serif" fill="#f09d3c" text-anchor="middle"><tspan font-size="42" font-style="italic">L</tspan><tspan font-size="24" font-style="italic" dy="15.1">prior</tspan></text>
+<polygon points="1724.3,549.8 1729.8,597.6 1724.5,598.2 1738.0,616.0 1747.1,595.6 1736.2,548.4 1741.5,547.8 1728.0,530.0 1718.9,550.4" fill="#cfe8cf" stroke="#4a7a3a" stroke-width="2" stroke-linejoin="round"/>
+<g filter="url(#ds)"><rect x="1672" y="616" width="135" height="82" rx="6" fill="#f0b060" stroke="#6b4a2a" stroke-width="3"/></g>
+<polygon points="1672,698 1710,652 1742,698" fill="#8a5a2a"/><polygon points="1716,698 1756,644 1807,698" fill="#9a6a34"/>
+<g filter="url(#ds)"><rect x="1652" y="646" width="152" height="92" rx="6" fill="#7ec8e8" stroke="#333" stroke-width="3"/></g>
+<ellipse cx="1684" cy="670" rx="15" ry="7" fill="#fff"/><ellipse cx="1700" cy="674" rx="12" ry="6" fill="#fff"/>
+<polygon points="1652,738 1692,690 1726,738" fill="#3a6a9a"/><polygon points="1706,738 1748,696 1804,738" fill="#4a7ab0"/>
+<g filter="url(#ds)"><rect x="1690" y="668" width="150" height="95" rx="6" fill="#9ed8ee" stroke="#333" stroke-width="3.5"/></g>
+<circle cx="1728" cy="692" r="10" fill="#f5c542" stroke="#c89030" stroke-width="2"/>
+<polygon points="1690,763 1730,712 1768,763" fill="#58a858"/><polygon points="1748,763 1790,708 1840,763" fill="#6ab86a"/>
+<text x="1748" y="786" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#555" text-anchor="middle" font-weight="bold" font-style="normal">Visual Stimuli</text>
+<rect x="5" y="5" width="1880" height="848" rx="18" fill="none" stroke="#c8c8c8" stroke-width="1.5"/>
+<rect x="5" y="860" width="1880" height="345" rx="18" fill="#f6f6f4" stroke="#c0c0c0" stroke-width="1.5"/>
+<rect x="12" y="878" width="335" height="62" rx="12" fill="#d8d8d8" opacity="0.8"/>
+<text x="70" y="924" font-family="Georgia, 'Times New Roman', serif" font-size="38" fill="#111" text-anchor="start" font-weight="bold" font-style="italic">Inference</text>
+<circle cx="145" cy="1006" r="46" fill="#a0a0a0" stroke="#555" stroke-width="2.5"/>
+<circle cx="110" cy="1022" r="14" fill="#a0a0a0" stroke="#555" stroke-width="2"/>
+<circle cx="180" cy="1022" r="14" fill="#a0a0a0" stroke="#555" stroke-width="2"/>
+<circle cx="145" cy="1034" r="34" fill="#f6d0b0" stroke="#333" stroke-width="2.5"/>
+<circle cx="132" cy="1028" r="3.4" fill="#333"/><circle cx="158" cy="1028" r="3.4" fill="#333"/>
+<path d="M 133 1048 Q 145 1057 157 1048" fill="none" stroke="#333" stroke-width="2.5"/>
+<path d="M 85 1160 L 85 1122 Q 85 1086 120 1078 L 170 1078 Q 205 1086 205 1122 L 205 1160 Z" fill="#6abf6a" stroke="#333" stroke-width="2.5"/>
+<line x1="112" y1="1082" x2="100" y2="1160" stroke="#4a7ad8" stroke-width="13"/>
+<line x1="178" y1="1082" x2="190" y2="1160" stroke="#4a7ad8" stroke-width="13"/>
+<text x="172" y="1184" font-family="Georgia, 'Times New Roman', serif" font-size="28" text-anchor="middle" fill="#111">Test <tspan font-weight="bold">Unseen</tspan> Subject</text>
+<g filter="url(#ds)"><rect x="228" y="952" width="104" height="78" rx="8" fill="#dceef8" stroke="#4a4a4a" stroke-width="3"/></g><line x1="243" y1="966" x2="243" y2="1016" stroke="#666" stroke-width="2"/><line x1="238" y1="976.0" x2="248" y2="976.0" stroke="#666" stroke-width="2"/><line x1="238" y1="986.0" x2="248" y2="986.0" stroke="#666" stroke-width="2"/><line x1="238" y1="996.0" x2="248" y2="996.0" stroke="#666" stroke-width="2"/><line x1="238" y1="1006.0" x2="248" y2="1006.0" stroke="#666" stroke-width="2"/><g>
+<ellipse cx="280.5" cy="991.0" rx="9.4" ry="13.2" fill="#f2a8a8" stroke="#c25a5a" stroke-width="2.5"/>
+<ellipse cx="291.5" cy="991.0" rx="9.4" ry="13.2" fill="#f2a8a8" stroke="#c25a5a" stroke-width="2.5"/>
+<line x1="286.0" y1="977.8" x2="286.0" y2="1004.2" stroke="#c25a5a" stroke-width="2.5"/>
+<path d="M 283.2 983.3 q -4.4 2.8 -1.7 6.1 q 2.8 2.8 -2.2 6.6" fill="none" stroke="#c25a5a" stroke-width="2"/>
+<path d="M 288.8 983.3 q 4.4 2.8 1.7 6.1 q -2.8 2.8 2.2 6.6" fill="none" stroke="#c25a5a" stroke-width="2"/>
+</g><line x1="306" y1="1014" x2="324" y2="1014" stroke="#666" stroke-width="2"/><polyline points="334.0,983.0 339.9,983.0 342.9,972.1 346.9,989.9 349.8,976.0 353.8,979.0 361.7,979.0" fill="none" stroke="#333" stroke-width="1.1"/><polygon points="266.0,1030 294.0,1030 302.0,1050 258.0,1050" fill="#8a8a8a" stroke="#555" stroke-width="2"/><rect x="248.0" y="1050" width="64" height="9" rx="3" fill="#777"/><text x="280.0" y="1072" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#666" text-anchor="middle" font-weight="bold" font-style="normal">fMRI</text>
+<polygon points="340.0,1014.0 395.2,1014.0 395.2,1022.1 424.0,1005.0 395.2,987.9 340.0,996.0" fill="#ececec" stroke="#8a8a8a" stroke-width="2" stroke-linejoin="round"/>
+<g filter="url(#ds)"><polygon points="432,948 578,1002 578,1082 432,1136" fill="#dceef8" stroke="#1e3a5f" stroke-width="3"/></g>
+<text x="505" y="1052" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#111" text-anchor="middle" font-weight="bold" font-style="normal">ViT</text>
+<path d="M 443.0 988.0 L 473.0 988.0 M 450.5 975.0 L 465.5 1001.0 M 465.5 975.0 L 450.5 1001.0 M 466.1 992.6 L 466.9 997.4 M 466.1 992.6 L 470.6 991.0 M 458.0 997.3 L 454.3 1000.4 M 458.0 997.3 L 461.7 1000.4 M 449.9 992.6 L 445.4 991.0 M 449.9 992.6 L 449.1 997.4 M 449.9 983.4 L 449.1 978.6 M 449.9 983.4 L 445.4 985.0 M 458.0 978.7 L 461.7 975.6 M 458.0 978.7 L 454.3 975.6 M 466.1 983.4 L 470.6 985.0 M 466.1 983.4 L 466.9 978.6" stroke="#7fb3d9" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+<text x="652" y="1000" font-family="Georgia, 'Times New Roman', serif" fill="#111" text-anchor="middle"><tspan font-size="32" font-style="italic">F</tspan><tspan font-size="19" font-style="italic" dy="11.5">i</tspan><tspan font-size="30" font-style="normal" dy="-11.5">(</tspan><tspan font-size="30" font-style="normal">·</tspan><tspan font-size="30" font-style="normal">)</tspan></text>
+<polygon points="596.0,1051.0 683.2,1051.0 683.2,1059.1 712.0,1042.0 683.2,1024.9 596.0,1033.0" fill="#ececec" stroke="#8a8a8a" stroke-width="2" stroke-linejoin="round"/>
+<g filter="url(#ds)"><rect x="715" y="972" width="228" height="132" rx="15" fill="url(#pg)" stroke="#1e3a5f" stroke-width="4"/></g><text x="829.0" y="1026.0" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#111" text-anchor="middle" font-weight="bold" font-style="normal">Vision</text><text x="829.0" y="1060.0" font-family="Georgia, 'Times New Roman', serif" font-size="28" fill="#111" text-anchor="middle" font-weight="bold" font-style="normal">Projector</text>
+<text x="829" y="960" font-family="Georgia, 'Times New Roman', serif" fill="#111" text-anchor="middle"><tspan font-size="34" font-style="italic">P</tspan><tspan font-size="20" font-style="italic" dy="12.2">s</tspan><tspan font-size="32" font-style="normal" dy="-12.2">(</tspan><tspan font-size="32" font-style="normal">·</tspan><tspan font-size="32" font-style="normal">)</tspan></text>
+<path d="M 901.0 998.0 L 931.0 998.0 M 908.5 985.0 L 923.5 1011.0 M 923.5 985.0 L 908.5 1011.0 M 924.1 1002.6 L 924.9 1007.4 M 924.1 1002.6 L 928.6 1001.0 M 916.0 1007.3 L 912.3 1010.4 M 916.0 1007.3 L 919.7 1010.4 M 907.9 1002.6 L 903.4 1001.0 M 907.9 1002.6 L 907.1 1007.4 M 907.9 993.4 L 907.1 988.6 M 907.9 993.4 L 903.4 995.0 M 916.0 988.7 L 919.7 985.6 M 916.0 988.7 L 912.3 985.6 M 924.1 993.4 L 928.6 995.0 M 924.1 993.4 L 924.9 988.6" stroke="#7fb3d9" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+<polygon points="948.0,1047.0 1029.2,1047.0 1029.2,1055.1 1058.0,1038.0 1029.2,1020.9 948.0,1029.0" fill="#ececec" stroke="#8a8a8a" stroke-width="2" stroke-linejoin="round"/>
+<g filter="url(#ds)"><rect x="1065" y="1015" width="225" height="80" rx="14" fill="#ffffff" stroke="#1e3a5f" stroke-width="3.5"/></g>
+<circle cx="1110" cy="1055" r="17" fill="#f5c542" stroke="#6b4a1a" stroke-width="2.5"/>
+<circle cx="1178" cy="1055" r="17" fill="#f2b078" stroke="#6b4a1a" stroke-width="2.5"/>
+<circle cx="1250" cy="1055" r="17" fill="#e86a28" stroke="#6b4a1a" stroke-width="2.5"/>
+<polygon points="1132.0,1057.5 1150.0,1057.5 1150.0,1059.8 1158.0,1055.0 1150.0,1050.2 1132.0,1052.5" fill="#f0a050" stroke="#f0a050" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="1200.0,1057.5 1220.0,1057.5 1220.0,1059.8 1228.0,1055.0 1220.0,1050.2 1200.0,1052.5" fill="#f0a050" stroke="#f0a050" stroke-width="1" stroke-linejoin="round"/>
+<path d="M 1258.0 1040.0 L 1286.0 1040.0 M 1265.0 1027.9 L 1279.0 1052.1 M 1279.0 1027.9 L 1265.0 1052.1 M 1279.5 1044.3 L 1280.3 1048.8 M 1279.5 1044.3 L 1283.7 1042.8 M 1272.0 1048.7 L 1268.6 1051.6 M 1272.0 1048.7 L 1275.4 1051.6 M 1264.5 1044.3 L 1260.3 1042.8 M 1264.5 1044.3 L 1263.7 1048.8 M 1264.5 1035.7 L 1263.7 1031.2 M 1264.5 1035.7 L 1260.3 1037.2 M 1272.0 1031.3 L 1275.4 1028.4 M 1272.0 1031.3 L 1268.6 1028.4 M 1279.5 1035.7 L 1283.7 1037.2 M 1279.5 1035.7 L 1280.3 1031.2" stroke="#7fb3d9" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+<text x="1177" y="1134" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#111" text-anchor="middle" font-weight="bold" font-style="normal">Diffusion Prior</text>
+<polygon points="1296.0,1049.0 1367.2,1049.0 1367.2,1057.1 1396.0,1040.0 1367.2,1022.9 1296.0,1031.0" fill="#ececec" stroke="#8a8a8a" stroke-width="2" stroke-linejoin="round"/>
+<g filter="url(#ds)"><polygon points="1400,1005 1552,962 1552,1122 1400,1082" fill="#f8dcc8" stroke="#1e3a5f" stroke-width="3"/></g>
+<text x="1478" y="1052" font-family="Georgia, 'Times New Roman', serif" font-size="26" fill="#111" text-anchor="middle" font-weight="bold" font-style="normal">SDXL</text>
+<path d="M 1518.0 992.0 L 1546.0 992.0 M 1525.0 979.9 L 1539.0 1004.1 M 1539.0 979.9 L 1525.0 1004.1 M 1539.5 996.3 L 1540.3 1000.8 M 1539.5 996.3 L 1543.7 994.8 M 1532.0 1000.7 L 1528.6 1003.6 M 1532.0 1000.7 L 1535.4 1003.6 M 1524.5 996.3 L 1520.3 994.8 M 1524.5 996.3 L 1523.7 1000.8 M 1524.5 987.7 L 1523.7 983.2 M 1524.5 987.7 L 1520.3 989.2 M 1532.0 983.3 L 1535.4 980.4 M 1532.0 983.3 L 1528.6 980.4 M 1539.5 987.7 L 1543.7 989.2 M 1539.5 987.7 L 1540.3 983.2" stroke="#7fb3d9" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+<polygon points="1562.0,1049.0 1623.2,1049.0 1623.2,1057.1 1652.0,1040.0 1623.2,1022.9 1562.0,1031.0" fill="#ececec" stroke="#8a8a8a" stroke-width="2" stroke-linejoin="round"/>
+<rect x="1722" y="958" width="138" height="110" rx="8" fill="#6ac8d8" stroke="#2a4a5a" stroke-width="3"/>
+<rect x="1704" y="972" width="150" height="116" rx="8" fill="#555" stroke="#222" stroke-width="3"/>
+<g filter="url(#ds)"><rect x="1666" y="986" width="186" height="128" rx="8" fill="#fdf6e8" stroke="#7a4a20" stroke-width="4"/></g>
+<path d="M 1726 1020 Q 1700 1038 1714 1074 Q 1722 1086 1732 1072 L 1732 1030 Z" fill="#c8903a" stroke="#6b4a1a" stroke-width="2.5"/>
+<path d="M 1790 1020 Q 1816 1038 1802 1074 Q 1794 1086 1784 1072 L 1784 1030 Z" fill="#c8903a" stroke="#6b4a1a" stroke-width="2.5"/>
+<ellipse cx="1758" cy="1050" rx="42" ry="38" fill="#e8b84a" stroke="#6b4a1a" stroke-width="3"/>
+<circle cx="1742" cy="1040" r="4" fill="#333"/><circle cx="1774" cy="1040" r="4" fill="#333"/>
+<ellipse cx="1758" cy="1064" rx="17" ry="12" fill="#f5dca0"/>
+<ellipse cx="1758" cy="1058" rx="7" ry="5" fill="#333"/>
+<path d="M 1758 1063 L 1758 1072 M 1748 1074 Q 1758 1080 1768 1074" fill="none" stroke="#333" stroke-width="2.5"/>
+<text x="1711" y="930" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#333" text-anchor="middle" font-weight="normal" font-style="normal">Reconstructed</text>
+<text x="1711" y="964" font-family="Georgia, 'Times New Roman', serif" font-size="27" fill="#333" text-anchor="middle" font-weight="normal" font-style="normal">Images</text>
+</svg>

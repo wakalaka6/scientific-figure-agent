@@ -1,0 +1,12 @@
+{
+  "harness": "pi",
+  "case": "hard-009",
+  "model": "qwen38-27b",
+  "effort": "xhigh",
+  "precision": "BF16",
+  "renderable": false,
+  "normal_completion": false,
+  "elapsed_seconds": 5084.53,
+  "model_calls_started": 7,
+  "returncode": 0
+}

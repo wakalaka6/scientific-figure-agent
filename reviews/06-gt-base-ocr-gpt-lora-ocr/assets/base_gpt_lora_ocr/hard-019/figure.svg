@@ -1,0 +1,510 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1890" height="872" viewBox="0 0 1890 872">
+<defs>
+<marker id="gray" markerWidth="7" markerHeight="7" refX="5.5" refY="3.5" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L7 3.5 L0 7 Z" fill="#595959"/></marker>
+<marker id="black" markerWidth="7" markerHeight="7" refX="5.5" refY="3.5" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L7 3.5 L0 7 Z" fill="#000"/></marker>
+<marker id="green" markerWidth="7" markerHeight="7" refX="5.5" refY="3.5" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L7 3.5 L0 7 Z" fill="#a6d68c"/></marker>
+<marker id="orange" markerWidth="7" markerHeight="7" refX="5.5" refY="3.5" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L7 3.5 L0 7 Z" fill="#f6b48d"/></marker>
+<marker id="salmon" markerWidth="7" markerHeight="7" refX="5.5" refY="3.5" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L7 3.5 L0 7 Z" fill="#f6a6a6"/></marker>
+<marker id="blue" markerWidth="7" markerHeight="7" refX="5.5" refY="3.5" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L7 3.5 L0 7 Z" fill="#9cc3e8"/></marker>
+</defs>
+<rect x="0" y="0" width="1890" height="872" rx="0" fill="white"/>
+<rect x="18" y="22" width="627" height="778" rx="30" fill="white" stroke="#595959" stroke-width="3.5" stroke-dasharray="0.5 7"/>
+<text x="110" y="58" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="34" font-weight="bold" text-anchor="middle" fill="black">
+<tspan font-size="34" font-style="italic">Item</tspan>
+<tspan font-size="34" font-style="italic" dy="9.5">i</tspan>
+<tspan dy="-9.5"></tspan>
+</text>
+<path d="M111 70 V91" fill="none" stroke="#595959" stroke-width="3" stroke-linecap="butt"/>
+<path d="M111 70 V91" fill="none" stroke="none" marker-end="url(#gray)"/>
+<rect x="24" y="91" width="154" height="75" rx="15" fill="#e6e6e6" stroke="#595959" stroke-width="3"/>
+<text x="101" y="127" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="34" font-weight="normal" text-anchor="middle" fill="black">Raw</text>
+<text x="101" y="160" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="34" font-weight="normal" text-anchor="middle" fill="black">Information</text>
+<path d="M178 128.5 H249" fill="none" stroke="#595959" stroke-width="3" stroke-linecap="butt"/>
+<path d="M178 128.5 H249" fill="none" stroke="none" marker-end="url(#gray)"/>
+<g transform="translate(271,61) scale(1)">
+<g fill="black">
+<circle cx="0" cy="5" r="5"/>
+<path d="M0 9 V19" fill="none" stroke="black" stroke-width="4" stroke-linecap="butt"/>
+<rect x="-17" y="19" width="34" height="26" rx="4"/>
+<circle cx="-8" cy="31.5" r="3.6" fill="white"/><circle cx="8" cy="31.5" r="3.6" fill="white"/>
+<rect x="-20" y="47" width="40" height="34"/>
+<rect x="-28" y="84" width="56" height="16" rx="8"/>
+<circle cx="-14" cy="92" r="3.6" fill="white"/><circle cx="0" cy="92" r="3.6" fill="white"/><circle cx="14" cy="92" r="3.6" fill="white"/>
+<path d="M-20 58 H-30 V46" fill="none" stroke="black" stroke-width="4" stroke-linecap="butt"/>
+<path d="M-23 41 A7 7 0 1 1 -37 49" fill="none" stroke="black" stroke-width="4" stroke-linecap="round"/>
+<path d="M20 58 H30 V72" fill="none" stroke="black" stroke-width="4" stroke-linecap="butt"/>
+<path d="M24 77 A7 7 0 1 0 37 69" fill="none" stroke="black" stroke-width="4" stroke-linecap="round"/>
+</g>
+<path d="M-15 64 H-9 L-6 56 L-2 73 L1 64 H7" fill="none" stroke="white" stroke-width="3.5" stroke-linecap="round"/>
+</g>
+<text x="273" y="199" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="36" font-weight="bold" text-anchor="middle" fill="black">MLLM</text>
+<path d="M306 128.5 H374" fill="none" stroke="#595959" stroke-width="3" stroke-linecap="butt"/>
+<path d="M306 128.5 H374" fill="none" stroke="none" marker-end="url(#gray)"/>
+<rect x="356" y="52" width="112" height="193" rx="4" fill="none" stroke="#595959" stroke-width="3" stroke-dasharray="0.5 6"/>
+<rect x="366" y="56" width="95" height="44" rx="6" fill="#c9daed" stroke="#333" stroke-width="2.5" stroke-dasharray="6 4"/>
+<rect x="366" y="112" width="95" height="44" rx="6" fill="#dfe4f8" stroke="#333" stroke-width="2.5" stroke-dasharray="6 4"/>
+<rect x="367" y="167" width="94" height="44" rx="6" fill="#fcecc7" stroke="#333" stroke-width="2.5" stroke-dasharray="6 4"/>
+<text x="413.5" y="87" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="29" font-weight="bold" text-anchor="middle" fill="black">ASR</text>
+<text x="413.5" y="143" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="29" font-weight="bold" text-anchor="middle" fill="black">OCR</text>
+<text x="414" y="198" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="29" font-weight="bold" text-anchor="middle" fill="black">Text</text>
+<rect x="516" y="60" width="119" height="173" rx="38" fill="#fae8f1" stroke="#595959" stroke-width="4" stroke-dasharray="11 8"/>
+<text x="575.5" y="144" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="33" font-weight="bold" text-anchor="middle" fill="black">MLLM</text>
+<text x="575.5" y="176" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="29" font-weight="normal" text-anchor="middle" fill="black">
+<tspan font-size="29">Emb </tspan>
+<tspan font-size="29" font-style="italic">E</tspan>
+<tspan font-size="29" font-style="italic" dy="8.1">i</tspan>
+<tspan dy="-8.1"></tspan>
+</text>
+<path d="M352 52 V41 H562 V60" fill="none" stroke="#595959" stroke-width="3" stroke-linecap="butt"/>
+<path d="M352 52 V41 H562 V60" fill="none" stroke="none" marker-end="url(#gray)"/>
+<path d="M468 144 H501 V331" fill="none" stroke="#595959" stroke-width="3" stroke-dasharray="4.5 5" stroke-linecap="butt"/>
+<path d="M468 144 H501 V331" fill="none" stroke="none" marker-end="url(#gray)"/>
+<path d="M501 275 H159.5 V334" fill="none" stroke="#595959" stroke-width="3" stroke-dasharray="4.5 5" stroke-linecap="butt"/>
+<path d="M501 275 H159.5 V334" fill="none" stroke="none" marker-end="url(#gray)"/>
+<path d="M573 233 V301.5 H320 V429" fill="none" stroke="#f6a6a6" stroke-width="3.5" stroke-linecap="butt"/>
+<path d="M573 233 V301.5 H320 V429" fill="none" stroke="none" marker-end="url(#salmon)"/>
+<rect x="22" y="330" width="261" height="98" rx="18" fill="#dcead3" stroke="#5e8c3a" stroke-width="3"/>
+<text x="152.5" y="371" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="30" font-weight="bold" text-anchor="middle" fill="black">ItemTag Extraction</text>
+<text x="152.5" y="405" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="30" font-weight="normal" text-anchor="middle" fill="black">
+<tspan font-size="30">Prompt </tspan>
+<tspan font-size="30" font-style="italic">X</tspan>
+<tspan font-size="30" font-style="italic" dy="8.4">i</tspan>
+<tspan dy="-8.4"></tspan>
+<tspan font-size="30" font-style="italic" dy="-13.5">C</tspan>
+<tspan dy="13.5"></tspan>
+</text>
+<rect x="357" y="330" width="274" height="98" rx="18" fill="#fbe5d5" stroke="#cf8f00" stroke-width="3"/>
+<text x="494" y="371" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="30" font-weight="bold" text-anchor="middle" fill="black">UserTag Extraction</text>
+<text x="494" y="405" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="30" font-weight="normal" text-anchor="middle" fill="black">
+<tspan font-size="30">Prompt </tspan>
+<tspan font-size="30" font-style="italic">X</tspan>
+<tspan font-size="30" font-style="italic" dy="8.4">i</tspan>
+<tspan dy="-8.4"></tspan>
+<tspan font-size="30" font-style="italic" dy="-13.5">T</tspan>
+<tspan dy="13.5"></tspan>
+</text>
+<path d="M153 428 V479 H263" fill="none" stroke="#a6d68c" stroke-width="3.5" stroke-linecap="butt"/>
+<path d="M153 428 V479 H263" fill="none" stroke="none" marker-end="url(#green)"/>
+<path d="M153 479 V545" fill="none" stroke="#a6d68c" stroke-width="3.5" stroke-linecap="butt"/>
+<path d="M153 479 V545" fill="none" stroke="none" marker-end="url(#green)"/>
+<path d="M489 428 V472 H372" fill="none" stroke="#f6b48d" stroke-width="3.5" stroke-linecap="butt"/>
+<path d="M489 428 V472 H372" fill="none" stroke="none" marker-end="url(#orange)"/>
+<path d="M489 472 V546" fill="none" stroke="#f6b48d" stroke-width="3.5" stroke-linecap="butt"/>
+<path d="M489 472 V546" fill="none" stroke="none" marker-end="url(#orange)"/>
+<g transform="translate(271,441) scale(1)">
+<g fill="black">
+<circle cx="0" cy="5" r="5"/>
+<path d="M0 9 V19" fill="none" stroke="black" stroke-width="4" stroke-linecap="butt"/>
+<rect x="-17" y="19" width="34" height="26" rx="4"/>
+<circle cx="-8" cy="31.5" r="3.6" fill="white"/><circle cx="8" cy="31.5" r="3.6" fill="white"/>
+<rect x="-20" y="47" width="40" height="34"/>
+<rect x="-28" y="84" width="56" height="16" rx="8"/>
+<circle cx="-14" cy="92" r="3.6" fill="white"/><circle cx="0" cy="92" r="3.6" fill="white"/><circle cx="14" cy="92" r="3.6" fill="white"/>
+<path d="M-20 58 H-30 V46" fill="none" stroke="black" stroke-width="4" stroke-linecap="butt"/>
+<path d="M-23 41 A7 7 0 1 1 -37 49" fill="none" stroke="black" stroke-width="4" stroke-linecap="round"/>
+<path d="M20 58 H30 V72" fill="none" stroke="black" stroke-width="4" stroke-linecap="butt"/>
+<path d="M24 77 A7 7 0 1 0 37 69" fill="none" stroke="black" stroke-width="4" stroke-linecap="round"/>
+</g>
+<path d="M-15 64 H-9 L-6 56 L-2 73 L1 64 H7" fill="none" stroke="white" stroke-width="3.5" stroke-linecap="round"/>
+</g>
+<text x="271" y="580" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="36" font-weight="bold" text-anchor="middle" fill="black">MLLM</text>
+<rect x="70" y="544" width="174" height="55" rx="12" fill="#d9e8ce" stroke="#cfe3c2" stroke-width="2"/>
+<text x="157" y="580" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="30" font-weight="normal" text-anchor="middle" fill="black">Live Music</text>
+<rect x="51" y="580" width="174" height="83" rx="12" fill="#b5d79a" stroke="#92bd76" stroke-width="2"/>
+<text x="138" y="628" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="30" font-weight="normal" text-anchor="middle" fill="black">Instrument</text>
+<text x="138" y="659" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="30" font-weight="normal" text-anchor="middle" fill="black">Shows</text>
+<text x="41" y="699" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="30" font-weight="bold" text-anchor="start" fill="black">
+<tspan font-size="30">ItemTag Set </tspan>
+<tspan font-size="41" font-family="DejaVu Sans, serif" font-style="italic">𝓒</tspan>
+<tspan font-size="19" dy="-13.5">*</tspan>
+<tspan dy="13.5"></tspan>
+</text>
+<rect x="413" y="554" width="177" height="57" rx="12" fill="#fde7d4" stroke="#d89e00" stroke-width="2.5"/>
+<text x="501.5" y="590" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="30" font-weight="normal" text-anchor="middle" fill="black">Folk Music</text>
+<rect x="394" y="581" width="174" height="58" rx="12" fill="#fbe4d0" stroke="#d89e00" stroke-width="2.5"/>
+<rect x="383" y="607" width="169" height="57" rx="12" fill="#f9cdaa" stroke="#d89e00" stroke-width="2.5"/>
+<text x="467.5" y="636" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="28" font-weight="normal" text-anchor="middle" fill="black">Music</text>
+<text x="467.5" y="664" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="28" font-weight="normal" text-anchor="middle" fill="black">Enthusiast</text>
+<text x="388" y="699" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="30" font-weight="bold" text-anchor="start" fill="black">
+<tspan font-size="30">UserTag Set </tspan>
+<tspan font-size="41" font-family="DejaVu Sans, serif" font-style="italic">𝒯</tspan>
+<tspan font-size="19" dy="-13.5">*</tspan>
+<tspan dy="13.5"></tspan>
+</text>
+<rect x="678" y="22" width="564" height="778" rx="30" fill="#eaf1f5" stroke="#595959" stroke-width="3.5" stroke-dasharray="0.5 7"/>
+<text x="828" y="77" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="35" font-weight="bold" font-style="italic" text-anchor="middle" fill="black">Logic Graph</text>
+<rect x="915" y="74" width="170" height="61.5" rx="10" fill="#fde7d4" stroke="#d89e00" stroke-width="2.5"/>
+<text x="1000" y="108" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="30" font-weight="normal" text-anchor="middle" fill="black">Folk Music</text>
+<rect x="897" y="102" width="169.5" height="62" rx="10" fill="#fbe4d0" stroke="#d89e00" stroke-width="2.5"/>
+<rect x="879" y="126.5" width="169" height="62" rx="10" fill="#f9cdaa" stroke="#d89e00" stroke-width="2.5"/>
+<text x="963.5" y="155" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="28" font-weight="normal" text-anchor="middle" fill="black">Music</text>
+<text x="963.5" y="183" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="28" font-weight="normal" text-anchor="middle" fill="black">Enthusiast</text>
+<text x="881" y="216" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="30" font-weight="bold" text-anchor="start" fill="black">
+<tspan font-size="30">UserTag Set </tspan>
+<tspan font-size="41" font-family="DejaVu Sans, serif" font-style="italic">𝓒</tspan>
+<tspan font-size="19" dy="-13.5">*</tspan>
+<tspan dy="13.5"></tspan>
+</text>
+<rect x="901.5" y="254" width="170" height="57.5" rx="10" fill="#d9e8ce" stroke="#cfe3c2" stroke-width="2"/>
+<text x="986.5" y="289" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="30" font-weight="normal" text-anchor="middle" fill="black">Live Music</text>
+<rect x="883.5" y="287" width="169" height="62" rx="10" fill="#c5e0b3" stroke="#d5e6c8" stroke-width="2"/>
+<rect x="865" y="315" width="169" height="61.5" rx="10" fill="#a9d190" stroke="#8bb26d" stroke-width="2"/>
+<text x="949.5" y="343" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="28" font-weight="normal" text-anchor="middle" fill="black">Instrument</text>
+<text x="949.5" y="371" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="28" font-weight="normal" text-anchor="middle" fill="black">Shows</text>
+<text x="872" y="409" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="30" font-weight="bold" text-anchor="start" fill="black">
+<tspan font-size="30">ItemTag Set </tspan>
+<tspan font-size="41" font-family="DejaVu Sans, serif" font-style="italic">𝒯</tspan>
+<tspan font-size="19" dy="-13.5">*</tspan>
+<tspan dy="13.5"></tspan>
+</text>
+<path d="M841 104 V353 H865" fill="none" stroke="#f6b48d" stroke-width="3.5" stroke-linecap="butt"/>
+<path d="M841 104 V353 H865" fill="none" stroke="none" marker-end="url(#orange)"/>
+<path d="M860 85 V334 H884" fill="none" stroke="#f6b48d" stroke-width="3.5" stroke-linecap="butt"/>
+<path d="M860 85 V334 H884" fill="none" stroke="none" marker-end="url(#orange)"/>
+<path d="M879 60 V309 H903" fill="none" stroke="#f6b48d" stroke-width="3.5" stroke-linecap="butt"/>
+<path d="M879 60 V309 H903" fill="none" stroke="none" marker-end="url(#orange)"/>
+<path d="M898 40 V289 H922" fill="none" stroke="#f6b48d" stroke-width="3.5" stroke-linecap="butt"/>
+<path d="M898 40 V289 H922" fill="none" stroke="none" marker-end="url(#orange)"/>
+<path d="M1034 353 H1113.5 V104 H1087" fill="none" stroke="#a6d68c" stroke-width="3.5" stroke-linecap="butt"/>
+<path d="M1034 353 H1113.5 V104 H1087" fill="none" stroke="none" marker-end="url(#green)"/>
+<path d="M1052.5 334 H1097.5 V129 H1068" fill="none" stroke="#a6d68c" stroke-width="3.5" stroke-linecap="butt"/>
+<path d="M1052.5 334 H1097.5 V129 H1068" fill="none" stroke="none" marker-end="url(#green)"/>
+<path d="M1071.5 309 H1079.5 V154 H1050" fill="none" stroke="#a6d68c" stroke-width="3.5" stroke-linecap="butt"/>
+<path d="M1071.5 309 H1079.5 V154 H1050" fill="none" stroke="none" marker-end="url(#green)"/>
+<path d="M1071.5 289 H1062 V179 H1050" fill="none" stroke="#a6d68c" stroke-width="3.5" stroke-linecap="butt"/>
+<path d="M1071.5 289 H1062 V179 H1050" fill="none" stroke="none" marker-end="url(#green)"/>
+<text x="760" y="240" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="34" font-weight="normal" text-anchor="start" fill="black">
+<tspan font-size="34" font-style="italic" fill="#c55a11">G</tspan>
+<tspan font-size="23" font-style="italic" fill="#c55a11" dy="-15.3">U2I</tspan>
+<tspan dy="15.3"></tspan>
+<tspan font-size="21" dy="-15.3">*</tspan>
+<tspan dy="15.3"></tspan>
+</text>
+<text x="1136" y="242" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="34" font-weight="normal" text-anchor="start" fill="black">
+<tspan font-size="34" font-style="italic" fill="#57803c">G</tspan>
+<tspan font-size="23" font-style="italic" fill="#57803c" dy="-15.3">I2U</tspan>
+<tspan dy="15.3"></tspan>
+<tspan font-size="21" dy="-15.3">*</tspan>
+<tspan dy="15.3"></tspan>
+</text>
+<path d="M1226 225 H1262 V539 H1318" fill="none" stroke="#9cc3e8" stroke-width="4" stroke-linecap="butt"/>
+<path d="M1226 225 H1262 V539 H1318" fill="none" stroke="none" marker-end="url(#blue)"/>
+<path d="M977 528 V416" fill="none" stroke="#595959" stroke-width="4" stroke-linecap="butt"/>
+<path d="M977 528 V416" fill="none" stroke="none" marker-end="url(#gray)"/>
+<g transform="translate(977,462) scale(0.88)">
+<g fill="black">
+<circle cx="0" cy="5" r="5"/>
+<path d="M0 9 V19" fill="none" stroke="black" stroke-width="4" stroke-linecap="butt"/>
+<rect x="-17" y="19" width="34" height="26" rx="4"/>
+<circle cx="-8" cy="31.5" r="3.6" fill="white"/><circle cx="8" cy="31.5" r="3.6" fill="white"/>
+<rect x="-20" y="47" width="40" height="34"/>
+<rect x="-28" y="84" width="56" height="16" rx="8"/>
+<circle cx="-14" cy="92" r="3.6" fill="white"/><circle cx="0" cy="92" r="3.6" fill="white"/><circle cx="14" cy="92" r="3.6" fill="white"/>
+<path d="M-20 58 H-30 V46" fill="none" stroke="black" stroke-width="4" stroke-linecap="butt"/>
+<path d="M-23 41 A7 7 0 1 1 -37 49" fill="none" stroke="black" stroke-width="4" stroke-linecap="round"/>
+<path d="M20 58 H30 V72" fill="none" stroke="black" stroke-width="4" stroke-linecap="butt"/>
+<path d="M24 77 A7 7 0 1 0 37 69" fill="none" stroke="black" stroke-width="4" stroke-linecap="round"/>
+</g>
+<path d="M-15 64 H-9 L-6 56 L-2 73 L1 64 H7" fill="none" stroke="white" stroke-width="3.5" stroke-linecap="round"/>
+</g>
+<text x="977" y="591" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="34" font-weight="bold" text-anchor="middle" fill="black">LLM</text>
+<path d="M865.5 655 V512 H917" fill="none" stroke="#a6d68c" stroke-width="3.5" stroke-linecap="butt"/>
+<path d="M865.5 655 V512 H917" fill="none" stroke="none" marker-end="url(#green)"/>
+<path d="M1087.5 655 V512 H1036" fill="none" stroke="#f6b48d" stroke-width="3.5" stroke-linecap="butt"/>
+<path d="M1087.5 655 V512 H1036" fill="none" stroke="none" marker-end="url(#orange)"/>
+<rect x="747" y="655" width="231" height="80" rx="15" fill="#d9e8ce" stroke="#7fa85f" stroke-width="3"/>
+<text x="862.5" y="686" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="30" font-weight="bold" text-anchor="middle" fill="black">I2U Logic</text>
+<text x="862.5" y="720" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="30" font-weight="normal" text-anchor="middle" fill="black">
+<tspan font-size="30">Prompt </tspan>
+<tspan font-size="30" font-style="italic">X</tspan>
+<tspan font-size="30" font-style="italic" dy="8.4">c</tspan>
+<tspan dy="-8.4"></tspan>
+</text>
+<rect x="985" y="655" width="224" height="80" rx="15" fill="#fbe5d5" stroke="#cf8f00" stroke-width="3"/>
+<text x="1097" y="686" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="30" font-weight="bold" text-anchor="middle" fill="black">U2I Logic</text>
+<text x="1097" y="720" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="30" font-weight="normal" text-anchor="middle" fill="black">
+<tspan font-size="30">Prompt </tspan>
+<tspan font-size="30" font-style="italic">X</tspan>
+<tspan font-size="30" font-style="italic" dy="8.4">t</tspan>
+<tspan dy="-8.4"></tspan>
+</text>
+<rect x="1291" y="22" width="581" height="778" rx="30" fill="white" stroke="#595959" stroke-width="3.5" stroke-dasharray="0.5 7"/>
+<g fill="black">
+<circle cx="1344" cy="190" r="16"/>
+<path d="M1318 240 C1318 217 1330 208 1344 208 C1358 208 1370 217 1370 240 Z" fill="black" stroke="black" stroke-width="1" stroke-linecap="butt"/>
+</g>
+<path d="M1329 190 Q1334 176 1346 179 Q1356 182 1356 190 Q1350 178 1340 181 Q1331 183 1329 190 Z" fill="white" stroke="black" stroke-width="0" stroke-linecap="butt"/>
+<text x="1356" y="245" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="27" font-weight="normal" text-anchor="middle" fill="black">user</text>
+<path d="M1420 156 H1413 V179 Q1413 200 1400 200 H1398 Q1393 200 1393 205 V224 L1388 228.5 L1393 233 V252 Q1393 257 1398 257 H1400 Q1413 257 1413 278 V300 H1420" fill="none" stroke="#595959" stroke-width="3.5" stroke-linecap="butt"/>
+<rect x="1450" y="73" width="40" height="33" rx="4" fill="black"/>
+<rect x="1462" y="67" width="16" height="8" rx="2" fill="black"/>
+<circle cx="1470" cy="90" r="10" fill="black" stroke="white" stroke-width="3"/>
+<circle cx="1470" cy="90" r="4" fill="white"/>
+<rect x="1454" y="78" width="5" height="4" rx="0" fill="white"/>
+<text x="1469" y="138" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="24" font-weight="normal" text-anchor="middle" fill="black">
+<tspan font-size="24" font-style="italic">i</tspan>
+<tspan font-size="17" font-style="italic" dy="6.7">1</tspan>
+<tspan dy="-6.7"></tspan>
+</text>
+<rect x="1455" y="163" width="28" height="27" rx="3" fill="black"/>
+<rect x="1451" y="170" width="5" height="8" rx="0" fill="black"/>
+<circle cx="1462" cy="158" r="8" fill="black"/>
+<circle cx="1462" cy="158" r="2" fill="white"/>
+<circle cx="1457" cy="153" r="1.7" fill="white"/>
+<circle cx="1467" cy="154" r="1.7" fill="white"/>
+<circle cx="1462" cy="164" r="1.7" fill="white"/>
+<circle cx="1481" cy="158" r="8" fill="black"/>
+<circle cx="1481" cy="158" r="2" fill="white"/>
+<circle cx="1476" cy="153" r="1.7" fill="white"/>
+<circle cx="1486" cy="154" r="1.7" fill="white"/>
+<circle cx="1481" cy="164" r="1.7" fill="white"/>
+<path d="M1483 168 L1495 163 V185 L1483 180 Z" fill="black" stroke="black" stroke-width="1" stroke-linecap="butt"/>
+<circle cx="1479" cy="184" r="1.6" fill="white"/>
+<text x="1478" y="212" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="24" font-weight="normal" text-anchor="middle" fill="black">
+<tspan font-size="24" font-style="italic">i</tspan>
+<tspan font-size="17" font-style="italic" dy="6.7">2</tspan>
+<tspan dy="-6.7"></tspan>
+</text>
+<text x="1470" y="253" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="26" font-weight="normal" text-anchor="middle" fill="black">···</text>
+<path d="M1448 281 C1444 271 1458 268 1466 274 L1474 279 C1482 273 1495 271 1498 281 C1501 291 1496 300 1488 297 L1474 292 L1458 297 C1450 300 1445 291 1448 281 Z" fill="black" stroke="black" stroke-width="1" stroke-linecap="butt"/>
+<rect x="1455" y="281" width="11" height="4" rx="0" fill="white"/>
+<rect x="1458.5" y="277.5" width="4" height="11" rx="0" fill="white"/>
+<circle cx="1481" cy="278.5" r="2" fill="white"/>
+<circle cx="1485.5" cy="283" r="2" fill="white"/>
+<circle cx="1481" cy="287.5" r="2" fill="white"/>
+<circle cx="1476.5" cy="283" r="2" fill="white"/>
+<text x="1477" y="322" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="24" font-weight="normal" text-anchor="middle" fill="black">
+<tspan font-size="24" font-style="italic">i</tspan>
+<tspan font-size="17" font-style="italic" dy="6.7">n</tspan>
+<tspan dy="-6.7"></tspan>
+</text>
+<text x="1655" y="253" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="26" font-weight="normal" text-anchor="middle" fill="black">···</text>
+<rect x="1544" y="56" width="290" height="40" rx="6" fill="#fde7d4" stroke="#d89e00" stroke-width="2"/>
+<rect x="1532" y="86" width="291" height="41" rx="6" fill="#d9e8ce" stroke="#7fa85f" stroke-width="2"/>
+<text x="1689" y="80" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="26" font-weight="normal" text-anchor="middle" fill="#c05a10">
+<tspan font-size="26" font-style="italic">T</tspan>
+<tspan font-size="18" font-style="italic" dy="7.3">1</tspan>
+<tspan dy="-7.3"></tspan>
+<tspan font-size="26"> = {</tspan>
+<tspan font-size="26" font-style="italic">t</tspan>
+<tspan font-size="18" font-style="italic" dy="7.3">1,1</tspan>
+<tspan dy="-7.3"></tspan>
+<tspan font-size="26">, ··· ,</tspan>
+<tspan font-size="26" font-style="italic">t</tspan>
+<tspan font-size="18" font-style="italic" dy="7.3">1,k</tspan>
+<tspan dy="-7.3"></tspan>
+<tspan font-size="26">}</tspan>
+</text>
+<text x="1677" y="111" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="26" font-weight="normal" text-anchor="middle" fill="#4c6b2f">
+<tspan font-size="26" font-style="italic">C</tspan>
+<tspan font-size="18" font-style="italic" dy="7.3">1</tspan>
+<tspan dy="-7.3"></tspan>
+<tspan font-size="26"> = {</tspan>
+<tspan font-size="26" font-style="italic">c</tspan>
+<tspan font-size="18" font-style="italic" dy="7.3">1,1</tspan>
+<tspan dy="-7.3"></tspan>
+<tspan font-size="26">, ··· ,</tspan>
+<tspan font-size="26" font-style="italic">c</tspan>
+<tspan font-size="18" font-style="italic" dy="7.3">1,l</tspan>
+<tspan dy="-7.3"></tspan>
+<tspan font-size="26">}</tspan>
+</text>
+<rect x="1544" y="143" width="290" height="40" rx="6" fill="#fde7d4" stroke="#d89e00" stroke-width="2"/>
+<rect x="1532" y="173" width="291" height="41" rx="6" fill="#d9e8ce" stroke="#7fa85f" stroke-width="2"/>
+<text x="1689" y="167" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="26" font-weight="normal" text-anchor="middle" fill="#c05a10">
+<tspan font-size="26" font-style="italic">T</tspan>
+<tspan font-size="18" font-style="italic" dy="7.3">2</tspan>
+<tspan dy="-7.3"></tspan>
+<tspan font-size="26"> = {</tspan>
+<tspan font-size="26" font-style="italic">t</tspan>
+<tspan font-size="18" font-style="italic" dy="7.3">2,1</tspan>
+<tspan dy="-7.3"></tspan>
+<tspan font-size="26">, ··· ,</tspan>
+<tspan font-size="26" font-style="italic">t</tspan>
+<tspan font-size="18" font-style="italic" dy="7.3">2,k</tspan>
+<tspan dy="-7.3"></tspan>
+<tspan font-size="26">}</tspan>
+</text>
+<text x="1677" y="198" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="26" font-weight="normal" text-anchor="middle" fill="#4c6b2f">
+<tspan font-size="26" font-style="italic">C</tspan>
+<tspan font-size="18" font-style="italic" dy="7.3">2</tspan>
+<tspan dy="-7.3"></tspan>
+<tspan font-size="26"> = {</tspan>
+<tspan font-size="26" font-style="italic">c</tspan>
+<tspan font-size="18" font-style="italic" dy="7.3">2,1</tspan>
+<tspan dy="-7.3"></tspan>
+<tspan font-size="26">, ··· ,</tspan>
+<tspan font-size="26" font-style="italic">c</tspan>
+<tspan font-size="18" font-style="italic" dy="7.3">2,l</tspan>
+<tspan dy="-7.3"></tspan>
+<tspan font-size="26">}</tspan>
+</text>
+<rect x="1544" y="263" width="290" height="40" rx="6" fill="#fde7d4" stroke="#d89e00" stroke-width="2"/>
+<rect x="1532" y="293" width="291" height="41" rx="6" fill="#d9e8ce" stroke="#7fa85f" stroke-width="2"/>
+<text x="1689" y="287" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="26" font-weight="normal" text-anchor="middle" fill="#c05a10">
+<tspan font-size="26" font-style="italic">T</tspan>
+<tspan font-size="18" font-style="italic" dy="7.3">n</tspan>
+<tspan dy="-7.3"></tspan>
+<tspan font-size="26"> = {</tspan>
+<tspan font-size="26" font-style="italic">t</tspan>
+<tspan font-size="18" font-style="italic" dy="7.3">n,1</tspan>
+<tspan dy="-7.3"></tspan>
+<tspan font-size="26">, ··· ,</tspan>
+<tspan font-size="26" font-style="italic">t</tspan>
+<tspan font-size="18" font-style="italic" dy="7.3">n,k</tspan>
+<tspan dy="-7.3"></tspan>
+<tspan font-size="26">}</tspan>
+</text>
+<text x="1677" y="318" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="26" font-weight="normal" text-anchor="middle" fill="#4c6b2f">
+<tspan font-size="26" font-style="italic">C</tspan>
+<tspan font-size="18" font-style="italic" dy="7.3">n</tspan>
+<tspan dy="-7.3"></tspan>
+<tspan font-size="26"> = {</tspan>
+<tspan font-size="26" font-style="italic">c</tspan>
+<tspan font-size="18" font-style="italic" dy="7.3">n,1</tspan>
+<tspan dy="-7.3"></tspan>
+<tspan font-size="26">, ··· ,</tspan>
+<tspan font-size="26" font-style="italic">c</tspan>
+<tspan font-size="18" font-style="italic" dy="7.3">n,l</tspan>
+<tspan dy="-7.3"></tspan>
+<tspan font-size="26">}</tspan>
+</text>
+<text x="1638" y="394" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="26" font-weight="normal" text-anchor="middle" fill="black">Input</text>
+<path d="M1681 372 V433" fill="none" stroke="black" stroke-width="3.5" stroke-linecap="butt"/>
+<path d="M1681 372 V433" fill="none" stroke="none" marker-end="url(#black)"/>
+<text x="1844" y="406" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="24" font-weight="normal" text-anchor="middle" fill="black">Candidate</text>
+<text x="1844" y="433" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="24" font-weight="normal" text-anchor="middle" fill="black">item</text>
+<rect x="1713" y="441" width="7" height="5" fill="black"/>
+<circle cx="1716.5" cy="459" r="16" fill="black"/>
+<circle cx="1716.5" cy="459" r="12.5" fill="white"/>
+<path d="M1716.5 459 V450 M1716.5 459 H1723" fill="none" stroke="black" stroke-width="2.5" stroke-linecap="butt"/>
+<text x="1757" y="474" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="27" font-weight="normal" text-anchor="start" fill="black">
+<tspan font-size="27" font-style="italic">v</tspan>
+<tspan font-size="17" font-style="italic" dy="7.6">i</tspan>
+<tspan dy="-7.6"></tspan>
+</text>
+<path d="M1733 465 H1863 V555 H1822" fill="none" stroke="black" stroke-width="3.5" stroke-linecap="butt"/>
+<path d="M1733 465 H1863 V555 H1822" fill="none" stroke="none" marker-end="url(#black)"/>
+<rect x="1519.5" y="431.5" width="304" height="184" rx="0" fill="white" stroke="#999" stroke-width="1.5"/>
+<rect x="1523" y="435" width="296" height="177" rx="0" fill="white" stroke="#595959" stroke-width="4"/>
+<text x="1565" y="496" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="33" font-weight="bold" text-anchor="middle" fill="black">RecSys</text>
+<line x1="1540" y1="527" x2="1557" y2="534.5" stroke="black" stroke-width="2.5"/>
+<line x1="1540" y1="527" x2="1557" y2="549.5" stroke="black" stroke-width="2.5"/>
+<line x1="1540" y1="527" x2="1557" y2="564.5" stroke="black" stroke-width="2.5"/>
+<line x1="1540" y1="542" x2="1557" y2="534.5" stroke="black" stroke-width="2.5"/>
+<line x1="1540" y1="542" x2="1557" y2="549.5" stroke="black" stroke-width="2.5"/>
+<line x1="1540" y1="542" x2="1557" y2="564.5" stroke="black" stroke-width="2.5"/>
+<line x1="1540" y1="557" x2="1557" y2="534.5" stroke="black" stroke-width="2.5"/>
+<line x1="1540" y1="557" x2="1557" y2="549.5" stroke="black" stroke-width="2.5"/>
+<line x1="1540" y1="557" x2="1557" y2="564.5" stroke="black" stroke-width="2.5"/>
+<line x1="1557" y1="534.5" x2="1574" y2="549.5" stroke="black" stroke-width="2.5"/>
+<line x1="1557" y1="549.5" x2="1574" y2="549.5" stroke="black" stroke-width="2.5"/>
+<line x1="1557" y1="564.5" x2="1574" y2="549.5" stroke="black" stroke-width="2.5"/>
+<circle cx="1540" cy="527" r="4.5" fill="white" stroke="black" stroke-width="2.5"/>
+<circle cx="1540" cy="542" r="4.5" fill="white" stroke="black" stroke-width="2.5"/>
+<circle cx="1540" cy="557" r="4.5" fill="white" stroke="black" stroke-width="2.5"/>
+<circle cx="1557" cy="534.5" r="4.5" fill="white" stroke="black" stroke-width="2.5"/>
+<circle cx="1557" cy="549.5" r="4.5" fill="white" stroke="black" stroke-width="2.5"/>
+<circle cx="1557" cy="564.5" r="4.5" fill="white" stroke="black" stroke-width="2.5"/>
+<circle cx="1574" cy="549.5" r="4.5" fill="white" stroke="black" stroke-width="2.5"/>
+<rect x="1601" y="464.5" width="201" height="67.5" rx="10" fill="#cef0ec" stroke="#aaa" stroke-width="1.5"/>
+<text x="1701.5" y="491" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="28" font-weight="normal" text-anchor="middle" fill="black">Tag-based</text>
+<text x="1701.5" y="518" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="28" font-weight="normal" text-anchor="middle" fill="black">Item/User Encoder</text>
+<rect x="1601" y="541.5" width="201" height="67.5" rx="10" fill="#ffedcb" stroke="#aaa" stroke-width="1.5"/>
+<text x="1701.5" y="568" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="28" font-weight="normal" text-anchor="middle" fill="black">Tag-logic</text>
+<text x="1701.5" y="595" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="28" font-weight="normal" text-anchor="middle" fill="black">Inference Extension</text>
+<text x="1381" y="453" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="26" font-weight="normal" font-style="italic" text-anchor="middle" fill="black">Logic Graph</text>
+<rect x="1323" y="467.5" width="136.5" height="117.5" rx="14" fill="#eef2f4" stroke="#595959" stroke-width="3.5"/>
+<circle cx="1340" cy="481.5" r="15.5" fill="#f9d8c3" stroke="#26456e" stroke-width="2.5"/>
+<circle cx="1408" cy="481.5" r="15.5" fill="#d3e5c8" stroke="#26456e" stroke-width="2.5"/>
+<circle cx="1340" cy="512" r="15.5" fill="#f9d8c3" stroke="#26456e" stroke-width="2.5"/>
+<circle cx="1408" cy="512" r="15.5" fill="#d3e5c8" stroke="#26456e" stroke-width="2.5"/>
+<circle cx="1340" cy="542.5" r="15.5" fill="#f9d8c3" stroke="#26456e" stroke-width="2.5"/>
+<circle cx="1408" cy="542.5" r="15.5" fill="#d3e5c8" stroke="#26456e" stroke-width="2.5"/>
+<path d="M1356 481.5 H1408" fill="none" stroke="#f6b48d" stroke-width="3.5" stroke-linecap="butt"/>
+<path d="M1356 481.5 H1408" fill="none" stroke="none" marker-end="url(#orange)"/>
+<path d="M1349 506 L1399 487" fill="none" stroke="#f6b48d" stroke-width="3.5" stroke-linecap="butt"/>
+<path d="M1349 506 L1399 487" fill="none" stroke="none" marker-end="url(#orange)"/>
+<path d="M1349 536 L1399 517" fill="none" stroke="#f6b48d" stroke-width="3.5" stroke-linecap="butt"/>
+<path d="M1349 536 L1399 517" fill="none" stroke="none" marker-end="url(#orange)"/>
+<path d="M1399 488 L1351 507" fill="none" stroke="#a6d68c" stroke-width="3.5" stroke-linecap="butt"/>
+<path d="M1399 488 L1351 507" fill="none" stroke="none" marker-end="url(#green)"/>
+<path d="M1399 518 L1351 537" fill="none" stroke="#a6d68c" stroke-width="3.5" stroke-linecap="butt"/>
+<path d="M1399 518 L1351 537" fill="none" stroke="none" marker-end="url(#green)"/>
+<path d="M1399 536 L1351 517" fill="none" stroke="#a6d68c" stroke-width="3.5" stroke-linecap="butt"/>
+<path d="M1399 536 L1351 517" fill="none" stroke="none" marker-end="url(#green)"/>
+<text x="1345" y="603" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="24" font-weight="normal" text-anchor="middle" fill="black">
+<tspan font-size="24" font-style="italic">C</tspan>
+<tspan font-size="15" dy="-10.8">*</tspan>
+<tspan dy="10.8"></tspan>
+</text>
+<text x="1415" y="603" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="24" font-weight="normal" text-anchor="middle" fill="black">
+<tspan font-size="24" font-style="italic">T</tspan>
+<tspan font-size="15" dy="-10.8">*</tspan>
+<tspan dy="10.8"></tspan>
+</text>
+<path d="M1460 500 H1521" fill="none" stroke="black" stroke-width="3.5" stroke-linecap="butt"/>
+<path d="M1460 500 H1521" fill="none" stroke="none" marker-end="url(#black)"/>
+<path d="M1460 542 H1521" fill="none" stroke="black" stroke-width="3.5" stroke-linecap="butt"/>
+<path d="M1460 542 H1521" fill="none" stroke="none" marker-end="url(#black)"/>
+<text x="1466" y="486" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="24" font-weight="normal" text-anchor="start" fill="black">
+<tspan font-size="24" font-style="italic" fill="#57803c">G</tspan>
+<tspan font-size="17" font-style="italic" fill="#57803c" dy="-10.8">I2U</tspan>
+<tspan dy="10.8"></tspan>
+<tspan font-size="15" dy="-10.8">*</tspan>
+<tspan dy="10.8"></tspan>
+</text>
+<text x="1466" y="522" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="24" font-weight="normal" text-anchor="start" fill="black">
+<tspan font-size="24" font-style="italic" fill="#c55a11">G</tspan>
+<tspan font-size="17" font-style="italic" fill="#c55a11" dy="-10.8">U2I</tspan>
+<tspan dy="10.8"></tspan>
+<tspan font-size="15" dy="-10.8">*</tspan>
+<tspan dy="10.8"></tspan>
+</text>
+<path d="M1607 668 V614" fill="none" stroke="black" stroke-width="3.5" stroke-dasharray="6 5" stroke-linecap="butt"/>
+<path d="M1607 668 V614" fill="none" stroke="none" marker-end="url(#black)"/>
+<text x="1484" y="659" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="26" font-weight="normal" text-anchor="middle" fill="black">Backpropagation</text>
+<path d="M1685 613 V672" fill="none" stroke="black" stroke-width="3.5" stroke-linecap="butt"/>
+<path d="M1685 613 V672" fill="none" stroke="none" marker-end="url(#black)"/>
+<path d="M1790 613 V672" fill="none" stroke="black" stroke-width="3.5" stroke-linecap="butt"/>
+<path d="M1790 613 V672" fill="none" stroke="none" marker-end="url(#black)"/>
+<text x="1688" y="704" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="30" font-weight="normal" text-anchor="middle" fill="black">
+<tspan font-size="30" font-style="italic">ŷ</tspan>
+<tspan font-size="21" font-style="italic" dy="8.4">raw</tspan>
+<tspan dy="-8.4"></tspan>
+</text>
+<text x="1787" y="706" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="30" font-weight="normal" text-anchor="middle" fill="black">
+<tspan font-size="30" font-style="italic">ŷ</tspan>
+<tspan font-size="21" font-style="italic" dy="8.4">tag</tspan>
+<tspan dy="-8.4"></tspan>
+</text>
+<path d="M1697 714 L1726 742" fill="none" stroke="black" stroke-width="3.5" stroke-linecap="butt"/>
+<path d="M1697 714 L1726 742" fill="none" stroke="none" marker-end="url(#black)"/>
+<path d="M1795 712 L1742 742" fill="none" stroke="black" stroke-width="3.5" stroke-linecap="butt"/>
+<path d="M1795 712 L1742 742" fill="none" stroke="none" marker-end="url(#black)"/>
+<text x="1731" y="768" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="32" font-weight="normal" font-style="italic" text-anchor="middle" fill="black">ŷ</text>
+<rect x="1320" y="668" width="332" height="94" rx="15" fill="#d7e9f8" stroke="#aaa" stroke-width="1.5"/>
+<text x="1486" y="707" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="26" font-weight="normal" text-anchor="middle" fill="black">
+<tspan font-size="36" font-family="DejaVu Sans, serif" font-style="italic">𝓛</tspan>
+<tspan font-size="26"> = λ(</tspan>
+<tspan font-size="29" font-family="DejaVu Sans, serif" font-style="italic">𝓛</tspan>
+<tspan font-size="15" font-style="italic" dy="7.3">ut</tspan>
+<tspan dy="-7.3"></tspan>
+<tspan font-size="26"> + </tspan>
+<tspan font-size="29" font-family="DejaVu Sans, serif" font-style="italic">𝓛</tspan>
+<tspan font-size="15" font-style="italic" dy="7.3">it</tspan>
+<tspan dy="-7.3"></tspan>
+<tspan font-size="26">) + (1 − λ)</tspan>
+<tspan font-size="29" font-family="DejaVu Sans, serif" font-style="italic">𝓛</tspan>
+<tspan font-size="15" font-style="italic" dy="7.3">ui</tspan>
+<tspan dy="-7.3"></tspan>
+</text>
+<text x="1486" y="748" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="27" font-weight="normal" text-anchor="middle" fill="black">Tag-based Learning Augmentation</text>
+<path d="M113.5 712 V768 H861 V739" fill="none" stroke="#a6d68c" stroke-width="3.5" stroke-linecap="butt"/>
+<path d="M113.5 712 V768 H861 V739" fill="none" stroke="none" marker-end="url(#green)"/>
+<path d="M484 728 V787 H1095 V739" fill="none" stroke="#f6b48d" stroke-width="3.5" stroke-linecap="butt"/>
+<path d="M484 728 V787 H1095 V739" fill="none" stroke="none" marker-end="url(#orange)"/>
+<text x="103" y="863" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="30" font-weight="bold" text-anchor="start" fill="black">(1) MLLM-based Tag Extraction</text>
+<text x="664" y="863" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="30" font-weight="bold" text-anchor="start" fill="black">(2) LLM-based Collaborative Logic Reasoning</text>
+<text x="1405" y="863" font-family="Times New Roman, Liberation Serif, DejaVu Serif, serif" font-size="30" font-weight="bold" text-anchor="start" fill="black">(3) Tag Logic Integration</text>
+</svg>

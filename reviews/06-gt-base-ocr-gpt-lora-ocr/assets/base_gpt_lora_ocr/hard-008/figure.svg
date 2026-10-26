@@ -1,0 +1,496 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1911" height="783" viewBox="0 0 1911 783" font-family="Times New Roman, serif">
+<defs>
+<linearGradient id="peak" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e8402a"/><stop offset="0.32" stop-color="#ff8a52"/><stop offset="0.55" stop-color="#f4c9a1"/><stop offset="0.78" stop-color="#b9c9e6"/><stop offset="1" stop-color="#cfdaec"/></linearGradient>
+<linearGradient id="peak2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f2643f"/><stop offset="0.35" stop-color="#ffa271"/><stop offset="0.6" stop-color="#f3d2b4"/><stop offset="1" stop-color="#c2d0e8"/></linearGradient>
+<linearGradient id="base" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eef3fb"/><stop offset="0.45" stop-color="#aec4e8"/><stop offset="1" stop-color="#7f9fd4"/></linearGradient>
+<radialGradient id="fusco" cx="0.35" cy="0.35" r="0.8"><stop offset="0" stop-color="#dfeaf8"/><stop offset="0.6" stop-color="#88add9"/><stop offset="1" stop-color="#3c619c"/></radialGradient>
+<marker id="arrow" markerWidth="15" markerHeight="15" refX="13" refY="7.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L15,7.5 L0,15 Z" fill="#10275f"/></marker>
+<marker id="arrow2" markerWidth="24" markerHeight="24" refX="22" refY="12.0" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L24,12.0 L0,24 Z" fill="#10275f"/></marker>
+<marker id="grey" markerWidth="15" markerHeight="15" refX="13" refY="7.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L15,7.5 L0,15 Z" fill="#8a8a8a"/></marker>
+</defs>
+<rect x="0" y="0" width="1911" height="783" rx="0" fill="white" stroke="none" stroke-width="2"/>
+<rect x="28" y="26" width="1883" height="219" rx="22" fill="#eaf6e9" stroke="#c9d6e6" stroke-width="1.5" stroke-dasharray="4 3"/>
+<rect x="30" y="52" width="532" height="188" rx="18" fill="#edf6ec" stroke="#b6d3ad" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="94" y="54" font-size="26" fill="#10275f" font-weight="bold" text-anchor="start" font-style="normal">(a) The whole process of evolutionary multi-view classification</text>
+<rect x="50" y="76" width="118" height="52" rx="0" fill="none" stroke="#10275f" stroke-width="2" stroke-dasharray="5 4"/>
+<circle cx="62" cy="89" r="10" fill="#c7dbf1" stroke="#10275f" stroke-width="2"/>
+<circle cx="90" cy="89" r="10" fill="#c7dbf1" stroke="#10275f" stroke-width="2"/>
+<circle cx="118" cy="89" r="3.2" fill="#10275f" stroke="none" stroke-width="0"/>
+<circle cx="133" cy="89" r="3.2" fill="#10275f" stroke="none" stroke-width="0"/>
+<circle cx="148" cy="89" r="3.2" fill="#10275f" stroke="none" stroke-width="0"/>
+<circle cx="162" cy="89" r="10" fill="#c7dbf1" stroke="#10275f" stroke-width="2"/>
+<circle cx="62" cy="116" r="10" fill="#c7dbf1" stroke="#10275f" stroke-width="2"/>
+<circle cx="90" cy="116" r="10" fill="#c7dbf1" stroke="#10275f" stroke-width="2"/>
+<circle cx="118" cy="116" r="3.2" fill="#10275f" stroke="none" stroke-width="0"/>
+<circle cx="133" cy="116" r="3.2" fill="#10275f" stroke="none" stroke-width="0"/>
+<circle cx="148" cy="116" r="3.2" fill="#10275f" stroke="none" stroke-width="0"/>
+<circle cx="162" cy="116" r="10" fill="#c7dbf1" stroke="#10275f" stroke-width="2"/>
+<text x="30" y="157" font-size="24" fill="black" font-weight="bold" text-anchor="start" font-style="normal">Fusion operator set</text>
+<rect x="45" y="166" width="125" height="52" rx="0" fill="none" stroke="#10275f" stroke-width="2" stroke-dasharray="5 4"/>
+<ellipse cx="57" cy="177" rx="14" ry="6.5" fill="#f4ad7a" stroke="#10275f" stroke-width="2.5"/>
+<ellipse cx="84" cy="177" rx="14" ry="6.5" fill="#ef6c2f" stroke="#10275f" stroke-width="2.5"/>
+<ellipse cx="148" cy="177" rx="14" ry="6.5" fill="#c8cfc0" stroke="#10275f" stroke-width="2.5"/>
+<circle cx="114" cy="177" r="3" fill="#10275f" stroke="none" stroke-width="0"/>
+<circle cx="130" cy="177" r="3" fill="#10275f" stroke="none" stroke-width="0"/>
+<circle cx="146" cy="177" r="3" fill="#10275f" stroke="none" stroke-width="0"/>
+<ellipse cx="57" cy="205" rx="14" ry="6.5" fill="#f7d76a" stroke="#10275f" stroke-width="2.5"/>
+<ellipse cx="84" cy="205" rx="14" ry="6.5" fill="#3f78bb" stroke="#10275f" stroke-width="2.5"/>
+<ellipse cx="148" cy="205" rx="14" ry="6.5" fill="#b9c0cc" stroke="#10275f" stroke-width="2.5"/>
+<circle cx="114" cy="205" r="3" fill="#10275f" stroke="none" stroke-width="0"/>
+<circle cx="130" cy="205" r="3" fill="#10275f" stroke="none" stroke-width="0"/>
+<circle cx="146" cy="205" r="3" fill="#10275f" stroke="none" stroke-width="0"/>
+<text x="98" y="236" font-size="24" fill="black" font-weight="normal" text-anchor="middle" font-style="normal">View set</text>
+<path d="M168,102 H172 C196,102 196,122 196,122 C196,143 196,164 172,164 H168" fill="none" stroke="#10275f" stroke-width="4"/>
+<path d="M196,122 H212" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow2)"/>
+<g transform="translate(340 187) scale(1.0)">
+<path d="M-100,4 C-85,-28 -58,-47 -28,-45 C2,-53 30,-48 55,-33 C75,-49 92,-40 100,-8 V13 H-100 Z" fill="url(#base)" stroke="none" stroke-width="0"/>
+<path d="M-47,-30 C-38,-64 -27,-81 -19,-84 C-10,-86 -4,-64 3,-47 C9,-33 13,-28 16,-24 L-47,-24 Z" fill="url(#peak2)" stroke="none" stroke-width="0"/>
+<path d="M6,-24 C16,-62 24,-85 32,-90 C40,-93 46,-66 55,-45 C62,-30 66,-24 68,-17 L6,-15 Z" fill="url(#peak)" stroke="none" stroke-width="0"/>
+<path d="M-100,12 C-72,-18 -40,-28 -12,-16 C14,-30 42,-22 62,-7 C82,-20 96,-5 100,5 V16 C60,26 -40,24 -100,16 Z" fill="url(#base)" stroke="none" stroke-width="0"/>
+<path d="M-96,-8 C-50,-15 30,-13 96,-10" fill="none" stroke="#8ea9d8" stroke-width="0.7"/>
+<path d="M-96,-2 C-50,-9 30,-7 96,-4" fill="none" stroke="#8ea9d8" stroke-width="0.7"/>
+<path d="M-96,4 C-50,-3 30,-1 96,2" fill="none" stroke="#8ea9d8" stroke-width="0.7"/>
+<path d="M-96,10 C-50,3 30,5 96,8" fill="none" stroke="#8ea9d8" stroke-width="0.7"/>
+<path d="M-96,6 C-40,0 40,2 96,7" fill="none" stroke="#a9bede" stroke-width="0.7"/>
+<path d="M-30,-28 C-22,-54 -14,-68 -7,-73 M-7,-73 C0,-60 6,-45 12,-28" fill="none" stroke="#e0aa86" stroke-width="0.6"/>
+<path d="M20,-28 C26,-54 32,-72 38,-79 M38,-79 C44,-62 50,-44 55,-28" fill="none" stroke="#e0aa86" stroke-width="0.6"/>
+</g>
+<text x="319" y="229" font-size="24" fill="black" font-weight="bold" text-anchor="start" font-style="normal">Search space</text>
+<text x="414" y="108" font-size="26" fill="#c81f2a" font-weight="bold" text-anchor="start" font-style="normal">① Initialize</text>
+<text x="414" y="134" font-size="26" fill="#c81f2a" font-weight="bold" text-anchor="start" font-style="normal">population</text>
+<path d="M440,148 H505" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow2)"/>
+<text x="702" y="108" font-size="26" fill="#c81f2a" font-weight="bold" text-anchor="start" font-style="normal">② Fitness</text>
+<text x="702" y="134" font-size="26" fill="#c81f2a" font-weight="bold" text-anchor="start" font-style="normal">evaluation</text>
+<path d="M748,148 H797" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow2)"/>
+<text x="955" y="104" font-size="26" fill="#c81f2a" font-weight="bold" text-anchor="start" font-style="normal">③ Offspring</text>
+<text x="955" y="130" font-size="26" fill="#c81f2a" font-weight="bold" text-anchor="start" font-style="normal">generation</text>
+<path d="M1097,148 H1130" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow2)"/>
+<path d="M1078,84 V145 H1090" fill="none" stroke="#10275f" stroke-width="2" stroke-dasharray="4 3"/>
+<path d="M1078,92 H1090" fill="none" stroke="#10275f" stroke-width="2" stroke-dasharray="4 3"/>
+<text x="1090" y="96" font-size="20" fill="#6a2c9b" font-weight="bold" text-anchor="start" font-style="normal">Crossover</text>
+<text x="1090" y="135" font-size="20" fill="#6a2c9b" font-weight="bold" text-anchor="start" font-style="normal">Mutation</text>
+<text x="1311" y="105" font-size="26" fill="#c81f2a" font-weight="bold" text-anchor="start" font-style="normal">④ Fitness</text>
+<text x="1311" y="131" font-size="26" fill="#c81f2a" font-weight="bold" text-anchor="start" font-style="normal">evaluation</text>
+<path d="M1335,148 H1397" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow2)"/>
+<text x="1586" y="108" font-size="26" fill="#c81f2a" font-weight="bold" text-anchor="start" font-style="normal">⑤ Selection</text>
+<path d="M1617,148 H1677" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow2)"/>
+<path d="M1677,148 H1702 V55 H1017 V82" fill="none" stroke="#10275f" stroke-width="3.5" marker-end="url(#arrow2)"/>
+<g transform="translate(575 182) scale(1.0)">
+<path d="M-100,4 C-85,-28 -58,-47 -28,-45 C2,-53 30,-48 55,-33 C75,-49 92,-40 100,-8 V13 H-100 Z" fill="url(#base)" stroke="none" stroke-width="0"/>
+<path d="M-47,-30 C-38,-64 -27,-81 -19,-84 C-10,-86 -4,-64 3,-47 C9,-33 13,-28 16,-24 L-47,-24 Z" fill="url(#peak2)" stroke="none" stroke-width="0"/>
+<path d="M6,-24 C16,-62 24,-85 32,-90 C40,-93 46,-66 55,-45 C62,-30 66,-24 68,-17 L6,-15 Z" fill="url(#peak)" stroke="none" stroke-width="0"/>
+<path d="M-100,12 C-72,-18 -40,-28 -12,-16 C14,-30 42,-22 62,-7 C82,-20 96,-5 100,5 V16 C60,26 -40,24 -100,16 Z" fill="url(#base)" stroke="none" stroke-width="0"/>
+<path d="M-96,-8 C-50,-15 30,-13 96,-10" fill="none" stroke="#8ea9d8" stroke-width="0.7"/>
+<path d="M-96,-2 C-50,-9 30,-7 96,-4" fill="none" stroke="#8ea9d8" stroke-width="0.7"/>
+<path d="M-96,4 C-50,-3 30,-1 96,2" fill="none" stroke="#8ea9d8" stroke-width="0.7"/>
+<path d="M-96,10 C-50,3 30,5 96,8" fill="none" stroke="#8ea9d8" stroke-width="0.7"/>
+<path d="M-96,6 C-40,0 40,2 96,7" fill="none" stroke="#a9bede" stroke-width="0.7"/>
+<path d="M-30,-28 C-22,-54 -14,-68 -7,-73 M-7,-73 C0,-60 6,-45 12,-28" fill="none" stroke="#e0aa86" stroke-width="0.6"/>
+<path d="M20,-28 C26,-54 32,-72 38,-79 M38,-79 C44,-62 50,-44 55,-28" fill="none" stroke="#e0aa86" stroke-width="0.6"/>
+</g>
+<circle cx="581" cy="152" r="4.5" fill="#5e8c3f" stroke="#3f5e2a" stroke-width="1"/>
+<path d="M578,150 C560,175 540,188 522,200" fill="none" stroke="#8a8a8a" stroke-width="3" stroke-dasharray="4 3" marker-end="url(#grey)"/>
+<text x="539" y="219" font-size="24" fill="black" font-weight="bold" text-anchor="middle" font-style="normal">Individual</text>
+<g transform="translate(915 182) scale(1.0)">
+<path d="M-100,4 C-85,-28 -58,-47 -28,-45 C2,-53 30,-48 55,-33 C75,-49 92,-40 100,-8 V13 H-100 Z" fill="url(#base)" stroke="none" stroke-width="0"/>
+<path d="M-47,-30 C-38,-64 -27,-81 -19,-84 C-10,-86 -4,-64 3,-47 C9,-33 13,-28 16,-24 L-47,-24 Z" fill="url(#peak2)" stroke="none" stroke-width="0"/>
+<path d="M6,-24 C16,-62 24,-85 32,-90 C40,-93 46,-66 55,-45 C62,-30 66,-24 68,-17 L6,-15 Z" fill="url(#peak)" stroke="none" stroke-width="0"/>
+<path d="M-100,12 C-72,-18 -40,-28 -12,-16 C14,-30 42,-22 62,-7 C82,-20 96,-5 100,5 V16 C60,26 -40,24 -100,16 Z" fill="url(#base)" stroke="none" stroke-width="0"/>
+<path d="M-96,-8 C-50,-15 30,-13 96,-10" fill="none" stroke="#8ea9d8" stroke-width="0.7"/>
+<path d="M-96,-2 C-50,-9 30,-7 96,-4" fill="none" stroke="#8ea9d8" stroke-width="0.7"/>
+<path d="M-96,4 C-50,-3 30,-1 96,2" fill="none" stroke="#8ea9d8" stroke-width="0.7"/>
+<path d="M-96,10 C-50,3 30,5 96,8" fill="none" stroke="#8ea9d8" stroke-width="0.7"/>
+<path d="M-96,6 C-40,0 40,2 96,7" fill="none" stroke="#a9bede" stroke-width="0.7"/>
+<path d="M-30,-28 C-22,-54 -14,-68 -7,-73 M-7,-73 C0,-60 6,-45 12,-28" fill="none" stroke="#e0aa86" stroke-width="0.6"/>
+<path d="M20,-28 C26,-54 32,-72 38,-79 M38,-79 C44,-62 50,-44 55,-28" fill="none" stroke="#e0aa86" stroke-width="0.6"/>
+</g>
+<circle cx="868" cy="98" r="4.5" fill="#5e8c3f" stroke="#3f5e2a" stroke-width="1"/>
+<circle cx="858" cy="150" r="4.5" fill="#5e8c3f" stroke="#3f5e2a" stroke-width="1"/>
+<circle cx="924" cy="165" r="4.5" fill="#5e8c3f" stroke="#3f5e2a" stroke-width="1"/>
+<text x="936" y="117" font-size="17" fill="black" font-weight="normal" text-anchor="start" font-style="normal">83.01</text>
+<text x="839" y="173" font-size="17" fill="black" font-weight="normal" text-anchor="start" font-style="normal">78.89</text>
+<text x="923" y="179" font-size="17" fill="black" font-weight="normal" text-anchor="start" font-style="normal">77.23</text>
+<text x="880" y="227" font-size="19" fill="black" font-weight="normal" text-anchor="middle">P<tspan font-size="14" dy="4">t</tspan></text>
+<g transform="translate(1250 182) scale(1.0)">
+<path d="M-100,4 C-85,-28 -58,-47 -28,-45 C2,-53 30,-48 55,-33 C75,-49 92,-40 100,-8 V13 H-100 Z" fill="url(#base)" stroke="none" stroke-width="0"/>
+<path d="M-47,-30 C-38,-64 -27,-81 -19,-84 C-10,-86 -4,-64 3,-47 C9,-33 13,-28 16,-24 L-47,-24 Z" fill="url(#peak2)" stroke="none" stroke-width="0"/>
+<path d="M6,-24 C16,-62 24,-85 32,-90 C40,-93 46,-66 55,-45 C62,-30 66,-24 68,-17 L6,-15 Z" fill="url(#peak)" stroke="none" stroke-width="0"/>
+<path d="M-100,12 C-72,-18 -40,-28 -12,-16 C14,-30 42,-22 62,-7 C82,-20 96,-5 100,5 V16 C60,26 -40,24 -100,16 Z" fill="url(#base)" stroke="none" stroke-width="0"/>
+<path d="M-96,-8 C-50,-15 30,-13 96,-10" fill="none" stroke="#8ea9d8" stroke-width="0.7"/>
+<path d="M-96,-2 C-50,-9 30,-7 96,-4" fill="none" stroke="#8ea9d8" stroke-width="0.7"/>
+<path d="M-96,4 C-50,-3 30,-1 96,2" fill="none" stroke="#8ea9d8" stroke-width="0.7"/>
+<path d="M-96,10 C-50,3 30,5 96,8" fill="none" stroke="#8ea9d8" stroke-width="0.7"/>
+<path d="M-96,6 C-40,0 40,2 96,7" fill="none" stroke="#a9bede" stroke-width="0.7"/>
+<path d="M-30,-28 C-22,-54 -14,-68 -7,-73 M-7,-73 C0,-60 6,-45 12,-28" fill="none" stroke="#e0aa86" stroke-width="0.6"/>
+<path d="M20,-28 C26,-54 32,-72 38,-79 M38,-79 C44,-62 50,-44 55,-28" fill="none" stroke="#e0aa86" stroke-width="0.6"/>
+</g>
+<circle cx="1214" cy="150" r="4.5" fill="#c81f2a" stroke="#8a1420" stroke-width="1"/>
+<circle cx="1209" cy="172" r="4.5" fill="#5e8c3f" stroke="#3f5e2a" stroke-width="1"/>
+<text x="1160" y="171" font-size="17" fill="black" font-weight="normal" text-anchor="start" font-style="normal">78.89</text>
+<text x="1255" y="181" font-size="17" fill="black" font-weight="normal" text-anchor="start" font-style="normal">77.23</text>
+<text x="1257" y="229" font-size="24" fill="black" font-weight="normal" text-anchor="start" font-style="normal">New individual</text>
+<g transform="translate(1525 182) scale(1.0)">
+<path d="M-100,4 C-85,-28 -58,-47 -28,-45 C2,-53 30,-48 55,-33 C75,-49 92,-40 100,-8 V13 H-100 Z" fill="url(#base)" stroke="none" stroke-width="0"/>
+<path d="M-47,-30 C-38,-64 -27,-81 -19,-84 C-10,-86 -4,-64 3,-47 C9,-33 13,-28 16,-24 L-47,-24 Z" fill="url(#peak2)" stroke="none" stroke-width="0"/>
+<path d="M6,-24 C16,-62 24,-85 32,-90 C40,-93 46,-66 55,-45 C62,-30 66,-24 68,-17 L6,-15 Z" fill="url(#peak)" stroke="none" stroke-width="0"/>
+<path d="M-100,12 C-72,-18 -40,-28 -12,-16 C14,-30 42,-22 62,-7 C82,-20 96,-5 100,5 V16 C60,26 -40,24 -100,16 Z" fill="url(#base)" stroke="none" stroke-width="0"/>
+<path d="M-96,-8 C-50,-15 30,-13 96,-10" fill="none" stroke="#8ea9d8" stroke-width="0.7"/>
+<path d="M-96,-2 C-50,-9 30,-7 96,-4" fill="none" stroke="#8ea9d8" stroke-width="0.7"/>
+<path d="M-96,4 C-50,-3 30,-1 96,2" fill="none" stroke="#8ea9d8" stroke-width="0.7"/>
+<path d="M-96,10 C-50,3 30,5 96,8" fill="none" stroke="#8ea9d8" stroke-width="0.7"/>
+<path d="M-96,6 C-40,0 40,2 96,7" fill="none" stroke="#a9bede" stroke-width="0.7"/>
+<path d="M-30,-28 C-22,-54 -14,-68 -7,-73 M-7,-73 C0,-60 6,-45 12,-28" fill="none" stroke="#e0aa86" stroke-width="0.6"/>
+<path d="M20,-28 C26,-54 32,-72 38,-79 M38,-79 C44,-62 50,-44 55,-28" fill="none" stroke="#e0aa86" stroke-width="0.6"/>
+</g>
+<circle cx="1477" cy="146" r="4.5" fill="#5e8c3f" stroke="#3f5e2a" stroke-width="1"/>
+<circle cx="1482" cy="172" r="4.5" fill="#c81f2a" stroke="#8a1420" stroke-width="1"/>
+<circle cx="1538" cy="170" r="4.5" fill="#5e8c3f" stroke="#3f5e2a" stroke-width="1"/>
+<circle cx="1580" cy="150" r="4.5" fill="#c81f2a" stroke="#8a1420" stroke-width="1"/>
+<text x="1476" y="157" font-size="17" fill="black" font-weight="normal" text-anchor="start" font-style="normal">80.10</text>
+<text x="1468" y="188" font-size="17" fill="black" font-weight="normal" text-anchor="start" font-style="normal">77.12</text>
+<text x="1528" y="181" font-size="17" fill="black" font-weight="normal" text-anchor="start" font-style="normal">77.23</text>
+<text x="1575" y="169" font-size="17" fill="black" font-weight="normal" text-anchor="start" font-style="normal">80.91</text>
+<g transform="translate(1745 182) scale(1.0)">
+<path d="M-100,4 C-85,-28 -58,-47 -28,-45 C2,-53 30,-48 55,-33 C75,-49 92,-40 100,-8 V13 H-100 Z" fill="url(#base)" stroke="none" stroke-width="0"/>
+<path d="M-47,-30 C-38,-64 -27,-81 -19,-84 C-10,-86 -4,-64 3,-47 C9,-33 13,-28 16,-24 L-47,-24 Z" fill="url(#peak2)" stroke="none" stroke-width="0"/>
+<path d="M6,-24 C16,-62 24,-85 32,-90 C40,-93 46,-66 55,-45 C62,-30 66,-24 68,-17 L6,-15 Z" fill="url(#peak)" stroke="none" stroke-width="0"/>
+<path d="M-100,12 C-72,-18 -40,-28 -12,-16 C14,-30 42,-22 62,-7 C82,-20 96,-5 100,5 V16 C60,26 -40,24 -100,16 Z" fill="url(#base)" stroke="none" stroke-width="0"/>
+<path d="M-96,-8 C-50,-15 30,-13 96,-10" fill="none" stroke="#8ea9d8" stroke-width="0.7"/>
+<path d="M-96,-2 C-50,-9 30,-7 96,-4" fill="none" stroke="#8ea9d8" stroke-width="0.7"/>
+<path d="M-96,4 C-50,-3 30,-1 96,2" fill="none" stroke="#8ea9d8" stroke-width="0.7"/>
+<path d="M-96,10 C-50,3 30,5 96,8" fill="none" stroke="#8ea9d8" stroke-width="0.7"/>
+<path d="M-96,6 C-40,0 40,2 96,7" fill="none" stroke="#a9bede" stroke-width="0.7"/>
+<path d="M-30,-28 C-22,-54 -14,-68 -7,-73 M-7,-73 C0,-60 6,-45 12,-28" fill="none" stroke="#e0aa86" stroke-width="0.6"/>
+<path d="M20,-28 C26,-54 32,-72 38,-79 M38,-79 C44,-62 50,-44 55,-28" fill="none" stroke="#e0aa86" stroke-width="0.6"/>
+</g>
+<circle cx="1740" cy="161" r="4.5" fill="#5e8c3f" stroke="#3f5e2a" stroke-width="1"/>
+<circle cx="1816" cy="101" r="4.5" fill="#5e8c3f" stroke="#3f5e2a" stroke-width="1"/>
+<circle cx="1753" cy="155" r="4.5" fill="#c81f2a" stroke="#8a1420" stroke-width="1"/>
+<text x="1692" y="229" font-size="24" fill="black" font-weight="normal" text-anchor="start">New population P<tspan font-size="15" dy="4">t+1</tspan></text>
+<text x="56" y="280" font-size="26" fill="#10275f" font-weight="bold" text-anchor="start" font-style="normal">(b) Unbiased fitness evaluation</text>
+<rect x="30" y="290" width="325" height="482" rx="14" fill="white" stroke="#4a6fa5" stroke-width="2" stroke-dasharray="5 4"/>
+<rect x="55" y="296" width="300" height="68" rx="10" fill="white" stroke="#10275f" stroke-width="1.6" stroke-dasharray="5 4"/>
+<g transform="translate(73 327) scale(1.5)">
+<path d="M-13,-20 C-20,-19 -20,-6 -16,1 C-13,6 -16,9 -14,13 C-11,13 -10,10 -8,10 C-3,11 1,9 4,5 L10,3 L9,-6 C9,-13 3,-18 -3,-19 Z" fill="#6d9e4c" stroke="#6d9e4c" stroke-width="0"/>
+<circle cx="-1" cy="-5" r="6" fill="#f2ede4" stroke="none" stroke-width="0"/>
+<circle cx="-7" cy="-9" r="3" fill="#f2ede4" stroke="none" stroke-width="0"/>
+<circle cx="4" cy="-1" r="3" fill="#f2ede4" stroke="none" stroke-width="0"/>
+<path d="M-4,-6 Q-1,-3 2,-1" fill="none" stroke="#f2ede4" stroke-width="1.4"/>
+</g>
+<text x="227" y="329" font-size="24" fill="black" font-weight="bold" text-anchor="middle" font-style="normal">Evolutionary navigator</text>
+<text x="227" y="359" font-size="24" fill="black" font-weight="bold" text-anchor="middle">of the view<tspan font-size="14" dy="-8">(v)</tspan></text>
+<path d="M84,366 V432" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow)"/>
+<text x="92" y="402" font-size="24" fill="black" font-weight="normal" text-anchor="start" font-style="normal">Pre-training process</text>
+<path d="M205,418 C185,418 190,390 210,388 H388 V322 H413" fill="none" stroke="#5b8c34" stroke-width="3.5" marker-end="url(#arrow)"/>
+<rect x="45" y="370" width="310" height="275" rx="20" fill="white" stroke="#10275f" stroke-width="1.6" stroke-dasharray="5 4"/>
+<ellipse cx="98" cy="460" rx="37" ry="24" fill="#8fb864" stroke="#10275f" stroke-width="2.5"/>
+<text x="98" y="468" font-size="26" fill="black" font-weight="normal" text-anchor="middle">View<tspan font-size="15" dy="-7">(v)</tspan></text>
+<path d="M136,460 H190" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="192" y="433" width="28" height="46" rx="0" fill="#cfdef0" stroke="#10275f" stroke-width="2.5"/>
+<text x="206" y="456" font-size="26" fill="black" font-weight="normal" text-anchor="middle" transform="rotate(-90 206 456)">FC</text>
+<path d="M220,457 H271" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="273" y="430" width="28" height="46" rx="0" fill="#c9ccd1" stroke="#10275f" stroke-width="2.5"/>
+<text x="287" y="453" font-size="26" fill="black" font-weight="normal" text-anchor="middle" transform="rotate(-90 287 453)">FC</text>
+<path d="M301,453 H317 V533 H305" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="278" y="504" width="25" height="90" rx="4" fill="#fbe49d" stroke="#10275f" stroke-width="2.5"/>
+<text x="290" y="549" font-size="22" fill="black" font-weight="normal" text-anchor="middle" transform="rotate(-90 290 549)">Softmax</text>
+<path d="M278,555 H217" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="188" y="513" width="28" height="50" rx="0" fill="#fbe49d" stroke="#10275f" stroke-width="2.5"/>
+<text x="202" y="538" font-size="24" fill="black" font-weight="normal" text-anchor="middle" transform="rotate(-90 202 538)">L<tspan font-size="16">CE</tspan></text>
+<text x="203" y="628" font-size="19" fill="black" font-weight="normal" text-anchor="middle" font-style="normal">Evolutionary navigator</text>
+<rect x="45" y="642" width="310" height="128" rx="10" fill="white" stroke="#10275f" stroke-width="1.6" stroke-dasharray="5 4"/>
+<rect x="66" y="651" width="26" height="44" rx="0" fill="#cfdef0" stroke="#10275f" stroke-width="2.5"/>
+<text x="79" y="673" font-size="24" fill="black" font-weight="normal" text-anchor="middle" transform="rotate(-90 79 673)">FC</text>
+<rect x="66" y="701" width="26" height="43" rx="0" fill="#cfdef0" stroke="#10275f" stroke-width="2.5"/>
+<text x="79" y="722" font-size="24" fill="black" font-weight="normal" text-anchor="middle" transform="rotate(-90 79 722)">FC</text>
+<text x="106" y="682" font-size="19" fill="black" font-weight="normal" text-anchor="start" font-style="normal">Dimensions of fused views</text>
+<text x="106" y="729" font-size="19" fill="black" font-weight="normal" text-anchor="start" font-style="normal">Dimensions of the number of</text>
+<text x="186" y="761" font-size="19" fill="black" font-weight="normal" text-anchor="start" font-style="normal">category</text>
+<rect x="398" y="288" width="155" height="482" rx="14" fill="white" stroke="#4a6fa5" stroke-width="2" stroke-dasharray="5 4"/>
+<rect x="412" y="296" width="124" height="114" rx="10" fill="#fdf3e3" stroke="#10275f" stroke-width="1.6" stroke-dasharray="5 4"/>
+<g transform="translate(443 327) scale(1.0)">
+<path d="M-13,-20 C-20,-19 -20,-6 -16,1 C-13,6 -16,9 -14,13 C-11,13 -10,10 -8,10 C-3,11 1,9 4,5 L10,3 L9,-6 C9,-13 3,-18 -3,-19 Z" fill="#6d9e4c" stroke="#6d9e4c" stroke-width="0"/>
+<circle cx="-1" cy="-5" r="6" fill="#f2ede4" stroke="none" stroke-width="0"/>
+<circle cx="-7" cy="-9" r="3" fill="#f2ede4" stroke="none" stroke-width="0"/>
+<circle cx="4" cy="-1" r="3" fill="#f2ede4" stroke="none" stroke-width="0"/>
+<path d="M-4,-6 Q-1,-3 2,-1" fill="none" stroke="#f2ede4" stroke-width="1.4"/>
+</g>
+<g transform="translate(466 327) scale(1.0)">
+<path d="M-13,-20 C-20,-19 -20,-6 -16,1 C-13,6 -16,9 -14,13 C-11,13 -10,10 -8,10 C-3,11 1,9 4,5 L10,3 L9,-6 C9,-13 3,-18 -3,-19 Z" fill="#6b8fd0" stroke="#6b8fd0" stroke-width="0"/>
+<circle cx="-1" cy="-5" r="6" fill="#f2ede4" stroke="none" stroke-width="0"/>
+<circle cx="-7" cy="-9" r="3" fill="#f2ede4" stroke="none" stroke-width="0"/>
+<circle cx="4" cy="-1" r="3" fill="#f2ede4" stroke="none" stroke-width="0"/>
+<path d="M-4,-6 Q-1,-3 2,-1" fill="none" stroke="#f2ede4" stroke-width="1.4"/>
+</g>
+<circle cx="492" cy="327" r="3" fill="#10275f" stroke="none" stroke-width="0"/>
+<circle cx="502" cy="327" r="3" fill="#10275f" stroke="none" stroke-width="0"/>
+<circle cx="512" cy="327" r="3" fill="#10275f" stroke="none" stroke-width="0"/>
+<text x="478" y="377" font-size="22" fill="black" font-weight="bold" text-anchor="middle" font-style="normal">Evolutionary</text>
+<text x="478" y="400" font-size="22" fill="black" font-weight="bold" text-anchor="middle" font-style="normal">navigator set</text>
+<path d="M477,410 V448" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="477" y="422" width="62" height="21" rx="3" fill="#f2c98f" stroke="#10275f" stroke-width="1.6"/>
+<text x="477" y="439" font-size="20" fill="black" font-weight="normal" text-anchor="start" font-style="normal">Search</text>
+<rect x="413" y="457" width="125" height="140" rx="10" fill="#fdf3e3" stroke="#10275f" stroke-width="1.6" stroke-dasharray="5 4"/>
+<g transform="translate(443 507) scale(1.0)">
+<path d="M-13,-20 C-20,-19 -20,-6 -16,1 C-13,6 -16,9 -14,13 C-11,13 -10,10 -8,10 C-3,11 1,9 4,5 L10,3 L9,-6 C9,-13 3,-18 -3,-19 Z" fill="#f4ad7a" stroke="#f4ad7a" stroke-width="0"/>
+<circle cx="-1" cy="-5" r="6" fill="#f2ede4" stroke="none" stroke-width="0"/>
+<circle cx="-7" cy="-9" r="3" fill="#f2ede4" stroke="none" stroke-width="0"/>
+<circle cx="4" cy="-1" r="3" fill="#f2ede4" stroke="none" stroke-width="0"/>
+<path d="M-4,-6 Q-1,-3 2,-1" fill="none" stroke="#f2ede4" stroke-width="1.4"/>
+</g>
+<g transform="translate(509 507) scale(1.0)">
+<path d="M-13,-20 C-20,-19 -20,-6 -16,1 C-13,6 -16,9 -14,13 C-11,13 -10,10 -8,10 C-3,11 1,9 4,5 L10,3 L9,-6 C9,-13 3,-18 -3,-19 Z" fill="#6d9e4c" stroke="#6d9e4c" stroke-width="0"/>
+<circle cx="-1" cy="-5" r="6" fill="#f2ede4" stroke="none" stroke-width="0"/>
+<circle cx="-7" cy="-9" r="3" fill="#f2ede4" stroke="none" stroke-width="0"/>
+<circle cx="4" cy="-1" r="3" fill="#f2ede4" stroke="none" stroke-width="0"/>
+<path d="M-4,-6 Q-1,-3 2,-1" fill="none" stroke="#f2ede4" stroke-width="1.4"/>
+</g>
+<text x="475" y="557" font-size="22" fill="black" font-weight="bold" text-anchor="middle" font-style="normal">Evolutionary</text>
+<text x="475" y="580" font-size="22" fill="black" font-weight="bold" text-anchor="middle" font-style="normal">navigators of</text>
+<text x="475" y="603" font-size="22" fill="black" font-weight="bold" text-anchor="middle" font-style="normal">individual</text>
+<rect x="420" y="620" width="120" height="122" rx="10" fill="#eef3fb" stroke="#10275f" stroke-width="1.6" stroke-dasharray="5 4"/>
+<circle cx="480" cy="642" r="14" fill="#d9e6f5" stroke="#10275f" stroke-width="2"/>
+<path d="M474,655 L448,691 M486,655 L512,691" fill="none" stroke="#10275f" stroke-width="3"/>
+<ellipse cx="448" cy="709" rx="17" ry="11" fill="#f4ad7a" stroke="#10275f" stroke-width="2.5"/>
+<ellipse cx="512" cy="709" rx="17" ry="11" fill="#8fb864" stroke="#10275f" stroke-width="2.5"/>
+<text x="480" y="739" font-size="20" fill="black" font-weight="normal" text-anchor="middle" font-style="normal">Individual</text>
+<rect x="596" y="566" width="18" height="43" rx="3" fill="#f2c98f" stroke="#10275f" stroke-width="1.6"/>
+<text x="605" y="587" font-size="19" fill="black" font-weight="normal" text-anchor="middle" transform="rotate(-90 605 587)">Guide</text>
+<path d="M553,533 H588 V668 H637" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow)"/>
+<path d="M553,668 H637" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow)"/>
+<text x="560" y="675" font-size="20" fill="black" font-weight="normal" text-anchor="start" font-style="normal">Decode</text>
+<path d="M553,728 H542" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow)"/>
+<text x="559" y="735" font-size="20" fill="black" font-weight="normal" text-anchor="start" font-style="normal">Encode</text>
+<rect x="642" y="263" width="1223" height="512" rx="24" fill="white" stroke="#4a6fa5" stroke-width="2.5" stroke-dasharray="5 4"/>
+<rect x="648" y="270" width="392" height="95" rx="14" fill="#f6e6df" stroke="#f0a884" stroke-width="2" stroke-dasharray="5 4"/>
+<rect x="648" y="682" width="392" height="92" rx="14" fill="#d5e7d6" stroke="#a6d39a" stroke-width="2" stroke-dasharray="5 4"/>
+<rect x="1173" y="285" width="692" height="168" rx="24" fill="#f6e6df" stroke="#f0a884" stroke-width="2" stroke-dasharray="5 4"/>
+<rect x="1173" y="601" width="692" height="156" rx="24" fill="#d5e7d6" stroke="#a6d39a" stroke-width="2" stroke-dasharray="5 4"/>
+<rect x="1335" y="468" width="300" height="108" rx="14" fill="#fbf3df" stroke="#f0a884" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="656" y="296" font-size="24" fill="#1f52b0" font-weight="bold">Parameter freeze</text>
+<path d="M634,288 l0,16 M627,292 l14,8 M627,300 l14,-8" fill="none" stroke="#1f52b0" stroke-width="2.5"/>
+<path d="M634,288 l0,16 M627,292 l14,8 M627,300 l14,-8" fill="none" stroke="#1f52b0" stroke-width="2.5"/>
+<path d="M634,288 l0,16 M627,292 l14,8 M627,300 l14,-8" fill="none" stroke="#1f52b0" stroke-width="2.5"/>
+<ellipse cx="696" cy="320" rx="42" ry="20" fill="#f4ad7a" stroke="#10275f" stroke-width="2.5"/>
+<text x="696" y="328" font-size="26" fill="black" font-weight="normal" text-anchor="middle">View<tspan font-size="15" dy="-7">(1)</tspan></text>
+<path d="M739,320 H860" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="868" y="272" width="26" height="74" rx="0" fill="#cfdef0" stroke="#10275f" stroke-width="2.5"/>
+<text x="881.0" y="309.0" font-size="26" fill="black" font-weight="normal" text-anchor="middle" transform="rotate(-90 881.0 309.0)">FC</text>
+<path d="M894,309 H935" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="942" y="272" width="20" height="74" rx="11" fill="white" stroke="#10275f" stroke-width="2.5"/>
+<circle cx="952.0" cy="285" r="5" fill="#c9703a" stroke="#222" stroke-width="1.5"/>
+<circle cx="952.0" cy="301.6" r="2" fill="#222" stroke="none" stroke-width="0"/>
+<circle cx="952.0" cy="317.88" r="2" fill="#222" stroke="none" stroke-width="0"/>
+<circle cx="952.0" cy="333" r="5" fill="#c9703a" stroke="#222" stroke-width="1.5"/>
+<path d="M962,309 H991" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="998" y="272" width="26" height="74" rx="0" fill="#c9ccd1" stroke="#10275f" stroke-width="2.5"/>
+<text x="1011.0" y="309.0" font-size="26" fill="black" font-weight="normal" text-anchor="middle" transform="rotate(-90 1011.0 309.0)">FC</text>
+<path d="M1024,309 H1102" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="1109" y="272" width="20" height="74" rx="11" fill="white" stroke="#10275f" stroke-width="2.5"/>
+<circle cx="1119.0" cy="285" r="5" fill="#c9703a" stroke="#222" stroke-width="1.5"/>
+<circle cx="1119.0" cy="301.6" r="2" fill="#222" stroke="none" stroke-width="0"/>
+<circle cx="1119.0" cy="317.88" r="2" fill="#222" stroke="none" stroke-width="0"/>
+<circle cx="1119.0" cy="333" r="5" fill="#c9703a" stroke="#222" stroke-width="1.5"/>
+<ellipse cx="694" cy="437" rx="42" ry="20" fill="#f4ad7a" stroke="#10275f" stroke-width="2.5"/>
+<text x="694" y="445" font-size="26" fill="black" font-weight="normal" text-anchor="middle">View<tspan font-size="15" dy="-7">(1)</tspan></text>
+<path d="M736,437 H858" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="866" y="388" width="28" height="73" rx="0" fill="#cfdef0" stroke="#10275f" stroke-width="2.5"/>
+<text x="880.0" y="424.5" font-size="26" fill="black" font-weight="normal" text-anchor="middle" transform="rotate(-90 880.0 424.5)">FC</text>
+<path d="M894,424 H933" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="940" y="388" width="22" height="73" rx="11" fill="white" stroke="#10275f" stroke-width="2.5"/>
+<circle cx="951.0" cy="401" r="5" fill="#c9703a" stroke="#222" stroke-width="1.5"/>
+<circle cx="951.0" cy="417.2" r="2" fill="#222" stroke="none" stroke-width="0"/>
+<circle cx="951.0" cy="433.26" r="2" fill="#222" stroke="none" stroke-width="0"/>
+<circle cx="951.0" cy="448" r="5" fill="#e6b9a8" stroke="#222" stroke-width="1.5"/>
+<path d="M962,424 H1027" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="1034" y="380" width="28" height="75" rx="0" fill="#c9ccd1" stroke="#10275f" stroke-width="2.5"/>
+<text x="1048.0" y="417.5" font-size="26" fill="black" font-weight="normal" text-anchor="middle" transform="rotate(-90 1048.0 417.5)">FC</text>
+<path d="M1062,408 H1102" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="1109" y="371" width="20" height="74" rx="11" fill="white" stroke="#10275f" stroke-width="2.5"/>
+<circle cx="1119.0" cy="384" r="5" fill="#c9703a" stroke="#222" stroke-width="1.5"/>
+<circle cx="1119.0" cy="400.6" r="2" fill="#222" stroke="none" stroke-width="0"/>
+<circle cx="1119.0" cy="416.88" r="2" fill="#222" stroke="none" stroke-width="0"/>
+<circle cx="1119.0" cy="432" r="5" fill="#e6b9a8" stroke="#222" stroke-width="1.5"/>
+<ellipse cx="694" cy="590" rx="42" ry="20" fill="#8fb864" stroke="#10275f" stroke-width="2.5"/>
+<text x="694" y="598" font-size="26" fill="black" font-weight="normal" text-anchor="middle">View<tspan font-size="15" dy="-7">(2)</tspan></text>
+<path d="M736,590 H858" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="865" y="573" width="28" height="74" rx="0" fill="#cfdef0" stroke="#10275f" stroke-width="2.5"/>
+<text x="879.0" y="610.0" font-size="26" fill="black" font-weight="normal" text-anchor="middle" transform="rotate(-90 879.0 610.0)">FC</text>
+<path d="M893,610 H933" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="940" y="560" width="22" height="86" rx="11" fill="white" stroke="#10275f" stroke-width="2.5"/>
+<circle cx="951.0" cy="573" r="5" fill="#6f9e4c" stroke="#222" stroke-width="1.5"/>
+<circle cx="951.0" cy="594.4" r="2" fill="#222" stroke="none" stroke-width="0"/>
+<circle cx="951.0" cy="613.32" r="2" fill="#222" stroke="none" stroke-width="0"/>
+<circle cx="951.0" cy="633" r="5" fill="#a9c98a" stroke="#222" stroke-width="1.5"/>
+<text x="656" y="765" font-size="24" fill="#1f52b0" font-weight="bold">Parameter freeze</text>
+<path d="M634,757 l0,16 M627,761 l14,8 M627,769 l14,-8" fill="none" stroke="#1f52b0" stroke-width="2.5"/>
+<path d="M634,757 l0,16 M627,761 l14,8 M627,769 l14,-8" fill="none" stroke="#1f52b0" stroke-width="2.5"/>
+<path d="M634,757 l0,16 M627,761 l14,8 M627,769 l14,-8" fill="none" stroke="#1f52b0" stroke-width="2.5"/>
+<ellipse cx="695" cy="716" rx="42" ry="20" fill="#8fb864" stroke="#10275f" stroke-width="2.5"/>
+<text x="695" y="724" font-size="26" fill="black" font-weight="normal" text-anchor="middle">View<tspan font-size="15" dy="-7">(2)</tspan></text>
+<path d="M737,716 H860" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="867" y="690" width="28" height="74" rx="0" fill="#cfdef0" stroke="#10275f" stroke-width="2.5"/>
+<text x="881.0" y="727.0" font-size="26" fill="black" font-weight="normal" text-anchor="middle" transform="rotate(-90 881.0 727.0)">FC</text>
+<path d="M895,716 H933" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="940" y="680" width="22" height="84" rx="11" fill="white" stroke="#10275f" stroke-width="2.5"/>
+<circle cx="951.0" cy="693" r="5" fill="#6f9e4c" stroke="#222" stroke-width="1.5"/>
+<circle cx="951.0" cy="713.6" r="2" fill="#222" stroke="none" stroke-width="0"/>
+<circle cx="951.0" cy="732.08" r="2" fill="#222" stroke="none" stroke-width="0"/>
+<circle cx="951.0" cy="751" r="5" fill="#6f9e4c" stroke="#222" stroke-width="1.5"/>
+<path d="M962,722 H997" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="1004" y="690" width="26" height="74" rx="0" fill="#c9ccd1" stroke="#10275f" stroke-width="2.5"/>
+<text x="1017.0" y="727.0" font-size="26" fill="black" font-weight="normal" text-anchor="middle" transform="rotate(-90 1017.0 727.0)">FC</text>
+<path d="M1030,716 H1102" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="1109" y="674" width="20" height="83" rx="11" fill="white" stroke="#10275f" stroke-width="2.5"/>
+<circle cx="1119.0" cy="687" r="5" fill="#6f9e4c" stroke="#222" stroke-width="1.5"/>
+<circle cx="1119.0" cy="707.2" r="2" fill="#222" stroke="none" stroke-width="0"/>
+<circle cx="1119.0" cy="725.46" r="2" fill="#222" stroke="none" stroke-width="0"/>
+<circle cx="1119.0" cy="744" r="5" fill="#6f9e4c" stroke="#222" stroke-width="1.5"/>
+<path d="M1000,424 V516 H1052" fill="none" stroke="#10275f" stroke-width="4"/>
+<path d="M1000,598 V537 H1052" fill="none" stroke="#10275f" stroke-width="4"/>
+<circle cx="1063" cy="526" r="11" fill="url(#fusco)" stroke="#10275f" stroke-width="2"/>
+<rect x="848" y="480" width="73" height="60" rx="2" fill="#fbe49d" stroke="#10275f" stroke-width="1.5"/>
+<text x="848" y="505" font-size="24" fill="black" font-weight="bold" text-anchor="start" font-style="normal">Feature</text>
+<text x="848" y="531" font-size="24" fill="black" font-weight="bold" text-anchor="start" font-style="normal">vector</text>
+<path d="M962,461 C965,478 935,478 924,489" fill="none" stroke="#8a8a8a" stroke-width="2.5" stroke-dasharray="3 3" marker-end="url(#grey)"/>
+<rect x="1019" y="444" width="79" height="49" rx="2" fill="#fbe49d" stroke="#10275f" stroke-width="1.5"/>
+<text x="1019" y="469" font-size="24" fill="black" font-weight="bold" text-anchor="start" font-style="normal">Fusion</text>
+<text x="1019" y="495" font-size="24" fill="black" font-weight="bold" text-anchor="start" font-style="normal">operator</text>
+<g transform="translate(771 385) scale(1.1)">
+<path d="M-13,-20 C-20,-19 -20,-6 -16,1 C-13,6 -16,9 -14,13 C-11,13 -10,10 -8,10 C-3,11 1,9 4,5 L10,3 L9,-6 C9,-13 3,-18 -3,-19 Z" fill="#f4ad7a" stroke="#f4ad7a" stroke-width="0"/>
+<circle cx="-1" cy="-5" r="6" fill="#f2ede4" stroke="none" stroke-width="0"/>
+<circle cx="-7" cy="-9" r="3" fill="#f2ede4" stroke="none" stroke-width="0"/>
+<circle cx="4" cy="-1" r="3" fill="#f2ede4" stroke="none" stroke-width="0"/>
+<path d="M-4,-6 Q-1,-3 2,-1" fill="none" stroke="#f2ede4" stroke-width="1.4"/>
+</g>
+<g transform="translate(772 648) scale(1.1)">
+<path d="M-13,-20 C-20,-19 -20,-6 -16,1 C-13,6 -16,9 -14,13 C-11,13 -10,10 -8,10 C-3,11 1,9 4,5 L10,3 L9,-6 C9,-13 3,-18 -3,-19 Z" fill="#6d9e4c" stroke="#6d9e4c" stroke-width="0"/>
+<circle cx="-1" cy="-5" r="6" fill="#f2ede4" stroke="none" stroke-width="0"/>
+<circle cx="-7" cy="-9" r="3" fill="#f2ede4" stroke="none" stroke-width="0"/>
+<circle cx="4" cy="-1" r="3" fill="#f2ede4" stroke="none" stroke-width="0"/>
+<path d="M-4,-6 Q-1,-3 2,-1" fill="none" stroke="#f2ede4" stroke-width="1.4"/>
+</g>
+<path d="M790,383 C860,360 940,320 1010,300" fill="none" stroke="#f4ad7a" stroke-width="2" stroke-dasharray="3 3" marker-end="url(#grey)"/>
+<path d="M791,646 C860,625 940,600 1010,585" fill="none" stroke="#8fb864" stroke-width="2" stroke-dasharray="3 3" marker-end="url(#grey)"/>
+<path d="M1075,526 H1164" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="1172" y="494" width="28" height="66" rx="0" fill="#c9ccd1" stroke="#10275f" stroke-width="2.5"/>
+<text x="1186.0" y="527.0" font-size="26" fill="black" font-weight="normal" text-anchor="middle" transform="rotate(-90 1186.0 527.0)">FC</text>
+<path d="M1200,527 H1244" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="1247" y="483" width="33" height="84" rx="4" fill="#fbe49d" stroke="#10275f" stroke-width="2.5"/>
+<text x="1263" y="525" font-size="22" fill="black" font-weight="normal" text-anchor="middle" transform="rotate(-90 1263 525)">Softmax</text>
+<path d="M1280,525 H1357" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow)"/>
+<path d="M1129,309 H1155 M1129,408 H1155 M1155,309 V408" fill="none" stroke="#10275f" stroke-width="4"/>
+<text x="1198" y="311" font-size="24" fill="black" font-weight="bold" text-anchor="start" font-style="normal">Corresponding</text>
+<text x="1198" y="334" font-size="24" fill="black" font-weight="bold" text-anchor="start" font-style="normal">category</text>
+<path d="M1160,319 H1345" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow)"/>
+<text x="1197" y="398" font-size="24" fill="black" font-weight="bold" text-anchor="start" font-style="normal">Cross-category</text>
+<path d="M1160,408 H1345" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="1355" y="283" width="123" height="72" rx="8" fill="white" stroke="#222" stroke-width="3" stroke-dasharray="7 5"/>
+<rect x="1365" y="291" width="20" height="56" rx="11" fill="white" stroke="#10275f" stroke-width="2.5"/>
+<circle cx="1375.0" cy="304" r="5" fill="#c9703a" stroke="#222" stroke-width="1.5"/>
+<circle cx="1375.0" cy="313.4" r="2" fill="#222" stroke="none" stroke-width="0"/>
+<circle cx="1375.0" cy="325.72" r="2" fill="#222" stroke="none" stroke-width="0"/>
+<circle cx="1375.0" cy="334" r="5" fill="#c9703a" stroke="#222" stroke-width="1.5"/>
+<rect x="1448" y="291" width="20" height="56" rx="11" fill="white" stroke="#10275f" stroke-width="2.5"/>
+<circle cx="1458.0" cy="304" r="5" fill="#c9703a" stroke="#222" stroke-width="1.5"/>
+<circle cx="1458.0" cy="313.4" r="2" fill="#222" stroke="none" stroke-width="0"/>
+<circle cx="1458.0" cy="325.72" r="2" fill="#222" stroke="none" stroke-width="0"/>
+<circle cx="1458.0" cy="334" r="5" fill="#e6b9a8" stroke="#222" stroke-width="1.5"/>
+<path d="M1387,305 H1446" fill="none" stroke="#10275f" stroke-width="1.6" stroke-dasharray="4 4" marker-end="url(#arrow)"/>
+<path d="M1387,333 H1446" fill="none" stroke="#10275f" stroke-width="1.6" stroke-dasharray="4 4" marker-end="url(#arrow)"/>
+<rect x="1355" y="362" width="123" height="76" rx="8" fill="white" stroke="#222" stroke-width="3" stroke-dasharray="7 5"/>
+<rect x="1365" y="370" width="20" height="60" rx="11" fill="white" stroke="#10275f" stroke-width="2.5"/>
+<circle cx="1375.0" cy="383" r="5" fill="#c9703a" stroke="#222" stroke-width="1.5"/>
+<circle cx="1375.0" cy="394.0" r="2" fill="#222" stroke="none" stroke-width="0"/>
+<circle cx="1375.0" cy="407.2" r="2" fill="#222" stroke="none" stroke-width="0"/>
+<circle cx="1375.0" cy="417" r="5" fill="#c9703a" stroke="#222" stroke-width="1.5"/>
+<rect x="1448" y="370" width="20" height="60" rx="11" fill="white" stroke="#10275f" stroke-width="2.5"/>
+<circle cx="1458.0" cy="383" r="5" fill="#c9703a" stroke="#222" stroke-width="1.5"/>
+<circle cx="1458.0" cy="394.0" r="2" fill="#222" stroke="none" stroke-width="0"/>
+<circle cx="1458.0" cy="407.2" r="2" fill="#222" stroke="none" stroke-width="0"/>
+<circle cx="1458.0" cy="417" r="5" fill="#e6b9a8" stroke="#222" stroke-width="1.5"/>
+<path d="M1387,378 L1446,422" fill="none" stroke="#10275f" stroke-width="1.6" stroke-dasharray="4 4" marker-end="url(#arrow)"/>
+<path d="M1387,422 L1446,378" fill="none" stroke="#10275f" stroke-width="1.6" stroke-dasharray="4 4" marker-end="url(#arrow)"/>
+<path d="M962,598 H1155 V715 M1109,715 H1155" fill="none" stroke="#10275f" stroke-width="4"/>
+<text x="1196" y="604" font-size="24" fill="black" font-weight="bold" text-anchor="start" font-style="normal">Corresponding</text>
+<text x="1196" y="627" font-size="24" fill="black" font-weight="bold" text-anchor="start" font-style="normal">category</text>
+<path d="M1160,619 H1345" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow)"/>
+<text x="1199" y="699" font-size="24" fill="black" font-weight="bold" text-anchor="start" font-style="normal">Cross-category</text>
+<path d="M1160,715 H1345" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="1352" y="588" width="124" height="71" rx="8" fill="white" stroke="#222" stroke-width="3" stroke-dasharray="7 5"/>
+<rect x="1362" y="596" width="20" height="55" rx="11" fill="white" stroke="#10275f" stroke-width="2.5"/>
+<circle cx="1372.0" cy="609" r="5" fill="#6f9e4c" stroke="#222" stroke-width="1.5"/>
+<circle cx="1372.0" cy="618.0" r="2" fill="#222" stroke="none" stroke-width="0"/>
+<circle cx="1372.0" cy="630.1" r="2" fill="#222" stroke="none" stroke-width="0"/>
+<circle cx="1372.0" cy="638" r="5" fill="#6f9e4c" stroke="#222" stroke-width="1.5"/>
+<rect x="1446" y="596" width="20" height="55" rx="11" fill="white" stroke="#10275f" stroke-width="2.5"/>
+<circle cx="1456.0" cy="609" r="5" fill="#a9c98a" stroke="#222" stroke-width="1.5"/>
+<circle cx="1456.0" cy="618.0" r="2" fill="#222" stroke="none" stroke-width="0"/>
+<circle cx="1456.0" cy="630.1" r="2" fill="#222" stroke="none" stroke-width="0"/>
+<circle cx="1456.0" cy="638" r="5" fill="#a9c98a" stroke="#222" stroke-width="1.5"/>
+<path d="M1384,610 H1444" fill="none" stroke="#10275f" stroke-width="1.6" stroke-dasharray="4 4" marker-end="url(#arrow)"/>
+<path d="M1384,637 H1444" fill="none" stroke="#10275f" stroke-width="1.6" stroke-dasharray="4 4" marker-end="url(#arrow)"/>
+<rect x="1352" y="663" width="124" height="75" rx="8" fill="white" stroke="#222" stroke-width="3" stroke-dasharray="7 5"/>
+<rect x="1362" y="671" width="20" height="59" rx="11" fill="white" stroke="#10275f" stroke-width="2.5"/>
+<circle cx="1372.0" cy="684" r="5" fill="#6f9e4c" stroke="#222" stroke-width="1.5"/>
+<circle cx="1372.0" cy="694.6" r="2" fill="#222" stroke="none" stroke-width="0"/>
+<circle cx="1372.0" cy="707.58" r="2" fill="#222" stroke="none" stroke-width="0"/>
+<circle cx="1372.0" cy="717" r="5" fill="#6f9e4c" stroke="#222" stroke-width="1.5"/>
+<rect x="1446" y="671" width="20" height="59" rx="11" fill="white" stroke="#10275f" stroke-width="2.5"/>
+<circle cx="1456.0" cy="684" r="5" fill="#a9c98a" stroke="#222" stroke-width="1.5"/>
+<circle cx="1456.0" cy="694.6" r="2" fill="#222" stroke="none" stroke-width="0"/>
+<circle cx="1456.0" cy="707.58" r="2" fill="#222" stroke="none" stroke-width="0"/>
+<circle cx="1456.0" cy="717" r="5" fill="#a9c98a" stroke="#222" stroke-width="1.5"/>
+<path d="M1384,679 L1444,722" fill="none" stroke="#10275f" stroke-width="1.6" stroke-dasharray="4 4" marker-end="url(#arrow)"/>
+<path d="M1384,722 L1444,679" fill="none" stroke="#10275f" stroke-width="1.6" stroke-dasharray="4 4" marker-end="url(#arrow)"/>
+<text x="1483" y="478" font-size="22" fill="black" font-weight="normal" text-anchor="start" font-style="normal">Cross-entropy loss</text>
+<rect x="1368" y="483" width="123" height="84" rx="8" fill="white" stroke="#222" stroke-width="3" stroke-dasharray="7 5"/>
+<rect x="1378" y="491" width="20" height="68" rx="11" fill="white" stroke="#10275f" stroke-width="2.5"/>
+<circle cx="1388.0" cy="504" r="5" fill="#f2b200" stroke="#222" stroke-width="1.5"/>
+<circle cx="1388.0" cy="518.2" r="2" fill="#222" stroke="none" stroke-width="0"/>
+<circle cx="1388.0" cy="533.16" r="2" fill="#222" stroke="none" stroke-width="0"/>
+<circle cx="1388.0" cy="546" r="5" fill="#f2b200" stroke="#222" stroke-width="1.5"/>
+<rect x="1461" y="491" width="20" height="68" rx="11" fill="white" stroke="#10275f" stroke-width="2.5"/>
+<circle cx="1471.0" cy="504" r="5" fill="#c81f2a" stroke="#222" stroke-width="1.5"/>
+<circle cx="1471.0" cy="518.2" r="2" fill="#222" stroke="none" stroke-width="0"/>
+<circle cx="1471.0" cy="533.16" r="2" fill="#222" stroke="none" stroke-width="0"/>
+<circle cx="1471.0" cy="546" r="5" fill="#c81f2a" stroke="#222" stroke-width="1.5"/>
+<path d="M1400,505 H1459" fill="none" stroke="#10275f" stroke-width="1.6" stroke-dasharray="4 4" marker-end="url(#arrow)"/>
+<path d="M1400,545 H1459" fill="none" stroke="#10275f" stroke-width="1.6" stroke-dasharray="4 4" marker-end="url(#arrow)"/>
+<path d="M1490,527 H1557" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="1566" y="498" width="79" height="36" rx="0" fill="#fbe49d" stroke="#10275f" stroke-width="2.5"/>
+<text x="1571" y="529" font-size="30" fill="black" font-weight="normal" text-anchor="start">L<tspan font-size="20" dy="6">CE</tspan></text>
+<text x="1549" y="572" font-size="20" fill="black" font-weight="bold" text-anchor="start" font-style="normal">Label</text>
+<path d="M1490,556 C1512,556 1530,558 1546,560" fill="none" stroke="#8a8a8a" stroke-width="2.5" stroke-dasharray="3 3" marker-end="url(#grey)"/>
+<rect x="1596" y="314" width="106" height="35" rx="0" fill="#fbeee6" stroke="#10275f" stroke-width="2.5"/>
+<text x="1608" y="344" font-size="32">L<tspan font-size="22" dy="7">_t</tspan>  <tspan font-size="22" dy="-7">(1)</tspan></text>
+<rect x="1596" y="384" width="106" height="35" rx="0" fill="#fbeee6" stroke="#10275f" stroke-width="2.5"/>
+<text x="1608" y="414" font-size="32">L<tspan font-size="22" dy="7">_wd</tspan>  <tspan font-size="22" dy="-7">(1)</tspan></text>
+<rect x="1596" y="603" width="106" height="35" rx="0" fill="#dce8ce" stroke="#10275f" stroke-width="2.5"/>
+<text x="1608" y="633" font-size="32">L<tspan font-size="22" dy="7">_t</tspan>  <tspan font-size="22" dy="-7">(2)</tspan></text>
+<rect x="1596" y="673" width="106" height="35" rx="0" fill="#dce8ce" stroke="#10275f" stroke-width="2.5"/>
+<text x="1608" y="703" font-size="32">L<tspan font-size="22" dy="7">_wd</tspan>  <tspan font-size="22" dy="-7">(2)</tspan></text>
+<rect x="1757" y="331" width="96" height="37" rx="0" fill="#df925a" stroke="#10275f" stroke-width="2.5"/>
+<text x="1763" y="361" font-size="33">L<tspan font-size="22" dy="7">ENL</tspan> <tspan font-size="22" dy="-7">(1)</tspan></text>
+<rect x="1756" y="504" width="100" height="53" rx="0" fill="#c84b4b" stroke="#10275f" stroke-width="2.5"/>
+<text x="1762" y="540" font-size="36">L<tspan font-size="24" dy="8">WDOLF</tspan></text>
+<rect x="1757" y="643" width="96" height="36" rx="0" fill="#8ba683" stroke="#10275f" stroke-width="2.5"/>
+<text x="1763" y="671" font-size="32">L<tspan font-size="21" dy="7">ENL</tspan> <tspan font-size="21" dy="-7">(2)</tspan></text>
+<path d="M1702,331 H1725 V349 H1725 M1702,401 H1725 V349" fill="none" stroke="#10275f" stroke-width="4"/>
+<path d="M1725,349 H1750" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow)"/>
+<path d="M1702,620 H1725 V661 H1725 M1702,690 H1725 V661" fill="none" stroke="#10275f" stroke-width="4"/>
+<path d="M1725,661 H1750" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow)"/>
+<path d="M1478,319 H1520 M1478,400 H1520 M1520,319 V400" fill="none" stroke="#10275f" stroke-width="4"/>
+<path d="M1520,319 H1548 V331 H1590" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow)"/>
+<path d="M1520,400 H1548 V401 H1590" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow)"/>
+<path d="M1476,620 H1520 M1476,690 H1520 M1520,620 V690" fill="none" stroke="#10275f" stroke-width="4"/>
+<path d="M1520,620 H1548 H1590" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow)"/>
+<path d="M1520,690 H1548 H1590" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow)"/>
+<path d="M1645,515 H1690 V530 H1750" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow)"/>
+<path d="M1806,504 V373" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow)"/>
+<path d="M1806,557 V640" fill="none" stroke="#10275f" stroke-width="4" marker-end="url(#arrow)"/>
+<text x="1723" y="290" font-size="22" fill="black" font-weight="normal" text-anchor="start" font-style="normal">Distillation loss</text>
+<text x="1723" y="760" font-size="22" fill="black" font-weight="normal" text-anchor="start" font-style="normal">Distillation loss</text>
+<path d="M1805,331 C1805,300 1795,290 1786,280" fill="none" stroke="#8a8a8a" stroke-width="2.5" stroke-dasharray="3 3" marker-end="url(#grey)"/>
+<path d="M1805,678 C1805,710 1795,725 1786,745" fill="none" stroke="#8a8a8a" stroke-width="2.5" stroke-dasharray="3 3" marker-end="url(#grey)"/>
+</svg>

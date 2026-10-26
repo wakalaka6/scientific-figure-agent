@@ -1,0 +1,367 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1932" height="1091" viewBox="0 0 1932 1091">
+<defs>
+<filter id="shadow" x="-30%" y="-30%" width="170%" height="170%"><feDropShadow dx="7" dy="9" stdDeviation="7" flood-color="#000" flood-opacity="0.3"/></filter>
+<filter id="shadow2" x="-40%" y="-40%" width="190%" height="190%"><feDropShadow dx="4" dy="5" stdDeviation="4" flood-color="#000" flood-opacity="0.3"/></filter>
+<filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2"/><feColorMatrix type="saturate" values="0"/></filter>
+</defs>
+<rect x="0" y="0" width="1932" height="1091" rx="0" fill="white" stroke="none" stroke-width="1" />
+<rect x="25" y="13" width="773" height="277" rx="40" fill="white" stroke="#8b87c9" stroke-width="5" />
+<rect x="48" y="25" width="220" height="143" rx="6" fill="white" stroke="#b5d6a7" stroke-width="3" stroke-dasharray="11 8"/>
+<circle cx="154" cy="60" r="15.5" fill="#74a9d8" stroke="none" stroke-width="1" />
+<text x="50" y="131" font-family="Times New Roman, Times, serif" font-size="24" font-weight="bold" fill="black" text-anchor="start" >
+<tspan>Station Location(</tspan>
+<tspan font-style="italic">P</tspan>
+<tspan>)</tspan>
+</text>
+<rect x="48" y="143" width="220" height="115" rx="6" fill="white" stroke="#b5d6a7" stroke-width="3" stroke-dasharray="11 8"/>
+<rect x="71" y="155" width="158" height="52" rx="4" fill="#d5dcea" stroke="#98a8c9" stroke-width="2.5" />
+<path d="M 78 181 Q 89 165 100 181 T 122 181 T 144 181 T 166 181 T 188 181 T 210 181" stroke="#7b93b8" stroke-width="3" fill="none" />
+<text x="50" y="254" font-family="Times New Roman, Times, serif" font-size="24" font-weight="bold" fill="black" text-anchor="start" >
+<tspan>Historical Data(</tspan>
+<tspan font-style="italic">H</tspan>
+<tspan>)</tspan>
+</text>
+<text x="383" y="80" font-family="Times New Roman, Times, serif" font-size="30" font-weight="bold" fill="black" text-anchor="start" >
+<tspan>Δ</tspan>
+<tspan font-style="italic">h</tspan>
+<tspan> = </tspan>
+<tspan font-style="italic">dt·f</tspan>
+<tspan>(</tspan>
+<tspan font-style="italic">h</tspan>
+<tspan>,</tspan>
+<tspan font-style="italic">x</tspan>
+<tspan>)</tspan>
+</text>
+<line x1="372" y1="92" x2="593" y2="92" stroke="black" stroke-width="3"/>
+<polygon points="593,92 575.0,100.0 575.0,84.0" fill="black" stroke="none" stroke-width="1" />
+<line x1="268" y1="144" x2="335" y2="144" stroke="#2c35a5" stroke-width="12"/>
+<polygon points="335,144 311.0,159.0 311.0,129.0" fill="#2c35a5" stroke="none" stroke-width="1" />
+<rect x="335" y="114" width="294" height="58" rx="0" fill="#e3d2e1" stroke="#8b87c9" stroke-width="3" />
+<circle cx="365" cy="143" r="14.5" fill="#93b8df" stroke="none" stroke-width="1" />
+<circle cx="428" cy="143" r="15.5" fill="#2c5fa8" stroke="none" stroke-width="1" />
+<circle cx="479" cy="143" r="3.6" fill="#4a68b0" stroke="none" stroke-width="1" />
+<circle cx="497" cy="143" r="3.6" fill="#4a68b0" stroke="none" stroke-width="1" />
+<circle cx="515" cy="143" r="3.6" fill="#4a68b0" stroke="none" stroke-width="1" />
+<circle cx="533" cy="143" r="3.6" fill="#4a68b0" stroke="none" stroke-width="1" />
+<circle cx="551" cy="143" r="3.6" fill="#4a68b0" stroke="none" stroke-width="1" />
+<circle cx="598" cy="143" r="16" fill="#2c4a8f" stroke="none" stroke-width="1" />
+<line x1="629" y1="144" x2="684" y2="144" stroke="#2c35a5" stroke-width="12"/>
+<polygon points="684,144 660.0,159.0 660.0,129.0" fill="#2c35a5" stroke="none" stroke-width="1" />
+<rect x="688" y="36" width="66" height="217" rx="12" fill="#b9b9d9" stroke="none" stroke-width="1" />
+<rect x="700" y="52" width="24" height="28" rx="5" fill="#7d7fc0" stroke="#57599c" stroke-width="2" />
+<rect x="700" y="84" width="24" height="28" rx="5" fill="#7d7fc0" stroke="#57599c" stroke-width="2" />
+<rect x="700" y="116" width="24" height="28" rx="5" fill="#7d7fc0" stroke="#57599c" stroke-width="2" />
+<rect x="700" y="148" width="24" height="28" rx="5" fill="#7d7fc0" stroke="#57599c" stroke-width="2" />
+<rect x="700" y="180" width="24" height="28" rx="5" fill="#7d7fc0" stroke="#57599c" stroke-width="2" />
+<rect x="728" y="52" width="24" height="28" rx="5" fill="#7d7fc0" stroke="#57599c" stroke-width="2" />
+<rect x="728" y="84" width="24" height="28" rx="5" fill="#7d7fc0" stroke="#57599c" stroke-width="2" />
+<rect x="728" y="116" width="24" height="28" rx="5" fill="#7d7fc0" stroke="#57599c" stroke-width="2" />
+<rect x="728" y="148" width="24" height="28" rx="5" fill="#7d7fc0" stroke="#57599c" stroke-width="2" />
+<rect x="728" y="180" width="24" height="28" rx="5" fill="#7d7fc0" stroke="#57599c" stroke-width="2" />
+<text x="361" y="237" font-family="Times New Roman, Times, serif" font-size="32" font-weight="bold" fill="black" text-anchor="start" >GeoLiquidNet</text>
+<rect x="25" y="316" width="772" height="270" rx="40" fill="white" stroke="#8b87c9" stroke-width="5" />
+<rect x="100.0" y="345.2" width="164" height="150" rx="3" fill="#cfeae7" stroke="none" stroke-width="1" />
+<rect x="86.5" y="358.4" width="164" height="150" rx="3" fill="#b7e2de" stroke="none" stroke-width="1" />
+<rect x="73.0" y="371.6" width="164" height="150" rx="3" fill="#9ed8d2" stroke="none" stroke-width="1" />
+<rect x="59.5" y="384.8" width="164" height="150" rx="3" fill="#7cc8c2" stroke="none" stroke-width="1" />
+<rect x="46.0" y="398.0" width="164" height="150" rx="3" fill="#45a29d" stroke="none" stroke-width="1" />
+<circle cx="137" cy="469" r="58" fill="#57aaa5" stroke="#e8f2ee" stroke-width="3" />
+<path d="M 96 448 Q 100 430 118 432 Q 136 428 140 440 Q 152 446 143 456 Q 128 452 120 462 Q 108 466 106 456 Q 96 456 96 448 Z" stroke="#3d6fc9" stroke-width="0" fill="#3d6fc9" />
+<path d="M 116 480 Q 128 474 132 488 Q 138 500 130 516 Q 124 530 116 522 Q 108 508 112 494 Q 108 484 116 480 Z" stroke="#3d6fc9" stroke-width="0" fill="#3d6fc9" />
+<path d="M 148 444 Q 158 436 168 444 Q 178 450 172 460 Q 182 468 174 480 Q 168 496 158 488 Q 150 478 154 468 Q 144 458 148 444 Z" stroke="#3d6fc9" stroke-width="0" fill="#3d6fc9" />
+<path d="M 170 436 Q 184 428 194 440 Q 202 452 192 460 Q 182 466 176 458 Q 168 446 170 436 Z" stroke="#3d6fc9" stroke-width="0" fill="#3d6fc9" />
+<line x1="265" y1="338" x2="281" y2="329" stroke="black" stroke-width="1.5"/>
+<line x1="265" y1="338" x2="267" y2="354" stroke="black" stroke-width="1.5"/>
+<line x1="267" y1="354" x2="280" y2="361" stroke="black" stroke-width="1.5"/>
+<line x1="281" y1="329" x2="280" y2="361" stroke="black" stroke-width="1.5"/>
+<line x1="281" y1="329" x2="293" y2="340" stroke="black" stroke-width="1.5"/>
+<line x1="293" y1="340" x2="296" y2="356" stroke="black" stroke-width="1.5"/>
+<circle cx="265" cy="338" r="7" fill="#9fc6e8" stroke="none" stroke-width="1" />
+<circle cx="281" cy="329" r="7" fill="#33608f" stroke="none" stroke-width="1" />
+<circle cx="293" cy="340" r="7" fill="#33608f" stroke="none" stroke-width="1" />
+<circle cx="267" cy="354" r="7" fill="#9fc6e8" stroke="none" stroke-width="1" />
+<circle cx="280" cy="361" r="7" fill="#33608f" stroke="none" stroke-width="1" />
+<circle cx="296" cy="356" r="8" fill="#e8542c" stroke="none" stroke-width="1" />
+<text x="321" y="370" font-family="Times New Roman, Times, serif" font-size="26" font-weight="bold" fill="black" text-anchor="start" >Temporal Attention MLP</text>
+<path d="M 222 381 H 388 V 420" stroke="#2c35a5" stroke-width="14" fill="none" stroke-linecap="square"/>
+<polygon points="388,436 376,418 400,418" fill="#2c35a5" stroke="none" stroke-width="1" />
+<line x1="243" y1="432" x2="281" y2="470" stroke="#5b5aa5" stroke-width="13"/>
+<line x1="281" y1="432" x2="243" y2="470" stroke="#5b5aa5" stroke-width="13"/>
+<rect x="302" y="429" width="153" height="39.5" rx="0" fill="#f5b8b8" stroke="none" stroke-width="1" />
+<rect x="306" y="433" width="27" height="31" rx="0" fill="#f2a18d" stroke="none" stroke-width="1" />
+<rect x="337" y="433" width="27" height="31" rx="0" fill="#f6d6cd" stroke="none" stroke-width="1" />
+<rect x="368" y="433" width="27" height="31" rx="0" fill="#d9594f" stroke="none" stroke-width="1" />
+<rect x="399" y="433" width="27" height="31" rx="0" fill="#d77c81" stroke="none" stroke-width="1" />
+<rect x="430" y="433" width="22" height="31" rx="0" fill="#e34b42" stroke="none" stroke-width="1" />
+<text x="285" y="533" font-family="Times New Roman, Times, serif" font-size="26" font-weight="bold" fill="black" text-anchor="start" >Temporal Attention</text>
+<text x="353" y="563" font-family="Times New Roman, Times, serif" font-size="26" font-weight="bold" fill="black" text-anchor="start" >Weights</text>
+<line x1="502" y1="442" x2="549" y2="442" stroke="#2c35a5" stroke-width="12"/>
+<polygon points="549,442 525.0,457.0 525.0,427.0" fill="#2c35a5" stroke="none" stroke-width="1" />
+<polygon points="567,398 649,381 649,509 567,498" fill="#e3d8e8" stroke="#b99bbd" stroke-width="3" />
+<text x="548" y="538" font-family="Times New Roman, Times, serif" font-size="26" font-weight="bold" fill="black" text-anchor="start" >Embedding</text>
+<text x="584" y="567" font-family="Times New Roman, Times, serif" font-size="26" font-weight="bold" fill="black" text-anchor="start" >MLP</text>
+<rect x="688" y="332" width="66" height="211" rx="12" fill="#b9b9d9" stroke="none" stroke-width="1" />
+<rect x="700" y="340" width="24" height="28" rx="5" fill="#7d7fc0" stroke="#57599c" stroke-width="2" />
+<rect x="700" y="373" width="24" height="28" rx="5" fill="#7d7fc0" stroke="#57599c" stroke-width="2" />
+<rect x="700" y="406" width="24" height="28" rx="5" fill="#7d7fc0" stroke="#57599c" stroke-width="2" />
+<rect x="700" y="439" width="24" height="28" rx="5" fill="#7d7fc0" stroke="#57599c" stroke-width="2" />
+<rect x="700" y="472" width="24" height="28" rx="5" fill="#7d7fc0" stroke="#57599c" stroke-width="2" />
+<rect x="728" y="340" width="24" height="28" rx="5" fill="#7d7fc0" stroke="#57599c" stroke-width="2" />
+<rect x="728" y="373" width="24" height="28" rx="5" fill="#7d7fc0" stroke="#57599c" stroke-width="2" />
+<rect x="728" y="406" width="24" height="28" rx="5" fill="#7d7fc0" stroke="#57599c" stroke-width="2" />
+<rect x="728" y="439" width="24" height="28" rx="5" fill="#7d7fc0" stroke="#57599c" stroke-width="2" />
+<rect x="728" y="472" width="24" height="28" rx="5" fill="#7d7fc0" stroke="#57599c" stroke-width="2" />
+<text x="34" y="582" font-family="Times New Roman, Times, serif" font-size="24" font-weight="bold" fill="black" text-anchor="start" >
+<tspan>Gridded Forecast(</tspan>
+<tspan font-style="italic">X</tspan>
+<tspan>)</tspan>
+</text>
+<line x1="798" y1="165" x2="900" y2="165" stroke="black" stroke-width="7"/>
+<polygon points="900,165 884.0,173.0 884.0,157.0" fill="black" stroke="none" stroke-width="1" />
+<line x1="900" y1="165" x2="900" y2="184" stroke="black" stroke-width="7"/>
+<polygon points="900,184 889.0,166.0 911.0,166.0" fill="black" stroke="none" stroke-width="1" />
+<rect x="854" y="190" width="86" height="224" rx="0" fill="#aec4e6" stroke="#3350a0" stroke-width="5" stroke-dasharray="13 10"/>
+<text transform="translate(912 200) rotate(90)" font-family="Times New Roman, Times, serif" font-size="30" font-weight="bold" fill="#3b5bb5" text-anchor="start" >Dynamic Edge</text>
+<text transform="translate(872 205) rotate(90)" font-family="Times New Roman, Times, serif" font-size="30" font-weight="bold" fill="#3b5bb5" text-anchor="start" >Modulator</text>
+<line x1="940" y1="306" x2="1022" y2="306" stroke="black" stroke-width="7"/>
+<polygon points="1022,306 1006.0,314.0 1006.0,298.0" fill="black" stroke="none" stroke-width="1" />
+<line x1="1022" y1="306" x2="1022" y2="165" stroke="black" stroke-width="7"/>
+<polygon points="1022,165 1030.0,181.0 1014.0,181.0" fill="black" stroke="none" stroke-width="1" />
+<line x1="1022" y1="165" x2="1036" y2="165" stroke="black" stroke-width="7"/>
+<polygon points="1036,165 1020.0,173.0 1020.0,157.0" fill="black" stroke="none" stroke-width="1" />
+<line x1="798" y1="455" x2="900" y2="455" stroke="black" stroke-width="7"/>
+<polygon points="900,455 884.0,463.0 884.0,447.0" fill="black" stroke="none" stroke-width="1" />
+<line x1="900" y1="455" x2="900" y2="432" stroke="black" stroke-width="7"/>
+<polygon points="900,432 911.0,450.0 889.0,450.0" fill="black" stroke="none" stroke-width="1" />
+<rect x="1041" y="42" width="200" height="245" rx="58" fill="#d3dbe4" stroke="#a9b8c9" stroke-width="6" />
+<line x1="1122" y1="164" x2="1099" y2="141" stroke="#8a7f8f" stroke-width="3"/>
+<line x1="1138" y1="165" x2="1156" y2="142" stroke="#8a7f8f" stroke-width="3"/>
+<line x1="1122" y1="176" x2="1070" y2="179" stroke="#8a7f8f" stroke-width="3"/>
+<line x1="1129" y1="163" x2="1146" y2="100" stroke="#b9a8b0" stroke-width="3.5" stroke-dasharray="7 7"/>
+<line x1="1156" y1="86" x2="1199" y2="62" stroke="#b99aa8" stroke-width="3"/>
+<line x1="1138" y1="181" x2="1155" y2="194" stroke="#c4919d" stroke-width="3"/>
+<line x1="1134" y1="181" x2="1158" y2="255" stroke="#c4919d" stroke-width="4"/>
+<rect x="1078" y="124" width="27" height="27" rx="0" fill="#4f8fc4" stroke="#2c4a8f" stroke-width="3" />
+<rect x="1156" y="125" width="27" height="27" rx="0" fill="#4f8fc4" stroke="#2c4a8f" stroke-width="3" />
+<rect x="1078" y="194" width="27" height="27" rx="0" fill="#9dc3e0" stroke="#2c4a8f" stroke-width="3" />
+<rect x="1157" y="194" width="27" height="27" rx="0" fill="#9dc3e0" stroke="#2c4a8f" stroke-width="3" />
+<circle cx="1130" cy="172" r="8" fill="#3a4b8f" stroke="black" stroke-width="3" />
+<circle cx="1062" cy="180" r="8" fill="white" stroke="black" stroke-width="3" />
+<circle cx="1161" cy="263" r="8" fill="white" stroke="black" stroke-width="3" />
+<circle cx="1148" cy="90" r="8" fill="#4f8fc4" stroke="black" stroke-width="3" />
+<circle cx="1207" cy="64" r="8" fill="#b8c8e8" stroke="black" stroke-width="3" />
+<line x1="1241" y1="167" x2="1445" y2="167" stroke="black" stroke-width="7"/>
+<polygon points="1445,167 1425.0,178.0 1425.0,156.0" fill="black" stroke="none" stroke-width="1" />
+<rect x="1302" y="22" width="102" height="308" rx="8" fill="none" stroke="#f09a54" stroke-width="3" stroke-dasharray="12 9"/>
+<text transform="translate(1380 60) rotate(90)" font-family="Times New Roman, Times, serif" font-size="33" font-weight="bold" fill="#d9772e" text-anchor="start" >Probabilistic</text>
+<text transform="translate(1346 60) rotate(90)" font-family="Times New Roman, Times, serif" font-size="33" font-weight="bold" fill="#d9772e" text-anchor="start" >Forecast Diffuser</text>
+<rect x="1445" y="25" width="487" height="293" rx="55" fill="#d9e7dc" stroke="#6b9c8e" stroke-width="7" />
+<line x1="1445" y1="167" x2="1491" y2="167" stroke="black" stroke-width="6"/>
+<polygon points="1491,167 1475.0,175.0 1475.0,159.0" fill="black" stroke="none" stroke-width="1" />
+<line x1="1491" y1="76" x2="1491" y2="263" stroke="black" stroke-width="6"/>
+<line x1="1491" y1="76" x2="1602" y2="76" stroke="black" stroke-width="6"/>
+<polygon points="1602,76 1582.0,87.0 1582.0,65.0" fill="black" stroke="none" stroke-width="1" />
+<line x1="1491" y1="263" x2="1602" y2="263" stroke="black" stroke-width="6"/>
+<polygon points="1602,263 1582.0,274.0 1582.0,252.0" fill="black" stroke="none" stroke-width="1" />
+<line x1="1491" y1="167" x2="1602" y2="167" stroke="black" stroke-width="6"/>
+<polygon points="1602,167 1582.0,178.0 1582.0,156.0" fill="black" stroke="none" stroke-width="1" />
+<text x="1507" y="66" font-family="Times New Roman, Times, serif" font-size="28" font-weight="bold" fill="black" text-anchor="start" >Attention</text>
+<text x="1523" y="152" font-family="Times New Roman, Times, serif" font-size="30" font-weight="bold" fill="black" text-anchor="start" >GCN</text>
+<text x="1527" y="247" font-family="Times New Roman, Times, serif" font-size="30" font-weight="bold" fill="black" text-anchor="start" >MLP</text>
+<rect x="1614" y="29" width="168" height="82" rx="0" fill="#cbe3f0" stroke="none" stroke-width="1" />
+<rect x="1613" y="126" width="168" height="82" rx="0" fill="#c6cad8" stroke="none" stroke-width="1" />
+<rect x="1613" y="219" width="168" height="84" rx="0" fill="#cbe3f0" stroke="none" stroke-width="1" />
+<rect x="1647" y="41" width="14" height="11" rx="2" fill="#e8c890" stroke="none" stroke-width="1" />
+<rect x="1644" y="39" width="14" height="11" rx="3" fill="#f7d9a0" stroke="#d9b877" stroke-width="1.5" />
+<rect x="1647" y="68.5" width="14" height="11" rx="2" fill="#e8c890" stroke="none" stroke-width="1" />
+<rect x="1644" y="66.5" width="14" height="11" rx="3" fill="#f7d9a0" stroke="#d9b877" stroke-width="1.5" />
+<rect x="1647" y="96" width="14" height="11" rx="2" fill="#e8c890" stroke="none" stroke-width="1" />
+<rect x="1644" y="94" width="14" height="11" rx="3" fill="#f7d9a0" stroke="#d9b877" stroke-width="1.5" />
+<rect x="1682" y="37" width="20" height="108" rx="4" fill="#eebcc8" stroke="none" stroke-width="1" filter="url(#shadow2)"/>
+<rect x="1678" y="35" width="20" height="108" rx="4" fill="#eebcc8" stroke="#d99aa6" stroke-width="1.5" />
+<line x1="1658" y1="44.5" x2="1678" y2="44.5" stroke="#33408f" stroke-width="2"/>
+<line x1="1658" y1="72" x2="1678" y2="72" stroke="#33408f" stroke-width="2"/>
+<line x1="1658" y1="99.5" x2="1678" y2="99.5" stroke="#33408f" stroke-width="2"/>
+<line x1="1698" y1="72" x2="1721" y2="72" stroke="#33408f" stroke-width="2"/>
+<rect x="1721" y="57" width="14" height="21" rx="3" fill="#fdf3d9" stroke="none" stroke-width="1" />
+<line x1="1735" y1="72" x2="1760" y2="72" stroke="#7b93b8" stroke-width="5"/>
+<polygon points="1760,72 1746.0,79.0 1746.0,65.0" fill="#7b93b8" stroke="none" stroke-width="1" />
+<rect x="1625.5" y="143" width="46" height="60" rx="6" fill="#aab2cc" stroke="none" stroke-width="1" />
+<rect x="1620.5" y="138" width="46" height="60" rx="6" fill="#cdd6ea" stroke="#9aa5c0" stroke-width="2" />
+<rect x="1736" y="143" width="46" height="60" rx="6" fill="#aab2cc" stroke="none" stroke-width="1" />
+<rect x="1731" y="138" width="46" height="60" rx="6" fill="#cdd6ea" stroke="#9aa5c0" stroke-width="2" />
+<line x1="1650" y1="155" x2="1662" y2="169" stroke="#ef6a5a" stroke-width="1.5"/>
+<line x1="1659" y1="169" x2="1662" y2="169" stroke="#f28b6b" stroke-width="1.5"/>
+<line x1="1648" y1="181" x2="1662" y2="169" stroke="#f78b3c" stroke-width="1.5"/>
+<line x1="1736" y1="155" x2="1731" y2="169" stroke="#ef6a5a" stroke-width="1.5"/>
+<line x1="1730" y1="169" x2="1731" y2="169" stroke="#f28b6b" stroke-width="1.5"/>
+<line x1="1746" y1="181" x2="1731" y2="169" stroke="#f78b3c" stroke-width="1.5"/>
+<circle cx="1635.5" cy="156" r="5" fill="#f0503c" stroke="#333" stroke-width="1.5" />
+<circle cx="1645" cy="169" r="5" fill="#f78b3c" stroke="#333" stroke-width="1.5" />
+<circle cx="1633" cy="183.5" r="5" fill="#e8542c" stroke="#333" stroke-width="1.5" />
+<circle cx="1744" cy="156" r="5" fill="#f0503c" stroke="#333" stroke-width="1.5" />
+<circle cx="1735.5" cy="169" r="5" fill="#f78b3c" stroke="#333" stroke-width="1.5" />
+<circle cx="1747.5" cy="183.5" r="5" fill="#e8542c" stroke="#333" stroke-width="1.5" />
+<line x1="1679" y1="174" x2="1711" y2="174" stroke="#33408f" stroke-width="2" stroke-dasharray="4 3"/>
+<polygon points="1679,170 1671,174 1679,178" fill="#f78b3c" stroke="none" stroke-width="1" />
+<polygon points="1711,170 1719,174 1711,178" fill="#f78b3c" stroke="none" stroke-width="1" />
+<line x1="1638" y1="249" x2="1699" y2="226.5" stroke="#1f3864" stroke-width="2"/>
+<line x1="1638" y1="249" x2="1699" y2="249" stroke="#1f3864" stroke-width="2"/>
+<line x1="1638" y1="249" x2="1699" y2="271.5" stroke="#1f3864" stroke-width="2"/>
+<line x1="1638" y1="249" x2="1699" y2="294" stroke="#1f3864" stroke-width="2"/>
+<line x1="1638" y1="271.5" x2="1699" y2="226.5" stroke="#1f3864" stroke-width="2"/>
+<line x1="1638" y1="271.5" x2="1699" y2="249" stroke="#1f3864" stroke-width="2"/>
+<line x1="1638" y1="271.5" x2="1699" y2="271.5" stroke="#1f3864" stroke-width="2"/>
+<line x1="1638" y1="271.5" x2="1699" y2="294" stroke="#1f3864" stroke-width="2"/>
+<line x1="1699" y1="226.5" x2="1745.5" y2="262.5" stroke="#1f3864" stroke-width="2"/>
+<line x1="1699" y1="249" x2="1745.5" y2="262.5" stroke="#1f3864" stroke-width="2"/>
+<line x1="1699" y1="271.5" x2="1745.5" y2="262.5" stroke="#1f3864" stroke-width="2"/>
+<line x1="1699" y1="294" x2="1745.5" y2="262.5" stroke="#1f3864" stroke-width="2"/>
+<circle cx="1638" cy="249" r="11.5" fill="#3f8b8b" stroke="#2c6b6b" stroke-width="2" />
+<circle cx="1638" cy="271.5" r="11.5" fill="#3f8b8b" stroke="#2c6b6b" stroke-width="2" />
+<circle cx="1699" cy="226.5" r="11.5" fill="#3f8b8b" stroke="#2c6b6b" stroke-width="2" />
+<circle cx="1699" cy="249" r="11.5" fill="#3f8b8b" stroke="#2c6b6b" stroke-width="2" />
+<circle cx="1699" cy="271.5" r="11.5" fill="#3f8b8b" stroke="#2c6b6b" stroke-width="2" />
+<circle cx="1699" cy="294" r="11.5" fill="#3f8b8b" stroke="#2c6b6b" stroke-width="2" />
+<circle cx="1745.5" cy="262.5" r="11.5" fill="#3f8b8b" stroke="#2c6b6b" stroke-width="2" />
+<line x1="1782" y1="76" x2="1821" y2="76" stroke="black" stroke-width="6"/>
+<polygon points="1821,76 1803.0,86.0 1803.0,66.0" fill="black" stroke="none" stroke-width="1" />
+<line x1="1782" y1="171" x2="1821" y2="171" stroke="black" stroke-width="6"/>
+<polygon points="1821,171 1803.0,181.0 1803.0,161.0" fill="black" stroke="none" stroke-width="1" />
+<line x1="1782" y1="263" x2="1821" y2="263" stroke="black" stroke-width="6"/>
+<polygon points="1821,263 1803.0,273.0 1803.0,253.0" fill="black" stroke="none" stroke-width="1" />
+<rect x="1823.5" y="40" width="28" height="259" rx="0" fill="#5aa5a0" stroke="none" stroke-width="1" />
+<rect x="1851.5" y="40" width="29" height="259" rx="0" fill="#3f8a80" stroke="none" stroke-width="1" />
+<text transform="translate(1843 105) rotate(90)" font-family="Times New Roman, Times, serif" font-size="33" font-weight="bold" fill="white" text-anchor="start" >Aggregator</text>
+<text transform="translate(1873 55) rotate(90)" font-family="Times New Roman, Times, serif" font-size="26" font-weight="bold" fill="white" text-anchor="start" >Multi-Criteria Score</text>
+<path d="M 1846 302 V 457 H 1798" stroke="#5c8a80" stroke-width="14" fill="none" />
+<polygon points="1798,457 1816,445 1816,469" fill="#5c8a80" stroke="none" stroke-width="1" />
+<rect x="984" y="352" width="250" height="226" rx="0" fill="#f0f6e9" stroke="#b5d6a7" stroke-width="3" stroke-dasharray="12 9"/>
+<rect x="1074" y="419" width="57" height="54" rx="12" fill="#efb0c6" stroke="#e88cae" stroke-width="3" />
+<text x="1036" y="521" font-family="Times New Roman, Times, serif" font-size="26" font-weight="bold" fill="black" text-anchor="start" >Station</text>
+<text x="1010" y="550" font-family="Times New Roman, Times, serif" font-size="26" font-weight="bold" fill="black" text-anchor="start" >Precipitation Value</text>
+<line x1="1338" y1="465" x2="1236" y2="465" stroke="black" stroke-width="7"/>
+<polygon points="1236,465 1256.0,454.0 1256.0,476.0" fill="black" stroke="none" stroke-width="1" />
+<rect x="1340" y="320" width="117" height="288" rx="12" fill="#dcecec" stroke="#7fb2b5" stroke-width="4" />
+<rect x="1340" y="320" width="117" height="56" rx="12" fill="#b5ced2" stroke="none" stroke-width="1" />
+<rect x="1340" y="352" width="117" height="24" rx="0" fill="#b5ced2" stroke="none" stroke-width="1" />
+<text x="1365" y="346" font-family="Times New Roman, Times, serif" font-size="24" font-weight="bold" fill="black" text-anchor="start" >Station</text>
+<text x="1379" y="371" font-family="Times New Roman, Times, serif" font-size="24" font-weight="bold" fill="black" text-anchor="start" >Bias</text>
+<rect x="1354" y="432" width="15" height="66" rx="3" fill="#7bb8b8" stroke="none" stroke-width="1" />
+<rect x="1390" y="413" width="20" height="95" rx="3" fill="#7bb8b8" stroke="none" stroke-width="1" />
+<rect x="1427" y="397" width="20" height="156" rx="3" fill="#7bb8b8" stroke="none" stroke-width="1" />
+<rect x="1538" y="347" width="246" height="221" rx="0" fill="#f0f6e9" stroke="#b5d6a7" stroke-width="3" stroke-dasharray="12 9"/>
+<rect x="1637" y="368" width="14" height="20" rx="3" fill="#d9849f" stroke="#c46a85" stroke-width="1.5" />
+<rect x="1637" y="392" width="14" height="20" rx="3" fill="#d9849f" stroke="#c46a85" stroke-width="1.5" />
+<rect x="1637" y="416" width="14" height="20" rx="3" fill="#d9849f" stroke="#c46a85" stroke-width="1.5" />
+<rect x="1637" y="440" width="14" height="20" rx="3" fill="#d9849f" stroke="#c46a85" stroke-width="1.5" />
+<rect x="1637" y="464" width="14" height="20" rx="3" fill="#d9849f" stroke="#c46a85" stroke-width="1.5" />
+<rect x="1665" y="368" width="14" height="20" rx="3" fill="#d9849f" stroke="#c46a85" stroke-width="1.5" />
+<rect x="1665" y="392" width="14" height="20" rx="3" fill="#d9849f" stroke="#c46a85" stroke-width="1.5" />
+<rect x="1665" y="416" width="14" height="20" rx="3" fill="#d9849f" stroke="#c46a85" stroke-width="1.5" />
+<rect x="1665" y="440" width="14" height="20" rx="3" fill="#d9849f" stroke="#c46a85" stroke-width="1.5" />
+<rect x="1665" y="464" width="14" height="20" rx="3" fill="#d9849f" stroke="#c46a85" stroke-width="1.5" />
+<text x="1554" y="568" font-family="Times New Roman, Times, serif" font-size="26" font-weight="bold" fill="black" text-anchor="start" >Station Features</text>
+<line x1="1538" y1="465" x2="1459" y2="465" stroke="black" stroke-width="7"/>
+<polygon points="1459,465 1479.0,454.0 1479.0,476.0" fill="black" stroke="none" stroke-width="1" />
+<line x1="12" y1="625" x2="1926" y2="625" stroke="black" stroke-width="7" stroke-dasharray="30 22"/>
+<line x1="959" y1="625" x2="959" y2="1085" stroke="black" stroke-width="7" stroke-dasharray="30 22"/>
+<rect x="60" y="645" width="866" height="419" rx="65" fill="#ccdcf0" stroke="none" stroke-width="1" />
+<rect x="586" y="632" width="319" height="78" rx="0" fill="#aec7e8" stroke="#3350a0" stroke-width="5" />
+<text x="745" y="674" font-family="Times New Roman, Times, serif" font-size="36" font-weight="bold" fill="#3b5bb5" text-anchor="middle" >Dynamic Edge</text>
+<text x="745" y="714" font-family="Times New Roman, Times, serif" font-size="36" font-weight="bold" fill="#3b5bb5" text-anchor="middle" >Modulator</text>
+<rect x="89" y="769" width="124" height="128" rx="24" fill="#d3dade" stroke="none" stroke-width="1" />
+<rect x="411" y="675" width="105" height="107" rx="24" fill="#d3dade" stroke="none" stroke-width="1" />
+<rect x="410" y="857" width="105" height="110" rx="24" fill="#d3dade" stroke="none" stroke-width="1" />
+<rect x="811" y="857" width="106" height="110" rx="24" fill="#d3dade" stroke="none" stroke-width="1" />
+<line x1="119" y1="811" x2="189" y2="863" stroke="#4472c4" stroke-width="4" stroke-dasharray="8 7"/>
+<line x1="440" y1="893" x2="488" y2="940" stroke="#4472c4" stroke-width="4"/>
+<line x1="838" y1="895" x2="889" y2="941" stroke="#2c4a8f" stroke-width="4"/>
+<circle cx="119" cy="811" r="12" fill="#4472c4" stroke="black" stroke-width="2.5" />
+<circle cx="440" cy="707" r="12" fill="#4472c4" stroke="black" stroke-width="2.5" />
+<circle cx="440" cy="893" r="12" fill="#4472c4" stroke="black" stroke-width="2.5" />
+<circle cx="838" cy="895" r="12" fill="#4472c4" stroke="black" stroke-width="2.5" />
+<circle cx="189" cy="863" r="12" fill="white" stroke="black" stroke-width="2.5" />
+<circle cx="490" cy="756" r="12" fill="white" stroke="black" stroke-width="2.5" />
+<circle cx="488" cy="940" r="12" fill="white" stroke="black" stroke-width="2.5" />
+<circle cx="889" cy="941" r="12" fill="white" stroke="black" stroke-width="2.5" />
+<line x1="213" y1="843" x2="270" y2="843" stroke="black" stroke-width="8"/>
+<polygon points="270,843 250.0,854.0 250.0,832.0" fill="black" stroke="none" stroke-width="1" />
+<line x1="341" y1="726" x2="411" y2="726" stroke="black" stroke-width="8"/>
+<polygon points="411,726 391.0,737.0 391.0,715.0" fill="black" stroke="none" stroke-width="1" />
+<line x1="341" y1="913" x2="410" y2="913" stroke="black" stroke-width="8"/>
+<polygon points="410,913 390.0,924.0 390.0,902.0" fill="black" stroke="none" stroke-width="1" />
+<line x1="515" y1="913" x2="554" y2="913" stroke="black" stroke-width="8"/>
+<polygon points="554,913 534.0,924.0 534.0,902.0" fill="black" stroke="none" stroke-width="1" />
+<line x1="653" y1="913" x2="695" y2="913" stroke="black" stroke-width="8"/>
+<polygon points="695,913 675.0,924.0 675.0,902.0" fill="black" stroke="none" stroke-width="1" />
+<line x1="736" y1="913" x2="811" y2="913" stroke="black" stroke-width="8"/>
+<polygon points="811,913 791.0,924.0 791.0,902.0" fill="black" stroke="none" stroke-width="1" />
+<rect x="272" y="695" width="69" height="278" rx="12" fill="#f8c489" stroke="none" stroke-width="1" />
+<text transform="translate(306 736) rotate(90)" font-family="Times New Roman, Times, serif" font-size="37" font-weight="bold" fill="black" text-anchor="start" >Edge Gating</text>
+<rect x="560" y="777" width="60" height="274" rx="0" fill="#e89a97" stroke="none" stroke-width="1" />
+<text transform="translate(590 782) rotate(90)" font-family="Times New Roman, Times, serif" font-size="38" font-weight="bold" fill="black" text-anchor="start" >Attention Net</text>
+<rect x="702" y="777" width="59" height="274" rx="0" fill="#96a5d4" stroke="none" stroke-width="1" />
+<text transform="translate(731 780) rotate(90)" font-family="Times New Roman, Times, serif" font-size="33" font-weight="bold" fill="black" text-anchor="start" >Geographic Decay</text>
+<rect x="988" y="662" width="880" height="393" rx="60" fill="#fce3bf" stroke="none" stroke-width="1" />
+<rect x="1020" y="631" width="326" height="83" rx="0" fill="#fff2df" stroke="#f09a54" stroke-width="4" />
+<text x="1183" y="672" font-family="Times New Roman, Times, serif" font-size="34" font-weight="bold" fill="#e07627" text-anchor="middle" >Probabilistic</text>
+<text x="1183" y="711" font-family="Times New Roman, Times, serif" font-size="34" font-weight="bold" fill="#e07627" text-anchor="middle" >Forecast Diffuser</text>
+<text x="1003" y="802" font-family="Times New Roman, Times, serif" font-size="30" font-weight="bold" fill="black" text-anchor="start" >Add</text>
+<text x="1003" y="838" font-family="Times New Roman, Times, serif" font-size="30" font-weight="bold" fill="black" text-anchor="start" >Noise</text>
+<line x1="988" y1="865" x2="1085" y2="865" stroke="black" stroke-width="6"/>
+<polygon points="1085,865 1067.0,875.0 1067.0,855.0" fill="black" stroke="none" stroke-width="1" />
+<path d="M 1052 865 V 1019 H 1615 V 868" stroke="black" stroke-width="6" fill="none" />
+<polygon points="1615,868 1603,886 1627,886" fill="black" stroke="none" stroke-width="1" />
+<rect x="1087" y="793" width="114" height="137" rx="0" fill="#888" stroke="none" stroke-width="1" />
+<rect x="1089" y="795" width="110" height="133" rx="0" fill="#888" stroke="none" stroke-width="1" filter="url(#grain)" opacity="0.85"/>
+<line x1="1201" y1="865" x2="1262" y2="865" stroke="black" stroke-width="6"/>
+<polygon points="1262,865 1244.0,875.0 1244.0,855.0" fill="black" stroke="none" stroke-width="1" />
+<polygon points="1262,744 1390,791 1390,930 1262,975" fill="#c9d8f0" stroke="none" stroke-width="1" filter="url(#shadow)"/>
+<rect x="1272" y="781" width="27" height="146" rx="6" fill="#6c92cf" stroke="none" stroke-width="1" filter="url(#shadow2)"/>
+<rect x="1315" y="802" width="26" height="113" rx="6" fill="#6c92cf" stroke="none" stroke-width="1" filter="url(#shadow2)"/>
+<rect x="1348" y="819" width="26" height="78" rx="6" fill="#6c92cf" stroke="none" stroke-width="1" filter="url(#shadow2)"/>
+<polygon points="1405,790 1535,741 1535,972 1405,928" fill="#c9d8f0" stroke="none" stroke-width="1" filter="url(#shadow)"/>
+<rect x="1415" y="816" width="30" height="101" rx="6" fill="#6c92cf" stroke="none" stroke-width="1" filter="url(#shadow2)"/>
+<rect x="1456" y="798" width="29" height="120" rx="6" fill="#6c92cf" stroke="none" stroke-width="1" filter="url(#shadow2)"/>
+<rect x="1497" y="783" width="28" height="144" rx="6" fill="#6c92cf" stroke="none" stroke-width="1" filter="url(#shadow2)"/>
+<line x1="1535" y1="865" x2="1663" y2="865" stroke="black" stroke-width="6"/>
+<polygon points="1663,865 1643.0,876.0 1643.0,854.0" fill="black" stroke="none" stroke-width="1" />
+<path d="M 1232 865 V 728 H 1581 V 860" stroke="black" stroke-width="6" fill="none" />
+<polygon points="1581,865 1569,848 1593,848" fill="black" stroke="none" stroke-width="1" />
+<circle cx="1602" cy="771" r="19" fill="white" stroke="black" stroke-width="3" />
+<line x1="1593" y1="771" x2="1611" y2="771" stroke="black" stroke-width="3"/>
+<circle cx="1572" cy="920" r="19" fill="white" stroke="black" stroke-width="3" />
+<line x1="1563" y1="920" x2="1581" y2="920" stroke="black" stroke-width="3"/>
+<line x1="1572" y1="911" x2="1572" y2="929" stroke="black" stroke-width="3"/>
+<line x1="1663" y1="865" x2="1717" y2="763" stroke="#33408f" stroke-width="5"/>
+<polygon points="1717,763 1715.648324363234,782.6512842575993 1701.5077177016808,775.1650807308948" fill="#33408f" stroke="none" stroke-width="1" />
+<line x1="1663" y1="865" x2="1717" y2="952" stroke="#33408f" stroke-width="5"/>
+<polygon points="1717,952 1700.7103471584085,940.925379902659 1714.3045898175785,932.4875741142087" fill="#33408f" stroke="none" stroke-width="1" />
+<text transform="translate(1683 785) rotate(-55)" font-family="Times New Roman, Times, serif" font-size="26" font-weight="bold">60%</text>
+<text transform="translate(1672 928) rotate(50)" font-family="Times New Roman, Times, serif" font-size="26" font-weight="bold">10%</text>
+<rect x="1721" y="700" width="94" height="308" rx="18" fill="#e6efec" stroke="#33408f" stroke-width="7" />
+<rect x="1744" y="714" width="55" height="61" rx="8" fill="#cfe0f0" stroke="#33408f" stroke-width="6" stroke-dasharray="9 7"/>
+<rect x="1740" y="780" width="60" height="63" rx="8" fill="#cfe0f0" stroke="#33408f" stroke-width="6" stroke-dasharray="9 7"/>
+<rect x="1742" y="941" width="57" height="61" rx="8" fill="#cfe0f0" stroke="#33408f" stroke-width="6" stroke-dasharray="9 7"/>
+<line x1="1771" y1="756" x2="1771" y2="780" stroke="#4472c4" stroke-width="3"/>
+<circle cx="1771" cy="745" r="11" fill="#49b8d6" stroke="none" stroke-width="1" />
+<circle cx="1770" cy="811" r="11" fill="#16809e" stroke="none" stroke-width="1" />
+<circle cx="1770" cy="971" r="11" fill="#a5ddf0" stroke="none" stroke-width="1" />
+<circle cx="1770" cy="852" r="5" fill="#7fc5e0" stroke="none" stroke-width="1" />
+<circle cx="1770" cy="862" r="5" fill="#7fc5e0" stroke="none" stroke-width="1" />
+<circle cx="1770" cy="872" r="5" fill="#7fc5e0" stroke="none" stroke-width="1" />
+<circle cx="1770" cy="881" r="5" fill="#7fc5e0" stroke="none" stroke-width="1" />
+<circle cx="1770" cy="891" r="5" fill="#7fc5e0" stroke="none" stroke-width="1" />
+<line x1="1815" y1="740" x2="1854" y2="740" stroke="#33408f" stroke-width="7"/>
+<polygon points="1854,740 1838.0,748.0 1838.0,732.0" fill="#33408f" stroke="none" stroke-width="1" />
+<line x1="1815" y1="811" x2="1854" y2="811" stroke="#33408f" stroke-width="7"/>
+<polygon points="1854,811 1838.0,819.0 1838.0,803.0" fill="#33408f" stroke="none" stroke-width="1" />
+<line x1="1815" y1="971" x2="1854" y2="971" stroke="#33408f" stroke-width="7"/>
+<polygon points="1854,971 1838.0,979.0 1838.0,963.0" fill="#33408f" stroke="none" stroke-width="1" />
+<circle cx="1831" cy="852" r="5.5" fill="#9db8d9" stroke="none" stroke-width="1" />
+<circle cx="1831" cy="862" r="5.5" fill="#9db8d9" stroke="none" stroke-width="1" />
+<circle cx="1831" cy="872" r="5.5" fill="#9db8d9" stroke="none" stroke-width="1" />
+<circle cx="1831" cy="881" r="5.5" fill="#9db8d9" stroke="none" stroke-width="1" />
+<circle cx="1831" cy="891" r="5.5" fill="#9db8d9" stroke="none" stroke-width="1" />
+</svg>

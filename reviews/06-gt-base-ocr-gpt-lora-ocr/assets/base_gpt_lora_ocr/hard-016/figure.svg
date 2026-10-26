@@ -1,0 +1,216 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1060" viewBox="0 0 1920 1060">
+<defs>
+<marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="3.2" markerHeight="3.2" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#111"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="3.8" markerHeight="3.8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#18a418"/></marker>
+<marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="3.8" markerHeight="3.8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#e50000"/></marker>
+</defs>
+<rect x="0" y="0" width="1920" height="1060" rx="0" fill="#c9e6a1" stroke="none" stroke-width="0" />
+<text x="994" y="68" font-family="DejaVu Sans, sans-serif" font-size="34" font-weight="bold" text-anchor="middle" fill="#000" >NeuroSymbolic Learning of Code Rules</text>
+<rect x="32" y="97" width="568" height="401" rx="16" fill="none" stroke="#8f8f8f" stroke-width="0" fill-opacity="0.55"/>
+<rect x="27" y="89" width="568" height="401" rx="16" fill="#fdfdfd" stroke="#111111" stroke-width="3.5" />
+<text x="311" y="129" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#000" >Stage 1. Exploration of Trajectory Data</text>
+<rect x="48" y="161" width="523" height="135" rx="10" fill="none" stroke="#111111" stroke-width="4.5" stroke-dasharray="15 10"/>
+<text x="309" y="192" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="bold" text-anchor="middle" fill="#000" >Real Trajectory</text>
+<rect x="56" y="209" width="74" height="74" rx="37" fill="white" stroke="#111111" stroke-width="3" />
+<text x="93" y="258" font-family="Times New Roman, serif" font-style="italic" font-size="38" fill="#000" text-anchor="middle">a<tspan dy="8" font-size="23.56">0</tspan></text>
+<rect x="154.5" y="209" width="74" height="74" rx="37" fill="white" stroke="#111111" stroke-width="3" />
+<text x="191.5" y="258" font-family="Times New Roman, serif" font-style="italic" font-size="38" fill="#000" text-anchor="middle">o<tspan dy="8" font-size="23.56">1</tspan></text>
+<rect x="253" y="209" width="74" height="74" rx="37" fill="white" stroke="#111111" stroke-width="3" />
+<text x="290" y="258" font-family="Times New Roman, serif" font-style="italic" font-size="38" fill="#000" text-anchor="middle">a<tspan dy="8" font-size="23.56">1</tspan></text>
+<rect x="351.5" y="209" width="74" height="74" rx="37" fill="white" stroke="#111111" stroke-width="3" />
+<text x="388.5" y="258" font-family="Times New Roman, serif" font-style="italic" font-size="38" fill="#000" text-anchor="middle">o<tspan dy="8" font-size="23.56">2</tspan></text>
+<rect x="498" y="209" width="74" height="74" rx="37" fill="white" stroke="#111111" stroke-width="3" />
+<text x="535" y="258" font-family="Times New Roman, serif" font-style="italic" font-size="38" fill="#000" text-anchor="middle">o<tspan dy="8" font-size="23.56">t</tspan></text>
+<rect x="443" y="238.5" width="9.5" height="10" rx="0" fill="#111" stroke="none" stroke-width="0" />
+<rect x="456" y="238.5" width="9.5" height="10" rx="0" fill="#111" stroke="none" stroke-width="0" />
+<rect x="469" y="238.5" width="9.5" height="10" rx="0" fill="#111" stroke="none" stroke-width="0" />
+<rect x="48" y="346.5" width="523" height="117" rx="10" fill="none" stroke="#111111" stroke-width="4.5" stroke-dasharray="15 10"/>
+<line x1="191.5" y1="352" x2="191.5" y2="286" stroke="#18a418" stroke-width="4.5" marker-start="url(#ag)" marker-end="url(#ag)"/>
+<line x1="388.5" y1="352" x2="388.5" y2="286" stroke="#e50000" stroke-width="4.5" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<line x1="535" y1="352" x2="535" y2="286" stroke="#e50000" stroke-width="4.5" marker-start="url(#ar)" marker-end="url(#ar)"/>
+<rect x="206" y="299" width="27" height="27" rx="5" fill="#2eb52e" stroke="#2b7a2b" stroke-width="2.5" />
+<path d="M212 313 L218 320 L230 303" fill="none" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="400" y1="298" x2="424" y2="322" stroke="#e50000" stroke-width="9" stroke-linecap="round"/>
+<line x1="400" y1="322" x2="424" y2="298" stroke="#e50000" stroke-width="9" stroke-linecap="round"/>
+<line x1="542.5" y1="302" x2="566.5" y2="326" stroke="#e50000" stroke-width="9" stroke-linecap="round"/>
+<line x1="542.5" y1="326" x2="566.5" y2="302" stroke="#e50000" stroke-width="9" stroke-linecap="round"/>
+<rect x="56" y="351.5" width="74" height="74" rx="37" fill="#3de9e4" stroke="#111111" stroke-width="3" />
+<text x="93" y="402.5" font-family="Times New Roman, serif" font-style="italic" font-size="38" fill="#000" text-anchor="middle">a<tspan dy="8" font-size="23.56">0</tspan></text>
+<rect x="154.5" y="351.5" width="74" height="74" rx="37" fill="#3de9e4" stroke="#111111" stroke-width="3" />
+<text x="191.5" y="402.5" font-family="Times New Roman, serif" font-style="italic" font-size="38" fill="#000" text-anchor="middle">ô<tspan dy="8" font-size="23.56">1</tspan></text>
+<rect x="253" y="351.5" width="74" height="74" rx="37" fill="#f957a5" stroke="#111111" stroke-width="3" />
+<text x="290" y="402.5" font-family="Times New Roman, serif" font-style="italic" font-size="38" fill="#000" text-anchor="middle">a<tspan dy="8" font-size="23.56">1</tspan></text>
+<rect x="351.5" y="351.5" width="74" height="74" rx="37" fill="#f957a5" stroke="#111111" stroke-width="3" />
+<text x="388.5" y="402.5" font-family="Times New Roman, serif" font-style="italic" font-size="38" fill="#000" text-anchor="middle">ô<tspan dy="8" font-size="23.56">2</tspan></text>
+<rect x="498" y="351.5" width="74" height="74" rx="37" fill="#f957a5" stroke="#111111" stroke-width="3" />
+<text x="535" y="402.5" font-family="Times New Roman, serif" font-style="italic" font-size="38" fill="#000" text-anchor="middle">ô<tspan dy="8" font-size="23.56">t</tspan></text>
+<rect x="443" y="385" width="9.5" height="10" rx="0" fill="#111" stroke="none" stroke-width="0" />
+<rect x="456" y="385" width="9.5" height="10" rx="0" fill="#111" stroke="none" stroke-width="0" />
+<rect x="469" y="385" width="9.5" height="10" rx="0" fill="#111" stroke="none" stroke-width="0" />
+<text x="309" y="450" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="bold" text-anchor="middle" fill="#000" >Predicted Trajectory</text>
+<rect x="650" y="97" width="1258" height="423" rx="16" fill="none" stroke="#8f8f8f" stroke-width="0" fill-opacity="0.55"/>
+<rect x="645" y="89" width="1258" height="423" rx="16" fill="#fdfdfd" stroke="#111111" stroke-width="3.5" />
+<text x="1273.5" y="121" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#000" >Stage 2. Learning Symbolic Knowledge</text>
+<rect x="658" y="140" width="819" height="47" rx="8" fill="none" stroke="#111111" stroke-width="4.5" stroke-dasharray="15 10"/>
+<rect x="1492" y="140" width="395" height="47" rx="8" fill="none" stroke="#111111" stroke-width="4.5" stroke-dasharray="15 10"/>
+<text x="909" y="170" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="normal" text-anchor="start" fill="#000" >Real trajectory</text>
+<text x="1095" y="171" font-family="Times New Roman, serif" font-style="italic" font-size="30">t<tspan dy="7" font-size="19">-k</tspan><tspan dy="-7"> : t</tspan></text>
+<text x="1588" y="171" font-family="Times New Roman, serif" font-style="italic" font-size="30">o<tspan dy="7" font-size="19">t</tspan></text>
+<text x="1614" y="170" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="normal" text-anchor="start" fill="#000" >in the real trajectory</text>
+<rect x="658" y="205" width="819" height="41" rx="3" fill="#fad3d3" stroke="#111111" stroke-width="2.5" />
+<text x="1067.5" y="233" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="normal" text-anchor="middle" fill="#000" >LLM</text>
+<rect x="1495" y="205" width="404" height="41" rx="3" fill="#e3d9e7" stroke="#111111" stroke-width="2.5" />
+<text x="1697" y="233" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="normal" text-anchor="middle" fill="#000" >Program</text>
+<line x1="1064" y1="187" x2="1064" y2="205" stroke="#111111" stroke-width="3" marker-end="url(#ab)"/>
+<line x1="1693" y1="187" x2="1693" y2="205" stroke="#111111" stroke-width="3" marker-end="url(#ab)"/>
+<line x1="858" y1="246" x2="858" y2="281" stroke="#111111" stroke-width="3" marker-end="url(#ab)"/>
+<line x1="1274" y1="246" x2="1274" y2="281" stroke="#111111" stroke-width="3" marker-end="url(#ab)"/>
+<line x1="1693" y1="246" x2="1693" y2="281" stroke="#111111" stroke-width="3" marker-end="url(#ab)"/>
+<rect x="661" y="286" width="399" height="202" rx="8" fill="none" stroke="#8f8f8f" stroke-width="0" fill-opacity="0.35"/>
+<rect x="658" y="281" width="399" height="202" rx="8" fill="white" stroke="#111111" stroke-width="2.5" />
+<text x="857.5" y="305" font-family="DejaVu Sans, sans-serif" font-size="26" font-weight="bold" text-anchor="middle" fill="#000" >Action Rules</text>
+<text x="672" y="337" font-family="DejaVu Sans Mono, monospace" font-size="26" font-weight="normal" text-anchor="start" fill="#000" >1. For action 'craft',</text>
+<text x="672" y="370" font-family="DejaVu Sans Mono, monospace" font-size="26" font-weight="normal" text-anchor="start" fill="#000" >if the player does not</text>
+<text x="672" y="402" font-family="DejaVu Sans Mono, monospace" font-size="26" font-weight="normal" text-anchor="start" fill="#000" >have enough materials...</text>
+<text x="672" y="434" font-family="DejaVu Sans Mono, monospace" font-size="26" font-weight="normal" text-anchor="start" fill="#000" >the action will fail</text>
+<text x="672" y="468" font-family="DejaVu Sans Mono, monospace" font-size="26" font-weight="normal" text-anchor="start" fill="#000" >2. For action ...</text>
+<rect x="1075" y="286" width="400" height="202" rx="8" fill="none" stroke="#8f8f8f" stroke-width="0" fill-opacity="0.35"/>
+<rect x="1072" y="281" width="400" height="202" rx="8" fill="white" stroke="#111111" stroke-width="2.5" />
+<text x="1272" y="305" font-family="DejaVu Sans, sans-serif" font-size="26" font-weight="bold" text-anchor="middle" fill="#000" >Knowledge Graph</text>
+<path d="M1250 332 L1272 342.5 L1250 353 L1228 342.5 Z" fill="#b58a5c" stroke="#111111" stroke-width="1.5" />
+<path d="M1228 342.5 L1250 353 L1250 374 L1228 363.5 Z" fill="#a3743f" stroke="#111111" stroke-width="1.5" />
+<path d="M1250 353 L1272 342.5 L1272 363.5 L1250 374 Z" fill="#8f6134" stroke="#111111" stroke-width="1.5" />
+<line x1="1236" y1="355" x2="1236" y2="367" stroke="#7c5426" stroke-width="1.5" stroke-opacity="0.6"/>
+<line x1="1240" y1="340.2" x2="1258" y2="345.2" stroke="#8a6134" stroke-width="1" stroke-opacity="0.5"/>
+<line x1="1243" y1="355" x2="1243" y2="367" stroke="#7c5426" stroke-width="1.5" stroke-opacity="0.6"/>
+<line x1="1240" y1="338.1" x2="1258" y2="343.1" stroke="#8a6134" stroke-width="1" stroke-opacity="0.5"/>
+<line x1="1250" y1="355" x2="1250" y2="367" stroke="#7c5426" stroke-width="1.5" stroke-opacity="0.6"/>
+<line x1="1240" y1="336.0" x2="1258" y2="341.0" stroke="#8a6134" stroke-width="1" stroke-opacity="0.5"/>
+<line x1="1257" y1="361" x2="1257" y2="373" stroke="#7c5426" stroke-width="1.5" stroke-opacity="0.6"/>
+<line x1="1240" y1="338.1" x2="1258" y2="343.1" stroke="#8a6134" stroke-width="1" stroke-opacity="0.5"/>
+<line x1="1264" y1="361" x2="1264" y2="373" stroke="#7c5426" stroke-width="1.5" stroke-opacity="0.6"/>
+<line x1="1240" y1="340.2" x2="1258" y2="345.2" stroke="#8a6134" stroke-width="1" stroke-opacity="0.5"/>
+<path d="M1374 331 L1396 341.5 L1374 352 L1352 341.5 Z" fill="#c95c1e" stroke="#111111" stroke-width="1.5" />
+<path d="M1352 341.5 L1374 352 L1374 373 L1352 362.5 Z" fill="#b58a5c" stroke="#111111" stroke-width="1.5" />
+<path d="M1374 352 L1396 341.5 L1396 362.5 L1374 373 Z" fill="#a06e3c" stroke="#111111" stroke-width="1.5" />
+<path d="M1352 341 L1374 331 L1396 341 M1363 336 L1385 346 M1385 336 L1363 346" fill="none" stroke="#8a3c10" stroke-width="1.5" />
+<line x1="1356" y1="356" x2="1356" y2="366" stroke="#e8d3b0" stroke-width="1.5" stroke-opacity="0.7"/>
+<line x1="1364" y1="356" x2="1364" y2="366" stroke="#e8d3b0" stroke-width="1.5" stroke-opacity="0.7"/>
+<line x1="1374" y1="362" x2="1374" y2="366" stroke="#e8d3b0" stroke-width="1.5" stroke-opacity="0.7"/>
+<line x1="1382" y1="362" x2="1382" y2="366" stroke="#e8d3b0" stroke-width="1.5" stroke-opacity="0.7"/>
+<path d="M1308.5 367 L1330.5 377.5 L1308.5 388 L1286.5 377.5 Z" fill="#b5b5b5" stroke="#111111" stroke-width="1.5" />
+<path d="M1286.5 377.5 L1308.5 388 L1308.5 409 L1286.5 398.5 Z" fill="#9c9c9c" stroke="#111111" stroke-width="1.5" />
+<path d="M1308.5 388 L1330.5 377.5 L1330.5 398.5 L1308.5 409 Z" fill="#8a8a8a" stroke="#111111" stroke-width="1.5" />
+<path d="M1296 380 L1306 384 L1300 392 Z M1316 386 L1324 382 L1326 392 Z M1300 400 L1310 398 L1308 407 Z" fill="none" stroke="#6f6f6f" stroke-width="1.5" />
+<path d="M1300 372 L1308 376 L1304 384 L1298 381 Z M1314 378 L1320 374 L1324 384 L1316 388 Z" fill="none" stroke="#d9d9d9" stroke-width="1.5" />
+<path d="M1156 394 L1183 367" fill="none" stroke="#7a4a1f" stroke-width="7" stroke-linecap="round"/>
+<path d="M1160 367 Q1182 355 1201 372 Q1183 364 1172 371 L1163 371 Z" fill="#4a2d12" stroke="#3a210c" stroke-width="1" />
+<line x1="1273" y1="347" x2="1344" y2="347" stroke="#111111" stroke-width="2" marker-end="url(#ab)"/>
+<line x1="1346" y1="358" x2="1206" y2="380" stroke="#111111" stroke-width="2" marker-end="url(#ab)"/>
+<line x1="1302" y1="374" x2="1206" y2="384" stroke="#111111" stroke-width="2" marker-end="url(#ab)"/>
+<line x1="1204" y1="391" x2="1293" y2="391" stroke="#111111" stroke-width="2" marker-end="url(#ab)"/>
+<text x="1082" y="436" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="normal" text-anchor="start" fill="#000" >"nodes" : [ { "id" : 1 ,wood} . . ]</text>
+<text x="1077" y="467" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="normal" text-anchor="start" fill="#000" >"edges" : [ ( 1 ,2) , ( 2 ,3) , . . . ]</text>
+<rect x="1495" y="286" width="395" height="202" rx="8" fill="none" stroke="#8f8f8f" stroke-width="0" fill-opacity="0.35"/>
+<rect x="1492" y="281" width="395" height="202" rx="8" fill="white" stroke="#111111" stroke-width="2.5" />
+<text x="1689.5" y="305" font-family="DejaVu Sans, sans-serif" font-size="26" font-weight="bold" text-anchor="middle" fill="#000" >Scene Graph</text>
+<line x1="1676.5" y1="332.5" x2="1735.5" y2="332.5" stroke="#a786c5" stroke-width="2.5" />
+<line x1="1622.5" y1="349" x2="1599" y2="368" stroke="#a786c5" stroke-width="2.5" />
+<line x1="1637.5" y1="349" x2="1687" y2="368.5" stroke="#a786c5" stroke-width="2.5" />
+<line x1="1790" y1="349" x2="1822.5" y2="368" stroke="#a786c5" stroke-width="2.5" />
+<rect x="1576.5" y="317" width="100" height="31.5" rx="15.7" fill="#a786c5" stroke="none" stroke-width="0" />
+<text x="1626.5" y="341.5" font-family="DejaVu Sans, sans-serif" font-size="26" font-weight="normal" text-anchor="middle" fill="#fff" >plains</text>
+<rect x="1735.5" y="317" width="100" height="31.5" rx="15.7" fill="#a786c5" stroke="none" stroke-width="0" />
+<text x="1785.5" y="341.5" font-family="DejaVu Sans, sans-serif" font-size="26" font-weight="normal" text-anchor="middle" fill="#fff" >desert</text>
+<rect x="1524.5" y="368" width="99.5" height="31.5" rx="15.7" fill="#9fc3e9" stroke="none" stroke-width="0" />
+<text x="1574.25" y="392.5" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="normal" text-anchor="middle" fill="#fff" >sheep</text>
+<rect x="1649" y="368.5" width="98.5" height="31.5" rx="15.7" fill="#9fc3e9" stroke="none" stroke-width="0" />
+<text x="1698.25" y="393.0" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="normal" text-anchor="middle" fill="#fff" >zombie</text>
+<rect x="1772.5" y="368" width="99" height="31.5" rx="15.7" fill="#9fc3e9" stroke="none" stroke-width="0" />
+<text x="1822.0" y="392.5" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="normal" text-anchor="middle" fill="#fff" >sand</text>
+<text x="1498" y="436" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="normal" text-anchor="start" fill="#000" >"nodes" : [ { "id" : 1 ,plains} ]</text>
+<text x="1498" y="467" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="normal" text-anchor="start" fill="#000" >"edges" : [ ( 1 ,2) , ( 2 ,3) , . . . ]</text>
+<rect x="32" y="523" width="831" height="528" rx="16" fill="none" stroke="#8f8f8f" stroke-width="0" fill-opacity="0.55"/>
+<rect x="27" y="515" width="831" height="528" rx="16" fill="#fdfdfd" stroke="#111111" stroke-width="3.5" />
+<text x="432" y="548" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#000" >Stage 4. Code Rule Set Pruning via Maximum Set Coverage</text>
+<path d="M207 583 C268 585 315 622 328 668 C340 712 330 762 300 800 C268 842 220 872 176 888 C130 903 84 880 62 840 C38 797 36 745 50 702 C66 652 105 606 150 590 C168 584 190 582 207 583 Z" fill="#f8cd60" stroke="#555" stroke-width="2.5" stroke-dasharray="11 7"/>
+<path d="M368 770 C415 772 445 800 447 845 C449 890 425 928 383 941 C340 953 305 928 293 890 C281 852 292 806 322 785 C337 774 352 770 368 770 Z" fill="#d9d9d9" stroke="#555" stroke-width="2.5" stroke-dasharray="11 7"/>
+<path d="M505 575 C570 560 640 570 695 600 C760 632 800 680 812 730 C824 780 800 830 762 858 C720 890 660 908 610 905 C560 902 515 875 480 840 C448 808 420 770 400 735 C385 706 390 675 405 650 C425 618 465 585 505 575 Z" fill="#f8cd60" stroke="#555" stroke-width="2.5" stroke-dasharray="11 7"/>
+<path d="M596 632 C646 634 677 668 677 716 C677 764 648 801 599 802 C552 803 516 770 515 724 C514 682 546 652 576 638 C582 635 589 633 596 632 Z" fill="#d9d9d9" stroke="#555" stroke-width="2.5" stroke-dasharray="11 7"/>
+<rect x="174" y="614" width="22" height="22" rx="11" fill="#f957a5" stroke="#111111" stroke-width="2" />
+<rect x="116.5" y="629" width="22" height="22" rx="11" fill="#f957a5" stroke="#111111" stroke-width="2" />
+<rect x="211.5" y="650" width="22" height="22" rx="11" fill="#f957a5" stroke="#111111" stroke-width="2" />
+<rect x="100.5" y="691.5" width="22" height="22" rx="11" fill="#f957a5" stroke="#111111" stroke-width="2" />
+<rect x="158" y="680" width="22" height="22" rx="11" fill="#f957a5" stroke="#111111" stroke-width="2" />
+<rect x="250" y="697.5" width="22" height="22" rx="11" fill="#f957a5" stroke="#111111" stroke-width="2" />
+<rect x="190" y="709" width="22" height="22" rx="11" fill="#3de9e4" stroke="#111111" stroke-width="2" />
+<rect x="132.5" y="725" width="22" height="22" rx="11" fill="#f957a5" stroke="#111111" stroke-width="2" />
+<rect x="257.5" y="737.5" width="22" height="22" rx="11" fill="#f957a5" stroke="#111111" stroke-width="2" />
+<rect x="86.5" y="764.5" width="22" height="22" rx="11" fill="#3de9e4" stroke="#111111" stroke-width="2" />
+<rect x="219" y="833" width="22" height="22" rx="11" fill="#f957a5" stroke="#111111" stroke-width="2" />
+<rect x="245" y="830.5" width="22" height="22" rx="11" fill="#f957a5" stroke="#111111" stroke-width="2" />
+<rect x="180" y="839.5" width="22" height="22" rx="11" fill="#f957a5" stroke="#111111" stroke-width="2" />
+<rect x="365" y="790.5" width="22" height="22" rx="11" fill="#3de9e4" stroke="#111111" stroke-width="2" />
+<rect x="319" y="818" width="22" height="22" rx="11" fill="#3de9e4" stroke="#111111" stroke-width="2" />
+<rect x="400.5" y="827" width="22" height="22" rx="11" fill="#3de9e4" stroke="#111111" stroke-width="2" />
+<rect x="315.5" y="887" width="22" height="22" rx="11" fill="#3de9e4" stroke="#111111" stroke-width="2" />
+<rect x="377.5" y="886" width="22" height="22" rx="11" fill="#3de9e4" stroke="#111111" stroke-width="2" />
+<rect x="436.5" y="620" width="22" height="22" rx="11" fill="#f957a5" stroke="#111111" stroke-width="2" />
+<rect x="494.5" y="612.5" width="22" height="22" rx="11" fill="#f957a5" stroke="#111111" stroke-width="2" />
+<rect x="573" y="607.5" width="22" height="22" rx="11" fill="#f957a5" stroke="#111111" stroke-width="2" />
+<rect x="430" y="681.5" width="22" height="22" rx="11" fill="#f957a5" stroke="#111111" stroke-width="2" />
+<rect x="490" y="681.5" width="22" height="22" rx="11" fill="#f957a5" stroke="#111111" stroke-width="2" />
+<rect x="711.5" y="674" width="22" height="22" rx="11" fill="#f957a5" stroke="#111111" stroke-width="2" />
+<rect x="450" y="764" width="22" height="22" rx="11" fill="#f957a5" stroke="#111111" stroke-width="2" />
+<rect x="517.5" y="806" width="22" height="22" rx="11" fill="#f957a5" stroke="#111111" stroke-width="2" />
+<rect x="666" y="787.5" width="22" height="22" rx="11" fill="#f957a5" stroke="#111111" stroke-width="2" />
+<rect x="759" y="796" width="22" height="22" rx="11" fill="#f957a5" stroke="#111111" stroke-width="2" />
+<rect x="583" y="663" width="22" height="22" rx="11" fill="#3de9e4" stroke="#111111" stroke-width="2" />
+<rect x="639.5" y="682.5" width="22" height="22" rx="11" fill="#f957a5" stroke="#111111" stroke-width="2" />
+<rect x="552" y="757" width="22" height="22" rx="11" fill="#3de9e4" stroke="#111111" stroke-width="2" />
+<rect x="592" y="764.5" width="22" height="22" rx="11" fill="#3de9e4" stroke="#111111" stroke-width="2" />
+<text x="87" y="819" font-family="DejaVu Sans Mono, monospace" font-size="26" font-weight="normal" text-anchor="start" fill="#000" >CodeRule_2</text>
+<text x="290" y="869" font-family="DejaVu Sans Mono, monospace" font-size="26" font-weight="normal" text-anchor="start" fill="#000" >CodeRule_i</text>
+<text x="596" y="871" font-family="DejaVu Sans Mono, monospace" font-size="26" font-weight="normal" text-anchor="start" fill="#000" >CodeRule_1</text>
+<text x="517" y="730" font-family="DejaVu Sans Mono, monospace" font-size="26" font-weight="normal" text-anchor="start" fill="#000" >CodeRule_0</text>
+<rect x="54.5" y="964" width="21" height="21" rx="10.5" fill="#f8cd60" stroke="#111111" stroke-width="3.5" stroke-dasharray="12 6"/>
+<rect x="104.5" y="964" width="21" height="21" rx="10.5" fill="#d9d9d9" stroke="#111111" stroke-width="3.5" stroke-dasharray="12 6"/>
+<text x="88" y="985" font-family="DejaVu Sans, sans-serif" font-size="30" font-weight="normal" text-anchor="start" fill="#000" >/</text>
+<text x="140" y="988" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="bold" text-anchor="start" fill="#000" >Regions covered by selected/dropped CodeRules</text>
+<rect x="54.5" y="1004" width="21" height="21" rx="10.5" fill="#3de9e4" stroke="#111111" stroke-width="3.5" />
+<rect x="104.5" y="1004" width="21" height="21" rx="10.5" fill="#f957a5" stroke="#111111" stroke-width="3.5" />
+<text x="88" y="1025" font-family="DejaVu Sans, sans-serif" font-size="30" font-weight="normal" text-anchor="start" fill="#000" >/</text>
+<text x="140" y="1027" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="bold" text-anchor="start" fill="#000" >Transitions can/cannot be predicted by world model</text>
+<rect x="876" y="522" width="1031" height="529" rx="16" fill="none" stroke="#8f8f8f" stroke-width="0" fill-opacity="0.55"/>
+<rect x="871" y="514" width="1031" height="529" rx="16" fill="#fdfdfd" stroke="#111111" stroke-width="3.5" />
+<text x="1405.5" y="548" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#000" >Stage 3. Translating Symbolic Knowledge to Code</text>
+<rect x="918" y="567.5" width="953.5" height="147.5" rx="8" fill="none" stroke="#8f8f8f" stroke-width="0" fill-opacity="0.35"/>
+<rect x="915" y="562.5" width="953.5" height="147.5" rx="10" fill="white" stroke="#111111" stroke-width="2.5" />
+<rect x="952.5" y="575" width="93" height="28.5" rx="0" fill="#f9cf9e" stroke="none" stroke-width="0" />
+<rect x="1565.5" y="575" width="244" height="28.5" rx="0" fill="#f9cf9e" stroke="none" stroke-width="0" />
+<rect x="952.5" y="683" width="93" height="28.5" rx="0" fill="#f9cf9e" stroke="none" stroke-width="0" />
+<rect x="1078.5" y="683" width="213.5" height="28.5" rx="0" fill="#f9cf9e" stroke="none" stroke-width="0" />
+<rect x="1319.5" y="683" width="249.5" height="28.5" rx="0" fill="#f9cf9e" stroke="none" stroke-width="0" />
+<rect x="1606.5" y="683" width="156.5" height="28.5" rx="0" fill="#f9cf9e" stroke="none" stroke-width="0" />
+<text x="952.5" y="597" font-family="DejaVu Sans Mono, monospace" font-size="26" font-weight="normal" text-anchor="start" fill="#000" >Prompt: Implement the learned rules in Python function</text>
+<text x="952.5" y="629" font-family="DejaVu Sans Mono, monospace" font-size="26" font-weight="normal" text-anchor="start" fill="#000" >to evaluate a observation and action, optionally using</text>
+<text x="952.5" y="661" font-family="DejaVu Sans Mono, monospace" font-size="26" font-weight="normal" text-anchor="start" fill="#000" >the Knowledge Graph or Scene Graph as extra arguments.</text>
+<text x="952.5" y="693" font-family="DejaVu Sans Mono, monospace" font-size="26" font-weight="normal" text-anchor="start" fill="#000" >Input: [textual rules, knowledge_graph, scene_graph]</text>
+<line x1="1390.5" y1="710" x2="1390.5" y2="727.5" stroke="#111111" stroke-width="3.5" />
+<rect x="915" y="727.5" width="953.5" height="45" rx="3" fill="#fad3d3" stroke="#111111" stroke-width="2.5" />
+<text x="1391.5" y="759" font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="normal" text-anchor="middle" fill="#000" >LLM</text>
+<line x1="1390.5" y1="772.5" x2="1390.5" y2="799.5" stroke="#111111" stroke-width="3.5" marker-end="url(#ab)"/>
+<rect x="918" y="804.5" width="953.5" height="233.5" rx="8" fill="none" stroke="#8f8f8f" stroke-width="0" fill-opacity="0.35"/>
+<rect x="915" y="799.5" width="953.5" height="233.5" rx="10" fill="white" stroke="#111111" stroke-width="2.5" />
+<rect x="952.5" y="803" width="93" height="28.5" rx="0" fill="#f9cf9e" stroke="none" stroke-width="0" />
+<rect x="1082" y="803" width="151" height="28.5" rx="0" fill="#f9cf9e" stroke="none" stroke-width="0" />
+<rect x="952.5" y="830" width="836" height="28.5" rx="0" fill="#d4e8a8" stroke="none" stroke-width="0" />
+<rect x="952.5" y="932" width="793.5" height="28.5" rx="0" fill="#d4e8a8" stroke="none" stroke-width="0" />
+<text x="952.5" y="825" font-family="DejaVu Sans Mono, monospace" font-size="26" font-weight="normal" text-anchor="start" fill="#000" >Output: [code rules]</text>
+<text x="952.5" y="857" font-family="DejaVu Sans Mono, monospace" font-size="26" font-weight="normal" text-anchor="start" fill="#000" >def CodeRule_0(observation, action, knowledge_graph):</text>
+<text x="1025" y="889" font-family="DejaVu Sans Mono, monospace" font-size="26" font-weight="normal" text-anchor="start" fill="#000" >if state["inventory"].get(material, 0) &lt; quantity:</text>
+<text x="952.5" y="925" font-family="DejaVu Sans Mono, monospace" font-size="26" font-weight="normal" text-anchor="start" fill="#000" >...</text>
+<text x="952.5" y="957" font-family="DejaVu Sans Mono, monospace" font-size="26" font-weight="normal" text-anchor="start" fill="#000" >def CodeRule_i(observation, action, scene_graph):</text>
+<text x="1025" y="989" font-family="DejaVu Sans Mono, monospace" font-size="26" font-weight="normal" text-anchor="start" fill="#000" >if "Unexplored" not in location_items:</text>
+<text x="952.5" y="1029" font-family="DejaVu Sans Mono, monospace" font-size="26" font-weight="normal" text-anchor="start" fill="#000" >...</text>
+</svg>
